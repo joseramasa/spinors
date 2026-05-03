@@ -1,0 +1,5825 @@
+1
+00:00:00,000 --> 00:00:02,149
+
+we're continuing our discussion of how
+
+2
+00:00:02,149 --> 00:00:02,159
+we're continuing our discussion of how
+ 
+
+3
+00:00:02,159 --> 00:00:04,490
+we're continuing our discussion of how
+Clifford algebras can be used to build
+
+4
+00:00:04,490 --> 00:00:04,500
+Clifford algebras can be used to build
+ 
+
+5
+00:00:04,500 --> 00:00:07,670
+Clifford algebras can be used to build
+Spinners in a previous video I said that
+
+6
+00:00:07,670 --> 00:00:07,680
+Spinners in a previous video I said that
+ 
+
+7
+00:00:07,680 --> 00:00:10,250
+Spinners in a previous video I said that
+we can Define Spinners as members of
+
+8
+00:00:10,250 --> 00:00:10,260
+we can Define Spinners as members of
+ 
+
+9
+00:00:10,260 --> 00:00:12,910
+we can Define Spinners as members of
+minimal left ideals in Clifford algebras
+
+10
+00:00:12,910 --> 00:00:12,920
+minimal left ideals in Clifford algebras
+ 
+
+11
+00:00:12,920 --> 00:00:15,110
+minimal left ideals in Clifford algebras
+we've already defined what a Clifford
+
+12
+00:00:15,110 --> 00:00:15,120
+we've already defined what a Clifford
+ 
+
+13
+00:00:15,120 --> 00:00:17,510
+we've already defined what a Clifford
+algebra is and in this video I'm going
+
+14
+00:00:17,510 --> 00:00:17,520
+algebra is and in this video I'm going
+ 
+
+15
+00:00:17,520 --> 00:00:20,390
+algebra is and in this video I'm going
+to explain what a minimal left ideal is
+
+16
+00:00:20,390 --> 00:00:20,400
+to explain what a minimal left ideal is
+ 
+
+17
+00:00:20,400 --> 00:00:22,310
+to explain what a minimal left ideal is
+in the first part of this video I'm
+
+18
+00:00:22,310 --> 00:00:22,320
+in the first part of this video I'm
+ 
+
+19
+00:00:22,320 --> 00:00:24,710
+in the first part of this video I'm
+going to talk about projectors which are
+
+20
+00:00:24,710 --> 00:00:24,720
+going to talk about projectors which are
+ 
+
+21
+00:00:24,720 --> 00:00:27,470
+going to talk about projectors which are
+also called item potents and in the
+
+22
+00:00:27,470 --> 00:00:27,480
+also called item potents and in the
+ 
+
+23
+00:00:27,480 --> 00:00:29,150
+also called item potents and in the
+second part of this video I'm going to
+
+24
+00:00:29,150 --> 00:00:29,160
+second part of this video I'm going to
+ 
+
+25
+00:00:29,160 --> 00:00:32,450
+second part of this video I'm going to
+talk about how projectors lead to ideals
+
+26
+00:00:32,450 --> 00:00:32,460
+talk about how projectors lead to ideals
+ 
+
+27
+00:00:32,460 --> 00:00:34,310
+talk about how projectors lead to ideals
+I'm also going to give the definitions
+
+28
+00:00:34,310 --> 00:00:34,320
+I'm also going to give the definitions
+ 
+
+29
+00:00:34,320 --> 00:00:36,830
+I'm also going to give the definitions
+of some algebraic structures like rings
+
+30
+00:00:36,830 --> 00:00:36,840
+of some algebraic structures like rings
+ 
+
+31
+00:00:36,840 --> 00:00:39,889
+of some algebraic structures like rings
+and algebras along the way
+
+32
+00:00:39,889 --> 00:00:39,899
+and algebras along the way
+ 
+
+33
+00:00:39,899 --> 00:00:41,869
+and algebras along the way
+so let's begin by talking about
+
+34
+00:00:41,869 --> 00:00:41,879
+so let's begin by talking about
+ 
+
+35
+00:00:41,879 --> 00:00:44,750
+so let's begin by talking about
+projectors which are also called item
+
+36
+00:00:44,750 --> 00:00:44,760
+projectors which are also called item
+ 
+
+37
+00:00:44,760 --> 00:00:46,010
+projectors which are also called item
+potents
+
+38
+00:00:46,010 --> 00:00:46,020
+potents
+ 
+
+39
+00:00:46,020 --> 00:00:48,110
+potents
+I'll start by talking about projectors
+
+40
+00:00:48,110 --> 00:00:48,120
+I'll start by talking about projectors
+ 
+
+41
+00:00:48,120 --> 00:00:50,690
+I'll start by talking about projectors
+used on vectors and this should match up
+
+42
+00:00:50,690 --> 00:00:50,700
+used on vectors and this should match up
+ 
+
+43
+00:00:50,700 --> 00:00:52,910
+used on vectors and this should match up
+with your common sense idea of what a
+
+44
+00:00:52,910 --> 00:00:52,920
+with your common sense idea of what a
+ 
+
+45
+00:00:52,920 --> 00:00:56,029
+with your common sense idea of what a
+projector does afterward I'll use this
+
+46
+00:00:56,029 --> 00:00:56,039
+projector does afterward I'll use this
+ 
+
+47
+00:00:56,039 --> 00:00:58,369
+projector does afterward I'll use this
+idea to explain projectors in Clifford
+
+48
+00:00:58,369 --> 00:00:58,379
+idea to explain projectors in Clifford
+ 
+
+49
+00:00:58,379 --> 00:01:02,150
+idea to explain projectors in Clifford
+algebras which is a little more abstract
+
+50
+00:01:02,150 --> 00:01:02,160
+algebras which is a little more abstract
+ 
+
+51
+00:01:02,160 --> 00:01:05,030
+algebras which is a little more abstract
+let's say we have a vector v and some X
+
+52
+00:01:05,030 --> 00:01:05,040
+let's say we have a vector v and some X
+ 
+
+53
+00:01:05,040 --> 00:01:07,910
+let's say we have a vector v and some X
+Y axes and let's say I want to project
+
+54
+00:01:07,910 --> 00:01:07,920
+Y axes and let's say I want to project
+ 
+
+55
+00:01:07,920 --> 00:01:11,929
+Y axes and let's say I want to project
+this red vector v onto the x-axis
+
+56
+00:01:11,929 --> 00:01:11,939
+this red vector v onto the x-axis
+ 
+
+57
+00:01:11,939 --> 00:01:14,630
+this red vector v onto the x-axis
+this would mean we project V down along
+
+58
+00:01:14,630 --> 00:01:14,640
+this would mean we project V down along
+ 
+
+59
+00:01:14,640 --> 00:01:17,990
+this would mean we project V down along
+this dotted line onto the x-axis so that
+
+60
+00:01:17,990 --> 00:01:18,000
+this dotted line onto the x-axis so that
+ 
+
+61
+00:01:18,000 --> 00:01:20,929
+this dotted line onto the x-axis so that
+only the X component remains
+
+62
+00:01:20,929 --> 00:01:20,939
+only the X component remains
+ 
+
+63
+00:01:20,939 --> 00:01:23,810
+only the X component remains
+if I wanted to project this red V Vector
+
+64
+00:01:23,810 --> 00:01:23,820
+if I wanted to project this red V Vector
+ 
+
+65
+00:01:23,820 --> 00:01:27,289
+if I wanted to project this red V Vector
+onto the y-axis we project V across this
+
+66
+00:01:27,289 --> 00:01:27,299
+onto the y-axis we project V across this
+ 
+
+67
+00:01:27,299 --> 00:01:30,469
+onto the y-axis we project V across this
+dotted line onto the y-axis so that only
+
+68
+00:01:30,469 --> 00:01:30,479
+dotted line onto the y-axis so that only
+ 
+
+69
+00:01:30,479 --> 00:01:33,050
+dotted line onto the y-axis so that only
+the Y component remains
+
+70
+00:01:33,050 --> 00:01:33,060
+the Y component remains
+ 
+
+71
+00:01:33,060 --> 00:01:35,330
+the Y component remains
+now let's say I've projected a vector
+
+72
+00:01:35,330 --> 00:01:35,340
+now let's say I've projected a vector
+ 
+
+73
+00:01:35,340 --> 00:01:38,330
+now let's say I've projected a vector
+onto the x-axis and I want to take the
+
+74
+00:01:38,330 --> 00:01:38,340
+onto the x-axis and I want to take the
+ 
+
+75
+00:01:38,340 --> 00:01:40,609
+onto the x-axis and I want to take the
+result and project it onto the x-axis
+
+76
+00:01:40,609 --> 00:01:40,619
+result and project it onto the x-axis
+ 
+
+77
+00:01:40,619 --> 00:01:41,749
+result and project it onto the x-axis
+again
+
+78
+00:01:41,749 --> 00:01:41,759
+again
+ 
+
+79
+00:01:41,759 --> 00:01:43,730
+again
+our new result after the second
+
+80
+00:01:43,730 --> 00:01:43,740
+our new result after the second
+ 
+
+81
+00:01:43,740 --> 00:01:46,370
+our new result after the second
+projection is unchanged it's the same
+
+82
+00:01:46,370 --> 00:01:46,380
+projection is unchanged it's the same
+ 
+
+83
+00:01:46,380 --> 00:01:49,069
+projection is unchanged it's the same
+Vector we already started with
+
+84
+00:01:49,069 --> 00:01:49,079
+Vector we already started with
+ 
+
+85
+00:01:49,079 --> 00:01:51,649
+Vector we already started with
+so the conclusion here is that doing a
+
+86
+00:01:51,649 --> 00:01:51,659
+so the conclusion here is that doing a
+ 
+
+87
+00:01:51,659 --> 00:01:53,630
+so the conclusion here is that doing a
+projection once is the same thing as
+
+88
+00:01:53,630 --> 00:01:53,640
+projection once is the same thing as
+ 
+
+89
+00:01:53,640 --> 00:01:55,789
+projection once is the same thing as
+doing that projection twice
+
+90
+00:01:55,789 --> 00:01:55,799
+doing that projection twice
+ 
+
+91
+00:01:55,799 --> 00:01:58,069
+doing that projection twice
+converting this into symbolic language
+
+92
+00:01:58,069 --> 00:01:58,079
+converting this into symbolic language
+ 
+
+93
+00:01:58,079 --> 00:02:01,969
+converting this into symbolic language
+if we have a projector P applying P once
+
+94
+00:02:01,969 --> 00:02:01,979
+if we have a projector P applying P once
+ 
+
+95
+00:02:01,979 --> 00:02:04,069
+if we have a projector P applying P once
+should be the same thing as applying P
+
+96
+00:02:04,069 --> 00:02:04,079
+should be the same thing as applying P
+ 
+
+97
+00:02:04,079 --> 00:02:07,730
+should be the same thing as applying P
+twice so P equals P Squared
+
+98
+00:02:07,730 --> 00:02:07,740
+twice so P equals P Squared
+ 
+
+99
+00:02:07,740 --> 00:02:10,190
+twice so P equals P Squared
+this is the mathematical definition of a
+
+100
+00:02:10,190 --> 00:02:10,200
+this is the mathematical definition of a
+ 
+
+101
+00:02:10,200 --> 00:02:13,190
+this is the mathematical definition of a
+projection operator also called an item
+
+102
+00:02:13,190 --> 00:02:13,200
+projection operator also called an item
+ 
+
+103
+00:02:13,200 --> 00:02:14,930
+projection operator also called an item
+potent
+
+104
+00:02:14,930 --> 00:02:14,940
+potent
+ 
+
+105
+00:02:14,940 --> 00:02:17,330
+potent
+let's look at some examples of Matrix
+
+106
+00:02:17,330 --> 00:02:17,340
+let's look at some examples of Matrix
+ 
+
+107
+00:02:17,340 --> 00:02:18,830
+let's look at some examples of Matrix
+projectors
+
+108
+00:02:18,830 --> 00:02:18,840
+projectors
+ 
+
+109
+00:02:18,840 --> 00:02:21,410
+projectors
+this Matrix here projects out a 3D
+
+110
+00:02:21,410 --> 00:02:21,420
+this Matrix here projects out a 3D
+ 
+
+111
+00:02:21,420 --> 00:02:24,710
+this Matrix here projects out a 3D
+vector's Z component it sets the X and Y
+
+112
+00:02:24,710 --> 00:02:24,720
+vector's Z component it sets the X and Y
+ 
+
+113
+00:02:24,720 --> 00:02:26,990
+vector's Z component it sets the X and Y
+components to zero and leaves the Z
+
+114
+00:02:26,990 --> 00:02:27,000
+components to zero and leaves the Z
+ 
+
+115
+00:02:27,000 --> 00:02:28,850
+components to zero and leaves the Z
+component alone
+
+116
+00:02:28,850 --> 00:02:28,860
+component alone
+ 
+
+117
+00:02:28,860 --> 00:02:31,130
+component alone
+you can check that this Matrix squares
+
+118
+00:02:31,130 --> 00:02:31,140
+you can check that this Matrix squares
+ 
+
+119
+00:02:31,140 --> 00:02:34,190
+you can check that this Matrix squares
+to itself so applying it once is the
+
+120
+00:02:34,190 --> 00:02:34,200
+to itself so applying it once is the
+ 
+
+121
+00:02:34,200 --> 00:02:37,070
+to itself so applying it once is the
+same thing as applying it twice
+
+122
+00:02:37,070 --> 00:02:37,080
+same thing as applying it twice
+ 
+
+123
+00:02:37,080 --> 00:02:39,949
+same thing as applying it twice
+this other Matrix projects a 3D Vector
+
+124
+00:02:39,949 --> 00:02:39,959
+this other Matrix projects a 3D Vector
+ 
+
+125
+00:02:39,959 --> 00:02:42,830
+this other Matrix projects a 3D Vector
+onto the X Y plane so that the Z
+
+126
+00:02:42,830 --> 00:02:42,840
+onto the X Y plane so that the Z
+ 
+
+127
+00:02:42,840 --> 00:02:45,589
+onto the X Y plane so that the Z
+component is set to zero and the X and Y
+
+128
+00:02:45,589 --> 00:02:45,599
+component is set to zero and the X and Y
+ 
+
+129
+00:02:45,599 --> 00:02:47,809
+component is set to zero and the X and Y
+components are left alone
+
+130
+00:02:47,809 --> 00:02:47,819
+components are left alone
+ 
+
+131
+00:02:47,819 --> 00:02:50,030
+components are left alone
+this Matrix also obeys the same
+
+132
+00:02:50,030 --> 00:02:50,040
+this Matrix also obeys the same
+ 
+
+133
+00:02:50,040 --> 00:02:52,610
+this Matrix also obeys the same
+projector property
+
+134
+00:02:52,610 --> 00:02:52,620
+projector property
+ 
+
+135
+00:02:52,620 --> 00:02:55,190
+projector property
+now let's consider something else let's
+
+136
+00:02:55,190 --> 00:02:55,200
+now let's consider something else let's
+ 
+
+137
+00:02:55,200 --> 00:02:56,869
+now let's consider something else let's
+say we've taken a vector and we've
+
+138
+00:02:56,869 --> 00:02:56,879
+say we've taken a vector and we've
+ 
+
+139
+00:02:56,879 --> 00:02:59,390
+say we've taken a vector and we've
+projected it onto the x-axis
+
+140
+00:02:59,390 --> 00:02:59,400
+projected it onto the x-axis
+ 
+
+141
+00:02:59,400 --> 00:03:01,670
+projected it onto the x-axis
+now let's take the result and project it
+
+142
+00:03:01,670 --> 00:03:01,680
+now let's take the result and project it
+ 
+
+143
+00:03:01,680 --> 00:03:03,589
+now let's take the result and project it
+onto the y-axis
+
+144
+00:03:03,589 --> 00:03:03,599
+onto the y-axis
+ 
+
+145
+00:03:03,599 --> 00:03:05,869
+onto the y-axis
+the result is that there's nothing left
+
+146
+00:03:05,869 --> 00:03:05,879
+the result is that there's nothing left
+ 
+
+147
+00:03:05,879 --> 00:03:08,570
+the result is that there's nothing left
+we get the zero vector
+
+148
+00:03:08,570 --> 00:03:08,580
+we get the zero vector
+ 
+
+149
+00:03:08,580 --> 00:03:10,490
+we get the zero vector
+the conclusion here is that when we
+
+150
+00:03:10,490 --> 00:03:10,500
+the conclusion here is that when we
+ 
+
+151
+00:03:10,500 --> 00:03:12,589
+the conclusion here is that when we
+project a vector along two different
+
+152
+00:03:12,589 --> 00:03:12,599
+project a vector along two different
+ 
+
+153
+00:03:12,599 --> 00:03:15,949
+project a vector along two different
+orthogonal directions we get 0 as a
+
+154
+00:03:15,949 --> 00:03:15,959
+orthogonal directions we get 0 as a
+ 
+
+155
+00:03:15,959 --> 00:03:17,089
+orthogonal directions we get 0 as a
+result
+
+156
+00:03:17,089 --> 00:03:17,099
+result
+ 
+
+157
+00:03:17,099 --> 00:03:20,449
+result
+we say that two projectors p and Q are
+
+158
+00:03:20,449 --> 00:03:20,459
+we say that two projectors p and Q are
+ 
+
+159
+00:03:20,459 --> 00:03:23,330
+we say that two projectors p and Q are
+orthogonal if applying one and then the
+
+160
+00:03:23,330 --> 00:03:23,340
+orthogonal if applying one and then the
+ 
+
+161
+00:03:23,340 --> 00:03:25,670
+orthogonal if applying one and then the
+other gives us zero
+
+162
+00:03:25,670 --> 00:03:25,680
+other gives us zero
+ 
+
+163
+00:03:25,680 --> 00:03:27,830
+other gives us zero
+the two Matrix projectors we showed
+
+164
+00:03:27,830 --> 00:03:27,840
+the two Matrix projectors we showed
+ 
+
+165
+00:03:27,840 --> 00:03:30,470
+the two Matrix projectors we showed
+earlier are orthogonal if we project
+
+166
+00:03:30,470 --> 00:03:30,480
+earlier are orthogonal if we project
+ 
+
+167
+00:03:30,480 --> 00:03:33,410
+earlier are orthogonal if we project
+onto the z-axis and then project onto
+
+168
+00:03:33,410 --> 00:03:33,420
+onto the z-axis and then project onto
+ 
+
+169
+00:03:33,420 --> 00:03:35,930
+onto the z-axis and then project onto
+the X Y plane there's nothing left and
+
+170
+00:03:35,930 --> 00:03:35,940
+the X Y plane there's nothing left and
+ 
+
+171
+00:03:35,940 --> 00:03:37,550
+the X Y plane there's nothing left and
+we get zero
+
+172
+00:03:37,550 --> 00:03:37,560
+we get zero
+ 
+
+173
+00:03:37,560 --> 00:03:40,309
+we get zero
+and as expected when we multiply these
+
+174
+00:03:40,309 --> 00:03:40,319
+and as expected when we multiply these
+ 
+
+175
+00:03:40,319 --> 00:03:43,309
+and as expected when we multiply these
+two projection matrices we get the zero
+
+176
+00:03:43,309 --> 00:03:43,319
+two projection matrices we get the zero
+ 
+
+177
+00:03:43,319 --> 00:03:44,930
+two projection matrices we get the zero
+Matrix
+
+178
+00:03:44,930 --> 00:03:44,940
+Matrix
+ 
+
+179
+00:03:44,940 --> 00:03:47,809
+Matrix
+if we were to project onto the X Y plane
+
+180
+00:03:47,809 --> 00:03:47,819
+if we were to project onto the X Y plane
+ 
+
+181
+00:03:47,819 --> 00:03:50,869
+if we were to project onto the X Y plane
+and then project onto the x-axis the
+
+182
+00:03:50,869 --> 00:03:50,879
+and then project onto the x-axis the
+ 
+
+183
+00:03:50,879 --> 00:03:53,089
+and then project onto the x-axis the
+result is non-zero so these two
+
+184
+00:03:53,089 --> 00:03:53,099
+result is non-zero so these two
+ 
+
+185
+00:03:53,099 --> 00:03:55,910
+result is non-zero so these two
+projectors are not orthogonal and they
+
+186
+00:03:55,910 --> 00:03:55,920
+projectors are not orthogonal and they
+ 
+
+187
+00:03:55,920 --> 00:03:57,890
+projectors are not orthogonal and they
+do not multiply to give us the zero
+
+188
+00:03:57,890 --> 00:03:57,900
+do not multiply to give us the zero
+ 
+
+189
+00:03:57,900 --> 00:03:59,750
+do not multiply to give us the zero
+Matrix
+
+190
+00:03:59,750 --> 00:03:59,760
+Matrix
+ 
+
+191
+00:03:59,760 --> 00:04:02,110
+Matrix
+let's look at some projector properties
+
+192
+00:04:02,110 --> 00:04:02,120
+let's look at some projector properties
+ 
+
+193
+00:04:02,120 --> 00:04:05,750
+let's look at some projector properties
+if we have a projector P then one minus
+
+194
+00:04:05,750 --> 00:04:05,760
+if we have a projector P then one minus
+ 
+
+195
+00:04:05,760 --> 00:04:08,630
+if we have a projector P then one minus
+p is also a projector in the language of
+
+196
+00:04:08,630 --> 00:04:08,640
+p is also a projector in the language of
+ 
+
+197
+00:04:08,640 --> 00:04:11,149
+p is also a projector in the language of
+matrices we can think of one as just
+
+198
+00:04:11,149 --> 00:04:11,159
+matrices we can think of one as just
+ 
+
+199
+00:04:11,159 --> 00:04:13,610
+matrices we can think of one as just
+being the identity Matrix
+
+200
+00:04:13,610 --> 00:04:13,620
+being the identity Matrix
+ 
+
+201
+00:04:13,620 --> 00:04:16,370
+being the identity Matrix
+we can show that 1 minus p is a
+
+202
+00:04:16,370 --> 00:04:16,380
+we can show that 1 minus p is a
+ 
+
+203
+00:04:16,380 --> 00:04:19,189
+we can show that 1 minus p is a
+projector by showing that 1 minus P all
+
+204
+00:04:19,189 --> 00:04:19,199
+projector by showing that 1 minus P all
+ 
+
+205
+00:04:19,199 --> 00:04:21,530
+projector by showing that 1 minus P all
+squared equals itself
+
+206
+00:04:21,530 --> 00:04:21,540
+squared equals itself
+ 
+
+207
+00:04:21,540 --> 00:04:24,230
+squared equals itself
+as an exercise you can try pausing the
+
+208
+00:04:24,230 --> 00:04:24,240
+as an exercise you can try pausing the
+ 
+
+209
+00:04:24,240 --> 00:04:26,749
+as an exercise you can try pausing the
+video and proving this property as well
+
+210
+00:04:26,749 --> 00:04:26,759
+video and proving this property as well
+ 
+
+211
+00:04:26,759 --> 00:04:29,150
+video and proving this property as well
+as other upcoming properties before I
+
+212
+00:04:29,150 --> 00:04:29,160
+as other upcoming properties before I
+ 
+
+213
+00:04:29,160 --> 00:04:31,129
+as other upcoming properties before I
+give the answer
+
+214
+00:04:31,129 --> 00:04:31,139
+give the answer
+ 
+
+215
+00:04:31,139 --> 00:04:34,310
+give the answer
+after we distribute P Squared becomes P
+
+216
+00:04:34,310 --> 00:04:34,320
+after we distribute P Squared becomes P
+ 
+
+217
+00:04:34,320 --> 00:04:36,650
+after we distribute P Squared becomes P
+since p is a projector
+
+218
+00:04:36,650 --> 00:04:36,660
+since p is a projector
+ 
+
+219
+00:04:36,660 --> 00:04:40,070
+since p is a projector
+and here minus p and plus P cancel with
+
+220
+00:04:40,070 --> 00:04:40,080
+and here minus p and plus P cancel with
+ 
+
+221
+00:04:40,080 --> 00:04:41,450
+and here minus p and plus P cancel with
+each other
+
+222
+00:04:41,450 --> 00:04:41,460
+each other
+ 
+
+223
+00:04:41,460 --> 00:04:44,270
+each other
+this gives us 1 minus P which is the
+
+224
+00:04:44,270 --> 00:04:44,280
+this gives us 1 minus P which is the
+ 
+
+225
+00:04:44,280 --> 00:04:46,790
+this gives us 1 minus P which is the
+original projector so this shows that 1
+
+226
+00:04:46,790 --> 00:04:46,800
+original projector so this shows that 1
+ 
+
+227
+00:04:46,800 --> 00:04:49,010
+original projector so this shows that 1
+minus p is a projector
+
+228
+00:04:49,010 --> 00:04:49,020
+minus p is a projector
+ 
+
+229
+00:04:49,020 --> 00:04:51,770
+minus p is a projector
+as an example if P projects onto the
+
+230
+00:04:51,770 --> 00:04:51,780
+as an example if P projects onto the
+ 
+
+231
+00:04:51,780 --> 00:04:54,770
+as an example if P projects onto the
+z-axis then 1 minus P would be the
+
+232
+00:04:54,770 --> 00:04:54,780
+z-axis then 1 minus P would be the
+ 
+
+233
+00:04:54,780 --> 00:04:57,590
+z-axis then 1 minus P would be the
+identity Matrix minus P which gives us
+
+234
+00:04:57,590 --> 00:04:57,600
+identity Matrix minus P which gives us
+ 
+
+235
+00:04:57,600 --> 00:05:00,650
+identity Matrix minus P which gives us
+this projector onto the X Y plane
+
+236
+00:05:00,650 --> 00:05:00,660
+this projector onto the X Y plane
+ 
+
+237
+00:05:00,660 --> 00:05:03,290
+this projector onto the X Y plane
+we can also prove that the projector's p
+
+238
+00:05:03,290 --> 00:05:03,300
+we can also prove that the projector's p
+ 
+
+239
+00:05:03,300 --> 00:05:06,350
+we can also prove that the projector's p
+and 1 minus P are always orthogonal to
+
+240
+00:05:06,350 --> 00:05:06,360
+and 1 minus P are always orthogonal to
+ 
+
+241
+00:05:06,360 --> 00:05:07,370
+and 1 minus P are always orthogonal to
+each other
+
+242
+00:05:07,370 --> 00:05:07,380
+each other
+ 
+
+243
+00:05:07,380 --> 00:05:09,530
+each other
+we prove this by multiplying the two
+
+244
+00:05:09,530 --> 00:05:09,540
+we prove this by multiplying the two
+ 
+
+245
+00:05:09,540 --> 00:05:12,950
+we prove this by multiplying the two
+projectors and showing that we get zero
+
+246
+00:05:12,950 --> 00:05:12,960
+projectors and showing that we get zero
+ 
+
+247
+00:05:12,960 --> 00:05:15,710
+projectors and showing that we get zero
+after Distributing P Squared becomes p
+
+248
+00:05:15,710 --> 00:05:15,720
+after Distributing P Squared becomes p
+ 
+
+249
+00:05:15,720 --> 00:05:19,189
+after Distributing P Squared becomes p
+and p minus P equals zero
+
+250
+00:05:19,189 --> 00:05:19,199
+and p minus P equals zero
+ 
+
+251
+00:05:19,199 --> 00:05:21,890
+and p minus P equals zero
+indeed the projector onto the z-axis and
+
+252
+00:05:21,890 --> 00:05:21,900
+indeed the projector onto the z-axis and
+ 
+
+253
+00:05:21,900 --> 00:05:24,050
+indeed the projector onto the z-axis and
+the projector onto the X Y plane are
+
+254
+00:05:24,050 --> 00:05:24,060
+the projector onto the X Y plane are
+ 
+
+255
+00:05:24,060 --> 00:05:27,529
+the projector onto the X Y plane are
+orthogonal and multiply to zero
+
+256
+00:05:27,529 --> 00:05:27,539
+orthogonal and multiply to zero
+ 
+
+257
+00:05:27,539 --> 00:05:31,129
+orthogonal and multiply to zero
+here's another property if p and Q are
+
+258
+00:05:31,129 --> 00:05:31,139
+here's another property if p and Q are
+ 
+
+259
+00:05:31,139 --> 00:05:34,550
+here's another property if p and Q are
+orthogonal projectors then P plus Q is
+
+260
+00:05:34,550 --> 00:05:34,560
+orthogonal projectors then P plus Q is
+ 
+
+261
+00:05:34,560 --> 00:05:37,490
+orthogonal projectors then P plus Q is
+also a projector again we can prove this
+
+262
+00:05:37,490 --> 00:05:37,500
+also a projector again we can prove this
+ 
+
+263
+00:05:37,500 --> 00:05:40,310
+also a projector again we can prove this
+by showing P plus Q all squared is equal
+
+264
+00:05:40,310 --> 00:05:40,320
+by showing P plus Q all squared is equal
+ 
+
+265
+00:05:40,320 --> 00:05:41,629
+by showing P plus Q all squared is equal
+to itself
+
+266
+00:05:41,629 --> 00:05:41,639
+to itself
+ 
+
+267
+00:05:41,639 --> 00:05:44,749
+to itself
+after Distributing the PQ product terms
+
+268
+00:05:44,749 --> 00:05:44,759
+after Distributing the PQ product terms
+ 
+
+269
+00:05:44,759 --> 00:05:47,090
+after Distributing the PQ product terms
+go to zero because they are orthogonal
+
+270
+00:05:47,090 --> 00:05:47,100
+go to zero because they are orthogonal
+ 
+
+271
+00:05:47,100 --> 00:05:50,150
+go to zero because they are orthogonal
+and p squared equals p and Q squared
+
+272
+00:05:50,150 --> 00:05:50,160
+and p squared equals p and Q squared
+ 
+
+273
+00:05:50,160 --> 00:05:52,310
+and p squared equals p and Q squared
+equals Q since they are both projectors
+
+274
+00:05:52,310 --> 00:05:52,320
+equals Q since they are both projectors
+ 
+
+275
+00:05:52,320 --> 00:05:56,090
+equals Q since they are both projectors
+and we get p plus Q as desired
+
+276
+00:05:56,090 --> 00:05:56,100
+and we get p plus Q as desired
+ 
+
+277
+00:05:56,100 --> 00:05:58,670
+and we get p plus Q as desired
+so for example a projector onto the
+
+278
+00:05:58,670 --> 00:05:58,680
+so for example a projector onto the
+ 
+
+279
+00:05:58,680 --> 00:06:01,249
+so for example a projector onto the
+x-axis and a projector onto the y-axis
+
+280
+00:06:01,249 --> 00:06:01,259
+x-axis and a projector onto the y-axis
+ 
+
+281
+00:06:01,259 --> 00:06:03,529
+x-axis and a projector onto the y-axis
+are orthogonal but if we add them
+
+282
+00:06:03,529 --> 00:06:03,539
+are orthogonal but if we add them
+ 
+
+283
+00:06:03,539 --> 00:06:05,810
+are orthogonal but if we add them
+together we get a new projector onto the
+
+284
+00:06:05,810 --> 00:06:05,820
+together we get a new projector onto the
+ 
+
+285
+00:06:05,820 --> 00:06:08,090
+together we get a new projector onto the
+X Y plane
+
+286
+00:06:08,090 --> 00:06:08,100
+X Y plane
+ 
+
+287
+00:06:08,100 --> 00:06:11,390
+X Y plane
+finally I'm going to give a definition a
+
+288
+00:06:11,390 --> 00:06:11,400
+finally I'm going to give a definition a
+ 
+
+289
+00:06:11,400 --> 00:06:13,909
+finally I'm going to give a definition a
+projector is called minimal if the
+
+290
+00:06:13,909 --> 00:06:13,919
+projector is called minimal if the
+ 
+
+291
+00:06:13,919 --> 00:06:16,189
+projector is called minimal if the
+projector cannot be written as the sum
+
+292
+00:06:16,189 --> 00:06:16,199
+projector cannot be written as the sum
+ 
+
+293
+00:06:16,199 --> 00:06:19,550
+projector cannot be written as the sum
+of other projectors so the X Y plane
+
+294
+00:06:19,550 --> 00:06:19,560
+of other projectors so the X Y plane
+ 
+
+295
+00:06:19,560 --> 00:06:22,309
+of other projectors so the X Y plane
+projector is not minimal because we can
+
+296
+00:06:22,309 --> 00:06:22,319
+projector is not minimal because we can
+ 
+
+297
+00:06:22,319 --> 00:06:25,550
+projector is not minimal because we can
+write it as the sum of other projectors
+
+298
+00:06:25,550 --> 00:06:25,560
+write it as the sum of other projectors
+ 
+
+299
+00:06:25,560 --> 00:06:28,850
+write it as the sum of other projectors
+but the projectors onto the X and Y axes
+
+300
+00:06:28,850 --> 00:06:28,860
+but the projectors onto the X and Y axes
+ 
+
+301
+00:06:28,860 --> 00:06:31,850
+but the projectors onto the X and Y axes
+are both minimal projectors because we
+
+302
+00:06:31,850 --> 00:06:31,860
+are both minimal projectors because we
+ 
+
+303
+00:06:31,860 --> 00:06:34,010
+are both minimal projectors because we
+can't write either of these as a sum of
+
+304
+00:06:34,010 --> 00:06:34,020
+can't write either of these as a sum of
+ 
+
+305
+00:06:34,020 --> 00:06:36,469
+can't write either of these as a sum of
+simpler projectors
+
+306
+00:06:36,469 --> 00:06:36,479
+simpler projectors
+ 
+
+307
+00:06:36,479 --> 00:06:38,629
+simpler projectors
+we'll see later in this video that
+
+308
+00:06:38,629 --> 00:06:38,639
+we'll see later in this video that
+ 
+
+309
+00:06:38,639 --> 00:06:40,730
+we'll see later in this video that
+minimal projectors are related to
+
+310
+00:06:40,730 --> 00:06:40,740
+minimal projectors are related to
+ 
+
+311
+00:06:40,740 --> 00:06:43,430
+minimal projectors are related to
+minimal ideals
+
+312
+00:06:43,430 --> 00:06:43,440
+minimal ideals
+ 
+
+313
+00:06:43,440 --> 00:06:46,550
+minimal ideals
+so to sum up a projector is an operator
+
+314
+00:06:46,550 --> 00:06:46,560
+so to sum up a projector is an operator
+ 
+
+315
+00:06:46,560 --> 00:06:49,370
+so to sum up a projector is an operator
+p with the property that p squared
+
+316
+00:06:49,370 --> 00:06:49,380
+p with the property that p squared
+ 
+
+317
+00:06:49,380 --> 00:06:52,909
+p with the property that p squared
+equals P two projectors p and Q are
+
+318
+00:06:52,909 --> 00:06:52,919
+equals P two projectors p and Q are
+ 
+
+319
+00:06:52,919 --> 00:06:56,749
+equals P two projectors p and Q are
+orthogonal if p q equals zero each
+
+320
+00:06:56,749 --> 00:06:56,759
+orthogonal if p q equals zero each
+ 
+
+321
+00:06:56,759 --> 00:06:59,450
+orthogonal if p q equals zero each
+projector P has an orthogonal projector
+
+322
+00:06:59,450 --> 00:06:59,460
+projector P has an orthogonal projector
+ 
+
+323
+00:06:59,460 --> 00:07:01,909
+projector P has an orthogonal projector
+partner 1 minus p
+
+324
+00:07:01,909 --> 00:07:01,919
+partner 1 minus p
+ 
+
+325
+00:07:01,919 --> 00:07:04,850
+partner 1 minus p
+the sum of two orthogonal projectors is
+
+326
+00:07:04,850 --> 00:07:04,860
+the sum of two orthogonal projectors is
+ 
+
+327
+00:07:04,860 --> 00:07:07,730
+the sum of two orthogonal projectors is
+another projector and a projector that
+
+328
+00:07:07,730 --> 00:07:07,740
+another projector and a projector that
+ 
+
+329
+00:07:07,740 --> 00:07:09,409
+another projector and a projector that
+can't be written as the sum of other
+
+330
+00:07:09,409 --> 00:07:09,419
+can't be written as the sum of other
+ 
+
+331
+00:07:09,419 --> 00:07:11,870
+can't be written as the sum of other
+projectors is called minimal
+
+332
+00:07:11,870 --> 00:07:11,880
+projectors is called minimal
+ 
+
+333
+00:07:11,880 --> 00:07:14,629
+projectors is called minimal
+also projectors are also called item
+
+334
+00:07:14,629 --> 00:07:14,639
+also projectors are also called item
+ 
+
+335
+00:07:14,639 --> 00:07:17,870
+also projectors are also called item
+potents item potent is just a fancy word
+
+336
+00:07:17,870 --> 00:07:17,880
+potents item potent is just a fancy word
+ 
+
+337
+00:07:17,880 --> 00:07:19,850
+potents item potent is just a fancy word
+for something that doesn't change when
+
+338
+00:07:19,850 --> 00:07:19,860
+for something that doesn't change when
+ 
+
+339
+00:07:19,860 --> 00:07:22,730
+for something that doesn't change when
+you apply it multiple times
+
+340
+00:07:22,730 --> 00:07:22,740
+you apply it multiple times
+ 
+
+341
+00:07:22,740 --> 00:07:25,309
+you apply it multiple times
+now what we've seen so far are Matrix
+
+342
+00:07:25,309 --> 00:07:25,319
+now what we've seen so far are Matrix
+ 
+
+343
+00:07:25,319 --> 00:07:28,129
+now what we've seen so far are Matrix
+projectors that act on vectors this
+
+344
+00:07:28,129 --> 00:07:28,139
+projectors that act on vectors this
+ 
+
+345
+00:07:28,139 --> 00:07:30,110
+projectors that act on vectors this
+should be pretty familiar to anyone who
+
+346
+00:07:30,110 --> 00:07:30,120
+should be pretty familiar to anyone who
+ 
+
+347
+00:07:30,120 --> 00:07:32,029
+should be pretty familiar to anyone who
+knows linear algebra
+
+348
+00:07:32,029 --> 00:07:32,039
+knows linear algebra
+ 
+
+349
+00:07:32,039 --> 00:07:34,430
+knows linear algebra
+next I'd like to talk about projectors
+
+350
+00:07:34,430 --> 00:07:34,440
+next I'd like to talk about projectors
+ 
+
+351
+00:07:34,440 --> 00:07:37,249
+next I'd like to talk about projectors
+in Clifford algebras specifically we'll
+
+352
+00:07:37,249 --> 00:07:37,259
+in Clifford algebras specifically we'll
+ 
+
+353
+00:07:37,259 --> 00:07:40,790
+in Clifford algebras specifically we'll
+look at projectors in cl30 which has
+
+354
+00:07:40,790 --> 00:07:40,800
+look at projectors in cl30 which has
+ 
+
+355
+00:07:40,800 --> 00:07:43,610
+look at projectors in cl30 which has
+basis vectors Sigma X Sigma Y and sigma
+
+356
+00:07:43,610 --> 00:07:43,620
+basis vectors Sigma X Sigma Y and sigma
+ 
+
+357
+00:07:43,620 --> 00:07:47,089
+basis vectors Sigma X Sigma Y and sigma
+Z that all square two plus one and all
+
+358
+00:07:47,089 --> 00:07:47,099
+Z that all square two plus one and all
+ 
+
+359
+00:07:47,099 --> 00:07:49,370
+Z that all square two plus one and all
+anti-commute with each other
+
+360
+00:07:49,370 --> 00:07:49,380
+anti-commute with each other
+ 
+
+361
+00:07:49,380 --> 00:07:52,909
+anti-commute with each other
+a member inside a Clifford algebra p is
+
+362
+00:07:52,909 --> 00:07:52,919
+a member inside a Clifford algebra p is
+ 
+
+363
+00:07:52,919 --> 00:07:56,629
+a member inside a Clifford algebra p is
+called a projector if p squared equals p
+
+364
+00:07:56,629 --> 00:07:56,639
+called a projector if p squared equals p
+ 
+
+365
+00:07:56,639 --> 00:08:01,610
+called a projector if p squared equals p
+let's take any unit Vector U in cl30
+
+366
+00:08:01,610 --> 00:08:01,620
+let's take any unit Vector U in cl30
+ 
+
+367
+00:08:01,620 --> 00:08:03,890
+let's take any unit Vector U in cl30
+because vectors and Clifford algebra's
+
+368
+00:08:03,890 --> 00:08:03,900
+because vectors and Clifford algebra's
+ 
+
+369
+00:08:03,900 --> 00:08:06,589
+because vectors and Clifford algebra's
+Square to their squared length U squared
+
+370
+00:08:06,589 --> 00:08:06,599
+Square to their squared length U squared
+ 
+
+371
+00:08:06,599 --> 00:08:09,529
+Square to their squared length U squared
+equals one because it's a unit vector
+
+372
+00:08:09,529 --> 00:08:09,539
+equals one because it's a unit vector
+ 
+
+373
+00:08:09,539 --> 00:08:12,710
+equals one because it's a unit vector
+the expression one-half times one plus U
+
+374
+00:08:12,710 --> 00:08:12,720
+the expression one-half times one plus U
+ 
+
+375
+00:08:12,720 --> 00:08:14,749
+the expression one-half times one plus U
+is a projector
+
+376
+00:08:14,749 --> 00:08:14,759
+is a projector
+ 
+
+377
+00:08:14,759 --> 00:08:17,210
+is a projector
+we prove this the usual Way by showing
+
+378
+00:08:17,210 --> 00:08:17,220
+we prove this the usual Way by showing
+ 
+
+379
+00:08:17,220 --> 00:08:19,249
+we prove this the usual Way by showing
+that it squares to itself
+
+380
+00:08:19,249 --> 00:08:19,259
+that it squares to itself
+ 
+
+381
+00:08:19,259 --> 00:08:22,249
+that it squares to itself
+we distribute and Since U squared equals
+
+382
+00:08:22,249 --> 00:08:22,259
+we distribute and Since U squared equals
+ 
+
+383
+00:08:22,259 --> 00:08:25,309
+we distribute and Since U squared equals
+one we get two plus two U
+
+384
+00:08:25,309 --> 00:08:25,319
+one we get two plus two U
+ 
+
+385
+00:08:25,319 --> 00:08:27,890
+one we get two plus two U
+H factoring the 2 out we can cancel it
+
+386
+00:08:27,890 --> 00:08:27,900
+H factoring the 2 out we can cancel it
+ 
+
+387
+00:08:27,900 --> 00:08:30,409
+H factoring the 2 out we can cancel it
+with one of the factors of one-half
+
+388
+00:08:30,409 --> 00:08:30,419
+with one of the factors of one-half
+ 
+
+389
+00:08:30,419 --> 00:08:33,170
+with one of the factors of one-half
+and we get one half times one plus u
+
+390
+00:08:33,170 --> 00:08:33,180
+and we get one half times one plus u
+ 
+
+391
+00:08:33,180 --> 00:08:35,510
+and we get one half times one plus u
+which is the original projector as
+
+392
+00:08:35,510 --> 00:08:35,520
+which is the original projector as
+ 
+
+393
+00:08:35,520 --> 00:08:37,010
+which is the original projector as
+desired
+
+394
+00:08:37,010 --> 00:08:37,020
+desired
+ 
+
+395
+00:08:37,020 --> 00:08:40,490
+desired
+I'll call this projector p u Plus
+
+396
+00:08:40,490 --> 00:08:40,500
+I'll call this projector p u Plus
+ 
+
+397
+00:08:40,500 --> 00:08:43,909
+I'll call this projector p u Plus
+its orthogonal projector partner 1 minus
+
+398
+00:08:43,909 --> 00:08:43,919
+its orthogonal projector partner 1 minus
+ 
+
+399
+00:08:43,919 --> 00:08:47,389
+its orthogonal projector partner 1 minus
+pu plus is given by one-half times one
+
+400
+00:08:47,389 --> 00:08:47,399
+pu plus is given by one-half times one
+ 
+
+401
+00:08:47,399 --> 00:08:50,750
+pu plus is given by one-half times one
+minus U I'll call this projector pu
+
+402
+00:08:50,750 --> 00:08:50,760
+minus U I'll call this projector pu
+ 
+
+403
+00:08:50,760 --> 00:08:52,550
+minus U I'll call this projector pu
+minus
+
+404
+00:08:52,550 --> 00:08:52,560
+minus
+ 
+
+405
+00:08:52,560 --> 00:08:55,550
+minus
+so any arbitrary unit Vector U and a
+
+406
+00:08:55,550 --> 00:08:55,560
+so any arbitrary unit Vector U and a
+ 
+
+407
+00:08:55,560 --> 00:08:58,250
+so any arbitrary unit Vector U and a
+Clifford algebra will give us a pair of
+
+408
+00:08:58,250 --> 00:08:58,260
+Clifford algebra will give us a pair of
+ 
+
+409
+00:08:58,260 --> 00:09:02,389
+Clifford algebra will give us a pair of
+projectors p u plus and P U minus
+
+410
+00:09:02,389 --> 00:09:02,399
+projectors p u plus and P U minus
+ 
+
+411
+00:09:02,399 --> 00:09:05,389
+projectors p u plus and P U minus
+as a specific example we can look at the
+
+412
+00:09:05,389 --> 00:09:05,399
+as a specific example we can look at the
+ 
+
+413
+00:09:05,399 --> 00:09:08,389
+as a specific example we can look at the
+Z unit Vector Sigma Z
+
+414
+00:09:08,389 --> 00:09:08,399
+Z unit Vector Sigma Z
+ 
+
+415
+00:09:08,399 --> 00:09:10,250
+Z unit Vector Sigma Z
+if we look at the two by two Matrix
+
+416
+00:09:10,250 --> 00:09:10,260
+if we look at the two by two Matrix
+ 
+
+417
+00:09:10,260 --> 00:09:12,829
+if we look at the two by two Matrix
+representation of the sigmas we know
+
+418
+00:09:12,829 --> 00:09:12,839
+representation of the sigmas we know
+ 
+
+419
+00:09:12,839 --> 00:09:15,050
+representation of the sigmas we know
+that one is just the two by two identity
+
+420
+00:09:15,050 --> 00:09:15,060
+that one is just the two by two identity
+ 
+
+421
+00:09:15,060 --> 00:09:18,590
+that one is just the two by two identity
+Matrix and sigma Z is just Z Z power
+
+422
+00:09:18,590 --> 00:09:18,600
+Matrix and sigma Z is just Z Z power
+ 
+
+423
+00:09:18,600 --> 00:09:23,090
+Matrix and sigma Z is just Z Z power
+Matrix with entries 1 0 0 negative one
+
+424
+00:09:23,090 --> 00:09:23,100
+Matrix with entries 1 0 0 negative one
+ 
+
+425
+00:09:23,100 --> 00:09:25,130
+Matrix with entries 1 0 0 negative one
+this gives us these two projection
+
+426
+00:09:25,130 --> 00:09:25,140
+this gives us these two projection
+ 
+
+427
+00:09:25,140 --> 00:09:30,050
+this gives us these two projection
+matrices for p z plus and p z minus
+
+428
+00:09:30,050 --> 00:09:30,060
+matrices for p z plus and p z minus
+ 
+
+429
+00:09:30,060 --> 00:09:32,810
+matrices for p z plus and p z minus
+let's take these projectors and apply an
+
+430
+00:09:32,810 --> 00:09:32,820
+let's take these projectors and apply an
+ 
+
+431
+00:09:32,820 --> 00:09:35,210
+let's take these projectors and apply an
+arbitrary two by two Matrix to them from
+
+432
+00:09:35,210 --> 00:09:35,220
+arbitrary two by two Matrix to them from
+ 
+
+433
+00:09:35,220 --> 00:09:36,350
+arbitrary two by two Matrix to them from
+the left
+
+434
+00:09:36,350 --> 00:09:36,360
+the left
+ 
+
+435
+00:09:36,360 --> 00:09:39,170
+the left
+we see that pz plus has the effect of
+
+436
+00:09:39,170 --> 00:09:39,180
+we see that pz plus has the effect of
+ 
+
+437
+00:09:39,180 --> 00:09:41,269
+we see that pz plus has the effect of
+projecting out the First Column and
+
+438
+00:09:41,269 --> 00:09:41,279
+projecting out the First Column and
+ 
+
+439
+00:09:41,279 --> 00:09:43,790
+projecting out the First Column and
+setting the other entries to zero
+
+440
+00:09:43,790 --> 00:09:43,800
+setting the other entries to zero
+ 
+
+441
+00:09:43,800 --> 00:09:46,610
+setting the other entries to zero
+likewise pz minus has the effect of
+
+442
+00:09:46,610 --> 00:09:46,620
+likewise pz minus has the effect of
+ 
+
+443
+00:09:46,620 --> 00:09:48,650
+likewise pz minus has the effect of
+projecting out the second column and
+
+444
+00:09:48,650 --> 00:09:48,660
+projecting out the second column and
+ 
+
+445
+00:09:48,660 --> 00:09:51,410
+projecting out the second column and
+setting the other entries to zero
+
+446
+00:09:51,410 --> 00:09:51,420
+setting the other entries to zero
+ 
+
+447
+00:09:51,420 --> 00:09:53,210
+setting the other entries to zero
+notice that if we add these two
+
+448
+00:09:53,210 --> 00:09:53,220
+notice that if we add these two
+ 
+
+449
+00:09:53,220 --> 00:09:55,610
+notice that if we add these two
+projections we get the original Matrix
+
+450
+00:09:55,610 --> 00:09:55,620
+projections we get the original Matrix
+ 
+
+451
+00:09:55,620 --> 00:09:58,490
+projections we get the original Matrix
+back this is because when we add the two
+
+452
+00:09:58,490 --> 00:09:58,500
+back this is because when we add the two
+ 
+
+453
+00:09:58,500 --> 00:10:01,009
+back this is because when we add the two
+projectors together we get one back
+
+454
+00:10:01,009 --> 00:10:01,019
+projectors together we get one back
+ 
+
+455
+00:10:01,019 --> 00:10:03,530
+projectors together we get one back
+which is the identity Matrix which
+
+456
+00:10:03,530 --> 00:10:03,540
+which is the identity Matrix which
+ 
+
+457
+00:10:03,540 --> 00:10:04,910
+which is the identity Matrix which
+doesn't change anything through
+
+458
+00:10:04,910 --> 00:10:04,920
+doesn't change anything through
+ 
+
+459
+00:10:04,920 --> 00:10:06,650
+doesn't change anything through
+multiplication
+
+460
+00:10:06,650 --> 00:10:06,660
+multiplication
+ 
+
+461
+00:10:06,660 --> 00:10:08,690
+multiplication
+so when we add the two Matrix
+
+462
+00:10:08,690 --> 00:10:08,700
+so when we add the two Matrix
+ 
+
+463
+00:10:08,700 --> 00:10:11,210
+so when we add the two Matrix
+projections together we can factor out
+
+464
+00:10:11,210 --> 00:10:11,220
+projections together we can factor out
+ 
+
+465
+00:10:11,220 --> 00:10:13,550
+projections together we can factor out
+the original Matrix and sum the
+
+466
+00:10:13,550 --> 00:10:13,560
+the original Matrix and sum the
+ 
+
+467
+00:10:13,560 --> 00:10:16,250
+the original Matrix and sum the
+projectors to one which gives us back
+
+468
+00:10:16,250 --> 00:10:16,260
+projectors to one which gives us back
+ 
+
+469
+00:10:16,260 --> 00:10:18,949
+projectors to one which gives us back
+our original Matrix
+
+470
+00:10:18,949 --> 00:10:18,959
+our original Matrix
+ 
+
+471
+00:10:18,959 --> 00:10:21,769
+our original Matrix
+now here we've been looking at the 2x2
+
+472
+00:10:21,769 --> 00:10:21,779
+now here we've been looking at the 2x2
+ 
+
+473
+00:10:21,779 --> 00:10:24,590
+now here we've been looking at the 2x2
+matrix representations of projectors in
+
+474
+00:10:24,590 --> 00:10:24,600
+matrix representations of projectors in
+ 
+
+475
+00:10:24,600 --> 00:10:28,490
+matrix representations of projectors in
+cl30 now let's look at abstract members
+
+476
+00:10:28,490 --> 00:10:28,500
+cl30 now let's look at abstract members
+ 
+
+477
+00:10:28,500 --> 00:10:33,230
+cl30 now let's look at abstract members
+of cl30 written out using symbols
+
+478
+00:10:33,230 --> 00:10:33,240
+of cl30 written out using symbols
+ 
+
+479
+00:10:33,240 --> 00:10:36,050
+of cl30 written out using symbols
+so given any arbitrary multi-vector
+
+480
+00:10:36,050 --> 00:10:36,060
+so given any arbitrary multi-vector
+ 
+
+481
+00:10:36,060 --> 00:10:39,350
+so given any arbitrary multi-vector
+element m in our Clifford algebra our
+
+482
+00:10:39,350 --> 00:10:39,360
+element m in our Clifford algebra our
+ 
+
+483
+00:10:39,360 --> 00:10:42,769
+element m in our Clifford algebra our
+projectors pz plus and pz minus can
+
+484
+00:10:42,769 --> 00:10:42,779
+projectors pz plus and pz minus can
+ 
+
+485
+00:10:42,779 --> 00:10:46,190
+projectors pz plus and pz minus can
+break M up into two pieces I'll call
+
+486
+00:10:46,190 --> 00:10:46,200
+break M up into two pieces I'll call
+ 
+
+487
+00:10:46,200 --> 00:10:50,630
+break M up into two pieces I'll call
+these two pieces m z plus and M z minus
+
+488
+00:10:50,630 --> 00:10:50,640
+these two pieces m z plus and M z minus
+ 
+
+489
+00:10:50,640 --> 00:10:52,850
+these two pieces m z plus and M z minus
+we can then add the two pieces back
+
+490
+00:10:52,850 --> 00:10:52,860
+we can then add the two pieces back
+ 
+
+491
+00:10:52,860 --> 00:10:55,790
+we can then add the two pieces back
+together to get the original M since pz
+
+492
+00:10:55,790 --> 00:10:55,800
+together to get the original M since pz
+ 
+
+493
+00:10:55,800 --> 00:10:59,509
+together to get the original M since pz
+plus and pz minus add to give one
+
+494
+00:10:59,509 --> 00:10:59,519
+plus and pz minus add to give one
+ 
+
+495
+00:10:59,519 --> 00:11:01,730
+plus and pz minus add to give one
+the same is true for any pair of
+
+496
+00:11:01,730 --> 00:11:01,740
+the same is true for any pair of
+ 
+
+497
+00:11:01,740 --> 00:11:04,490
+the same is true for any pair of
+orthogonal projector Partners they can
+
+498
+00:11:04,490 --> 00:11:04,500
+orthogonal projector Partners they can
+ 
+
+499
+00:11:04,500 --> 00:11:06,650
+orthogonal projector Partners they can
+always be used to break up elements into
+
+500
+00:11:06,650 --> 00:11:06,660
+always be used to break up elements into
+ 
+
+501
+00:11:06,660 --> 00:11:08,870
+always be used to break up elements into
+two pieces that can be added back
+
+502
+00:11:08,870 --> 00:11:08,880
+two pieces that can be added back
+ 
+
+503
+00:11:08,880 --> 00:11:12,470
+two pieces that can be added back
+together again to give us the original
+
+504
+00:11:12,470 --> 00:11:12,480
+together again to give us the original
+ 
+
+505
+00:11:12,480 --> 00:11:14,870
+together again to give us the original
+let's switch gears for a bit and talk
+
+506
+00:11:14,870 --> 00:11:14,880
+let's switch gears for a bit and talk
+ 
+
+507
+00:11:14,880 --> 00:11:17,630
+let's switch gears for a bit and talk
+about ideals which is a concept that
+
+508
+00:11:17,630 --> 00:11:17,640
+about ideals which is a concept that
+ 
+
+509
+00:11:17,640 --> 00:11:19,490
+about ideals which is a concept that
+comes up when studying rings and
+
+510
+00:11:19,490 --> 00:11:19,500
+comes up when studying rings and
+ 
+
+511
+00:11:19,500 --> 00:11:20,870
+comes up when studying rings and
+algebras
+
+512
+00:11:20,870 --> 00:11:20,880
+algebras
+ 
+
+513
+00:11:20,880 --> 00:11:23,870
+algebras
+Loosely speaking a ring is a set where
+
+514
+00:11:23,870 --> 00:11:23,880
+Loosely speaking a ring is a set where
+ 
+
+515
+00:11:23,880 --> 00:11:25,910
+Loosely speaking a ring is a set where
+addition subtraction and multiplication
+
+516
+00:11:25,910 --> 00:11:25,920
+addition subtraction and multiplication
+ 
+
+517
+00:11:25,920 --> 00:11:28,730
+addition subtraction and multiplication
+are all defined but we don't require
+
+518
+00:11:28,730 --> 00:11:28,740
+are all defined but we don't require
+ 
+
+519
+00:11:28,740 --> 00:11:31,130
+are all defined but we don't require
+division to be defined
+
+520
+00:11:31,130 --> 00:11:31,140
+division to be defined
+ 
+
+521
+00:11:31,140 --> 00:11:33,889
+division to be defined
+for example the integers form a ring
+
+522
+00:11:33,889 --> 00:11:33,899
+for example the integers form a ring
+ 
+
+523
+00:11:33,899 --> 00:11:35,930
+for example the integers form a ring
+because we can add subtract and multiply
+
+524
+00:11:35,930 --> 00:11:35,940
+because we can add subtract and multiply
+ 
+
+525
+00:11:35,940 --> 00:11:38,630
+because we can add subtract and multiply
+them to get more integers even though
+
+526
+00:11:38,630 --> 00:11:38,640
+them to get more integers even though
+ 
+
+527
+00:11:38,640 --> 00:11:40,490
+them to get more integers even though
+dividing two integers doesn't always
+
+528
+00:11:40,490 --> 00:11:40,500
+dividing two integers doesn't always
+ 
+
+529
+00:11:40,500 --> 00:11:42,710
+dividing two integers doesn't always
+give us an integer
+
+530
+00:11:42,710 --> 00:11:42,720
+give us an integer
+ 
+
+531
+00:11:42,720 --> 00:11:45,710
+give us an integer
+matrices also form a ring because we can
+
+532
+00:11:45,710 --> 00:11:45,720
+matrices also form a ring because we can
+ 
+
+533
+00:11:45,720 --> 00:11:47,569
+matrices also form a ring because we can
+always add subtract and multiply
+
+534
+00:11:47,569 --> 00:11:47,579
+always add subtract and multiply
+ 
+
+535
+00:11:47,579 --> 00:11:49,250
+always add subtract and multiply
+matrices
+
+536
+00:11:49,250 --> 00:11:49,260
+matrices
+ 
+
+537
+00:11:49,260 --> 00:11:51,889
+matrices
+division with matrices would be defined
+
+538
+00:11:51,889 --> 00:11:51,899
+division with matrices would be defined
+ 
+
+539
+00:11:51,899 --> 00:11:54,170
+division with matrices would be defined
+as multiplication with a matrix's
+
+540
+00:11:54,170 --> 00:11:54,180
+as multiplication with a matrix's
+ 
+
+541
+00:11:54,180 --> 00:11:55,490
+as multiplication with a matrix's
+inverse
+
+542
+00:11:55,490 --> 00:11:55,500
+inverse
+ 
+
+543
+00:11:55,500 --> 00:11:57,829
+inverse
+but since not all matrices are
+
+544
+00:11:57,829 --> 00:11:57,839
+but since not all matrices are
+ 
+
+545
+00:11:57,839 --> 00:12:00,470
+but since not all matrices are
+invertible we can't always do division
+
+546
+00:12:00,470 --> 00:12:00,480
+invertible we can't always do division
+ 
+
+547
+00:12:00,480 --> 00:12:03,290
+invertible we can't always do division
+with matrices but that's okay because
+
+548
+00:12:03,290 --> 00:12:03,300
+with matrices but that's okay because
+ 
+
+549
+00:12:03,300 --> 00:12:06,889
+with matrices but that's okay because
+division isn't required in rings
+
+550
+00:12:06,889 --> 00:12:06,899
+division isn't required in rings
+ 
+
+551
+00:12:06,899 --> 00:12:09,889
+division isn't required in rings
+the definition of an algebra is a vector
+
+552
+00:12:09,889 --> 00:12:09,899
+the definition of an algebra is a vector
+ 
+
+553
+00:12:09,899 --> 00:12:12,410
+the definition of an algebra is a vector
+space where addition subtraction and
+
+554
+00:12:12,410 --> 00:12:12,420
+space where addition subtraction and
+ 
+
+555
+00:12:12,420 --> 00:12:14,569
+space where addition subtraction and
+multiplication of vectors are all
+
+556
+00:12:14,569 --> 00:12:14,579
+multiplication of vectors are all
+ 
+
+557
+00:12:14,579 --> 00:12:17,030
+multiplication of vectors are all
+defined but we don't need division
+
+558
+00:12:17,030 --> 00:12:17,040
+defined but we don't need division
+ 
+
+559
+00:12:17,040 --> 00:12:19,910
+defined but we don't need division
+between vectors to be defined
+
+560
+00:12:19,910 --> 00:12:19,920
+between vectors to be defined
+ 
+
+561
+00:12:19,920 --> 00:12:22,370
+between vectors to be defined
+addition and subtraction come for free
+
+562
+00:12:22,370 --> 00:12:22,380
+addition and subtraction come for free
+ 
+
+563
+00:12:22,380 --> 00:12:24,949
+addition and subtraction come for free
+in Vector spaces but Vector
+
+564
+00:12:24,949 --> 00:12:24,959
+in Vector spaces but Vector
+ 
+
+565
+00:12:24,959 --> 00:12:27,230
+in Vector spaces but Vector
+multiplication is something extra that
+
+566
+00:12:27,230 --> 00:12:27,240
+multiplication is something extra that
+ 
+
+567
+00:12:27,240 --> 00:12:28,910
+multiplication is something extra that
+needs to be defined
+
+568
+00:12:28,910 --> 00:12:28,920
+needs to be defined
+ 
+
+569
+00:12:28,920 --> 00:12:30,949
+needs to be defined
+Clifford algebras are considered
+
+570
+00:12:30,949 --> 00:12:30,959
+Clifford algebras are considered
+ 
+
+571
+00:12:30,959 --> 00:12:33,230
+Clifford algebras are considered
+algebras because the Clifford product
+
+572
+00:12:33,230 --> 00:12:33,240
+algebras because the Clifford product
+ 
+
+573
+00:12:33,240 --> 00:12:36,110
+algebras because the Clifford product
+allows us to multiply vectors
+
+574
+00:12:36,110 --> 00:12:36,120
+allows us to multiply vectors
+ 
+
+575
+00:12:36,120 --> 00:12:38,150
+allows us to multiply vectors
+the wedge product from Grassman
+
+576
+00:12:38,150 --> 00:12:38,160
+the wedge product from Grassman
+ 
+
+577
+00:12:38,160 --> 00:12:40,970
+the wedge product from Grassman
+algebra's also allows a vector space to
+
+578
+00:12:40,970 --> 00:12:40,980
+algebra's also allows a vector space to
+ 
+
+579
+00:12:40,980 --> 00:12:43,370
+algebra's also allows a vector space to
+become an algebra
+
+580
+00:12:43,370 --> 00:12:43,380
+become an algebra
+ 
+
+581
+00:12:43,380 --> 00:12:46,129
+become an algebra
+now let's talk about ideals which are
+
+582
+00:12:46,129 --> 00:12:46,139
+now let's talk about ideals which are
+ 
+
+583
+00:12:46,139 --> 00:12:49,730
+now let's talk about ideals which are
+special subsets of rings and algebras
+
+584
+00:12:49,730 --> 00:12:49,740
+special subsets of rings and algebras
+ 
+
+585
+00:12:49,740 --> 00:12:52,550
+special subsets of rings and algebras
+an ideal is a special subset of a ring
+
+586
+00:12:52,550 --> 00:12:52,560
+an ideal is a special subset of a ring
+ 
+
+587
+00:12:52,560 --> 00:12:55,009
+an ideal is a special subset of a ring
+or algebra that's sort of like a black
+
+588
+00:12:55,009 --> 00:12:55,019
+or algebra that's sort of like a black
+ 
+
+589
+00:12:55,019 --> 00:12:58,129
+or algebra that's sort of like a black
+hole because ideals suck other ring
+
+590
+00:12:58,129 --> 00:12:58,139
+hole because ideals suck other ring
+ 
+
+591
+00:12:58,139 --> 00:13:00,290
+hole because ideals suck other ring
+elements inside of them so that they
+
+592
+00:13:00,290 --> 00:13:00,300
+elements inside of them so that they
+ 
+
+593
+00:13:00,300 --> 00:13:01,610
+elements inside of them so that they
+can't escape
+
+594
+00:13:01,610 --> 00:13:01,620
+can't escape
+ 
+
+595
+00:13:01,620 --> 00:13:04,129
+can't escape
+I'll show you what I mean
+
+596
+00:13:04,129 --> 00:13:04,139
+I'll show you what I mean
+ 
+
+597
+00:13:04,139 --> 00:13:05,949
+I'll show you what I mean
+let's take a look at the integers
+
+598
+00:13:05,949 --> 00:13:05,959
+let's take a look at the integers
+ 
+
+599
+00:13:05,959 --> 00:13:08,329
+let's take a look at the integers
+specifically we'll look at the subset of
+
+600
+00:13:08,329 --> 00:13:08,339
+specifically we'll look at the subset of
+ 
+
+601
+00:13:08,339 --> 00:13:10,730
+specifically we'll look at the subset of
+integers that are multiples of three
+
+602
+00:13:10,730 --> 00:13:10,740
+integers that are multiples of three
+ 
+
+603
+00:13:10,740 --> 00:13:14,690
+integers that are multiples of three
+so negative six negative 3 0 plus 3 plus
+
+604
+00:13:14,690 --> 00:13:14,700
+so negative six negative 3 0 plus 3 plus
+ 
+
+605
+00:13:14,700 --> 00:13:16,610
+so negative six negative 3 0 plus 3 plus
+6 and so on
+
+606
+00:13:16,610 --> 00:13:16,620
+6 and so on
+ 
+
+607
+00:13:16,620 --> 00:13:18,889
+6 and so on
+the multiples of three are like a black
+
+608
+00:13:18,889 --> 00:13:18,899
+the multiples of three are like a black
+ 
+
+609
+00:13:18,899 --> 00:13:21,829
+the multiples of three are like a black
+hole because once we get inside it's
+
+610
+00:13:21,829 --> 00:13:21,839
+hole because once we get inside it's
+ 
+
+611
+00:13:21,839 --> 00:13:23,930
+hole because once we get inside it's
+difficult to escape
+
+612
+00:13:23,930 --> 00:13:23,940
+difficult to escape
+ 
+
+613
+00:13:23,940 --> 00:13:25,910
+difficult to escape
+adding any two multiples of three
+
+614
+00:13:25,910 --> 00:13:25,920
+adding any two multiples of three
+ 
+
+615
+00:13:25,920 --> 00:13:28,129
+adding any two multiples of three
+together will always give another
+
+616
+00:13:28,129 --> 00:13:28,139
+together will always give another
+ 
+
+617
+00:13:28,139 --> 00:13:31,310
+together will always give another
+multiple of three for example three plus
+
+618
+00:13:31,310 --> 00:13:31,320
+multiple of three for example three plus
+ 
+
+619
+00:13:31,320 --> 00:13:34,730
+multiple of three for example three plus
+nine equals 12 or 18 plus negative three
+
+620
+00:13:34,730 --> 00:13:34,740
+nine equals 12 or 18 plus negative three
+ 
+
+621
+00:13:34,740 --> 00:13:36,829
+nine equals 12 or 18 plus negative three
+equals fifteen
+
+622
+00:13:36,829 --> 00:13:36,839
+equals fifteen
+ 
+
+623
+00:13:36,839 --> 00:13:40,069
+equals fifteen
+also multiplying any integer by a
+
+624
+00:13:40,069 --> 00:13:40,079
+also multiplying any integer by a
+ 
+
+625
+00:13:40,079 --> 00:13:42,170
+also multiplying any integer by a
+multiple of three gives us another
+
+626
+00:13:42,170 --> 00:13:42,180
+multiple of three gives us another
+ 
+
+627
+00:13:42,180 --> 00:13:45,170
+multiple of three gives us another
+multiple of three for example seven
+
+628
+00:13:45,170 --> 00:13:45,180
+multiple of three for example seven
+ 
+
+629
+00:13:45,180 --> 00:13:48,230
+multiple of three for example seven
+times three equals 21 and negative five
+
+630
+00:13:48,230 --> 00:13:48,240
+times three equals 21 and negative five
+ 
+
+631
+00:13:48,240 --> 00:13:51,470
+times three equals 21 and negative five
+times three equals negative fifteen
+
+632
+00:13:51,470 --> 00:13:51,480
+times three equals negative fifteen
+ 
+
+633
+00:13:51,480 --> 00:13:53,990
+times three equals negative fifteen
+so the multiples of three are a special
+
+634
+00:13:53,990 --> 00:13:54,000
+so the multiples of three are a special
+ 
+
+635
+00:13:54,000 --> 00:13:56,449
+so the multiples of three are a special
+subset of the integers that's sort of
+
+636
+00:13:56,449 --> 00:13:56,459
+subset of the integers that's sort of
+ 
+
+637
+00:13:56,459 --> 00:13:59,150
+subset of the integers that's sort of
+like a black hole the sum of any two
+
+638
+00:13:59,150 --> 00:13:59,160
+like a black hole the sum of any two
+ 
+
+639
+00:13:59,160 --> 00:14:01,610
+like a black hole the sum of any two
+members in the set gives a result that's
+
+640
+00:14:01,610 --> 00:14:01,620
+members in the set gives a result that's
+ 
+
+641
+00:14:01,620 --> 00:14:03,050
+members in the set gives a result that's
+still in the set
+
+642
+00:14:03,050 --> 00:14:03,060
+still in the set
+ 
+
+643
+00:14:03,060 --> 00:14:05,750
+still in the set
+and the product of any integer with a
+
+644
+00:14:05,750 --> 00:14:05,760
+and the product of any integer with a
+ 
+
+645
+00:14:05,760 --> 00:14:08,269
+and the product of any integer with a
+member of the subset will result in
+
+646
+00:14:08,269 --> 00:14:08,279
+member of the subset will result in
+ 
+
+647
+00:14:08,279 --> 00:14:11,569
+member of the subset will result in
+another member inside the subset
+
+648
+00:14:11,569 --> 00:14:11,579
+another member inside the subset
+ 
+
+649
+00:14:11,579 --> 00:14:14,329
+another member inside the subset
+the generalization of this pattern gives
+
+650
+00:14:14,329 --> 00:14:14,339
+the generalization of this pattern gives
+ 
+
+651
+00:14:14,339 --> 00:14:16,670
+the generalization of this pattern gives
+us the definition of an ideal
+
+652
+00:14:16,670 --> 00:14:16,680
+us the definition of an ideal
+ 
+
+653
+00:14:16,680 --> 00:14:19,910
+us the definition of an ideal
+an ideal I is a subset of a ring or
+
+654
+00:14:19,910 --> 00:14:19,920
+an ideal I is a subset of a ring or
+ 
+
+655
+00:14:19,920 --> 00:14:22,790
+an ideal I is a subset of a ring or
+algebra where the sum of any two ideal
+
+656
+00:14:22,790 --> 00:14:22,800
+algebra where the sum of any two ideal
+ 
+
+657
+00:14:22,800 --> 00:14:25,250
+algebra where the sum of any two ideal
+members gives us another ideal member
+
+658
+00:14:25,250 --> 00:14:25,260
+members gives us another ideal member
+ 
+
+659
+00:14:25,260 --> 00:14:27,949
+members gives us another ideal member
+and the product of an ideal member with
+
+660
+00:14:27,949 --> 00:14:27,959
+and the product of an ideal member with
+ 
+
+661
+00:14:27,959 --> 00:14:30,650
+and the product of an ideal member with
+any other element gives us another ideal
+
+662
+00:14:30,650 --> 00:14:30,660
+any other element gives us another ideal
+ 
+
+663
+00:14:30,660 --> 00:14:31,730
+any other element gives us another ideal
+member
+
+664
+00:14:31,730 --> 00:14:31,740
+member
+ 
+
+665
+00:14:31,740 --> 00:14:34,250
+member
+the multiples of three form an ideal
+
+666
+00:14:34,250 --> 00:14:34,260
+the multiples of three form an ideal
+ 
+
+667
+00:14:34,260 --> 00:14:36,650
+the multiples of three form an ideal
+inside the integers because they satisfy
+
+668
+00:14:36,650 --> 00:14:36,660
+inside the integers because they satisfy
+ 
+
+669
+00:14:36,660 --> 00:14:38,990
+inside the integers because they satisfy
+both of these properties
+
+670
+00:14:38,990 --> 00:14:39,000
+both of these properties
+ 
+
+671
+00:14:39,000 --> 00:14:41,870
+both of these properties
+we can also look at ideals with matrices
+
+672
+00:14:41,870 --> 00:14:41,880
+we can also look at ideals with matrices
+ 
+
+673
+00:14:41,880 --> 00:14:44,629
+we can also look at ideals with matrices
+let's look at this subset of two by two
+
+674
+00:14:44,629 --> 00:14:44,639
+let's look at this subset of two by two
+ 
+
+675
+00:14:44,639 --> 00:14:46,970
+let's look at this subset of two by two
+matrices where only the First Column is
+
+676
+00:14:46,970 --> 00:14:46,980
+matrices where only the First Column is
+ 
+
+677
+00:14:46,980 --> 00:14:50,090
+matrices where only the First Column is
+non-zero this is an ideal inside the
+
+678
+00:14:50,090 --> 00:14:50,100
+non-zero this is an ideal inside the
+ 
+
+679
+00:14:50,100 --> 00:14:52,550
+non-zero this is an ideal inside the
+ring of two by two matrices
+
+680
+00:14:52,550 --> 00:14:52,560
+ring of two by two matrices
+ 
+
+681
+00:14:52,560 --> 00:14:55,490
+ring of two by two matrices
+if we add two matrices of this form we
+
+682
+00:14:55,490 --> 00:14:55,500
+if we add two matrices of this form we
+ 
+
+683
+00:14:55,500 --> 00:14:57,290
+if we add two matrices of this form we
+get another Matrix with only the First
+
+684
+00:14:57,290 --> 00:14:57,300
+get another Matrix with only the First
+ 
+
+685
+00:14:57,300 --> 00:15:00,590
+get another Matrix with only the First
+Column being non-zero also if we
+
+686
+00:15:00,590 --> 00:15:00,600
+Column being non-zero also if we
+ 
+
+687
+00:15:00,600 --> 00:15:02,810
+Column being non-zero also if we
+multiply a general two by two Matrix
+
+688
+00:15:02,810 --> 00:15:02,820
+multiply a general two by two Matrix
+ 
+
+689
+00:15:02,820 --> 00:15:05,509
+multiply a general two by two Matrix
+from the left onto a matrix of this form
+
+690
+00:15:05,509 --> 00:15:05,519
+from the left onto a matrix of this form
+ 
+
+691
+00:15:05,519 --> 00:15:07,970
+from the left onto a matrix of this form
+we get another Matrix where only the
+
+692
+00:15:07,970 --> 00:15:07,980
+we get another Matrix where only the
+ 
+
+693
+00:15:07,980 --> 00:15:10,250
+we get another Matrix where only the
+First Column is non-zero
+
+694
+00:15:10,250 --> 00:15:10,260
+First Column is non-zero
+ 
+
+695
+00:15:10,260 --> 00:15:13,250
+First Column is non-zero
+so these matrices form an ideal
+
+696
+00:15:13,250 --> 00:15:13,260
+so these matrices form an ideal
+ 
+
+697
+00:15:13,260 --> 00:15:15,949
+so these matrices form an ideal
+note that this multiplication trick only
+
+698
+00:15:15,949 --> 00:15:15,959
+note that this multiplication trick only
+ 
+
+699
+00:15:15,959 --> 00:15:18,530
+note that this multiplication trick only
+works if the general 2x2 matrix is
+
+700
+00:15:18,530 --> 00:15:18,540
+works if the general 2x2 matrix is
+ 
+
+701
+00:15:18,540 --> 00:15:21,590
+works if the general 2x2 matrix is
+Multiplied from the left it doesn't work
+
+702
+00:15:21,590 --> 00:15:21,600
+Multiplied from the left it doesn't work
+ 
+
+703
+00:15:21,600 --> 00:15:23,689
+Multiplied from the left it doesn't work
+if the Matrix is Multiplied from the
+
+704
+00:15:23,689 --> 00:15:23,699
+if the Matrix is Multiplied from the
+ 
+
+705
+00:15:23,699 --> 00:15:24,470
+if the Matrix is Multiplied from the
+right
+
+706
+00:15:24,470 --> 00:15:24,480
+right
+ 
+
+707
+00:15:24,480 --> 00:15:27,530
+right
+for this reason we call this subset a
+
+708
+00:15:27,530 --> 00:15:27,540
+for this reason we call this subset a
+ 
+
+709
+00:15:27,540 --> 00:15:29,810
+for this reason we call this subset a
+left ideal since the multiplication
+
+710
+00:15:29,810 --> 00:15:29,820
+left ideal since the multiplication
+ 
+
+711
+00:15:29,820 --> 00:15:32,090
+left ideal since the multiplication
+property is only satisfied if
+
+712
+00:15:32,090 --> 00:15:32,100
+property is only satisfied if
+ 
+
+713
+00:15:32,100 --> 00:15:35,090
+property is only satisfied if
+multiplication is done from the left
+
+714
+00:15:35,090 --> 00:15:35,100
+multiplication is done from the left
+ 
+
+715
+00:15:35,100 --> 00:15:37,250
+multiplication is done from the left
+if we look at the set of two by two
+
+716
+00:15:37,250 --> 00:15:37,260
+if we look at the set of two by two
+ 
+
+717
+00:15:37,260 --> 00:15:39,470
+if we look at the set of two by two
+matrices where only the top row is
+
+718
+00:15:39,470 --> 00:15:39,480
+matrices where only the top row is
+ 
+
+719
+00:15:39,480 --> 00:15:42,230
+matrices where only the top row is
+non-zero this ends up being a right
+
+720
+00:15:42,230 --> 00:15:42,240
+non-zero this ends up being a right
+ 
+
+721
+00:15:42,240 --> 00:15:45,050
+non-zero this ends up being a right
+ideal because the multiplication rule is
+
+722
+00:15:45,050 --> 00:15:45,060
+ideal because the multiplication rule is
+ 
+
+723
+00:15:45,060 --> 00:15:47,329
+ideal because the multiplication rule is
+satisfied only when matrices are
+
+724
+00:15:47,329 --> 00:15:47,339
+satisfied only when matrices are
+ 
+
+725
+00:15:47,339 --> 00:15:49,910
+satisfied only when matrices are
+multiplied from the right
+
+726
+00:15:49,910 --> 00:15:49,920
+multiplied from the right
+ 
+
+727
+00:15:49,920 --> 00:15:52,370
+multiplied from the right
+it turns out that any set of matrices
+
+728
+00:15:52,370 --> 00:15:52,380
+it turns out that any set of matrices
+ 
+
+729
+00:15:52,380 --> 00:15:54,650
+it turns out that any set of matrices
+with only specific columns being
+
+730
+00:15:54,650 --> 00:15:54,660
+with only specific columns being
+ 
+
+731
+00:15:54,660 --> 00:15:58,910
+with only specific columns being
+non-zero form left ideals and any set of
+
+732
+00:15:58,910 --> 00:15:58,920
+non-zero form left ideals and any set of
+ 
+
+733
+00:15:58,920 --> 00:16:01,310
+non-zero form left ideals and any set of
+matrices with only specific rows being
+
+734
+00:16:01,310 --> 00:16:01,320
+matrices with only specific rows being
+ 
+
+735
+00:16:01,320 --> 00:16:05,449
+matrices with only specific rows being
+non-zero form right ideals
+
+736
+00:16:05,449 --> 00:16:05,459
+non-zero form right ideals
+ 
+
+737
+00:16:05,459 --> 00:16:08,210
+non-zero form right ideals
+so we have this abstract definition of
+
+738
+00:16:08,210 --> 00:16:08,220
+so we have this abstract definition of
+ 
+
+739
+00:16:08,220 --> 00:16:11,449
+so we have this abstract definition of
+ideals but what do these ideal sets
+
+740
+00:16:11,449 --> 00:16:11,459
+ideals but what do these ideal sets
+ 
+
+741
+00:16:11,459 --> 00:16:14,509
+ideals but what do these ideal sets
+really represent inside an algebra
+
+742
+00:16:14,509 --> 00:16:14,519
+really represent inside an algebra
+ 
+
+743
+00:16:14,519 --> 00:16:16,730
+really represent inside an algebra
+to help give an intuitive understanding
+
+744
+00:16:16,730 --> 00:16:16,740
+to help give an intuitive understanding
+ 
+
+745
+00:16:16,740 --> 00:16:19,970
+to help give an intuitive understanding
+of what ideals mean I'm going to use a
+
+746
+00:16:19,970 --> 00:16:19,980
+of what ideals mean I'm going to use a
+ 
+
+747
+00:16:19,980 --> 00:16:22,970
+of what ideals mean I'm going to use a
+kind of metaphor or analogy you
+
+748
+00:16:22,970 --> 00:16:22,980
+kind of metaphor or analogy you
+ 
+
+749
+00:16:22,980 --> 00:16:25,069
+kind of metaphor or analogy you
+shouldn't take what I'm about to say to
+
+750
+00:16:25,069 --> 00:16:25,079
+shouldn't take what I'm about to say to
+ 
+
+751
+00:16:25,079 --> 00:16:27,350
+shouldn't take what I'm about to say to
+literally but it will hopefully help you
+
+752
+00:16:27,350 --> 00:16:27,360
+literally but it will hopefully help you
+ 
+
+753
+00:16:27,360 --> 00:16:29,930
+literally but it will hopefully help you
+understand what ideals mean
+
+754
+00:16:29,930 --> 00:16:29,940
+understand what ideals mean
+ 
+
+755
+00:16:29,940 --> 00:16:32,689
+understand what ideals mean
+in mathematics it's often useful to take
+
+756
+00:16:32,689 --> 00:16:32,699
+in mathematics it's often useful to take
+ 
+
+757
+00:16:32,699 --> 00:16:35,030
+in mathematics it's often useful to take
+a complicated object and cut it up into
+
+758
+00:16:35,030 --> 00:16:35,040
+a complicated object and cut it up into
+ 
+
+759
+00:16:35,040 --> 00:16:38,569
+a complicated object and cut it up into
+simpler pieces for example if we have a
+
+760
+00:16:38,569 --> 00:16:38,579
+simpler pieces for example if we have a
+ 
+
+761
+00:16:38,579 --> 00:16:40,910
+simpler pieces for example if we have a
+three-dimensional Vector space one way
+
+762
+00:16:40,910 --> 00:16:40,920
+three-dimensional Vector space one way
+ 
+
+763
+00:16:40,920 --> 00:16:43,550
+three-dimensional Vector space one way
+to cut it up into simpler pieces is to
+
+764
+00:16:43,550 --> 00:16:43,560
+to cut it up into simpler pieces is to
+ 
+
+765
+00:16:43,560 --> 00:16:47,329
+to cut it up into simpler pieces is to
+introduce some XYZ axes this allows us
+
+766
+00:16:47,329 --> 00:16:47,339
+introduce some XYZ axes this allows us
+ 
+
+767
+00:16:47,339 --> 00:16:49,970
+introduce some XYZ axes this allows us
+to take a vector and break it up into a
+
+768
+00:16:49,970 --> 00:16:49,980
+to take a vector and break it up into a
+ 
+
+769
+00:16:49,980 --> 00:16:53,569
+to take a vector and break it up into a
+sum of X Y and Z components
+
+770
+00:16:53,569 --> 00:16:53,579
+sum of X Y and Z components
+ 
+
+771
+00:16:53,579 --> 00:16:57,170
+sum of X Y and Z components
+when it comes to Rings ideal subsets are
+
+772
+00:16:57,170 --> 00:16:57,180
+when it comes to Rings ideal subsets are
+ 
+
+773
+00:16:57,180 --> 00:17:00,170
+when it comes to Rings ideal subsets are
+sort of like the axes of the Ring they
+
+774
+00:17:00,170 --> 00:17:00,180
+sort of like the axes of the Ring they
+ 
+
+775
+00:17:00,180 --> 00:17:02,329
+sort of like the axes of the Ring they
+allow us to break up members of the Ring
+
+776
+00:17:02,329 --> 00:17:02,339
+allow us to break up members of the Ring
+ 
+
+777
+00:17:02,339 --> 00:17:05,689
+allow us to break up members of the Ring
+into smaller more basic pieces
+
+778
+00:17:05,689 --> 00:17:05,699
+into smaller more basic pieces
+ 
+
+779
+00:17:05,699 --> 00:17:08,210
+into smaller more basic pieces
+for example in the ring of two by two
+
+780
+00:17:08,210 --> 00:17:08,220
+for example in the ring of two by two
+ 
+
+781
+00:17:08,220 --> 00:17:11,210
+for example in the ring of two by two
+matrices we can break up a generic two
+
+782
+00:17:11,210 --> 00:17:11,220
+matrices we can break up a generic two
+ 
+
+783
+00:17:11,220 --> 00:17:14,750
+matrices we can break up a generic two
+by two Matrix into two pieces one piece
+
+784
+00:17:14,750 --> 00:17:14,760
+by two Matrix into two pieces one piece
+ 
+
+785
+00:17:14,760 --> 00:17:16,970
+by two Matrix into two pieces one piece
+where only the First Column is non-zero
+
+786
+00:17:16,970 --> 00:17:16,980
+where only the First Column is non-zero
+ 
+
+787
+00:17:16,980 --> 00:17:19,130
+where only the First Column is non-zero
+and one piece where only the second
+
+788
+00:17:19,130 --> 00:17:19,140
+and one piece where only the second
+ 
+
+789
+00:17:19,140 --> 00:17:22,429
+and one piece where only the second
+column is non-zero each of these pieces
+
+790
+00:17:22,429 --> 00:17:22,439
+column is non-zero each of these pieces
+ 
+
+791
+00:17:22,439 --> 00:17:25,789
+column is non-zero each of these pieces
+represents a left ideal subset as we
+
+792
+00:17:25,789 --> 00:17:25,799
+represents a left ideal subset as we
+ 
+
+793
+00:17:25,799 --> 00:17:27,409
+represents a left ideal subset as we
+showed earlier
+
+794
+00:17:27,409 --> 00:17:27,419
+showed earlier
+ 
+
+795
+00:17:27,419 --> 00:17:30,169
+showed earlier
+these ideal subsets are sort of like the
+
+796
+00:17:30,169 --> 00:17:30,179
+these ideal subsets are sort of like the
+ 
+
+797
+00:17:30,179 --> 00:17:33,590
+these ideal subsets are sort of like the
+axes of our ring we can add pieces from
+
+798
+00:17:33,590 --> 00:17:33,600
+axes of our ring we can add pieces from
+ 
+
+799
+00:17:33,600 --> 00:17:36,470
+axes of our ring we can add pieces from
+our ideal subsets together to get any
+
+800
+00:17:36,470 --> 00:17:36,480
+our ideal subsets together to get any
+ 
+
+801
+00:17:36,480 --> 00:17:39,470
+our ideal subsets together to get any
+arbitrary two by two Matrix
+
+802
+00:17:39,470 --> 00:17:39,480
+arbitrary two by two Matrix
+ 
+
+803
+00:17:39,480 --> 00:17:41,810
+arbitrary two by two Matrix
+we could also break this ring up into
+
+804
+00:17:41,810 --> 00:17:41,820
+we could also break this ring up into
+ 
+
+805
+00:17:41,820 --> 00:17:44,690
+we could also break this ring up into
+right ideal subsets where only the top
+
+806
+00:17:44,690 --> 00:17:44,700
+right ideal subsets where only the top
+ 
+
+807
+00:17:44,700 --> 00:17:47,330
+right ideal subsets where only the top
+row is non-zero and only the bottom row
+
+808
+00:17:47,330 --> 00:17:47,340
+row is non-zero and only the bottom row
+ 
+
+809
+00:17:47,340 --> 00:17:48,710
+row is non-zero and only the bottom row
+is non-zero
+
+810
+00:17:48,710 --> 00:17:48,720
+is non-zero
+ 
+
+811
+00:17:48,720 --> 00:17:50,630
+is non-zero
+this can be thought of as a different
+
+812
+00:17:50,630 --> 00:17:50,640
+this can be thought of as a different
+ 
+
+813
+00:17:50,640 --> 00:17:53,390
+this can be thought of as a different
+pair of axes for breaking up our ring
+
+814
+00:17:53,390 --> 00:17:53,400
+pair of axes for breaking up our ring
+ 
+
+815
+00:17:53,400 --> 00:17:57,289
+pair of axes for breaking up our ring
+members into ideal components
+
+816
+00:17:57,289 --> 00:17:57,299
+members into ideal components
+ 
+
+817
+00:17:57,299 --> 00:18:00,590
+members into ideal components
+now this axis metaphor doesn't work for
+
+818
+00:18:00,590 --> 00:18:00,600
+now this axis metaphor doesn't work for
+ 
+
+819
+00:18:00,600 --> 00:18:04,010
+now this axis metaphor doesn't work for
+all ideals for example it does not work
+
+820
+00:18:04,010 --> 00:18:04,020
+all ideals for example it does not work
+ 
+
+821
+00:18:04,020 --> 00:18:06,169
+all ideals for example it does not work
+for the multiples of three inside the
+
+822
+00:18:06,169 --> 00:18:06,179
+for the multiples of three inside the
+ 
+
+823
+00:18:06,179 --> 00:18:07,370
+for the multiples of three inside the
+integers
+
+824
+00:18:07,370 --> 00:18:07,380
+integers
+ 
+
+825
+00:18:07,380 --> 00:18:10,430
+integers
+but the metaphor does work if our ideal
+
+826
+00:18:10,430 --> 00:18:10,440
+but the metaphor does work if our ideal
+ 
+
+827
+00:18:10,440 --> 00:18:12,950
+but the metaphor does work if our ideal
+is connected to a projector
+
+828
+00:18:12,950 --> 00:18:12,960
+is connected to a projector
+ 
+
+829
+00:18:12,960 --> 00:18:14,750
+is connected to a projector
+and here is where we get to the main
+
+830
+00:18:14,750 --> 00:18:14,760
+and here is where we get to the main
+ 
+
+831
+00:18:14,760 --> 00:18:17,090
+and here is where we get to the main
+point of this video where we bring
+
+832
+00:18:17,090 --> 00:18:17,100
+point of this video where we bring
+ 
+
+833
+00:18:17,100 --> 00:18:20,210
+point of this video where we bring
+projectors and ideals together
+
+834
+00:18:20,210 --> 00:18:20,220
+projectors and ideals together
+ 
+
+835
+00:18:20,220 --> 00:18:22,850
+projectors and ideals together
+if we find a projector inside our ring
+
+836
+00:18:22,850 --> 00:18:22,860
+if we find a projector inside our ring
+ 
+
+837
+00:18:22,860 --> 00:18:25,490
+if we find a projector inside our ring
+or algebra it turns out that if this
+
+838
+00:18:25,490 --> 00:18:25,500
+or algebra it turns out that if this
+ 
+
+839
+00:18:25,500 --> 00:18:27,950
+or algebra it turns out that if this
+projector acts on the entire ring or
+
+840
+00:18:27,950 --> 00:18:27,960
+projector acts on the entire ring or
+ 
+
+841
+00:18:27,960 --> 00:18:30,830
+projector acts on the entire ring or
+algebra the resulting set will be an
+
+842
+00:18:30,830 --> 00:18:30,840
+algebra the resulting set will be an
+ 
+
+843
+00:18:30,840 --> 00:18:32,150
+algebra the resulting set will be an
+ideal
+
+844
+00:18:32,150 --> 00:18:32,160
+ideal
+ 
+
+845
+00:18:32,160 --> 00:18:35,090
+ideal
+in other words every projector in a ring
+
+846
+00:18:35,090 --> 00:18:35,100
+in other words every projector in a ring
+ 
+
+847
+00:18:35,100 --> 00:18:37,430
+in other words every projector in a ring
+creates an ideal
+
+848
+00:18:37,430 --> 00:18:37,440
+creates an ideal
+ 
+
+849
+00:18:37,440 --> 00:18:39,950
+creates an ideal
+recall the two projectors we defined in
+
+850
+00:18:39,950 --> 00:18:39,960
+recall the two projectors we defined in
+ 
+
+851
+00:18:39,960 --> 00:18:44,330
+recall the two projectors we defined in
+the Clifford algebra cl30 which were pz
+
+852
+00:18:44,330 --> 00:18:44,340
+the Clifford algebra cl30 which were pz
+ 
+
+853
+00:18:44,340 --> 00:18:46,789
+the Clifford algebra cl30 which were pz
+plus and pz minus
+
+854
+00:18:46,789 --> 00:18:46,799
+plus and pz minus
+ 
+
+855
+00:18:46,799 --> 00:18:50,390
+plus and pz minus
+when we multiply a matrix M onto pz plus
+
+856
+00:18:50,390 --> 00:18:50,400
+when we multiply a matrix M onto pz plus
+ 
+
+857
+00:18:50,400 --> 00:18:53,150
+when we multiply a matrix M onto pz plus
+from the left we get a matrix where only
+
+858
+00:18:53,150 --> 00:18:53,160
+from the left we get a matrix where only
+ 
+
+859
+00:18:53,160 --> 00:18:56,330
+from the left we get a matrix where only
+the First Column is non-zero which is an
+
+860
+00:18:56,330 --> 00:18:56,340
+the First Column is non-zero which is an
+ 
+
+861
+00:18:56,340 --> 00:18:59,270
+the First Column is non-zero which is an
+ideal subset and when we multiply a
+
+862
+00:18:59,270 --> 00:18:59,280
+ideal subset and when we multiply a
+ 
+
+863
+00:18:59,280 --> 00:19:02,750
+ideal subset and when we multiply a
+matrix M onto pz minus from the left we
+
+864
+00:19:02,750 --> 00:19:02,760
+matrix M onto pz minus from the left we
+ 
+
+865
+00:19:02,760 --> 00:19:04,490
+matrix M onto pz minus from the left we
+get a matrix where only the second
+
+866
+00:19:04,490 --> 00:19:04,500
+get a matrix where only the second
+ 
+
+867
+00:19:04,500 --> 00:19:07,370
+get a matrix where only the second
+column is non-zero which is also an
+
+868
+00:19:07,370 --> 00:19:07,380
+column is non-zero which is also an
+ 
+
+869
+00:19:07,380 --> 00:19:09,049
+column is non-zero which is also an
+ideal subset
+
+870
+00:19:09,049 --> 00:19:09,059
+ideal subset
+ 
+
+871
+00:19:09,059 --> 00:19:11,690
+ideal subset
+so each of these projectors creates an
+
+872
+00:19:11,690 --> 00:19:11,700
+so each of these projectors creates an
+ 
+
+873
+00:19:11,700 --> 00:19:13,370
+so each of these projectors creates an
+ideal subset
+
+874
+00:19:13,370 --> 00:19:13,380
+ideal subset
+ 
+
+875
+00:19:13,380 --> 00:19:16,490
+ideal subset
+if we take the two projected ideals and
+
+876
+00:19:16,490 --> 00:19:16,500
+if we take the two projected ideals and
+ 
+
+877
+00:19:16,500 --> 00:19:19,010
+if we take the two projected ideals and
+add them back together we get the entire
+
+878
+00:19:19,010 --> 00:19:19,020
+add them back together we get the entire
+ 
+
+879
+00:19:19,020 --> 00:19:22,310
+add them back together we get the entire
+original space of two by two matrices
+
+880
+00:19:22,310 --> 00:19:22,320
+original space of two by two matrices
+ 
+
+881
+00:19:22,320 --> 00:19:24,590
+original space of two by two matrices
+this is again related to the fact that
+
+882
+00:19:24,590 --> 00:19:24,600
+this is again related to the fact that
+ 
+
+883
+00:19:24,600 --> 00:19:27,890
+this is again related to the fact that
+pz plus and pz minus add together to
+
+884
+00:19:27,890 --> 00:19:27,900
+pz plus and pz minus add together to
+ 
+
+885
+00:19:27,900 --> 00:19:30,110
+pz plus and pz minus add together to
+give one
+
+886
+00:19:30,110 --> 00:19:30,120
+give one
+ 
+
+887
+00:19:30,120 --> 00:19:32,390
+give one
+if we act on these projectors from the
+
+888
+00:19:32,390 --> 00:19:32,400
+if we act on these projectors from the
+ 
+
+889
+00:19:32,400 --> 00:19:35,390
+if we act on these projectors from the
+right instead we get the top row ideal
+
+890
+00:19:35,390 --> 00:19:35,400
+right instead we get the top row ideal
+ 
+
+891
+00:19:35,400 --> 00:19:38,570
+right instead we get the top row ideal
+and bottom row ideal instead which are
+
+892
+00:19:38,570 --> 00:19:38,580
+and bottom row ideal instead which are
+ 
+
+893
+00:19:38,580 --> 00:19:40,970
+and bottom row ideal instead which are
+right ideals
+
+894
+00:19:40,970 --> 00:19:40,980
+right ideals
+ 
+
+895
+00:19:40,980 --> 00:19:43,370
+right ideals
+let's go ahead and prove that projectors
+
+896
+00:19:43,370 --> 00:19:43,380
+let's go ahead and prove that projectors
+ 
+
+897
+00:19:43,380 --> 00:19:46,490
+let's go ahead and prove that projectors
+lead to ideals recall that an ideal
+
+898
+00:19:46,490 --> 00:19:46,500
+lead to ideals recall that an ideal
+ 
+
+899
+00:19:46,500 --> 00:19:48,529
+lead to ideals recall that an ideal
+subset must satisfy this addition
+
+900
+00:19:48,529 --> 00:19:48,539
+subset must satisfy this addition
+ 
+
+901
+00:19:48,539 --> 00:19:50,690
+subset must satisfy this addition
+property and this multiplication
+
+902
+00:19:50,690 --> 00:19:50,700
+property and this multiplication
+ 
+
+903
+00:19:50,700 --> 00:19:52,070
+property and this multiplication
+property
+
+904
+00:19:52,070 --> 00:19:52,080
+property
+ 
+
+905
+00:19:52,080 --> 00:19:55,310
+property
+let's take a ring r with two orthogonal
+
+906
+00:19:55,310 --> 00:19:55,320
+let's take a ring r with two orthogonal
+ 
+
+907
+00:19:55,320 --> 00:19:59,570
+let's take a ring r with two orthogonal
+projectors P1 and P2 where P1 and P2 add
+
+908
+00:19:59,570 --> 00:19:59,580
+projectors P1 and P2 where P1 and P2 add
+ 
+
+909
+00:19:59,580 --> 00:20:03,590
+projectors P1 and P2 where P1 and P2 add
+2 1 and multiply to give zero
+
+910
+00:20:03,590 --> 00:20:03,600
+2 1 and multiply to give zero
+ 
+
+911
+00:20:03,600 --> 00:20:06,529
+2 1 and multiply to give zero
+we get the set i1 from multiplying the
+
+912
+00:20:06,529 --> 00:20:06,539
+we get the set i1 from multiplying the
+ 
+
+913
+00:20:06,539 --> 00:20:09,950
+we get the set i1 from multiplying the
+ring R onto the projector P1 from the
+
+914
+00:20:09,950 --> 00:20:09,960
+ring R onto the projector P1 from the
+ 
+
+915
+00:20:09,960 --> 00:20:14,090
+ring R onto the projector P1 from the
+left and so i1 is a left ideal
+
+916
+00:20:14,090 --> 00:20:14,100
+left and so i1 is a left ideal
+ 
+
+917
+00:20:14,100 --> 00:20:17,029
+left and so i1 is a left ideal
+let's first prove the addition property
+
+918
+00:20:17,029 --> 00:20:17,039
+let's first prove the addition property
+ 
+
+919
+00:20:17,039 --> 00:20:19,850
+let's first prove the addition property
+two ideal members must add together to
+
+920
+00:20:19,850 --> 00:20:19,860
+two ideal members must add together to
+ 
+
+921
+00:20:19,860 --> 00:20:23,210
+two ideal members must add together to
+give another ideal member if small R and
+
+922
+00:20:23,210 --> 00:20:23,220
+give another ideal member if small R and
+ 
+
+923
+00:20:23,220 --> 00:20:26,510
+give another ideal member if small R and
+small s are members of the Ring then rp1
+
+924
+00:20:26,510 --> 00:20:26,520
+small s are members of the Ring then rp1
+ 
+
+925
+00:20:26,520 --> 00:20:30,169
+small s are members of the Ring then rp1
+and sp1 are in the set i1
+
+926
+00:20:30,169 --> 00:20:30,179
+and sp1 are in the set i1
+ 
+
+927
+00:20:30,179 --> 00:20:33,650
+and sp1 are in the set i1
+basically any member multiplied onto P1
+
+928
+00:20:33,650 --> 00:20:33,660
+basically any member multiplied onto P1
+ 
+
+929
+00:20:33,660 --> 00:20:36,409
+basically any member multiplied onto P1
+from the left is defined as being inside
+
+930
+00:20:36,409 --> 00:20:36,419
+from the left is defined as being inside
+ 
+
+931
+00:20:36,419 --> 00:20:38,990
+from the left is defined as being inside
+the set i1
+
+932
+00:20:38,990 --> 00:20:39,000
+the set i1
+ 
+
+933
+00:20:39,000 --> 00:20:41,330
+the set i1
+adding these elements together gives us
+
+934
+00:20:41,330 --> 00:20:41,340
+adding these elements together gives us
+ 
+
+935
+00:20:41,340 --> 00:20:44,990
+adding these elements together gives us
+small R plus small s times P1 which is
+
+936
+00:20:44,990 --> 00:20:45,000
+small R plus small s times P1 which is
+ 
+
+937
+00:20:45,000 --> 00:20:47,690
+small R plus small s times P1 which is
+also in i1 by definition
+
+938
+00:20:47,690 --> 00:20:47,700
+also in i1 by definition
+ 
+
+939
+00:20:47,700 --> 00:20:49,909
+also in i1 by definition
+now let's prove the left multiplication
+
+940
+00:20:49,909 --> 00:20:49,919
+now let's prove the left multiplication
+ 
+
+941
+00:20:49,919 --> 00:20:52,730
+now let's prove the left multiplication
+property left multiplying any ring
+
+942
+00:20:52,730 --> 00:20:52,740
+property left multiplying any ring
+ 
+
+943
+00:20:52,740 --> 00:20:55,190
+property left multiplying any ring
+member onto an ideal member gives us
+
+944
+00:20:55,190 --> 00:20:55,200
+member onto an ideal member gives us
+ 
+
+945
+00:20:55,200 --> 00:20:58,310
+member onto an ideal member gives us
+another ideal member if small R and
+
+946
+00:20:58,310 --> 00:20:58,320
+another ideal member if small R and
+ 
+
+947
+00:20:58,320 --> 00:21:01,430
+another ideal member if small R and
+small s are members of the Ring then rp1
+
+948
+00:21:01,430 --> 00:21:01,440
+small s are members of the Ring then rp1
+ 
+
+949
+00:21:01,440 --> 00:21:05,570
+small s are members of the Ring then rp1
+is in the set i1 if we multiply from the
+
+950
+00:21:05,570 --> 00:21:05,580
+is in the set i1 if we multiply from the
+ 
+
+951
+00:21:05,580 --> 00:21:08,990
+is in the set i1 if we multiply from the
+left by small s we get small s small R
+
+952
+00:21:08,990 --> 00:21:09,000
+left by small s we get small s small R
+ 
+
+953
+00:21:09,000 --> 00:21:12,710
+left by small s we get small s small R
+times P1 which is also in the set i1 by
+
+954
+00:21:12,710 --> 00:21:12,720
+times P1 which is also in the set i1 by
+ 
+
+955
+00:21:12,720 --> 00:21:14,029
+times P1 which is also in the set i1 by
+definition
+
+956
+00:21:14,029 --> 00:21:14,039
+definition
+ 
+
+957
+00:21:14,039 --> 00:21:17,690
+definition
+so this proves that i1 is an ideal the
+
+958
+00:21:17,690 --> 00:21:17,700
+so this proves that i1 is an ideal the
+ 
+
+959
+00:21:17,700 --> 00:21:19,370
+so this proves that i1 is an ideal the
+same reasoning can be used to show that
+
+960
+00:21:19,370 --> 00:21:19,380
+same reasoning can be used to show that
+ 
+
+961
+00:21:19,380 --> 00:21:25,190
+same reasoning can be used to show that
+the set I2 equals R times P2 is an ideal
+
+962
+00:21:25,190 --> 00:21:25,200
+the set I2 equals R times P2 is an ideal
+ 
+
+963
+00:21:25,200 --> 00:21:28,789
+the set I2 equals R times P2 is an ideal
+now an important fact is that two ideals
+
+964
+00:21:28,789 --> 00:21:28,799
+now an important fact is that two ideals
+ 
+
+965
+00:21:28,799 --> 00:21:32,930
+now an important fact is that two ideals
+i1 and I2 share no members except zero
+
+966
+00:21:32,930 --> 00:21:32,940
+i1 and I2 share no members except zero
+ 
+
+967
+00:21:32,940 --> 00:21:35,510
+i1 and I2 share no members except zero
+if their respective projectors are
+
+968
+00:21:35,510 --> 00:21:35,520
+if their respective projectors are
+ 
+
+969
+00:21:35,520 --> 00:21:36,890
+if their respective projectors are
+orthogonal
+
+970
+00:21:36,890 --> 00:21:36,900
+orthogonal
+ 
+
+971
+00:21:36,900 --> 00:21:39,409
+orthogonal
+in other words the intersection of Ideal
+
+972
+00:21:39,409 --> 00:21:39,419
+in other words the intersection of Ideal
+ 
+
+973
+00:21:39,419 --> 00:21:44,090
+in other words the intersection of Ideal
+sets i1 and I2 is just the zero element
+
+974
+00:21:44,090 --> 00:21:44,100
+sets i1 and I2 is just the zero element
+ 
+
+975
+00:21:44,100 --> 00:21:46,850
+sets i1 and I2 is just the zero element
+this makes sense with our axis metaphor
+
+976
+00:21:46,850 --> 00:21:46,860
+this makes sense with our axis metaphor
+ 
+
+977
+00:21:46,860 --> 00:21:49,970
+this makes sense with our axis metaphor
+of ideals where the only place two axes
+
+978
+00:21:49,970 --> 00:21:49,980
+of ideals where the only place two axes
+ 
+
+979
+00:21:49,980 --> 00:21:53,390
+of ideals where the only place two axes
+intersect is the origin or zero
+
+980
+00:21:53,390 --> 00:21:53,400
+intersect is the origin or zero
+ 
+
+981
+00:21:53,400 --> 00:21:55,610
+intersect is the origin or zero
+however this is just a metaphorical
+
+982
+00:21:55,610 --> 00:21:55,620
+however this is just a metaphorical
+ 
+
+983
+00:21:55,620 --> 00:21:57,890
+however this is just a metaphorical
+picture and we still need to actually
+
+984
+00:21:57,890 --> 00:21:57,900
+picture and we still need to actually
+ 
+
+985
+00:21:57,900 --> 00:21:59,930
+picture and we still need to actually
+prove this is true
+
+986
+00:21:59,930 --> 00:21:59,940
+prove this is true
+ 
+
+987
+00:21:59,940 --> 00:22:03,830
+prove this is true
+looking at our ring R the ideal i1 is a
+
+988
+00:22:03,830 --> 00:22:03,840
+looking at our ring R the ideal i1 is a
+ 
+
+989
+00:22:03,840 --> 00:22:07,010
+looking at our ring R the ideal i1 is a
+subset inside of R if we take a bunch of
+
+990
+00:22:07,010 --> 00:22:07,020
+subset inside of R if we take a bunch of
+ 
+
+991
+00:22:07,020 --> 00:22:09,649
+subset inside of R if we take a bunch of
+ring elements and project them using
+
+992
+00:22:09,649 --> 00:22:09,659
+ring elements and project them using
+ 
+
+993
+00:22:09,659 --> 00:22:12,890
+ring elements and project them using
+projector P1 they will all end up inside
+
+994
+00:22:12,890 --> 00:22:12,900
+projector P1 they will all end up inside
+ 
+
+995
+00:22:12,900 --> 00:22:15,350
+projector P1 they will all end up inside
+the ideal i1
+
+996
+00:22:15,350 --> 00:22:15,360
+the ideal i1
+ 
+
+997
+00:22:15,360 --> 00:22:18,890
+the ideal i1
+let's take this element AP1 and give it
+
+998
+00:22:18,890 --> 00:22:18,900
+let's take this element AP1 and give it
+ 
+
+999
+00:22:18,900 --> 00:22:20,990
+let's take this element AP1 and give it
+the name small r
+
+1000
+00:22:20,990 --> 00:22:21,000
+the name small r
+ 
+
+1001
+00:22:21,000 --> 00:22:23,690
+the name small r
+remember projecting twice is the same
+
+1002
+00:22:23,690 --> 00:22:23,700
+remember projecting twice is the same
+ 
+
+1003
+00:22:23,700 --> 00:22:26,750
+remember projecting twice is the same
+thing as projecting once so projecting
+
+1004
+00:22:26,750 --> 00:22:26,760
+thing as projecting once so projecting
+ 
+
+1005
+00:22:26,760 --> 00:22:30,289
+thing as projecting once so projecting
+the ideal member AP1 again does not
+
+1006
+00:22:30,289 --> 00:22:30,299
+the ideal member AP1 again does not
+ 
+
+1007
+00:22:30,299 --> 00:22:32,570
+the ideal member AP1 again does not
+change its value in other words
+
+1008
+00:22:32,570 --> 00:22:32,580
+change its value in other words
+ 
+
+1009
+00:22:32,580 --> 00:22:35,630
+change its value in other words
+projecting an ideal member small R does
+
+1010
+00:22:35,630 --> 00:22:35,640
+projecting an ideal member small R does
+ 
+
+1011
+00:22:35,640 --> 00:22:37,789
+projecting an ideal member small R does
+not change its value
+
+1012
+00:22:37,789 --> 00:22:37,799
+not change its value
+ 
+
+1013
+00:22:37,799 --> 00:22:40,850
+not change its value
+now let's assume a ring member small R
+
+1014
+00:22:40,850 --> 00:22:40,860
+now let's assume a ring member small R
+ 
+
+1015
+00:22:40,860 --> 00:22:44,870
+now let's assume a ring member small R
+belongs to two orthogonal ideals i1 and
+
+1016
+00:22:44,870 --> 00:22:44,880
+belongs to two orthogonal ideals i1 and
+ 
+
+1017
+00:22:44,880 --> 00:22:48,710
+belongs to two orthogonal ideals i1 and
+I2 so projecting R using P1 doesn't
+
+1018
+00:22:48,710 --> 00:22:48,720
+I2 so projecting R using P1 doesn't
+ 
+
+1019
+00:22:48,720 --> 00:22:51,529
+I2 so projecting R using P1 doesn't
+change its value and projecting small R
+
+1020
+00:22:51,529 --> 00:22:51,539
+change its value and projecting small R
+ 
+
+1021
+00:22:51,539 --> 00:22:55,730
+change its value and projecting small R
+using P2 also doesn't change its value
+
+1022
+00:22:55,730 --> 00:22:55,740
+using P2 also doesn't change its value
+ 
+
+1023
+00:22:55,740 --> 00:23:00,110
+using P2 also doesn't change its value
+so small rp1 equals small rp2
+
+1024
+00:23:00,110 --> 00:23:00,120
+so small rp1 equals small rp2
+ 
+
+1025
+00:23:00,120 --> 00:23:02,930
+so small rp1 equals small rp2
+multiplying both sides by P1 on the
+
+1026
+00:23:02,930 --> 00:23:02,940
+multiplying both sides by P1 on the
+ 
+
+1027
+00:23:02,940 --> 00:23:06,890
+multiplying both sides by P1 on the
+right P1 squared gives P1 and P2 times
+
+1028
+00:23:06,890 --> 00:23:06,900
+right P1 squared gives P1 and P2 times
+ 
+
+1029
+00:23:06,900 --> 00:23:10,789
+right P1 squared gives P1 and P2 times
+P1 gives zero since they are orthogonal
+
+1030
+00:23:10,789 --> 00:23:10,799
+P1 gives zero since they are orthogonal
+ 
+
+1031
+00:23:10,799 --> 00:23:13,430
+P1 gives zero since they are orthogonal
+so this means the projection of small R
+
+1032
+00:23:13,430 --> 00:23:13,440
+so this means the projection of small R
+ 
+
+1033
+00:23:13,440 --> 00:23:16,970
+so this means the projection of small R
+is zero which means that small R itself
+
+1034
+00:23:16,970 --> 00:23:16,980
+is zero which means that small R itself
+ 
+
+1035
+00:23:16,980 --> 00:23:20,570
+is zero which means that small R itself
+is zero since small R was already in the
+
+1036
+00:23:20,570 --> 00:23:20,580
+is zero since small R was already in the
+ 
+
+1037
+00:23:20,580 --> 00:23:21,529
+is zero since small R was already in the
+ideal
+
+1038
+00:23:21,529 --> 00:23:21,539
+ideal
+ 
+
+1039
+00:23:21,539 --> 00:23:23,450
+ideal
+this completes the proof that the only
+
+1040
+00:23:23,450 --> 00:23:23,460
+this completes the proof that the only
+ 
+
+1041
+00:23:23,460 --> 00:23:28,730
+this completes the proof that the only
+member i1 and I2 have in common is zero
+
+1042
+00:23:28,730 --> 00:23:28,740
+member i1 and I2 have in common is zero
+ 
+
+1043
+00:23:28,740 --> 00:23:32,690
+member i1 and I2 have in common is zero
+so the metaphor of axes for ideals is a
+
+1044
+00:23:32,690 --> 00:23:32,700
+so the metaphor of axes for ideals is a
+ 
+
+1045
+00:23:32,700 --> 00:23:35,149
+so the metaphor of axes for ideals is a
+decent visualization the only element
+
+1046
+00:23:35,149 --> 00:23:35,159
+decent visualization the only element
+ 
+
+1047
+00:23:35,159 --> 00:23:37,730
+decent visualization the only element
+that the axes have in common is the
+
+1048
+00:23:37,730 --> 00:23:37,740
+that the axes have in common is the
+ 
+
+1049
+00:23:37,740 --> 00:23:40,789
+that the axes have in common is the
+origin zero and the only element that
+
+1050
+00:23:40,789 --> 00:23:40,799
+origin zero and the only element that
+ 
+
+1051
+00:23:40,799 --> 00:23:43,010
+origin zero and the only element that
+ideals from orthogonal projectors have
+
+1052
+00:23:43,010 --> 00:23:43,020
+ideals from orthogonal projectors have
+ 
+
+1053
+00:23:43,020 --> 00:23:47,270
+ideals from orthogonal projectors have
+in common is the Ring's zero element
+
+1054
+00:23:47,270 --> 00:23:47,280
+in common is the Ring's zero element
+ 
+
+1055
+00:23:47,280 --> 00:23:50,149
+in common is the Ring's zero element
+finally note that it's possible for some
+
+1056
+00:23:50,149 --> 00:23:50,159
+finally note that it's possible for some
+ 
+
+1057
+00:23:50,159 --> 00:23:52,970
+finally note that it's possible for some
+ideals to live inside other ideals as
+
+1058
+00:23:52,970 --> 00:23:52,980
+ideals to live inside other ideals as
+ 
+
+1059
+00:23:52,980 --> 00:23:54,169
+ideals to live inside other ideals as
+subsets
+
+1060
+00:23:54,169 --> 00:23:54,179
+subsets
+ 
+
+1061
+00:23:54,179 --> 00:23:56,750
+subsets
+Loosely speaking this is similar to how
+
+1062
+00:23:56,750 --> 00:23:56,760
+Loosely speaking this is similar to how
+ 
+
+1063
+00:23:56,760 --> 00:23:59,330
+Loosely speaking this is similar to how
+we can project onto the X Y plane and
+
+1064
+00:23:59,330 --> 00:23:59,340
+we can project onto the X Y plane and
+ 
+
+1065
+00:23:59,340 --> 00:24:02,570
+we can project onto the X Y plane and
+also project onto the x-axis but the
+
+1066
+00:24:02,570 --> 00:24:02,580
+also project onto the x-axis but the
+ 
+
+1067
+00:24:02,580 --> 00:24:06,350
+also project onto the x-axis but the
+x-axis is a subset of the X Y plane
+
+1068
+00:24:06,350 --> 00:24:06,360
+x-axis is a subset of the X Y plane
+ 
+
+1069
+00:24:06,360 --> 00:24:09,470
+x-axis is a subset of the X Y plane
+if an ideal has no sub ideals inside of
+
+1070
+00:24:09,470 --> 00:24:09,480
+if an ideal has no sub ideals inside of
+ 
+
+1071
+00:24:09,480 --> 00:24:12,409
+if an ideal has no sub ideals inside of
+it we call it a minimal ideal
+
+1072
+00:24:12,409 --> 00:24:12,419
+it we call it a minimal ideal
+ 
+
+1073
+00:24:12,419 --> 00:24:15,230
+it we call it a minimal ideal
+minimal ideals correspond to minimal
+
+1074
+00:24:15,230 --> 00:24:15,240
+minimal ideals correspond to minimal
+ 
+
+1075
+00:24:15,240 --> 00:24:17,750
+minimal ideals correspond to minimal
+projectors which are projectors that
+
+1076
+00:24:17,750 --> 00:24:17,760
+projectors which are projectors that
+ 
+
+1077
+00:24:17,760 --> 00:24:19,730
+projectors which are projectors that
+cannot be written as a sum of other
+
+1078
+00:24:19,730 --> 00:24:19,740
+cannot be written as a sum of other
+ 
+
+1079
+00:24:19,740 --> 00:24:22,310
+cannot be written as a sum of other
+projectors
+
+1080
+00:24:22,310 --> 00:24:22,320
+projectors
+ 
+
+1081
+00:24:22,320 --> 00:24:24,350
+projectors
+let's summarize everything we've learned
+
+1082
+00:24:24,350 --> 00:24:24,360
+let's summarize everything we've learned
+ 
+
+1083
+00:24:24,360 --> 00:24:27,230
+let's summarize everything we've learned
+in this video projectors are operators
+
+1084
+00:24:27,230 --> 00:24:27,240
+in this video projectors are operators
+ 
+
+1085
+00:24:27,240 --> 00:24:29,690
+in this video projectors are operators
+that square to themselves and two
+
+1086
+00:24:29,690 --> 00:24:29,700
+that square to themselves and two
+ 
+
+1087
+00:24:29,700 --> 00:24:31,669
+that square to themselves and two
+projectors are orthogonal if they
+
+1088
+00:24:31,669 --> 00:24:31,679
+projectors are orthogonal if they
+ 
+
+1089
+00:24:31,679 --> 00:24:35,090
+projectors are orthogonal if they
+multiply to give zero ideals are special
+
+1090
+00:24:35,090 --> 00:24:35,100
+multiply to give zero ideals are special
+ 
+
+1091
+00:24:35,100 --> 00:24:37,850
+multiply to give zero ideals are special
+subsets inside rings and algebras that
+
+1092
+00:24:37,850 --> 00:24:37,860
+subsets inside rings and algebras that
+ 
+
+1093
+00:24:37,860 --> 00:24:40,850
+subsets inside rings and algebras that
+are like black holes because ideals suck
+
+1094
+00:24:40,850 --> 00:24:40,860
+are like black holes because ideals suck
+ 
+
+1095
+00:24:40,860 --> 00:24:43,190
+are like black holes because ideals suck
+other ring elements inside of them so
+
+1096
+00:24:43,190 --> 00:24:43,200
+other ring elements inside of them so
+ 
+
+1097
+00:24:43,200 --> 00:24:45,049
+other ring elements inside of them so
+that they can't escape
+
+1098
+00:24:45,049 --> 00:24:45,059
+that they can't escape
+ 
+
+1099
+00:24:45,059 --> 00:24:47,510
+that they can't escape
+addition and multiplication always bring
+
+1100
+00:24:47,510 --> 00:24:47,520
+addition and multiplication always bring
+ 
+
+1101
+00:24:47,520 --> 00:24:49,909
+addition and multiplication always bring
+us back inside ideals
+
+1102
+00:24:49,909 --> 00:24:49,919
+us back inside ideals
+ 
+
+1103
+00:24:49,919 --> 00:24:52,130
+us back inside ideals
+finally we learned that there's a
+
+1104
+00:24:52,130 --> 00:24:52,140
+finally we learned that there's a
+ 
+
+1105
+00:24:52,140 --> 00:24:54,350
+finally we learned that there's a
+correspondence between projectors and
+
+1106
+00:24:54,350 --> 00:24:54,360
+correspondence between projectors and
+ 
+
+1107
+00:24:54,360 --> 00:24:57,110
+correspondence between projectors and
+ideals and a projector that acts on a
+
+1108
+00:24:57,110 --> 00:24:57,120
+ideals and a projector that acts on a
+ 
+
+1109
+00:24:57,120 --> 00:24:59,990
+ideals and a projector that acts on a
+ring or algebra will always give us an
+
+1110
+00:24:59,990 --> 00:25:00,000
+ring or algebra will always give us an
+ 
+
+1111
+00:25:00,000 --> 00:25:01,730
+ring or algebra will always give us an
+ideal subset
+
+1112
+00:25:01,730 --> 00:25:01,740
+ideal subset
+ 
+
+1113
+00:25:01,740 --> 00:25:03,890
+ideal subset
+when we have a set of orthogonal
+
+1114
+00:25:03,890 --> 00:25:03,900
+when we have a set of orthogonal
+ 
+
+1115
+00:25:03,900 --> 00:25:06,649
+when we have a set of orthogonal
+projectors that all sum to one the
+
+1116
+00:25:06,649 --> 00:25:06,659
+projectors that all sum to one the
+ 
+
+1117
+00:25:06,659 --> 00:25:09,230
+projectors that all sum to one the
+resulting ideals act like a set of axes
+
+1118
+00:25:09,230 --> 00:25:09,240
+resulting ideals act like a set of axes
+ 
+
+1119
+00:25:09,240 --> 00:25:12,470
+resulting ideals act like a set of axes
+for our ring or algebra they break up
+
+1120
+00:25:12,470 --> 00:25:12,480
+for our ring or algebra they break up
+ 
+
+1121
+00:25:12,480 --> 00:25:15,230
+for our ring or algebra they break up
+the ring or algebra into its most basic
+
+1122
+00:25:15,230 --> 00:25:15,240
+the ring or algebra into its most basic
+ 
+
+1123
+00:25:15,240 --> 00:25:18,169
+the ring or algebra into its most basic
+components adding elements together from
+
+1124
+00:25:18,169 --> 00:25:18,179
+components adding elements together from
+ 
+
+1125
+00:25:18,179 --> 00:25:20,330
+components adding elements together from
+different ideals gives us more General
+
+1126
+00:25:20,330 --> 00:25:20,340
+different ideals gives us more General
+ 
+
+1127
+00:25:20,340 --> 00:25:23,330
+different ideals gives us more General
+members of the ring or algebra
+
+1128
+00:25:23,330 --> 00:25:23,340
+members of the ring or algebra
+ 
+
+1129
+00:25:23,340 --> 00:25:25,909
+members of the ring or algebra
+finally minimal projectors are
+
+1130
+00:25:25,909 --> 00:25:25,919
+finally minimal projectors are
+ 
+
+1131
+00:25:25,919 --> 00:25:28,070
+finally minimal projectors are
+projectors that cannot be written as a
+
+1132
+00:25:28,070 --> 00:25:28,080
+projectors that cannot be written as a
+ 
+
+1133
+00:25:28,080 --> 00:25:31,070
+projectors that cannot be written as a
+sum of other projectors these correspond
+
+1134
+00:25:31,070 --> 00:25:31,080
+sum of other projectors these correspond
+ 
+
+1135
+00:25:31,080 --> 00:25:34,190
+sum of other projectors these correspond
+to minimal ideals which have no ideal
+
+1136
+00:25:34,190 --> 00:25:34,200
+to minimal ideals which have no ideal
+ 
+
+1137
+00:25:34,200 --> 00:25:36,529
+to minimal ideals which have no ideal
+subsets inside of them
+
+1138
+00:25:36,529 --> 00:25:36,539
+subsets inside of them
+ 
+
+1139
+00:25:36,539 --> 00:25:38,510
+subsets inside of them
+we're going to see that elements of
+
+1140
+00:25:38,510 --> 00:25:38,520
+we're going to see that elements of
+ 
+
+1141
+00:25:38,520 --> 00:25:40,190
+we're going to see that elements of
+minimal left ideals and Clifford
+
+1142
+00:25:40,190 --> 00:25:40,200
+minimal left ideals and Clifford
+ 
+
+1143
+00:25:40,200 --> 00:25:43,730
+minimal left ideals and Clifford
+algebras correspond to Spinners in
+
+1144
+00:25:43,730 --> 00:25:43,740
+algebras correspond to Spinners in
+ 
+
+1145
+00:25:43,740 --> 00:25:46,250
+algebras correspond to Spinners in
+particular the two by two matrices with
+
+1146
+00:25:46,250 --> 00:25:46,260
+particular the two by two matrices with
+ 
+
+1147
+00:25:46,260 --> 00:25:48,289
+particular the two by two matrices with
+only the First Column being non-zero
+
+1148
+00:25:48,289 --> 00:25:48,299
+only the First Column being non-zero
+ 
+
+1149
+00:25:48,299 --> 00:25:50,450
+only the First Column being non-zero
+behave essentially like the Pali
+
+1150
+00:25:50,450 --> 00:25:50,460
+behave essentially like the Pali
+ 
+
+1151
+00:25:50,460 --> 00:25:52,490
+behave essentially like the Pali
+Spinners we saw used in quantum
+
+1152
+00:25:52,490 --> 00:25:52,500
+Spinners we saw used in quantum
+ 
+
+1153
+00:25:52,500 --> 00:25:55,130
+Spinners we saw used in quantum
+mechanics and the Jones vectors used in
+
+1154
+00:25:55,130 --> 00:25:55,140
+mechanics and the Jones vectors used in
+ 
+
+1155
+00:25:55,140 --> 00:25:57,590
+mechanics and the Jones vectors used in
+classical Optics that we saw in videos
+
+1156
+00:25:57,590 --> 00:25:57,600
+classical Optics that we saw in videos
+ 
+
+1157
+00:25:57,600 --> 00:25:59,330
+classical Optics that we saw in videos
+two to five
+
+1158
+00:25:59,330 --> 00:25:59,340
+two to five
+ 
+
+1159
+00:25:59,340 --> 00:26:01,370
+two to five
+however I'm going to need another video
+
+1160
+00:26:01,370 --> 00:26:01,380
+however I'm going to need another video
+ 
+
+1161
+00:26:01,380 --> 00:26:04,250
+however I'm going to need another video
+to explain this so in the next video
+
+1162
+00:26:04,250 --> 00:26:04,260
+to explain this so in the next video
+ 
+
+1163
+00:26:04,260 --> 00:26:06,710
+to explain this so in the next video
+I'll show how Spinners are members of
+
+1164
+00:26:06,710 --> 00:26:06,720
+I'll show how Spinners are members of
+ 
+
+1165
+00:26:06,720 --> 00:26:11,480
+I'll show how Spinners are members of
+minimal left ideals in Clifford algebras
+

@@ -1,0 +1,9135 @@
+1
+00:00:00,160 --> 00:00:02,030
+
+in this video I'm finally going to give
+
+2
+00:00:02,030 --> 00:00:02,040
+in this video I'm finally going to give
+ 
+
+3
+00:00:02,040 --> 00:00:04,550
+in this video I'm finally going to give
+a definition of spinners using Clifford
+
+4
+00:00:04,550 --> 00:00:04,560
+a definition of spinners using Clifford
+ 
+
+5
+00:00:04,560 --> 00:00:07,389
+a definition of spinners using Clifford
+algebras Spinners are members of minimal
+
+6
+00:00:07,389 --> 00:00:07,399
+algebras Spinners are members of minimal
+ 
+
+7
+00:00:07,399 --> 00:00:09,669
+algebras Spinners are members of minimal
+left ideals in Clifford
+
+8
+00:00:09,669 --> 00:00:09,679
+left ideals in Clifford
+ 
+
+9
+00:00:09,679 --> 00:00:11,990
+left ideals in Clifford
+algebras this definition is a bit
+
+10
+00:00:11,990 --> 00:00:12,000
+algebras this definition is a bit
+ 
+
+11
+00:00:12,000 --> 00:00:14,470
+algebras this definition is a bit
+abstract but it works in any dimension
+
+12
+00:00:14,470 --> 00:00:14,480
+abstract but it works in any dimension
+ 
+
+13
+00:00:14,480 --> 00:00:16,510
+abstract but it works in any dimension
+for both space and
+
+14
+00:00:16,510 --> 00:00:16,520
+for both space and
+ 
+
+15
+00:00:16,520 --> 00:00:18,670
+for both space and
+SpaceTime we're going to see that the
+
+16
+00:00:18,670 --> 00:00:18,680
+SpaceTime we're going to see that the
+ 
+
+17
+00:00:18,680 --> 00:00:22,150
+SpaceTime we're going to see that the
+2x1 column po Spinners we saw earlier in
+
+18
+00:00:22,150 --> 00:00:22,160
+2x1 column po Spinners we saw earlier in
+ 
+
+19
+00:00:22,160 --> 00:00:24,670
+2x1 column po Spinners we saw earlier in
+the series can be incorporated into
+
+20
+00:00:24,670 --> 00:00:24,680
+the series can be incorporated into
+ 
+
+21
+00:00:24,680 --> 00:00:27,349
+the series can be incorporated into
+Clifford algebras in the form of 2x two
+
+22
+00:00:27,349 --> 00:00:27,359
+Clifford algebras in the form of 2x two
+ 
+
+23
+00:00:27,359 --> 00:00:31,109
+Clifford algebras in the form of 2x two
+matrices where only the First Column is
+
+24
+00:00:31,109 --> 00:00:31,119
+matrices where only the First Column is
+ 
+
+25
+00:00:31,119 --> 00:00:34,030
+matrices where only the First Column is
+nonzero these special matrices belong to
+
+26
+00:00:34,030 --> 00:00:34,040
+nonzero these special matrices belong to
+ 
+
+27
+00:00:34,040 --> 00:00:36,630
+nonzero these special matrices belong to
+a minimal left ideal as we learned in
+
+28
+00:00:36,630 --> 00:00:36,640
+a minimal left ideal as we learned in
+ 
+
+29
+00:00:36,640 --> 00:00:40,069
+a minimal left ideal as we learned in
+the previous video These matrices form a
+
+30
+00:00:40,069 --> 00:00:40,079
+the previous video These matrices form a
+ 
+
+31
+00:00:40,079 --> 00:00:42,950
+the previous video These matrices form a
+left ideal because when a matrix is
+
+32
+00:00:42,950 --> 00:00:42,960
+left ideal because when a matrix is
+ 
+
+33
+00:00:42,960 --> 00:00:45,590
+left ideal because when a matrix is
+Multiplied onto them from the left the
+
+34
+00:00:45,590 --> 00:00:45,600
+Multiplied onto them from the left the
+ 
+
+35
+00:00:45,600 --> 00:00:48,110
+Multiplied onto them from the left the
+result retains the same form of only the
+
+36
+00:00:48,110 --> 00:00:48,120
+result retains the same form of only the
+ 
+
+37
+00:00:48,120 --> 00:00:50,590
+result retains the same form of only the
+First Column being
+
+38
+00:00:50,590 --> 00:00:50,600
+First Column being
+ 
+
+39
+00:00:50,600 --> 00:00:53,510
+First Column being
+nonzero po Spinners are rotated using
+
+40
+00:00:53,510 --> 00:00:53,520
+nonzero po Spinners are rotated using
+ 
+
+41
+00:00:53,520 --> 00:00:55,950
+nonzero po Spinners are rotated using
+single sided Transformations with half
+
+42
+00:00:55,950 --> 00:00:55,960
+single sided Transformations with half
+ 
+
+43
+00:00:55,960 --> 00:00:59,110
+single sided Transformations with half
+angle su2 matrices which is equivalent
+
+44
+00:00:59,110 --> 00:00:59,120
+angle su2 matrices which is equivalent
+ 
+
+45
+00:00:59,120 --> 00:01:02,590
+angle su2 matrices which is equivalent
+to the quatern I in Clifford algebras we
+
+46
+00:01:02,590 --> 00:01:02,600
+to the quatern I in Clifford algebras we
+ 
+
+47
+00:01:02,600 --> 00:01:05,870
+to the quatern I in Clifford algebras we
+write the spinner rotation using a 2x2
+
+48
+00:01:05,870 --> 00:01:05,880
+write the spinner rotation using a 2x2
+ 
+
+49
+00:01:05,880 --> 00:01:08,390
+write the spinner rotation using a 2x2
+matrix acted on by a half angle member
+
+50
+00:01:08,390 --> 00:01:08,400
+matrix acted on by a half angle member
+ 
+
+51
+00:01:08,400 --> 00:01:11,230
+matrix acted on by a half angle member
+of the spin 3 Group which is equivalent
+
+52
+00:01:11,230 --> 00:01:11,240
+of the spin 3 Group which is equivalent
+ 
+
+53
+00:01:11,240 --> 00:01:13,310
+of the spin 3 Group which is equivalent
+to the su2
+
+54
+00:01:13,310 --> 00:01:13,320
+to the su2
+ 
+
+55
+00:01:13,320 --> 00:01:15,510
+to the su2
+matrices this single-sided
+
+56
+00:01:15,510 --> 00:01:15,520
+matrices this single-sided
+ 
+
+57
+00:01:15,520 --> 00:01:18,630
+matrices this single-sided
+transformation is different than vectors
+
+58
+00:01:18,630 --> 00:01:18,640
+transformation is different than vectors
+ 
+
+59
+00:01:18,640 --> 00:01:20,870
+transformation is different than vectors
+which transform with double-sided
+
+60
+00:01:20,870 --> 00:01:20,880
+which transform with double-sided
+ 
+
+61
+00:01:20,880 --> 00:01:23,469
+which transform with double-sided
+Transformations with half angle su2
+
+62
+00:01:23,469 --> 00:01:23,479
+Transformations with half angle su2
+ 
+
+63
+00:01:23,479 --> 00:01:26,149
+Transformations with half angle su2
+matrices or half angle members of the
+
+64
+00:01:26,149 --> 00:01:26,159
+matrices or half angle members of the
+ 
+
+65
+00:01:26,159 --> 00:01:29,429
+matrices or half angle members of the
+spin 3 group if any of that seemed
+
+66
+00:01:29,429 --> 00:01:29,439
+spin 3 group if any of that seemed
+ 
+
+67
+00:01:29,439 --> 00:01:31,910
+spin 3 group if any of that seemed
+confusing I'll explain it all step by
+
+68
+00:01:31,910 --> 00:01:31,920
+confusing I'll explain it all step by
+ 
+
+69
+00:01:31,920 --> 00:01:33,870
+confusing I'll explain it all step by
+step in this
+
+70
+00:01:33,870 --> 00:01:33,880
+step in this
+ 
+
+71
+00:01:33,880 --> 00:01:36,710
+step in this
+video let's start with a quick review of
+
+72
+00:01:36,710 --> 00:01:36,720
+video let's start with a quick review of
+ 
+
+73
+00:01:36,720 --> 00:01:40,230
+video let's start with a quick review of
+Clifford algebras and their Matrix
+
+74
+00:01:40,230 --> 00:01:40,240
+Clifford algebras and their Matrix
+ 
+
+75
+00:01:40,240 --> 00:01:43,030
+Clifford algebras and their Matrix
+representations the Clifford algebra
+
+76
+00:01:43,030 --> 00:01:43,040
+representations the Clifford algebra
+ 
+
+77
+00:01:43,040 --> 00:01:46,310
+representations the Clifford algebra
+clpq is given by P basis vectors that
+
+78
+00:01:46,310 --> 00:01:46,320
+clpq is given by P basis vectors that
+ 
+
+79
+00:01:46,320 --> 00:01:49,789
+clpq is given by P basis vectors that
+square to + 1 and Q basis vectors that
+
+80
+00:01:49,789 --> 00:01:49,799
+square to + 1 and Q basis vectors that
+ 
+
+81
+00:01:49,799 --> 00:01:53,069
+square to + 1 and Q basis vectors that
+square to minus one the basis vectors
+
+82
+00:01:53,069 --> 00:01:53,079
+square to minus one the basis vectors
+ 
+
+83
+00:01:53,079 --> 00:01:55,630
+square to minus one the basis vectors
+are orthogonal and so they anticommute
+
+84
+00:01:55,630 --> 00:01:55,640
+are orthogonal and so they anticommute
+ 
+
+85
+00:01:55,640 --> 00:01:57,789
+are orthogonal and so they anticommute
+with each other so we can swap their
+
+86
+00:01:57,789 --> 00:01:57,799
+with each other so we can swap their
+ 
+
+87
+00:01:57,799 --> 00:02:01,350
+with each other so we can swap their
+order in exchange for a negative sign
+
+88
+00:02:01,350 --> 00:02:01,360
+order in exchange for a negative sign
+ 
+
+89
+00:02:01,360 --> 00:02:02,870
+order in exchange for a negative sign
+for example
+
+90
+00:02:02,870 --> 00:02:02,880
+for example
+ 
+
+91
+00:02:02,880 --> 00:02:06,550
+for example
+cl30 has three basis vectors Sigma X
+
+92
+00:02:06,550 --> 00:02:06,560
+cl30 has three basis vectors Sigma X
+ 
+
+93
+00:02:06,560 --> 00:02:09,869
+cl30 has three basis vectors Sigma X
+Sigma Y and sigma Z that all square to +
+
+94
+00:02:09,869 --> 00:02:09,879
+Sigma Y and sigma Z that all square to +
+ 
+
+95
+00:02:09,879 --> 00:02:13,190
+Sigma Y and sigma Z that all square to +
+one and anti- commute with each other
+
+96
+00:02:13,190 --> 00:02:13,200
+one and anti- commute with each other
+ 
+
+97
+00:02:13,200 --> 00:02:15,509
+one and anti- commute with each other
+this may be more familiar in the Matrix
+
+98
+00:02:15,509 --> 00:02:15,519
+this may be more familiar in the Matrix
+ 
+
+99
+00:02:15,519 --> 00:02:18,190
+this may be more familiar in the Matrix
+representation which is given by the PO
+
+100
+00:02:18,190 --> 00:02:18,200
+representation which is given by the PO
+ 
+
+101
+00:02:18,200 --> 00:02:20,150
+representation which is given by the PO
+or Sigma
+
+102
+00:02:20,150 --> 00:02:20,160
+or Sigma
+ 
+
+103
+00:02:20,160 --> 00:02:23,589
+or Sigma
+matrices let's take a closer look at
+
+104
+00:02:23,589 --> 00:02:23,599
+matrices let's take a closer look at
+ 
+
+105
+00:02:23,599 --> 00:02:26,430
+matrices let's take a closer look at
+cl30 which is built from the three basic
+
+106
+00:02:26,430 --> 00:02:26,440
+cl30 which is built from the three basic
+ 
+
+107
+00:02:26,440 --> 00:02:30,470
+cl30 which is built from the three basic
+vectors Sigma X Sigma Y and sigma Z
+
+108
+00:02:30,470 --> 00:02:30,480
+vectors Sigma X Sigma Y and sigma Z
+ 
+
+109
+00:02:30,480 --> 00:02:32,350
+vectors Sigma X Sigma Y and sigma Z
+but the Clifford algebra
+
+110
+00:02:32,350 --> 00:02:32,360
+but the Clifford algebra
+ 
+
+111
+00:02:32,360 --> 00:02:36,150
+but the Clifford algebra
+cl30 itself is eight dimensional because
+
+112
+00:02:36,150 --> 00:02:36,160
+cl30 itself is eight dimensional because
+ 
+
+113
+00:02:36,160 --> 00:02:39,750
+cl30 itself is eight dimensional because
+it contains one scaler three vectors
+
+114
+00:02:39,750 --> 00:02:39,760
+it contains one scaler three vectors
+ 
+
+115
+00:02:39,760 --> 00:02:44,190
+it contains one scaler three vectors
+three bi vectors and one Tri Vector the
+
+116
+00:02:44,190 --> 00:02:44,200
+three bi vectors and one Tri Vector the
+ 
+
+117
+00:02:44,200 --> 00:02:46,550
+three bi vectors and one Tri Vector the
+bi vectors are sometimes called pseudo
+
+118
+00:02:46,550 --> 00:02:46,560
+bi vectors are sometimes called pseudo
+ 
+
+119
+00:02:46,560 --> 00:02:48,790
+bi vectors are sometimes called pseudo
+vectors because they can be thought of
+
+120
+00:02:48,790 --> 00:02:48,800
+vectors because they can be thought of
+ 
+
+121
+00:02:48,800 --> 00:02:51,110
+vectors because they can be thought of
+as a rotation about an
+
+122
+00:02:51,110 --> 00:02:51,120
+as a rotation about an
+ 
+
+123
+00:02:51,120 --> 00:02:54,229
+as a rotation about an
+axis the tri Vector is sometimes called
+
+124
+00:02:54,229 --> 00:02:54,239
+axis the tri Vector is sometimes called
+ 
+
+125
+00:02:54,239 --> 00:02:56,830
+axis the tri Vector is sometimes called
+the pseudo scaler and is often written
+
+126
+00:02:56,830 --> 00:02:56,840
+the pseudo scaler and is often written
+ 
+
+127
+00:02:56,840 --> 00:02:59,949
+the pseudo scaler and is often written
+as a capital I you can check for
+
+128
+00:02:59,949 --> 00:02:59,959
+as a capital I you can check for
+ 
+
+129
+00:02:59,959 --> 00:03:03,190
+as a capital I you can check for
+yourself that the tri Vector squares to
+
+130
+00:03:03,190 --> 00:03:03,200
+yourself that the tri Vector squares to
+ 
+
+131
+00:03:03,200 --> 00:03:06,190
+yourself that the tri Vector squares to
+-1 the tri Vector also commutes with
+
+132
+00:03:06,190 --> 00:03:06,200
+-1 the tri Vector also commutes with
+ 
+
+133
+00:03:06,200 --> 00:03:09,869
+-1 the tri Vector also commutes with
+everything in the cl30 algebra and so
+
+134
+00:03:09,869 --> 00:03:09,879
+everything in the cl30 algebra and so
+ 
+
+135
+00:03:09,879 --> 00:03:11,910
+everything in the cl30 algebra and so
+the order of multiplication with the tri
+
+136
+00:03:11,910 --> 00:03:11,920
+the order of multiplication with the tri
+ 
+
+137
+00:03:11,920 --> 00:03:13,550
+the order of multiplication with the tri
+Vector doesn't
+
+138
+00:03:13,550 --> 00:03:13,560
+Vector doesn't
+ 
+
+139
+00:03:13,560 --> 00:03:17,030
+Vector doesn't
+matter in this way the tri Vector in
+
+140
+00:03:17,030 --> 00:03:17,040
+matter in this way the tri Vector in
+ 
+
+141
+00:03:17,040 --> 00:03:20,509
+matter in this way the tri Vector in
+cl30 is sort of like the complex I which
+
+142
+00:03:20,509 --> 00:03:20,519
+cl30 is sort of like the complex I which
+ 
+
+143
+00:03:20,519 --> 00:03:23,710
+cl30 is sort of like the complex I which
+is normally written in lower case but
+
+144
+00:03:23,710 --> 00:03:23,720
+is normally written in lower case but
+ 
+
+145
+00:03:23,720 --> 00:03:25,589
+is normally written in lower case but
+since we're really talking about a tri
+
+146
+00:03:25,589 --> 00:03:25,599
+since we're really talking about a tri
+ 
+
+147
+00:03:25,599 --> 00:03:28,670
+since we're really talking about a tri
+Vector here we denote it with a capital
+
+148
+00:03:28,670 --> 00:03:28,680
+Vector here we denote it with a capital
+ 
+
+149
+00:03:28,680 --> 00:03:31,710
+Vector here we denote it with a capital
+i the bi vectors are sometimes written
+
+150
+00:03:31,710 --> 00:03:31,720
+i the bi vectors are sometimes written
+ 
+
+151
+00:03:31,720 --> 00:03:34,949
+i the bi vectors are sometimes written
+as a vector times the tri Vector like
+
+152
+00:03:34,949 --> 00:03:34,959
+as a vector times the tri Vector like
+ 
+
+153
+00:03:34,959 --> 00:03:38,110
+as a vector times the tri Vector like
+this this is their pseudo Vector form
+
+154
+00:03:38,110 --> 00:03:38,120
+this this is their pseudo Vector form
+ 
+
+155
+00:03:38,120 --> 00:03:39,789
+this this is their pseudo Vector form
+and it emphasizes that they can be
+
+156
+00:03:39,789 --> 00:03:39,799
+and it emphasizes that they can be
+ 
+
+157
+00:03:39,799 --> 00:03:41,869
+and it emphasizes that they can be
+thought of as a rotation about a
+
+158
+00:03:41,869 --> 00:03:41,879
+thought of as a rotation about a
+ 
+
+159
+00:03:41,879 --> 00:03:43,589
+thought of as a rotation about a
+particular
+
+160
+00:03:43,589 --> 00:03:43,599
+particular
+ 
+
+161
+00:03:43,599 --> 00:03:46,550
+particular
+axis we can represent all abstract
+
+162
+00:03:46,550 --> 00:03:46,560
+axis we can represent all abstract
+ 
+
+163
+00:03:46,560 --> 00:03:48,149
+axis we can represent all abstract
+symbols in
+
+164
+00:03:48,149 --> 00:03:48,159
+symbols in
+ 
+
+165
+00:03:48,159 --> 00:03:50,830
+symbols in
+cl30 as 2x two
+
+166
+00:03:50,830 --> 00:03:50,840
+cl30 as 2x two
+ 
+
+167
+00:03:50,840 --> 00:03:53,949
+cl30 as 2x two
+matrices the scaler one is the identity
+
+168
+00:03:53,949 --> 00:03:53,959
+matrices the scaler one is the identity
+ 
+
+169
+00:03:53,959 --> 00:03:56,509
+matrices the scaler one is the identity
+Matrix the vectors are given by the
+
+170
+00:03:56,509 --> 00:03:56,519
+Matrix the vectors are given by the
+ 
+
+171
+00:03:56,519 --> 00:03:59,830
+Matrix the vectors are given by the
+three po matrices and the rest can be
+
+172
+00:03:59,830 --> 00:03:59,840
+three po matrices and the rest can be
+ 
+
+173
+00:03:59,840 --> 00:04:02,990
+three po matrices and the rest can be
+computed by doing the standard Matrix
+
+174
+00:04:02,990 --> 00:04:03,000
+computed by doing the standard Matrix
+ 
+
+175
+00:04:03,000 --> 00:04:05,630
+computed by doing the standard Matrix
+multiplications the tri vector or pseudo
+
+176
+00:04:05,630 --> 00:04:05,640
+multiplications the tri vector or pseudo
+ 
+
+177
+00:04:05,640 --> 00:04:08,350
+multiplications the tri vector or pseudo
+scaler is just the identity Matrix times
+
+178
+00:04:08,350 --> 00:04:08,360
+scaler is just the identity Matrix times
+ 
+
+179
+00:04:08,360 --> 00:04:11,470
+scaler is just the identity Matrix times
+the complex I this gives us eight
+
+180
+00:04:11,470 --> 00:04:11,480
+the complex I this gives us eight
+ 
+
+181
+00:04:11,480 --> 00:04:14,789
+the complex I this gives us eight
+matrices in total by adding these eight
+
+182
+00:04:14,789 --> 00:04:14,799
+matrices in total by adding these eight
+ 
+
+183
+00:04:14,799 --> 00:04:17,870
+matrices in total by adding these eight
+matrices together in linear combination
+
+184
+00:04:17,870 --> 00:04:17,880
+matrices together in linear combination
+ 
+
+185
+00:04:17,880 --> 00:04:20,830
+matrices together in linear combination
+we can get any 2x2 matrix with any
+
+186
+00:04:20,830 --> 00:04:20,840
+we can get any 2x2 matrix with any
+ 
+
+187
+00:04:20,840 --> 00:04:23,350
+we can get any 2x2 matrix with any
+complex entries that we like by
+
+188
+00:04:23,350 --> 00:04:23,360
+complex entries that we like by
+ 
+
+189
+00:04:23,360 --> 00:04:27,550
+complex entries that we like by
+specifying these eight real
+
+190
+00:04:27,550 --> 00:04:27,560
+specifying these eight real
+ 
+
+191
+00:04:27,560 --> 00:04:30,270
+specifying these eight real
+coefficients now how do spinners fit in
+
+192
+00:04:30,270 --> 00:04:30,280
+coefficients now how do spinners fit in
+ 
+
+193
+00:04:30,280 --> 00:04:33,150
+coefficients now how do spinners fit in
+here the Spinners associated with 3D
+
+194
+00:04:33,150 --> 00:04:33,160
+here the Spinners associated with 3D
+ 
+
+195
+00:04:33,160 --> 00:04:36,510
+here the Spinners associated with 3D
+space are called po Spinners and as
+
+196
+00:04:36,510 --> 00:04:36,520
+space are called po Spinners and as
+ 
+
+197
+00:04:36,520 --> 00:04:38,629
+space are called po Spinners and as
+we've seen in previous videos they are
+
+198
+00:04:38,629 --> 00:04:38,639
+we've seen in previous videos they are
+ 
+
+199
+00:04:38,639 --> 00:04:42,469
+we've seen in previous videos they are
+written as 2x1 Columns of complex
+
+200
+00:04:42,469 --> 00:04:42,479
+written as 2x1 Columns of complex
+ 
+
+201
+00:04:42,479 --> 00:04:45,350
+written as 2x1 Columns of complex
+numbers according to the star Garlock
+
+202
+00:04:45,350 --> 00:04:45,360
+numbers according to the star Garlock
+ 
+
+203
+00:04:45,360 --> 00:04:47,670
+numbers according to the star Garlock
+experiment that deflects electrically
+
+204
+00:04:47,670 --> 00:04:47,680
+experiment that deflects electrically
+ 
+
+205
+00:04:47,680 --> 00:04:50,070
+experiment that deflects electrically
+neutral particles in a magnetic field
+
+206
+00:04:50,070 --> 00:04:50,080
+neutral particles in a magnetic field
+ 
+
+207
+00:04:50,080 --> 00:04:52,950
+neutral particles in a magnetic field
+according to their spin the top spinner
+
+208
+00:04:52,950 --> 00:04:52,960
+according to their spin the top spinner
+ 
+
+209
+00:04:52,960 --> 00:04:55,230
+according to their spin the top spinner
+component is associated with the spin
+
+210
+00:04:55,230 --> 00:04:55,240
+component is associated with the spin
+ 
+
+211
+00:04:55,240 --> 00:04:58,550
+component is associated with the spin
+Upstate plus Zed and the bottom spinner
+
+212
+00:04:58,550 --> 00:04:58,560
+Upstate plus Zed and the bottom spinner
+ 
+
+213
+00:04:58,560 --> 00:05:00,390
+Upstate plus Zed and the bottom spinner
+component is assoc associated with the
+
+214
+00:05:00,390 --> 00:05:00,400
+component is assoc associated with the
+ 
+
+215
+00:05:00,400 --> 00:05:04,430
+component is assoc associated with the
+spin down State minus Z but everything
+
+216
+00:05:04,430 --> 00:05:04,440
+spin down State minus Z but everything
+ 
+
+217
+00:05:04,440 --> 00:05:06,310
+spin down State minus Z but everything
+in the Clifford algebra
+
+218
+00:05:06,310 --> 00:05:06,320
+in the Clifford algebra
+ 
+
+219
+00:05:06,320 --> 00:05:10,430
+in the Clifford algebra
+cl30 is made of 2x two matrices so how
+
+220
+00:05:10,430 --> 00:05:10,440
+cl30 is made of 2x two matrices so how
+ 
+
+221
+00:05:10,440 --> 00:05:14,070
+cl30 is made of 2x two matrices so how
+can we fit our 2x1 po Spinners inside of
+
+222
+00:05:14,070 --> 00:05:14,080
+can we fit our 2x1 po Spinners inside of
+ 
+
+223
+00:05:14,080 --> 00:05:17,189
+can we fit our 2x1 po Spinners inside of
+our Clifford algebra the key to solving
+
+224
+00:05:17,189 --> 00:05:17,199
+our Clifford algebra the key to solving
+ 
+
+225
+00:05:17,199 --> 00:05:19,629
+our Clifford algebra the key to solving
+this problem is either very smart or
+
+226
+00:05:19,629 --> 00:05:19,639
+this problem is either very smart or
+ 
+
+227
+00:05:19,639 --> 00:05:21,749
+this problem is either very smart or
+very stupid depending on your point of
+
+228
+00:05:21,749 --> 00:05:21,759
+very stupid depending on your point of
+ 
+
+229
+00:05:21,759 --> 00:05:25,390
+very stupid depending on your point of
+view all we do is take our 2x1 po
+
+230
+00:05:25,390 --> 00:05:25,400
+view all we do is take our 2x1 po
+ 
+
+231
+00:05:25,400 --> 00:05:27,790
+view all we do is take our 2x1 po
+spinner and extend it with an extra
+
+232
+00:05:27,790 --> 00:05:27,800
+spinner and extend it with an extra
+ 
+
+233
+00:05:27,800 --> 00:05:30,469
+spinner and extend it with an extra
+column of zeros so so that it becomes a
+
+234
+00:05:30,469 --> 00:05:30,479
+column of zeros so so that it becomes a
+ 
+
+235
+00:05:30,479 --> 00:05:34,029
+column of zeros so so that it becomes a
+2x2 matrix this is how we write poy
+
+236
+00:05:34,029 --> 00:05:34,039
+2x2 matrix this is how we write poy
+ 
+
+237
+00:05:34,039 --> 00:05:38,230
+2x2 matrix this is how we write poy
+Spinners inside the Clifford algebra
+
+238
+00:05:38,230 --> 00:05:38,240
+
+ 
+
+239
+00:05:38,240 --> 00:05:41,629
+
+cl30 so our spin up state would be this
+
+240
+00:05:41,629 --> 00:05:41,639
+cl30 so our spin up state would be this
+ 
+
+241
+00:05:41,639 --> 00:05:44,749
+cl30 so our spin up state would be this
+Matrix with a one in the upper left and
+
+242
+00:05:44,749 --> 00:05:44,759
+Matrix with a one in the upper left and
+ 
+
+243
+00:05:44,759 --> 00:05:47,469
+Matrix with a one in the upper left and
+our spin down state would be this Matrix
+
+244
+00:05:47,469 --> 00:05:47,479
+our spin down state would be this Matrix
+ 
+
+245
+00:05:47,479 --> 00:05:49,590
+our spin down state would be this Matrix
+with a one in the lower
+
+246
+00:05:49,590 --> 00:05:49,600
+with a one in the lower
+ 
+
+247
+00:05:49,600 --> 00:05:52,950
+with a one in the lower
+left but how do we build these matrices
+
+248
+00:05:52,950 --> 00:05:52,960
+left but how do we build these matrices
+ 
+
+249
+00:05:52,960 --> 00:05:55,510
+left but how do we build these matrices
+using the eight basis matrices in our
+
+250
+00:05:55,510 --> 00:05:55,520
+using the eight basis matrices in our
+ 
+
+251
+00:05:55,520 --> 00:05:56,710
+using the eight basis matrices in our
+Clifford
+
+252
+00:05:56,710 --> 00:05:56,720
+Clifford
+ 
+
+253
+00:05:56,720 --> 00:05:59,830
+Clifford
+algebra let's start with our plus Z spin
+
+254
+00:05:59,830 --> 00:05:59,840
+algebra let's start with our plus Z spin
+ 
+
+255
+00:05:59,840 --> 00:06:00,710
+algebra let's start with our plus Z spin
+up
+
+256
+00:06:00,710 --> 00:06:00,720
+up
+ 
+
+257
+00:06:00,720 --> 00:06:03,670
+up
+spinner just looking at the matrices it
+
+258
+00:06:03,670 --> 00:06:03,680
+spinner just looking at the matrices it
+ 
+
+259
+00:06:03,680 --> 00:06:06,430
+spinner just looking at the matrices it
+looks like if we add 1 and sigma Zed
+
+260
+00:06:06,430 --> 00:06:06,440
+looks like if we add 1 and sigma Zed
+ 
+
+261
+00:06:06,440 --> 00:06:08,830
+looks like if we add 1 and sigma Zed
+together we get the right answer if we
+
+262
+00:06:08,830 --> 00:06:08,840
+together we get the right answer if we
+ 
+
+263
+00:06:08,840 --> 00:06:12,189
+together we get the right answer if we
+divide by two the lower right values
+
+264
+00:06:12,189 --> 00:06:12,199
+divide by two the lower right values
+ 
+
+265
+00:06:12,199 --> 00:06:16,150
+divide by two the lower right values
+cancel and 1 + 1 becomes 2 and divided
+
+266
+00:06:16,150 --> 00:06:16,160
+cancel and 1 + 1 becomes 2 and divided
+ 
+
+267
+00:06:16,160 --> 00:06:19,309
+cancel and 1 + 1 becomes 2 and divided
+by two becomes one so this is our spin
+
+268
+00:06:19,309 --> 00:06:19,319
+by two becomes one so this is our spin
+ 
+
+269
+00:06:19,319 --> 00:06:20,510
+by two becomes one so this is our spin
+up
+
+270
+00:06:20,510 --> 00:06:20,520
+up
+ 
+
+271
+00:06:20,520 --> 00:06:23,670
+up
+spinner for our minus Z spin down
+
+272
+00:06:23,670 --> 00:06:23,680
+spinner for our minus Z spin down
+ 
+
+273
+00:06:23,680 --> 00:06:26,230
+spinner for our minus Z spin down
+spinner it looks like Sigma X and the
+
+274
+00:06:26,230 --> 00:06:26,240
+spinner it looks like Sigma X and the
+ 
+
+275
+00:06:26,240 --> 00:06:28,950
+spinner it looks like Sigma X and the
+sigma y pseudo Vector give us the right
+
+276
+00:06:28,950 --> 00:06:28,960
+sigma y pseudo Vector give us the right
+ 
+
+277
+00:06:28,960 --> 00:06:29,909
+sigma y pseudo Vector give us the right
+answer
+
+278
+00:06:29,909 --> 00:06:29,919
+answer
+ 
+
+279
+00:06:29,919 --> 00:06:33,430
+answer
+if we subtract them and divide by two
+
+280
+00:06:33,430 --> 00:06:33,440
+if we subtract them and divide by two
+ 
+
+281
+00:06:33,440 --> 00:06:36,230
+if we subtract them and divide by two
+indeed the upper right entries cancel
+
+282
+00:06:36,230 --> 00:06:36,240
+indeed the upper right entries cancel
+ 
+
+283
+00:06:36,240 --> 00:06:40,110
+indeed the upper right entries cancel
+and 1 + 1 divided two gives us one so
+
+284
+00:06:40,110 --> 00:06:40,120
+and 1 + 1 divided two gives us one so
+ 
+
+285
+00:06:40,120 --> 00:06:42,350
+and 1 + 1 divided two gives us one so
+this is our spin down
+
+286
+00:06:42,350 --> 00:06:42,360
+this is our spin down
+ 
+
+287
+00:06:42,360 --> 00:06:44,990
+this is our spin down
+spinner note that we can rewrite the
+
+288
+00:06:44,990 --> 00:06:45,000
+spinner note that we can rewrite the
+ 
+
+289
+00:06:45,000 --> 00:06:48,589
+spinner note that we can rewrite the
+sigma y pseudo Vector as the Z x by
+
+290
+00:06:48,589 --> 00:06:48,599
+sigma y pseudo Vector as the Z x by
+ 
+
+291
+00:06:48,599 --> 00:06:51,670
+sigma y pseudo Vector as the Z x by
+vector and then swap Sigma Zed and sigma
+
+292
+00:06:51,670 --> 00:06:51,680
+vector and then swap Sigma Zed and sigma
+ 
+
+293
+00:06:51,680 --> 00:06:54,990
+vector and then swap Sigma Zed and sigma
+x with a sign change then factor out
+
+294
+00:06:54,990 --> 00:06:55,000
+x with a sign change then factor out
+ 
+
+295
+00:06:55,000 --> 00:06:59,390
+x with a sign change then factor out
+Sigma X this gives us Sigma x * the spin
+
+296
+00:06:59,390 --> 00:06:59,400
+Sigma X this gives us Sigma x * the spin
+ 
+
+297
+00:06:59,400 --> 00:07:02,070
+Sigma X this gives us Sigma x * the spin
+spin up spinner and this is an
+
+298
+00:07:02,070 --> 00:07:02,080
+spin up spinner and this is an
+ 
+
+299
+00:07:02,080 --> 00:07:05,390
+spin up spinner and this is an
+alternative way of writing the spin down
+
+300
+00:07:05,390 --> 00:07:05,400
+alternative way of writing the spin down
+ 
+
+301
+00:07:05,400 --> 00:07:08,510
+alternative way of writing the spin down
+spinner so in quantum mechanics we
+
+302
+00:07:08,510 --> 00:07:08,520
+spinner so in quantum mechanics we
+ 
+
+303
+00:07:08,520 --> 00:07:10,749
+spinner so in quantum mechanics we
+normally write a spinner as a linear
+
+304
+00:07:10,749 --> 00:07:10,759
+normally write a spinner as a linear
+ 
+
+305
+00:07:10,759 --> 00:07:13,670
+normally write a spinner as a linear
+combination of the spin up and spin down
+
+306
+00:07:13,670 --> 00:07:13,680
+combination of the spin up and spin down
+ 
+
+307
+00:07:13,680 --> 00:07:16,950
+combination of the spin up and spin down
+basis Spinners using components Cai 1
+
+308
+00:07:16,950 --> 00:07:16,960
+basis Spinners using components Cai 1
+ 
+
+309
+00:07:16,960 --> 00:07:20,869
+basis Spinners using components Cai 1
+and Cai 2 but now we replace these basis
+
+310
+00:07:20,869 --> 00:07:20,879
+and Cai 2 but now we replace these basis
+ 
+
+311
+00:07:20,879 --> 00:07:23,189
+and Cai 2 but now we replace these basis
+Spinners with these elements from our
+
+312
+00:07:23,189 --> 00:07:23,199
+Spinners with these elements from our
+ 
+
+313
+00:07:23,199 --> 00:07:26,230
+Spinners with these elements from our
+cliford algebra which correspond to
+
+314
+00:07:26,230 --> 00:07:26,240
+cliford algebra which correspond to
+ 
+
+315
+00:07:26,240 --> 00:07:30,150
+cliford algebra which correspond to
+these 2x two matrices here
+
+316
+00:07:30,150 --> 00:07:30,160
+these 2x two matrices here
+ 
+
+317
+00:07:30,160 --> 00:07:32,629
+these 2x two matrices here
+and if we rotate this spinner using a
+
+318
+00:07:32,629 --> 00:07:32,639
+and if we rotate this spinner using a
+ 
+
+319
+00:07:32,639 --> 00:07:36,309
+and if we rotate this spinner using a
+single-sided half angle su2 Matrix we
+
+320
+00:07:36,309 --> 00:07:36,319
+single-sided half angle su2 Matrix we
+ 
+
+321
+00:07:36,319 --> 00:07:38,550
+single-sided half angle su2 Matrix we
+get the same result we would expect from
+
+322
+00:07:38,550 --> 00:07:38,560
+get the same result we would expect from
+ 
+
+323
+00:07:38,560 --> 00:07:41,110
+get the same result we would expect from
+standard quantum mechanics just with an
+
+324
+00:07:41,110 --> 00:07:41,120
+standard quantum mechanics just with an
+ 
+
+325
+00:07:41,120 --> 00:07:43,629
+standard quantum mechanics just with an
+extra column of zeros added
+
+326
+00:07:43,629 --> 00:07:43,639
+extra column of zeros added
+ 
+
+327
+00:07:43,639 --> 00:07:46,909
+extra column of zeros added
+on in the language of Clifford algebras
+
+328
+00:07:46,909 --> 00:07:46,919
+on in the language of Clifford algebras
+ 
+
+329
+00:07:46,919 --> 00:07:49,589
+on in the language of Clifford algebras
+we replace the su2 Matrix with an
+
+330
+00:07:49,589 --> 00:07:49,599
+we replace the su2 Matrix with an
+ 
+
+331
+00:07:49,599 --> 00:07:53,710
+we replace the su2 Matrix with an
+equivalent spin 30 group member so now
+
+332
+00:07:53,710 --> 00:07:53,720
+equivalent spin 30 group member so now
+ 
+
+333
+00:07:53,720 --> 00:07:55,830
+equivalent spin 30 group member so now
+we can rotate Spinners in purely
+
+334
+00:07:55,830 --> 00:07:55,840
+we can rotate Spinners in purely
+ 
+
+335
+00:07:55,840 --> 00:07:58,309
+we can rotate Spinners in purely
+symbolic notation in our Clifford
+
+336
+00:07:58,309 --> 00:07:58,319
+symbolic notation in our Clifford
+ 
+
+337
+00:07:58,319 --> 00:08:00,029
+symbolic notation in our Clifford
+algebra
+
+338
+00:08:00,029 --> 00:08:00,039
+algebra
+ 
+
+339
+00:08:00,039 --> 00:08:02,629
+algebra
+as an exercise you can try checking that
+
+340
+00:08:02,629 --> 00:08:02,639
+as an exercise you can try checking that
+ 
+
+341
+00:08:02,639 --> 00:08:04,790
+as an exercise you can try checking that
+this symbolic Clifford algebra
+
+342
+00:08:04,790 --> 00:08:04,800
+this symbolic Clifford algebra
+ 
+
+343
+00:08:04,800 --> 00:08:06,749
+this symbolic Clifford algebra
+multiplication works out to the
+
+344
+00:08:06,749 --> 00:08:06,759
+multiplication works out to the
+ 
+
+345
+00:08:06,759 --> 00:08:09,270
+multiplication works out to the
+equivalent Matrix
+
+346
+00:08:09,270 --> 00:08:09,280
+equivalent Matrix
+ 
+
+347
+00:08:09,280 --> 00:08:12,070
+equivalent Matrix
+result now we were able to build these
+
+348
+00:08:12,070 --> 00:08:12,080
+result now we were able to build these
+ 
+
+349
+00:08:12,080 --> 00:08:14,790
+result now we were able to build these
+Spinners in the Clifford algebra
+
+350
+00:08:14,790 --> 00:08:14,800
+Spinners in the Clifford algebra
+ 
+
+351
+00:08:14,800 --> 00:08:18,589
+Spinners in the Clifford algebra
+cl30 by visual inspection we started
+
+352
+00:08:18,589 --> 00:08:18,599
+cl30 by visual inspection we started
+ 
+
+353
+00:08:18,599 --> 00:08:20,790
+cl30 by visual inspection we started
+with the Matrix representation for our
+
+354
+00:08:20,790 --> 00:08:20,800
+with the Matrix representation for our
+ 
+
+355
+00:08:20,800 --> 00:08:23,029
+with the Matrix representation for our
+Spinners then looked at the basis
+
+356
+00:08:23,029 --> 00:08:23,039
+Spinners then looked at the basis
+ 
+
+357
+00:08:23,039 --> 00:08:26,230
+Spinners then looked at the basis
+matrices available to us in the algebra
+
+358
+00:08:26,230 --> 00:08:26,240
+matrices available to us in the algebra
+ 
+
+359
+00:08:26,240 --> 00:08:27,950
+matrices available to us in the algebra
+and we were able to guess the correct
+
+360
+00:08:27,950 --> 00:08:27,960
+and we were able to guess the correct
+ 
+
+361
+00:08:27,960 --> 00:08:30,430
+and we were able to guess the correct
+matrices we needed to build the
+
+362
+00:08:30,430 --> 00:08:30,440
+matrices we needed to build the
+ 
+
+363
+00:08:30,440 --> 00:08:33,110
+matrices we needed to build the
+spinner if we forget about the matrices
+
+364
+00:08:33,110 --> 00:08:33,120
+spinner if we forget about the matrices
+ 
+
+365
+00:08:33,120 --> 00:08:35,350
+spinner if we forget about the matrices
+and just use the symbols we have an
+
+366
+00:08:35,350 --> 00:08:35,360
+and just use the symbols we have an
+ 
+
+367
+00:08:35,360 --> 00:08:37,230
+and just use the symbols we have an
+abstract version of our Spinners that
+
+368
+00:08:37,230 --> 00:08:37,240
+abstract version of our Spinners that
+ 
+
+369
+00:08:37,240 --> 00:08:39,389
+abstract version of our Spinners that
+behaves the exact same
+
+370
+00:08:39,389 --> 00:08:39,399
+behaves the exact same
+ 
+
+371
+00:08:39,399 --> 00:08:42,990
+behaves the exact same
+way this works fine in three dimensions
+
+372
+00:08:42,990 --> 00:08:43,000
+way this works fine in three dimensions
+ 
+
+373
+00:08:43,000 --> 00:08:45,230
+way this works fine in three dimensions
+but how can we make this procedure work
+
+374
+00:08:45,230 --> 00:08:45,240
+but how can we make this procedure work
+ 
+
+375
+00:08:45,240 --> 00:08:46,550
+but how can we make this procedure work
+in any
+
+376
+00:08:46,550 --> 00:08:46,560
+in any
+ 
+
+377
+00:08:46,560 --> 00:08:49,470
+in any
+Dimension the key is to realize that
+
+378
+00:08:49,470 --> 00:08:49,480
+Dimension the key is to realize that
+ 
+
+379
+00:08:49,480 --> 00:08:52,030
+Dimension the key is to realize that
+these special spinner matrices we used
+
+380
+00:08:52,030 --> 00:08:52,040
+these special spinner matrices we used
+ 
+
+381
+00:08:52,040 --> 00:08:54,550
+these special spinner matrices we used
+are members of minimal left ideals in
+
+382
+00:08:54,550 --> 00:08:54,560
+are members of minimal left ideals in
+ 
+
+383
+00:08:54,560 --> 00:08:57,389
+are members of minimal left ideals in
+Clifford algebras which is a definition
+
+384
+00:08:57,389 --> 00:08:57,399
+Clifford algebras which is a definition
+ 
+
+385
+00:08:57,399 --> 00:08:59,150
+Clifford algebras which is a definition
+we covered in the last video spin
+
+386
+00:08:59,150 --> 00:08:59,160
+we covered in the last video spin
+ 
+
+387
+00:08:59,160 --> 00:09:01,310
+we covered in the last video spin
+spinners for beginners number
+
+388
+00:09:01,310 --> 00:09:01,320
+spinners for beginners number
+ 
+
+389
+00:09:01,320 --> 00:09:04,389
+spinners for beginners number
+13 if we add two spinner matrices
+
+390
+00:09:04,389 --> 00:09:04,399
+13 if we add two spinner matrices
+ 
+
+391
+00:09:04,399 --> 00:09:07,630
+13 if we add two spinner matrices
+together we get another spinner Matrix
+
+392
+00:09:07,630 --> 00:09:07,640
+together we get another spinner Matrix
+ 
+
+393
+00:09:07,640 --> 00:09:09,910
+together we get another spinner Matrix
+and if we multiply a spinner Matrix from
+
+394
+00:09:09,910 --> 00:09:09,920
+and if we multiply a spinner Matrix from
+ 
+
+395
+00:09:09,920 --> 00:09:13,630
+and if we multiply a spinner Matrix from
+the left by any 2x two Matrix we get
+
+396
+00:09:13,630 --> 00:09:13,640
+the left by any 2x two Matrix we get
+ 
+
+397
+00:09:13,640 --> 00:09:15,030
+the left by any 2x two Matrix we get
+another spinner
+
+398
+00:09:15,030 --> 00:09:15,040
+another spinner
+ 
+
+399
+00:09:15,040 --> 00:09:17,590
+another spinner
+Matrix these two properties are the
+
+400
+00:09:17,590 --> 00:09:17,600
+Matrix these two properties are the
+ 
+
+401
+00:09:17,600 --> 00:09:20,910
+Matrix these two properties are the
+definition of a left ideal we say it is
+
+402
+00:09:20,910 --> 00:09:20,920
+definition of a left ideal we say it is
+ 
+
+403
+00:09:20,920 --> 00:09:23,389
+definition of a left ideal we say it is
+a left ideal because the multiplication
+
+404
+00:09:23,389 --> 00:09:23,399
+a left ideal because the multiplication
+ 
+
+405
+00:09:23,399 --> 00:09:25,630
+a left ideal because the multiplication
+property only works if we multiply the
+
+406
+00:09:25,630 --> 00:09:25,640
+property only works if we multiply the
+ 
+
+407
+00:09:25,640 --> 00:09:29,269
+property only works if we multiply the
+2x two matrices from the left if we
+
+408
+00:09:29,269 --> 00:09:29,279
+2x two matrices from the left if we
+ 
+
+409
+00:09:29,279 --> 00:09:31,910
+2x two matrices from the left if we
+multiply a 2X two Matrix from the right
+
+410
+00:09:31,910 --> 00:09:31,920
+multiply a 2X two Matrix from the right
+ 
+
+411
+00:09:31,920 --> 00:09:34,750
+multiply a 2X two Matrix from the right
+we don't get a spinner Matrix
+
+412
+00:09:34,750 --> 00:09:34,760
+we don't get a spinner Matrix
+ 
+
+413
+00:09:34,760 --> 00:09:37,710
+we don't get a spinner Matrix
+back so we see that Spinners are members
+
+414
+00:09:37,710 --> 00:09:37,720
+back so we see that Spinners are members
+ 
+
+415
+00:09:37,720 --> 00:09:39,910
+back so we see that Spinners are members
+of left ideals in Clifford
+
+416
+00:09:39,910 --> 00:09:39,920
+of left ideals in Clifford
+ 
+
+417
+00:09:39,920 --> 00:09:43,110
+of left ideals in Clifford
+algebras but what is a minimal left
+
+418
+00:09:43,110 --> 00:09:43,120
+algebras but what is a minimal left
+ 
+
+419
+00:09:43,120 --> 00:09:46,670
+algebras but what is a minimal left
+ideal we say an ideal set is minimal
+
+420
+00:09:46,670 --> 00:09:46,680
+ideal we say an ideal set is minimal
+ 
+
+421
+00:09:46,680 --> 00:09:49,030
+ideal we say an ideal set is minimal
+when there are no sub ideals inside of
+
+422
+00:09:49,030 --> 00:09:49,040
+when there are no sub ideals inside of
+ 
+
+423
+00:09:49,040 --> 00:09:51,990
+when there are no sub ideals inside of
+it ignoring the trivial ideal consisting
+
+424
+00:09:51,990 --> 00:09:52,000
+it ignoring the trivial ideal consisting
+ 
+
+425
+00:09:52,000 --> 00:09:55,230
+it ignoring the trivial ideal consisting
+of just the zero element I actually
+
+426
+00:09:55,230 --> 00:09:55,240
+of just the zero element I actually
+ 
+
+427
+00:09:55,240 --> 00:09:57,949
+of just the zero element I actually
+forgot to exclude the trivial zero ideal
+
+428
+00:09:57,949 --> 00:09:57,959
+forgot to exclude the trivial zero ideal
+ 
+
+429
+00:09:57,959 --> 00:10:00,550
+forgot to exclude the trivial zero ideal
+in my definition in the last video so
+
+430
+00:10:00,550 --> 00:10:00,560
+in my definition in the last video so
+ 
+
+431
+00:10:00,560 --> 00:10:03,310
+in my definition in the last video so
+keep in mind when I say minimal ideal I
+
+432
+00:10:03,310 --> 00:10:03,320
+keep in mind when I say minimal ideal I
+ 
+
+433
+00:10:03,320 --> 00:10:05,870
+keep in mind when I say minimal ideal I
+mean the ideal has no sub ideals inside
+
+434
+00:10:05,870 --> 00:10:05,880
+mean the ideal has no sub ideals inside
+ 
+
+435
+00:10:05,880 --> 00:10:09,190
+mean the ideal has no sub ideals inside
+of it except for the trivial zero
+
+436
+00:10:09,190 --> 00:10:09,200
+of it except for the trivial zero
+ 
+
+437
+00:10:09,200 --> 00:10:12,069
+of it except for the trivial zero
+ideal this property of being minimal
+
+438
+00:10:12,069 --> 00:10:12,079
+ideal this property of being minimal
+ 
+
+439
+00:10:12,079 --> 00:10:15,230
+ideal this property of being minimal
+doesn't come up with the 2x two matrices
+
+440
+00:10:15,230 --> 00:10:15,240
+doesn't come up with the 2x two matrices
+ 
+
+441
+00:10:15,240 --> 00:10:18,389
+doesn't come up with the 2x two matrices
+so let's look at 4x4 matrices
+
+442
+00:10:18,389 --> 00:10:18,399
+so let's look at 4x4 matrices
+ 
+
+443
+00:10:18,399 --> 00:10:21,269
+so let's look at 4x4 matrices
+instead the set of matrices here where
+
+444
+00:10:21,269 --> 00:10:21,279
+instead the set of matrices here where
+ 
+
+445
+00:10:21,279 --> 00:10:24,030
+instead the set of matrices here where
+the first pair of columns are non zero
+
+446
+00:10:24,030 --> 00:10:24,040
+the first pair of columns are non zero
+ 
+
+447
+00:10:24,040 --> 00:10:27,069
+the first pair of columns are non zero
+and the second pair of columns are zero
+
+448
+00:10:27,069 --> 00:10:27,079
+and the second pair of columns are zero
+ 
+
+449
+00:10:27,079 --> 00:10:30,550
+and the second pair of columns are zero
+is a left ideal in the set of 4x4
+
+450
+00:10:30,550 --> 00:10:30,560
+is a left ideal in the set of 4x4
+ 
+
+451
+00:10:30,560 --> 00:10:33,949
+is a left ideal in the set of 4x4
+matrices however it's not a minimal left
+
+452
+00:10:33,949 --> 00:10:33,959
+matrices however it's not a minimal left
+ 
+
+453
+00:10:33,959 --> 00:10:36,750
+matrices however it's not a minimal left
+ideal there are actually smaller left
+
+454
+00:10:36,750 --> 00:10:36,760
+ideal there are actually smaller left
+ 
+
+455
+00:10:36,760 --> 00:10:39,949
+ideal there are actually smaller left
+ideal sets found inside it the set where
+
+456
+00:10:39,949 --> 00:10:39,959
+ideal sets found inside it the set where
+ 
+
+457
+00:10:39,959 --> 00:10:42,670
+ideal sets found inside it the set where
+only the First Column is nonzero and the
+
+458
+00:10:42,670 --> 00:10:42,680
+only the First Column is nonzero and the
+ 
+
+459
+00:10:42,680 --> 00:10:45,389
+only the First Column is nonzero and the
+set where only the second column is
+
+460
+00:10:45,389 --> 00:10:45,399
+set where only the second column is
+ 
+
+461
+00:10:45,399 --> 00:10:48,110
+set where only the second column is
+nonzero when we say Spinners are members
+
+462
+00:10:48,110 --> 00:10:48,120
+nonzero when we say Spinners are members
+ 
+
+463
+00:10:48,120 --> 00:10:50,150
+nonzero when we say Spinners are members
+of minimal left ideals in Clifford
+
+464
+00:10:50,150 --> 00:10:50,160
+of minimal left ideals in Clifford
+ 
+
+465
+00:10:50,160 --> 00:10:52,470
+of minimal left ideals in Clifford
+algebras we're basically saying that the
+
+466
+00:10:52,470 --> 00:10:52,480
+algebras we're basically saying that the
+ 
+
+467
+00:10:52,480 --> 00:10:54,990
+algebras we're basically saying that the
+Matrix representation of the spinner
+
+468
+00:10:54,990 --> 00:10:55,000
+Matrix representation of the spinner
+ 
+
+469
+00:10:55,000 --> 00:10:57,030
+Matrix representation of the spinner
+behaves like a matrix with a single
+
+470
+00:10:57,030 --> 00:10:57,040
+behaves like a matrix with a single
+ 
+
+471
+00:10:57,040 --> 00:11:00,590
+behaves like a matrix with a single
+nonzero column now I want to be clear
+
+472
+00:11:00,590 --> 00:11:00,600
+nonzero column now I want to be clear
+ 
+
+473
+00:11:00,600 --> 00:11:03,069
+nonzero column now I want to be clear
+that not all minimal left ideals look
+
+474
+00:11:03,069 --> 00:11:03,079
+that not all minimal left ideals look
+ 
+
+475
+00:11:03,079 --> 00:11:05,750
+that not all minimal left ideals look
+like matrices with single non-zero
+
+476
+00:11:05,750 --> 00:11:05,760
+like matrices with single non-zero
+ 
+
+477
+00:11:05,760 --> 00:11:08,590
+like matrices with single non-zero
+columns matrices that belong to minimal
+
+478
+00:11:08,590 --> 00:11:08,600
+columns matrices that belong to minimal
+ 
+
+479
+00:11:08,600 --> 00:11:11,509
+columns matrices that belong to minimal
+left ideals are not always obvious at
+
+480
+00:11:11,509 --> 00:11:11,519
+left ideals are not always obvious at
+ 
+
+481
+00:11:11,519 --> 00:11:14,110
+left ideals are not always obvious at
+first glance and we need to keep their
+
+482
+00:11:14,110 --> 00:11:14,120
+first glance and we need to keep their
+ 
+
+483
+00:11:14,120 --> 00:11:17,790
+first glance and we need to keep their
+formal definition in mind however for
+
+484
+00:11:17,790 --> 00:11:17,800
+formal definition in mind however for
+ 
+
+485
+00:11:17,800 --> 00:11:20,430
+formal definition in mind however for
+Simplicity we'll often use a matrix
+
+486
+00:11:20,430 --> 00:11:20,440
+Simplicity we'll often use a matrix
+ 
+
+487
+00:11:20,440 --> 00:11:22,430
+Simplicity we'll often use a matrix
+where only the leftmost column is
+
+488
+00:11:22,430 --> 00:11:22,440
+where only the leftmost column is
+ 
+
+489
+00:11:22,440 --> 00:11:25,430
+where only the leftmost column is
+nonzero because it's easier to
+
+490
+00:11:25,430 --> 00:11:25,440
+nonzero because it's easier to
+ 
+
+491
+00:11:25,440 --> 00:11:27,870
+nonzero because it's easier to
+understand this lets us take the column
+
+492
+00:11:27,870 --> 00:11:27,880
+understand this lets us take the column
+ 
+
+493
+00:11:27,880 --> 00:11:30,949
+understand this lets us take the column
+Spinners we've seen previously like Po
+
+494
+00:11:30,949 --> 00:11:30,959
+Spinners we've seen previously like Po
+ 
+
+495
+00:11:30,959 --> 00:11:34,310
+Spinners we've seen previously like Po
+Spinners vile Spinners and dra Spinners
+
+496
+00:11:34,310 --> 00:11:34,320
+Spinners vile Spinners and dra Spinners
+ 
+
+497
+00:11:34,320 --> 00:11:36,590
+Spinners vile Spinners and dra Spinners
+and write them using abstract symbols in
+
+498
+00:11:36,590 --> 00:11:36,600
+and write them using abstract symbols in
+ 
+
+499
+00:11:36,600 --> 00:11:38,829
+and write them using abstract symbols in
+Clifford
+
+500
+00:11:38,829 --> 00:11:38,839
+Clifford
+ 
+
+501
+00:11:38,839 --> 00:11:41,750
+Clifford
+algebras now we've seen how to build po
+
+502
+00:11:41,750 --> 00:11:41,760
+algebras now we've seen how to build po
+ 
+
+503
+00:11:41,760 --> 00:11:44,430
+algebras now we've seen how to build po
+Spinners by using Matrix representations
+
+504
+00:11:44,430 --> 00:11:44,440
+Spinners by using Matrix representations
+ 
+
+505
+00:11:44,440 --> 00:11:46,870
+Spinners by using Matrix representations
+first and then working backwards to the
+
+506
+00:11:46,870 --> 00:11:46,880
+first and then working backwards to the
+ 
+
+507
+00:11:46,880 --> 00:11:49,829
+first and then working backwards to the
+abstract Clifford algebra symbols but
+
+508
+00:11:49,829 --> 00:11:49,839
+abstract Clifford algebra symbols but
+ 
+
+509
+00:11:49,839 --> 00:11:51,550
+abstract Clifford algebra symbols but
+what if we want to build Spinners
+
+510
+00:11:51,550 --> 00:11:51,560
+what if we want to build Spinners
+ 
+
+511
+00:11:51,560 --> 00:11:53,629
+what if we want to build Spinners
+without the Matrix
+
+512
+00:11:53,629 --> 00:11:53,639
+without the Matrix
+ 
+
+513
+00:11:53,639 --> 00:11:55,910
+without the Matrix
+representations the key is to use the
+
+514
+00:11:55,910 --> 00:11:55,920
+representations the key is to use the
+ 
+
+515
+00:11:55,920 --> 00:11:58,069
+representations the key is to use the
+projectors we learned about in the last
+
+516
+00:11:58,069 --> 00:11:58,079
+projectors we learned about in the last
+ 
+
+517
+00:11:58,079 --> 00:12:01,750
+projectors we learned about in the last
+video remember a projector is an element
+
+518
+00:12:01,750 --> 00:12:01,760
+video remember a projector is an element
+ 
+
+519
+00:12:01,760 --> 00:12:04,389
+video remember a projector is an element
+P that squares to
+
+520
+00:12:04,389 --> 00:12:04,399
+P that squares to
+ 
+
+521
+00:12:04,399 --> 00:12:06,949
+P that squares to
+itself when a projector acts on an
+
+522
+00:12:06,949 --> 00:12:06,959
+itself when a projector acts on an
+ 
+
+523
+00:12:06,959 --> 00:12:09,710
+itself when a projector acts on an
+algebra the result of the projection is
+
+524
+00:12:09,710 --> 00:12:09,720
+algebra the result of the projection is
+ 
+
+525
+00:12:09,720 --> 00:12:13,310
+algebra the result of the projection is
+always un ideal for example when this
+
+526
+00:12:13,310 --> 00:12:13,320
+always un ideal for example when this
+ 
+
+527
+00:12:13,320 --> 00:12:16,910
+always un ideal for example when this
+projector Matrix pz plus has a 2X two
+
+528
+00:12:16,910 --> 00:12:16,920
+projector Matrix pz plus has a 2X two
+ 
+
+529
+00:12:16,920 --> 00:12:19,829
+projector Matrix pz plus has a 2X two
+Matrix multiplied onto it from the left
+
+530
+00:12:19,829 --> 00:12:19,839
+Matrix multiplied onto it from the left
+ 
+
+531
+00:12:19,839 --> 00:12:22,470
+Matrix multiplied onto it from the left
+the result is a member of a left
+
+532
+00:12:22,470 --> 00:12:22,480
+the result is a member of a left
+ 
+
+533
+00:12:22,480 --> 00:12:25,269
+the result is a member of a left
+ideal the same rule applies when we take
+
+534
+00:12:25,269 --> 00:12:25,279
+ideal the same rule applies when we take
+ 
+
+535
+00:12:25,279 --> 00:12:27,829
+ideal the same rule applies when we take
+an abstract projector made of symbols
+
+536
+00:12:27,829 --> 00:12:27,839
+an abstract projector made of symbols
+ 
+
+537
+00:12:27,839 --> 00:12:30,310
+an abstract projector made of symbols
+and apply our cliff algebra onto it from
+
+538
+00:12:30,310 --> 00:12:30,320
+and apply our cliff algebra onto it from
+ 
+
+539
+00:12:30,320 --> 00:12:33,430
+and apply our cliff algebra onto it from
+the left we learned in the last video
+
+540
+00:12:33,430 --> 00:12:33,440
+the left we learned in the last video
+ 
+
+541
+00:12:33,440 --> 00:12:35,790
+the left we learned in the last video
+that if we have a unit element U that
+
+542
+00:12:35,790 --> 00:12:35,800
+that if we have a unit element U that
+ 
+
+543
+00:12:35,800 --> 00:12:40,230
+that if we have a unit element U that
+squares 2 + 1 then the expression 12 * 1
+
+544
+00:12:40,230 --> 00:12:40,240
+squares 2 + 1 then the expression 12 * 1
+ 
+
+545
+00:12:40,240 --> 00:12:43,030
+squares 2 + 1 then the expression 12 * 1
++ U is a projector because this
+
+546
+00:12:43,030 --> 00:12:43,040
++ U is a projector because this
+ 
+
+547
+00:12:43,040 --> 00:12:44,870
++ U is a projector because this
+expression squares to
+
+548
+00:12:44,870 --> 00:12:44,880
+expression squares to
+ 
+
+549
+00:12:44,880 --> 00:12:47,910
+expression squares to
+itself let's try making a projector made
+
+550
+00:12:47,910 --> 00:12:47,920
+itself let's try making a projector made
+ 
+
+551
+00:12:47,920 --> 00:12:50,470
+itself let's try making a projector made
+with Sigma Zed and seeing what happens
+
+552
+00:12:50,470 --> 00:12:50,480
+with Sigma Zed and seeing what happens
+ 
+
+553
+00:12:50,480 --> 00:12:53,670
+with Sigma Zed and seeing what happens
+when we multiply the algebra cl30 onto
+
+554
+00:12:53,670 --> 00:12:53,680
+when we multiply the algebra cl30 onto
+ 
+
+555
+00:12:53,680 --> 00:12:54,990
+when we multiply the algebra cl30 onto
+it from the
+
+556
+00:12:54,990 --> 00:12:55,000
+it from the
+ 
+
+557
+00:12:55,000 --> 00:12:58,150
+it from the
+left before we do I'll introduce one
+
+558
+00:12:58,150 --> 00:12:58,160
+left before we do I'll introduce one
+ 
+
+559
+00:12:58,160 --> 00:13:00,550
+left before we do I'll introduce one
+helpful Pro ejector property from this
+
+560
+00:13:00,550 --> 00:13:00,560
+helpful Pro ejector property from this
+ 
+
+561
+00:13:00,560 --> 00:13:03,949
+helpful Pro ejector property from this
+thesis by Crystal and McKenzie called
+
+562
+00:13:03,949 --> 00:13:03,959
+thesis by Crystal and McKenzie called
+ 
+
+563
+00:13:03,959 --> 00:13:07,550
+thesis by Crystal and McKenzie called
+the poman property this thesis has a lot
+
+564
+00:13:07,550 --> 00:13:07,560
+the poman property this thesis has a lot
+ 
+
+565
+00:13:07,560 --> 00:13:09,949
+the poman property this thesis has a lot
+of good information on building Spinners
+
+566
+00:13:09,949 --> 00:13:09,959
+of good information on building Spinners
+ 
+
+567
+00:13:09,959 --> 00:13:12,310
+of good information on building Spinners
+using minimal left ideals in Clifford
+
+568
+00:13:12,310 --> 00:13:12,320
+using minimal left ideals in Clifford
+ 
+
+569
+00:13:12,320 --> 00:13:16,069
+using minimal left ideals in Clifford
+algebras particularly in appendix B I've
+
+570
+00:13:16,069 --> 00:13:16,079
+algebras particularly in appendix B I've
+ 
+
+571
+00:13:16,079 --> 00:13:19,069
+algebras particularly in appendix B I've
+left a link to this thesis in the
+
+572
+00:13:19,069 --> 00:13:19,079
+left a link to this thesis in the
+ 
+
+573
+00:13:19,079 --> 00:13:22,230
+left a link to this thesis in the
+description in games like Pac-Man or Mrs
+
+574
+00:13:22,230 --> 00:13:22,240
+description in games like Pac-Man or Mrs
+ 
+
+575
+00:13:22,240 --> 00:13:24,670
+description in games like Pac-Man or Mrs
+Pac-Man the character is often seen
+
+576
+00:13:24,670 --> 00:13:24,680
+Pac-Man the character is often seen
+ 
+
+577
+00:13:24,680 --> 00:13:27,350
+Pac-Man the character is often seen
+eating up a line of pellets one by one
+
+578
+00:13:27,350 --> 00:13:27,360
+eating up a line of pellets one by one
+ 
+
+579
+00:13:27,360 --> 00:13:29,710
+eating up a line of pellets one by one
+until there are none left
+
+580
+00:13:29,710 --> 00:13:29,720
+until there are none left
+ 
+
+581
+00:13:29,720 --> 00:13:32,870
+until there are none left
+our projector pz plus behaves the same
+
+582
+00:13:32,870 --> 00:13:32,880
+our projector pz plus behaves the same
+ 
+
+583
+00:13:32,880 --> 00:13:36,990
+our projector pz plus behaves the same
+way if we multiply it onto Sigma Zed and
+
+584
+00:13:36,990 --> 00:13:37,000
+way if we multiply it onto Sigma Zed and
+ 
+
+585
+00:13:37,000 --> 00:13:39,230
+way if we multiply it onto Sigma Zed and
+then work out the multiplication the
+
+586
+00:13:39,230 --> 00:13:39,240
+then work out the multiplication the
+ 
+
+587
+00:13:39,240 --> 00:13:42,189
+then work out the multiplication the
+sigma Zed effectively disappears just
+
+588
+00:13:42,189 --> 00:13:42,199
+sigma Zed effectively disappears just
+ 
+
+589
+00:13:42,199 --> 00:13:44,470
+sigma Zed effectively disappears just
+like one of the pellets leaving us only
+
+590
+00:13:44,470 --> 00:13:44,480
+like one of the pellets leaving us only
+ 
+
+591
+00:13:44,480 --> 00:13:46,829
+like one of the pellets leaving us only
+with the projector pz
+
+592
+00:13:46,829 --> 00:13:46,839
+with the projector pz
+ 
+
+593
+00:13:46,839 --> 00:13:50,550
+with the projector pz
+plus so if we have the projector pz plus
+
+594
+00:13:50,550 --> 00:13:50,560
+plus so if we have the projector pz plus
+ 
+
+595
+00:13:50,560 --> 00:13:53,749
+plus so if we have the projector pz plus
+put in front of a long trail of Sigma Zs
+
+596
+00:13:53,749 --> 00:13:53,759
+put in front of a long trail of Sigma Zs
+ 
+
+597
+00:13:53,759 --> 00:13:56,110
+put in front of a long trail of Sigma Zs
+the projector can eat up the sigma Zeds
+
+598
+00:13:56,110 --> 00:13:56,120
+the projector can eat up the sigma Zeds
+ 
+
+599
+00:13:56,120 --> 00:13:59,870
+the projector can eat up the sigma Zeds
+one by one until they all disappear
+
+600
+00:13:59,870 --> 00:13:59,880
+one by one until they all disappear
+ 
+
+601
+00:13:59,880 --> 00:14:03,189
+one by one until they all disappear
+so we can get a pz plus projector to eat
+
+602
+00:14:03,189 --> 00:14:03,199
+so we can get a pz plus projector to eat
+ 
+
+603
+00:14:03,199 --> 00:14:06,150
+so we can get a pz plus projector to eat
+up a line of Sigma Zeds or use the
+
+604
+00:14:06,150 --> 00:14:06,160
+up a line of Sigma Zeds or use the
+ 
+
+605
+00:14:06,160 --> 00:14:08,509
+up a line of Sigma Zeds or use the
+property in Reverse to create a line of
+
+606
+00:14:08,509 --> 00:14:08,519
+property in Reverse to create a line of
+ 
+
+607
+00:14:08,519 --> 00:14:10,590
+property in Reverse to create a line of
+Sigma Zeds in front of the
+
+608
+00:14:10,590 --> 00:14:10,600
+Sigma Zeds in front of the
+ 
+
+609
+00:14:10,600 --> 00:14:13,230
+Sigma Zeds in front of the
+projector this property works on both
+
+610
+00:14:13,230 --> 00:14:13,240
+projector this property works on both
+ 
+
+611
+00:14:13,240 --> 00:14:16,829
+projector this property works on both
+the left and right sides of the
+
+612
+00:14:16,829 --> 00:14:16,839
+the left and right sides of the
+ 
+
+613
+00:14:16,839 --> 00:14:19,670
+the left and right sides of the
+projector with the poman property in
+
+614
+00:14:19,670 --> 00:14:19,680
+projector with the poman property in
+ 
+
+615
+00:14:19,680 --> 00:14:22,350
+projector with the poman property in
+mind let's take our eight basis elements
+
+616
+00:14:22,350 --> 00:14:22,360
+mind let's take our eight basis elements
+ 
+
+617
+00:14:22,360 --> 00:14:24,389
+mind let's take our eight basis elements
+from the Clifford algebra
+
+618
+00:14:24,389 --> 00:14:24,399
+from the Clifford algebra
+ 
+
+619
+00:14:24,399 --> 00:14:26,949
+from the Clifford algebra
+cl30 and multiply them onto our
+
+620
+00:14:26,949 --> 00:14:26,959
+cl30 and multiply them onto our
+ 
+
+621
+00:14:26,959 --> 00:14:30,230
+cl30 and multiply them onto our
+projector pz Plus
+
+622
+00:14:30,230 --> 00:14:30,240
+projector pz Plus
+ 
+
+623
+00:14:30,240 --> 00:14:32,710
+projector pz Plus
+multiplying the projector with one just
+
+624
+00:14:32,710 --> 00:14:32,720
+multiplying the projector with one just
+ 
+
+625
+00:14:32,720 --> 00:14:35,829
+multiplying the projector with one just
+gives us our projector back multiplying
+
+626
+00:14:35,829 --> 00:14:35,839
+gives us our projector back multiplying
+ 
+
+627
+00:14:35,839 --> 00:14:38,829
+gives us our projector back multiplying
+the projector with Sigma X we distribute
+
+628
+00:14:38,829 --> 00:14:38,839
+the projector with Sigma X we distribute
+ 
+
+629
+00:14:38,839 --> 00:14:41,990
+the projector with Sigma X we distribute
+and get this for convenience I'm going
+
+630
+00:14:41,990 --> 00:14:42,000
+and get this for convenience I'm going
+ 
+
+631
+00:14:42,000 --> 00:14:45,389
+and get this for convenience I'm going
+to rewrite this B Vector Sigma x * Sigma
+
+632
+00:14:45,389 --> 00:14:45,399
+to rewrite this B Vector Sigma x * Sigma
+ 
+
+633
+00:14:45,399 --> 00:14:49,790
+to rewrite this B Vector Sigma x * Sigma
+Z in its pseudo Vector form asga Sigma y
+
+634
+00:14:49,790 --> 00:14:49,800
+Z in its pseudo Vector form asga Sigma y
+ 
+
+635
+00:14:49,800 --> 00:14:52,389
+Z in its pseudo Vector form asga Sigma y
+* the pseudo scalar capital
+
+636
+00:14:52,389 --> 00:14:52,399
+* the pseudo scalar capital
+ 
+
+637
+00:14:52,399 --> 00:14:55,629
+* the pseudo scalar capital
+I multiplying the projector with Sigma Y
+
+638
+00:14:55,629 --> 00:14:55,639
+I multiplying the projector with Sigma Y
+ 
+
+639
+00:14:55,639 --> 00:14:58,269
+I multiplying the projector with Sigma Y
+and distributing I will again rewrite
+
+640
+00:14:58,269 --> 00:14:58,279
+and distributing I will again rewrite
+ 
+
+641
+00:14:58,279 --> 00:15:01,550
+and distributing I will again rewrite
+the by Vector Sigma y * Sigma Z in
+
+642
+00:15:01,550 --> 00:15:01,560
+the by Vector Sigma y * Sigma Z in
+ 
+
+643
+00:15:01,560 --> 00:15:05,350
+the by Vector Sigma y * Sigma Z in
+pseudo Vector form as Sigma x *
+
+644
+00:15:05,350 --> 00:15:05,360
+pseudo Vector form as Sigma x *
+ 
+
+645
+00:15:05,360 --> 00:15:08,230
+pseudo Vector form as Sigma x *
+I multiplying the projector with Sigma
+
+646
+00:15:08,230 --> 00:15:08,240
+I multiplying the projector with Sigma
+ 
+
+647
+00:15:08,240 --> 00:15:11,269
+I multiplying the projector with Sigma
+Zed just gives us the projector back by
+
+648
+00:15:11,269 --> 00:15:11,279
+Zed just gives us the projector back by
+ 
+
+649
+00:15:11,279 --> 00:15:14,350
+Zed just gives us the projector back by
+the poman property notice that this is
+
+650
+00:15:14,350 --> 00:15:14,360
+the poman property notice that this is
+ 
+
+651
+00:15:14,360 --> 00:15:16,790
+the poman property notice that this is
+the same result as just multiplying the
+
+652
+00:15:16,790 --> 00:15:16,800
+the same result as just multiplying the
+ 
+
+653
+00:15:16,800 --> 00:15:18,550
+the same result as just multiplying the
+projector with
+
+654
+00:15:18,550 --> 00:15:18,560
+projector with
+ 
+
+655
+00:15:18,560 --> 00:15:22,230
+projector with
+one with Sigma y Sigma Zed this actually
+
+656
+00:15:22,230 --> 00:15:22,240
+one with Sigma y Sigma Zed this actually
+ 
+
+657
+00:15:22,240 --> 00:15:25,629
+one with Sigma y Sigma Zed this actually
+gives us the same result as just Sigma y
+
+658
+00:15:25,629 --> 00:15:25,639
+gives us the same result as just Sigma y
+ 
+
+659
+00:15:25,639 --> 00:15:28,150
+gives us the same result as just Sigma y
+remember the poman property allows us to
+
+660
+00:15:28,150 --> 00:15:28,160
+remember the poman property allows us to
+ 
+
+661
+00:15:28,160 --> 00:15:30,710
+remember the poman property allows us to
+use this projector to eat up Sigma Zed
+
+662
+00:15:30,710 --> 00:15:30,720
+use this projector to eat up Sigma Zed
+ 
+
+663
+00:15:30,720 --> 00:15:34,790
+use this projector to eat up Sigma Zed
+and ignore it with Sigma Z * Sigma X we
+
+664
+00:15:34,790 --> 00:15:34,800
+and ignore it with Sigma Z * Sigma X we
+ 
+
+665
+00:15:34,800 --> 00:15:36,430
+and ignore it with Sigma Z * Sigma X we
+can swap the order and pick up a
+
+666
+00:15:36,430 --> 00:15:36,440
+can swap the order and pick up a
+ 
+
+667
+00:15:36,440 --> 00:15:39,150
+can swap the order and pick up a
+negative sign and ignoring Sigma Zed
+
+668
+00:15:39,150 --> 00:15:39,160
+negative sign and ignoring Sigma Zed
+ 
+
+669
+00:15:39,160 --> 00:15:41,870
+negative sign and ignoring Sigma Zed
+using the poman property we get the same
+
+670
+00:15:41,870 --> 00:15:41,880
+using the poman property we get the same
+ 
+
+671
+00:15:41,880 --> 00:15:44,629
+using the poman property we get the same
+result as Sigma X but with a minus sign
+
+672
+00:15:44,629 --> 00:15:44,639
+result as Sigma X but with a minus sign
+ 
+
+673
+00:15:44,639 --> 00:15:45,629
+result as Sigma X but with a minus sign
+in
+
+674
+00:15:45,629 --> 00:15:45,639
+in
+ 
+
+675
+00:15:45,639 --> 00:15:48,990
+in
+front multiplying with Sigma x * Sigma Y
+
+676
+00:15:48,990 --> 00:15:49,000
+front multiplying with Sigma x * Sigma Y
+ 
+
+677
+00:15:49,000 --> 00:15:51,509
+front multiplying with Sigma x * Sigma Y
+and distributing I can rewrite this B
+
+678
+00:15:51,509 --> 00:15:51,519
+and distributing I can rewrite this B
+ 
+
+679
+00:15:51,519 --> 00:15:54,350
+and distributing I can rewrite this B
+Vector as a pseudo vector and just
+
+680
+00:15:54,350 --> 00:15:54,360
+Vector as a pseudo vector and just
+ 
+
+681
+00:15:54,360 --> 00:15:56,069
+Vector as a pseudo vector and just
+rewrite the tri Vector as the
+
+682
+00:15:56,069 --> 00:15:56,079
+rewrite the tri Vector as the
+ 
+
+683
+00:15:56,079 --> 00:15:59,309
+rewrite the tri Vector as the
+pseudoscalar capital i
+
+684
+00:15:59,309 --> 00:15:59,319
+pseudoscalar capital i
+ 
+
+685
+00:15:59,319 --> 00:16:01,470
+pseudoscalar capital i
+multiplying with the tri Vector gives us
+
+686
+00:16:01,470 --> 00:16:01,480
+multiplying with the tri Vector gives us
+ 
+
+687
+00:16:01,480 --> 00:16:03,710
+multiplying with the tri Vector gives us
+the same result since we can just ignore
+
+688
+00:16:03,710 --> 00:16:03,720
+the same result since we can just ignore
+ 
+
+689
+00:16:03,720 --> 00:16:06,829
+the same result since we can just ignore
+the sigma Zed by the paman
+
+690
+00:16:06,829 --> 00:16:06,839
+the sigma Zed by the paman
+ 
+
+691
+00:16:06,839 --> 00:16:09,949
+the sigma Zed by the paman
+property so when we take the eight basis
+
+692
+00:16:09,949 --> 00:16:09,959
+property so when we take the eight basis
+ 
+
+693
+00:16:09,959 --> 00:16:11,430
+property so when we take the eight basis
+elements of
+
+694
+00:16:11,430 --> 00:16:11,440
+elements of
+ 
+
+695
+00:16:11,440 --> 00:16:13,710
+elements of
+cl30 and then put them through a
+
+696
+00:16:13,710 --> 00:16:13,720
+cl30 and then put them through a
+ 
+
+697
+00:16:13,720 --> 00:16:17,470
+cl30 and then put them through a
+projector with pz plus we only get four
+
+698
+00:16:17,470 --> 00:16:17,480
+projector with pz plus we only get four
+ 
+
+699
+00:16:17,480 --> 00:16:19,829
+projector with pz plus we only get four
+independent elements out on the other
+
+700
+00:16:19,829 --> 00:16:19,839
+independent elements out on the other
+ 
+
+701
+00:16:19,839 --> 00:16:22,790
+independent elements out on the other
+side in one case we get plus and minus
+
+702
+00:16:22,790 --> 00:16:22,800
+side in one case we get plus and minus
+ 
+
+703
+00:16:22,800 --> 00:16:25,110
+side in one case we get plus and minus
+versions of the same element but these
+
+704
+00:16:25,110 --> 00:16:25,120
+versions of the same element but these
+ 
+
+705
+00:16:25,120 --> 00:16:27,550
+versions of the same element but these
+are not independent since we can go from
+
+706
+00:16:27,550 --> 00:16:27,560
+are not independent since we can go from
+ 
+
+707
+00:16:27,560 --> 00:16:29,150
+are not independent since we can go from
+one to the other through scalar
+
+708
+00:16:29,150 --> 00:16:29,160
+one to the other through scalar
+ 
+
+709
+00:16:29,160 --> 00:16:31,550
+one to the other through scalar
+multiplication by
+
+710
+00:16:31,550 --> 00:16:31,560
+multiplication by
+ 
+
+711
+00:16:31,560 --> 00:16:34,470
+multiplication by
+-1 it makes sense that we turned eight
+
+712
+00:16:34,470 --> 00:16:34,480
+-1 it makes sense that we turned eight
+ 
+
+713
+00:16:34,480 --> 00:16:37,430
+-1 it makes sense that we turned eight
+elements into four elements because the
+
+714
+00:16:37,430 --> 00:16:37,440
+elements into four elements because the
+ 
+
+715
+00:16:37,440 --> 00:16:39,910
+elements into four elements because the
+projector operation essentially lets us
+
+716
+00:16:39,910 --> 00:16:39,920
+projector operation essentially lets us
+ 
+
+717
+00:16:39,920 --> 00:16:42,629
+projector operation essentially lets us
+forget about the sigma Zeds in our
+
+718
+00:16:42,629 --> 00:16:42,639
+forget about the sigma Zeds in our
+ 
+
+719
+00:16:42,639 --> 00:16:45,629
+forget about the sigma Zeds in our
+formulas so any basis elements that only
+
+720
+00:16:45,629 --> 00:16:45,639
+formulas so any basis elements that only
+ 
+
+721
+00:16:45,639 --> 00:16:48,309
+formulas so any basis elements that only
+differ by a factor of Sigma Zed get
+
+722
+00:16:48,309 --> 00:16:48,319
+differ by a factor of Sigma Zed get
+ 
+
+723
+00:16:48,319 --> 00:16:50,470
+differ by a factor of Sigma Zed get
+projected to the same
+
+724
+00:16:50,470 --> 00:16:50,480
+projected to the same
+ 
+
+725
+00:16:50,480 --> 00:16:53,269
+projected to the same
+result so these four elements form a
+
+726
+00:16:53,269 --> 00:16:53,279
+result so these four elements form a
+ 
+
+727
+00:16:53,279 --> 00:16:56,910
+result so these four elements form a
+basis of our minimal left ideal in
+
+728
+00:16:56,910 --> 00:16:56,920
+basis of our minimal left ideal in
+ 
+
+729
+00:16:56,920 --> 00:17:00,670
+basis of our minimal left ideal in
+cl30 I can re write these elements AS pz
+
+730
+00:17:00,670 --> 00:17:00,680
+cl30 I can re write these elements AS pz
+ 
+
+731
+00:17:00,680 --> 00:17:05,470
+cl30 I can re write these elements AS pz
+Plus Sigma X pz plus I Sigma X pz Plus
+
+732
+00:17:05,470 --> 00:17:05,480
+Plus Sigma X pz plus I Sigma X pz Plus
+ 
+
+733
+00:17:05,480 --> 00:17:07,549
+Plus Sigma X pz plus I Sigma X pz Plus
+and I pz
+
+734
+00:17:07,549 --> 00:17:07,559
+and I pz
+ 
+
+735
+00:17:07,559 --> 00:17:09,949
+and I pz
+plus if we write out the Matrix
+
+736
+00:17:09,949 --> 00:17:09,959
+plus if we write out the Matrix
+ 
+
+737
+00:17:09,959 --> 00:17:12,549
+plus if we write out the Matrix
+representations of these Spinners we
+
+738
+00:17:12,549 --> 00:17:12,559
+representations of these Spinners we
+ 
+
+739
+00:17:12,559 --> 00:17:14,710
+representations of these Spinners we
+find they correspond to the four
+
+740
+00:17:14,710 --> 00:17:14,720
+find they correspond to the four
+ 
+
+741
+00:17:14,720 --> 00:17:18,510
+find they correspond to the four
+different real numbers inside a 2x1 PO
+
+742
+00:17:18,510 --> 00:17:18,520
+different real numbers inside a 2x1 PO
+ 
+
+743
+00:17:18,520 --> 00:17:21,390
+different real numbers inside a 2x1 PO
+column spinner they are just written in
+
+744
+00:17:21,390 --> 00:17:21,400
+column spinner they are just written in
+ 
+
+745
+00:17:21,400 --> 00:17:23,390
+column spinner they are just written in
+abstract form
+
+746
+00:17:23,390 --> 00:17:23,400
+abstract form
+ 
+
+747
+00:17:23,400 --> 00:17:26,189
+abstract form
+instead we can alternatively think of
+
+748
+00:17:26,189 --> 00:17:26,199
+instead we can alternatively think of
+ 
+
+749
+00:17:26,199 --> 00:17:29,669
+instead we can alternatively think of
+this as two basis vectors with complex
+
+750
+00:17:29,669 --> 00:17:29,679
+this as two basis vectors with complex
+ 
+
+751
+00:17:29,679 --> 00:17:32,150
+this as two basis vectors with complex
+coefficients in front if we allow the
+
+752
+00:17:32,150 --> 00:17:32,160
+coefficients in front if we allow the
+ 
+
+753
+00:17:32,160 --> 00:17:35,310
+coefficients in front if we allow the
+pseudoscalar I to instead be represented
+
+754
+00:17:35,310 --> 00:17:35,320
+pseudoscalar I to instead be represented
+ 
+
+755
+00:17:35,320 --> 00:17:36,789
+pseudoscalar I to instead be represented
+by the complex
+
+756
+00:17:36,789 --> 00:17:36,799
+by the complex
+ 
+
+757
+00:17:36,799 --> 00:17:40,310
+by the complex
+I here pz plus represents the spin
+
+758
+00:17:40,310 --> 00:17:40,320
+I here pz plus represents the spin
+ 
+
+759
+00:17:40,320 --> 00:17:43,669
+I here pz plus represents the spin
+Upstate and sigma X pz Plus represents
+
+760
+00:17:43,669 --> 00:17:43,679
+Upstate and sigma X pz Plus represents
+ 
+
+761
+00:17:43,679 --> 00:17:45,710
+Upstate and sigma X pz Plus represents
+the spin down
+
+762
+00:17:45,710 --> 00:17:45,720
+the spin down
+ 
+
+763
+00:17:45,720 --> 00:17:48,270
+the spin down
+state now I would like to take this
+
+764
+00:17:48,270 --> 00:17:48,280
+state now I would like to take this
+ 
+
+765
+00:17:48,280 --> 00:17:50,230
+state now I would like to take this
+minimal left ideal definition of
+
+766
+00:17:50,230 --> 00:17:50,240
+minimal left ideal definition of
+ 
+
+767
+00:17:50,240 --> 00:17:52,870
+minimal left ideal definition of
+spinners and generalize it to any
+
+768
+00:17:52,870 --> 00:17:52,880
+spinners and generalize it to any
+ 
+
+769
+00:17:52,880 --> 00:17:55,470
+spinners and generalize it to any
+Dimension but first i'm going to spend a
+
+770
+00:17:55,470 --> 00:17:55,480
+Dimension but first i'm going to spend a
+ 
+
+771
+00:17:55,480 --> 00:17:57,470
+Dimension but first i'm going to spend a
+little more time thinking about Spinners
+
+772
+00:17:57,470 --> 00:17:57,480
+little more time thinking about Spinners
+ 
+
+773
+00:17:57,480 --> 00:18:00,950
+little more time thinking about Spinners
+in cl3 3 and make sure they're exactly
+
+774
+00:18:00,950 --> 00:18:00,960
+in cl3 3 and make sure they're exactly
+ 
+
+775
+00:18:00,960 --> 00:18:03,750
+in cl3 3 and make sure they're exactly
+the objects we want for quantum
+
+776
+00:18:03,750 --> 00:18:03,760
+the objects we want for quantum
+ 
+
+777
+00:18:03,760 --> 00:18:06,390
+the objects we want for quantum
+mechanics one thing to check is to make
+
+778
+00:18:06,390 --> 00:18:06,400
+mechanics one thing to check is to make
+ 
+
+779
+00:18:06,400 --> 00:18:08,710
+mechanics one thing to check is to make
+sure Spinners behave properly when we
+
+780
+00:18:08,710 --> 00:18:08,720
+sure Spinners behave properly when we
+ 
+
+781
+00:18:08,720 --> 00:18:10,870
+sure Spinners behave properly when we
+act on them with Quantum
+
+782
+00:18:10,870 --> 00:18:10,880
+act on them with Quantum
+ 
+
+783
+00:18:10,880 --> 00:18:13,230
+act on them with Quantum
+operators in the staran Garlock
+
+784
+00:18:13,230 --> 00:18:13,240
+operators in the staran Garlock
+ 
+
+785
+00:18:13,240 --> 00:18:15,430
+operators in the staran Garlock
+experiment there are two possible
+
+786
+00:18:15,430 --> 00:18:15,440
+experiment there are two possible
+ 
+
+787
+00:18:15,440 --> 00:18:18,830
+experiment there are two possible
+measurements spin up or spin down we
+
+788
+00:18:18,830 --> 00:18:18,840
+measurements spin up or spin down we
+ 
+
+789
+00:18:18,840 --> 00:18:22,110
+measurements spin up or spin down we
+denote these measurements by plus h/2
+
+790
+00:18:22,110 --> 00:18:22,120
+denote these measurements by plus h/2
+ 
+
+791
+00:18:22,120 --> 00:18:23,950
+denote these measurements by plus h/2
+andus
+
+792
+00:18:23,950 --> 00:18:23,960
+andus
+ 
+
+793
+00:18:23,960 --> 00:18:26,990
+andus
+h/2 algebraically these are measured by
+
+794
+00:18:26,990 --> 00:18:27,000
+h/2 algebraically these are measured by
+ 
+
+795
+00:18:27,000 --> 00:18:29,590
+h/2 algebraically these are measured by
+applying the spin Z operator onto our
+
+796
+00:18:29,590 --> 00:18:29,600
+applying the spin Z operator onto our
+ 
+
+797
+00:18:29,600 --> 00:18:34,390
+applying the spin Z operator onto our
+spin States this operator equals h/2 *
+
+798
+00:18:34,390 --> 00:18:34,400
+spin States this operator equals h/2 *
+ 
+
+799
+00:18:34,400 --> 00:18:37,430
+spin States this operator equals h/2 *
+Sigma Z so let's see what happens when
+
+800
+00:18:37,430 --> 00:18:37,440
+Sigma Z so let's see what happens when
+ 
+
+801
+00:18:37,440 --> 00:18:39,909
+Sigma Z so let's see what happens when
+we take our spin States and operate on
+
+802
+00:18:39,909 --> 00:18:39,919
+we take our spin States and operate on
+ 
+
+803
+00:18:39,919 --> 00:18:43,430
+we take our spin States and operate on
+them with Sigma Zed if we apply Sigma
+
+804
+00:18:43,430 --> 00:18:43,440
+them with Sigma Zed if we apply Sigma
+ 
+
+805
+00:18:43,440 --> 00:18:46,149
+them with Sigma Zed if we apply Sigma
+Zed to our spin up State this is the
+
+806
+00:18:46,149 --> 00:18:46,159
+Zed to our spin up State this is the
+ 
+
+807
+00:18:46,159 --> 00:18:48,470
+Zed to our spin up State this is the
+same thing as applying Sigma Zed to our
+
+808
+00:18:48,470 --> 00:18:48,480
+same thing as applying Sigma Zed to our
+ 
+
+809
+00:18:48,480 --> 00:18:52,270
+same thing as applying Sigma Zed to our
+pz plus projector so it gets eaten up by
+
+810
+00:18:52,270 --> 00:18:52,280
+pz plus projector so it gets eaten up by
+ 
+
+811
+00:18:52,280 --> 00:18:55,190
+pz plus projector so it gets eaten up by
+the poman property giving back just our
+
+812
+00:18:55,190 --> 00:18:55,200
+the poman property giving back just our
+ 
+
+813
+00:18:55,200 --> 00:18:58,310
+the poman property giving back just our
+spin up state so the spin Zed up
+
+814
+00:18:58,310 --> 00:18:58,320
+spin up state so the spin Zed up
+ 
+
+815
+00:18:58,320 --> 00:19:01,630
+spin up state so the spin Zed up
+operator measures Plus h/2 on the spin
+
+816
+00:19:01,630 --> 00:19:01,640
+operator measures Plus h/2 on the spin
+ 
+
+817
+00:19:01,640 --> 00:19:03,390
+operator measures Plus h/2 on the spin
+up State as
+
+818
+00:19:03,390 --> 00:19:03,400
+up State as
+ 
+
+819
+00:19:03,400 --> 00:19:06,390
+up State as
+expected we can also apply Sigma Zed to
+
+820
+00:19:06,390 --> 00:19:06,400
+expected we can also apply Sigma Zed to
+ 
+
+821
+00:19:06,400 --> 00:19:08,990
+expected we can also apply Sigma Zed to
+our spin down state which we can write
+
+822
+00:19:08,990 --> 00:19:09,000
+our spin down state which we can write
+ 
+
+823
+00:19:09,000 --> 00:19:11,190
+our spin down state which we can write
+as Sigma x * P
+
+824
+00:19:11,190 --> 00:19:11,200
+as Sigma x * P
+ 
+
+825
+00:19:11,200 --> 00:19:14,270
+as Sigma x * P
+z+ swapping the two sigmas gives us a
+
+826
+00:19:14,270 --> 00:19:14,280
+z+ swapping the two sigmas gives us a
+ 
+
+827
+00:19:14,280 --> 00:19:17,029
+z+ swapping the two sigmas gives us a
+negative sign and the pz plus projector
+
+828
+00:19:17,029 --> 00:19:17,039
+negative sign and the pz plus projector
+ 
+
+829
+00:19:17,039 --> 00:19:19,510
+negative sign and the pz plus projector
+eats up the sigma Zed leaving us with
+
+830
+00:19:19,510 --> 00:19:19,520
+eats up the sigma Zed leaving us with
+ 
+
+831
+00:19:19,520 --> 00:19:22,830
+eats up the sigma Zed leaving us with
+the negative of our spin down state so
+
+832
+00:19:22,830 --> 00:19:22,840
+the negative of our spin down state so
+ 
+
+833
+00:19:22,840 --> 00:19:25,669
+the negative of our spin down state so
+the spin Zed operator measures minus h
+
+834
+00:19:25,669 --> 00:19:25,679
+the spin Zed operator measures minus h
+ 
+
+835
+00:19:25,679 --> 00:19:29,149
+the spin Zed operator measures minus h
+over2 on the spin down state as
+
+836
+00:19:29,149 --> 00:19:29,159
+over2 on the spin down state as
+ 
+
+837
+00:19:29,159 --> 00:19:31,669
+over2 on the spin down state as
+expected so we can see that our Clifford
+
+838
+00:19:31,669 --> 00:19:31,679
+expected so we can see that our Clifford
+ 
+
+839
+00:19:31,679 --> 00:19:34,029
+expected so we can see that our Clifford
+algebra Spinners obey the standard rules
+
+840
+00:19:34,029 --> 00:19:34,039
+algebra Spinners obey the standard rules
+ 
+
+841
+00:19:34,039 --> 00:19:35,270
+algebra Spinners obey the standard rules
+of quantum
+
+842
+00:19:35,270 --> 00:19:35,280
+of quantum
+ 
+
+843
+00:19:35,280 --> 00:19:38,630
+of quantum
+mechanics we can also build the plus x -
+
+844
+00:19:38,630 --> 00:19:38,640
+mechanics we can also build the plus x -
+ 
+
+845
+00:19:38,640 --> 00:19:42,029
+mechanics we can also build the plus x -
+X Plus Y and minus y States out of our
+
+846
+00:19:42,029 --> 00:19:42,039
+X Plus Y and minus y States out of our
+ 
+
+847
+00:19:42,039 --> 00:19:44,870
+X Plus Y and minus y States out of our
+plus Z and minus Z States and the
+
+848
+00:19:44,870 --> 00:19:44,880
+plus Z and minus Z States and the
+ 
+
+849
+00:19:44,880 --> 00:19:48,029
+plus Z and minus Z States and the
+corresponding operators behave as
+
+850
+00:19:48,029 --> 00:19:48,039
+corresponding operators behave as
+ 
+
+851
+00:19:48,039 --> 00:19:50,669
+corresponding operators behave as
+expected something else to consider are
+
+852
+00:19:50,669 --> 00:19:50,679
+expected something else to consider are
+ 
+
+853
+00:19:50,679 --> 00:19:51,590
+expected something else to consider are
+dual
+
+854
+00:19:51,590 --> 00:19:51,600
+dual
+ 
+
+855
+00:19:51,600 --> 00:19:54,149
+dual
+Spinners in quantum mechanics we often
+
+856
+00:19:54,149 --> 00:19:54,159
+Spinners in quantum mechanics we often
+ 
+
+857
+00:19:54,159 --> 00:19:56,669
+Spinners in quantum mechanics we often
+deal with spinners also called CET
+
+858
+00:19:56,669 --> 00:19:56,679
+deal with spinners also called CET
+ 
+
+859
+00:19:56,679 --> 00:20:00,190
+deal with spinners also called CET
+Spinners as well as dual Spinners also
+
+860
+00:20:00,190 --> 00:20:00,200
+Spinners as well as dual Spinners also
+ 
+
+861
+00:20:00,200 --> 00:20:03,950
+Spinners as well as dual Spinners also
+called bra Spinners put together a bra
+
+862
+00:20:03,950 --> 00:20:03,960
+called bra Spinners put together a bra
+ 
+
+863
+00:20:03,960 --> 00:20:07,430
+called bra Spinners put together a bra
+and K or bracket output a scalar complex
+
+864
+00:20:07,430 --> 00:20:07,440
+and K or bracket output a scalar complex
+ 
+
+865
+00:20:07,440 --> 00:20:09,470
+and K or bracket output a scalar complex
+number which is the probability
+
+866
+00:20:09,470 --> 00:20:09,480
+number which is the probability
+ 
+
+867
+00:20:09,480 --> 00:20:12,110
+number which is the probability
+amplitude of one state collapsing onto
+
+868
+00:20:12,110 --> 00:20:12,120
+amplitude of one state collapsing onto
+ 
+
+869
+00:20:12,120 --> 00:20:15,549
+amplitude of one state collapsing onto
+the other normally we think of bras as
+
+870
+00:20:15,549 --> 00:20:15,559
+the other normally we think of bras as
+ 
+
+871
+00:20:15,559 --> 00:20:18,230
+the other normally we think of bras as
+being the hermiss conjugate of kets
+
+872
+00:20:18,230 --> 00:20:18,240
+being the hermiss conjugate of kets
+ 
+
+873
+00:20:18,240 --> 00:20:21,430
+being the hermiss conjugate of kets
+denoted with a dagger in other words we
+
+874
+00:20:21,430 --> 00:20:21,440
+denoted with a dagger in other words we
+ 
+
+875
+00:20:21,440 --> 00:20:24,390
+denoted with a dagger in other words we
+take a KET column and transpose it into
+
+876
+00:20:24,390 --> 00:20:24,400
+take a KET column and transpose it into
+ 
+
+877
+00:20:24,400 --> 00:20:27,070
+take a KET column and transpose it into
+a row and take the complex conjugate of
+
+878
+00:20:27,070 --> 00:20:27,080
+a row and take the complex conjugate of
+ 
+
+879
+00:20:27,080 --> 00:20:28,789
+a row and take the complex conjugate of
+the entries
+
+880
+00:20:28,789 --> 00:20:28,799
+the entries
+ 
+
+881
+00:20:28,799 --> 00:20:30,830
+the entries
+if we take the hermiss conjugate of one
+
+882
+00:20:30,830 --> 00:20:30,840
+if we take the hermiss conjugate of one
+ 
+
+883
+00:20:30,840 --> 00:20:33,310
+if we take the hermiss conjugate of one
+of our 2x two spinner matrices where
+
+884
+00:20:33,310 --> 00:20:33,320
+of our 2x two spinner matrices where
+ 
+
+885
+00:20:33,320 --> 00:20:36,310
+of our 2x two spinner matrices where
+only the First Column is non zero we end
+
+886
+00:20:36,310 --> 00:20:36,320
+only the First Column is non zero we end
+ 
+
+887
+00:20:36,320 --> 00:20:38,310
+only the First Column is non zero we end
+up with a 2x2 matrix where only the
+
+888
+00:20:38,310 --> 00:20:38,320
+up with a 2x2 matrix where only the
+ 
+
+889
+00:20:38,320 --> 00:20:41,750
+up with a 2x2 matrix where only the
+first row is non zero this is a minimal
+
+890
+00:20:41,750 --> 00:20:41,760
+first row is non zero this is a minimal
+ 
+
+891
+00:20:41,760 --> 00:20:44,270
+first row is non zero this is a minimal
+right ideal of
+
+892
+00:20:44,270 --> 00:20:44,280
+right ideal of
+ 
+
+893
+00:20:44,280 --> 00:20:47,270
+right ideal of
+cl30 so Spinners live in minimal left
+
+894
+00:20:47,270 --> 00:20:47,280
+cl30 so Spinners live in minimal left
+ 
+
+895
+00:20:47,280 --> 00:20:50,149
+cl30 so Spinners live in minimal left
+ideals and dual Spinners live in minimal
+
+896
+00:20:50,149 --> 00:20:50,159
+ideals and dual Spinners live in minimal
+ 
+
+897
+00:20:50,159 --> 00:20:51,430
+ideals and dual Spinners live in minimal
+right
+
+898
+00:20:51,430 --> 00:20:51,440
+right
+ 
+
+899
+00:20:51,440 --> 00:20:54,590
+right
+ideals remember we get a left ideal by
+
+900
+00:20:54,590 --> 00:20:54,600
+ideals remember we get a left ideal by
+ 
+
+901
+00:20:54,600 --> 00:20:57,149
+ideals remember we get a left ideal by
+multiplying 2x two matrices onto our
+
+902
+00:20:57,149 --> 00:20:57,159
+multiplying 2x two matrices onto our
+ 
+
+903
+00:20:57,159 --> 00:20:59,950
+multiplying 2x two matrices onto our
+projector from the the left and we get a
+
+904
+00:20:59,950 --> 00:20:59,960
+projector from the the left and we get a
+ 
+
+905
+00:20:59,960 --> 00:21:01,990
+projector from the the left and we get a
+right ideal by multiplying 2x two
+
+906
+00:21:01,990 --> 00:21:02,000
+right ideal by multiplying 2x two
+ 
+
+907
+00:21:02,000 --> 00:21:05,070
+right ideal by multiplying 2x two
+matrices onto our projector from the
+
+908
+00:21:05,070 --> 00:21:05,080
+matrices onto our projector from the
+ 
+
+909
+00:21:05,080 --> 00:21:07,909
+matrices onto our projector from the
+right when using the abstract symbols of
+
+910
+00:21:07,909 --> 00:21:07,919
+right when using the abstract symbols of
+ 
+
+911
+00:21:07,919 --> 00:21:10,830
+right when using the abstract symbols of
+Clifford algebras the dagger operation
+
+912
+00:21:10,830 --> 00:21:10,840
+Clifford algebras the dagger operation
+ 
+
+913
+00:21:10,840 --> 00:21:13,549
+Clifford algebras the dagger operation
+no longer means Herm Mission conjugate
+
+914
+00:21:13,549 --> 00:21:13,559
+no longer means Herm Mission conjugate
+ 
+
+915
+00:21:13,559 --> 00:21:16,870
+no longer means Herm Mission conjugate
+instead it indicates the reversal
+
+916
+00:21:16,870 --> 00:21:16,880
+instead it indicates the reversal
+ 
+
+917
+00:21:16,880 --> 00:21:19,470
+instead it indicates the reversal
+operation so if we have a general multiv
+
+918
+00:21:19,470 --> 00:21:19,480
+operation so if we have a general multiv
+ 
+
+919
+00:21:19,480 --> 00:21:21,750
+operation so if we have a general multiv
+Vector M multiplied onto the projector
+
+920
+00:21:21,750 --> 00:21:21,760
+Vector M multiplied onto the projector
+ 
+
+921
+00:21:21,760 --> 00:21:24,269
+Vector M multiplied onto the projector
+from the left and we take the reverse of
+
+922
+00:21:24,269 --> 00:21:24,279
+from the left and we take the reverse of
+ 
+
+923
+00:21:24,279 --> 00:21:26,510
+from the left and we take the reverse of
+this we end up with the reverse of the
+
+924
+00:21:26,510 --> 00:21:26,520
+this we end up with the reverse of the
+ 
+
+925
+00:21:26,520 --> 00:21:28,510
+this we end up with the reverse of the
+projector times the reverse of the
+
+926
+00:21:28,510 --> 00:21:28,520
+projector times the reverse of the
+ 
+
+927
+00:21:28,520 --> 00:21:31,430
+projector times the reverse of the
+multiv vector and since our projector is
+
+928
+00:21:31,430 --> 00:21:31,440
+multiv vector and since our projector is
+ 
+
+929
+00:21:31,440 --> 00:21:34,190
+multiv vector and since our projector is
+only made up of a scaler plus a vector
+
+930
+00:21:34,190 --> 00:21:34,200
+only made up of a scaler plus a vector
+ 
+
+931
+00:21:34,200 --> 00:21:36,870
+only made up of a scaler plus a vector
+the reverse operation does nothing to
+
+932
+00:21:36,870 --> 00:21:36,880
+the reverse operation does nothing to
+ 
+
+933
+00:21:36,880 --> 00:21:40,190
+the reverse operation does nothing to
+it so essentially the reverse operator
+
+934
+00:21:40,190 --> 00:21:40,200
+it so essentially the reverse operator
+ 
+
+935
+00:21:40,200 --> 00:21:43,390
+it so essentially the reverse operator
+switches us from a left ideal to a right
+
+936
+00:21:43,390 --> 00:21:43,400
+switches us from a left ideal to a right
+ 
+
+937
+00:21:43,400 --> 00:21:46,110
+switches us from a left ideal to a right
+ideal in other words the reverse
+
+938
+00:21:46,110 --> 00:21:46,120
+ideal in other words the reverse
+ 
+
+939
+00:21:46,120 --> 00:21:49,630
+ideal in other words the reverse
+operator changes a spinner into a dual
+
+940
+00:21:49,630 --> 00:21:49,640
+operator changes a spinner into a dual
+ 
+
+941
+00:21:49,640 --> 00:21:52,630
+operator changes a spinner into a dual
+spinner so if we take a spinner Cai
+
+942
+00:21:52,630 --> 00:21:52,640
+spinner so if we take a spinner Cai
+ 
+
+943
+00:21:52,640 --> 00:21:54,789
+spinner so if we take a spinner Cai
+written as a linear combination of spin
+
+944
+00:21:54,789 --> 00:21:54,799
+written as a linear combination of spin
+ 
+
+945
+00:21:54,799 --> 00:21:57,510
+written as a linear combination of spin
+up and spin down States and then take
+
+946
+00:21:57,510 --> 00:21:57,520
+up and spin down States and then take
+ 
+
+947
+00:21:57,520 --> 00:21:59,710
+up and spin down States and then take
+its reverse reverse this applies the
+
+948
+00:21:59,710 --> 00:21:59,720
+its reverse reverse this applies the
+ 
+
+949
+00:21:59,720 --> 00:22:01,909
+its reverse reverse this applies the
+reverse to the components and the basis
+
+950
+00:22:01,909 --> 00:22:01,919
+reverse to the components and the basis
+ 
+
+951
+00:22:01,919 --> 00:22:05,029
+reverse to the components and the basis
+Spinners and exchanges their order the
+
+952
+00:22:05,029 --> 00:22:05,039
+Spinners and exchanges their order the
+ 
+
+953
+00:22:05,039 --> 00:22:07,390
+Spinners and exchanges their order the
+reverse also changes the basis Spinners
+
+954
+00:22:07,390 --> 00:22:07,400
+reverse also changes the basis Spinners
+ 
+
+955
+00:22:07,400 --> 00:22:09,510
+reverse also changes the basis Spinners
+into dual basis
+
+956
+00:22:09,510 --> 00:22:09,520
+into dual basis
+ 
+
+957
+00:22:09,520 --> 00:22:11,950
+into dual basis
+Spinners it's also worth noting that our
+
+958
+00:22:11,950 --> 00:22:11,960
+Spinners it's also worth noting that our
+ 
+
+959
+00:22:11,960 --> 00:22:14,470
+Spinners it's also worth noting that our
+spinner components are actually a sum of
+
+960
+00:22:14,470 --> 00:22:14,480
+spinner components are actually a sum of
+ 
+
+961
+00:22:14,480 --> 00:22:18,070
+spinner components are actually a sum of
+a scaler and a tri vector or pseudo
+
+962
+00:22:18,070 --> 00:22:18,080
+a scaler and a tri vector or pseudo
+ 
+
+963
+00:22:18,080 --> 00:22:20,870
+a scaler and a tri vector or pseudo
+scaler when we take the reverse of this
+
+964
+00:22:20,870 --> 00:22:20,880
+scaler when we take the reverse of this
+ 
+
+965
+00:22:20,880 --> 00:22:23,750
+scaler when we take the reverse of this
+the scaler one is unchanged but the
+
+966
+00:22:23,750 --> 00:22:23,760
+the scaler one is unchanged but the
+ 
+
+967
+00:22:23,760 --> 00:22:26,149
+the scaler one is unchanged but the
+Reversed pseudo scaler gets an extra
+
+968
+00:22:26,149 --> 00:22:26,159
+Reversed pseudo scaler gets an extra
+ 
+
+969
+00:22:26,159 --> 00:22:29,110
+Reversed pseudo scaler gets an extra
+minus sign so so here the reverse
+
+970
+00:22:29,110 --> 00:22:29,120
+minus sign so so here the reverse
+ 
+
+971
+00:22:29,120 --> 00:22:31,390
+minus sign so so here the reverse
+operator is playing a role similar to
+
+972
+00:22:31,390 --> 00:22:31,400
+operator is playing a role similar to
+ 
+
+973
+00:22:31,400 --> 00:22:32,750
+operator is playing a role similar to
+The Complex
+
+974
+00:22:32,750 --> 00:22:32,760
+The Complex
+ 
+
+975
+00:22:32,760 --> 00:22:35,630
+The Complex
+conjugate also recall that both scalers
+
+976
+00:22:35,630 --> 00:22:35,640
+conjugate also recall that both scalers
+ 
+
+977
+00:22:35,640 --> 00:22:37,470
+conjugate also recall that both scalers
+and sud sudo scalers commute with
+
+978
+00:22:37,470 --> 00:22:37,480
+and sud sudo scalers commute with
+ 
+
+979
+00:22:37,480 --> 00:22:39,950
+and sud sudo scalers commute with
+everything in the algebra so we can move
+
+980
+00:22:39,950 --> 00:22:39,960
+everything in the algebra so we can move
+ 
+
+981
+00:22:39,960 --> 00:22:41,789
+everything in the algebra so we can move
+them to the left or right of basis
+
+982
+00:22:41,789 --> 00:22:41,799
+them to the left or right of basis
+ 
+
+983
+00:22:41,799 --> 00:22:43,830
+them to the left or right of basis
+spinners for
+
+984
+00:22:43,830 --> 00:22:43,840
+spinners for
+ 
+
+985
+00:22:43,840 --> 00:22:46,590
+spinners for
+free now let's try performing the inner
+
+986
+00:22:46,590 --> 00:22:46,600
+free now let's try performing the inner
+ 
+
+987
+00:22:46,600 --> 00:22:50,070
+free now let's try performing the inner
+product between a bra and a KET if we do
+
+988
+00:22:50,070 --> 00:22:50,080
+product between a bra and a KET if we do
+ 
+
+989
+00:22:50,080 --> 00:22:52,350
+product between a bra and a KET if we do
+this using our 2x two matrices we
+
+990
+00:22:52,350 --> 00:22:52,360
+this using our 2x two matrices we
+ 
+
+991
+00:22:52,360 --> 00:22:55,110
+this using our 2x two matrices we
+unfortunately don't get a scaler we get
+
+992
+00:22:55,110 --> 00:22:55,120
+unfortunately don't get a scaler we get
+ 
+
+993
+00:22:55,120 --> 00:22:57,310
+unfortunately don't get a scaler we get
+the inner product result in the top left
+
+994
+00:22:57,310 --> 00:22:57,320
+the inner product result in the top left
+ 
+
+995
+00:22:57,320 --> 00:23:00,029
+the inner product result in the top left
+entry of the The Matrix but a true
+
+996
+00:23:00,029 --> 00:23:00,039
+entry of the The Matrix but a true
+ 
+
+997
+00:23:00,039 --> 00:23:02,269
+entry of the The Matrix but a true
+scaler in a Clifford algebra would be
+
+998
+00:23:02,269 --> 00:23:02,279
+scaler in a Clifford algebra would be
+ 
+
+999
+00:23:02,279 --> 00:23:05,190
+scaler in a Clifford algebra would be
+this number multiplied by the scaler one
+
+1000
+00:23:05,190 --> 00:23:05,200
+this number multiplied by the scaler one
+ 
+
+1001
+00:23:05,200 --> 00:23:08,190
+this number multiplied by the scaler one
+which is the identity Matrix how can we
+
+1002
+00:23:08,190 --> 00:23:08,200
+which is the identity Matrix how can we
+ 
+
+1003
+00:23:08,200 --> 00:23:11,430
+which is the identity Matrix how can we
+fix this we get around this problem by
+
+1004
+00:23:11,430 --> 00:23:11,440
+fix this we get around this problem by
+ 
+
+1005
+00:23:11,440 --> 00:23:13,230
+fix this we get around this problem by
+using something called the grade
+
+1006
+00:23:13,230 --> 00:23:13,240
+using something called the grade
+ 
+
+1007
+00:23:13,240 --> 00:23:16,029
+using something called the grade
+projection operator denoted with angle
+
+1008
+00:23:16,029 --> 00:23:16,039
+projection operator denoted with angle
+ 
+
+1009
+00:23:16,039 --> 00:23:19,630
+projection operator denoted with angle
+brackets and a subscript K this operator
+
+1010
+00:23:19,630 --> 00:23:19,640
+brackets and a subscript K this operator
+ 
+
+1011
+00:23:19,640 --> 00:23:22,230
+brackets and a subscript K this operator
+takes a multiv vector as input and
+
+1012
+00:23:22,230 --> 00:23:22,240
+takes a multiv vector as input and
+ 
+
+1013
+00:23:22,240 --> 00:23:24,990
+takes a multiv vector as input and
+outputs the Ki grade elements inside the
+
+1014
+00:23:24,990 --> 00:23:25,000
+outputs the Ki grade elements inside the
+ 
+
+1015
+00:23:25,000 --> 00:23:28,269
+outputs the Ki grade elements inside the
+multiv vector for example given a multiv
+
+1016
+00:23:28,269 --> 00:23:28,279
+multiv vector for example given a multiv
+ 
+
+1017
+00:23:28,279 --> 00:23:30,830
+multiv vector for example given a multiv
+Vector M the grade zero projection gives
+
+1018
+00:23:30,830 --> 00:23:30,840
+Vector M the grade zero projection gives
+ 
+
+1019
+00:23:30,840 --> 00:23:33,350
+Vector M the grade zero projection gives
+us the scalar part the grade 1
+
+1020
+00:23:33,350 --> 00:23:33,360
+us the scalar part the grade 1
+ 
+
+1021
+00:23:33,360 --> 00:23:36,110
+us the scalar part the grade 1
+projection gives us the vector part the
+
+1022
+00:23:36,110 --> 00:23:36,120
+projection gives us the vector part the
+ 
+
+1023
+00:23:36,120 --> 00:23:38,029
+projection gives us the vector part the
+grade two projection gives us the bi
+
+1024
+00:23:38,029 --> 00:23:38,039
+grade two projection gives us the bi
+ 
+
+1025
+00:23:38,039 --> 00:23:40,190
+grade two projection gives us the bi
+Vector part and the grade three
+
+1026
+00:23:40,190 --> 00:23:40,200
+Vector part and the grade three
+ 
+
+1027
+00:23:40,200 --> 00:23:43,549
+Vector part and the grade three
+projection gives us the tri Vector part
+
+1028
+00:23:43,549 --> 00:23:43,559
+projection gives us the tri Vector part
+ 
+
+1029
+00:23:43,559 --> 00:23:45,710
+projection gives us the tri Vector part
+the result of our dual spinner acting on
+
+1030
+00:23:45,710 --> 00:23:45,720
+the result of our dual spinner acting on
+ 
+
+1031
+00:23:45,720 --> 00:23:48,310
+the result of our dual spinner acting on
+a spinner is this expression times our
+
+1032
+00:23:48,310 --> 00:23:48,320
+a spinner is this expression times our
+ 
+
+1033
+00:23:48,320 --> 00:23:51,750
+a spinner is this expression times our
+pz plus operator which has a scalar part
+
+1034
+00:23:51,750 --> 00:23:51,760
+pz plus operator which has a scalar part
+ 
+
+1035
+00:23:51,760 --> 00:23:54,870
+pz plus operator which has a scalar part
+plus a vector part to get the scalar
+
+1036
+00:23:54,870 --> 00:23:54,880
+plus a vector part to get the scalar
+ 
+
+1037
+00:23:54,880 --> 00:23:57,470
+plus a vector part to get the scalar
+part on its own all we do is use the
+
+1038
+00:23:57,470 --> 00:23:57,480
+part on its own all we do is use the
+ 
+
+1039
+00:23:57,480 --> 00:23:59,909
+part on its own all we do is use the
+grade projection operator and then we
+
+1040
+00:23:59,909 --> 00:23:59,919
+grade projection operator and then we
+ 
+
+1041
+00:23:59,919 --> 00:24:02,070
+grade projection operator and then we
+multiply by two to get rid of the factor
+
+1042
+00:24:02,070 --> 00:24:02,080
+multiply by two to get rid of the factor
+ 
+
+1043
+00:24:02,080 --> 00:24:03,510
+multiply by two to get rid of the factor
+of
+
+1044
+00:24:03,510 --> 00:24:03,520
+of
+ 
+
+1045
+00:24:03,520 --> 00:24:06,549
+of
+1/2 note that many sources will omit the
+
+1046
+00:24:06,549 --> 00:24:06,559
+1/2 note that many sources will omit the
+ 
+
+1047
+00:24:06,559 --> 00:24:08,870
+1/2 note that many sources will omit the
+zero subscript in the special case of a
+
+1048
+00:24:08,870 --> 00:24:08,880
+zero subscript in the special case of a
+ 
+
+1049
+00:24:08,880 --> 00:24:11,549
+zero subscript in the special case of a
+grade zero projection as a convention in
+
+1050
+00:24:11,549 --> 00:24:11,559
+grade zero projection as a convention in
+ 
+
+1051
+00:24:11,559 --> 00:24:12,750
+grade zero projection as a convention in
+their
+
+1052
+00:24:12,750 --> 00:24:12,760
+their
+ 
+
+1053
+00:24:12,760 --> 00:24:14,710
+their
+notation so in
+
+1054
+00:24:14,710 --> 00:24:14,720
+notation so in
+ 
+
+1055
+00:24:14,720 --> 00:24:17,590
+notation so in
+cl30 we calculate the inner product of
+
+1056
+00:24:17,590 --> 00:24:17,600
+cl30 we calculate the inner product of
+ 
+
+1057
+00:24:17,600 --> 00:24:20,870
+cl30 we calculate the inner product of
+two spinners Zeta and Cai by taking the
+
+1058
+00:24:20,870 --> 00:24:20,880
+two spinners Zeta and Cai by taking the
+ 
+
+1059
+00:24:20,880 --> 00:24:24,110
+two spinners Zeta and Cai by taking the
+Clifford product of Zeta reverse and Kai
+
+1060
+00:24:24,110 --> 00:24:24,120
+Clifford product of Zeta reverse and Kai
+ 
+
+1061
+00:24:24,120 --> 00:24:26,750
+Clifford product of Zeta reverse and Kai
+and projecting out the scalar part and
+
+1062
+00:24:26,750 --> 00:24:26,760
+and projecting out the scalar part and
+ 
+
+1063
+00:24:26,760 --> 00:24:28,350
+and projecting out the scalar part and
+multiplying by
+
+1064
+00:24:28,350 --> 00:24:28,360
+multiplying by
+ 
+
+1065
+00:24:28,360 --> 00:24:31,669
+multiplying by
+two here the kai acts like a cat spinner
+
+1066
+00:24:31,669 --> 00:24:31,679
+two here the kai acts like a cat spinner
+ 
+
+1067
+00:24:31,679 --> 00:24:34,350
+two here the kai acts like a cat spinner
+from a minimal left ideal and The Zeta
+
+1068
+00:24:34,350 --> 00:24:34,360
+from a minimal left ideal and The Zeta
+ 
+
+1069
+00:24:34,360 --> 00:24:37,070
+from a minimal left ideal and The Zeta
+reverse acts like a bra spinner or dual
+
+1070
+00:24:37,070 --> 00:24:37,080
+reverse acts like a bra spinner or dual
+ 
+
+1071
+00:24:37,080 --> 00:24:40,389
+reverse acts like a bra spinner or dual
+spinner from a minimal right
+
+1072
+00:24:40,389 --> 00:24:40,399
+spinner from a minimal right
+ 
+
+1073
+00:24:40,399 --> 00:24:42,950
+spinner from a minimal right
+ideal another thing to check is to make
+
+1074
+00:24:42,950 --> 00:24:42,960
+ideal another thing to check is to make
+ 
+
+1075
+00:24:42,960 --> 00:24:45,510
+ideal another thing to check is to make
+sure that a spinner and a dual spinner
+
+1076
+00:24:45,510 --> 00:24:45,520
+sure that a spinner and a dual spinner
+ 
+
+1077
+00:24:45,520 --> 00:24:48,070
+sure that a spinner and a dual spinner
+multiply together in the other direction
+
+1078
+00:24:48,070 --> 00:24:48,080
+multiply together in the other direction
+ 
+
+1079
+00:24:48,080 --> 00:24:51,389
+multiply together in the other direction
+to give a vector in previous videos I
+
+1080
+00:24:51,389 --> 00:24:51,399
+to give a vector in previous videos I
+ 
+
+1081
+00:24:51,399 --> 00:24:53,350
+to give a vector in previous videos I
+talked about how Spinners are sort of
+
+1082
+00:24:53,350 --> 00:24:53,360
+talked about how Spinners are sort of
+ 
+
+1083
+00:24:53,360 --> 00:24:56,029
+talked about how Spinners are sort of
+like the square roots of vectors because
+
+1084
+00:24:56,029 --> 00:24:56,039
+like the square roots of vectors because
+ 
+
+1085
+00:24:56,039 --> 00:24:58,350
+like the square roots of vectors because
+we can factor a POI vector into a
+
+1086
+00:24:58,350 --> 00:24:58,360
+we can factor a POI vector into a
+ 
+
+1087
+00:24:58,360 --> 00:25:01,190
+we can factor a POI vector into a
+spinner times a dual spinner we should
+
+1088
+00:25:01,190 --> 00:25:01,200
+spinner times a dual spinner we should
+ 
+
+1089
+00:25:01,200 --> 00:25:03,029
+spinner times a dual spinner we should
+also check that we can multiply a
+
+1090
+00:25:03,029 --> 00:25:03,039
+also check that we can multiply a
+ 
+
+1091
+00:25:03,039 --> 00:25:05,630
+also check that we can multiply a
+spinner and dual spinner into a vector
+
+1092
+00:25:05,630 --> 00:25:05,640
+spinner and dual spinner into a vector
+ 
+
+1093
+00:25:05,640 --> 00:25:07,190
+spinner and dual spinner into a vector
+in Clifford
+
+1094
+00:25:07,190 --> 00:25:07,200
+in Clifford
+ 
+
+1095
+00:25:07,200 --> 00:25:09,909
+in Clifford
+algebras note that the cat spinner has
+
+1096
+00:25:09,909 --> 00:25:09,919
+algebras note that the cat spinner has
+ 
+
+1097
+00:25:09,919 --> 00:25:13,350
+algebras note that the cat spinner has
+components Cai 1 and Cai 2 and the bra
+
+1098
+00:25:13,350 --> 00:25:13,360
+components Cai 1 and Cai 2 and the bra
+ 
+
+1099
+00:25:13,360 --> 00:25:16,470
+components Cai 1 and Cai 2 and the bra
+dual spinner has components negative 2
+
+1100
+00:25:16,470 --> 00:25:16,480
+dual spinner has components negative 2
+ 
+
+1101
+00:25:16,480 --> 00:25:17,750
+dual spinner has components negative 2
+and Cai
+
+1102
+00:25:17,750 --> 00:25:17,760
+and Cai
+ 
+
+1103
+00:25:17,760 --> 00:25:20,510
+and Cai
+1 we can write out these Spinners as
+
+1104
+00:25:20,510 --> 00:25:20,520
+1 we can write out these Spinners as
+ 
+
+1105
+00:25:20,520 --> 00:25:23,110
+1 we can write out these Spinners as
+linear combinations of our plus Z and
+
+1106
+00:25:23,110 --> 00:25:23,120
+linear combinations of our plus Z and
+ 
+
+1107
+00:25:23,120 --> 00:25:26,190
+linear combinations of our plus Z and
+minus Z basis Spinners we can then
+
+1108
+00:25:26,190 --> 00:25:26,200
+minus Z basis Spinners we can then
+ 
+
+1109
+00:25:26,200 --> 00:25:28,830
+minus Z basis Spinners we can then
+rewrite the plus Z spinner as our pz
+
+1110
+00:25:28,830 --> 00:25:28,840
+rewrite the plus Z spinner as our pz
+ 
+
+1111
+00:25:28,840 --> 00:25:31,630
+rewrite the plus Z spinner as our pz
+plus projector and rewrite the minus Z
+
+1112
+00:25:31,630 --> 00:25:31,640
+plus projector and rewrite the minus Z
+ 
+
+1113
+00:25:31,640 --> 00:25:34,389
+plus projector and rewrite the minus Z
+spinner as Sigma x * P
+
+1114
+00:25:34,389 --> 00:25:34,399
+spinner as Sigma x * P
+ 
+
+1115
+00:25:34,399 --> 00:25:37,510
+spinner as Sigma x * P
+z+ we can factor out pz Plus on the
+
+1116
+00:25:37,510 --> 00:25:37,520
+z+ we can factor out pz Plus on the
+ 
+
+1117
+00:25:37,520 --> 00:25:39,870
+z+ we can factor out pz Plus on the
+right of the first term and factor out
+
+1118
+00:25:39,870 --> 00:25:39,880
+right of the first term and factor out
+ 
+
+1119
+00:25:39,880 --> 00:25:42,710
+right of the first term and factor out
+pz plus from the left side of the second
+
+1120
+00:25:42,710 --> 00:25:42,720
+pz plus from the left side of the second
+ 
+
+1121
+00:25:42,720 --> 00:25:46,510
+pz plus from the left side of the second
+term because pz plus is a projector its
+
+1122
+00:25:46,510 --> 00:25:46,520
+term because pz plus is a projector its
+ 
+
+1123
+00:25:46,520 --> 00:25:50,190
+term because pz plus is a projector its
+square equals itself we can now rewrite
+
+1124
+00:25:50,190 --> 00:25:50,200
+square equals itself we can now rewrite
+ 
+
+1125
+00:25:50,200 --> 00:25:54,870
+square equals itself we can now rewrite
+pz plus as 1 12 * 1 + Sigma Z
+
+1126
+00:25:54,870 --> 00:25:54,880
+pz plus as 1 12 * 1 + Sigma Z
+ 
+
+1127
+00:25:54,880 --> 00:25:57,430
+pz plus as 1 12 * 1 + Sigma Z
+Distributing this product of three sums
+
+1128
+00:25:57,430 --> 00:25:57,440
+Distributing this product of three sums
+ 
+
+1129
+00:25:57,440 --> 00:26:00,750
+Distributing this product of three sums
+gives gives us eight terms in total we
+
+1130
+00:26:00,750 --> 00:26:00,760
+gives gives us eight terms in total we
+ 
+
+1131
+00:26:00,760 --> 00:26:03,430
+gives gives us eight terms in total we
+can do some simplifications here for
+
+1132
+00:26:03,430 --> 00:26:03,440
+can do some simplifications here for
+ 
+
+1133
+00:26:03,440 --> 00:26:06,870
+can do some simplifications here for
+example Sigma x^2 goes to 1 and we can
+
+1134
+00:26:06,870 --> 00:26:06,880
+example Sigma x^2 goes to 1 and we can
+ 
+
+1135
+00:26:06,880 --> 00:26:09,269
+example Sigma x^2 goes to 1 and we can
+flip the order of the sigmas here if we
+
+1136
+00:26:09,269 --> 00:26:09,279
+flip the order of the sigmas here if we
+ 
+
+1137
+00:26:09,279 --> 00:26:12,430
+flip the order of the sigmas here if we
+change the sign and flip the sigmas here
+
+1138
+00:26:12,430 --> 00:26:12,440
+change the sign and flip the sigmas here
+ 
+
+1139
+00:26:12,440 --> 00:26:15,510
+change the sign and flip the sigmas here
+if we also change the sign and set Sigma
+
+1140
+00:26:15,510 --> 00:26:15,520
+if we also change the sign and set Sigma
+ 
+
+1141
+00:26:15,520 --> 00:26:19,470
+if we also change the sign and set Sigma
+x^2 to 1 also note that the plus and
+
+1142
+00:26:19,470 --> 00:26:19,480
+x^2 to 1 also note that the plus and
+ 
+
+1143
+00:26:19,480 --> 00:26:22,029
+x^2 to 1 also note that the plus and
+minus versions of these terms cancel and
+
+1144
+00:26:22,029 --> 00:26:22,039
+minus versions of these terms cancel and
+ 
+
+1145
+00:26:22,039 --> 00:26:22,990
+minus versions of these terms cancel and
+go to
+
+1146
+00:26:22,990 --> 00:26:23,000
+go to
+ 
+
+1147
+00:26:23,000 --> 00:26:25,669
+go to
+zero we can then group the six remaining
+
+1148
+00:26:25,669 --> 00:26:25,679
+zero we can then group the six remaining
+ 
+
+1149
+00:26:25,679 --> 00:26:29,950
+zero we can then group the six remaining
+terms into Sigma X Sigma Z * Sigma X and
+
+1150
+00:26:29,950 --> 00:26:29,960
+terms into Sigma X Sigma Z * Sigma X and
+ 
+
+1151
+00:26:29,960 --> 00:26:34,110
+terms into Sigma X Sigma Z * Sigma X and
+sigma Z next I'll distribute the 1/2 and
+
+1152
+00:26:34,110 --> 00:26:34,120
+sigma Z next I'll distribute the 1/2 and
+ 
+
+1153
+00:26:34,120 --> 00:26:36,990
+sigma Z next I'll distribute the 1/2 and
+I'm going to rewrite the Z x by Vector
+
+1154
+00:26:36,990 --> 00:26:37,000
+I'm going to rewrite the Z x by Vector
+ 
+
+1155
+00:26:37,000 --> 00:26:40,630
+I'm going to rewrite the Z x by Vector
+in pseudo Vector form as I * Sigma
+
+1156
+00:26:40,630 --> 00:26:40,640
+in pseudo Vector form as I * Sigma
+ 
+
+1157
+00:26:40,640 --> 00:26:43,990
+in pseudo Vector form as I * Sigma
+y if we set these terms equal to 3D
+
+1158
+00:26:43,990 --> 00:26:44,000
+y if we set these terms equal to 3D
+ 
+
+1159
+00:26:44,000 --> 00:26:47,430
+y if we set these terms equal to 3D
+Vector components XY Z and also change
+
+1160
+00:26:47,430 --> 00:26:47,440
+Vector components XY Z and also change
+ 
+
+1161
+00:26:47,440 --> 00:26:50,430
+Vector components XY Z and also change
+the tri Vector big I to the complex
+
+1162
+00:26:50,430 --> 00:26:50,440
+the tri Vector big I to the complex
+ 
+
+1163
+00:26:50,440 --> 00:26:53,789
+the tri Vector big I to the complex
+small I we get the exact formulas for
+
+1164
+00:26:53,789 --> 00:26:53,799
+small I we get the exact formulas for
+ 
+
+1165
+00:26:53,799 --> 00:26:56,269
+small I we get the exact formulas for
+converting between 3D Vector components
+
+1166
+00:26:56,269 --> 00:26:56,279
+converting between 3D Vector components
+ 
+
+1167
+00:26:56,279 --> 00:26:58,669
+converting between 3D Vector components
+and complex spinner compon components
+
+1168
+00:26:58,669 --> 00:26:58,679
+and complex spinner compon components
+ 
+
+1169
+00:26:58,679 --> 00:27:00,669
+and complex spinner compon components
+that I showed in spinners for beginners
+
+1170
+00:27:00,669 --> 00:27:00,679
+that I showed in spinners for beginners
+ 
+
+1171
+00:27:00,679 --> 00:27:01,870
+that I showed in spinners for beginners
+video
+
+1172
+00:27:01,870 --> 00:27:01,880
+video
+ 
+
+1173
+00:27:01,880 --> 00:27:04,950
+video
+7 so in the Clifford algebra
+
+1174
+00:27:04,950 --> 00:27:04,960
+7 so in the Clifford algebra
+ 
+
+1175
+00:27:04,960 --> 00:27:08,230
+7 so in the Clifford algebra
+cl30 we can successfully factor a 3D
+
+1176
+00:27:08,230 --> 00:27:08,240
+cl30 we can successfully factor a 3D
+ 
+
+1177
+00:27:08,240 --> 00:27:11,710
+cl30 we can successfully factor a 3D
+Vector into a pair of spinners as
+
+1178
+00:27:11,710 --> 00:27:11,720
+Vector into a pair of spinners as
+ 
+
+1179
+00:27:11,720 --> 00:27:14,029
+Vector into a pair of spinners as
+expected we just have to keep in mind
+
+1180
+00:27:14,029 --> 00:27:14,039
+expected we just have to keep in mind
+ 
+
+1181
+00:27:14,039 --> 00:27:16,230
+expected we just have to keep in mind
+that the components of this 3D Vector
+
+1182
+00:27:16,230 --> 00:27:16,240
+that the components of this 3D Vector
+ 
+
+1183
+00:27:16,240 --> 00:27:18,190
+that the components of this 3D Vector
+include both scalar parts and
+
+1184
+00:27:18,190 --> 00:27:18,200
+include both scalar parts and
+ 
+
+1185
+00:27:18,200 --> 00:27:20,789
+include both scalar parts and
+pseudoscalar
+
+1186
+00:27:20,789 --> 00:27:20,799
+pseudoscalar
+ 
+
+1187
+00:27:20,799 --> 00:27:23,830
+pseudoscalar
+parts now in this video series I've
+
+1188
+00:27:23,830 --> 00:27:23,840
+parts now in this video series I've
+ 
+
+1189
+00:27:23,840 --> 00:27:26,149
+parts now in this video series I've
+defined Spinners as members of minimal
+
+1190
+00:27:26,149 --> 00:27:26,159
+defined Spinners as members of minimal
+ 
+
+1191
+00:27:26,159 --> 00:27:28,190
+defined Spinners as members of minimal
+left ideals in Clifford
+
+1192
+00:27:28,190 --> 00:27:28,200
+left ideals in Clifford
+ 
+
+1193
+00:27:28,200 --> 00:27:30,310
+left ideals in Clifford
+algebras however I mentioned in a
+
+1194
+00:27:30,310 --> 00:27:30,320
+algebras however I mentioned in a
+ 
+
+1195
+00:27:30,320 --> 00:27:33,070
+algebras however I mentioned in a
+previous video that David Honis one of
+
+1196
+00:27:33,070 --> 00:27:33,080
+previous video that David Honis one of
+ 
+
+1197
+00:27:33,080 --> 00:27:35,870
+previous video that David Honis one of
+the leading figures in geometric algebra
+
+1198
+00:27:35,870 --> 00:27:35,880
+the leading figures in geometric algebra
+ 
+
+1199
+00:27:35,880 --> 00:27:38,510
+the leading figures in geometric algebra
+defines Spinners as any sum of even
+
+1200
+00:27:38,510 --> 00:27:38,520
+defines Spinners as any sum of even
+ 
+
+1201
+00:27:38,520 --> 00:27:41,669
+defines Spinners as any sum of even
+graded elements in a Clifford algebra so
+
+1202
+00:27:41,669 --> 00:27:41,679
+graded elements in a Clifford algebra so
+ 
+
+1203
+00:27:41,679 --> 00:27:43,950
+graded elements in a Clifford algebra so
+why are these two definitions
+
+1204
+00:27:43,950 --> 00:27:43,960
+why are these two definitions
+ 
+
+1205
+00:27:43,960 --> 00:27:46,430
+why are these two definitions
+different the link between these two
+
+1206
+00:27:46,430 --> 00:27:46,440
+different the link between these two
+ 
+
+1207
+00:27:46,440 --> 00:27:50,029
+different the link between these two
+definitions is the poman property recall
+
+1208
+00:27:50,029 --> 00:27:50,039
+definitions is the poman property recall
+ 
+
+1209
+00:27:50,039 --> 00:27:52,149
+definitions is the poman property recall
+we can get a left ideal inside our
+
+1210
+00:27:52,149 --> 00:27:52,159
+we can get a left ideal inside our
+ 
+
+1211
+00:27:52,159 --> 00:27:54,830
+we can get a left ideal inside our
+Clifford algebra by applying the algebra
+
+1212
+00:27:54,830 --> 00:27:54,840
+Clifford algebra by applying the algebra
+ 
+
+1213
+00:27:54,840 --> 00:27:57,590
+Clifford algebra by applying the algebra
+onto a projector pz plus from the left
+
+1214
+00:27:57,590 --> 00:27:57,600
+onto a projector pz plus from the left
+ 
+
+1215
+00:27:57,600 --> 00:28:00,710
+onto a projector pz plus from the left
+left the projection operation squashes
+
+1216
+00:28:00,710 --> 00:28:00,720
+left the projection operation squashes
+ 
+
+1217
+00:28:00,720 --> 00:28:03,190
+left the projection operation squashes
+our eight-dimensional space into a
+
+1218
+00:28:03,190 --> 00:28:03,200
+our eight-dimensional space into a
+ 
+
+1219
+00:28:03,200 --> 00:28:06,710
+our eight-dimensional space into a
+four-dimensional space in doing so it
+
+1220
+00:28:06,710 --> 00:28:06,720
+four-dimensional space in doing so it
+ 
+
+1221
+00:28:06,720 --> 00:28:08,470
+four-dimensional space in doing so it
+makes it so that we can no longer tell
+
+1222
+00:28:08,470 --> 00:28:08,480
+makes it so that we can no longer tell
+ 
+
+1223
+00:28:08,480 --> 00:28:10,909
+makes it so that we can no longer tell
+the difference between elements if they
+
+1224
+00:28:10,909 --> 00:28:10,919
+the difference between elements if they
+ 
+
+1225
+00:28:10,919 --> 00:28:14,230
+the difference between elements if they
+differ by a factor of Sigma Zed for
+
+1226
+00:28:14,230 --> 00:28:14,240
+differ by a factor of Sigma Zed for
+ 
+
+1227
+00:28:14,240 --> 00:28:16,230
+differ by a factor of Sigma Zed for
+example we can no longer tell the
+
+1228
+00:28:16,230 --> 00:28:16,240
+example we can no longer tell the
+ 
+
+1229
+00:28:16,240 --> 00:28:19,470
+example we can no longer tell the
+difference between Sigma Y and sigma y *
+
+1230
+00:28:19,470 --> 00:28:19,480
+difference between Sigma Y and sigma y *
+ 
+
+1231
+00:28:19,480 --> 00:28:22,950
+difference between Sigma Y and sigma y *
+Sigma Z because our pz plus projector
+
+1232
+00:28:22,950 --> 00:28:22,960
+Sigma Z because our pz plus projector
+ 
+
+1233
+00:28:22,960 --> 00:28:25,789
+Sigma Z because our pz plus projector
+eats up the sigma Zed making it
+
+1234
+00:28:25,789 --> 00:28:25,799
+eats up the sigma Zed making it
+ 
+
+1235
+00:28:25,799 --> 00:28:28,350
+eats up the sigma Zed making it
+disappear this means that that when we
+
+1236
+00:28:28,350 --> 00:28:28,360
+disappear this means that that when we
+ 
+
+1237
+00:28:28,360 --> 00:28:30,710
+disappear this means that that when we
+have a big Clifford algebra expression
+
+1238
+00:28:30,710 --> 00:28:30,720
+have a big Clifford algebra expression
+ 
+
+1239
+00:28:30,720 --> 00:28:33,389
+have a big Clifford algebra expression
+like this that is projected using pz
+
+1240
+00:28:33,389 --> 00:28:33,399
+like this that is projected using pz
+ 
+
+1241
+00:28:33,399 --> 00:28:36,830
+like this that is projected using pz
+plus we can feel free to add or remove
+
+1242
+00:28:36,830 --> 00:28:36,840
+plus we can feel free to add or remove
+ 
+
+1243
+00:28:36,840 --> 00:28:38,909
+plus we can feel free to add or remove
+Sigma Zeds as we
+
+1244
+00:28:38,909 --> 00:28:38,919
+Sigma Zeds as we
+ 
+
+1245
+00:28:38,919 --> 00:28:41,710
+Sigma Zeds as we
+please this means that we have the power
+
+1246
+00:28:41,710 --> 00:28:41,720
+please this means that we have the power
+ 
+
+1247
+00:28:41,720 --> 00:28:44,230
+please this means that we have the power
+to make every term in this expression
+
+1248
+00:28:44,230 --> 00:28:44,240
+to make every term in this expression
+ 
+
+1249
+00:28:44,240 --> 00:28:47,149
+to make every term in this expression
+have an even grade for example the
+
+1250
+00:28:47,149 --> 00:28:47,159
+have an even grade for example the
+ 
+
+1251
+00:28:47,159 --> 00:28:49,950
+have an even grade for example the
+scalar one has grade zero so we leave it
+
+1252
+00:28:49,950 --> 00:28:49,960
+scalar one has grade zero so we leave it
+ 
+
+1253
+00:28:49,960 --> 00:28:53,190
+scalar one has grade zero so we leave it
+alone the vectors Sigma X and sigma y
+
+1254
+00:28:53,190 --> 00:28:53,200
+alone the vectors Sigma X and sigma y
+ 
+
+1255
+00:28:53,200 --> 00:28:56,029
+alone the vectors Sigma X and sigma y
+are grade one so we can multiply them by
+
+1256
+00:28:56,029 --> 00:28:56,039
+are grade one so we can multiply them by
+ 
+
+1257
+00:28:56,039 --> 00:28:58,509
+are grade one so we can multiply them by
+an extra Sigma Zed to make them grade
+
+1258
+00:28:58,509 --> 00:28:58,519
+an extra Sigma Zed to make them grade
+ 
+
+1259
+00:28:58,519 --> 00:29:01,590
+an extra Sigma Zed to make them grade
+two for the vector Sigma Zed we can
+
+1260
+00:29:01,590 --> 00:29:01,600
+two for the vector Sigma Zed we can
+ 
+
+1261
+00:29:01,600 --> 00:29:03,710
+two for the vector Sigma Zed we can
+remove a factor of Sigma Zed just to get
+
+1262
+00:29:03,710 --> 00:29:03,720
+remove a factor of Sigma Zed just to get
+ 
+
+1263
+00:29:03,720 --> 00:29:06,269
+remove a factor of Sigma Zed just to get
+a scalar one which is grade
+
+1264
+00:29:06,269 --> 00:29:06,279
+a scalar one which is grade
+ 
+
+1265
+00:29:06,279 --> 00:29:09,669
+a scalar one which is grade
+zero all the B vectors are grade two so
+
+1266
+00:29:09,669 --> 00:29:09,679
+zero all the B vectors are grade two so
+ 
+
+1267
+00:29:09,679 --> 00:29:12,110
+zero all the B vectors are grade two so
+we leave them alone and the tri Vector
+
+1268
+00:29:12,110 --> 00:29:12,120
+we leave them alone and the tri Vector
+ 
+
+1269
+00:29:12,120 --> 00:29:14,509
+we leave them alone and the tri Vector
+is grade three but we can remove a
+
+1270
+00:29:14,509 --> 00:29:14,519
+is grade three but we can remove a
+ 
+
+1271
+00:29:14,519 --> 00:29:17,310
+is grade three but we can remove a
+factor of Sigma Zed to make it grade
+
+1272
+00:29:17,310 --> 00:29:17,320
+factor of Sigma Zed to make it grade
+ 
+
+1273
+00:29:17,320 --> 00:29:20,549
+factor of Sigma Zed to make it grade
+two so by adding and removing Sigma Zeds
+
+1274
+00:29:20,549 --> 00:29:20,559
+two so by adding and removing Sigma Zeds
+ 
+
+1275
+00:29:20,559 --> 00:29:22,990
+two so by adding and removing Sigma Zeds
+as needed we have forced every element
+
+1276
+00:29:22,990 --> 00:29:23,000
+as needed we have forced every element
+ 
+
+1277
+00:29:23,000 --> 00:29:26,230
+as needed we have forced every element
+in this expression to have an even grade
+
+1278
+00:29:26,230 --> 00:29:26,240
+in this expression to have an even grade
+ 
+
+1279
+00:29:26,240 --> 00:29:28,190
+in this expression to have an even grade
+and this is completely equal to our
+
+1280
+00:29:28,190 --> 00:29:28,200
+and this is completely equal to our
+ 
+
+1281
+00:29:28,200 --> 00:29:29,750
+and this is completely equal to our
+original spinner
+
+1282
+00:29:29,750 --> 00:29:29,760
+original spinner
+ 
+
+1283
+00:29:29,760 --> 00:29:33,029
+original spinner
+formula all David Honis does for his
+
+1284
+00:29:33,029 --> 00:29:33,039
+formula all David Honis does for his
+ 
+
+1285
+00:29:33,039 --> 00:29:35,470
+formula all David Honis does for his
+definition of spinners is simply drop
+
+1286
+00:29:35,470 --> 00:29:35,480
+definition of spinners is simply drop
+ 
+
+1287
+00:29:35,480 --> 00:29:37,470
+definition of spinners is simply drop
+the projection from the right hand side
+
+1288
+00:29:37,470 --> 00:29:37,480
+the projection from the right hand side
+ 
+
+1289
+00:29:37,480 --> 00:29:40,389
+the projection from the right hand side
+of this expression this even graded
+
+1290
+00:29:40,389 --> 00:29:40,399
+of this expression this even graded
+ 
+
+1291
+00:29:40,399 --> 00:29:42,830
+of this expression this even graded
+element behaves exactly like the PO
+
+1292
+00:29:42,830 --> 00:29:42,840
+element behaves exactly like the PO
+ 
+
+1293
+00:29:42,840 --> 00:29:46,070
+element behaves exactly like the PO
+Spinners we've seen all along it simply
+
+1294
+00:29:46,070 --> 00:29:46,080
+Spinners we've seen all along it simply
+ 
+
+1295
+00:29:46,080 --> 00:29:47,870
+Spinners we've seen all along it simply
+doesn't care about the fact that the
+
+1296
+00:29:47,870 --> 00:29:47,880
+doesn't care about the fact that the
+ 
+
+1297
+00:29:47,880 --> 00:29:51,350
+doesn't care about the fact that the
+second column of this Matrix is nonzero
+
+1298
+00:29:51,350 --> 00:29:51,360
+second column of this Matrix is nonzero
+ 
+
+1299
+00:29:51,360 --> 00:29:53,029
+second column of this Matrix is nonzero
+since we only care about the First
+
+1300
+00:29:53,029 --> 00:29:53,039
+since we only care about the First
+ 
+
+1301
+00:29:53,039 --> 00:29:56,230
+since we only care about the First
+Column anyway if we want to take this
+
+1302
+00:29:56,230 --> 00:29:56,240
+Column anyway if we want to take this
+ 
+
+1303
+00:29:56,240 --> 00:29:59,070
+Column anyway if we want to take this
+Honis Style spinner and recover our
+
+1304
+00:29:59,070 --> 00:29:59,080
+Honis Style spinner and recover our
+ 
+
+1305
+00:29:59,080 --> 00:30:01,630
+Honis Style spinner and recover our
+minimal left ideal spinner all we need
+
+1306
+00:30:01,630 --> 00:30:01,640
+minimal left ideal spinner all we need
+ 
+
+1307
+00:30:01,640 --> 00:30:03,789
+minimal left ideal spinner all we need
+to do is apply it to our projection
+
+1308
+00:30:03,789 --> 00:30:03,799
+to do is apply it to our projection
+ 
+
+1309
+00:30:03,799 --> 00:30:05,789
+to do is apply it to our projection
+operator from the
+
+1310
+00:30:05,789 --> 00:30:05,799
+operator from the
+ 
+
+1311
+00:30:05,799 --> 00:30:08,350
+operator from the
+left so these two definitions of
+
+1312
+00:30:08,350 --> 00:30:08,360
+left so these two definitions of
+ 
+
+1313
+00:30:08,360 --> 00:30:10,950
+left so these two definitions of
+spinners aren't exactly equal but they
+
+1314
+00:30:10,950 --> 00:30:10,960
+spinners aren't exactly equal but they
+ 
+
+1315
+00:30:10,960 --> 00:30:13,549
+spinners aren't exactly equal but they
+are pretty close the only difference
+
+1316
+00:30:13,549 --> 00:30:13,559
+are pretty close the only difference
+ 
+
+1317
+00:30:13,559 --> 00:30:15,470
+are pretty close the only difference
+between them is whether or not we do a
+
+1318
+00:30:15,470 --> 00:30:15,480
+between them is whether or not we do a
+ 
+
+1319
+00:30:15,480 --> 00:30:18,230
+between them is whether or not we do a
+projection operator on the
+
+1320
+00:30:18,230 --> 00:30:18,240
+projection operator on the
+ 
+
+1321
+00:30:18,240 --> 00:30:20,909
+projection operator on the
+right now let's take what we have for
+
+1322
+00:30:20,909 --> 00:30:20,919
+right now let's take what we have for
+ 
+
+1323
+00:30:20,919 --> 00:30:22,430
+right now let's take what we have for
+Spinners in
+
+1324
+00:30:22,430 --> 00:30:22,440
+Spinners in
+ 
+
+1325
+00:30:22,440 --> 00:30:26,230
+Spinners in
+cl30 and generalize it to SpaceTime with
+
+1326
+00:30:26,230 --> 00:30:26,240
+cl30 and generalize it to SpaceTime with
+ 
+
+1327
+00:30:26,240 --> 00:30:30,789
+cl30 and generalize it to SpaceTime with
+cl13 and then generalize it further to
+
+1328
+00:30:30,789 --> 00:30:30,799
+cl13 and then generalize it further to
+ 
+
+1329
+00:30:30,799 --> 00:30:33,830
+cl13 and then generalize it further to
+clpq in the SpaceTime algebra
+
+1330
+00:30:33,830 --> 00:30:33,840
+clpq in the SpaceTime algebra
+ 
+
+1331
+00:30:33,840 --> 00:30:37,990
+clpq in the SpaceTime algebra
+cl13 gamma T squares 2 + 1 and gamma's
+
+1332
+00:30:37,990 --> 00:30:38,000
+cl13 gamma T squares 2 + 1 and gamma's
+ 
+
+1333
+00:30:38,000 --> 00:30:42,149
+cl13 gamma T squares 2 + 1 and gamma's
+XY Z Square to minus1 and all basis
+
+1334
+00:30:42,149 --> 00:30:42,159
+XY Z Square to minus1 and all basis
+ 
+
+1335
+00:30:42,159 --> 00:30:45,190
+XY Z Square to minus1 and all basis
+vectors anti-c commute with each other
+
+1336
+00:30:45,190 --> 00:30:45,200
+vectors anti-c commute with each other
+ 
+
+1337
+00:30:45,200 --> 00:30:47,470
+vectors anti-c commute with each other
+in total There are 16 independent
+
+1338
+00:30:47,470 --> 00:30:47,480
+in total There are 16 independent
+ 
+
+1339
+00:30:47,480 --> 00:30:50,389
+in total There are 16 independent
+elements in this Clifford algebra one
+
+1340
+00:30:50,389 --> 00:30:50,399
+elements in this Clifford algebra one
+ 
+
+1341
+00:30:50,399 --> 00:30:53,549
+elements in this Clifford algebra one
+scaler four vectors Six B vectors four
+
+1342
+00:30:53,549 --> 00:30:53,559
+scaler four vectors Six B vectors four
+ 
+
+1343
+00:30:53,559 --> 00:30:57,310
+scaler four vectors Six B vectors four
+Tri vectors and one quad Vector the quad
+
+1344
+00:30:57,310 --> 00:30:57,320
+Tri vectors and one quad Vector the quad
+ 
+
+1345
+00:30:57,320 --> 00:30:59,310
+Tri vectors and one quad Vector the quad
+Vector at the top is also sometimes
+
+1346
+00:30:59,310 --> 00:30:59,320
+Vector at the top is also sometimes
+ 
+
+1347
+00:30:59,320 --> 00:31:01,909
+Vector at the top is also sometimes
+called the pseudo scaler denoted with a
+
+1348
+00:31:01,909 --> 00:31:01,919
+called the pseudo scaler denoted with a
+ 
+
+1349
+00:31:01,919 --> 00:31:05,909
+called the pseudo scaler denoted with a
+capital I and big I squares
+
+1350
+00:31:05,909 --> 00:31:05,919
+capital I and big I squares
+ 
+
+1351
+00:31:05,919 --> 00:31:09,350
+capital I and big I squares
+to1 however this time big I anti-
+
+1352
+00:31:09,350 --> 00:31:09,360
+to1 however this time big I anti-
+ 
+
+1353
+00:31:09,360 --> 00:31:12,389
+to1 however this time big I anti-
+commutes with vectors inside the algebra
+
+1354
+00:31:12,389 --> 00:31:12,399
+commutes with vectors inside the algebra
+ 
+
+1355
+00:31:12,399 --> 00:31:14,430
+commutes with vectors inside the algebra
+so be careful about the ordering when
+
+1356
+00:31:14,430 --> 00:31:14,440
+so be careful about the ordering when
+ 
+
+1357
+00:31:14,440 --> 00:31:16,669
+so be careful about the ordering when
+writing out multiplications that involve
+
+1358
+00:31:16,669 --> 00:31:16,679
+writing out multiplications that involve
+ 
+
+1359
+00:31:16,679 --> 00:31:18,110
+writing out multiplications that involve
+big
+
+1360
+00:31:18,110 --> 00:31:18,120
+big
+ 
+
+1361
+00:31:18,120 --> 00:31:20,750
+big
+I there are two popular Matrix
+
+1362
+00:31:20,750 --> 00:31:20,760
+I there are two popular Matrix
+ 
+
+1363
+00:31:20,760 --> 00:31:22,669
+I there are two popular Matrix
+representations for
+
+1364
+00:31:22,669 --> 00:31:22,679
+representations for
+ 
+
+1365
+00:31:22,679 --> 00:31:26,029
+representations for
+cl13 which are the chyal basis or vile
+
+1366
+00:31:26,029 --> 00:31:26,039
+cl13 which are the chyal basis or vile
+ 
+
+1367
+00:31:26,039 --> 00:31:30,230
+cl13 which are the chyal basis or vile
+basis and and the mass basis or direct
+
+1368
+00:31:30,230 --> 00:31:30,240
+basis and and the mass basis or direct
+ 
+
+1369
+00:31:30,240 --> 00:31:32,870
+basis and and the mass basis or direct
+basis as before the first thing we need
+
+1370
+00:31:32,870 --> 00:31:32,880
+basis as before the first thing we need
+ 
+
+1371
+00:31:32,880 --> 00:31:35,509
+basis as before the first thing we need
+to get Spinners in a minimal left ideal
+
+1372
+00:31:35,509 --> 00:31:35,519
+to get Spinners in a minimal left ideal
+ 
+
+1373
+00:31:35,519 --> 00:31:38,710
+to get Spinners in a minimal left ideal
+is a projector element recall that any
+
+1374
+00:31:38,710 --> 00:31:38,720
+is a projector element recall that any
+ 
+
+1375
+00:31:38,720 --> 00:31:42,909
+is a projector element recall that any
+element of the form 12 * 1 + U where U ^
+
+1376
+00:31:42,909 --> 00:31:42,919
+element of the form 12 * 1 + U where U ^
+ 
+
+1377
+00:31:42,919 --> 00:31:47,669
+element of the form 12 * 1 + U where U ^
+S 2 + 1 is a projector its complement 1
+
+1378
+00:31:47,669 --> 00:31:47,679
+S 2 + 1 is a projector its complement 1
+ 
+
+1379
+00:31:47,679 --> 00:31:50,669
+S 2 + 1 is a projector its complement 1
+minus the projector is also a
+
+1380
+00:31:50,669 --> 00:31:50,679
+minus the projector is also a
+ 
+
+1381
+00:31:50,679 --> 00:31:54,110
+minus the projector is also a
+projector in cl13 you might be tempted
+
+1382
+00:31:54,110 --> 00:31:54,120
+projector in cl13 you might be tempted
+ 
+
+1383
+00:31:54,120 --> 00:31:57,470
+projector in cl13 you might be tempted
+to reach for a projector like pt+ which
+
+1384
+00:31:57,470 --> 00:31:57,480
+to reach for a projector like pt+ which
+ 
+
+1385
+00:31:57,480 --> 00:32:01,629
+to reach for a projector like pt+ which
+is 1 12 * 1 + gamma T however when
+
+1386
+00:32:01,629 --> 00:32:01,639
+is 1 12 * 1 + gamma T however when
+ 
+
+1387
+00:32:01,639 --> 00:32:03,710
+is 1 12 * 1 + gamma T however when
+looking at the Matrix representation of
+
+1388
+00:32:03,710 --> 00:32:03,720
+looking at the Matrix representation of
+ 
+
+1389
+00:32:03,720 --> 00:32:06,110
+looking at the Matrix representation of
+this projector we find it can be written
+
+1390
+00:32:06,110 --> 00:32:06,120
+this projector we find it can be written
+ 
+
+1391
+00:32:06,120 --> 00:32:09,070
+this projector we find it can be written
+as a sum of two projectors so this
+
+1392
+00:32:09,070 --> 00:32:09,080
+as a sum of two projectors so this
+ 
+
+1393
+00:32:09,080 --> 00:32:12,029
+as a sum of two projectors so this
+projector is not a minimal projector
+
+1394
+00:32:12,029 --> 00:32:12,039
+projector is not a minimal projector
+ 
+
+1395
+00:32:12,039 --> 00:32:14,070
+projector is not a minimal projector
+meaning it will not give us a minimal
+
+1396
+00:32:14,070 --> 00:32:14,080
+meaning it will not give us a minimal
+ 
+
+1397
+00:32:14,080 --> 00:32:17,470
+meaning it will not give us a minimal
+left ideal indeed when we multiply a
+
+1398
+00:32:17,470 --> 00:32:17,480
+left ideal indeed when we multiply a
+ 
+
+1399
+00:32:17,480 --> 00:32:20,750
+left ideal indeed when we multiply a
+general 4x4 Matrix onto it from the left
+
+1400
+00:32:20,750 --> 00:32:20,760
+general 4x4 Matrix onto it from the left
+ 
+
+1401
+00:32:20,760 --> 00:32:23,389
+general 4x4 Matrix onto it from the left
+we get two nonzero columns instead of
+
+1402
+00:32:23,389 --> 00:32:23,399
+we get two nonzero columns instead of
+ 
+
+1403
+00:32:23,399 --> 00:32:24,470
+we get two nonzero columns instead of
+just
+
+1404
+00:32:24,470 --> 00:32:24,480
+just
+ 
+
+1405
+00:32:24,480 --> 00:32:27,590
+just
+one one solution is to take the result
+
+1406
+00:32:27,590 --> 00:32:27,600
+one one solution is to take the result
+ 
+
+1407
+00:32:27,600 --> 00:32:30,149
+one one solution is to take the result
+of our projection and put it through yet
+
+1408
+00:32:30,149 --> 00:32:30,159
+of our projection and put it through yet
+ 
+
+1409
+00:32:30,159 --> 00:32:33,470
+of our projection and put it through yet
+another projector to get an even smaller
+
+1410
+00:32:33,470 --> 00:32:33,480
+another projector to get an even smaller
+ 
+
+1411
+00:32:33,480 --> 00:32:37,350
+another projector to get an even smaller
+ideal the term I gamma X gamma y squares
+
+1412
+00:32:37,350 --> 00:32:37,360
+ideal the term I gamma X gamma y squares
+ 
+
+1413
+00:32:37,360 --> 00:32:40,310
+ideal the term I gamma X gamma y squares
+2 + 1 so this can give us another
+
+1414
+00:32:40,310 --> 00:32:40,320
+2 + 1 so this can give us another
+ 
+
+1415
+00:32:40,320 --> 00:32:42,830
+2 + 1 so this can give us another
+projector pxy
+
+1416
+00:32:42,830 --> 00:32:42,840
+projector pxy
+ 
+
+1417
+00:32:42,840 --> 00:32:46,549
+projector pxy
++ note that this is the complex number I
+
+1418
+00:32:46,549 --> 00:32:46,559
++ note that this is the complex number I
+ 
+
+1419
+00:32:46,559 --> 00:32:49,549
++ note that this is the complex number I
+from the set of scalers used in linear
+
+1420
+00:32:49,549 --> 00:32:49,559
+from the set of scalers used in linear
+ 
+
+1421
+00:32:49,559 --> 00:32:51,549
+from the set of scalers used in linear
+combinations this is not the
+
+1422
+00:32:51,549 --> 00:32:51,559
+combinations this is not the
+ 
+
+1423
+00:32:51,559 --> 00:32:54,669
+combinations this is not the
+pseudoscalar big I from our Clifford
+
+1424
+00:32:54,669 --> 00:32:54,679
+pseudoscalar big I from our Clifford
+ 
+
+1425
+00:32:54,679 --> 00:32:57,110
+pseudoscalar big I from our Clifford
+algebra so we're actually making an
+
+1426
+00:32:57,110 --> 00:32:57,120
+algebra so we're actually making an
+ 
+
+1427
+00:32:57,120 --> 00:32:58,950
+algebra so we're actually making an
+assumption here where we're allowed to
+
+1428
+00:32:58,950 --> 00:32:58,960
+assumption here where we're allowed to
+ 
+
+1429
+00:32:58,960 --> 00:33:00,990
+assumption here where we're allowed to
+scale our Clifford algebra elements
+
+1430
+00:33:00,990 --> 00:33:01,000
+scale our Clifford algebra elements
+ 
+
+1431
+00:33:01,000 --> 00:33:04,110
+scale our Clifford algebra elements
+using complex numbers so we'll add the
+
+1432
+00:33:04,110 --> 00:33:04,120
+using complex numbers so we'll add the
+ 
+
+1433
+00:33:04,120 --> 00:33:07,509
+using complex numbers so we'll add the
+complex C here to denote this this is
+
+1434
+00:33:07,509 --> 00:33:07,519
+complex C here to denote this this is
+ 
+
+1435
+00:33:07,519 --> 00:33:08,950
+complex C here to denote this this is
+different than what we were doing
+
+1436
+00:33:08,950 --> 00:33:08,960
+different than what we were doing
+ 
+
+1437
+00:33:08,960 --> 00:33:10,789
+different than what we were doing
+previously in
+
+1438
+00:33:10,789 --> 00:33:10,799
+previously in
+ 
+
+1439
+00:33:10,799 --> 00:33:13,389
+previously in
+cl30 where we were only using real
+
+1440
+00:33:13,389 --> 00:33:13,399
+cl30 where we were only using real
+ 
+
+1441
+00:33:13,399 --> 00:33:15,909
+cl30 where we were only using real
+number scaling
+
+1442
+00:33:15,909 --> 00:33:15,919
+number scaling
+ 
+
+1443
+00:33:15,919 --> 00:33:18,029
+number scaling
+coefficients it turns out that if we
+
+1444
+00:33:18,029 --> 00:33:18,039
+coefficients it turns out that if we
+ 
+
+1445
+00:33:18,039 --> 00:33:21,190
+coefficients it turns out that if we
+project with pt+ and then project with
+
+1446
+00:33:21,190 --> 00:33:21,200
+project with pt+ and then project with
+ 
+
+1447
+00:33:21,200 --> 00:33:25,350
+project with pt+ and then project with
+pxy + we get a minimal projector
+
+1448
+00:33:25,350 --> 00:33:25,360
+pxy + we get a minimal projector
+ 
+
+1449
+00:33:25,360 --> 00:33:28,149
+pxy + we get a minimal projector
+p++ and this projects out the minimal
+
+1450
+00:33:28,149 --> 00:33:28,159
+p++ and this projects out the minimal
+ 
+
+1451
+00:33:28,159 --> 00:33:30,669
+p++ and this projects out the minimal
+left ideal consisting of the first
+
+1452
+00:33:30,669 --> 00:33:30,679
+left ideal consisting of the first
+ 
+
+1453
+00:33:30,679 --> 00:33:34,430
+left ideal consisting of the first
+nonzero column in The Matrix
+
+1454
+00:33:34,430 --> 00:33:34,440
+nonzero column in The Matrix
+ 
+
+1455
+00:33:34,440 --> 00:33:37,029
+nonzero column in The Matrix
+representation also the existence of
+
+1456
+00:33:37,029 --> 00:33:37,039
+representation also the existence of
+ 
+
+1457
+00:33:37,039 --> 00:33:40,269
+representation also the existence of
+this projector explains why PT Plus is
+
+1458
+00:33:40,269 --> 00:33:40,279
+this projector explains why PT Plus is
+ 
+
+1459
+00:33:40,279 --> 00:33:44,789
+this projector explains why PT Plus is
+not minimal we can multiply PT Plus by 1
+
+1460
+00:33:44,789 --> 00:33:44,799
+not minimal we can multiply PT Plus by 1
+ 
+
+1461
+00:33:44,799 --> 00:33:47,230
+not minimal we can multiply PT Plus by 1
+and then rewrite one as a sum of
+
+1462
+00:33:47,230 --> 00:33:47,240
+and then rewrite one as a sum of
+ 
+
+1463
+00:33:47,240 --> 00:33:51,549
+and then rewrite one as a sum of
+complementary projectors pxy + and pxy
+
+1464
+00:33:51,549 --> 00:33:51,559
+complementary projectors pxy + and pxy
+ 
+
+1465
+00:33:51,559 --> 00:33:54,389
+complementary projectors pxy + and pxy
+minus this gives us two projectors that
+
+1466
+00:33:54,389 --> 00:33:54,399
+minus this gives us two projectors that
+ 
+
+1467
+00:33:54,399 --> 00:33:58,310
+minus this gives us two projectors that
+add up to pt+ proving that that pt+ is
+
+1468
+00:33:58,310 --> 00:33:58,320
+add up to pt+ proving that that pt+ is
+ 
+
+1469
+00:33:58,320 --> 00:34:00,149
+add up to pt+ proving that that pt+ is
+not a minimal
+
+1470
+00:34:00,149 --> 00:34:00,159
+not a minimal
+ 
+
+1471
+00:34:00,159 --> 00:34:02,310
+not a minimal
+projector in fact the different
+
+1472
+00:34:02,310 --> 00:34:02,320
+projector in fact the different
+ 
+
+1473
+00:34:02,320 --> 00:34:07,269
+projector in fact the different
+combinations of pt+ PT minus pxy + and
+
+1474
+00:34:07,269 --> 00:34:07,279
+combinations of pt+ PT minus pxy + and
+ 
+
+1475
+00:34:07,279 --> 00:34:10,669
+combinations of pt+ PT minus pxy + and
+pxy minus give us four different minimal
+
+1476
+00:34:10,669 --> 00:34:10,679
+pxy minus give us four different minimal
+ 
+
+1477
+00:34:10,679 --> 00:34:13,990
+pxy minus give us four different minimal
+projectors that all sum to one or the
+
+1478
+00:34:13,990 --> 00:34:14,000
+projectors that all sum to one or the
+ 
+
+1479
+00:34:14,000 --> 00:34:15,109
+projectors that all sum to one or the
+identity
+
+1480
+00:34:15,109 --> 00:34:15,119
+identity
+ 
+
+1481
+00:34:15,119 --> 00:34:17,389
+identity
+Matrix however we're just going to go
+
+1482
+00:34:17,389 --> 00:34:17,399
+Matrix however we're just going to go
+ 
+
+1483
+00:34:17,399 --> 00:34:20,389
+Matrix however we're just going to go
+with the first option since it's the
+
+1484
+00:34:20,389 --> 00:34:20,399
+with the first option since it's the
+ 
+
+1485
+00:34:20,399 --> 00:34:23,069
+with the first option since it's the
+simplest a member of this minimal left
+
+1486
+00:34:23,069 --> 00:34:23,079
+simplest a member of this minimal left
+ 
+
+1487
+00:34:23,079 --> 00:34:25,990
+simplest a member of this minimal left
+ideal is a set of four complex numbers
+
+1488
+00:34:25,990 --> 00:34:26,000
+ideal is a set of four complex numbers
+ 
+
+1489
+00:34:26,000 --> 00:34:28,550
+ideal is a set of four complex numbers
+arranged in a column called a direct
+
+1490
+00:34:28,550 --> 00:34:28,560
+arranged in a column called a direct
+ 
+
+1491
+00:34:28,560 --> 00:34:30,629
+arranged in a column called a direct
+spinner which we talked about in
+
+1492
+00:34:30,629 --> 00:34:30,639
+spinner which we talked about in
+ 
+
+1493
+00:34:30,639 --> 00:34:34,030
+spinner which we talked about in
+spinners for beginners number nine so
+
+1494
+00:34:34,030 --> 00:34:34,040
+spinners for beginners number nine so
+ 
+
+1495
+00:34:34,040 --> 00:34:36,270
+spinners for beginners number nine so
+this is the Matrix representation of a
+
+1496
+00:34:36,270 --> 00:34:36,280
+this is the Matrix representation of a
+ 
+
+1497
+00:34:36,280 --> 00:34:39,149
+this is the Matrix representation of a
+direct spinner but what does it look
+
+1498
+00:34:39,149 --> 00:34:39,159
+direct spinner but what does it look
+ 
+
+1499
+00:34:39,159 --> 00:34:41,149
+direct spinner but what does it look
+like in terms of abstract Clifford
+
+1500
+00:34:41,149 --> 00:34:41,159
+like in terms of abstract Clifford
+ 
+
+1501
+00:34:41,159 --> 00:34:42,470
+like in terms of abstract Clifford
+algebra
+
+1502
+00:34:42,470 --> 00:34:42,480
+algebra
+ 
+
+1503
+00:34:42,480 --> 00:34:45,510
+algebra
+symbols well each of our projectors has
+
+1504
+00:34:45,510 --> 00:34:45,520
+symbols well each of our projectors has
+ 
+
+1505
+00:34:45,520 --> 00:34:49,470
+symbols well each of our projectors has
+its own poman property PT Plus will eat
+
+1506
+00:34:49,470 --> 00:34:49,480
+its own poman property PT Plus will eat
+ 
+
+1507
+00:34:49,480 --> 00:34:53,589
+its own poman property PT Plus will eat
+up factors of gamma T and pxy plus will
+
+1508
+00:34:53,589 --> 00:34:53,599
+up factors of gamma T and pxy plus will
+ 
+
+1509
+00:34:53,599 --> 00:34:56,990
+up factors of gamma T and pxy plus will
+eat up factors of gamma x * gamma y
+
+1510
+00:34:56,990 --> 00:34:57,000
+eat up factors of gamma x * gamma y
+ 
+
+1511
+00:34:57,000 --> 00:34:59,630
+eat up factors of gamma x * gamma y
+possibly with a complex I or negative
+
+1512
+00:34:59,630 --> 00:34:59,640
+possibly with a complex I or negative
+ 
+
+1513
+00:34:59,640 --> 00:35:01,950
+possibly with a complex I or negative
+sign left over depending on the swap
+
+1514
+00:35:01,950 --> 00:35:01,960
+sign left over depending on the swap
+ 
+
+1515
+00:35:01,960 --> 00:35:04,310
+sign left over depending on the swap
+order and coefficients in
+
+1516
+00:35:04,310 --> 00:35:04,320
+order and coefficients in
+ 
+
+1517
+00:35:04,320 --> 00:35:06,829
+order and coefficients in
+front however the most important
+
+1518
+00:35:06,829 --> 00:35:06,839
+front however the most important
+ 
+
+1519
+00:35:06,839 --> 00:35:09,910
+front however the most important
+property here is that gamma t commutes
+
+1520
+00:35:09,910 --> 00:35:09,920
+property here is that gamma t commutes
+ 
+
+1521
+00:35:09,920 --> 00:35:14,069
+property here is that gamma t commutes
+with I gamma X gamma y as a result our
+
+1522
+00:35:14,069 --> 00:35:14,079
+with I gamma X gamma y as a result our
+ 
+
+1523
+00:35:14,079 --> 00:35:19,109
+with I gamma X gamma y as a result our
+projectors pt+ and pxy plus also commute
+
+1524
+00:35:19,109 --> 00:35:19,119
+projectors pt+ and pxy plus also commute
+ 
+
+1525
+00:35:19,119 --> 00:35:22,069
+projectors pt+ and pxy plus also commute
+so we can change their order at any
+
+1526
+00:35:22,069 --> 00:35:22,079
+so we can change their order at any
+ 
+
+1527
+00:35:22,079 --> 00:35:25,390
+so we can change their order at any
+time this means we can use PT Plus to
+
+1528
+00:35:25,390 --> 00:35:25,400
+time this means we can use PT Plus to
+ 
+
+1529
+00:35:25,400 --> 00:35:28,589
+time this means we can use PT Plus to
+eat up factors of gamma T then swap the
+
+1530
+00:35:28,589 --> 00:35:28,599
+eat up factors of gamma T then swap the
+ 
+
+1531
+00:35:28,599 --> 00:35:30,829
+eat up factors of gamma T then swap the
+projector order to eat up factors of
+
+1532
+00:35:30,829 --> 00:35:30,839
+projector order to eat up factors of
+ 
+
+1533
+00:35:30,839 --> 00:35:35,190
+projector order to eat up factors of
+gamma X gamma Y and then swap back so
+
+1534
+00:35:35,190 --> 00:35:35,200
+gamma X gamma Y and then swap back so
+ 
+
+1535
+00:35:35,200 --> 00:35:37,230
+gamma X gamma Y and then swap back so
+the order we multiply projectors in
+
+1536
+00:35:37,230 --> 00:35:37,240
+the order we multiply projectors in
+ 
+
+1537
+00:35:37,240 --> 00:35:40,349
+the order we multiply projectors in
+doesn't matter we get to use two paman
+
+1538
+00:35:40,349 --> 00:35:40,359
+doesn't matter we get to use two paman
+ 
+
+1539
+00:35:40,359 --> 00:35:43,069
+doesn't matter we get to use two paman
+properties at the same time for
+
+1540
+00:35:43,069 --> 00:35:43,079
+properties at the same time for
+ 
+
+1541
+00:35:43,079 --> 00:35:45,670
+properties at the same time for
+free this means that when we project our
+
+1542
+00:35:45,670 --> 00:35:45,680
+free this means that when we project our
+ 
+
+1543
+00:35:45,680 --> 00:35:47,349
+free this means that when we project our
+algebra using
+
+1544
+00:35:47,349 --> 00:35:47,359
+algebra using
+ 
+
+1545
+00:35:47,359 --> 00:35:51,710
+algebra using
+p++ the elements one the T Vector the XY
+
+1546
+00:35:51,710 --> 00:35:51,720
+p++ the elements one the T Vector the XY
+ 
+
+1547
+00:35:51,720 --> 00:35:55,829
+p++ the elements one the T Vector the XY
+by vector and the txy tri Vector are all
+
+1548
+00:35:55,829 --> 00:35:55,839
+by vector and the txy tri Vector are all
+ 
+
+1549
+00:35:55,839 --> 00:35:58,230
+by vector and the txy tri Vector are all
+equivalent allowing for different
+
+1550
+00:35:58,230 --> 00:35:58,240
+equivalent allowing for different
+ 
+
+1551
+00:35:58,240 --> 00:36:00,470
+equivalent allowing for different
+complex number scalings in
+
+1552
+00:36:00,470 --> 00:36:00,480
+complex number scalings in
+ 
+
+1553
+00:36:00,480 --> 00:36:04,069
+complex number scalings in
+front the other equivalences are given
+
+1554
+00:36:04,069 --> 00:36:04,079
+front the other equivalences are given
+ 
+
+1555
+00:36:04,079 --> 00:36:06,950
+front the other equivalences are given
+here so in the end we only have four
+
+1556
+00:36:06,950 --> 00:36:06,960
+here so in the end we only have four
+ 
+
+1557
+00:36:06,960 --> 00:36:09,309
+here so in the end we only have four
+independent basis Vector elements in our
+
+1558
+00:36:09,309 --> 00:36:09,319
+independent basis Vector elements in our
+ 
+
+1559
+00:36:09,319 --> 00:36:11,990
+independent basis Vector elements in our
+minimal left ideal The Matrix
+
+1560
+00:36:11,990 --> 00:36:12,000
+minimal left ideal The Matrix
+ 
+
+1561
+00:36:12,000 --> 00:36:14,309
+minimal left ideal The Matrix
+representations for these basis elements
+
+1562
+00:36:14,309 --> 00:36:14,319
+representations for these basis elements
+ 
+
+1563
+00:36:14,319 --> 00:36:17,069
+representations for these basis elements
+are given here you can see that we get
+
+1564
+00:36:17,069 --> 00:36:17,079
+are given here you can see that we get
+ 
+
+1565
+00:36:17,079 --> 00:36:19,750
+are given here you can see that we get
+four basis elements for the four complex
+
+1566
+00:36:19,750 --> 00:36:19,760
+four basis elements for the four complex
+ 
+
+1567
+00:36:19,760 --> 00:36:23,390
+four basis elements for the four complex
+entries in the First Column of our
+
+1568
+00:36:23,390 --> 00:36:23,400
+entries in the First Column of our
+ 
+
+1569
+00:36:23,400 --> 00:36:26,790
+entries in the First Column of our
+Matrix there's also a way to subdivide a
+
+1570
+00:36:26,790 --> 00:36:26,800
+Matrix there's also a way to subdivide a
+ 
+
+1571
+00:36:26,800 --> 00:36:29,270
+Matrix there's also a way to subdivide a
+directa spinner into a left chyro vial
+
+1572
+00:36:29,270 --> 00:36:29,280
+directa spinner into a left chyro vial
+ 
+
+1573
+00:36:29,280 --> 00:36:32,750
+directa spinner into a left chyro vial
+spinner and a right chyro vial spinner
+
+1574
+00:36:32,750 --> 00:36:32,760
+spinner and a right chyro vial spinner
+ 
+
+1575
+00:36:32,760 --> 00:36:35,270
+spinner and a right chyro vial spinner
+this is done with these two projectors
+
+1576
+00:36:35,270 --> 00:36:35,280
+this is done with these two projectors
+ 
+
+1577
+00:36:35,280 --> 00:36:37,950
+this is done with these two projectors
+involving the complex small I times the
+
+1578
+00:36:37,950 --> 00:36:37,960
+involving the complex small I times the
+ 
+
+1579
+00:36:37,960 --> 00:36:41,230
+involving the complex small I times the
+pseudoscalar big I a combination which
+
+1580
+00:36:41,230 --> 00:36:41,240
+pseudoscalar big I a combination which
+ 
+
+1581
+00:36:41,240 --> 00:36:44,390
+pseudoscalar big I a combination which
+is sometimes written as gamma 5 for
+
+1582
+00:36:44,390 --> 00:36:44,400
+is sometimes written as gamma 5 for
+ 
+
+1583
+00:36:44,400 --> 00:36:46,910
+is sometimes written as gamma 5 for
+short however note that the direct
+
+1584
+00:36:46,910 --> 00:36:46,920
+short however note that the direct
+ 
+
+1585
+00:36:46,920 --> 00:36:48,950
+short however note that the direct
+spinner is Multiplied onto these
+
+1586
+00:36:48,950 --> 00:36:48,960
+spinner is Multiplied onto these
+ 
+
+1587
+00:36:48,960 --> 00:36:52,190
+spinner is Multiplied onto these
+projectors from the right so these do
+
+1588
+00:36:52,190 --> 00:36:52,200
+projectors from the right so these do
+ 
+
+1589
+00:36:52,200 --> 00:36:55,190
+projectors from the right so these do
+not belong to smaller left ideals inside
+
+1590
+00:36:55,190 --> 00:36:55,200
+not belong to smaller left ideals inside
+ 
+
+1591
+00:36:55,200 --> 00:36:57,589
+not belong to smaller left ideals inside
+our minimal left ideal
+
+1592
+00:36:57,589 --> 00:36:57,599
+our minimal left ideal
+ 
+
+1593
+00:36:57,599 --> 00:36:59,510
+our minimal left ideal
+I'll talk more about left and right
+
+1594
+00:36:59,510 --> 00:36:59,520
+I'll talk more about left and right
+ 
+
+1595
+00:36:59,520 --> 00:37:03,030
+I'll talk more about left and right
+chyro vial Spinners in later
+
+1596
+00:37:03,030 --> 00:37:03,040
+chyro vial Spinners in later
+ 
+
+1597
+00:37:03,040 --> 00:37:05,870
+chyro vial Spinners in later
+videos so we see that direct Spinners
+
+1598
+00:37:05,870 --> 00:37:05,880
+videos so we see that direct Spinners
+ 
+
+1599
+00:37:05,880 --> 00:37:08,190
+videos so we see that direct Spinners
+are members of minimal left ideals in
+
+1600
+00:37:08,190 --> 00:37:08,200
+are members of minimal left ideals in
+ 
+
+1601
+00:37:08,200 --> 00:37:10,349
+are members of minimal left ideals in
+Clifford algebra's
+
+1602
+00:37:10,349 --> 00:37:10,359
+Clifford algebra's
+ 
+
+1603
+00:37:10,359 --> 00:37:14,589
+Clifford algebra's
+cl13 how can we generalize this to
+
+1604
+00:37:14,589 --> 00:37:14,599
+cl13 how can we generalize this to
+ 
+
+1605
+00:37:14,599 --> 00:37:17,829
+cl13 how can we generalize this to
+clpq the main question is how do we find
+
+1606
+00:37:17,829 --> 00:37:17,839
+clpq the main question is how do we find
+ 
+
+1607
+00:37:17,839 --> 00:37:20,270
+clpq the main question is how do we find
+a minimal projector that will give us a
+
+1608
+00:37:20,270 --> 00:37:20,280
+a minimal projector that will give us a
+ 
+
+1609
+00:37:20,280 --> 00:37:23,069
+a minimal projector that will give us a
+minimal left ideal in a Clifford algebra
+
+1610
+00:37:23,069 --> 00:37:23,079
+minimal left ideal in a Clifford algebra
+ 
+
+1611
+00:37:23,079 --> 00:37:24,870
+minimal left ideal in a Clifford algebra
+of arbitrary
+
+1612
+00:37:24,870 --> 00:37:24,880
+of arbitrary
+ 
+
+1613
+00:37:24,880 --> 00:37:27,910
+of arbitrary
+size this is addressed in a textbook by
+
+1614
+00:37:27,910 --> 00:37:27,920
+size this is addressed in a textbook by
+ 
+
+1615
+00:37:27,920 --> 00:37:29,109
+size this is addressed in a textbook by
+Lun
+
+1616
+00:37:29,109 --> 00:37:29,119
+Lun
+ 
+
+1617
+00:37:29,119 --> 00:37:32,069
+Lun
+esto it turns out to be pretty easy if
+
+1618
+00:37:32,069 --> 00:37:32,079
+esto it turns out to be pretty easy if
+ 
+
+1619
+00:37:32,079 --> 00:37:34,030
+esto it turns out to be pretty easy if
+we just follow the pattern established
+
+1620
+00:37:34,030 --> 00:37:34,040
+we just follow the pattern established
+ 
+
+1621
+00:37:34,040 --> 00:37:35,510
+we just follow the pattern established
+in
+
+1622
+00:37:35,510 --> 00:37:35,520
+in
+ 
+
+1623
+00:37:35,520 --> 00:37:38,270
+in
+cl13 if one projector isn't enough to
+
+1624
+00:37:38,270 --> 00:37:38,280
+cl13 if one projector isn't enough to
+ 
+
+1625
+00:37:38,280 --> 00:37:40,910
+cl13 if one projector isn't enough to
+give us a minimal ideal we just keep
+
+1626
+00:37:40,910 --> 00:37:40,920
+give us a minimal ideal we just keep
+ 
+
+1627
+00:37:40,920 --> 00:37:43,069
+give us a minimal ideal we just keep
+multiplying more projectors that commute
+
+1628
+00:37:43,069 --> 00:37:43,079
+multiplying more projectors that commute
+ 
+
+1629
+00:37:43,079 --> 00:37:45,790
+multiplying more projectors that commute
+with it until we get a minimal
+
+1630
+00:37:45,790 --> 00:37:45,800
+with it until we get a minimal
+ 
+
+1631
+00:37:45,800 --> 00:37:47,990
+with it until we get a minimal
+projector let's say we're working in the
+
+1632
+00:37:47,990 --> 00:37:48,000
+projector let's say we're working in the
+ 
+
+1633
+00:37:48,000 --> 00:37:49,670
+projector let's say we're working in the
+Clifford algebra
+
+1634
+00:37:49,670 --> 00:37:49,680
+Clifford algebra
+ 
+
+1635
+00:37:49,680 --> 00:37:53,550
+Clifford algebra
+cl80 with complex coefficients we have
+
+1636
+00:37:53,550 --> 00:37:53,560
+cl80 with complex coefficients we have
+ 
+
+1637
+00:37:53,560 --> 00:37:56,069
+cl80 with complex coefficients we have
+these eight basis vectors that square 2
+
+1638
+00:37:56,069 --> 00:37:56,079
+these eight basis vectors that square 2
+ 
+
+1639
+00:37:56,079 --> 00:37:59,150
+these eight basis vectors that square 2
++ 1 one we can collect these basis
+
+1640
+00:37:59,150 --> 00:37:59,160
++ 1 one we can collect these basis
+ 
+
+1641
+00:37:59,160 --> 00:38:02,630
++ 1 one we can collect these basis
+vectors into bi Vector pairs since the
+
+1642
+00:38:02,630 --> 00:38:02,640
+vectors into bi Vector pairs since the
+ 
+
+1643
+00:38:02,640 --> 00:38:05,390
+vectors into bi Vector pairs since the
+bi vectors have no elements in common
+
+1644
+00:38:05,390 --> 00:38:05,400
+bi vectors have no elements in common
+ 
+
+1645
+00:38:05,400 --> 00:38:07,230
+bi vectors have no elements in common
+all the bi vectors commute with each
+
+1646
+00:38:07,230 --> 00:38:07,240
+all the bi vectors commute with each
+ 
+
+1647
+00:38:07,240 --> 00:38:09,670
+all the bi vectors commute with each
+other you can feel free to check this
+
+1648
+00:38:09,670 --> 00:38:09,680
+other you can feel free to check this
+ 
+
+1649
+00:38:09,680 --> 00:38:10,910
+other you can feel free to check this
+for
+
+1650
+00:38:10,910 --> 00:38:10,920
+for
+ 
+
+1651
+00:38:10,920 --> 00:38:13,790
+for
+yourself however each of these B vectors
+
+1652
+00:38:13,790 --> 00:38:13,800
+yourself however each of these B vectors
+ 
+
+1653
+00:38:13,800 --> 00:38:17,230
+yourself however each of these B vectors
+squares 2 minus one which is not useful
+
+1654
+00:38:17,230 --> 00:38:17,240
+squares 2 minus one which is not useful
+ 
+
+1655
+00:38:17,240 --> 00:38:18,390
+squares 2 minus one which is not useful
+for making
+
+1656
+00:38:18,390 --> 00:38:18,400
+for making
+ 
+
+1657
+00:38:18,400 --> 00:38:20,870
+for making
+projectors so we include a scaling
+
+1658
+00:38:20,870 --> 00:38:20,880
+projectors so we include a scaling
+ 
+
+1659
+00:38:20,880 --> 00:38:23,430
+projectors so we include a scaling
+factor of the complex I in front of each
+
+1660
+00:38:23,430 --> 00:38:23,440
+factor of the complex I in front of each
+ 
+
+1661
+00:38:23,440 --> 00:38:26,150
+factor of the complex I in front of each
+B Vector which causes all the B vectors
+
+1662
+00:38:26,150 --> 00:38:26,160
+B Vector which causes all the B vectors
+ 
+
+1663
+00:38:26,160 --> 00:38:28,630
+B Vector which causes all the B vectors
+to now sare 2 +
+
+1664
+00:38:28,630 --> 00:38:28,640
+to now sare 2 +
+ 
+
+1665
+00:38:28,640 --> 00:38:31,950
+to now sare 2 +
+1 we can now use these bi vectors to
+
+1666
+00:38:31,950 --> 00:38:31,960
+1 we can now use these bi vectors to
+ 
+
+1667
+00:38:31,960 --> 00:38:34,829
+1 we can now use these bi vectors to
+construct commuting projectors using the
+
+1668
+00:38:34,829 --> 00:38:34,839
+construct commuting projectors using the
+ 
+
+1669
+00:38:34,839 --> 00:38:39,349
+construct commuting projectors using the
+formula 12 * 1 + U where U is our B
+
+1670
+00:38:39,349 --> 00:38:39,359
+formula 12 * 1 + U where U is our B
+ 
+
+1671
+00:38:39,359 --> 00:38:42,589
+formula 12 * 1 + U where U is our B
+Vector time the complex I which squares
+
+1672
+00:38:42,589 --> 00:38:42,599
+Vector time the complex I which squares
+ 
+
+1673
+00:38:42,599 --> 00:38:44,069
+Vector time the complex I which squares
+to +
+
+1674
+00:38:44,069 --> 00:38:44,079
+to +
+ 
+
+1675
+00:38:44,079 --> 00:38:46,870
+to +
+1 by multiplying all these commuting
+
+1676
+00:38:46,870 --> 00:38:46,880
+1 by multiplying all these commuting
+ 
+
+1677
+00:38:46,880 --> 00:38:49,510
+1 by multiplying all these commuting
+projectors together we get a minimal
+
+1678
+00:38:49,510 --> 00:38:49,520
+projectors together we get a minimal
+ 
+
+1679
+00:38:49,520 --> 00:38:52,150
+projectors together we get a minimal
+projector which can be used to construct
+
+1680
+00:38:52,150 --> 00:38:52,160
+projector which can be used to construct
+ 
+
+1681
+00:38:52,160 --> 00:38:54,069
+projector which can be used to construct
+a minimal left
+
+1682
+00:38:54,069 --> 00:38:54,079
+a minimal left
+ 
+
+1683
+00:38:54,079 --> 00:38:56,829
+a minimal left
+ideal so for a Clifford algebra built
+
+1684
+00:38:56,829 --> 00:38:56,839
+ideal so for a Clifford algebra built
+ 
+
+1685
+00:38:56,839 --> 00:38:59,470
+ideal so for a Clifford algebra built
+from an even number of basis vectors
+
+1686
+00:38:59,470 --> 00:38:59,480
+from an even number of basis vectors
+ 
+
+1687
+00:38:59,480 --> 00:39:02,349
+from an even number of basis vectors
+getting a minimal projector is easy we
+
+1688
+00:39:02,349 --> 00:39:02,359
+getting a minimal projector is easy we
+ 
+
+1689
+00:39:02,359 --> 00:39:04,470
+getting a minimal projector is easy we
+just group the basis vectors into
+
+1690
+00:39:04,470 --> 00:39:04,480
+just group the basis vectors into
+ 
+
+1691
+00:39:04,480 --> 00:39:06,990
+just group the basis vectors into
+non-overlapping pairs to make a set of
+
+1692
+00:39:06,990 --> 00:39:07,000
+non-overlapping pairs to make a set of
+ 
+
+1693
+00:39:07,000 --> 00:39:09,710
+non-overlapping pairs to make a set of
+commuting projectors and multiply all
+
+1694
+00:39:09,710 --> 00:39:09,720
+commuting projectors and multiply all
+ 
+
+1695
+00:39:09,720 --> 00:39:11,710
+commuting projectors and multiply all
+the projectors
+
+1696
+00:39:11,710 --> 00:39:11,720
+the projectors
+ 
+
+1697
+00:39:11,720 --> 00:39:13,950
+the projectors
+together but what if we have an odd
+
+1698
+00:39:13,950 --> 00:39:13,960
+together but what if we have an odd
+ 
+
+1699
+00:39:13,960 --> 00:39:17,150
+together but what if we have an odd
+number of basis vectors it turns out the
+
+1700
+00:39:17,150 --> 00:39:17,160
+number of basis vectors it turns out the
+ 
+
+1701
+00:39:17,160 --> 00:39:19,910
+number of basis vectors it turns out the
+final odd basis Vector will also commute
+
+1702
+00:39:19,910 --> 00:39:19,920
+final odd basis Vector will also commute
+ 
+
+1703
+00:39:19,920 --> 00:39:23,109
+final odd basis Vector will also commute
+with all other bi vectors as long as no
+
+1704
+00:39:23,109 --> 00:39:23,119
+with all other bi vectors as long as no
+ 
+
+1705
+00:39:23,119 --> 00:39:25,309
+with all other bi vectors as long as no
+basis vectors are repeated between the
+
+1706
+00:39:25,309 --> 00:39:25,319
+basis vectors are repeated between the
+ 
+
+1707
+00:39:25,319 --> 00:39:27,470
+basis vectors are repeated between the
+bi vectors
+
+1708
+00:39:27,470 --> 00:39:27,480
+bi vectors
+ 
+
+1709
+00:39:27,480 --> 00:39:30,390
+bi vectors
+the final basis Vector also squares 2 +
+
+1710
+00:39:30,390 --> 00:39:30,400
+the final basis Vector also squares 2 +
+ 
+
+1711
+00:39:30,400 --> 00:39:33,349
+the final basis Vector also squares 2 +
+1 so it can be used to build a final
+
+1712
+00:39:33,349 --> 00:39:33,359
+1 so it can be used to build a final
+ 
+
+1713
+00:39:33,359 --> 00:39:36,150
+1 so it can be used to build a final
+commuting projector so for Clifford
+
+1714
+00:39:36,150 --> 00:39:36,160
+commuting projector so for Clifford
+ 
+
+1715
+00:39:36,160 --> 00:39:38,190
+commuting projector so for Clifford
+algebras with an odd number of basis
+
+1716
+00:39:38,190 --> 00:39:38,200
+algebras with an odd number of basis
+ 
+
+1717
+00:39:38,200 --> 00:39:40,990
+algebras with an odd number of basis
+vectors we use the same procedure as the
+
+1718
+00:39:40,990 --> 00:39:41,000
+vectors we use the same procedure as the
+ 
+
+1719
+00:39:41,000 --> 00:39:44,230
+vectors we use the same procedure as the
+even case but use the final odd basis
+
+1720
+00:39:44,230 --> 00:39:44,240
+even case but use the final odd basis
+ 
+
+1721
+00:39:44,240 --> 00:39:48,030
+even case but use the final odd basis
+Vector to make our final commuting
+
+1722
+00:39:48,030 --> 00:39:48,040
+Vector to make our final commuting
+ 
+
+1723
+00:39:48,040 --> 00:39:50,670
+Vector to make our final commuting
+projector now what about
+
+1724
+00:39:50,670 --> 00:39:50,680
+projector now what about
+ 
+
+1725
+00:39:50,680 --> 00:39:54,790
+projector now what about
+clpq where some basis vectors Square 2
+
+1726
+00:39:54,790 --> 00:39:54,800
+clpq where some basis vectors Square 2
+ 
+
+1727
+00:39:54,800 --> 00:39:57,630
+clpq where some basis vectors Square 2
+minus1 in this case the procedure for
+
+1728
+00:39:57,630 --> 00:39:57,640
+minus1 in this case the procedure for
+ 
+
+1729
+00:39:57,640 --> 00:39:59,990
+minus1 in this case the procedure for
+building minimal projectors is the exact
+
+1730
+00:39:59,990 --> 00:40:00,000
+building minimal projectors is the exact
+ 
+
+1731
+00:40:00,000 --> 00:40:02,870
+building minimal projectors is the exact
+same except some B vectors will Square
+
+1732
+00:40:02,870 --> 00:40:02,880
+same except some B vectors will Square
+ 
+
+1733
+00:40:02,880 --> 00:40:06,230
+same except some B vectors will Square
+to + one all on their own so we don't
+
+1734
+00:40:06,230 --> 00:40:06,240
+to + one all on their own so we don't
+ 
+
+1735
+00:40:06,240 --> 00:40:08,390
+to + one all on their own so we don't
+need to include a factor of the complex
+
+1736
+00:40:08,390 --> 00:40:08,400
+need to include a factor of the complex
+ 
+
+1737
+00:40:08,400 --> 00:40:09,589
+need to include a factor of the complex
+I in
+
+1738
+00:40:09,589 --> 00:40:09,599
+I in
+ 
+
+1739
+00:40:09,599 --> 00:40:12,589
+I in
+front we just include or exclude the
+
+1740
+00:40:12,589 --> 00:40:12,599
+front we just include or exclude the
+ 
+
+1741
+00:40:12,599 --> 00:40:15,430
+front we just include or exclude the
+complex I as needed to ensure the B
+
+1742
+00:40:15,430 --> 00:40:15,440
+complex I as needed to ensure the B
+ 
+
+1743
+00:40:15,440 --> 00:40:17,550
+complex I as needed to ensure the B
+Vector squares to +
+
+1744
+00:40:17,550 --> 00:40:17,560
+Vector squares to +
+ 
+
+1745
+00:40:17,560 --> 00:40:20,069
+Vector squares to +
+one and we use our set of commuting
+
+1746
+00:40:20,069 --> 00:40:20,079
+one and we use our set of commuting
+ 
+
+1747
+00:40:20,079 --> 00:40:21,910
+one and we use our set of commuting
+projectors to build our minimal
+
+1748
+00:40:21,910 --> 00:40:21,920
+projectors to build our minimal
+ 
+
+1749
+00:40:21,920 --> 00:40:24,430
+projectors to build our minimal
+projector in the same
+
+1750
+00:40:24,430 --> 00:40:24,440
+projector in the same
+ 
+
+1751
+00:40:24,440 --> 00:40:27,710
+projector in the same
+way now this procedure does leave some
+
+1752
+00:40:27,710 --> 00:40:27,720
+way now this procedure does leave some
+ 
+
+1753
+00:40:27,720 --> 00:40:30,069
+way now this procedure does leave some
+questions first of all how do we know
+
+1754
+00:40:30,069 --> 00:40:30,079
+questions first of all how do we know
+ 
+
+1755
+00:40:30,079 --> 00:40:32,270
+questions first of all how do we know
+for sure that projectors made from B
+
+1756
+00:40:32,270 --> 00:40:32,280
+for sure that projectors made from B
+ 
+
+1757
+00:40:32,280 --> 00:40:35,190
+for sure that projectors made from B
+vectors give us a minimal left ideal
+
+1758
+00:40:35,190 --> 00:40:35,200
+vectors give us a minimal left ideal
+ 
+
+1759
+00:40:35,200 --> 00:40:38,430
+vectors give us a minimal left ideal
+with no smaller non-trivial ideals
+
+1760
+00:40:38,430 --> 00:40:38,440
+with no smaller non-trivial ideals
+ 
+
+1761
+00:40:38,440 --> 00:40:41,430
+with no smaller non-trivial ideals
+inside also what if we aren't allowed to
+
+1762
+00:40:41,430 --> 00:40:41,440
+inside also what if we aren't allowed to
+ 
+
+1763
+00:40:41,440 --> 00:40:44,430
+inside also what if we aren't allowed to
+use complex coefficients as in the case
+
+1764
+00:40:44,430 --> 00:40:44,440
+use complex coefficients as in the case
+ 
+
+1765
+00:40:44,440 --> 00:40:47,390
+use complex coefficients as in the case
+of cl30 with real
+
+1766
+00:40:47,390 --> 00:40:47,400
+of cl30 with real
+ 
+
+1767
+00:40:47,400 --> 00:40:49,390
+of cl30 with real
+coefficients how do we know when we've
+
+1768
+00:40:49,390 --> 00:40:49,400
+coefficients how do we know when we've
+ 
+
+1769
+00:40:49,400 --> 00:40:51,309
+coefficients how do we know when we've
+managed to build a minimal
+
+1770
+00:40:51,309 --> 00:40:51,319
+managed to build a minimal
+ 
+
+1771
+00:40:51,319 --> 00:40:53,550
+managed to build a minimal
+projector unfortunately I'm going to
+
+1772
+00:40:53,550 --> 00:40:53,560
+projector unfortunately I'm going to
+ 
+
+1773
+00:40:53,560 --> 00:40:55,510
+projector unfortunately I'm going to
+have to delay the proofs of this to an
+
+1774
+00:40:55,510 --> 00:40:55,520
+have to delay the proofs of this to an
+ 
+
+1775
+00:40:55,520 --> 00:40:56,950
+have to delay the proofs of this to an
+appendix video
+
+1776
+00:40:56,950 --> 00:40:56,960
+appendix video
+ 
+
+1777
+00:40:56,960 --> 00:40:59,630
+appendix video
+as this video is already too
+
+1778
+00:40:59,630 --> 00:40:59,640
+as this video is already too
+ 
+
+1779
+00:40:59,640 --> 00:41:02,829
+as this video is already too
+long one last thing I'll mention is that
+
+1780
+00:41:02,829 --> 00:41:02,839
+long one last thing I'll mention is that
+ 
+
+1781
+00:41:02,839 --> 00:41:04,950
+long one last thing I'll mention is that
+when building Matrix representations of
+
+1782
+00:41:04,950 --> 00:41:04,960
+when building Matrix representations of
+ 
+
+1783
+00:41:04,960 --> 00:41:07,190
+when building Matrix representations of
+Clifford algebras you should make sure
+
+1784
+00:41:07,190 --> 00:41:07,200
+Clifford algebras you should make sure
+ 
+
+1785
+00:41:07,200 --> 00:41:09,550
+Clifford algebras you should make sure
+the matrices you use are big enough to
+
+1786
+00:41:09,550 --> 00:41:09,560
+the matrices you use are big enough to
+ 
+
+1787
+00:41:09,560 --> 00:41:13,710
+the matrices you use are big enough to
+hold the algebra for example cl30 with
+
+1788
+00:41:13,710 --> 00:41:13,720
+hold the algebra for example cl30 with
+ 
+
+1789
+00:41:13,720 --> 00:41:16,150
+hold the algebra for example cl30 with
+real coefficients is eight real
+
+1790
+00:41:16,150 --> 00:41:16,160
+real coefficients is eight real
+ 
+
+1791
+00:41:16,160 --> 00:41:18,910
+real coefficients is eight real
+dimensional and the 2x two matrices of
+
+1792
+00:41:18,910 --> 00:41:18,920
+dimensional and the 2x two matrices of
+ 
+
+1793
+00:41:18,920 --> 00:41:21,470
+dimensional and the 2x two matrices of
+complex numbers is also eight real
+
+1794
+00:41:21,470 --> 00:41:21,480
+complex numbers is also eight real
+ 
+
+1795
+00:41:21,480 --> 00:41:23,670
+complex numbers is also eight real
+dimensional so you can create a one
+
+1796
+00:41:23,670 --> 00:41:23,680
+dimensional so you can create a one
+ 
+
+1797
+00:41:23,680 --> 00:41:26,990
+dimensional so you can create a one
+toone correspondence between the two
+
+1798
+00:41:26,990 --> 00:41:27,000
+toone correspondence between the two
+ 
+
+1799
+00:41:27,000 --> 00:41:30,950
+toone correspondence between the two
+but cl30 with complex coefficients is 16
+
+1800
+00:41:30,950 --> 00:41:30,960
+but cl30 with complex coefficients is 16
+ 
+
+1801
+00:41:30,960 --> 00:41:34,309
+but cl30 with complex coefficients is 16
+real dimensional and so the 2x2 complex
+
+1802
+00:41:34,309 --> 00:41:34,319
+real dimensional and so the 2x2 complex
+ 
+
+1803
+00:41:34,319 --> 00:41:37,829
+real dimensional and so the 2x2 complex
+matrices are not big enough to hold it
+
+1804
+00:41:37,829 --> 00:41:37,839
+matrices are not big enough to hold it
+ 
+
+1805
+00:41:37,839 --> 00:41:39,670
+matrices are not big enough to hold it
+if you try to use the standard Sigma
+
+1806
+00:41:39,670 --> 00:41:39,680
+if you try to use the standard Sigma
+ 
+
+1807
+00:41:39,680 --> 00:41:42,069
+if you try to use the standard Sigma
+matrices you'll end up in a situation
+
+1808
+00:41:42,069 --> 00:41:42,079
+matrices you'll end up in a situation
+ 
+
+1809
+00:41:42,079 --> 00:41:43,710
+matrices you'll end up in a situation
+where two different elements from the
+
+1810
+00:41:43,710 --> 00:41:43,720
+where two different elements from the
+ 
+
+1811
+00:41:43,720 --> 00:41:45,829
+where two different elements from the
+Clifford algebra end up being
+
+1812
+00:41:45,829 --> 00:41:45,839
+Clifford algebra end up being
+ 
+
+1813
+00:41:45,839 --> 00:41:47,910
+Clifford algebra end up being
+represented by the same
+
+1814
+00:41:47,910 --> 00:41:47,920
+represented by the same
+ 
+
+1815
+00:41:47,920 --> 00:41:50,950
+represented by the same
+Matrix a matrix representation like this
+
+1816
+00:41:50,950 --> 00:41:50,960
+Matrix a matrix representation like this
+ 
+
+1817
+00:41:50,960 --> 00:41:54,309
+Matrix a matrix representation like this
+is said to be not faithful we need to
+
+1818
+00:41:54,309 --> 00:41:54,319
+is said to be not faithful we need to
+ 
+
+1819
+00:41:54,319 --> 00:41:56,430
+is said to be not faithful we need to
+increase the size of our matrices to
+
+1820
+00:41:56,430 --> 00:41:56,440
+increase the size of our matrices to
+ 
+
+1821
+00:41:56,440 --> 00:41:59,230
+increase the size of our matrices to
+ensure we get faithful representations
+
+1822
+00:41:59,230 --> 00:41:59,240
+ensure we get faithful representations
+ 
+
+1823
+00:41:59,240 --> 00:42:01,309
+ensure we get faithful representations
+with a one toone correspondence between
+
+1824
+00:42:01,309 --> 00:42:01,319
+with a one toone correspondence between
+ 
+
+1825
+00:42:01,319 --> 00:42:05,030
+with a one toone correspondence between
+Clifford algebra elements and
+
+1826
+00:42:05,030 --> 00:42:05,040
+Clifford algebra elements and
+ 
+
+1827
+00:42:05,040 --> 00:42:08,040
+Clifford algebra elements and
+matrices
+

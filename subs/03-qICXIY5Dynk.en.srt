@@ -1,0 +1,5565 @@
+1
+00:00:00,060 --> 00:00:02,570
+
+so we're continuing looking at examples
+
+2
+00:00:02,570 --> 00:00:02,580
+so we're continuing looking at examples
+ 
+
+3
+00:00:02,580 --> 00:00:05,510
+so we're continuing looking at examples
+of spinners in physics in the last video
+
+4
+00:00:05,510 --> 00:00:05,520
+of spinners in physics in the last video
+ 
+
+5
+00:00:05,520 --> 00:00:07,789
+of spinners in physics in the last video
+we introduced Jones vectors for
+
+6
+00:00:07,789 --> 00:00:07,799
+we introduced Jones vectors for
+ 
+
+7
+00:00:07,799 --> 00:00:09,950
+we introduced Jones vectors for
+representing the polarizations of
+
+8
+00:00:09,950 --> 00:00:09,960
+representing the polarizations of
+ 
+
+9
+00:00:09,960 --> 00:00:12,830
+representing the polarizations of
+electromagnetic waves the top component
+
+10
+00:00:12,830 --> 00:00:12,840
+electromagnetic waves the top component
+ 
+
+11
+00:00:12,840 --> 00:00:15,049
+electromagnetic waves the top component
+gives the magnitude and phase of a
+
+12
+00:00:15,049 --> 00:00:15,059
+gives the magnitude and phase of a
+ 
+
+13
+00:00:15,059 --> 00:00:17,390
+gives the magnitude and phase of a
+horizontally polarized wave and the
+
+14
+00:00:17,390 --> 00:00:17,400
+horizontally polarized wave and the
+ 
+
+15
+00:00:17,400 --> 00:00:19,550
+horizontally polarized wave and the
+bottom component gives the magnitude and
+
+16
+00:00:19,550 --> 00:00:19,560
+bottom component gives the magnitude and
+ 
+
+17
+00:00:19,560 --> 00:00:22,310
+bottom component gives the magnitude and
+phase of a vertically polarized wave
+
+18
+00:00:22,310 --> 00:00:22,320
+phase of a vertically polarized wave
+ 
+
+19
+00:00:22,320 --> 00:00:25,310
+phase of a vertically polarized wave
+by combining these two polarizations in
+
+20
+00:00:25,310 --> 00:00:25,320
+by combining these two polarizations in
+ 
+
+21
+00:00:25,320 --> 00:00:27,950
+by combining these two polarizations in
+different amounts and phases we can get
+
+22
+00:00:27,950 --> 00:00:27,960
+different amounts and phases we can get
+ 
+
+23
+00:00:27,960 --> 00:00:31,030
+different amounts and phases we can get
+other polarizations like diagonal
+
+24
+00:00:31,030 --> 00:00:31,040
+other polarizations like diagonal
+ 
+
+25
+00:00:31,040 --> 00:00:33,590
+other polarizations like diagonal
+anti-diagonal left circular and right
+
+26
+00:00:33,590 --> 00:00:33,600
+anti-diagonal left circular and right
+ 
+
+27
+00:00:33,600 --> 00:00:36,229
+anti-diagonal left circular and right
+circular polarizations
+
+28
+00:00:36,229 --> 00:00:36,239
+circular polarizations
+ 
+
+29
+00:00:36,239 --> 00:00:38,750
+circular polarizations
+in this video we're going to find that
+
+30
+00:00:38,750 --> 00:00:38,760
+in this video we're going to find that
+ 
+
+31
+00:00:38,760 --> 00:00:40,670
+in this video we're going to find that
+we can rotate between all these
+
+32
+00:00:40,670 --> 00:00:40,680
+we can rotate between all these
+ 
+
+33
+00:00:40,680 --> 00:00:43,610
+we can rotate between all these
+polarizations by using special matrices
+
+34
+00:00:43,610 --> 00:00:43,620
+polarizations by using special matrices
+ 
+
+35
+00:00:43,620 --> 00:00:47,270
+polarizations by using special matrices
+called su2 matrices and this will reveal
+
+36
+00:00:47,270 --> 00:00:47,280
+called su2 matrices and this will reveal
+ 
+
+37
+00:00:47,280 --> 00:00:48,590
+called su2 matrices and this will reveal
+how there's an angle doubling
+
+38
+00:00:48,590 --> 00:00:48,600
+how there's an angle doubling
+ 
+
+39
+00:00:48,600 --> 00:00:51,170
+how there's an angle doubling
+relationship between physical space and
+
+40
+00:00:51,170 --> 00:00:51,180
+relationship between physical space and
+ 
+
+41
+00:00:51,180 --> 00:00:53,209
+relationship between physical space and
+wave polarizations
+
+42
+00:00:53,209 --> 00:00:53,219
+wave polarizations
+ 
+
+43
+00:00:53,219 --> 00:00:55,850
+wave polarizations
+this will show us that Jones vectors are
+
+44
+00:00:55,850 --> 00:00:55,860
+this will show us that Jones vectors are
+ 
+
+45
+00:00:55,860 --> 00:00:58,490
+this will show us that Jones vectors are
+actually spinners
+
+46
+00:00:58,490 --> 00:00:58,500
+actually spinners
+ 
+
+47
+00:00:58,500 --> 00:01:01,010
+actually spinners
+so when it comes to light waves in real
+
+48
+00:01:01,010 --> 00:01:01,020
+so when it comes to light waves in real
+ 
+
+49
+00:01:01,020 --> 00:01:03,590
+so when it comes to light waves in real
+life we can manipulate the polarization
+
+50
+00:01:03,590 --> 00:01:03,600
+life we can manipulate the polarization
+ 
+
+51
+00:01:03,600 --> 00:01:06,050
+life we can manipulate the polarization
+of light waves using various optical
+
+52
+00:01:06,050 --> 00:01:06,060
+of light waves using various optical
+ 
+
+53
+00:01:06,060 --> 00:01:09,950
+of light waves using various optical
+devices like polarizers and wave plates
+
+54
+00:01:09,950 --> 00:01:09,960
+devices like polarizers and wave plates
+ 
+
+55
+00:01:09,960 --> 00:01:12,649
+devices like polarizers and wave plates
+in the world of math these correspond to
+
+56
+00:01:12,649 --> 00:01:12,659
+in the world of math these correspond to
+ 
+
+57
+00:01:12,659 --> 00:01:15,590
+in the world of math these correspond to
+multiplying our Jones vectors by various
+
+58
+00:01:15,590 --> 00:01:15,600
+multiplying our Jones vectors by various
+ 
+
+59
+00:01:15,600 --> 00:01:18,710
+multiplying our Jones vectors by various
+matrices called Jones matrices
+
+60
+00:01:18,710 --> 00:01:18,720
+matrices called Jones matrices
+ 
+
+61
+00:01:18,720 --> 00:01:21,170
+matrices called Jones matrices
+I'm not going to discuss polarizers in
+
+62
+00:01:21,170 --> 00:01:21,180
+I'm not going to discuss polarizers in
+ 
+
+63
+00:01:21,180 --> 00:01:23,570
+I'm not going to discuss polarizers in
+this video minute physics and three blue
+
+64
+00:01:23,570 --> 00:01:23,580
+this video minute physics and three blue
+ 
+
+65
+00:01:23,580 --> 00:01:25,429
+this video minute physics and three blue
+one brown have already done really good
+
+66
+00:01:25,429 --> 00:01:25,439
+one brown have already done really good
+ 
+
+67
+00:01:25,439 --> 00:01:27,710
+one brown have already done really good
+videos on polarizers that I've Linked In
+
+68
+00:01:27,710 --> 00:01:27,720
+videos on polarizers that I've Linked In
+ 
+
+69
+00:01:27,720 --> 00:01:29,149
+videos on polarizers that I've Linked In
+the description
+
+70
+00:01:29,149 --> 00:01:29,159
+the description
+ 
+
+71
+00:01:29,159 --> 00:01:31,429
+the description
+for this video the more relevant Optical
+
+72
+00:01:31,429 --> 00:01:31,439
+for this video the more relevant Optical
+ 
+
+73
+00:01:31,439 --> 00:01:33,469
+for this video the more relevant Optical
+device I'm going to talk about is the
+
+74
+00:01:33,469 --> 00:01:33,479
+device I'm going to talk about is the
+ 
+
+75
+00:01:33,479 --> 00:01:34,730
+device I'm going to talk about is the
+wave plate
+
+76
+00:01:34,730 --> 00:01:34,740
+wave plate
+ 
+
+77
+00:01:34,740 --> 00:01:37,069
+wave plate
+a wave plate is a device that
+
+78
+00:01:37,069 --> 00:01:37,079
+a wave plate is a device that
+ 
+
+79
+00:01:37,079 --> 00:01:39,230
+a wave plate is a device that
+essentially rotates one polarization
+
+80
+00:01:39,230 --> 00:01:39,240
+essentially rotates one polarization
+ 
+
+81
+00:01:39,240 --> 00:01:42,830
+essentially rotates one polarization
+into another by introducing phase delays
+
+82
+00:01:42,830 --> 00:01:42,840
+into another by introducing phase delays
+ 
+
+83
+00:01:42,840 --> 00:01:45,230
+into another by introducing phase delays
+you probably already know that a light
+
+84
+00:01:45,230 --> 00:01:45,240
+you probably already know that a light
+ 
+
+85
+00:01:45,240 --> 00:01:47,630
+you probably already know that a light
+wave will change speed when it passes
+
+86
+00:01:47,630 --> 00:01:47,640
+wave will change speed when it passes
+ 
+
+87
+00:01:47,640 --> 00:01:50,090
+wave will change speed when it passes
+from one medium to another such as
+
+88
+00:01:50,090 --> 00:01:50,100
+from one medium to another such as
+ 
+
+89
+00:01:50,100 --> 00:01:52,910
+from one medium to another such as
+passing from air into a crystal
+
+90
+00:01:52,910 --> 00:01:52,920
+passing from air into a crystal
+ 
+
+91
+00:01:52,920 --> 00:01:55,490
+passing from air into a crystal
+because of the change in speed by the
+
+92
+00:01:55,490 --> 00:01:55,500
+because of the change in speed by the
+ 
+
+93
+00:01:55,500 --> 00:01:57,649
+because of the change in speed by the
+time the light exits the crystal there
+
+94
+00:01:57,649 --> 00:01:57,659
+time the light exits the crystal there
+ 
+
+95
+00:01:57,659 --> 00:01:59,870
+time the light exits the crystal there
+is a phase change in the resulting wave
+
+96
+00:01:59,870 --> 00:01:59,880
+is a phase change in the resulting wave
+ 
+
+97
+00:01:59,880 --> 00:02:02,330
+is a phase change in the resulting wave
+compared to light that did not pass
+
+98
+00:02:02,330 --> 00:02:02,340
+compared to light that did not pass
+ 
+
+99
+00:02:02,340 --> 00:02:04,069
+compared to light that did not pass
+through the crystal
+
+100
+00:02:04,069 --> 00:02:04,079
+through the crystal
+ 
+
+101
+00:02:04,079 --> 00:02:07,130
+through the crystal
+in special crystals called birefringent
+
+102
+00:02:07,130 --> 00:02:07,140
+in special crystals called birefringent
+ 
+
+103
+00:02:07,140 --> 00:02:09,650
+in special crystals called birefringent
+crystals the phase change is actually
+
+104
+00:02:09,650 --> 00:02:09,660
+crystals the phase change is actually
+ 
+
+105
+00:02:09,660 --> 00:02:12,050
+crystals the phase change is actually
+different in the horizontal and vertical
+
+106
+00:02:12,050 --> 00:02:12,060
+different in the horizontal and vertical
+ 
+
+107
+00:02:12,060 --> 00:02:15,110
+different in the horizontal and vertical
+directions this means that a light wave
+
+108
+00:02:15,110 --> 00:02:15,120
+directions this means that a light wave
+ 
+
+109
+00:02:15,120 --> 00:02:16,670
+directions this means that a light wave
+whose horizontal and vertical
+
+110
+00:02:16,670 --> 00:02:16,680
+whose horizontal and vertical
+ 
+
+111
+00:02:16,680 --> 00:02:19,190
+whose horizontal and vertical
+polarizations are aligned before
+
+112
+00:02:19,190 --> 00:02:19,200
+polarizations are aligned before
+ 
+
+113
+00:02:19,200 --> 00:02:21,890
+polarizations are aligned before
+entering the crystal can have a phase
+
+114
+00:02:21,890 --> 00:02:21,900
+entering the crystal can have a phase
+ 
+
+115
+00:02:21,900 --> 00:02:23,990
+entering the crystal can have a phase
+Difference by the time they exit the
+
+116
+00:02:23,990 --> 00:02:24,000
+Difference by the time they exit the
+ 
+
+117
+00:02:24,000 --> 00:02:25,190
+Difference by the time they exit the
+crystal
+
+118
+00:02:25,190 --> 00:02:25,200
+crystal
+ 
+
+119
+00:02:25,200 --> 00:02:27,650
+crystal
+for example let's say we take a
+
+120
+00:02:27,650 --> 00:02:27,660
+for example let's say we take a
+ 
+
+121
+00:02:27,660 --> 00:02:30,229
+for example let's say we take a
+birefringent crystal and aim a
+
+122
+00:02:30,229 --> 00:02:30,239
+birefringent crystal and aim a
+ 
+
+123
+00:02:30,239 --> 00:02:32,930
+birefringent crystal and aim a
+diagonally polarized wave D towards it
+
+124
+00:02:32,930 --> 00:02:32,940
+diagonally polarized wave D towards it
+ 
+
+125
+00:02:32,940 --> 00:02:34,970
+diagonally polarized wave D towards it
+where the horizontal and vertical
+
+126
+00:02:34,970 --> 00:02:34,980
+where the horizontal and vertical
+ 
+
+127
+00:02:34,980 --> 00:02:37,430
+where the horizontal and vertical
+components are in phase
+
+128
+00:02:37,430 --> 00:02:37,440
+components are in phase
+ 
+
+129
+00:02:37,440 --> 00:02:40,070
+components are in phase
+if the crystal introduces a quarter
+
+130
+00:02:40,070 --> 00:02:40,080
+if the crystal introduces a quarter
+ 
+
+131
+00:02:40,080 --> 00:02:42,050
+if the crystal introduces a quarter
+cycle phase change and the vertical
+
+132
+00:02:42,050 --> 00:02:42,060
+cycle phase change and the vertical
+ 
+
+133
+00:02:42,060 --> 00:02:44,990
+cycle phase change and the vertical
+component then the resulting wave is a
+
+134
+00:02:44,990 --> 00:02:45,000
+component then the resulting wave is a
+ 
+
+135
+00:02:45,000 --> 00:02:48,229
+component then the resulting wave is a
+left circularly polarized wave l
+
+136
+00:02:48,229 --> 00:02:48,239
+left circularly polarized wave l
+ 
+
+137
+00:02:48,239 --> 00:02:50,449
+left circularly polarized wave l
+this Crystal that changes the vertical
+
+138
+00:02:50,449 --> 00:02:50,459
+this Crystal that changes the vertical
+ 
+
+139
+00:02:50,459 --> 00:02:53,330
+this Crystal that changes the vertical
+polarization by a quarter cycle is
+
+140
+00:02:53,330 --> 00:02:53,340
+polarization by a quarter cycle is
+ 
+
+141
+00:02:53,340 --> 00:02:56,449
+polarization by a quarter cycle is
+called a quarter wave plate and it is
+
+142
+00:02:56,449 --> 00:02:56,459
+called a quarter wave plate and it is
+ 
+
+143
+00:02:56,459 --> 00:02:59,809
+called a quarter wave plate and it is
+represented by this Matrix here
+
+144
+00:02:59,809 --> 00:02:59,819
+represented by this Matrix here
+ 
+
+145
+00:02:59,819 --> 00:03:02,270
+represented by this Matrix here
+if we apply this Matrix to our
+
+146
+00:03:02,270 --> 00:03:02,280
+if we apply this Matrix to our
+ 
+
+147
+00:03:02,280 --> 00:03:04,910
+if we apply this Matrix to our
+diagonally polarized Jones Vector it
+
+148
+00:03:04,910 --> 00:03:04,920
+diagonally polarized Jones Vector it
+ 
+
+149
+00:03:04,920 --> 00:03:06,949
+diagonally polarized Jones Vector it
+leaves the horizontal polarization alone
+
+150
+00:03:06,949 --> 00:03:06,959
+leaves the horizontal polarization alone
+ 
+
+151
+00:03:06,959 --> 00:03:09,710
+leaves the horizontal polarization alone
+but applies a quarter phase change to
+
+152
+00:03:09,710 --> 00:03:09,720
+but applies a quarter phase change to
+ 
+
+153
+00:03:09,720 --> 00:03:12,290
+but applies a quarter phase change to
+the vertical polarization
+
+154
+00:03:12,290 --> 00:03:12,300
+the vertical polarization
+ 
+
+155
+00:03:12,300 --> 00:03:15,530
+the vertical polarization
+remember the imaginary I is a quarter
+
+156
+00:03:15,530 --> 00:03:15,540
+remember the imaginary I is a quarter
+ 
+
+157
+00:03:15,540 --> 00:03:18,649
+remember the imaginary I is a quarter
+turn around the complex unit circle so
+
+158
+00:03:18,649 --> 00:03:18,659
+turn around the complex unit circle so
+ 
+
+159
+00:03:18,659 --> 00:03:20,809
+turn around the complex unit circle so
+it represents a phase change of a
+
+160
+00:03:20,809 --> 00:03:20,819
+it represents a phase change of a
+ 
+
+161
+00:03:20,819 --> 00:03:23,210
+it represents a phase change of a
+quarter cycle
+
+162
+00:03:23,210 --> 00:03:23,220
+quarter cycle
+ 
+
+163
+00:03:23,220 --> 00:03:25,490
+quarter cycle
+if we apply this quarter wave plate
+
+164
+00:03:25,490 --> 00:03:25,500
+if we apply this quarter wave plate
+ 
+
+165
+00:03:25,500 --> 00:03:28,190
+if we apply this quarter wave plate
+again by multiplying by the same Matrix
+
+166
+00:03:28,190 --> 00:03:28,200
+again by multiplying by the same Matrix
+ 
+
+167
+00:03:28,200 --> 00:03:31,309
+again by multiplying by the same Matrix
+it will cause the H and V polarizations
+
+168
+00:03:31,309 --> 00:03:31,319
+it will cause the H and V polarizations
+ 
+
+169
+00:03:31,319 --> 00:03:34,430
+it will cause the H and V polarizations
+to realign again but with an opposite
+
+170
+00:03:34,430 --> 00:03:34,440
+to realign again but with an opposite
+ 
+
+171
+00:03:34,440 --> 00:03:37,910
+to realign again but with an opposite
+sign in the v polarization which is the
+
+172
+00:03:37,910 --> 00:03:37,920
+sign in the v polarization which is the
+ 
+
+173
+00:03:37,920 --> 00:03:40,330
+sign in the v polarization which is the
+same thing as a half cycle phase change
+
+174
+00:03:40,330 --> 00:03:40,340
+same thing as a half cycle phase change
+ 
+
+175
+00:03:40,340 --> 00:03:42,770
+same thing as a half cycle phase change
+this gives the anti-diagonal
+
+176
+00:03:42,770 --> 00:03:42,780
+this gives the anti-diagonal
+ 
+
+177
+00:03:42,780 --> 00:03:44,809
+this gives the anti-diagonal
+polarization a
+
+178
+00:03:44,809 --> 00:03:44,819
+polarization a
+ 
+
+179
+00:03:44,819 --> 00:03:46,970
+polarization a
+applying the quarter wave plate again
+
+180
+00:03:46,970 --> 00:03:46,980
+applying the quarter wave plate again
+ 
+
+181
+00:03:46,980 --> 00:03:50,030
+applying the quarter wave plate again
+the V polarization is changed yet again
+
+182
+00:03:50,030 --> 00:03:50,040
+the V polarization is changed yet again
+ 
+
+183
+00:03:50,040 --> 00:03:52,910
+the V polarization is changed yet again
+to give negative I which is a
+
+184
+00:03:52,910 --> 00:03:52,920
+to give negative I which is a
+ 
+
+185
+00:03:52,920 --> 00:03:55,490
+to give negative I which is a
+three-quarter cycle phase change which
+
+186
+00:03:55,490 --> 00:03:55,500
+three-quarter cycle phase change which
+ 
+
+187
+00:03:55,500 --> 00:03:57,830
+three-quarter cycle phase change which
+gives a right circularly polarized wave
+
+188
+00:03:57,830 --> 00:03:57,840
+gives a right circularly polarized wave
+ 
+
+189
+00:03:57,840 --> 00:03:59,270
+gives a right circularly polarized wave
+r
+
+190
+00:03:59,270 --> 00:03:59,280
+r
+ 
+
+191
+00:03:59,280 --> 00:04:01,009
+r
+and applying the quarter wave plate
+
+192
+00:04:01,009 --> 00:04:01,019
+and applying the quarter wave plate
+ 
+
+193
+00:04:01,019 --> 00:04:02,809
+and applying the quarter wave plate
+again brings us back to where we
+
+194
+00:04:02,809 --> 00:04:02,819
+again brings us back to where we
+ 
+
+195
+00:04:02,819 --> 00:04:04,910
+again brings us back to where we
+originally started with the diagonal
+
+196
+00:04:04,910 --> 00:04:04,920
+originally started with the diagonal
+ 
+
+197
+00:04:04,920 --> 00:04:07,130
+originally started with the diagonal
+polarization d
+
+198
+00:04:07,130 --> 00:04:07,140
+polarization d
+ 
+
+199
+00:04:07,140 --> 00:04:10,369
+polarization d
+so this Matrix here allows us to rotate
+
+200
+00:04:10,369 --> 00:04:10,379
+so this Matrix here allows us to rotate
+ 
+
+201
+00:04:10,379 --> 00:04:12,949
+so this Matrix here allows us to rotate
+around in a circle between these four
+
+202
+00:04:12,949 --> 00:04:12,959
+around in a circle between these four
+ 
+
+203
+00:04:12,959 --> 00:04:14,710
+around in a circle between these four
+polarizations
+
+204
+00:04:14,710 --> 00:04:14,720
+polarizations
+ 
+
+205
+00:04:14,720 --> 00:04:18,590
+polarizations
+dla and R and actually if we replace
+
+206
+00:04:18,590 --> 00:04:18,600
+dla and R and actually if we replace
+ 
+
+207
+00:04:18,600 --> 00:04:21,409
+dla and R and actually if we replace
+this imaginary I which represents a
+
+208
+00:04:21,409 --> 00:04:21,419
+this imaginary I which represents a
+ 
+
+209
+00:04:21,419 --> 00:04:24,530
+this imaginary I which represents a
+quarter phase with an arbitrary phase we
+
+210
+00:04:24,530 --> 00:04:24,540
+quarter phase with an arbitrary phase we
+ 
+
+211
+00:04:24,540 --> 00:04:26,510
+quarter phase with an arbitrary phase we
+can rotate continuously around this
+
+212
+00:04:26,510 --> 00:04:26,520
+can rotate continuously around this
+ 
+
+213
+00:04:26,520 --> 00:04:29,629
+can rotate continuously around this
+circle with any phase we like and this
+
+214
+00:04:29,629 --> 00:04:29,639
+circle with any phase we like and this
+ 
+
+215
+00:04:29,639 --> 00:04:30,950
+circle with any phase we like and this
+gives us all sorts of different
+
+216
+00:04:30,950 --> 00:04:30,960
+gives us all sorts of different
+ 
+
+217
+00:04:30,960 --> 00:04:33,530
+gives us all sorts of different
+polarizations including elliptical
+
+218
+00:04:33,530 --> 00:04:33,540
+polarizations including elliptical
+ 
+
+219
+00:04:33,540 --> 00:04:35,810
+polarizations including elliptical
+polarizations
+
+220
+00:04:35,810 --> 00:04:35,820
+polarizations
+ 
+
+221
+00:04:35,820 --> 00:04:38,870
+polarizations
+if we rotate around this circle the
+
+222
+00:04:38,870 --> 00:04:38,880
+if we rotate around this circle the
+ 
+
+223
+00:04:38,880 --> 00:04:42,830
+if we rotate around this circle the
+polarizations look like this
+
+224
+00:04:42,830 --> 00:04:42,840
+
+ 
+
+225
+00:04:42,840 --> 00:04:45,710
+
+now it's interesting to note that if we
+
+226
+00:04:45,710 --> 00:04:45,720
+now it's interesting to note that if we
+ 
+
+227
+00:04:45,720 --> 00:04:47,930
+now it's interesting to note that if we
+put a horizontally polarized wave H
+
+228
+00:04:47,930 --> 00:04:47,940
+put a horizontally polarized wave H
+ 
+
+229
+00:04:47,940 --> 00:04:50,510
+put a horizontally polarized wave H
+through this quarter wave plate nothing
+
+230
+00:04:50,510 --> 00:04:50,520
+through this quarter wave plate nothing
+ 
+
+231
+00:04:50,520 --> 00:04:53,270
+through this quarter wave plate nothing
+actually happens the output wave is
+
+232
+00:04:53,270 --> 00:04:53,280
+actually happens the output wave is
+ 
+
+233
+00:04:53,280 --> 00:04:56,150
+actually happens the output wave is
+still horizontally polarized but that
+
+234
+00:04:56,150 --> 00:04:56,160
+still horizontally polarized but that
+ 
+
+235
+00:04:56,160 --> 00:04:57,890
+still horizontally polarized but that
+doesn't mean that this wave plate is
+
+236
+00:04:57,890 --> 00:04:57,900
+doesn't mean that this wave plate is
+ 
+
+237
+00:04:57,900 --> 00:04:59,510
+doesn't mean that this wave plate is
+totally useless for horizontally
+
+238
+00:04:59,510 --> 00:04:59,520
+totally useless for horizontally
+ 
+
+239
+00:04:59,520 --> 00:05:01,310
+totally useless for horizontally
+polarized waves
+
+240
+00:05:01,310 --> 00:05:01,320
+polarized waves
+ 
+
+241
+00:05:01,320 --> 00:05:03,230
+polarized waves
+we can make something interesting happen
+
+242
+00:05:03,230 --> 00:05:03,240
+we can make something interesting happen
+ 
+
+243
+00:05:03,240 --> 00:05:05,990
+we can make something interesting happen
+if we rotate this wave plate by 45
+
+244
+00:05:05,990 --> 00:05:06,000
+if we rotate this wave plate by 45
+ 
+
+245
+00:05:06,000 --> 00:05:09,469
+if we rotate this wave plate by 45
+degrees in this case the output wave is
+
+246
+00:05:09,469 --> 00:05:09,479
+degrees in this case the output wave is
+ 
+
+247
+00:05:09,479 --> 00:05:12,530
+degrees in this case the output wave is
+a left circularly polarized wave l
+
+248
+00:05:12,530 --> 00:05:12,540
+a left circularly polarized wave l
+ 
+
+249
+00:05:12,540 --> 00:05:14,629
+a left circularly polarized wave l
+this isn't surprising if you think about
+
+250
+00:05:14,629 --> 00:05:14,639
+this isn't surprising if you think about
+ 
+
+251
+00:05:14,639 --> 00:05:17,810
+this isn't surprising if you think about
+it because the setup we have here is the
+
+252
+00:05:17,810 --> 00:05:17,820
+it because the setup we have here is the
+ 
+
+253
+00:05:17,820 --> 00:05:20,270
+it because the setup we have here is the
+exact same setup as our previous example
+
+254
+00:05:20,270 --> 00:05:20,280
+exact same setup as our previous example
+ 
+
+255
+00:05:20,280 --> 00:05:23,210
+exact same setup as our previous example
+but with everything rotated in Space by
+
+256
+00:05:23,210 --> 00:05:23,220
+but with everything rotated in Space by
+ 
+
+257
+00:05:23,220 --> 00:05:25,610
+but with everything rotated in Space by
+45 degrees
+
+258
+00:05:25,610 --> 00:05:25,620
+45 degrees
+ 
+
+259
+00:05:25,620 --> 00:05:27,650
+45 degrees
+the physics is the same we're just
+
+260
+00:05:27,650 --> 00:05:27,660
+the physics is the same we're just
+ 
+
+261
+00:05:27,660 --> 00:05:30,830
+the physics is the same we're just
+viewing it from a different angle
+
+262
+00:05:30,830 --> 00:05:30,840
+viewing it from a different angle
+ 
+
+263
+00:05:30,840 --> 00:05:33,650
+viewing it from a different angle
+however when viewed from this angle our
+
+264
+00:05:33,650 --> 00:05:33,660
+however when viewed from this angle our
+ 
+
+265
+00:05:33,660 --> 00:05:36,350
+however when viewed from this angle our
+quarter wave plate rotated by 45 degrees
+
+266
+00:05:36,350 --> 00:05:36,360
+quarter wave plate rotated by 45 degrees
+ 
+
+267
+00:05:36,360 --> 00:05:40,310
+quarter wave plate rotated by 45 degrees
+is represented by this new Matrix
+
+268
+00:05:40,310 --> 00:05:40,320
+is represented by this new Matrix
+ 
+
+269
+00:05:40,320 --> 00:05:42,830
+is represented by this new Matrix
+you'll notice that this Matrix contains
+
+270
+00:05:42,830 --> 00:05:42,840
+you'll notice that this Matrix contains
+ 
+
+271
+00:05:42,840 --> 00:05:45,590
+you'll notice that this Matrix contains
+a phase Factor e to the I pi over 4
+
+272
+00:05:45,590 --> 00:05:45,600
+a phase Factor e to the I pi over 4
+ 
+
+273
+00:05:45,600 --> 00:05:49,310
+a phase Factor e to the I pi over 4
+written in Gray we'll see later that we
+
+274
+00:05:49,310 --> 00:05:49,320
+written in Gray we'll see later that we
+ 
+
+275
+00:05:49,320 --> 00:05:51,469
+written in Gray we'll see later that we
+can actually ignore this phase Factor
+
+276
+00:05:51,469 --> 00:05:51,479
+can actually ignore this phase Factor
+ 
+
+277
+00:05:51,479 --> 00:05:54,770
+can actually ignore this phase Factor
+but for now I'm going to include it
+
+278
+00:05:54,770 --> 00:05:54,780
+but for now I'm going to include it
+ 
+
+279
+00:05:54,780 --> 00:05:57,409
+but for now I'm going to include it
+you can think of this new Matrix as a
+
+280
+00:05:57,409 --> 00:05:57,419
+you can think of this new Matrix as a
+ 
+
+281
+00:05:57,419 --> 00:05:59,629
+you can think of this new Matrix as a
+combination of three matrices
+
+282
+00:05:59,629 --> 00:05:59,639
+combination of three matrices
+ 
+
+283
+00:05:59,639 --> 00:06:01,969
+combination of three matrices
+the first Matrix will rotate our
+
+284
+00:06:01,969 --> 00:06:01,979
+the first Matrix will rotate our
+ 
+
+285
+00:06:01,979 --> 00:06:04,969
+the first Matrix will rotate our
+coordinates 45 degrees so that our
+
+286
+00:06:04,969 --> 00:06:04,979
+coordinates 45 degrees so that our
+ 
+
+287
+00:06:04,979 --> 00:06:07,129
+coordinates 45 degrees so that our
+coordinate system is now aligned with
+
+288
+00:06:07,129 --> 00:06:07,139
+coordinate system is now aligned with
+ 
+
+289
+00:06:07,139 --> 00:06:09,290
+coordinate system is now aligned with
+the main directions of the wave plate
+
+290
+00:06:09,290 --> 00:06:09,300
+the main directions of the wave plate
+ 
+
+291
+00:06:09,300 --> 00:06:12,110
+the main directions of the wave plate
+then we apply the original quarter
+
+292
+00:06:12,110 --> 00:06:12,120
+then we apply the original quarter
+ 
+
+293
+00:06:12,120 --> 00:06:14,270
+then we apply the original quarter
+waveplate Matrix we saw in our previous
+
+294
+00:06:14,270 --> 00:06:14,280
+waveplate Matrix we saw in our previous
+ 
+
+295
+00:06:14,280 --> 00:06:15,770
+waveplate Matrix we saw in our previous
+example
+
+296
+00:06:15,770 --> 00:06:15,780
+example
+ 
+
+297
+00:06:15,780 --> 00:06:17,749
+example
+then we rotate our coordinate system
+
+298
+00:06:17,749 --> 00:06:17,759
+then we rotate our coordinate system
+ 
+
+299
+00:06:17,759 --> 00:06:20,390
+then we rotate our coordinate system
+back by 45 degrees in the opposite
+
+300
+00:06:20,390 --> 00:06:20,400
+back by 45 degrees in the opposite
+ 
+
+301
+00:06:20,400 --> 00:06:21,950
+back by 45 degrees in the opposite
+direction
+
+302
+00:06:21,950 --> 00:06:21,960
+direction
+ 
+
+303
+00:06:21,960 --> 00:06:24,170
+direction
+when we combine these three procedures
+
+304
+00:06:24,170 --> 00:06:24,180
+when we combine these three procedures
+ 
+
+305
+00:06:24,180 --> 00:06:26,629
+when we combine these three procedures
+through matrix multiplication we get
+
+306
+00:06:26,629 --> 00:06:26,639
+through matrix multiplication we get
+ 
+
+307
+00:06:26,639 --> 00:06:29,390
+through matrix multiplication we get
+this new Matrix which represents a
+
+308
+00:06:29,390 --> 00:06:29,400
+this new Matrix which represents a
+ 
+
+309
+00:06:29,400 --> 00:06:32,930
+this new Matrix which represents a
+quarter wave plate angled at 45 degrees
+
+310
+00:06:32,930 --> 00:06:32,940
+quarter wave plate angled at 45 degrees
+ 
+
+311
+00:06:32,940 --> 00:06:35,570
+quarter wave plate angled at 45 degrees
+as you can see it turns a horizontally
+
+312
+00:06:35,570 --> 00:06:35,580
+as you can see it turns a horizontally
+ 
+
+313
+00:06:35,580 --> 00:06:38,270
+as you can see it turns a horizontally
+polarized wave into a left circularly
+
+314
+00:06:38,270 --> 00:06:38,280
+polarized wave into a left circularly
+ 
+
+315
+00:06:38,280 --> 00:06:40,129
+polarized wave into a left circularly
+polarized wave
+
+316
+00:06:40,129 --> 00:06:40,139
+polarized wave
+ 
+
+317
+00:06:40,139 --> 00:06:42,830
+polarized wave
+once again I'm ignoring this phase
+
+318
+00:06:42,830 --> 00:06:42,840
+once again I'm ignoring this phase
+ 
+
+319
+00:06:42,840 --> 00:06:45,890
+once again I'm ignoring this phase
+Factor outside here and I'll explain why
+
+320
+00:06:45,890 --> 00:06:45,900
+Factor outside here and I'll explain why
+ 
+
+321
+00:06:45,900 --> 00:06:48,230
+Factor outside here and I'll explain why
+in a moment
+
+322
+00:06:48,230 --> 00:06:48,240
+in a moment
+ 
+
+323
+00:06:48,240 --> 00:06:50,390
+in a moment
+if we apply this wave plate multiple
+
+324
+00:06:50,390 --> 00:06:50,400
+if we apply this wave plate multiple
+ 
+
+325
+00:06:50,400 --> 00:06:52,850
+if we apply this wave plate multiple
+times we get waves that are vertically
+
+326
+00:06:52,850 --> 00:06:52,860
+times we get waves that are vertically
+ 
+
+327
+00:06:52,860 --> 00:06:56,090
+times we get waves that are vertically
+polarized right circularly polarized and
+
+328
+00:06:56,090 --> 00:06:56,100
+polarized right circularly polarized and
+ 
+
+329
+00:06:56,100 --> 00:06:58,370
+polarized right circularly polarized and
+then we return to horizontally polarized
+
+330
+00:06:58,370 --> 00:06:58,380
+then we return to horizontally polarized
+ 
+
+331
+00:06:58,380 --> 00:06:59,210
+then we return to horizontally polarized
+again
+
+332
+00:06:59,210 --> 00:06:59,220
+again
+ 
+
+333
+00:06:59,220 --> 00:07:02,590
+again
+so this wave plate rotated by 45 degrees
+
+334
+00:07:02,590 --> 00:07:02,600
+so this wave plate rotated by 45 degrees
+ 
+
+335
+00:07:02,600 --> 00:07:05,930
+so this wave plate rotated by 45 degrees
+represented by this Matrix takes us in a
+
+336
+00:07:05,930 --> 00:07:05,940
+represented by this Matrix takes us in a
+ 
+
+337
+00:07:05,940 --> 00:07:08,409
+represented by this Matrix takes us in a
+circle around the polarizations
+
+338
+00:07:08,409 --> 00:07:08,419
+circle around the polarizations
+ 
+
+339
+00:07:08,419 --> 00:07:10,969
+circle around the polarizations
+hlv and r
+
+340
+00:07:10,969 --> 00:07:10,979
+hlv and r
+ 
+
+341
+00:07:10,979 --> 00:07:13,370
+hlv and r
+and again we can actually rotate
+
+342
+00:07:13,370 --> 00:07:13,380
+and again we can actually rotate
+ 
+
+343
+00:07:13,380 --> 00:07:15,830
+and again we can actually rotate
+continuously along this circle to get
+
+344
+00:07:15,830 --> 00:07:15,840
+continuously along this circle to get
+ 
+
+345
+00:07:15,840 --> 00:07:18,830
+continuously along this circle to get
+all sorts of polarizations in between we
+
+346
+00:07:18,830 --> 00:07:18,840
+all sorts of polarizations in between we
+ 
+
+347
+00:07:18,840 --> 00:07:20,749
+all sorts of polarizations in between we
+just need to take our rotation matrices
+
+348
+00:07:20,749 --> 00:07:20,759
+just need to take our rotation matrices
+ 
+
+349
+00:07:20,759 --> 00:07:23,390
+just need to take our rotation matrices
+from before and set them to an arbitrary
+
+350
+00:07:23,390 --> 00:07:23,400
+from before and set them to an arbitrary
+ 
+
+351
+00:07:23,400 --> 00:07:27,589
+from before and set them to an arbitrary
+angle Theta instead of using 45 degrees
+
+352
+00:07:27,589 --> 00:07:27,599
+angle Theta instead of using 45 degrees
+ 
+
+353
+00:07:27,599 --> 00:07:29,809
+angle Theta instead of using 45 degrees
+this corresponds to rotating our wave
+
+354
+00:07:29,809 --> 00:07:29,819
+this corresponds to rotating our wave
+ 
+
+355
+00:07:29,819 --> 00:07:32,809
+this corresponds to rotating our wave
+plate by an arbitrary angle
+
+356
+00:07:32,809 --> 00:07:32,819
+plate by an arbitrary angle
+ 
+
+357
+00:07:32,819 --> 00:07:35,390
+plate by an arbitrary angle
+now let's get back to all these phase
+
+358
+00:07:35,390 --> 00:07:35,400
+now let's get back to all these phase
+ 
+
+359
+00:07:35,400 --> 00:07:38,089
+now let's get back to all these phase
+factors that I've been ignoring why is
+
+360
+00:07:38,089 --> 00:07:38,099
+factors that I've been ignoring why is
+ 
+
+361
+00:07:38,099 --> 00:07:41,089
+factors that I've been ignoring why is
+it okay to ignore these phase factors
+
+362
+00:07:41,089 --> 00:07:41,099
+it okay to ignore these phase factors
+ 
+
+363
+00:07:41,099 --> 00:07:43,309
+it okay to ignore these phase factors
+well we know that if we take a
+
+364
+00:07:43,309 --> 00:07:43,319
+well we know that if we take a
+ 
+
+365
+00:07:43,319 --> 00:07:46,070
+well we know that if we take a
+diagonally polarized wave and shift the
+
+366
+00:07:46,070 --> 00:07:46,080
+diagonally polarized wave and shift the
+ 
+
+367
+00:07:46,080 --> 00:07:48,110
+diagonally polarized wave and shift the
+vertical component of the wave by a
+
+368
+00:07:48,110 --> 00:07:48,120
+vertical component of the wave by a
+ 
+
+369
+00:07:48,120 --> 00:07:50,390
+vertical component of the wave by a
+quarter phase we end up with a left
+
+370
+00:07:50,390 --> 00:07:50,400
+quarter phase we end up with a left
+ 
+
+371
+00:07:50,400 --> 00:07:53,150
+quarter phase we end up with a left
+circularly polarized wave
+
+372
+00:07:53,150 --> 00:07:53,160
+circularly polarized wave
+ 
+
+373
+00:07:53,160 --> 00:07:56,029
+circularly polarized wave
+but now instead let's shift both the
+
+374
+00:07:56,029 --> 00:07:56,039
+but now instead let's shift both the
+ 
+
+375
+00:07:56,039 --> 00:07:58,730
+but now instead let's shift both the
+horizontal and vertical components by a
+
+376
+00:07:58,730 --> 00:07:58,740
+horizontal and vertical components by a
+ 
+
+377
+00:07:58,740 --> 00:08:00,110
+horizontal and vertical components by a
+quarter phase
+
+378
+00:08:00,110 --> 00:08:00,120
+quarter phase
+ 
+
+379
+00:08:00,120 --> 00:08:02,450
+quarter phase
+the result is just shifting the entire
+
+380
+00:08:02,450 --> 00:08:02,460
+the result is just shifting the entire
+ 
+
+381
+00:08:02,460 --> 00:08:05,510
+the result is just shifting the entire
+Wave by a quarter phase the wave's
+
+382
+00:08:05,510 --> 00:08:05,520
+Wave by a quarter phase the wave's
+ 
+
+383
+00:08:05,520 --> 00:08:08,870
+Wave by a quarter phase the wave's
+diagonal polarization is unchanged we've
+
+384
+00:08:08,870 --> 00:08:08,880
+diagonal polarization is unchanged we've
+ 
+
+385
+00:08:08,880 --> 00:08:11,150
+diagonal polarization is unchanged we've
+just shifted the wave along the axis of
+
+386
+00:08:11,150 --> 00:08:11,160
+just shifted the wave along the axis of
+ 
+
+387
+00:08:11,160 --> 00:08:12,350
+just shifted the wave along the axis of
+travel
+
+388
+00:08:12,350 --> 00:08:12,360
+travel
+ 
+
+389
+00:08:12,360 --> 00:08:15,230
+travel
+so when it comes to using Jones vectors
+
+390
+00:08:15,230 --> 00:08:15,240
+so when it comes to using Jones vectors
+ 
+
+391
+00:08:15,240 --> 00:08:17,710
+so when it comes to using Jones vectors
+to represent wave polarizations
+
+392
+00:08:17,710 --> 00:08:17,720
+to represent wave polarizations
+ 
+
+393
+00:08:17,720 --> 00:08:20,150
+to represent wave polarizations
+multiplying both components of the Jones
+
+394
+00:08:20,150 --> 00:08:20,160
+multiplying both components of the Jones
+ 
+
+395
+00:08:20,160 --> 00:08:23,330
+multiplying both components of the Jones
+vector by the same phase has no effect
+
+396
+00:08:23,330 --> 00:08:23,340
+vector by the same phase has no effect
+ 
+
+397
+00:08:23,340 --> 00:08:26,510
+vector by the same phase has no effect
+on the wave's polarization all this does
+
+398
+00:08:26,510 --> 00:08:26,520
+on the wave's polarization all this does
+ 
+
+399
+00:08:26,520 --> 00:08:29,029
+on the wave's polarization all this does
+is shift the wave along the axis of
+
+400
+00:08:29,029 --> 00:08:29,039
+is shift the wave along the axis of
+ 
+
+401
+00:08:29,039 --> 00:08:30,290
+is shift the wave along the axis of
+travel
+
+402
+00:08:30,290 --> 00:08:30,300
+travel
+ 
+
+403
+00:08:30,300 --> 00:08:33,529
+travel
+so when it comes to polarizations there
+
+404
+00:08:33,529 --> 00:08:33,539
+so when it comes to polarizations there
+ 
+
+405
+00:08:33,539 --> 00:08:35,329
+so when it comes to polarizations there
+are multiple Jones vectors that
+
+406
+00:08:35,329 --> 00:08:35,339
+are multiple Jones vectors that
+ 
+
+407
+00:08:35,339 --> 00:08:38,089
+are multiple Jones vectors that
+represent the same polarization each
+
+408
+00:08:38,089 --> 00:08:38,099
+represent the same polarization each
+ 
+
+409
+00:08:38,099 --> 00:08:40,370
+represent the same polarization each
+with a different total phase factor in
+
+410
+00:08:40,370 --> 00:08:40,380
+with a different total phase factor in
+ 
+
+411
+00:08:40,380 --> 00:08:41,389
+with a different total phase factor in
+front
+
+412
+00:08:41,389 --> 00:08:41,399
+front
+ 
+
+413
+00:08:41,399 --> 00:08:44,329
+front
+so we can ignore these total phases when
+
+414
+00:08:44,329 --> 00:08:44,339
+so we can ignore these total phases when
+ 
+
+415
+00:08:44,339 --> 00:08:47,090
+so we can ignore these total phases when
+studying wave polarizations because
+
+416
+00:08:47,090 --> 00:08:47,100
+studying wave polarizations because
+ 
+
+417
+00:08:47,100 --> 00:08:49,430
+studying wave polarizations because
+total phase shifts don't change the
+
+418
+00:08:49,430 --> 00:08:49,440
+total phase shifts don't change the
+ 
+
+419
+00:08:49,440 --> 00:08:52,790
+total phase shifts don't change the
+polarization of a wave
+
+420
+00:08:52,790 --> 00:08:52,800
+polarization of a wave
+ 
+
+421
+00:08:52,800 --> 00:08:56,090
+polarization of a wave
+so we have this Matrix for rotating in a
+
+422
+00:08:56,090 --> 00:08:56,100
+so we have this Matrix for rotating in a
+ 
+
+423
+00:08:56,100 --> 00:08:59,150
+so we have this Matrix for rotating in a
+circle between the polarizations D L A
+
+424
+00:08:59,150 --> 00:08:59,160
+circle between the polarizations D L A
+ 
+
+425
+00:08:59,160 --> 00:09:02,449
+circle between the polarizations D L A
+and R and this Matrix rotates us in a
+
+426
+00:09:02,449 --> 00:09:02,459
+and R and this Matrix rotates us in a
+ 
+
+427
+00:09:02,459 --> 00:09:05,630
+and R and this Matrix rotates us in a
+circle between the polarizations hlv and
+
+428
+00:09:05,630 --> 00:09:05,640
+circle between the polarizations hlv and
+ 
+
+429
+00:09:05,640 --> 00:09:06,470
+circle between the polarizations hlv and
+r
+
+430
+00:09:06,470 --> 00:09:06,480
+r
+ 
+
+431
+00:09:06,480 --> 00:09:09,050
+r
+putting these two circles together we
+
+432
+00:09:09,050 --> 00:09:09,060
+putting these two circles together we
+ 
+
+433
+00:09:09,060 --> 00:09:11,750
+putting these two circles together we
+get a sort of sphere shape
+
+434
+00:09:11,750 --> 00:09:11,760
+get a sort of sphere shape
+ 
+
+435
+00:09:11,760 --> 00:09:13,490
+get a sort of sphere shape
+this indicates that there should be
+
+436
+00:09:13,490 --> 00:09:13,500
+this indicates that there should be
+ 
+
+437
+00:09:13,500 --> 00:09:16,610
+this indicates that there should be
+another Matrix for rotating between h a
+
+438
+00:09:16,610 --> 00:09:16,620
+another Matrix for rotating between h a
+ 
+
+439
+00:09:16,620 --> 00:09:19,870
+another Matrix for rotating between h a
+v and d and that ends up being true
+
+440
+00:09:19,870 --> 00:09:19,880
+v and d and that ends up being true
+ 
+
+441
+00:09:19,880 --> 00:09:24,230
+v and d and that ends up being true
+rotating between h a v and D is the same
+
+442
+00:09:24,230 --> 00:09:24,240
+rotating between h a v and D is the same
+ 
+
+443
+00:09:24,240 --> 00:09:26,930
+rotating between h a v and D is the same
+thing as looking at the X Y plane and
+
+444
+00:09:26,930 --> 00:09:26,940
+thing as looking at the X Y plane and
+ 
+
+445
+00:09:26,940 --> 00:09:30,110
+thing as looking at the X Y plane and
+rotating the wave clockwise which is
+
+446
+00:09:30,110 --> 00:09:30,120
+rotating the wave clockwise which is
+ 
+
+447
+00:09:30,120 --> 00:09:32,750
+rotating the wave clockwise which is
+given by this Matrix here for quarter
+
+448
+00:09:32,750 --> 00:09:32,760
+given by this Matrix here for quarter
+ 
+
+449
+00:09:32,760 --> 00:09:35,690
+given by this Matrix here for quarter
+turns and given by this Matrix here for
+
+450
+00:09:35,690 --> 00:09:35,700
+turns and given by this Matrix here for
+ 
+
+451
+00:09:35,700 --> 00:09:38,329
+turns and given by this Matrix here for
+rotating continuously
+
+452
+00:09:38,329 --> 00:09:38,339
+rotating continuously
+ 
+
+453
+00:09:38,339 --> 00:09:41,210
+rotating continuously
+so all together we see that we can
+
+454
+00:09:41,210 --> 00:09:41,220
+so all together we see that we can
+ 
+
+455
+00:09:41,220 --> 00:09:43,430
+so all together we see that we can
+arrange all our polarizations of light
+
+456
+00:09:43,430 --> 00:09:43,440
+arrange all our polarizations of light
+ 
+
+457
+00:09:43,440 --> 00:09:46,970
+arrange all our polarizations of light
+on a sphere like this this is called the
+
+458
+00:09:46,970 --> 00:09:46,980
+on a sphere like this this is called the
+ 
+
+459
+00:09:46,980 --> 00:09:49,550
+on a sphere like this this is called the
+plank array sphere we initially
+
+460
+00:09:49,550 --> 00:09:49,560
+plank array sphere we initially
+ 
+
+461
+00:09:49,560 --> 00:09:51,829
+plank array sphere we initially
+discovered these three matrices for
+
+462
+00:09:51,829 --> 00:09:51,839
+discovered these three matrices for
+ 
+
+463
+00:09:51,839 --> 00:09:54,190
+discovered these three matrices for
+performing quarter turns on the sphere
+
+464
+00:09:54,190 --> 00:09:54,200
+performing quarter turns on the sphere
+ 
+
+465
+00:09:54,200 --> 00:09:57,590
+performing quarter turns on the sphere
+and these matrices can be generalized to
+
+466
+00:09:57,590 --> 00:09:57,600
+and these matrices can be generalized to
+ 
+
+467
+00:09:57,600 --> 00:09:59,990
+and these matrices can be generalized to
+continuous angles which allows us to
+
+468
+00:09:59,990 --> 00:10:00,000
+continuous angles which allows us to
+ 
+
+469
+00:10:00,000 --> 00:10:02,690
+continuous angles which allows us to
+reach any point on the sphere giving any
+
+470
+00:10:02,690 --> 00:10:02,700
+reach any point on the sphere giving any
+ 
+
+471
+00:10:02,700 --> 00:10:07,790
+reach any point on the sphere giving any
+arbitrary Jones Vector of amplitude 1.
+
+472
+00:10:07,790 --> 00:10:07,800
+arbitrary Jones Vector of amplitude 1.
+ 
+
+473
+00:10:07,800 --> 00:10:10,190
+arbitrary Jones Vector of amplitude 1.
+so what's so special about these
+
+474
+00:10:10,190 --> 00:10:10,200
+so what's so special about these
+ 
+
+475
+00:10:10,200 --> 00:10:13,490
+so what's so special about these
+matrices what do they have in common it
+
+476
+00:10:13,490 --> 00:10:13,500
+matrices what do they have in common it
+ 
+
+477
+00:10:13,500 --> 00:10:15,889
+matrices what do they have in common it
+turns out that these matrices all belong
+
+478
+00:10:15,889 --> 00:10:15,899
+turns out that these matrices all belong
+ 
+
+479
+00:10:15,899 --> 00:10:19,250
+turns out that these matrices all belong
+to a group of matrices called U2 the
+
+480
+00:10:19,250 --> 00:10:19,260
+to a group of matrices called U2 the
+ 
+
+481
+00:10:19,260 --> 00:10:22,370
+to a group of matrices called U2 the
+unitary group of two by two matrices
+
+482
+00:10:22,370 --> 00:10:22,380
+unitary group of two by two matrices
+ 
+
+483
+00:10:22,380 --> 00:10:24,530
+unitary group of two by two matrices
+but what does this mean
+
+484
+00:10:24,530 --> 00:10:24,540
+but what does this mean
+ 
+
+485
+00:10:24,540 --> 00:10:27,350
+but what does this mean
+well the key idea for rotating across
+
+486
+00:10:27,350 --> 00:10:27,360
+well the key idea for rotating across
+ 
+
+487
+00:10:27,360 --> 00:10:29,570
+well the key idea for rotating across
+this sphere is that we are not changing
+
+488
+00:10:29,570 --> 00:10:29,580
+this sphere is that we are not changing
+ 
+
+489
+00:10:29,580 --> 00:10:31,910
+this sphere is that we are not changing
+the amplitudes of our waves
+
+490
+00:10:31,910 --> 00:10:31,920
+the amplitudes of our waves
+ 
+
+491
+00:10:31,920 --> 00:10:34,490
+the amplitudes of our waves
+so we're just rotating the Jones vectors
+
+492
+00:10:34,490 --> 00:10:34,500
+so we're just rotating the Jones vectors
+ 
+
+493
+00:10:34,500 --> 00:10:36,769
+so we're just rotating the Jones vectors
+on the sphere without changing their
+
+494
+00:10:36,769 --> 00:10:36,779
+on the sphere without changing their
+ 
+
+495
+00:10:36,779 --> 00:10:38,750
+on the sphere without changing their
+lengths
+
+496
+00:10:38,750 --> 00:10:38,760
+lengths
+ 
+
+497
+00:10:38,760 --> 00:10:42,170
+lengths
+so U2 matrices represent rotations on
+
+498
+00:10:42,170 --> 00:10:42,180
+so U2 matrices represent rotations on
+ 
+
+499
+00:10:42,180 --> 00:10:44,750
+so U2 matrices represent rotations on
+the sphere of polarizations
+
+500
+00:10:44,750 --> 00:10:44,760
+the sphere of polarizations
+ 
+
+501
+00:10:44,760 --> 00:10:47,690
+the sphere of polarizations
+to understand this let's go back to 3D
+
+502
+00:10:47,690 --> 00:10:47,700
+to understand this let's go back to 3D
+ 
+
+503
+00:10:47,700 --> 00:10:50,690
+to understand this let's go back to 3D
+vectors for a moment one way to get the
+
+504
+00:10:50,690 --> 00:10:50,700
+vectors for a moment one way to get the
+ 
+
+505
+00:10:50,700 --> 00:10:53,509
+vectors for a moment one way to get the
+squared length of a vector v is to treat
+
+506
+00:10:53,509 --> 00:10:53,519
+squared length of a vector v is to treat
+ 
+
+507
+00:10:53,519 --> 00:10:56,210
+squared length of a vector v is to treat
+V as a column and write the squared
+
+508
+00:10:56,210 --> 00:10:56,220
+V as a column and write the squared
+ 
+
+509
+00:10:56,220 --> 00:10:59,329
+V as a column and write the squared
+length as V transpose V where the
+
+510
+00:10:59,329 --> 00:10:59,339
+length as V transpose V where the
+ 
+
+511
+00:10:59,339 --> 00:11:01,610
+length as V transpose V where the
+transpose operation just means we flip
+
+512
+00:11:01,610 --> 00:11:01,620
+transpose operation just means we flip
+ 
+
+513
+00:11:01,620 --> 00:11:03,949
+transpose operation just means we flip
+columns into rows
+
+514
+00:11:03,949 --> 00:11:03,959
+columns into rows
+ 
+
+515
+00:11:03,959 --> 00:11:05,750
+columns into rows
+when we perform this array
+
+516
+00:11:05,750 --> 00:11:05,760
+when we perform this array
+ 
+
+517
+00:11:05,760 --> 00:11:08,449
+when we perform this array
+multiplication we get x squared plus y
+
+518
+00:11:08,449 --> 00:11:08,459
+multiplication we get x squared plus y
+ 
+
+519
+00:11:08,459 --> 00:11:11,090
+multiplication we get x squared plus y
+squared plus Z squared which is the
+
+520
+00:11:11,090 --> 00:11:11,100
+squared plus Z squared which is the
+ 
+
+521
+00:11:11,100 --> 00:11:13,069
+squared plus Z squared which is the
+standard Pythagoras formula for the
+
+522
+00:11:13,069 --> 00:11:13,079
+standard Pythagoras formula for the
+ 
+
+523
+00:11:13,079 --> 00:11:16,130
+standard Pythagoras formula for the
+squared length of a 3D vector
+
+524
+00:11:16,130 --> 00:11:16,140
+squared length of a 3D vector
+ 
+
+525
+00:11:16,140 --> 00:11:18,710
+squared length of a 3D vector
+now what if we wanted to apply a matrix
+
+526
+00:11:18,710 --> 00:11:18,720
+now what if we wanted to apply a matrix
+ 
+
+527
+00:11:18,720 --> 00:11:21,530
+now what if we wanted to apply a matrix
+R to this Vector to rotate the vector
+
+528
+00:11:21,530 --> 00:11:21,540
+R to this Vector to rotate the vector
+ 
+
+529
+00:11:21,540 --> 00:11:24,170
+R to this Vector to rotate the vector
+how do we determine what this Matrix R
+
+530
+00:11:24,170 --> 00:11:24,180
+how do we determine what this Matrix R
+ 
+
+531
+00:11:24,180 --> 00:11:25,970
+how do we determine what this Matrix R
+would look like
+
+532
+00:11:25,970 --> 00:11:25,980
+would look like
+ 
+
+533
+00:11:25,980 --> 00:11:28,910
+would look like
+well a key fact about rotating vectors
+
+534
+00:11:28,910 --> 00:11:28,920
+well a key fact about rotating vectors
+ 
+
+535
+00:11:28,920 --> 00:11:30,949
+well a key fact about rotating vectors
+is that their length doesn't change
+
+536
+00:11:30,949 --> 00:11:30,959
+is that their length doesn't change
+ 
+
+537
+00:11:30,959 --> 00:11:32,750
+is that their length doesn't change
+under rotation
+
+538
+00:11:32,750 --> 00:11:32,760
+under rotation
+ 
+
+539
+00:11:32,760 --> 00:11:35,150
+under rotation
+so if we take our formula for the
+
+540
+00:11:35,150 --> 00:11:35,160
+so if we take our formula for the
+ 
+
+541
+00:11:35,160 --> 00:11:37,730
+so if we take our formula for the
+squared length of v and then apply our
+
+542
+00:11:37,730 --> 00:11:37,740
+squared length of v and then apply our
+ 
+
+543
+00:11:37,740 --> 00:11:40,970
+squared length of v and then apply our
+rotation Matrix R to V this should not
+
+544
+00:11:40,970 --> 00:11:40,980
+rotation Matrix R to V this should not
+ 
+
+545
+00:11:40,980 --> 00:11:42,530
+rotation Matrix R to V this should not
+change the result of the original
+
+546
+00:11:42,530 --> 00:11:42,540
+change the result of the original
+ 
+
+547
+00:11:42,540 --> 00:11:45,410
+change the result of the original
+squared length formula so these two
+
+548
+00:11:45,410 --> 00:11:45,420
+squared length formula so these two
+ 
+
+549
+00:11:45,420 --> 00:11:48,530
+squared length formula so these two
+formulas must be equal
+
+550
+00:11:48,530 --> 00:11:48,540
+formulas must be equal
+ 
+
+551
+00:11:48,540 --> 00:11:51,290
+formulas must be equal
+it's a standard rule from linear algebra
+
+552
+00:11:51,290 --> 00:11:51,300
+it's a standard rule from linear algebra
+ 
+
+553
+00:11:51,300 --> 00:11:53,630
+it's a standard rule from linear algebra
+that the transpose of a product of
+
+554
+00:11:53,630 --> 00:11:53,640
+that the transpose of a product of
+ 
+
+555
+00:11:53,640 --> 00:11:56,630
+that the transpose of a product of
+arrays is equal to the transposes of the
+
+556
+00:11:56,630 --> 00:11:56,640
+arrays is equal to the transposes of the
+ 
+
+557
+00:11:56,640 --> 00:11:59,150
+arrays is equal to the transposes of the
+individual arrays multiplied in the
+
+558
+00:11:59,150 --> 00:11:59,160
+individual arrays multiplied in the
+ 
+
+559
+00:11:59,160 --> 00:12:00,710
+individual arrays multiplied in the
+reverse order
+
+560
+00:12:00,710 --> 00:12:00,720
+reverse order
+ 
+
+561
+00:12:00,720 --> 00:12:04,850
+reverse order
+so we can write RV all transposed as V
+
+562
+00:12:04,850 --> 00:12:04,860
+so we can write RV all transposed as V
+ 
+
+563
+00:12:04,860 --> 00:12:07,910
+so we can write RV all transposed as V
+transpose R transpose
+
+564
+00:12:07,910 --> 00:12:07,920
+transpose R transpose
+ 
+
+565
+00:12:07,920 --> 00:12:10,850
+transpose R transpose
+so this equation is telling us that if R
+
+566
+00:12:10,850 --> 00:12:10,860
+so this equation is telling us that if R
+ 
+
+567
+00:12:10,860 --> 00:12:13,069
+so this equation is telling us that if R
+is a rotation Matrix that doesn't change
+
+568
+00:12:13,069 --> 00:12:13,079
+is a rotation Matrix that doesn't change
+ 
+
+569
+00:12:13,079 --> 00:12:16,190
+is a rotation Matrix that doesn't change
+the length of vectors then R transpose R
+
+570
+00:12:16,190 --> 00:12:16,200
+the length of vectors then R transpose R
+ 
+
+571
+00:12:16,200 --> 00:12:18,550
+the length of vectors then R transpose R
+must be equal to the identity Matrix
+
+572
+00:12:18,550 --> 00:12:18,560
+must be equal to the identity Matrix
+ 
+
+573
+00:12:18,560 --> 00:12:21,290
+must be equal to the identity Matrix
+another way of saying this is that our
+
+574
+00:12:21,290 --> 00:12:21,300
+another way of saying this is that our
+ 
+
+575
+00:12:21,300 --> 00:12:24,530
+another way of saying this is that our
+transpose is the inverse of r
+
+576
+00:12:24,530 --> 00:12:24,540
+transpose is the inverse of r
+ 
+
+577
+00:12:24,540 --> 00:12:28,009
+transpose is the inverse of r
+if R is a three by three Matrix with the
+
+578
+00:12:28,009 --> 00:12:28,019
+if R is a three by three Matrix with the
+ 
+
+579
+00:12:28,019 --> 00:12:30,710
+if R is a three by three Matrix with the
+columns highlighted like this then our
+
+580
+00:12:30,710 --> 00:12:30,720
+columns highlighted like this then our
+ 
+
+581
+00:12:30,720 --> 00:12:32,930
+columns highlighted like this then our
+transpose involves flipping the columns
+
+582
+00:12:32,930 --> 00:12:32,940
+transpose involves flipping the columns
+ 
+
+583
+00:12:32,940 --> 00:12:36,290
+transpose involves flipping the columns
+into rows to give us this
+
+584
+00:12:36,290 --> 00:12:36,300
+into rows to give us this
+ 
+
+585
+00:12:36,300 --> 00:12:39,650
+into rows to give us this
+now remember R transpose multiplied by R
+
+586
+00:12:39,650 --> 00:12:39,660
+now remember R transpose multiplied by R
+ 
+
+587
+00:12:39,660 --> 00:12:42,949
+now remember R transpose multiplied by R
+gives us the identity Matrix this gives
+
+588
+00:12:42,949 --> 00:12:42,959
+gives us the identity Matrix this gives
+ 
+
+589
+00:12:42,959 --> 00:12:44,870
+gives us the identity Matrix this gives
+us some interesting relationships
+
+590
+00:12:44,870 --> 00:12:44,880
+us some interesting relationships
+ 
+
+591
+00:12:44,880 --> 00:12:47,030
+us some interesting relationships
+between The Columns of r
+
+592
+00:12:47,030 --> 00:12:47,040
+between The Columns of r
+ 
+
+593
+00:12:47,040 --> 00:12:49,610
+between The Columns of r
+notice that when we multiply any column
+
+594
+00:12:49,610 --> 00:12:49,620
+notice that when we multiply any column
+ 
+
+595
+00:12:49,620 --> 00:12:52,610
+notice that when we multiply any column
+by its transpose we get one
+
+596
+00:12:52,610 --> 00:12:52,620
+by its transpose we get one
+ 
+
+597
+00:12:52,620 --> 00:12:55,490
+by its transpose we get one
+this tells us that The Columns of R if
+
+598
+00:12:55,490 --> 00:12:55,500
+this tells us that The Columns of R if
+ 
+
+599
+00:12:55,500 --> 00:12:58,129
+this tells us that The Columns of R if
+treated as vectors each have magnitude
+
+600
+00:12:58,129 --> 00:12:58,139
+treated as vectors each have magnitude
+ 
+
+601
+00:12:58,139 --> 00:12:59,030
+treated as vectors each have magnitude
+one
+
+602
+00:12:59,030 --> 00:12:59,040
+one
+ 
+
+603
+00:12:59,040 --> 00:13:02,329
+one
+also if we multiply any column by a
+
+604
+00:13:02,329 --> 00:13:02,339
+also if we multiply any column by a
+ 
+
+605
+00:13:02,339 --> 00:13:05,870
+also if we multiply any column by a
+different columns transpose we get 0.
+
+606
+00:13:05,870 --> 00:13:05,880
+different columns transpose we get 0.
+ 
+
+607
+00:13:05,880 --> 00:13:08,449
+different columns transpose we get 0.
+this tells us that The Columns of R if
+
+608
+00:13:08,449 --> 00:13:08,459
+this tells us that The Columns of R if
+ 
+
+609
+00:13:08,459 --> 00:13:11,569
+this tells us that The Columns of R if
+treated as vectors are all orthogonal to
+
+610
+00:13:11,569 --> 00:13:11,579
+treated as vectors are all orthogonal to
+ 
+
+611
+00:13:11,579 --> 00:13:12,889
+treated as vectors are all orthogonal to
+each other
+
+612
+00:13:12,889 --> 00:13:12,899
+each other
+ 
+
+613
+00:13:12,899 --> 00:13:15,410
+each other
+matrices that satisfy these properties
+
+614
+00:13:15,410 --> 00:13:15,420
+matrices that satisfy these properties
+ 
+
+615
+00:13:15,420 --> 00:13:18,769
+matrices that satisfy these properties
+are called orthogonal matrices and we
+
+616
+00:13:18,769 --> 00:13:18,779
+are called orthogonal matrices and we
+ 
+
+617
+00:13:18,779 --> 00:13:21,170
+are called orthogonal matrices and we
+write the group of all orthogonal three
+
+618
+00:13:21,170 --> 00:13:21,180
+write the group of all orthogonal three
+ 
+
+619
+00:13:21,180 --> 00:13:24,470
+write the group of all orthogonal three
+by three matrices as O3
+
+620
+00:13:24,470 --> 00:13:24,480
+by three matrices as O3
+ 
+
+621
+00:13:24,480 --> 00:13:28,250
+by three matrices as O3
+so we know our rotations in 3D are done
+
+622
+00:13:28,250 --> 00:13:28,260
+so we know our rotations in 3D are done
+ 
+
+623
+00:13:28,260 --> 00:13:31,670
+so we know our rotations in 3D are done
+by O3 matrices but we've actually missed
+
+624
+00:13:31,670 --> 00:13:31,680
+by O3 matrices but we've actually missed
+ 
+
+625
+00:13:31,680 --> 00:13:34,370
+by O3 matrices but we've actually missed
+an important detail it's true that
+
+626
+00:13:34,370 --> 00:13:34,380
+an important detail it's true that
+ 
+
+627
+00:13:34,380 --> 00:13:36,350
+an important detail it's true that
+rotations don't change the length of a
+
+628
+00:13:36,350 --> 00:13:36,360
+rotations don't change the length of a
+ 
+
+629
+00:13:36,360 --> 00:13:39,590
+rotations don't change the length of a
+vector but Reflections also don't change
+
+630
+00:13:39,590 --> 00:13:39,600
+vector but Reflections also don't change
+ 
+
+631
+00:13:39,600 --> 00:13:42,650
+vector but Reflections also don't change
+the length of a vector so this O3 group
+
+632
+00:13:42,650 --> 00:13:42,660
+the length of a vector so this O3 group
+ 
+
+633
+00:13:42,660 --> 00:13:44,990
+the length of a vector so this O3 group
+of matrices that don't change Vector
+
+634
+00:13:44,990 --> 00:13:45,000
+of matrices that don't change Vector
+ 
+
+635
+00:13:45,000 --> 00:13:47,690
+of matrices that don't change Vector
+lengths contains both rotation matrices
+
+636
+00:13:47,690 --> 00:13:47,700
+lengths contains both rotation matrices
+ 
+
+637
+00:13:47,700 --> 00:13:50,690
+lengths contains both rotation matrices
+and reflection matrices
+
+638
+00:13:50,690 --> 00:13:50,700
+and reflection matrices
+ 
+
+639
+00:13:50,700 --> 00:13:53,569
+and reflection matrices
+if we take the formula R transpose R
+
+640
+00:13:53,569 --> 00:13:53,579
+if we take the formula R transpose R
+ 
+
+641
+00:13:53,579 --> 00:13:55,910
+if we take the formula R transpose R
+equals the identity and take the
+
+642
+00:13:55,910 --> 00:13:55,920
+equals the identity and take the
+ 
+
+643
+00:13:55,920 --> 00:13:58,550
+equals the identity and take the
+determinant of both sides we know from
+
+644
+00:13:58,550 --> 00:13:58,560
+determinant of both sides we know from
+ 
+
+645
+00:13:58,560 --> 00:14:01,009
+determinant of both sides we know from
+linear algebra that the determinant of a
+
+646
+00:14:01,009 --> 00:14:01,019
+linear algebra that the determinant of a
+ 
+
+647
+00:14:01,019 --> 00:14:03,050
+linear algebra that the determinant of a
+product equals the product of the
+
+648
+00:14:03,050 --> 00:14:03,060
+product equals the product of the
+ 
+
+649
+00:14:03,060 --> 00:14:04,250
+product equals the product of the
+determinants
+
+650
+00:14:04,250 --> 00:14:04,260
+determinants
+ 
+
+651
+00:14:04,260 --> 00:14:06,650
+determinants
+and also taking the transpose of a
+
+652
+00:14:06,650 --> 00:14:06,660
+and also taking the transpose of a
+ 
+
+653
+00:14:06,660 --> 00:14:09,590
+and also taking the transpose of a
+matrix doesn't affect the determinant so
+
+654
+00:14:09,590 --> 00:14:09,600
+matrix doesn't affect the determinant so
+ 
+
+655
+00:14:09,600 --> 00:14:12,410
+matrix doesn't affect the determinant so
+we ignore the transpose
+
+656
+00:14:12,410 --> 00:14:12,420
+we ignore the transpose
+ 
+
+657
+00:14:12,420 --> 00:14:14,329
+we ignore the transpose
+since the determinant of the identity
+
+658
+00:14:14,329 --> 00:14:14,339
+since the determinant of the identity
+ 
+
+659
+00:14:14,339 --> 00:14:16,970
+since the determinant of the identity
+Matrix is one this tells us that the
+
+660
+00:14:16,970 --> 00:14:16,980
+Matrix is one this tells us that the
+ 
+
+661
+00:14:16,980 --> 00:14:19,490
+Matrix is one this tells us that the
+determinant of R is either plus one or
+
+662
+00:14:19,490 --> 00:14:19,500
+determinant of R is either plus one or
+ 
+
+663
+00:14:19,500 --> 00:14:21,110
+determinant of R is either plus one or
+minus 1.
+
+664
+00:14:21,110 --> 00:14:21,120
+minus 1.
+ 
+
+665
+00:14:21,120 --> 00:14:23,810
+minus 1.
+remember the determinant of a matrix
+
+666
+00:14:23,810 --> 00:14:23,820
+remember the determinant of a matrix
+ 
+
+667
+00:14:23,820 --> 00:14:26,509
+remember the determinant of a matrix
+tells us how much it changes the areas
+
+668
+00:14:26,509 --> 00:14:26,519
+tells us how much it changes the areas
+ 
+
+669
+00:14:26,519 --> 00:14:29,449
+tells us how much it changes the areas
+of squares in two Dimensions or the
+
+670
+00:14:29,449 --> 00:14:29,459
+of squares in two Dimensions or the
+ 
+
+671
+00:14:29,459 --> 00:14:33,050
+of squares in two Dimensions or the
+volumes of cubes in three dimensions
+
+672
+00:14:33,050 --> 00:14:33,060
+volumes of cubes in three dimensions
+ 
+
+673
+00:14:33,060 --> 00:14:35,569
+volumes of cubes in three dimensions
+rotations have a determinant of plus one
+
+674
+00:14:35,569 --> 00:14:35,579
+rotations have a determinant of plus one
+ 
+
+675
+00:14:35,579 --> 00:14:38,389
+rotations have a determinant of plus one
+since rotations don't change areas or
+
+676
+00:14:38,389 --> 00:14:38,399
+since rotations don't change areas or
+ 
+
+677
+00:14:38,399 --> 00:14:39,949
+since rotations don't change areas or
+volumes
+
+678
+00:14:39,949 --> 00:14:39,959
+volumes
+ 
+
+679
+00:14:39,959 --> 00:14:42,230
+volumes
+Reflections don't change the size of
+
+680
+00:14:42,230 --> 00:14:42,240
+Reflections don't change the size of
+ 
+
+681
+00:14:42,240 --> 00:14:44,569
+Reflections don't change the size of
+volumes but Reflections reverse
+
+682
+00:14:44,569 --> 00:14:44,579
+volumes but Reflections reverse
+ 
+
+683
+00:14:44,579 --> 00:14:47,150
+volumes but Reflections reverse
+directions and this results in a
+
+684
+00:14:47,150 --> 00:14:47,160
+directions and this results in a
+ 
+
+685
+00:14:47,160 --> 00:14:49,670
+directions and this results in a
+determinant of minus one
+
+686
+00:14:49,670 --> 00:14:49,680
+determinant of minus one
+ 
+
+687
+00:14:49,680 --> 00:14:52,129
+determinant of minus one
+so if we only want to look at matrices
+
+688
+00:14:52,129 --> 00:14:52,139
+so if we only want to look at matrices
+ 
+
+689
+00:14:52,139 --> 00:14:55,970
+so if we only want to look at matrices
+that do rotations and not Reflections we
+
+690
+00:14:55,970 --> 00:14:55,980
+that do rotations and not Reflections we
+ 
+
+691
+00:14:55,980 --> 00:14:58,069
+that do rotations and not Reflections we
+have to only look at the orthogonal
+
+692
+00:14:58,069 --> 00:14:58,079
+have to only look at the orthogonal
+ 
+
+693
+00:14:58,079 --> 00:15:01,370
+have to only look at the orthogonal
+matrices with determinant plus one this
+
+694
+00:15:01,370 --> 00:15:01,380
+matrices with determinant plus one this
+ 
+
+695
+00:15:01,380 --> 00:15:03,670
+matrices with determinant plus one this
+is called the special orthogonal group
+
+696
+00:15:03,670 --> 00:15:03,680
+is called the special orthogonal group
+ 
+
+697
+00:15:03,680 --> 00:15:07,310
+is called the special orthogonal group
+SO3 where the word special means we're
+
+698
+00:15:07,310 --> 00:15:07,320
+SO3 where the word special means we're
+ 
+
+699
+00:15:07,320 --> 00:15:09,650
+SO3 where the word special means we're
+restricting ourselves to matrices with a
+
+700
+00:15:09,650 --> 00:15:09,660
+restricting ourselves to matrices with a
+ 
+
+701
+00:15:09,660 --> 00:15:12,470
+restricting ourselves to matrices with a
+determinant of plus one
+
+702
+00:15:12,470 --> 00:15:12,480
+determinant of plus one
+ 
+
+703
+00:15:12,480 --> 00:15:15,170
+determinant of plus one
+so we know that the special orthogonal
+
+704
+00:15:15,170 --> 00:15:15,180
+so we know that the special orthogonal
+ 
+
+705
+00:15:15,180 --> 00:15:18,650
+so we know that the special orthogonal
+3x3 matrices will perform rotations on
+
+706
+00:15:18,650 --> 00:15:18,660
+3x3 matrices will perform rotations on
+ 
+
+707
+00:15:18,660 --> 00:15:20,930
+3x3 matrices will perform rotations on
+3D vectors without changing their
+
+708
+00:15:20,930 --> 00:15:20,940
+3D vectors without changing their
+ 
+
+709
+00:15:20,940 --> 00:15:21,949
+3D vectors without changing their
+lengths
+
+710
+00:15:21,949 --> 00:15:21,959
+lengths
+ 
+
+711
+00:15:21,959 --> 00:15:24,050
+lengths
+now getting back to our sphere of
+
+712
+00:15:24,050 --> 00:15:24,060
+now getting back to our sphere of
+ 
+
+713
+00:15:24,060 --> 00:15:26,870
+now getting back to our sphere of
+polarizations we want to know what kind
+
+714
+00:15:26,870 --> 00:15:26,880
+polarizations we want to know what kind
+ 
+
+715
+00:15:26,880 --> 00:15:28,910
+polarizations we want to know what kind
+of matrices will rotate our Jones
+
+716
+00:15:28,910 --> 00:15:28,920
+of matrices will rotate our Jones
+ 
+
+717
+00:15:28,920 --> 00:15:31,550
+of matrices will rotate our Jones
+vectors around without changing their
+
+718
+00:15:31,550 --> 00:15:31,560
+vectors around without changing their
+ 
+
+719
+00:15:31,560 --> 00:15:33,110
+vectors around without changing their
+amplitudes
+
+720
+00:15:33,110 --> 00:15:33,120
+amplitudes
+ 
+
+721
+00:15:33,120 --> 00:15:35,810
+amplitudes
+this sounds similar to rotating 3D
+
+722
+00:15:35,810 --> 00:15:35,820
+this sounds similar to rotating 3D
+ 
+
+723
+00:15:35,820 --> 00:15:38,470
+this sounds similar to rotating 3D
+vectors but there's one key difference
+
+724
+00:15:38,470 --> 00:15:38,480
+vectors but there's one key difference
+ 
+
+725
+00:15:38,480 --> 00:15:41,090
+vectors but there's one key difference
+Jones vectors have complex number
+
+726
+00:15:41,090 --> 00:15:41,100
+Jones vectors have complex number
+ 
+
+727
+00:15:41,100 --> 00:15:44,569
+Jones vectors have complex number
+entries instead of real number entries
+
+728
+00:15:44,569 --> 00:15:44,579
+entries instead of real number entries
+ 
+
+729
+00:15:44,579 --> 00:15:47,750
+entries instead of real number entries
+if we have the complex number C equals
+
+730
+00:15:47,750 --> 00:15:47,760
+if we have the complex number C equals
+ 
+
+731
+00:15:47,760 --> 00:15:50,629
+if we have the complex number C equals
+three plus four I we don't get its
+
+732
+00:15:50,629 --> 00:15:50,639
+three plus four I we don't get its
+ 
+
+733
+00:15:50,639 --> 00:15:54,230
+three plus four I we don't get its
+squared magnitude by doing c times c as
+
+734
+00:15:54,230 --> 00:15:54,240
+squared magnitude by doing c times c as
+ 
+
+735
+00:15:54,240 --> 00:15:56,870
+squared magnitude by doing c times c as
+this gives us another complex number and
+
+736
+00:15:56,870 --> 00:15:56,880
+this gives us another complex number and
+ 
+
+737
+00:15:56,880 --> 00:15:59,210
+this gives us another complex number and
+magnitudes must be real
+
+738
+00:15:59,210 --> 00:15:59,220
+magnitudes must be real
+ 
+
+739
+00:15:59,220 --> 00:16:02,150
+magnitudes must be real
+instead the squared magnitude is given
+
+740
+00:16:02,150 --> 00:16:02,160
+instead the squared magnitude is given
+ 
+
+741
+00:16:02,160 --> 00:16:05,150
+instead the squared magnitude is given
+by c times the complex conjugate of CE
+
+742
+00:16:05,150 --> 00:16:05,160
+by c times the complex conjugate of CE
+ 
+
+743
+00:16:05,160 --> 00:16:08,269
+by c times the complex conjugate of CE
+which is denoted with this star and
+
+744
+00:16:08,269 --> 00:16:08,279
+which is denoted with this star and
+ 
+
+745
+00:16:08,279 --> 00:16:11,150
+which is denoted with this star and
+flips the sign of the imaginary part
+
+746
+00:16:11,150 --> 00:16:11,160
+flips the sign of the imaginary part
+ 
+
+747
+00:16:11,160 --> 00:16:13,790
+flips the sign of the imaginary part
+this results in the correct magnitude of
+
+748
+00:16:13,790 --> 00:16:13,800
+this results in the correct magnitude of
+ 
+
+749
+00:16:13,800 --> 00:16:16,970
+this results in the correct magnitude of
+C which is the real number five
+
+750
+00:16:16,970 --> 00:16:16,980
+C which is the real number five
+ 
+
+751
+00:16:16,980 --> 00:16:19,850
+C which is the real number five
+so when we want the squared magnitude of
+
+752
+00:16:19,850 --> 00:16:19,860
+so when we want the squared magnitude of
+ 
+
+753
+00:16:19,860 --> 00:16:22,910
+so when we want the squared magnitude of
+a complex Jones Vector J it's not enough
+
+754
+00:16:22,910 --> 00:16:22,920
+a complex Jones Vector J it's not enough
+ 
+
+755
+00:16:22,920 --> 00:16:26,030
+a complex Jones Vector J it's not enough
+to write J transpose J as this might
+
+756
+00:16:26,030 --> 00:16:26,040
+to write J transpose J as this might
+ 
+
+757
+00:16:26,040 --> 00:16:28,490
+to write J transpose J as this might
+give us a complex number result
+
+758
+00:16:28,490 --> 00:16:28,500
+give us a complex number result
+ 
+
+759
+00:16:28,500 --> 00:16:31,850
+give us a complex number result
+instead we write J transpose complex
+
+760
+00:16:31,850 --> 00:16:31,860
+instead we write J transpose complex
+ 
+
+761
+00:16:31,860 --> 00:16:34,970
+instead we write J transpose complex
+conjugate times J to get the correct
+
+762
+00:16:34,970 --> 00:16:34,980
+conjugate times J to get the correct
+ 
+
+763
+00:16:34,980 --> 00:16:36,710
+conjugate times J to get the correct
+squared magnitude
+
+764
+00:16:36,710 --> 00:16:36,720
+squared magnitude
+ 
+
+765
+00:16:36,720 --> 00:16:39,170
+squared magnitude
+this combination of transpose and
+
+766
+00:16:39,170 --> 00:16:39,180
+this combination of transpose and
+ 
+
+767
+00:16:39,180 --> 00:16:41,449
+this combination of transpose and
+complex conjugate is called the
+
+768
+00:16:41,449 --> 00:16:41,459
+complex conjugate is called the
+ 
+
+769
+00:16:41,459 --> 00:16:43,910
+complex conjugate is called the
+hermitian conjugate and is usually
+
+770
+00:16:43,910 --> 00:16:43,920
+hermitian conjugate and is usually
+ 
+
+771
+00:16:43,920 --> 00:16:47,150
+hermitian conjugate and is usually
+written with a single dagger symbol
+
+772
+00:16:47,150 --> 00:16:47,160
+written with a single dagger symbol
+ 
+
+773
+00:16:47,160 --> 00:16:49,490
+written with a single dagger symbol
+so to get to the squared magnitude of a
+
+774
+00:16:49,490 --> 00:16:49,500
+so to get to the squared magnitude of a
+ 
+
+775
+00:16:49,500 --> 00:16:53,150
+so to get to the squared magnitude of a
+Jones Vector we use J dagger J
+
+776
+00:16:53,150 --> 00:16:53,160
+Jones Vector we use J dagger J
+ 
+
+777
+00:16:53,160 --> 00:16:55,730
+Jones Vector we use J dagger J
+as an exercise you can check that each
+
+778
+00:16:55,730 --> 00:16:55,740
+as an exercise you can check that each
+ 
+
+779
+00:16:55,740 --> 00:16:58,189
+as an exercise you can check that each
+of these Jones vectors indeed has a
+
+780
+00:16:58,189 --> 00:16:58,199
+of these Jones vectors indeed has a
+ 
+
+781
+00:16:58,199 --> 00:17:00,470
+of these Jones vectors indeed has a
+magnitude of one
+
+782
+00:17:00,470 --> 00:17:00,480
+magnitude of one
+ 
+
+783
+00:17:00,480 --> 00:17:03,530
+magnitude of one
+so if we rotate a Jones Vector J around
+
+784
+00:17:03,530 --> 00:17:03,540
+so if we rotate a Jones Vector J around
+ 
+
+785
+00:17:03,540 --> 00:17:06,470
+so if we rotate a Jones Vector J around
+with a matrix U the result of the
+
+786
+00:17:06,470 --> 00:17:06,480
+with a matrix U the result of the
+ 
+
+787
+00:17:06,480 --> 00:17:08,510
+with a matrix U the result of the
+magnitude formula should stay the same
+
+788
+00:17:08,510 --> 00:17:08,520
+magnitude formula should stay the same
+ 
+
+789
+00:17:08,520 --> 00:17:11,630
+magnitude formula should stay the same
+so these two formulas are equal
+
+790
+00:17:11,630 --> 00:17:11,640
+so these two formulas are equal
+ 
+
+791
+00:17:11,640 --> 00:17:15,289
+so these two formulas are equal
+rewriting u j all daggered as J dagger
+
+792
+00:17:15,289 --> 00:17:15,299
+rewriting u j all daggered as J dagger
+ 
+
+793
+00:17:15,299 --> 00:17:17,630
+rewriting u j all daggered as J dagger
+you dagger we see that our rotation
+
+794
+00:17:17,630 --> 00:17:17,640
+you dagger we see that our rotation
+ 
+
+795
+00:17:17,640 --> 00:17:21,650
+you dagger we see that our rotation
+Matrix U must obey U dagger U equals the
+
+796
+00:17:21,650 --> 00:17:21,660
+Matrix U must obey U dagger U equals the
+ 
+
+797
+00:17:21,660 --> 00:17:25,250
+Matrix U must obey U dagger U equals the
+identity in other words U inverse equals
+
+798
+00:17:25,250 --> 00:17:25,260
+identity in other words U inverse equals
+ 
+
+799
+00:17:25,260 --> 00:17:28,189
+identity in other words U inverse equals
+its complex conjugate transpose
+
+800
+00:17:28,189 --> 00:17:28,199
+its complex conjugate transpose
+ 
+
+801
+00:17:28,199 --> 00:17:30,730
+its complex conjugate transpose
+we call matrices with this property
+
+802
+00:17:30,730 --> 00:17:30,740
+we call matrices with this property
+ 
+
+803
+00:17:30,740 --> 00:17:33,650
+we call matrices with this property
+unitary they are sort of like the
+
+804
+00:17:33,650 --> 00:17:33,660
+unitary they are sort of like the
+ 
+
+805
+00:17:33,660 --> 00:17:36,049
+unitary they are sort of like the
+complex number equivalent of orthogonal
+
+806
+00:17:36,049 --> 00:17:36,059
+complex number equivalent of orthogonal
+ 
+
+807
+00:17:36,059 --> 00:17:38,750
+complex number equivalent of orthogonal
+matrices since they rotate complex
+
+808
+00:17:38,750 --> 00:17:38,760
+matrices since they rotate complex
+ 
+
+809
+00:17:38,760 --> 00:17:40,669
+matrices since they rotate complex
+vectors around without changing their
+
+810
+00:17:40,669 --> 00:17:40,679
+vectors around without changing their
+ 
+
+811
+00:17:40,679 --> 00:17:42,169
+vectors around without changing their
+magnitude
+
+812
+00:17:42,169 --> 00:17:42,179
+magnitude
+ 
+
+813
+00:17:42,179 --> 00:17:44,930
+magnitude
+the group of two by two unitary matrices
+
+814
+00:17:44,930 --> 00:17:44,940
+the group of two by two unitary matrices
+ 
+
+815
+00:17:44,940 --> 00:17:48,350
+the group of two by two unitary matrices
+is called U2 and another good exercise
+
+816
+00:17:48,350 --> 00:17:48,360
+is called U2 and another good exercise
+ 
+
+817
+00:17:48,360 --> 00:17:51,529
+is called U2 and another good exercise
+to try is to pause the video and confirm
+
+818
+00:17:51,529 --> 00:17:51,539
+to try is to pause the video and confirm
+ 
+
+819
+00:17:51,539 --> 00:17:53,330
+to try is to pause the video and confirm
+you can get to the inverse of all of
+
+820
+00:17:53,330 --> 00:17:53,340
+you can get to the inverse of all of
+ 
+
+821
+00:17:53,340 --> 00:17:55,789
+you can get to the inverse of all of
+these matrices by taking their complex
+
+822
+00:17:55,789 --> 00:17:55,799
+these matrices by taking their complex
+ 
+
+823
+00:17:55,799 --> 00:17:57,770
+these matrices by taking their complex
+transpose
+
+824
+00:17:57,770 --> 00:17:57,780
+transpose
+ 
+
+825
+00:17:57,780 --> 00:18:00,110
+transpose
+taking the determinant of this formula
+
+826
+00:18:00,110 --> 00:18:00,120
+taking the determinant of this formula
+ 
+
+827
+00:18:00,120 --> 00:18:03,169
+taking the determinant of this formula
+for U2 matrices we get that the squared
+
+828
+00:18:03,169 --> 00:18:03,179
+for U2 matrices we get that the squared
+ 
+
+829
+00:18:03,179 --> 00:18:05,950
+for U2 matrices we get that the squared
+magnitude of the determinant must be one
+
+830
+00:18:05,950 --> 00:18:05,960
+magnitude of the determinant must be one
+ 
+
+831
+00:18:05,960 --> 00:18:09,169
+magnitude of the determinant must be one
+but since the determinant of U is a
+
+832
+00:18:09,169 --> 00:18:09,179
+but since the determinant of U is a
+ 
+
+833
+00:18:09,179 --> 00:18:11,570
+but since the determinant of U is a
+complex number the answer isn't just
+
+834
+00:18:11,570 --> 00:18:11,580
+complex number the answer isn't just
+ 
+
+835
+00:18:11,580 --> 00:18:14,990
+complex number the answer isn't just
+plus or minus one instead the answer can
+
+836
+00:18:14,990 --> 00:18:15,000
+plus or minus one instead the answer can
+ 
+
+837
+00:18:15,000 --> 00:18:17,630
+plus or minus one instead the answer can
+be any complex number on the unit circle
+
+838
+00:18:17,630 --> 00:18:17,640
+be any complex number on the unit circle
+ 
+
+839
+00:18:17,640 --> 00:18:20,450
+be any complex number on the unit circle
+with magnitude one and this can be
+
+840
+00:18:20,450 --> 00:18:20,460
+with magnitude one and this can be
+ 
+
+841
+00:18:20,460 --> 00:18:22,789
+with magnitude one and this can be
+written in the form of e to the I times
+
+842
+00:18:22,789 --> 00:18:22,799
+written in the form of e to the I times
+ 
+
+843
+00:18:22,799 --> 00:18:24,230
+written in the form of e to the I times
+Theta
+
+844
+00:18:24,230 --> 00:18:24,240
+Theta
+ 
+
+845
+00:18:24,240 --> 00:18:27,409
+Theta
+we can check its magnitude is 1 by
+
+846
+00:18:27,409 --> 00:18:27,419
+we can check its magnitude is 1 by
+ 
+
+847
+00:18:27,419 --> 00:18:29,930
+we can check its magnitude is 1 by
+multiplying it by its complex conjugate
+
+848
+00:18:29,930 --> 00:18:29,940
+multiplying it by its complex conjugate
+ 
+
+849
+00:18:29,940 --> 00:18:33,470
+multiplying it by its complex conjugate
+and canceling the exponents
+
+850
+00:18:33,470 --> 00:18:33,480
+and canceling the exponents
+ 
+
+851
+00:18:33,480 --> 00:18:36,830
+and canceling the exponents
+so we know that U2 matrices can rotate
+
+852
+00:18:36,830 --> 00:18:36,840
+so we know that U2 matrices can rotate
+ 
+
+853
+00:18:36,840 --> 00:18:39,230
+so we know that U2 matrices can rotate
+our Jones vectors on the point array
+
+854
+00:18:39,230 --> 00:18:39,240
+our Jones vectors on the point array
+ 
+
+855
+00:18:39,240 --> 00:18:41,990
+our Jones vectors on the point array
+sphere but once again there's something
+
+856
+00:18:41,990 --> 00:18:42,000
+sphere but once again there's something
+ 
+
+857
+00:18:42,000 --> 00:18:45,650
+sphere but once again there's something
+we've missed recall that any two Jones
+
+858
+00:18:45,650 --> 00:18:45,660
+we've missed recall that any two Jones
+ 
+
+859
+00:18:45,660 --> 00:18:48,289
+we've missed recall that any two Jones
+vectors that are the same but with a
+
+860
+00:18:48,289 --> 00:18:48,299
+vectors that are the same but with a
+ 
+
+861
+00:18:48,299 --> 00:18:49,930
+vectors that are the same but with a
+different phase factor in front
+
+862
+00:18:49,930 --> 00:18:49,940
+different phase factor in front
+ 
+
+863
+00:18:49,940 --> 00:18:53,029
+different phase factor in front
+represents the same polarization
+
+864
+00:18:53,029 --> 00:18:53,039
+represents the same polarization
+ 
+
+865
+00:18:53,039 --> 00:18:56,090
+represents the same polarization
+for example each of these Jones vectors
+
+866
+00:18:56,090 --> 00:18:56,100
+for example each of these Jones vectors
+ 
+
+867
+00:18:56,100 --> 00:18:58,730
+for example each of these Jones vectors
+represents a left circularly polarized
+
+868
+00:18:58,730 --> 00:18:58,740
+represents a left circularly polarized
+ 
+
+869
+00:18:58,740 --> 00:18:59,750
+represents a left circularly polarized
+wave
+
+870
+00:18:59,750 --> 00:18:59,760
+wave
+ 
+
+871
+00:18:59,760 --> 00:19:02,570
+wave
+this means that if we want to turn a
+
+872
+00:19:02,570 --> 00:19:02,580
+this means that if we want to turn a
+ 
+
+873
+00:19:02,580 --> 00:19:05,029
+this means that if we want to turn a
+diagonally polarized wave into a left
+
+874
+00:19:05,029 --> 00:19:05,039
+diagonally polarized wave into a left
+ 
+
+875
+00:19:05,039 --> 00:19:07,850
+diagonally polarized wave into a left
+circularly polarized wave there are
+
+876
+00:19:07,850 --> 00:19:07,860
+circularly polarized wave there are
+ 
+
+877
+00:19:07,860 --> 00:19:10,690
+circularly polarized wave there are
+multiple U2 matrices that can do this
+
+878
+00:19:10,690 --> 00:19:10,700
+multiple U2 matrices that can do this
+ 
+
+879
+00:19:10,700 --> 00:19:13,970
+multiple U2 matrices that can do this
+all identical but with a different phase
+
+880
+00:19:13,970 --> 00:19:13,980
+all identical but with a different phase
+ 
+
+881
+00:19:13,980 --> 00:19:16,730
+all identical but with a different phase
+factor in front because we can ignore
+
+882
+00:19:16,730 --> 00:19:16,740
+factor in front because we can ignore
+ 
+
+883
+00:19:16,740 --> 00:19:18,710
+factor in front because we can ignore
+the phase factor and the final result
+
+884
+00:19:18,710 --> 00:19:18,720
+the phase factor and the final result
+ 
+
+885
+00:19:18,720 --> 00:19:20,450
+the phase factor and the final result
+anyway
+
+886
+00:19:20,450 --> 00:19:20,460
+anyway
+ 
+
+887
+00:19:20,460 --> 00:19:23,510
+anyway
+so the group of U2 matrices has some
+
+888
+00:19:23,510 --> 00:19:23,520
+so the group of U2 matrices has some
+ 
+
+889
+00:19:23,520 --> 00:19:26,330
+so the group of U2 matrices has some
+redundancy given by this phase factor
+
+890
+00:19:26,330 --> 00:19:26,340
+redundancy given by this phase factor
+ 
+
+891
+00:19:26,340 --> 00:19:27,830
+redundancy given by this phase factor
+out in front
+
+892
+00:19:27,830 --> 00:19:27,840
+out in front
+ 
+
+893
+00:19:27,840 --> 00:19:30,529
+out in front
+however it's possible to pick out a
+
+894
+00:19:30,529 --> 00:19:30,539
+however it's possible to pick out a
+ 
+
+895
+00:19:30,539 --> 00:19:33,950
+however it's possible to pick out a
+unique U2 Matrix that takes us between a
+
+896
+00:19:33,950 --> 00:19:33,960
+unique U2 Matrix that takes us between a
+ 
+
+897
+00:19:33,960 --> 00:19:36,230
+unique U2 Matrix that takes us between a
+specific initial and a specific final
+
+898
+00:19:36,230 --> 00:19:36,240
+specific initial and a specific final
+ 
+
+899
+00:19:36,240 --> 00:19:39,710
+specific initial and a specific final
+polarization all we need to do is to
+
+900
+00:19:39,710 --> 00:19:39,720
+polarization all we need to do is to
+ 
+
+901
+00:19:39,720 --> 00:19:42,590
+polarization all we need to do is to
+find the specific U2 Matrix that has a
+
+902
+00:19:42,590 --> 00:19:42,600
+find the specific U2 Matrix that has a
+ 
+
+903
+00:19:42,600 --> 00:19:45,590
+find the specific U2 Matrix that has a
+determinant of plus one
+
+904
+00:19:45,590 --> 00:19:45,600
+determinant of plus one
+ 
+
+905
+00:19:45,600 --> 00:19:48,710
+determinant of plus one
+so if we have some U2 Matrix with a
+
+906
+00:19:48,710 --> 00:19:48,720
+so if we have some U2 Matrix with a
+ 
+
+907
+00:19:48,720 --> 00:19:50,570
+so if we have some U2 Matrix with a
+determinant that's equal to a complex
+
+908
+00:19:50,570 --> 00:19:50,580
+determinant that's equal to a complex
+ 
+
+909
+00:19:50,580 --> 00:19:53,930
+determinant that's equal to a complex
+number e to the I Theta we can convert
+
+910
+00:19:53,930 --> 00:19:53,940
+number e to the I Theta we can convert
+ 
+
+911
+00:19:53,940 --> 00:19:56,510
+number e to the I Theta we can convert
+it into an equivalent Matrix with a
+
+912
+00:19:56,510 --> 00:19:56,520
+it into an equivalent Matrix with a
+ 
+
+913
+00:19:56,520 --> 00:19:59,390
+it into an equivalent Matrix with a
+determinant of plus one by following the
+
+914
+00:19:59,390 --> 00:19:59,400
+determinant of plus one by following the
+ 
+
+915
+00:19:59,400 --> 00:20:01,070
+determinant of plus one by following the
+below procedure
+
+916
+00:20:01,070 --> 00:20:01,080
+below procedure
+ 
+
+917
+00:20:01,080 --> 00:20:03,529
+below procedure
+we just multiply all the elements of the
+
+918
+00:20:03,529 --> 00:20:03,539
+we just multiply all the elements of the
+ 
+
+919
+00:20:03,539 --> 00:20:06,289
+we just multiply all the elements of the
+matrix by e to the negative I Theta over
+
+920
+00:20:06,289 --> 00:20:06,299
+matrix by e to the negative I Theta over
+ 
+
+921
+00:20:06,299 --> 00:20:07,490
+matrix by e to the negative I Theta over
+two
+
+922
+00:20:07,490 --> 00:20:07,500
+two
+ 
+
+923
+00:20:07,500 --> 00:20:10,010
+two
+after taking the determinant combining
+
+924
+00:20:10,010 --> 00:20:10,020
+after taking the determinant combining
+ 
+
+925
+00:20:10,020 --> 00:20:12,770
+after taking the determinant combining
+the exponents and factoring these
+
+926
+00:20:12,770 --> 00:20:12,780
+the exponents and factoring these
+ 
+
+927
+00:20:12,780 --> 00:20:14,810
+the exponents and factoring these
+exponentials cancel and we get a
+
+928
+00:20:14,810 --> 00:20:14,820
+exponentials cancel and we get a
+ 
+
+929
+00:20:14,820 --> 00:20:17,450
+exponentials cancel and we get a
+determinant of plus one
+
+930
+00:20:17,450 --> 00:20:17,460
+determinant of plus one
+ 
+
+931
+00:20:17,460 --> 00:20:20,270
+determinant of plus one
+this multiplicative phase Factor doesn't
+
+932
+00:20:20,270 --> 00:20:20,280
+this multiplicative phase Factor doesn't
+ 
+
+933
+00:20:20,280 --> 00:20:22,490
+this multiplicative phase Factor doesn't
+affect the polarization of our Jones
+
+934
+00:20:22,490 --> 00:20:22,500
+affect the polarization of our Jones
+ 
+
+935
+00:20:22,500 --> 00:20:25,250
+affect the polarization of our Jones
+vectors since we can ignore overall
+
+936
+00:20:25,250 --> 00:20:25,260
+vectors since we can ignore overall
+ 
+
+937
+00:20:25,260 --> 00:20:28,070
+vectors since we can ignore overall
+phase factors anyway
+
+938
+00:20:28,070 --> 00:20:28,080
+phase factors anyway
+ 
+
+939
+00:20:28,080 --> 00:20:31,130
+phase factors anyway
+the set of two by two unitary matrices
+
+940
+00:20:31,130 --> 00:20:31,140
+the set of two by two unitary matrices
+ 
+
+941
+00:20:31,140 --> 00:20:34,430
+the set of two by two unitary matrices
+with a determinant equal to plus one is
+
+942
+00:20:34,430 --> 00:20:34,440
+with a determinant equal to plus one is
+ 
+
+943
+00:20:34,440 --> 00:20:37,970
+with a determinant equal to plus one is
+called su2 the special unitary group of
+
+944
+00:20:37,970 --> 00:20:37,980
+called su2 the special unitary group of
+ 
+
+945
+00:20:37,980 --> 00:20:40,970
+called su2 the special unitary group of
+two by two matrices this is the set of
+
+946
+00:20:40,970 --> 00:20:40,980
+two by two matrices this is the set of
+ 
+
+947
+00:20:40,980 --> 00:20:43,370
+two by two matrices this is the set of
+matrices that rotate our Jones vectors
+
+948
+00:20:43,370 --> 00:20:43,380
+matrices that rotate our Jones vectors
+ 
+
+949
+00:20:43,380 --> 00:20:47,210
+matrices that rotate our Jones vectors
+around on this sphere of polarizations
+
+950
+00:20:47,210 --> 00:20:47,220
+around on this sphere of polarizations
+ 
+
+951
+00:20:47,220 --> 00:20:49,730
+around on this sphere of polarizations
+again the word special means the
+
+952
+00:20:49,730 --> 00:20:49,740
+again the word special means the
+ 
+
+953
+00:20:49,740 --> 00:20:52,070
+again the word special means the
+matrices that have a determinant of plus
+
+954
+00:20:52,070 --> 00:20:52,080
+matrices that have a determinant of plus
+ 
+
+955
+00:20:52,080 --> 00:20:53,330
+matrices that have a determinant of plus
+one
+
+956
+00:20:53,330 --> 00:20:53,340
+one
+ 
+
+957
+00:20:53,340 --> 00:20:56,029
+one
+we'll finish this video by explaining
+
+958
+00:20:56,029 --> 00:20:56,039
+we'll finish this video by explaining
+ 
+
+959
+00:20:56,039 --> 00:20:58,669
+we'll finish this video by explaining
+why these Jones vectors are considered
+
+960
+00:20:58,669 --> 00:20:58,679
+why these Jones vectors are considered
+ 
+
+961
+00:20:58,679 --> 00:20:59,810
+why these Jones vectors are considered
+spinners
+
+962
+00:20:59,810 --> 00:20:59,820
+spinners
+ 
+
+963
+00:20:59,820 --> 00:21:02,630
+spinners
+notice that in physical space vertical
+
+964
+00:21:02,630 --> 00:21:02,640
+notice that in physical space vertical
+ 
+
+965
+00:21:02,640 --> 00:21:05,450
+notice that in physical space vertical
+and horizontal polarizations are angled
+
+966
+00:21:05,450 --> 00:21:05,460
+and horizontal polarizations are angled
+ 
+
+967
+00:21:05,460 --> 00:21:08,630
+and horizontal polarizations are angled
+90 degrees apart but on the sphere of
+
+968
+00:21:08,630 --> 00:21:08,640
+90 degrees apart but on the sphere of
+ 
+
+969
+00:21:08,640 --> 00:21:11,630
+90 degrees apart but on the sphere of
+polarizations we've created the hnv
+
+970
+00:21:11,630 --> 00:21:11,640
+polarizations we've created the hnv
+ 
+
+971
+00:21:11,640 --> 00:21:15,529
+polarizations we've created the hnv
+polarizations are on opposite sides 180
+
+972
+00:21:15,529 --> 00:21:15,539
+polarizations are on opposite sides 180
+ 
+
+973
+00:21:15,539 --> 00:21:17,270
+polarizations are on opposite sides 180
+degrees apart
+
+974
+00:21:17,270 --> 00:21:17,280
+degrees apart
+ 
+
+975
+00:21:17,280 --> 00:21:19,690
+degrees apart
+so a quarter turn in physical space
+
+976
+00:21:19,690 --> 00:21:19,700
+so a quarter turn in physical space
+ 
+
+977
+00:21:19,700 --> 00:21:22,250
+so a quarter turn in physical space
+corresponds to a half turn in
+
+978
+00:21:22,250 --> 00:21:22,260
+corresponds to a half turn in
+ 
+
+979
+00:21:22,260 --> 00:21:24,770
+corresponds to a half turn in
+polarization space
+
+980
+00:21:24,770 --> 00:21:24,780
+polarization space
+ 
+
+981
+00:21:24,780 --> 00:21:26,930
+polarization space
+if we do another quarter turn in
+
+982
+00:21:26,930 --> 00:21:26,940
+if we do another quarter turn in
+ 
+
+983
+00:21:26,940 --> 00:21:29,690
+if we do another quarter turn in
+physical space we end up at the negative
+
+984
+00:21:29,690 --> 00:21:29,700
+physical space we end up at the negative
+ 
+
+985
+00:21:29,700 --> 00:21:32,510
+physical space we end up at the negative
+vertical polarization where the negative
+
+986
+00:21:32,510 --> 00:21:32,520
+vertical polarization where the negative
+ 
+
+987
+00:21:32,520 --> 00:21:34,789
+vertical polarization where the negative
+sign indicates the wave has an extra
+
+988
+00:21:34,789 --> 00:21:34,799
+sign indicates the wave has an extra
+ 
+
+989
+00:21:34,799 --> 00:21:37,549
+sign indicates the wave has an extra
+phase of half a cycle compared to the
+
+990
+00:21:37,549 --> 00:21:37,559
+phase of half a cycle compared to the
+ 
+
+991
+00:21:37,559 --> 00:21:39,289
+phase of half a cycle compared to the
+starting wave
+
+992
+00:21:39,289 --> 00:21:39,299
+starting wave
+ 
+
+993
+00:21:39,299 --> 00:21:41,990
+starting wave
+but in polarization space we've done
+
+994
+00:21:41,990 --> 00:21:42,000
+but in polarization space we've done
+ 
+
+995
+00:21:42,000 --> 00:21:44,570
+but in polarization space we've done
+another half turn and completed a full
+
+996
+00:21:44,570 --> 00:21:44,580
+another half turn and completed a full
+ 
+
+997
+00:21:44,580 --> 00:21:47,930
+another half turn and completed a full
+loop and are back to where we started
+
+998
+00:21:47,930 --> 00:21:47,940
+loop and are back to where we started
+ 
+
+999
+00:21:47,940 --> 00:21:50,870
+loop and are back to where we started
+when it comes to polarizations there is
+
+1000
+00:21:50,870 --> 00:21:50,880
+when it comes to polarizations there is
+ 
+
+1001
+00:21:50,880 --> 00:21:52,370
+when it comes to polarizations there is
+no difference between a vertical
+
+1002
+00:21:52,370 --> 00:21:52,380
+no difference between a vertical
+ 
+
+1003
+00:21:52,380 --> 00:21:54,830
+no difference between a vertical
+polarization with a positive sign in
+
+1004
+00:21:54,830 --> 00:21:54,840
+polarization with a positive sign in
+ 
+
+1005
+00:21:54,840 --> 00:21:57,649
+polarization with a positive sign in
+front and a vertical polarization with a
+
+1006
+00:21:57,649 --> 00:21:57,659
+front and a vertical polarization with a
+ 
+
+1007
+00:21:57,659 --> 00:21:59,450
+front and a vertical polarization with a
+negative sign in front
+
+1008
+00:21:59,450 --> 00:21:59,460
+negative sign in front
+ 
+
+1009
+00:21:59,460 --> 00:22:01,909
+negative sign in front
+the overall phase shift doesn't matter
+
+1010
+00:22:01,909 --> 00:22:01,919
+the overall phase shift doesn't matter
+ 
+
+1011
+00:22:01,919 --> 00:22:04,010
+the overall phase shift doesn't matter
+and both are considered vertical
+
+1012
+00:22:04,010 --> 00:22:04,020
+and both are considered vertical
+ 
+
+1013
+00:22:04,020 --> 00:22:06,289
+and both are considered vertical
+polarizations
+
+1014
+00:22:06,289 --> 00:22:06,299
+polarizations
+ 
+
+1015
+00:22:06,299 --> 00:22:09,289
+polarizations
+since wave polarizations are unchanged
+
+1016
+00:22:09,289 --> 00:22:09,299
+since wave polarizations are unchanged
+ 
+
+1017
+00:22:09,299 --> 00:22:11,810
+since wave polarizations are unchanged
+by an overall phase shift the Jones
+
+1018
+00:22:11,810 --> 00:22:11,820
+by an overall phase shift the Jones
+ 
+
+1019
+00:22:11,820 --> 00:22:14,750
+by an overall phase shift the Jones
+vectors in our polarization space are
+
+1020
+00:22:14,750 --> 00:22:14,760
+vectors in our polarization space are
+ 
+
+1021
+00:22:14,760 --> 00:22:16,850
+vectors in our polarization space are
+unable to see the negative sign in front
+
+1022
+00:22:16,850 --> 00:22:16,860
+unable to see the negative sign in front
+ 
+
+1023
+00:22:16,860 --> 00:22:18,049
+unable to see the negative sign in front
+of the wave
+
+1024
+00:22:18,049 --> 00:22:18,059
+of the wave
+ 
+
+1025
+00:22:18,059 --> 00:22:20,510
+of the wave
+all it sees is a vertically polarized
+
+1026
+00:22:20,510 --> 00:22:20,520
+all it sees is a vertically polarized
+ 
+
+1027
+00:22:20,520 --> 00:22:22,310
+all it sees is a vertically polarized
+wave
+
+1028
+00:22:22,310 --> 00:22:22,320
+wave
+ 
+
+1029
+00:22:22,320 --> 00:22:24,710
+wave
+to get back to the original wave we do
+
+1030
+00:22:24,710 --> 00:22:24,720
+to get back to the original wave we do
+ 
+
+1031
+00:22:24,720 --> 00:22:26,990
+to get back to the original wave we do
+another half turn in physical space
+
+1032
+00:22:26,990 --> 00:22:27,000
+another half turn in physical space
+ 
+
+1033
+00:22:27,000 --> 00:22:29,690
+another half turn in physical space
+which corresponds to another full turn
+
+1034
+00:22:29,690 --> 00:22:29,700
+which corresponds to another full turn
+ 
+
+1035
+00:22:29,700 --> 00:22:32,630
+which corresponds to another full turn
+in the polarization space
+
+1036
+00:22:32,630 --> 00:22:32,640
+in the polarization space
+ 
+
+1037
+00:22:32,640 --> 00:22:34,990
+in the polarization space
+so a full turn in physical space
+
+1038
+00:22:34,990 --> 00:22:35,000
+so a full turn in physical space
+ 
+
+1039
+00:22:35,000 --> 00:22:37,970
+so a full turn in physical space
+requires two full turns in polarization
+
+1040
+00:22:37,970 --> 00:22:37,980
+requires two full turns in polarization
+ 
+
+1041
+00:22:37,980 --> 00:22:39,049
+requires two full turns in polarization
+space
+
+1042
+00:22:39,049 --> 00:22:39,059
+space
+ 
+
+1043
+00:22:39,059 --> 00:22:41,750
+space
+this is why Jones vectors are considered
+
+1044
+00:22:41,750 --> 00:22:41,760
+this is why Jones vectors are considered
+ 
+
+1045
+00:22:41,760 --> 00:22:44,750
+this is why Jones vectors are considered
+Spinners rotating a wave back to its
+
+1046
+00:22:44,750 --> 00:22:44,760
+Spinners rotating a wave back to its
+ 
+
+1047
+00:22:44,760 --> 00:22:47,029
+Spinners rotating a wave back to its
+original state requires two full
+
+1048
+00:22:47,029 --> 00:22:47,039
+original state requires two full
+ 
+
+1049
+00:22:47,039 --> 00:22:49,610
+original state requires two full
+rotations of the Jones Vector in
+
+1050
+00:22:49,610 --> 00:22:49,620
+rotations of the Jones Vector in
+ 
+
+1051
+00:22:49,620 --> 00:22:52,549
+rotations of the Jones Vector in
+polarization space
+
+1052
+00:22:52,549 --> 00:22:52,559
+polarization space
+ 
+
+1053
+00:22:52,559 --> 00:22:55,909
+polarization space
+so when we rotate by an angle Theta in
+
+1054
+00:22:55,909 --> 00:22:55,919
+so when we rotate by an angle Theta in
+ 
+
+1055
+00:22:55,919 --> 00:22:59,090
+so when we rotate by an angle Theta in
+polarization space this corresponds to a
+
+1056
+00:22:59,090 --> 00:22:59,100
+polarization space this corresponds to a
+ 
+
+1057
+00:22:59,100 --> 00:23:02,690
+polarization space this corresponds to a
+rotation by an angle of theta over 2 in
+
+1058
+00:23:02,690 --> 00:23:02,700
+rotation by an angle of theta over 2 in
+ 
+
+1059
+00:23:02,700 --> 00:23:04,430
+rotation by an angle of theta over 2 in
+physical space
+
+1060
+00:23:04,430 --> 00:23:04,440
+physical space
+ 
+
+1061
+00:23:04,440 --> 00:23:07,070
+physical space
+for this reason you will often see the
+
+1062
+00:23:07,070 --> 00:23:07,080
+for this reason you will often see the
+ 
+
+1063
+00:23:07,080 --> 00:23:09,950
+for this reason you will often see the
+su2 matrices that are used to rotate
+
+1064
+00:23:09,950 --> 00:23:09,960
+su2 matrices that are used to rotate
+ 
+
+1065
+00:23:09,960 --> 00:23:12,890
+su2 matrices that are used to rotate
+Jones vectors written with half angles
+
+1066
+00:23:12,890 --> 00:23:12,900
+Jones vectors written with half angles
+ 
+
+1067
+00:23:12,900 --> 00:23:15,950
+Jones vectors written with half angles
+like this because when we want to rotate
+
+1068
+00:23:15,950 --> 00:23:15,960
+like this because when we want to rotate
+ 
+
+1069
+00:23:15,960 --> 00:23:19,190
+like this because when we want to rotate
+by an angle of Pi in polarization space
+
+1070
+00:23:19,190 --> 00:23:19,200
+by an angle of Pi in polarization space
+ 
+
+1071
+00:23:19,200 --> 00:23:21,890
+by an angle of Pi in polarization space
+this corresponds to rotating our Jones
+
+1072
+00:23:21,890 --> 00:23:21,900
+this corresponds to rotating our Jones
+ 
+
+1073
+00:23:21,900 --> 00:23:25,070
+this corresponds to rotating our Jones
+Vector components by an angle of pi over
+
+1074
+00:23:25,070 --> 00:23:25,080
+Vector components by an angle of pi over
+ 
+
+1075
+00:23:25,080 --> 00:23:26,330
+Vector components by an angle of pi over
+2.
+
+1076
+00:23:26,330 --> 00:23:26,340
+2.
+ 
+
+1077
+00:23:26,340 --> 00:23:28,070
+2.
+this is how we get from the V
+
+1078
+00:23:28,070 --> 00:23:28,080
+this is how we get from the V
+ 
+
+1079
+00:23:28,080 --> 00:23:32,690
+this is how we get from the V
+polarization to the H polarization
+
+1080
+00:23:32,690 --> 00:23:32,700
+polarization to the H polarization
+ 
+
+1081
+00:23:32,700 --> 00:23:34,909
+polarization to the H polarization
+in the next video we're going to learn
+
+1082
+00:23:34,909 --> 00:23:34,919
+in the next video we're going to learn
+ 
+
+1083
+00:23:34,919 --> 00:23:37,430
+in the next video we're going to learn
+about Quantum spin States and how they
+
+1084
+00:23:37,430 --> 00:23:37,440
+about Quantum spin States and how they
+ 
+
+1085
+00:23:37,440 --> 00:23:39,830
+about Quantum spin States and how they
+are also described by Spinners that
+
+1086
+00:23:39,830 --> 00:23:39,840
+are also described by Spinners that
+ 
+
+1087
+00:23:39,840 --> 00:23:43,190
+are also described by Spinners that
+transform with su2 matrices even though
+
+1088
+00:23:43,190 --> 00:23:43,200
+transform with su2 matrices even though
+ 
+
+1089
+00:23:43,200 --> 00:23:45,110
+transform with su2 matrices even though
+this is a different physical phenomenon
+
+1090
+00:23:45,110 --> 00:23:45,120
+this is a different physical phenomenon
+ 
+
+1091
+00:23:45,120 --> 00:23:47,390
+this is a different physical phenomenon
+we'll find that the mathematics of
+
+1092
+00:23:47,390 --> 00:23:47,400
+we'll find that the mathematics of
+ 
+
+1093
+00:23:47,400 --> 00:23:50,270
+we'll find that the mathematics of
+analyzing Quantum spin States is almost
+
+1094
+00:23:50,270 --> 00:23:50,280
+analyzing Quantum spin States is almost
+ 
+
+1095
+00:23:50,280 --> 00:23:52,789
+analyzing Quantum spin States is almost
+the exact same as the math required for
+
+1096
+00:23:52,789 --> 00:23:52,799
+the exact same as the math required for
+ 
+
+1097
+00:23:52,799 --> 00:23:55,909
+the exact same as the math required for
+analyzing polarizations of light waves
+
+1098
+00:23:55,909 --> 00:23:55,919
+analyzing polarizations of light waves
+ 
+
+1099
+00:23:55,919 --> 00:23:58,190
+analyzing polarizations of light waves
+this will show us that Spinners are
+
+1100
+00:23:58,190 --> 00:23:58,200
+this will show us that Spinners are
+ 
+
+1101
+00:23:58,200 --> 00:24:00,590
+this will show us that Spinners are
+indeed useful tools that can solve
+
+1102
+00:24:00,590 --> 00:24:00,600
+indeed useful tools that can solve
+ 
+
+1103
+00:24:00,600 --> 00:24:02,690
+indeed useful tools that can solve
+multiple problems
+
+1104
+00:24:02,690 --> 00:24:02,700
+multiple problems
+ 
+
+1105
+00:24:02,700 --> 00:24:04,549
+multiple problems
+if you're interested in doing one last
+
+1106
+00:24:04,549 --> 00:24:04,559
+if you're interested in doing one last
+ 
+
+1107
+00:24:04,559 --> 00:24:07,370
+if you're interested in doing one last
+exercise you can try rotating this Jones
+
+1108
+00:24:07,370 --> 00:24:07,380
+exercise you can try rotating this Jones
+ 
+
+1109
+00:24:07,380 --> 00:24:10,310
+exercise you can try rotating this Jones
+Vector around this path using these
+
+1110
+00:24:10,310 --> 00:24:10,320
+Vector around this path using these
+ 
+
+1111
+00:24:10,320 --> 00:24:12,710
+Vector around this path using these
+matrices and checking if the final
+
+1112
+00:24:12,710 --> 00:24:12,720
+matrices and checking if the final
+ 
+
+1113
+00:24:12,720 --> 00:24:16,039
+matrices and checking if the final
+result makes sense
+

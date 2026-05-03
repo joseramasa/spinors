@@ -1,0 +1,10575 @@
+1
+00:00:00,060 --> 00:00:02,030
+
+in this video we're going to continue
+
+2
+00:00:02,030 --> 00:00:02,040
+in this video we're going to continue
+ 
+
+3
+00:00:02,040 --> 00:00:04,490
+in this video we're going to continue
+using Clifford algebras to generalize
+
+4
+00:00:04,490 --> 00:00:04,500
+using Clifford algebras to generalize
+ 
+
+5
+00:00:04,500 --> 00:00:07,070
+using Clifford algebras to generalize
+the complex numbers and quaternions to
+
+6
+00:00:07,070 --> 00:00:07,080
+the complex numbers and quaternions to
+ 
+
+7
+00:00:07,080 --> 00:00:09,770
+the complex numbers and quaternions to
+spin groups which help us do rotations
+
+8
+00:00:09,770 --> 00:00:09,780
+spin groups which help us do rotations
+ 
+
+9
+00:00:09,780 --> 00:00:11,629
+spin groups which help us do rotations
+in any dimension
+
+10
+00:00:11,629 --> 00:00:11,639
+in any dimension
+ 
+
+11
+00:00:11,639 --> 00:00:14,030
+in any dimension
+the unit length complex numbers are
+
+12
+00:00:14,030 --> 00:00:14,040
+the unit length complex numbers are
+ 
+
+13
+00:00:14,040 --> 00:00:16,609
+the unit length complex numbers are
+actually the group Spin 2 because they
+
+14
+00:00:16,609 --> 00:00:16,619
+actually the group Spin 2 because they
+ 
+
+15
+00:00:16,619 --> 00:00:19,849
+actually the group Spin 2 because they
+give us rotations in 2D space the unit
+
+16
+00:00:19,849 --> 00:00:19,859
+give us rotations in 2D space the unit
+ 
+
+17
+00:00:19,859 --> 00:00:21,769
+give us rotations in 2D space the unit
+length quaternions are actually the
+
+18
+00:00:21,769 --> 00:00:21,779
+length quaternions are actually the
+ 
+
+19
+00:00:21,779 --> 00:00:24,109
+length quaternions are actually the
+group spin three because they give us
+
+20
+00:00:24,109 --> 00:00:24,119
+group spin three because they give us
+ 
+
+21
+00:00:24,119 --> 00:00:28,009
+group spin three because they give us
+rotations in 3D space the spin and group
+
+22
+00:00:28,009 --> 00:00:28,019
+rotations in 3D space the spin and group
+ 
+
+23
+00:00:28,019 --> 00:00:30,349
+rotations in 3D space the spin and group
+is the generalization of these that
+
+24
+00:00:30,349 --> 00:00:30,359
+is the generalization of these that
+ 
+
+25
+00:00:30,359 --> 00:00:32,450
+is the generalization of these that
+gives us rotations in n-dimensional
+
+26
+00:00:32,450 --> 00:00:32,460
+gives us rotations in n-dimensional
+ 
+
+27
+00:00:32,460 --> 00:00:33,889
+gives us rotations in n-dimensional
+space
+
+28
+00:00:33,889 --> 00:00:33,899
+space
+ 
+
+29
+00:00:33,899 --> 00:00:36,410
+space
+we'll Define spin groups using Clifford
+
+30
+00:00:36,410 --> 00:00:36,420
+we'll Define spin groups using Clifford
+ 
+
+31
+00:00:36,420 --> 00:00:38,870
+we'll Define spin groups using Clifford
+algebras which are algebras where the
+
+32
+00:00:38,870 --> 00:00:38,880
+algebras which are algebras where the
+ 
+
+33
+00:00:38,880 --> 00:00:41,650
+algebras which are algebras where the
+basis vectors Square two plus one or -1
+
+34
+00:00:41,650 --> 00:00:41,660
+basis vectors Square two plus one or -1
+ 
+
+35
+00:00:41,660 --> 00:00:44,030
+basis vectors Square two plus one or -1
+and where orthogonal vectors
+
+36
+00:00:44,030 --> 00:00:44,040
+and where orthogonal vectors
+ 
+
+37
+00:00:44,040 --> 00:00:46,369
+and where orthogonal vectors
+anti-commute with each other
+
+38
+00:00:46,369 --> 00:00:46,379
+anti-commute with each other
+ 
+
+39
+00:00:46,379 --> 00:00:48,290
+anti-commute with each other
+it turns out that it's better to view
+
+40
+00:00:48,290 --> 00:00:48,300
+it turns out that it's better to view
+ 
+
+41
+00:00:48,300 --> 00:00:51,170
+it turns out that it's better to view
+the complex I as the Clifford bi-vector
+
+42
+00:00:51,170 --> 00:00:51,180
+the complex I as the Clifford bi-vector
+ 
+
+43
+00:00:51,180 --> 00:00:54,470
+the complex I as the Clifford bi-vector
+Sigma X Sigma Y which represents a
+
+44
+00:00:54,470 --> 00:00:54,480
+Sigma X Sigma Y which represents a
+ 
+
+45
+00:00:54,480 --> 00:00:57,229
+Sigma X Sigma Y which represents a
+rotation in the X Y plane
+
+46
+00:00:57,229 --> 00:00:57,239
+rotation in the X Y plane
+ 
+
+47
+00:00:57,239 --> 00:00:59,510
+rotation in the X Y plane
+the unit quaternions are also better
+
+48
+00:00:59,510 --> 00:00:59,520
+the unit quaternions are also better
+ 
+
+49
+00:00:59,520 --> 00:01:02,630
+the unit quaternions are also better
+represented as bi-vectors instead of
+
+50
+00:01:02,630 --> 00:01:02,640
+represented as bi-vectors instead of
+ 
+
+51
+00:01:02,640 --> 00:01:05,450
+represented as bi-vectors instead of
+rotating around axis I we should think
+
+52
+00:01:05,450 --> 00:01:05,460
+rotating around axis I we should think
+ 
+
+53
+00:01:05,460 --> 00:01:08,810
+rotating around axis I we should think
+of rotating in the YZ plane and instead
+
+54
+00:01:08,810 --> 00:01:08,820
+of rotating in the YZ plane and instead
+ 
+
+55
+00:01:08,820 --> 00:01:12,649
+of rotating in the YZ plane and instead
+of axis J we think of the ZX plane and
+
+56
+00:01:12,649 --> 00:01:12,659
+of axis J we think of the ZX plane and
+ 
+
+57
+00:01:12,659 --> 00:01:15,289
+of axis J we think of the ZX plane and
+instead of axis K we think of the X Y
+
+58
+00:01:15,289 --> 00:01:15,299
+instead of axis K we think of the X Y
+ 
+
+59
+00:01:15,299 --> 00:01:16,490
+instead of axis K we think of the X Y
+plane
+
+60
+00:01:16,490 --> 00:01:16,500
+plane
+ 
+
+61
+00:01:16,500 --> 00:01:19,370
+plane
+the bi-vectors also multiply together to
+
+62
+00:01:19,370 --> 00:01:19,380
+the bi-vectors also multiply together to
+ 
+
+63
+00:01:19,380 --> 00:01:20,929
+the bi-vectors also multiply together to
+give us the standard quaternion
+
+64
+00:01:20,929 --> 00:01:20,939
+give us the standard quaternion
+ 
+
+65
+00:01:20,939 --> 00:01:23,330
+give us the standard quaternion
+multiplication rules because of the
+
+66
+00:01:23,330 --> 00:01:23,340
+multiplication rules because of the
+ 
+
+67
+00:01:23,340 --> 00:01:25,789
+multiplication rules because of the
+anti-commutative property
+
+68
+00:01:25,789 --> 00:01:25,799
+anti-commutative property
+ 
+
+69
+00:01:25,799 --> 00:01:28,070
+anti-commutative property
+since bi-vectors and Clifford algebras
+
+70
+00:01:28,070 --> 00:01:28,080
+since bi-vectors and Clifford algebras
+ 
+
+71
+00:01:28,080 --> 00:01:30,830
+since bi-vectors and Clifford algebras
+always give us rotations we can extend
+
+72
+00:01:30,830 --> 00:01:30,840
+always give us rotations we can extend
+ 
+
+73
+00:01:30,840 --> 00:01:33,350
+always give us rotations we can extend
+this pattern to work in any Dimension n
+
+74
+00:01:33,350 --> 00:01:33,360
+this pattern to work in any Dimension n
+ 
+
+75
+00:01:33,360 --> 00:01:36,350
+this pattern to work in any Dimension n
+where the bi-vector sigma a sigma B
+
+76
+00:01:36,350 --> 00:01:36,360
+where the bi-vector sigma a sigma B
+ 
+
+77
+00:01:36,360 --> 00:01:40,249
+where the bi-vector sigma a sigma B
+gives us a rotation in the a b plane
+
+78
+00:01:40,249 --> 00:01:40,259
+gives us a rotation in the a b plane
+ 
+
+79
+00:01:40,259 --> 00:01:43,850
+gives us a rotation in the a b plane
+this is how we Define the spin and group
+
+80
+00:01:43,850 --> 00:01:43,860
+this is how we Define the spin and group
+ 
+
+81
+00:01:43,860 --> 00:01:46,370
+this is how we Define the spin and group
+we can also generalize this to space
+
+82
+00:01:46,370 --> 00:01:46,380
+we can also generalize this to space
+ 
+
+83
+00:01:46,380 --> 00:01:49,850
+we can also generalize this to space
+time the group spin 1 3 gives us both
+
+84
+00:01:49,850 --> 00:01:49,860
+time the group spin 1 3 gives us both
+ 
+
+85
+00:01:49,860 --> 00:01:52,670
+time the group spin 1 3 gives us both
+rotations and lorentz boosts in one time
+
+86
+00:01:52,670 --> 00:01:52,680
+rotations and lorentz boosts in one time
+ 
+
+87
+00:01:52,680 --> 00:01:55,850
+rotations and lorentz boosts in one time
+Dimension and three space dimensions
+
+88
+00:01:55,850 --> 00:01:55,860
+Dimension and three space dimensions
+ 
+
+89
+00:01:55,860 --> 00:01:59,330
+Dimension and three space dimensions
+its generalization is spin PQ for
+
+90
+00:01:59,330 --> 00:01:59,340
+its generalization is spin PQ for
+ 
+
+91
+00:01:59,340 --> 00:02:01,850
+its generalization is spin PQ for
+rotations and boosts in P time
+
+92
+00:02:01,850 --> 00:02:01,860
+rotations and boosts in P time
+ 
+
+93
+00:02:01,860 --> 00:02:05,510
+rotations and boosts in P time
+dimensions and Q space dimensions
+
+94
+00:02:05,510 --> 00:02:05,520
+dimensions and Q space dimensions
+ 
+
+95
+00:02:05,520 --> 00:02:07,310
+dimensions and Q space dimensions
+in this video I'm going to show how
+
+96
+00:02:07,310 --> 00:02:07,320
+in this video I'm going to show how
+ 
+
+97
+00:02:07,320 --> 00:02:09,589
+in this video I'm going to show how
+Clifford algebras can be used to do
+
+98
+00:02:09,589 --> 00:02:09,599
+Clifford algebras can be used to do
+ 
+
+99
+00:02:09,599 --> 00:02:12,530
+Clifford algebras can be used to do
+Reflections and rotations on vectors in
+
+100
+00:02:12,530 --> 00:02:12,540
+Reflections and rotations on vectors in
+ 
+
+101
+00:02:12,540 --> 00:02:15,350
+Reflections and rotations on vectors in
+any Dimension this explains why Clifford
+
+102
+00:02:15,350 --> 00:02:15,360
+any Dimension this explains why Clifford
+ 
+
+103
+00:02:15,360 --> 00:02:17,630
+any Dimension this explains why Clifford
+algebras are also called geometric
+
+104
+00:02:17,630 --> 00:02:17,640
+algebras are also called geometric
+ 
+
+105
+00:02:17,640 --> 00:02:20,330
+algebras are also called geometric
+algebras because they allow us to easily
+
+106
+00:02:20,330 --> 00:02:20,340
+algebras because they allow us to easily
+ 
+
+107
+00:02:20,340 --> 00:02:23,930
+algebras because they allow us to easily
+perform geometric operations on vectors
+
+108
+00:02:23,930 --> 00:02:23,940
+perform geometric operations on vectors
+ 
+
+109
+00:02:23,940 --> 00:02:26,390
+perform geometric operations on vectors
+some of this video's content was already
+
+110
+00:02:26,390 --> 00:02:26,400
+some of this video's content was already
+ 
+
+111
+00:02:26,400 --> 00:02:28,910
+some of this video's content was already
+covered in video number six when I
+
+112
+00:02:28,910 --> 00:02:28,920
+covered in video number six when I
+ 
+
+113
+00:02:28,920 --> 00:02:31,490
+covered in video number six when I
+introduced the Pauli matrices and Paulie
+
+114
+00:02:31,490 --> 00:02:31,500
+introduced the Pauli matrices and Paulie
+ 
+
+115
+00:02:31,500 --> 00:02:34,010
+introduced the Pauli matrices and Paulie
+vectors but that video relied on
+
+116
+00:02:34,010 --> 00:02:34,020
+vectors but that video relied on
+ 
+
+117
+00:02:34,020 --> 00:02:37,130
+vectors but that video relied on
+matrices to do rotations this video will
+
+118
+00:02:37,130 --> 00:02:37,140
+matrices to do rotations this video will
+ 
+
+119
+00:02:37,140 --> 00:02:39,229
+matrices to do rotations this video will
+involve no matrices and only use
+
+120
+00:02:39,229 --> 00:02:39,239
+involve no matrices and only use
+ 
+
+121
+00:02:39,239 --> 00:02:41,030
+involve no matrices and only use
+abstract symbols from the Clifford
+
+122
+00:02:41,030 --> 00:02:41,040
+abstract symbols from the Clifford
+ 
+
+123
+00:02:41,040 --> 00:02:44,990
+abstract symbols from the Clifford
+algebras to do geometric operations
+
+124
+00:02:44,990 --> 00:02:45,000
+algebras to do geometric operations
+ 
+
+125
+00:02:45,000 --> 00:02:47,930
+algebras to do geometric operations
+before we start I'd like to go over some
+
+126
+00:02:47,930 --> 00:02:47,940
+before we start I'd like to go over some
+ 
+
+127
+00:02:47,940 --> 00:02:50,210
+before we start I'd like to go over some
+names we give to various members of
+
+128
+00:02:50,210 --> 00:02:50,220
+names we give to various members of
+ 
+
+129
+00:02:50,220 --> 00:02:52,850
+names we give to various members of
+Clifford algebras just so we're on the
+
+130
+00:02:52,850 --> 00:02:52,860
+Clifford algebras just so we're on the
+ 
+
+131
+00:02:52,860 --> 00:02:55,550
+Clifford algebras just so we're on the
+same page when I use them later
+
+132
+00:02:55,550 --> 00:02:55,560
+same page when I use them later
+ 
+
+133
+00:02:55,560 --> 00:02:57,650
+same page when I use them later
+the standard building block in Clifford
+
+134
+00:02:57,650 --> 00:02:57,660
+the standard building block in Clifford
+ 
+
+135
+00:02:57,660 --> 00:03:00,410
+the standard building block in Clifford
+algebras is the vector which belongs to
+
+136
+00:03:00,410 --> 00:03:00,420
+algebras is the vector which belongs to
+ 
+
+137
+00:03:00,420 --> 00:03:02,509
+algebras is the vector which belongs to
+some Vector space V
+
+138
+00:03:02,509 --> 00:03:02,519
+some Vector space V
+ 
+
+139
+00:03:02,519 --> 00:03:05,030
+some Vector space V
+ectors combined together with the wedge
+
+140
+00:03:05,030 --> 00:03:05,040
+ectors combined together with the wedge
+ 
+
+141
+00:03:05,040 --> 00:03:08,030
+ectors combined together with the wedge
+product give us bi-vectors Tri vectors
+
+142
+00:03:08,030 --> 00:03:08,040
+product give us bi-vectors Tri vectors
+ 
+
+143
+00:03:08,040 --> 00:03:11,390
+product give us bi-vectors Tri vectors
+or general K vectors also called
+
+144
+00:03:11,390 --> 00:03:11,400
+or general K vectors also called
+ 
+
+145
+00:03:11,400 --> 00:03:13,250
+or general K vectors also called
+k-blades
+
+146
+00:03:13,250 --> 00:03:13,260
+k-blades
+ 
+
+147
+00:03:13,260 --> 00:03:16,490
+k-blades
+the grade of a k Vector refers to how
+
+148
+00:03:16,490 --> 00:03:16,500
+the grade of a k Vector refers to how
+ 
+
+149
+00:03:16,500 --> 00:03:19,610
+the grade of a k Vector refers to how
+many vectors appear in the wedge product
+
+150
+00:03:19,610 --> 00:03:19,620
+many vectors appear in the wedge product
+ 
+
+151
+00:03:19,620 --> 00:03:23,089
+many vectors appear in the wedge product
+an arbitrary sum of K vectors is called
+
+152
+00:03:23,089 --> 00:03:23,099
+an arbitrary sum of K vectors is called
+ 
+
+153
+00:03:23,099 --> 00:03:25,070
+an arbitrary sum of K vectors is called
+a multi-vector
+
+154
+00:03:25,070 --> 00:03:25,080
+a multi-vector
+ 
+
+155
+00:03:25,080 --> 00:03:27,410
+a multi-vector
+when we have a Clifford product of
+
+156
+00:03:27,410 --> 00:03:27,420
+when we have a Clifford product of
+ 
+
+157
+00:03:27,420 --> 00:03:31,309
+when we have a Clifford product of
+vectors we call this averser note that
+
+158
+00:03:31,309 --> 00:03:31,319
+vectors we call this averser note that
+ 
+
+159
+00:03:31,319 --> 00:03:34,130
+vectors we call this averser note that
+the Clifford product of two vectors is
+
+160
+00:03:34,130 --> 00:03:34,140
+the Clifford product of two vectors is
+ 
+
+161
+00:03:34,140 --> 00:03:37,490
+the Clifford product of two vectors is
+not the same thing as a bi-vector since
+
+162
+00:03:37,490 --> 00:03:37,500
+not the same thing as a bi-vector since
+ 
+
+163
+00:03:37,500 --> 00:03:39,770
+not the same thing as a bi-vector since
+the Clifford product gives us the sum of
+
+164
+00:03:39,770 --> 00:03:39,780
+the Clifford product gives us the sum of
+ 
+
+165
+00:03:39,780 --> 00:03:42,530
+the Clifford product gives us the sum of
+a scalar and a bi-vector
+
+166
+00:03:42,530 --> 00:03:42,540
+a scalar and a bi-vector
+ 
+
+167
+00:03:42,540 --> 00:03:44,630
+a scalar and a bi-vector
+the Clifford product and wedge product
+
+168
+00:03:44,630 --> 00:03:44,640
+the Clifford product and wedge product
+ 
+
+169
+00:03:44,640 --> 00:03:47,750
+the Clifford product and wedge product
+are only the same if the two vectors are
+
+170
+00:03:47,750 --> 00:03:47,760
+are only the same if the two vectors are
+ 
+
+171
+00:03:47,760 --> 00:03:50,630
+are only the same if the two vectors are
+orthogonal and the dot product part goes
+
+172
+00:03:50,630 --> 00:03:50,640
+orthogonal and the dot product part goes
+ 
+
+173
+00:03:50,640 --> 00:03:52,190
+orthogonal and the dot product part goes
+to zero
+
+174
+00:03:52,190 --> 00:03:52,200
+to zero
+ 
+
+175
+00:03:52,200 --> 00:03:54,470
+to zero
+with this out of the way let's get
+
+176
+00:03:54,470 --> 00:03:54,480
+with this out of the way let's get
+ 
+
+177
+00:03:54,480 --> 00:03:56,149
+with this out of the way let's get
+started with learning about rotations
+
+178
+00:03:56,149 --> 00:03:56,159
+started with learning about rotations
+ 
+
+179
+00:03:56,159 --> 00:03:59,990
+started with learning about rotations
+and Reflections in Clifford algebras
+
+180
+00:03:59,990 --> 00:04:00,000
+and Reflections in Clifford algebras
+ 
+
+181
+00:04:00,000 --> 00:04:04,009
+and Reflections in Clifford algebras
+to start let's look at cl30 the Clifford
+
+182
+00:04:04,009 --> 00:04:04,019
+to start let's look at cl30 the Clifford
+ 
+
+183
+00:04:04,019 --> 00:04:06,770
+to start let's look at cl30 the Clifford
+algebra in 3D space with three
+
+184
+00:04:06,770 --> 00:04:06,780
+algebra in 3D space with three
+ 
+
+185
+00:04:06,780 --> 00:04:08,809
+algebra in 3D space with three
+orthonormal basis vectors that square
+
+186
+00:04:08,809 --> 00:04:08,819
+orthonormal basis vectors that square
+ 
+
+187
+00:04:08,819 --> 00:04:12,350
+orthonormal basis vectors that square
+two plus one which are Sigma X Sigma Y
+
+188
+00:04:12,350 --> 00:04:12,360
+two plus one which are Sigma X Sigma Y
+ 
+
+189
+00:04:12,360 --> 00:04:15,410
+two plus one which are Sigma X Sigma Y
+and sigma Z and when we multiply two
+
+190
+00:04:15,410 --> 00:04:15,420
+and sigma Z and when we multiply two
+ 
+
+191
+00:04:15,420 --> 00:04:17,270
+and sigma Z and when we multiply two
+different orthogonal basis vectors
+
+192
+00:04:17,270 --> 00:04:17,280
+different orthogonal basis vectors
+ 
+
+193
+00:04:17,280 --> 00:04:19,849
+different orthogonal basis vectors
+together we can switch their order if we
+
+194
+00:04:19,849 --> 00:04:19,859
+together we can switch their order if we
+ 
+
+195
+00:04:19,859 --> 00:04:21,530
+together we can switch their order if we
+include a negative sign since
+
+196
+00:04:21,530 --> 00:04:21,540
+include a negative sign since
+ 
+
+197
+00:04:21,540 --> 00:04:23,990
+include a negative sign since
+multiplication of orthogonal vectors is
+
+198
+00:04:23,990 --> 00:04:24,000
+multiplication of orthogonal vectors is
+ 
+
+199
+00:04:24,000 --> 00:04:26,030
+multiplication of orthogonal vectors is
+anti-commutative
+
+200
+00:04:26,030 --> 00:04:26,040
+anti-commutative
+ 
+
+201
+00:04:26,040 --> 00:04:28,010
+anti-commutative
+let's start with performing Vector
+
+202
+00:04:28,010 --> 00:04:28,020
+let's start with performing Vector
+ 
+
+203
+00:04:28,020 --> 00:04:29,390
+let's start with performing Vector
+reflections
+
+204
+00:04:29,390 --> 00:04:29,400
+reflections
+ 
+
+205
+00:04:29,400 --> 00:04:31,550
+reflections
+we reflect vectors by performing
+
+206
+00:04:31,550 --> 00:04:31,560
+we reflect vectors by performing
+ 
+
+207
+00:04:31,560 --> 00:04:34,189
+we reflect vectors by performing
+negative conjugation on them using the
+
+208
+00:04:34,189 --> 00:04:34,199
+negative conjugation on them using the
+ 
+
+209
+00:04:34,199 --> 00:04:36,830
+negative conjugation on them using the
+vector we want to reflect along
+
+210
+00:04:36,830 --> 00:04:36,840
+vector we want to reflect along
+ 
+
+211
+00:04:36,840 --> 00:04:39,890
+vector we want to reflect along
+let's see how this works if we want to
+
+212
+00:04:39,890 --> 00:04:39,900
+let's see how this works if we want to
+ 
+
+213
+00:04:39,900 --> 00:04:42,770
+let's see how this works if we want to
+reflect a vector along the z-axis this
+
+214
+00:04:42,770 --> 00:04:42,780
+reflect a vector along the z-axis this
+ 
+
+215
+00:04:42,780 --> 00:04:44,810
+reflect a vector along the z-axis this
+means we leave the X and Y components
+
+216
+00:04:44,810 --> 00:04:44,820
+means we leave the X and Y components
+ 
+
+217
+00:04:44,820 --> 00:04:47,150
+means we leave the X and Y components
+the same but change the sign of the Z
+
+218
+00:04:47,150 --> 00:04:47,160
+the same but change the sign of the Z
+ 
+
+219
+00:04:47,160 --> 00:04:49,909
+the same but change the sign of the Z
+component so this is like if the plane
+
+220
+00:04:49,909 --> 00:04:49,919
+component so this is like if the plane
+ 
+
+221
+00:04:49,919 --> 00:04:53,450
+component so this is like if the plane
+perpendicular to Z the X Y plane is a
+
+222
+00:04:53,450 --> 00:04:53,460
+perpendicular to Z the X Y plane is a
+ 
+
+223
+00:04:53,460 --> 00:04:55,790
+perpendicular to Z the X Y plane is a
+mirror that we're reflecting in
+
+224
+00:04:55,790 --> 00:04:55,800
+mirror that we're reflecting in
+ 
+
+225
+00:04:55,800 --> 00:04:58,430
+mirror that we're reflecting in
+reflection of a vector v along the Z
+
+226
+00:04:58,430 --> 00:04:58,440
+reflection of a vector v along the Z
+ 
+
+227
+00:04:58,440 --> 00:05:00,409
+reflection of a vector v along the Z
+direction is done using negative
+
+228
+00:05:00,409 --> 00:05:00,419
+direction is done using negative
+ 
+
+229
+00:05:00,419 --> 00:05:02,810
+direction is done using negative
+conjugation by Zed which means we
+
+230
+00:05:02,810 --> 00:05:02,820
+conjugation by Zed which means we
+ 
+
+231
+00:05:02,820 --> 00:05:05,390
+conjugation by Zed which means we
+multiply by Sigma Z on the left and
+
+232
+00:05:05,390 --> 00:05:05,400
+multiply by Sigma Z on the left and
+ 
+
+233
+00:05:05,400 --> 00:05:08,150
+multiply by Sigma Z on the left and
+sigma Z inverse on the right and include
+
+234
+00:05:08,150 --> 00:05:08,160
+sigma Z inverse on the right and include
+ 
+
+235
+00:05:08,160 --> 00:05:10,310
+sigma Z inverse on the right and include
+a negative sign in front
+
+236
+00:05:10,310 --> 00:05:10,320
+a negative sign in front
+ 
+
+237
+00:05:10,320 --> 00:05:12,950
+a negative sign in front
+for example reflecting Sigma X along
+
+238
+00:05:12,950 --> 00:05:12,960
+for example reflecting Sigma X along
+ 
+
+239
+00:05:12,960 --> 00:05:16,189
+for example reflecting Sigma X along
+Sigma Z looks like this the colors don't
+
+240
+00:05:16,189 --> 00:05:16,199
+Sigma Z looks like this the colors don't
+ 
+
+241
+00:05:16,199 --> 00:05:18,110
+Sigma Z looks like this the colors don't
+mean anything here they're just to make
+
+242
+00:05:18,110 --> 00:05:18,120
+mean anything here they're just to make
+ 
+
+243
+00:05:18,120 --> 00:05:20,689
+mean anything here they're just to make
+the formula more readable
+
+244
+00:05:20,689 --> 00:05:20,699
+the formula more readable
+ 
+
+245
+00:05:20,699 --> 00:05:23,629
+the formula more readable
+since Sigma Z multiplied by itself gives
+
+246
+00:05:23,629 --> 00:05:23,639
+since Sigma Z multiplied by itself gives
+ 
+
+247
+00:05:23,639 --> 00:05:26,870
+since Sigma Z multiplied by itself gives
+plus one this means Sigma Z is its own
+
+248
+00:05:26,870 --> 00:05:26,880
+plus one this means Sigma Z is its own
+ 
+
+249
+00:05:26,880 --> 00:05:29,629
+plus one this means Sigma Z is its own
+inverse so we can just drop the inverse
+
+250
+00:05:29,629 --> 00:05:29,639
+inverse so we can just drop the inverse
+ 
+
+251
+00:05:29,639 --> 00:05:32,810
+inverse so we can just drop the inverse
+operation after swapping we get an
+
+252
+00:05:32,810 --> 00:05:32,820
+operation after swapping we get an
+ 
+
+253
+00:05:32,820 --> 00:05:34,790
+operation after swapping we get an
+additional negative sign in front which
+
+254
+00:05:34,790 --> 00:05:34,800
+additional negative sign in front which
+ 
+
+255
+00:05:34,800 --> 00:05:36,730
+additional negative sign in front which
+cancels with the first negative sign
+
+256
+00:05:36,730 --> 00:05:36,740
+cancels with the first negative sign
+ 
+
+257
+00:05:36,740 --> 00:05:39,890
+cancels with the first negative sign
+also Sigma Z squared gives us plus one
+
+258
+00:05:39,890 --> 00:05:39,900
+also Sigma Z squared gives us plus one
+ 
+
+259
+00:05:39,900 --> 00:05:42,890
+also Sigma Z squared gives us plus one
+so we get Sigma X as a result
+
+260
+00:05:42,890 --> 00:05:42,900
+so we get Sigma X as a result
+ 
+
+261
+00:05:42,900 --> 00:05:45,590
+so we get Sigma X as a result
+it makes sense that Sigma X is unchanged
+
+262
+00:05:45,590 --> 00:05:45,600
+it makes sense that Sigma X is unchanged
+ 
+
+263
+00:05:45,600 --> 00:05:47,390
+it makes sense that Sigma X is unchanged
+when we reflect it in this mirror
+
+264
+00:05:47,390 --> 00:05:47,400
+when we reflect it in this mirror
+ 
+
+265
+00:05:47,400 --> 00:05:49,730
+when we reflect it in this mirror
+associated with Sigma Z
+
+266
+00:05:49,730 --> 00:05:49,740
+associated with Sigma Z
+ 
+
+267
+00:05:49,740 --> 00:05:52,370
+associated with Sigma Z
+the same is true for reflecting Sigma y
+
+268
+00:05:52,370 --> 00:05:52,380
+the same is true for reflecting Sigma y
+ 
+
+269
+00:05:52,380 --> 00:05:54,950
+the same is true for reflecting Sigma y
+along the z-axis
+
+270
+00:05:54,950 --> 00:05:54,960
+along the z-axis
+ 
+
+271
+00:05:54,960 --> 00:05:57,409
+along the z-axis
+but if we want to reflect Sigma Z along
+
+272
+00:05:57,409 --> 00:05:57,419
+but if we want to reflect Sigma Z along
+ 
+
+273
+00:05:57,419 --> 00:06:00,350
+but if we want to reflect Sigma Z along
+the z-axis sigma Z immediately cancels
+
+274
+00:06:00,350 --> 00:06:00,360
+the z-axis sigma Z immediately cancels
+ 
+
+275
+00:06:00,360 --> 00:06:02,990
+the z-axis sigma Z immediately cancels
+with Sigma Z inverse and so we get
+
+276
+00:06:02,990 --> 00:06:03,000
+with Sigma Z inverse and so we get
+ 
+
+277
+00:06:03,000 --> 00:06:04,850
+with Sigma Z inverse and so we get
+Negative Sigma Z
+
+278
+00:06:04,850 --> 00:06:04,860
+Negative Sigma Z
+ 
+
+279
+00:06:04,860 --> 00:06:07,189
+Negative Sigma Z
+so the sigma Z basis Vector has been
+
+280
+00:06:07,189 --> 00:06:07,199
+so the sigma Z basis Vector has been
+ 
+
+281
+00:06:07,199 --> 00:06:10,010
+so the sigma Z basis Vector has been
+reflected as expected
+
+282
+00:06:10,010 --> 00:06:10,020
+reflected as expected
+ 
+
+283
+00:06:10,020 --> 00:06:13,010
+reflected as expected
+if we take a general vector v which is a
+
+284
+00:06:13,010 --> 00:06:13,020
+if we take a general vector v which is a
+ 
+
+285
+00:06:13,020 --> 00:06:15,230
+if we take a general vector v which is a
+linear combination of Sigma X Sigma Y
+
+286
+00:06:15,230 --> 00:06:15,240
+linear combination of Sigma X Sigma Y
+ 
+
+287
+00:06:15,240 --> 00:06:18,230
+linear combination of Sigma X Sigma Y
+and sigma Z and reflect it along Z with
+
+288
+00:06:18,230 --> 00:06:18,240
+and sigma Z and reflect it along Z with
+ 
+
+289
+00:06:18,240 --> 00:06:21,290
+and sigma Z and reflect it along Z with
+a negative conjugation the X and Y parts
+
+290
+00:06:21,290 --> 00:06:21,300
+a negative conjugation the X and Y parts
+ 
+
+291
+00:06:21,300 --> 00:06:24,230
+a negative conjugation the X and Y parts
+are left unchanged but the Z part is
+
+292
+00:06:24,230 --> 00:06:24,240
+are left unchanged but the Z part is
+ 
+
+293
+00:06:24,240 --> 00:06:26,749
+are left unchanged but the Z part is
+reflected and gets a negative sign as
+
+294
+00:06:26,749 --> 00:06:26,759
+reflected and gets a negative sign as
+ 
+
+295
+00:06:26,759 --> 00:06:28,129
+reflected and gets a negative sign as
+expected
+
+296
+00:06:28,129 --> 00:06:28,139
+expected
+ 
+
+297
+00:06:28,139 --> 00:06:30,469
+expected
+now when we're doing reflection along a
+
+298
+00:06:30,469 --> 00:06:30,479
+now when we're doing reflection along a
+ 
+
+299
+00:06:30,479 --> 00:06:32,990
+now when we're doing reflection along a
+unit Vector that squares 2 1 such as
+
+300
+00:06:32,990 --> 00:06:33,000
+unit Vector that squares 2 1 such as
+ 
+
+301
+00:06:33,000 --> 00:06:35,930
+unit Vector that squares 2 1 such as
+Sigma Z its inverse is not required in
+
+302
+00:06:35,930 --> 00:06:35,940
+Sigma Z its inverse is not required in
+ 
+
+303
+00:06:35,940 --> 00:06:38,390
+Sigma Z its inverse is not required in
+the conjugation formula
+
+304
+00:06:38,390 --> 00:06:38,400
+the conjugation formula
+ 
+
+305
+00:06:38,400 --> 00:06:41,150
+the conjugation formula
+however if we reflect along a vector U
+
+306
+00:06:41,150 --> 00:06:41,160
+however if we reflect along a vector U
+ 
+
+307
+00:06:41,160 --> 00:06:43,610
+however if we reflect along a vector U
+which doesn't have unit length we need
+
+308
+00:06:43,610 --> 00:06:43,620
+which doesn't have unit length we need
+ 
+
+309
+00:06:43,620 --> 00:06:46,490
+which doesn't have unit length we need
+to properly calculate the inverse
+
+310
+00:06:46,490 --> 00:06:46,500
+to properly calculate the inverse
+ 
+
+311
+00:06:46,500 --> 00:06:49,129
+to properly calculate the inverse
+we know U times U equals the squared
+
+312
+00:06:49,129 --> 00:06:49,139
+we know U times U equals the squared
+ 
+
+313
+00:06:49,139 --> 00:06:51,710
+we know U times U equals the squared
+length of U we can multiply on both
+
+314
+00:06:51,710 --> 00:06:51,720
+length of U we can multiply on both
+ 
+
+315
+00:06:51,720 --> 00:06:55,070
+length of U we can multiply on both
+sides by U inverse cancel U and U
+
+316
+00:06:55,070 --> 00:06:55,080
+sides by U inverse cancel U and U
+ 
+
+317
+00:06:55,080 --> 00:06:57,409
+sides by U inverse cancel U and U
+inverse and then divide by the squared
+
+318
+00:06:57,409 --> 00:06:57,419
+inverse and then divide by the squared
+ 
+
+319
+00:06:57,419 --> 00:07:01,189
+inverse and then divide by the squared
+length so U inverse equals U divided by
+
+320
+00:07:01,189 --> 00:07:01,199
+length so U inverse equals U divided by
+ 
+
+321
+00:07:01,199 --> 00:07:03,350
+length so U inverse equals U divided by
+the squared length of U
+
+322
+00:07:03,350 --> 00:07:03,360
+the squared length of U
+ 
+
+323
+00:07:03,360 --> 00:07:06,590
+the squared length of U
+for example if we reflect along 5 Sigma
+
+324
+00:07:06,590 --> 00:07:06,600
+for example if we reflect along 5 Sigma
+ 
+
+325
+00:07:06,600 --> 00:07:10,490
+for example if we reflect along 5 Sigma
+Z its squared length is 5 squared so the
+
+326
+00:07:10,490 --> 00:07:10,500
+Z its squared length is 5 squared so the
+ 
+
+327
+00:07:10,500 --> 00:07:14,689
+Z its squared length is 5 squared so the
+inverse is 5 Sigma Z over five squared
+
+328
+00:07:14,689 --> 00:07:14,699
+inverse is 5 Sigma Z over five squared
+ 
+
+329
+00:07:14,699 --> 00:07:17,689
+inverse is 5 Sigma Z over five squared
+in the negative conjugation each factor
+
+330
+00:07:17,689 --> 00:07:17,699
+in the negative conjugation each factor
+ 
+
+331
+00:07:17,699 --> 00:07:20,270
+in the negative conjugation each factor
+of one over five serves to normalize the
+
+332
+00:07:20,270 --> 00:07:20,280
+of one over five serves to normalize the
+ 
+
+333
+00:07:20,280 --> 00:07:23,029
+of one over five serves to normalize the
+vectors in the reflection formula if
+
+334
+00:07:23,029 --> 00:07:23,039
+vectors in the reflection formula if
+ 
+
+335
+00:07:23,039 --> 00:07:25,550
+vectors in the reflection formula if
+they are not already normalized
+
+336
+00:07:25,550 --> 00:07:25,560
+they are not already normalized
+ 
+
+337
+00:07:25,560 --> 00:07:28,370
+they are not already normalized
+so we get the same reflection formula as
+
+338
+00:07:28,370 --> 00:07:28,380
+so we get the same reflection formula as
+ 
+
+339
+00:07:28,380 --> 00:07:30,469
+so we get the same reflection formula as
+if we had just reflected along a unit
+
+340
+00:07:30,469 --> 00:07:30,479
+if we had just reflected along a unit
+ 
+
+341
+00:07:30,479 --> 00:07:33,230
+if we had just reflected along a unit
+length Sigma Z vector
+
+342
+00:07:33,230 --> 00:07:33,240
+length Sigma Z vector
+ 
+
+343
+00:07:33,240 --> 00:07:35,570
+length Sigma Z vector
+we can prove this reflection formula
+
+344
+00:07:35,570 --> 00:07:35,580
+we can prove this reflection formula
+ 
+
+345
+00:07:35,580 --> 00:07:38,930
+we can prove this reflection formula
+works for any invertible Vector U
+
+346
+00:07:38,930 --> 00:07:38,940
+works for any invertible Vector U
+ 
+
+347
+00:07:38,940 --> 00:07:42,170
+works for any invertible Vector U
+we break V into portions parallel to U
+
+348
+00:07:42,170 --> 00:07:42,180
+we break V into portions parallel to U
+ 
+
+349
+00:07:42,180 --> 00:07:45,550
+we break V into portions parallel to U
+and perpendicular to you then distribute
+
+350
+00:07:45,550 --> 00:07:45,560
+and perpendicular to you then distribute
+ 
+
+351
+00:07:45,560 --> 00:07:48,409
+and perpendicular to you then distribute
+the parallel portion of V can be written
+
+352
+00:07:48,409 --> 00:07:48,419
+the parallel portion of V can be written
+ 
+
+353
+00:07:48,419 --> 00:07:50,990
+the parallel portion of V can be written
+as a scaled version of U using a scale
+
+354
+00:07:50,990 --> 00:07:51,000
+as a scaled version of U using a scale
+ 
+
+355
+00:07:51,000 --> 00:07:52,610
+as a scaled version of U using a scale
+factor k
+
+356
+00:07:52,610 --> 00:07:52,620
+factor k
+ 
+
+357
+00:07:52,620 --> 00:07:54,890
+factor k
+and the perpendicular part of V will
+
+358
+00:07:54,890 --> 00:07:54,900
+and the perpendicular part of V will
+ 
+
+359
+00:07:54,900 --> 00:07:57,950
+and the perpendicular part of V will
+anti-commute with u so we can swap their
+
+360
+00:07:57,950 --> 00:07:57,960
+anti-commute with u so we can swap their
+ 
+
+361
+00:07:57,960 --> 00:07:59,990
+anti-commute with u so we can swap their
+order and change the sign
+
+362
+00:07:59,990 --> 00:08:00,000
+order and change the sign
+ 
+
+363
+00:08:00,000 --> 00:08:03,469
+order and change the sign
+U and U inverse combine to one here and
+
+364
+00:08:03,469 --> 00:08:03,479
+U and U inverse combine to one here and
+ 
+
+365
+00:08:03,479 --> 00:08:07,010
+U and U inverse combine to one here and
+here and we can rewrite K times U as the
+
+366
+00:08:07,010 --> 00:08:07,020
+here and we can rewrite K times U as the
+ 
+
+367
+00:08:07,020 --> 00:08:08,990
+here and we can rewrite K times U as the
+parallel portion of V
+
+368
+00:08:08,990 --> 00:08:09,000
+parallel portion of V
+ 
+
+369
+00:08:09,000 --> 00:08:11,510
+parallel portion of V
+the result is V where the portion
+
+370
+00:08:11,510 --> 00:08:11,520
+the result is V where the portion
+ 
+
+371
+00:08:11,520 --> 00:08:13,969
+the result is V where the portion
+parallel to U is reflected with a minus
+
+372
+00:08:13,969 --> 00:08:13,979
+parallel to U is reflected with a minus
+ 
+
+373
+00:08:13,979 --> 00:08:16,370
+parallel to U is reflected with a minus
+sign and the perpendicular part is
+
+374
+00:08:16,370 --> 00:08:16,380
+sign and the perpendicular part is
+ 
+
+375
+00:08:16,380 --> 00:08:18,770
+sign and the perpendicular part is
+unchanged as expected
+
+376
+00:08:18,770 --> 00:08:18,780
+unchanged as expected
+ 
+
+377
+00:08:18,780 --> 00:08:21,290
+unchanged as expected
+so this negative conjugation formula
+
+378
+00:08:21,290 --> 00:08:21,300
+so this negative conjugation formula
+ 
+
+379
+00:08:21,300 --> 00:08:24,290
+so this negative conjugation formula
+breaks a vector v up into Parts parallel
+
+380
+00:08:24,290 --> 00:08:24,300
+breaks a vector v up into Parts parallel
+ 
+
+381
+00:08:24,300 --> 00:08:27,710
+breaks a vector v up into Parts parallel
+to U and perpendicular to you and it
+
+382
+00:08:27,710 --> 00:08:27,720
+to U and perpendicular to you and it
+ 
+
+383
+00:08:27,720 --> 00:08:31,490
+to U and perpendicular to you and it
+only reflects the part parallel to you
+
+384
+00:08:31,490 --> 00:08:31,500
+only reflects the part parallel to you
+ 
+
+385
+00:08:31,500 --> 00:08:33,769
+only reflects the part parallel to you
+we can also confirm that this reflection
+
+386
+00:08:33,769 --> 00:08:33,779
+we can also confirm that this reflection
+ 
+
+387
+00:08:33,779 --> 00:08:37,190
+we can also confirm that this reflection
+formula keeps the length of V unchanged
+
+388
+00:08:37,190 --> 00:08:37,200
+formula keeps the length of V unchanged
+ 
+
+389
+00:08:37,200 --> 00:08:40,310
+formula keeps the length of V unchanged
+if we take V times V and then reflect
+
+390
+00:08:40,310 --> 00:08:40,320
+if we take V times V and then reflect
+ 
+
+391
+00:08:40,320 --> 00:08:43,670
+if we take V times V and then reflect
+both V's the negative signs cancel and
+
+392
+00:08:43,670 --> 00:08:43,680
+both V's the negative signs cancel and
+ 
+
+393
+00:08:43,680 --> 00:08:47,449
+both V's the negative signs cancel and
+the inner uu inverse cancel V times V
+
+394
+00:08:47,449 --> 00:08:47,459
+the inner uu inverse cancel V times V
+ 
+
+395
+00:08:47,459 --> 00:08:49,970
+the inner uu inverse cancel V times V
+gives the squared length of V which is a
+
+396
+00:08:49,970 --> 00:08:49,980
+gives the squared length of V which is a
+ 
+
+397
+00:08:49,980 --> 00:08:53,030
+gives the squared length of V which is a
+scalar that can be moved here so that U
+
+398
+00:08:53,030 --> 00:08:53,040
+scalar that can be moved here so that U
+ 
+
+399
+00:08:53,040 --> 00:08:55,970
+scalar that can be moved here so that U
+and U inverse cancel so the squared
+
+400
+00:08:55,970 --> 00:08:55,980
+and U inverse cancel so the squared
+ 
+
+401
+00:08:55,980 --> 00:09:00,230
+and U inverse cancel so the squared
+length of V is unchanged by reflection
+
+402
+00:09:00,230 --> 00:09:00,240
+length of V is unchanged by reflection
+ 
+
+403
+00:09:00,240 --> 00:09:03,050
+length of V is unchanged by reflection
+now let's look at space time which has
+
+404
+00:09:03,050 --> 00:09:03,060
+now let's look at space time which has
+ 
+
+405
+00:09:03,060 --> 00:09:06,829
+now let's look at space time which has
+the Clifford algebra cl13 this has one
+
+406
+00:09:06,829 --> 00:09:06,839
+the Clifford algebra cl13 this has one
+ 
+
+407
+00:09:06,839 --> 00:09:08,990
+the Clifford algebra cl13 this has one
+dimension of time and three dimensions
+
+408
+00:09:08,990 --> 00:09:09,000
+dimension of time and three dimensions
+ 
+
+409
+00:09:09,000 --> 00:09:11,509
+dimension of time and three dimensions
+of space given by the orthonormal basis
+
+410
+00:09:11,509 --> 00:09:11,519
+of space given by the orthonormal basis
+ 
+
+411
+00:09:11,519 --> 00:09:14,449
+of space given by the orthonormal basis
+vectors gamma T gamma X gamma Y and
+
+412
+00:09:14,449 --> 00:09:14,459
+vectors gamma T gamma X gamma Y and
+ 
+
+413
+00:09:14,459 --> 00:09:15,710
+vectors gamma T gamma X gamma Y and
+Gamma Z
+
+414
+00:09:15,710 --> 00:09:15,720
+Gamma Z
+ 
+
+415
+00:09:15,720 --> 00:09:18,410
+Gamma Z
+according to the plus minus minus minus
+
+416
+00:09:18,410 --> 00:09:18,420
+according to the plus minus minus minus
+ 
+
+417
+00:09:18,420 --> 00:09:20,990
+according to the plus minus minus minus
+metric the time basis Vector squares two
+
+418
+00:09:20,990 --> 00:09:21,000
+metric the time basis Vector squares two
+ 
+
+419
+00:09:21,000 --> 00:09:23,630
+metric the time basis Vector squares two
+plus one and each of the space basis
+
+420
+00:09:23,630 --> 00:09:23,640
+plus one and each of the space basis
+ 
+
+421
+00:09:23,640 --> 00:09:26,630
+plus one and each of the space basis
+vectors Square two minus one and the
+
+422
+00:09:26,630 --> 00:09:26,640
+vectors Square two minus one and the
+ 
+
+423
+00:09:26,640 --> 00:09:28,610
+vectors Square two minus one and the
+basis vectors anti-commute with each
+
+424
+00:09:28,610 --> 00:09:28,620
+basis vectors anti-commute with each
+ 
+
+425
+00:09:28,620 --> 00:09:29,570
+basis vectors anti-commute with each
+other
+
+426
+00:09:29,570 --> 00:09:29,580
+other
+ 
+
+427
+00:09:29,580 --> 00:09:33,170
+other
+we could also choose to work in cl31 if
+
+428
+00:09:33,170 --> 00:09:33,180
+we could also choose to work in cl31 if
+ 
+
+429
+00:09:33,180 --> 00:09:35,630
+we could also choose to work in cl31 if
+we wanted which uses the mostly plus
+
+430
+00:09:35,630 --> 00:09:35,640
+we wanted which uses the mostly plus
+ 
+
+431
+00:09:35,640 --> 00:09:38,449
+we wanted which uses the mostly plus
+metric convention but for this video I'm
+
+432
+00:09:38,449 --> 00:09:38,459
+metric convention but for this video I'm
+ 
+
+433
+00:09:38,459 --> 00:09:41,509
+metric convention but for this video I'm
+going to work in cl13 which has the
+
+434
+00:09:41,509 --> 00:09:41,519
+going to work in cl13 which has the
+ 
+
+435
+00:09:41,519 --> 00:09:44,630
+going to work in cl13 which has the
+mostly minus convention
+
+436
+00:09:44,630 --> 00:09:44,640
+mostly minus convention
+ 
+
+437
+00:09:44,640 --> 00:09:46,910
+mostly minus convention
+let's review some of the basics of
+
+438
+00:09:46,910 --> 00:09:46,920
+let's review some of the basics of
+ 
+
+439
+00:09:46,920 --> 00:09:49,370
+let's review some of the basics of
+special relativity the lengths of
+
+440
+00:09:49,370 --> 00:09:49,380
+special relativity the lengths of
+ 
+
+441
+00:09:49,380 --> 00:09:51,410
+special relativity the lengths of
+space-time vectors are measured using
+
+442
+00:09:51,410 --> 00:09:51,420
+space-time vectors are measured using
+ 
+
+443
+00:09:51,420 --> 00:09:54,290
+space-time vectors are measured using
+the space-time interval formula given
+
+444
+00:09:54,290 --> 00:09:54,300
+the space-time interval formula given
+ 
+
+445
+00:09:54,300 --> 00:09:55,310
+the space-time interval formula given
+here
+
+446
+00:09:55,310 --> 00:09:55,320
+here
+ 
+
+447
+00:09:55,320 --> 00:09:57,889
+here
+as an exercise you can check that we get
+
+448
+00:09:57,889 --> 00:09:57,899
+as an exercise you can check that we get
+ 
+
+449
+00:09:57,899 --> 00:10:00,350
+as an exercise you can check that we get
+this formula when we square a space-time
+
+450
+00:10:00,350 --> 00:10:00,360
+this formula when we square a space-time
+ 
+
+451
+00:10:00,360 --> 00:10:02,570
+this formula when we square a space-time
+vector and that the Clifford algebra
+
+452
+00:10:02,570 --> 00:10:02,580
+vector and that the Clifford algebra
+ 
+
+453
+00:10:02,580 --> 00:10:05,630
+vector and that the Clifford algebra
+symbols give us all the correct signs
+
+454
+00:10:05,630 --> 00:10:05,640
+symbols give us all the correct signs
+ 
+
+455
+00:10:05,640 --> 00:10:08,509
+symbols give us all the correct signs
+looking at a space-time diagram the
+
+456
+00:10:08,509 --> 00:10:08,519
+looking at a space-time diagram the
+ 
+
+457
+00:10:08,519 --> 00:10:10,430
+looking at a space-time diagram the
+time-like vectors that point to the
+
+458
+00:10:10,430 --> 00:10:10,440
+time-like vectors that point to the
+ 
+
+459
+00:10:10,440 --> 00:10:13,130
+time-like vectors that point to the
+future or the past have positive squared
+
+460
+00:10:13,130 --> 00:10:13,140
+future or the past have positive squared
+ 
+
+461
+00:10:13,140 --> 00:10:14,150
+future or the past have positive squared
+lengths
+
+462
+00:10:14,150 --> 00:10:14,160
+lengths
+ 
+
+463
+00:10:14,160 --> 00:10:16,670
+lengths
+space-like vectors that point in spatial
+
+464
+00:10:16,670 --> 00:10:16,680
+space-like vectors that point in spatial
+ 
+
+465
+00:10:16,680 --> 00:10:19,430
+space-like vectors that point in spatial
+directions have negative squared lengths
+
+466
+00:10:19,430 --> 00:10:19,440
+directions have negative squared lengths
+ 
+
+467
+00:10:19,440 --> 00:10:21,769
+directions have negative squared lengths
+and lights like vectors that point along
+
+468
+00:10:21,769 --> 00:10:21,779
+and lights like vectors that point along
+ 
+
+469
+00:10:21,779 --> 00:10:25,250
+and lights like vectors that point along
+light beams have zero squared lengths
+
+470
+00:10:25,250 --> 00:10:25,260
+light beams have zero squared lengths
+ 
+
+471
+00:10:25,260 --> 00:10:27,710
+light beams have zero squared lengths
+it's very important to remember what
+
+472
+00:10:27,710 --> 00:10:27,720
+it's very important to remember what
+ 
+
+473
+00:10:27,720 --> 00:10:30,250
+it's very important to remember what
+orthogonality looks like in space time
+
+474
+00:10:30,250 --> 00:10:30,260
+orthogonality looks like in space time
+ 
+
+475
+00:10:30,260 --> 00:10:33,470
+orthogonality looks like in space time
+in ordinary space two vectors are
+
+476
+00:10:33,470 --> 00:10:33,480
+in ordinary space two vectors are
+ 
+
+477
+00:10:33,480 --> 00:10:36,769
+in ordinary space two vectors are
+orthogonal if they meet at right angles
+
+478
+00:10:36,769 --> 00:10:36,779
+orthogonal if they meet at right angles
+ 
+
+479
+00:10:36,779 --> 00:10:39,829
+orthogonal if they meet at right angles
+in space time a time-like vector and a
+
+480
+00:10:39,829 --> 00:10:39,839
+in space time a time-like vector and a
+ 
+
+481
+00:10:39,839 --> 00:10:42,590
+in space time a time-like vector and a
+space-like vector are orthogonal if they
+
+482
+00:10:42,590 --> 00:10:42,600
+space-like vector are orthogonal if they
+ 
+
+483
+00:10:42,600 --> 00:10:45,470
+space-like vector are orthogonal if they
+make equal angles with a beam of light
+
+484
+00:10:45,470 --> 00:10:45,480
+make equal angles with a beam of light
+ 
+
+485
+00:10:45,480 --> 00:10:48,230
+make equal angles with a beam of light
+this affects how Reflections work in
+
+486
+00:10:48,230 --> 00:10:48,240
+this affects how Reflections work in
+ 
+
+487
+00:10:48,240 --> 00:10:49,490
+this affects how Reflections work in
+space-time
+
+488
+00:10:49,490 --> 00:10:49,500
+space-time
+ 
+
+489
+00:10:49,500 --> 00:10:52,310
+space-time
+in ordinary space a reflection Vector
+
+490
+00:10:52,310 --> 00:10:52,320
+in ordinary space a reflection Vector
+ 
+
+491
+00:10:52,320 --> 00:10:55,009
+in ordinary space a reflection Vector
+defines a mirror that is orthogonal to
+
+492
+00:10:55,009 --> 00:10:55,019
+defines a mirror that is orthogonal to
+ 
+
+493
+00:10:55,019 --> 00:10:57,650
+defines a mirror that is orthogonal to
+it when we reflect a vector in the
+
+494
+00:10:57,650 --> 00:10:57,660
+it when we reflect a vector in the
+ 
+
+495
+00:10:57,660 --> 00:11:00,050
+it when we reflect a vector in the
+mirror the initial and reflected vectors
+
+496
+00:11:00,050 --> 00:11:00,060
+mirror the initial and reflected vectors
+ 
+
+497
+00:11:00,060 --> 00:11:02,569
+mirror the initial and reflected vectors
+form equal circular angles with the
+
+498
+00:11:02,569 --> 00:11:02,579
+form equal circular angles with the
+ 
+
+499
+00:11:02,579 --> 00:11:03,650
+form equal circular angles with the
+mirror
+
+500
+00:11:03,650 --> 00:11:03,660
+mirror
+ 
+
+501
+00:11:03,660 --> 00:11:06,710
+mirror
+in space-time a reflection Vector also
+
+502
+00:11:06,710 --> 00:11:06,720
+in space-time a reflection Vector also
+ 
+
+503
+00:11:06,720 --> 00:11:09,050
+in space-time a reflection Vector also
+defines a mirror that is orthogonal to
+
+504
+00:11:09,050 --> 00:11:09,060
+defines a mirror that is orthogonal to
+ 
+
+505
+00:11:09,060 --> 00:11:12,290
+defines a mirror that is orthogonal to
+it but recall orthogonality means
+
+506
+00:11:12,290 --> 00:11:12,300
+it but recall orthogonality means
+ 
+
+507
+00:11:12,300 --> 00:11:14,509
+it but recall orthogonality means
+forming equal angles with a light beam
+
+508
+00:11:14,509 --> 00:11:14,519
+forming equal angles with a light beam
+ 
+
+509
+00:11:14,519 --> 00:11:17,509
+forming equal angles with a light beam
+so the mirror looks like this
+
+510
+00:11:17,509 --> 00:11:17,519
+so the mirror looks like this
+ 
+
+511
+00:11:17,519 --> 00:11:19,850
+so the mirror looks like this
+when we reflect a vector in the mirror
+
+512
+00:11:19,850 --> 00:11:19,860
+when we reflect a vector in the mirror
+ 
+
+513
+00:11:19,860 --> 00:11:22,810
+when we reflect a vector in the mirror
+the initial and final vectors form equal
+
+514
+00:11:22,810 --> 00:11:22,820
+the initial and final vectors form equal
+ 
+
+515
+00:11:22,820 --> 00:11:25,970
+the initial and final vectors form equal
+hyperbolic angles with the mirror
+
+516
+00:11:25,970 --> 00:11:25,980
+hyperbolic angles with the mirror
+ 
+
+517
+00:11:25,980 --> 00:11:28,009
+hyperbolic angles with the mirror
+so this is a little more complicated
+
+518
+00:11:28,009 --> 00:11:28,019
+so this is a little more complicated
+ 
+
+519
+00:11:28,019 --> 00:11:30,710
+so this is a little more complicated
+than physical space but the basic idea
+
+520
+00:11:30,710 --> 00:11:30,720
+than physical space but the basic idea
+ 
+
+521
+00:11:30,720 --> 00:11:32,690
+than physical space but the basic idea
+is the same
+
+522
+00:11:32,690 --> 00:11:32,700
+is the same
+ 
+
+523
+00:11:32,700 --> 00:11:35,150
+is the same
+the Reflections in space time are done
+
+524
+00:11:35,150 --> 00:11:35,160
+the Reflections in space time are done
+ 
+
+525
+00:11:35,160 --> 00:11:37,250
+the Reflections in space time are done
+exactly as before with negative
+
+526
+00:11:37,250 --> 00:11:37,260
+exactly as before with negative
+ 
+
+527
+00:11:37,260 --> 00:11:40,130
+exactly as before with negative
+conjugation however note that the
+
+528
+00:11:40,130 --> 00:11:40,140
+conjugation however note that the
+ 
+
+529
+00:11:40,140 --> 00:11:42,530
+conjugation however note that the
+inverse operation on the right is always
+
+530
+00:11:42,530 --> 00:11:42,540
+inverse operation on the right is always
+ 
+
+531
+00:11:42,540 --> 00:11:44,090
+inverse operation on the right is always
+required
+
+532
+00:11:44,090 --> 00:11:44,100
+required
+ 
+
+533
+00:11:44,100 --> 00:11:46,550
+required
+if we reflect with a space like vector
+
+534
+00:11:46,550 --> 00:11:46,560
+if we reflect with a space like vector
+ 
+
+535
+00:11:46,560 --> 00:11:49,730
+if we reflect with a space like vector
+its squared length is negative and this
+
+536
+00:11:49,730 --> 00:11:49,740
+its squared length is negative and this
+ 
+
+537
+00:11:49,740 --> 00:11:51,829
+its squared length is negative and this
+negative sign is important to keep track
+
+538
+00:11:51,829 --> 00:11:51,839
+negative sign is important to keep track
+ 
+
+539
+00:11:51,839 --> 00:11:54,350
+negative sign is important to keep track
+of in the reflection formula
+
+540
+00:11:54,350 --> 00:11:54,360
+of in the reflection formula
+ 
+
+541
+00:11:54,360 --> 00:11:57,290
+of in the reflection formula
+gamma X for example is a space like
+
+542
+00:11:57,290 --> 00:11:57,300
+gamma X for example is a space like
+ 
+
+543
+00:11:57,300 --> 00:11:59,690
+gamma X for example is a space like
+vector this means that the inverse of
+
+544
+00:11:59,690 --> 00:11:59,700
+vector this means that the inverse of
+ 
+
+545
+00:11:59,700 --> 00:12:02,630
+vector this means that the inverse of
+gamma X is actually negative gamma X
+
+546
+00:12:02,630 --> 00:12:02,640
+gamma X is actually negative gamma X
+ 
+
+547
+00:12:02,640 --> 00:12:06,069
+gamma X is actually negative gamma X
+since gamma X squares to negative one
+
+548
+00:12:06,069 --> 00:12:06,079
+since gamma X squares to negative one
+ 
+
+549
+00:12:06,079 --> 00:12:09,350
+since gamma X squares to negative one
+this extra minus sign in the inverse is
+
+550
+00:12:09,350 --> 00:12:09,360
+this extra minus sign in the inverse is
+ 
+
+551
+00:12:09,360 --> 00:12:11,690
+this extra minus sign in the inverse is
+important to keep track of
+
+552
+00:12:11,690 --> 00:12:11,700
+important to keep track of
+ 
+
+553
+00:12:11,700 --> 00:12:14,449
+important to keep track of
+if we try to do a reflection this extra
+
+554
+00:12:14,449 --> 00:12:14,459
+if we try to do a reflection this extra
+ 
+
+555
+00:12:14,459 --> 00:12:16,550
+if we try to do a reflection this extra
+minus sign will cancel out with the
+
+556
+00:12:16,550 --> 00:12:16,560
+minus sign will cancel out with the
+ 
+
+557
+00:12:16,560 --> 00:12:18,970
+minus sign will cancel out with the
+minus sign we get from squaring gamma X
+
+558
+00:12:18,970 --> 00:12:18,980
+minus sign we get from squaring gamma X
+ 
+
+559
+00:12:18,980 --> 00:12:21,470
+minus sign we get from squaring gamma X
+ensuring that our result has the correct
+
+560
+00:12:21,470 --> 00:12:21,480
+ensuring that our result has the correct
+ 
+
+561
+00:12:21,480 --> 00:12:23,329
+ensuring that our result has the correct
+sign
+
+562
+00:12:23,329 --> 00:12:23,339
+sign
+ 
+
+563
+00:12:23,339 --> 00:12:26,870
+sign
+also some vectors in space time such as
+
+564
+00:12:26,870 --> 00:12:26,880
+also some vectors in space time such as
+ 
+
+565
+00:12:26,880 --> 00:12:31,130
+also some vectors in space time such as
+gamma t plus gamma Z Square to zero
+
+566
+00:12:31,130 --> 00:12:31,140
+gamma t plus gamma Z Square to zero
+ 
+
+567
+00:12:31,140 --> 00:12:33,590
+gamma t plus gamma Z Square to zero
+these are the light like vectors which
+
+568
+00:12:33,590 --> 00:12:33,600
+these are the light like vectors which
+ 
+
+569
+00:12:33,600 --> 00:12:35,990
+these are the light like vectors which
+point along the paths of light beams in
+
+570
+00:12:35,990 --> 00:12:36,000
+point along the paths of light beams in
+ 
+
+571
+00:12:36,000 --> 00:12:37,370
+point along the paths of light beams in
+space time
+
+572
+00:12:37,370 --> 00:12:37,380
+space time
+ 
+
+573
+00:12:37,380 --> 00:12:39,710
+space time
+because their squared length is zero
+
+574
+00:12:39,710 --> 00:12:39,720
+because their squared length is zero
+ 
+
+575
+00:12:39,720 --> 00:12:43,310
+because their squared length is zero
+lights like vectors have no inverse and
+
+576
+00:12:43,310 --> 00:12:43,320
+lights like vectors have no inverse and
+ 
+
+577
+00:12:43,320 --> 00:12:45,829
+lights like vectors have no inverse and
+so we cannot use them to reflect along
+
+578
+00:12:45,829 --> 00:12:45,839
+so we cannot use them to reflect along
+ 
+
+579
+00:12:45,839 --> 00:12:48,110
+so we cannot use them to reflect along
+four reflections
+
+580
+00:12:48,110 --> 00:12:48,120
+four reflections
+ 
+
+581
+00:12:48,120 --> 00:12:50,569
+four reflections
+you can think of a light-like vector as
+
+582
+00:12:50,569 --> 00:12:50,579
+you can think of a light-like vector as
+ 
+
+583
+00:12:50,579 --> 00:12:52,970
+you can think of a light-like vector as
+existing at an infinite hyperbolic angle
+
+584
+00:12:52,970 --> 00:12:52,980
+existing at an infinite hyperbolic angle
+ 
+
+585
+00:12:52,980 --> 00:12:55,910
+existing at an infinite hyperbolic angle
+so we can't use it to measure hyperbolic
+
+586
+00:12:55,910 --> 00:12:55,920
+so we can't use it to measure hyperbolic
+ 
+
+587
+00:12:55,920 --> 00:12:58,129
+so we can't use it to measure hyperbolic
+reflection angles with our initial and
+
+588
+00:12:58,129 --> 00:12:58,139
+reflection angles with our initial and
+ 
+
+589
+00:12:58,139 --> 00:13:00,949
+reflection angles with our initial and
+final vectors
+
+590
+00:13:00,949 --> 00:13:00,959
+final vectors
+ 
+
+591
+00:13:00,959 --> 00:13:02,990
+final vectors
+so reflections of vectors in physical
+
+592
+00:13:02,990 --> 00:13:03,000
+so reflections of vectors in physical
+ 
+
+593
+00:13:03,000 --> 00:13:06,230
+so reflections of vectors in physical
+space and space time both use the same
+
+594
+00:13:06,230 --> 00:13:06,240
+space and space time both use the same
+ 
+
+595
+00:13:06,240 --> 00:13:08,870
+space and space time both use the same
+negative conjugation formula
+
+596
+00:13:08,870 --> 00:13:08,880
+negative conjugation formula
+ 
+
+597
+00:13:08,880 --> 00:13:11,810
+negative conjugation formula
+this negative conjugation Works in all
+
+598
+00:13:11,810 --> 00:13:11,820
+this negative conjugation Works in all
+ 
+
+599
+00:13:11,820 --> 00:13:14,210
+this negative conjugation Works in all
+Clifford algebras of any Dimension as
+
+600
+00:13:14,210 --> 00:13:14,220
+Clifford algebras of any Dimension as
+ 
+
+601
+00:13:14,220 --> 00:13:19,610
+Clifford algebras of any Dimension as
+well not just 3D space or 4D space-time
+
+602
+00:13:19,610 --> 00:13:19,620
+well not just 3D space or 4D space-time
+ 
+
+603
+00:13:19,620 --> 00:13:22,190
+well not just 3D space or 4D space-time
+now let's look into doing rotations in
+
+604
+00:13:22,190 --> 00:13:22,200
+now let's look into doing rotations in
+ 
+
+605
+00:13:22,200 --> 00:13:25,610
+now let's look into doing rotations in
+physical space with cl30
+
+606
+00:13:25,610 --> 00:13:25,620
+physical space with cl30
+ 
+
+607
+00:13:25,620 --> 00:13:28,129
+physical space with cl30
+a rotation can be thought of as a pair
+
+608
+00:13:28,129 --> 00:13:28,139
+a rotation can be thought of as a pair
+ 
+
+609
+00:13:28,139 --> 00:13:31,310
+a rotation can be thought of as a pair
+of Reflections for example if we take
+
+610
+00:13:31,310 --> 00:13:31,320
+of Reflections for example if we take
+ 
+
+611
+00:13:31,320 --> 00:13:33,889
+of Reflections for example if we take
+this flag and reflect it in this mirror
+
+612
+00:13:33,889 --> 00:13:33,899
+this flag and reflect it in this mirror
+ 
+
+613
+00:13:33,899 --> 00:13:36,290
+this flag and reflect it in this mirror
+then take the result and reflect it in
+
+614
+00:13:36,290 --> 00:13:36,300
+then take the result and reflect it in
+ 
+
+615
+00:13:36,300 --> 00:13:39,170
+then take the result and reflect it in
+this mirror we end up with a rotation of
+
+616
+00:13:39,170 --> 00:13:39,180
+this mirror we end up with a rotation of
+ 
+
+617
+00:13:39,180 --> 00:13:40,790
+this mirror we end up with a rotation of
+the original flag
+
+618
+00:13:40,790 --> 00:13:40,800
+the original flag
+ 
+
+619
+00:13:40,800 --> 00:13:43,550
+the original flag
+so if we want to rotate something all we
+
+620
+00:13:43,550 --> 00:13:43,560
+so if we want to rotate something all we
+ 
+
+621
+00:13:43,560 --> 00:13:47,030
+so if we want to rotate something all we
+need to do is do a pair of reflections
+
+622
+00:13:47,030 --> 00:13:47,040
+need to do is do a pair of reflections
+ 
+
+623
+00:13:47,040 --> 00:13:49,430
+need to do is do a pair of reflections
+also notice that the angle of the flag's
+
+624
+00:13:49,430 --> 00:13:49,440
+also notice that the angle of the flag's
+ 
+
+625
+00:13:49,440 --> 00:13:52,430
+also notice that the angle of the flag's
+rotation is twice the angle between the
+
+626
+00:13:52,430 --> 00:13:52,440
+rotation is twice the angle between the
+ 
+
+627
+00:13:52,440 --> 00:13:54,470
+rotation is twice the angle between the
+two mirrors that we used
+
+628
+00:13:54,470 --> 00:13:54,480
+two mirrors that we used
+ 
+
+629
+00:13:54,480 --> 00:13:56,870
+two mirrors that we used
+so if we want to do a rotation by some
+
+630
+00:13:56,870 --> 00:13:56,880
+so if we want to do a rotation by some
+ 
+
+631
+00:13:56,880 --> 00:13:59,449
+so if we want to do a rotation by some
+angle Theta all we need to do is pick
+
+632
+00:13:59,449 --> 00:13:59,459
+angle Theta all we need to do is pick
+ 
+
+633
+00:13:59,459 --> 00:14:01,610
+angle Theta all we need to do is pick
+two reflection vectors that are at an
+
+634
+00:14:01,610 --> 00:14:01,620
+two reflection vectors that are at an
+ 
+
+635
+00:14:01,620 --> 00:14:05,030
+two reflection vectors that are at an
+angle of theta over two apart
+
+636
+00:14:05,030 --> 00:14:05,040
+angle of theta over two apart
+ 
+
+637
+00:14:05,040 --> 00:14:07,190
+angle of theta over two apart
+let's say we want to do a rotation by
+
+638
+00:14:07,190 --> 00:14:07,200
+let's say we want to do a rotation by
+ 
+
+639
+00:14:07,200 --> 00:14:10,550
+let's say we want to do a rotation by
+angle Theta in the X Y plane first we
+
+640
+00:14:10,550 --> 00:14:10,560
+angle Theta in the X Y plane first we
+ 
+
+641
+00:14:10,560 --> 00:14:13,129
+angle Theta in the X Y plane first we
+reflect along the x-axis with Sigma X
+
+642
+00:14:13,129 --> 00:14:13,139
+reflect along the x-axis with Sigma X
+ 
+
+643
+00:14:13,139 --> 00:14:16,430
+reflect along the x-axis with Sigma X
+then we reflect along a unit Vector Tau
+
+644
+00:14:16,430 --> 00:14:16,440
+then we reflect along a unit Vector Tau
+ 
+
+645
+00:14:16,440 --> 00:14:19,009
+then we reflect along a unit Vector Tau
+which forms an angle of theta over two
+
+646
+00:14:19,009 --> 00:14:19,019
+which forms an angle of theta over two
+ 
+
+647
+00:14:19,019 --> 00:14:20,990
+which forms an angle of theta over two
+with Sigma X
+
+648
+00:14:20,990 --> 00:14:21,000
+with Sigma X
+ 
+
+649
+00:14:21,000 --> 00:14:24,050
+with Sigma X
+in other words Tau equals cosine Theta
+
+650
+00:14:24,050 --> 00:14:24,060
+in other words Tau equals cosine Theta
+ 
+
+651
+00:14:24,060 --> 00:14:27,230
+in other words Tau equals cosine Theta
+over 2 Sigma X Plus sine Theta over 2
+
+652
+00:14:27,230 --> 00:14:27,240
+over 2 Sigma X Plus sine Theta over 2
+ 
+
+653
+00:14:27,240 --> 00:14:29,629
+over 2 Sigma X Plus sine Theta over 2
+Sigma y
+
+654
+00:14:29,629 --> 00:14:29,639
+Sigma y
+ 
+
+655
+00:14:29,639 --> 00:14:32,090
+Sigma y
+so let's see what our rotation formula
+
+656
+00:14:32,090 --> 00:14:32,100
+so let's see what our rotation formula
+ 
+
+657
+00:14:32,100 --> 00:14:34,310
+so let's see what our rotation formula
+looks like on a vector v
+
+658
+00:14:34,310 --> 00:14:34,320
+looks like on a vector v
+ 
+
+659
+00:14:34,320 --> 00:14:37,250
+looks like on a vector v
+first we reflect along Sigma X then we
+
+660
+00:14:37,250 --> 00:14:37,260
+first we reflect along Sigma X then we
+ 
+
+661
+00:14:37,260 --> 00:14:40,550
+first we reflect along Sigma X then we
+reflect along Tau the two negative signs
+
+662
+00:14:40,550 --> 00:14:40,560
+reflect along Tau the two negative signs
+ 
+
+663
+00:14:40,560 --> 00:14:43,790
+reflect along Tau the two negative signs
+in the double reflection cancel out also
+
+664
+00:14:43,790 --> 00:14:43,800
+in the double reflection cancel out also
+ 
+
+665
+00:14:43,800 --> 00:14:46,310
+in the double reflection cancel out also
+it's a rule in algebra that the inverse
+
+666
+00:14:46,310 --> 00:14:46,320
+it's a rule in algebra that the inverse
+ 
+
+667
+00:14:46,320 --> 00:14:48,470
+it's a rule in algebra that the inverse
+of a product is the product of the
+
+668
+00:14:48,470 --> 00:14:48,480
+of a product is the product of the
+ 
+
+669
+00:14:48,480 --> 00:14:50,530
+of a product is the product of the
+inverses written in the opposite order
+
+670
+00:14:50,530 --> 00:14:50,540
+inverses written in the opposite order
+ 
+
+671
+00:14:50,540 --> 00:14:53,389
+inverses written in the opposite order
+this causes the terms in their inverses
+
+672
+00:14:53,389 --> 00:14:53,399
+this causes the terms in their inverses
+ 
+
+673
+00:14:53,399 --> 00:14:56,210
+this causes the terms in their inverses
+to cancel out one by one
+
+674
+00:14:56,210 --> 00:14:56,220
+to cancel out one by one
+ 
+
+675
+00:14:56,220 --> 00:14:59,030
+to cancel out one by one
+so we can rewrite Sigma X inverse times
+
+676
+00:14:59,030 --> 00:14:59,040
+so we can rewrite Sigma X inverse times
+ 
+
+677
+00:14:59,040 --> 00:15:02,210
+so we can rewrite Sigma X inverse times
+Tau inverse as the inverse of Tau times
+
+678
+00:15:02,210 --> 00:15:02,220
+Tau inverse as the inverse of Tau times
+ 
+
+679
+00:15:02,220 --> 00:15:03,710
+Tau inverse as the inverse of Tau times
+Sigma X
+
+680
+00:15:03,710 --> 00:15:03,720
+Sigma X
+ 
+
+681
+00:15:03,720 --> 00:15:06,889
+Sigma X
+note that our rotation formula is also a
+
+682
+00:15:06,889 --> 00:15:06,899
+note that our rotation formula is also a
+ 
+
+683
+00:15:06,899 --> 00:15:09,410
+note that our rotation formula is also a
+conjugation formula with a product of
+
+684
+00:15:09,410 --> 00:15:09,420
+conjugation formula with a product of
+ 
+
+685
+00:15:09,420 --> 00:15:11,870
+conjugation formula with a product of
+vectors on the left and the inverse of
+
+686
+00:15:11,870 --> 00:15:11,880
+vectors on the left and the inverse of
+ 
+
+687
+00:15:11,880 --> 00:15:14,569
+vectors on the left and the inverse of
+that product of vectors on the right
+
+688
+00:15:14,569 --> 00:15:14,579
+that product of vectors on the right
+ 
+
+689
+00:15:14,579 --> 00:15:16,910
+that product of vectors on the right
+we'll call this product of vectors
+
+690
+00:15:16,910 --> 00:15:16,920
+we'll call this product of vectors
+ 
+
+691
+00:15:16,920 --> 00:15:19,670
+we'll call this product of vectors
+averser which is a word we'll talk more
+
+692
+00:15:19,670 --> 00:15:19,680
+averser which is a word we'll talk more
+ 
+
+693
+00:15:19,680 --> 00:15:21,110
+averser which is a word we'll talk more
+about later
+
+694
+00:15:21,110 --> 00:15:21,120
+about later
+ 
+
+695
+00:15:21,120 --> 00:15:23,449
+about later
+the angle between the two vectors in the
+
+696
+00:15:23,449 --> 00:15:23,459
+the angle between the two vectors in the
+ 
+
+697
+00:15:23,459 --> 00:15:26,810
+the angle between the two vectors in the
+verser is half of the rotation angle
+
+698
+00:15:26,810 --> 00:15:26,820
+verser is half of the rotation angle
+ 
+
+699
+00:15:26,820 --> 00:15:29,329
+verser is half of the rotation angle
+so it's as if each verser does a
+
+700
+00:15:29,329 --> 00:15:29,339
+so it's as if each verser does a
+ 
+
+701
+00:15:29,339 --> 00:15:31,790
+so it's as if each verser does a
+rotation of theta over two and they
+
+702
+00:15:31,790 --> 00:15:31,800
+rotation of theta over two and they
+ 
+
+703
+00:15:31,800 --> 00:15:35,269
+rotation of theta over two and they
+combine to do a rotation of theta
+
+704
+00:15:35,269 --> 00:15:35,279
+combine to do a rotation of theta
+ 
+
+705
+00:15:35,279 --> 00:15:37,550
+combine to do a rotation of theta
+now let's plug in our definition of Tau
+
+706
+00:15:37,550 --> 00:15:37,560
+now let's plug in our definition of Tau
+ 
+
+707
+00:15:37,560 --> 00:15:39,949
+now let's plug in our definition of Tau
+into the rotation formula
+
+708
+00:15:39,949 --> 00:15:39,959
+into the rotation formula
+ 
+
+709
+00:15:39,959 --> 00:15:42,949
+into the rotation formula
+we can distribute the sigma X
+
+710
+00:15:42,949 --> 00:15:42,959
+we can distribute the sigma X
+ 
+
+711
+00:15:42,959 --> 00:15:45,769
+we can distribute the sigma X
+recall that Sigma x squared equals plus
+
+712
+00:15:45,769 --> 00:15:45,779
+recall that Sigma x squared equals plus
+ 
+
+713
+00:15:45,779 --> 00:15:48,530
+recall that Sigma x squared equals plus
+one so we get this
+
+714
+00:15:48,530 --> 00:15:48,540
+one so we get this
+ 
+
+715
+00:15:48,540 --> 00:15:51,230
+one so we get this
+as a final step I'm going to reverse the
+
+716
+00:15:51,230 --> 00:15:51,240
+as a final step I'm going to reverse the
+ 
+
+717
+00:15:51,240 --> 00:15:53,329
+as a final step I'm going to reverse the
+order of the sigmas and introduce a
+
+718
+00:15:53,329 --> 00:15:53,339
+order of the sigmas and introduce a
+ 
+
+719
+00:15:53,339 --> 00:15:55,730
+order of the sigmas and introduce a
+negative sign so that it reads negative
+
+720
+00:15:55,730 --> 00:15:55,740
+negative sign so that it reads negative
+ 
+
+721
+00:15:55,740 --> 00:15:58,790
+negative sign so that it reads negative
+Sigma x times Sigma y this reminds us
+
+722
+00:15:58,790 --> 00:15:58,800
+Sigma x times Sigma y this reminds us
+ 
+
+723
+00:15:58,800 --> 00:16:01,189
+Sigma x times Sigma y this reminds us
+that the rotation is in the orientation
+
+724
+00:16:01,189 --> 00:16:01,199
+that the rotation is in the orientation
+ 
+
+725
+00:16:01,199 --> 00:16:04,189
+that the rotation is in the orientation
+that brings the positive x-axis towards
+
+726
+00:16:04,189 --> 00:16:04,199
+that brings the positive x-axis towards
+ 
+
+727
+00:16:04,199 --> 00:16:06,710
+that brings the positive x-axis towards
+the positive y-axis
+
+728
+00:16:06,710 --> 00:16:06,720
+the positive y-axis
+ 
+
+729
+00:16:06,720 --> 00:16:10,189
+the positive y-axis
+now let's look at what we have so far we
+
+730
+00:16:10,189 --> 00:16:10,199
+now let's look at what we have so far we
+ 
+
+731
+00:16:10,199 --> 00:16:12,050
+now let's look at what we have so far we
+know rotations are done using
+
+732
+00:16:12,050 --> 00:16:12,060
+know rotations are done using
+ 
+
+733
+00:16:12,060 --> 00:16:14,569
+know rotations are done using
+conjugation with a product of a pair of
+
+734
+00:16:14,569 --> 00:16:14,579
+conjugation with a product of a pair of
+ 
+
+735
+00:16:14,579 --> 00:16:17,389
+conjugation with a product of a pair of
+vectors and this pair of vectors is
+
+736
+00:16:17,389 --> 00:16:17,399
+vectors and this pair of vectors is
+ 
+
+737
+00:16:17,399 --> 00:16:19,610
+vectors and this pair of vectors is
+sometimes called averser
+
+738
+00:16:19,610 --> 00:16:19,620
+sometimes called averser
+ 
+
+739
+00:16:19,620 --> 00:16:21,769
+sometimes called averser
+the verser can be written using a pair
+
+740
+00:16:21,769 --> 00:16:21,779
+the verser can be written using a pair
+ 
+
+741
+00:16:21,779 --> 00:16:24,829
+the verser can be written using a pair
+of vectors like this or in expanded form
+
+742
+00:16:24,829 --> 00:16:24,839
+of vectors like this or in expanded form
+ 
+
+743
+00:16:24,839 --> 00:16:27,350
+of vectors like this or in expanded form
+using cosines and Sines
+
+744
+00:16:27,350 --> 00:16:27,360
+using cosines and Sines
+ 
+
+745
+00:16:27,360 --> 00:16:30,530
+using cosines and Sines
+note that this verser is not a bi-vector
+
+746
+00:16:30,530 --> 00:16:30,540
+note that this verser is not a bi-vector
+ 
+
+747
+00:16:30,540 --> 00:16:33,530
+note that this verser is not a bi-vector
+in general a bi-vector is given by the
+
+748
+00:16:33,530 --> 00:16:33,540
+in general a bi-vector is given by the
+ 
+
+749
+00:16:33,540 --> 00:16:36,410
+in general a bi-vector is given by the
+wedge product of two vectors but the
+
+750
+00:16:36,410 --> 00:16:36,420
+wedge product of two vectors but the
+ 
+
+751
+00:16:36,420 --> 00:16:38,449
+wedge product of two vectors but the
+verser is given by the Clifford product
+
+752
+00:16:38,449 --> 00:16:38,459
+verser is given by the Clifford product
+ 
+
+753
+00:16:38,459 --> 00:16:41,269
+verser is given by the Clifford product
+of two vectors which has a DOT product
+
+754
+00:16:41,269 --> 00:16:41,279
+of two vectors which has a DOT product
+ 
+
+755
+00:16:41,279 --> 00:16:43,970
+of two vectors which has a DOT product
+part that results in a scalar and a
+
+756
+00:16:43,970 --> 00:16:43,980
+part that results in a scalar and a
+ 
+
+757
+00:16:43,980 --> 00:16:46,069
+part that results in a scalar and a
+wedge product part which results in a
+
+758
+00:16:46,069 --> 00:16:46,079
+wedge product part which results in a
+ 
+
+759
+00:16:46,079 --> 00:16:47,689
+wedge product part which results in a
+bi-vector
+
+760
+00:16:47,689 --> 00:16:47,699
+bi-vector
+ 
+
+761
+00:16:47,699 --> 00:16:50,389
+bi-vector
+now what is the inverse of this verser
+
+762
+00:16:50,389 --> 00:16:50,399
+now what is the inverse of this verser
+ 
+
+763
+00:16:50,399 --> 00:16:52,790
+now what is the inverse of this verser
+recall that we can write the inverse of
+
+764
+00:16:52,790 --> 00:16:52,800
+recall that we can write the inverse of
+ 
+
+765
+00:16:52,800 --> 00:16:55,249
+recall that we can write the inverse of
+a product as the product of inverses in
+
+766
+00:16:55,249 --> 00:16:55,259
+a product as the product of inverses in
+ 
+
+767
+00:16:55,259 --> 00:16:58,550
+a product as the product of inverses in
+the opposite order recall Sigma X and
+
+768
+00:16:58,550 --> 00:16:58,560
+the opposite order recall Sigma X and
+ 
+
+769
+00:16:58,560 --> 00:17:02,090
+the opposite order recall Sigma X and
+Tau are not always orthogonal so we
+
+770
+00:17:02,090 --> 00:17:02,100
+Tau are not always orthogonal so we
+ 
+
+771
+00:17:02,100 --> 00:17:04,250
+Tau are not always orthogonal so we
+cannot swap them in exchange for a
+
+772
+00:17:04,250 --> 00:17:04,260
+cannot swap them in exchange for a
+ 
+
+773
+00:17:04,260 --> 00:17:05,689
+cannot swap them in exchange for a
+negative sign
+
+774
+00:17:05,689 --> 00:17:05,699
+negative sign
+ 
+
+775
+00:17:05,699 --> 00:17:08,689
+negative sign
+however since Sigma X and Tau are both
+
+776
+00:17:08,689 --> 00:17:08,699
+however since Sigma X and Tau are both
+ 
+
+777
+00:17:08,699 --> 00:17:10,970
+however since Sigma X and Tau are both
+unit vectors that square two plus one
+
+778
+00:17:10,970 --> 00:17:10,980
+unit vectors that square two plus one
+ 
+
+779
+00:17:10,980 --> 00:17:13,909
+unit vectors that square two plus one
+they are their own inverses
+
+780
+00:17:13,909 --> 00:17:13,919
+they are their own inverses
+ 
+
+781
+00:17:13,919 --> 00:17:16,429
+they are their own inverses
+so in this special case of unit vectors
+
+782
+00:17:16,429 --> 00:17:16,439
+so in this special case of unit vectors
+ 
+
+783
+00:17:16,439 --> 00:17:19,250
+so in this special case of unit vectors
+the inverse of the verser involves just
+
+784
+00:17:19,250 --> 00:17:19,260
+the inverse of the verser involves just
+ 
+
+785
+00:17:19,260 --> 00:17:21,949
+the inverse of the verser involves just
+swapping the order of the vectors
+
+786
+00:17:21,949 --> 00:17:21,959
+swapping the order of the vectors
+ 
+
+787
+00:17:21,959 --> 00:17:24,110
+swapping the order of the vectors
+we can also apply this logic to our
+
+788
+00:17:24,110 --> 00:17:24,120
+we can also apply this logic to our
+ 
+
+789
+00:17:24,120 --> 00:17:27,049
+we can also apply this logic to our
+formula with Sines and cosines we get
+
+790
+00:17:27,049 --> 00:17:27,059
+formula with Sines and cosines we get
+ 
+
+791
+00:17:27,059 --> 00:17:28,909
+formula with Sines and cosines we get
+the inverse just by swapping the order
+
+792
+00:17:28,909 --> 00:17:28,919
+the inverse just by swapping the order
+ 
+
+793
+00:17:28,919 --> 00:17:30,530
+the inverse just by swapping the order
+of the sigmas
+
+794
+00:17:30,530 --> 00:17:30,540
+of the sigmas
+ 
+
+795
+00:17:30,540 --> 00:17:33,830
+of the sigmas
+since Sigma X and sigma y are orthogonal
+
+796
+00:17:33,830 --> 00:17:33,840
+since Sigma X and sigma y are orthogonal
+ 
+
+797
+00:17:33,840 --> 00:17:36,289
+since Sigma X and sigma y are orthogonal
+we can swap them in exchange for a
+
+798
+00:17:36,289 --> 00:17:36,299
+we can swap them in exchange for a
+ 
+
+799
+00:17:36,299 --> 00:17:38,510
+we can swap them in exchange for a
+negative sign if we want
+
+800
+00:17:38,510 --> 00:17:38,520
+negative sign if we want
+ 
+
+801
+00:17:38,520 --> 00:17:41,630
+negative sign if we want
+Sigma x times Sigma y also squares 2
+
+802
+00:17:41,630 --> 00:17:41,640
+Sigma x times Sigma y also squares 2
+ 
+
+803
+00:17:41,640 --> 00:17:44,270
+Sigma x times Sigma y also squares 2
+negative one so it's similar to The
+
+804
+00:17:44,270 --> 00:17:44,280
+negative one so it's similar to The
+ 
+
+805
+00:17:44,280 --> 00:17:47,690
+negative one so it's similar to The
+Complex I and the reversal operation is
+
+806
+00:17:47,690 --> 00:17:47,700
+Complex I and the reversal operation is
+ 
+
+807
+00:17:47,700 --> 00:17:51,049
+Complex I and the reversal operation is
+a bit like taking the complex conjugate
+
+808
+00:17:51,049 --> 00:17:51,059
+a bit like taking the complex conjugate
+ 
+
+809
+00:17:51,059 --> 00:17:53,390
+a bit like taking the complex conjugate
+in the special case where the verser is
+
+810
+00:17:53,390 --> 00:17:53,400
+in the special case where the verser is
+ 
+
+811
+00:17:53,400 --> 00:17:55,970
+in the special case where the verser is
+made up of unit vectors we can replace
+
+812
+00:17:55,970 --> 00:17:55,980
+made up of unit vectors we can replace
+ 
+
+813
+00:17:55,980 --> 00:17:59,029
+made up of unit vectors we can replace
+the inverse operation with a reversal
+
+814
+00:17:59,029 --> 00:17:59,039
+the inverse operation with a reversal
+ 
+
+815
+00:17:59,039 --> 00:18:01,730
+the inverse operation with a reversal
+operation which is often written as a
+
+816
+00:18:01,730 --> 00:18:01,740
+operation which is often written as a
+ 
+
+817
+00:18:01,740 --> 00:18:04,730
+operation which is often written as a
+tilde or a dagger the dagger taking
+
+818
+00:18:04,730 --> 00:18:04,740
+tilde or a dagger the dagger taking
+ 
+
+819
+00:18:04,740 --> 00:18:06,950
+tilde or a dagger the dagger taking
+inspiration from the hermitian conjugate
+
+820
+00:18:06,950 --> 00:18:06,960
+inspiration from the hermitian conjugate
+ 
+
+821
+00:18:06,960 --> 00:18:09,230
+inspiration from the hermitian conjugate
+which is known to reverse the order of
+
+822
+00:18:09,230 --> 00:18:09,240
+which is known to reverse the order of
+ 
+
+823
+00:18:09,240 --> 00:18:11,690
+which is known to reverse the order of
+Pauli matrices
+
+824
+00:18:11,690 --> 00:18:11,700
+Pauli matrices
+ 
+
+825
+00:18:11,700 --> 00:18:14,630
+Pauli matrices
+however what if we used averser that is
+
+826
+00:18:14,630 --> 00:18:14,640
+however what if we used averser that is
+ 
+
+827
+00:18:14,640 --> 00:18:17,870
+however what if we used averser that is
+not made of unit vectors such as 5 Sigma
+
+828
+00:18:17,870 --> 00:18:17,880
+not made of unit vectors such as 5 Sigma
+ 
+
+829
+00:18:17,880 --> 00:18:19,610
+not made of unit vectors such as 5 Sigma
+x times Tau
+
+830
+00:18:19,610 --> 00:18:19,620
+x times Tau
+ 
+
+831
+00:18:19,620 --> 00:18:22,909
+x times Tau
+the inverse in this case is not just the
+
+832
+00:18:22,909 --> 00:18:22,919
+the inverse in this case is not just the
+ 
+
+833
+00:18:22,919 --> 00:18:25,490
+the inverse in this case is not just the
+reverse we need to include additional
+
+834
+00:18:25,490 --> 00:18:25,500
+reverse we need to include additional
+ 
+
+835
+00:18:25,500 --> 00:18:27,950
+reverse we need to include additional
+numerical factors because the vectors
+
+836
+00:18:27,950 --> 00:18:27,960
+numerical factors because the vectors
+ 
+
+837
+00:18:27,960 --> 00:18:30,289
+numerical factors because the vectors
+don't have length one
+
+838
+00:18:30,289 --> 00:18:30,299
+don't have length one
+ 
+
+839
+00:18:30,299 --> 00:18:32,450
+don't have length one
+the inverse ends up being the reverse
+
+840
+00:18:32,450 --> 00:18:32,460
+the inverse ends up being the reverse
+ 
+
+841
+00:18:32,460 --> 00:18:37,130
+the inverse ends up being the reverse
+Tau times 5 Sigma X all over 5 squared
+
+842
+00:18:37,130 --> 00:18:37,140
+Tau times 5 Sigma X all over 5 squared
+ 
+
+843
+00:18:37,140 --> 00:18:39,529
+Tau times 5 Sigma X all over 5 squared
+which is the squared magnitude of 5
+
+844
+00:18:39,529 --> 00:18:39,539
+which is the squared magnitude of 5
+ 
+
+845
+00:18:39,539 --> 00:18:41,210
+which is the squared magnitude of 5
+Sigma X
+
+846
+00:18:41,210 --> 00:18:41,220
+Sigma X
+ 
+
+847
+00:18:41,220 --> 00:18:44,029
+Sigma X
+just like we saw with Reflections each
+
+848
+00:18:44,029 --> 00:18:44,039
+just like we saw with Reflections each
+ 
+
+849
+00:18:44,039 --> 00:18:46,370
+just like we saw with Reflections each
+factor of one over five will normalize
+
+850
+00:18:46,370 --> 00:18:46,380
+factor of one over five will normalize
+ 
+
+851
+00:18:46,380 --> 00:18:49,250
+factor of one over five will normalize
+the vectors on either side making the
+
+852
+00:18:49,250 --> 00:18:49,260
+the vectors on either side making the
+ 
+
+853
+00:18:49,260 --> 00:18:51,710
+the vectors on either side making the
+formula the same as if we rotated using
+
+854
+00:18:51,710 --> 00:18:51,720
+formula the same as if we rotated using
+ 
+
+855
+00:18:51,720 --> 00:18:55,490
+formula the same as if we rotated using
+averser made up of only unit vectors
+
+856
+00:18:55,490 --> 00:18:55,500
+averser made up of only unit vectors
+ 
+
+857
+00:18:55,500 --> 00:18:58,010
+averser made up of only unit vectors
+now let's explicitly check that this
+
+858
+00:18:58,010 --> 00:18:58,020
+now let's explicitly check that this
+ 
+
+859
+00:18:58,020 --> 00:18:59,990
+now let's explicitly check that this
+formula actually works
+
+860
+00:18:59,990 --> 00:19:00,000
+formula actually works
+ 
+
+861
+00:19:00,000 --> 00:19:02,150
+formula actually works
+we can distribute V over the left
+
+862
+00:19:02,150 --> 00:19:02,160
+we can distribute V over the left
+ 
+
+863
+00:19:02,160 --> 00:19:03,409
+we can distribute V over the left
+brackets
+
+864
+00:19:03,409 --> 00:19:03,419
+brackets
+ 
+
+865
+00:19:03,419 --> 00:19:06,049
+brackets
+since cosine is just a scalar we can
+
+866
+00:19:06,049 --> 00:19:06,059
+since cosine is just a scalar we can
+ 
+
+867
+00:19:06,059 --> 00:19:08,810
+since cosine is just a scalar we can
+bring V to the other side for free
+
+868
+00:19:08,810 --> 00:19:08,820
+bring V to the other side for free
+ 
+
+869
+00:19:08,820 --> 00:19:10,909
+bring V to the other side for free
+for the sine term things are more
+
+870
+00:19:10,909 --> 00:19:10,919
+for the sine term things are more
+ 
+
+871
+00:19:10,919 --> 00:19:13,130
+for the sine term things are more
+complicated depending on whether or not
+
+872
+00:19:13,130 --> 00:19:13,140
+complicated depending on whether or not
+ 
+
+873
+00:19:13,140 --> 00:19:16,190
+complicated depending on whether or not
+V is in the plane of rotation
+
+874
+00:19:16,190 --> 00:19:16,200
+V is in the plane of rotation
+ 
+
+875
+00:19:16,200 --> 00:19:19,730
+V is in the plane of rotation
+if V is not in the plane of rotation for
+
+876
+00:19:19,730 --> 00:19:19,740
+if V is not in the plane of rotation for
+ 
+
+877
+00:19:19,740 --> 00:19:22,970
+if V is not in the plane of rotation for
+example V equals Sigma Z then we do two
+
+878
+00:19:22,970 --> 00:19:22,980
+example V equals Sigma Z then we do two
+ 
+
+879
+00:19:22,980 --> 00:19:25,490
+example V equals Sigma Z then we do two
+flips here picking up two negative signs
+
+880
+00:19:25,490 --> 00:19:25,500
+flips here picking up two negative signs
+ 
+
+881
+00:19:25,500 --> 00:19:27,830
+flips here picking up two negative signs
+that cancel out and the result is
+
+882
+00:19:27,830 --> 00:19:27,840
+that cancel out and the result is
+ 
+
+883
+00:19:27,840 --> 00:19:29,390
+that cancel out and the result is
+unchanged
+
+884
+00:19:29,390 --> 00:19:29,400
+unchanged
+ 
+
+885
+00:19:29,400 --> 00:19:32,510
+unchanged
+in other words if V is not in the plane
+
+886
+00:19:32,510 --> 00:19:32,520
+in other words if V is not in the plane
+ 
+
+887
+00:19:32,520 --> 00:19:35,029
+in other words if V is not in the plane
+of rotation we can move V to the other
+
+888
+00:19:35,029 --> 00:19:35,039
+of rotation we can move V to the other
+ 
+
+889
+00:19:35,039 --> 00:19:36,770
+of rotation we can move V to the other
+side of this expression without any
+
+890
+00:19:36,770 --> 00:19:36,780
+side of this expression without any
+ 
+
+891
+00:19:36,780 --> 00:19:38,210
+side of this expression without any
+changes
+
+892
+00:19:38,210 --> 00:19:38,220
+changes
+ 
+
+893
+00:19:38,220 --> 00:19:40,490
+changes
+these two expressions are inverses of
+
+894
+00:19:40,490 --> 00:19:40,500
+these two expressions are inverses of
+ 
+
+895
+00:19:40,500 --> 00:19:42,650
+these two expressions are inverses of
+each other and so they cancel out
+
+896
+00:19:42,650 --> 00:19:42,660
+each other and so they cancel out
+ 
+
+897
+00:19:42,660 --> 00:19:45,650
+each other and so they cancel out
+leaving V unchanged
+
+898
+00:19:45,650 --> 00:19:45,660
+leaving V unchanged
+ 
+
+899
+00:19:45,660 --> 00:19:48,470
+leaving V unchanged
+so if the vector v is outside the plane
+
+900
+00:19:48,470 --> 00:19:48,480
+so if the vector v is outside the plane
+ 
+
+901
+00:19:48,480 --> 00:19:51,470
+so if the vector v is outside the plane
+of rotation this rotation formula does
+
+902
+00:19:51,470 --> 00:19:51,480
+of rotation this rotation formula does
+ 
+
+903
+00:19:51,480 --> 00:19:53,630
+of rotation this rotation formula does
+not affect it
+
+904
+00:19:53,630 --> 00:19:53,640
+not affect it
+ 
+
+905
+00:19:53,640 --> 00:19:56,930
+not affect it
+however if V is in the plane of rotation
+
+906
+00:19:56,930 --> 00:19:56,940
+however if V is in the plane of rotation
+ 
+
+907
+00:19:56,940 --> 00:20:00,409
+however if V is in the plane of rotation
+for example Sigma X then we only pick up
+
+908
+00:20:00,409 --> 00:20:00,419
+for example Sigma X then we only pick up
+ 
+
+909
+00:20:00,419 --> 00:20:02,390
+for example Sigma X then we only pick up
+one negative sign while doing the
+
+910
+00:20:02,390 --> 00:20:02,400
+one negative sign while doing the
+ 
+
+911
+00:20:02,400 --> 00:20:05,090
+one negative sign while doing the
+swapping since swapping a basis Vector
+
+912
+00:20:05,090 --> 00:20:05,100
+swapping since swapping a basis Vector
+ 
+
+913
+00:20:05,100 --> 00:20:08,450
+swapping since swapping a basis Vector
+with itself does nothing in this case we
+
+914
+00:20:08,450 --> 00:20:08,460
+with itself does nothing in this case we
+ 
+
+915
+00:20:08,460 --> 00:20:11,150
+with itself does nothing in this case we
+do end up with a sign change
+
+916
+00:20:11,150 --> 00:20:11,160
+do end up with a sign change
+ 
+
+917
+00:20:11,160 --> 00:20:14,570
+do end up with a sign change
+we can Factor Sigma X out in front and
+
+918
+00:20:14,570 --> 00:20:14,580
+we can Factor Sigma X out in front and
+ 
+
+919
+00:20:14,580 --> 00:20:17,029
+we can Factor Sigma X out in front and
+as we showed before taking the inverse
+
+920
+00:20:17,029 --> 00:20:17,039
+as we showed before taking the inverse
+ 
+
+921
+00:20:17,039 --> 00:20:19,190
+as we showed before taking the inverse
+of this expression is the same thing as
+
+922
+00:20:19,190 --> 00:20:19,200
+of this expression is the same thing as
+ 
+
+923
+00:20:19,200 --> 00:20:22,070
+of this expression is the same thing as
+changing the sign in front of the sigmas
+
+924
+00:20:22,070 --> 00:20:22,080
+changing the sign in front of the sigmas
+ 
+
+925
+00:20:22,080 --> 00:20:24,230
+changing the sign in front of the sigmas
+so now instead of the vector being
+
+926
+00:20:24,230 --> 00:20:24,240
+so now instead of the vector being
+ 
+
+927
+00:20:24,240 --> 00:20:27,049
+so now instead of the vector being
+unchanged we have the vector times this
+
+928
+00:20:27,049 --> 00:20:27,059
+unchanged we have the vector times this
+ 
+
+929
+00:20:27,059 --> 00:20:28,029
+unchanged we have the vector times this
+product
+
+930
+00:20:28,029 --> 00:20:28,039
+product
+ 
+
+931
+00:20:28,039 --> 00:20:31,130
+product
+Distributing we get cosine squared plus
+
+932
+00:20:31,130 --> 00:20:31,140
+Distributing we get cosine squared plus
+ 
+
+933
+00:20:31,140 --> 00:20:34,250
+Distributing we get cosine squared plus
+two cosine sine times the X Y by Vector
+
+934
+00:20:34,250 --> 00:20:34,260
+two cosine sine times the X Y by Vector
+ 
+
+935
+00:20:34,260 --> 00:20:37,370
+two cosine sine times the X Y by Vector
+plus sine squared with the X Y by Vector
+
+936
+00:20:37,370 --> 00:20:37,380
+plus sine squared with the X Y by Vector
+ 
+
+937
+00:20:37,380 --> 00:20:40,490
+plus sine squared with the X Y by Vector
+squared as discussed before the X Y by
+
+938
+00:20:40,490 --> 00:20:40,500
+squared as discussed before the X Y by
+ 
+
+939
+00:20:40,500 --> 00:20:43,430
+squared as discussed before the X Y by
+Vector squares 2 negative one leaving us
+
+940
+00:20:43,430 --> 00:20:43,440
+Vector squares 2 negative one leaving us
+ 
+
+941
+00:20:43,440 --> 00:20:45,890
+Vector squares 2 negative one leaving us
+with negative sine squared
+
+942
+00:20:45,890 --> 00:20:45,900
+with negative sine squared
+ 
+
+943
+00:20:45,900 --> 00:20:48,230
+with negative sine squared
+the result involves the double angle
+
+944
+00:20:48,230 --> 00:20:48,240
+the result involves the double angle
+ 
+
+945
+00:20:48,240 --> 00:20:50,930
+the result involves the double angle
+formula for cosine and the double angle
+
+946
+00:20:50,930 --> 00:20:50,940
+formula for cosine and the double angle
+ 
+
+947
+00:20:50,940 --> 00:20:53,930
+formula for cosine and the double angle
+formula for sine so the angles of theta
+
+948
+00:20:53,930 --> 00:20:53,940
+formula for sine so the angles of theta
+ 
+
+949
+00:20:53,940 --> 00:20:56,990
+formula for sine so the angles of theta
+over two get doubled to Theta
+
+950
+00:20:56,990 --> 00:20:57,000
+over two get doubled to Theta
+ 
+
+951
+00:20:57,000 --> 00:20:59,750
+over two get doubled to Theta
+after we distribute the sigma X the
+
+952
+00:20:59,750 --> 00:20:59,760
+after we distribute the sigma X the
+ 
+
+953
+00:20:59,760 --> 00:21:02,510
+after we distribute the sigma X the
+cosine term gets Sigma X and the sine
+
+954
+00:21:02,510 --> 00:21:02,520
+cosine term gets Sigma X and the sine
+ 
+
+955
+00:21:02,520 --> 00:21:05,390
+cosine term gets Sigma X and the sine
+term gets Sigma x squared which goes to
+
+956
+00:21:05,390 --> 00:21:05,400
+term gets Sigma x squared which goes to
+ 
+
+957
+00:21:05,400 --> 00:21:08,510
+term gets Sigma x squared which goes to
+1. leaving it with only Sigma y
+
+958
+00:21:08,510 --> 00:21:08,520
+1. leaving it with only Sigma y
+ 
+
+959
+00:21:08,520 --> 00:21:10,610
+1. leaving it with only Sigma y
+this results in the original Vector
+
+960
+00:21:10,610 --> 00:21:10,620
+this results in the original Vector
+ 
+
+961
+00:21:10,620 --> 00:21:14,870
+this results in the original Vector
+rotated by an angle Theta as expected
+
+962
+00:21:14,870 --> 00:21:14,880
+rotated by an angle Theta as expected
+ 
+
+963
+00:21:14,880 --> 00:21:17,930
+rotated by an angle Theta as expected
+if a vector has Parts both inside and
+
+964
+00:21:17,930 --> 00:21:17,940
+if a vector has Parts both inside and
+ 
+
+965
+00:21:17,940 --> 00:21:20,570
+if a vector has Parts both inside and
+outside the plane of rotation only the
+
+966
+00:21:20,570 --> 00:21:20,580
+outside the plane of rotation only the
+ 
+
+967
+00:21:20,580 --> 00:21:22,730
+outside the plane of rotation only the
+part inside the plane of rotation will
+
+968
+00:21:22,730 --> 00:21:22,740
+part inside the plane of rotation will
+ 
+
+969
+00:21:22,740 --> 00:21:26,210
+part inside the plane of rotation will
+be affected by this formula
+
+970
+00:21:26,210 --> 00:21:26,220
+be affected by this formula
+ 
+
+971
+00:21:26,220 --> 00:21:29,210
+be affected by this formula
+so in conclusion this double-sided
+
+972
+00:21:29,210 --> 00:21:29,220
+so in conclusion this double-sided
+ 
+
+973
+00:21:29,220 --> 00:21:31,909
+so in conclusion this double-sided
+operation will rotate vectors within the
+
+974
+00:21:31,909 --> 00:21:31,919
+operation will rotate vectors within the
+ 
+
+975
+00:21:31,919 --> 00:21:34,430
+operation will rotate vectors within the
+plane of rotation and ignore vectors
+
+976
+00:21:34,430 --> 00:21:34,440
+plane of rotation and ignore vectors
+ 
+
+977
+00:21:34,440 --> 00:21:36,950
+plane of rotation and ignore vectors
+outside the plane of rotation as
+
+978
+00:21:36,950 --> 00:21:36,960
+outside the plane of rotation as
+ 
+
+979
+00:21:36,960 --> 00:21:38,149
+outside the plane of rotation as
+expected
+
+980
+00:21:38,149 --> 00:21:38,159
+expected
+ 
+
+981
+00:21:38,159 --> 00:21:40,730
+expected
+we can get similar formulas for the YZ
+
+982
+00:21:40,730 --> 00:21:40,740
+we can get similar formulas for the YZ
+ 
+
+983
+00:21:40,740 --> 00:21:44,270
+we can get similar formulas for the YZ
+and ZX planes but remember you can
+
+984
+00:21:44,270 --> 00:21:44,280
+and ZX planes but remember you can
+ 
+
+985
+00:21:44,280 --> 00:21:47,029
+and ZX planes but remember you can
+always rotate in any arbitrary plane of
+
+986
+00:21:47,029 --> 00:21:47,039
+always rotate in any arbitrary plane of
+ 
+
+987
+00:21:47,039 --> 00:21:49,970
+always rotate in any arbitrary plane of
+your choice just pick two vectors in
+
+988
+00:21:49,970 --> 00:21:49,980
+your choice just pick two vectors in
+ 
+
+989
+00:21:49,980 --> 00:21:53,390
+your choice just pick two vectors in
+that plane A and B and ensure they are
+
+990
+00:21:53,390 --> 00:21:53,400
+that plane A and B and ensure they are
+ 
+
+991
+00:21:53,400 --> 00:21:55,789
+that plane A and B and ensure they are
+separated by an angle of theta over two
+
+992
+00:21:55,789 --> 00:21:55,799
+separated by an angle of theta over two
+ 
+
+993
+00:21:55,799 --> 00:21:58,730
+separated by an angle of theta over two
+you can then double reflect along each
+
+994
+00:21:58,730 --> 00:21:58,740
+you can then double reflect along each
+ 
+
+995
+00:21:58,740 --> 00:22:01,310
+you can then double reflect along each
+of these vectors and this is equivalent
+
+996
+00:22:01,310 --> 00:22:01,320
+of these vectors and this is equivalent
+ 
+
+997
+00:22:01,320 --> 00:22:04,130
+of these vectors and this is equivalent
+to doing a rotation by an angle Theta in
+
+998
+00:22:04,130 --> 00:22:04,140
+to doing a rotation by an angle Theta in
+ 
+
+999
+00:22:04,140 --> 00:22:07,070
+to doing a rotation by an angle Theta in
+the a b plane
+
+1000
+00:22:07,070 --> 00:22:07,080
+the a b plane
+ 
+
+1001
+00:22:07,080 --> 00:22:09,890
+the a b plane
+now let's look back at our formula for
+
+1002
+00:22:09,890 --> 00:22:09,900
+now let's look back at our formula for
+ 
+
+1003
+00:22:09,900 --> 00:22:12,649
+now let's look back at our formula for
+rotating in the X Y plane this
+
+1004
+00:22:12,649 --> 00:22:12,659
+rotating in the X Y plane this
+ 
+
+1005
+00:22:12,659 --> 00:22:14,930
+rotating in the X Y plane this
+expression here has a lot in common with
+
+1006
+00:22:14,930 --> 00:22:14,940
+expression here has a lot in common with
+ 
+
+1007
+00:22:14,940 --> 00:22:17,810
+expression here has a lot in common with
+Euler's formula which says that e to the
+
+1008
+00:22:17,810 --> 00:22:17,820
+Euler's formula which says that e to the
+ 
+
+1009
+00:22:17,820 --> 00:22:20,750
+Euler's formula which says that e to the
+I times an angle equals cosine plus I
+
+1010
+00:22:20,750 --> 00:22:20,760
+I times an angle equals cosine plus I
+ 
+
+1011
+00:22:20,760 --> 00:22:22,250
+I times an angle equals cosine plus I
+times sine
+
+1012
+00:22:22,250 --> 00:22:22,260
+times sine
+ 
+
+1013
+00:22:22,260 --> 00:22:24,649
+times sine
+the reason that this is true is due to
+
+1014
+00:22:24,649 --> 00:22:24,659
+the reason that this is true is due to
+ 
+
+1015
+00:22:24,659 --> 00:22:28,190
+the reason that this is true is due to
+the fact that I squares 2 negative one
+
+1016
+00:22:28,190 --> 00:22:28,200
+the fact that I squares 2 negative one
+ 
+
+1017
+00:22:28,200 --> 00:22:30,950
+the fact that I squares 2 negative one
+it turns out that Sigma x times Sigma y
+
+1018
+00:22:30,950 --> 00:22:30,960
+it turns out that Sigma x times Sigma y
+ 
+
+1019
+00:22:30,960 --> 00:22:34,190
+it turns out that Sigma x times Sigma y
+also squares 2 negative one so these
+
+1020
+00:22:34,190 --> 00:22:34,200
+also squares 2 negative one so these
+ 
+
+1021
+00:22:34,200 --> 00:22:36,890
+also squares 2 negative one so these
+formulas are very similar and it turns
+
+1022
+00:22:36,890 --> 00:22:36,900
+formulas are very similar and it turns
+ 
+
+1023
+00:22:36,900 --> 00:22:39,049
+formulas are very similar and it turns
+out that we can write this expression as
+
+1024
+00:22:39,049 --> 00:22:39,059
+out that we can write this expression as
+ 
+
+1025
+00:22:39,059 --> 00:22:43,430
+out that we can write this expression as
+e to the sigma X Sigma y Theta over two
+
+1026
+00:22:43,430 --> 00:22:43,440
+e to the sigma X Sigma y Theta over two
+ 
+
+1027
+00:22:43,440 --> 00:22:46,130
+e to the sigma X Sigma y Theta over two
+let's recall the Taylor series of e to
+
+1028
+00:22:46,130 --> 00:22:46,140
+let's recall the Taylor series of e to
+ 
+
+1029
+00:22:46,140 --> 00:22:49,130
+let's recall the Taylor series of e to
+the X we get an infinite polynomial in X
+
+1030
+00:22:49,130 --> 00:22:49,140
+the X we get an infinite polynomial in X
+ 
+
+1031
+00:22:49,140 --> 00:22:52,250
+the X we get an infinite polynomial in X
+with factorials in the denominator
+
+1032
+00:22:52,250 --> 00:22:52,260
+with factorials in the denominator
+ 
+
+1033
+00:22:52,260 --> 00:22:55,430
+with factorials in the denominator
+if we do e to the I Theta then the first
+
+1034
+00:22:55,430 --> 00:22:55,440
+if we do e to the I Theta then the first
+ 
+
+1035
+00:22:55,440 --> 00:22:59,029
+if we do e to the I Theta then the first
+term with the zero power goes to one the
+
+1036
+00:22:59,029 --> 00:22:59,039
+term with the zero power goes to one the
+ 
+
+1037
+00:22:59,039 --> 00:23:02,029
+term with the zero power goes to one the
+first Power gets an i out in front the
+
+1038
+00:23:02,029 --> 00:23:02,039
+first Power gets an i out in front the
+ 
+
+1039
+00:23:02,039 --> 00:23:04,549
+first Power gets an i out in front the
+second power gives us I squared which is
+
+1040
+00:23:04,549 --> 00:23:04,559
+second power gives us I squared which is
+ 
+
+1041
+00:23:04,559 --> 00:23:07,610
+second power gives us I squared which is
+negative one the third power gives us I
+
+1042
+00:23:07,610 --> 00:23:07,620
+negative one the third power gives us I
+ 
+
+1043
+00:23:07,620 --> 00:23:10,789
+negative one the third power gives us I
+cubed which is I squared times I which
+
+1044
+00:23:10,789 --> 00:23:10,799
+cubed which is I squared times I which
+ 
+
+1045
+00:23:10,799 --> 00:23:13,549
+cubed which is I squared times I which
+is just negative I and the fourth power
+
+1046
+00:23:13,549 --> 00:23:13,559
+is just negative I and the fourth power
+ 
+
+1047
+00:23:13,559 --> 00:23:16,010
+is just negative I and the fourth power
+gives us I squared twice which is
+
+1048
+00:23:16,010 --> 00:23:16,020
+gives us I squared twice which is
+ 
+
+1049
+00:23:16,020 --> 00:23:18,110
+gives us I squared twice which is
+negative one times negative one equals
+
+1050
+00:23:18,110 --> 00:23:18,120
+negative one times negative one equals
+ 
+
+1051
+00:23:18,120 --> 00:23:20,090
+negative one times negative one equals
+positive one
+
+1052
+00:23:20,090 --> 00:23:20,100
+positive one
+ 
+
+1053
+00:23:20,100 --> 00:23:22,610
+positive one
+this pattern of one I negative one
+
+1054
+00:23:22,610 --> 00:23:22,620
+this pattern of one I negative one
+ 
+
+1055
+00:23:22,620 --> 00:23:25,549
+this pattern of one I negative one
+negative I repeats forever
+
+1056
+00:23:25,549 --> 00:23:25,559
+negative I repeats forever
+ 
+
+1057
+00:23:25,559 --> 00:23:28,370
+negative I repeats forever
+if we separate the terms without I from
+
+1058
+00:23:28,370 --> 00:23:28,380
+if we separate the terms without I from
+ 
+
+1059
+00:23:28,380 --> 00:23:31,730
+if we separate the terms without I from
+the terms with I the series Without I is
+
+1060
+00:23:31,730 --> 00:23:31,740
+the terms with I the series Without I is
+ 
+
+1061
+00:23:31,740 --> 00:23:34,310
+the terms with I the series Without I is
+the Taylor series for cosine and the
+
+1062
+00:23:34,310 --> 00:23:34,320
+the Taylor series for cosine and the
+ 
+
+1063
+00:23:34,320 --> 00:23:36,710
+the Taylor series for cosine and the
+series with I is the Taylor series first
+
+1064
+00:23:36,710 --> 00:23:36,720
+series with I is the Taylor series first
+ 
+
+1065
+00:23:36,720 --> 00:23:37,669
+series with I is the Taylor series first
+sign
+
+1066
+00:23:37,669 --> 00:23:37,679
+sign
+ 
+
+1067
+00:23:37,679 --> 00:23:41,870
+sign
+this is the proof of Euler's formula
+
+1068
+00:23:41,870 --> 00:23:41,880
+this is the proof of Euler's formula
+ 
+
+1069
+00:23:41,880 --> 00:23:44,750
+this is the proof of Euler's formula
+if we do this exercise again but with
+
+1070
+00:23:44,750 --> 00:23:44,760
+if we do this exercise again but with
+ 
+
+1071
+00:23:44,760 --> 00:23:47,810
+if we do this exercise again but with
+replacing I with Sigma x times Sigma y
+
+1072
+00:23:47,810 --> 00:23:47,820
+replacing I with Sigma x times Sigma y
+ 
+
+1073
+00:23:47,820 --> 00:23:50,930
+replacing I with Sigma x times Sigma y
+it works out the exact same way since
+
+1074
+00:23:50,930 --> 00:23:50,940
+it works out the exact same way since
+ 
+
+1075
+00:23:50,940 --> 00:23:53,690
+it works out the exact same way since
+the bi Vector Sigma X Sigma y also
+
+1076
+00:23:53,690 --> 00:23:53,700
+the bi Vector Sigma X Sigma y also
+ 
+
+1077
+00:23:53,700 --> 00:23:55,970
+the bi Vector Sigma X Sigma y also
+squares 2 negative one
+
+1078
+00:23:55,970 --> 00:23:55,980
+squares 2 negative one
+ 
+
+1079
+00:23:55,980 --> 00:23:58,730
+squares 2 negative one
+so Euler's formula doesn't just work for
+
+1080
+00:23:58,730 --> 00:23:58,740
+so Euler's formula doesn't just work for
+ 
+
+1081
+00:23:58,740 --> 00:24:01,430
+so Euler's formula doesn't just work for
+I it works for any symbol that squares
+
+1082
+00:24:01,430 --> 00:24:01,440
+I it works for any symbol that squares
+ 
+
+1083
+00:24:01,440 --> 00:24:02,990
+I it works for any symbol that squares
+to negative one
+
+1084
+00:24:02,990 --> 00:24:03,000
+to negative one
+ 
+
+1085
+00:24:03,000 --> 00:24:05,210
+to negative one
+also note that if we use a negative
+
+1086
+00:24:05,210 --> 00:24:05,220
+also note that if we use a negative
+ 
+
+1087
+00:24:05,220 --> 00:24:08,090
+also note that if we use a negative
+angle in this formula the cosine term is
+
+1088
+00:24:08,090 --> 00:24:08,100
+angle in this formula the cosine term is
+ 
+
+1089
+00:24:08,100 --> 00:24:11,029
+angle in this formula the cosine term is
+unchanged since cosine is symmetric the
+
+1090
+00:24:11,029 --> 00:24:11,039
+unchanged since cosine is symmetric the
+ 
+
+1091
+00:24:11,039 --> 00:24:13,190
+unchanged since cosine is symmetric the
+cosine of an angle and its negative give
+
+1092
+00:24:13,190 --> 00:24:13,200
+cosine of an angle and its negative give
+ 
+
+1093
+00:24:13,200 --> 00:24:14,630
+cosine of an angle and its negative give
+the same result
+
+1094
+00:24:14,630 --> 00:24:14,640
+the same result
+ 
+
+1095
+00:24:14,640 --> 00:24:16,730
+the same result
+the sine term however can have the
+
+1096
+00:24:16,730 --> 00:24:16,740
+the sine term however can have the
+ 
+
+1097
+00:24:16,740 --> 00:24:19,190
+the sine term however can have the
+negative sign moved out in front since
+
+1098
+00:24:19,190 --> 00:24:19,200
+negative sign moved out in front since
+ 
+
+1099
+00:24:19,200 --> 00:24:22,549
+negative sign moved out in front since
+sine is an anti-symmetric function
+
+1100
+00:24:22,549 --> 00:24:22,559
+sine is an anti-symmetric function
+ 
+
+1101
+00:24:22,559 --> 00:24:24,890
+sine is an anti-symmetric function
+so we can replace these formulas with a
+
+1102
+00:24:24,890 --> 00:24:24,900
+so we can replace these formulas with a
+ 
+
+1103
+00:24:24,900 --> 00:24:26,630
+so we can replace these formulas with a
+negative exponential and a positive
+
+1104
+00:24:26,630 --> 00:24:26,640
+negative exponential and a positive
+ 
+
+1105
+00:24:26,640 --> 00:24:28,610
+negative exponential and a positive
+exponential involving the bi-vector
+
+1106
+00:24:28,610 --> 00:24:28,620
+exponential involving the bi-vector
+ 
+
+1107
+00:24:28,620 --> 00:24:30,649
+exponential involving the bi-vector
+sigma X Sigma y
+
+1108
+00:24:30,649 --> 00:24:30,659
+sigma X Sigma y
+ 
+
+1109
+00:24:30,659 --> 00:24:32,930
+sigma X Sigma y
+this exponential version of the formula
+
+1110
+00:24:32,930 --> 00:24:32,940
+this exponential version of the formula
+ 
+
+1111
+00:24:32,940 --> 00:24:35,870
+this exponential version of the formula
+works for rotating in any plane given by
+
+1112
+00:24:35,870 --> 00:24:35,880
+works for rotating in any plane given by
+ 
+
+1113
+00:24:35,880 --> 00:24:37,669
+works for rotating in any plane given by
+two sigmas
+
+1114
+00:24:37,669 --> 00:24:37,679
+two sigmas
+ 
+
+1115
+00:24:37,679 --> 00:24:40,549
+two sigmas
+more generally the rotation formula can
+
+1116
+00:24:40,549 --> 00:24:40,559
+more generally the rotation formula can
+ 
+
+1117
+00:24:40,559 --> 00:24:43,010
+more generally the rotation formula can
+be performed with any general unit by
+
+1118
+00:24:43,010 --> 00:24:43,020
+be performed with any general unit by
+ 
+
+1119
+00:24:43,020 --> 00:24:46,669
+be performed with any general unit by
+Vector B that squares 2 negative one
+
+1120
+00:24:46,669 --> 00:24:46,679
+Vector B that squares 2 negative one
+ 
+
+1121
+00:24:46,679 --> 00:24:49,850
+Vector B that squares 2 negative one
+recall a bifector represents an oriented
+
+1122
+00:24:49,850 --> 00:24:49,860
+recall a bifector represents an oriented
+ 
+
+1123
+00:24:49,860 --> 00:24:52,430
+recall a bifector represents an oriented
+plane given by the wedge product of two
+
+1124
+00:24:52,430 --> 00:24:52,440
+plane given by the wedge product of two
+ 
+
+1125
+00:24:52,440 --> 00:24:53,810
+plane given by the wedge product of two
+vectors
+
+1126
+00:24:53,810 --> 00:24:53,820
+vectors
+ 
+
+1127
+00:24:53,820 --> 00:24:56,870
+vectors
+the bifectors orientation in space gives
+
+1128
+00:24:56,870 --> 00:24:56,880
+the bifectors orientation in space gives
+ 
+
+1129
+00:24:56,880 --> 00:24:59,810
+the bifectors orientation in space gives
+the plane and direction of rotation
+
+1130
+00:24:59,810 --> 00:24:59,820
+the plane and direction of rotation
+ 
+
+1131
+00:24:59,820 --> 00:25:02,810
+the plane and direction of rotation
+the Theta over 2 scales the size of the
+
+1132
+00:25:02,810 --> 00:25:02,820
+the Theta over 2 scales the size of the
+ 
+
+1133
+00:25:02,820 --> 00:25:04,970
+the Theta over 2 scales the size of the
+bi-vector to the size required for
+
+1134
+00:25:04,970 --> 00:25:04,980
+bi-vector to the size required for
+ 
+
+1135
+00:25:04,980 --> 00:25:07,789
+bi-vector to the size required for
+rotating by an angle Theta
+
+1136
+00:25:07,789 --> 00:25:07,799
+rotating by an angle Theta
+ 
+
+1137
+00:25:07,799 --> 00:25:10,490
+rotating by an angle Theta
+one way to get to the required bi-vector
+
+1138
+00:25:10,490 --> 00:25:10,500
+one way to get to the required bi-vector
+ 
+
+1139
+00:25:10,500 --> 00:25:13,850
+one way to get to the required bi-vector
+in 3D is to write out a unit Vector for
+
+1140
+00:25:13,850 --> 00:25:13,860
+in 3D is to write out a unit Vector for
+ 
+
+1141
+00:25:13,860 --> 00:25:16,610
+in 3D is to write out a unit Vector for
+the axis of rotation and then replace
+
+1142
+00:25:16,610 --> 00:25:16,620
+the axis of rotation and then replace
+ 
+
+1143
+00:25:16,620 --> 00:25:18,890
+the axis of rotation and then replace
+the basis vectors with the corresponding
+
+1144
+00:25:18,890 --> 00:25:18,900
+the basis vectors with the corresponding
+ 
+
+1145
+00:25:18,900 --> 00:25:22,490
+the basis vectors with the corresponding
+orthogonal bi-vector planes
+
+1146
+00:25:22,490 --> 00:25:22,500
+orthogonal bi-vector planes
+ 
+
+1147
+00:25:22,500 --> 00:25:25,549
+orthogonal bi-vector planes
+after being exponentiated the bifector
+
+1148
+00:25:25,549 --> 00:25:25,559
+after being exponentiated the bifector
+ 
+
+1149
+00:25:25,559 --> 00:25:27,769
+after being exponentiated the bifector
+becomes averser and this is what
+
+1150
+00:25:27,769 --> 00:25:27,779
+becomes averser and this is what
+ 
+
+1151
+00:25:27,779 --> 00:25:31,010
+becomes averser and this is what
+performs the rotation
+
+1152
+00:25:31,010 --> 00:25:31,020
+
+ 
+
+1153
+00:25:31,020 --> 00:25:33,350
+
+now you might be confused about this
+
+1154
+00:25:33,350 --> 00:25:33,360
+now you might be confused about this
+ 
+
+1155
+00:25:33,360 --> 00:25:36,230
+now you might be confused about this
+double-sided transformation if we want
+
+1156
+00:25:36,230 --> 00:25:36,240
+double-sided transformation if we want
+ 
+
+1157
+00:25:36,240 --> 00:25:39,890
+double-sided transformation if we want
+to rotate a complex number A Plus IB we
+
+1158
+00:25:39,890 --> 00:25:39,900
+to rotate a complex number A Plus IB we
+ 
+
+1159
+00:25:39,900 --> 00:25:42,350
+to rotate a complex number A Plus IB we
+just do a single sided multiplication by
+
+1160
+00:25:42,350 --> 00:25:42,360
+just do a single sided multiplication by
+ 
+
+1161
+00:25:42,360 --> 00:25:44,450
+just do a single sided multiplication by
+e to the I Theta
+
+1162
+00:25:44,450 --> 00:25:44,460
+e to the I Theta
+ 
+
+1163
+00:25:44,460 --> 00:25:47,149
+e to the I Theta
+since complex numbers commute we can
+
+1164
+00:25:47,149 --> 00:25:47,159
+since complex numbers commute we can
+ 
+
+1165
+00:25:47,159 --> 00:25:48,890
+since complex numbers commute we can
+also write this as a double-sided
+
+1166
+00:25:48,890 --> 00:25:48,900
+also write this as a double-sided
+ 
+
+1167
+00:25:48,900 --> 00:25:51,769
+also write this as a double-sided
+transformation with e to the positive I
+
+1168
+00:25:51,769 --> 00:25:51,779
+transformation with e to the positive I
+ 
+
+1169
+00:25:51,779 --> 00:25:54,470
+transformation with e to the positive I
+Theta over 2 on both sides
+
+1170
+00:25:54,470 --> 00:25:54,480
+Theta over 2 on both sides
+ 
+
+1171
+00:25:54,480 --> 00:25:56,570
+Theta over 2 on both sides
+so why do the signs look different in
+
+1172
+00:25:56,570 --> 00:25:56,580
+so why do the signs look different in
+ 
+
+1173
+00:25:56,580 --> 00:25:58,549
+so why do the signs look different in
+Clifford algebras
+
+1174
+00:25:58,549 --> 00:25:58,559
+Clifford algebras
+ 
+
+1175
+00:25:58,559 --> 00:26:01,430
+Clifford algebras
+the key is to realize that in the X Y
+
+1176
+00:26:01,430 --> 00:26:01,440
+the key is to realize that in the X Y
+ 
+
+1177
+00:26:01,440 --> 00:26:04,130
+the key is to realize that in the X Y
+plane the complex I is just the
+
+1178
+00:26:04,130 --> 00:26:04,140
+plane the complex I is just the
+ 
+
+1179
+00:26:04,140 --> 00:26:07,010
+plane the complex I is just the
+bi-vector sigma x times Sigma Y in
+
+1180
+00:26:07,010 --> 00:26:07,020
+bi-vector sigma x times Sigma Y in
+ 
+
+1181
+00:26:07,020 --> 00:26:08,450
+bi-vector sigma x times Sigma Y in
+disguise
+
+1182
+00:26:08,450 --> 00:26:08,460
+disguise
+ 
+
+1183
+00:26:08,460 --> 00:26:11,210
+disguise
+in the complex number approach both the
+
+1184
+00:26:11,210 --> 00:26:11,220
+in the complex number approach both the
+ 
+
+1185
+00:26:11,220 --> 00:26:14,450
+in the complex number approach both the
+Rotator and the object being rotated are
+
+1186
+00:26:14,450 --> 00:26:14,460
+Rotator and the object being rotated are
+ 
+
+1187
+00:26:14,460 --> 00:26:17,269
+Rotator and the object being rotated are
+a scalar plus a bi vector
+
+1188
+00:26:17,269 --> 00:26:17,279
+a scalar plus a bi vector
+ 
+
+1189
+00:26:17,279 --> 00:26:19,789
+a scalar plus a bi vector
+in Clifford algebras the object being
+
+1190
+00:26:19,789 --> 00:26:19,799
+in Clifford algebras the object being
+ 
+
+1191
+00:26:19,799 --> 00:26:22,850
+in Clifford algebras the object being
+rotated is a vector instead
+
+1192
+00:26:22,850 --> 00:26:22,860
+rotated is a vector instead
+ 
+
+1193
+00:26:22,860 --> 00:26:25,250
+rotated is a vector instead
+we can make the two equivalent if we
+
+1194
+00:26:25,250 --> 00:26:25,260
+we can make the two equivalent if we
+ 
+
+1195
+00:26:25,260 --> 00:26:29,090
+we can make the two equivalent if we
+pre-multiply this vector by Sigma X
+
+1196
+00:26:29,090 --> 00:26:29,100
+pre-multiply this vector by Sigma X
+ 
+
+1197
+00:26:29,100 --> 00:26:31,190
+pre-multiply this vector by Sigma X
+this explains where the sign change
+
+1198
+00:26:31,190 --> 00:26:31,200
+this explains where the sign change
+ 
+
+1199
+00:26:31,200 --> 00:26:34,310
+this explains where the sign change
+comes from swapping order with a sigma X
+
+1200
+00:26:34,310 --> 00:26:34,320
+comes from swapping order with a sigma X
+ 
+
+1201
+00:26:34,320 --> 00:26:38,330
+comes from swapping order with a sigma X
+introduces an extra minus sign
+
+1202
+00:26:38,330 --> 00:26:38,340
+introduces an extra minus sign
+ 
+
+1203
+00:26:38,340 --> 00:26:40,669
+introduces an extra minus sign
+now let's look at the rotations in
+
+1204
+00:26:40,669 --> 00:26:40,679
+now let's look at the rotations in
+ 
+
+1205
+00:26:40,679 --> 00:26:44,870
+now let's look at the rotations in
+four-dimensional space time with cl13 in
+
+1206
+00:26:44,870 --> 00:26:44,880
+four-dimensional space time with cl13 in
+ 
+
+1207
+00:26:44,880 --> 00:26:46,850
+four-dimensional space time with cl13 in
+space time we should be able to do three
+
+1208
+00:26:46,850 --> 00:26:46,860
+space time we should be able to do three
+ 
+
+1209
+00:26:46,860 --> 00:26:49,789
+space time we should be able to do three
+rotations as well as three lorentz
+
+1210
+00:26:49,789 --> 00:26:49,799
+rotations as well as three lorentz
+ 
+
+1211
+00:26:49,799 --> 00:26:50,990
+rotations as well as three lorentz
+boosts
+
+1212
+00:26:50,990 --> 00:26:51,000
+boosts
+ 
+
+1213
+00:26:51,000 --> 00:26:53,690
+boosts
+the rotations here work the same way as
+
+1214
+00:26:53,690 --> 00:26:53,700
+the rotations here work the same way as
+ 
+
+1215
+00:26:53,700 --> 00:26:56,750
+the rotations here work the same way as
+in 3D space if we want to rotate in the
+
+1216
+00:26:56,750 --> 00:26:56,760
+in 3D space if we want to rotate in the
+ 
+
+1217
+00:26:56,760 --> 00:26:59,450
+in 3D space if we want to rotate in the
+X Y plane we just use the cosine and
+
+1218
+00:26:59,450 --> 00:26:59,460
+X Y plane we just use the cosine and
+ 
+
+1219
+00:26:59,460 --> 00:27:02,029
+X Y plane we just use the cosine and
+sine formulas using the bi-vector gamma
+
+1220
+00:27:02,029 --> 00:27:02,039
+sine formulas using the bi-vector gamma
+ 
+
+1221
+00:27:02,039 --> 00:27:05,049
+sine formulas using the bi-vector gamma
+X gamma Y which squares to negative one
+
+1222
+00:27:05,049 --> 00:27:05,059
+X gamma Y which squares to negative one
+ 
+
+1223
+00:27:05,059 --> 00:27:07,909
+X gamma Y which squares to negative one
+since this bi Vector squares 2 negative
+
+1224
+00:27:07,909 --> 00:27:07,919
+since this bi Vector squares 2 negative
+ 
+
+1225
+00:27:07,919 --> 00:27:10,250
+since this bi Vector squares 2 negative
+one we can also use the exponential
+
+1226
+00:27:10,250 --> 00:27:10,260
+one we can also use the exponential
+ 
+
+1227
+00:27:10,260 --> 00:27:13,490
+one we can also use the exponential
+formulas that we discussed previously
+
+1228
+00:27:13,490 --> 00:27:13,500
+formulas that we discussed previously
+ 
+
+1229
+00:27:13,500 --> 00:27:15,710
+formulas that we discussed previously
+but what if we use a bi-vector that
+
+1230
+00:27:15,710 --> 00:27:15,720
+but what if we use a bi-vector that
+ 
+
+1231
+00:27:15,720 --> 00:27:18,350
+but what if we use a bi-vector that
+involves the time basis Vector gamma T
+
+1232
+00:27:18,350 --> 00:27:18,360
+involves the time basis Vector gamma T
+ 
+
+1233
+00:27:18,360 --> 00:27:21,049
+involves the time basis Vector gamma T
+what happens if we try to do a rotation
+
+1234
+00:27:21,049 --> 00:27:21,059
+what happens if we try to do a rotation
+ 
+
+1235
+00:27:21,059 --> 00:27:23,330
+what happens if we try to do a rotation
+where the bi-vector involves the time
+
+1236
+00:27:23,330 --> 00:27:23,340
+where the bi-vector involves the time
+ 
+
+1237
+00:27:23,340 --> 00:27:25,909
+where the bi-vector involves the time
+basis vector and one of the space basis
+
+1238
+00:27:25,909 --> 00:27:25,919
+basis vector and one of the space basis
+ 
+
+1239
+00:27:25,919 --> 00:27:26,990
+basis vector and one of the space basis
+vectors
+
+1240
+00:27:26,990 --> 00:27:27,000
+vectors
+ 
+
+1241
+00:27:27,000 --> 00:27:29,390
+vectors
+if you guessed lorentz boosts you are
+
+1242
+00:27:29,390 --> 00:27:29,400
+if you guessed lorentz boosts you are
+ 
+
+1243
+00:27:29,400 --> 00:27:31,430
+if you guessed lorentz boosts you are
+correct
+
+1244
+00:27:31,430 --> 00:27:31,440
+correct
+ 
+
+1245
+00:27:31,440 --> 00:27:34,070
+correct
+these three bifectors involving the time
+
+1246
+00:27:34,070 --> 00:27:34,080
+these three bifectors involving the time
+ 
+
+1247
+00:27:34,080 --> 00:27:36,590
+these three bifectors involving the time
+basis Vector give us lorentz boosts in
+
+1248
+00:27:36,590 --> 00:27:36,600
+basis Vector give us lorentz boosts in
+ 
+
+1249
+00:27:36,600 --> 00:27:39,529
+basis Vector give us lorentz boosts in
+the three orthogonal directions
+
+1250
+00:27:39,529 --> 00:27:39,539
+the three orthogonal directions
+ 
+
+1251
+00:27:39,539 --> 00:27:41,630
+the three orthogonal directions
+but let's look at this exponential
+
+1252
+00:27:41,630 --> 00:27:41,640
+but let's look at this exponential
+ 
+
+1253
+00:27:41,640 --> 00:27:45,169
+but let's look at this exponential
+formula more closely gamma T times gamma
+
+1254
+00:27:45,169 --> 00:27:45,179
+formula more closely gamma T times gamma
+ 
+
+1255
+00:27:45,179 --> 00:27:48,230
+formula more closely gamma T times gamma
+X actually squares two plus one not
+
+1256
+00:27:48,230 --> 00:27:48,240
+X actually squares two plus one not
+ 
+
+1257
+00:27:48,240 --> 00:27:49,850
+X actually squares two plus one not
+negative one
+
+1258
+00:27:49,850 --> 00:27:49,860
+negative one
+ 
+
+1259
+00:27:49,860 --> 00:27:51,769
+negative one
+flipping the inner terms gives us a
+
+1260
+00:27:51,769 --> 00:27:51,779
+flipping the inner terms gives us a
+ 
+
+1261
+00:27:51,779 --> 00:27:53,810
+flipping the inner terms gives us a
+negative sign but this cancels what the
+
+1262
+00:27:53,810 --> 00:27:53,820
+negative sign but this cancels what the
+ 
+
+1263
+00:27:53,820 --> 00:27:55,730
+negative sign but this cancels what the
+negative sign we get when gamma X
+
+1264
+00:27:55,730 --> 00:27:55,740
+negative sign we get when gamma X
+ 
+
+1265
+00:27:55,740 --> 00:27:58,970
+negative sign we get when gamma X
+squares 2 negative one and since gamma T
+
+1266
+00:27:58,970 --> 00:27:58,980
+squares 2 negative one and since gamma T
+ 
+
+1267
+00:27:58,980 --> 00:28:01,970
+squares 2 negative one and since gamma T
+squares two plus one the answer is plus
+
+1268
+00:28:01,970 --> 00:28:01,980
+squares two plus one the answer is plus
+ 
+
+1269
+00:28:01,980 --> 00:28:03,470
+squares two plus one the answer is plus
+one
+
+1270
+00:28:03,470 --> 00:28:03,480
+one
+ 
+
+1271
+00:28:03,480 --> 00:28:05,450
+one
+so what happens when we take the
+
+1272
+00:28:05,450 --> 00:28:05,460
+so what happens when we take the
+ 
+
+1273
+00:28:05,460 --> 00:28:07,669
+so what happens when we take the
+exponential of a symbol that squares two
+
+1274
+00:28:07,669 --> 00:28:07,679
+exponential of a symbol that squares two
+ 
+
+1275
+00:28:07,679 --> 00:28:10,850
+exponential of a symbol that squares two
+plus one we can check this using the
+
+1276
+00:28:10,850 --> 00:28:10,860
+plus one we can check this using the
+ 
+
+1277
+00:28:10,860 --> 00:28:13,250
+plus one we can check this using the
+split complex number J from the last
+
+1278
+00:28:13,250 --> 00:28:13,260
+split complex number J from the last
+ 
+
+1279
+00:28:13,260 --> 00:28:17,090
+split complex number J from the last
+video where J squares two plus one
+
+1280
+00:28:17,090 --> 00:28:17,100
+video where J squares two plus one
+ 
+
+1281
+00:28:17,100 --> 00:28:18,950
+video where J squares two plus one
+when we write out the infinite Taylor
+
+1282
+00:28:18,950 --> 00:28:18,960
+when we write out the infinite Taylor
+ 
+
+1283
+00:28:18,960 --> 00:28:22,250
+when we write out the infinite Taylor
+series of e to the J Phi the zeroth
+
+1284
+00:28:22,250 --> 00:28:22,260
+series of e to the J Phi the zeroth
+ 
+
+1285
+00:28:22,260 --> 00:28:25,490
+series of e to the J Phi the zeroth
+power goes to one the first Power gets J
+
+1286
+00:28:25,490 --> 00:28:25,500
+power goes to one the first Power gets J
+ 
+
+1287
+00:28:25,500 --> 00:28:28,789
+power goes to one the first Power gets J
+in front the second power gets J squared
+
+1288
+00:28:28,789 --> 00:28:28,799
+in front the second power gets J squared
+ 
+
+1289
+00:28:28,799 --> 00:28:32,330
+in front the second power gets J squared
+which is plus one the third power gets J
+
+1290
+00:28:32,330 --> 00:28:32,340
+which is plus one the third power gets J
+ 
+
+1291
+00:28:32,340 --> 00:28:35,930
+which is plus one the third power gets J
+cubed which is just plus one times J and
+
+1292
+00:28:35,930 --> 00:28:35,940
+cubed which is just plus one times J and
+ 
+
+1293
+00:28:35,940 --> 00:28:38,210
+cubed which is just plus one times J and
+the fourth power gets J squared twice
+
+1294
+00:28:38,210 --> 00:28:38,220
+the fourth power gets J squared twice
+ 
+
+1295
+00:28:38,220 --> 00:28:40,549
+the fourth power gets J squared twice
+which is just plus one
+
+1296
+00:28:40,549 --> 00:28:40,559
+which is just plus one
+ 
+
+1297
+00:28:40,559 --> 00:28:43,730
+which is just plus one
+this pattern of one J One J continues
+
+1298
+00:28:43,730 --> 00:28:43,740
+this pattern of one J One J continues
+ 
+
+1299
+00:28:43,740 --> 00:28:46,430
+this pattern of one J One J continues
+forever notice that all the signs are
+
+1300
+00:28:46,430 --> 00:28:46,440
+forever notice that all the signs are
+ 
+
+1301
+00:28:46,440 --> 00:28:48,350
+forever notice that all the signs are
+positive this time
+
+1302
+00:28:48,350 --> 00:28:48,360
+positive this time
+ 
+
+1303
+00:28:48,360 --> 00:28:51,169
+positive this time
+if we separate the terms without Js from
+
+1304
+00:28:51,169 --> 00:28:51,179
+if we separate the terms without Js from
+ 
+
+1305
+00:28:51,179 --> 00:28:54,409
+if we separate the terms without Js from
+the terms with JS the terms without J's
+
+1306
+00:28:54,409 --> 00:28:54,419
+the terms with JS the terms without J's
+ 
+
+1307
+00:28:54,419 --> 00:28:56,690
+the terms with JS the terms without J's
+give us the Taylor series for hyperbolic
+
+1308
+00:28:56,690 --> 00:28:56,700
+give us the Taylor series for hyperbolic
+ 
+
+1309
+00:28:56,700 --> 00:28:59,750
+give us the Taylor series for hyperbolic
+cosine and the terms with J's give us
+
+1310
+00:28:59,750 --> 00:28:59,760
+cosine and the terms with J's give us
+ 
+
+1311
+00:28:59,760 --> 00:29:02,750
+cosine and the terms with J's give us
+the Taylor series for hyperbolic sign
+
+1312
+00:29:02,750 --> 00:29:02,760
+the Taylor series for hyperbolic sign
+ 
+
+1313
+00:29:02,760 --> 00:29:05,930
+the Taylor series for hyperbolic sign
+as discussed in video 9 lorentz boosts
+
+1314
+00:29:05,930 --> 00:29:05,940
+as discussed in video 9 lorentz boosts
+ 
+
+1315
+00:29:05,940 --> 00:29:08,029
+as discussed in video 9 lorentz boosts
+are just another word for hyperbolic
+
+1316
+00:29:08,029 --> 00:29:08,039
+are just another word for hyperbolic
+ 
+
+1317
+00:29:08,039 --> 00:29:11,210
+are just another word for hyperbolic
+rotations so this result is indeed a
+
+1318
+00:29:11,210 --> 00:29:11,220
+rotations so this result is indeed a
+ 
+
+1319
+00:29:11,220 --> 00:29:13,909
+rotations so this result is indeed a
+lorentz boost
+
+1320
+00:29:13,909 --> 00:29:13,919
+
+ 
+
+1321
+00:29:13,919 --> 00:29:16,250
+
+if we replace the symbol J with the
+
+1322
+00:29:16,250 --> 00:29:16,260
+if we replace the symbol J with the
+ 
+
+1323
+00:29:16,260 --> 00:29:19,250
+if we replace the symbol J with the
+bi-vector gamma T times gamma Z which
+
+1324
+00:29:19,250 --> 00:29:19,260
+bi-vector gamma T times gamma Z which
+ 
+
+1325
+00:29:19,260 --> 00:29:21,950
+bi-vector gamma T times gamma Z which
+also squares two plus one we get a
+
+1326
+00:29:21,950 --> 00:29:21,960
+also squares two plus one we get a
+ 
+
+1327
+00:29:21,960 --> 00:29:24,049
+also squares two plus one we get a
+similar formula involving hyperbolic
+
+1328
+00:29:24,049 --> 00:29:24,059
+similar formula involving hyperbolic
+ 
+
+1329
+00:29:24,059 --> 00:29:26,330
+similar formula involving hyperbolic
+trig functions which represents a
+
+1330
+00:29:26,330 --> 00:29:26,340
+trig functions which represents a
+ 
+
+1331
+00:29:26,340 --> 00:29:29,210
+trig functions which represents a
+lorentz boost in the Z Direction
+
+1332
+00:29:29,210 --> 00:29:29,220
+lorentz boost in the Z Direction
+ 
+
+1333
+00:29:29,220 --> 00:29:31,549
+lorentz boost in the Z Direction
+we can get similar formulas for boosting
+
+1334
+00:29:31,549 --> 00:29:31,559
+we can get similar formulas for boosting
+ 
+
+1335
+00:29:31,559 --> 00:29:34,310
+we can get similar formulas for boosting
+in the X and Y directions
+
+1336
+00:29:34,310 --> 00:29:34,320
+in the X and Y directions
+ 
+
+1337
+00:29:34,320 --> 00:29:36,230
+in the X and Y directions
+it also turns out that putting a
+
+1338
+00:29:36,230 --> 00:29:36,240
+it also turns out that putting a
+ 
+
+1339
+00:29:36,240 --> 00:29:38,210
+it also turns out that putting a
+negative sign in the hyperbolic angle
+
+1340
+00:29:38,210 --> 00:29:38,220
+negative sign in the hyperbolic angle
+ 
+
+1341
+00:29:38,220 --> 00:29:40,730
+negative sign in the hyperbolic angle
+gives us the same formula but with a
+
+1342
+00:29:40,730 --> 00:29:40,740
+gives us the same formula but with a
+ 
+
+1343
+00:29:40,740 --> 00:29:42,769
+gives us the same formula but with a
+negative sign in front of the sine H
+
+1344
+00:29:42,769 --> 00:29:42,779
+negative sign in front of the sine H
+ 
+
+1345
+00:29:42,779 --> 00:29:44,269
+negative sign in front of the sine H
+term
+
+1346
+00:29:44,269 --> 00:29:44,279
+term
+ 
+
+1347
+00:29:44,279 --> 00:29:46,610
+term
+so we can also rewrite the lorentz Boost
+
+1348
+00:29:46,610 --> 00:29:46,620
+so we can also rewrite the lorentz Boost
+ 
+
+1349
+00:29:46,620 --> 00:29:50,149
+so we can also rewrite the lorentz Boost
+formula using exponentials
+
+1350
+00:29:50,149 --> 00:29:50,159
+formula using exponentials
+ 
+
+1351
+00:29:50,159 --> 00:29:53,029
+formula using exponentials
+a boost in the eye direction is given by
+
+1352
+00:29:53,029 --> 00:29:53,039
+a boost in the eye direction is given by
+ 
+
+1353
+00:29:53,039 --> 00:29:55,430
+a boost in the eye direction is given by
+exponentiating a bi-vector formed with
+
+1354
+00:29:55,430 --> 00:29:55,440
+exponentiating a bi-vector formed with
+ 
+
+1355
+00:29:55,440 --> 00:29:57,889
+exponentiating a bi-vector formed with
+gamma T and Gamma I
+
+1356
+00:29:57,889 --> 00:29:57,899
+gamma T and Gamma I
+ 
+
+1357
+00:29:57,899 --> 00:30:00,649
+gamma T and Gamma I
+more generally a boost is performed by
+
+1358
+00:30:00,649 --> 00:30:00,659
+more generally a boost is performed by
+ 
+
+1359
+00:30:00,659 --> 00:30:03,350
+more generally a boost is performed by
+exponentiating a unit by Vector that
+
+1360
+00:30:03,350 --> 00:30:03,360
+exponentiating a unit by Vector that
+ 
+
+1361
+00:30:03,360 --> 00:30:05,570
+exponentiating a unit by Vector that
+squares two plus one
+
+1362
+00:30:05,570 --> 00:30:05,580
+squares two plus one
+ 
+
+1363
+00:30:05,580 --> 00:30:08,930
+squares two plus one
+to get this unit by Vector one axis must
+
+1364
+00:30:08,930 --> 00:30:08,940
+to get this unit by Vector one axis must
+ 
+
+1365
+00:30:08,940 --> 00:30:11,090
+to get this unit by Vector one axis must
+be time like and the other must be
+
+1366
+00:30:11,090 --> 00:30:11,100
+be time like and the other must be
+ 
+
+1367
+00:30:11,100 --> 00:30:13,970
+be time like and the other must be
+space-like and the Boost is done in the
+
+1368
+00:30:13,970 --> 00:30:13,980
+space-like and the Boost is done in the
+ 
+
+1369
+00:30:13,980 --> 00:30:16,070
+space-like and the Boost is done in the
+spatial Direction contained in the
+
+1370
+00:30:16,070 --> 00:30:16,080
+spatial Direction contained in the
+ 
+
+1371
+00:30:16,080 --> 00:30:17,330
+spatial Direction contained in the
+bi-vector
+
+1372
+00:30:17,330 --> 00:30:17,340
+bi-vector
+ 
+
+1373
+00:30:17,340 --> 00:30:20,690
+bi-vector
+the angle Phi over 2 scales the size of
+
+1374
+00:30:20,690 --> 00:30:20,700
+the angle Phi over 2 scales the size of
+ 
+
+1375
+00:30:20,700 --> 00:30:22,730
+the angle Phi over 2 scales the size of
+the bi Vector that's required for doing
+
+1376
+00:30:22,730 --> 00:30:22,740
+the bi Vector that's required for doing
+ 
+
+1377
+00:30:22,740 --> 00:30:27,350
+the bi Vector that's required for doing
+a boost by a hyperbolic angle of Phi
+
+1378
+00:30:27,350 --> 00:30:27,360
+a boost by a hyperbolic angle of Phi
+ 
+
+1379
+00:30:27,360 --> 00:30:29,870
+a boost by a hyperbolic angle of Phi
+now bi-vectors can be used for both
+
+1380
+00:30:29,870 --> 00:30:29,880
+now bi-vectors can be used for both
+ 
+
+1381
+00:30:29,880 --> 00:30:33,409
+now bi-vectors can be used for both
+boosts and rotations so how can we tell
+
+1382
+00:30:33,409 --> 00:30:33,419
+boosts and rotations so how can we tell
+ 
+
+1383
+00:30:33,419 --> 00:30:36,169
+boosts and rotations so how can we tell
+which bi-vectors do what
+
+1384
+00:30:36,169 --> 00:30:36,179
+which bi-vectors do what
+ 
+
+1385
+00:30:36,179 --> 00:30:38,450
+which bi-vectors do what
+if a bi Vector squares to a positive
+
+1386
+00:30:38,450 --> 00:30:38,460
+if a bi Vector squares to a positive
+ 
+
+1387
+00:30:38,460 --> 00:30:41,330
+if a bi Vector squares to a positive
+number it performs a boost since the
+
+1388
+00:30:41,330 --> 00:30:41,340
+number it performs a boost since the
+ 
+
+1389
+00:30:41,340 --> 00:30:43,190
+number it performs a boost since the
+exponential gives us a hyperbolic
+
+1390
+00:30:43,190 --> 00:30:43,200
+exponential gives us a hyperbolic
+ 
+
+1391
+00:30:43,200 --> 00:30:45,590
+exponential gives us a hyperbolic
+rotation similar to the split complex
+
+1392
+00:30:45,590 --> 00:30:45,600
+rotation similar to the split complex
+ 
+
+1393
+00:30:45,600 --> 00:30:47,269
+rotation similar to the split complex
+number J
+
+1394
+00:30:47,269 --> 00:30:47,279
+number J
+ 
+
+1395
+00:30:47,279 --> 00:30:49,490
+number J
+if a bi Vector squares to a negative
+
+1396
+00:30:49,490 --> 00:30:49,500
+if a bi Vector squares to a negative
+ 
+
+1397
+00:30:49,500 --> 00:30:52,130
+if a bi Vector squares to a negative
+number its exponential performs a
+
+1398
+00:30:52,130 --> 00:30:52,140
+number its exponential performs a
+ 
+
+1399
+00:30:52,140 --> 00:30:54,889
+number its exponential performs a
+circular rotation similar to the complex
+
+1400
+00:30:54,889 --> 00:30:54,899
+circular rotation similar to the complex
+ 
+
+1401
+00:30:54,899 --> 00:30:57,230
+circular rotation similar to the complex
+number I
+
+1402
+00:30:57,230 --> 00:30:57,240
+number I
+ 
+
+1403
+00:30:57,240 --> 00:30:59,750
+number I
+before moving on I'd like to say a few
+
+1404
+00:30:59,750 --> 00:30:59,760
+before moving on I'd like to say a few
+ 
+
+1405
+00:30:59,760 --> 00:31:02,029
+before moving on I'd like to say a few
+things about how boosts are visualized
+
+1406
+00:31:02,029 --> 00:31:02,039
+things about how boosts are visualized
+ 
+
+1407
+00:31:02,039 --> 00:31:04,549
+things about how boosts are visualized
+as a pair of reflections
+
+1408
+00:31:04,549 --> 00:31:04,559
+as a pair of reflections
+ 
+
+1409
+00:31:04,559 --> 00:31:06,649
+as a pair of reflections
+you might think that a boost in the X
+
+1410
+00:31:06,649 --> 00:31:06,659
+you might think that a boost in the X
+ 
+
+1411
+00:31:06,659 --> 00:31:09,350
+you might think that a boost in the X
+direction is given by reflection along X
+
+1412
+00:31:09,350 --> 00:31:09,360
+direction is given by reflection along X
+ 
+
+1413
+00:31:09,360 --> 00:31:12,289
+direction is given by reflection along X
+and then a reflection along t
+
+1414
+00:31:12,289 --> 00:31:12,299
+and then a reflection along t
+ 
+
+1415
+00:31:12,299 --> 00:31:14,570
+and then a reflection along t
+but this changes a future pointing
+
+1416
+00:31:14,570 --> 00:31:14,580
+but this changes a future pointing
+ 
+
+1417
+00:31:14,580 --> 00:31:17,930
+but this changes a future pointing
+Vector into a past pointing Vector which
+
+1418
+00:31:17,930 --> 00:31:17,940
+Vector into a past pointing Vector which
+ 
+
+1419
+00:31:17,940 --> 00:31:20,570
+Vector into a past pointing Vector which
+doesn't make sense for a boost
+
+1420
+00:31:20,570 --> 00:31:20,580
+doesn't make sense for a boost
+ 
+
+1421
+00:31:20,580 --> 00:31:23,029
+doesn't make sense for a boost
+it's actually impossible to end up with
+
+1422
+00:31:23,029 --> 00:31:23,039
+it's actually impossible to end up with
+ 
+
+1423
+00:31:23,039 --> 00:31:25,250
+it's actually impossible to end up with
+such a transformation using our boost
+
+1424
+00:31:25,250 --> 00:31:25,260
+such a transformation using our boost
+ 
+
+1425
+00:31:25,260 --> 00:31:28,789
+such a transformation using our boost
+formula because hyperbolic cosine never
+
+1426
+00:31:28,789 --> 00:31:28,799
+formula because hyperbolic cosine never
+ 
+
+1427
+00:31:28,799 --> 00:31:30,769
+formula because hyperbolic cosine never
+gives zero
+
+1428
+00:31:30,769 --> 00:31:30,779
+gives zero
+ 
+
+1429
+00:31:30,779 --> 00:31:34,010
+gives zero
+if we rearrange this formula we see that
+
+1430
+00:31:34,010 --> 00:31:34,020
+if we rearrange this formula we see that
+ 
+
+1431
+00:31:34,020 --> 00:31:36,830
+if we rearrange this formula we see that
+a boost is given by two reflections with
+
+1432
+00:31:36,830 --> 00:31:36,840
+a boost is given by two reflections with
+ 
+
+1433
+00:31:36,840 --> 00:31:39,110
+a boost is given by two reflections with
+two time-like vectors
+
+1434
+00:31:39,110 --> 00:31:39,120
+two time-like vectors
+ 
+
+1435
+00:31:39,120 --> 00:31:41,810
+two time-like vectors
+since hyperbolic cosine is always larger
+
+1436
+00:31:41,810 --> 00:31:41,820
+since hyperbolic cosine is always larger
+ 
+
+1437
+00:31:41,820 --> 00:31:44,750
+since hyperbolic cosine is always larger
+in size than hyperbolic sine we know for
+
+1438
+00:31:44,750 --> 00:31:44,760
+in size than hyperbolic sine we know for
+ 
+
+1439
+00:31:44,760 --> 00:31:47,269
+in size than hyperbolic sine we know for
+sure this Vector I'm labeling as Delta
+
+1440
+00:31:47,269 --> 00:31:47,279
+sure this Vector I'm labeling as Delta
+ 
+
+1441
+00:31:47,279 --> 00:31:49,730
+sure this Vector I'm labeling as Delta
+is a time like vector
+
+1442
+00:31:49,730 --> 00:31:49,740
+is a time like vector
+ 
+
+1443
+00:31:49,740 --> 00:31:52,490
+is a time like vector
+so a boost is given by two time-like
+
+1444
+00:31:52,490 --> 00:31:52,500
+so a boost is given by two time-like
+ 
+
+1445
+00:31:52,500 --> 00:31:55,430
+so a boost is given by two time-like
+Reflections one reflects us into the
+
+1446
+00:31:55,430 --> 00:31:55,440
+Reflections one reflects us into the
+ 
+
+1447
+00:31:55,440 --> 00:31:58,070
+Reflections one reflects us into the
+past light cone and another reflects us
+
+1448
+00:31:58,070 --> 00:31:58,080
+past light cone and another reflects us
+ 
+
+1449
+00:31:58,080 --> 00:32:01,190
+past light cone and another reflects us
+back into the future light cone with the
+
+1450
+00:32:01,190 --> 00:32:01,200
+back into the future light cone with the
+ 
+
+1451
+00:32:01,200 --> 00:32:03,769
+back into the future light cone with the
+Boost's hyperbolic angle being twice the
+
+1452
+00:32:03,769 --> 00:32:03,779
+Boost's hyperbolic angle being twice the
+ 
+
+1453
+00:32:03,779 --> 00:32:07,610
+Boost's hyperbolic angle being twice the
+angle between the two time-like vectors
+
+1454
+00:32:07,610 --> 00:32:07,620
+angle between the two time-like vectors
+ 
+
+1455
+00:32:07,620 --> 00:32:10,430
+angle between the two time-like vectors
+as a very quick aside when we have a
+
+1456
+00:32:10,430 --> 00:32:10,440
+as a very quick aside when we have a
+ 
+
+1457
+00:32:10,440 --> 00:32:13,310
+as a very quick aside when we have a
+symbol Epsilon that squares to zero we
+
+1458
+00:32:13,310 --> 00:32:13,320
+symbol Epsilon that squares to zero we
+ 
+
+1459
+00:32:13,320 --> 00:32:15,230
+symbol Epsilon that squares to zero we
+get the dual numbers
+
+1460
+00:32:15,230 --> 00:32:15,240
+get the dual numbers
+ 
+
+1461
+00:32:15,240 --> 00:32:18,049
+get the dual numbers
+and these can be used to do Galilean
+
+1462
+00:32:18,049 --> 00:32:18,059
+and these can be used to do Galilean
+ 
+
+1463
+00:32:18,059 --> 00:32:21,350
+and these can be used to do Galilean
+boosts from Galilean relativity you can
+
+1464
+00:32:21,350 --> 00:32:21,360
+boosts from Galilean relativity you can
+ 
+
+1465
+00:32:21,360 --> 00:32:23,389
+boosts from Galilean relativity you can
+pause if you want to look at the details
+
+1466
+00:32:23,389 --> 00:32:23,399
+pause if you want to look at the details
+ 
+
+1467
+00:32:23,399 --> 00:32:26,090
+pause if you want to look at the details
+but the Matrix representation of Epsilon
+
+1468
+00:32:26,090 --> 00:32:26,100
+but the Matrix representation of Epsilon
+ 
+
+1469
+00:32:26,100 --> 00:32:28,970
+but the Matrix representation of Epsilon
+helps us build a Galilean Matrix that
+
+1470
+00:32:28,970 --> 00:32:28,980
+helps us build a Galilean Matrix that
+ 
+
+1471
+00:32:28,980 --> 00:32:31,070
+helps us build a Galilean Matrix that
+changes coordinate frames according to
+
+1472
+00:32:31,070 --> 00:32:31,080
+changes coordinate frames according to
+ 
+
+1473
+00:32:31,080 --> 00:32:33,889
+changes coordinate frames according to
+Galilean relativity we can do
+
+1474
+00:32:33,889 --> 00:32:33,899
+Galilean relativity we can do
+ 
+
+1475
+00:32:33,899 --> 00:32:35,810
+Galilean relativity we can do
+double-sided Transformations that
+
+1476
+00:32:35,810 --> 00:32:35,820
+double-sided Transformations that
+ 
+
+1477
+00:32:35,820 --> 00:32:38,750
+double-sided Transformations that
+perform a Galilean boosts which can also
+
+1478
+00:32:38,750 --> 00:32:38,760
+perform a Galilean boosts which can also
+ 
+
+1479
+00:32:38,760 --> 00:32:41,570
+perform a Galilean boosts which can also
+be written with exponentials
+
+1480
+00:32:41,570 --> 00:32:41,580
+be written with exponentials
+ 
+
+1481
+00:32:41,580 --> 00:32:44,330
+be written with exponentials
+so using Clifford algebras we've
+
+1482
+00:32:44,330 --> 00:32:44,340
+so using Clifford algebras we've
+ 
+
+1483
+00:32:44,340 --> 00:32:46,549
+so using Clifford algebras we've
+discovered how to do rotations in 3D
+
+1484
+00:32:46,549 --> 00:32:46,559
+discovered how to do rotations in 3D
+ 
+
+1485
+00:32:46,559 --> 00:32:49,250
+discovered how to do rotations in 3D
+space and also how to do rotations and
+
+1486
+00:32:49,250 --> 00:32:49,260
+space and also how to do rotations and
+ 
+
+1487
+00:32:49,260 --> 00:32:51,350
+space and also how to do rotations and
+boosts in four-dimensional space time
+
+1488
+00:32:51,350 --> 00:32:51,360
+boosts in four-dimensional space time
+ 
+
+1489
+00:32:51,360 --> 00:32:54,110
+boosts in four-dimensional space time
+and it's not difficult to see how we can
+
+1490
+00:32:54,110 --> 00:32:54,120
+and it's not difficult to see how we can
+ 
+
+1491
+00:32:54,120 --> 00:32:56,090
+and it's not difficult to see how we can
+generalize these formulas to any
+
+1492
+00:32:56,090 --> 00:32:56,100
+generalize these formulas to any
+ 
+
+1493
+00:32:56,100 --> 00:32:58,010
+generalize these formulas to any
+arbitrary dimension
+
+1494
+00:32:58,010 --> 00:32:58,020
+arbitrary dimension
+ 
+
+1495
+00:32:58,020 --> 00:33:00,710
+arbitrary dimension
+in any Dimension if we want to rotate in
+
+1496
+00:33:00,710 --> 00:33:00,720
+in any Dimension if we want to rotate in
+ 
+
+1497
+00:33:00,720 --> 00:33:03,830
+in any Dimension if we want to rotate in
+a plane we just take a bivector of size
+
+1498
+00:33:03,830 --> 00:33:03,840
+a plane we just take a bivector of size
+ 
+
+1499
+00:33:03,840 --> 00:33:07,669
+a plane we just take a bivector of size
+1 in that plane and exponentiate it and
+
+1500
+00:33:07,669 --> 00:33:07,679
+1 in that plane and exponentiate it and
+ 
+
+1501
+00:33:07,679 --> 00:33:09,350
+1 in that plane and exponentiate it and
+apply this double-sided transformation
+
+1502
+00:33:09,350 --> 00:33:09,360
+apply this double-sided transformation
+ 
+
+1503
+00:33:09,360 --> 00:33:12,289
+apply this double-sided transformation
+with half angles
+
+1504
+00:33:12,289 --> 00:33:12,299
+with half angles
+ 
+
+1505
+00:33:12,299 --> 00:33:14,750
+with half angles
+the members of Clifford algebras that do
+
+1506
+00:33:14,750 --> 00:33:14,760
+the members of Clifford algebras that do
+ 
+
+1507
+00:33:14,760 --> 00:33:16,789
+the members of Clifford algebras that do
+these rotations using double-sided
+
+1508
+00:33:16,789 --> 00:33:16,799
+these rotations using double-sided
+ 
+
+1509
+00:33:16,799 --> 00:33:19,009
+these rotations using double-sided
+Transformations are part of that
+
+1510
+00:33:19,009 --> 00:33:19,019
+Transformations are part of that
+ 
+
+1511
+00:33:19,019 --> 00:33:21,769
+Transformations are part of that
+Clifford algebra's spin group
+
+1512
+00:33:21,769 --> 00:33:21,779
+Clifford algebra's spin group
+ 
+
+1513
+00:33:21,779 --> 00:33:24,289
+Clifford algebra's spin group
+for example the exponentials that do
+
+1514
+00:33:24,289 --> 00:33:24,299
+for example the exponentials that do
+ 
+
+1515
+00:33:24,299 --> 00:33:28,130
+for example the exponentials that do
+rotations in cl30 are part of the group
+
+1516
+00:33:28,130 --> 00:33:28,140
+rotations in cl30 are part of the group
+ 
+
+1517
+00:33:28,140 --> 00:33:31,549
+rotations in cl30 are part of the group
+spin three zero and the exponentials
+
+1518
+00:33:31,549 --> 00:33:31,559
+spin three zero and the exponentials
+ 
+
+1519
+00:33:31,559 --> 00:33:35,690
+spin three zero and the exponentials
+that do rotations and boosts in cl13 are
+
+1520
+00:33:35,690 --> 00:33:35,700
+that do rotations and boosts in cl13 are
+ 
+
+1521
+00:33:35,700 --> 00:33:38,630
+that do rotations and boosts in cl13 are
+part of the group spin 1 3.
+
+1522
+00:33:38,630 --> 00:33:38,640
+part of the group spin 1 3.
+ 
+
+1523
+00:33:38,640 --> 00:33:41,210
+part of the group spin 1 3.
+generally speaking the members that do
+
+1524
+00:33:41,210 --> 00:33:41,220
+generally speaking the members that do
+ 
+
+1525
+00:33:41,220 --> 00:33:44,930
+generally speaking the members that do
+double-sided rotations in clpq are part
+
+1526
+00:33:44,930 --> 00:33:44,940
+double-sided rotations in clpq are part
+ 
+
+1527
+00:33:44,940 --> 00:33:47,389
+double-sided rotations in clpq are part
+of the group spin PQ
+
+1528
+00:33:47,389 --> 00:33:47,399
+of the group spin PQ
+ 
+
+1529
+00:33:47,399 --> 00:33:49,610
+of the group spin PQ
+but what is the formal definition of
+
+1530
+00:33:49,610 --> 00:33:49,620
+but what is the formal definition of
+ 
+
+1531
+00:33:49,620 --> 00:33:51,769
+but what is the formal definition of
+these spin groups
+
+1532
+00:33:51,769 --> 00:33:51,779
+these spin groups
+ 
+
+1533
+00:33:51,779 --> 00:33:54,350
+these spin groups
+we'll start by defining the spin and
+
+1534
+00:33:54,350 --> 00:33:54,360
+we'll start by defining the spin and
+ 
+
+1535
+00:33:54,360 --> 00:33:56,509
+we'll start by defining the spin and
+group which lives inside the Clifford
+
+1536
+00:33:56,509 --> 00:33:56,519
+group which lives inside the Clifford
+ 
+
+1537
+00:33:56,519 --> 00:34:00,590
+group which lives inside the Clifford
+algebra cln which has n basis vectors
+
+1538
+00:34:00,590 --> 00:34:00,600
+algebra cln which has n basis vectors
+ 
+
+1539
+00:34:00,600 --> 00:34:02,870
+algebra cln which has n basis vectors
+that square two plus one and
+
+1540
+00:34:02,870 --> 00:34:02,880
+that square two plus one and
+ 
+
+1541
+00:34:02,880 --> 00:34:05,149
+that square two plus one and
+anti-commute with each other
+
+1542
+00:34:05,149 --> 00:34:05,159
+anti-commute with each other
+ 
+
+1543
+00:34:05,159 --> 00:34:07,009
+anti-commute with each other
+we already know the formula for
+
+1544
+00:34:07,009 --> 00:34:07,019
+we already know the formula for
+ 
+
+1545
+00:34:07,019 --> 00:34:09,169
+we already know the formula for
+reflecting a vector v in the Clifford
+
+1546
+00:34:09,169 --> 00:34:09,179
+reflecting a vector v in the Clifford
+ 
+
+1547
+00:34:09,179 --> 00:34:12,710
+reflecting a vector v in the Clifford
+algebra cln we just negative conjugate
+
+1548
+00:34:12,710 --> 00:34:12,720
+algebra cln we just negative conjugate
+ 
+
+1549
+00:34:12,720 --> 00:34:15,169
+algebra cln we just negative conjugate
+it with a reflection Vector U
+
+1550
+00:34:15,169 --> 00:34:15,179
+it with a reflection Vector U
+ 
+
+1551
+00:34:15,179 --> 00:34:17,690
+it with a reflection Vector U
+If U happens to be a unit Vector that
+
+1552
+00:34:17,690 --> 00:34:17,700
+If U happens to be a unit Vector that
+ 
+
+1553
+00:34:17,700 --> 00:34:21,169
+If U happens to be a unit Vector that
+squares two plus one then U is its own
+
+1554
+00:34:21,169 --> 00:34:21,179
+squares two plus one then U is its own
+ 
+
+1555
+00:34:21,179 --> 00:34:23,389
+squares two plus one then U is its own
+inverse and we can forget about the
+
+1556
+00:34:23,389 --> 00:34:23,399
+inverse and we can forget about the
+ 
+
+1557
+00:34:23,399 --> 00:34:25,190
+inverse and we can forget about the
+inverse operation
+
+1558
+00:34:25,190 --> 00:34:25,200
+inverse operation
+ 
+
+1559
+00:34:25,200 --> 00:34:28,909
+inverse operation
+however if U is not unit length then it
+
+1560
+00:34:28,909 --> 00:34:28,919
+however if U is not unit length then it
+ 
+
+1561
+00:34:28,919 --> 00:34:32,089
+however if U is not unit length then it
+squares to its squared length and so U
+
+1562
+00:34:32,089 --> 00:34:32,099
+squares to its squared length and so U
+ 
+
+1563
+00:34:32,099 --> 00:34:36,230
+squares to its squared length and so U
+inverse equals U over its squared length
+
+1564
+00:34:36,230 --> 00:34:36,240
+inverse equals U over its squared length
+ 
+
+1565
+00:34:36,240 --> 00:34:38,690
+inverse equals U over its squared length
+this forces both copies of U to be
+
+1566
+00:34:38,690 --> 00:34:38,700
+this forces both copies of U to be
+ 
+
+1567
+00:34:38,700 --> 00:34:41,089
+this forces both copies of U to be
+normalized by its length giving a
+
+1568
+00:34:41,089 --> 00:34:41,099
+normalized by its length giving a
+ 
+
+1569
+00:34:41,099 --> 00:34:44,510
+normalized by its length giving a
+formula that does involve unit vectors
+
+1570
+00:34:44,510 --> 00:34:44,520
+formula that does involve unit vectors
+ 
+
+1571
+00:34:44,520 --> 00:34:47,990
+formula that does involve unit vectors
+in this scenario we call you averser of
+
+1572
+00:34:47,990 --> 00:34:48,000
+in this scenario we call you averser of
+ 
+
+1573
+00:34:48,000 --> 00:34:51,109
+in this scenario we call you averser of
+length one
+
+1574
+00:34:51,109 --> 00:34:51,119
+
+ 
+
+1575
+00:34:51,119 --> 00:34:53,930
+
+next we learned that a rotation is just
+
+1576
+00:34:53,930 --> 00:34:53,940
+next we learned that a rotation is just
+ 
+
+1577
+00:34:53,940 --> 00:34:57,230
+next we learned that a rotation is just
+a pair of Reflections so we can rotate
+
+1578
+00:34:57,230 --> 00:34:57,240
+a pair of Reflections so we can rotate
+ 
+
+1579
+00:34:57,240 --> 00:35:01,370
+a pair of Reflections so we can rotate
+by doing two reflections with U2 and U1
+
+1580
+00:35:01,370 --> 00:35:01,380
+by doing two reflections with U2 and U1
+ 
+
+1581
+00:35:01,380 --> 00:35:04,130
+by doing two reflections with U2 and U1
+the negative signs cancel and we know
+
+1582
+00:35:04,130 --> 00:35:04,140
+the negative signs cancel and we know
+ 
+
+1583
+00:35:04,140 --> 00:35:06,410
+the negative signs cancel and we know
+the product of inverses is just the
+
+1584
+00:35:06,410 --> 00:35:06,420
+the product of inverses is just the
+ 
+
+1585
+00:35:06,420 --> 00:35:08,390
+the product of inverses is just the
+inverse of the product in the reverse
+
+1586
+00:35:08,390 --> 00:35:08,400
+inverse of the product in the reverse
+ 
+
+1587
+00:35:08,400 --> 00:35:12,890
+inverse of the product in the reverse
+order here I'll call U1 U2 averser of
+
+1588
+00:35:12,890 --> 00:35:12,900
+order here I'll call U1 U2 averser of
+ 
+
+1589
+00:35:12,900 --> 00:35:14,510
+order here I'll call U1 U2 averser of
+length 2.
+
+1590
+00:35:14,510 --> 00:35:14,520
+length 2.
+ 
+
+1591
+00:35:14,520 --> 00:35:17,630
+length 2.
+if U1 and U2 are unit vectors that
+
+1592
+00:35:17,630 --> 00:35:17,640
+if U1 and U2 are unit vectors that
+ 
+
+1593
+00:35:17,640 --> 00:35:20,390
+if U1 and U2 are unit vectors that
+square two plus one then they each equal
+
+1594
+00:35:20,390 --> 00:35:20,400
+square two plus one then they each equal
+ 
+
+1595
+00:35:20,400 --> 00:35:23,810
+square two plus one then they each equal
+their own inverses so the inverse of U1
+
+1596
+00:35:23,810 --> 00:35:23,820
+their own inverses so the inverse of U1
+ 
+
+1597
+00:35:23,820 --> 00:35:28,970
+their own inverses so the inverse of U1
+U2 is just the reverse U2 U1 this is
+
+1598
+00:35:28,970 --> 00:35:28,980
+U2 is just the reverse U2 U1 this is
+ 
+
+1599
+00:35:28,980 --> 00:35:31,130
+U2 is just the reverse U2 U1 this is
+sometimes denoted with a tilde or a
+
+1600
+00:35:31,130 --> 00:35:31,140
+sometimes denoted with a tilde or a
+ 
+
+1601
+00:35:31,140 --> 00:35:32,210
+sometimes denoted with a tilde or a
+dagger
+
+1602
+00:35:32,210 --> 00:35:32,220
+dagger
+ 
+
+1603
+00:35:32,220 --> 00:35:34,730
+dagger
+so we can write to the rotation formula
+
+1604
+00:35:34,730 --> 00:35:34,740
+so we can write to the rotation formula
+ 
+
+1605
+00:35:34,740 --> 00:35:36,890
+so we can write to the rotation formula
+like this
+
+1606
+00:35:36,890 --> 00:35:36,900
+like this
+ 
+
+1607
+00:35:36,900 --> 00:35:40,550
+like this
+however if U1 and U2 are not unit length
+
+1608
+00:35:40,550 --> 00:35:40,560
+however if U1 and U2 are not unit length
+ 
+
+1609
+00:35:40,560 --> 00:35:42,890
+however if U1 and U2 are not unit length
+then multiplying by the reverse doesn't
+
+1610
+00:35:42,890 --> 00:35:42,900
+then multiplying by the reverse doesn't
+ 
+
+1611
+00:35:42,900 --> 00:35:45,829
+then multiplying by the reverse doesn't
+give one instead it gives the product of
+
+1612
+00:35:45,829 --> 00:35:45,839
+give one instead it gives the product of
+ 
+
+1613
+00:35:45,839 --> 00:35:48,530
+give one instead it gives the product of
+the squared lengths of the vectors
+
+1614
+00:35:48,530 --> 00:35:48,540
+the squared lengths of the vectors
+ 
+
+1615
+00:35:48,540 --> 00:35:51,589
+the squared lengths of the vectors
+the inverse is then the reverse divided
+
+1616
+00:35:51,589 --> 00:35:51,599
+the inverse is then the reverse divided
+ 
+
+1617
+00:35:51,599 --> 00:35:55,010
+the inverse is then the reverse divided
+by the squared lengths as before these
+
+1618
+00:35:55,010 --> 00:35:55,020
+by the squared lengths as before these
+ 
+
+1619
+00:35:55,020 --> 00:35:57,290
+by the squared lengths as before these
+squared lengths normalize the vectors so
+
+1620
+00:35:57,290 --> 00:35:57,300
+squared lengths normalize the vectors so
+ 
+
+1621
+00:35:57,300 --> 00:35:59,870
+squared lengths normalize the vectors so
+that they have length one
+
+1622
+00:35:59,870 --> 00:35:59,880
+that they have length one
+ 
+
+1623
+00:35:59,880 --> 00:36:03,890
+that they have length one
+if we do three reflections with u3 U2 U1
+
+1624
+00:36:03,890 --> 00:36:03,900
+if we do three reflections with u3 U2 U1
+ 
+
+1625
+00:36:03,900 --> 00:36:08,150
+if we do three reflections with u3 U2 U1
+this equals a rotation plus a reflection
+
+1626
+00:36:08,150 --> 00:36:08,160
+this equals a rotation plus a reflection
+ 
+
+1627
+00:36:08,160 --> 00:36:10,550
+this equals a rotation plus a reflection
+only two of the negative signs cancel
+
+1628
+00:36:10,550 --> 00:36:10,560
+only two of the negative signs cancel
+ 
+
+1629
+00:36:10,560 --> 00:36:13,069
+only two of the negative signs cancel
+and so we end up with a negative out in
+
+1630
+00:36:13,069 --> 00:36:13,079
+and so we end up with a negative out in
+ 
+
+1631
+00:36:13,079 --> 00:36:14,270
+and so we end up with a negative out in
+front
+
+1632
+00:36:14,270 --> 00:36:14,280
+front
+ 
+
+1633
+00:36:14,280 --> 00:36:17,930
+front
+here we have a verser of length 3.
+
+1634
+00:36:17,930 --> 00:36:17,940
+here we have a verser of length 3.
+ 
+
+1635
+00:36:17,940 --> 00:36:20,329
+here we have a verser of length 3.
+again if all of these are unit vectors
+
+1636
+00:36:20,329 --> 00:36:20,339
+again if all of these are unit vectors
+ 
+
+1637
+00:36:20,339 --> 00:36:22,849
+again if all of these are unit vectors
+we can write the inverse as just the
+
+1638
+00:36:22,849 --> 00:36:22,859
+we can write the inverse as just the
+ 
+
+1639
+00:36:22,859 --> 00:36:23,990
+we can write the inverse as just the
+reverse
+
+1640
+00:36:23,990 --> 00:36:24,000
+reverse
+ 
+
+1641
+00:36:24,000 --> 00:36:26,930
+reverse
+but for non-unit vectors the inverse
+
+1642
+00:36:26,930 --> 00:36:26,940
+but for non-unit vectors the inverse
+ 
+
+1643
+00:36:26,940 --> 00:36:28,790
+but for non-unit vectors the inverse
+requires division by the squared
+
+1644
+00:36:28,790 --> 00:36:28,800
+requires division by the squared
+ 
+
+1645
+00:36:28,800 --> 00:36:31,370
+requires division by the squared
+magnitudes so that the vectors become
+
+1646
+00:36:31,370 --> 00:36:31,380
+magnitudes so that the vectors become
+ 
+
+1647
+00:36:31,380 --> 00:36:33,410
+magnitudes so that the vectors become
+normalized
+
+1648
+00:36:33,410 --> 00:36:33,420
+normalized
+ 
+
+1649
+00:36:33,420 --> 00:36:37,250
+normalized
+if we do four Reflections this equals a
+
+1650
+00:36:37,250 --> 00:36:37,260
+if we do four Reflections this equals a
+ 
+
+1651
+00:36:37,260 --> 00:36:40,130
+if we do four Reflections this equals a
+pair of rotations which combine together
+
+1652
+00:36:40,130 --> 00:36:40,140
+pair of rotations which combine together
+ 
+
+1653
+00:36:40,140 --> 00:36:43,010
+pair of rotations which combine together
+to just give another rotation
+
+1654
+00:36:43,010 --> 00:36:43,020
+to just give another rotation
+ 
+
+1655
+00:36:43,020 --> 00:36:45,770
+to just give another rotation
+we get no negative sign in front and
+
+1656
+00:36:45,770 --> 00:36:45,780
+we get no negative sign in front and
+ 
+
+1657
+00:36:45,780 --> 00:36:48,230
+we get no negative sign in front and
+averser of length four
+
+1658
+00:36:48,230 --> 00:36:48,240
+averser of length four
+ 
+
+1659
+00:36:48,240 --> 00:36:50,510
+averser of length four
+the rules for inverse are the same as
+
+1660
+00:36:50,510 --> 00:36:50,520
+the rules for inverse are the same as
+ 
+
+1661
+00:36:50,520 --> 00:36:52,010
+the rules for inverse are the same as
+before
+
+1662
+00:36:52,010 --> 00:36:52,020
+before
+ 
+
+1663
+00:36:52,020 --> 00:36:54,230
+before
+and we can keep going with larger and
+
+1664
+00:36:54,230 --> 00:36:54,240
+and we can keep going with larger and
+ 
+
+1665
+00:36:54,240 --> 00:36:57,230
+and we can keep going with larger and
+larger reversers
+
+1666
+00:36:57,230 --> 00:36:57,240
+
+ 
+
+1667
+00:36:57,240 --> 00:37:00,349
+
+so the rule is if we have a versa with
+
+1668
+00:37:00,349 --> 00:37:00,359
+so the rule is if we have a versa with
+ 
+
+1669
+00:37:00,359 --> 00:37:02,990
+so the rule is if we have a versa with
+an odd length then we get a reflected
+
+1670
+00:37:02,990 --> 00:37:03,000
+an odd length then we get a reflected
+ 
+
+1671
+00:37:03,000 --> 00:37:06,109
+an odd length then we get a reflected
+rotation and our formula requires a
+
+1672
+00:37:06,109 --> 00:37:06,119
+rotation and our formula requires a
+ 
+
+1673
+00:37:06,119 --> 00:37:07,910
+rotation and our formula requires a
+minus sign in front
+
+1674
+00:37:07,910 --> 00:37:07,920
+minus sign in front
+ 
+
+1675
+00:37:07,920 --> 00:37:10,430
+minus sign in front
+if we have a verser with an even length
+
+1676
+00:37:10,430 --> 00:37:10,440
+if we have a verser with an even length
+ 
+
+1677
+00:37:10,440 --> 00:37:13,670
+if we have a verser with an even length
+we get a pure rotation and our formula
+
+1678
+00:37:13,670 --> 00:37:13,680
+we get a pure rotation and our formula
+ 
+
+1679
+00:37:13,680 --> 00:37:15,770
+we get a pure rotation and our formula
+has no minus sign
+
+1680
+00:37:15,770 --> 00:37:15,780
+has no minus sign
+ 
+
+1681
+00:37:15,780 --> 00:37:18,410
+has no minus sign
+one issue with these formulas is that
+
+1682
+00:37:18,410 --> 00:37:18,420
+one issue with these formulas is that
+ 
+
+1683
+00:37:18,420 --> 00:37:20,270
+one issue with these formulas is that
+there's an infinite number of versers
+
+1684
+00:37:20,270 --> 00:37:20,280
+there's an infinite number of versers
+ 
+
+1685
+00:37:20,280 --> 00:37:23,569
+there's an infinite number of versers
+that do the same transformation
+
+1686
+00:37:23,569 --> 00:37:23,579
+that do the same transformation
+ 
+
+1687
+00:37:23,579 --> 00:37:28,550
+that do the same transformation
+for example reflecting along U 2u 5u and
+
+1688
+00:37:28,550 --> 00:37:28,560
+for example reflecting along U 2u 5u and
+ 
+
+1689
+00:37:28,560 --> 00:37:31,790
+for example reflecting along U 2u 5u and
+100u all do the same thing
+
+1690
+00:37:31,790 --> 00:37:31,800
+100u all do the same thing
+ 
+
+1691
+00:37:31,800 --> 00:37:34,069
+100u all do the same thing
+we can reduce this infinite number of
+
+1692
+00:37:34,069 --> 00:37:34,079
+we can reduce this infinite number of
+ 
+
+1693
+00:37:34,079 --> 00:37:37,069
+we can reduce this infinite number of
+choices if we force the vector U to have
+
+1694
+00:37:37,069 --> 00:37:37,079
+choices if we force the vector U to have
+ 
+
+1695
+00:37:37,079 --> 00:37:40,130
+choices if we force the vector U to have
+unit length in this case there are only
+
+1696
+00:37:40,130 --> 00:37:40,140
+unit length in this case there are only
+ 
+
+1697
+00:37:40,140 --> 00:37:42,109
+unit length in this case there are only
+two vectors that can do the same
+
+1698
+00:37:42,109 --> 00:37:42,119
+two vectors that can do the same
+ 
+
+1699
+00:37:42,119 --> 00:37:45,710
+two vectors that can do the same
+reflection plus u and minus U
+
+1700
+00:37:45,710 --> 00:37:45,720
+reflection plus u and minus U
+ 
+
+1701
+00:37:45,720 --> 00:37:48,290
+reflection plus u and minus U
+since the transformation is double-sided
+
+1702
+00:37:48,290 --> 00:37:48,300
+since the transformation is double-sided
+ 
+
+1703
+00:37:48,300 --> 00:37:51,349
+since the transformation is double-sided
+the two minus signs in minus U will
+
+1704
+00:37:51,349 --> 00:37:51,359
+the two minus signs in minus U will
+ 
+
+1705
+00:37:51,359 --> 00:37:53,510
+the two minus signs in minus U will
+cancel out so it gives the same
+
+1706
+00:37:53,510 --> 00:37:53,520
+cancel out so it gives the same
+ 
+
+1707
+00:37:53,520 --> 00:37:56,569
+cancel out so it gives the same
+transformation as plus u
+
+1708
+00:37:56,569 --> 00:37:56,579
+transformation as plus u
+ 
+
+1709
+00:37:56,579 --> 00:37:59,810
+transformation as plus u
+the same is true for rotations if we
+
+1710
+00:37:59,810 --> 00:37:59,820
+the same is true for rotations if we
+ 
+
+1711
+00:37:59,820 --> 00:38:03,230
+the same is true for rotations if we
+force the verser U1 U2 to be made up of
+
+1712
+00:38:03,230 --> 00:38:03,240
+force the verser U1 U2 to be made up of
+ 
+
+1713
+00:38:03,240 --> 00:38:05,750
+force the verser U1 U2 to be made up of
+unit vectors then there are only two
+
+1714
+00:38:05,750 --> 00:38:05,760
+unit vectors then there are only two
+ 
+
+1715
+00:38:05,760 --> 00:38:08,150
+unit vectors then there are only two
+choices of Versa that perform a given
+
+1716
+00:38:08,150 --> 00:38:08,160
+choices of Versa that perform a given
+ 
+
+1717
+00:38:08,160 --> 00:38:11,510
+choices of Versa that perform a given
+rotation the plus and minus versions of
+
+1718
+00:38:11,510 --> 00:38:11,520
+rotation the plus and minus versions of
+ 
+
+1719
+00:38:11,520 --> 00:38:13,490
+rotation the plus and minus versions of
+U1 U2
+
+1720
+00:38:13,490 --> 00:38:13,500
+U1 U2
+ 
+
+1721
+00:38:13,500 --> 00:38:17,150
+U1 U2
+this extends for verses of any length if
+
+1722
+00:38:17,150 --> 00:38:17,160
+this extends for verses of any length if
+ 
+
+1723
+00:38:17,160 --> 00:38:19,069
+this extends for verses of any length if
+the verser is built using only unit
+
+1724
+00:38:19,069 --> 00:38:19,079
+the verser is built using only unit
+ 
+
+1725
+00:38:19,079 --> 00:38:22,010
+the verser is built using only unit
+vectors there are only two verses that
+
+1726
+00:38:22,010 --> 00:38:22,020
+vectors there are only two verses that
+ 
+
+1727
+00:38:22,020 --> 00:38:23,390
+vectors there are only two verses that
+will do the same geometric
+
+1728
+00:38:23,390 --> 00:38:23,400
+will do the same geometric
+ 
+
+1729
+00:38:23,400 --> 00:38:26,510
+will do the same geometric
+transformation the plus and minus signs
+
+1730
+00:38:26,510 --> 00:38:26,520
+transformation the plus and minus signs
+ 
+
+1731
+00:38:26,520 --> 00:38:28,370
+transformation the plus and minus signs
+of the same versa
+
+1732
+00:38:28,370 --> 00:38:28,380
+of the same versa
+ 
+
+1733
+00:38:28,380 --> 00:38:31,250
+of the same versa
+also to get the inverse of versers made
+
+1734
+00:38:31,250 --> 00:38:31,260
+also to get the inverse of versers made
+ 
+
+1735
+00:38:31,260 --> 00:38:33,829
+also to get the inverse of versers made
+up of only unit length vectors we just
+
+1736
+00:38:33,829 --> 00:38:33,839
+up of only unit length vectors we just
+ 
+
+1737
+00:38:33,839 --> 00:38:35,990
+up of only unit length vectors we just
+take the reverse
+
+1738
+00:38:35,990 --> 00:38:36,000
+take the reverse
+ 
+
+1739
+00:38:36,000 --> 00:38:38,510
+take the reverse
+we say that the set of verses of even
+
+1740
+00:38:38,510 --> 00:38:38,520
+we say that the set of verses of even
+ 
+
+1741
+00:38:38,520 --> 00:38:41,329
+we say that the set of verses of even
+length that are made up of unit vectors
+
+1742
+00:38:41,329 --> 00:38:41,339
+length that are made up of unit vectors
+ 
+
+1743
+00:38:41,339 --> 00:38:44,690
+length that are made up of unit vectors
+is called the spin and group this
+
+1744
+00:38:44,690 --> 00:38:44,700
+is called the spin and group this
+ 
+
+1745
+00:38:44,700 --> 00:38:47,270
+is called the spin and group this
+contains all possible rotations that can
+
+1746
+00:38:47,270 --> 00:38:47,280
+contains all possible rotations that can
+ 
+
+1747
+00:38:47,280 --> 00:38:50,150
+contains all possible rotations that can
+be done in n-dimensional space
+
+1748
+00:38:50,150 --> 00:38:50,160
+be done in n-dimensional space
+ 
+
+1749
+00:38:50,160 --> 00:38:52,790
+be done in n-dimensional space
+spin n is the double cover of the
+
+1750
+00:38:52,790 --> 00:38:52,800
+spin n is the double cover of the
+ 
+
+1751
+00:38:52,800 --> 00:38:56,329
+spin n is the double cover of the
+rotation Matrix Group son which is the
+
+1752
+00:38:56,329 --> 00:38:56,339
+rotation Matrix Group son which is the
+ 
+
+1753
+00:38:56,339 --> 00:38:59,329
+rotation Matrix Group son which is the
+special orthogonal n by n matrices
+
+1754
+00:38:59,329 --> 00:38:59,339
+special orthogonal n by n matrices
+ 
+
+1755
+00:38:59,339 --> 00:39:01,730
+special orthogonal n by n matrices
+we say spin n is the double cover
+
+1756
+00:39:01,730 --> 00:39:01,740
+we say spin n is the double cover
+ 
+
+1757
+00:39:01,740 --> 00:39:04,490
+we say spin n is the double cover
+because there are two members of spin n
+
+1758
+00:39:04,490 --> 00:39:04,500
+because there are two members of spin n
+ 
+
+1759
+00:39:04,500 --> 00:39:07,069
+because there are two members of spin n
+that perform the same rotation as a
+
+1760
+00:39:07,069 --> 00:39:07,079
+that perform the same rotation as a
+ 
+
+1761
+00:39:07,079 --> 00:39:10,490
+that perform the same rotation as a
+given son Matrix because positive and
+
+1762
+00:39:10,490 --> 00:39:10,500
+given son Matrix because positive and
+ 
+
+1763
+00:39:10,500 --> 00:39:12,530
+given son Matrix because positive and
+negative versions of averser do the same
+
+1764
+00:39:12,530 --> 00:39:12,540
+negative versions of averser do the same
+ 
+
+1765
+00:39:12,540 --> 00:39:15,290
+negative versions of averser do the same
+rotation they are both associated with a
+
+1766
+00:39:15,290 --> 00:39:15,300
+rotation they are both associated with a
+ 
+
+1767
+00:39:15,300 --> 00:39:18,109
+rotation they are both associated with a
+single rotation Matrix
+
+1768
+00:39:18,109 --> 00:39:18,119
+single rotation Matrix
+ 
+
+1769
+00:39:18,119 --> 00:39:20,750
+single rotation Matrix
+if we expand the set to include all
+
+1770
+00:39:20,750 --> 00:39:20,760
+if we expand the set to include all
+ 
+
+1771
+00:39:20,760 --> 00:39:24,230
+if we expand the set to include all
+verses of both even and odd lengths made
+
+1772
+00:39:24,230 --> 00:39:24,240
+verses of both even and odd lengths made
+ 
+
+1773
+00:39:24,240 --> 00:39:27,589
+verses of both even and odd lengths made
+up of unit vectors we call this the pin
+
+1774
+00:39:27,589 --> 00:39:27,599
+up of unit vectors we call this the pin
+ 
+
+1775
+00:39:27,599 --> 00:39:30,530
+up of unit vectors we call this the pin
+and group this contains all possible
+
+1776
+00:39:30,530 --> 00:39:30,540
+and group this contains all possible
+ 
+
+1777
+00:39:30,540 --> 00:39:33,950
+and group this contains all possible
+rotations and reflected rotations that
+
+1778
+00:39:33,950 --> 00:39:33,960
+rotations and reflected rotations that
+ 
+
+1779
+00:39:33,960 --> 00:39:37,310
+rotations and reflected rotations that
+can be done in n-dimensional space
+
+1780
+00:39:37,310 --> 00:39:37,320
+can be done in n-dimensional space
+ 
+
+1781
+00:39:37,320 --> 00:39:39,650
+can be done in n-dimensional space
+pin n is the double cover of the
+
+1782
+00:39:39,650 --> 00:39:39,660
+pin n is the double cover of the
+ 
+
+1783
+00:39:39,660 --> 00:39:42,770
+pin n is the double cover of the
+orthogonal group O N which includes
+
+1784
+00:39:42,770 --> 00:39:42,780
+orthogonal group O N which includes
+ 
+
+1785
+00:39:42,780 --> 00:39:46,130
+orthogonal group O N which includes
+rotations and reflected rotations again
+
+1786
+00:39:46,130 --> 00:39:46,140
+rotations and reflected rotations again
+ 
+
+1787
+00:39:46,140 --> 00:39:48,349
+rotations and reflected rotations again
+it's the double cover because there are
+
+1788
+00:39:48,349 --> 00:39:48,359
+it's the double cover because there are
+ 
+
+1789
+00:39:48,359 --> 00:39:51,050
+it's the double cover because there are
+two verses in the pin and group for
+
+1790
+00:39:51,050 --> 00:39:51,060
+two verses in the pin and group for
+ 
+
+1791
+00:39:51,060 --> 00:39:53,870
+two verses in the pin and group for
+every on Matrix that performs the same
+
+1792
+00:39:53,870 --> 00:39:53,880
+every on Matrix that performs the same
+ 
+
+1793
+00:39:53,880 --> 00:39:56,150
+every on Matrix that performs the same
+geometric operation
+
+1794
+00:39:56,150 --> 00:39:56,160
+geometric operation
+ 
+
+1795
+00:39:56,160 --> 00:39:58,430
+geometric operation
+the plus and minus versions of the same
+
+1796
+00:39:58,430 --> 00:39:58,440
+the plus and minus versions of the same
+ 
+
+1797
+00:39:58,440 --> 00:40:00,710
+the plus and minus versions of the same
+Versa perform the same geometric
+
+1798
+00:40:00,710 --> 00:40:00,720
+Versa perform the same geometric
+ 
+
+1799
+00:40:00,720 --> 00:40:02,990
+Versa perform the same geometric
+operation
+
+1800
+00:40:02,990 --> 00:40:03,000
+operation
+ 
+
+1801
+00:40:03,000 --> 00:40:05,630
+operation
+the reason we call it the pin and group
+
+1802
+00:40:05,630 --> 00:40:05,640
+the reason we call it the pin and group
+ 
+
+1803
+00:40:05,640 --> 00:40:09,170
+the reason we call it the pin and group
+is a bit silly the son group does pure
+
+1804
+00:40:09,170 --> 00:40:09,180
+is a bit silly the son group does pure
+ 
+
+1805
+00:40:09,180 --> 00:40:12,349
+is a bit silly the son group does pure
+rotations to include reflected rotations
+
+1806
+00:40:12,349 --> 00:40:12,359
+rotations to include reflected rotations
+ 
+
+1807
+00:40:12,359 --> 00:40:16,210
+rotations to include reflected rotations
+we just cross off the S to get o n
+
+1808
+00:40:16,210 --> 00:40:16,220
+we just cross off the S to get o n
+ 
+
+1809
+00:40:16,220 --> 00:40:19,490
+we just cross off the S to get o n
+similarly the spin and group does pure
+
+1810
+00:40:19,490 --> 00:40:19,500
+similarly the spin and group does pure
+ 
+
+1811
+00:40:19,500 --> 00:40:22,609
+similarly the spin and group does pure
+rotations to include reflected rotations
+
+1812
+00:40:22,609 --> 00:40:22,619
+rotations to include reflected rotations
+ 
+
+1813
+00:40:22,619 --> 00:40:25,730
+rotations to include reflected rotations
+we just cross off the S to get the pin
+
+1814
+00:40:25,730 --> 00:40:25,740
+we just cross off the S to get the pin
+ 
+
+1815
+00:40:25,740 --> 00:40:27,530
+we just cross off the S to get the pin
+and group
+
+1816
+00:40:27,530 --> 00:40:27,540
+and group
+ 
+
+1817
+00:40:27,540 --> 00:40:29,990
+and group
+one thing that's a bit awkward is that
+
+1818
+00:40:29,990 --> 00:40:30,000
+one thing that's a bit awkward is that
+ 
+
+1819
+00:40:30,000 --> 00:40:31,910
+one thing that's a bit awkward is that
+we have two different formulas for
+
+1820
+00:40:31,910 --> 00:40:31,920
+we have two different formulas for
+ 
+
+1821
+00:40:31,920 --> 00:40:34,750
+we have two different formulas for
+reflected rotations and pure rotations
+
+1822
+00:40:34,750 --> 00:40:34,760
+reflected rotations and pure rotations
+ 
+
+1823
+00:40:34,760 --> 00:40:37,490
+reflected rotations and pure rotations
+one has a negative sign and the other
+
+1824
+00:40:37,490 --> 00:40:37,500
+one has a negative sign and the other
+ 
+
+1825
+00:40:37,500 --> 00:40:40,490
+one has a negative sign and the other
+doesn't we can merge the two formulas
+
+1826
+00:40:40,490 --> 00:40:40,500
+doesn't we can merge the two formulas
+ 
+
+1827
+00:40:40,500 --> 00:40:43,430
+doesn't we can merge the two formulas
+into a single formula if we introduce a
+
+1828
+00:40:43,430 --> 00:40:43,440
+into a single formula if we introduce a
+ 
+
+1829
+00:40:43,440 --> 00:40:45,890
+into a single formula if we introduce a
+new operation called grade involution
+
+1830
+00:40:45,890 --> 00:40:45,900
+new operation called grade involution
+ 
+
+1831
+00:40:45,900 --> 00:40:49,130
+new operation called grade involution
+for Clifford algebras which is usually
+
+1832
+00:40:49,130 --> 00:40:49,140
+for Clifford algebras which is usually
+ 
+
+1833
+00:40:49,140 --> 00:40:52,490
+for Clifford algebras which is usually
+denoted by alpha or a hat symbol
+
+1834
+00:40:52,490 --> 00:40:52,500
+denoted by alpha or a hat symbol
+ 
+
+1835
+00:40:52,500 --> 00:40:55,250
+denoted by alpha or a hat symbol
+the great Evolution just takes a vector
+
+1836
+00:40:55,250 --> 00:40:55,260
+the great Evolution just takes a vector
+ 
+
+1837
+00:40:55,260 --> 00:40:57,530
+the great Evolution just takes a vector
+and gives it a negative sign
+
+1838
+00:40:57,530 --> 00:40:57,540
+and gives it a negative sign
+ 
+
+1839
+00:40:57,540 --> 00:41:00,109
+and gives it a negative sign
+if you apply it to a product of vectors
+
+1840
+00:41:00,109 --> 00:41:00,119
+if you apply it to a product of vectors
+ 
+
+1841
+00:41:00,119 --> 00:41:02,990
+if you apply it to a product of vectors
+then they each get the negative sign
+
+1842
+00:41:02,990 --> 00:41:03,000
+then they each get the negative sign
+ 
+
+1843
+00:41:03,000 --> 00:41:05,450
+then they each get the negative sign
+if you apply it to a product of two
+
+1844
+00:41:05,450 --> 00:41:05,460
+if you apply it to a product of two
+ 
+
+1845
+00:41:05,460 --> 00:41:07,550
+if you apply it to a product of two
+vectors then they each get a negative
+
+1846
+00:41:07,550 --> 00:41:07,560
+vectors then they each get a negative
+ 
+
+1847
+00:41:07,560 --> 00:41:10,370
+vectors then they each get a negative
+sign which cancel with each other so
+
+1848
+00:41:10,370 --> 00:41:10,380
+sign which cancel with each other so
+ 
+
+1849
+00:41:10,380 --> 00:41:13,490
+sign which cancel with each other so
+there is no overall sign change
+
+1850
+00:41:13,490 --> 00:41:13,500
+there is no overall sign change
+ 
+
+1851
+00:41:13,500 --> 00:41:16,250
+there is no overall sign change
+in the case of three vectors two of them
+
+1852
+00:41:16,250 --> 00:41:16,260
+in the case of three vectors two of them
+ 
+
+1853
+00:41:16,260 --> 00:41:18,410
+in the case of three vectors two of them
+cancel and there is an overall sign
+
+1854
+00:41:18,410 --> 00:41:18,420
+cancel and there is an overall sign
+ 
+
+1855
+00:41:18,420 --> 00:41:21,349
+cancel and there is an overall sign
+change with four vectors all the minus
+
+1856
+00:41:21,349 --> 00:41:21,359
+change with four vectors all the minus
+ 
+
+1857
+00:41:21,359 --> 00:41:24,710
+change with four vectors all the minus
+signs cancel and there is no sign change
+
+1858
+00:41:24,710 --> 00:41:24,720
+signs cancel and there is no sign change
+ 
+
+1859
+00:41:24,720 --> 00:41:27,290
+signs cancel and there is no sign change
+the grade involution formula basically
+
+1860
+00:41:27,290 --> 00:41:27,300
+the grade involution formula basically
+ 
+
+1861
+00:41:27,300 --> 00:41:30,829
+the grade involution formula basically
+swaps the signs of odd grade members and
+
+1862
+00:41:30,829 --> 00:41:30,839
+swaps the signs of odd grade members and
+ 
+
+1863
+00:41:30,839 --> 00:41:33,410
+swaps the signs of odd grade members and
+leaves the sign unchanged for even grade
+
+1864
+00:41:33,410 --> 00:41:33,420
+leaves the sign unchanged for even grade
+ 
+
+1865
+00:41:33,420 --> 00:41:34,849
+leaves the sign unchanged for even grade
+members
+
+1866
+00:41:34,849 --> 00:41:34,859
+members
+ 
+
+1867
+00:41:34,859 --> 00:41:37,910
+members
+so by applying grade involution to the
+
+1868
+00:41:37,910 --> 00:41:37,920
+so by applying grade involution to the
+ 
+
+1869
+00:41:37,920 --> 00:41:40,670
+so by applying grade involution to the
+first verser in a conjugation we
+
+1870
+00:41:40,670 --> 00:41:40,680
+first verser in a conjugation we
+ 
+
+1871
+00:41:40,680 --> 00:41:42,349
+first verser in a conjugation we
+automatically get the correct sign
+
+1872
+00:41:42,349 --> 00:41:42,359
+automatically get the correct sign
+ 
+
+1873
+00:41:42,359 --> 00:41:45,530
+automatically get the correct sign
+depending on if U is even grade or odd
+
+1874
+00:41:45,530 --> 00:41:45,540
+depending on if U is even grade or odd
+ 
+
+1875
+00:41:45,540 --> 00:41:46,790
+depending on if U is even grade or odd
+grade
+
+1876
+00:41:46,790 --> 00:41:46,800
+grade
+ 
+
+1877
+00:41:46,800 --> 00:41:49,130
+grade
+so this conjugation with a great
+
+1878
+00:41:49,130 --> 00:41:49,140
+so this conjugation with a great
+ 
+
+1879
+00:41:49,140 --> 00:41:51,170
+so this conjugation with a great
+involution allows us to perform both
+
+1880
+00:41:51,170 --> 00:41:51,180
+involution allows us to perform both
+ 
+
+1881
+00:41:51,180 --> 00:41:54,170
+involution allows us to perform both
+reflected rotations and pure rotations
+
+1882
+00:41:54,170 --> 00:41:54,180
+reflected rotations and pure rotations
+ 
+
+1883
+00:41:54,180 --> 00:41:58,010
+reflected rotations and pure rotations
+in a Clifford algebra of any dimension
+
+1884
+00:41:58,010 --> 00:41:58,020
+in a Clifford algebra of any dimension
+ 
+
+1885
+00:41:58,020 --> 00:42:00,589
+in a Clifford algebra of any dimension
+a conjugation that includes this grade
+
+1886
+00:42:00,589 --> 00:42:00,599
+a conjugation that includes this grade
+ 
+
+1887
+00:42:00,599 --> 00:42:03,950
+a conjugation that includes this grade
+involution is sometimes called a twisted
+
+1888
+00:42:03,950 --> 00:42:03,960
+involution is sometimes called a twisted
+ 
+
+1889
+00:42:03,960 --> 00:42:07,250
+involution is sometimes called a twisted
+conjugation
+
+1890
+00:42:07,250 --> 00:42:07,260
+
+ 
+
+1891
+00:42:07,260 --> 00:42:09,410
+
+now we just need to put in a little more
+
+1892
+00:42:09,410 --> 00:42:09,420
+now we just need to put in a little more
+ 
+
+1893
+00:42:09,420 --> 00:42:12,349
+now we just need to put in a little more
+work to generalize this to space-time in
+
+1894
+00:42:12,349 --> 00:42:12,359
+work to generalize this to space-time in
+ 
+
+1895
+00:42:12,359 --> 00:42:16,130
+work to generalize this to space-time in
+a Clifford algebra clpq with p time
+
+1896
+00:42:16,130 --> 00:42:16,140
+a Clifford algebra clpq with p time
+ 
+
+1897
+00:42:16,140 --> 00:42:19,550
+a Clifford algebra clpq with p time
+dimensions and Q space dimensions
+
+1898
+00:42:19,550 --> 00:42:19,560
+dimensions and Q space dimensions
+ 
+
+1899
+00:42:19,560 --> 00:42:22,310
+dimensions and Q space dimensions
+as discussed previously the reflection
+
+1900
+00:42:22,310 --> 00:42:22,320
+as discussed previously the reflection
+ 
+
+1901
+00:42:22,320 --> 00:42:24,650
+as discussed previously the reflection
+and rotation formulas work the exact
+
+1902
+00:42:24,650 --> 00:42:24,660
+and rotation formulas work the exact
+ 
+
+1903
+00:42:24,660 --> 00:42:27,410
+and rotation formulas work the exact
+same as in physical space negative
+
+1904
+00:42:27,410 --> 00:42:27,420
+same as in physical space negative
+ 
+
+1905
+00:42:27,420 --> 00:42:29,390
+same as in physical space negative
+conjugation with a vector for a
+
+1906
+00:42:29,390 --> 00:42:29,400
+conjugation with a vector for a
+ 
+
+1907
+00:42:29,400 --> 00:42:32,030
+conjugation with a vector for a
+reflection and positive conjugation with
+
+1908
+00:42:32,030 --> 00:42:32,040
+reflection and positive conjugation with
+ 
+
+1909
+00:42:32,040 --> 00:42:35,089
+reflection and positive conjugation with
+a grade 2 Versa for a rotation
+
+1910
+00:42:35,089 --> 00:42:35,099
+a grade 2 Versa for a rotation
+ 
+
+1911
+00:42:35,099 --> 00:42:38,089
+a grade 2 Versa for a rotation
+we can Define the spin p q group almost
+
+1912
+00:42:38,089 --> 00:42:38,099
+we can Define the spin p q group almost
+ 
+
+1913
+00:42:38,099 --> 00:42:41,390
+we can Define the spin p q group almost
+exactly as before even grade Versa is
+
+1914
+00:42:41,390 --> 00:42:41,400
+exactly as before even grade Versa is
+ 
+
+1915
+00:42:41,400 --> 00:42:43,370
+exactly as before even grade Versa is
+made of unit vectors
+
+1916
+00:42:43,370 --> 00:42:43,380
+made of unit vectors
+ 
+
+1917
+00:42:43,380 --> 00:42:46,010
+made of unit vectors
+however unit vectors include both time
+
+1918
+00:42:46,010 --> 00:42:46,020
+however unit vectors include both time
+ 
+
+1919
+00:42:46,020 --> 00:42:48,230
+however unit vectors include both time
+like unit vectors that square two plus
+
+1920
+00:42:48,230 --> 00:42:48,240
+like unit vectors that square two plus
+ 
+
+1921
+00:42:48,240 --> 00:42:51,109
+like unit vectors that square two plus
+one and space-like unit vectors that
+
+1922
+00:42:51,109 --> 00:42:51,119
+one and space-like unit vectors that
+ 
+
+1923
+00:42:51,119 --> 00:42:53,329
+one and space-like unit vectors that
+square two minus one
+
+1924
+00:42:53,329 --> 00:42:53,339
+square two minus one
+ 
+
+1925
+00:42:53,339 --> 00:42:55,609
+square two minus one
+this means that for members of the spin
+
+1926
+00:42:55,609 --> 00:42:55,619
+this means that for members of the spin
+ 
+
+1927
+00:42:55,619 --> 00:42:58,730
+this means that for members of the spin
+PQ group an element multiplied by its
+
+1928
+00:42:58,730 --> 00:42:58,740
+PQ group an element multiplied by its
+ 
+
+1929
+00:42:58,740 --> 00:43:02,150
+PQ group an element multiplied by its
+reverse won't always give plus one it
+
+1930
+00:43:02,150 --> 00:43:02,160
+reverse won't always give plus one it
+ 
+
+1931
+00:43:02,160 --> 00:43:04,670
+reverse won't always give plus one it
+will sometimes give -1
+
+1932
+00:43:04,670 --> 00:43:04,680
+will sometimes give -1
+ 
+
+1933
+00:43:04,680 --> 00:43:06,650
+will sometimes give -1
+for example if the transformation
+
+1934
+00:43:06,650 --> 00:43:06,660
+for example if the transformation
+ 
+
+1935
+00:43:06,660 --> 00:43:08,930
+for example if the transformation
+contains a boost
+
+1936
+00:43:08,930 --> 00:43:08,940
+contains a boost
+ 
+
+1937
+00:43:08,940 --> 00:43:11,990
+contains a boost
+sometimes we Define the spin plus p q
+
+1938
+00:43:11,990 --> 00:43:12,000
+sometimes we Define the spin plus p q
+ 
+
+1939
+00:43:12,000 --> 00:43:14,630
+sometimes we Define the spin plus p q
+group to only include members who
+
+1940
+00:43:14,630 --> 00:43:14,640
+group to only include members who
+ 
+
+1941
+00:43:14,640 --> 00:43:17,089
+group to only include members who
+multiply with their reverse to give plus
+
+1942
+00:43:17,089 --> 00:43:17,099
+multiply with their reverse to give plus
+ 
+
+1943
+00:43:17,099 --> 00:43:21,770
+multiply with their reverse to give plus
+one and the minus one case is excluded
+
+1944
+00:43:21,770 --> 00:43:21,780
+one and the minus one case is excluded
+ 
+
+1945
+00:43:21,780 --> 00:43:25,069
+one and the minus one case is excluded
+the pin p q group is simply defined as
+
+1946
+00:43:25,069 --> 00:43:25,079
+the pin p q group is simply defined as
+ 
+
+1947
+00:43:25,079 --> 00:43:27,950
+the pin p q group is simply defined as
+all versars of any length made of unit
+
+1948
+00:43:27,950 --> 00:43:27,960
+all versars of any length made of unit
+ 
+
+1949
+00:43:27,960 --> 00:43:29,930
+all versars of any length made of unit
+vectors
+
+1950
+00:43:29,930 --> 00:43:29,940
+vectors
+ 
+
+1951
+00:43:29,940 --> 00:43:33,170
+vectors
+as expected spin PQ is the double cover
+
+1952
+00:43:33,170 --> 00:43:33,180
+as expected spin PQ is the double cover
+ 
+
+1953
+00:43:33,180 --> 00:43:37,130
+as expected spin PQ is the double cover
+of so plus PQ where the plus indicates
+
+1954
+00:43:37,130 --> 00:43:37,140
+of so plus PQ where the plus indicates
+ 
+
+1955
+00:43:37,140 --> 00:43:40,250
+of so plus PQ where the plus indicates
+that time Reflections are excluded and
+
+1956
+00:43:40,250 --> 00:43:40,260
+that time Reflections are excluded and
+ 
+
+1957
+00:43:40,260 --> 00:43:44,270
+that time Reflections are excluded and
+pin PQ is the double cover of opq which
+
+1958
+00:43:44,270 --> 00:43:44,280
+pin PQ is the double cover of opq which
+ 
+
+1959
+00:43:44,280 --> 00:43:48,470
+pin PQ is the double cover of opq which
+includes both space and time reflections
+
+1960
+00:43:48,470 --> 00:43:48,480
+includes both space and time reflections
+ 
+
+1961
+00:43:48,480 --> 00:43:50,809
+includes both space and time reflections
+it's important to keep in mind that for
+
+1962
+00:43:50,809 --> 00:43:50,819
+it's important to keep in mind that for
+ 
+
+1963
+00:43:50,819 --> 00:43:53,870
+it's important to keep in mind that for
+space time if a vector is space-like and
+
+1964
+00:43:53,870 --> 00:43:53,880
+space time if a vector is space-like and
+ 
+
+1965
+00:43:53,880 --> 00:43:56,329
+space time if a vector is space-like and
+squares to a negative number then its
+
+1966
+00:43:56,329 --> 00:43:56,339
+squares to a negative number then its
+ 
+
+1967
+00:43:56,339 --> 00:43:58,370
+squares to a negative number then its
+inverse will have an extra negative sign
+
+1968
+00:43:58,370 --> 00:43:58,380
+inverse will have an extra negative sign
+ 
+
+1969
+00:43:58,380 --> 00:44:01,130
+inverse will have an extra negative sign
+so we always require these inverse
+
+1970
+00:44:01,130 --> 00:44:01,140
+so we always require these inverse
+ 
+
+1971
+00:44:01,140 --> 00:44:03,410
+so we always require these inverse
+operations to get the signs right in our
+
+1972
+00:44:03,410 --> 00:44:03,420
+operations to get the signs right in our
+ 
+
+1973
+00:44:03,420 --> 00:44:04,790
+operations to get the signs right in our
+equations
+
+1974
+00:44:04,790 --> 00:44:04,800
+equations
+ 
+
+1975
+00:44:04,800 --> 00:44:06,890
+equations
+taking the inverse of a space like
+
+1976
+00:44:06,890 --> 00:44:06,900
+taking the inverse of a space like
+ 
+
+1977
+00:44:06,900 --> 00:44:09,290
+taking the inverse of a space like
+vector requires dividing by the squared
+
+1978
+00:44:09,290 --> 00:44:09,300
+vector requires dividing by the squared
+ 
+
+1979
+00:44:09,300 --> 00:44:11,450
+vector requires dividing by the squared
+length of the vector and this will give
+
+1980
+00:44:11,450 --> 00:44:11,460
+length of the vector and this will give
+ 
+
+1981
+00:44:11,460 --> 00:44:15,470
+length of the vector and this will give
+us the extra required negative sign
+
+1982
+00:44:15,470 --> 00:44:15,480
+us the extra required negative sign
+ 
+
+1983
+00:44:15,480 --> 00:44:17,930
+us the extra required negative sign
+so we've learned that we can transform a
+
+1984
+00:44:17,930 --> 00:44:17,940
+so we've learned that we can transform a
+ 
+
+1985
+00:44:17,940 --> 00:44:20,930
+so we've learned that we can transform a
+vector v using Twisted conjugation with
+
+1986
+00:44:20,930 --> 00:44:20,940
+vector v using Twisted conjugation with
+ 
+
+1987
+00:44:20,940 --> 00:44:22,670
+vector v using Twisted conjugation with
+averser r
+
+1988
+00:44:22,670 --> 00:44:22,680
+averser r
+ 
+
+1989
+00:44:22,680 --> 00:44:25,130
+averser r
+it turns out that we can also transform
+
+1990
+00:44:25,130 --> 00:44:25,140
+it turns out that we can also transform
+ 
+
+1991
+00:44:25,140 --> 00:44:28,130
+it turns out that we can also transform
+any general multi-vector M using a
+
+1992
+00:44:28,130 --> 00:44:28,140
+any general multi-vector M using a
+ 
+
+1993
+00:44:28,140 --> 00:44:30,050
+any general multi-vector M using a
+similar transformation
+
+1994
+00:44:30,050 --> 00:44:30,060
+similar transformation
+ 
+
+1995
+00:44:30,060 --> 00:44:33,050
+similar transformation
+let's start by assuming the verser r has
+
+1996
+00:44:33,050 --> 00:44:33,060
+let's start by assuming the verser r has
+ 
+
+1997
+00:44:33,060 --> 00:44:35,450
+let's start by assuming the verser r has
+an even length and so the gradient
+
+1998
+00:44:35,450 --> 00:44:35,460
+an even length and so the gradient
+ 
+
+1999
+00:44:35,460 --> 00:44:38,210
+an even length and so the gradient
+version doesn't change the sign
+
+2000
+00:44:38,210 --> 00:44:38,220
+version doesn't change the sign
+ 
+
+2001
+00:44:38,220 --> 00:44:42,770
+version doesn't change the sign
+if m is made up of vectors v w x y we
+
+2002
+00:44:42,770 --> 00:44:42,780
+if m is made up of vectors v w x y we
+ 
+
+2003
+00:44:42,780 --> 00:44:44,990
+if m is made up of vectors v w x y we
+can transform each individual Vector
+
+2004
+00:44:44,990 --> 00:44:45,000
+can transform each individual Vector
+ 
+
+2005
+00:44:45,000 --> 00:44:47,150
+can transform each individual Vector
+using conjugation
+
+2006
+00:44:47,150 --> 00:44:47,160
+using conjugation
+ 
+
+2007
+00:44:47,160 --> 00:44:50,270
+using conjugation
+the inner conjugation terms of R inverse
+
+2008
+00:44:50,270 --> 00:44:50,280
+the inner conjugation terms of R inverse
+ 
+
+2009
+00:44:50,280 --> 00:44:53,150
+the inner conjugation terms of R inverse
+and R cancel with each other and we're
+
+2010
+00:44:53,150 --> 00:44:53,160
+and R cancel with each other and we're
+ 
+
+2011
+00:44:53,160 --> 00:44:55,910
+and R cancel with each other and we're
+left with only the outer r's
+
+2012
+00:44:55,910 --> 00:44:55,920
+left with only the outer r's
+ 
+
+2013
+00:44:55,920 --> 00:44:58,849
+left with only the outer r's
+so conjugating each individual Vector in
+
+2014
+00:44:58,849 --> 00:44:58,859
+so conjugating each individual Vector in
+ 
+
+2015
+00:44:58,859 --> 00:45:01,609
+so conjugating each individual Vector in
+m is the same thing as conjugating M
+
+2016
+00:45:01,609 --> 00:45:01,619
+m is the same thing as conjugating M
+ 
+
+2017
+00:45:01,619 --> 00:45:03,170
+m is the same thing as conjugating M
+itself
+
+2018
+00:45:03,170 --> 00:45:03,180
+itself
+ 
+
+2019
+00:45:03,180 --> 00:45:05,750
+itself
+this allows us to transform bifector
+
+2020
+00:45:05,750 --> 00:45:05,760
+this allows us to transform bifector
+ 
+
+2021
+00:45:05,760 --> 00:45:09,349
+this allows us to transform bifector
+planes tri-vector cubes and so on with
+
+2022
+00:45:09,349 --> 00:45:09,359
+planes tri-vector cubes and so on with
+ 
+
+2023
+00:45:09,359 --> 00:45:12,290
+planes tri-vector cubes and so on with
+the same conjugation formula
+
+2024
+00:45:12,290 --> 00:45:12,300
+the same conjugation formula
+ 
+
+2025
+00:45:12,300 --> 00:45:15,530
+the same conjugation formula
+the quaternions i j k can be written in
+
+2026
+00:45:15,530 --> 00:45:15,540
+the quaternions i j k can be written in
+ 
+
+2027
+00:45:15,540 --> 00:45:18,410
+the quaternions i j k can be written in
+terms of bi vectors and rotated with the
+
+2028
+00:45:18,410 --> 00:45:18,420
+terms of bi vectors and rotated with the
+ 
+
+2029
+00:45:18,420 --> 00:45:20,990
+terms of bi vectors and rotated with the
+standard conjugation formula just like a
+
+2030
+00:45:20,990 --> 00:45:21,000
+standard conjugation formula just like a
+ 
+
+2031
+00:45:21,000 --> 00:45:22,370
+standard conjugation formula just like a
+vector
+
+2032
+00:45:22,370 --> 00:45:22,380
+vector
+ 
+
+2033
+00:45:22,380 --> 00:45:25,550
+vector
+but now what if the verser r has any
+
+2034
+00:45:25,550 --> 00:45:25,560
+but now what if the verser r has any
+ 
+
+2035
+00:45:25,560 --> 00:45:28,309
+but now what if the verser r has any
+lengths so its grade inversion can lead
+
+2036
+00:45:28,309 --> 00:45:28,319
+lengths so its grade inversion can lead
+ 
+
+2037
+00:45:28,319 --> 00:45:31,309
+lengths so its grade inversion can lead
+to a plus sign or a minus sign depending
+
+2038
+00:45:31,309 --> 00:45:31,319
+to a plus sign or a minus sign depending
+ 
+
+2039
+00:45:31,319 --> 00:45:32,990
+to a plus sign or a minus sign depending
+on its length
+
+2040
+00:45:32,990 --> 00:45:33,000
+on its length
+ 
+
+2041
+00:45:33,000 --> 00:45:35,390
+on its length
+if we take the individual vectors that
+
+2042
+00:45:35,390 --> 00:45:35,400
+if we take the individual vectors that
+ 
+
+2043
+00:45:35,400 --> 00:45:38,690
+if we take the individual vectors that
+make up M and twisted conjugate each one
+
+2044
+00:45:38,690 --> 00:45:38,700
+make up M and twisted conjugate each one
+ 
+
+2045
+00:45:38,700 --> 00:45:41,089
+make up M and twisted conjugate each one
+we get a bunch of R's with grade
+
+2046
+00:45:41,089 --> 00:45:41,099
+we get a bunch of R's with grade
+ 
+
+2047
+00:45:41,099 --> 00:45:43,670
+we get a bunch of R's with grade
+involution acting on them
+
+2048
+00:45:43,670 --> 00:45:43,680
+involution acting on them
+ 
+
+2049
+00:45:43,680 --> 00:45:46,430
+involution acting on them
+one way to write great involution is to
+
+2050
+00:45:46,430 --> 00:45:46,440
+one way to write great involution is to
+ 
+
+2051
+00:45:46,440 --> 00:45:49,250
+one way to write great involution is to
+take R times negative one to the power
+
+2052
+00:45:49,250 --> 00:45:49,260
+take R times negative one to the power
+ 
+
+2053
+00:45:49,260 --> 00:45:52,730
+take R times negative one to the power
+of the length of R this way even length
+
+2054
+00:45:52,730 --> 00:45:52,740
+of the length of R this way even length
+ 
+
+2055
+00:45:52,740 --> 00:45:55,670
+of the length of R this way even length
+R's get a plus sign and odd length R's
+
+2056
+00:45:55,670 --> 00:45:55,680
+R's get a plus sign and odd length R's
+ 
+
+2057
+00:45:55,680 --> 00:45:57,470
+R's get a plus sign and odd length R's
+get a minus sign
+
+2058
+00:45:57,470 --> 00:45:57,480
+get a minus sign
+ 
+
+2059
+00:45:57,480 --> 00:45:59,690
+get a minus sign
+if we have four grade involutions
+
+2060
+00:45:59,690 --> 00:45:59,700
+if we have four grade involutions
+ 
+
+2061
+00:45:59,700 --> 00:46:02,329
+if we have four grade involutions
+multiplied together we get the same
+
+2062
+00:46:02,329 --> 00:46:02,339
+multiplied together we get the same
+ 
+
+2063
+00:46:02,339 --> 00:46:05,510
+multiplied together we get the same
+result just taken to the fourth power
+
+2064
+00:46:05,510 --> 00:46:05,520
+result just taken to the fourth power
+ 
+
+2065
+00:46:05,520 --> 00:46:08,750
+result just taken to the fourth power
+using exponent rules the exponent of an
+
+2066
+00:46:08,750 --> 00:46:08,760
+using exponent rules the exponent of an
+ 
+
+2067
+00:46:08,760 --> 00:46:11,270
+using exponent rules the exponent of an
+exponent just gives multiplication of
+
+2068
+00:46:11,270 --> 00:46:11,280
+exponent just gives multiplication of
+ 
+
+2069
+00:46:11,280 --> 00:46:12,950
+exponent just gives multiplication of
+the exponents
+
+2070
+00:46:12,950 --> 00:46:12,960
+the exponents
+ 
+
+2071
+00:46:12,960 --> 00:46:15,950
+the exponents
+here the four is really the length of V
+
+2072
+00:46:15,950 --> 00:46:15,960
+here the four is really the length of V
+ 
+
+2073
+00:46:15,960 --> 00:46:20,089
+here the four is really the length of V
+W X Y which is the length of M
+
+2074
+00:46:20,089 --> 00:46:20,099
+W X Y which is the length of M
+ 
+
+2075
+00:46:20,099 --> 00:46:22,550
+W X Y which is the length of M
+so Twisted conjugation of a general
+
+2076
+00:46:22,550 --> 00:46:22,560
+so Twisted conjugation of a general
+ 
+
+2077
+00:46:22,560 --> 00:46:25,370
+so Twisted conjugation of a general
+multi-vector M comes with an overall
+
+2078
+00:46:25,370 --> 00:46:25,380
+multi-vector M comes with an overall
+ 
+
+2079
+00:46:25,380 --> 00:46:28,609
+multi-vector M comes with an overall
+sine s where the sign depends on both
+
+2080
+00:46:28,609 --> 00:46:28,619
+sine s where the sign depends on both
+ 
+
+2081
+00:46:28,619 --> 00:46:31,490
+sine s where the sign depends on both
+the length of the multi-vector m and the
+
+2082
+00:46:31,490 --> 00:46:31,500
+the length of the multi-vector m and the
+ 
+
+2083
+00:46:31,500 --> 00:46:35,089
+the length of the multi-vector m and the
+length of the verser r
+
+2084
+00:46:35,089 --> 00:46:35,099
+
+ 
+
+2085
+00:46:35,099 --> 00:46:37,370
+
+I'm going to finish off this video with
+
+2086
+00:46:37,370 --> 00:46:37,380
+I'm going to finish off this video with
+ 
+
+2087
+00:46:37,380 --> 00:46:39,770
+I'm going to finish off this video with
+a warning if you've been reading papers
+
+2088
+00:46:39,770 --> 00:46:39,780
+a warning if you've been reading papers
+ 
+
+2089
+00:46:39,780 --> 00:46:42,710
+a warning if you've been reading papers
+or watching videos on geometric algebra
+
+2090
+00:46:42,710 --> 00:46:42,720
+or watching videos on geometric algebra
+ 
+
+2091
+00:46:42,720 --> 00:46:44,930
+or watching videos on geometric algebra
+based on the work of a mathematician
+
+2092
+00:46:44,930 --> 00:46:44,940
+based on the work of a mathematician
+ 
+
+2093
+00:46:44,940 --> 00:46:47,750
+based on the work of a mathematician
+named David hestonis you might have
+
+2094
+00:46:47,750 --> 00:46:47,760
+named David hestonis you might have
+ 
+
+2095
+00:46:47,760 --> 00:46:50,030
+named David hestonis you might have
+heard people say that a spinner is
+
+2096
+00:46:50,030 --> 00:46:50,040
+heard people say that a spinner is
+ 
+
+2097
+00:46:50,040 --> 00:46:52,430
+heard people say that a spinner is
+defined as any sum of even grade
+
+2098
+00:46:52,430 --> 00:46:52,440
+defined as any sum of even grade
+ 
+
+2099
+00:46:52,440 --> 00:46:55,069
+defined as any sum of even grade
+elements in a Clifford algebra
+
+2100
+00:46:55,069 --> 00:46:55,079
+elements in a Clifford algebra
+ 
+
+2101
+00:46:55,079 --> 00:46:57,530
+elements in a Clifford algebra
+this is not the definition of spinner
+
+2102
+00:46:57,530 --> 00:46:57,540
+this is not the definition of spinner
+ 
+
+2103
+00:46:57,540 --> 00:47:00,109
+this is not the definition of spinner
+that I'm using in this video series I'm
+
+2104
+00:47:00,109 --> 00:47:00,119
+that I'm using in this video series I'm
+ 
+
+2105
+00:47:00,119 --> 00:47:02,510
+that I'm using in this video series I'm
+defining Spinners as members of minimal
+
+2106
+00:47:02,510 --> 00:47:02,520
+defining Spinners as members of minimal
+ 
+
+2107
+00:47:02,520 --> 00:47:05,450
+defining Spinners as members of minimal
+left ideals and Clifford algebras
+
+2108
+00:47:05,450 --> 00:47:05,460
+left ideals and Clifford algebras
+ 
+
+2109
+00:47:05,460 --> 00:47:08,329
+left ideals and Clifford algebras
+these two definitions are different but
+
+2110
+00:47:08,329 --> 00:47:08,339
+these two definitions are different but
+ 
+
+2111
+00:47:08,339 --> 00:47:10,790
+these two definitions are different but
+they are related I'll explain the
+
+2112
+00:47:10,790 --> 00:47:10,800
+they are related I'll explain the
+ 
+
+2113
+00:47:10,800 --> 00:47:12,349
+they are related I'll explain the
+relationship between these two
+
+2114
+00:47:12,349 --> 00:47:12,359
+relationship between these two
+ 
+
+2115
+00:47:12,359 --> 00:47:16,160
+relationship between these two
+definitions in future videos
+

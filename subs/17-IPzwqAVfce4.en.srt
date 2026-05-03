@@ -1,0 +1,7845 @@
+1
+00:00:00,320 --> 00:00:02,149
+
+we're starting a new section of this
+
+2
+00:00:02,149 --> 00:00:02,159
+we're starting a new section of this
+ 
+
+3
+00:00:02,159 --> 00:00:04,309
+we're starting a new section of this
+video series where we talk about Le
+
+4
+00:00:04,309 --> 00:00:04,319
+video series where we talk about Le
+ 
+
+5
+00:00:04,319 --> 00:00:06,789
+video series where we talk about Le
+groups and Lee algebras and how they
+
+6
+00:00:06,789 --> 00:00:06,799
+groups and Lee algebras and how they
+ 
+
+7
+00:00:06,799 --> 00:00:08,030
+groups and Lee algebras and how they
+relate to
+
+8
+00:00:08,030 --> 00:00:08,040
+relate to
+ 
+
+9
+00:00:08,040 --> 00:00:11,310
+relate to
+Spinners in particle physics we classify
+
+10
+00:00:11,310 --> 00:00:11,320
+Spinners in particle physics we classify
+ 
+
+11
+00:00:11,320 --> 00:00:13,629
+Spinners in particle physics we classify
+particles according to their fundamental
+
+12
+00:00:13,629 --> 00:00:13,639
+particles according to their fundamental
+ 
+
+13
+00:00:13,639 --> 00:00:16,990
+particles according to their fundamental
+properties such as mass and electric
+
+14
+00:00:16,990 --> 00:00:17,000
+properties such as mass and electric
+ 
+
+15
+00:00:17,000 --> 00:00:19,470
+properties such as mass and electric
+charge one important fundamental
+
+16
+00:00:19,470 --> 00:00:19,480
+charge one important fundamental
+ 
+
+17
+00:00:19,480 --> 00:00:22,109
+charge one important fundamental
+property is the particle spin which is
+
+18
+00:00:22,109 --> 00:00:22,119
+property is the particle spin which is
+ 
+
+19
+00:00:22,119 --> 00:00:24,470
+property is the particle spin which is
+either an integer or a half
+
+20
+00:00:24,470 --> 00:00:24,480
+either an integer or a half
+ 
+
+21
+00:00:24,480 --> 00:00:27,669
+either an integer or a half
+integer all known fundamental particles
+
+22
+00:00:27,669 --> 00:00:27,679
+integer all known fundamental particles
+ 
+
+23
+00:00:27,679 --> 00:00:31,990
+integer all known fundamental particles
+have spins of either zero 1 half or one
+
+24
+00:00:31,990 --> 00:00:32,000
+have spins of either zero 1 half or one
+ 
+
+25
+00:00:32,000 --> 00:00:35,430
+have spins of either zero 1 half or one
+for spin zero we have the higs Bon for
+
+26
+00:00:35,430 --> 00:00:35,440
+for spin zero we have the higs Bon for
+ 
+
+27
+00:00:35,440 --> 00:00:37,549
+for spin zero we have the higs Bon for
+spin 1/2 we have the matter type
+
+28
+00:00:37,549 --> 00:00:37,559
+spin 1/2 we have the matter type
+ 
+
+29
+00:00:37,559 --> 00:00:40,670
+spin 1/2 we have the matter type
+particles like quarks electrons and
+
+30
+00:00:40,670 --> 00:00:40,680
+particles like quarks electrons and
+ 
+
+31
+00:00:40,680 --> 00:00:43,830
+particles like quarks electrons and
+neutrinos and for spin one we have Force
+
+32
+00:00:43,830 --> 00:00:43,840
+neutrinos and for spin one we have Force
+ 
+
+33
+00:00:43,840 --> 00:00:46,790
+neutrinos and for spin one we have Force
+carrying particles like photons gluons
+
+34
+00:00:46,790 --> 00:00:46,800
+carrying particles like photons gluons
+ 
+
+35
+00:00:46,800 --> 00:00:49,029
+carrying particles like photons gluons
+and the w and z
+
+36
+00:00:49,029 --> 00:00:49,039
+and the w and z
+ 
+
+37
+00:00:49,039 --> 00:00:52,069
+and the w and z
+bosons the value of a particle's spin
+
+38
+00:00:52,069 --> 00:00:52,079
+bosons the value of a particle's spin
+ 
+
+39
+00:00:52,079 --> 00:00:54,069
+bosons the value of a particle's spin
+determines how we describe it in a
+
+40
+00:00:54,069 --> 00:00:54,079
+determines how we describe it in a
+ 
+
+41
+00:00:54,079 --> 00:00:56,910
+determines how we describe it in a
+mathematical equation spin zero
+
+42
+00:00:56,910 --> 00:00:56,920
+mathematical equation spin zero
+ 
+
+43
+00:00:56,920 --> 00:00:59,950
+mathematical equation spin zero
+particles are represented by scalers
+
+44
+00:00:59,950 --> 00:00:59,960
+particles are represented by scalers
+ 
+
+45
+00:00:59,960 --> 00:01:02,670
+particles are represented by scalers
+spin 1/2 particles are represented by
+
+46
+00:01:02,670 --> 00:01:02,680
+spin 1/2 particles are represented by
+ 
+
+47
+00:01:02,680 --> 00:01:05,310
+spin 1/2 particles are represented by
+Spinners and spin one particles are
+
+48
+00:01:05,310 --> 00:01:05,320
+Spinners and spin one particles are
+ 
+
+49
+00:01:05,320 --> 00:01:07,109
+Spinners and spin one particles are
+represented by
+
+50
+00:01:07,109 --> 00:01:07,119
+represented by
+ 
+
+51
+00:01:07,119 --> 00:01:09,910
+represented by
+vectors the spin value is sort of like
+
+52
+00:01:09,910 --> 00:01:09,920
+vectors the spin value is sort of like
+ 
+
+53
+00:01:09,920 --> 00:01:12,510
+vectors the spin value is sort of like
+the rank of the tensor used to represent
+
+54
+00:01:12,510 --> 00:01:12,520
+the rank of the tensor used to represent
+ 
+
+55
+00:01:12,520 --> 00:01:16,270
+the rank of the tensor used to represent
+the particle scalers are rank zero
+
+56
+00:01:16,270 --> 00:01:16,280
+the particle scalers are rank zero
+ 
+
+57
+00:01:16,280 --> 00:01:20,230
+the particle scalers are rank zero
+tensors vectors are rank one tensors and
+
+58
+00:01:20,230 --> 00:01:20,240
+tensors vectors are rank one tensors and
+ 
+
+59
+00:01:20,240 --> 00:01:22,510
+tensors vectors are rank one tensors and
+Spinners Loosely speaking are kind of
+
+60
+00:01:22,510 --> 00:01:22,520
+Spinners Loosely speaking are kind of
+ 
+
+61
+00:01:22,520 --> 00:01:25,149
+Spinners Loosely speaking are kind of
+like rank 1/ half tensors since they
+
+62
+00:01:25,149 --> 00:01:25,159
+like rank 1/ half tensors since they
+ 
+
+63
+00:01:25,159 --> 00:01:28,670
+like rank 1/ half tensors since they
+rotate half as much as vectors do when
+
+64
+00:01:28,670 --> 00:01:28,680
+rotate half as much as vectors do when
+ 
+
+65
+00:01:28,680 --> 00:01:31,149
+rotate half as much as vectors do when
+transformed is it's also possible to
+
+66
+00:01:31,149 --> 00:01:31,159
+transformed is it's also possible to
+ 
+
+67
+00:01:31,159 --> 00:01:33,389
+transformed is it's also possible to
+combine fundamental particles into
+
+68
+00:01:33,389 --> 00:01:33,399
+combine fundamental particles into
+ 
+
+69
+00:01:33,399 --> 00:01:35,749
+combine fundamental particles into
+composite particles which can have
+
+70
+00:01:35,749 --> 00:01:35,759
+composite particles which can have
+ 
+
+71
+00:01:35,759 --> 00:01:37,870
+composite particles which can have
+higher spins like three
+
+72
+00:01:37,870 --> 00:01:37,880
+higher spins like three
+ 
+
+73
+00:01:37,880 --> 00:01:40,550
+higher spins like three
+halves these particles are represented
+
+74
+00:01:40,550 --> 00:01:40,560
+halves these particles are represented
+ 
+
+75
+00:01:40,560 --> 00:01:42,789
+halves these particles are represented
+by higher dimensional objects that are
+
+76
+00:01:42,789 --> 00:01:42,799
+by higher dimensional objects that are
+ 
+
+77
+00:01:42,799 --> 00:01:45,670
+by higher dimensional objects that are
+tensor products of spinners and
+
+78
+00:01:45,670 --> 00:01:45,680
+tensor products of spinners and
+ 
+
+79
+00:01:45,680 --> 00:01:48,630
+tensor products of spinners and
+vectors the hypothetical graviton is
+
+80
+00:01:48,630 --> 00:01:48,640
+vectors the hypothetical graviton is
+ 
+
+81
+00:01:48,640 --> 00:01:51,630
+vectors the hypothetical graviton is
+Spin 2 and this is related to the fact
+
+82
+00:01:51,630 --> 00:01:51,640
+Spin 2 and this is related to the fact
+ 
+
+83
+00:01:51,640 --> 00:01:53,510
+Spin 2 and this is related to the fact
+that the metric tensor from general
+
+84
+00:01:53,510 --> 00:01:53,520
+that the metric tensor from general
+ 
+
+85
+00:01:53,520 --> 00:01:56,350
+that the metric tensor from general
+relativity is a Rank 2
+
+86
+00:01:56,350 --> 00:01:56,360
+relativity is a Rank 2
+ 
+
+87
+00:01:56,360 --> 00:01:58,870
+relativity is a Rank 2
+tensor so what does this have to do with
+
+88
+00:01:58,870 --> 00:01:58,880
+tensor so what does this have to do with
+ 
+
+89
+00:01:58,880 --> 00:02:02,510
+tensor so what does this have to do with
+Lee algebras and Le groups well it's
+
+90
+00:02:02,510 --> 00:02:02,520
+Lee algebras and Le groups well it's
+ 
+
+91
+00:02:02,520 --> 00:02:04,590
+Lee algebras and Le groups well it's
+important to know how a particle will
+
+92
+00:02:04,590 --> 00:02:04,600
+important to know how a particle will
+ 
+
+93
+00:02:04,600 --> 00:02:06,310
+important to know how a particle will
+behave when we do a physical
+
+94
+00:02:06,310 --> 00:02:06,320
+behave when we do a physical
+ 
+
+95
+00:02:06,320 --> 00:02:10,109
+behave when we do a physical
+transformation like a rotation or boost
+
+96
+00:02:10,109 --> 00:02:10,119
+transformation like a rotation or boost
+ 
+
+97
+00:02:10,119 --> 00:02:11,910
+transformation like a rotation or boost
+the various different particle types
+
+98
+00:02:11,910 --> 00:02:11,920
+the various different particle types
+ 
+
+99
+00:02:11,920 --> 00:02:14,630
+the various different particle types
+will transform with different types of
+
+100
+00:02:14,630 --> 00:02:14,640
+will transform with different types of
+ 
+
+101
+00:02:14,640 --> 00:02:18,710
+will transform with different types of
+matrices for example in 3D vectors will
+
+102
+00:02:18,710 --> 00:02:18,720
+matrices for example in 3D vectors will
+ 
+
+103
+00:02:18,720 --> 00:02:22,309
+matrices for example in 3D vectors will
+rotate in the XY plane using this Matrix
+
+104
+00:02:22,309 --> 00:02:22,319
+rotate in the XY plane using this Matrix
+ 
+
+105
+00:02:22,319 --> 00:02:24,990
+rotate in the XY plane using this Matrix
+and Spinners will rotate in the XY plane
+
+106
+00:02:24,990 --> 00:02:25,000
+and Spinners will rotate in the XY plane
+ 
+
+107
+00:02:25,000 --> 00:02:26,550
+and Spinners will rotate in the XY plane
+using this
+
+108
+00:02:26,550 --> 00:02:26,560
+using this
+ 
+
+109
+00:02:26,560 --> 00:02:29,910
+using this
+Matrix scalers can be thought of as rot
+
+110
+00:02:29,910 --> 00:02:29,920
+Matrix scalers can be thought of as rot
+ 
+
+111
+00:02:29,920 --> 00:02:32,309
+Matrix scalers can be thought of as rot
+ating with a 1 by one Matrix containing
+
+112
+00:02:32,309 --> 00:02:32,319
+ating with a 1 by one Matrix containing
+ 
+
+113
+00:02:32,319 --> 00:02:35,470
+ating with a 1 by one Matrix containing
+the number one this basically means that
+
+114
+00:02:35,470 --> 00:02:35,480
+the number one this basically means that
+ 
+
+115
+00:02:35,480 --> 00:02:37,830
+the number one this basically means that
+scalers don't change their value in
+
+116
+00:02:37,830 --> 00:02:37,840
+scalers don't change their value in
+ 
+
+117
+00:02:37,840 --> 00:02:40,589
+scalers don't change their value in
+different rotated coordinate
+
+118
+00:02:40,589 --> 00:02:40,599
+different rotated coordinate
+ 
+
+119
+00:02:40,599 --> 00:02:43,869
+different rotated coordinate
+systems we say these matrices belong to
+
+120
+00:02:43,869 --> 00:02:43,879
+systems we say these matrices belong to
+ 
+
+121
+00:02:43,879 --> 00:02:45,229
+systems we say these matrices belong to
+Le
+
+122
+00:02:45,229 --> 00:02:45,239
+Le
+ 
+
+123
+00:02:45,239 --> 00:02:48,509
+Le
+groups in mathematics a group is a set
+
+124
+00:02:48,509 --> 00:02:48,519
+groups in mathematics a group is a set
+ 
+
+125
+00:02:48,519 --> 00:02:50,470
+groups in mathematics a group is a set
+of elements that can be combined
+
+126
+00:02:50,470 --> 00:02:50,480
+of elements that can be combined
+ 
+
+127
+00:02:50,480 --> 00:02:53,509
+of elements that can be combined
+together and Obey certain properties
+
+128
+00:02:53,509 --> 00:02:53,519
+together and Obey certain properties
+ 
+
+129
+00:02:53,519 --> 00:02:56,110
+together and Obey certain properties
+such as having an identity element and
+
+130
+00:02:56,110 --> 00:02:56,120
+such as having an identity element and
+ 
+
+131
+00:02:56,120 --> 00:02:58,750
+such as having an identity element and
+inverse elements that undo
+
+132
+00:02:58,750 --> 00:02:58,760
+inverse elements that undo
+ 
+
+133
+00:02:58,760 --> 00:03:01,309
+inverse elements that undo
+transformations since we can combine two
+
+134
+00:03:01,309 --> 00:03:01,319
+transformations since we can combine two
+ 
+
+135
+00:03:01,319 --> 00:03:04,430
+transformations since we can combine two
+rotations into another rotation rotate
+
+136
+00:03:04,430 --> 00:03:04,440
+rotations into another rotation rotate
+ 
+
+137
+00:03:04,440 --> 00:03:07,550
+rotations into another rotation rotate
+by 0 degrees to get the identity Matrix
+
+138
+00:03:07,550 --> 00:03:07,560
+by 0 degrees to get the identity Matrix
+ 
+
+139
+00:03:07,560 --> 00:03:09,430
+by 0 degrees to get the identity Matrix
+and take the inverse of rotation
+
+140
+00:03:09,430 --> 00:03:09,440
+and take the inverse of rotation
+ 
+
+141
+00:03:09,440 --> 00:03:13,229
+and take the inverse of rotation
+matrices to undo rotations sets of
+
+142
+00:03:13,229 --> 00:03:13,239
+matrices to undo rotations sets of
+ 
+
+143
+00:03:13,239 --> 00:03:16,949
+matrices to undo rotations sets of
+rotation matrices form a group a Le
+
+144
+00:03:16,949 --> 00:03:16,959
+rotation matrices form a group a Le
+ 
+
+145
+00:03:16,959 --> 00:03:19,070
+rotation matrices form a group a Le
+group is a group that's continuous
+
+146
+00:03:19,070 --> 00:03:19,080
+group is a group that's continuous
+ 
+
+147
+00:03:19,080 --> 00:03:21,630
+group is a group that's continuous
+instead of discret reflection
+
+148
+00:03:21,630 --> 00:03:21,640
+instead of discret reflection
+ 
+
+149
+00:03:21,640 --> 00:03:24,309
+instead of discret reflection
+Transformations are not a Le group
+
+150
+00:03:24,309 --> 00:03:24,319
+Transformations are not a Le group
+ 
+
+151
+00:03:24,319 --> 00:03:27,270
+Transformations are not a Le group
+because they involve discrete jumps but
+
+152
+00:03:27,270 --> 00:03:27,280
+because they involve discrete jumps but
+ 
+
+153
+00:03:27,280 --> 00:03:30,030
+because they involve discrete jumps but
+rotations are a Le group because we can
+
+154
+00:03:30,030 --> 00:03:30,040
+rotations are a Le group because we can
+ 
+
+155
+00:03:30,040 --> 00:03:32,509
+rotations are a Le group because we can
+smoothly move from a small rotation to a
+
+156
+00:03:32,509 --> 00:03:32,519
+smoothly move from a small rotation to a
+ 
+
+157
+00:03:32,519 --> 00:03:33,949
+smoothly move from a small rotation to a
+large
+
+158
+00:03:33,949 --> 00:03:33,959
+large
+ 
+
+159
+00:03:33,959 --> 00:03:36,350
+large
+rotation every Lee group has a
+
+160
+00:03:36,350 --> 00:03:36,360
+rotation every Lee group has a
+ 
+
+161
+00:03:36,360 --> 00:03:39,030
+rotation every Lee group has a
+corresponding Lee algebra which is a
+
+162
+00:03:39,030 --> 00:03:39,040
+corresponding Lee algebra which is a
+ 
+
+163
+00:03:39,040 --> 00:03:41,070
+corresponding Lee algebra which is a
+special set of matrices that we can
+
+164
+00:03:41,070 --> 00:03:41,080
+special set of matrices that we can
+ 
+
+165
+00:03:41,080 --> 00:03:44,429
+special set of matrices that we can
+exponentiate to get Le group
+
+166
+00:03:44,429 --> 00:03:44,439
+exponentiate to get Le group
+ 
+
+167
+00:03:44,439 --> 00:03:46,350
+exponentiate to get Le group
+matrices understanding these Lee
+
+168
+00:03:46,350 --> 00:03:46,360
+matrices understanding these Lee
+ 
+
+169
+00:03:46,360 --> 00:03:48,789
+matrices understanding these Lee
+algebras can tell us a lot about how to
+
+170
+00:03:48,789 --> 00:03:48,799
+algebras can tell us a lot about how to
+ 
+
+171
+00:03:48,799 --> 00:03:51,069
+algebras can tell us a lot about how to
+transform various kinds of
+
+172
+00:03:51,069 --> 00:03:51,079
+transform various kinds of
+ 
+
+173
+00:03:51,079 --> 00:03:53,350
+transform various kinds of
+particles and all the different types of
+
+174
+00:03:53,350 --> 00:03:53,360
+particles and all the different types of
+ 
+
+175
+00:03:53,360 --> 00:03:55,830
+particles and all the different types of
+quantum operators and quantum mechanics
+
+176
+00:03:55,830 --> 00:03:55,840
+quantum operators and quantum mechanics
+ 
+
+177
+00:03:55,840 --> 00:03:58,670
+quantum operators and quantum mechanics
+belong to various Lee
+
+178
+00:03:58,670 --> 00:03:58,680
+belong to various Lee
+ 
+
+179
+00:03:58,680 --> 00:04:01,910
+belong to various Lee
+algebras so let's start off by trying to
+
+180
+00:04:01,910 --> 00:04:01,920
+algebras so let's start off by trying to
+ 
+
+181
+00:04:01,920 --> 00:04:04,670
+algebras so let's start off by trying to
+understand how to take the exponent of a
+
+182
+00:04:04,670 --> 00:04:04,680
+understand how to take the exponent of a
+ 
+
+183
+00:04:04,680 --> 00:04:08,030
+understand how to take the exponent of a
+matrix this 3x3 Matrix here gives us a
+
+184
+00:04:08,030 --> 00:04:08,040
+matrix this 3x3 Matrix here gives us a
+ 
+
+185
+00:04:08,040 --> 00:04:11,390
+matrix this 3x3 Matrix here gives us a
+rotation in the XY plane by an angle
+
+186
+00:04:11,390 --> 00:04:11,400
+rotation in the XY plane by an angle
+ 
+
+187
+00:04:11,400 --> 00:04:14,270
+rotation in the XY plane by an angle
+Theta this Matrix is a member of the Le
+
+188
+00:04:14,270 --> 00:04:14,280
+Theta this Matrix is a member of the Le
+ 
+
+189
+00:04:14,280 --> 00:04:18,349
+Theta this Matrix is a member of the Le
+group SO3 the special orthogonal 3x3
+
+190
+00:04:18,349 --> 00:04:18,359
+group SO3 the special orthogonal 3x3
+ 
+
+191
+00:04:18,359 --> 00:04:21,629
+group SO3 the special orthogonal 3x3
+matrices which do rotations in
+
+192
+00:04:21,629 --> 00:04:21,639
+matrices which do rotations in
+ 
+
+193
+00:04:21,639 --> 00:04:24,990
+matrices which do rotations in
+3D orthogonal means the matrix's inverse
+
+194
+00:04:24,990 --> 00:04:25,000
+3D orthogonal means the matrix's inverse
+ 
+
+195
+00:04:25,000 --> 00:04:27,629
+3D orthogonal means the matrix's inverse
+is its transpose and special means the
+
+196
+00:04:27,629 --> 00:04:27,639
+is its transpose and special means the
+ 
+
+197
+00:04:27,639 --> 00:04:31,230
+is its transpose and special means the
+Matrix determinant is + one
+
+198
+00:04:31,230 --> 00:04:31,240
+Matrix determinant is + one
+ 
+
+199
+00:04:31,240 --> 00:04:33,230
+Matrix determinant is + one
+now it turns out that this rotation
+
+200
+00:04:33,230 --> 00:04:33,240
+now it turns out that this rotation
+ 
+
+201
+00:04:33,240 --> 00:04:35,710
+now it turns out that this rotation
+Matrix is equal to the exponential of
+
+202
+00:04:35,710 --> 00:04:35,720
+Matrix is equal to the exponential of
+ 
+
+203
+00:04:35,720 --> 00:04:40,110
+Matrix is equal to the exponential of
+theta times this special 3x3 Matrix here
+
+204
+00:04:40,110 --> 00:04:40,120
+theta times this special 3x3 Matrix here
+ 
+
+205
+00:04:40,120 --> 00:04:42,590
+theta times this special 3x3 Matrix here
+the Matrix in the exponent is called a
+
+206
+00:04:42,590 --> 00:04:42,600
+the Matrix in the exponent is called a
+ 
+
+207
+00:04:42,600 --> 00:04:44,909
+the Matrix in the exponent is called a
+generator and is a member of the Lee
+
+208
+00:04:44,909 --> 00:04:44,919
+generator and is a member of the Lee
+ 
+
+209
+00:04:44,919 --> 00:04:47,990
+generator and is a member of the Lee
+algebra s SO3 which is written with
+
+210
+00:04:47,990 --> 00:04:48,000
+algebra s SO3 which is written with
+ 
+
+211
+00:04:48,000 --> 00:04:51,870
+algebra s SO3 which is written with
+lowercase letters in a fractor font by
+
+212
+00:04:51,870 --> 00:04:51,880
+lowercase letters in a fractor font by
+ 
+
+213
+00:04:51,880 --> 00:04:54,469
+lowercase letters in a fractor font by
+convention so how do we make sense of
+
+214
+00:04:54,469 --> 00:04:54,479
+convention so how do we make sense of
+ 
+
+215
+00:04:54,479 --> 00:04:56,390
+convention so how do we make sense of
+this what does it mean to take the
+
+216
+00:04:56,390 --> 00:04:56,400
+this what does it mean to take the
+ 
+
+217
+00:04:56,400 --> 00:04:57,870
+this what does it mean to take the
+exponential of a
+
+218
+00:04:57,870 --> 00:04:57,880
+exponential of a
+ 
+
+219
+00:04:57,880 --> 00:05:00,390
+exponential of a
+matrix the answer lies in the tailor
+
+220
+00:05:00,390 --> 00:05:00,400
+matrix the answer lies in the tailor
+ 
+
+221
+00:05:00,400 --> 00:05:03,990
+matrix the answer lies in the tailor
+series of e to the X normally this is
+
+222
+00:05:03,990 --> 00:05:04,000
+series of e to the X normally this is
+ 
+
+223
+00:05:04,000 --> 00:05:07,029
+series of e to the X normally this is
+used when X is an ordinary number but we
+
+224
+00:05:07,029 --> 00:05:07,039
+used when X is an ordinary number but we
+ 
+
+225
+00:05:07,039 --> 00:05:10,029
+used when X is an ordinary number but we
+can replace x with a matrix M to give us
+
+226
+00:05:10,029 --> 00:05:10,039
+can replace x with a matrix M to give us
+ 
+
+227
+00:05:10,039 --> 00:05:13,029
+can replace x with a matrix M to give us
+this definition of a matrix's
+
+228
+00:05:13,029 --> 00:05:13,039
+this definition of a matrix's
+ 
+
+229
+00:05:13,039 --> 00:05:15,189
+this definition of a matrix's
+exponential while this gives us an
+
+230
+00:05:15,189 --> 00:05:15,199
+exponential while this gives us an
+ 
+
+231
+00:05:15,199 --> 00:05:18,029
+exponential while this gives us an
+infinite Series in our example The
+
+232
+00:05:18,029 --> 00:05:18,039
+infinite Series in our example The
+ 
+
+233
+00:05:18,039 --> 00:05:20,469
+infinite Series in our example The
+Matrix Powers will form a repeating
+
+234
+00:05:20,469 --> 00:05:20,479
+Matrix Powers will form a repeating
+ 
+
+235
+00:05:20,479 --> 00:05:22,749
+Matrix Powers will form a repeating
+pattern so we actually only need to
+
+236
+00:05:22,749 --> 00:05:22,759
+pattern so we actually only need to
+ 
+
+237
+00:05:22,759 --> 00:05:26,230
+pattern so we actually only need to
+evaluate the first few Powers so let's
+
+238
+00:05:26,230 --> 00:05:26,240
+evaluate the first few Powers so let's
+ 
+
+239
+00:05:26,240 --> 00:05:28,189
+evaluate the first few Powers so let's
+evaluate the first few powers of the
+
+240
+00:05:28,189 --> 00:05:28,199
+evaluate the first few powers of the
+ 
+
+241
+00:05:28,199 --> 00:05:30,830
+evaluate the first few powers of the
+Matrix M and what we
+
+242
+00:05:30,830 --> 00:05:30,840
+Matrix M and what we
+ 
+
+243
+00:05:30,840 --> 00:05:34,350
+Matrix M and what we
+get for M the 0 we're going to say that
+
+244
+00:05:34,350 --> 00:05:34,360
+get for M the 0 we're going to say that
+ 
+
+245
+00:05:34,360 --> 00:05:36,870
+get for M the 0 we're going to say that
+any Matrix to the power of 0 gives the
+
+246
+00:05:36,870 --> 00:05:36,880
+any Matrix to the power of 0 gives the
+ 
+
+247
+00:05:36,880 --> 00:05:39,710
+any Matrix to the power of 0 gives the
+identity Matrix similar to how any
+
+248
+00:05:39,710 --> 00:05:39,720
+identity Matrix similar to how any
+ 
+
+249
+00:05:39,720 --> 00:05:42,270
+identity Matrix similar to how any
+number to the power of0 gives
+
+250
+00:05:42,270 --> 00:05:42,280
+number to the power of0 gives
+ 
+
+251
+00:05:42,280 --> 00:05:46,510
+number to the power of0 gives
+1 m to the 1 is just the Matrix M
+
+252
+00:05:46,510 --> 00:05:46,520
+1 m to the 1 is just the Matrix M
+ 
+
+253
+00:05:46,520 --> 00:05:50,270
+1 m to the 1 is just the Matrix M
+itself to calculate m^ 2ar we just do M
+
+254
+00:05:50,270 --> 00:05:50,280
+itself to calculate m^ 2ar we just do M
+ 
+
+255
+00:05:50,280 --> 00:05:54,270
+itself to calculate m^ 2ar we just do M
+* m and we get a matrix with the entries
+
+256
+00:05:54,270 --> 00:05:54,280
+* m and we get a matrix with the entries
+ 
+
+257
+00:05:54,280 --> 00:05:58,950
+* m and we get a matrix with the entries
+- 1 0 01 in the top left corner and all
+
+258
+00:05:58,950 --> 00:05:58,960
+- 1 0 01 in the top left corner and all
+ 
+
+259
+00:05:58,960 --> 00:06:01,150
+- 1 0 01 in the top left corner and all
+the other entries are
+
+260
+00:06:01,150 --> 00:06:01,160
+the other entries are
+ 
+
+261
+00:06:01,160 --> 00:06:06,550
+the other entries are
+zero m 3 just gives M * m^ 2 and after
+
+262
+00:06:06,550 --> 00:06:06,560
+zero m 3 just gives M * m^ 2 and after
+ 
+
+263
+00:06:06,560 --> 00:06:09,189
+zero m 3 just gives M * m^ 2 and after
+multiplying this out we find the result
+
+264
+00:06:09,189 --> 00:06:09,199
+multiplying this out we find the result
+ 
+
+265
+00:06:09,199 --> 00:06:10,589
+multiplying this out we find the result
+is
+
+266
+00:06:10,589 --> 00:06:10,599
+is
+ 
+
+267
+00:06:10,599 --> 00:06:18,150
+is
+M M 4 is m 3 * m which is just m * m or
+
+268
+00:06:18,150 --> 00:06:18,160
+M M 4 is m 3 * m which is just m * m or
+ 
+
+269
+00:06:18,160 --> 00:06:19,350
+M M 4 is m 3 * m which is just m * m or
+m^
+
+270
+00:06:19,350 --> 00:06:19,360
+m^
+ 
+
+271
+00:06:19,360 --> 00:06:23,469
+m^
+2 and it turns out that M 5 after using
+
+272
+00:06:23,469 --> 00:06:23,479
+2 and it turns out that M 5 after using
+ 
+
+273
+00:06:23,479 --> 00:06:25,790
+2 and it turns out that M 5 after using
+some of the identities we've discovered
+
+274
+00:06:25,790 --> 00:06:25,800
+some of the identities we've discovered
+ 
+
+275
+00:06:25,800 --> 00:06:28,870
+some of the identities we've discovered
+is just m so this is where the cycle
+
+276
+00:06:28,870 --> 00:06:28,880
+is just m so this is where the cycle
+ 
+
+277
+00:06:28,880 --> 00:06:31,990
+is just m so this is where the cycle
+starts repeating in the tailor
+
+278
+00:06:31,990 --> 00:06:32,000
+starts repeating in the tailor
+ 
+
+279
+00:06:32,000 --> 00:06:35,110
+starts repeating in the tailor
+Series so we take m to the 0o to be the
+
+280
+00:06:35,110 --> 00:06:35,120
+Series so we take m to the 0o to be the
+ 
+
+281
+00:06:35,120 --> 00:06:37,909
+Series so we take m to the 0o to be the
+identity Matrix and the next four powers
+
+282
+00:06:37,909 --> 00:06:37,919
+identity Matrix and the next four powers
+ 
+
+283
+00:06:37,919 --> 00:06:41,430
+identity Matrix and the next four powers
+of M just repeat in a cycle
+
+284
+00:06:41,430 --> 00:06:41,440
+of M just repeat in a cycle
+ 
+
+285
+00:06:41,440 --> 00:06:43,870
+of M just repeat in a cycle
+forever so let's take the first few
+
+286
+00:06:43,870 --> 00:06:43,880
+forever so let's take the first few
+ 
+
+287
+00:06:43,880 --> 00:06:46,830
+forever so let's take the first few
+terms in our infinite series and plug in
+
+288
+00:06:46,830 --> 00:06:46,840
+terms in our infinite series and plug in
+ 
+
+289
+00:06:46,840 --> 00:06:48,390
+terms in our infinite series and plug in
+these Matrix
+
+290
+00:06:48,390 --> 00:06:48,400
+these Matrix
+ 
+
+291
+00:06:48,400 --> 00:06:50,950
+these Matrix
+Powers let's focus on adding together
+
+292
+00:06:50,950 --> 00:06:50,960
+Powers let's focus on adding together
+ 
+
+293
+00:06:50,960 --> 00:06:52,909
+Powers let's focus on adding together
+the entries in the top left corner of
+
+294
+00:06:52,909 --> 00:06:52,919
+the entries in the top left corner of
+ 
+
+295
+00:06:52,919 --> 00:06:55,629
+the entries in the top left corner of
+the Matrix we see this gives us the
+
+296
+00:06:55,629 --> 00:06:55,639
+the Matrix we see this gives us the
+ 
+
+297
+00:06:55,639 --> 00:06:58,189
+the Matrix we see this gives us the
+tailor series for cosine of
+
+298
+00:06:58,189 --> 00:06:58,199
+tailor series for cosine of
+ 
+
+299
+00:06:58,199 --> 00:07:00,270
+tailor series for cosine of
+theta look looking at some of the other
+
+300
+00:07:00,270 --> 00:07:00,280
+theta look looking at some of the other
+ 
+
+301
+00:07:00,280 --> 00:07:02,869
+theta look looking at some of the other
+entries we get more tailor series for
+
+302
+00:07:02,869 --> 00:07:02,879
+entries we get more tailor series for
+ 
+
+303
+00:07:02,879 --> 00:07:06,670
+entries we get more tailor series for
+negative sin Theta sin Theta and cosine
+
+304
+00:07:06,670 --> 00:07:06,680
+negative sin Theta sin Theta and cosine
+ 
+
+305
+00:07:06,680 --> 00:07:09,309
+negative sin Theta sin Theta and cosine
+Theta and the bottom right corner of the
+
+306
+00:07:09,309 --> 00:07:09,319
+Theta and the bottom right corner of the
+ 
+
+307
+00:07:09,319 --> 00:07:11,909
+Theta and the bottom right corner of the
+Matrix is just one because of the one in
+
+308
+00:07:11,909 --> 00:07:11,919
+Matrix is just one because of the one in
+ 
+
+309
+00:07:11,919 --> 00:07:14,589
+Matrix is just one because of the one in
+the identity Matrix at the start of the
+
+310
+00:07:14,589 --> 00:07:14,599
+the identity Matrix at the start of the
+ 
+
+311
+00:07:14,599 --> 00:07:17,390
+the identity Matrix at the start of the
+series so after using a few tricks with
+
+312
+00:07:17,390 --> 00:07:17,400
+series so after using a few tricks with
+ 
+
+313
+00:07:17,400 --> 00:07:20,309
+series so after using a few tricks with
+the tailor series we can indeed see that
+
+314
+00:07:20,309 --> 00:07:20,319
+the tailor series we can indeed see that
+ 
+
+315
+00:07:20,319 --> 00:07:23,430
+the tailor series we can indeed see that
+this Matrix exponential gives us a 3X3
+
+316
+00:07:23,430 --> 00:07:23,440
+this Matrix exponential gives us a 3X3
+ 
+
+317
+00:07:23,440 --> 00:07:26,390
+this Matrix exponential gives us a 3X3
+rotation Matrix in the XY
+
+318
+00:07:26,390 --> 00:07:26,400
+rotation Matrix in the XY
+ 
+
+319
+00:07:26,400 --> 00:07:28,430
+rotation Matrix in the XY
+plane so we know that when we
+
+320
+00:07:28,430 --> 00:07:28,440
+plane so we know that when we
+ 
+
+321
+00:07:28,440 --> 00:07:30,950
+plane so we know that when we
+exponentiate this generator Matrix times
+
+322
+00:07:30,950 --> 00:07:30,960
+exponentiate this generator Matrix times
+ 
+
+323
+00:07:30,960 --> 00:07:33,469
+exponentiate this generator Matrix times
+an angle we get a rotation Matrix in the
+
+324
+00:07:33,469 --> 00:07:33,479
+an angle we get a rotation Matrix in the
+ 
+
+325
+00:07:33,479 --> 00:07:36,909
+an angle we get a rotation Matrix in the
+XY plane but how did I know to use this
+
+326
+00:07:36,909 --> 00:07:36,919
+XY plane but how did I know to use this
+ 
+
+327
+00:07:36,919 --> 00:07:39,110
+XY plane but how did I know to use this
+generator Matrix
+
+328
+00:07:39,110 --> 00:07:39,120
+generator Matrix
+ 
+
+329
+00:07:39,120 --> 00:07:41,189
+generator Matrix
+specifically it turns out that there's a
+
+330
+00:07:41,189 --> 00:07:41,199
+specifically it turns out that there's a
+ 
+
+331
+00:07:41,199 --> 00:07:43,710
+specifically it turns out that there's a
+straightforward recipe to go from a Le
+
+332
+00:07:43,710 --> 00:07:43,720
+straightforward recipe to go from a Le
+ 
+
+333
+00:07:43,720 --> 00:07:46,790
+straightforward recipe to go from a Le
+group Matrix to its Lee algebra
+
+334
+00:07:46,790 --> 00:07:46,800
+group Matrix to its Lee algebra
+ 
+
+335
+00:07:46,800 --> 00:07:49,189
+group Matrix to its Lee algebra
+generator let's say that we have e to
+
+336
+00:07:49,189 --> 00:07:49,199
+generator let's say that we have e to
+ 
+
+337
+00:07:49,199 --> 00:07:52,589
+generator let's say that we have e to
+the S Theta where s is just a number if
+
+338
+00:07:52,589 --> 00:07:52,599
+the S Theta where s is just a number if
+ 
+
+339
+00:07:52,599 --> 00:07:54,510
+the S Theta where s is just a number if
+we take the derivative with respect to
+
+340
+00:07:54,510 --> 00:07:54,520
+we take the derivative with respect to
+ 
+
+341
+00:07:54,520 --> 00:07:57,469
+we take the derivative with respect to
+Theta a factor of s comes down in front
+
+342
+00:07:57,469 --> 00:07:57,479
+Theta a factor of s comes down in front
+ 
+
+343
+00:07:57,479 --> 00:08:01,029
+Theta a factor of s comes down in front
+by Chain rule next if we set Theta to
+
+344
+00:08:01,029 --> 00:08:01,039
+by Chain rule next if we set Theta to
+ 
+
+345
+00:08:01,039 --> 00:08:04,189
+by Chain rule next if we set Theta to
+zero the exponential goes to one and
+
+346
+00:08:04,189 --> 00:08:04,199
+zero the exponential goes to one and
+ 
+
+347
+00:08:04,199 --> 00:08:08,270
+zero the exponential goes to one and
+we're left with just s so to isolate s
+
+348
+00:08:08,270 --> 00:08:08,280
+we're left with just s so to isolate s
+ 
+
+349
+00:08:08,280 --> 00:08:11,589
+we're left with just s so to isolate s
+we use two steps take the derivative
+
+350
+00:08:11,589 --> 00:08:11,599
+we use two steps take the derivative
+ 
+
+351
+00:08:11,599 --> 00:08:14,510
+we use two steps take the derivative
+then set the parameter to zero this
+
+352
+00:08:14,510 --> 00:08:14,520
+then set the parameter to zero this
+ 
+
+353
+00:08:14,520 --> 00:08:17,390
+then set the parameter to zero this
+recipe works in the case of a matrix
+
+354
+00:08:17,390 --> 00:08:17,400
+recipe works in the case of a matrix
+ 
+
+355
+00:08:17,400 --> 00:08:20,070
+recipe works in the case of a matrix
+M2 taking the derivative with respect to
+
+356
+00:08:20,070 --> 00:08:20,080
+M2 taking the derivative with respect to
+ 
+
+357
+00:08:20,080 --> 00:08:23,390
+M2 taking the derivative with respect to
+Theta brings a copy of M down in front
+
+358
+00:08:23,390 --> 00:08:23,400
+Theta brings a copy of M down in front
+ 
+
+359
+00:08:23,400 --> 00:08:25,309
+Theta brings a copy of M down in front
+you can try proving this by taking the
+
+360
+00:08:25,309 --> 00:08:25,319
+you can try proving this by taking the
+ 
+
+361
+00:08:25,319 --> 00:08:27,469
+you can try proving this by taking the
+derivative of the exponential series if
+
+362
+00:08:27,469 --> 00:08:27,479
+derivative of the exponential series if
+ 
+
+363
+00:08:27,479 --> 00:08:31,029
+derivative of the exponential series if
+you like next next setting Theta to 0
+
+364
+00:08:31,029 --> 00:08:31,039
+you like next next setting Theta to 0
+ 
+
+365
+00:08:31,039 --> 00:08:33,990
+you like next next setting Theta to 0
+means e to the 0 Matrix which becomes
+
+366
+00:08:33,990 --> 00:08:34,000
+means e to the 0 Matrix which becomes
+ 
+
+367
+00:08:34,000 --> 00:08:36,589
+means e to the 0 Matrix which becomes
+the identity Matrix so we're left with
+
+368
+00:08:36,589 --> 00:08:36,599
+the identity Matrix so we're left with
+ 
+
+369
+00:08:36,599 --> 00:08:40,430
+the identity Matrix so we're left with
+just the Matrix M which is our generator
+
+370
+00:08:40,430 --> 00:08:40,440
+just the Matrix M which is our generator
+ 
+
+371
+00:08:40,440 --> 00:08:43,110
+just the Matrix M which is our generator
+Matrix so the recipe for getting our
+
+372
+00:08:43,110 --> 00:08:43,120
+Matrix so the recipe for getting our
+ 
+
+373
+00:08:43,120 --> 00:08:45,829
+Matrix so the recipe for getting our
+generator Matrix m is to take our
+
+374
+00:08:45,829 --> 00:08:45,839
+generator Matrix m is to take our
+ 
+
+375
+00:08:45,839 --> 00:08:49,110
+generator Matrix m is to take our
+rotation Matrix R in the Le group take
+
+376
+00:08:49,110 --> 00:08:49,120
+rotation Matrix R in the Le group take
+ 
+
+377
+00:08:49,120 --> 00:08:51,150
+rotation Matrix R in the Le group take
+its derivative and then set the
+
+378
+00:08:51,150 --> 00:08:51,160
+its derivative and then set the
+ 
+
+379
+00:08:51,160 --> 00:08:53,350
+its derivative and then set the
+parameter to
+
+380
+00:08:53,350 --> 00:08:53,360
+parameter to
+ 
+
+381
+00:08:53,360 --> 00:08:56,350
+parameter to
+zero let's try this out on our XY
+
+382
+00:08:56,350 --> 00:08:56,360
+zero let's try this out on our XY
+ 
+
+383
+00:08:56,360 --> 00:08:57,550
+zero let's try this out on our XY
+rotation
+
+384
+00:08:57,550 --> 00:08:57,560
+rotation
+ 
+
+385
+00:08:57,560 --> 00:08:59,790
+rotation
+Matrix taking the derivative with
+
+386
+00:08:59,790 --> 00:08:59,800
+Matrix taking the derivative with
+ 
+
+387
+00:08:59,800 --> 00:09:03,190
+Matrix taking the derivative with
+respect to Theta SS become cosiness and
+
+388
+00:09:03,190 --> 00:09:03,200
+respect to Theta SS become cosiness and
+ 
+
+389
+00:09:03,200 --> 00:09:06,430
+respect to Theta SS become cosiness and
+cosiness become negative SS and in the
+
+390
+00:09:06,430 --> 00:09:06,440
+cosiness become negative SS and in the
+ 
+
+391
+00:09:06,440 --> 00:09:08,750
+cosiness become negative SS and in the
+lower right corner the derivative of the
+
+392
+00:09:08,750 --> 00:09:08,760
+lower right corner the derivative of the
+ 
+
+393
+00:09:08,760 --> 00:09:11,150
+lower right corner the derivative of the
+constant 1 is
+
+394
+00:09:11,150 --> 00:09:11,160
+constant 1 is
+ 
+
+395
+00:09:11,160 --> 00:09:16,230
+constant 1 is
+0 then we set Theta to 0 S of 0 gives 0
+
+396
+00:09:16,230 --> 00:09:16,240
+0 then we set Theta to 0 S of 0 gives 0
+ 
+
+397
+00:09:16,240 --> 00:09:20,150
+0 then we set Theta to 0 S of 0 gives 0
+and cosine of 0 gives 1 so we end up
+
+398
+00:09:20,150 --> 00:09:20,160
+and cosine of 0 gives 1 so we end up
+ 
+
+399
+00:09:20,160 --> 00:09:22,030
+and cosine of 0 gives 1 so we end up
+with the generator Matrix I showed
+
+400
+00:09:22,030 --> 00:09:22,040
+with the generator Matrix I showed
+ 
+
+401
+00:09:22,040 --> 00:09:24,509
+with the generator Matrix I showed
+earlier in the video as
+
+402
+00:09:24,509 --> 00:09:24,519
+earlier in the video as
+ 
+
+403
+00:09:24,519 --> 00:09:27,030
+earlier in the video as
+expected you can pause the video and
+
+404
+00:09:27,030 --> 00:09:27,040
+expected you can pause the video and
+ 
+
+405
+00:09:27,040 --> 00:09:29,750
+expected you can pause the video and
+show that these rotation matrices in the
+
+406
+00:09:29,750 --> 00:09:29,760
+show that these rotation matrices in the
+ 
+
+407
+00:09:29,760 --> 00:09:34,790
+show that these rotation matrices in the
+y z and ZX planes give these generator
+
+408
+00:09:34,790 --> 00:09:34,800
+y z and ZX planes give these generator
+ 
+
+409
+00:09:34,800 --> 00:09:37,590
+y z and ZX planes give these generator
+matrices from now on I'm going to denote
+
+410
+00:09:37,590 --> 00:09:37,600
+matrices from now on I'm going to denote
+ 
+
+411
+00:09:37,600 --> 00:09:42,790
+matrices from now on I'm going to denote
+the generator matrices as gxy gy Z and
+
+412
+00:09:42,790 --> 00:09:42,800
+the generator matrices as gxy gy Z and
+ 
+
+413
+00:09:42,800 --> 00:09:45,870
+the generator matrices as gxy gy Z and
+gzx which generate the rotations in the
+
+414
+00:09:45,870 --> 00:09:45,880
+gzx which generate the rotations in the
+ 
+
+415
+00:09:45,880 --> 00:09:50,630
+gzx which generate the rotations in the
+XY y z and ZX planes
+
+416
+00:09:50,630 --> 00:09:50,640
+XY y z and ZX planes
+ 
+
+417
+00:09:50,640 --> 00:09:52,630
+XY y z and ZX planes
+respectively this is getting a little
+
+418
+00:09:52,630 --> 00:09:52,640
+respectively this is getting a little
+ 
+
+419
+00:09:52,640 --> 00:09:55,190
+respectively this is getting a little
+off topic for this video but it turns
+
+420
+00:09:55,190 --> 00:09:55,200
+off topic for this video but it turns
+ 
+
+421
+00:09:55,200 --> 00:09:57,350
+off topic for this video but it turns
+out you can also take the exponential of
+
+422
+00:09:57,350 --> 00:09:57,360
+out you can also take the exponential of
+ 
+
+423
+00:09:57,360 --> 00:09:59,750
+out you can also take the exponential of
+a derivative operator using the tailor
+
+424
+00:09:59,750 --> 00:09:59,760
+a derivative operator using the tailor
+ 
+
+425
+00:09:59,760 --> 00:10:01,069
+a derivative operator using the tailor
+series
+
+426
+00:10:01,069 --> 00:10:01,079
+series
+ 
+
+427
+00:10:01,079 --> 00:10:03,190
+series
+definition if we multiply this
+
+428
+00:10:03,190 --> 00:10:03,200
+definition if we multiply this
+ 
+
+429
+00:10:03,200 --> 00:10:05,670
+definition if we multiply this
+derivative by a parameter a and
+
+430
+00:10:05,670 --> 00:10:05,680
+derivative by a parameter a and
+ 
+
+431
+00:10:05,680 --> 00:10:09,030
+derivative by a parameter a and
+exponentiate it the resulting operator
+
+432
+00:10:09,030 --> 00:10:09,040
+exponentiate it the resulting operator
+ 
+
+433
+00:10:09,040 --> 00:10:11,710
+exponentiate it the resulting operator
+is a machine that translates a function
+
+434
+00:10:11,710 --> 00:10:11,720
+is a machine that translates a function
+ 
+
+435
+00:10:11,720 --> 00:10:15,470
+is a machine that translates a function
+by some amount a you can pause the video
+
+436
+00:10:15,470 --> 00:10:15,480
+by some amount a you can pause the video
+ 
+
+437
+00:10:15,480 --> 00:10:18,269
+by some amount a you can pause the video
+if you want to read the full proof of
+
+438
+00:10:18,269 --> 00:10:18,279
+if you want to read the full proof of
+ 
+
+439
+00:10:18,279 --> 00:10:21,949
+if you want to read the full proof of
+this so just as these 3x3 matrices
+
+440
+00:10:21,949 --> 00:10:21,959
+this so just as these 3x3 matrices
+ 
+
+441
+00:10:21,959 --> 00:10:25,269
+this so just as these 3x3 matrices
+generate rotation matrices on 3D vectors
+
+442
+00:10:25,269 --> 00:10:25,279
+generate rotation matrices on 3D vectors
+ 
+
+443
+00:10:25,279 --> 00:10:26,470
+generate rotation matrices on 3D vectors
+when
+
+444
+00:10:26,470 --> 00:10:26,480
+when
+ 
+
+445
+00:10:26,480 --> 00:10:29,069
+when
+exponentiated this derivative operator
+
+446
+00:10:29,069 --> 00:10:29,079
+exponentiated this derivative operator
+ 
+
+447
+00:10:29,079 --> 00:10:31,430
+exponentiated this derivative operator
+generates a translation operator on
+
+448
+00:10:31,430 --> 00:10:31,440
+generates a translation operator on
+ 
+
+449
+00:10:31,440 --> 00:10:33,350
+generates a translation operator on
+functions when
+
+450
+00:10:33,350 --> 00:10:33,360
+functions when
+ 
+
+451
+00:10:33,360 --> 00:10:35,629
+functions when
+exponentiated this is related to why the
+
+452
+00:10:35,629 --> 00:10:35,639
+exponentiated this is related to why the
+ 
+
+453
+00:10:35,639 --> 00:10:38,069
+exponentiated this is related to why the
+momentum operator in quantum mechanics
+
+454
+00:10:38,069 --> 00:10:38,079
+momentum operator in quantum mechanics
+ 
+
+455
+00:10:38,079 --> 00:10:40,750
+momentum operator in quantum mechanics
+contains a derivative because momentum
+
+456
+00:10:40,750 --> 00:10:40,760
+contains a derivative because momentum
+ 
+
+457
+00:10:40,760 --> 00:10:42,870
+contains a derivative because momentum
+is the generator of
+
+458
+00:10:42,870 --> 00:10:42,880
+is the generator of
+ 
+
+459
+00:10:42,880 --> 00:10:45,670
+is the generator of
+translations and it uses the complex ey
+
+460
+00:10:45,670 --> 00:10:45,680
+translations and it uses the complex ey
+ 
+
+461
+00:10:45,680 --> 00:10:49,150
+translations and it uses the complex ey
+to ensure the operator is her Mission I
+
+462
+00:10:49,150 --> 00:10:49,160
+to ensure the operator is her Mission I
+ 
+
+463
+00:10:49,160 --> 00:10:51,110
+to ensure the operator is her Mission I
+won't say any more about that in this
+
+464
+00:10:51,110 --> 00:10:51,120
+won't say any more about that in this
+ 
+
+465
+00:10:51,120 --> 00:10:53,430
+won't say any more about that in this
+video but I've left some links in the
+
+466
+00:10:53,430 --> 00:10:53,440
+video but I've left some links in the
+ 
+
+467
+00:10:53,440 --> 00:10:57,509
+video but I've left some links in the
+description to videos that go into more
+
+468
+00:10:57,509 --> 00:10:57,519
+description to videos that go into more
+ 
+
+469
+00:10:57,519 --> 00:11:00,910
+description to videos that go into more
+detail now let let's get back to our SO3
+
+470
+00:11:00,910 --> 00:11:00,920
+detail now let let's get back to our SO3
+ 
+
+471
+00:11:00,920 --> 00:11:01,990
+detail now let let's get back to our SO3
+generator
+
+472
+00:11:01,990 --> 00:11:02,000
+generator
+ 
+
+473
+00:11:02,000 --> 00:11:04,230
+generator
+matrices it's worth looking at these
+
+474
+00:11:04,230 --> 00:11:04,240
+matrices it's worth looking at these
+ 
+
+475
+00:11:04,240 --> 00:11:06,509
+matrices it's worth looking at these
+generator matrices and seeing if they
+
+476
+00:11:06,509 --> 00:11:06,519
+generator matrices and seeing if they
+ 
+
+477
+00:11:06,519 --> 00:11:09,389
+generator matrices and seeing if they
+have anything in common it turns out
+
+478
+00:11:09,389 --> 00:11:09,399
+have anything in common it turns out
+ 
+
+479
+00:11:09,399 --> 00:11:12,350
+have anything in common it turns out
+that the generator matrices of SO3 are
+
+480
+00:11:12,350 --> 00:11:12,360
+that the generator matrices of SO3 are
+ 
+
+481
+00:11:12,360 --> 00:11:14,870
+that the generator matrices of SO3 are
+all traceless so the sum of their
+
+482
+00:11:14,870 --> 00:11:14,880
+all traceless so the sum of their
+ 
+
+483
+00:11:14,880 --> 00:11:18,230
+all traceless so the sum of their
+diagonal elements is zero and anti-
+
+484
+00:11:18,230 --> 00:11:18,240
+diagonal elements is zero and anti-
+ 
+
+485
+00:11:18,240 --> 00:11:20,910
+diagonal elements is zero and anti-
+symmetric so their transpose equals
+
+486
+00:11:20,910 --> 00:11:20,920
+symmetric so their transpose equals
+ 
+
+487
+00:11:20,920 --> 00:11:21,829
+symmetric so their transpose equals
+their
+
+488
+00:11:21,829 --> 00:11:21,839
+their
+ 
+
+489
+00:11:21,839 --> 00:11:25,750
+their
+negative we can go ahead and prove this
+
+490
+00:11:25,750 --> 00:11:25,760
+negative we can go ahead and prove this
+ 
+
+491
+00:11:25,760 --> 00:11:28,030
+negative we can go ahead and prove this
+to prove the traceless property I'm
+
+492
+00:11:28,030 --> 00:11:28,040
+to prove the traceless property I'm
+ 
+
+493
+00:11:28,040 --> 00:11:30,590
+to prove the traceless property I'm
+going to start with this theorem which
+
+494
+00:11:30,590 --> 00:11:30,600
+going to start with this theorem which
+ 
+
+495
+00:11:30,600 --> 00:11:33,430
+going to start with this theorem which
+says that for a matrix a the determinant
+
+496
+00:11:33,430 --> 00:11:33,440
+says that for a matrix a the determinant
+ 
+
+497
+00:11:33,440 --> 00:11:36,470
+says that for a matrix a the determinant
+of e to the a is equal to e to the trace
+
+498
+00:11:36,470 --> 00:11:36,480
+of e to the a is equal to e to the trace
+ 
+
+499
+00:11:36,480 --> 00:11:40,389
+of e to the a is equal to e to the trace
+of a this is easy to prove if a is a
+
+500
+00:11:40,389 --> 00:11:40,399
+of a this is easy to prove if a is a
+ 
+
+501
+00:11:40,399 --> 00:11:43,470
+of a this is easy to prove if a is a
+diagonal matrix where its igen values
+
+502
+00:11:43,470 --> 00:11:43,480
+diagonal matrix where its igen values
+ 
+
+503
+00:11:43,480 --> 00:11:45,030
+diagonal matrix where its igen values
+are along the
+
+504
+00:11:45,030 --> 00:11:45,040
+are along the
+ 
+
+505
+00:11:45,040 --> 00:11:48,190
+are along the
+diagonal in this case e to the a just
+
+506
+00:11:48,190 --> 00:11:48,200
+diagonal in this case e to the a just
+ 
+
+507
+00:11:48,200 --> 00:11:50,230
+diagonal in this case e to the a just
+means taking the exponential of the
+
+508
+00:11:50,230 --> 00:11:50,240
+means taking the exponential of the
+ 
+
+509
+00:11:50,240 --> 00:11:52,150
+means taking the exponential of the
+individual diagonal
+
+510
+00:11:52,150 --> 00:11:52,160
+individual diagonal
+ 
+
+511
+00:11:52,160 --> 00:11:54,550
+individual diagonal
+elements and the determinant of this
+
+512
+00:11:54,550 --> 00:11:54,560
+elements and the determinant of this
+ 
+
+513
+00:11:54,560 --> 00:11:56,829
+elements and the determinant of this
+Matrix would just be the product of the
+
+514
+00:11:56,829 --> 00:11:56,839
+Matrix would just be the product of the
+ 
+
+515
+00:11:56,839 --> 00:11:57,949
+Matrix would just be the product of the
+diagonal
+
+516
+00:11:57,949 --> 00:11:57,959
+diagonal
+ 
+
+517
+00:11:57,959 --> 00:12:00,870
+diagonal
+elements on the other hand the trace of
+
+518
+00:12:00,870 --> 00:12:00,880
+elements on the other hand the trace of
+ 
+
+519
+00:12:00,880 --> 00:12:03,509
+elements on the other hand the trace of
+a is just the sum of the diagonal
+
+520
+00:12:03,509 --> 00:12:03,519
+a is just the sum of the diagonal
+ 
+
+521
+00:12:03,519 --> 00:12:06,910
+a is just the sum of the diagonal
+elements and if we exponentiate this sum
+
+522
+00:12:06,910 --> 00:12:06,920
+elements and if we exponentiate this sum
+ 
+
+523
+00:12:06,920 --> 00:12:09,110
+elements and if we exponentiate this sum
+we see it is equal to the determinant we
+
+524
+00:12:09,110 --> 00:12:09,120
+we see it is equal to the determinant we
+ 
+
+525
+00:12:09,120 --> 00:12:11,790
+we see it is equal to the determinant we
+calculated before if we use basic
+
+526
+00:12:11,790 --> 00:12:11,800
+calculated before if we use basic
+ 
+
+527
+00:12:11,800 --> 00:12:13,389
+calculated before if we use basic
+exponent
+
+528
+00:12:13,389 --> 00:12:13,399
+exponent
+ 
+
+529
+00:12:13,399 --> 00:12:16,350
+exponent
+rules now this proof only works for
+
+530
+00:12:16,350 --> 00:12:16,360
+rules now this proof only works for
+ 
+
+531
+00:12:16,360 --> 00:12:17,550
+rules now this proof only works for
+diagonal
+
+532
+00:12:17,550 --> 00:12:17,560
+diagonal
+ 
+
+533
+00:12:17,560 --> 00:12:20,230
+diagonal
+matrices but since I values the
+
+534
+00:12:20,230 --> 00:12:20,240
+matrices but since I values the
+ 
+
+535
+00:12:20,240 --> 00:12:22,389
+matrices but since I values the
+determinant and the trace of a matrix
+
+536
+00:12:22,389 --> 00:12:22,399
+determinant and the trace of a matrix
+ 
+
+537
+00:12:22,399 --> 00:12:25,590
+determinant and the trace of a matrix
+are unchanged by a change of coordinates
+
+538
+00:12:25,590 --> 00:12:25,600
+are unchanged by a change of coordinates
+ 
+
+539
+00:12:25,600 --> 00:12:28,110
+are unchanged by a change of coordinates
+this proof also works for any Matrix
+
+540
+00:12:28,110 --> 00:12:28,120
+this proof also works for any Matrix
+ 
+
+541
+00:12:28,120 --> 00:12:30,030
+this proof also works for any Matrix
+that is diag
+
+542
+00:12:30,030 --> 00:12:30,040
+that is diag
+ 
+
+543
+00:12:30,040 --> 00:12:34,310
+that is diag
+ionizable our SO3 generator matrices are
+
+544
+00:12:34,310 --> 00:12:34,320
+ionizable our SO3 generator matrices are
+ 
+
+545
+00:12:34,320 --> 00:12:36,509
+ionizable our SO3 generator matrices are
+diagonalizable and so the corresponding
+
+546
+00:12:36,509 --> 00:12:36,519
+diagonalizable and so the corresponding
+ 
+
+547
+00:12:36,519 --> 00:12:39,110
+diagonalizable and so the corresponding
+rotation matrices are also
+
+548
+00:12:39,110 --> 00:12:39,120
+rotation matrices are also
+ 
+
+549
+00:12:39,120 --> 00:12:41,590
+rotation matrices are also
+diagonalizable provided we allow for
+
+550
+00:12:41,590 --> 00:12:41,600
+diagonalizable provided we allow for
+ 
+
+551
+00:12:41,600 --> 00:12:43,110
+diagonalizable provided we allow for
+complex Matrix
+
+552
+00:12:43,110 --> 00:12:43,120
+complex Matrix
+ 
+
+553
+00:12:43,120 --> 00:12:45,509
+complex Matrix
+entries so the theorem we discussed
+
+554
+00:12:45,509 --> 00:12:45,519
+entries so the theorem we discussed
+ 
+
+555
+00:12:45,519 --> 00:12:47,949
+entries so the theorem we discussed
+earlier also works for our rotation
+
+556
+00:12:47,949 --> 00:12:47,959
+earlier also works for our rotation
+ 
+
+557
+00:12:47,959 --> 00:12:50,710
+earlier also works for our rotation
+matrices and their
+
+558
+00:12:50,710 --> 00:12:50,720
+matrices and their
+ 
+
+559
+00:12:50,720 --> 00:12:53,710
+matrices and their
+generators as an exercise you can try to
+
+560
+00:12:53,710 --> 00:12:53,720
+generators as an exercise you can try to
+ 
+
+561
+00:12:53,720 --> 00:12:56,269
+generators as an exercise you can try to
+figure out why the rotation Matrix and
+
+562
+00:12:56,269 --> 00:12:56,279
+figure out why the rotation Matrix and
+ 
+
+563
+00:12:56,279 --> 00:12:59,030
+figure out why the rotation Matrix and
+its generator transform using the same
+
+564
+00:12:59,030 --> 00:12:59,040
+its generator transform using the same
+ 
+
+565
+00:12:59,040 --> 00:13:02,590
+its generator transform using the same
+coordinate change Matrix c as a hint
+
+566
+00:13:02,590 --> 00:13:02,600
+coordinate change Matrix c as a hint
+ 
+
+567
+00:13:02,600 --> 00:13:04,430
+coordinate change Matrix c as a hint
+remember to look at the Taylor series
+
+568
+00:13:04,430 --> 00:13:04,440
+remember to look at the Taylor series
+ 
+
+569
+00:13:04,440 --> 00:13:08,389
+remember to look at the Taylor series
+definition of Matrix
+
+570
+00:13:08,389 --> 00:13:08,399
+
+ 
+
+571
+00:13:08,399 --> 00:13:11,269
+
+exponentiation so using this theorem and
+
+572
+00:13:11,269 --> 00:13:11,279
+exponentiation so using this theorem and
+ 
+
+573
+00:13:11,279 --> 00:13:13,790
+exponentiation so using this theorem and
+knowing the determinant of an SO3 Matrix
+
+574
+00:13:13,790 --> 00:13:13,800
+knowing the determinant of an SO3 Matrix
+ 
+
+575
+00:13:13,800 --> 00:13:16,829
+knowing the determinant of an SO3 Matrix
+is + one we can write the rotation
+
+576
+00:13:16,829 --> 00:13:16,839
+is + one we can write the rotation
+ 
+
+577
+00:13:16,839 --> 00:13:19,470
+is + one we can write the rotation
+Matrix in exponential form use the
+
+578
+00:13:19,470 --> 00:13:19,480
+Matrix in exponential form use the
+ 
+
+579
+00:13:19,480 --> 00:13:21,790
+Matrix in exponential form use the
+theorem to rewrite it as the exponential
+
+580
+00:13:21,790 --> 00:13:21,800
+theorem to rewrite it as the exponential
+ 
+
+581
+00:13:21,800 --> 00:13:24,629
+theorem to rewrite it as the exponential
+of the trace and since this exponential
+
+582
+00:13:24,629 --> 00:13:24,639
+of the trace and since this exponential
+ 
+
+583
+00:13:24,639 --> 00:13:27,990
+of the trace and since this exponential
+equals 1 for all Theta we must conclude
+
+584
+00:13:27,990 --> 00:13:28,000
+equals 1 for all Theta we must conclude
+ 
+
+585
+00:13:28,000 --> 00:13:30,509
+equals 1 for all Theta we must conclude
+that the trace of the generator m is
+
+586
+00:13:30,509 --> 00:13:30,519
+that the trace of the generator m is
+ 
+
+587
+00:13:30,519 --> 00:13:33,670
+that the trace of the generator m is
+zero so we've proven that SO3 generator
+
+588
+00:13:33,670 --> 00:13:33,680
+zero so we've proven that SO3 generator
+ 
+
+589
+00:13:33,680 --> 00:13:36,069
+zero so we've proven that SO3 generator
+matrices are
+
+590
+00:13:36,069 --> 00:13:36,079
+matrices are
+ 
+
+591
+00:13:36,079 --> 00:13:38,670
+matrices are
+traceless now let's prove s SO3
+
+592
+00:13:38,670 --> 00:13:38,680
+traceless now let's prove s SO3
+ 
+
+593
+00:13:38,680 --> 00:13:41,389
+traceless now let's prove s SO3
+generator matrices are
+
+594
+00:13:41,389 --> 00:13:41,399
+generator matrices are
+ 
+
+595
+00:13:41,399 --> 00:13:43,949
+generator matrices are
+anti-symmetric we know that for an SO3
+
+596
+00:13:43,949 --> 00:13:43,959
+anti-symmetric we know that for an SO3
+ 
+
+597
+00:13:43,959 --> 00:13:47,110
+anti-symmetric we know that for an SO3
+Matrix are its inverse equals its
+
+598
+00:13:47,110 --> 00:13:47,120
+Matrix are its inverse equals its
+ 
+
+599
+00:13:47,120 --> 00:13:50,710
+Matrix are its inverse equals its
+transpose so R * R transpose equals the
+
+600
+00:13:50,710 --> 00:13:50,720
+transpose so R * R transpose equals the
+ 
+
+601
+00:13:50,720 --> 00:13:51,949
+transpose so R * R transpose equals the
+identity
+
+602
+00:13:51,949 --> 00:13:51,959
+identity
+ 
+
+603
+00:13:51,959 --> 00:13:54,870
+identity
+Matrix now let's take the derivative of
+
+604
+00:13:54,870 --> 00:13:54,880
+Matrix now let's take the derivative of
+ 
+
+605
+00:13:54,880 --> 00:13:57,790
+Matrix now let's take the derivative of
+both sides on the left side we use
+
+606
+00:13:57,790 --> 00:13:57,800
+both sides on the left side we use
+ 
+
+607
+00:13:57,800 --> 00:14:00,389
+both sides on the left side we use
+product rule to get a sum of two
+
+608
+00:14:00,389 --> 00:14:00,399
+product rule to get a sum of two
+ 
+
+609
+00:14:00,399 --> 00:14:03,230
+product rule to get a sum of two
+products and on the right the identity
+
+610
+00:14:03,230 --> 00:14:03,240
+products and on the right the identity
+ 
+
+611
+00:14:03,240 --> 00:14:06,269
+products and on the right the identity
+Matrix is a constant so its derivative
+
+612
+00:14:06,269 --> 00:14:06,279
+Matrix is a constant so its derivative
+ 
+
+613
+00:14:06,279 --> 00:14:07,949
+Matrix is a constant so its derivative
+is the zero
+
+614
+00:14:07,949 --> 00:14:07,959
+is the zero
+ 
+
+615
+00:14:07,959 --> 00:14:11,150
+is the zero
+Matrix now we can rewrite the matrices
+
+616
+00:14:11,150 --> 00:14:11,160
+Matrix now we can rewrite the matrices
+ 
+
+617
+00:14:11,160 --> 00:14:13,829
+Matrix now we can rewrite the matrices
+as exponentials of the
+
+618
+00:14:13,829 --> 00:14:13,839
+as exponentials of the
+ 
+
+619
+00:14:13,839 --> 00:14:15,749
+as exponentials of the
+generators it turns out that the
+
+620
+00:14:15,749 --> 00:14:15,759
+generators it turns out that the
+ 
+
+621
+00:14:15,759 --> 00:14:18,870
+generators it turns out that the
+transpose of an exponential is just the
+
+622
+00:14:18,870 --> 00:14:18,880
+transpose of an exponential is just the
+ 
+
+623
+00:14:18,880 --> 00:14:21,710
+transpose of an exponential is just the
+exponential of the transpose so we can
+
+624
+00:14:21,710 --> 00:14:21,720
+exponential of the transpose so we can
+ 
+
+625
+00:14:21,720 --> 00:14:25,829
+exponential of the transpose so we can
+move this transpose operation to the
+
+626
+00:14:25,829 --> 00:14:25,839
+move this transpose operation to the
+ 
+
+627
+00:14:25,839 --> 00:14:28,069
+move this transpose operation to the
+generator also recall that the
+
+628
+00:14:28,069 --> 00:14:28,079
+generator also recall that the
+ 
+
+629
+00:14:28,079 --> 00:14:30,430
+generator also recall that the
+derivative of of an exponential just
+
+630
+00:14:30,430 --> 00:14:30,440
+derivative of of an exponential just
+ 
+
+631
+00:14:30,440 --> 00:14:32,670
+derivative of of an exponential just
+gives us a factor of the generator out
+
+632
+00:14:32,670 --> 00:14:32,680
+gives us a factor of the generator out
+ 
+
+633
+00:14:32,680 --> 00:14:35,470
+gives us a factor of the generator out
+in front because of chain
+
+634
+00:14:35,470 --> 00:14:35,480
+in front because of chain
+ 
+
+635
+00:14:35,480 --> 00:14:38,870
+in front because of chain
+Rule now this formula must be true for
+
+636
+00:14:38,870 --> 00:14:38,880
+Rule now this formula must be true for
+ 
+
+637
+00:14:38,880 --> 00:14:41,829
+Rule now this formula must be true for
+all values of theta so let's Sub in
+
+638
+00:14:41,829 --> 00:14:41,839
+all values of theta so let's Sub in
+ 
+
+639
+00:14:41,839 --> 00:14:44,949
+all values of theta so let's Sub in
+theta equals 0 this causes all the
+
+640
+00:14:44,949 --> 00:14:44,959
+theta equals 0 this causes all the
+ 
+
+641
+00:14:44,959 --> 00:14:47,590
+theta equals 0 this causes all the
+exponentials to go to the identity
+
+642
+00:14:47,590 --> 00:14:47,600
+exponentials to go to the identity
+ 
+
+643
+00:14:47,600 --> 00:14:50,110
+exponentials to go to the identity
+Matrix this makes sense because a
+
+644
+00:14:50,110 --> 00:14:50,120
+Matrix this makes sense because a
+ 
+
+645
+00:14:50,120 --> 00:14:53,150
+Matrix this makes sense because a
+rotation by 0 de is the
+
+646
+00:14:53,150 --> 00:14:53,160
+rotation by 0 de is the
+ 
+
+647
+00:14:53,160 --> 00:14:55,790
+rotation by 0 de is the
+identity we're left with the generator
+
+648
+00:14:55,790 --> 00:14:55,800
+identity we're left with the generator
+ 
+
+649
+00:14:55,800 --> 00:14:58,189
+identity we're left with the generator
+plus its transpose equaling the zero
+
+650
+00:14:58,189 --> 00:14:58,199
+plus its transpose equaling the zero
+ 
+
+651
+00:14:58,199 --> 00:14:59,550
+plus its transpose equaling the zero
+Matrix
+
+652
+00:14:59,550 --> 00:14:59,560
+Matrix
+ 
+
+653
+00:14:59,560 --> 00:15:01,670
+Matrix
+or in other words the transpose of the
+
+654
+00:15:01,670 --> 00:15:01,680
+or in other words the transpose of the
+ 
+
+655
+00:15:01,680 --> 00:15:05,150
+or in other words the transpose of the
+generator equals the negative generator
+
+656
+00:15:05,150 --> 00:15:05,160
+generator equals the negative generator
+ 
+
+657
+00:15:05,160 --> 00:15:07,350
+generator equals the negative generator
+so this proves that the generators of
+
+658
+00:15:07,350 --> 00:15:07,360
+so this proves that the generators of
+ 
+
+659
+00:15:07,360 --> 00:15:10,790
+so this proves that the generators of
+SO3 matrices are
+
+660
+00:15:10,790 --> 00:15:10,800
+SO3 matrices are
+ 
+
+661
+00:15:10,800 --> 00:15:12,990
+SO3 matrices are
+anti-symmetric now I want to give you a
+
+662
+00:15:12,990 --> 00:15:13,000
+anti-symmetric now I want to give you a
+ 
+
+663
+00:15:13,000 --> 00:15:16,910
+anti-symmetric now I want to give you a
+warning about proofs that involve Matrix
+
+664
+00:15:16,910 --> 00:15:16,920
+warning about proofs that involve Matrix
+ 
+
+665
+00:15:16,920 --> 00:15:19,069
+warning about proofs that involve Matrix
+exponentials if you wanted to try
+
+666
+00:15:19,069 --> 00:15:19,079
+exponentials if you wanted to try
+ 
+
+667
+00:15:19,079 --> 00:15:21,949
+exponentials if you wanted to try
+proving that s SO3 generators are
+
+668
+00:15:21,949 --> 00:15:21,959
+proving that s SO3 generators are
+ 
+
+669
+00:15:21,959 --> 00:15:24,150
+proving that s SO3 generators are
+anti-symmetric you might be tempted to
+
+670
+00:15:24,150 --> 00:15:24,160
+anti-symmetric you might be tempted to
+ 
+
+671
+00:15:24,160 --> 00:15:27,110
+anti-symmetric you might be tempted to
+just Sub in these Matrix exponentials
+
+672
+00:15:27,110 --> 00:15:27,120
+just Sub in these Matrix exponentials
+ 
+
+673
+00:15:27,120 --> 00:15:29,550
+just Sub in these Matrix exponentials
+and use exponent rules to add the
+
+674
+00:15:29,550 --> 00:15:29,560
+and use exponent rules to add the
+ 
+
+675
+00:15:29,560 --> 00:15:32,629
+and use exponent rules to add the
+exponents together and use this to
+
+676
+00:15:32,629 --> 00:15:32,639
+exponents together and use this to
+ 
+
+677
+00:15:32,639 --> 00:15:36,069
+exponents together and use this to
+conclude that the generator matrices are
+
+678
+00:15:36,069 --> 00:15:36,079
+conclude that the generator matrices are
+ 
+
+679
+00:15:36,079 --> 00:15:38,629
+conclude that the generator matrices are
+anti-symmetric but this proof does not
+
+680
+00:15:38,629 --> 00:15:38,639
+anti-symmetric but this proof does not
+ 
+
+681
+00:15:38,639 --> 00:15:41,230
+anti-symmetric but this proof does not
+work for an important
+
+682
+00:15:41,230 --> 00:15:41,240
+work for an important
+ 
+
+683
+00:15:41,240 --> 00:15:44,670
+work for an important
+reason when exponentiating matrices we
+
+684
+00:15:44,670 --> 00:15:44,680
+reason when exponentiating matrices we
+ 
+
+685
+00:15:44,680 --> 00:15:47,430
+reason when exponentiating matrices we
+cannot use the exponent rules we use for
+
+686
+00:15:47,430 --> 00:15:47,440
+cannot use the exponent rules we use for
+ 
+
+687
+00:15:47,440 --> 00:15:49,910
+cannot use the exponent rules we use for
+numbers where we turn a product of
+
+688
+00:15:49,910 --> 00:15:49,920
+numbers where we turn a product of
+ 
+
+689
+00:15:49,920 --> 00:15:52,749
+numbers where we turn a product of
+exponentials into the exponential of a
+
+690
+00:15:52,749 --> 00:15:52,759
+exponentials into the exponential of a
+ 
+
+691
+00:15:52,759 --> 00:15:56,030
+exponentials into the exponential of a
+sum the reason for this is matrix
+
+692
+00:15:56,030 --> 00:15:56,040
+sum the reason for this is matrix
+ 
+
+693
+00:15:56,040 --> 00:15:58,590
+sum the reason for this is matrix
+multiplication does not commute in
+
+694
+00:15:58,590 --> 00:15:58,600
+multiplication does not commute in
+ 
+
+695
+00:15:58,600 --> 00:16:01,069
+multiplication does not commute in
+General and because of this the two
+
+696
+00:16:01,069 --> 00:16:01,079
+General and because of this the two
+ 
+
+697
+00:16:01,079 --> 00:16:03,910
+General and because of this the two
+exponential formulas are not equal when
+
+698
+00:16:03,910 --> 00:16:03,920
+exponential formulas are not equal when
+ 
+
+699
+00:16:03,920 --> 00:16:07,150
+exponential formulas are not equal when
+we expand them as an infinite series the
+
+700
+00:16:07,150 --> 00:16:07,160
+we expand them as an infinite series the
+ 
+
+701
+00:16:07,160 --> 00:16:09,509
+we expand them as an infinite series the
+two formulas are only equal if the
+
+702
+00:16:09,509 --> 00:16:09,519
+two formulas are only equal if the
+ 
+
+703
+00:16:09,519 --> 00:16:11,829
+two formulas are only equal if the
+generators
+
+704
+00:16:11,829 --> 00:16:11,839
+generators
+ 
+
+705
+00:16:11,839 --> 00:16:14,350
+generators
+commute you can Google The Baker
+
+706
+00:16:14,350 --> 00:16:14,360
+commute you can Google The Baker
+ 
+
+707
+00:16:14,360 --> 00:16:16,870
+commute you can Google The Baker
+Campbell hous door formula if you want
+
+708
+00:16:16,870 --> 00:16:16,880
+Campbell hous door formula if you want
+ 
+
+709
+00:16:16,880 --> 00:16:18,790
+Campbell hous door formula if you want
+to learn more about
+
+710
+00:16:18,790 --> 00:16:18,800
+to learn more about
+ 
+
+711
+00:16:18,800 --> 00:16:21,710
+to learn more about
+this in the case of an anti-symmetric
+
+712
+00:16:21,710 --> 00:16:21,720
+this in the case of an anti-symmetric
+ 
+
+713
+00:16:21,720 --> 00:16:24,670
+this in the case of an anti-symmetric
+Matrix it does commute with its
+
+714
+00:16:24,670 --> 00:16:24,680
+Matrix it does commute with its
+ 
+
+715
+00:16:24,680 --> 00:16:27,030
+Matrix it does commute with its
+transpose because we can move the minus
+
+716
+00:16:27,030 --> 00:16:27,040
+transpose because we can move the minus
+ 
+
+717
+00:16:27,040 --> 00:16:30,110
+transpose because we can move the minus
+sign from one Matrix to the other so the
+
+718
+00:16:30,110 --> 00:16:30,120
+sign from one Matrix to the other so the
+ 
+
+719
+00:16:30,120 --> 00:16:32,749
+sign from one Matrix to the other so the
+rule for turning a product of exponents
+
+720
+00:16:32,749 --> 00:16:32,759
+rule for turning a product of exponents
+ 
+
+721
+00:16:32,759 --> 00:16:36,269
+rule for turning a product of exponents
+into the exponents of a sum does work
+
+722
+00:16:36,269 --> 00:16:36,279
+into the exponents of a sum does work
+ 
+
+723
+00:16:36,279 --> 00:16:38,790
+into the exponents of a sum does work
+but we need to prove the two matrices
+
+724
+00:16:38,790 --> 00:16:38,800
+but we need to prove the two matrices
+ 
+
+725
+00:16:38,800 --> 00:16:42,389
+but we need to prove the two matrices
+commute before we can use this
+
+726
+00:16:42,389 --> 00:16:42,399
+commute before we can use this
+ 
+
+727
+00:16:42,399 --> 00:16:45,590
+commute before we can use this
+rule so we've proven that all SO3
+
+728
+00:16:45,590 --> 00:16:45,600
+rule so we've proven that all SO3
+ 
+
+729
+00:16:45,600 --> 00:16:49,670
+rule so we've proven that all SO3
+generator matrices are traceless and
+
+730
+00:16:49,670 --> 00:16:49,680
+generator matrices are traceless and
+ 
+
+731
+00:16:49,680 --> 00:16:52,230
+generator matrices are traceless and
+anti-symmetric now I said earlier that
+
+732
+00:16:52,230 --> 00:16:52,240
+anti-symmetric now I said earlier that
+ 
+
+733
+00:16:52,240 --> 00:16:54,590
+anti-symmetric now I said earlier that
+these generator matrices are members of
+
+734
+00:16:54,590 --> 00:16:54,600
+these generator matrices are members of
+ 
+
+735
+00:16:54,600 --> 00:16:57,550
+these generator matrices are members of
+a Lee algebra specifically the Lee
+
+736
+00:16:57,550 --> 00:16:57,560
+a Lee algebra specifically the Lee
+ 
+
+737
+00:16:57,560 --> 00:17:01,829
+a Lee algebra specifically the Lee
+algebra so 3 but what does that mean
+
+738
+00:17:01,829 --> 00:17:01,839
+algebra so 3 but what does that mean
+ 
+
+739
+00:17:01,839 --> 00:17:05,390
+algebra so 3 but what does that mean
+exactly remember an algebra is basically
+
+740
+00:17:05,390 --> 00:17:05,400
+exactly remember an algebra is basically
+ 
+
+741
+00:17:05,400 --> 00:17:07,429
+exactly remember an algebra is basically
+a vector space where addition
+
+742
+00:17:07,429 --> 00:17:07,439
+a vector space where addition
+ 
+
+743
+00:17:07,439 --> 00:17:09,789
+a vector space where addition
+subtraction and multiplication between
+
+744
+00:17:09,789 --> 00:17:09,799
+subtraction and multiplication between
+ 
+
+745
+00:17:09,799 --> 00:17:11,189
+subtraction and multiplication between
+vectors is
+
+746
+00:17:11,189 --> 00:17:11,199
+vectors is
+ 
+
+747
+00:17:11,199 --> 00:17:13,710
+vectors is
+defined we can Loosely think of these
+
+748
+00:17:13,710 --> 00:17:13,720
+defined we can Loosely think of these
+ 
+
+749
+00:17:13,720 --> 00:17:17,150
+defined we can Loosely think of these
+generator matrices as being like
+
+750
+00:17:17,150 --> 00:17:17,160
+generator matrices as being like
+ 
+
+751
+00:17:17,160 --> 00:17:19,990
+generator matrices as being like
+vectors just as we can add and subtract
+
+752
+00:17:19,990 --> 00:17:20,000
+vectors just as we can add and subtract
+ 
+
+753
+00:17:20,000 --> 00:17:23,069
+vectors just as we can add and subtract
+vectors to get more vectors we can also
+
+754
+00:17:23,069 --> 00:17:23,079
+vectors to get more vectors we can also
+ 
+
+755
+00:17:23,079 --> 00:17:25,590
+vectors to get more vectors we can also
+add and subtract generator matrices to
+
+756
+00:17:25,590 --> 00:17:25,600
+add and subtract generator matrices to
+ 
+
+757
+00:17:25,600 --> 00:17:28,630
+add and subtract generator matrices to
+get more generator matrices when we we
+
+758
+00:17:28,630 --> 00:17:28,640
+get more generator matrices when we we
+ 
+
+759
+00:17:28,640 --> 00:17:30,909
+get more generator matrices when we we
+add two traceless anti-symmetric
+
+760
+00:17:30,909 --> 00:17:30,919
+add two traceless anti-symmetric
+ 
+
+761
+00:17:30,919 --> 00:17:33,789
+add two traceless anti-symmetric
+matrices together the result is also
+
+762
+00:17:33,789 --> 00:17:33,799
+matrices together the result is also
+ 
+
+763
+00:17:33,799 --> 00:17:35,470
+matrices together the result is also
+traceless and
+
+764
+00:17:35,470 --> 00:17:35,480
+traceless and
+ 
+
+765
+00:17:35,480 --> 00:17:37,950
+traceless and
+anti-symmetric so we know the result of
+
+766
+00:17:37,950 --> 00:17:37,960
+anti-symmetric so we know the result of
+ 
+
+767
+00:17:37,960 --> 00:17:41,230
+anti-symmetric so we know the result of
+adding two s SO3 generators is another s
+
+768
+00:17:41,230 --> 00:17:41,240
+adding two s SO3 generators is another s
+ 
+
+769
+00:17:41,240 --> 00:17:42,549
+adding two s SO3 generators is another s
+SO3
+
+770
+00:17:42,549 --> 00:17:42,559
+SO3
+ 
+
+771
+00:17:42,559 --> 00:17:44,789
+SO3
+generator the same is true for
+
+772
+00:17:44,789 --> 00:17:44,799
+generator the same is true for
+ 
+
+773
+00:17:44,799 --> 00:17:46,750
+generator the same is true for
+subtracting
+
+774
+00:17:46,750 --> 00:17:46,760
+subtracting
+ 
+
+775
+00:17:46,760 --> 00:17:49,669
+subtracting
+generators but in an algebra we also
+
+776
+00:17:49,669 --> 00:17:49,679
+generators but in an algebra we also
+ 
+
+777
+00:17:49,679 --> 00:17:52,230
+generators but in an algebra we also
+need to be able to multiply vectors
+
+778
+00:17:52,230 --> 00:17:52,240
+need to be able to multiply vectors
+ 
+
+779
+00:17:52,240 --> 00:17:54,230
+need to be able to multiply vectors
+together you might assume the
+
+780
+00:17:54,230 --> 00:17:54,240
+together you might assume the
+ 
+
+781
+00:17:54,240 --> 00:17:56,789
+together you might assume the
+multiplication rule between generators
+
+782
+00:17:56,789 --> 00:17:56,799
+multiplication rule between generators
+ 
+
+783
+00:17:56,799 --> 00:18:00,029
+multiplication rule between generators
+is just matrix multiplication a but this
+
+784
+00:18:00,029 --> 00:18:00,039
+is just matrix multiplication a but this
+ 
+
+785
+00:18:00,039 --> 00:18:03,070
+is just matrix multiplication a but this
+isn't quite correct the product of two
+
+786
+00:18:03,070 --> 00:18:03,080
+isn't quite correct the product of two
+ 
+
+787
+00:18:03,080 --> 00:18:05,870
+isn't quite correct the product of two
+anti-symmetric matrices is not always
+
+788
+00:18:05,870 --> 00:18:05,880
+anti-symmetric matrices is not always
+ 
+
+789
+00:18:05,880 --> 00:18:06,710
+anti-symmetric matrices is not always
+anti-
+
+790
+00:18:06,710 --> 00:18:06,720
+anti-
+ 
+
+791
+00:18:06,720 --> 00:18:09,310
+anti-
+symmetric so the result of multiplying
+
+792
+00:18:09,310 --> 00:18:09,320
+symmetric so the result of multiplying
+ 
+
+793
+00:18:09,320 --> 00:18:12,830
+symmetric so the result of multiplying
+two SO3 generators is not always another
+
+794
+00:18:12,830 --> 00:18:12,840
+two SO3 generators is not always another
+ 
+
+795
+00:18:12,840 --> 00:18:16,549
+two SO3 generators is not always another
+s SO3 generator that is the exponential
+
+796
+00:18:16,549 --> 00:18:16,559
+s SO3 generator that is the exponential
+ 
+
+797
+00:18:16,559 --> 00:18:18,990
+s SO3 generator that is the exponential
+of this product doesn't always give us a
+
+798
+00:18:18,990 --> 00:18:19,000
+of this product doesn't always give us a
+ 
+
+799
+00:18:19,000 --> 00:18:21,470
+of this product doesn't always give us a
+rotation Matrix in
+
+800
+00:18:21,470 --> 00:18:21,480
+rotation Matrix in
+ 
+
+801
+00:18:21,480 --> 00:18:24,430
+rotation Matrix in
+SO3 we can check this explicitly by
+
+802
+00:18:24,430 --> 00:18:24,440
+SO3 we can check this explicitly by
+ 
+
+803
+00:18:24,440 --> 00:18:27,470
+SO3 we can check this explicitly by
+multiplying the XY generator with the y
+
+804
+00:18:27,470 --> 00:18:27,480
+multiplying the XY generator with the y
+ 
+
+805
+00:18:27,480 --> 00:18:29,110
+multiplying the XY generator with the y
+z generator
+
+806
+00:18:29,110 --> 00:18:29,120
+z generator
+ 
+
+807
+00:18:29,120 --> 00:18:32,390
+z generator
+we get this Matrix here this Matrix
+
+808
+00:18:32,390 --> 00:18:32,400
+we get this Matrix here this Matrix
+ 
+
+809
+00:18:32,400 --> 00:18:35,110
+we get this Matrix here this Matrix
+actually squares to zero so when we
+
+810
+00:18:35,110 --> 00:18:35,120
+actually squares to zero so when we
+ 
+
+811
+00:18:35,120 --> 00:18:37,350
+actually squares to zero so when we
+exponentiate it only the first couple
+
+812
+00:18:37,350 --> 00:18:37,360
+exponentiate it only the first couple
+ 
+
+813
+00:18:37,360 --> 00:18:40,590
+exponentiate it only the first couple
+terms in the series are nonzero and we
+
+814
+00:18:40,590 --> 00:18:40,600
+terms in the series are nonzero and we
+ 
+
+815
+00:18:40,600 --> 00:18:44,190
+terms in the series are nonzero and we
+get this which is not a rotation
+
+816
+00:18:44,190 --> 00:18:44,200
+get this which is not a rotation
+ 
+
+817
+00:18:44,200 --> 00:18:47,669
+get this which is not a rotation
+Matrix however let's try something else
+
+818
+00:18:47,669 --> 00:18:47,679
+Matrix however let's try something else
+ 
+
+819
+00:18:47,679 --> 00:18:51,390
+Matrix however let's try something else
+I'll multiply the generators XY and Y Z
+
+820
+00:18:51,390 --> 00:18:51,400
+I'll multiply the generators XY and Y Z
+ 
+
+821
+00:18:51,400 --> 00:18:53,590
+I'll multiply the generators XY and Y Z
+and then subtract their product in the
+
+822
+00:18:53,590 --> 00:18:53,600
+and then subtract their product in the
+ 
+
+823
+00:18:53,600 --> 00:18:57,950
+and then subtract their product in the
+opposite order y z * XY if we work
+
+824
+00:18:57,950 --> 00:18:57,960
+opposite order y z * XY if we work
+ 
+
+825
+00:18:57,960 --> 00:18:59,710
+opposite order y z * XY if we work
+through the The Matrix multiplications
+
+826
+00:18:59,710 --> 00:18:59,720
+through the The Matrix multiplications
+ 
+
+827
+00:18:59,720 --> 00:19:03,350
+through the The Matrix multiplications
+and subtract we get this Matrix which is
+
+828
+00:19:03,350 --> 00:19:03,360
+and subtract we get this Matrix which is
+ 
+
+829
+00:19:03,360 --> 00:19:06,990
+and subtract we get this Matrix which is
+the ZX generator Matrix so it turns out
+
+830
+00:19:06,990 --> 00:19:07,000
+the ZX generator Matrix so it turns out
+ 
+
+831
+00:19:07,000 --> 00:19:09,310
+the ZX generator Matrix so it turns out
+that when we multiply two generators in
+
+832
+00:19:09,310 --> 00:19:09,320
+that when we multiply two generators in
+ 
+
+833
+00:19:09,320 --> 00:19:12,190
+that when we multiply two generators in
+either order and subtract the result we
+
+834
+00:19:12,190 --> 00:19:12,200
+either order and subtract the result we
+ 
+
+835
+00:19:12,200 --> 00:19:13,549
+either order and subtract the result we
+get another
+
+836
+00:19:13,549 --> 00:19:13,559
+get another
+ 
+
+837
+00:19:13,559 --> 00:19:16,630
+get another
+generator this operation on matrices is
+
+838
+00:19:16,630 --> 00:19:16,640
+generator this operation on matrices is
+ 
+
+839
+00:19:16,640 --> 00:19:18,470
+generator this operation on matrices is
+called The Matrix
+
+840
+00:19:18,470 --> 00:19:18,480
+called The Matrix
+ 
+
+841
+00:19:18,480 --> 00:19:20,909
+called The Matrix
+commutator and in the context of Lee
+
+842
+00:19:20,909 --> 00:19:20,919
+commutator and in the context of Lee
+ 
+
+843
+00:19:20,919 --> 00:19:24,230
+commutator and in the context of Lee
+algebras it is often called the Lee
+
+844
+00:19:24,230 --> 00:19:24,240
+algebras it is often called the Lee
+ 
+
+845
+00:19:24,240 --> 00:19:26,870
+algebras it is often called the Lee
+bracket this is what we will use as our
+
+846
+00:19:26,870 --> 00:19:26,880
+bracket this is what we will use as our
+ 
+
+847
+00:19:26,880 --> 00:19:29,590
+bracket this is what we will use as our
+Vector multiplication rule rule in Lee
+
+848
+00:19:29,590 --> 00:19:29,600
+Vector multiplication rule rule in Lee
+ 
+
+849
+00:19:29,600 --> 00:19:32,029
+Vector multiplication rule rule in Lee
+algebras since it's a way of combining
+
+850
+00:19:32,029 --> 00:19:32,039
+algebras since it's a way of combining
+ 
+
+851
+00:19:32,039 --> 00:19:35,029
+algebras since it's a way of combining
+two generators to give us a third
+
+852
+00:19:35,029 --> 00:19:35,039
+two generators to give us a third
+ 
+
+853
+00:19:35,039 --> 00:19:37,350
+two generators to give us a third
+generator if we work out all the
+
+854
+00:19:37,350 --> 00:19:37,360
+generator if we work out all the
+ 
+
+855
+00:19:37,360 --> 00:19:40,549
+generator if we work out all the
+commutators for our rotation generators
+
+856
+00:19:40,549 --> 00:19:40,559
+commutators for our rotation generators
+ 
+
+857
+00:19:40,559 --> 00:19:44,470
+commutators for our rotation generators
+we get these commutation relations here
+
+858
+00:19:44,470 --> 00:19:44,480
+we get these commutation relations here
+ 
+
+859
+00:19:44,480 --> 00:19:47,390
+we get these commutation relations here
+this set of generators of the Le group
+
+860
+00:19:47,390 --> 00:19:47,400
+this set of generators of the Le group
+ 
+
+861
+00:19:47,400 --> 00:19:50,430
+this set of generators of the Le group
+SO3 along with the rules for addition
+
+862
+00:19:50,430 --> 00:19:50,440
+SO3 along with the rules for addition
+ 
+
+863
+00:19:50,440 --> 00:19:52,950
+SO3 along with the rules for addition
+subtraction and multiplication with the
+
+864
+00:19:52,950 --> 00:19:52,960
+subtraction and multiplication with the
+ 
+
+865
+00:19:52,960 --> 00:19:56,909
+subtraction and multiplication with the
+Lee bracket form the Lee algebra
+
+866
+00:19:56,909 --> 00:19:56,919
+Lee bracket form the Lee algebra
+ 
+
+867
+00:19:56,919 --> 00:19:59,710
+Lee bracket form the Lee algebra
+SO3 again Lee algebras are
+
+868
+00:19:59,710 --> 00:19:59,720
+SO3 again Lee algebras are
+ 
+
+869
+00:19:59,720 --> 00:20:01,870
+SO3 again Lee algebras are
+conventionally written using lowercase
+
+870
+00:20:01,870 --> 00:20:01,880
+conventionally written using lowercase
+ 
+
+871
+00:20:01,880 --> 00:20:05,350
+conventionally written using lowercase
+letters with a fractor
+
+872
+00:20:05,350 --> 00:20:05,360
+letters with a fractor
+ 
+
+873
+00:20:05,360 --> 00:20:08,430
+letters with a fractor
+font in some more abstract books you
+
+874
+00:20:08,430 --> 00:20:08,440
+font in some more abstract books you
+ 
+
+875
+00:20:08,440 --> 00:20:10,669
+font in some more abstract books you
+might see the Lee bracket defined like
+
+876
+00:20:10,669 --> 00:20:10,679
+might see the Lee bracket defined like
+ 
+
+877
+00:20:10,679 --> 00:20:13,590
+might see the Lee bracket defined like
+this using the alternating and jacobe
+
+878
+00:20:13,590 --> 00:20:13,600
+this using the alternating and jacobe
+ 
+
+879
+00:20:13,600 --> 00:20:16,549
+this using the alternating and jacobe
+properties instead but the Matrix
+
+880
+00:20:16,549 --> 00:20:16,559
+properties instead but the Matrix
+ 
+
+881
+00:20:16,559 --> 00:20:18,909
+properties instead but the Matrix
+commutator satisfies both of these
+
+882
+00:20:18,909 --> 00:20:18,919
+commutator satisfies both of these
+ 
+
+883
+00:20:18,919 --> 00:20:21,870
+commutator satisfies both of these
+properties so the Matrix commutator is a
+
+884
+00:20:21,870 --> 00:20:21,880
+properties so the Matrix commutator is a
+ 
+
+885
+00:20:21,880 --> 00:20:24,230
+properties so the Matrix commutator is a
+valid Lee
+
+886
+00:20:24,230 --> 00:20:24,240
+valid Lee
+ 
+
+887
+00:20:24,240 --> 00:20:27,830
+valid Lee
+bracket to discuss these SO3 commutation
+
+888
+00:20:27,830 --> 00:20:27,840
+bracket to discuss these SO3 commutation
+ 
+
+889
+00:20:27,840 --> 00:20:31,510
+bracket to discuss these SO3 commutation
+Rel further I'm going to rewrite our SO3
+
+890
+00:20:31,510 --> 00:20:31,520
+Rel further I'm going to rewrite our SO3
+ 
+
+891
+00:20:31,520 --> 00:20:35,870
+Rel further I'm going to rewrite our SO3
+generators as G1 G2 and
+
+892
+00:20:35,870 --> 00:20:35,880
+generators as G1 G2 and
+ 
+
+893
+00:20:35,880 --> 00:20:39,750
+generators as G1 G2 and
+G3 now in a General Lee algebra when we
+
+894
+00:20:39,750 --> 00:20:39,760
+G3 now in a General Lee algebra when we
+ 
+
+895
+00:20:39,760 --> 00:20:42,710
+G3 now in a General Lee algebra when we
+have a set of basis generators the Lee
+
+896
+00:20:42,710 --> 00:20:42,720
+have a set of basis generators the Lee
+ 
+
+897
+00:20:42,720 --> 00:20:45,669
+have a set of basis generators the Lee
+bracket of two basis generators doesn't
+
+898
+00:20:45,669 --> 00:20:45,679
+bracket of two basis generators doesn't
+ 
+
+899
+00:20:45,679 --> 00:20:48,830
+bracket of two basis generators doesn't
+always give us back another basis
+
+900
+00:20:48,830 --> 00:20:48,840
+always give us back another basis
+ 
+
+901
+00:20:48,840 --> 00:20:51,549
+always give us back another basis
+generator however the Le bracket result
+
+902
+00:20:51,549 --> 00:20:51,559
+generator however the Le bracket result
+ 
+
+903
+00:20:51,559 --> 00:20:54,510
+generator however the Le bracket result
+will always give us a linear combination
+
+904
+00:20:54,510 --> 00:20:54,520
+will always give us a linear combination
+ 
+
+905
+00:20:54,520 --> 00:20:56,230
+will always give us a linear combination
+of basis
+
+906
+00:20:56,230 --> 00:20:56,240
+of basis
+ 
+
+907
+00:20:56,240 --> 00:20:58,549
+of basis
+generators the coefficients in this
+
+908
+00:20:58,549 --> 00:20:58,559
+generators the coefficients in this
+ 
+
+909
+00:20:58,559 --> 00:21:01,110
+generators the coefficients in this
+linear combination denoted f with
+
+910
+00:21:01,110 --> 00:21:01,120
+linear combination denoted f with
+ 
+
+911
+00:21:01,120 --> 00:21:04,830
+linear combination denoted f with
+indices i j k are called the structure
+
+912
+00:21:04,830 --> 00:21:04,840
+indices i j k are called the structure
+ 
+
+913
+00:21:04,840 --> 00:21:08,029
+indices i j k are called the structure
+coefficients for this lee
+
+914
+00:21:08,029 --> 00:21:08,039
+coefficients for this lee
+ 
+
+915
+00:21:08,039 --> 00:21:10,630
+coefficients for this lee
+algebra if we look specifically at the
+
+916
+00:21:10,630 --> 00:21:10,640
+algebra if we look specifically at the
+ 
+
+917
+00:21:10,640 --> 00:21:14,190
+algebra if we look specifically at the
+Lee algebra SO3 we can get the structure
+
+918
+00:21:14,190 --> 00:21:14,200
+Lee algebra SO3 we can get the structure
+ 
+
+919
+00:21:14,200 --> 00:21:17,029
+Lee algebra SO3 we can get the structure
+coefficients by looking at the first
+
+920
+00:21:17,029 --> 00:21:17,039
+coefficients by looking at the first
+ 
+
+921
+00:21:17,039 --> 00:21:19,630
+coefficients by looking at the first
+second and third Lee
+
+922
+00:21:19,630 --> 00:21:19,640
+second and third Lee
+ 
+
+923
+00:21:19,640 --> 00:21:21,710
+second and third Lee
+brackets and then noting that the
+
+924
+00:21:21,710 --> 00:21:21,720
+brackets and then noting that the
+ 
+
+925
+00:21:21,720 --> 00:21:23,630
+brackets and then noting that the
+commutator is
+
+926
+00:21:23,630 --> 00:21:23,640
+commutator is
+ 
+
+927
+00:21:23,640 --> 00:21:26,110
+commutator is
+anti-symmetric so we get a sign change
+
+928
+00:21:26,110 --> 00:21:26,120
+anti-symmetric so we get a sign change
+ 
+
+929
+00:21:26,120 --> 00:21:28,390
+anti-symmetric so we get a sign change
+when we swap the lower two indices of
+
+930
+00:21:28,390 --> 00:21:28,400
+when we swap the lower two indices of
+ 
+
+931
+00:21:28,400 --> 00:21:29,310
+when we swap the lower two indices of
+the
+
+932
+00:21:29,310 --> 00:21:29,320
+the
+ 
+
+933
+00:21:29,320 --> 00:21:32,630
+the
+coefficients all other coefficients are
+
+934
+00:21:32,630 --> 00:21:32,640
+coefficients all other coefficients are
+ 
+
+935
+00:21:32,640 --> 00:21:35,590
+coefficients all other coefficients are
+zero this is sometimes summarized using
+
+936
+00:21:35,590 --> 00:21:35,600
+zero this is sometimes summarized using
+ 
+
+937
+00:21:35,600 --> 00:21:38,789
+zero this is sometimes summarized using
+the antisymmetric symbol Epsilon also
+
+938
+00:21:38,789 --> 00:21:38,799
+the antisymmetric symbol Epsilon also
+ 
+
+939
+00:21:38,799 --> 00:21:41,710
+the antisymmetric symbol Epsilon also
+called the Levi chiita
+
+940
+00:21:41,710 --> 00:21:41,720
+called the Levi chiita
+ 
+
+941
+00:21:41,720 --> 00:21:44,149
+called the Levi chiita
+symbol now how do we know these
+
+942
+00:21:44,149 --> 00:21:44,159
+symbol now how do we know these
+ 
+
+943
+00:21:44,159 --> 00:21:46,710
+symbol now how do we know these
+commutators will always give us a linear
+
+944
+00:21:46,710 --> 00:21:46,720
+commutators will always give us a linear
+ 
+
+945
+00:21:46,720 --> 00:21:48,750
+commutators will always give us a linear
+combination of
+
+946
+00:21:48,750 --> 00:21:48,760
+combination of
+ 
+
+947
+00:21:48,760 --> 00:21:51,590
+combination of
+generators to prove this I need to talk
+
+948
+00:21:51,590 --> 00:21:51,600
+generators to prove this I need to talk
+ 
+
+949
+00:21:51,600 --> 00:21:54,390
+generators to prove this I need to talk
+about how a Lee algebra is like a
+
+950
+00:21:54,390 --> 00:21:54,400
+about how a Lee algebra is like a
+ 
+
+951
+00:21:54,400 --> 00:21:57,110
+about how a Lee algebra is like a
+tangent space at the identity element of
+
+952
+00:21:57,110 --> 00:21:57,120
+tangent space at the identity element of
+ 
+
+953
+00:21:57,120 --> 00:21:59,630
+tangent space at the identity element of
+its correspond lead
+
+954
+00:21:59,630 --> 00:21:59,640
+its correspond lead
+ 
+
+955
+00:21:59,640 --> 00:22:02,789
+its correspond lead
+group remember a lead group is a group
+
+956
+00:22:02,789 --> 00:22:02,799
+group remember a lead group is a group
+ 
+
+957
+00:22:02,799 --> 00:22:05,350
+group remember a lead group is a group
+that's continuous so it forms a
+
+958
+00:22:05,350 --> 00:22:05,360
+that's continuous so it forms a
+ 
+
+959
+00:22:05,360 --> 00:22:08,110
+that's continuous so it forms a
+continuous curved space which is also
+
+960
+00:22:08,110 --> 00:22:08,120
+continuous curved space which is also
+ 
+
+961
+00:22:08,120 --> 00:22:09,470
+continuous curved space which is also
+called a
+
+962
+00:22:09,470 --> 00:22:09,480
+called a
+ 
+
+963
+00:22:09,480 --> 00:22:12,230
+called a
+manifold each point in this space would
+
+964
+00:22:12,230 --> 00:22:12,240
+manifold each point in this space would
+ 
+
+965
+00:22:12,240 --> 00:22:15,549
+manifold each point in this space would
+be a different SO3 rotation
+
+966
+00:22:15,549 --> 00:22:15,559
+be a different SO3 rotation
+ 
+
+967
+00:22:15,559 --> 00:22:18,669
+be a different SO3 rotation
+Matrix let's imagine that this curve in
+
+968
+00:22:18,669 --> 00:22:18,679
+Matrix let's imagine that this curve in
+ 
+
+969
+00:22:18,679 --> 00:22:21,669
+Matrix let's imagine that this curve in
+our Le group space is a path containing
+
+970
+00:22:21,669 --> 00:22:21,679
+our Le group space is a path containing
+ 
+
+971
+00:22:21,679 --> 00:22:24,230
+our Le group space is a path containing
+all the rotation matrices in the XY
+
+972
+00:22:24,230 --> 00:22:24,240
+all the rotation matrices in the XY
+ 
+
+973
+00:22:24,240 --> 00:22:28,710
+all the rotation matrices in the XY
+plane that we get by increasing Theta
+
+974
+00:22:28,710 --> 00:22:28,720
+plane that we get by increasing Theta
+ 
+
+975
+00:22:28,720 --> 00:22:30,870
+plane that we get by increasing Theta
+the point on this path where theta
+
+976
+00:22:30,870 --> 00:22:30,880
+the point on this path where theta
+ 
+
+977
+00:22:30,880 --> 00:22:33,950
+the point on this path where theta
+equals 0 would be the identity Matrix
+
+978
+00:22:33,950 --> 00:22:33,960
+equals 0 would be the identity Matrix
+ 
+
+979
+00:22:33,960 --> 00:22:37,549
+equals 0 would be the identity Matrix
+since a rotation by 0 de is the
+
+980
+00:22:37,549 --> 00:22:37,559
+since a rotation by 0 de is the
+ 
+
+981
+00:22:37,559 --> 00:22:39,909
+since a rotation by 0 de is the
+identity when we take the derivative
+
+982
+00:22:39,909 --> 00:22:39,919
+identity when we take the derivative
+ 
+
+983
+00:22:39,919 --> 00:22:42,149
+identity when we take the derivative
+with respect to Theta it's like we're
+
+984
+00:22:42,149 --> 00:22:42,159
+with respect to Theta it's like we're
+ 
+
+985
+00:22:42,159 --> 00:22:44,430
+with respect to Theta it's like we're
+looking at the tangent vectors along
+
+986
+00:22:44,430 --> 00:22:44,440
+looking at the tangent vectors along
+ 
+
+987
+00:22:44,440 --> 00:22:48,269
+looking at the tangent vectors along
+this curve and when we set Theta to zero
+
+988
+00:22:48,269 --> 00:22:48,279
+this curve and when we set Theta to zero
+ 
+
+989
+00:22:48,279 --> 00:22:50,110
+this curve and when we set Theta to zero
+this means we're looking at the tangent
+
+990
+00:22:50,110 --> 00:22:50,120
+this means we're looking at the tangent
+ 
+
+991
+00:22:50,120 --> 00:22:52,710
+this means we're looking at the tangent
+Vector specifically located at the
+
+992
+00:22:52,710 --> 00:22:52,720
+Vector specifically located at the
+ 
+
+993
+00:22:52,720 --> 00:22:54,070
+Vector specifically located at the
+identity
+
+994
+00:22:54,070 --> 00:22:54,080
+identity
+ 
+
+995
+00:22:54,080 --> 00:22:56,789
+identity
+element so the derivative at theta
+
+996
+00:22:56,789 --> 00:22:56,799
+element so the derivative at theta
+ 
+
+997
+00:22:56,799 --> 00:22:59,750
+element so the derivative at theta
+equals 0 is a tangent Vector located at
+
+998
+00:22:59,750 --> 00:22:59,760
+equals 0 is a tangent Vector located at
+ 
+
+999
+00:22:59,760 --> 00:23:02,149
+equals 0 is a tangent Vector located at
+the identity
+
+1000
+00:23:02,149 --> 00:23:02,159
+the identity
+ 
+
+1001
+00:23:02,159 --> 00:23:04,870
+the identity
+Matrix so we can think of our generator
+
+1002
+00:23:04,870 --> 00:23:04,880
+Matrix so we can think of our generator
+ 
+
+1003
+00:23:04,880 --> 00:23:07,870
+Matrix so we can think of our generator
+Matrix as being a tangent Vector at the
+
+1004
+00:23:07,870 --> 00:23:07,880
+Matrix as being a tangent Vector at the
+ 
+
+1005
+00:23:07,880 --> 00:23:12,149
+Matrix as being a tangent Vector at the
+origin or identity of our Le group the
+
+1006
+00:23:12,149 --> 00:23:12,159
+origin or identity of our Le group the
+ 
+
+1007
+00:23:12,159 --> 00:23:14,590
+origin or identity of our Le group the
+set of all generators is like a flat
+
+1008
+00:23:14,590 --> 00:23:14,600
+set of all generators is like a flat
+ 
+
+1009
+00:23:14,600 --> 00:23:17,029
+set of all generators is like a flat
+space that's tangent to the Le group at
+
+1010
+00:23:17,029 --> 00:23:17,039
+space that's tangent to the Le group at
+ 
+
+1011
+00:23:17,039 --> 00:23:20,230
+space that's tangent to the Le group at
+the identity keep in mind s SO3 is
+
+1012
+00:23:20,230 --> 00:23:20,240
+the identity keep in mind s SO3 is
+ 
+
+1013
+00:23:20,240 --> 00:23:22,549
+the identity keep in mind s SO3 is
+actually a three-dimensional space with
+
+1014
+00:23:22,549 --> 00:23:22,559
+actually a three-dimensional space with
+ 
+
+1015
+00:23:22,559 --> 00:23:25,470
+actually a three-dimensional space with
+three basis elements but I'm drawing it
+
+1016
+00:23:25,470 --> 00:23:25,480
+three basis elements but I'm drawing it
+ 
+
+1017
+00:23:25,480 --> 00:23:28,190
+three basis elements but I'm drawing it
+as a 2d tangent plane just because
+
+1018
+00:23:28,190 --> 00:23:28,200
+as a 2d tangent plane just because
+ 
+
+1019
+00:23:28,200 --> 00:23:31,029
+as a 2d tangent plane just because
+that's easier to
+
+1020
+00:23:31,029 --> 00:23:31,039
+
+ 
+
+1021
+00:23:31,039 --> 00:23:33,950
+
+visualize now I'm going to use this idea
+
+1022
+00:23:33,950 --> 00:23:33,960
+visualize now I'm going to use this idea
+ 
+
+1023
+00:23:33,960 --> 00:23:37,070
+visualize now I'm going to use this idea
+of paths in the curved Lee group space
+
+1024
+00:23:37,070 --> 00:23:37,080
+of paths in the curved Lee group space
+ 
+
+1025
+00:23:37,080 --> 00:23:39,350
+of paths in the curved Lee group space
+to prove some properties about General
+
+1026
+00:23:39,350 --> 00:23:39,360
+to prove some properties about General
+ 
+
+1027
+00:23:39,360 --> 00:23:40,350
+to prove some properties about General
+Lee
+
+1028
+00:23:40,350 --> 00:23:40,360
+Lee
+ 
+
+1029
+00:23:40,360 --> 00:23:43,230
+Lee
+algebras so instead of dealing with Lee
+
+1030
+00:23:43,230 --> 00:23:43,240
+algebras so instead of dealing with Lee
+ 
+
+1031
+00:23:43,240 --> 00:23:46,870
+algebras so instead of dealing with Lee
+group members that are rotations in SO3
+
+1032
+00:23:46,870 --> 00:23:46,880
+group members that are rotations in SO3
+ 
+
+1033
+00:23:46,880 --> 00:23:49,669
+group members that are rotations in SO3
+parameterized by angles I'm going to
+
+1034
+00:23:49,669 --> 00:23:49,679
+parameterized by angles I'm going to
+ 
+
+1035
+00:23:49,679 --> 00:23:52,350
+parameterized by angles I'm going to
+deal with General members of a general
+
+1036
+00:23:52,350 --> 00:23:52,360
+deal with General members of a general
+ 
+
+1037
+00:23:52,360 --> 00:23:56,029
+deal with General members of a general
+Le Group Big G whose generators live in
+
+1038
+00:23:56,029 --> 00:23:56,039
+Le Group Big G whose generators live in
+ 
+
+1039
+00:23:56,039 --> 00:23:58,510
+Le Group Big G whose generators live in
+the Lee algebra small
+
+1040
+00:23:58,510 --> 00:23:58,520
+the Lee algebra small
+ 
+
+1041
+00:23:58,520 --> 00:24:01,350
+the Lee algebra small
+G I've taken these proofs from the
+
+1042
+00:24:01,350 --> 00:24:01,360
+G I've taken these proofs from the
+ 
+
+1043
+00:24:01,360 --> 00:24:05,390
+G I've taken these proofs from the
+textbook naive Lee Theory by John
+
+1044
+00:24:05,390 --> 00:24:05,400
+textbook naive Lee Theory by John
+ 
+
+1045
+00:24:05,400 --> 00:24:08,190
+textbook naive Lee Theory by John
+Stillwell first let's prove the sum of
+
+1046
+00:24:08,190 --> 00:24:08,200
+Stillwell first let's prove the sum of
+ 
+
+1047
+00:24:08,200 --> 00:24:10,789
+Stillwell first let's prove the sum of
+two tangent vectors in a General Lee
+
+1048
+00:24:10,789 --> 00:24:10,799
+two tangent vectors in a General Lee
+ 
+
+1049
+00:24:10,799 --> 00:24:13,990
+two tangent vectors in a General Lee
+algebra will give another tangent
+
+1050
+00:24:13,990 --> 00:24:14,000
+algebra will give another tangent
+ 
+
+1051
+00:24:14,000 --> 00:24:17,390
+algebra will give another tangent
+Vector let's take group members a of S
+
+1052
+00:24:17,390 --> 00:24:17,400
+Vector let's take group members a of S
+ 
+
+1053
+00:24:17,400 --> 00:24:21,350
+Vector let's take group members a of S
+and B ofs in the leag group Big G these
+
+1054
+00:24:21,350 --> 00:24:21,360
+and B ofs in the leag group Big G these
+ 
+
+1055
+00:24:21,360 --> 00:24:23,909
+and B ofs in the leag group Big G these
+describe two paths in the lead Group
+
+1056
+00:24:23,909 --> 00:24:23,919
+describe two paths in the lead Group
+ 
+
+1057
+00:24:23,919 --> 00:24:28,350
+describe two paths in the lead Group
+parameterized by S when s equals 0
+
+1058
+00:24:28,350 --> 00:24:28,360
+parameterized by S when s equals 0
+ 
+
+1059
+00:24:28,360 --> 00:24:30,710
+parameterized by S when s equals 0
+both of these give the identity
+
+1060
+00:24:30,710 --> 00:24:30,720
+both of these give the identity
+ 
+
+1061
+00:24:30,720 --> 00:24:33,029
+both of these give the identity
+transformation and their derivatives at
+
+1062
+00:24:33,029 --> 00:24:33,039
+transformation and their derivatives at
+ 
+
+1063
+00:24:33,039 --> 00:24:36,269
+transformation and their derivatives at
+s equal 0 give their generators which
+
+1064
+00:24:36,269 --> 00:24:36,279
+s equal 0 give their generators which
+ 
+
+1065
+00:24:36,279 --> 00:24:39,549
+s equal 0 give their generators which
+I'll write as small a and small
+
+1066
+00:24:39,549 --> 00:24:39,559
+I'll write as small a and small
+ 
+
+1067
+00:24:39,559 --> 00:24:42,789
+I'll write as small a and small
+B if we multiply the group members a of
+
+1068
+00:24:42,789 --> 00:24:42,799
+B if we multiply the group members a of
+ 
+
+1069
+00:24:42,799 --> 00:24:46,190
+B if we multiply the group members a of
+S and B of s we get a new group member C
+
+1070
+00:24:46,190 --> 00:24:46,200
+S and B of s we get a new group member C
+ 
+
+1071
+00:24:46,200 --> 00:24:49,669
+S and B of s we get a new group member C
+of s let's take the derivative of both
+
+1072
+00:24:49,669 --> 00:24:49,679
+of s let's take the derivative of both
+ 
+
+1073
+00:24:49,679 --> 00:24:53,190
+of s let's take the derivative of both
+sides and set s to zero on the right
+
+1074
+00:24:53,190 --> 00:24:53,200
+sides and set s to zero on the right
+ 
+
+1075
+00:24:53,200 --> 00:24:56,269
+sides and set s to zero on the right
+side we use the product rule when we set
+
+1076
+00:24:56,269 --> 00:24:56,279
+side we use the product rule when we set
+ 
+
+1077
+00:24:56,279 --> 00:24:59,789
+side we use the product rule when we set
+s to zero B of s and a of s just become
+
+1078
+00:24:59,789 --> 00:24:59,799
+s to zero B of s and a of s just become
+ 
+
+1079
+00:24:59,799 --> 00:25:02,830
+s to zero B of s and a of s just become
+the identity element and when we look at
+
+1080
+00:25:02,830 --> 00:25:02,840
+the identity element and when we look at
+ 
+
+1081
+00:25:02,840 --> 00:25:05,830
+the identity element and when we look at
+the derivatives at s equals 0 we get the
+
+1082
+00:25:05,830 --> 00:25:05,840
+the derivatives at s equals 0 we get the
+ 
+
+1083
+00:25:05,840 --> 00:25:09,909
+the derivatives at s equals 0 we get the
+generators a plus b so we see the sum of
+
+1084
+00:25:09,909 --> 00:25:09,919
+generators a plus b so we see the sum of
+ 
+
+1085
+00:25:09,919 --> 00:25:13,310
+generators a plus b so we see the sum of
+tangent vectors small a plus small B
+
+1086
+00:25:13,310 --> 00:25:13,320
+tangent vectors small a plus small B
+ 
+
+1087
+00:25:13,320 --> 00:25:16,110
+tangent vectors small a plus small B
+gives another tangent Vector which is
+
+1088
+00:25:16,110 --> 00:25:16,120
+gives another tangent Vector which is
+ 
+
+1089
+00:25:16,120 --> 00:25:18,870
+gives another tangent Vector which is
+the vector tangent to the curve C of s
+
+1090
+00:25:18,870 --> 00:25:18,880
+the vector tangent to the curve C of s
+ 
+
+1091
+00:25:18,880 --> 00:25:20,549
+the vector tangent to the curve C of s
+at the
+
+1092
+00:25:20,549 --> 00:25:20,559
+at the
+ 
+
+1093
+00:25:20,559 --> 00:25:23,430
+at the
+identity I'm going to make a small aside
+
+1094
+00:25:23,430 --> 00:25:23,440
+identity I'm going to make a small aside
+ 
+
+1095
+00:25:23,440 --> 00:25:25,630
+identity I'm going to make a small aside
+here to explain the difference between a
+
+1096
+00:25:25,630 --> 00:25:25,640
+here to explain the difference between a
+ 
+
+1097
+00:25:25,640 --> 00:25:28,630
+here to explain the difference between a
+generator and a tangent vector
+
+1098
+00:25:28,630 --> 00:25:28,640
+generator and a tangent vector
+ 
+
+1099
+00:25:28,640 --> 00:25:30,990
+generator and a tangent vector
+I've already explained that with Matrix
+
+1100
+00:25:30,990 --> 00:25:31,000
+I've already explained that with Matrix
+ 
+
+1101
+00:25:31,000 --> 00:25:33,630
+I've already explained that with Matrix
+exponentials the product of two Matrix
+
+1102
+00:25:33,630 --> 00:25:33,640
+exponentials the product of two Matrix
+ 
+
+1103
+00:25:33,640 --> 00:25:36,590
+exponentials the product of two Matrix
+exponentials is not always equal to the
+
+1104
+00:25:36,590 --> 00:25:36,600
+exponentials is not always equal to the
+ 
+
+1105
+00:25:36,600 --> 00:25:39,710
+exponentials is not always equal to the
+exponential of the sum however if we
+
+1106
+00:25:39,710 --> 00:25:39,720
+exponential of the sum however if we
+ 
+
+1107
+00:25:39,720 --> 00:25:42,510
+exponential of the sum however if we
+expand these two formulas out as tailor
+
+1108
+00:25:42,510 --> 00:25:42,520
+expand these two formulas out as tailor
+ 
+
+1109
+00:25:42,520 --> 00:25:45,149
+expand these two formulas out as tailor
+series it turns out that the first order
+
+1110
+00:25:45,149 --> 00:25:45,159
+series it turns out that the first order
+ 
+
+1111
+00:25:45,159 --> 00:25:48,669
+series it turns out that the first order
+terms in both series are equal even
+
+1112
+00:25:48,669 --> 00:25:48,679
+terms in both series are equal even
+ 
+
+1113
+00:25:48,679 --> 00:25:50,789
+terms in both series are equal even
+though the later terms in the series are
+
+1114
+00:25:50,789 --> 00:25:50,799
+though the later terms in the series are
+ 
+
+1115
+00:25:50,799 --> 00:25:53,830
+though the later terms in the series are
+not equal this means that both of these
+
+1116
+00:25:53,830 --> 00:25:53,840
+not equal this means that both of these
+ 
+
+1117
+00:25:53,840 --> 00:25:56,789
+not equal this means that both of these
+formulas have the same tangent Vector at
+
+1118
+00:25:56,789 --> 00:25:56,799
+formulas have the same tangent Vector at
+ 
+
+1119
+00:25:56,799 --> 00:25:58,470
+formulas have the same tangent Vector at
+the identity
+
+1120
+00:25:58,470 --> 00:25:58,480
+the identity
+ 
+
+1121
+00:25:58,480 --> 00:26:00,510
+the identity
+it's important to keep in mind that
+
+1122
+00:26:00,510 --> 00:26:00,520
+it's important to keep in mind that
+ 
+
+1123
+00:26:00,520 --> 00:26:02,870
+it's important to keep in mind that
+there are an infinite number of possible
+
+1124
+00:26:02,870 --> 00:26:02,880
+there are an infinite number of possible
+ 
+
+1125
+00:26:02,880 --> 00:26:05,470
+there are an infinite number of possible
+curves that go through the identity that
+
+1126
+00:26:05,470 --> 00:26:05,480
+curves that go through the identity that
+ 
+
+1127
+00:26:05,480 --> 00:26:08,389
+curves that go through the identity that
+have the same tangent Vector at the
+
+1128
+00:26:08,389 --> 00:26:08,399
+have the same tangent Vector at the
+ 
+
+1129
+00:26:08,399 --> 00:26:10,590
+have the same tangent Vector at the
+identity however when we're treating
+
+1130
+00:26:10,590 --> 00:26:10,600
+identity however when we're treating
+ 
+
+1131
+00:26:10,600 --> 00:26:13,350
+identity however when we're treating
+this tangent Vector as a generator and
+
+1132
+00:26:13,350 --> 00:26:13,360
+this tangent Vector as a generator and
+ 
+
+1133
+00:26:13,360 --> 00:26:16,350
+this tangent Vector as a generator and
+exponentiating it it only generates one
+
+1134
+00:26:16,350 --> 00:26:16,360
+exponentiating it it only generates one
+ 
+
+1135
+00:26:16,360 --> 00:26:19,350
+exponentiating it it only generates one
+unique curve in the lead Group which is
+
+1136
+00:26:19,350 --> 00:26:19,360
+unique curve in the lead Group which is
+ 
+
+1137
+00:26:19,360 --> 00:26:21,269
+unique curve in the lead Group which is
+the unique curve we get when we
+
+1138
+00:26:21,269 --> 00:26:21,279
+the unique curve we get when we
+ 
+
+1139
+00:26:21,279 --> 00:26:23,510
+the unique curve we get when we
+exponentiate the tangent Vector
+
+1140
+00:26:23,510 --> 00:26:23,520
+exponentiate the tangent Vector
+ 
+
+1141
+00:26:23,520 --> 00:26:26,590
+exponentiate the tangent Vector
+multiplied by a curve
+
+1142
+00:26:26,590 --> 00:26:26,600
+multiplied by a curve
+ 
+
+1143
+00:26:26,600 --> 00:26:29,510
+multiplied by a curve
+parameter now let's prove the scalar
+
+1144
+00:26:29,510 --> 00:26:29,520
+parameter now let's prove the scalar
+ 
+
+1145
+00:26:29,520 --> 00:26:31,830
+parameter now let's prove the scalar
+multiple of a tangent Vector gives
+
+1146
+00:26:31,830 --> 00:26:31,840
+multiple of a tangent Vector gives
+ 
+
+1147
+00:26:31,840 --> 00:26:33,470
+multiple of a tangent Vector gives
+another tangent
+
+1148
+00:26:33,470 --> 00:26:33,480
+another tangent
+ 
+
+1149
+00:26:33,480 --> 00:26:36,750
+another tangent
+Vector let's take the path a of s in the
+
+1150
+00:26:36,750 --> 00:26:36,760
+Vector let's take the path a of s in the
+ 
+
+1151
+00:26:36,760 --> 00:26:39,430
+Vector let's take the path a of s in the
+group and multiply the parameter s by
+
+1152
+00:26:39,430 --> 00:26:39,440
+group and multiply the parameter s by
+ 
+
+1153
+00:26:39,440 --> 00:26:44,389
+group and multiply the parameter s by
+some constant R to give us a of R * s
+
+1154
+00:26:44,389 --> 00:26:44,399
+some constant R to give us a of R * s
+ 
+
+1155
+00:26:44,399 --> 00:26:46,669
+some constant R to give us a of R * s
+now let's take the derivative and set s
+
+1156
+00:26:46,669 --> 00:26:46,679
+now let's take the derivative and set s
+ 
+
+1157
+00:26:46,679 --> 00:26:50,269
+now let's take the derivative and set s
+to zero using chain rule we get a factor
+
+1158
+00:26:50,269 --> 00:26:50,279
+to zero using chain rule we get a factor
+ 
+
+1159
+00:26:50,279 --> 00:26:53,510
+to zero using chain rule we get a factor
+of R out in front and the derivative at
+
+1160
+00:26:53,510 --> 00:26:53,520
+of R out in front and the derivative at
+ 
+
+1161
+00:26:53,520 --> 00:26:57,830
+of R out in front and the derivative at
+s equals 0 becomes the generator small a
+
+1162
+00:26:57,830 --> 00:26:57,840
+s equals 0 becomes the generator small a
+ 
+
+1163
+00:26:57,840 --> 00:27:00,070
+s equals 0 becomes the generator small a
+so we see that the scalar multiple of
+
+1164
+00:27:00,070 --> 00:27:00,080
+so we see that the scalar multiple of
+ 
+
+1165
+00:27:00,080 --> 00:27:02,830
+so we see that the scalar multiple of
+tangent Vector small a gives another
+
+1166
+00:27:02,830 --> 00:27:02,840
+tangent Vector small a gives another
+ 
+
+1167
+00:27:02,840 --> 00:27:05,190
+tangent Vector small a gives another
+tangent Vector which is tangent to the
+
+1168
+00:27:05,190 --> 00:27:05,200
+tangent Vector which is tangent to the
+ 
+
+1169
+00:27:05,200 --> 00:27:07,470
+tangent Vector which is tangent to the
+curve a of R *
+
+1170
+00:27:07,470 --> 00:27:07,480
+curve a of R *
+ 
+
+1171
+00:27:07,480 --> 00:27:10,549
+curve a of R *
+s so we've shown that we can add tangent
+
+1172
+00:27:10,549 --> 00:27:10,559
+s so we've shown that we can add tangent
+ 
+
+1173
+00:27:10,559 --> 00:27:13,110
+s so we've shown that we can add tangent
+vectors together and scale them to get
+
+1174
+00:27:13,110 --> 00:27:13,120
+vectors together and scale them to get
+ 
+
+1175
+00:27:13,120 --> 00:27:16,269
+vectors together and scale them to get
+more tangent vectors this is the basic
+
+1176
+00:27:16,269 --> 00:27:16,279
+more tangent vectors this is the basic
+ 
+
+1177
+00:27:16,279 --> 00:27:19,710
+more tangent vectors this is the basic
+definition of a vector space but to
+
+1178
+00:27:19,710 --> 00:27:19,720
+definition of a vector space but to
+ 
+
+1179
+00:27:19,720 --> 00:27:21,789
+definition of a vector space but to
+prove that the set of tangent vectors
+
+1180
+00:27:21,789 --> 00:27:21,799
+prove that the set of tangent vectors
+ 
+
+1181
+00:27:21,799 --> 00:27:24,990
+prove that the set of tangent vectors
+forms a Lee algebra we need to prove the
+
+1182
+00:27:24,990 --> 00:27:25,000
+forms a Lee algebra we need to prove the
+ 
+
+1183
+00:27:25,000 --> 00:27:27,870
+forms a Lee algebra we need to prove the
+commutator of tangent vectors gives
+
+1184
+00:27:27,870 --> 00:27:27,880
+commutator of tangent vectors gives
+ 
+
+1185
+00:27:27,880 --> 00:27:29,029
+commutator of tangent vectors gives
+tangent
+
+1186
+00:27:29,029 --> 00:27:29,039
+tangent
+ 
+
+1187
+00:27:29,039 --> 00:27:31,909
+tangent
+Vector to prove this we'll look at a
+
+1188
+00:27:31,909 --> 00:27:31,919
+Vector to prove this we'll look at a
+ 
+
+1189
+00:27:31,919 --> 00:27:35,750
+Vector to prove this we'll look at a
+path in the group Big G with three legs
+
+1190
+00:27:35,750 --> 00:27:35,760
+path in the group Big G with three legs
+ 
+
+1191
+00:27:35,760 --> 00:27:40,190
+path in the group Big G with three legs
+a of s then B of T then a inverse of s
+
+1192
+00:27:40,190 --> 00:27:40,200
+a of s then B of T then a inverse of s
+ 
+
+1193
+00:27:40,200 --> 00:27:42,870
+a of s then B of T then a inverse of s
+which takes us along the path a of s but
+
+1194
+00:27:42,870 --> 00:27:42,880
+which takes us along the path a of s but
+ 
+
+1195
+00:27:42,880 --> 00:27:45,909
+which takes us along the path a of s but
+in the opposite direction we'll call
+
+1196
+00:27:45,909 --> 00:27:45,919
+in the opposite direction we'll call
+ 
+
+1197
+00:27:45,919 --> 00:27:50,430
+in the opposite direction we'll call
+this path D of s and t and it has two
+
+1198
+00:27:50,430 --> 00:27:50,440
+this path D of s and t and it has two
+ 
+
+1199
+00:27:50,440 --> 00:27:53,990
+this path D of s and t and it has two
+parameters this ABA inverse formula is
+
+1200
+00:27:53,990 --> 00:27:54,000
+parameters this ABA inverse formula is
+ 
+
+1201
+00:27:54,000 --> 00:27:55,549
+parameters this ABA inverse formula is
+called a
+
+1202
+00:27:55,549 --> 00:27:55,559
+called a
+ 
+
+1203
+00:27:55,559 --> 00:27:58,710
+called a
+conjugation if we take a con Conant s
+
+1204
+00:27:58,710 --> 00:27:58,720
+conjugation if we take a con Conant s
+ 
+
+1205
+00:27:58,720 --> 00:28:00,710
+conjugation if we take a con Conant s
+and take the derivative with respect to
+
+1206
+00:28:00,710 --> 00:28:00,720
+and take the derivative with respect to
+ 
+
+1207
+00:28:00,720 --> 00:28:04,149
+and take the derivative with respect to
+T the derivative only affects B of T
+
+1208
+00:28:04,149 --> 00:28:04,159
+T the derivative only affects B of T
+ 
+
+1209
+00:28:04,159 --> 00:28:07,509
+T the derivative only affects B of T
+since a of s doesn't depend on T then if
+
+1210
+00:28:07,509 --> 00:28:07,519
+since a of s doesn't depend on T then if
+ 
+
+1211
+00:28:07,519 --> 00:28:10,909
+since a of s doesn't depend on T then if
+we set T equals z we get the Lee algebra
+
+1212
+00:28:10,909 --> 00:28:10,919
+we set T equals z we get the Lee algebra
+ 
+
+1213
+00:28:10,919 --> 00:28:12,710
+we set T equals z we get the Lee algebra
+generator small
+
+1214
+00:28:12,710 --> 00:28:12,720
+generator small
+ 
+
+1215
+00:28:12,720 --> 00:28:15,430
+generator small
+B now let's take the derivative with
+
+1216
+00:28:15,430 --> 00:28:15,440
+B now let's take the derivative with
+ 
+
+1217
+00:28:15,440 --> 00:28:18,630
+B now let's take the derivative with
+respect to S which gives us a product
+
+1218
+00:28:18,630 --> 00:28:18,640
+respect to S which gives us a product
+ 
+
+1219
+00:28:18,640 --> 00:28:21,950
+respect to S which gives us a product
+rule on the right hand side if we set s
+
+1220
+00:28:21,950 --> 00:28:21,960
+rule on the right hand side if we set s
+ 
+
+1221
+00:28:21,960 --> 00:28:25,149
+rule on the right hand side if we set s
+equal to zero both a of s and a inverse
+
+1222
+00:28:25,149 --> 00:28:25,159
+equal to zero both a of s and a inverse
+ 
+
+1223
+00:28:25,159 --> 00:28:28,830
+equal to zero both a of s and a inverse
+of s go to the identity element
+
+1224
+00:28:28,830 --> 00:28:28,840
+of s go to the identity element
+ 
+
+1225
+00:28:28,840 --> 00:28:31,230
+of s go to the identity element
+the derivative of a at zero becomes the
+
+1226
+00:28:31,230 --> 00:28:31,240
+the derivative of a at zero becomes the
+ 
+
+1227
+00:28:31,240 --> 00:28:34,190
+the derivative of a at zero becomes the
+generator small a and the derivative of
+
+1228
+00:28:34,190 --> 00:28:34,200
+generator small a and the derivative of
+ 
+
+1229
+00:28:34,200 --> 00:28:37,630
+generator small a and the derivative of
+a inverse at 0 is just the generator
+
+1230
+00:28:37,630 --> 00:28:37,640
+a inverse at 0 is just the generator
+ 
+
+1231
+00:28:37,640 --> 00:28:40,190
+a inverse at 0 is just the generator
+that points in the opposite direction
+
+1232
+00:28:40,190 --> 00:28:40,200
+that points in the opposite direction
+ 
+
+1233
+00:28:40,200 --> 00:28:44,830
+that points in the opposite direction
+which is small a so we get small a small
+
+1234
+00:28:44,830 --> 00:28:44,840
+which is small a so we get small a small
+ 
+
+1235
+00:28:44,840 --> 00:28:48,430
+which is small a so we get small a small
+B minus small B small a which is the
+
+1236
+00:28:48,430 --> 00:28:48,440
+B minus small B small a which is the
+ 
+
+1237
+00:28:48,440 --> 00:28:51,509
+B minus small B small a which is the
+commutator of small a and small
+
+1238
+00:28:51,509 --> 00:28:51,519
+commutator of small a and small
+ 
+
+1239
+00:28:51,519 --> 00:28:54,990
+commutator of small a and small
+B now what exactly is this object on the
+
+1240
+00:28:54,990 --> 00:28:55,000
+B now what exactly is this object on the
+ 
+
+1241
+00:28:55,000 --> 00:28:57,430
+B now what exactly is this object on the
+left hand side where we've taken the
+
+1242
+00:28:57,430 --> 00:28:57,440
+left hand side where we've taken the
+ 
+
+1243
+00:28:57,440 --> 00:29:00,669
+left hand side where we've taken the
+derivative with respect to two different
+
+1244
+00:29:00,669 --> 00:29:00,679
+derivative with respect to two different
+ 
+
+1245
+00:29:00,679 --> 00:29:04,630
+derivative with respect to two different
+parameters for constant s d of s and t
+
+1246
+00:29:04,630 --> 00:29:04,640
+parameters for constant s d of s and t
+ 
+
+1247
+00:29:04,640 --> 00:29:07,269
+parameters for constant s d of s and t
+is just a path in the Le group that
+
+1248
+00:29:07,269 --> 00:29:07,279
+is just a path in the Le group that
+ 
+
+1249
+00:29:07,279 --> 00:29:10,149
+is just a path in the Le group that
+depends on T and when we take the
+
+1250
+00:29:10,149 --> 00:29:10,159
+depends on T and when we take the
+ 
+
+1251
+00:29:10,159 --> 00:29:13,070
+depends on T and when we take the
+derivative with respect to T and set T
+
+1252
+00:29:13,070 --> 00:29:13,080
+derivative with respect to T and set T
+ 
+
+1253
+00:29:13,080 --> 00:29:16,230
+derivative with respect to T and set T
+to 0 this becomes a tangent Vector in
+
+1254
+00:29:16,230 --> 00:29:16,240
+to 0 this becomes a tangent Vector in
+ 
+
+1255
+00:29:16,240 --> 00:29:19,830
+to 0 this becomes a tangent Vector in
+the tangent space located at tals
+
+1256
+00:29:19,830 --> 00:29:19,840
+the tangent space located at tals
+ 
+
+1257
+00:29:19,840 --> 00:29:23,990
+the tangent space located at tals
+0 allowing s to vary every value of s
+
+1258
+00:29:23,990 --> 00:29:24,000
+0 allowing s to vary every value of s
+ 
+
+1259
+00:29:24,000 --> 00:29:26,149
+0 allowing s to vary every value of s
+gives us a different tangent Vector in
+
+1260
+00:29:26,149 --> 00:29:26,159
+gives us a different tangent Vector in
+ 
+
+1261
+00:29:26,159 --> 00:29:27,870
+gives us a different tangent Vector in
+the tangent space
+
+1262
+00:29:27,870 --> 00:29:27,880
+the tangent space
+ 
+
+1263
+00:29:27,880 --> 00:29:30,470
+the tangent space
+so we get a continuous path of tangent
+
+1264
+00:29:30,470 --> 00:29:30,480
+so we get a continuous path of tangent
+ 
+
+1265
+00:29:30,480 --> 00:29:32,710
+so we get a continuous path of tangent
+vectors parameterized by
+
+1266
+00:29:32,710 --> 00:29:32,720
+vectors parameterized by
+ 
+
+1267
+00:29:32,720 --> 00:29:35,470
+vectors parameterized by
+S if we then take the derivative with
+
+1268
+00:29:35,470 --> 00:29:35,480
+S if we then take the derivative with
+ 
+
+1269
+00:29:35,480 --> 00:29:38,269
+S if we then take the derivative with
+respect to S we get tangent vectors
+
+1270
+00:29:38,269 --> 00:29:38,279
+respect to S we get tangent vectors
+ 
+
+1271
+00:29:38,279 --> 00:29:41,590
+respect to S we get tangent vectors
+along this path and setting s to zero
+
+1272
+00:29:41,590 --> 00:29:41,600
+along this path and setting s to zero
+ 
+
+1273
+00:29:41,600 --> 00:29:43,909
+along this path and setting s to zero
+gives us the specific tangent Vector at
+
+1274
+00:29:43,909 --> 00:29:43,919
+gives us the specific tangent Vector at
+ 
+
+1275
+00:29:43,919 --> 00:29:44,990
+gives us the specific tangent Vector at
+the
+
+1276
+00:29:44,990 --> 00:29:45,000
+the
+ 
+
+1277
+00:29:45,000 --> 00:29:48,070
+the
+identity now since tangent vectors in a
+
+1278
+00:29:48,070 --> 00:29:48,080
+identity now since tangent vectors in a
+ 
+
+1279
+00:29:48,080 --> 00:29:50,950
+identity now since tangent vectors in a
+vector space Also belong to that same
+
+1280
+00:29:50,950 --> 00:29:50,960
+vector space Also belong to that same
+ 
+
+1281
+00:29:50,960 --> 00:29:53,990
+vector space Also belong to that same
+Vector space this tangent Vector at s
+
+1282
+00:29:53,990 --> 00:29:54,000
+Vector space this tangent Vector at s
+ 
+
+1283
+00:29:54,000 --> 00:29:56,830
+Vector space this tangent Vector at s
+equal 0 also belongs to the tangent
+
+1284
+00:29:56,830 --> 00:29:56,840
+equal 0 also belongs to the tangent
+ 
+
+1285
+00:29:56,840 --> 00:29:59,110
+equal 0 also belongs to the tangent
+space of of our original path in the Le
+
+1286
+00:29:59,110 --> 00:29:59,120
+space of of our original path in the Le
+ 
+
+1287
+00:29:59,120 --> 00:30:01,350
+space of of our original path in the Le
+group at T equals
+
+1288
+00:30:01,350 --> 00:30:01,360
+group at T equals
+ 
+
+1289
+00:30:01,360 --> 00:30:04,070
+group at T equals
+0 so all of that shows that the
+
+1290
+00:30:04,070 --> 00:30:04,080
+0 so all of that shows that the
+ 
+
+1291
+00:30:04,080 --> 00:30:06,950
+0 so all of that shows that the
+commutator of two tangent vectors gives
+
+1292
+00:30:06,950 --> 00:30:06,960
+commutator of two tangent vectors gives
+ 
+
+1293
+00:30:06,960 --> 00:30:09,710
+commutator of two tangent vectors gives
+another tangent Vector so the tangent
+
+1294
+00:30:09,710 --> 00:30:09,720
+another tangent Vector so the tangent
+ 
+
+1295
+00:30:09,720 --> 00:30:12,230
+another tangent Vector so the tangent
+space of a leag group at the identity
+
+1296
+00:30:12,230 --> 00:30:12,240
+space of a leag group at the identity
+ 
+
+1297
+00:30:12,240 --> 00:30:15,470
+space of a leag group at the identity
+does indeed form a Lee
+
+1298
+00:30:15,470 --> 00:30:15,480
+does indeed form a Lee
+ 
+
+1299
+00:30:15,480 --> 00:30:17,990
+does indeed form a Lee
+algebra so let's review what we've
+
+1300
+00:30:17,990 --> 00:30:18,000
+algebra so let's review what we've
+ 
+
+1301
+00:30:18,000 --> 00:30:20,789
+algebra so let's review what we've
+discovered so far about the Lee group
+
+1302
+00:30:20,789 --> 00:30:20,799
+discovered so far about the Lee group
+ 
+
+1303
+00:30:20,799 --> 00:30:23,310
+discovered so far about the Lee group
+SO3 we found that each of the three
+
+1304
+00:30:23,310 --> 00:30:23,320
+SO3 we found that each of the three
+ 
+
+1305
+00:30:23,320 --> 00:30:26,710
+SO3 we found that each of the three
+rotation matrices has a generator Matrix
+
+1306
+00:30:26,710 --> 00:30:26,720
+rotation matrices has a generator Matrix
+ 
+
+1307
+00:30:26,720 --> 00:30:28,750
+rotation matrices has a generator Matrix
+and we can exponentiate the generator
+
+1308
+00:30:28,750 --> 00:30:28,760
+and we can exponentiate the generator
+ 
+
+1309
+00:30:28,760 --> 00:30:31,590
+and we can exponentiate the generator
+times the angle to get the rotation
+
+1310
+00:30:31,590 --> 00:30:31,600
+times the angle to get the rotation
+ 
+
+1311
+00:30:31,600 --> 00:30:34,470
+times the angle to get the rotation
+Matrix the two-step process for getting
+
+1312
+00:30:34,470 --> 00:30:34,480
+Matrix the two-step process for getting
+ 
+
+1313
+00:30:34,480 --> 00:30:36,549
+Matrix the two-step process for getting
+these generators is to take the
+
+1314
+00:30:36,549 --> 00:30:36,559
+these generators is to take the
+ 
+
+1315
+00:30:36,559 --> 00:30:39,230
+these generators is to take the
+derivative of the rotation Matrix and
+
+1316
+00:30:39,230 --> 00:30:39,240
+derivative of the rotation Matrix and
+ 
+
+1317
+00:30:39,240 --> 00:30:41,149
+derivative of the rotation Matrix and
+then set the parameter to
+
+1318
+00:30:41,149 --> 00:30:41,159
+then set the parameter to
+ 
+
+1319
+00:30:41,159 --> 00:30:44,070
+then set the parameter to
+zero using the algebraic properties of
+
+1320
+00:30:44,070 --> 00:30:44,080
+zero using the algebraic properties of
+ 
+
+1321
+00:30:44,080 --> 00:30:46,710
+zero using the algebraic properties of
+matrices we found that the generators of
+
+1322
+00:30:46,710 --> 00:30:46,720
+matrices we found that the generators of
+ 
+
+1323
+00:30:46,720 --> 00:30:49,310
+matrices we found that the generators of
+the SO3 Le group are the set of
+
+1324
+00:30:49,310 --> 00:30:49,320
+the SO3 Le group are the set of
+ 
+
+1325
+00:30:49,320 --> 00:30:51,750
+the SO3 Le group are the set of
+traceless anti-symmetric
+
+1326
+00:30:51,750 --> 00:30:51,760
+traceless anti-symmetric
+ 
+
+1327
+00:30:51,760 --> 00:30:54,149
+traceless anti-symmetric
+matrices we also proved that the
+
+1328
+00:30:54,149 --> 00:30:54,159
+matrices we also proved that the
+ 
+
+1329
+00:30:54,159 --> 00:30:56,870
+matrices we also proved that the
+commutator of generators always gives a
+
+1330
+00:30:56,870 --> 00:30:56,880
+commutator of generators always gives a
+ 
+
+1331
+00:30:56,880 --> 00:30:58,629
+commutator of generators always gives a
+member in the tangent space of
+
+1332
+00:30:58,629 --> 00:30:58,639
+member in the tangent space of
+ 
+
+1333
+00:30:58,639 --> 00:31:01,549
+member in the tangent space of
+generators at the identity according to
+
+1334
+00:31:01,549 --> 00:31:01,559
+generators at the identity according to
+ 
+
+1335
+00:31:01,559 --> 00:31:03,629
+generators at the identity according to
+these rules
+
+1336
+00:31:03,629 --> 00:31:03,639
+these rules
+ 
+
+1337
+00:31:03,639 --> 00:31:06,789
+these rules
+here now let's repeat this process for
+
+1338
+00:31:06,789 --> 00:31:06,799
+here now let's repeat this process for
+ 
+
+1339
+00:31:06,799 --> 00:31:09,230
+here now let's repeat this process for
+the lorence groupo
+
+1340
+00:31:09,230 --> 00:31:09,240
+the lorence groupo
+ 
+
+1341
+00:31:09,240 --> 00:31:11,750
+the lorence groupo
++13 this is the set of SpaceTime
+
+1342
+00:31:11,750 --> 00:31:11,760
++13 this is the set of SpaceTime
+ 
+
+1343
+00:31:11,760 --> 00:31:14,029
++13 this is the set of SpaceTime
+Transformations that keep the space-time
+
+1344
+00:31:14,029 --> 00:31:14,039
+Transformations that keep the space-time
+ 
+
+1345
+00:31:14,039 --> 00:31:16,950
+Transformations that keep the space-time
+interval with one plus sign and three
+
+1346
+00:31:16,950 --> 00:31:16,960
+interval with one plus sign and three
+ 
+
+1347
+00:31:16,960 --> 00:31:19,389
+interval with one plus sign and three
+minus signs
+
+1348
+00:31:19,389 --> 00:31:19,399
+minus signs
+ 
+
+1349
+00:31:19,399 --> 00:31:22,629
+minus signs
+unchanged the special s means the Matrix
+
+1350
+00:31:22,629 --> 00:31:22,639
+unchanged the special s means the Matrix
+ 
+
+1351
+00:31:22,639 --> 00:31:25,750
+unchanged the special s means the Matrix
+determinant is + one and so spatial
+
+1352
+00:31:25,750 --> 00:31:25,760
+determinant is + one and so spatial
+ 
+
+1353
+00:31:25,760 --> 00:31:28,190
+determinant is + one and so spatial
+Reflections are forbidden
+
+1354
+00:31:28,190 --> 00:31:28,200
+Reflections are forbidden
+ 
+
+1355
+00:31:28,200 --> 00:31:30,509
+Reflections are forbidden
+the plus means the top left element of
+
+1356
+00:31:30,509 --> 00:31:30,519
+the plus means the top left element of
+ 
+
+1357
+00:31:30,519 --> 00:31:33,789
+the plus means the top left element of
+the Matrix is positive and so time
+
+1358
+00:31:33,789 --> 00:31:33,799
+the Matrix is positive and so time
+ 
+
+1359
+00:31:33,799 --> 00:31:35,950
+the Matrix is positive and so time
+Reflections are
+
+1360
+00:31:35,950 --> 00:31:35,960
+Reflections are
+ 
+
+1361
+00:31:35,960 --> 00:31:38,549
+Reflections are
+forbidden this group includes three
+
+1362
+00:31:38,549 --> 00:31:38,559
+forbidden this group includes three
+ 
+
+1363
+00:31:38,559 --> 00:31:41,830
+forbidden this group includes three
+rotation and three Lorent boost
+
+1364
+00:31:41,830 --> 00:31:41,840
+rotation and three Lorent boost
+ 
+
+1365
+00:31:41,840 --> 00:31:44,629
+rotation and three Lorent boost
+matrices we can get the generators for
+
+1366
+00:31:44,629 --> 00:31:44,639
+matrices we can get the generators for
+ 
+
+1367
+00:31:44,639 --> 00:31:47,470
+matrices we can get the generators for
+these matrices the usual Way by taking
+
+1368
+00:31:47,470 --> 00:31:47,480
+these matrices the usual Way by taking
+ 
+
+1369
+00:31:47,480 --> 00:31:49,549
+these matrices the usual Way by taking
+the derivative and setting the parameter
+
+1370
+00:31:49,549 --> 00:31:49,559
+the derivative and setting the parameter
+ 
+
+1371
+00:31:49,559 --> 00:31:53,470
+the derivative and setting the parameter
+to zero the rotation generators denoted
+
+1372
+00:31:53,470 --> 00:31:53,480
+to zero the rotation generators denoted
+ 
+
+1373
+00:31:53,480 --> 00:31:56,149
+to zero the rotation generators denoted
+with J's are traceless and
+
+1374
+00:31:56,149 --> 00:31:56,159
+with J's are traceless and
+ 
+
+1375
+00:31:56,159 --> 00:31:58,710
+with J's are traceless and
+anti-symmetric as we saw
+
+1376
+00:31:58,710 --> 00:31:58,720
+anti-symmetric as we saw
+ 
+
+1377
+00:31:58,720 --> 00:32:01,990
+anti-symmetric as we saw
+before the Boost generators denoted with
+
+1378
+00:32:01,990 --> 00:32:02,000
+before the Boost generators denoted with
+ 
+
+1379
+00:32:02,000 --> 00:32:04,629
+before the Boost generators denoted with
+Ks are traceless and
+
+1380
+00:32:04,629 --> 00:32:04,639
+Ks are traceless and
+ 
+
+1381
+00:32:04,639 --> 00:32:07,629
+Ks are traceless and
+symmetric these six generators form a
+
+1382
+00:32:07,629 --> 00:32:07,639
+symmetric these six generators form a
+ 
+
+1383
+00:32:07,639 --> 00:32:11,389
+symmetric these six generators form a
+basis for the Lee algebra s
+
+1384
+00:32:11,389 --> 00:32:11,399
+basis for the Lee algebra s
+ 
+
+1385
+00:32:11,399 --> 00:32:14,470
+basis for the Lee algebra s
++13 we can also work out the commutators
+
+1386
+00:32:14,470 --> 00:32:14,480
++13 we can also work out the commutators
+ 
+
+1387
+00:32:14,480 --> 00:32:16,669
++13 we can also work out the commutators
+for these matrices to get these
+
+1388
+00:32:16,669 --> 00:32:16,679
+for these matrices to get these
+ 
+
+1389
+00:32:16,679 --> 00:32:19,629
+for these matrices to get these
+commutation relations here this is the
+
+1390
+00:32:19,629 --> 00:32:19,639
+commutation relations here this is the
+ 
+
+1391
+00:32:19,639 --> 00:32:23,629
+commutation relations here this is the
+Le bracket rule in the S so13 Lee
+
+1392
+00:32:23,629 --> 00:32:23,639
+Le bracket rule in the S so13 Lee
+ 
+
+1393
+00:32:23,639 --> 00:32:26,509
+Le bracket rule in the S so13 Lee
+algebra note that the commutator of two
+
+1394
+00:32:26,509 --> 00:32:26,519
+algebra note that the commutator of two
+ 
+
+1395
+00:32:26,519 --> 00:32:29,310
+algebra note that the commutator of two
+rotation generators gives a rotation
+
+1396
+00:32:29,310 --> 00:32:29,320
+rotation generators gives a rotation
+ 
+
+1397
+00:32:29,320 --> 00:32:32,230
+rotation generators gives a rotation
+generator the commutator of two boost
+
+1398
+00:32:32,230 --> 00:32:32,240
+generator the commutator of two boost
+ 
+
+1399
+00:32:32,240 --> 00:32:34,789
+generator the commutator of two boost
+generators also gives a rotation
+
+1400
+00:32:34,789 --> 00:32:34,799
+generators also gives a rotation
+ 
+
+1401
+00:32:34,799 --> 00:32:37,110
+generators also gives a rotation
+generator and the commutator of a
+
+1402
+00:32:37,110 --> 00:32:37,120
+generator and the commutator of a
+ 
+
+1403
+00:32:37,120 --> 00:32:39,909
+generator and the commutator of a
+rotation generator and a boost generator
+
+1404
+00:32:39,909 --> 00:32:39,919
+rotation generator and a boost generator
+ 
+
+1405
+00:32:39,919 --> 00:32:41,430
+rotation generator and a boost generator
+gives a boost
+
+1406
+00:32:41,430 --> 00:32:41,440
+gives a boost
+ 
+
+1407
+00:32:41,440 --> 00:32:44,110
+gives a boost
+generator this shows us that the S SO3
+
+1408
+00:32:44,110 --> 00:32:44,120
+generator this shows us that the S SO3
+ 
+
+1409
+00:32:44,120 --> 00:32:49,470
+generator this shows us that the S SO3
+Le algebra lives inside the S so +13 Lee
+
+1410
+00:32:49,470 --> 00:32:49,480
+Le algebra lives inside the S so +13 Lee
+ 
+
+1411
+00:32:49,480 --> 00:32:52,070
+Le algebra lives inside the S so +13 Lee
+algebra so in this video we've looked at
+
+1412
+00:32:52,070 --> 00:32:52,080
+algebra so in this video we've looked at
+ 
+
+1413
+00:32:52,080 --> 00:32:56,389
+algebra so in this video we've looked at
+the Le groups s SO3 and S so +13 and
+
+1414
+00:32:56,389 --> 00:32:56,399
+the Le groups s SO3 and S so +13 and
+ 
+
+1415
+00:32:56,399 --> 00:32:58,430
+the Le groups s SO3 and S so +13 and
+discovered their respective Lee
+
+1416
+00:32:58,430 --> 00:32:58,440
+discovered their respective Lee
+ 
+
+1417
+00:32:58,440 --> 00:33:01,430
+discovered their respective Lee
+algebras but these Le group matrices
+
+1418
+00:33:01,430 --> 00:33:01,440
+algebras but these Le group matrices
+ 
+
+1419
+00:33:01,440 --> 00:33:03,149
+algebras but these Le group matrices
+only operate on
+
+1420
+00:33:03,149 --> 00:33:03,159
+only operate on
+ 
+
+1421
+00:33:03,159 --> 00:33:07,310
+only operate on
+vectors SO3 matrices operate on 3D space
+
+1422
+00:33:07,310 --> 00:33:07,320
+vectors SO3 matrices operate on 3D space
+ 
+
+1423
+00:33:07,320 --> 00:33:10,590
+vectors SO3 matrices operate on 3D space
+vectors and S so plus 13 matrices
+
+1424
+00:33:10,590 --> 00:33:10,600
+vectors and S so plus 13 matrices
+ 
+
+1425
+00:33:10,600 --> 00:33:13,669
+vectors and S so plus 13 matrices
+operate on 4D space-time
+
+1426
+00:33:13,669 --> 00:33:13,679
+operate on 4D space-time
+ 
+
+1427
+00:33:13,679 --> 00:33:16,590
+operate on 4D space-time
+vectors since vectors are rank one
+
+1428
+00:33:16,590 --> 00:33:16,600
+vectors since vectors are rank one
+ 
+
+1429
+00:33:16,600 --> 00:33:19,389
+vectors since vectors are rank one
+tensors we say these matrices are part
+
+1430
+00:33:19,389 --> 00:33:19,399
+tensors we say these matrices are part
+ 
+
+1431
+00:33:19,399 --> 00:33:21,629
+tensors we say these matrices are part
+of the spin one
+
+1432
+00:33:21,629 --> 00:33:21,639
+of the spin one
+ 
+
+1433
+00:33:21,639 --> 00:33:23,870
+of the spin one
+representation this helps us understand
+
+1434
+00:33:23,870 --> 00:33:23,880
+representation this helps us understand
+ 
+
+1435
+00:33:23,880 --> 00:33:26,269
+representation this helps us understand
+how the spin one particles behave when
+
+1436
+00:33:26,269 --> 00:33:26,279
+how the spin one particles behave when
+ 
+
+1437
+00:33:26,279 --> 00:33:28,310
+how the spin one particles behave when
+we do rot ations and
+
+1438
+00:33:28,310 --> 00:33:28,320
+we do rot ations and
+ 
+
+1439
+00:33:28,320 --> 00:33:31,509
+we do rot ations and
+boosts but what about other particles
+
+1440
+00:33:31,509 --> 00:33:31,519
+boosts but what about other particles
+ 
+
+1441
+00:33:31,519 --> 00:33:33,629
+boosts but what about other particles
+like the spin 1/2
+
+1442
+00:33:33,629 --> 00:33:33,639
+like the spin 1/2
+ 
+
+1443
+00:33:33,639 --> 00:33:35,750
+like the spin 1/2
+particles this will be covered in the
+
+1444
+00:33:35,750 --> 00:33:35,760
+particles this will be covered in the
+ 
+
+1445
+00:33:35,760 --> 00:33:39,230
+particles this will be covered in the
+next video where I cover the spin 1/2
+
+1446
+00:33:39,230 --> 00:33:39,240
+next video where I cover the spin 1/2
+ 
+
+1447
+00:33:39,240 --> 00:33:41,230
+next video where I cover the spin 1/2
+representation which is one of the
+
+1448
+00:33:41,230 --> 00:33:41,240
+representation which is one of the
+ 
+
+1449
+00:33:41,240 --> 00:33:43,269
+representation which is one of the
+multiple different representations of
+
+1450
+00:33:43,269 --> 00:33:43,279
+multiple different representations of
+ 
+
+1451
+00:33:43,279 --> 00:33:48,190
+multiple different representations of
+the SO3 and S so +13 Lee
+
+1452
+00:33:48,190 --> 00:33:48,200
+the SO3 and S so +13 Lee
+ 
+
+1453
+00:33:48,200 --> 00:33:50,669
+the SO3 and S so +13 Lee
+algebras if you've ever seen the complex
+
+1454
+00:33:50,669 --> 00:33:50,679
+algebras if you've ever seen the complex
+ 
+
+1455
+00:33:50,679 --> 00:33:53,430
+algebras if you've ever seen the complex
+number I represented as a matrix that
+
+1456
+00:33:53,430 --> 00:33:53,440
+number I represented as a matrix that
+ 
+
+1457
+00:33:53,440 --> 00:33:56,029
+number I represented as a matrix that
+squares to the negative identity you
+
+1458
+00:33:56,029 --> 00:33:56,039
+squares to the negative identity you
+ 
+
+1459
+00:33:56,039 --> 00:33:57,750
+squares to the negative identity you
+might know that there are multiple
+
+1460
+00:33:57,750 --> 00:33:57,760
+might know that there are multiple
+ 
+
+1461
+00:33:57,760 --> 00:33:59,830
+might know that there are multiple
+different matrices of all different
+
+1462
+00:33:59,830 --> 00:33:59,840
+different matrices of all different
+ 
+
+1463
+00:33:59,840 --> 00:34:02,389
+different matrices of all different
+sizes that satisfy this
+
+1464
+00:34:02,389 --> 00:34:02,399
+sizes that satisfy this
+ 
+
+1465
+00:34:02,399 --> 00:34:05,190
+sizes that satisfy this
+property the same is true for our Lee
+
+1466
+00:34:05,190 --> 00:34:05,200
+property the same is true for our Lee
+ 
+
+1467
+00:34:05,200 --> 00:34:09,030
+property the same is true for our Lee
+algebra generators we've seen the 3X3
+
+1468
+00:34:09,030 --> 00:34:09,040
+algebra generators we've seen the 3X3
+ 
+
+1469
+00:34:09,040 --> 00:34:12,990
+algebra generators we've seen the 3X3
+SO3 generator matrices and the 4x4 so
+
+1470
+00:34:12,990 --> 00:34:13,000
+SO3 generator matrices and the 4x4 so
+ 
+
+1471
+00:34:13,000 --> 00:34:15,589
+SO3 generator matrices and the 4x4 so
++13 generator
+
+1472
+00:34:15,589 --> 00:34:15,599
++13 generator
+ 
+
+1473
+00:34:15,599 --> 00:34:18,909
++13 generator
+matrices these are from the spin one
+
+1474
+00:34:18,909 --> 00:34:18,919
+matrices these are from the spin one
+ 
+
+1475
+00:34:18,919 --> 00:34:21,950
+matrices these are from the spin one
+representation because they transform
+
+1476
+00:34:21,950 --> 00:34:21,960
+representation because they transform
+ 
+
+1477
+00:34:21,960 --> 00:34:24,990
+representation because they transform
+vectors however we can also find 2x two
+
+1478
+00:34:24,990 --> 00:34:25,000
+vectors however we can also find 2x two
+ 
+
+1479
+00:34:25,000 --> 00:34:27,349
+vectors however we can also find 2x two
+matrices that follow the same Lee
+
+1480
+00:34:27,349 --> 00:34:27,359
+matrices that follow the same Lee
+ 
+
+1481
+00:34:27,359 --> 00:34:31,190
+matrices that follow the same Lee
+algebra rules in both cases these are
+
+1482
+00:34:31,190 --> 00:34:31,200
+algebra rules in both cases these are
+ 
+
+1483
+00:34:31,200 --> 00:34:34,190
+algebra rules in both cases these are
+from the spin 1/2 representation because
+
+1484
+00:34:34,190 --> 00:34:34,200
+from the spin 1/2 representation because
+ 
+
+1485
+00:34:34,200 --> 00:34:35,750
+from the spin 1/2 representation because
+they transform
+
+1486
+00:34:35,750 --> 00:34:35,760
+they transform
+ 
+
+1487
+00:34:35,760 --> 00:34:38,230
+they transform
+Spinners I'll go through all of this in
+
+1488
+00:34:38,230 --> 00:34:38,240
+Spinners I'll go through all of this in
+ 
+
+1489
+00:34:38,240 --> 00:34:39,990
+Spinners I'll go through all of this in
+the next
+
+1490
+00:34:39,990 --> 00:34:40,000
+the next
+ 
+
+1491
+00:34:40,000 --> 00:34:43,909
+the next
+video also one final note depending on
+
+1492
+00:34:43,909 --> 00:34:43,919
+video also one final note depending on
+ 
+
+1493
+00:34:43,919 --> 00:34:46,190
+video also one final note depending on
+the textbook you read you might see that
+
+1494
+00:34:46,190 --> 00:34:46,200
+the textbook you read you might see that
+ 
+
+1495
+00:34:46,200 --> 00:34:48,629
+the textbook you read you might see that
+the generators I've shown for rotations
+
+1496
+00:34:48,629 --> 00:34:48,639
+the generators I've shown for rotations
+ 
+
+1497
+00:34:48,639 --> 00:34:51,230
+the generators I've shown for rotations
+and boosts look a little different
+
+1498
+00:34:51,230 --> 00:34:51,240
+and boosts look a little different
+ 
+
+1499
+00:34:51,240 --> 00:34:52,869
+and boosts look a little different
+depending on whether they follow the
+
+1500
+00:34:52,869 --> 00:34:52,879
+depending on whether they follow the
+ 
+
+1501
+00:34:52,879 --> 00:34:55,149
+depending on whether they follow the
+math convention or the physics
+
+1502
+00:34:55,149 --> 00:34:55,159
+math convention or the physics
+ 
+
+1503
+00:34:55,159 --> 00:34:57,670
+math convention or the physics
+convention in this video I follow the
+
+1504
+00:34:57,670 --> 00:34:57,680
+convention in this video I follow the
+ 
+
+1505
+00:34:57,680 --> 00:35:00,270
+convention in this video I follow the
+math convention where the generators of
+
+1506
+00:35:00,270 --> 00:35:00,280
+math convention where the generators of
+ 
+
+1507
+00:35:00,280 --> 00:35:04,829
+math convention where the generators of
+3D rotation matrices are traceless and
+
+1508
+00:35:04,829 --> 00:35:04,839
+3D rotation matrices are traceless and
+ 
+
+1509
+00:35:04,839 --> 00:35:07,390
+3D rotation matrices are traceless and
+anti-symmetric in the physics convention
+
+1510
+00:35:07,390 --> 00:35:07,400
+anti-symmetric in the physics convention
+ 
+
+1511
+00:35:07,400 --> 00:35:09,589
+anti-symmetric in the physics convention
+it's often the case that the generators
+
+1512
+00:35:09,589 --> 00:35:09,599
+it's often the case that the generators
+ 
+
+1513
+00:35:09,599 --> 00:35:12,950
+it's often the case that the generators
+are multiplied by netive I where I is
+
+1514
+00:35:12,950 --> 00:35:12,960
+are multiplied by netive I where I is
+ 
+
+1515
+00:35:12,960 --> 00:35:15,910
+are multiplied by netive I where I is
+the imaginary unit this makes them
+
+1516
+00:35:15,910 --> 00:35:15,920
+the imaginary unit this makes them
+ 
+
+1517
+00:35:15,920 --> 00:35:17,990
+the imaginary unit this makes them
+traceless and hermiss
+
+1518
+00:35:17,990 --> 00:35:18,000
+traceless and hermiss
+ 
+
+1519
+00:35:18,000 --> 00:35:20,349
+traceless and hermiss
+matrices where Herm Mission means a
+
+1520
+00:35:20,349 --> 00:35:20,359
+matrices where Herm Mission means a
+ 
+
+1521
+00:35:20,359 --> 00:35:23,750
+matrices where Herm Mission means a
+matrix equals its complex conjugate
+
+1522
+00:35:23,750 --> 00:35:23,760
+matrix equals its complex conjugate
+ 
+
+1523
+00:35:23,760 --> 00:35:26,550
+matrix equals its complex conjugate
+transpose to compensate for this extra
+
+1524
+00:35:26,550 --> 00:35:26,560
+transpose to compensate for this extra
+ 
+
+1525
+00:35:26,560 --> 00:35:29,589
+transpose to compensate for this extra
+Factor of minus I there needs to be an
+
+1526
+00:35:29,589 --> 00:35:29,599
+Factor of minus I there needs to be an
+ 
+
+1527
+00:35:29,599 --> 00:35:32,150
+Factor of minus I there needs to be an
+additional factor of I with the opposite
+
+1528
+00:35:32,150 --> 00:35:32,160
+additional factor of I with the opposite
+ 
+
+1529
+00:35:32,160 --> 00:35:35,069
+additional factor of I with the opposite
+sign used in the exponential to cancel
+
+1530
+00:35:35,069 --> 00:35:35,079
+sign used in the exponential to cancel
+ 
+
+1531
+00:35:35,079 --> 00:35:36,069
+sign used in the exponential to cancel
+it
+
+1532
+00:35:36,069 --> 00:35:36,079
+it
+ 
+
+1533
+00:35:36,079 --> 00:35:39,150
+it
+out physicists use this convention
+
+1534
+00:35:39,150 --> 00:35:39,160
+out physicists use this convention
+ 
+
+1535
+00:35:39,160 --> 00:35:41,870
+out physicists use this convention
+because observables in quantum mechanics
+
+1536
+00:35:41,870 --> 00:35:41,880
+because observables in quantum mechanics
+ 
+
+1537
+00:35:41,880 --> 00:35:44,310
+because observables in quantum mechanics
+must be represented by Herm Mission
+
+1538
+00:35:44,310 --> 00:35:44,320
+must be represented by Herm Mission
+ 
+
+1539
+00:35:44,320 --> 00:35:46,870
+must be represented by Herm Mission
+operators which end up being the same
+
+1540
+00:35:46,870 --> 00:35:46,880
+operators which end up being the same
+ 
+
+1541
+00:35:46,880 --> 00:35:49,390
+operators which end up being the same
+thing as Lee algebra
+
+1542
+00:35:49,390 --> 00:35:49,400
+thing as Lee algebra
+ 
+
+1543
+00:35:49,400 --> 00:35:52,150
+thing as Lee algebra
+generators this hermiss property is
+
+1544
+00:35:52,150 --> 00:35:52,160
+generators this hermiss property is
+ 
+
+1545
+00:35:52,160 --> 00:35:54,430
+generators this hermiss property is
+required so that observables like
+
+1546
+00:35:54,430 --> 00:35:54,440
+required so that observables like
+ 
+
+1547
+00:35:54,440 --> 00:35:57,349
+required so that observables like
+momentum and spin always give real
+
+1548
+00:35:57,349 --> 00:35:57,359
+momentum and spin always give real
+ 
+
+1549
+00:35:57,359 --> 00:36:00,030
+momentum and spin always give real
+numbers instead of complex
+
+1550
+00:36:00,030 --> 00:36:00,040
+numbers instead of complex
+ 
+
+1551
+00:36:00,040 --> 00:36:03,030
+numbers instead of complex
+numbers in the case of rotations the
+
+1552
+00:36:03,030 --> 00:36:03,040
+numbers in the case of rotations the
+ 
+
+1553
+00:36:03,040 --> 00:36:05,030
+numbers in the case of rotations the
+generators will be Herm mission in the
+
+1554
+00:36:05,030 --> 00:36:05,040
+generators will be Herm mission in the
+ 
+
+1555
+00:36:05,040 --> 00:36:07,309
+generators will be Herm mission in the
+physics convention instead of
+
+1556
+00:36:07,309 --> 00:36:07,319
+physics convention instead of
+ 
+
+1557
+00:36:07,319 --> 00:36:09,829
+physics convention instead of
+anti-symmetric as with the math
+
+1558
+00:36:09,829 --> 00:36:09,839
+anti-symmetric as with the math
+ 
+
+1559
+00:36:09,839 --> 00:36:12,550
+anti-symmetric as with the math
+convention pure mathematicians don't
+
+1560
+00:36:12,550 --> 00:36:12,560
+convention pure mathematicians don't
+ 
+
+1561
+00:36:12,560 --> 00:36:15,270
+convention pure mathematicians don't
+require this Herm Mission condition and
+
+1562
+00:36:15,270 --> 00:36:15,280
+require this Herm Mission condition and
+ 
+
+1563
+00:36:15,280 --> 00:36:17,270
+require this Herm Mission condition and
+so they don't bother with these extra
+
+1564
+00:36:17,270 --> 00:36:17,280
+so they don't bother with these extra
+ 
+
+1565
+00:36:17,280 --> 00:36:19,950
+so they don't bother with these extra
+factors of I in the generators or the
+
+1566
+00:36:19,950 --> 00:36:19,960
+factors of I in the generators or the
+ 
+
+1567
+00:36:19,960 --> 00:36:21,109
+factors of I in the generators or the
+exponential
+
+1568
+00:36:21,109 --> 00:36:21,119
+exponential
+ 
+
+1569
+00:36:21,119 --> 00:36:24,119
+exponential
+formula
+

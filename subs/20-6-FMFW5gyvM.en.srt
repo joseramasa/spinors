@@ -1,0 +1,8925 @@
+1
+00:00:00,080 --> 00:00:01,830
+
+we're continuing to talk about
+
+2
+00:00:01,830 --> 00:00:01,840
+we're continuing to talk about
+ 
+
+3
+00:00:01,840 --> 00:00:04,869
+we're continuing to talk about
+representations of Lee groups and Lee
+
+4
+00:00:04,869 --> 00:00:04,879
+representations of Lee groups and Lee
+ 
+
+5
+00:00:04,879 --> 00:00:07,190
+representations of Lee groups and Lee
+algebras in this video we're going to
+
+6
+00:00:07,190 --> 00:00:07,200
+algebras in this video we're going to
+ 
+
+7
+00:00:07,200 --> 00:00:09,830
+algebras in this video we're going to
+discuss the tensor product of
+
+8
+00:00:09,830 --> 00:00:09,840
+discuss the tensor product of
+ 
+
+9
+00:00:09,840 --> 00:00:12,150
+discuss the tensor product of
+representations in physics courses the
+
+10
+00:00:12,150 --> 00:00:12,160
+representations in physics courses the
+ 
+
+11
+00:00:12,160 --> 00:00:14,430
+representations in physics courses the
+tensor product of representations gives
+
+12
+00:00:14,430 --> 00:00:14,440
+tensor product of representations gives
+ 
+
+13
+00:00:14,440 --> 00:00:16,830
+tensor product of representations gives
+us instructions for addition of angular
+
+14
+00:00:16,830 --> 00:00:16,840
+us instructions for addition of angular
+ 
+
+15
+00:00:16,840 --> 00:00:20,029
+us instructions for addition of angular
+momentum in systems of multiple
+
+16
+00:00:20,029 --> 00:00:20,039
+momentum in systems of multiple
+ 
+
+17
+00:00:20,039 --> 00:00:22,870
+momentum in systems of multiple
+particles in previous videos I mentioned
+
+18
+00:00:22,870 --> 00:00:22,880
+particles in previous videos I mentioned
+ 
+
+19
+00:00:22,880 --> 00:00:25,070
+particles in previous videos I mentioned
+how all fundamental particles have a
+
+20
+00:00:25,070 --> 00:00:25,080
+how all fundamental particles have a
+ 
+
+21
+00:00:25,080 --> 00:00:27,509
+how all fundamental particles have a
+property called spin which is either an
+
+22
+00:00:27,509 --> 00:00:27,519
+property called spin which is either an
+ 
+
+23
+00:00:27,519 --> 00:00:30,990
+property called spin which is either an
+integer or a half integer spin zero
+
+24
+00:00:30,990 --> 00:00:31,000
+integer or a half integer spin zero
+ 
+
+25
+00:00:31,000 --> 00:00:34,229
+integer or a half integer spin zero
+particles transform like scalers spin 1
+
+26
+00:00:34,229 --> 00:00:34,239
+particles transform like scalers spin 1
+ 
+
+27
+00:00:34,239 --> 00:00:36,910
+particles transform like scalers spin 1
+half particles transform like Spinners
+
+28
+00:00:36,910 --> 00:00:36,920
+half particles transform like Spinners
+ 
+
+29
+00:00:36,920 --> 00:00:39,350
+half particles transform like Spinners
+spin one particles transform like
+
+30
+00:00:39,350 --> 00:00:39,360
+spin one particles transform like
+ 
+
+31
+00:00:39,360 --> 00:00:41,709
+spin one particles transform like
+vectors and there are higher spin
+
+32
+00:00:41,709 --> 00:00:41,719
+vectors and there are higher spin
+ 
+
+33
+00:00:41,719 --> 00:00:45,510
+vectors and there are higher spin
+particles as well an important fact here
+
+34
+00:00:45,510 --> 00:00:45,520
+particles as well an important fact here
+ 
+
+35
+00:00:45,520 --> 00:00:47,229
+particles as well an important fact here
+is that all these objects can be
+
+36
+00:00:47,229 --> 00:00:47,239
+is that all these objects can be
+ 
+
+37
+00:00:47,239 --> 00:00:49,510
+is that all these objects can be
+constructed from tensor products of
+
+38
+00:00:49,510 --> 00:00:49,520
+constructed from tensor products of
+ 
+
+39
+00:00:49,520 --> 00:00:52,430
+constructed from tensor products of
+different numbers of spinners so in a
+
+40
+00:00:52,430 --> 00:00:52,440
+different numbers of spinners so in a
+ 
+
+41
+00:00:52,440 --> 00:00:54,510
+different numbers of spinners so in a
+certain sense Spinners are the most
+
+42
+00:00:54,510 --> 00:00:54,520
+certain sense Spinners are the most
+ 
+
+43
+00:00:54,520 --> 00:00:56,709
+certain sense Spinners are the most
+basic fundamental object that can be
+
+44
+00:00:56,709 --> 00:00:56,719
+basic fundamental object that can be
+ 
+
+45
+00:00:56,719 --> 00:00:59,150
+basic fundamental object that can be
+used to build all other particle like
+
+46
+00:00:59,150 --> 00:00:59,160
+used to build all other particle like
+ 
+
+47
+00:00:59,160 --> 00:01:01,029
+used to build all other particle like
+objects
+
+48
+00:01:01,029 --> 00:01:01,039
+objects
+ 
+
+49
+00:01:01,039 --> 00:01:03,029
+objects
+so in this video we're going to look at
+
+50
+00:01:03,029 --> 00:01:03,039
+so in this video we're going to look at
+ 
+
+51
+00:01:03,039 --> 00:01:05,190
+so in this video we're going to look at
+systems of multiple spin one half
+
+52
+00:01:05,190 --> 00:01:05,200
+systems of multiple spin one half
+ 
+
+53
+00:01:05,200 --> 00:01:08,550
+systems of multiple spin one half
+particles or Spinners and see how they
+
+54
+00:01:08,550 --> 00:01:08,560
+particles or Spinners and see how they
+ 
+
+55
+00:01:08,560 --> 00:01:10,749
+particles or Spinners and see how they
+combine together into multi-particle
+
+56
+00:01:10,749 --> 00:01:10,759
+combine together into multi-particle
+ 
+
+57
+00:01:10,759 --> 00:01:12,910
+combine together into multi-particle
+systems using the tensor
+
+58
+00:01:12,910 --> 00:01:12,920
+systems using the tensor
+ 
+
+59
+00:01:12,920 --> 00:01:16,590
+systems using the tensor
+product as an example a pair of spin 1/2
+
+60
+00:01:16,590 --> 00:01:16,600
+product as an example a pair of spin 1/2
+ 
+
+61
+00:01:16,600 --> 00:01:19,630
+product as an example a pair of spin 1/2
+electrons can bind together in a solid
+
+62
+00:01:19,630 --> 00:01:19,640
+electrons can bind together in a solid
+ 
+
+63
+00:01:19,640 --> 00:01:22,590
+electrons can bind together in a solid
+at low temperatures into Cooper pairs or
+
+64
+00:01:22,590 --> 00:01:22,600
+at low temperatures into Cooper pairs or
+ 
+
+65
+00:01:22,600 --> 00:01:25,870
+at low temperatures into Cooper pairs or
+BCS Pairs and behave more like a spin
+
+66
+00:01:25,870 --> 00:01:25,880
+BCS Pairs and behave more like a spin
+ 
+
+67
+00:01:25,880 --> 00:01:28,390
+BCS Pairs and behave more like a spin
+one vector particle or a spin zero
+
+68
+00:01:28,390 --> 00:01:28,400
+one vector particle or a spin zero
+ 
+
+69
+00:01:28,400 --> 00:01:30,590
+one vector particle or a spin zero
+scalar particle
+
+70
+00:01:30,590 --> 00:01:30,600
+scalar particle
+ 
+
+71
+00:01:30,600 --> 00:01:32,469
+scalar particle
+this is a key fact underlying the
+
+72
+00:01:32,469 --> 00:01:32,479
+this is a key fact underlying the
+ 
+
+73
+00:01:32,479 --> 00:01:34,149
+this is a key fact underlying the
+phenomenon of
+
+74
+00:01:34,149 --> 00:01:34,159
+phenomenon of
+ 
+
+75
+00:01:34,159 --> 00:01:36,350
+phenomenon of
+superconductivity because spin one and
+
+76
+00:01:36,350 --> 00:01:36,360
+superconductivity because spin one and
+ 
+
+77
+00:01:36,360 --> 00:01:39,870
+superconductivity because spin one and
+spin zero particles are bons and bosons
+
+78
+00:01:39,870 --> 00:01:39,880
+spin zero particles are bons and bosons
+ 
+
+79
+00:01:39,880 --> 00:01:42,990
+spin zero particles are bons and bosons
+can all occupy the same state unlike
+
+80
+00:01:42,990 --> 00:01:43,000
+can all occupy the same state unlike
+ 
+
+81
+00:01:43,000 --> 00:01:45,310
+can all occupy the same state unlike
+half integer spin firmians which must
+
+82
+00:01:45,310 --> 00:01:45,320
+half integer spin firmians which must
+ 
+
+83
+00:01:45,320 --> 00:01:47,870
+half integer spin firmians which must
+obey Po's exclusion
+
+84
+00:01:47,870 --> 00:01:47,880
+obey Po's exclusion
+ 
+
+85
+00:01:47,880 --> 00:01:49,789
+obey Po's exclusion
+principle in the language of
+
+86
+00:01:49,789 --> 00:01:49,799
+principle in the language of
+ 
+
+87
+00:01:49,799 --> 00:01:52,149
+principle in the language of
+representation Theory we would say that
+
+88
+00:01:52,149 --> 00:01:52,159
+representation Theory we would say that
+ 
+
+89
+00:01:52,159 --> 00:01:54,670
+representation Theory we would say that
+the tensor product of two irreducible
+
+90
+00:01:54,670 --> 00:01:54,680
+the tensor product of two irreducible
+ 
+
+91
+00:01:54,680 --> 00:01:57,590
+the tensor product of two irreducible
+spin 1/ half representations becomes the
+
+92
+00:01:57,590 --> 00:01:57,600
+spin 1/ half representations becomes the
+ 
+
+93
+00:01:57,600 --> 00:02:00,630
+spin 1/ half representations becomes the
+direct sum of a spin one EP and a spin
+
+94
+00:02:00,630 --> 00:02:00,640
+direct sum of a spin one EP and a spin
+ 
+
+95
+00:02:00,640 --> 00:02:04,630
+direct sum of a spin one EP and a spin
+zero a rephrased using Dimensions the
+
+96
+00:02:04,630 --> 00:02:04,640
+zero a rephrased using Dimensions the
+ 
+
+97
+00:02:04,640 --> 00:02:07,990
+zero a rephrased using Dimensions the
+tensor product of a pair of 2x two ARS
+
+98
+00:02:07,990 --> 00:02:08,000
+tensor product of a pair of 2x two ARS
+ 
+
+99
+00:02:08,000 --> 00:02:11,229
+tensor product of a pair of 2x two ARS
+equals the direct sum of the 3X3 EP and
+
+100
+00:02:11,229 --> 00:02:11,239
+equals the direct sum of the 3X3 EP and
+ 
+
+101
+00:02:11,239 --> 00:02:12,830
+equals the direct sum of the 3X3 EP and
+the 1x1
+
+102
+00:02:12,830 --> 00:02:12,840
+the 1x1
+ 
+
+103
+00:02:12,840 --> 00:02:16,070
+the 1x1
+EP this will lead us to the kch Gordon
+
+104
+00:02:16,070 --> 00:02:16,080
+EP this will lead us to the kch Gordon
+ 
+
+105
+00:02:16,080 --> 00:02:18,229
+EP this will lead us to the kch Gordon
+coefficients which tell us how to take
+
+106
+00:02:18,229 --> 00:02:18,239
+coefficients which tell us how to take
+ 
+
+107
+00:02:18,239 --> 00:02:20,949
+coefficients which tell us how to take
+Spinners in the coupled basis and build
+
+108
+00:02:20,949 --> 00:02:20,959
+Spinners in the coupled basis and build
+ 
+
+109
+00:02:20,959 --> 00:02:24,030
+Spinners in the coupled basis and build
+states in the total angular momentum
+
+110
+00:02:24,030 --> 00:02:24,040
+states in the total angular momentum
+ 
+
+111
+00:02:24,040 --> 00:02:27,150
+states in the total angular momentum
+basis also in this video I will often
+
+112
+00:02:27,150 --> 00:02:27,160
+basis also in this video I will often
+ 
+
+113
+00:02:27,160 --> 00:02:30,150
+basis also in this video I will often
+refer to all cats as States or or
+
+114
+00:02:30,150 --> 00:02:30,160
+refer to all cats as States or or
+ 
+
+115
+00:02:30,160 --> 00:02:32,830
+refer to all cats as States or or
+vectors because they live in Vector
+
+116
+00:02:32,830 --> 00:02:32,840
+vectors because they live in Vector
+ 
+
+117
+00:02:32,840 --> 00:02:35,470
+vectors because they live in Vector
+spaces but when I talk about the vector
+
+118
+00:02:35,470 --> 00:02:35,480
+spaces but when I talk about the vector
+ 
+
+119
+00:02:35,480 --> 00:02:38,589
+spaces but when I talk about the vector
+representation of su2 I'm specifically
+
+120
+00:02:38,589 --> 00:02:38,599
+representation of su2 I'm specifically
+ 
+
+121
+00:02:38,599 --> 00:02:40,110
+representation of su2 I'm specifically
+talking about the spin one
+
+122
+00:02:40,110 --> 00:02:40,120
+talking about the spin one
+ 
+
+123
+00:02:40,120 --> 00:02:43,229
+talking about the spin one
+representation of su2 which transforms
+
+124
+00:02:43,229 --> 00:02:43,239
+representation of su2 which transforms
+ 
+
+125
+00:02:43,239 --> 00:02:45,070
+representation of su2 which transforms
+3D
+
+126
+00:02:45,070 --> 00:02:45,080
+3D
+ 
+
+127
+00:02:45,080 --> 00:02:47,830
+3D
+vectors so before we discuss tensor
+
+128
+00:02:47,830 --> 00:02:47,840
+vectors so before we discuss tensor
+ 
+
+129
+00:02:47,840 --> 00:02:50,509
+vectors so before we discuss tensor
+product representations let's review the
+
+130
+00:02:50,509 --> 00:02:50,519
+product representations let's review the
+ 
+
+131
+00:02:50,519 --> 00:02:53,589
+product representations let's review the
+direct sum and the tensor product the
+
+132
+00:02:53,589 --> 00:02:53,599
+direct sum and the tensor product the
+ 
+
+133
+00:02:53,599 --> 00:02:55,869
+direct sum and the tensor product the
+basic summary is that the direct sum
+
+134
+00:02:55,869 --> 00:02:55,879
+basic summary is that the direct sum
+ 
+
+135
+00:02:55,879 --> 00:02:58,949
+basic summary is that the direct sum
+will add dimensions of two Vector spaces
+
+136
+00:02:58,949 --> 00:02:58,959
+will add dimensions of two Vector spaces
+ 
+
+137
+00:02:58,959 --> 00:03:01,190
+will add dimensions of two Vector spaces
+and the tensor product will multiply the
+
+138
+00:03:01,190 --> 00:03:01,200
+and the tensor product will multiply the
+ 
+
+139
+00:03:01,200 --> 00:03:03,550
+and the tensor product will multiply the
+dimensions of two Vector
+
+140
+00:03:03,550 --> 00:03:03,560
+dimensions of two Vector
+ 
+
+141
+00:03:03,560 --> 00:03:07,229
+dimensions of two Vector
+spaces if we have a vector v in 3D space
+
+142
+00:03:07,229 --> 00:03:07,239
+spaces if we have a vector v in 3D space
+ 
+
+143
+00:03:07,239 --> 00:03:10,869
+spaces if we have a vector v in 3D space
+and a vector W in 2D space we can write
+
+144
+00:03:10,869 --> 00:03:10,879
+and a vector W in 2D space we can write
+ 
+
+145
+00:03:10,879 --> 00:03:14,309
+and a vector W in 2D space we can write
+both of them as columns the direct sum
+
+146
+00:03:14,309 --> 00:03:14,319
+both of them as columns the direct sum
+ 
+
+147
+00:03:14,319 --> 00:03:17,630
+both of them as columns the direct sum
+of V and W involves stacking the columns
+
+148
+00:03:17,630 --> 00:03:17,640
+of V and W involves stacking the columns
+ 
+
+149
+00:03:17,640 --> 00:03:21,509
+of V and W involves stacking the columns
+on top of each other into a 5D Vector
+
+150
+00:03:21,509 --> 00:03:21,519
+on top of each other into a 5D Vector
+ 
+
+151
+00:03:21,519 --> 00:03:22,990
+on top of each other into a 5D Vector
+this Vector lives in a new
+
+152
+00:03:22,990 --> 00:03:23,000
+this Vector lives in a new
+ 
+
+153
+00:03:23,000 --> 00:03:25,869
+this Vector lives in a new
+five-dimensional space with five basis
+
+154
+00:03:25,869 --> 00:03:25,879
+five-dimensional space with five basis
+ 
+
+155
+00:03:25,879 --> 00:03:28,949
+five-dimensional space with five basis
+vectors which is just the 3D basis and
+
+156
+00:03:28,949 --> 00:03:28,959
+vectors which is just the 3D basis and
+ 
+
+157
+00:03:28,959 --> 00:03:31,229
+vectors which is just the 3D basis and
+the 2D basis put
+
+158
+00:03:31,229 --> 00:03:31,239
+the 2D basis put
+ 
+
+159
+00:03:31,239 --> 00:03:34,710
+the 2D basis put
+together if there's a 3X3 linear map L
+
+160
+00:03:34,710 --> 00:03:34,720
+together if there's a 3X3 linear map L
+ 
+
+161
+00:03:34,720 --> 00:03:38,190
+together if there's a 3X3 linear map L
+that acts on V and a 2x2 linear map K
+
+162
+00:03:38,190 --> 00:03:38,200
+that acts on V and a 2x2 linear map K
+ 
+
+163
+00:03:38,200 --> 00:03:41,350
+that acts on V and a 2x2 linear map K
+that acts on W then the direct sum of L
+
+164
+00:03:41,350 --> 00:03:41,360
+that acts on W then the direct sum of L
+ 
+
+165
+00:03:41,360 --> 00:03:44,830
+that acts on W then the direct sum of L
+and K is a 5x5 block diagonal matrix
+
+166
+00:03:44,830 --> 00:03:44,840
+and K is a 5x5 block diagonal matrix
+ 
+
+167
+00:03:44,840 --> 00:03:45,630
+and K is a 5x5 block diagonal matrix
+like
+
+168
+00:03:45,630 --> 00:03:45,640
+like
+ 
+
+169
+00:03:45,640 --> 00:03:48,429
+like
+this if we multiply this onto the direct
+
+170
+00:03:48,429 --> 00:03:48,439
+this if we multiply this onto the direct
+ 
+
+171
+00:03:48,439 --> 00:03:51,869
+this if we multiply this onto the direct
+sum of V and W the L part of the Matrix
+
+172
+00:03:51,869 --> 00:03:51,879
+sum of V and W the L part of the Matrix
+ 
+
+173
+00:03:51,879 --> 00:03:54,789
+sum of V and W the L part of the Matrix
+acts on V and the K part of the Matrix
+
+174
+00:03:54,789 --> 00:03:54,799
+acts on V and the K part of the Matrix
+ 
+
+175
+00:03:54,799 --> 00:03:56,110
+acts on V and the K part of the Matrix
+acts on
+
+176
+00:03:56,110 --> 00:03:56,120
+acts on
+ 
+
+177
+00:03:56,120 --> 00:03:59,470
+acts on
+W more abstractly if we see the direct
+
+178
+00:03:59,470 --> 00:03:59,480
+W more abstractly if we see the direct
+ 
+
+179
+00:03:59,480 --> 00:04:02,949
+W more abstractly if we see the direct
+sum of L and K act on the direct sum of
+
+180
+00:04:02,949 --> 00:04:02,959
+sum of L and K act on the direct sum of
+ 
+
+181
+00:04:02,959 --> 00:04:07,110
+sum of L and K act on the direct sum of
+V and W we can just pass V to L and pass
+
+182
+00:04:07,110 --> 00:04:07,120
+V and W we can just pass V to L and pass
+ 
+
+183
+00:04:07,120 --> 00:04:10,030
+V and W we can just pass V to L and pass
+W to K to get our
+
+184
+00:04:10,030 --> 00:04:10,040
+W to K to get our
+ 
+
+185
+00:04:10,040 --> 00:04:12,630
+W to K to get our
+result the tensor product on the other
+
+186
+00:04:12,630 --> 00:04:12,640
+result the tensor product on the other
+ 
+
+187
+00:04:12,640 --> 00:04:15,429
+result the tensor product on the other
+hand is a bit harder to understand the
+
+188
+00:04:15,429 --> 00:04:15,439
+hand is a bit harder to understand the
+ 
+
+189
+00:04:15,439 --> 00:04:18,430
+hand is a bit harder to understand the
+tensor product of a vector v in 3D space
+
+190
+00:04:18,430 --> 00:04:18,440
+tensor product of a vector v in 3D space
+ 
+
+191
+00:04:18,440 --> 00:04:21,270
+tensor product of a vector v in 3D space
+and a vector W in 2D space is a
+
+192
+00:04:21,270 --> 00:04:21,280
+and a vector W in 2D space is a
+ 
+
+193
+00:04:21,280 --> 00:04:24,950
+and a vector W in 2D space is a
+six-dimensional vector the new basis in
+
+194
+00:04:24,950 --> 00:04:24,960
+six-dimensional vector the new basis in
+ 
+
+195
+00:04:24,960 --> 00:04:27,909
+six-dimensional vector the new basis in
+six-dimensional space uses all possible
+
+196
+00:04:27,909 --> 00:04:27,919
+six-dimensional space uses all possible
+ 
+
+197
+00:04:27,919 --> 00:04:30,390
+six-dimensional space uses all possible
+pairs of basis vectors from from the 3D
+
+198
+00:04:30,390 --> 00:04:30,400
+pairs of basis vectors from from the 3D
+ 
+
+199
+00:04:30,400 --> 00:04:32,749
+pairs of basis vectors from from the 3D
+space and the 2D
+
+200
+00:04:32,749 --> 00:04:32,759
+space and the 2D
+ 
+
+201
+00:04:32,759 --> 00:04:35,310
+space and the 2D
+space one way to think about the tensor
+
+202
+00:04:35,310 --> 00:04:35,320
+space one way to think about the tensor
+ 
+
+203
+00:04:35,320 --> 00:04:38,830
+space one way to think about the tensor
+product of V and W is as the column row
+
+204
+00:04:38,830 --> 00:04:38,840
+product of V and W is as the column row
+ 
+
+205
+00:04:38,840 --> 00:04:42,990
+product of V and W is as the column row
+outer product of V and W transpose which
+
+206
+00:04:42,990 --> 00:04:43,000
+outer product of V and W transpose which
+ 
+
+207
+00:04:43,000 --> 00:04:44,749
+outer product of V and W transpose which
+gives us six
+
+208
+00:04:44,749 --> 00:04:44,759
+gives us six
+ 
+
+209
+00:04:44,759 --> 00:04:47,310
+gives us six
+components in this case we're viewing v
+
+210
+00:04:47,310 --> 00:04:47,320
+components in this case we're viewing v
+ 
+
+211
+00:04:47,320 --> 00:04:50,270
+components in this case we're viewing v
+as a vector and viewing W transpose as a
+
+212
+00:04:50,270 --> 00:04:50,280
+as a vector and viewing W transpose as a
+ 
+
+213
+00:04:50,280 --> 00:04:53,070
+as a vector and viewing W transpose as a
+dual Vector to see how this six
+
+214
+00:04:53,070 --> 00:04:53,080
+dual Vector to see how this six
+ 
+
+215
+00:04:53,080 --> 00:04:55,550
+dual Vector to see how this six
+component object transforms we can
+
+216
+00:04:55,550 --> 00:04:55,560
+component object transforms we can
+ 
+
+217
+00:04:55,560 --> 00:04:58,749
+component object transforms we can
+transform V using the 3X3 L Matrix from
+
+218
+00:04:58,749 --> 00:04:58,759
+transform V using the 3X3 L Matrix from
+ 
+
+219
+00:04:58,759 --> 00:05:02,270
+transform V using the 3X3 L Matrix from
+the left and transform W transpose using
+
+220
+00:05:02,270 --> 00:05:02,280
+the left and transform W transpose using
+ 
+
+221
+00:05:02,280 --> 00:05:05,189
+the left and transform W transpose using
+the 2x two k transpose Matrix from the
+
+222
+00:05:05,189 --> 00:05:05,199
+the 2x two k transpose Matrix from the
+ 
+
+223
+00:05:05,199 --> 00:05:07,710
+the 2x two k transpose Matrix from the
+right so we get a double-sided
+
+224
+00:05:07,710 --> 00:05:07,720
+right so we get a double-sided
+ 
+
+225
+00:05:07,720 --> 00:05:10,590
+right so we get a double-sided
+transformation like this if we're
+
+226
+00:05:10,590 --> 00:05:10,600
+transformation like this if we're
+ 
+
+227
+00:05:10,600 --> 00:05:12,990
+transformation like this if we're
+dealing with complex Vector spaces we
+
+228
+00:05:12,990 --> 00:05:13,000
+dealing with complex Vector spaces we
+ 
+
+229
+00:05:13,000 --> 00:05:15,189
+dealing with complex Vector spaces we
+use the Herm Mission conjugate operation
+
+230
+00:05:15,189 --> 00:05:15,199
+use the Herm Mission conjugate operation
+ 
+
+231
+00:05:15,199 --> 00:05:17,830
+use the Herm Mission conjugate operation
+instead of the transpose
+
+232
+00:05:17,830 --> 00:05:17,840
+instead of the transpose
+ 
+
+233
+00:05:17,840 --> 00:05:20,270
+instead of the transpose
+operation however it's also good to know
+
+234
+00:05:20,270 --> 00:05:20,280
+operation however it's also good to know
+ 
+
+235
+00:05:20,280 --> 00:05:22,629
+operation however it's also good to know
+how to take the tensor product of two
+
+236
+00:05:22,629 --> 00:05:22,639
+how to take the tensor product of two
+ 
+
+237
+00:05:22,639 --> 00:05:23,710
+how to take the tensor product of two
+column
+
+238
+00:05:23,710 --> 00:05:23,720
+column
+ 
+
+239
+00:05:23,720 --> 00:05:26,790
+column
+vectors the tensor product of arrays is
+
+240
+00:05:26,790 --> 00:05:26,800
+vectors the tensor product of arrays is
+ 
+
+241
+00:05:26,800 --> 00:05:29,309
+vectors the tensor product of arrays is
+also called the chroniker product and it
+
+242
+00:05:29,309 --> 00:05:29,319
+also called the chroniker product and it
+ 
+
+243
+00:05:29,319 --> 00:05:32,550
+also called the chroniker product and it
+works as follows the tensor product of
+
+244
+00:05:32,550 --> 00:05:32,560
+works as follows the tensor product of
+ 
+
+245
+00:05:32,560 --> 00:05:35,790
+works as follows the tensor product of
+the column V and the column W involves
+
+246
+00:05:35,790 --> 00:05:35,800
+the column V and the column W involves
+ 
+
+247
+00:05:35,800 --> 00:05:38,029
+the column V and the column W involves
+taking each component of v and
+
+248
+00:05:38,029 --> 00:05:38,039
+taking each component of v and
+ 
+
+249
+00:05:38,039 --> 00:05:40,550
+taking each component of v and
+multiplying it by an entire copy of the
+
+250
+00:05:40,550 --> 00:05:40,560
+multiplying it by an entire copy of the
+ 
+
+251
+00:05:40,560 --> 00:05:44,029
+multiplying it by an entire copy of the
+two component column W the result is a
+
+252
+00:05:44,029 --> 00:05:44,039
+two component column W the result is a
+ 
+
+253
+00:05:44,039 --> 00:05:46,270
+two component column W the result is a
+six component column with the components
+
+254
+00:05:46,270 --> 00:05:46,280
+six component column with the components
+ 
+
+255
+00:05:46,280 --> 00:05:48,510
+six component column with the components
+of V and W mixed
+
+256
+00:05:48,510 --> 00:05:48,520
+of V and W mixed
+ 
+
+257
+00:05:48,520 --> 00:05:50,950
+of V and W mixed
+together similarly for the tensor
+
+258
+00:05:50,950 --> 00:05:50,960
+together similarly for the tensor
+ 
+
+259
+00:05:50,960 --> 00:05:53,909
+together similarly for the tensor
+product of matrices L and K we can
+
+260
+00:05:53,909 --> 00:05:53,919
+product of matrices L and K we can
+ 
+
+261
+00:05:53,919 --> 00:05:56,790
+product of matrices L and K we can
+multiply each component of L in the 3X3
+
+262
+00:05:56,790 --> 00:05:56,800
+multiply each component of L in the 3X3
+ 
+
+263
+00:05:56,800 --> 00:05:59,749
+multiply each component of L in the 3X3
+matrix by an entire copy of the 2x2
+
+264
+00:05:59,749 --> 00:05:59,759
+matrix by an entire copy of the 2x2
+ 
+
+265
+00:05:59,759 --> 00:06:03,710
+matrix by an entire copy of the 2x2
+Matrix K the result is a 6x6 Matrix that
+
+266
+00:06:03,710 --> 00:06:03,720
+Matrix K the result is a 6x6 Matrix that
+ 
+
+267
+00:06:03,720 --> 00:06:06,909
+Matrix K the result is a 6x6 Matrix that
+can operate on our six component column
+
+268
+00:06:06,909 --> 00:06:06,919
+can operate on our six component column
+ 
+
+269
+00:06:06,919 --> 00:06:09,309
+can operate on our six component column
+the resulting component multiplications
+
+270
+00:06:09,309 --> 00:06:09,319
+the resulting component multiplications
+ 
+
+271
+00:06:09,319 --> 00:06:11,710
+the resulting component multiplications
+end up being the same as the column row
+
+272
+00:06:11,710 --> 00:06:11,720
+end up being the same as the column row
+ 
+
+273
+00:06:11,720 --> 00:06:13,790
+end up being the same as the column row
+version we showed
+
+274
+00:06:13,790 --> 00:06:13,800
+version we showed
+ 
+
+275
+00:06:13,800 --> 00:06:16,830
+version we showed
+earlier more abstractly if we see the
+
+276
+00:06:16,830 --> 00:06:16,840
+earlier more abstractly if we see the
+ 
+
+277
+00:06:16,840 --> 00:06:19,749
+earlier more abstractly if we see the
+tensor product of L and K act on the
+
+278
+00:06:19,749 --> 00:06:19,759
+tensor product of L and K act on the
+ 
+
+279
+00:06:19,759 --> 00:06:23,189
+tensor product of L and K act on the
+tensor product of V and W we can pass V
+
+280
+00:06:23,189 --> 00:06:23,199
+tensor product of V and W we can pass V
+ 
+
+281
+00:06:23,199 --> 00:06:26,990
+tensor product of V and W we can pass V
+to L and pass W to K to get our
+
+282
+00:06:26,990 --> 00:06:27,000
+to L and pass W to K to get our
+ 
+
+283
+00:06:27,000 --> 00:06:29,629
+to L and pass W to K to get our
+result an important difference between
+
+284
+00:06:29,629 --> 00:06:29,639
+result an important difference between
+ 
+
+285
+00:06:29,639 --> 00:06:32,070
+result an important difference between
+the direct sum and the tensor product is
+
+286
+00:06:32,070 --> 00:06:32,080
+the direct sum and the tensor product is
+ 
+
+287
+00:06:32,080 --> 00:06:35,029
+the direct sum and the tensor product is
+how scalar multiplication works when we
+
+288
+00:06:35,029 --> 00:06:35,039
+how scalar multiplication works when we
+ 
+
+289
+00:06:35,039 --> 00:06:38,350
+how scalar multiplication works when we
+scale the direct sum of vectors V and W
+
+290
+00:06:38,350 --> 00:06:38,360
+scale the direct sum of vectors V and W
+ 
+
+291
+00:06:38,360 --> 00:06:41,270
+scale the direct sum of vectors V and W
+we're scaling the entire column so both
+
+292
+00:06:41,270 --> 00:06:41,280
+we're scaling the entire column so both
+ 
+
+293
+00:06:41,280 --> 00:06:44,189
+we're scaling the entire column so both
+V and W get Scaled by the
+
+294
+00:06:44,189 --> 00:06:44,199
+V and W get Scaled by the
+ 
+
+295
+00:06:44,199 --> 00:06:47,430
+V and W get Scaled by the
+scaler so when we scale a direct sum
+
+296
+00:06:47,430 --> 00:06:47,440
+scaler so when we scale a direct sum
+ 
+
+297
+00:06:47,440 --> 00:06:50,749
+scaler so when we scale a direct sum
+both elements in the sum get the scaling
+
+298
+00:06:50,749 --> 00:06:50,759
+both elements in the sum get the scaling
+ 
+
+299
+00:06:50,759 --> 00:06:52,870
+both elements in the sum get the scaling
+coefficient however since the tensor
+
+300
+00:06:52,870 --> 00:06:52,880
+coefficient however since the tensor
+ 
+
+301
+00:06:52,880 --> 00:06:56,189
+coefficient however since the tensor
+product of vectors V and W is done as a
+
+302
+00:06:56,189 --> 00:06:56,199
+product of vectors V and W is done as a
+ 
+
+303
+00:06:56,199 --> 00:06:58,990
+product of vectors V and W is done as a
+kind of array multiplication we scale
+
+304
+00:06:58,990 --> 00:06:59,000
+kind of array multiplication we scale
+ 
+
+305
+00:06:59,000 --> 00:07:02,909
+kind of array multiplication we scale
+the mixture of V and W so when we scale
+
+306
+00:07:02,909 --> 00:07:02,919
+the mixture of V and W so when we scale
+ 
+
+307
+00:07:02,919 --> 00:07:05,150
+the mixture of V and W so when we scale
+this tensor product we can choose to
+
+308
+00:07:05,150 --> 00:07:05,160
+this tensor product we can choose to
+ 
+
+309
+00:07:05,160 --> 00:07:08,869
+this tensor product we can choose to
+either scale V or scale W but we don't
+
+310
+00:07:08,869 --> 00:07:08,879
+either scale V or scale W but we don't
+ 
+
+311
+00:07:08,879 --> 00:07:10,510
+either scale V or scale W but we don't
+scale
+
+312
+00:07:10,510 --> 00:07:10,520
+scale
+ 
+
+313
+00:07:10,520 --> 00:07:13,869
+scale
+both also the tensor product obeys the
+
+314
+00:07:13,869 --> 00:07:13,879
+both also the tensor product obeys the
+ 
+
+315
+00:07:13,879 --> 00:07:15,830
+both also the tensor product obeys the
+distributive property over vector
+
+316
+00:07:15,830 --> 00:07:15,840
+distributive property over vector
+ 
+
+317
+00:07:15,840 --> 00:07:18,749
+distributive property over vector
+addition in both
+
+318
+00:07:18,749 --> 00:07:18,759
+addition in both
+ 
+
+319
+00:07:18,759 --> 00:07:21,150
+addition in both
+directions when we deal with systems of
+
+320
+00:07:21,150 --> 00:07:21,160
+directions when we deal with systems of
+ 
+
+321
+00:07:21,160 --> 00:07:23,670
+directions when we deal with systems of
+multiple particles the laws of quantum
+
+322
+00:07:23,670 --> 00:07:23,680
+multiple particles the laws of quantum
+ 
+
+323
+00:07:23,680 --> 00:07:25,589
+multiple particles the laws of quantum
+mechanics say that we must combine the
+
+324
+00:07:25,589 --> 00:07:25,599
+mechanics say that we must combine the
+ 
+
+325
+00:07:25,599 --> 00:07:27,390
+mechanics say that we must combine the
+particle States together using the
+
+326
+00:07:27,390 --> 00:07:27,400
+particle States together using the
+ 
+
+327
+00:07:27,400 --> 00:07:30,230
+particle States together using the
+tensor product for example example if we
+
+328
+00:07:30,230 --> 00:07:30,240
+tensor product for example example if we
+ 
+
+329
+00:07:30,240 --> 00:07:33,309
+tensor product for example example if we
+have a system of two spin 1/2 particles
+
+330
+00:07:33,309 --> 00:07:33,319
+have a system of two spin 1/2 particles
+ 
+
+331
+00:07:33,319 --> 00:07:35,950
+have a system of two spin 1/2 particles
+each with two states then the tensor
+
+332
+00:07:35,950 --> 00:07:35,960
+each with two states then the tensor
+ 
+
+333
+00:07:35,960 --> 00:07:38,629
+each with two states then the tensor
+product space has a basis given by all
+
+334
+00:07:38,629 --> 00:07:38,639
+product space has a basis given by all
+ 
+
+335
+00:07:38,639 --> 00:07:41,189
+product space has a basis given by all
+possible pairs of particle
+
+336
+00:07:41,189 --> 00:07:41,199
+possible pairs of particle
+ 
+
+337
+00:07:41,199 --> 00:07:44,309
+possible pairs of particle
+States we can rotate these State pairs
+
+338
+00:07:44,309 --> 00:07:44,319
+States we can rotate these State pairs
+ 
+
+339
+00:07:44,319 --> 00:07:46,710
+States we can rotate these State pairs
+using the tensor product of a pair of
+
+340
+00:07:46,710 --> 00:07:46,720
+using the tensor product of a pair of
+ 
+
+341
+00:07:46,720 --> 00:07:48,869
+using the tensor product of a pair of
+su2
+
+342
+00:07:48,869 --> 00:07:48,879
+su2
+ 
+
+343
+00:07:48,879 --> 00:07:51,589
+su2
+matrices for a system of three spin 1
+
+344
+00:07:51,589 --> 00:07:51,599
+matrices for a system of three spin 1
+ 
+
+345
+00:07:51,599 --> 00:07:54,350
+matrices for a system of three spin 1
+half particles the tensor product space
+
+346
+00:07:54,350 --> 00:07:54,360
+half particles the tensor product space
+ 
+
+347
+00:07:54,360 --> 00:07:56,390
+half particles the tensor product space
+has a basis given by all possible
+
+348
+00:07:56,390 --> 00:07:56,400
+has a basis given by all possible
+ 
+
+349
+00:07:56,400 --> 00:07:59,830
+has a basis given by all possible
+triples of particle States we and then
+
+350
+00:07:59,830 --> 00:07:59,840
+triples of particle States we and then
+ 
+
+351
+00:07:59,840 --> 00:08:02,070
+triples of particle States we and then
+rotate them using the tensor product of
+
+352
+00:08:02,070 --> 00:08:02,080
+rotate them using the tensor product of
+ 
+
+353
+00:08:02,080 --> 00:08:04,790
+rotate them using the tensor product of
+a triple of su2
+
+354
+00:08:04,790 --> 00:08:04,800
+a triple of su2
+ 
+
+355
+00:08:04,800 --> 00:08:07,629
+a triple of su2
+matrices to save space in Quant
+
+356
+00:08:07,629 --> 00:08:07,639
+matrices to save space in Quant
+ 
+
+357
+00:08:07,639 --> 00:08:09,830
+matrices to save space in Quant
+mechanics we often omit the tensor
+
+358
+00:08:09,830 --> 00:08:09,840
+mechanics we often omit the tensor
+ 
+
+359
+00:08:09,840 --> 00:08:11,869
+mechanics we often omit the tensor
+product symbol and write all the
+
+360
+00:08:11,869 --> 00:08:11,879
+product symbol and write all the
+ 
+
+361
+00:08:11,879 --> 00:08:15,550
+product symbol and write all the
+particle States in a single K like
+
+362
+00:08:15,550 --> 00:08:15,560
+particle States in a single K like
+ 
+
+363
+00:08:15,560 --> 00:08:18,469
+particle States in a single K like
+this so whenever we have matrices from a
+
+364
+00:08:18,469 --> 00:08:18,479
+this so whenever we have matrices from a
+ 
+
+365
+00:08:18,479 --> 00:08:21,670
+this so whenever we have matrices from a
+Le group like su2 we know the rule for
+
+366
+00:08:21,670 --> 00:08:21,680
+Le group like su2 we know the rule for
+ 
+
+367
+00:08:21,680 --> 00:08:23,350
+Le group like su2 we know the rule for
+how the tensor product of Le group
+
+368
+00:08:23,350 --> 00:08:23,360
+how the tensor product of Le group
+ 
+
+369
+00:08:23,360 --> 00:08:25,749
+how the tensor product of Le group
+matrices will act on the tensor product
+
+370
+00:08:25,749 --> 00:08:25,759
+matrices will act on the tensor product
+ 
+
+371
+00:08:25,759 --> 00:08:28,830
+matrices will act on the tensor product
+of States but what about the matrices in
+
+372
+00:08:28,830 --> 00:08:28,840
+of States but what about the matrices in
+ 
+
+373
+00:08:28,840 --> 00:08:31,629
+of States but what about the matrices in
+a lead group groups Lee algebra for
+
+374
+00:08:31,629 --> 00:08:31,639
+a lead group groups Lee algebra for
+ 
+
+375
+00:08:31,639 --> 00:08:33,949
+a lead group groups Lee algebra for
+example how would the latter operators
+
+376
+00:08:33,949 --> 00:08:33,959
+example how would the latter operators
+ 
+
+377
+00:08:33,959 --> 00:08:36,790
+example how would the latter operators
+and igen value operator work on tensor
+
+378
+00:08:36,790 --> 00:08:36,800
+and igen value operator work on tensor
+ 
+
+379
+00:08:36,800 --> 00:08:38,070
+and igen value operator work on tensor
+product
+
+380
+00:08:38,070 --> 00:08:38,080
+product
+ 
+
+381
+00:08:38,080 --> 00:08:41,389
+product
+States recall given a Lee group with the
+
+382
+00:08:41,389 --> 00:08:41,399
+States recall given a Lee group with the
+ 
+
+383
+00:08:41,399 --> 00:08:44,070
+States recall given a Lee group with the
+identity element as one of its points
+
+384
+00:08:44,070 --> 00:08:44,080
+identity element as one of its points
+ 
+
+385
+00:08:44,080 --> 00:08:46,269
+identity element as one of its points
+the group's Lee algebra is like a
+
+386
+00:08:46,269 --> 00:08:46,279
+the group's Lee algebra is like a
+ 
+
+387
+00:08:46,279 --> 00:08:48,550
+the group's Lee algebra is like a
+tangent space at the identity of the
+
+388
+00:08:48,550 --> 00:08:48,560
+tangent space at the identity of the
+ 
+
+389
+00:08:48,560 --> 00:08:51,350
+tangent space at the identity of the
+group a Lee algebra element is like a
+
+390
+00:08:51,350 --> 00:08:51,360
+group a Lee algebra element is like a
+ 
+
+391
+00:08:51,360 --> 00:08:53,790
+group a Lee algebra element is like a
+tangent Vector in this tangent
+
+392
+00:08:53,790 --> 00:08:53,800
+tangent Vector in this tangent
+ 
+
+393
+00:08:53,800 --> 00:08:56,550
+tangent Vector in this tangent
+space when a Lee algebra element is
+
+394
+00:08:56,550 --> 00:08:56,560
+space when a Lee algebra element is
+ 
+
+395
+00:08:56,560 --> 00:08:59,470
+space when a Lee algebra element is
+exponentiated along with a parameter it
+
+396
+00:08:59,470 --> 00:08:59,480
+exponentiated along with a parameter it
+ 
+
+397
+00:08:59,480 --> 00:09:01,870
+exponentiated along with a parameter it
+will generate a continuous path of group
+
+398
+00:09:01,870 --> 00:09:01,880
+will generate a continuous path of group
+ 
+
+399
+00:09:01,880 --> 00:09:04,590
+will generate a continuous path of group
+members in the Le group when the
+
+400
+00:09:04,590 --> 00:09:04,600
+members in the Le group when the
+ 
+
+401
+00:09:04,600 --> 00:09:07,110
+members in the Le group when the
+parameter is zero we get the identity
+
+402
+00:09:07,110 --> 00:09:07,120
+parameter is zero we get the identity
+ 
+
+403
+00:09:07,120 --> 00:09:09,550
+parameter is zero we get the identity
+element which is where the Lee algebra
+
+404
+00:09:09,550 --> 00:09:09,560
+element which is where the Lee algebra
+ 
+
+405
+00:09:09,560 --> 00:09:11,910
+element which is where the Lee algebra
+tangent space meets the Lee
+
+406
+00:09:11,910 --> 00:09:11,920
+tangent space meets the Lee
+ 
+
+407
+00:09:11,920 --> 00:09:14,750
+tangent space meets the Lee
+group to go from the Le group Matrix
+
+408
+00:09:14,750 --> 00:09:14,760
+group to go from the Le group Matrix
+ 
+
+409
+00:09:14,760 --> 00:09:17,550
+group to go from the Le group Matrix
+back to the generator in the Lee algebra
+
+410
+00:09:17,550 --> 00:09:17,560
+back to the generator in the Lee algebra
+ 
+
+411
+00:09:17,560 --> 00:09:19,310
+back to the generator in the Lee algebra
+we take the derivative of the group
+
+412
+00:09:19,310 --> 00:09:19,320
+we take the derivative of the group
+ 
+
+413
+00:09:19,320 --> 00:09:21,910
+we take the derivative of the group
+element and then set the parameter to
+
+414
+00:09:21,910 --> 00:09:21,920
+element and then set the parameter to
+ 
+
+415
+00:09:21,920 --> 00:09:24,509
+element and then set the parameter to
+zero this derivative brings the Lee
+
+416
+00:09:24,509 --> 00:09:24,519
+zero this derivative brings the Lee
+ 
+
+417
+00:09:24,519 --> 00:09:27,269
+zero this derivative brings the Lee
+algebra generator down in front by Chain
+
+418
+00:09:27,269 --> 00:09:27,279
+algebra generator down in front by Chain
+ 
+
+419
+00:09:27,279 --> 00:09:29,910
+algebra generator down in front by Chain
+Rule and setting the parameter to Zer
+
+420
+00:09:29,910 --> 00:09:29,920
+Rule and setting the parameter to Zer
+ 
+
+421
+00:09:29,920 --> 00:09:32,470
+Rule and setting the parameter to Zer
+makes the exponential go to the identity
+
+422
+00:09:32,470 --> 00:09:32,480
+makes the exponential go to the identity
+ 
+
+423
+00:09:32,480 --> 00:09:35,110
+makes the exponential go to the identity
+leaving us with just the
+
+424
+00:09:35,110 --> 00:09:35,120
+leaving us with just the
+ 
+
+425
+00:09:35,120 --> 00:09:37,350
+leaving us with just the
+generator let's say that we have a Le
+
+426
+00:09:37,350 --> 00:09:37,360
+generator let's say that we have a Le
+ 
+
+427
+00:09:37,360 --> 00:09:40,949
+generator let's say that we have a Le
+group path a of t with generator small a
+
+428
+00:09:40,949 --> 00:09:40,959
+group path a of t with generator small a
+ 
+
+429
+00:09:40,959 --> 00:09:43,670
+group path a of t with generator small a
+and another path B of t with generator
+
+430
+00:09:43,670 --> 00:09:43,680
+and another path B of t with generator
+ 
+
+431
+00:09:43,680 --> 00:09:47,310
+and another path B of t with generator
+small B we can get these generators by
+
+432
+00:09:47,310 --> 00:09:47,320
+small B we can get these generators by
+ 
+
+433
+00:09:47,320 --> 00:09:49,110
+small B we can get these generators by
+taking the derivative and then setting
+
+434
+00:09:49,110 --> 00:09:49,120
+taking the derivative and then setting
+ 
+
+435
+00:09:49,120 --> 00:09:51,350
+taking the derivative and then setting
+the parameter T to
+
+436
+00:09:51,350 --> 00:09:51,360
+the parameter T to
+ 
+
+437
+00:09:51,360 --> 00:09:54,269
+the parameter T to
+zero if we have the tensor product of a
+
+438
+00:09:54,269 --> 00:09:54,279
+zero if we have the tensor product of a
+ 
+
+439
+00:09:54,279 --> 00:09:57,190
+zero if we have the tensor product of a
+of T and B of T we can find this
+
+440
+00:09:57,190 --> 00:09:57,200
+of T and B of T we can find this
+ 
+
+441
+00:09:57,200 --> 00:09:59,870
+of T and B of T we can find this
+element's generator the usual way
+
+442
+00:09:59,870 --> 00:09:59,880
+element's generator the usual way
+ 
+
+443
+00:09:59,880 --> 00:10:01,790
+element's generator the usual way
+by taking the derivative and setting the
+
+444
+00:10:01,790 --> 00:10:01,800
+by taking the derivative and setting the
+ 
+
+445
+00:10:01,800 --> 00:10:03,509
+by taking the derivative and setting the
+parameter T to
+
+446
+00:10:03,509 --> 00:10:03,519
+parameter T to
+ 
+
+447
+00:10:03,519 --> 00:10:06,350
+parameter T to
+zero to take the derivative we use
+
+448
+00:10:06,350 --> 00:10:06,360
+zero to take the derivative we use
+ 
+
+449
+00:10:06,360 --> 00:10:08,790
+zero to take the derivative we use
+product rule over the tensor product and
+
+450
+00:10:08,790 --> 00:10:08,800
+product rule over the tensor product and
+ 
+
+451
+00:10:08,800 --> 00:10:11,870
+product rule over the tensor product and
+get a sum of two terms then we set the
+
+452
+00:10:11,870 --> 00:10:11,880
+get a sum of two terms then we set the
+ 
+
+453
+00:10:11,880 --> 00:10:16,069
+get a sum of two terms then we set the
+parameter T to Zero by definition A of0
+
+454
+00:10:16,069 --> 00:10:16,079
+parameter T to Zero by definition A of0
+ 
+
+455
+00:10:16,079 --> 00:10:18,509
+parameter T to Zero by definition A of0
+and B of0 both equal the identity
+
+456
+00:10:18,509 --> 00:10:18,519
+and B of0 both equal the identity
+ 
+
+457
+00:10:18,519 --> 00:10:21,069
+and B of0 both equal the identity
+element since the parameter being zero
+
+458
+00:10:21,069 --> 00:10:21,079
+element since the parameter being zero
+ 
+
+459
+00:10:21,079 --> 00:10:22,829
+element since the parameter being zero
+gives the identity
+
+460
+00:10:22,829 --> 00:10:22,839
+gives the identity
+ 
+
+461
+00:10:22,839 --> 00:10:25,430
+gives the identity
+transformation and setting T equals z
+
+462
+00:10:25,430 --> 00:10:25,440
+transformation and setting T equals z
+ 
+
+463
+00:10:25,440 --> 00:10:27,190
+transformation and setting T equals z
+for the derivatives is just the
+
+464
+00:10:27,190 --> 00:10:27,200
+for the derivatives is just the
+ 
+
+465
+00:10:27,200 --> 00:10:29,389
+for the derivatives is just the
+definition of the original generators
+
+466
+00:10:29,389 --> 00:10:29,399
+definition of the original generators
+ 
+
+467
+00:10:29,399 --> 00:10:31,230
+definition of the original generators
+small a and small
+
+468
+00:10:31,230 --> 00:10:31,240
+small a and small
+ 
+
+469
+00:10:31,240 --> 00:10:34,230
+small a and small
+B so we see the tensor product group
+
+470
+00:10:34,230 --> 00:10:34,240
+B so we see the tensor product group
+ 
+
+471
+00:10:34,240 --> 00:10:37,269
+B so we see the tensor product group
+element is generated by small a tensor
+
+472
+00:10:37,269 --> 00:10:37,279
+element is generated by small a tensor
+ 
+
+473
+00:10:37,279 --> 00:10:39,949
+element is generated by small a tensor
+the identity plus the identity tensor
+
+474
+00:10:39,949 --> 00:10:39,959
+the identity plus the identity tensor
+ 
+
+475
+00:10:39,959 --> 00:10:43,269
+the identity plus the identity tensor
+small B so we can obtain this Le group
+
+476
+00:10:43,269 --> 00:10:43,279
+small B so we can obtain this Le group
+ 
+
+477
+00:10:43,279 --> 00:10:46,110
+small B so we can obtain this Le group
+member a of T tensor B of T by
+
+478
+00:10:46,110 --> 00:10:46,120
+member a of T tensor B of T by
+ 
+
+479
+00:10:46,120 --> 00:10:48,150
+member a of T tensor B of T by
+exponentiating this Lee algebra
+
+480
+00:10:48,150 --> 00:10:48,160
+exponentiating this Lee algebra
+ 
+
+481
+00:10:48,160 --> 00:10:51,310
+exponentiating this Lee algebra
+generator times a parameter
+
+482
+00:10:51,310 --> 00:10:51,320
+generator times a parameter
+ 
+
+483
+00:10:51,320 --> 00:10:54,750
+generator times a parameter
+T so let's say we have two Le group
+
+484
+00:10:54,750 --> 00:10:54,760
+T so let's say we have two Le group
+ 
+
+485
+00:10:54,760 --> 00:10:57,829
+T so let's say we have two Le group
+representations Row one and row two that
+
+486
+00:10:57,829 --> 00:10:57,839
+representations Row one and row two that
+ 
+
+487
+00:10:57,839 --> 00:11:00,310
+representations Row one and row two that
+give us Matrix representation ations for
+
+488
+00:11:00,310 --> 00:11:00,320
+give us Matrix representation ations for
+ 
+
+489
+00:11:00,320 --> 00:11:03,910
+give us Matrix representation ations for
+elements of a group G we can define a
+
+490
+00:11:03,910 --> 00:11:03,920
+elements of a group G we can define a
+ 
+
+491
+00:11:03,920 --> 00:11:06,949
+elements of a group G we can define a
+new group representation Row one tensor
+
+492
+00:11:06,949 --> 00:11:06,959
+new group representation Row one tensor
+ 
+
+493
+00:11:06,959 --> 00:11:10,190
+new group representation Row one tensor
+Row Two of a group element just by
+
+494
+00:11:10,190 --> 00:11:10,200
+Row Two of a group element just by
+ 
+
+495
+00:11:10,200 --> 00:11:11,550
+Row Two of a group element just by
+taking the element's first
+
+496
+00:11:11,550 --> 00:11:11,560
+taking the element's first
+ 
+
+497
+00:11:11,560 --> 00:11:13,670
+taking the element's first
+representation Matrix and second
+
+498
+00:11:13,670 --> 00:11:13,680
+representation Matrix and second
+ 
+
+499
+00:11:13,680 --> 00:11:15,910
+representation Matrix and second
+representation Matrix and taking the
+
+500
+00:11:15,910 --> 00:11:15,920
+representation Matrix and taking the
+ 
+
+501
+00:11:15,920 --> 00:11:17,750
+representation Matrix and taking the
+tensor product of the
+
+502
+00:11:17,750 --> 00:11:17,760
+tensor product of the
+ 
+
+503
+00:11:17,760 --> 00:11:20,430
+tensor product of the
+matrices therefore the tensor product of
+
+504
+00:11:20,430 --> 00:11:20,440
+matrices therefore the tensor product of
+ 
+
+505
+00:11:20,440 --> 00:11:23,550
+matrices therefore the tensor product of
+a 3X3 representation and a 2x2
+
+506
+00:11:23,550 --> 00:11:23,560
+a 3X3 representation and a 2x2
+ 
+
+507
+00:11:23,560 --> 00:11:27,629
+a 3X3 representation and a 2x2
+representation would give us a 6x6
+
+508
+00:11:27,629 --> 00:11:27,639
+representation would give us a 6x6
+ 
+
+509
+00:11:27,639 --> 00:11:29,470
+representation would give us a 6x6
+representation but what about the
+
+510
+00:11:29,470 --> 00:11:29,480
+representation but what about the
+ 
+
+511
+00:11:29,480 --> 00:11:31,829
+representation but what about the
+corresponding Lee algebra
+
+512
+00:11:31,829 --> 00:11:31,839
+corresponding Lee algebra
+ 
+
+513
+00:11:31,839 --> 00:11:33,910
+corresponding Lee algebra
+representation if we have two
+
+514
+00:11:33,910 --> 00:11:33,920
+representation if we have two
+ 
+
+515
+00:11:33,920 --> 00:11:37,110
+representation if we have two
+representations Pi 1 and Pi 2 of a Lee
+
+516
+00:11:37,110 --> 00:11:37,120
+representations Pi 1 and Pi 2 of a Lee
+ 
+
+517
+00:11:37,120 --> 00:11:40,670
+representations Pi 1 and Pi 2 of a Lee
+algebra small G then the tensor product
+
+518
+00:11:40,670 --> 00:11:40,680
+algebra small G then the tensor product
+ 
+
+519
+00:11:40,680 --> 00:11:43,389
+algebra small G then the tensor product
+representation of an algebra element is
+
+520
+00:11:43,389 --> 00:11:43,399
+representation of an algebra element is
+ 
+
+521
+00:11:43,399 --> 00:11:45,670
+representation of an algebra element is
+given by the first representation Matrix
+
+522
+00:11:45,670 --> 00:11:45,680
+given by the first representation Matrix
+ 
+
+523
+00:11:45,680 --> 00:11:47,910
+given by the first representation Matrix
+tensored with the identity plus the
+
+524
+00:11:47,910 --> 00:11:47,920
+tensored with the identity plus the
+ 
+
+525
+00:11:47,920 --> 00:11:49,910
+tensored with the identity plus the
+identity tensored with the second
+
+526
+00:11:49,910 --> 00:11:49,920
+identity tensored with the second
+ 
+
+527
+00:11:49,920 --> 00:11:51,829
+identity tensored with the second
+representation
+
+528
+00:11:51,829 --> 00:11:51,839
+representation
+ 
+
+529
+00:11:51,839 --> 00:11:56,150
+representation
+Matrix if small L generates L of t a 3X3
+
+530
+00:11:56,150 --> 00:11:56,160
+Matrix if small L generates L of t a 3X3
+ 
+
+531
+00:11:56,160 --> 00:11:59,790
+Matrix if small L generates L of t a 3X3
+Matrix and small K generates K of t a
+
+532
+00:11:59,790 --> 00:11:59,800
+Matrix and small K generates K of t a
+ 
+
+533
+00:11:59,800 --> 00:12:04,150
+Matrix and small K generates K of t a
+2x2 matrix then L of T tensor K of T
+
+534
+00:12:04,150 --> 00:12:04,160
+2x2 matrix then L of T tensor K of T
+ 
+
+535
+00:12:04,160 --> 00:12:06,910
+2x2 matrix then L of T tensor K of T
+will be generated by small L tensor the
+
+536
+00:12:06,910 --> 00:12:06,920
+will be generated by small L tensor the
+ 
+
+537
+00:12:06,920 --> 00:12:10,069
+will be generated by small L tensor the
+2x2 identity plus the 3X3 identity
+
+538
+00:12:10,069 --> 00:12:10,079
+2x2 identity plus the 3X3 identity
+ 
+
+539
+00:12:10,079 --> 00:12:13,750
+2x2 identity plus the 3X3 identity
+tensor small K note that after we carry
+
+540
+00:12:13,750 --> 00:12:13,760
+tensor small K note that after we carry
+ 
+
+541
+00:12:13,760 --> 00:12:16,430
+tensor small K note that after we carry
+out the tensor product both matrices in
+
+542
+00:12:16,430 --> 00:12:16,440
+out the tensor product both matrices in
+ 
+
+543
+00:12:16,440 --> 00:12:18,389
+out the tensor product both matrices in
+the sum will be
+
+544
+00:12:18,389 --> 00:12:18,399
+the sum will be
+ 
+
+545
+00:12:18,399 --> 00:12:23,550
+the sum will be
+6x6 so we get a sum of two 6x6
+
+546
+00:12:23,550 --> 00:12:23,560
+6x6 so we get a sum of two 6x6
+ 
+
+547
+00:12:23,560 --> 00:12:26,350
+6x6 so we get a sum of two 6x6
+matrices so these definitions work for
+
+548
+00:12:26,350 --> 00:12:26,360
+matrices so these definitions work for
+ 
+
+549
+00:12:26,360 --> 00:12:29,269
+matrices so these definitions work for
+any pair of Le group representations and
+
+550
+00:12:29,269 --> 00:12:29,279
+any pair of Le group representations and
+ 
+
+551
+00:12:29,279 --> 00:12:30,350
+any pair of Le group representations and
+their Lee
+
+552
+00:12:30,350 --> 00:12:30,360
+their Lee
+ 
+
+553
+00:12:30,360 --> 00:12:32,629
+their Lee
+algebras but let's get back to the
+
+554
+00:12:32,629 --> 00:12:32,639
+algebras but let's get back to the
+ 
+
+555
+00:12:32,639 --> 00:12:35,269
+algebras but let's get back to the
+specific case of the su2 Le group and
+
+556
+00:12:35,269 --> 00:12:35,279
+specific case of the su2 Le group and
+ 
+
+557
+00:12:35,279 --> 00:12:38,470
+specific case of the su2 Le group and
+the su2 Lee algebra let's see what
+
+558
+00:12:38,470 --> 00:12:38,480
+the su2 Lee algebra let's see what
+ 
+
+559
+00:12:38,480 --> 00:12:40,790
+the su2 Lee algebra let's see what
+happens when we apply these rules to the
+
+560
+00:12:40,790 --> 00:12:40,800
+happens when we apply these rules to the
+ 
+
+561
+00:12:40,800 --> 00:12:45,030
+happens when we apply these rules to the
+case of a pair of spin 1/2 su2
+
+562
+00:12:45,030 --> 00:12:45,040
+case of a pair of spin 1/2 su2
+ 
+
+563
+00:12:45,040 --> 00:12:47,910
+case of a pair of spin 1/2 su2
+representations recall the su2 Lee
+
+564
+00:12:47,910 --> 00:12:47,920
+representations recall the su2 Lee
+ 
+
+565
+00:12:47,920 --> 00:12:50,030
+representations recall the su2 Lee
+algebra is defined using these
+
+566
+00:12:50,030 --> 00:12:50,040
+algebra is defined using these
+ 
+
+567
+00:12:50,040 --> 00:12:52,710
+algebra is defined using these
+commutation relations of three
+
+568
+00:12:52,710 --> 00:12:52,720
+commutation relations of three
+ 
+
+569
+00:12:52,720 --> 00:12:54,990
+commutation relations of three
+generators and the raising and lowering
+
+570
+00:12:54,990 --> 00:12:55,000
+generators and the raising and lowering
+ 
+
+571
+00:12:55,000 --> 00:12:57,509
+generators and the raising and lowering
+operators and igen value operator are
+
+572
+00:12:57,509 --> 00:12:57,519
+operators and igen value operator are
+ 
+
+573
+00:12:57,519 --> 00:13:00,629
+operators and igen value operator are
+defined like this for the spin 1/2
+
+574
+00:13:00,629 --> 00:13:00,639
+defined like this for the spin 1/2
+ 
+
+575
+00:13:00,639 --> 00:13:03,629
+defined like this for the spin 1/2
+representation of su2 the generators are
+
+576
+00:13:03,629 --> 00:13:03,639
+representation of su2 the generators are
+ 
+
+577
+00:13:03,639 --> 00:13:05,550
+representation of su2 the generators are
+given by 2x two
+
+578
+00:13:05,550 --> 00:13:05,560
+given by 2x two
+ 
+
+579
+00:13:05,560 --> 00:13:07,990
+given by 2x two
+matrices these generators act on a
+
+580
+00:13:07,990 --> 00:13:08,000
+matrices these generators act on a
+ 
+
+581
+00:13:08,000 --> 00:13:10,350
+matrices these generators act on a
+two-dimensional Vector space with two
+
+582
+00:13:10,350 --> 00:13:10,360
+two-dimensional Vector space with two
+ 
+
+583
+00:13:10,360 --> 00:13:11,350
+two-dimensional Vector space with two
+basis
+
+584
+00:13:11,350 --> 00:13:11,360
+basis
+ 
+
+585
+00:13:11,360 --> 00:13:13,629
+basis
+elements it's common to label these
+
+586
+00:13:13,629 --> 00:13:13,639
+elements it's common to label these
+ 
+
+587
+00:13:13,639 --> 00:13:17,310
+elements it's common to label these
+basis elements as plus2 and minus one2
+
+588
+00:13:17,310 --> 00:13:17,320
+basis elements as plus2 and minus one2
+ 
+
+589
+00:13:17,320 --> 00:13:20,470
+basis elements as plus2 and minus one2
+which are their igen values under the gz
+
+590
+00:13:20,470 --> 00:13:20,480
+which are their igen values under the gz
+ 
+
+591
+00:13:20,480 --> 00:13:22,910
+which are their igen values under the gz
+operator however for Simplicity I'm
+
+592
+00:13:22,910 --> 00:13:22,920
+operator however for Simplicity I'm
+ 
+
+593
+00:13:22,920 --> 00:13:24,870
+operator however for Simplicity I'm
+going to label them with an up arrow and
+
+594
+00:13:24,870 --> 00:13:24,880
+going to label them with an up arrow and
+ 
+
+595
+00:13:24,880 --> 00:13:27,949
+going to label them with an up arrow and
+a down arrow respectively because they
+
+596
+00:13:27,949 --> 00:13:27,959
+a down arrow respectively because they
+ 
+
+597
+00:13:27,959 --> 00:13:29,870
+a down arrow respectively because they
+denote the spin up and and spin down
+
+598
+00:13:29,870 --> 00:13:29,880
+denote the spin up and and spin down
+ 
+
+599
+00:13:29,880 --> 00:13:31,150
+denote the spin up and and spin down
+states of a
+
+600
+00:13:31,150 --> 00:13:31,160
+states of a
+ 
+
+601
+00:13:31,160 --> 00:13:34,829
+states of a
+particle if we have a pair of su2 Lee
+
+602
+00:13:34,829 --> 00:13:34,839
+particle if we have a pair of su2 Lee
+ 
+
+603
+00:13:34,839 --> 00:13:37,350
+particle if we have a pair of su2 Lee
+algebras each represented with the spin
+
+604
+00:13:37,350 --> 00:13:37,360
+algebras each represented with the spin
+ 
+
+605
+00:13:37,360 --> 00:13:40,110
+algebras each represented with the spin
+1/2 representation and we take their
+
+606
+00:13:40,110 --> 00:13:40,120
+1/2 representation and we take their
+ 
+
+607
+00:13:40,120 --> 00:13:42,629
+1/2 representation and we take their
+tensor product the dimensions will
+
+608
+00:13:42,629 --> 00:13:42,639
+tensor product the dimensions will
+ 
+
+609
+00:13:42,639 --> 00:13:45,949
+tensor product the dimensions will
+multiply into a four-dimensional space
+
+610
+00:13:45,949 --> 00:13:45,959
+multiply into a four-dimensional space
+ 
+
+611
+00:13:45,959 --> 00:13:48,389
+multiply into a four-dimensional space
+the basis States would then be up tensor
+
+612
+00:13:48,389 --> 00:13:48,399
+the basis States would then be up tensor
+ 
+
+613
+00:13:48,399 --> 00:13:51,509
+the basis States would then be up tensor
+up up tensor down down tensor up and
+
+614
+00:13:51,509 --> 00:13:51,519
+up up tensor down down tensor up and
+ 
+
+615
+00:13:51,519 --> 00:13:54,790
+up up tensor down down tensor up and
+down tensor down again to save space
+
+616
+00:13:54,790 --> 00:13:54,800
+down tensor down again to save space
+ 
+
+617
+00:13:54,800 --> 00:13:56,710
+down tensor down again to save space
+I'll often omit the tensor product
+
+618
+00:13:56,710 --> 00:13:56,720
+I'll often omit the tensor product
+ 
+
+619
+00:13:56,720 --> 00:13:59,389
+I'll often omit the tensor product
+symbol and write the arrows in the same
+
+620
+00:13:59,389 --> 00:13:59,399
+symbol and write the arrows in the same
+ 
+
+621
+00:13:59,399 --> 00:14:01,870
+symbol and write the arrows in the same
+Vector but I'll be using both of these
+
+622
+00:14:01,870 --> 00:14:01,880
+Vector but I'll be using both of these
+ 
+
+623
+00:14:01,880 --> 00:14:04,189
+Vector but I'll be using both of these
+notations in this
+
+624
+00:14:04,189 --> 00:14:04,199
+notations in this
+ 
+
+625
+00:14:04,199 --> 00:14:06,949
+notations in this
+video we can take the generators in the
+
+626
+00:14:06,949 --> 00:14:06,959
+video we can take the generators in the
+ 
+
+627
+00:14:06,959 --> 00:14:10,430
+video we can take the generators in the
+S2 Lee algebra and extend them to the
+
+628
+00:14:10,430 --> 00:14:10,440
+S2 Lee algebra and extend them to the
+ 
+
+629
+00:14:10,440 --> 00:14:12,829
+S2 Lee algebra and extend them to the
+space su2 tensor
+
+630
+00:14:12,829 --> 00:14:12,839
+space su2 tensor
+ 
+
+631
+00:14:12,839 --> 00:14:16,189
+space su2 tensor
+su2 we just take the operator tensor the
+
+632
+00:14:16,189 --> 00:14:16,199
+su2 we just take the operator tensor the
+ 
+
+633
+00:14:16,199 --> 00:14:20,030
+su2 we just take the operator tensor the
+identity plus the identity tensor the
+
+634
+00:14:20,030 --> 00:14:20,040
+identity plus the identity tensor the
+ 
+
+635
+00:14:20,040 --> 00:14:22,870
+identity plus the identity tensor the
+operator the IG value and Ladder
+
+636
+00:14:22,870 --> 00:14:22,880
+operator the IG value and Ladder
+ 
+
+637
+00:14:22,880 --> 00:14:25,269
+operator the IG value and Ladder
+operators which live in the complexified
+
+638
+00:14:25,269 --> 00:14:25,279
+operators which live in the complexified
+ 
+
+639
+00:14:25,279 --> 00:14:27,790
+operators which live in the complexified
+version of these Lee algebras can be
+
+640
+00:14:27,790 --> 00:14:27,800
+version of these Lee algebras can be
+ 
+
+641
+00:14:27,800 --> 00:14:30,790
+version of these Lee algebras can be
+extended in the same way
+
+642
+00:14:30,790 --> 00:14:30,800
+extended in the same way
+ 
+
+643
+00:14:30,800 --> 00:14:33,230
+extended in the same way
+so the notation here can get a little
+
+644
+00:14:33,230 --> 00:14:33,240
+so the notation here can get a little
+ 
+
+645
+00:14:33,240 --> 00:14:35,910
+so the notation here can get a little
+confusing but the igen value operator
+
+646
+00:14:35,910 --> 00:14:35,920
+confusing but the igen value operator
+ 
+
+647
+00:14:35,920 --> 00:14:38,389
+confusing but the igen value operator
+that lives in the su2 tensor product
+
+648
+00:14:38,389 --> 00:14:38,399
+that lives in the su2 tensor product
+ 
+
+649
+00:14:38,399 --> 00:14:41,389
+that lives in the su2 tensor product
+space is made up of igen value operators
+
+650
+00:14:41,389 --> 00:14:41,399
+space is made up of igen value operators
+ 
+
+651
+00:14:41,399 --> 00:14:43,870
+space is made up of igen value operators
+from the individual su2
+
+652
+00:14:43,870 --> 00:14:43,880
+from the individual su2
+ 
+
+653
+00:14:43,880 --> 00:14:46,670
+from the individual su2
+spaces I'm going to use the same symbol
+
+654
+00:14:46,670 --> 00:14:46,680
+spaces I'm going to use the same symbol
+ 
+
+655
+00:14:46,680 --> 00:14:49,550
+spaces I'm going to use the same symbol
+for both of these cases but it should be
+
+656
+00:14:49,550 --> 00:14:49,560
+for both of these cases but it should be
+ 
+
+657
+00:14:49,560 --> 00:14:52,310
+for both of these cases but it should be
+clear from Context what I mean if an
+
+658
+00:14:52,310 --> 00:14:52,320
+clear from Context what I mean if an
+ 
+
+659
+00:14:52,320 --> 00:14:54,870
+clear from Context what I mean if an
+operator acts on an individual State
+
+660
+00:14:54,870 --> 00:14:54,880
+operator acts on an individual State
+ 
+
+661
+00:14:54,880 --> 00:14:58,310
+operator acts on an individual State
+it's an individual su2 operator if an
+
+662
+00:14:58,310 --> 00:14:58,320
+it's an individual su2 operator if an
+ 
+
+663
+00:14:58,320 --> 00:15:01,189
+it's an individual su2 operator if an
+operator Act on a tensor product State
+
+664
+00:15:01,189 --> 00:15:01,199
+operator Act on a tensor product State
+ 
+
+665
+00:15:01,199 --> 00:15:04,550
+operator Act on a tensor product State
+it's the tensor product su2
+
+666
+00:15:04,550 --> 00:15:04,560
+it's the tensor product su2
+ 
+
+667
+00:15:04,560 --> 00:15:07,310
+it's the tensor product su2
+operator so we can use these tensor
+
+668
+00:15:07,310 --> 00:15:07,320
+operator so we can use these tensor
+ 
+
+669
+00:15:07,320 --> 00:15:10,110
+operator so we can use these tensor
+product ladder operators to travel up
+
+670
+00:15:10,110 --> 00:15:10,120
+product ladder operators to travel up
+ 
+
+671
+00:15:10,120 --> 00:15:12,110
+product ladder operators to travel up
+and down the ladder of states in the
+
+672
+00:15:12,110 --> 00:15:12,120
+and down the ladder of states in the
+ 
+
+673
+00:15:12,120 --> 00:15:15,110
+and down the ladder of states in the
+tensor product space and use the tensor
+
+674
+00:15:15,110 --> 00:15:15,120
+tensor product space and use the tensor
+ 
+
+675
+00:15:15,120 --> 00:15:17,350
+tensor product space and use the tensor
+product igen value operator to get the
+
+676
+00:15:17,350 --> 00:15:17,360
+product igen value operator to get the
+ 
+
+677
+00:15:17,360 --> 00:15:21,030
+product igen value operator to get the
+igen values of the tensor product
+
+678
+00:15:21,030 --> 00:15:21,040
+igen values of the tensor product
+ 
+
+679
+00:15:21,040 --> 00:15:23,670
+igen values of the tensor product
+States let's start by getting the igen
+
+680
+00:15:23,670 --> 00:15:23,680
+States let's start by getting the igen
+ 
+
+681
+00:15:23,680 --> 00:15:25,870
+States let's start by getting the igen
+values for these four states under the
+
+682
+00:15:25,870 --> 00:15:25,880
+values for these four states under the
+ 
+
+683
+00:15:25,880 --> 00:15:28,710
+values for these four states under the
+gz operator starting with the UP UP
+
+684
+00:15:28,710 --> 00:15:28,720
+gz operator starting with the UP UP
+ 
+
+685
+00:15:28,720 --> 00:15:30,550
+gz operator starting with the UP UP
+State
+
+686
+00:15:30,550 --> 00:15:30,560
+State
+ 
+
+687
+00:15:30,560 --> 00:15:32,389
+State
+we can write out the operator in the
+
+688
+00:15:32,389 --> 00:15:32,399
+we can write out the operator in the
+ 
+
+689
+00:15:32,399 --> 00:15:34,910
+we can write out the operator in the
+tensor product representation using the
+
+690
+00:15:34,910 --> 00:15:34,920
+tensor product representation using the
+ 
+
+691
+00:15:34,920 --> 00:15:37,389
+tensor product representation using the
+definition we just learned for Le
+
+692
+00:15:37,389 --> 00:15:37,399
+definition we just learned for Le
+ 
+
+693
+00:15:37,399 --> 00:15:39,790
+definition we just learned for Le
+algebras and we can write the state
+
+694
+00:15:39,790 --> 00:15:39,800
+algebras and we can write the state
+ 
+
+695
+00:15:39,800 --> 00:15:41,949
+algebras and we can write the state
+using the tensor product
+
+696
+00:15:41,949 --> 00:15:41,959
+using the tensor product
+ 
+
+697
+00:15:41,959 --> 00:15:44,430
+using the tensor product
+notation here we have a sum of two
+
+698
+00:15:44,430 --> 00:15:44,440
+notation here we have a sum of two
+ 
+
+699
+00:15:44,440 --> 00:15:47,110
+notation here we have a sum of two
+linear Maps so we just distribute the
+
+700
+00:15:47,110 --> 00:15:47,120
+linear Maps so we just distribute the
+ 
+
+701
+00:15:47,120 --> 00:15:49,949
+linear Maps so we just distribute the
+input to each linear map in the
+
+702
+00:15:49,949 --> 00:15:49,959
+input to each linear map in the
+ 
+
+703
+00:15:49,959 --> 00:15:52,949
+input to each linear map in the
+sum next we pass the tensor product
+
+704
+00:15:52,949 --> 00:15:52,959
+sum next we pass the tensor product
+ 
+
+705
+00:15:52,959 --> 00:15:55,350
+sum next we pass the tensor product
+inputs to the tensor product of The
+
+706
+00:15:55,350 --> 00:15:55,360
+inputs to the tensor product of The
+ 
+
+707
+00:15:55,360 --> 00:15:57,550
+inputs to the tensor product of The
+Operators the first state goes to the
+
+708
+00:15:57,550 --> 00:15:57,560
+Operators the first state goes to the
+ 
+
+709
+00:15:57,560 --> 00:15:59,550
+Operators the first state goes to the
+first operator and the second State goes
+
+710
+00:15:59,550 --> 00:15:59,560
+first operator and the second State goes
+ 
+
+711
+00:15:59,560 --> 00:16:01,069
+first operator and the second State goes
+to the second
+
+712
+00:16:01,069 --> 00:16:01,079
+to the second
+ 
+
+713
+00:16:01,079 --> 00:16:03,990
+to the second
+operator the gzs acting on the up States
+
+714
+00:16:03,990 --> 00:16:04,000
+operator the gzs acting on the up States
+ 
+
+715
+00:16:04,000 --> 00:16:07,430
+operator the gzs acting on the up States
+will return an IG value of plus2 and the
+
+716
+00:16:07,430 --> 00:16:07,440
+will return an IG value of plus2 and the
+ 
+
+717
+00:16:07,440 --> 00:16:09,629
+will return an IG value of plus2 and the
+identity operators just leave the states
+
+718
+00:16:09,629 --> 00:16:09,639
+identity operators just leave the states
+ 
+
+719
+00:16:09,639 --> 00:16:12,350
+identity operators just leave the states
+as they are using the rules of the
+
+720
+00:16:12,350 --> 00:16:12,360
+as they are using the rules of the
+ 
+
+721
+00:16:12,360 --> 00:16:14,269
+as they are using the rules of the
+tensor product we can pull the one
+
+722
+00:16:14,269 --> 00:16:14,279
+tensor product we can pull the one
+ 
+
+723
+00:16:14,279 --> 00:16:16,550
+tensor product we can pull the one
+halfes out in front and then add the
+
+724
+00:16:16,550 --> 00:16:16,560
+halfes out in front and then add the
+ 
+
+725
+00:16:16,560 --> 00:16:19,030
+halfes out in front and then add the
+states together we find that the IG
+
+726
+00:16:19,030 --> 00:16:19,040
+states together we find that the IG
+ 
+
+727
+00:16:19,040 --> 00:16:21,710
+states together we find that the IG
+value of the UP UP State is
+
+728
+00:16:21,710 --> 00:16:21,720
+value of the UP UP State is
+ 
+
+729
+00:16:21,720 --> 00:16:24,550
+value of the UP UP State is
+one now notice what happened here is
+
+730
+00:16:24,550 --> 00:16:24,560
+one now notice what happened here is
+ 
+
+731
+00:16:24,560 --> 00:16:27,110
+one now notice what happened here is
+that the first gz operator acted on the
+
+732
+00:16:27,110 --> 00:16:27,120
+that the first gz operator acted on the
+ 
+
+733
+00:16:27,120 --> 00:16:30,470
+that the first gz operator acted on the
+first state and the second gz operator
+
+734
+00:16:30,470 --> 00:16:30,480
+first state and the second gz operator
+ 
+
+735
+00:16:30,480 --> 00:16:32,870
+first state and the second gz operator
+acted on the second state and then we
+
+736
+00:16:32,870 --> 00:16:32,880
+acted on the second state and then we
+ 
+
+737
+00:16:32,880 --> 00:16:35,150
+acted on the second state and then we
+just added the two I values together to
+
+738
+00:16:35,150 --> 00:16:35,160
+just added the two I values together to
+ 
+
+739
+00:16:35,160 --> 00:16:38,550
+just added the two I values together to
+get one so if we have a state with I
+
+740
+00:16:38,550 --> 00:16:38,560
+get one so if we have a state with I
+ 
+
+741
+00:16:38,560 --> 00:16:41,590
+get one so if we have a state with I
+value M1 and another state with I value
+
+742
+00:16:41,590 --> 00:16:41,600
+value M1 and another state with I value
+ 
+
+743
+00:16:41,600 --> 00:16:45,430
+value M1 and another state with I value
+M2 and we take their tensor product in
+
+744
+00:16:45,430 --> 00:16:45,440
+M2 and we take their tensor product in
+ 
+
+745
+00:16:45,440 --> 00:16:47,990
+M2 and we take their tensor product in
+the tensor product States their combined
+
+746
+00:16:47,990 --> 00:16:48,000
+the tensor product States their combined
+ 
+
+747
+00:16:48,000 --> 00:16:51,949
+the tensor product States their combined
+igen value is just M1 + M2 this is
+
+748
+00:16:51,949 --> 00:16:51,959
+igen value is just M1 + M2 this is
+ 
+
+749
+00:16:51,959 --> 00:16:54,590
+igen value is just M1 + M2 this is
+because the first state gets a gz and
+
+750
+00:16:54,590 --> 00:16:54,600
+because the first state gets a gz and
+ 
+
+751
+00:16:54,600 --> 00:16:57,350
+because the first state gets a gz and
+the second state also gets a gz so the
+
+752
+00:16:57,350 --> 00:16:57,360
+the second state also gets a gz so the
+ 
+
+753
+00:16:57,360 --> 00:16:59,910
+the second state also gets a gz so the
+Aon values are just summ
+
+754
+00:16:59,910 --> 00:16:59,920
+Aon values are just summ
+ 
+
+755
+00:16:59,920 --> 00:17:02,670
+Aon values are just summ
+together so let's use this trick to
+
+756
+00:17:02,670 --> 00:17:02,680
+together so let's use this trick to
+ 
+
+757
+00:17:02,680 --> 00:17:04,549
+together so let's use this trick to
+quickly get the igen values of our
+
+758
+00:17:04,549 --> 00:17:04,559
+quickly get the igen values of our
+ 
+
+759
+00:17:04,559 --> 00:17:07,309
+quickly get the igen values of our
+tensor product States we already know
+
+760
+00:17:07,309 --> 00:17:07,319
+tensor product States we already know
+ 
+
+761
+00:17:07,319 --> 00:17:09,789
+tensor product States we already know
+that the IG value of the UP UP State
+
+762
+00:17:09,789 --> 00:17:09,799
+that the IG value of the UP UP State
+ 
+
+763
+00:17:09,799 --> 00:17:14,189
+that the IG value of the UP UP State
+gives 1 12 + 12 = 1 the up down state
+
+764
+00:17:14,189 --> 00:17:14,199
+gives 1 12 + 12 = 1 the up down state
+ 
+
+765
+00:17:14,199 --> 00:17:17,150
+gives 1 12 + 12 = 1 the up down state
+will have an IG value of a half - a half
+
+766
+00:17:17,150 --> 00:17:17,160
+will have an IG value of a half - a half
+ 
+
+767
+00:17:17,160 --> 00:17:20,470
+will have an IG value of a half - a half
+equal 0 the down up state will have an I
+
+768
+00:17:20,470 --> 00:17:20,480
+equal 0 the down up state will have an I
+ 
+
+769
+00:17:20,480 --> 00:17:23,150
+equal 0 the down up state will have an I
+value of minus a half plus a half equal
+
+770
+00:17:23,150 --> 00:17:23,160
+value of minus a half plus a half equal
+ 
+
+771
+00:17:23,160 --> 00:17:26,230
+value of minus a half plus a half equal
+Z and the down down state will have an I
+
+772
+00:17:26,230 --> 00:17:26,240
+Z and the down down state will have an I
+ 
+
+773
+00:17:26,240 --> 00:17:30,029
+Z and the down down state will have an I
+value of -2 -2 =
+
+774
+00:17:30,029 --> 00:17:30,039
+value of -2 -2 =
+ 
+
+775
+00:17:30,039 --> 00:17:32,590
+value of -2 -2 =
+min-1 if this isn't obvious I'd
+
+776
+00:17:32,590 --> 00:17:32,600
+min-1 if this isn't obvious I'd
+ 
+
+777
+00:17:32,600 --> 00:17:34,789
+min-1 if this isn't obvious I'd
+encourage you to pause the video and try
+
+778
+00:17:34,789 --> 00:17:34,799
+encourage you to pause the video and try
+ 
+
+779
+00:17:34,799 --> 00:17:38,350
+encourage you to pause the video and try
+the calculations manually
+
+780
+00:17:38,350 --> 00:17:38,360
+the calculations manually
+ 
+
+781
+00:17:38,360 --> 00:17:40,909
+the calculations manually
+yourself now let's try using the raising
+
+782
+00:17:40,909 --> 00:17:40,919
+yourself now let's try using the raising
+ 
+
+783
+00:17:40,919 --> 00:17:44,110
+yourself now let's try using the raising
+and lowering operators on these states
+
+784
+00:17:44,110 --> 00:17:44,120
+and lowering operators on these states
+ 
+
+785
+00:17:44,120 --> 00:17:46,230
+and lowering operators on these states
+recall the raising operator sends the
+
+786
+00:17:46,230 --> 00:17:46,240
+recall the raising operator sends the
+ 
+
+787
+00:17:46,240 --> 00:17:48,710
+recall the raising operator sends the
+down state to the UP State and sends the
+
+788
+00:17:48,710 --> 00:17:48,720
+down state to the UP State and sends the
+ 
+
+789
+00:17:48,720 --> 00:17:51,830
+down state to the UP State and sends the
+UP State to zero the lowering operator
+
+790
+00:17:51,830 --> 00:17:51,840
+UP State to zero the lowering operator
+ 
+
+791
+00:17:51,840 --> 00:17:53,990
+UP State to zero the lowering operator
+sends the UP State to the down state and
+
+792
+00:17:53,990 --> 00:17:54,000
+sends the UP State to the down state and
+ 
+
+793
+00:17:54,000 --> 00:17:57,430
+sends the UP State to the down state and
+sends the down state to zero basically
+
+794
+00:17:57,430 --> 00:17:57,440
+sends the down state to zero basically
+ 
+
+795
+00:17:57,440 --> 00:17:59,390
+sends the down state to zero basically
+we can't raise a state of above the
+
+796
+00:17:59,390 --> 00:17:59,400
+we can't raise a state of above the
+ 
+
+797
+00:17:59,400 --> 00:18:02,230
+we can't raise a state of above the
+highest IG value and we can't lower a
+
+798
+00:18:02,230 --> 00:18:02,240
+highest IG value and we can't lower a
+ 
+
+799
+00:18:02,240 --> 00:18:05,190
+highest IG value and we can't lower a
+state below the lowest IG value and
+
+800
+00:18:05,190 --> 00:18:05,200
+state below the lowest IG value and
+ 
+
+801
+00:18:05,200 --> 00:18:07,870
+state below the lowest IG value and
+recall in this case the igon values are
+
+802
+00:18:07,870 --> 00:18:07,880
+recall in this case the igon values are
+ 
+
+803
+00:18:07,880 --> 00:18:10,950
+recall in this case the igon values are
+sometimes called
+
+804
+00:18:10,950 --> 00:18:10,960
+
+ 
+
+805
+00:18:10,960 --> 00:18:13,909
+
+weights in our tensor product space the
+
+806
+00:18:13,909 --> 00:18:13,919
+weights in our tensor product space the
+ 
+
+807
+00:18:13,919 --> 00:18:17,029
+weights in our tensor product space the
+up up state has the highest I value so
+
+808
+00:18:17,029 --> 00:18:17,039
+up up state has the highest I value so
+ 
+
+809
+00:18:17,039 --> 00:18:18,549
+up up state has the highest I value so
+it would make sense that the raising
+
+810
+00:18:18,549 --> 00:18:18,559
+it would make sense that the raising
+ 
+
+811
+00:18:18,559 --> 00:18:21,190
+it would make sense that the raising
+operator would send it to zero let's
+
+812
+00:18:21,190 --> 00:18:21,200
+operator would send it to zero let's
+ 
+
+813
+00:18:21,200 --> 00:18:22,870
+operator would send it to zero let's
+confirm
+
+814
+00:18:22,870 --> 00:18:22,880
+confirm
+ 
+
+815
+00:18:22,880 --> 00:18:25,830
+confirm
+that we can write the operator and state
+
+816
+00:18:25,830 --> 00:18:25,840
+that we can write the operator and state
+ 
+
+817
+00:18:25,840 --> 00:18:28,510
+that we can write the operator and state
+out fully with tensor products then we
+
+818
+00:18:28,510 --> 00:18:28,520
+out fully with tensor products then we
+ 
+
+819
+00:18:28,520 --> 00:18:30,470
+out fully with tensor products then we
+can pass the input state to the two
+
+820
+00:18:30,470 --> 00:18:30,480
+can pass the input state to the two
+ 
+
+821
+00:18:30,480 --> 00:18:33,710
+can pass the input state to the two
+linear Maps then pass the first states
+
+822
+00:18:33,710 --> 00:18:33,720
+linear Maps then pass the first states
+ 
+
+823
+00:18:33,720 --> 00:18:35,669
+linear Maps then pass the first states
+to the first operators and the second
+
+824
+00:18:35,669 --> 00:18:35,679
+to the first operators and the second
+ 
+
+825
+00:18:35,679 --> 00:18:37,669
+to the first operators and the second
+states to the second
+
+826
+00:18:37,669 --> 00:18:37,679
+states to the second
+ 
+
+827
+00:18:37,679 --> 00:18:40,149
+states to the second
+operators now here when the raising
+
+828
+00:18:40,149 --> 00:18:40,159
+operators now here when the raising
+ 
+
+829
+00:18:40,159 --> 00:18:42,430
+operators now here when the raising
+operators act on the up States they go
+
+830
+00:18:42,430 --> 00:18:42,440
+operators act on the up States they go
+ 
+
+831
+00:18:42,440 --> 00:18:45,390
+operators act on the up States they go
+to zero so both tensor products go to
+
+832
+00:18:45,390 --> 00:18:45,400
+to zero so both tensor products go to
+ 
+
+833
+00:18:45,400 --> 00:18:48,789
+to zero so both tensor products go to
+zero and we get zero as a result so the
+
+834
+00:18:48,789 --> 00:18:48,799
+zero and we get zero as a result so the
+ 
+
+835
+00:18:48,799 --> 00:18:51,669
+zero and we get zero as a result so the
+UP UP State is indeed the highest weight
+
+836
+00:18:51,669 --> 00:18:51,679
+UP UP State is indeed the highest weight
+ 
+
+837
+00:18:51,679 --> 00:18:53,909
+UP UP State is indeed the highest weight
+State as
+
+838
+00:18:53,909 --> 00:18:53,919
+State as
+ 
+
+839
+00:18:53,919 --> 00:18:56,310
+State as
+expected now we can use the lowering
+
+840
+00:18:56,310 --> 00:18:56,320
+expected now we can use the lowering
+ 
+
+841
+00:18:56,320 --> 00:18:58,430
+expected now we can use the lowering
+operators to lower this state down the
+
+842
+00:18:58,430 --> 00:18:58,440
+operators to lower this state down the
+ 
+
+843
+00:18:58,440 --> 00:18:59,270
+operators to lower this state down the
+lad
+
+844
+00:18:59,270 --> 00:18:59,280
+lad
+ 
+
+845
+00:18:59,280 --> 00:19:03,110
+lad
+and get a basis of En States under
+
+846
+00:19:03,110 --> 00:19:03,120
+and get a basis of En States under
+ 
+
+847
+00:19:03,120 --> 00:19:05,950
+and get a basis of En States under
+gz if we apply the lowering operator to
+
+848
+00:19:05,950 --> 00:19:05,960
+gz if we apply the lowering operator to
+ 
+
+849
+00:19:05,960 --> 00:19:08,549
+gz if we apply the lowering operator to
+the UP UP State we get a sum of two
+
+850
+00:19:08,549 --> 00:19:08,559
+the UP UP State we get a sum of two
+ 
+
+851
+00:19:08,559 --> 00:19:11,149
+the UP UP State we get a sum of two
+terms where the first term has the first
+
+852
+00:19:11,149 --> 00:19:11,159
+terms where the first term has the first
+ 
+
+853
+00:19:11,159 --> 00:19:13,350
+terms where the first term has the first
+state lowered to down and the second
+
+854
+00:19:13,350 --> 00:19:13,360
+state lowered to down and the second
+ 
+
+855
+00:19:13,360 --> 00:19:15,270
+state lowered to down and the second
+term has the second state lowered to
+
+856
+00:19:15,270 --> 00:19:15,280
+term has the second state lowered to
+ 
+
+857
+00:19:15,280 --> 00:19:18,310
+term has the second state lowered to
+down so we end up with the state down up
+
+858
+00:19:18,310 --> 00:19:18,320
+down so we end up with the state down up
+ 
+
+859
+00:19:18,320 --> 00:19:21,950
+down so we end up with the state down up
+plus up down if we apply the igen value
+
+860
+00:19:21,950 --> 00:19:21,960
+plus up down if we apply the igen value
+ 
+
+861
+00:19:21,960 --> 00:19:25,350
+plus up down if we apply the igen value
+operator to this state we get zero so we
+
+862
+00:19:25,350 --> 00:19:25,360
+operator to this state we get zero so we
+ 
+
+863
+00:19:25,360 --> 00:19:27,870
+operator to this state we get zero so we
+have indeed lowered the igen value by
+
+864
+00:19:27,870 --> 00:19:27,880
+have indeed lowered the igen value by
+ 
+
+865
+00:19:27,880 --> 00:19:29,510
+have indeed lowered the igen value by
+one
+
+866
+00:19:29,510 --> 00:19:29,520
+one
+ 
+
+867
+00:19:29,520 --> 00:19:31,549
+one
+if we now apply the lowering operator
+
+868
+00:19:31,549 --> 00:19:31,559
+if we now apply the lowering operator
+ 
+
+869
+00:19:31,559 --> 00:19:34,630
+if we now apply the lowering operator
+again we have two inputs sent to a sum
+
+870
+00:19:34,630 --> 00:19:34,640
+again we have two inputs sent to a sum
+ 
+
+871
+00:19:34,640 --> 00:19:38,230
+again we have two inputs sent to a sum
+of linear Maps so expanding we get four
+
+872
+00:19:38,230 --> 00:19:38,240
+of linear Maps so expanding we get four
+ 
+
+873
+00:19:38,240 --> 00:19:41,350
+of linear Maps so expanding we get four
+terms lowering on the down States gives
+
+874
+00:19:41,350 --> 00:19:41,360
+terms lowering on the down States gives
+ 
+
+875
+00:19:41,360 --> 00:19:44,230
+terms lowering on the down States gives
+zero and lowering on the up States gives
+
+876
+00:19:44,230 --> 00:19:44,240
+zero and lowering on the up States gives
+ 
+
+877
+00:19:44,240 --> 00:19:47,190
+zero and lowering on the up States gives
+down States so we end up with the down
+
+878
+00:19:47,190 --> 00:19:47,200
+down States so we end up with the down
+ 
+
+879
+00:19:47,200 --> 00:19:50,390
+down States so we end up with the down
+down state with a coefficient of two in
+
+880
+00:19:50,390 --> 00:19:50,400
+down state with a coefficient of two in
+ 
+
+881
+00:19:50,400 --> 00:19:53,190
+down state with a coefficient of two in
+front the ion value operator gives an
+
+882
+00:19:53,190 --> 00:19:53,200
+front the ion value operator gives an
+ 
+
+883
+00:19:53,200 --> 00:19:56,350
+front the ion value operator gives an
+ion value of minus one so again we
+
+884
+00:19:56,350 --> 00:19:56,360
+ion value of minus one so again we
+ 
+
+885
+00:19:56,360 --> 00:20:00,190
+ion value of minus one so again we
+lowered the ion value by one
+
+886
+00:20:00,190 --> 00:20:00,200
+lowered the ion value by one
+ 
+
+887
+00:20:00,200 --> 00:20:02,350
+lowered the ion value by one
+now one thing to remember is that the
+
+888
+00:20:02,350 --> 00:20:02,360
+now one thing to remember is that the
+ 
+
+889
+00:20:02,360 --> 00:20:04,789
+now one thing to remember is that the
+raising and lowering operators give
+
+890
+00:20:04,789 --> 00:20:04,799
+raising and lowering operators give
+ 
+
+891
+00:20:04,799 --> 00:20:07,230
+raising and lowering operators give
+result states that are multiplied by
+
+892
+00:20:07,230 --> 00:20:07,240
+result states that are multiplied by
+ 
+
+893
+00:20:07,240 --> 00:20:09,789
+result states that are multiplied by
+coefficients which I called Alpha and
+
+894
+00:20:09,789 --> 00:20:09,799
+coefficients which I called Alpha and
+ 
+
+895
+00:20:09,799 --> 00:20:12,710
+coefficients which I called Alpha and
+beta in the previous video These
+
+896
+00:20:12,710 --> 00:20:12,720
+beta in the previous video These
+ 
+
+897
+00:20:12,720 --> 00:20:14,390
+beta in the previous video These
+coefficients depend on the spin
+
+898
+00:20:14,390 --> 00:20:14,400
+coefficients depend on the spin
+ 
+
+899
+00:20:14,400 --> 00:20:17,710
+coefficients depend on the spin
+representation number J and the state IG
+
+900
+00:20:17,710 --> 00:20:17,720
+representation number J and the state IG
+ 
+
+901
+00:20:17,720 --> 00:20:21,190
+representation number J and the state IG
+value M since the IG values of these
+
+902
+00:20:21,190 --> 00:20:21,200
+value M since the IG values of these
+ 
+
+903
+00:20:21,200 --> 00:20:25,110
+value M since the IG values of these
+states are + one 0 and minus1 this is a
+
+904
+00:20:25,110 --> 00:20:25,120
+states are + one 0 and minus1 this is a
+ 
+
+905
+00:20:25,120 --> 00:20:26,710
+states are + one 0 and minus1 this is a
+spin one
+
+906
+00:20:26,710 --> 00:20:26,720
+spin one
+ 
+
+907
+00:20:26,720 --> 00:20:28,669
+spin one
+representation and the beta code
+
+908
+00:20:28,669 --> 00:20:28,679
+representation and the beta code
+ 
+
+909
+00:20:28,679 --> 00:20:30,990
+representation and the beta code
+coefficients are the square root of
+
+910
+00:20:30,990 --> 00:20:31,000
+coefficients are the square root of
+ 
+
+911
+00:20:31,000 --> 00:20:33,909
+coefficients are the square root of
+two if we take the states obtained from
+
+912
+00:20:33,909 --> 00:20:33,919
+two if we take the states obtained from
+ 
+
+913
+00:20:33,919 --> 00:20:36,470
+two if we take the states obtained from
+the lowering operator and take these
+
+914
+00:20:36,470 --> 00:20:36,480
+the lowering operator and take these
+ 
+
+915
+00:20:36,480 --> 00:20:39,470
+the lowering operator and take these
+coefficients into account we get this
+
+916
+00:20:39,470 --> 00:20:39,480
+coefficients into account we get this
+ 
+
+917
+00:20:39,480 --> 00:20:42,909
+coefficients into account we get this
+set of three states for our spin one
+
+918
+00:20:42,909 --> 00:20:42,919
+set of three states for our spin one
+ 
+
+919
+00:20:42,919 --> 00:20:45,430
+set of three states for our spin one
+representation these states are actually
+
+920
+00:20:45,430 --> 00:20:45,440
+representation these states are actually
+ 
+
+921
+00:20:45,440 --> 00:20:48,350
+representation these states are actually
+normalized to one so they're easier to
+
+922
+00:20:48,350 --> 00:20:48,360
+normalized to one so they're easier to
+ 
+
+923
+00:20:48,360 --> 00:20:50,470
+normalized to one so they're easier to
+work
+
+924
+00:20:50,470 --> 00:20:50,480
+work
+ 
+
+925
+00:20:50,480 --> 00:20:53,070
+work
+with now a problem here is that if we
+
+926
+00:20:53,070 --> 00:20:53,080
+with now a problem here is that if we
+ 
+
+927
+00:20:53,080 --> 00:20:55,430
+with now a problem here is that if we
+try to lower the down down state we get
+
+928
+00:20:55,430 --> 00:20:55,440
+try to lower the down down state we get
+ 
+
+929
+00:20:55,440 --> 00:20:58,230
+try to lower the down down state we get
+zero so this is the lowest igen value
+
+930
+00:20:58,230 --> 00:20:58,240
+zero so this is the lowest igen value
+ 
+
+931
+00:20:58,240 --> 00:20:59,990
+zero so this is the lowest igen value
+state
+
+932
+00:20:59,990 --> 00:21:00,000
+state
+ 
+
+933
+00:21:00,000 --> 00:21:02,149
+state
+this is a bit weird because the tensor
+
+934
+00:21:02,149 --> 00:21:02,159
+this is a bit weird because the tensor
+ 
+
+935
+00:21:02,159 --> 00:21:03,830
+this is a bit weird because the tensor
+product space is
+
+936
+00:21:03,830 --> 00:21:03,840
+product space is
+ 
+
+937
+00:21:03,840 --> 00:21:06,029
+product space is
+four-dimensional but the space given to
+
+938
+00:21:06,029 --> 00:21:06,039
+four-dimensional but the space given to
+ 
+
+939
+00:21:06,039 --> 00:21:08,590
+four-dimensional but the space given to
+us by the latter operators is only
+
+940
+00:21:08,590 --> 00:21:08,600
+us by the latter operators is only
+ 
+
+941
+00:21:08,600 --> 00:21:10,669
+us by the latter operators is only
+three-dimensional so what happened to
+
+942
+00:21:10,669 --> 00:21:10,679
+three-dimensional so what happened to
+ 
+
+943
+00:21:10,679 --> 00:21:13,510
+three-dimensional so what happened to
+the extra Dimension it turns out the
+
+944
+00:21:13,510 --> 00:21:13,520
+the extra Dimension it turns out the
+ 
+
+945
+00:21:13,520 --> 00:21:15,909
+the extra Dimension it turns out the
+answer to this mystery is that the space
+
+946
+00:21:15,909 --> 00:21:15,919
+answer to this mystery is that the space
+ 
+
+947
+00:21:15,919 --> 00:21:19,390
+answer to this mystery is that the space
+actually has two highest weight vectors
+
+948
+00:21:19,390 --> 00:21:19,400
+actually has two highest weight vectors
+ 
+
+949
+00:21:19,400 --> 00:21:22,630
+actually has two highest weight vectors
+the one we missed is down up minus up
+
+950
+00:21:22,630 --> 00:21:22,640
+the one we missed is down up minus up
+ 
+
+951
+00:21:22,640 --> 00:21:25,510
+the one we missed is down up minus up
+down if we apply the raising operator to
+
+952
+00:21:25,510 --> 00:21:25,520
+down if we apply the raising operator to
+ 
+
+953
+00:21:25,520 --> 00:21:28,190
+down if we apply the raising operator to
+it we get up up minus up up which is
+
+954
+00:21:28,190 --> 00:21:28,200
+it we get up up minus up up which is
+ 
+
+955
+00:21:28,200 --> 00:21:29,149
+it we get up up minus up up which is
+zero
+
+956
+00:21:29,149 --> 00:21:29,159
+zero
+ 
+
+957
+00:21:29,159 --> 00:21:32,190
+zero
+so this is indeed a highest weight State
+
+958
+00:21:32,190 --> 00:21:32,200
+so this is indeed a highest weight State
+ 
+
+959
+00:21:32,200 --> 00:21:34,190
+so this is indeed a highest weight State
+and if we lower the state we get down
+
+960
+00:21:34,190 --> 00:21:34,200
+and if we lower the state we get down
+ 
+
+961
+00:21:34,200 --> 00:21:37,110
+and if we lower the state we get down
+down minus down down which is zero so
+
+962
+00:21:37,110 --> 00:21:37,120
+down minus down down which is zero so
+ 
+
+963
+00:21:37,120 --> 00:21:39,870
+down minus down down which is zero so
+this is also a lowest weight State the
+
+964
+00:21:39,870 --> 00:21:39,880
+this is also a lowest weight State the
+ 
+
+965
+00:21:39,880 --> 00:21:43,070
+this is also a lowest weight State the
+state also has an I value of
+
+966
+00:21:43,070 --> 00:21:43,080
+state also has an I value of
+ 
+
+967
+00:21:43,080 --> 00:21:45,990
+state also has an I value of
+zero so what's going on here is that
+
+968
+00:21:45,990 --> 00:21:46,000
+zero so what's going on here is that
+ 
+
+969
+00:21:46,000 --> 00:21:48,549
+zero so what's going on here is that
+this tensor product space actually has
+
+970
+00:21:48,549 --> 00:21:48,559
+this tensor product space actually has
+ 
+
+971
+00:21:48,559 --> 00:21:52,549
+this tensor product space actually has
+two su2 representations living inside it
+
+972
+00:21:52,549 --> 00:21:52,559
+two su2 representations living inside it
+ 
+
+973
+00:21:52,559 --> 00:21:55,510
+two su2 representations living inside it
+we have a 3D representation with State
+
+974
+00:21:55,510 --> 00:21:55,520
+we have a 3D representation with State
+ 
+
+975
+00:21:55,520 --> 00:21:59,029
+we have a 3D representation with State
+IG values + one 0 and minus1
+
+976
+00:21:59,029 --> 00:21:59,039
+IG values + one 0 and minus1
+ 
+
+977
+00:21:59,039 --> 00:22:01,510
+IG values + one 0 and minus1
+this is a spin one
+
+978
+00:22:01,510 --> 00:22:01,520
+this is a spin one
+ 
+
+979
+00:22:01,520 --> 00:22:03,430
+this is a spin one
+representation these are sometimes
+
+980
+00:22:03,430 --> 00:22:03,440
+representation these are sometimes
+ 
+
+981
+00:22:03,440 --> 00:22:06,630
+representation these are sometimes
+called triplet States we also have a one
+
+982
+00:22:06,630 --> 00:22:06,640
+called triplet States we also have a one
+ 
+
+983
+00:22:06,640 --> 00:22:09,149
+called triplet States we also have a one
+dimensional representation whose state
+
+984
+00:22:09,149 --> 00:22:09,159
+dimensional representation whose state
+ 
+
+985
+00:22:09,159 --> 00:22:13,149
+dimensional representation whose state
+has I value zero this is a spin zero
+
+986
+00:22:13,149 --> 00:22:13,159
+has I value zero this is a spin zero
+ 
+
+987
+00:22:13,159 --> 00:22:15,390
+has I value zero this is a spin zero
+representation this is sometimes called
+
+988
+00:22:15,390 --> 00:22:15,400
+representation this is sometimes called
+ 
+
+989
+00:22:15,400 --> 00:22:17,590
+representation this is sometimes called
+the singlet
+
+990
+00:22:17,590 --> 00:22:17,600
+the singlet
+ 
+
+991
+00:22:17,600 --> 00:22:20,750
+the singlet
+state so the tensor product of a pair of
+
+992
+00:22:20,750 --> 00:22:20,760
+state so the tensor product of a pair of
+ 
+
+993
+00:22:20,760 --> 00:22:24,390
+state so the tensor product of a pair of
+2D representations of su2 decomposes
+
+994
+00:22:24,390 --> 00:22:24,400
+2D representations of su2 decomposes
+ 
+
+995
+00:22:24,400 --> 00:22:26,190
+2D representations of su2 decomposes
+into the direct sum of a 3D
+
+996
+00:22:26,190 --> 00:22:26,200
+into the direct sum of a 3D
+ 
+
+997
+00:22:26,200 --> 00:22:29,149
+into the direct sum of a 3D
+representation of su2 and a 1D
+
+998
+00:22:29,149 --> 00:22:29,159
+representation of su2 and a 1D
+ 
+
+999
+00:22:29,159 --> 00:22:31,149
+representation of su2 and a 1D
+representation of
+
+1000
+00:22:31,149 --> 00:22:31,159
+representation of
+ 
+
+1001
+00:22:31,159 --> 00:22:34,510
+representation of
+su2 we often write this fact as 2 tensor
+
+1002
+00:22:34,510 --> 00:22:34,520
+su2 we often write this fact as 2 tensor
+ 
+
+1003
+00:22:34,520 --> 00:22:36,590
+su2 we often write this fact as 2 tensor
+2 = 3 sum
+
+1004
+00:22:36,590 --> 00:22:36,600
+2 = 3 sum
+ 
+
+1005
+00:22:36,600 --> 00:22:39,390
+2 = 3 sum
+1 and remember we can get the spin
+
+1006
+00:22:39,390 --> 00:22:39,400
+1 and remember we can get the spin
+ 
+
+1007
+00:22:39,400 --> 00:22:42,070
+1 and remember we can get the spin
+number J of a representation by taking
+
+1008
+00:22:42,070 --> 00:22:42,080
+number J of a representation by taking
+ 
+
+1009
+00:22:42,080 --> 00:22:44,630
+number J of a representation by taking
+the dimension n of the representation
+
+1010
+00:22:44,630 --> 00:22:44,640
+the dimension n of the representation
+ 
+
+1011
+00:22:44,640 --> 00:22:47,909
+the dimension n of the representation
+subtracting one and dividing by two so
+
+1012
+00:22:47,909 --> 00:22:47,919
+subtracting one and dividing by two so
+ 
+
+1013
+00:22:47,919 --> 00:22:49,909
+subtracting one and dividing by two so
+we can also write this equation using
+
+1014
+00:22:49,909 --> 00:22:49,919
+we can also write this equation using
+ 
+
+1015
+00:22:49,919 --> 00:22:52,990
+we can also write this equation using
+spin numbers instead so the tensor
+
+1016
+00:22:52,990 --> 00:22:53,000
+spin numbers instead so the tensor
+ 
+
+1017
+00:22:53,000 --> 00:22:55,230
+spin numbers instead so the tensor
+product of a pair of spin 1/2
+
+1018
+00:22:55,230 --> 00:22:55,240
+product of a pair of spin 1/2
+ 
+
+1019
+00:22:55,240 --> 00:22:57,390
+product of a pair of spin 1/2
+representations equals the direct sum of
+
+1020
+00:22:57,390 --> 00:22:57,400
+representations equals the direct sum of
+ 
+
+1021
+00:22:57,400 --> 00:22:59,630
+representations equals the direct sum of
+a spin one represent ation and a spin
+
+1022
+00:22:59,630 --> 00:22:59,640
+a spin one represent ation and a spin
+ 
+
+1023
+00:22:59,640 --> 00:23:01,149
+a spin one represent ation and a spin
+zero
+
+1024
+00:23:01,149 --> 00:23:01,159
+zero
+ 
+
+1025
+00:23:01,159 --> 00:23:03,110
+zero
+representation however I prefer the
+
+1026
+00:23:03,110 --> 00:23:03,120
+representation however I prefer the
+ 
+
+1027
+00:23:03,120 --> 00:23:05,310
+representation however I prefer the
+first Formula with the dimensions
+
+1028
+00:23:05,310 --> 00:23:05,320
+first Formula with the dimensions
+ 
+
+1029
+00:23:05,320 --> 00:23:06,990
+first Formula with the dimensions
+because if we interpret this as an
+
+1030
+00:23:06,990 --> 00:23:07,000
+because if we interpret this as an
+ 
+
+1031
+00:23:07,000 --> 00:23:09,430
+because if we interpret this as an
+elementary school math equation the
+
+1032
+00:23:09,430 --> 00:23:09,440
+elementary school math equation the
+ 
+
+1033
+00:23:09,440 --> 00:23:11,430
+elementary school math equation the
+numbers actually work
+
+1034
+00:23:11,430 --> 00:23:11,440
+numbers actually work
+ 
+
+1035
+00:23:11,440 --> 00:23:14,669
+numbers actually work
+out it's also common to write these IR
+
+1036
+00:23:14,669 --> 00:23:14,679
+out it's also common to write these IR
+ 
+
+1037
+00:23:14,679 --> 00:23:18,029
+out it's also common to write these IR
+basis vectors using the JM notation
+
+1038
+00:23:18,029 --> 00:23:18,039
+basis vectors using the JM notation
+ 
+
+1039
+00:23:18,039 --> 00:23:20,750
+basis vectors using the JM notation
+where J is the spin number and M is the
+
+1040
+00:23:20,750 --> 00:23:20,760
+where J is the spin number and M is the
+ 
+
+1041
+00:23:20,760 --> 00:23:23,909
+where J is the spin number and M is the
+igen value the triplet States belong to
+
+1042
+00:23:23,909 --> 00:23:23,919
+igen value the triplet States belong to
+ 
+
+1043
+00:23:23,919 --> 00:23:26,750
+igen value the triplet States belong to
+a spin one representation so they all
+
+1044
+00:23:26,750 --> 00:23:26,760
+a spin one representation so they all
+ 
+
+1045
+00:23:26,760 --> 00:23:29,029
+a spin one representation so they all
+have J values of one
+
+1046
+00:23:29,029 --> 00:23:29,039
+have J values of one
+ 
+
+1047
+00:23:29,039 --> 00:23:33,230
+have J values of one
+and their igen values M are + one 0 and
+
+1048
+00:23:33,230 --> 00:23:33,240
+and their igen values M are + one 0 and
+ 
+
+1049
+00:23:33,240 --> 00:23:35,909
+and their igen values M are + one 0 and
+minus1 the singlet State belongs to a
+
+1050
+00:23:35,909 --> 00:23:35,919
+minus1 the singlet State belongs to a
+ 
+
+1051
+00:23:35,919 --> 00:23:40,430
+minus1 the singlet State belongs to a
+spin 0 representation so J equals 0 its
+
+1052
+00:23:40,430 --> 00:23:40,440
+spin 0 representation so J equals 0 its
+ 
+
+1053
+00:23:40,440 --> 00:23:42,950
+spin 0 representation so J equals 0 its
+I value m is also equal to
+
+1054
+00:23:42,950 --> 00:23:42,960
+I value m is also equal to
+ 
+
+1055
+00:23:42,960 --> 00:23:44,070
+I value m is also equal to
+[Music]
+
+1056
+00:23:44,070 --> 00:23:44,080
+[Music]
+ 
+
+1057
+00:23:44,080 --> 00:23:46,870
+[Music]
+zero this procedure of taking the tensor
+
+1058
+00:23:46,870 --> 00:23:46,880
+zero this procedure of taking the tensor
+ 
+
+1059
+00:23:46,880 --> 00:23:49,390
+zero this procedure of taking the tensor
+product of two representations is what
+
+1060
+00:23:49,390 --> 00:23:49,400
+product of two representations is what
+ 
+
+1061
+00:23:49,400 --> 00:23:51,470
+product of two representations is what
+physicists call addition of angular
+
+1062
+00:23:51,470 --> 00:23:51,480
+physicists call addition of angular
+ 
+
+1063
+00:23:51,480 --> 00:23:55,350
+physicists call addition of angular
+momentum for two particles the J value
+
+1064
+00:23:55,350 --> 00:23:55,360
+momentum for two particles the J value
+ 
+
+1065
+00:23:55,360 --> 00:23:57,430
+momentum for two particles the J value
+gives the total angular momentum for a
+
+1066
+00:23:57,430 --> 00:23:57,440
+gives the total angular momentum for a
+ 
+
+1067
+00:23:57,440 --> 00:23:59,190
+gives the total angular momentum for a
+system of particles
+
+1068
+00:23:59,190 --> 00:23:59,200
+system of particles
+ 
+
+1069
+00:23:59,200 --> 00:24:01,470
+system of particles
+and the igen value M indicates the
+
+1070
+00:24:01,470 --> 00:24:01,480
+and the igen value M indicates the
+ 
+
+1071
+00:24:01,480 --> 00:24:03,549
+and the igen value M indicates the
+component of angular momentum along the
+
+1072
+00:24:03,549 --> 00:24:03,559
+component of angular momentum along the
+ 
+
+1073
+00:24:03,559 --> 00:24:04,710
+component of angular momentum along the
+Z
+
+1074
+00:24:04,710 --> 00:24:04,720
+Z
+ 
+
+1075
+00:24:04,720 --> 00:24:07,750
+Z
+AIS in physics these are both multiplied
+
+1076
+00:24:07,750 --> 00:24:07,760
+AIS in physics these are both multiplied
+ 
+
+1077
+00:24:07,760 --> 00:24:08,950
+AIS in physics these are both multiplied
+by H
+
+1078
+00:24:08,950 --> 00:24:08,960
+by H
+ 
+
+1079
+00:24:08,960 --> 00:24:11,909
+by H
+bar we usually use an operator
+
+1080
+00:24:11,909 --> 00:24:11,919
+bar we usually use an operator
+ 
+
+1081
+00:24:11,919 --> 00:24:13,909
+bar we usually use an operator
+associated with the square of the total
+
+1082
+00:24:13,909 --> 00:24:13,919
+associated with the square of the total
+ 
+
+1083
+00:24:13,919 --> 00:24:16,909
+associated with the square of the total
+angular momentum in quantum mechanics
+
+1084
+00:24:16,909 --> 00:24:16,919
+angular momentum in quantum mechanics
+ 
+
+1085
+00:24:16,919 --> 00:24:19,710
+angular momentum in quantum mechanics
+this operator is also called the Casmir
+
+1086
+00:24:19,710 --> 00:24:19,720
+this operator is also called the Casmir
+ 
+
+1087
+00:24:19,720 --> 00:24:22,510
+this operator is also called the Casmir
+Operator by mathematicians and in my
+
+1088
+00:24:22,510 --> 00:24:22,520
+Operator by mathematicians and in my
+ 
+
+1089
+00:24:22,520 --> 00:24:25,590
+Operator by mathematicians and in my
+videos I've been denoting it as g^
+
+1090
+00:24:25,590 --> 00:24:25,600
+videos I've been denoting it as g^
+ 
+
+1091
+00:24:25,600 --> 00:24:28,549
+videos I've been denoting it as g^
+s this operator commutes with all of the
+
+1092
+00:24:28,549 --> 00:24:28,559
+s this operator commutes with all of the
+ 
+
+1093
+00:24:28,559 --> 00:24:30,870
+s this operator commutes with all of the
+elements in the Lee algebra and when it
+
+1094
+00:24:30,870 --> 00:24:30,880
+elements in the Lee algebra and when it
+ 
+
+1095
+00:24:30,880 --> 00:24:35,230
+elements in the Lee algebra and when it
+acts on the state it returns J * J + 1
+
+1096
+00:24:35,230 --> 00:24:35,240
+acts on the state it returns J * J + 1
+ 
+
+1097
+00:24:35,240 --> 00:24:37,230
+acts on the state it returns J * J + 1
+where J is the spin number for the
+
+1098
+00:24:37,230 --> 00:24:37,240
+where J is the spin number for the
+ 
+
+1099
+00:24:37,240 --> 00:24:40,070
+where J is the spin number for the
+representation that state belongs
+
+1100
+00:24:40,070 --> 00:24:40,080
+representation that state belongs
+ 
+
+1101
+00:24:40,080 --> 00:24:42,710
+representation that state belongs
+to now for tensor product
+
+1102
+00:24:42,710 --> 00:24:42,720
+to now for tensor product
+ 
+
+1103
+00:24:42,720 --> 00:24:44,870
+to now for tensor product
+representations you might be tempted to
+
+1104
+00:24:44,870 --> 00:24:44,880
+representations you might be tempted to
+ 
+
+1105
+00:24:44,880 --> 00:24:47,630
+representations you might be tempted to
+try and write g^ SED using the same
+
+1106
+00:24:47,630 --> 00:24:47,640
+try and write g^ SED using the same
+ 
+
+1107
+00:24:47,640 --> 00:24:50,870
+try and write g^ SED using the same
+formula we used for the other operators
+
+1108
+00:24:50,870 --> 00:24:50,880
+formula we used for the other operators
+ 
+
+1109
+00:24:50,880 --> 00:24:54,070
+formula we used for the other operators
+but we cannot actually do this the
+
+1110
+00:24:54,070 --> 00:24:54,080
+but we cannot actually do this the
+ 
+
+1111
+00:24:54,080 --> 00:24:55,870
+but we cannot actually do this the
+reason for this is that the Kazmir
+
+1112
+00:24:55,870 --> 00:24:55,880
+reason for this is that the Kazmir
+ 
+
+1113
+00:24:55,880 --> 00:24:57,990
+reason for this is that the Kazmir
+operator doesn't actually live inside
+
+1114
+00:24:57,990 --> 00:24:58,000
+operator doesn't actually live inside
+ 
+
+1115
+00:24:58,000 --> 00:24:58,909
+operator doesn't actually live inside
+the Le
+
+1116
+00:24:58,909 --> 00:24:58,919
+the Le
+ 
+
+1117
+00:24:58,919 --> 00:25:01,389
+the Le
+algebra because it is defined using the
+
+1118
+00:25:01,389 --> 00:25:01,399
+algebra because it is defined using the
+ 
+
+1119
+00:25:01,399 --> 00:25:04,310
+algebra because it is defined using the
+squares of operators and Lee algebras
+
+1120
+00:25:04,310 --> 00:25:04,320
+squares of operators and Lee algebras
+ 
+
+1121
+00:25:04,320 --> 00:25:06,470
+squares of operators and Lee algebras
+don't understand what squaring operators
+
+1122
+00:25:06,470 --> 00:25:06,480
+don't understand what squaring operators
+ 
+
+1123
+00:25:06,480 --> 00:25:09,110
+don't understand what squaring operators
+means Lee algebras only understand the
+
+1124
+00:25:09,110 --> 00:25:09,120
+means Lee algebras only understand the
+ 
+
+1125
+00:25:09,120 --> 00:25:10,549
+means Lee algebras only understand the
+Lee
+
+1126
+00:25:10,549 --> 00:25:10,559
+Lee
+ 
+
+1127
+00:25:10,559 --> 00:25:13,149
+Lee
+bracket to get the correct definition of
+
+1128
+00:25:13,149 --> 00:25:13,159
+bracket to get the correct definition of
+ 
+
+1129
+00:25:13,159 --> 00:25:15,830
+bracket to get the correct definition of
+the Kazmir operator in tensor product
+
+1130
+00:25:15,830 --> 00:25:15,840
+the Kazmir operator in tensor product
+ 
+
+1131
+00:25:15,840 --> 00:25:18,350
+the Kazmir operator in tensor product
+spaces we need to take our original
+
+1132
+00:25:18,350 --> 00:25:18,360
+spaces we need to take our original
+ 
+
+1133
+00:25:18,360 --> 00:25:20,590
+spaces we need to take our original
+formula for the Kazmir operator from the
+
+1134
+00:25:20,590 --> 00:25:20,600
+formula for the Kazmir operator from the
+ 
+
+1135
+00:25:20,600 --> 00:25:23,470
+formula for the Kazmir operator from the
+last video and replace each operator
+
+1136
+00:25:23,470 --> 00:25:23,480
+last video and replace each operator
+ 
+
+1137
+00:25:23,480 --> 00:25:26,710
+last video and replace each operator
+with the tensor product version we get
+
+1138
+00:25:26,710 --> 00:25:26,720
+with the tensor product version we get
+ 
+
+1139
+00:25:26,720 --> 00:25:28,750
+with the tensor product version we get
+the tensor product style formula we're
+
+1140
+00:25:28,750 --> 00:25:28,760
+the tensor product style formula we're
+ 
+
+1141
+00:25:28,760 --> 00:25:32,190
+the tensor product style formula we're
+used to with Le algebras plus some extra
+
+1142
+00:25:32,190 --> 00:25:32,200
+used to with Le algebras plus some extra
+ 
+
+1143
+00:25:32,200 --> 00:25:34,950
+used to with Le algebras plus some extra
+parts we can label our first particle
+
+1144
+00:25:34,950 --> 00:25:34,960
+parts we can label our first particle
+ 
+
+1145
+00:25:34,960 --> 00:25:38,110
+parts we can label our first particle
+with J1 and M1 and label our second
+
+1146
+00:25:38,110 --> 00:25:38,120
+with J1 and M1 and label our second
+ 
+
+1147
+00:25:38,120 --> 00:25:41,669
+with J1 and M1 and label our second
+particle with J2 and M2 then we can
+
+1148
+00:25:41,669 --> 00:25:41,679
+particle with J2 and M2 then we can
+ 
+
+1149
+00:25:41,679 --> 00:25:43,710
+particle with J2 and M2 then we can
+combine them with the tensor product and
+
+1150
+00:25:43,710 --> 00:25:43,720
+combine them with the tensor product and
+ 
+
+1151
+00:25:43,720 --> 00:25:46,110
+combine them with the tensor product and
+see what we get when we apply the Kazmir
+
+1152
+00:25:46,110 --> 00:25:46,120
+see what we get when we apply the Kazmir
+ 
+
+1153
+00:25:46,120 --> 00:25:47,350
+see what we get when we apply the Kazmir
+operator to
+
+1154
+00:25:47,350 --> 00:25:47,360
+operator to
+ 
+
+1155
+00:25:47,360 --> 00:25:50,430
+operator to
+it if we try applying our Kazmir
+
+1156
+00:25:50,430 --> 00:25:50,440
+it if we try applying our Kazmir
+ 
+
+1157
+00:25:50,440 --> 00:25:53,350
+it if we try applying our Kazmir
+operator to the UP UP State and Sub in
+
+1158
+00:25:53,350 --> 00:25:53,360
+operator to the UP UP State and Sub in
+ 
+
+1159
+00:25:53,360 --> 00:25:55,470
+operator to the UP UP State and Sub in
+all the related values for the first and
+
+1160
+00:25:55,470 --> 00:25:55,480
+all the related values for the first and
+ 
+
+1161
+00:25:55,480 --> 00:25:58,909
+all the related values for the first and
+second particles we get a result of two
+
+1162
+00:25:58,909 --> 00:25:58,919
+second particles we get a result of two
+ 
+
+1163
+00:25:58,919 --> 00:26:01,110
+second particles we get a result of two
+this is exactly the result we expect for
+
+1164
+00:26:01,110 --> 00:26:01,120
+this is exactly the result we expect for
+ 
+
+1165
+00:26:01,120 --> 00:26:03,750
+this is exactly the result we expect for
+a total angular momentum of capital J
+
+1166
+00:26:03,750 --> 00:26:03,760
+a total angular momentum of capital J
+ 
+
+1167
+00:26:03,760 --> 00:26:04,950
+a total angular momentum of capital J
+equaling
+
+1168
+00:26:04,950 --> 00:26:04,960
+equaling
+ 
+
+1169
+00:26:04,960 --> 00:26:08,430
+equaling
+1 we get the same J equals 1 result for
+
+1170
+00:26:08,430 --> 00:26:08,440
+1 we get the same J equals 1 result for
+ 
+
+1171
+00:26:08,440 --> 00:26:10,750
+1 we get the same J equals 1 result for
+all of the triplet States and for the
+
+1172
+00:26:10,750 --> 00:26:10,760
+all of the triplet States and for the
+ 
+
+1173
+00:26:10,760 --> 00:26:13,029
+all of the triplet States and for the
+singlet State the Kazmir operator gives
+
+1174
+00:26:13,029 --> 00:26:13,039
+singlet State the Kazmir operator gives
+ 
+
+1175
+00:26:13,039 --> 00:26:14,909
+singlet State the Kazmir operator gives
+us a j value of
+
+1176
+00:26:14,909 --> 00:26:14,919
+us a j value of
+ 
+
+1177
+00:26:14,919 --> 00:26:17,950
+us a j value of
+zero so this really is the direct sum of
+
+1178
+00:26:17,950 --> 00:26:17,960
+zero so this really is the direct sum of
+ 
+
+1179
+00:26:17,960 --> 00:26:21,269
+zero so this really is the direct sum of
+a spin one and spin zero representation
+
+1180
+00:26:21,269 --> 00:26:21,279
+a spin one and spin zero representation
+ 
+
+1181
+00:26:21,279 --> 00:26:23,630
+a spin one and spin zero representation
+as
+
+1182
+00:26:23,630 --> 00:26:23,640
+
+ 
+
+1183
+00:26:23,640 --> 00:26:26,789
+
+expected so in our tensor product space
+
+1184
+00:26:26,789 --> 00:26:26,799
+expected so in our tensor product space
+ 
+
+1185
+00:26:26,799 --> 00:26:29,669
+expected so in our tensor product space
+we've discovered two different bases we
+
+1186
+00:26:29,669 --> 00:26:29,679
+we've discovered two different bases we
+ 
+
+1187
+00:26:29,679 --> 00:26:32,630
+we've discovered two different bases we
+have the standard tensor product basis
+
+1188
+00:26:32,630 --> 00:26:32,640
+have the standard tensor product basis
+ 
+
+1189
+00:26:32,640 --> 00:26:35,710
+have the standard tensor product basis
+also called the coupled basis but we
+
+1190
+00:26:35,710 --> 00:26:35,720
+also called the coupled basis but we
+ 
+
+1191
+00:26:35,720 --> 00:26:37,350
+also called the coupled basis but we
+also have the basis where we've
+
+1192
+00:26:37,350 --> 00:26:37,360
+also have the basis where we've
+ 
+
+1193
+00:26:37,360 --> 00:26:40,630
+also have the basis where we've
+decomposed the space into a spin one a
+
+1194
+00:26:40,630 --> 00:26:40,640
+decomposed the space into a spin one a
+ 
+
+1195
+00:26:40,640 --> 00:26:45,029
+decomposed the space into a spin one a
+and a spin zero a I'll call this the a
+
+1196
+00:26:45,029 --> 00:26:45,039
+and a spin zero a I'll call this the a
+ 
+
+1197
+00:26:45,039 --> 00:26:47,750
+and a spin zero a I'll call this the a
+basis physicists will usually call it
+
+1198
+00:26:47,750 --> 00:26:47,760
+basis physicists will usually call it
+ 
+
+1199
+00:26:47,760 --> 00:26:49,870
+basis physicists will usually call it
+the total angular momentum
+
+1200
+00:26:49,870 --> 00:26:49,880
+the total angular momentum
+ 
+
+1201
+00:26:49,880 --> 00:26:53,590
+the total angular momentum
+basis the first number here capital J is
+
+1202
+00:26:53,590 --> 00:26:53,600
+basis the first number here capital J is
+ 
+
+1203
+00:26:53,600 --> 00:26:56,510
+basis the first number here capital J is
+the spin value of the representation and
+
+1204
+00:26:56,510 --> 00:26:56,520
+the spin value of the representation and
+ 
+
+1205
+00:26:56,520 --> 00:26:59,310
+the spin value of the representation and
+the second number capital M is the igen
+
+1206
+00:26:59,310 --> 00:26:59,320
+the second number capital M is the igen
+ 
+
+1207
+00:26:59,320 --> 00:27:02,549
+the second number capital M is the igen
+value of a state under the gz
+
+1208
+00:27:02,549 --> 00:27:02,559
+value of a state under the gz
+ 
+
+1209
+00:27:02,559 --> 00:27:05,830
+value of a state under the gz
+operator so the EP basis states can all
+
+1210
+00:27:05,830 --> 00:27:05,840
+operator so the EP basis states can all
+ 
+
+1211
+00:27:05,840 --> 00:27:08,549
+operator so the EP basis states can all
+be written out as linear combinations of
+
+1212
+00:27:08,549 --> 00:27:08,559
+be written out as linear combinations of
+ 
+
+1213
+00:27:08,559 --> 00:27:11,830
+be written out as linear combinations of
+the tensor product basis States if we
+
+1214
+00:27:11,830 --> 00:27:11,840
+the tensor product basis States if we
+ 
+
+1215
+00:27:11,840 --> 00:27:14,710
+the tensor product basis States if we
+include the terms with zero coefficients
+
+1216
+00:27:14,710 --> 00:27:14,720
+include the terms with zero coefficients
+ 
+
+1217
+00:27:14,720 --> 00:27:17,389
+include the terms with zero coefficients
+we get 16 coefficients in
+
+1218
+00:27:17,389 --> 00:27:17,399
+we get 16 coefficients in
+ 
+
+1219
+00:27:17,399 --> 00:27:19,750
+we get 16 coefficients in
+total we can arrange all of these
+
+1220
+00:27:19,750 --> 00:27:19,760
+total we can arrange all of these
+ 
+
+1221
+00:27:19,760 --> 00:27:22,510
+total we can arrange all of these
+coefficients into a matrix with the
+
+1222
+00:27:22,510 --> 00:27:22,520
+coefficients into a matrix with the
+ 
+
+1223
+00:27:22,520 --> 00:27:24,549
+coefficients into a matrix with the
+tensor product States arranged on the
+
+1224
+00:27:24,549 --> 00:27:24,559
+tensor product States arranged on the
+ 
+
+1225
+00:27:24,559 --> 00:27:27,789
+tensor product States arranged on the
+side and the IR basis States arranged up
+
+1226
+00:27:27,789 --> 00:27:27,799
+side and the IR basis States arranged up
+ 
+
+1227
+00:27:27,799 --> 00:27:29,190
+side and the IR basis States arranged up
+top
+
+1228
+00:27:29,190 --> 00:27:29,200
+top
+ 
+
+1229
+00:27:29,200 --> 00:27:31,269
+top
+a given column tells us which
+
+1230
+00:27:31,269 --> 00:27:31,279
+a given column tells us which
+ 
+
+1231
+00:27:31,279 --> 00:27:33,830
+a given column tells us which
+coefficients are needed to build up that
+
+1232
+00:27:33,830 --> 00:27:33,840
+coefficients are needed to build up that
+ 
+
+1233
+00:27:33,840 --> 00:27:36,630
+coefficients are needed to build up that
+column's EP basis
+
+1234
+00:27:36,630 --> 00:27:36,640
+column's EP basis
+ 
+
+1235
+00:27:36,640 --> 00:27:39,350
+column's EP basis
+State now I'm going to rewrite the up
+
+1236
+00:27:39,350 --> 00:27:39,360
+State now I'm going to rewrite the up
+ 
+
+1237
+00:27:39,360 --> 00:27:42,190
+State now I'm going to rewrite the up
+States using the plus 1/2 I value and
+
+1238
+00:27:42,190 --> 00:27:42,200
+States using the plus 1/2 I value and
+ 
+
+1239
+00:27:42,200 --> 00:27:44,350
+States using the plus 1/2 I value and
+rewrite the down States using the minus
+
+1240
+00:27:44,350 --> 00:27:44,360
+rewrite the down States using the minus
+ 
+
+1241
+00:27:44,360 --> 00:27:47,950
+rewrite the down States using the minus
+one2 I value I'm also going to rewrite
+
+1242
+00:27:47,950 --> 00:27:47,960
+one2 I value I'm also going to rewrite
+ 
+
+1243
+00:27:47,960 --> 00:27:50,470
+one2 I value I'm also going to rewrite
+the EP basis States so that the spin
+
+1244
+00:27:50,470 --> 00:27:50,480
+the EP basis States so that the spin
+ 
+
+1245
+00:27:50,480 --> 00:27:53,870
+the EP basis States so that the spin
+value J is on top and the I value m is
+
+1246
+00:27:53,870 --> 00:27:53,880
+value J is on top and the I value m is
+ 
+
+1247
+00:27:53,880 --> 00:27:55,029
+value J is on top and the I value m is
+on the
+
+1248
+00:27:55,029 --> 00:27:55,039
+on the
+ 
+
+1249
+00:27:55,039 --> 00:27:57,870
+on the
+bottom next I'm going to remove the zero
+
+1250
+00:27:57,870 --> 00:27:57,880
+bottom next I'm going to remove the zero
+ 
+
+1251
+00:27:57,880 --> 00:28:00,509
+bottom next I'm going to remove the zero
+value in The Matrix and position the
+
+1252
+00:28:00,509 --> 00:28:00,519
+value in The Matrix and position the
+ 
+
+1253
+00:28:00,519 --> 00:28:02,389
+value in The Matrix and position the
+basis vectors like
+
+1254
+00:28:02,389 --> 00:28:02,399
+basis vectors like
+ 
+
+1255
+00:28:02,399 --> 00:28:05,590
+basis vectors like
+this this is called the kch Gordon table
+
+1256
+00:28:05,590 --> 00:28:05,600
+this this is called the kch Gordon table
+ 
+
+1257
+00:28:05,600 --> 00:28:08,110
+this this is called the kch Gordon table
+for the spin 1/2 tensor spin 1/2
+
+1258
+00:28:08,110 --> 00:28:08,120
+for the spin 1/2 tensor spin 1/2
+ 
+
+1259
+00:28:08,120 --> 00:28:10,029
+for the spin 1/2 tensor spin 1/2
+representation of
+
+1260
+00:28:10,029 --> 00:28:10,039
+representation of
+ 
+
+1261
+00:28:10,039 --> 00:28:13,590
+representation of
+su2 the way this table works is to build
+
+1262
+00:28:13,590 --> 00:28:13,600
+su2 the way this table works is to build
+ 
+
+1263
+00:28:13,600 --> 00:28:16,990
+su2 the way this table works is to build
+a given a basis Vector on top you just
+
+1264
+00:28:16,990 --> 00:28:17,000
+a given a basis Vector on top you just
+ 
+
+1265
+00:28:17,000 --> 00:28:18,830
+a given a basis Vector on top you just
+read the column below it for the
+
+1266
+00:28:18,830 --> 00:28:18,840
+read the column below it for the
+ 
+
+1267
+00:28:18,840 --> 00:28:21,070
+read the column below it for the
+coefficients you need to build it with
+
+1268
+00:28:21,070 --> 00:28:21,080
+coefficients you need to build it with
+ 
+
+1269
+00:28:21,080 --> 00:28:23,590
+coefficients you need to build it with
+the tensor product basis States shown on
+
+1270
+00:28:23,590 --> 00:28:23,600
+the tensor product basis States shown on
+ 
+
+1271
+00:28:23,600 --> 00:28:27,269
+the tensor product basis States shown on
+the left so for example to build the Jal
+
+1272
+00:28:27,269 --> 00:28:27,279
+the left so for example to build the Jal
+ 
+
+1273
+00:28:27,279 --> 00:28:32,029
+the left so for example to build the Jal
+1 m 0 State we need 1/ the < TK of 2 *
+
+1274
+00:28:32,029 --> 00:28:32,039
+1 m 0 State we need 1/ the < TK of 2 *
+ 
+
+1275
+00:28:32,039 --> 00:28:37,110
+1 m 0 State we need 1/ the < TK of 2 *
+the +2 -2 State plus 1/ the < TK of 2 *
+
+1276
+00:28:37,110 --> 00:28:37,120
+the +2 -2 State plus 1/ the < TK of 2 *
+ 
+
+1277
+00:28:37,120 --> 00:28:41,269
+the +2 -2 State plus 1/ the < TK of 2 *
+the -2 + 1/2 State you might find this
+
+1278
+00:28:41,269 --> 00:28:41,279
+the -2 + 1/2 State you might find this
+ 
+
+1279
+00:28:41,279 --> 00:28:43,669
+the -2 + 1/2 State you might find this
+table a little easier to read when it's
+
+1280
+00:28:43,669 --> 00:28:43,679
+table a little easier to read when it's
+ 
+
+1281
+00:28:43,679 --> 00:28:46,950
+table a little easier to read when it's
+in the full 4x4 Matrix form but with a
+
+1282
+00:28:46,950 --> 00:28:46,960
+in the full 4x4 Matrix form but with a
+ 
+
+1283
+00:28:46,960 --> 00:28:48,630
+in the full 4x4 Matrix form but with a
+little practice you should be able to
+
+1284
+00:28:48,630 --> 00:28:48,640
+little practice you should be able to
+ 
+
+1285
+00:28:48,640 --> 00:28:50,830
+little practice you should be able to
+get used to reading it like
+
+1286
+00:28:50,830 --> 00:28:50,840
+get used to reading it like
+ 
+
+1287
+00:28:50,840 --> 00:28:53,590
+get used to reading it like
+this it's also common to remove the
+
+1288
+00:28:53,590 --> 00:28:53,600
+this it's also common to remove the
+ 
+
+1289
+00:28:53,600 --> 00:28:55,470
+this it's also common to remove the
+square roots from the coefficients to
+
+1290
+00:28:55,470 --> 00:28:55,480
+square roots from the coefficients to
+ 
+
+1291
+00:28:55,480 --> 00:28:58,190
+square roots from the coefficients to
+save space so you'll need to remember to
+
+1292
+00:28:58,190 --> 00:28:58,200
+save space so you'll need to remember to
+ 
+
+1293
+00:28:58,200 --> 00:29:00,590
+save space so you'll need to remember to
+add the square roots back in yourself if
+
+1294
+00:29:00,590 --> 00:29:00,600
+add the square roots back in yourself if
+ 
+
+1295
+00:29:00,600 --> 00:29:02,470
+add the square roots back in yourself if
+the table is written like
+
+1296
+00:29:02,470 --> 00:29:02,480
+the table is written like
+ 
+
+1297
+00:29:02,480 --> 00:29:04,990
+the table is written like
+this we can also interpret these
+
+1298
+00:29:04,990 --> 00:29:05,000
+this we can also interpret these
+ 
+
+1299
+00:29:05,000 --> 00:29:07,269
+this we can also interpret these
+coefficients as being the inner product
+
+1300
+00:29:07,269 --> 00:29:07,279
+coefficients as being the inner product
+ 
+
+1301
+00:29:07,279 --> 00:29:09,149
+coefficients as being the inner product
+of the states in the two
+
+1302
+00:29:09,149 --> 00:29:09,159
+of the states in the two
+ 
+
+1303
+00:29:09,159 --> 00:29:12,110
+of the states in the two
+bases these inner product coefficients
+
+1304
+00:29:12,110 --> 00:29:12,120
+bases these inner product coefficients
+ 
+
+1305
+00:29:12,120 --> 00:29:13,590
+bases these inner product coefficients
+end up being the same as the
+
+1306
+00:29:13,590 --> 00:29:13,600
+end up being the same as the
+ 
+
+1307
+00:29:13,600 --> 00:29:15,990
+end up being the same as the
+coefficients in the linear combinations
+
+1308
+00:29:15,990 --> 00:29:16,000
+coefficients in the linear combinations
+ 
+
+1309
+00:29:16,000 --> 00:29:17,909
+coefficients in the linear combinations
+because all the states are normalized
+
+1310
+00:29:17,909 --> 00:29:17,919
+because all the states are normalized
+ 
+
+1311
+00:29:17,919 --> 00:29:19,269
+because all the states are normalized
+and
+
+1312
+00:29:19,269 --> 00:29:19,279
+and
+ 
+
+1313
+00:29:19,279 --> 00:29:21,630
+and
+orthogonal I've included a link in the
+
+1314
+00:29:21,630 --> 00:29:21,640
+orthogonal I've included a link in the
+ 
+
+1315
+00:29:21,640 --> 00:29:24,149
+orthogonal I've included a link in the
+description to a page with this and
+
+1316
+00:29:24,149 --> 00:29:24,159
+description to a page with this and
+ 
+
+1317
+00:29:24,159 --> 00:29:27,029
+description to a page with this and
+other KP Gordon
+
+1318
+00:29:27,029 --> 00:29:27,039
+other KP Gordon
+ 
+
+1319
+00:29:27,039 --> 00:29:29,909
+other KP Gordon
+tables so at this point we basically
+
+1320
+00:29:29,909 --> 00:29:29,919
+tables so at this point we basically
+ 
+
+1321
+00:29:29,919 --> 00:29:31,710
+tables so at this point we basically
+know everything we need to know about
+
+1322
+00:29:31,710 --> 00:29:31,720
+know everything we need to know about
+ 
+
+1323
+00:29:31,720 --> 00:29:34,470
+know everything we need to know about
+the spin 1/2 tensor spin 1/2
+
+1324
+00:29:34,470 --> 00:29:34,480
+the spin 1/2 tensor spin 1/2
+ 
+
+1325
+00:29:34,480 --> 00:29:36,789
+the spin 1/2 tensor spin 1/2
+representation we know it decomposes
+
+1326
+00:29:36,789 --> 00:29:36,799
+representation we know it decomposes
+ 
+
+1327
+00:29:36,799 --> 00:29:39,590
+representation we know it decomposes
+into a direct sum of a spin one EP and a
+
+1328
+00:29:39,590 --> 00:29:39,600
+into a direct sum of a spin one EP and a
+ 
+
+1329
+00:29:39,600 --> 00:29:42,230
+into a direct sum of a spin one EP and a
+spin zero EP and we know the
+
+1330
+00:29:42,230 --> 00:29:42,240
+spin zero EP and we know the
+ 
+
+1331
+00:29:42,240 --> 00:29:46,149
+spin zero EP and we know the
+coefficients for changing to the ere rep
+
+1332
+00:29:46,149 --> 00:29:46,159
+coefficients for changing to the ere rep
+ 
+
+1333
+00:29:46,159 --> 00:29:48,389
+coefficients for changing to the ere rep
+basis now let's try looking at the
+
+1334
+00:29:48,389 --> 00:29:48,399
+basis now let's try looking at the
+ 
+
+1335
+00:29:48,399 --> 00:29:52,870
+basis now let's try looking at the
+tensor product of three spin 1/2 su2 ARS
+
+1336
+00:29:52,870 --> 00:29:52,880
+tensor product of three spin 1/2 su2 ARS
+ 
+
+1337
+00:29:52,880 --> 00:29:55,269
+tensor product of three spin 1/2 su2 ARS
+which has eight basis
+
+1338
+00:29:55,269 --> 00:29:55,279
+which has eight basis
+ 
+
+1339
+00:29:55,279 --> 00:29:58,149
+which has eight basis
+States we get operators in the lead
+
+1340
+00:29:58,149 --> 00:29:58,159
+States we get operators in the lead
+ 
+
+1341
+00:29:58,159 --> 00:30:01,269
+States we get operators in the lead
+algebra exactly as we did before if we
+
+1342
+00:30:01,269 --> 00:30:01,279
+algebra exactly as we did before if we
+ 
+
+1343
+00:30:01,279 --> 00:30:03,669
+algebra exactly as we did before if we
+have League group members a of t b of T
+
+1344
+00:30:03,669 --> 00:30:03,679
+have League group members a of t b of T
+ 
+
+1345
+00:30:03,679 --> 00:30:06,950
+have League group members a of t b of T
+and C of t with generators small a small
+
+1346
+00:30:06,950 --> 00:30:06,960
+and C of t with generators small a small
+ 
+
+1347
+00:30:06,960 --> 00:30:09,990
+and C of t with generators small a small
+B small C we can get the generator of a
+
+1348
+00:30:09,990 --> 00:30:10,000
+B small C we can get the generator of a
+ 
+
+1349
+00:30:10,000 --> 00:30:13,029
+B small C we can get the generator of a
+of T tensor B of T tensor C of T by
+
+1350
+00:30:13,029 --> 00:30:13,039
+of T tensor B of T tensor C of T by
+ 
+
+1351
+00:30:13,039 --> 00:30:14,870
+of T tensor B of T tensor C of T by
+taking the derivative and setting the
+
+1352
+00:30:14,870 --> 00:30:14,880
+taking the derivative and setting the
+ 
+
+1353
+00:30:14,880 --> 00:30:18,230
+taking the derivative and setting the
+parameter to zero product rule gives us
+
+1354
+00:30:18,230 --> 00:30:18,240
+parameter to zero product rule gives us
+ 
+
+1355
+00:30:18,240 --> 00:30:21,190
+parameter to zero product rule gives us
+a sum of three terms this time and
+
+1356
+00:30:21,190 --> 00:30:21,200
+a sum of three terms this time and
+ 
+
+1357
+00:30:21,200 --> 00:30:24,029
+a sum of three terms this time and
+setting T equals z the three derivative
+
+1358
+00:30:24,029 --> 00:30:24,039
+setting T equals z the three derivative
+ 
+
+1359
+00:30:24,039 --> 00:30:26,230
+setting T equals z the three derivative
+terms each give a generator and the
+
+1360
+00:30:26,230 --> 00:30:26,240
+terms each give a generator and the
+ 
+
+1361
+00:30:26,240 --> 00:30:29,190
+terms each give a generator and the
+other terms just give identity
+
+1362
+00:30:29,190 --> 00:30:29,200
+other terms just give identity
+ 
+
+1363
+00:30:29,200 --> 00:30:31,870
+other terms just give identity
+so we have a sum of three terms each
+
+1364
+00:30:31,870 --> 00:30:31,880
+so we have a sum of three terms each
+ 
+
+1365
+00:30:31,880 --> 00:30:34,789
+so we have a sum of three terms each
+containing one Lee algebra generator in
+
+1366
+00:30:34,789 --> 00:30:34,799
+containing one Lee algebra generator in
+ 
+
+1367
+00:30:34,799 --> 00:30:36,389
+containing one Lee algebra generator in
+one of the three
+
+1368
+00:30:36,389 --> 00:30:36,399
+one of the three
+ 
+
+1369
+00:30:36,399 --> 00:30:38,750
+one of the three
+positions this immediately gives us
+
+1370
+00:30:38,750 --> 00:30:38,760
+positions this immediately gives us
+ 
+
+1371
+00:30:38,760 --> 00:30:40,830
+positions this immediately gives us
+definitions for the igen value and
+
+1372
+00:30:40,830 --> 00:30:40,840
+definitions for the igen value and
+ 
+
+1373
+00:30:40,840 --> 00:30:42,310
+definitions for the igen value and
+Ladder
+
+1374
+00:30:42,310 --> 00:30:42,320
+Ladder
+ 
+
+1375
+00:30:42,320 --> 00:30:44,950
+Ladder
+operators as before the ion value
+
+1376
+00:30:44,950 --> 00:30:44,960
+operators as before the ion value
+ 
+
+1377
+00:30:44,960 --> 00:30:46,870
+operators as before the ion value
+operator acting on a tensor product
+
+1378
+00:30:46,870 --> 00:30:46,880
+operator acting on a tensor product
+ 
+
+1379
+00:30:46,880 --> 00:30:49,389
+operator acting on a tensor product
+State simply gives the ion values of
+
+1380
+00:30:49,389 --> 00:30:49,399
+State simply gives the ion values of
+ 
+
+1381
+00:30:49,399 --> 00:30:51,710
+State simply gives the ion values of
+each state in the tensor product and
+
+1382
+00:30:51,710 --> 00:30:51,720
+each state in the tensor product and
+ 
+
+1383
+00:30:51,720 --> 00:30:53,070
+each state in the tensor product and
+sums them
+
+1384
+00:30:53,070 --> 00:30:53,080
+sums them
+ 
+
+1385
+00:30:53,080 --> 00:30:56,070
+sums them
+together so the I value of the up up up
+
+1386
+00:30:56,070 --> 00:30:56,080
+together so the I value of the up up up
+ 
+
+1387
+00:30:56,080 --> 00:30:58,269
+together so the I value of the up up up
+state is a half plus a half plus plus a
+
+1388
+00:30:58,269 --> 00:30:58,279
+state is a half plus a half plus plus a
+ 
+
+1389
+00:30:58,279 --> 00:31:00,269
+state is a half plus a half plus plus a
+half equal
+
+1390
+00:31:00,269 --> 00:31:00,279
+half equal
+ 
+
+1391
+00:31:00,279 --> 00:31:03,669
+half equal
+3es this is a highest weight State and
+
+1392
+00:31:03,669 --> 00:31:03,679
+3es this is a highest weight State and
+ 
+
+1393
+00:31:03,679 --> 00:31:05,430
+3es this is a highest weight State and
+we can use the lowering operator to
+
+1394
+00:31:05,430 --> 00:31:05,440
+we can use the lowering operator to
+ 
+
+1395
+00:31:05,440 --> 00:31:07,830
+we can use the lowering operator to
+build the rest of the bases for a spin
+
+1396
+00:31:07,830 --> 00:31:07,840
+build the rest of the bases for a spin
+ 
+
+1397
+00:31:07,840 --> 00:31:09,950
+build the rest of the bases for a spin
+three Hales
+
+1398
+00:31:09,950 --> 00:31:09,960
+three Hales
+ 
+
+1399
+00:31:09,960 --> 00:31:13,269
+three Hales
+ER we can also find two other highest
+
+1400
+00:31:13,269 --> 00:31:13,279
+ER we can also find two other highest
+ 
+
+1401
+00:31:13,279 --> 00:31:15,909
+ER we can also find two other highest
+weight States and we find they each give
+
+1402
+00:31:15,909 --> 00:31:15,919
+weight States and we find they each give
+ 
+
+1403
+00:31:15,919 --> 00:31:18,590
+weight States and we find they each give
+us a spin 1/2 a
+
+1404
+00:31:18,590 --> 00:31:18,600
+us a spin 1/2 a
+ 
+
+1405
+00:31:18,600 --> 00:31:21,350
+us a spin 1/2 a
+rep if we take the beta coefficients
+
+1406
+00:31:21,350 --> 00:31:21,360
+rep if we take the beta coefficients
+ 
+
+1407
+00:31:21,360 --> 00:31:23,830
+rep if we take the beta coefficients
+from the lowering operator into account
+
+1408
+00:31:23,830 --> 00:31:23,840
+from the lowering operator into account
+ 
+
+1409
+00:31:23,840 --> 00:31:26,909
+from the lowering operator into account
+we get these normalized states
+
+1410
+00:31:26,909 --> 00:31:26,919
+we get these normalized states
+ 
+
+1411
+00:31:26,919 --> 00:31:30,509
+we get these normalized states
+here so the tensor product of three spin
+
+1412
+00:31:30,509 --> 00:31:30,519
+here so the tensor product of three spin
+ 
+
+1413
+00:31:30,519 --> 00:31:33,909
+here so the tensor product of three spin
+1/2 EPS decomposes into the direct sum
+
+1414
+00:31:33,909 --> 00:31:33,919
+1/2 EPS decomposes into the direct sum
+ 
+
+1415
+00:31:33,919 --> 00:31:37,710
+1/2 EPS decomposes into the direct sum
+of a spin three Hales EP a spin 1/2 and
+
+1416
+00:31:37,710 --> 00:31:37,720
+of a spin three Hales EP a spin 1/2 and
+ 
+
+1417
+00:31:37,720 --> 00:31:39,190
+of a spin three Hales EP a spin 1/2 and
+another spin
+
+1418
+00:31:39,190 --> 00:31:39,200
+another spin
+ 
+
+1419
+00:31:39,200 --> 00:31:42,230
+another spin
+1/2 in other words the tensor product of
+
+1420
+00:31:42,230 --> 00:31:42,240
+1/2 in other words the tensor product of
+ 
+
+1421
+00:31:42,240 --> 00:31:43,310
+1/2 in other words the tensor product of
+three
+
+1422
+00:31:43,310 --> 00:31:43,320
+three
+ 
+
+1423
+00:31:43,320 --> 00:31:46,389
+three
+2x2s decomposes into the direct sum of a
+
+1424
+00:31:46,389 --> 00:31:46,399
+2x2s decomposes into the direct sum of a
+ 
+
+1425
+00:31:46,399 --> 00:31:49,990
+2x2s decomposes into the direct sum of a
+4x4 EP and a pair of
+
+1426
+00:31:49,990 --> 00:31:50,000
+4x4 EP and a pair of
+ 
+
+1427
+00:31:50,000 --> 00:31:53,590
+4x4 EP and a pair of
+2x2s we can see all the a basis vectors
+
+1428
+00:31:53,590 --> 00:31:53,600
+2x2s we can see all the a basis vectors
+ 
+
+1429
+00:31:53,600 --> 00:31:56,950
+2x2s we can see all the a basis vectors
+here for the spin 3 haves a we get four
+
+1430
+00:31:56,950 --> 00:31:56,960
+here for the spin 3 haves a we get four
+ 
+
+1431
+00:31:56,960 --> 00:31:58,629
+here for the spin 3 haves a we get four
+basis vectors
+
+1432
+00:31:58,629 --> 00:31:58,639
+basis vectors
+ 
+
+1433
+00:31:58,639 --> 00:32:01,509
+basis vectors
+and for each of the spin 1/2s we get two
+
+1434
+00:32:01,509 --> 00:32:01,519
+and for each of the spin 1/2s we get two
+ 
+
+1435
+00:32:01,519 --> 00:32:03,870
+and for each of the spin 1/2s we get two
+basis
+
+1436
+00:32:03,870 --> 00:32:03,880
+basis
+ 
+
+1437
+00:32:03,880 --> 00:32:06,310
+basis
+vectors we can go through a similar
+
+1438
+00:32:06,310 --> 00:32:06,320
+vectors we can go through a similar
+ 
+
+1439
+00:32:06,320 --> 00:32:08,669
+vectors we can go through a similar
+process for the tensor product of four
+
+1440
+00:32:08,669 --> 00:32:08,679
+process for the tensor product of four
+ 
+
+1441
+00:32:08,679 --> 00:32:12,310
+process for the tensor product of four
+spin 1/2 EPS all of the four tensor
+
+1442
+00:32:12,310 --> 00:32:12,320
+spin 1/2 EPS all of the four tensor
+ 
+
+1443
+00:32:12,320 --> 00:32:14,310
+spin 1/2 EPS all of the four tensor
+operators work as you'd
+
+1444
+00:32:14,310 --> 00:32:14,320
+operators work as you'd
+ 
+
+1445
+00:32:14,320 --> 00:32:16,830
+operators work as you'd
+expect I'm not going to go through the
+
+1446
+00:32:16,830 --> 00:32:16,840
+expect I'm not going to go through the
+ 
+
+1447
+00:32:16,840 --> 00:32:19,269
+expect I'm not going to go through the
+details but this representation
+
+1448
+00:32:19,269 --> 00:32:19,279
+details but this representation
+ 
+
+1449
+00:32:19,279 --> 00:32:21,750
+details but this representation
+decomposes into the direct sum of eps
+
+1450
+00:32:21,750 --> 00:32:21,760
+decomposes into the direct sum of eps
+ 
+
+1451
+00:32:21,760 --> 00:32:26,990
+decomposes into the direct sum of eps
+with spins 2 1 0 1 1 and 0er in terms of
+
+1452
+00:32:26,990 --> 00:32:27,000
+with spins 2 1 0 1 1 and 0er in terms of
+ 
+
+1453
+00:32:27,000 --> 00:32:28,990
+with spins 2 1 0 1 1 and 0er in terms of
+the dimensions the ears in the direct
+
+1454
+00:32:28,990 --> 00:32:29,000
+the dimensions the ears in the direct
+ 
+
+1455
+00:32:29,000 --> 00:32:33,190
+the dimensions the ears in the direct
+sum have Dimensions 5 3 1 3 3 and
+
+1456
+00:32:33,190 --> 00:32:33,200
+sum have Dimensions 5 3 1 3 3 and
+ 
+
+1457
+00:32:33,200 --> 00:32:37,629
+sum have Dimensions 5 3 1 3 3 and
+1 I'm showing the first three ears here
+
+1458
+00:32:37,629 --> 00:32:37,639
+1 I'm showing the first three ears here
+ 
+
+1459
+00:32:37,639 --> 00:32:40,789
+1 I'm showing the first three ears here
+and the second three IRS
+
+1460
+00:32:40,789 --> 00:32:40,799
+and the second three IRS
+ 
+
+1461
+00:32:40,799 --> 00:32:43,430
+and the second three IRS
+here now there's a trick from Mark
+
+1462
+00:32:43,430 --> 00:32:43,440
+here now there's a trick from Mark
+ 
+
+1463
+00:32:43,440 --> 00:32:45,830
+here now there's a trick from Mark
+Thompson's modern particle physics book
+
+1464
+00:32:45,830 --> 00:32:45,840
+Thompson's modern particle physics book
+ 
+
+1465
+00:32:45,840 --> 00:32:47,430
+Thompson's modern particle physics book
+that helps us get these EP
+
+1466
+00:32:47,430 --> 00:32:47,440
+that helps us get these EP
+ 
+
+1467
+00:32:47,440 --> 00:32:50,590
+that helps us get these EP
+decompositions more easily we can
+
+1468
+00:32:50,590 --> 00:32:50,600
+decompositions more easily we can
+ 
+
+1469
+00:32:50,600 --> 00:32:53,789
+decompositions more easily we can
+illustrate the two-dimensional su2 EP as
+
+1470
+00:32:53,789 --> 00:32:53,799
+illustrate the two-dimensional su2 EP as
+ 
+
+1471
+00:32:53,799 --> 00:32:56,549
+illustrate the two-dimensional su2 EP as
+two states represented as two nodes
+
+1472
+00:32:56,549 --> 00:32:56,559
+two states represented as two nodes
+ 
+
+1473
+00:32:56,559 --> 00:32:59,269
+two states represented as two nodes
+connected by a line segment M the lad
+
+1474
+00:32:59,269 --> 00:32:59,279
+connected by a line segment M the lad
+ 
+
+1475
+00:32:59,279 --> 00:33:02,149
+connected by a line segment M the lad
+operators move us between the two nodes
+
+1476
+00:33:02,149 --> 00:33:02,159
+operators move us between the two nodes
+ 
+
+1477
+00:33:02,159 --> 00:33:04,190
+operators move us between the two nodes
+this is called a weight
+
+1478
+00:33:04,190 --> 00:33:04,200
+this is called a weight
+ 
+
+1479
+00:33:04,200 --> 00:33:07,029
+this is called a weight
+diagram if we have two of these EPs and
+
+1480
+00:33:07,029 --> 00:33:07,039
+diagram if we have two of these EPs and
+ 
+
+1481
+00:33:07,039 --> 00:33:09,269
+diagram if we have two of these EPs and
+we take their tensor product we can
+
+1482
+00:33:09,269 --> 00:33:09,279
+we take their tensor product we can
+ 
+
+1483
+00:33:09,279 --> 00:33:10,990
+we take their tensor product we can
+illustrate the result by taking the
+
+1484
+00:33:10,990 --> 00:33:11,000
+illustrate the result by taking the
+ 
+
+1485
+00:33:11,000 --> 00:33:13,830
+illustrate the result by taking the
+first diagram and placing a copy of the
+
+1486
+00:33:13,830 --> 00:33:13,840
+first diagram and placing a copy of the
+ 
+
+1487
+00:33:13,840 --> 00:33:16,070
+first diagram and placing a copy of the
+second diagram centered on each of the
+
+1488
+00:33:16,070 --> 00:33:16,080
+second diagram centered on each of the
+ 
+
+1489
+00:33:16,080 --> 00:33:16,950
+second diagram centered on each of the
+two
+
+1490
+00:33:16,950 --> 00:33:16,960
+two
+ 
+
+1491
+00:33:16,960 --> 00:33:20,070
+two
+nodes we get a weight diagram with three
+
+1492
+00:33:20,070 --> 00:33:20,080
+nodes we get a weight diagram with three
+ 
+
+1493
+00:33:20,080 --> 00:33:22,310
+nodes we get a weight diagram with three
+nodes this shows that the result
+
+1494
+00:33:22,310 --> 00:33:22,320
+nodes this shows that the result
+ 
+
+1495
+00:33:22,320 --> 00:33:25,870
+nodes this shows that the result
+contains a 3D EP which are the triplet
+
+1496
+00:33:25,870 --> 00:33:25,880
+contains a 3D EP which are the triplet
+ 
+
+1497
+00:33:25,880 --> 00:33:28,549
+contains a 3D EP which are the triplet
+States however since the middle location
+
+1498
+00:33:28,549 --> 00:33:28,559
+States however since the middle location
+ 
+
+1499
+00:33:28,559 --> 00:33:31,470
+States however since the middle location
+here contains two overlapping nodes one
+
+1500
+00:33:31,470 --> 00:33:31,480
+here contains two overlapping nodes one
+ 
+
+1501
+00:33:31,480 --> 00:33:34,750
+here contains two overlapping nodes one
+of them pops out and becomes a 1D ere
+
+1502
+00:33:34,750 --> 00:33:34,760
+of them pops out and becomes a 1D ere
+ 
+
+1503
+00:33:34,760 --> 00:33:36,269
+of them pops out and becomes a 1D ere
+the singlet
+
+1504
+00:33:36,269 --> 00:33:36,279
+the singlet
+ 
+
+1505
+00:33:36,279 --> 00:33:39,389
+the singlet
+State this illustrates the IR formula we
+
+1506
+00:33:39,389 --> 00:33:39,399
+State this illustrates the IR formula we
+ 
+
+1507
+00:33:39,399 --> 00:33:41,710
+State this illustrates the IR formula we
+saw earlier where the tensor product of
+
+1508
+00:33:41,710 --> 00:33:41,720
+saw earlier where the tensor product of
+ 
+
+1509
+00:33:41,720 --> 00:33:44,950
+saw earlier where the tensor product of
+a pair of 2D IRS equals the direct sum
+
+1510
+00:33:44,950 --> 00:33:44,960
+a pair of 2D IRS equals the direct sum
+ 
+
+1511
+00:33:44,960 --> 00:33:48,070
+a pair of 2D IRS equals the direct sum
+of a 3D EP and a 1D
+
+1512
+00:33:48,070 --> 00:33:48,080
+of a 3D EP and a 1D
+ 
+
+1513
+00:33:48,080 --> 00:33:50,750
+of a 3D EP and a 1D
+EP we can continue this pattern for the
+
+1514
+00:33:50,750 --> 00:33:50,760
+EP we can continue this pattern for the
+ 
+
+1515
+00:33:50,760 --> 00:33:54,430
+EP we can continue this pattern for the
+tensor product of three 2D EPS we know
+
+1516
+00:33:54,430 --> 00:33:54,440
+tensor product of three 2D EPS we know
+ 
+
+1517
+00:33:54,440 --> 00:33:56,310
+tensor product of three 2D EPS we know
+the first two weight diagrams in the
+
+1518
+00:33:56,310 --> 00:33:56,320
+the first two weight diagrams in the
+ 
+
+1519
+00:33:56,320 --> 00:33:58,909
+the first two weight diagrams in the
+product result in a sum of a 3D ere and
+
+1520
+00:33:58,909 --> 00:33:58,919
+product result in a sum of a 3D ere and
+ 
+
+1521
+00:33:58,919 --> 00:34:00,070
+product result in a sum of a 3D ere and
+a 1D
+
+1522
+00:34:00,070 --> 00:34:00,080
+a 1D
+ 
+
+1523
+00:34:00,080 --> 00:34:02,629
+a 1D
+ere now we can distribute the product
+
+1524
+00:34:02,629 --> 00:34:02,639
+ere now we can distribute the product
+ 
+
+1525
+00:34:02,639 --> 00:34:05,230
+ere now we can distribute the product
+over the sum as if this were an algebra
+
+1526
+00:34:05,230 --> 00:34:05,240
+over the sum as if this were an algebra
+ 
+
+1527
+00:34:05,240 --> 00:34:08,109
+over the sum as if this were an algebra
+equation to calculate these products we
+
+1528
+00:34:08,109 --> 00:34:08,119
+equation to calculate these products we
+ 
+
+1529
+00:34:08,119 --> 00:34:10,030
+equation to calculate these products we
+can again use the trick of taking the
+
+1530
+00:34:10,030 --> 00:34:10,040
+can again use the trick of taking the
+ 
+
+1531
+00:34:10,040 --> 00:34:12,470
+can again use the trick of taking the
+first diagram in the product and placing
+
+1532
+00:34:12,470 --> 00:34:12,480
+first diagram in the product and placing
+ 
+
+1533
+00:34:12,480 --> 00:34:14,430
+first diagram in the product and placing
+a copy of the second diagram in the
+
+1534
+00:34:14,430 --> 00:34:14,440
+a copy of the second diagram in the
+ 
+
+1535
+00:34:14,440 --> 00:34:16,389
+a copy of the second diagram in the
+product over each
+
+1536
+00:34:16,389 --> 00:34:16,399
+product over each
+ 
+
+1537
+00:34:16,399 --> 00:34:19,069
+product over each
+node the first term in the sum gives us
+
+1538
+00:34:19,069 --> 00:34:19,079
+node the first term in the sum gives us
+ 
+
+1539
+00:34:19,079 --> 00:34:22,510
+node the first term in the sum gives us
+a 4D EP however since there are two node
+
+1540
+00:34:22,510 --> 00:34:22,520
+a 4D EP however since there are two node
+ 
+
+1541
+00:34:22,520 --> 00:34:26,990
+a 4D EP however since there are two node
+overlaps a 2d EP also pops out and the
+
+1542
+00:34:26,990 --> 00:34:27,000
+overlaps a 2d EP also pops out and the
+ 
+
+1543
+00:34:27,000 --> 00:34:29,829
+overlaps a 2d EP also pops out and the
+second term gives us a 2d
+
+1544
+00:34:29,829 --> 00:34:29,839
+second term gives us a 2d
+ 
+
+1545
+00:34:29,839 --> 00:34:32,629
+second term gives us a 2d
+ER in this way we see the product of
+
+1546
+00:34:32,629 --> 00:34:32,639
+ER in this way we see the product of
+ 
+
+1547
+00:34:32,639 --> 00:34:36,629
+ER in this way we see the product of
+three 2D ARS gives us the sum of a 4D ER
+
+1548
+00:34:36,629 --> 00:34:36,639
+three 2D ARS gives us the sum of a 4D ER
+ 
+
+1549
+00:34:36,639 --> 00:34:40,950
+three 2D ARS gives us the sum of a 4D ER
+and a pair of 2D ER reps as we saw
+
+1550
+00:34:40,950 --> 00:34:40,960
+and a pair of 2D ER reps as we saw
+ 
+
+1551
+00:34:40,960 --> 00:34:43,669
+and a pair of 2D ER reps as we saw
+before we can keep going with the tensor
+
+1552
+00:34:43,669 --> 00:34:43,679
+before we can keep going with the tensor
+ 
+
+1553
+00:34:43,679 --> 00:34:47,109
+before we can keep going with the tensor
+product of four 2D EPS we know the first
+
+1554
+00:34:47,109 --> 00:34:47,119
+product of four 2D EPS we know the first
+ 
+
+1555
+00:34:47,119 --> 00:34:50,550
+product of four 2D EPS we know the first
+three become four Su two Su two then we
+
+1556
+00:34:50,550 --> 00:34:50,560
+three become four Su two Su two then we
+ 
+
+1557
+00:34:50,560 --> 00:34:52,950
+three become four Su two Su two then we
+distribute to get the sum of three
+
+1558
+00:34:52,950 --> 00:34:52,960
+distribute to get the sum of three
+ 
+
+1559
+00:34:52,960 --> 00:34:55,310
+distribute to get the sum of three
+products then we use the trick of taking
+
+1560
+00:34:55,310 --> 00:34:55,320
+products then we use the trick of taking
+ 
+
+1561
+00:34:55,320 --> 00:34:57,430
+products then we use the trick of taking
+the first diagram and placing copies of
+
+1562
+00:34:57,430 --> 00:34:57,440
+the first diagram and placing copies of
+ 
+
+1563
+00:34:57,440 --> 00:35:00,790
+the first diagram and placing copies of
+the second diagram over its nodes in
+
+1564
+00:35:00,790 --> 00:35:00,800
+the second diagram over its nodes in
+ 
+
+1565
+00:35:00,800 --> 00:35:02,630
+the second diagram over its nodes in
+this way we see the tensor product of
+
+1566
+00:35:02,630 --> 00:35:02,640
+this way we see the tensor product of
+ 
+
+1567
+00:35:02,640 --> 00:35:06,270
+this way we see the tensor product of
+four 2D EPS gives us the sum of IRS with
+
+1568
+00:35:06,270 --> 00:35:06,280
+four 2D EPS gives us the sum of IRS with
+ 
+
+1569
+00:35:06,280 --> 00:35:12,349
+four 2D EPS gives us the sum of IRS with
+Dimensions 533 131 as we saw
+
+1570
+00:35:12,349 --> 00:35:12,359
+
+ 
+
+1571
+00:35:12,359 --> 00:35:14,910
+
+earlier now if we look at all the tensor
+
+1572
+00:35:14,910 --> 00:35:14,920
+earlier now if we look at all the tensor
+ 
+
+1573
+00:35:14,920 --> 00:35:17,390
+earlier now if we look at all the tensor
+product representations so far the
+
+1574
+00:35:17,390 --> 00:35:17,400
+product representations so far the
+ 
+
+1575
+00:35:17,400 --> 00:35:20,270
+product representations so far the
+largest EP in each one increases by half
+
+1576
+00:35:20,270 --> 00:35:20,280
+largest EP in each one increases by half
+ 
+
+1577
+00:35:20,280 --> 00:35:23,829
+largest EP in each one increases by half
+an integer spin each time in other words
+
+1578
+00:35:23,829 --> 00:35:23,839
+an integer spin each time in other words
+ 
+
+1579
+00:35:23,839 --> 00:35:26,109
+an integer spin each time in other words
+the largest IR increases by one
+
+1580
+00:35:26,109 --> 00:35:26,119
+the largest IR increases by one
+ 
+
+1581
+00:35:26,119 --> 00:35:28,430
+the largest IR increases by one
+dimension each time
+
+1582
+00:35:28,430 --> 00:35:28,440
+dimension each time
+ 
+
+1583
+00:35:28,440 --> 00:35:30,230
+dimension each time
+let's take a closer look at these
+
+1584
+00:35:30,230 --> 00:35:30,240
+let's take a closer look at these
+ 
+
+1585
+00:35:30,240 --> 00:35:33,349
+let's take a closer look at these
+largest EPS that result from the tensor
+
+1586
+00:35:33,349 --> 00:35:33,359
+largest EPS that result from the tensor
+ 
+
+1587
+00:35:33,359 --> 00:35:35,750
+largest EPS that result from the tensor
+products the tensor product of two
+
+1588
+00:35:35,750 --> 00:35:35,760
+products the tensor product of two
+ 
+
+1589
+00:35:35,760 --> 00:35:38,150
+products the tensor product of two
+spinners gives us a largest EP of a spin
+
+1590
+00:35:38,150 --> 00:35:38,160
+spinners gives us a largest EP of a spin
+ 
+
+1591
+00:35:38,160 --> 00:35:41,349
+spinners gives us a largest EP of a spin
+one particle or vector which is a rank
+
+1592
+00:35:41,349 --> 00:35:41,359
+one particle or vector which is a rank
+ 
+
+1593
+00:35:41,359 --> 00:35:44,430
+one particle or vector which is a rank
+one tensor the tensor product of three
+
+1594
+00:35:44,430 --> 00:35:44,440
+one tensor the tensor product of three
+ 
+
+1595
+00:35:44,440 --> 00:35:46,750
+one tensor the tensor product of three
+Spinners gives us the largest EP of a
+
+1596
+00:35:46,750 --> 00:35:46,760
+Spinners gives us the largest EP of a
+ 
+
+1597
+00:35:46,760 --> 00:35:48,309
+Spinners gives us the largest EP of a
+spin three Hales
+
+1598
+00:35:48,309 --> 00:35:48,319
+spin three Hales
+ 
+
+1599
+00:35:48,319 --> 00:35:50,589
+spin three Hales
+particle the tensor product of four
+
+1600
+00:35:50,589 --> 00:35:50,599
+particle the tensor product of four
+ 
+
+1601
+00:35:50,599 --> 00:35:53,230
+particle the tensor product of four
+Spinners gives us a largest ER of a spin
+
+1602
+00:35:53,230 --> 00:35:53,240
+Spinners gives us a largest ER of a spin
+ 
+
+1603
+00:35:53,240 --> 00:35:58,550
+Spinners gives us a largest ER of a spin
+two particle or Rank 2 tensor and so on
+
+1604
+00:35:58,550 --> 00:35:58,560
+two particle or Rank 2 tensor and so on
+ 
+
+1605
+00:35:58,560 --> 00:36:00,470
+two particle or Rank 2 tensor and so on
+in this way the tensor product of an
+
+1606
+00:36:00,470 --> 00:36:00,480
+in this way the tensor product of an
+ 
+
+1607
+00:36:00,480 --> 00:36:02,470
+in this way the tensor product of an
+even number of spinners can be thought
+
+1608
+00:36:02,470 --> 00:36:02,480
+even number of spinners can be thought
+ 
+
+1609
+00:36:02,480 --> 00:36:04,550
+even number of spinners can be thought
+of as the fundamental building block for
+
+1610
+00:36:04,550 --> 00:36:04,560
+of as the fundamental building block for
+ 
+
+1611
+00:36:04,560 --> 00:36:07,790
+of as the fundamental building block for
+all tensor ranks and the tensor product
+
+1612
+00:36:07,790 --> 00:36:07,800
+all tensor ranks and the tensor product
+ 
+
+1613
+00:36:07,800 --> 00:36:10,230
+all tensor ranks and the tensor product
+of an odd number of spinners gives us a
+
+1614
+00:36:10,230 --> 00:36:10,240
+of an odd number of spinners gives us a
+ 
+
+1615
+00:36:10,240 --> 00:36:12,270
+of an odd number of spinners gives us a
+kind of tensor that can be thought of as
+
+1616
+00:36:12,270 --> 00:36:12,280
+kind of tensor that can be thought of as
+ 
+
+1617
+00:36:12,280 --> 00:36:15,470
+kind of tensor that can be thought of as
+having a half integer rank these are
+
+1618
+00:36:15,470 --> 00:36:15,480
+having a half integer rank these are
+ 
+
+1619
+00:36:15,480 --> 00:36:17,990
+having a half integer rank these are
+sometimes called spinner
+
+1620
+00:36:17,990 --> 00:36:18,000
+sometimes called spinner
+ 
+
+1621
+00:36:18,000 --> 00:36:20,670
+sometimes called spinner
+tensors the largest IRS inside the
+
+1622
+00:36:20,670 --> 00:36:20,680
+tensors the largest IRS inside the
+ 
+
+1623
+00:36:20,680 --> 00:36:23,109
+tensors the largest IRS inside the
+tensor product spaces all have the
+
+1624
+00:36:23,109 --> 00:36:23,119
+tensor product spaces all have the
+ 
+
+1625
+00:36:23,119 --> 00:36:26,109
+tensor product spaces all have the
+property of being totally symmetric this
+
+1626
+00:36:26,109 --> 00:36:26,119
+property of being totally symmetric this
+ 
+
+1627
+00:36:26,119 --> 00:36:28,150
+property of being totally symmetric this
+means that if you swap any to spin
+
+1628
+00:36:28,150 --> 00:36:28,160
+means that if you swap any to spin
+ 
+
+1629
+00:36:28,160 --> 00:36:30,910
+means that if you swap any to spin
+values in the basis States the overall
+
+1630
+00:36:30,910 --> 00:36:30,920
+values in the basis States the overall
+ 
+
+1631
+00:36:30,920 --> 00:36:32,230
+values in the basis States the overall
+state is
+
+1632
+00:36:32,230 --> 00:36:32,240
+state is
+ 
+
+1633
+00:36:32,240 --> 00:36:35,030
+state is
+unchanged for example in this spin 3
+
+1634
+00:36:35,030 --> 00:36:35,040
+unchanged for example in this spin 3
+ 
+
+1635
+00:36:35,040 --> 00:36:37,670
+unchanged for example in this spin 3
+haves ER if I exchange the position of
+
+1636
+00:36:37,670 --> 00:36:37,680
+haves ER if I exchange the position of
+ 
+
+1637
+00:36:37,680 --> 00:36:39,910
+haves ER if I exchange the position of
+the first and second spin States in all
+
+1638
+00:36:39,910 --> 00:36:39,920
+the first and second spin States in all
+ 
+
+1639
+00:36:39,920 --> 00:36:42,349
+the first and second spin States in all
+the basis States the overall basis
+
+1640
+00:36:42,349 --> 00:36:42,359
+the basis States the overall basis
+ 
+
+1641
+00:36:42,359 --> 00:36:43,910
+the basis States the overall basis
+states are
+
+1642
+00:36:43,910 --> 00:36:43,920
+states are
+ 
+
+1643
+00:36:43,920 --> 00:36:46,470
+states are
+unchanged so all the tensors and spin
+
+1644
+00:36:46,470 --> 00:36:46,480
+unchanged so all the tensors and spin
+ 
+
+1645
+00:36:46,480 --> 00:36:49,150
+unchanged so all the tensors and spin
+tensors associated with su2 in three
+
+1646
+00:36:49,150 --> 00:36:49,160
+tensors associated with su2 in three
+ 
+
+1647
+00:36:49,160 --> 00:36:51,190
+tensors associated with su2 in three
+dimensions of space can all be
+
+1648
+00:36:51,190 --> 00:36:51,200
+dimensions of space can all be
+ 
+
+1649
+00:36:51,200 --> 00:36:53,510
+dimensions of space can all be
+constructed as totally symmetric states
+
+1650
+00:36:53,510 --> 00:36:53,520
+constructed as totally symmetric states
+ 
+
+1651
+00:36:53,520 --> 00:36:55,710
+constructed as totally symmetric states
+of some number of spinners multiplied
+
+1652
+00:36:55,710 --> 00:36:55,720
+of some number of spinners multiplied
+ 
+
+1653
+00:36:55,720 --> 00:36:59,829
+of some number of spinners multiplied
+together with the tensor product
+
+1654
+00:36:59,829 --> 00:36:59,839
+
+ 
+
+1655
+00:36:59,839 --> 00:37:01,829
+
+now so far in this video we've been
+
+1656
+00:37:01,829 --> 00:37:01,839
+now so far in this video we've been
+ 
+
+1657
+00:37:01,839 --> 00:37:04,109
+now so far in this video we've been
+focusing on the tensor product of spin
+
+1658
+00:37:04,109 --> 00:37:04,119
+focusing on the tensor product of spin
+ 
+
+1659
+00:37:04,119 --> 00:37:06,349
+focusing on the tensor product of spin
+1/2 su2
+
+1660
+00:37:06,349 --> 00:37:06,359
+1/2 su2
+ 
+
+1661
+00:37:06,359 --> 00:37:08,430
+1/2 su2
+representations but we can also take the
+
+1662
+00:37:08,430 --> 00:37:08,440
+representations but we can also take the
+ 
+
+1663
+00:37:08,440 --> 00:37:10,750
+representations but we can also take the
+tensor products of representations of
+
+1664
+00:37:10,750 --> 00:37:10,760
+tensor products of representations of
+ 
+
+1665
+00:37:10,760 --> 00:37:13,550
+tensor products of representations of
+other sizes as well for example the
+
+1666
+00:37:13,550 --> 00:37:13,560
+other sizes as well for example the
+ 
+
+1667
+00:37:13,560 --> 00:37:16,510
+other sizes as well for example the
+tensor product of a spin 1/2 a and a
+
+1668
+00:37:16,510 --> 00:37:16,520
+tensor product of a spin 1/2 a and a
+ 
+
+1669
+00:37:16,520 --> 00:37:19,589
+tensor product of a spin 1/2 a and a
+spin three Hales a or the tensor product
+
+1670
+00:37:19,589 --> 00:37:19,599
+spin three Hales a or the tensor product
+ 
+
+1671
+00:37:19,599 --> 00:37:23,750
+spin three Hales a or the tensor product
+of a spin one and a spin one a in each
+
+1672
+00:37:23,750 --> 00:37:23,760
+of a spin one and a spin one a in each
+ 
+
+1673
+00:37:23,760 --> 00:37:25,950
+of a spin one and a spin one a in each
+case we can change the basis from the
+
+1674
+00:37:25,950 --> 00:37:25,960
+case we can change the basis from the
+ 
+
+1675
+00:37:25,960 --> 00:37:29,950
+case we can change the basis from the
+tensor product basis to the IR basis
+
+1676
+00:37:29,950 --> 00:37:29,960
+tensor product basis to the IR basis
+ 
+
+1677
+00:37:29,960 --> 00:37:31,910
+tensor product basis to the IR basis
+which is where the space is decomposed
+
+1678
+00:37:31,910 --> 00:37:31,920
+which is where the space is decomposed
+ 
+
+1679
+00:37:31,920 --> 00:37:34,910
+which is where the space is decomposed
+into a direct sum of smaller
+
+1680
+00:37:34,910 --> 00:37:34,920
+into a direct sum of smaller
+ 
+
+1681
+00:37:34,920 --> 00:37:37,670
+into a direct sum of smaller
+ears the change of basis equations for
+
+1682
+00:37:37,670 --> 00:37:37,680
+ears the change of basis equations for
+ 
+
+1683
+00:37:37,680 --> 00:37:40,109
+ears the change of basis equations for
+doing this are given by sets of larger
+
+1684
+00:37:40,109 --> 00:37:40,119
+doing this are given by sets of larger
+ 
+
+1685
+00:37:40,119 --> 00:37:42,349
+doing this are given by sets of larger
+KP Gordon tables which I've Linked In
+
+1686
+00:37:42,349 --> 00:37:42,359
+KP Gordon tables which I've Linked In
+ 
+
+1687
+00:37:42,359 --> 00:37:43,710
+KP Gordon tables which I've Linked In
+the
+
+1688
+00:37:43,710 --> 00:37:43,720
+the
+ 
+
+1689
+00:37:43,720 --> 00:37:46,550
+the
+description to use the tables you start
+
+1690
+00:37:46,550 --> 00:37:46,560
+description to use the tables you start
+ 
+
+1691
+00:37:46,560 --> 00:37:48,950
+description to use the tables you start
+by identifying the two representations
+
+1692
+00:37:48,950 --> 00:37:48,960
+by identifying the two representations
+ 
+
+1693
+00:37:48,960 --> 00:37:51,589
+by identifying the two representations
+you're tensoring together this tells you
+
+1694
+00:37:51,589 --> 00:37:51,599
+you're tensoring together this tells you
+ 
+
+1695
+00:37:51,599 --> 00:37:54,710
+you're tensoring together this tells you
+which table to use in this example we'll
+
+1696
+00:37:54,710 --> 00:37:54,720
+which table to use in this example we'll
+ 
+
+1697
+00:37:54,720 --> 00:37:57,829
+which table to use in this example we'll
+look at spin one tensored with spin one
+
+1698
+00:37:57,829 --> 00:37:57,839
+look at spin one tensored with spin one
+ 
+
+1699
+00:37:57,839 --> 00:37:59,829
+look at spin one tensored with spin one
+along the top you'll see the various
+
+1700
+00:37:59,829 --> 00:37:59,839
+along the top you'll see the various
+ 
+
+1701
+00:37:59,839 --> 00:38:03,109
+along the top you'll see the various
+basis vectors in the EP basis labeled
+
+1702
+00:38:03,109 --> 00:38:03,119
+basis vectors in the EP basis labeled
+ 
+
+1703
+00:38:03,119 --> 00:38:05,349
+basis vectors in the EP basis labeled
+with their spin number J followed by
+
+1704
+00:38:05,349 --> 00:38:05,359
+with their spin number J followed by
+ 
+
+1705
+00:38:05,359 --> 00:38:09,069
+with their spin number J followed by
+their igen value M for example here we
+
+1706
+00:38:09,069 --> 00:38:09,079
+their igen value M for example here we
+ 
+
+1707
+00:38:09,079 --> 00:38:12,230
+their igen value M for example here we
+have a decomposition into a spin 2 itre
+
+1708
+00:38:12,230 --> 00:38:12,240
+have a decomposition into a spin 2 itre
+ 
+
+1709
+00:38:12,240 --> 00:38:15,670
+have a decomposition into a spin 2 itre
+with five basis States a spin one EP
+
+1710
+00:38:15,670 --> 00:38:15,680
+with five basis States a spin one EP
+ 
+
+1711
+00:38:15,680 --> 00:38:18,550
+with five basis States a spin one EP
+with three basis States and a spin zero
+
+1712
+00:38:18,550 --> 00:38:18,560
+with three basis States and a spin zero
+ 
+
+1713
+00:38:18,560 --> 00:38:20,829
+with three basis States and a spin zero
+EP with one basis
+
+1714
+00:38:20,829 --> 00:38:20,839
+EP with one basis
+ 
+
+1715
+00:38:20,839 --> 00:38:23,829
+EP with one basis
+State along the sides you can see pairs
+
+1716
+00:38:23,829 --> 00:38:23,839
+State along the sides you can see pairs
+ 
+
+1717
+00:38:23,839 --> 00:38:27,510
+State along the sides you can see pairs
+of igen values M1 and M2 for the two
+
+1718
+00:38:27,510 --> 00:38:27,520
+of igen values M1 and M2 for the two
+ 
+
+1719
+00:38:27,520 --> 00:38:30,270
+of igen values M1 and M2 for the two
+vectors being used in the tensor
+
+1720
+00:38:30,270 --> 00:38:30,280
+vectors being used in the tensor
+ 
+
+1721
+00:38:30,280 --> 00:38:32,790
+vectors being used in the tensor
+product to get the coefficients for a
+
+1722
+00:38:32,790 --> 00:38:32,800
+product to get the coefficients for a
+ 
+
+1723
+00:38:32,800 --> 00:38:35,829
+product to get the coefficients for a
+given IR Vector we just read the column
+
+1724
+00:38:35,829 --> 00:38:35,839
+given IR Vector we just read the column
+ 
+
+1725
+00:38:35,839 --> 00:38:38,190
+given IR Vector we just read the column
+for the coefficients and looked to the
+
+1726
+00:38:38,190 --> 00:38:38,200
+for the coefficients and looked to the
+ 
+
+1727
+00:38:38,200 --> 00:38:39,990
+for the coefficients and looked to the
+left for the basis states that they are
+
+1728
+00:38:39,990 --> 00:38:40,000
+left for the basis states that they are
+ 
+
+1729
+00:38:40,000 --> 00:38:42,910
+left for the basis states that they are
+matched with don't forget that you need
+
+1730
+00:38:42,910 --> 00:38:42,920
+matched with don't forget that you need
+ 
+
+1731
+00:38:42,920 --> 00:38:44,910
+matched with don't forget that you need
+to include the square root signs over
+
+1732
+00:38:44,910 --> 00:38:44,920
+to include the square root signs over
+ 
+
+1733
+00:38:44,920 --> 00:38:46,829
+to include the square root signs over
+these coefficients because they have
+
+1734
+00:38:46,829 --> 00:38:46,839
+these coefficients because they have
+ 
+
+1735
+00:38:46,839 --> 00:38:49,990
+these coefficients because they have
+been left out to save space the minus
+
+1736
+00:38:49,990 --> 00:38:50,000
+been left out to save space the minus
+ 
+
+1737
+00:38:50,000 --> 00:38:52,390
+been left out to save space the minus
+signs always belong on the outside of
+
+1738
+00:38:52,390 --> 00:38:52,400
+signs always belong on the outside of
+ 
+
+1739
+00:38:52,400 --> 00:38:55,190
+signs always belong on the outside of
+the square root signs I've linked to
+
+1740
+00:38:55,190 --> 00:38:55,200
+the square root signs I've linked to
+ 
+
+1741
+00:38:55,200 --> 00:38:57,190
+the square root signs I've linked to
+some other videos in the description if
+
+1742
+00:38:57,190 --> 00:38:57,200
+some other videos in the description if
+ 
+
+1743
+00:38:57,200 --> 00:38:59,550
+some other videos in the description if
+you want more details on calculating and
+
+1744
+00:38:59,550 --> 00:38:59,560
+you want more details on calculating and
+ 
+
+1745
+00:38:59,560 --> 00:39:01,990
+you want more details on calculating and
+reading these
+
+1746
+00:39:01,990 --> 00:39:02,000
+reading these
+ 
+
+1747
+00:39:02,000 --> 00:39:04,430
+reading these
+tables the trick with drawing weight
+
+1748
+00:39:04,430 --> 00:39:04,440
+tables the trick with drawing weight
+ 
+
+1749
+00:39:04,440 --> 00:39:07,589
+tables the trick with drawing weight
+diagrams also works here to compute the
+
+1750
+00:39:07,589 --> 00:39:07,599
+diagrams also works here to compute the
+ 
+
+1751
+00:39:07,599 --> 00:39:10,630
+diagrams also works here to compute the
+product of a pair of 3D IRS we take the
+
+1752
+00:39:10,630 --> 00:39:10,640
+product of a pair of 3D IRS we take the
+ 
+
+1753
+00:39:10,640 --> 00:39:13,069
+product of a pair of 3D IRS we take the
+first diagram and place a copy of the
+
+1754
+00:39:13,069 --> 00:39:13,079
+first diagram and place a copy of the
+ 
+
+1755
+00:39:13,079 --> 00:39:16,630
+first diagram and place a copy of the
+second diagram centered on each node we
+
+1756
+00:39:16,630 --> 00:39:16,640
+second diagram centered on each node we
+ 
+
+1757
+00:39:16,640 --> 00:39:20,069
+second diagram centered on each node we
+see we get a 5D erra three of the nodes
+
+1758
+00:39:20,069 --> 00:39:20,079
+see we get a 5D erra three of the nodes
+ 
+
+1759
+00:39:20,079 --> 00:39:24,430
+see we get a 5D erra three of the nodes
+have two overlaps so a 3D EP pops out
+
+1760
+00:39:24,430 --> 00:39:24,440
+have two overlaps so a 3D EP pops out
+ 
+
+1761
+00:39:24,440 --> 00:39:27,430
+have two overlaps so a 3D EP pops out
+also the middle node has three overlaps
+
+1762
+00:39:27,430 --> 00:39:27,440
+also the middle node has three overlaps
+ 
+
+1763
+00:39:27,440 --> 00:39:30,829
+also the middle node has three overlaps
+so the final one pops out as a 1D
+
+1764
+00:39:30,829 --> 00:39:30,839
+so the final one pops out as a 1D
+ 
+
+1765
+00:39:30,839 --> 00:39:33,829
+so the final one pops out as a 1D
+rep as expected the tensor product of a
+
+1766
+00:39:33,829 --> 00:39:33,839
+rep as expected the tensor product of a
+ 
+
+1767
+00:39:33,839 --> 00:39:36,910
+rep as expected the tensor product of a
+pair of 3D reps decomposes into five
+
+1768
+00:39:36,910 --> 00:39:36,920
+pair of 3D reps decomposes into five
+ 
+
+1769
+00:39:36,920 --> 00:39:39,230
+pair of 3D reps decomposes into five
+some three some
+
+1770
+00:39:39,230 --> 00:39:39,240
+some three some
+ 
+
+1771
+00:39:39,240 --> 00:39:42,190
+some three some
+one so this concludes the explanation of
+
+1772
+00:39:42,190 --> 00:39:42,200
+one so this concludes the explanation of
+ 
+
+1773
+00:39:42,200 --> 00:39:45,829
+one so this concludes the explanation of
+tensor product representations of su2 I
+
+1774
+00:39:45,829 --> 00:39:45,839
+tensor product representations of su2 I
+ 
+
+1775
+00:39:45,839 --> 00:39:47,710
+tensor product representations of su2 I
+still need to talk about how the tensor
+
+1776
+00:39:47,710 --> 00:39:47,720
+still need to talk about how the tensor
+ 
+
+1777
+00:39:47,720 --> 00:39:49,910
+still need to talk about how the tensor
+product is involved with representations
+
+1778
+00:39:49,910 --> 00:39:49,920
+product is involved with representations
+ 
+
+1779
+00:39:49,920 --> 00:39:53,349
+product is involved with representations
+of SL2 C for space time however I've
+
+1780
+00:39:53,349 --> 00:39:53,359
+of SL2 C for space time however I've
+ 
+
+1781
+00:39:53,359 --> 00:39:55,750
+of SL2 C for space time however I've
+realized that topic is so big that it
+
+1782
+00:39:55,750 --> 00:39:55,760
+realized that topic is so big that it
+ 
+
+1783
+00:39:55,760 --> 00:39:58,069
+realized that topic is so big that it
+requires its own video so that will be
+
+1784
+00:39:58,069 --> 00:39:58,079
+requires its own video so that will be
+ 
+
+1785
+00:39:58,079 --> 00:40:01,720
+requires its own video so that will be
+coming next
+

@@ -1,0 +1,5355 @@
+1
+00:00:00,000 --> 00:00:02,090
+
+we're continuing our discussion of
+
+2
+00:00:02,090 --> 00:00:02,100
+we're continuing our discussion of
+ 
+
+3
+00:00:02,100 --> 00:00:04,970
+we're continuing our discussion of
+spinners in 3D from a mathematical point
+
+4
+00:00:04,970 --> 00:00:04,980
+spinners in 3D from a mathematical point
+ 
+
+5
+00:00:04,980 --> 00:00:07,849
+spinners in 3D from a mathematical point
+of view in the last couple videos we've
+
+6
+00:00:07,849 --> 00:00:07,859
+of view in the last couple videos we've
+ 
+
+7
+00:00:07,859 --> 00:00:10,250
+of view in the last couple videos we've
+been using Sigma matrices as basis
+
+8
+00:00:10,250 --> 00:00:10,260
+been using Sigma matrices as basis
+ 
+
+9
+00:00:10,260 --> 00:00:13,370
+been using Sigma matrices as basis
+vectors in the XYZ directions
+
+10
+00:00:13,370 --> 00:00:13,380
+vectors in the XYZ directions
+ 
+
+11
+00:00:13,380 --> 00:00:15,350
+vectors in the XYZ directions
+this might lead you to ask what the
+
+12
+00:00:15,350 --> 00:00:15,360
+this might lead you to ask what the
+ 
+
+13
+00:00:15,360 --> 00:00:17,870
+this might lead you to ask what the
+sigma matrices actually are
+
+14
+00:00:17,870 --> 00:00:17,880
+sigma matrices actually are
+ 
+
+15
+00:00:17,880 --> 00:00:19,910
+sigma matrices actually are
+should we view them as basis vectors
+
+16
+00:00:19,910 --> 00:00:19,920
+should we view them as basis vectors
+ 
+
+17
+00:00:19,920 --> 00:00:22,970
+should we view them as basis vectors
+like little arrows in 3D space in the
+
+18
+00:00:22,970 --> 00:00:22,980
+like little arrows in 3D space in the
+ 
+
+19
+00:00:22,980 --> 00:00:26,210
+like little arrows in 3D space in the
+XYZ directions or should we view them as
+
+20
+00:00:26,210 --> 00:00:26,220
+XYZ directions or should we view them as
+ 
+
+21
+00:00:26,220 --> 00:00:28,009
+XYZ directions or should we view them as
+matrices
+
+22
+00:00:28,009 --> 00:00:28,019
+matrices
+ 
+
+23
+00:00:28,019 --> 00:00:30,410
+matrices
+one answer to this question involves
+
+24
+00:00:30,410 --> 00:00:30,420
+one answer to this question involves
+ 
+
+25
+00:00:30,420 --> 00:00:32,569
+one answer to this question involves
+Clifford algebras which I'll talk about
+
+26
+00:00:32,569 --> 00:00:32,579
+Clifford algebras which I'll talk about
+ 
+
+27
+00:00:32,579 --> 00:00:34,370
+Clifford algebras which I'll talk about
+in a later video
+
+28
+00:00:34,370 --> 00:00:34,380
+in a later video
+ 
+
+29
+00:00:34,380 --> 00:00:36,590
+in a later video
+in this video I'm going to try
+
+30
+00:00:36,590 --> 00:00:36,600
+in this video I'm going to try
+ 
+
+31
+00:00:36,600 --> 00:00:38,630
+in this video I'm going to try
+explaining the relationship between
+
+32
+00:00:38,630 --> 00:00:38,640
+explaining the relationship between
+ 
+
+33
+00:00:38,640 --> 00:00:41,810
+explaining the relationship between
+vectors and Paulie Spinners by showing
+
+34
+00:00:41,810 --> 00:00:41,820
+vectors and Paulie Spinners by showing
+ 
+
+35
+00:00:41,820 --> 00:00:44,030
+vectors and Paulie Spinners by showing
+that the sigma matrices form a link
+
+36
+00:00:44,030 --> 00:00:44,040
+that the sigma matrices form a link
+ 
+
+37
+00:00:44,040 --> 00:00:47,569
+that the sigma matrices form a link
+between ordinary 3D space and a pair of
+
+38
+00:00:47,569 --> 00:00:47,579
+between ordinary 3D space and a pair of
+ 
+
+39
+00:00:47,579 --> 00:00:50,569
+between ordinary 3D space and a pair of
+two-dimensional spinner spaces
+
+40
+00:00:50,569 --> 00:00:50,579
+two-dimensional spinner spaces
+ 
+
+41
+00:00:50,579 --> 00:00:52,250
+two-dimensional spinner spaces
+I'm going to show that the sigma
+
+42
+00:00:52,250 --> 00:00:52,260
+I'm going to show that the sigma
+ 
+
+43
+00:00:52,260 --> 00:00:55,910
+I'm going to show that the sigma
+matrices actually have three indices one
+
+44
+00:00:55,910 --> 00:00:55,920
+matrices actually have three indices one
+ 
+
+45
+00:00:55,920 --> 00:00:59,029
+matrices actually have three indices one
+vector index also called a tensor index
+
+46
+00:00:59,029 --> 00:00:59,039
+vector index also called a tensor index
+ 
+
+47
+00:00:59,039 --> 00:01:02,569
+vector index also called a tensor index
+and a pair of spinner indices
+
+48
+00:01:02,569 --> 00:01:02,579
+and a pair of spinner indices
+ 
+
+49
+00:01:02,579 --> 00:01:05,450
+and a pair of spinner indices
+the sigma matrices act as a link between
+
+50
+00:01:05,450 --> 00:01:05,460
+the sigma matrices act as a link between
+ 
+
+51
+00:01:05,460 --> 00:01:08,170
+the sigma matrices act as a link between
+tensor indices and Spinner indices
+
+52
+00:01:08,170 --> 00:01:08,180
+tensor indices and Spinner indices
+ 
+
+53
+00:01:08,180 --> 00:01:11,390
+tensor indices and Spinner indices
+allowing us to replace one tensor index
+
+54
+00:01:11,390 --> 00:01:11,400
+allowing us to replace one tensor index
+ 
+
+55
+00:01:11,400 --> 00:01:14,450
+allowing us to replace one tensor index
+with a pair of spinner indices
+
+56
+00:01:14,450 --> 00:01:14,460
+with a pair of spinner indices
+ 
+
+57
+00:01:14,460 --> 00:01:16,910
+with a pair of spinner indices
+this means that you can use the sigmas
+
+58
+00:01:16,910 --> 00:01:16,920
+this means that you can use the sigmas
+ 
+
+59
+00:01:16,920 --> 00:01:19,910
+this means that you can use the sigmas
+to rewrite any tensor you've seen using
+
+60
+00:01:19,910 --> 00:01:19,920
+to rewrite any tensor you've seen using
+ 
+
+61
+00:01:19,920 --> 00:01:22,910
+to rewrite any tensor you've seen using
+spinner indices which doubles the number
+
+62
+00:01:22,910 --> 00:01:22,920
+spinner indices which doubles the number
+ 
+
+63
+00:01:22,920 --> 00:01:24,469
+spinner indices which doubles the number
+of indices
+
+64
+00:01:24,469 --> 00:01:24,479
+of indices
+ 
+
+65
+00:01:24,479 --> 00:01:26,749
+of indices
+this is related to the concept of the
+
+66
+00:01:26,749 --> 00:01:26,759
+this is related to the concept of the
+ 
+
+67
+00:01:26,759 --> 00:01:29,929
+this is related to the concept of the
+infeld van der Varden symbols although
+
+68
+00:01:29,929 --> 00:01:29,939
+infeld van der Varden symbols although
+ 
+
+69
+00:01:29,939 --> 00:01:32,510
+infeld van der Varden symbols although
+the infeld van der Varden symbols are
+
+70
+00:01:32,510 --> 00:01:32,520
+the infeld van der Varden symbols are
+ 
+
+71
+00:01:32,520 --> 00:01:35,270
+the infeld van der Varden symbols are
+only used for space-time and I will
+
+72
+00:01:35,270 --> 00:01:35,280
+only used for space-time and I will
+ 
+
+73
+00:01:35,280 --> 00:01:38,990
+only used for space-time and I will
+cover them more fully in the next video
+
+74
+00:01:38,990 --> 00:01:39,000
+cover them more fully in the next video
+ 
+
+75
+00:01:39,000 --> 00:01:41,569
+cover them more fully in the next video
+to help explain this we'll see that a
+
+76
+00:01:41,569 --> 00:01:41,579
+to help explain this we'll see that a
+ 
+
+77
+00:01:41,579 --> 00:01:44,030
+to help explain this we'll see that a
+poly Vector can be written as the tensor
+
+78
+00:01:44,030 --> 00:01:44,040
+poly Vector can be written as the tensor
+ 
+
+79
+00:01:44,040 --> 00:01:47,530
+poly Vector can be written as the tensor
+product of a spinner and a dual spinner
+
+80
+00:01:47,530 --> 00:01:47,540
+product of a spinner and a dual spinner
+ 
+
+81
+00:01:47,540 --> 00:01:50,030
+product of a spinner and a dual spinner
+explaining all of this will require some
+
+82
+00:01:50,030 --> 00:01:50,040
+explaining all of this will require some
+ 
+
+83
+00:01:50,040 --> 00:01:52,249
+explaining all of this will require some
+basic understanding of tensor Concepts
+
+84
+00:01:52,249 --> 00:01:52,259
+basic understanding of tensor Concepts
+ 
+
+85
+00:01:52,259 --> 00:01:54,889
+basic understanding of tensor Concepts
+as a prerequisite like the tensor
+
+86
+00:01:54,889 --> 00:01:54,899
+as a prerequisite like the tensor
+ 
+
+87
+00:01:54,899 --> 00:01:58,069
+as a prerequisite like the tensor
+product and dual vectors also called
+
+88
+00:01:58,069 --> 00:01:58,079
+product and dual vectors also called
+ 
+
+89
+00:01:58,079 --> 00:01:59,990
+product and dual vectors also called
+co-vectors
+
+90
+00:01:59,990 --> 00:02:00,000
+co-vectors
+ 
+
+91
+00:02:00,000 --> 00:02:02,149
+co-vectors
+I'll go over a quick review of these
+
+92
+00:02:02,149 --> 00:02:02,159
+I'll go over a quick review of these
+ 
+
+93
+00:02:02,159 --> 00:02:05,149
+I'll go over a quick review of these
+Concepts in this video but I've included
+
+94
+00:02:05,149 --> 00:02:05,159
+Concepts in this video but I've included
+ 
+
+95
+00:02:05,159 --> 00:02:07,310
+Concepts in this video but I've included
+links in the description to my tensors
+
+96
+00:02:07,310 --> 00:02:07,320
+links in the description to my tensors
+ 
+
+97
+00:02:07,320 --> 00:02:09,710
+links in the description to my tensors
+for beginners series if you want a more
+
+98
+00:02:09,710 --> 00:02:09,720
+for beginners series if you want a more
+ 
+
+99
+00:02:09,720 --> 00:02:12,650
+for beginners series if you want a more
+in-depth explanation
+
+100
+00:02:12,650 --> 00:02:12,660
+in-depth explanation
+ 
+
+101
+00:02:12,660 --> 00:02:15,229
+in-depth explanation
+before we start I want to correct a
+
+102
+00:02:15,229 --> 00:02:15,239
+before we start I want to correct a
+ 
+
+103
+00:02:15,239 --> 00:02:17,809
+before we start I want to correct a
+couple things from the previous video
+
+104
+00:02:17,809 --> 00:02:17,819
+couple things from the previous video
+ 
+
+105
+00:02:17,819 --> 00:02:20,690
+couple things from the previous video
+when factoring a zero determinant Paulie
+
+106
+00:02:20,690 --> 00:02:20,700
+when factoring a zero determinant Paulie
+ 
+
+107
+00:02:20,700 --> 00:02:23,390
+when factoring a zero determinant Paulie
+Vector I pulled this negative 1 outside
+
+108
+00:02:23,390 --> 00:02:23,400
+Vector I pulled this negative 1 outside
+ 
+
+109
+00:02:23,400 --> 00:02:26,390
+Vector I pulled this negative 1 outside
+the square root and wrote it as I
+
+110
+00:02:26,390 --> 00:02:26,400
+the square root and wrote it as I
+ 
+
+111
+00:02:26,400 --> 00:02:29,210
+the square root and wrote it as I
+this is a bit problematic because the
+
+112
+00:02:29,210 --> 00:02:29,220
+this is a bit problematic because the
+ 
+
+113
+00:02:29,220 --> 00:02:31,070
+this is a bit problematic because the
+square root of negative one can be
+
+114
+00:02:31,070 --> 00:02:31,080
+square root of negative one can be
+ 
+
+115
+00:02:31,080 --> 00:02:34,729
+square root of negative one can be
+either plus I or minus I this leads to
+
+116
+00:02:34,729 --> 00:02:34,739
+either plus I or minus I this leads to
+ 
+
+117
+00:02:34,739 --> 00:02:36,530
+either plus I or minus I this leads to
+different sign conventions for the
+
+118
+00:02:36,530 --> 00:02:36,540
+different sign conventions for the
+ 
+
+119
+00:02:36,540 --> 00:02:39,410
+different sign conventions for the
+results although this is expected since
+
+120
+00:02:39,410 --> 00:02:39,420
+results although this is expected since
+ 
+
+121
+00:02:39,420 --> 00:02:41,089
+results although this is expected since
+we already know there are multiple
+
+122
+00:02:41,089 --> 00:02:41,099
+we already know there are multiple
+ 
+
+123
+00:02:41,099 --> 00:02:44,030
+we already know there are multiple
+solutions for the spinner components
+
+124
+00:02:44,030 --> 00:02:44,040
+solutions for the spinner components
+ 
+
+125
+00:02:44,040 --> 00:02:46,670
+solutions for the spinner components
+the most common convention in textbooks
+
+126
+00:02:46,670 --> 00:02:46,680
+the most common convention in textbooks
+ 
+
+127
+00:02:46,680 --> 00:02:48,830
+the most common convention in textbooks
+is to leave the negative sign under the
+
+128
+00:02:48,830 --> 00:02:48,840
+is to leave the negative sign under the
+ 
+
+129
+00:02:48,840 --> 00:02:50,150
+is to leave the negative sign under the
+square root
+
+130
+00:02:50,150 --> 00:02:50,160
+square root
+ 
+
+131
+00:02:50,160 --> 00:02:52,610
+square root
+and get these formulas for the spinner
+
+132
+00:02:52,610 --> 00:02:52,620
+and get these formulas for the spinner
+ 
+
+133
+00:02:52,620 --> 00:02:54,770
+and get these formulas for the spinner
+components
+
+134
+00:02:54,770 --> 00:02:54,780
+components
+ 
+
+135
+00:02:54,780 --> 00:02:57,650
+components
+also in previous videos I've been saying
+
+136
+00:02:57,650 --> 00:02:57,660
+also in previous videos I've been saying
+ 
+
+137
+00:02:57,660 --> 00:03:00,650
+also in previous videos I've been saying
+poly instead of Paulie I still say it
+
+138
+00:03:00,650 --> 00:03:00,660
+poly instead of Paulie I still say it
+ 
+
+139
+00:03:00,660 --> 00:03:02,630
+poly instead of Paulie I still say it
+wrong in some parts of this video but
+
+140
+00:03:02,630 --> 00:03:02,640
+wrong in some parts of this video but
+ 
+
+141
+00:03:02,640 --> 00:03:04,490
+wrong in some parts of this video but
+moving forward I'll try to use the
+
+142
+00:03:04,490 --> 00:03:04,500
+moving forward I'll try to use the
+ 
+
+143
+00:03:04,500 --> 00:03:07,009
+moving forward I'll try to use the
+correct pronunciation
+
+144
+00:03:07,009 --> 00:03:07,019
+correct pronunciation
+ 
+
+145
+00:03:07,019 --> 00:03:09,170
+correct pronunciation
+let's start by reviewing some basic
+
+146
+00:03:09,170 --> 00:03:09,180
+let's start by reviewing some basic
+ 
+
+147
+00:03:09,180 --> 00:03:11,030
+let's start by reviewing some basic
+tensor Concepts
+
+148
+00:03:11,030 --> 00:03:11,040
+tensor Concepts
+ 
+
+149
+00:03:11,040 --> 00:03:13,430
+tensor Concepts
+if I have a vector v living in
+
+150
+00:03:13,430 --> 00:03:13,440
+if I have a vector v living in
+ 
+
+151
+00:03:13,440 --> 00:03:15,949
+if I have a vector v living in
+two-dimensional space I can write it as
+
+152
+00:03:15,949 --> 00:03:15,959
+two-dimensional space I can write it as
+ 
+
+153
+00:03:15,959 --> 00:03:19,009
+two-dimensional space I can write it as
+a linear combination of basis vectors E1
+
+154
+00:03:19,009 --> 00:03:19,019
+a linear combination of basis vectors E1
+ 
+
+155
+00:03:19,019 --> 00:03:24,050
+a linear combination of basis vectors E1
+and E2 using components V1 and V2
+
+156
+00:03:24,050 --> 00:03:24,060
+and E2 using components V1 and V2
+ 
+
+157
+00:03:24,060 --> 00:03:26,330
+and E2 using components V1 and V2
+notice that I've written the indices on
+
+158
+00:03:26,330 --> 00:03:26,340
+notice that I've written the indices on
+ 
+
+159
+00:03:26,340 --> 00:03:30,470
+notice that I've written the indices on
+V1 and V2 as upper indices these are not
+
+160
+00:03:30,470 --> 00:03:30,480
+V1 and V2 as upper indices these are not
+ 
+
+161
+00:03:30,480 --> 00:03:32,270
+V1 and V2 as upper indices these are not
+exponents
+
+162
+00:03:32,270 --> 00:03:32,280
+exponents
+ 
+
+163
+00:03:32,280 --> 00:03:34,610
+exponents
+one reason for this is that basis
+
+164
+00:03:34,610 --> 00:03:34,620
+one reason for this is that basis
+ 
+
+165
+00:03:34,620 --> 00:03:37,610
+one reason for this is that basis
+vectors are often written in a row and
+
+166
+00:03:37,610 --> 00:03:37,620
+vectors are often written in a row and
+ 
+
+167
+00:03:37,620 --> 00:03:39,470
+vectors are often written in a row and
+so the lower index tells us the position
+
+168
+00:03:39,470 --> 00:03:39,480
+so the lower index tells us the position
+ 
+
+169
+00:03:39,480 --> 00:03:41,210
+so the lower index tells us the position
+in the row
+
+170
+00:03:41,210 --> 00:03:41,220
+in the row
+ 
+
+171
+00:03:41,220 --> 00:03:43,789
+in the row
+and Vector components are often written
+
+172
+00:03:43,789 --> 00:03:43,799
+and Vector components are often written
+ 
+
+173
+00:03:43,799 --> 00:03:46,490
+and Vector components are often written
+in a column and the upper indices tell
+
+174
+00:03:46,490 --> 00:03:46,500
+in a column and the upper indices tell
+ 
+
+175
+00:03:46,500 --> 00:03:49,369
+in a column and the upper indices tell
+us their position in the column
+
+176
+00:03:49,369 --> 00:03:49,379
+us their position in the column
+ 
+
+177
+00:03:49,379 --> 00:03:51,350
+us their position in the column
+another reason I've written the vector
+
+178
+00:03:51,350 --> 00:03:51,360
+another reason I've written the vector
+ 
+
+179
+00:03:51,360 --> 00:03:53,869
+another reason I've written the vector
+components with upper indices is because
+
+180
+00:03:53,869 --> 00:03:53,879
+components with upper indices is because
+ 
+
+181
+00:03:53,879 --> 00:03:57,789
+components with upper indices is because
+Vector components are contravariant
+
+182
+00:03:57,789 --> 00:03:57,799
+Vector components are contravariant
+ 
+
+183
+00:03:57,799 --> 00:04:00,530
+Vector components are contravariant
+contravariant just means opposite change
+
+184
+00:04:00,530 --> 00:04:00,540
+contravariant just means opposite change
+ 
+
+185
+00:04:00,540 --> 00:04:03,589
+contravariant just means opposite change
+meaning that Vector components change in
+
+186
+00:04:03,589 --> 00:04:03,599
+meaning that Vector components change in
+ 
+
+187
+00:04:03,599 --> 00:04:07,190
+meaning that Vector components change in
+the opposite way that basis vectors do
+
+188
+00:04:07,190 --> 00:04:07,200
+the opposite way that basis vectors do
+ 
+
+189
+00:04:07,200 --> 00:04:09,890
+the opposite way that basis vectors do
+for example if this vector's components
+
+190
+00:04:09,890 --> 00:04:09,900
+for example if this vector's components
+ 
+
+191
+00:04:09,900 --> 00:04:13,490
+for example if this vector's components
+in this basis are 1 1 if I double the
+
+192
+00:04:13,490 --> 00:04:13,500
+in this basis are 1 1 if I double the
+ 
+
+193
+00:04:13,500 --> 00:04:15,229
+in this basis are 1 1 if I double the
+length of the basis vectors by
+
+194
+00:04:15,229 --> 00:04:15,239
+length of the basis vectors by
+ 
+
+195
+00:04:15,239 --> 00:04:18,289
+length of the basis vectors by
+multiplying them by 2 then I must have
+
+196
+00:04:18,289 --> 00:04:18,299
+multiplying them by 2 then I must have
+ 
+
+197
+00:04:18,299 --> 00:04:20,030
+multiplying them by 2 then I must have
+the length of the components by
+
+198
+00:04:20,030 --> 00:04:20,040
+the length of the components by
+ 
+
+199
+00:04:20,040 --> 00:04:22,790
+the length of the components by
+multiplying them by one half to get the
+
+200
+00:04:22,790 --> 00:04:22,800
+multiplying them by one half to get the
+ 
+
+201
+00:04:22,800 --> 00:04:25,550
+multiplying them by one half to get the
+components one half one-half
+
+202
+00:04:25,550 --> 00:04:25,560
+components one half one-half
+ 
+
+203
+00:04:25,560 --> 00:04:27,830
+components one half one-half
+the vector components changed in the
+
+204
+00:04:27,830 --> 00:04:27,840
+the vector components changed in the
+ 
+
+205
+00:04:27,840 --> 00:04:29,990
+the vector components changed in the
+opposite way that the basis vectors did
+
+206
+00:04:29,990 --> 00:04:30,000
+opposite way that the basis vectors did
+ 
+
+207
+00:04:30,000 --> 00:04:32,749
+opposite way that the basis vectors did
+the basis vectors grew and the vector
+
+208
+00:04:32,749 --> 00:04:32,759
+the basis vectors grew and the vector
+ 
+
+209
+00:04:32,759 --> 00:04:34,969
+the basis vectors grew and the vector
+components shrunk
+
+210
+00:04:34,969 --> 00:04:34,979
+components shrunk
+ 
+
+211
+00:04:34,979 --> 00:04:37,909
+components shrunk
+more generally if I change basis vectors
+
+212
+00:04:37,909 --> 00:04:37,919
+more generally if I change basis vectors
+ 
+
+213
+00:04:37,919 --> 00:04:40,490
+more generally if I change basis vectors
+with a matrix then I must change the
+
+214
+00:04:40,490 --> 00:04:40,500
+with a matrix then I must change the
+ 
+
+215
+00:04:40,500 --> 00:04:42,530
+with a matrix then I must change the
+vector components using the inverse
+
+216
+00:04:42,530 --> 00:04:42,540
+vector components using the inverse
+ 
+
+217
+00:04:42,540 --> 00:04:45,590
+vector components using the inverse
+Matrix to balance the change out
+
+218
+00:04:45,590 --> 00:04:45,600
+Matrix to balance the change out
+ 
+
+219
+00:04:45,600 --> 00:04:47,570
+Matrix to balance the change out
+I can also write this in summation
+
+220
+00:04:47,570 --> 00:04:47,580
+I can also write this in summation
+ 
+
+221
+00:04:47,580 --> 00:04:50,090
+I can also write this in summation
+notation like this
+
+222
+00:04:50,090 --> 00:04:50,100
+notation like this
+ 
+
+223
+00:04:50,100 --> 00:04:52,730
+notation like this
+some sources also choose to write these
+
+224
+00:04:52,730 --> 00:04:52,740
+some sources also choose to write these
+ 
+
+225
+00:04:52,740 --> 00:04:54,830
+some sources also choose to write these
+summation formulas without including
+
+226
+00:04:54,830 --> 00:04:54,840
+summation formulas without including
+ 
+
+227
+00:04:54,840 --> 00:04:57,650
+summation formulas without including
+summation symbols you can tell a
+
+228
+00:04:57,650 --> 00:04:57,660
+summation symbols you can tell a
+ 
+
+229
+00:04:57,660 --> 00:05:00,110
+summation symbols you can tell a
+summation is happening whenever an upper
+
+230
+00:05:00,110 --> 00:05:00,120
+summation is happening whenever an upper
+ 
+
+231
+00:05:00,120 --> 00:05:02,210
+summation is happening whenever an upper
+index letter is matched with a lower
+
+232
+00:05:02,210 --> 00:05:02,220
+index letter is matched with a lower
+ 
+
+233
+00:05:02,220 --> 00:05:05,450
+index letter is matched with a lower
+index letter this is called Einstein
+
+234
+00:05:05,450 --> 00:05:05,460
+index letter this is called Einstein
+ 
+
+235
+00:05:05,460 --> 00:05:07,850
+index letter this is called Einstein
+summation notation
+
+236
+00:05:07,850 --> 00:05:07,860
+summation notation
+ 
+
+237
+00:05:07,860 --> 00:05:11,330
+summation notation
+next I'll introduce dual vectors which
+
+238
+00:05:11,330 --> 00:05:11,340
+next I'll introduce dual vectors which
+ 
+
+239
+00:05:11,340 --> 00:05:13,550
+next I'll introduce dual vectors which
+go by many other names including
+
+240
+00:05:13,550 --> 00:05:13,560
+go by many other names including
+ 
+
+241
+00:05:13,560 --> 00:05:16,249
+go by many other names including
+covectors and one forms
+
+242
+00:05:16,249 --> 00:05:16,259
+covectors and one forms
+ 
+
+243
+00:05:16,259 --> 00:05:18,590
+covectors and one forms
+the bra vectors from quantum mechanics
+
+244
+00:05:18,590 --> 00:05:18,600
+the bra vectors from quantum mechanics
+ 
+
+245
+00:05:18,600 --> 00:05:22,490
+the bra vectors from quantum mechanics
+are just another name for dual vectors
+
+246
+00:05:22,490 --> 00:05:22,500
+are just another name for dual vectors
+ 
+
+247
+00:05:22,500 --> 00:05:25,730
+are just another name for dual vectors
+ordinary vectors are like arrows and are
+
+248
+00:05:25,730 --> 00:05:25,740
+ordinary vectors are like arrows and are
+ 
+
+249
+00:05:25,740 --> 00:05:27,890
+ordinary vectors are like arrows and are
+good for representing objects with a
+
+250
+00:05:27,890 --> 00:05:27,900
+good for representing objects with a
+ 
+
+251
+00:05:27,900 --> 00:05:31,850
+good for representing objects with a
+length and a direction such as velocity
+
+252
+00:05:31,850 --> 00:05:31,860
+length and a direction such as velocity
+ 
+
+253
+00:05:31,860 --> 00:05:34,909
+length and a direction such as velocity
+dual vectors are like oriented stacks
+
+254
+00:05:34,909 --> 00:05:34,919
+dual vectors are like oriented stacks
+ 
+
+255
+00:05:34,919 --> 00:05:37,370
+dual vectors are like oriented stacks
+and are good for representing objects
+
+256
+00:05:37,370 --> 00:05:37,380
+and are good for representing objects
+ 
+
+257
+00:05:37,380 --> 00:05:40,670
+and are good for representing objects
+with a density and a direction such as a
+
+258
+00:05:40,670 --> 00:05:40,680
+with a density and a direction such as a
+ 
+
+259
+00:05:40,680 --> 00:05:42,710
+with a density and a direction such as a
+traveling wave
+
+260
+00:05:42,710 --> 00:05:42,720
+traveling wave
+ 
+
+261
+00:05:42,720 --> 00:05:46,070
+traveling wave
+larger dual vectors correspond to denser
+
+262
+00:05:46,070 --> 00:05:46,080
+larger dual vectors correspond to denser
+ 
+
+263
+00:05:46,080 --> 00:05:48,650
+larger dual vectors correspond to denser
+stacks and smaller dual vectors
+
+264
+00:05:48,650 --> 00:05:48,660
+stacks and smaller dual vectors
+ 
+
+265
+00:05:48,660 --> 00:05:52,370
+stacks and smaller dual vectors
+correspond to less dense stacks
+
+266
+00:05:52,370 --> 00:05:52,380
+correspond to less dense stacks
+ 
+
+267
+00:05:52,380 --> 00:05:55,070
+correspond to less dense stacks
+a dual Vector is a machine that takes a
+
+268
+00:05:55,070 --> 00:05:55,080
+a dual Vector is a machine that takes a
+ 
+
+269
+00:05:55,080 --> 00:05:58,010
+a dual Vector is a machine that takes a
+vector and outputs a scalar just by
+
+270
+00:05:58,010 --> 00:05:58,020
+vector and outputs a scalar just by
+ 
+
+271
+00:05:58,020 --> 00:06:00,230
+vector and outputs a scalar just by
+counting the number of Stack sheets that
+
+272
+00:06:00,230 --> 00:06:00,240
+counting the number of Stack sheets that
+ 
+
+273
+00:06:00,240 --> 00:06:03,170
+counting the number of Stack sheets that
+are pierced by the vector which is three
+
+274
+00:06:03,170 --> 00:06:03,180
+are pierced by the vector which is three
+ 
+
+275
+00:06:03,180 --> 00:06:05,510
+are pierced by the vector which is three
+in this example
+
+276
+00:06:05,510 --> 00:06:05,520
+in this example
+ 
+
+277
+00:06:05,520 --> 00:06:07,790
+in this example
+this idea of counting the number of
+
+278
+00:06:07,790 --> 00:06:07,800
+this idea of counting the number of
+ 
+
+279
+00:06:07,800 --> 00:06:10,850
+this idea of counting the number of
+Stack sheets that a vector pierces gives
+
+280
+00:06:10,850 --> 00:06:10,860
+Stack sheets that a vector pierces gives
+ 
+
+281
+00:06:10,860 --> 00:06:13,129
+Stack sheets that a vector pierces gives
+these two linearity laws for dual
+
+282
+00:06:13,129 --> 00:06:13,139
+these two linearity laws for dual
+ 
+
+283
+00:06:13,139 --> 00:06:17,270
+these two linearity laws for dual
+vectors acting on vectors
+
+284
+00:06:17,270 --> 00:06:17,280
+
+ 
+
+285
+00:06:17,280 --> 00:06:20,150
+
+the components of a dual Vector Alpha
+
+286
+00:06:20,150 --> 00:06:20,160
+the components of a dual Vector Alpha
+ 
+
+287
+00:06:20,160 --> 00:06:22,610
+the components of a dual Vector Alpha
+are given by counting how many stack
+
+288
+00:06:22,610 --> 00:06:22,620
+are given by counting how many stack
+ 
+
+289
+00:06:22,620 --> 00:06:25,909
+are given by counting how many stack
+sheets are pierced by the basis vectors
+
+290
+00:06:25,909 --> 00:06:25,919
+sheets are pierced by the basis vectors
+ 
+
+291
+00:06:25,919 --> 00:06:28,790
+sheets are pierced by the basis vectors
+here the components of alpha are three
+
+292
+00:06:28,790 --> 00:06:28,800
+here the components of alpha are three
+ 
+
+293
+00:06:28,800 --> 00:06:30,770
+here the components of alpha are three
+and two
+
+294
+00:06:30,770 --> 00:06:30,780
+and two
+ 
+
+295
+00:06:30,780 --> 00:06:33,590
+and two
+as I said Vector components normally go
+
+296
+00:06:33,590 --> 00:06:33,600
+as I said Vector components normally go
+ 
+
+297
+00:06:33,600 --> 00:06:35,990
+as I said Vector components normally go
+in columns with the upper index
+
+298
+00:06:35,990 --> 00:06:36,000
+in columns with the upper index
+ 
+
+299
+00:06:36,000 --> 00:06:38,809
+in columns with the upper index
+indicating their position in the column
+
+300
+00:06:38,809 --> 00:06:38,819
+indicating their position in the column
+ 
+
+301
+00:06:38,819 --> 00:06:41,270
+indicating their position in the column
+dual Vector components normally go in
+
+302
+00:06:41,270 --> 00:06:41,280
+dual Vector components normally go in
+ 
+
+303
+00:06:41,280 --> 00:06:44,029
+dual Vector components normally go in
+rows with their lower index indicating
+
+304
+00:06:44,029 --> 00:06:44,039
+rows with their lower index indicating
+ 
+
+305
+00:06:44,039 --> 00:06:46,969
+rows with their lower index indicating
+their position in the row
+
+306
+00:06:46,969 --> 00:06:46,979
+their position in the row
+ 
+
+307
+00:06:46,979 --> 00:06:49,370
+their position in the row
+dual Vector components are written with
+
+308
+00:06:49,370 --> 00:06:49,380
+dual Vector components are written with
+ 
+
+309
+00:06:49,380 --> 00:06:52,969
+dual Vector components are written with
+lower indices because they are covariant
+
+310
+00:06:52,969 --> 00:06:52,979
+lower indices because they are covariant
+ 
+
+311
+00:06:52,979 --> 00:06:55,370
+lower indices because they are covariant
+this means they change in the same way
+
+312
+00:06:55,370 --> 00:06:55,380
+this means they change in the same way
+ 
+
+313
+00:06:55,380 --> 00:06:57,650
+this means they change in the same way
+as basis vectors
+
+314
+00:06:57,650 --> 00:06:57,660
+as basis vectors
+ 
+
+315
+00:06:57,660 --> 00:07:00,409
+as basis vectors
+let's say we have this dual Vector with
+
+316
+00:07:00,409 --> 00:07:00,419
+let's say we have this dual Vector with
+ 
+
+317
+00:07:00,419 --> 00:07:03,710
+let's say we have this dual Vector with
+components two and four if we double the
+
+318
+00:07:03,710 --> 00:07:03,720
+components two and four if we double the
+ 
+
+319
+00:07:03,720 --> 00:07:06,110
+components two and four if we double the
+length of the basis vectors then they
+
+320
+00:07:06,110 --> 00:07:06,120
+length of the basis vectors then they
+ 
+
+321
+00:07:06,120 --> 00:07:08,510
+length of the basis vectors then they
+will pierce twice as many stack sheets
+
+322
+00:07:08,510 --> 00:07:08,520
+will pierce twice as many stack sheets
+ 
+
+323
+00:07:08,520 --> 00:07:11,330
+will pierce twice as many stack sheets
+and so the Dual Vector components also
+
+324
+00:07:11,330 --> 00:07:11,340
+and so the Dual Vector components also
+ 
+
+325
+00:07:11,340 --> 00:07:14,210
+and so the Dual Vector components also
+double two four and eight
+
+326
+00:07:14,210 --> 00:07:14,220
+double two four and eight
+ 
+
+327
+00:07:14,220 --> 00:07:16,730
+double two four and eight
+we can also Define the Dual basis
+
+328
+00:07:16,730 --> 00:07:16,740
+we can also Define the Dual basis
+ 
+
+329
+00:07:16,740 --> 00:07:19,430
+we can also Define the Dual basis
+written with epsilons
+
+330
+00:07:19,430 --> 00:07:19,440
+written with epsilons
+ 
+
+331
+00:07:19,440 --> 00:07:22,850
+written with epsilons
+these are defined by this equation if
+
+332
+00:07:22,850 --> 00:07:22,860
+these are defined by this equation if
+ 
+
+333
+00:07:22,860 --> 00:07:25,070
+these are defined by this equation if
+the Dual Vector index matches the vector
+
+334
+00:07:25,070 --> 00:07:25,080
+the Dual Vector index matches the vector
+ 
+
+335
+00:07:25,080 --> 00:07:28,010
+the Dual Vector index matches the vector
+index we get one and if they don't match
+
+336
+00:07:28,010 --> 00:07:28,020
+index we get one and if they don't match
+ 
+
+337
+00:07:28,020 --> 00:07:29,990
+index we get one and if they don't match
+we get zero
+
+338
+00:07:29,990 --> 00:07:30,000
+we get zero
+ 
+
+339
+00:07:30,000 --> 00:07:33,890
+we get zero
+for example Epsilon 1 acting on E1 gives
+
+340
+00:07:33,890 --> 00:07:33,900
+for example Epsilon 1 acting on E1 gives
+ 
+
+341
+00:07:33,900 --> 00:07:37,610
+for example Epsilon 1 acting on E1 gives
+one and the same for Epsilon 2 acting on
+
+342
+00:07:37,610 --> 00:07:37,620
+one and the same for Epsilon 2 acting on
+ 
+
+343
+00:07:37,620 --> 00:07:39,170
+one and the same for Epsilon 2 acting on
+E2
+
+344
+00:07:39,170 --> 00:07:39,180
+E2
+ 
+
+345
+00:07:39,180 --> 00:07:41,809
+E2
+and if the indices don't match we get
+
+346
+00:07:41,809 --> 00:07:41,819
+and if the indices don't match we get
+ 
+
+347
+00:07:41,819 --> 00:07:45,650
+and if the indices don't match we get
+zero so Epsilon 1 acting on E2 gives
+
+348
+00:07:45,650 --> 00:07:45,660
+zero so Epsilon 1 acting on E2 gives
+ 
+
+349
+00:07:45,660 --> 00:07:48,770
+zero so Epsilon 1 acting on E2 gives
+zero and same with Epsilon 2 acting on
+
+350
+00:07:48,770 --> 00:07:48,780
+zero and same with Epsilon 2 acting on
+ 
+
+351
+00:07:48,780 --> 00:07:50,150
+zero and same with Epsilon 2 acting on
+E1
+
+352
+00:07:50,150 --> 00:07:50,160
+E1
+ 
+
+353
+00:07:50,160 --> 00:07:53,809
+E1
+dual basis vectors are contravariant if
+
+354
+00:07:53,809 --> 00:07:53,819
+dual basis vectors are contravariant if
+ 
+
+355
+00:07:53,819 --> 00:07:55,309
+dual basis vectors are contravariant if
+we double the length of the basis
+
+356
+00:07:55,309 --> 00:07:55,319
+we double the length of the basis
+ 
+
+357
+00:07:55,319 --> 00:07:57,770
+we double the length of the basis
+vectors we must have the length of the
+
+358
+00:07:57,770 --> 00:07:57,780
+vectors we must have the length of the
+ 
+
+359
+00:07:57,780 --> 00:07:59,809
+vectors we must have the length of the
+Dual vectors to make sure the equation
+
+360
+00:07:59,809 --> 00:07:59,819
+Dual vectors to make sure the equation
+ 
+
+361
+00:07:59,819 --> 00:08:02,089
+Dual vectors to make sure the equation
+stays true
+
+362
+00:08:02,089 --> 00:08:02,099
+stays true
+ 
+
+363
+00:08:02,099 --> 00:08:04,909
+stays true
+as I said Vector components normally go
+
+364
+00:08:04,909 --> 00:08:04,919
+as I said Vector components normally go
+ 
+
+365
+00:08:04,919 --> 00:08:07,370
+as I said Vector components normally go
+in columns with the upper index
+
+366
+00:08:07,370 --> 00:08:07,380
+in columns with the upper index
+ 
+
+367
+00:08:07,380 --> 00:08:09,610
+in columns with the upper index
+indicating their position in the column
+
+368
+00:08:09,610 --> 00:08:09,620
+indicating their position in the column
+ 
+
+369
+00:08:09,620 --> 00:08:12,469
+indicating their position in the column
+dual basis vectors with their upper
+
+370
+00:08:12,469 --> 00:08:12,479
+dual basis vectors with their upper
+ 
+
+371
+00:08:12,479 --> 00:08:15,890
+dual basis vectors with their upper
+indices also go in columns
+
+372
+00:08:15,890 --> 00:08:15,900
+indices also go in columns
+ 
+
+373
+00:08:15,900 --> 00:08:18,290
+indices also go in columns
+when we have vectors living in a vector
+
+374
+00:08:18,290 --> 00:08:18,300
+when we have vectors living in a vector
+ 
+
+375
+00:08:18,300 --> 00:08:21,050
+when we have vectors living in a vector
+space V we say that the Dual vectors
+
+376
+00:08:21,050 --> 00:08:21,060
+space V we say that the Dual vectors
+ 
+
+377
+00:08:21,060 --> 00:08:23,990
+space V we say that the Dual vectors
+live in the corresponding dual Vector
+
+378
+00:08:23,990 --> 00:08:24,000
+live in the corresponding dual Vector
+ 
+
+379
+00:08:24,000 --> 00:08:25,010
+live in the corresponding dual Vector
+space
+
+380
+00:08:25,010 --> 00:08:25,020
+space
+ 
+
+381
+00:08:25,020 --> 00:08:28,010
+space
+this is often denoted by V Star in many
+
+382
+00:08:28,010 --> 00:08:28,020
+this is often denoted by V Star in many
+ 
+
+383
+00:08:28,020 --> 00:08:30,110
+this is often denoted by V Star in many
+books but I'm just going to write the
+
+384
+00:08:30,110 --> 00:08:30,120
+books but I'm just going to write the
+ 
+
+385
+00:08:30,120 --> 00:08:33,050
+books but I'm just going to write the
+Dual space as V dual
+
+386
+00:08:33,050 --> 00:08:33,060
+Dual space as V dual
+ 
+
+387
+00:08:33,060 --> 00:08:36,110
+Dual space as V dual
+we can do row column multiplications to
+
+388
+00:08:36,110 --> 00:08:36,120
+we can do row column multiplications to
+ 
+
+389
+00:08:36,120 --> 00:08:38,389
+we can do row column multiplications to
+get the scalar result of a co-vector
+
+390
+00:08:38,389 --> 00:08:38,399
+get the scalar result of a co-vector
+ 
+
+391
+00:08:38,399 --> 00:08:41,089
+get the scalar result of a co-vector
+acting on a vector this is normally
+
+392
+00:08:41,089 --> 00:08:41,099
+acting on a vector this is normally
+ 
+
+393
+00:08:41,099 --> 00:08:43,909
+acting on a vector this is normally
+called the inner product
+
+394
+00:08:43,909 --> 00:08:43,919
+called the inner product
+ 
+
+395
+00:08:43,919 --> 00:08:46,490
+called the inner product
+but we can also do column row
+
+396
+00:08:46,490 --> 00:08:46,500
+but we can also do column row
+ 
+
+397
+00:08:46,500 --> 00:08:49,009
+but we can also do column row
+multiplications to give us a two by two
+
+398
+00:08:49,009 --> 00:08:49,019
+multiplications to give us a two by two
+ 
+
+399
+00:08:49,019 --> 00:08:52,670
+multiplications to give us a two by two
+Matrix which functions as a linear map
+
+400
+00:08:52,670 --> 00:08:52,680
+Matrix which functions as a linear map
+ 
+
+401
+00:08:52,680 --> 00:08:55,130
+Matrix which functions as a linear map
+this is normally called the outer
+
+402
+00:08:55,130 --> 00:08:55,140
+this is normally called the outer
+ 
+
+403
+00:08:55,140 --> 00:08:57,170
+this is normally called the outer
+product
+
+404
+00:08:57,170 --> 00:08:57,180
+product
+ 
+
+405
+00:08:57,180 --> 00:08:59,990
+product
+this outer product array multiplication
+
+406
+00:08:59,990 --> 00:09:00,000
+this outer product array multiplication
+ 
+
+407
+00:09:00,000 --> 00:09:02,990
+this outer product array multiplication
+can also be written abstractly with
+
+408
+00:09:02,990 --> 00:09:03,000
+can also be written abstractly with
+ 
+
+409
+00:09:03,000 --> 00:09:07,009
+can also be written abstractly with
+symbols using this tensor product symbol
+
+410
+00:09:07,009 --> 00:09:07,019
+symbols using this tensor product symbol
+ 
+
+411
+00:09:07,019 --> 00:09:10,009
+symbols using this tensor product symbol
+if we multiply this array product by a
+
+412
+00:09:10,009 --> 00:09:10,019
+if we multiply this array product by a
+ 
+
+413
+00:09:10,019 --> 00:09:12,590
+if we multiply this array product by a
+scalar we can distribute the scalar to
+
+414
+00:09:12,590 --> 00:09:12,600
+scalar we can distribute the scalar to
+ 
+
+415
+00:09:12,600 --> 00:09:15,170
+scalar we can distribute the scalar to
+either the column or the row
+
+416
+00:09:15,170 --> 00:09:15,180
+either the column or the row
+ 
+
+417
+00:09:15,180 --> 00:09:17,870
+either the column or the row
+the tensor product also obeys this rule
+
+418
+00:09:17,870 --> 00:09:17,880
+the tensor product also obeys this rule
+ 
+
+419
+00:09:17,880 --> 00:09:20,030
+the tensor product also obeys this rule
+where we can distribute the scalar
+
+420
+00:09:20,030 --> 00:09:20,040
+where we can distribute the scalar
+ 
+
+421
+00:09:20,040 --> 00:09:22,310
+where we can distribute the scalar
+either to the left entry or to the right
+
+422
+00:09:22,310 --> 00:09:22,320
+either to the left entry or to the right
+ 
+
+423
+00:09:22,320 --> 00:09:24,050
+either to the left entry or to the right
+entry
+
+424
+00:09:24,050 --> 00:09:24,060
+entry
+ 
+
+425
+00:09:24,060 --> 00:09:27,110
+entry
+also if we have a column multiplied over
+
+426
+00:09:27,110 --> 00:09:27,120
+also if we have a column multiplied over
+ 
+
+427
+00:09:27,120 --> 00:09:30,230
+also if we have a column multiplied over
+a sum of rows we can distribute over the
+
+428
+00:09:30,230 --> 00:09:30,240
+a sum of rows we can distribute over the
+ 
+
+429
+00:09:30,240 --> 00:09:31,250
+a sum of rows we can distribute over the
+rows
+
+430
+00:09:31,250 --> 00:09:31,260
+rows
+ 
+
+431
+00:09:31,260 --> 00:09:34,070
+rows
+similarly if we have a sum of columns
+
+432
+00:09:34,070 --> 00:09:34,080
+similarly if we have a sum of columns
+ 
+
+433
+00:09:34,080 --> 00:09:36,530
+similarly if we have a sum of columns
+multiplied by a row we can distribute
+
+434
+00:09:36,530 --> 00:09:36,540
+multiplied by a row we can distribute
+ 
+
+435
+00:09:36,540 --> 00:09:38,930
+multiplied by a row we can distribute
+the row over the columns
+
+436
+00:09:38,930 --> 00:09:38,940
+the row over the columns
+ 
+
+437
+00:09:38,940 --> 00:09:41,449
+the row over the columns
+the tensor product follows similar rules
+
+438
+00:09:41,449 --> 00:09:41,459
+the tensor product follows similar rules
+ 
+
+439
+00:09:41,459 --> 00:09:43,910
+the tensor product follows similar rules
+where if we have a sum on the right side
+
+440
+00:09:43,910 --> 00:09:43,920
+where if we have a sum on the right side
+ 
+
+441
+00:09:43,920 --> 00:09:47,090
+where if we have a sum on the right side
+we can distribute over it the same goes
+
+442
+00:09:47,090 --> 00:09:47,100
+we can distribute over it the same goes
+ 
+
+443
+00:09:47,100 --> 00:09:49,370
+we can distribute over it the same goes
+for Distributing over a sum on the left
+
+444
+00:09:49,370 --> 00:09:49,380
+for Distributing over a sum on the left
+ 
+
+445
+00:09:49,380 --> 00:09:53,090
+for Distributing over a sum on the left
+side of the tensor product
+
+446
+00:09:53,090 --> 00:09:53,100
+
+ 
+
+447
+00:09:53,100 --> 00:09:55,910
+
+some matrices like this one can be
+
+448
+00:09:55,910 --> 00:09:55,920
+some matrices like this one can be
+ 
+
+449
+00:09:55,920 --> 00:09:57,710
+some matrices like this one can be
+written as the product of a single
+
+450
+00:09:57,710 --> 00:09:57,720
+written as the product of a single
+ 
+
+451
+00:09:57,720 --> 00:10:01,310
+written as the product of a single
+column times a single row or in abstract
+
+452
+00:10:01,310 --> 00:10:01,320
+column times a single row or in abstract
+ 
+
+453
+00:10:01,320 --> 00:10:04,250
+column times a single row or in abstract
+notation the tensor product of a single
+
+454
+00:10:04,250 --> 00:10:04,260
+notation the tensor product of a single
+ 
+
+455
+00:10:04,260 --> 00:10:07,430
+notation the tensor product of a single
+vector and a single dual vector
+
+456
+00:10:07,430 --> 00:10:07,440
+vector and a single dual vector
+ 
+
+457
+00:10:07,440 --> 00:10:10,130
+vector and a single dual vector
+however other matrices like this one
+
+458
+00:10:10,130 --> 00:10:10,140
+however other matrices like this one
+ 
+
+459
+00:10:10,140 --> 00:10:13,250
+however other matrices like this one
+whose determinants are non-zero cannot
+
+460
+00:10:13,250 --> 00:10:13,260
+whose determinants are non-zero cannot
+ 
+
+461
+00:10:13,260 --> 00:10:15,350
+whose determinants are non-zero cannot
+be written as a single column times a
+
+462
+00:10:15,350 --> 00:10:15,360
+be written as a single column times a
+ 
+
+463
+00:10:15,360 --> 00:10:16,610
+be written as a single column times a
+single row
+
+464
+00:10:16,610 --> 00:10:16,620
+single row
+ 
+
+465
+00:10:16,620 --> 00:10:19,550
+single row
+instead we break these apart into a sum
+
+466
+00:10:19,550 --> 00:10:19,560
+instead we break these apart into a sum
+ 
+
+467
+00:10:19,560 --> 00:10:23,269
+instead we break these apart into a sum
+of matrices one for each component
+
+468
+00:10:23,269 --> 00:10:23,279
+of matrices one for each component
+ 
+
+469
+00:10:23,279 --> 00:10:25,190
+of matrices one for each component
+bringing the scaling factors outside
+
+470
+00:10:25,190 --> 00:10:25,200
+bringing the scaling factors outside
+ 
+
+471
+00:10:25,200 --> 00:10:27,829
+bringing the scaling factors outside
+each of these matrices now has a
+
+472
+00:10:27,829 --> 00:10:27,839
+each of these matrices now has a
+ 
+
+473
+00:10:27,839 --> 00:10:29,810
+each of these matrices now has a
+determinant of zero
+
+474
+00:10:29,810 --> 00:10:29,820
+determinant of zero
+ 
+
+475
+00:10:29,820 --> 00:10:32,389
+determinant of zero
+so we can Factor them into a column and
+
+476
+00:10:32,389 --> 00:10:32,399
+so we can Factor them into a column and
+ 
+
+477
+00:10:32,399 --> 00:10:35,269
+so we can Factor them into a column and
+a row this shows that we can write any
+
+478
+00:10:35,269 --> 00:10:35,279
+a row this shows that we can write any
+ 
+
+479
+00:10:35,279 --> 00:10:38,750
+a row this shows that we can write any
+Matrix as a sum of column row products
+
+480
+00:10:38,750 --> 00:10:38,760
+Matrix as a sum of column row products
+ 
+
+481
+00:10:38,760 --> 00:10:42,290
+Matrix as a sum of column row products
+scaled by the appropriate coefficients
+
+482
+00:10:42,290 --> 00:10:42,300
+scaled by the appropriate coefficients
+ 
+
+483
+00:10:42,300 --> 00:10:46,009
+scaled by the appropriate coefficients
+the same is true for tensor products any
+
+484
+00:10:46,009 --> 00:10:46,019
+the same is true for tensor products any
+ 
+
+485
+00:10:46,019 --> 00:10:48,290
+the same is true for tensor products any
+linear map can be written as a linear
+
+486
+00:10:48,290 --> 00:10:48,300
+linear map can be written as a linear
+ 
+
+487
+00:10:48,300 --> 00:10:51,530
+linear map can be written as a linear
+combination of tensor products of basis
+
+488
+00:10:51,530 --> 00:10:51,540
+combination of tensor products of basis
+ 
+
+489
+00:10:51,540 --> 00:10:54,530
+combination of tensor products of basis
+vectors and basis dual vectors
+
+490
+00:10:54,530 --> 00:10:54,540
+vectors and basis dual vectors
+ 
+
+491
+00:10:54,540 --> 00:10:56,509
+vectors and basis dual vectors
+all scaled by the appropriate
+
+492
+00:10:56,509 --> 00:10:56,519
+all scaled by the appropriate
+ 
+
+493
+00:10:56,519 --> 00:10:58,670
+all scaled by the appropriate
+coefficients
+
+494
+00:10:58,670 --> 00:10:58,680
+coefficients
+ 
+
+495
+00:10:58,680 --> 00:11:01,069
+coefficients
+I should also mention that in quantum
+
+496
+00:11:01,069 --> 00:11:01,079
+I should also mention that in quantum
+ 
+
+497
+00:11:01,079 --> 00:11:03,590
+I should also mention that in quantum
+mechanics vectors are often written with
+
+498
+00:11:03,590 --> 00:11:03,600
+mechanics vectors are often written with
+ 
+
+499
+00:11:03,600 --> 00:11:06,829
+mechanics vectors are often written with
+the KET notation and dual vectors are
+
+500
+00:11:06,829 --> 00:11:06,839
+the KET notation and dual vectors are
+ 
+
+501
+00:11:06,839 --> 00:11:09,470
+the KET notation and dual vectors are
+often written with the bra notation
+
+502
+00:11:09,470 --> 00:11:09,480
+often written with the bra notation
+ 
+
+503
+00:11:09,480 --> 00:11:11,930
+often written with the bra notation
+the inner product is then written as a
+
+504
+00:11:11,930 --> 00:11:11,940
+the inner product is then written as a
+ 
+
+505
+00:11:11,940 --> 00:11:14,810
+the inner product is then written as a
+bra KET and the outer product is written
+
+506
+00:11:14,810 --> 00:11:14,820
+bra KET and the outer product is written
+ 
+
+507
+00:11:14,820 --> 00:11:18,110
+bra KET and the outer product is written
+as a KET bra which can include or omit
+
+508
+00:11:18,110 --> 00:11:18,120
+as a KET bra which can include or omit
+ 
+
+509
+00:11:18,120 --> 00:11:20,210
+as a KET bra which can include or omit
+the tensor product symbol depending on
+
+510
+00:11:20,210 --> 00:11:20,220
+the tensor product symbol depending on
+ 
+
+511
+00:11:20,220 --> 00:11:22,310
+the tensor product symbol depending on
+the book
+
+512
+00:11:22,310 --> 00:11:22,320
+the book
+ 
+
+513
+00:11:22,320 --> 00:11:24,410
+the book
+all of this reasoning that we've used
+
+514
+00:11:24,410 --> 00:11:24,420
+all of this reasoning that we've used
+ 
+
+515
+00:11:24,420 --> 00:11:26,990
+all of this reasoning that we've used
+for vectors can also be used for
+
+516
+00:11:26,990 --> 00:11:27,000
+for vectors can also be used for
+ 
+
+517
+00:11:27,000 --> 00:11:28,550
+for vectors can also be used for
+spinners
+
+518
+00:11:28,550 --> 00:11:28,560
+spinners
+ 
+
+519
+00:11:28,560 --> 00:11:31,190
+spinners
+we have spinners which live in a spinner
+
+520
+00:11:31,190 --> 00:11:31,200
+we have spinners which live in a spinner
+ 
+
+521
+00:11:31,200 --> 00:11:34,730
+we have spinners which live in a spinner
+space s and dual Spinners which live in
+
+522
+00:11:34,730 --> 00:11:34,740
+space s and dual Spinners which live in
+ 
+
+523
+00:11:34,740 --> 00:11:37,610
+space s and dual Spinners which live in
+the Dual spinner space S Dual
+
+524
+00:11:37,610 --> 00:11:37,620
+the Dual spinner space S Dual
+ 
+
+525
+00:11:37,620 --> 00:11:39,949
+the Dual spinner space S Dual
+I'm going to denote Spinners by bold
+
+526
+00:11:39,949 --> 00:11:39,959
+I'm going to denote Spinners by bold
+ 
+
+527
+00:11:39,959 --> 00:11:41,449
+I'm going to denote Spinners by bold
+letters
+
+528
+00:11:41,449 --> 00:11:41,459
+letters
+ 
+
+529
+00:11:41,459 --> 00:11:43,790
+letters
+let's say that we have a spinner PSI
+
+530
+00:11:43,790 --> 00:11:43,800
+let's say that we have a spinner PSI
+ 
+
+531
+00:11:43,800 --> 00:11:45,710
+let's say that we have a spinner PSI
+that lives in s
+
+532
+00:11:45,710 --> 00:11:45,720
+that lives in s
+ 
+
+533
+00:11:45,720 --> 00:11:48,290
+that lives in s
+a general spinner can be written as a
+
+534
+00:11:48,290 --> 00:11:48,300
+a general spinner can be written as a
+ 
+
+535
+00:11:48,300 --> 00:11:50,569
+a general spinner can be written as a
+linear combination of basis Spinners
+
+536
+00:11:50,569 --> 00:11:50,579
+linear combination of basis Spinners
+ 
+
+537
+00:11:50,579 --> 00:11:53,389
+linear combination of basis Spinners
+with lower indices and Spinner
+
+538
+00:11:53,389 --> 00:11:53,399
+with lower indices and Spinner
+ 
+
+539
+00:11:53,399 --> 00:11:56,569
+with lower indices and Spinner
+components with upper indices
+
+540
+00:11:56,569 --> 00:11:56,579
+components with upper indices
+ 
+
+541
+00:11:56,579 --> 00:11:59,150
+components with upper indices
+we can also write this in column row
+
+542
+00:11:59,150 --> 00:11:59,160
+we can also write this in column row
+ 
+
+543
+00:11:59,160 --> 00:12:01,970
+we can also write this in column row
+notation like this or in summation
+
+544
+00:12:01,970 --> 00:12:01,980
+notation like this or in summation
+ 
+
+545
+00:12:01,980 --> 00:12:04,550
+notation like this or in summation
+notation like this
+
+546
+00:12:04,550 --> 00:12:04,560
+notation like this
+ 
+
+547
+00:12:04,560 --> 00:12:07,970
+notation like this
+similarly a dual spinner Zeta that lives
+
+548
+00:12:07,970 --> 00:12:07,980
+similarly a dual spinner Zeta that lives
+ 
+
+549
+00:12:07,980 --> 00:12:10,490
+similarly a dual spinner Zeta that lives
+in as dual can be written as a linear
+
+550
+00:12:10,490 --> 00:12:10,500
+in as dual can be written as a linear
+ 
+
+551
+00:12:10,500 --> 00:12:13,069
+in as dual can be written as a linear
+combination of dual basis Spinners with
+
+552
+00:12:13,069 --> 00:12:13,079
+combination of dual basis Spinners with
+ 
+
+553
+00:12:13,079 --> 00:12:15,590
+combination of dual basis Spinners with
+upper indices and dual spinner
+
+554
+00:12:15,590 --> 00:12:15,600
+upper indices and dual spinner
+ 
+
+555
+00:12:15,600 --> 00:12:18,410
+upper indices and dual spinner
+components with lower indices
+
+556
+00:12:18,410 --> 00:12:18,420
+components with lower indices
+ 
+
+557
+00:12:18,420 --> 00:12:20,810
+components with lower indices
+again we can write this in column row
+
+558
+00:12:20,810 --> 00:12:20,820
+again we can write this in column row
+ 
+
+559
+00:12:20,820 --> 00:12:24,470
+again we can write this in column row
+notation and summation notation
+
+560
+00:12:24,470 --> 00:12:24,480
+notation and summation notation
+ 
+
+561
+00:12:24,480 --> 00:12:27,410
+notation and summation notation
+as you would expect basis Spinners are
+
+562
+00:12:27,410 --> 00:12:27,420
+as you would expect basis Spinners are
+ 
+
+563
+00:12:27,420 --> 00:12:30,110
+as you would expect basis Spinners are
+covariant and Spinner components are
+
+564
+00:12:30,110 --> 00:12:30,120
+covariant and Spinner components are
+ 
+
+565
+00:12:30,120 --> 00:12:31,610
+covariant and Spinner components are
+contravariant
+
+566
+00:12:31,610 --> 00:12:31,620
+contravariant
+ 
+
+567
+00:12:31,620 --> 00:12:34,670
+contravariant
+dual spinner components are covariant
+
+568
+00:12:34,670 --> 00:12:34,680
+dual spinner components are covariant
+ 
+
+569
+00:12:34,680 --> 00:12:37,190
+dual spinner components are covariant
+and dual basis Spinners are
+
+570
+00:12:37,190 --> 00:12:37,200
+and dual basis Spinners are
+ 
+
+571
+00:12:37,200 --> 00:12:39,290
+and dual basis Spinners are
+contravariant
+
+572
+00:12:39,290 --> 00:12:39,300
+contravariant
+ 
+
+573
+00:12:39,300 --> 00:12:41,329
+contravariant
+we can also do inner products of
+
+574
+00:12:41,329 --> 00:12:41,339
+we can also do inner products of
+ 
+
+575
+00:12:41,339 --> 00:12:44,870
+we can also do inner products of
+spinners which gives a scalar and outer
+
+576
+00:12:44,870 --> 00:12:44,880
+spinners which gives a scalar and outer
+ 
+
+577
+00:12:44,880 --> 00:12:47,449
+spinners which gives a scalar and outer
+products of spinners
+
+578
+00:12:47,449 --> 00:12:47,459
+products of spinners
+ 
+
+579
+00:12:47,459 --> 00:12:49,850
+products of spinners
+so so far it doesn't seem like there's
+
+580
+00:12:49,850 --> 00:12:49,860
+so so far it doesn't seem like there's
+ 
+
+581
+00:12:49,860 --> 00:12:52,069
+so so far it doesn't seem like there's
+much of a difference between vectors and
+
+582
+00:12:52,069 --> 00:12:52,079
+much of a difference between vectors and
+ 
+
+583
+00:12:52,079 --> 00:12:54,769
+much of a difference between vectors and
+Spinners they both live in what is
+
+584
+00:12:54,769 --> 00:12:54,779
+Spinners they both live in what is
+ 
+
+585
+00:12:54,779 --> 00:12:57,889
+Spinners they both live in what is
+formerly called a vector space they both
+
+586
+00:12:57,889 --> 00:12:57,899
+formerly called a vector space they both
+ 
+
+587
+00:12:57,899 --> 00:12:59,930
+formerly called a vector space they both
+obey the same rules
+
+588
+00:12:59,930 --> 00:12:59,940
+obey the same rules
+ 
+
+589
+00:12:59,940 --> 00:13:02,150
+obey the same rules
+the difference between them lies in
+
+590
+00:13:02,150 --> 00:13:02,160
+the difference between them lies in
+ 
+
+591
+00:13:02,160 --> 00:13:05,090
+the difference between them lies in
+their relationship with each other
+
+592
+00:13:05,090 --> 00:13:05,100
+their relationship with each other
+ 
+
+593
+00:13:05,100 --> 00:13:07,610
+their relationship with each other
+in the last video we learned that we can
+
+594
+00:13:07,610 --> 00:13:07,620
+in the last video we learned that we can
+ 
+
+595
+00:13:07,620 --> 00:13:09,889
+in the last video we learned that we can
+take a powley vector with a determinant
+
+596
+00:13:09,889 --> 00:13:09,899
+take a powley vector with a determinant
+ 
+
+597
+00:13:09,899 --> 00:13:12,769
+take a powley vector with a determinant
+of zero and write it as the product of a
+
+598
+00:13:12,769 --> 00:13:12,779
+of zero and write it as the product of a
+ 
+
+599
+00:13:12,779 --> 00:13:15,769
+of zero and write it as the product of a
+column spinner and a row spinner and I'm
+
+600
+00:13:15,769 --> 00:13:15,779
+column spinner and a row spinner and I'm
+ 
+
+601
+00:13:15,779 --> 00:13:17,569
+column spinner and a row spinner and I'm
+going to rewrite the components of the
+
+602
+00:13:17,569 --> 00:13:17,579
+going to rewrite the components of the
+ 
+
+603
+00:13:17,579 --> 00:13:19,970
+going to rewrite the components of the
+row spinner using Zeta with lower
+
+604
+00:13:19,970 --> 00:13:19,980
+row spinner using Zeta with lower
+ 
+
+605
+00:13:19,980 --> 00:13:23,990
+row spinner using Zeta with lower
+indices treating it as a dual spinner
+
+606
+00:13:23,990 --> 00:13:24,000
+indices treating it as a dual spinner
+ 
+
+607
+00:13:24,000 --> 00:13:26,329
+indices treating it as a dual spinner
+on an abstract level what we're doing
+
+608
+00:13:26,329 --> 00:13:26,339
+on an abstract level what we're doing
+ 
+
+609
+00:13:26,339 --> 00:13:28,970
+on an abstract level what we're doing
+here is writing a Pali Vector as the
+
+610
+00:13:28,970 --> 00:13:28,980
+here is writing a Pali Vector as the
+ 
+
+611
+00:13:28,980 --> 00:13:31,370
+here is writing a Pali Vector as the
+tensor product of a spinner and a dual
+
+612
+00:13:31,370 --> 00:13:31,380
+tensor product of a spinner and a dual
+ 
+
+613
+00:13:31,380 --> 00:13:32,629
+tensor product of a spinner and a dual
+spinner
+
+614
+00:13:32,629 --> 00:13:32,639
+spinner
+ 
+
+615
+00:13:32,639 --> 00:13:35,750
+spinner
+more generally if a Paoli Vector has a
+
+616
+00:13:35,750 --> 00:13:35,760
+more generally if a Paoli Vector has a
+ 
+
+617
+00:13:35,760 --> 00:13:38,090
+more generally if a Paoli Vector has a
+non-zero determinant we can break it up
+
+618
+00:13:38,090 --> 00:13:38,100
+non-zero determinant we can break it up
+ 
+
+619
+00:13:38,100 --> 00:13:41,150
+non-zero determinant we can break it up
+into four matrices each with zero
+
+620
+00:13:41,150 --> 00:13:41,160
+into four matrices each with zero
+ 
+
+621
+00:13:41,160 --> 00:13:43,850
+into four matrices each with zero
+determinant then write each of those as
+
+622
+00:13:43,850 --> 00:13:43,860
+determinant then write each of those as
+ 
+
+623
+00:13:43,860 --> 00:13:46,490
+determinant then write each of those as
+a column spinner times a row spinner
+
+624
+00:13:46,490 --> 00:13:46,500
+a column spinner times a row spinner
+ 
+
+625
+00:13:46,500 --> 00:13:49,430
+a column spinner times a row spinner
+more abstractly we write this as a sum
+
+626
+00:13:49,430 --> 00:13:49,440
+more abstractly we write this as a sum
+ 
+
+627
+00:13:49,440 --> 00:13:51,949
+more abstractly we write this as a sum
+of tensor products between basis
+
+628
+00:13:51,949 --> 00:13:51,959
+of tensor products between basis
+ 
+
+629
+00:13:51,959 --> 00:13:55,310
+of tensor products between basis
+Spinners and dual basis Spinners like
+
+630
+00:13:55,310 --> 00:13:55,320
+Spinners and dual basis Spinners like
+ 
+
+631
+00:13:55,320 --> 00:13:56,750
+Spinners and dual basis Spinners like
+this
+
+632
+00:13:56,750 --> 00:13:56,760
+this
+ 
+
+633
+00:13:56,760 --> 00:13:59,389
+this
+we can also write these outer products
+
+634
+00:13:59,389 --> 00:13:59,399
+we can also write these outer products
+ 
+
+635
+00:13:59,399 --> 00:14:03,410
+we can also write these outer products
+in bra catch notation if we want
+
+636
+00:14:03,410 --> 00:14:03,420
+in bra catch notation if we want
+ 
+
+637
+00:14:03,420 --> 00:14:06,170
+in bra catch notation if we want
+looking at the V components the upper
+
+638
+00:14:06,170 --> 00:14:06,180
+looking at the V components the upper
+ 
+
+639
+00:14:06,180 --> 00:14:08,750
+looking at the V components the upper
+index specifies the position in the left
+
+640
+00:14:08,750 --> 00:14:08,760
+index specifies the position in the left
+ 
+
+641
+00:14:08,760 --> 00:14:12,889
+index specifies the position in the left
+column or which Row in The Matrix
+
+642
+00:14:12,889 --> 00:14:12,899
+column or which Row in The Matrix
+ 
+
+643
+00:14:12,899 --> 00:14:15,350
+column or which Row in The Matrix
+and the lower index specifies the
+
+644
+00:14:15,350 --> 00:14:15,360
+and the lower index specifies the
+ 
+
+645
+00:14:15,360 --> 00:14:18,290
+and the lower index specifies the
+position in the right row or which
+
+646
+00:14:18,290 --> 00:14:18,300
+position in the right row or which
+ 
+
+647
+00:14:18,300 --> 00:14:21,110
+position in the right row or which
+column of The Matrix
+
+648
+00:14:21,110 --> 00:14:21,120
+column of The Matrix
+ 
+
+649
+00:14:21,120 --> 00:14:23,329
+column of The Matrix
+each of the sigma matrices can be
+
+650
+00:14:23,329 --> 00:14:23,339
+each of the sigma matrices can be
+ 
+
+651
+00:14:23,339 --> 00:14:25,310
+each of the sigma matrices can be
+written this way as well
+
+652
+00:14:25,310 --> 00:14:25,320
+written this way as well
+ 
+
+653
+00:14:25,320 --> 00:14:28,370
+written this way as well
+for example we can write Sigma X as a
+
+654
+00:14:28,370 --> 00:14:28,380
+for example we can write Sigma X as a
+ 
+
+655
+00:14:28,380 --> 00:14:30,650
+for example we can write Sigma X as a
+linear combination of matrices broken
+
+656
+00:14:30,650 --> 00:14:30,660
+linear combination of matrices broken
+ 
+
+657
+00:14:30,660 --> 00:14:33,110
+linear combination of matrices broken
+into column row products
+
+658
+00:14:33,110 --> 00:14:33,120
+into column row products
+ 
+
+659
+00:14:33,120 --> 00:14:35,449
+into column row products
+more abstractly this is a linear
+
+660
+00:14:35,449 --> 00:14:35,459
+more abstractly this is a linear
+ 
+
+661
+00:14:35,459 --> 00:14:37,610
+more abstractly this is a linear
+combination of tensor products of
+
+662
+00:14:37,610 --> 00:14:37,620
+combination of tensor products of
+ 
+
+663
+00:14:37,620 --> 00:14:40,250
+combination of tensor products of
+spinners and dual spinners
+
+664
+00:14:40,250 --> 00:14:40,260
+spinners and dual spinners
+ 
+
+665
+00:14:40,260 --> 00:14:43,550
+spinners and dual spinners
+the same can be done for Sigma y
+
+666
+00:14:43,550 --> 00:14:43,560
+the same can be done for Sigma y
+ 
+
+667
+00:14:43,560 --> 00:14:45,710
+the same can be done for Sigma y
+and sigma Z
+
+668
+00:14:45,710 --> 00:14:45,720
+and sigma Z
+ 
+
+669
+00:14:45,720 --> 00:14:48,530
+and sigma Z
+looking at these three formulas we have
+
+670
+00:14:48,530 --> 00:14:48,540
+looking at these three formulas we have
+ 
+
+671
+00:14:48,540 --> 00:14:51,530
+looking at these three formulas we have
+12 coefficients that tell us how to sum
+
+672
+00:14:51,530 --> 00:14:51,540
+12 coefficients that tell us how to sum
+ 
+
+673
+00:14:51,540 --> 00:14:54,590
+12 coefficients that tell us how to sum
+all these tensor products together
+
+674
+00:14:54,590 --> 00:14:54,600
+all these tensor products together
+ 
+
+675
+00:14:54,600 --> 00:14:57,710
+all these tensor products together
+so now let's answer the question what
+
+676
+00:14:57,710 --> 00:14:57,720
+so now let's answer the question what
+ 
+
+677
+00:14:57,720 --> 00:15:00,110
+so now let's answer the question what
+actually are the sigmas
+
+678
+00:15:00,110 --> 00:15:00,120
+actually are the sigmas
+ 
+
+679
+00:15:00,120 --> 00:15:03,769
+actually are the sigmas
+well Sigma is actually a linear map from
+
+680
+00:15:03,769 --> 00:15:03,779
+well Sigma is actually a linear map from
+ 
+
+681
+00:15:03,779 --> 00:15:06,889
+well Sigma is actually a linear map from
+the ordinary 3D Vector space V to the
+
+682
+00:15:06,889 --> 00:15:06,899
+the ordinary 3D Vector space V to the
+ 
+
+683
+00:15:06,899 --> 00:15:09,230
+the ordinary 3D Vector space V to the
+four-dimensional space of spinner dual
+
+684
+00:15:09,230 --> 00:15:09,240
+four-dimensional space of spinner dual
+ 
+
+685
+00:15:09,240 --> 00:15:13,670
+four-dimensional space of spinner dual
+spinner pairs which is s tensor S Dual
+
+686
+00:15:13,670 --> 00:15:13,680
+spinner pairs which is s tensor S Dual
+ 
+
+687
+00:15:13,680 --> 00:15:16,730
+spinner pairs which is s tensor S Dual
+if we take our ex basis Vector from
+
+688
+00:15:16,730 --> 00:15:16,740
+if we take our ex basis Vector from
+ 
+
+689
+00:15:16,740 --> 00:15:19,730
+if we take our ex basis Vector from
+ordinary 3D space and act on it with
+
+690
+00:15:19,730 --> 00:15:19,740
+ordinary 3D space and act on it with
+ 
+
+691
+00:15:19,740 --> 00:15:22,610
+ordinary 3D space and act on it with
+Sigma we get a linear combination of the
+
+692
+00:15:22,610 --> 00:15:22,620
+Sigma we get a linear combination of the
+ 
+
+693
+00:15:22,620 --> 00:15:25,430
+Sigma we get a linear combination of the
+four basis elements of the space s
+
+694
+00:15:25,430 --> 00:15:25,440
+four basis elements of the space s
+ 
+
+695
+00:15:25,440 --> 00:15:27,410
+four basis elements of the space s
+tensor S Dual
+
+696
+00:15:27,410 --> 00:15:27,420
+tensor S Dual
+ 
+
+697
+00:15:27,420 --> 00:15:31,790
+tensor S Dual
+the coefficients are 0 1 1 0 which are
+
+698
+00:15:31,790 --> 00:15:31,800
+the coefficients are 0 1 1 0 which are
+ 
+
+699
+00:15:31,800 --> 00:15:34,310
+the coefficients are 0 1 1 0 which are
+exactly the entries of the Matrix Sigma
+
+700
+00:15:34,310 --> 00:15:34,320
+exactly the entries of the Matrix Sigma
+ 
+
+701
+00:15:34,320 --> 00:15:35,389
+exactly the entries of the Matrix Sigma
+X
+
+702
+00:15:35,389 --> 00:15:35,399
+X
+ 
+
+703
+00:15:35,399 --> 00:15:38,509
+X
+we can do the same thing with e y and
+
+704
+00:15:38,509 --> 00:15:38,519
+we can do the same thing with e y and
+ 
+
+705
+00:15:38,519 --> 00:15:42,170
+we can do the same thing with e y and
+get the coefficients 0 plus I negative I
+
+706
+00:15:42,170 --> 00:15:42,180
+get the coefficients 0 plus I negative I
+ 
+
+707
+00:15:42,180 --> 00:15:46,189
+get the coefficients 0 plus I negative I
+zero which are the entries of Sigma y
+
+708
+00:15:46,189 --> 00:15:46,199
+zero which are the entries of Sigma y
+ 
+
+709
+00:15:46,199 --> 00:15:49,850
+zero which are the entries of Sigma y
+and with e z we get the coefficients 1 0
+
+710
+00:15:49,850 --> 00:15:49,860
+and with e z we get the coefficients 1 0
+ 
+
+711
+00:15:49,860 --> 00:15:52,730
+and with e z we get the coefficients 1 0
+0 negative 1 which are the entries of
+
+712
+00:15:52,730 --> 00:15:52,740
+0 negative 1 which are the entries of
+ 
+
+713
+00:15:52,740 --> 00:15:55,069
+0 negative 1 which are the entries of
+Sigma Z
+
+714
+00:15:55,069 --> 00:15:55,079
+Sigma Z
+ 
+
+715
+00:15:55,079 --> 00:15:58,370
+Sigma Z
+we can label these 12 coefficients using
+
+716
+00:15:58,370 --> 00:15:58,380
+we can label these 12 coefficients using
+ 
+
+717
+00:15:58,380 --> 00:16:01,189
+we can label these 12 coefficients using
+Sigma with three indices
+
+718
+00:16:01,189 --> 00:16:01,199
+Sigma with three indices
+ 
+
+719
+00:16:01,199 --> 00:16:03,530
+Sigma with three indices
+to explain why these indices make sense
+
+720
+00:16:03,530 --> 00:16:03,540
+to explain why these indices make sense
+ 
+
+721
+00:16:03,540 --> 00:16:06,470
+to explain why these indices make sense
+let's review an ordinary linear map L
+
+722
+00:16:06,470 --> 00:16:06,480
+let's review an ordinary linear map L
+ 
+
+723
+00:16:06,480 --> 00:16:10,009
+let's review an ordinary linear map L
+from 3D space with one basis mapping to
+
+724
+00:16:10,009 --> 00:16:10,019
+from 3D space with one basis mapping to
+ 
+
+725
+00:16:10,019 --> 00:16:13,250
+from 3D space with one basis mapping to
+another 3D space with another basis with
+
+726
+00:16:13,250 --> 00:16:13,260
+another 3D space with another basis with
+ 
+
+727
+00:16:13,260 --> 00:16:15,110
+another 3D space with another basis with
+tilde's on top
+
+728
+00:16:15,110 --> 00:16:15,120
+tilde's on top
+ 
+
+729
+00:16:15,120 --> 00:16:18,949
+tilde's on top
+if we act on E1 with L the output Vector
+
+730
+00:16:18,949 --> 00:16:18,959
+if we act on E1 with L the output Vector
+ 
+
+731
+00:16:18,959 --> 00:16:21,710
+if we act on E1 with L the output Vector
+is some linear combination of the three
+
+732
+00:16:21,710 --> 00:16:21,720
+is some linear combination of the three
+ 
+
+733
+00:16:21,720 --> 00:16:24,110
+is some linear combination of the three
+tilde basis vectors
+
+734
+00:16:24,110 --> 00:16:24,120
+tilde basis vectors
+ 
+
+735
+00:16:24,120 --> 00:16:27,050
+tilde basis vectors
+the coefficients are written L with a 1
+
+736
+00:16:27,050 --> 00:16:27,060
+the coefficients are written L with a 1
+ 
+
+737
+00:16:27,060 --> 00:16:29,329
+the coefficients are written L with a 1
+as the lower index because the input
+
+738
+00:16:29,329 --> 00:16:29,339
+as the lower index because the input
+ 
+
+739
+00:16:29,339 --> 00:16:32,689
+as the lower index because the input
+Vector was the E1 basis Vector with a
+
+740
+00:16:32,689 --> 00:16:32,699
+Vector was the E1 basis Vector with a
+ 
+
+741
+00:16:32,699 --> 00:16:34,250
+Vector was the E1 basis Vector with a
+lower index
+
+742
+00:16:34,250 --> 00:16:34,260
+lower index
+ 
+
+743
+00:16:34,260 --> 00:16:36,949
+lower index
+the upper indices are written one two
+
+744
+00:16:36,949 --> 00:16:36,959
+the upper indices are written one two
+ 
+
+745
+00:16:36,959 --> 00:16:39,710
+the upper indices are written one two
+three to match with the indices of the
+
+746
+00:16:39,710 --> 00:16:39,720
+three to match with the indices of the
+ 
+
+747
+00:16:39,720 --> 00:16:42,590
+three to match with the indices of the
+three e tilde basis vectors
+
+748
+00:16:42,590 --> 00:16:42,600
+three e tilde basis vectors
+ 
+
+749
+00:16:42,600 --> 00:16:45,290
+three e tilde basis vectors
+we can get similar sets of coefficients
+
+750
+00:16:45,290 --> 00:16:45,300
+we can get similar sets of coefficients
+ 
+
+751
+00:16:45,300 --> 00:16:49,490
+we can get similar sets of coefficients
+for lov2 and lov3
+
+752
+00:16:49,490 --> 00:16:49,500
+for lov2 and lov3
+ 
+
+753
+00:16:49,500 --> 00:16:52,189
+for lov2 and lov3
+notice that these raised indices of the
+
+754
+00:16:52,189 --> 00:16:52,199
+notice that these raised indices of the
+ 
+
+755
+00:16:52,199 --> 00:16:54,829
+notice that these raised indices of the
+coefficients are opposite the lowered
+
+756
+00:16:54,829 --> 00:16:54,839
+coefficients are opposite the lowered
+ 
+
+757
+00:16:54,839 --> 00:16:57,170
+coefficients are opposite the lowered
+indices for the basis vectors they are
+
+758
+00:16:57,170 --> 00:16:57,180
+indices for the basis vectors they are
+ 
+
+759
+00:16:57,180 --> 00:16:58,610
+indices for the basis vectors they are
+associated with
+
+760
+00:16:58,610 --> 00:16:58,620
+associated with
+ 
+
+761
+00:16:58,620 --> 00:17:00,889
+associated with
+this is because the upper coefficient
+
+762
+00:17:00,889 --> 00:17:00,899
+this is because the upper coefficient
+ 
+
+763
+00:17:00,899 --> 00:17:04,010
+this is because the upper coefficient
+index and the lower basis Vector index
+
+764
+00:17:04,010 --> 00:17:04,020
+index and the lower basis Vector index
+ 
+
+765
+00:17:04,020 --> 00:17:06,530
+index and the lower basis Vector index
+are summed together and so they must
+
+766
+00:17:06,530 --> 00:17:06,540
+are summed together and so they must
+ 
+
+767
+00:17:06,540 --> 00:17:09,049
+are summed together and so they must
+have opposite elevations
+
+768
+00:17:09,049 --> 00:17:09,059
+have opposite elevations
+ 
+
+769
+00:17:09,059 --> 00:17:11,390
+have opposite elevations
+now let's look at the linear map Sigma
+
+770
+00:17:11,390 --> 00:17:11,400
+now let's look at the linear map Sigma
+ 
+
+771
+00:17:11,400 --> 00:17:14,329
+now let's look at the linear map Sigma
+acting on a basis Vector e x
+
+772
+00:17:14,329 --> 00:17:14,339
+acting on a basis Vector e x
+ 
+
+773
+00:17:14,339 --> 00:17:16,850
+acting on a basis Vector e x
+the output is a linear combination of
+
+774
+00:17:16,850 --> 00:17:16,860
+the output is a linear combination of
+ 
+
+775
+00:17:16,860 --> 00:17:20,030
+the output is a linear combination of
+the four spinner dual spinner products
+
+776
+00:17:20,030 --> 00:17:20,040
+the four spinner dual spinner products
+ 
+
+777
+00:17:20,040 --> 00:17:22,130
+the four spinner dual spinner products
+each of the coefficients are written as
+
+778
+00:17:22,130 --> 00:17:22,140
+each of the coefficients are written as
+ 
+
+779
+00:17:22,140 --> 00:17:25,669
+each of the coefficients are written as
+sigmas with a lower X index to match the
+
+780
+00:17:25,669 --> 00:17:25,679
+sigmas with a lower X index to match the
+ 
+
+781
+00:17:25,679 --> 00:17:29,930
+sigmas with a lower X index to match the
+lower X index in the eex basis vector
+
+782
+00:17:29,930 --> 00:17:29,940
+lower X index in the eex basis vector
+ 
+
+783
+00:17:29,940 --> 00:17:32,570
+lower X index in the eex basis vector
+we then require a pair of spinner
+
+784
+00:17:32,570 --> 00:17:32,580
+we then require a pair of spinner
+ 
+
+785
+00:17:32,580 --> 00:17:35,270
+we then require a pair of spinner
+indices to tell us which basis element
+
+786
+00:17:35,270 --> 00:17:35,280
+indices to tell us which basis element
+ 
+
+787
+00:17:35,280 --> 00:17:38,810
+indices to tell us which basis element
+the coefficients are associated with
+
+788
+00:17:38,810 --> 00:17:38,820
+the coefficients are associated with
+ 
+
+789
+00:17:38,820 --> 00:17:45,230
+the coefficients are associated with
+labeled with 1 1 2 1 1 2 and 2 2.
+
+790
+00:17:45,230 --> 00:17:45,240
+labeled with 1 1 2 1 1 2 and 2 2.
+ 
+
+791
+00:17:45,240 --> 00:17:47,810
+labeled with 1 1 2 1 1 2 and 2 2.
+note that the component indices are
+
+792
+00:17:47,810 --> 00:17:47,820
+note that the component indices are
+ 
+
+793
+00:17:47,820 --> 00:17:49,490
+note that the component indices are
+written with opposite elevations
+
+794
+00:17:49,490 --> 00:17:49,500
+written with opposite elevations
+ 
+
+795
+00:17:49,500 --> 00:17:52,549
+written with opposite elevations
+compared to the basis elements
+
+796
+00:17:52,549 --> 00:17:52,559
+compared to the basis elements
+ 
+
+797
+00:17:52,559 --> 00:17:55,190
+compared to the basis elements
+for example the basis element with a
+
+798
+00:17:55,190 --> 00:17:55,200
+for example the basis element with a
+ 
+
+799
+00:17:55,200 --> 00:17:58,549
+for example the basis element with a
+lower 2 and upper 1 is matched with a
+
+800
+00:17:58,549 --> 00:17:58,559
+lower 2 and upper 1 is matched with a
+ 
+
+801
+00:17:58,559 --> 00:18:00,890
+lower 2 and upper 1 is matched with a
+coefficient with an upper 2 and a lower
+
+802
+00:18:00,890 --> 00:18:00,900
+coefficient with an upper 2 and a lower
+ 
+
+803
+00:18:00,900 --> 00:18:02,630
+coefficient with an upper 2 and a lower
+one
+
+804
+00:18:02,630 --> 00:18:02,640
+one
+ 
+
+805
+00:18:02,640 --> 00:18:06,350
+one
+we can do something similar for e y and
+
+806
+00:18:06,350 --> 00:18:06,360
+we can do something similar for e y and
+ 
+
+807
+00:18:06,360 --> 00:18:07,669
+we can do something similar for e y and
+e z
+
+808
+00:18:07,669 --> 00:18:07,679
+e z
+ 
+
+809
+00:18:07,679 --> 00:18:10,190
+e z
+and we can summarize all three of these
+
+810
+00:18:10,190 --> 00:18:10,200
+and we can summarize all three of these
+ 
+
+811
+00:18:10,200 --> 00:18:12,470
+and we can summarize all three of these
+formulas using Einstein's summation
+
+812
+00:18:12,470 --> 00:18:12,480
+formulas using Einstein's summation
+ 
+
+813
+00:18:12,480 --> 00:18:15,110
+formulas using Einstein's summation
+notation
+
+814
+00:18:15,110 --> 00:18:15,120
+
+ 
+
+815
+00:18:15,120 --> 00:18:18,289
+
+so when we map a general 3D Vector small
+
+816
+00:18:18,289 --> 00:18:18,299
+so when we map a general 3D Vector small
+ 
+
+817
+00:18:18,299 --> 00:18:21,590
+so when we map a general 3D Vector small
+v through the linear map Sigma we can
+
+818
+00:18:21,590 --> 00:18:21,600
+v through the linear map Sigma we can
+ 
+
+819
+00:18:21,600 --> 00:18:23,750
+v through the linear map Sigma we can
+apply the linear map to each basis
+
+820
+00:18:23,750 --> 00:18:23,760
+apply the linear map to each basis
+ 
+
+821
+00:18:23,760 --> 00:18:26,570
+apply the linear map to each basis
+Vector individually with the components
+
+822
+00:18:26,570 --> 00:18:26,580
+Vector individually with the components
+ 
+
+823
+00:18:26,580 --> 00:18:28,610
+Vector individually with the components
+brought out in front
+
+824
+00:18:28,610 --> 00:18:28,620
+brought out in front
+ 
+
+825
+00:18:28,620 --> 00:18:31,310
+brought out in front
+we get a linear combination in our
+
+826
+00:18:31,310 --> 00:18:31,320
+we get a linear combination in our
+ 
+
+827
+00:18:31,320 --> 00:18:33,830
+we get a linear combination in our
+four-dimensional space of spinner dual
+
+828
+00:18:33,830 --> 00:18:33,840
+four-dimensional space of spinner dual
+ 
+
+829
+00:18:33,840 --> 00:18:36,890
+four-dimensional space of spinner dual
+spinner products and these are the four
+
+830
+00:18:36,890 --> 00:18:36,900
+spinner products and these are the four
+ 
+
+831
+00:18:36,900 --> 00:18:39,169
+spinner products and these are the four
+entries of the corresponding Paulie
+
+832
+00:18:39,169 --> 00:18:39,179
+entries of the corresponding Paulie
+ 
+
+833
+00:18:39,179 --> 00:18:40,970
+entries of the corresponding Paulie
+Vector big V
+
+834
+00:18:40,970 --> 00:18:40,980
+Vector big V
+ 
+
+835
+00:18:40,980 --> 00:18:43,190
+Vector big V
+we can also write this as an array
+
+836
+00:18:43,190 --> 00:18:43,200
+we can also write this as an array
+ 
+
+837
+00:18:43,200 --> 00:18:47,810
+we can also write this as an array
+multiplication or as this summation
+
+838
+00:18:47,810 --> 00:18:47,820
+multiplication or as this summation
+ 
+
+839
+00:18:47,820 --> 00:18:50,570
+multiplication or as this summation
+so the linear map Sigma forms a link
+
+840
+00:18:50,570 --> 00:18:50,580
+so the linear map Sigma forms a link
+ 
+
+841
+00:18:50,580 --> 00:18:53,570
+so the linear map Sigma forms a link
+between our ordinary 3D Vector space V
+
+842
+00:18:53,570 --> 00:18:53,580
+between our ordinary 3D Vector space V
+ 
+
+843
+00:18:53,580 --> 00:18:56,870
+between our ordinary 3D Vector space V
+and the 4D space of spinner dual spinner
+
+844
+00:18:56,870 --> 00:18:56,880
+and the 4D space of spinner dual spinner
+ 
+
+845
+00:18:56,880 --> 00:18:58,850
+and the 4D space of spinner dual spinner
+products
+
+846
+00:18:58,850 --> 00:18:58,860
+products
+ 
+
+847
+00:18:58,860 --> 00:19:02,510
+products
+when we wrote a 3D Vector small V in the
+
+848
+00:19:02,510 --> 00:19:02,520
+when we wrote a 3D Vector small V in the
+ 
+
+849
+00:19:02,520 --> 00:19:05,270
+when we wrote a 3D Vector small V in the
+form of a poly Vector big V we were
+
+850
+00:19:05,270 --> 00:19:05,280
+form of a poly Vector big V we were
+ 
+
+851
+00:19:05,280 --> 00:19:07,130
+form of a poly Vector big V we were
+really putting the small V Vector
+
+852
+00:19:07,130 --> 00:19:07,140
+really putting the small V Vector
+ 
+
+853
+00:19:07,140 --> 00:19:09,830
+really putting the small V Vector
+through the linear map Sigma and writing
+
+854
+00:19:09,830 --> 00:19:09,840
+through the linear map Sigma and writing
+ 
+
+855
+00:19:09,840 --> 00:19:12,110
+through the linear map Sigma and writing
+it in the space of spinner dual spinner
+
+856
+00:19:12,110 --> 00:19:12,120
+it in the space of spinner dual spinner
+ 
+
+857
+00:19:12,120 --> 00:19:15,230
+it in the space of spinner dual spinner
+tensor products this is what allows us
+
+858
+00:19:15,230 --> 00:19:15,240
+tensor products this is what allows us
+ 
+
+859
+00:19:15,240 --> 00:19:18,590
+tensor products this is what allows us
+to factor certain Paoli vectors into a
+
+860
+00:19:18,590 --> 00:19:18,600
+to factor certain Paoli vectors into a
+ 
+
+861
+00:19:18,600 --> 00:19:21,230
+to factor certain Paoli vectors into a
+spinner and a dual spinner
+
+862
+00:19:21,230 --> 00:19:21,240
+spinner and a dual spinner
+ 
+
+863
+00:19:21,240 --> 00:19:24,110
+spinner and a dual spinner
+note that all poly vectors can be
+
+864
+00:19:24,110 --> 00:19:24,120
+note that all poly vectors can be
+ 
+
+865
+00:19:24,120 --> 00:19:26,590
+note that all poly vectors can be
+represented in our spinner pair space
+
+866
+00:19:26,590 --> 00:19:26,600
+represented in our spinner pair space
+ 
+
+867
+00:19:26,600 --> 00:19:29,390
+represented in our spinner pair space
+but not every element of our spinner
+
+868
+00:19:29,390 --> 00:19:29,400
+but not every element of our spinner
+ 
+
+869
+00:19:29,400 --> 00:19:33,049
+but not every element of our spinner
+pair space corresponds to a Pali vector
+
+870
+00:19:33,049 --> 00:19:33,059
+pair space corresponds to a Pali vector
+ 
+
+871
+00:19:33,059 --> 00:19:35,450
+pair space corresponds to a Pali vector
+Pauli vectors must be traceless and
+
+872
+00:19:35,450 --> 00:19:35,460
+Pauli vectors must be traceless and
+ 
+
+873
+00:19:35,460 --> 00:19:37,370
+Pauli vectors must be traceless and
+hermitian matrices
+
+874
+00:19:37,370 --> 00:19:37,380
+hermitian matrices
+ 
+
+875
+00:19:37,380 --> 00:19:40,610
+hermitian matrices
+and our 4D spinner pair space can make
+
+876
+00:19:40,610 --> 00:19:40,620
+and our 4D spinner pair space can make
+ 
+
+877
+00:19:40,620 --> 00:19:43,610
+and our 4D spinner pair space can make
+any general 2x2 matrix with complex
+
+878
+00:19:43,610 --> 00:19:43,620
+any general 2x2 matrix with complex
+ 
+
+879
+00:19:43,620 --> 00:19:45,409
+any general 2x2 matrix with complex
+entries
+
+880
+00:19:45,409 --> 00:19:45,419
+entries
+ 
+
+881
+00:19:45,419 --> 00:19:48,409
+entries
+also note that this map turns a single
+
+882
+00:19:48,409 --> 00:19:48,419
+also note that this map turns a single
+ 
+
+883
+00:19:48,419 --> 00:19:52,250
+also note that this map turns a single
+Vector index into two spinner indices
+
+884
+00:19:52,250 --> 00:19:52,260
+Vector index into two spinner indices
+ 
+
+885
+00:19:52,260 --> 00:19:55,490
+Vector index into two spinner indices
+so in some sense one vector index is
+
+886
+00:19:55,490 --> 00:19:55,500
+so in some sense one vector index is
+ 
+
+887
+00:19:55,500 --> 00:19:58,250
+so in some sense one vector index is
+worth two spinner indices
+
+888
+00:19:58,250 --> 00:19:58,260
+worth two spinner indices
+ 
+
+889
+00:19:58,260 --> 00:20:01,310
+worth two spinner indices
+we can apply this Sigma map to any
+
+890
+00:20:01,310 --> 00:20:01,320
+we can apply this Sigma map to any
+ 
+
+891
+00:20:01,320 --> 00:20:04,430
+we can apply this Sigma map to any
+tensor T that we like and replace every
+
+892
+00:20:04,430 --> 00:20:04,440
+tensor T that we like and replace every
+ 
+
+893
+00:20:04,440 --> 00:20:06,770
+tensor T that we like and replace every
+tensor index with a pair of spinner
+
+894
+00:20:06,770 --> 00:20:06,780
+tensor index with a pair of spinner
+ 
+
+895
+00:20:06,780 --> 00:20:08,990
+tensor index with a pair of spinner
+indices
+
+896
+00:20:08,990 --> 00:20:09,000
+indices
+ 
+
+897
+00:20:09,000 --> 00:20:11,390
+indices
+this is why Spinners can be thought of
+
+898
+00:20:11,390 --> 00:20:11,400
+this is why Spinners can be thought of
+ 
+
+899
+00:20:11,400 --> 00:20:14,570
+this is why Spinners can be thought of
+as a tensor of rank one-half
+
+900
+00:20:14,570 --> 00:20:14,580
+as a tensor of rank one-half
+ 
+
+901
+00:20:14,580 --> 00:20:17,750
+as a tensor of rank one-half
+a vector which is a rank 1 tensor is
+
+902
+00:20:17,750 --> 00:20:17,760
+a vector which is a rank 1 tensor is
+ 
+
+903
+00:20:17,760 --> 00:20:20,270
+a vector which is a rank 1 tensor is
+equivalent to the product of a pair of
+
+904
+00:20:20,270 --> 00:20:20,280
+equivalent to the product of a pair of
+ 
+
+905
+00:20:20,280 --> 00:20:23,510
+equivalent to the product of a pair of
+spinners each of rank one half
+
+906
+00:20:23,510 --> 00:20:23,520
+spinners each of rank one half
+ 
+
+907
+00:20:23,520 --> 00:20:26,330
+spinners each of rank one half
+and a single Vector index requires two
+
+908
+00:20:26,330 --> 00:20:26,340
+and a single Vector index requires two
+ 
+
+909
+00:20:26,340 --> 00:20:29,810
+and a single Vector index requires two
+spinner indices to be represented
+
+910
+00:20:29,810 --> 00:20:29,820
+spinner indices to be represented
+ 
+
+911
+00:20:29,820 --> 00:20:32,930
+spinner indices to be represented
+and as seen in previous videos when
+
+912
+00:20:32,930 --> 00:20:32,940
+and as seen in previous videos when
+ 
+
+913
+00:20:32,940 --> 00:20:35,330
+and as seen in previous videos when
+physical space is rotated by an angle
+
+914
+00:20:35,330 --> 00:20:35,340
+physical space is rotated by an angle
+ 
+
+915
+00:20:35,340 --> 00:20:37,850
+physical space is rotated by an angle
+Theta the pair of spinners in the
+
+916
+00:20:37,850 --> 00:20:37,860
+Theta the pair of spinners in the
+ 
+
+917
+00:20:37,860 --> 00:20:40,610
+Theta the pair of spinners in the
+corresponding spinner spaces each rotate
+
+918
+00:20:40,610 --> 00:20:40,620
+corresponding spinner spaces each rotate
+ 
+
+919
+00:20:40,620 --> 00:20:45,770
+corresponding spinner spaces each rotate
+with half that angle Theta over two
+
+920
+00:20:45,770 --> 00:20:45,780
+
+ 
+
+921
+00:20:45,780 --> 00:20:48,590
+
+the last thing I'll mention is that just
+
+922
+00:20:48,590 --> 00:20:48,600
+the last thing I'll mention is that just
+ 
+
+923
+00:20:48,600 --> 00:20:51,350
+the last thing I'll mention is that just
+as it's possible to change basis in our
+
+924
+00:20:51,350 --> 00:20:51,360
+as it's possible to change basis in our
+ 
+
+925
+00:20:51,360 --> 00:20:54,590
+as it's possible to change basis in our
+ordinary 3D Vector space V it's also
+
+926
+00:20:54,590 --> 00:20:54,600
+ordinary 3D Vector space V it's also
+ 
+
+927
+00:20:54,600 --> 00:20:56,930
+ordinary 3D Vector space V it's also
+possible to change basis in our spinner
+
+928
+00:20:56,930 --> 00:20:56,940
+possible to change basis in our spinner
+ 
+
+929
+00:20:56,940 --> 00:20:58,549
+possible to change basis in our spinner
+space s
+
+930
+00:20:58,549 --> 00:20:58,559
+space s
+ 
+
+931
+00:20:58,559 --> 00:21:01,250
+space s
+for example we can double the length of
+
+932
+00:21:01,250 --> 00:21:01,260
+for example we can double the length of
+ 
+
+933
+00:21:01,260 --> 00:21:03,650
+for example we can double the length of
+our S1 basis spinner
+
+934
+00:21:03,650 --> 00:21:03,660
+our S1 basis spinner
+ 
+
+935
+00:21:03,660 --> 00:21:05,870
+our S1 basis spinner
+since dual basis Spinners are
+
+936
+00:21:05,870 --> 00:21:05,880
+since dual basis Spinners are
+ 
+
+937
+00:21:05,880 --> 00:21:09,110
+since dual basis Spinners are
+contravariant the Dual basis spinner S1
+
+938
+00:21:09,110 --> 00:21:09,120
+contravariant the Dual basis spinner S1
+ 
+
+939
+00:21:09,120 --> 00:21:12,350
+contravariant the Dual basis spinner S1
+must transform in the opposite way with
+
+940
+00:21:12,350 --> 00:21:12,360
+must transform in the opposite way with
+ 
+
+941
+00:21:12,360 --> 00:21:15,950
+must transform in the opposite way with
+multiplication by one half
+
+942
+00:21:15,950 --> 00:21:15,960
+multiplication by one half
+ 
+
+943
+00:21:15,960 --> 00:21:18,529
+multiplication by one half
+so our change of basis equations for
+
+944
+00:21:18,529 --> 00:21:18,539
+so our change of basis equations for
+ 
+
+945
+00:21:18,539 --> 00:21:21,890
+so our change of basis equations for
+Spinners and dual Spinners are here and
+
+946
+00:21:21,890 --> 00:21:21,900
+Spinners and dual Spinners are here and
+ 
+
+947
+00:21:21,900 --> 00:21:24,110
+Spinners and dual Spinners are here and
+we can rearrange these so that the tilde
+
+948
+00:21:24,110 --> 00:21:24,120
+we can rearrange these so that the tilde
+ 
+
+949
+00:21:24,120 --> 00:21:26,150
+we can rearrange these so that the tilde
+basis is on the right side of the equal
+
+950
+00:21:26,150 --> 00:21:26,160
+basis is on the right side of the equal
+ 
+
+951
+00:21:26,160 --> 00:21:27,590
+basis is on the right side of the equal
+sign
+
+952
+00:21:27,590 --> 00:21:27,600
+sign
+ 
+
+953
+00:21:27,600 --> 00:21:29,990
+sign
+if we take a generic element of our
+
+954
+00:21:29,990 --> 00:21:30,000
+if we take a generic element of our
+ 
+
+955
+00:21:30,000 --> 00:21:32,149
+if we take a generic element of our
+spinner pair space written in the
+
+956
+00:21:32,149 --> 00:21:32,159
+spinner pair space written in the
+ 
+
+957
+00:21:32,159 --> 00:21:34,909
+spinner pair space written in the
+original basis we can change to the
+
+958
+00:21:34,909 --> 00:21:34,919
+original basis we can change to the
+ 
+
+959
+00:21:34,919 --> 00:21:37,310
+original basis we can change to the
+tilde basis by applying these equations
+
+960
+00:21:37,310 --> 00:21:37,320
+tilde basis by applying these equations
+ 
+
+961
+00:21:37,320 --> 00:21:41,029
+tilde basis by applying these equations
+one by one to each term in the sum
+
+962
+00:21:41,029 --> 00:21:41,039
+one by one to each term in the sum
+ 
+
+963
+00:21:41,039 --> 00:21:44,270
+one by one to each term in the sum
+the 1 1 term gets a factor of one-half
+
+964
+00:21:44,270 --> 00:21:44,280
+the 1 1 term gets a factor of one-half
+ 
+
+965
+00:21:44,280 --> 00:21:46,549
+the 1 1 term gets a factor of one-half
+and two that cancel
+
+966
+00:21:46,549 --> 00:21:46,559
+and two that cancel
+ 
+
+967
+00:21:46,559 --> 00:21:49,789
+and two that cancel
+the 2-1 term gets a factor of two
+
+968
+00:21:49,789 --> 00:21:49,799
+the 2-1 term gets a factor of two
+ 
+
+969
+00:21:49,799 --> 00:21:52,070
+the 2-1 term gets a factor of two
+the one two term gets a factor of
+
+970
+00:21:52,070 --> 00:21:52,080
+the one two term gets a factor of
+ 
+
+971
+00:21:52,080 --> 00:21:53,510
+the one two term gets a factor of
+one-half
+
+972
+00:21:53,510 --> 00:21:53,520
+one-half
+ 
+
+973
+00:21:53,520 --> 00:21:56,149
+one-half
+and the 2-2 term gets no additional
+
+974
+00:21:56,149 --> 00:21:56,159
+and the 2-2 term gets no additional
+ 
+
+975
+00:21:56,159 --> 00:21:57,830
+and the 2-2 term gets no additional
+Factor
+
+976
+00:21:57,830 --> 00:21:57,840
+Factor
+ 
+
+977
+00:21:57,840 --> 00:22:00,470
+Factor
+this gives the same object but written
+
+978
+00:22:00,470 --> 00:22:00,480
+this gives the same object but written
+ 
+
+979
+00:22:00,480 --> 00:22:03,770
+this gives the same object but written
+in the tilde basis instead you can see
+
+980
+00:22:03,770 --> 00:22:03,780
+in the tilde basis instead you can see
+ 
+
+981
+00:22:03,780 --> 00:22:05,690
+in the tilde basis instead you can see
+here that there are some extra numerical
+
+982
+00:22:05,690 --> 00:22:05,700
+here that there are some extra numerical
+ 
+
+983
+00:22:05,700 --> 00:22:08,810
+here that there are some extra numerical
+factors in front of some components
+
+984
+00:22:08,810 --> 00:22:08,820
+factors in front of some components
+ 
+
+985
+00:22:08,820 --> 00:22:11,270
+factors in front of some components
+we can also write the new components as
+
+986
+00:22:11,270 --> 00:22:11,280
+we can also write the new components as
+ 
+
+987
+00:22:11,280 --> 00:22:13,669
+we can also write the new components as
+V tilde
+
+988
+00:22:13,669 --> 00:22:13,679
+V tilde
+ 
+
+989
+00:22:13,679 --> 00:22:16,070
+V tilde
+so both of these formulas are just
+
+990
+00:22:16,070 --> 00:22:16,080
+so both of these formulas are just
+ 
+
+991
+00:22:16,080 --> 00:22:17,810
+so both of these formulas are just
+different ways of writing the same
+
+992
+00:22:17,810 --> 00:22:17,820
+different ways of writing the same
+ 
+
+993
+00:22:17,820 --> 00:22:20,210
+different ways of writing the same
+output from the sigma map
+
+994
+00:22:20,210 --> 00:22:20,220
+output from the sigma map
+ 
+
+995
+00:22:20,220 --> 00:22:22,130
+output from the sigma map
+but because they are written in
+
+996
+00:22:22,130 --> 00:22:22,140
+but because they are written in
+ 
+
+997
+00:22:22,140 --> 00:22:24,169
+but because they are written in
+different bases they give us different
+
+998
+00:22:24,169 --> 00:22:24,179
+different bases they give us different
+ 
+
+999
+00:22:24,179 --> 00:22:26,930
+different bases they give us different
+components and they correspond to
+
+1000
+00:22:26,930 --> 00:22:26,940
+components and they correspond to
+ 
+
+1001
+00:22:26,940 --> 00:22:29,029
+components and they correspond to
+different matrices
+
+1002
+00:22:29,029 --> 00:22:29,039
+different matrices
+ 
+
+1003
+00:22:29,039 --> 00:22:31,430
+different matrices
+again the components in the new basis
+
+1004
+00:22:31,430 --> 00:22:31,440
+again the components in the new basis
+ 
+
+1005
+00:22:31,440 --> 00:22:34,789
+again the components in the new basis
+can be written with v tilde
+
+1006
+00:22:34,789 --> 00:22:34,799
+can be written with v tilde
+ 
+
+1007
+00:22:34,799 --> 00:22:37,669
+can be written with v tilde
+in this new spinner basis the components
+
+1008
+00:22:37,669 --> 00:22:37,679
+in this new spinner basis the components
+ 
+
+1009
+00:22:37,679 --> 00:22:40,250
+in this new spinner basis the components
+of the sigma matrices would now contain
+
+1010
+00:22:40,250 --> 00:22:40,260
+of the sigma matrices would now contain
+ 
+
+1011
+00:22:40,260 --> 00:22:43,370
+of the sigma matrices would now contain
+these factors meaning the sigma matrices
+
+1012
+00:22:43,370 --> 00:22:43,380
+these factors meaning the sigma matrices
+ 
+
+1013
+00:22:43,380 --> 00:22:46,010
+these factors meaning the sigma matrices
+would now look like this
+
+1014
+00:22:46,010 --> 00:22:46,020
+would now look like this
+ 
+
+1015
+00:22:46,020 --> 00:22:49,010
+would now look like this
+now we won't be changing spinner bases
+
+1016
+00:22:49,010 --> 00:22:49,020
+now we won't be changing spinner bases
+ 
+
+1017
+00:22:49,020 --> 00:22:52,730
+now we won't be changing spinner bases
+very often in this video series but just
+
+1018
+00:22:52,730 --> 00:22:52,740
+very often in this video series but just
+ 
+
+1019
+00:22:52,740 --> 00:22:54,890
+very often in this video series but just
+keep in mind it's something that can be
+
+1020
+00:22:54,890 --> 00:22:54,900
+keep in mind it's something that can be
+ 
+
+1021
+00:22:54,900 --> 00:22:57,169
+keep in mind it's something that can be
+done and it will affect the components
+
+1022
+00:22:57,169 --> 00:22:57,179
+done and it will affect the components
+ 
+
+1023
+00:22:57,179 --> 00:23:00,770
+done and it will affect the components
+of the sigma matrices
+
+1024
+00:23:00,770 --> 00:23:00,780
+
+ 
+
+1025
+00:23:00,780 --> 00:23:04,130
+
+so to sum up this video just as vectors
+
+1026
+00:23:04,130 --> 00:23:04,140
+so to sum up this video just as vectors
+ 
+
+1027
+00:23:04,140 --> 00:23:07,130
+so to sum up this video just as vectors
+live in Vector spaces and dual vectors
+
+1028
+00:23:07,130 --> 00:23:07,140
+live in Vector spaces and dual vectors
+ 
+
+1029
+00:23:07,140 --> 00:23:10,130
+live in Vector spaces and dual vectors
+live in dual Vector spaces we have
+
+1030
+00:23:10,130 --> 00:23:10,140
+live in dual Vector spaces we have
+ 
+
+1031
+00:23:10,140 --> 00:23:12,830
+live in dual Vector spaces we have
+spinners that live in spinner spaces and
+
+1032
+00:23:12,830 --> 00:23:12,840
+spinners that live in spinner spaces and
+ 
+
+1033
+00:23:12,840 --> 00:23:15,169
+spinners that live in spinner spaces and
+dual Spinners that live in dual spinner
+
+1034
+00:23:15,169 --> 00:23:15,179
+dual Spinners that live in dual spinner
+ 
+
+1035
+00:23:15,179 --> 00:23:18,770
+dual Spinners that live in dual spinner
+spaces spinner spaces obey all the rules
+
+1036
+00:23:18,770 --> 00:23:18,780
+spaces spinner spaces obey all the rules
+ 
+
+1037
+00:23:18,780 --> 00:23:21,110
+spaces spinner spaces obey all the rules
+of linear algebra that would be expected
+
+1038
+00:23:21,110 --> 00:23:21,120
+of linear algebra that would be expected
+ 
+
+1039
+00:23:21,120 --> 00:23:24,049
+of linear algebra that would be expected
+from Vector spaces but there is a
+
+1040
+00:23:24,049 --> 00:23:24,059
+from Vector spaces but there is a
+ 
+
+1041
+00:23:24,059 --> 00:23:26,570
+from Vector spaces but there is a
+special linear map Sigma that Maps
+
+1042
+00:23:26,570 --> 00:23:26,580
+special linear map Sigma that Maps
+ 
+
+1043
+00:23:26,580 --> 00:23:29,870
+special linear map Sigma that Maps
+vectors from 3D space into the space of
+
+1044
+00:23:29,870 --> 00:23:29,880
+vectors from 3D space into the space of
+ 
+
+1045
+00:23:29,880 --> 00:23:32,870
+vectors from 3D space into the space of
+spinner dual spinner tensor products
+
+1046
+00:23:32,870 --> 00:23:32,880
+spinner dual spinner tensor products
+ 
+
+1047
+00:23:32,880 --> 00:23:35,330
+spinner dual spinner tensor products
+this is where Paulie vectors and the
+
+1048
+00:23:35,330 --> 00:23:35,340
+this is where Paulie vectors and the
+ 
+
+1049
+00:23:35,340 --> 00:23:37,130
+this is where Paulie vectors and the
+sigma matrices live
+
+1050
+00:23:37,130 --> 00:23:37,140
+sigma matrices live
+ 
+
+1051
+00:23:37,140 --> 00:23:39,289
+sigma matrices live
+and it explains why we can Factor
+
+1052
+00:23:39,289 --> 00:23:39,299
+and it explains why we can Factor
+ 
+
+1053
+00:23:39,299 --> 00:23:42,169
+and it explains why we can Factor
+certain Pali vectors into a spinner and
+
+1054
+00:23:42,169 --> 00:23:42,179
+certain Pali vectors into a spinner and
+ 
+
+1055
+00:23:42,179 --> 00:23:43,549
+certain Pali vectors into a spinner and
+a dual spinner
+
+1056
+00:23:43,549 --> 00:23:43,559
+a dual spinner
+ 
+
+1057
+00:23:43,559 --> 00:23:46,610
+a dual spinner
+the linear map Sigma has 12 coefficients
+
+1058
+00:23:46,610 --> 00:23:46,620
+the linear map Sigma has 12 coefficients
+ 
+
+1059
+00:23:46,620 --> 00:23:50,510
+the linear map Sigma has 12 coefficients
+and it converts one tensor index into a
+
+1060
+00:23:50,510 --> 00:23:50,520
+and it converts one tensor index into a
+ 
+
+1061
+00:23:50,520 --> 00:23:52,850
+and it converts one tensor index into a
+pair of spinner indices
+
+1062
+00:23:52,850 --> 00:23:52,860
+pair of spinner indices
+ 
+
+1063
+00:23:52,860 --> 00:23:55,490
+pair of spinner indices
+in the next video when we cover Spinners
+
+1064
+00:23:55,490 --> 00:23:55,500
+in the next video when we cover Spinners
+ 
+
+1065
+00:23:55,500 --> 00:23:58,070
+in the next video when we cover Spinners
+in four-dimensional space time the
+
+1066
+00:23:58,070 --> 00:23:58,080
+in four-dimensional space time the
+ 
+
+1067
+00:23:58,080 --> 00:24:00,590
+in four-dimensional space time the
+equivalent Sigma map will be a 4x4
+
+1068
+00:24:00,590 --> 00:24:00,600
+equivalent Sigma map will be a 4x4
+ 
+
+1069
+00:24:00,600 --> 00:24:04,010
+equivalent Sigma map will be a 4x4
+Matrix and its components are called the
+
+1070
+00:24:04,010 --> 00:24:04,020
+Matrix and its components are called the
+ 
+
+1071
+00:24:04,020 --> 00:24:08,000
+Matrix and its components are called the
+infeld van der Varden symbols
+

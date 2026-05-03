@@ -1,0 +1,7515 @@
+1
+00:00:00,000 --> 00:00:01,969
+
+in this video we're going to introduce
+
+2
+00:00:01,969 --> 00:00:01,979
+in this video we're going to introduce
+ 
+
+3
+00:00:01,979 --> 00:00:05,030
+in this video we're going to introduce
+Clifford algebras also called geometric
+
+4
+00:00:05,030 --> 00:00:05,040
+Clifford algebras also called geometric
+ 
+
+5
+00:00:05,040 --> 00:00:08,150
+Clifford algebras also called geometric
+algebras for understanding spinners
+
+6
+00:00:08,150 --> 00:00:08,160
+algebras for understanding spinners
+ 
+
+7
+00:00:08,160 --> 00:00:10,430
+algebras for understanding spinners
+so far in this series we've looked at
+
+8
+00:00:10,430 --> 00:00:10,440
+so far in this series we've looked at
+ 
+
+9
+00:00:10,440 --> 00:00:13,070
+so far in this series we've looked at
+Spinners in three dimensions called poly
+
+10
+00:00:13,070 --> 00:00:13,080
+Spinners in three dimensions called poly
+ 
+
+11
+00:00:13,080 --> 00:00:14,690
+Spinners in three dimensions called poly
+Spinners and Spinners and
+
+12
+00:00:14,690 --> 00:00:14,700
+Spinners and Spinners and
+ 
+
+13
+00:00:14,700 --> 00:00:17,570
+Spinners and Spinners and
+four-dimensional space time called vial
+
+14
+00:00:17,570 --> 00:00:17,580
+four-dimensional space time called vial
+ 
+
+15
+00:00:17,580 --> 00:00:20,570
+four-dimensional space time called vial
+Spinners we came across these powley
+
+16
+00:00:20,570 --> 00:00:20,580
+Spinners we came across these powley
+ 
+
+17
+00:00:20,580 --> 00:00:23,029
+Spinners we came across these powley
+Spinners and vial Spinners almost by
+
+18
+00:00:23,029 --> 00:00:23,039
+Spinners and vial Spinners almost by
+ 
+
+19
+00:00:23,039 --> 00:00:26,810
+Spinners and vial Spinners almost by
+accident by rewriting 3D and 4D vectors
+
+20
+00:00:26,810 --> 00:00:26,820
+accident by rewriting 3D and 4D vectors
+ 
+
+21
+00:00:26,820 --> 00:00:30,170
+accident by rewriting 3D and 4D vectors
+as 2x2 matrices and finding that we
+
+22
+00:00:30,170 --> 00:00:30,180
+as 2x2 matrices and finding that we
+ 
+
+23
+00:00:30,180 --> 00:00:31,970
+as 2x2 matrices and finding that we
+could Factor them into a pair of
+
+24
+00:00:31,970 --> 00:00:31,980
+could Factor them into a pair of
+ 
+
+25
+00:00:31,980 --> 00:00:33,650
+could Factor them into a pair of
+spinners
+
+26
+00:00:33,650 --> 00:00:33,660
+spinners
+ 
+
+27
+00:00:33,660 --> 00:00:35,870
+spinners
+Clifford algebras are useful because
+
+28
+00:00:35,870 --> 00:00:35,880
+Clifford algebras are useful because
+ 
+
+29
+00:00:35,880 --> 00:00:37,970
+Clifford algebras are useful because
+they stop making Spinners look like
+
+30
+00:00:37,970 --> 00:00:37,980
+they stop making Spinners look like
+ 
+
+31
+00:00:37,980 --> 00:00:39,470
+they stop making Spinners look like
+accidents
+
+32
+00:00:39,470 --> 00:00:39,480
+accidents
+ 
+
+33
+00:00:39,480 --> 00:00:41,869
+accidents
+Clifford algebras give us a consistent
+
+34
+00:00:41,869 --> 00:00:41,879
+Clifford algebras give us a consistent
+ 
+
+35
+00:00:41,879 --> 00:00:44,330
+Clifford algebras give us a consistent
+recipe for building Spinners in any
+
+36
+00:00:44,330 --> 00:00:44,340
+recipe for building Spinners in any
+ 
+
+37
+00:00:44,340 --> 00:00:49,190
+recipe for building Spinners in any
+Dimension like 3 4 7 or 20 dimensions
+
+38
+00:00:49,190 --> 00:00:49,200
+Dimension like 3 4 7 or 20 dimensions
+ 
+
+39
+00:00:49,200 --> 00:00:51,529
+Dimension like 3 4 7 or 20 dimensions
+this recipe says that Spinners are
+
+40
+00:00:51,529 --> 00:00:51,539
+this recipe says that Spinners are
+ 
+
+41
+00:00:51,539 --> 00:00:53,690
+this recipe says that Spinners are
+members of minimal left ideals and
+
+42
+00:00:53,690 --> 00:00:53,700
+members of minimal left ideals and
+ 
+
+43
+00:00:53,700 --> 00:00:55,910
+members of minimal left ideals and
+Clifford algebras
+
+44
+00:00:55,910 --> 00:00:55,920
+Clifford algebras
+ 
+
+45
+00:00:55,920 --> 00:00:58,549
+Clifford algebras
+this recipe probably doesn't make much
+
+46
+00:00:58,549 --> 00:00:58,559
+this recipe probably doesn't make much
+ 
+
+47
+00:00:58,559 --> 00:01:00,950
+this recipe probably doesn't make much
+sense now but it should make sense over
+
+48
+00:01:00,950 --> 00:01:00,960
+sense now but it should make sense over
+ 
+
+49
+00:01:00,960 --> 00:01:03,830
+sense now but it should make sense over
+the course of the next few videos
+
+50
+00:01:03,830 --> 00:01:03,840
+the course of the next few videos
+ 
+
+51
+00:01:03,840 --> 00:01:06,649
+the course of the next few videos
+Clifford algebra's also unite many types
+
+52
+00:01:06,649 --> 00:01:06,659
+Clifford algebra's also unite many types
+ 
+
+53
+00:01:06,659 --> 00:01:08,990
+Clifford algebra's also unite many types
+of mathematical objects together
+
+54
+00:01:08,990 --> 00:01:09,000
+of mathematical objects together
+ 
+
+55
+00:01:09,000 --> 00:01:11,570
+of mathematical objects together
+in physics we deal with various objects
+
+56
+00:01:11,570 --> 00:01:11,580
+in physics we deal with various objects
+ 
+
+57
+00:01:11,580 --> 00:01:14,690
+in physics we deal with various objects
+like scalars vectors bi-vectors linear
+
+58
+00:01:14,690 --> 00:01:14,700
+like scalars vectors bi-vectors linear
+ 
+
+59
+00:01:14,700 --> 00:01:16,670
+like scalars vectors bi-vectors linear
+maps and spinners
+
+60
+00:01:16,670 --> 00:01:16,680
+maps and spinners
+ 
+
+61
+00:01:16,680 --> 00:01:19,190
+maps and spinners
+all of these objects live together side
+
+62
+00:01:19,190 --> 00:01:19,200
+all of these objects live together side
+ 
+
+63
+00:01:19,200 --> 00:01:22,310
+all of these objects live together side
+by side in Clifford algebras doing
+
+64
+00:01:22,310 --> 00:01:22,320
+by side in Clifford algebras doing
+ 
+
+65
+00:01:22,320 --> 00:01:24,770
+by side in Clifford algebras doing
+physics with Clifford algebras feels a
+
+66
+00:01:24,770 --> 00:01:24,780
+physics with Clifford algebras feels a
+ 
+
+67
+00:01:24,780 --> 00:01:26,690
+physics with Clifford algebras feels a
+bit like doing physics with the
+
+68
+00:01:26,690 --> 00:01:26,700
+bit like doing physics with the
+ 
+
+69
+00:01:26,700 --> 00:01:28,510
+bit like doing physics with the
+batteries included
+
+70
+00:01:28,510 --> 00:01:28,520
+batteries included
+ 
+
+71
+00:01:28,520 --> 00:01:31,010
+batteries included
+oftentimes everything we need to solve a
+
+72
+00:01:31,010 --> 00:01:31,020
+oftentimes everything we need to solve a
+ 
+
+73
+00:01:31,020 --> 00:01:33,289
+oftentimes everything we need to solve a
+problem in physics already lives inside
+
+74
+00:01:33,289 --> 00:01:33,299
+problem in physics already lives inside
+ 
+
+75
+00:01:33,299 --> 00:01:35,990
+problem in physics already lives inside
+a Clifford algebra and we don't need to
+
+76
+00:01:35,990 --> 00:01:36,000
+a Clifford algebra and we don't need to
+ 
+
+77
+00:01:36,000 --> 00:01:38,330
+a Clifford algebra and we don't need to
+invent any new mathematical objects to
+
+78
+00:01:38,330 --> 00:01:38,340
+invent any new mathematical objects to
+ 
+
+79
+00:01:38,340 --> 00:01:39,950
+invent any new mathematical objects to
+solve the problem
+
+80
+00:01:39,950 --> 00:01:39,960
+solve the problem
+ 
+
+81
+00:01:39,960 --> 00:01:42,649
+solve the problem
+for example Clifford algebras allow us
+
+82
+00:01:42,649 --> 00:01:42,659
+for example Clifford algebras allow us
+ 
+
+83
+00:01:42,659 --> 00:01:45,410
+for example Clifford algebras allow us
+to unite the four Maxwell equations of
+
+84
+00:01:45,410 --> 00:01:45,420
+to unite the four Maxwell equations of
+ 
+
+85
+00:01:45,420 --> 00:01:48,050
+to unite the four Maxwell equations of
+electricity and magnetism together into
+
+86
+00:01:48,050 --> 00:01:48,060
+electricity and magnetism together into
+ 
+
+87
+00:01:48,060 --> 00:01:50,149
+electricity and magnetism together into
+a single equation
+
+88
+00:01:50,149 --> 00:01:50,159
+a single equation
+ 
+
+89
+00:01:50,159 --> 00:01:53,210
+a single equation
+the YouTuber suji lacmo has some
+
+90
+00:01:53,210 --> 00:01:53,220
+the YouTuber suji lacmo has some
+ 
+
+91
+00:01:53,220 --> 00:01:55,190
+the YouTuber suji lacmo has some
+fantastic introduction videos for
+
+92
+00:01:55,190 --> 00:01:55,200
+fantastic introduction videos for
+ 
+
+93
+00:01:55,200 --> 00:01:57,590
+fantastic introduction videos for
+Clifford algebras and if you're looking
+
+94
+00:01:57,590 --> 00:01:57,600
+Clifford algebras and if you're looking
+ 
+
+95
+00:01:57,600 --> 00:01:59,389
+Clifford algebras and if you're looking
+for some more advanced videos on
+
+96
+00:01:59,389 --> 00:01:59,399
+for some more advanced videos on
+ 
+
+97
+00:01:59,399 --> 00:02:01,730
+for some more advanced videos on
+Clifford algebras you can look at the
+
+98
+00:02:01,730 --> 00:02:01,740
+Clifford algebras you can look at the
+ 
+
+99
+00:02:01,740 --> 00:02:04,130
+Clifford algebras you can look at the
+bi-vector YouTube channel
+
+100
+00:02:04,130 --> 00:02:04,140
+bi-vector YouTube channel
+ 
+
+101
+00:02:04,140 --> 00:02:06,530
+bi-vector YouTube channel
+for Clifford algebra content on spinners
+
+102
+00:02:06,530 --> 00:02:06,540
+for Clifford algebra content on spinners
+ 
+
+103
+00:02:06,540 --> 00:02:09,109
+for Clifford algebra content on spinners
+specifically I'll be referring to this
+
+104
+00:02:09,109 --> 00:02:09,119
+specifically I'll be referring to this
+ 
+
+105
+00:02:09,119 --> 00:02:11,809
+specifically I'll be referring to this
+thesis by Crystal and McKenzie in later
+
+106
+00:02:11,809 --> 00:02:11,819
+thesis by Crystal and McKenzie in later
+ 
+
+107
+00:02:11,819 --> 00:02:14,570
+thesis by Crystal and McKenzie in later
+videos I've linked all of these sources
+
+108
+00:02:14,570 --> 00:02:14,580
+videos I've linked all of these sources
+ 
+
+109
+00:02:14,580 --> 00:02:16,369
+videos I've linked all of these sources
+in the description
+
+110
+00:02:16,369 --> 00:02:16,379
+in the description
+ 
+
+111
+00:02:16,379 --> 00:02:19,630
+in the description
+so what exactly are Clifford algebras
+
+112
+00:02:19,630 --> 00:02:19,640
+so what exactly are Clifford algebras
+ 
+
+113
+00:02:19,640 --> 00:02:21,770
+so what exactly are Clifford algebras
+they can be thought of as a
+
+114
+00:02:21,770 --> 00:02:21,780
+they can be thought of as a
+ 
+
+115
+00:02:21,780 --> 00:02:24,130
+they can be thought of as a
+generalization of the complex numbers
+
+116
+00:02:24,130 --> 00:02:24,140
+generalization of the complex numbers
+ 
+
+117
+00:02:24,140 --> 00:02:27,949
+generalization of the complex numbers
+quaternions and the sigma matrices
+
+118
+00:02:27,949 --> 00:02:27,959
+quaternions and the sigma matrices
+ 
+
+119
+00:02:27,959 --> 00:02:30,830
+quaternions and the sigma matrices
+all of these algebraic systems involve
+
+120
+00:02:30,830 --> 00:02:30,840
+all of these algebraic systems involve
+ 
+
+121
+00:02:30,840 --> 00:02:33,110
+all of these algebraic systems involve
+symbols that square to either negative
+
+122
+00:02:33,110 --> 00:02:33,120
+symbols that square to either negative
+ 
+
+123
+00:02:33,120 --> 00:02:36,410
+symbols that square to either negative
+one or positive one and also involve
+
+124
+00:02:36,410 --> 00:02:36,420
+one or positive one and also involve
+ 
+
+125
+00:02:36,420 --> 00:02:38,270
+one or positive one and also involve
+symbols where swapping the order of
+
+126
+00:02:38,270 --> 00:02:38,280
+symbols where swapping the order of
+ 
+
+127
+00:02:38,280 --> 00:02:40,690
+symbols where swapping the order of
+multiplication gives us a negative sign
+
+128
+00:02:40,690 --> 00:02:40,700
+multiplication gives us a negative sign
+ 
+
+129
+00:02:40,700 --> 00:02:43,670
+multiplication gives us a negative sign
+this is also called the anti-commutative
+
+130
+00:02:43,670 --> 00:02:43,680
+this is also called the anti-commutative
+ 
+
+131
+00:02:43,680 --> 00:02:45,290
+this is also called the anti-commutative
+property
+
+132
+00:02:45,290 --> 00:02:45,300
+property
+ 
+
+133
+00:02:45,300 --> 00:02:48,110
+property
+Loosely speaking Clifford algebras are
+
+134
+00:02:48,110 --> 00:02:48,120
+Loosely speaking Clifford algebras are
+ 
+
+135
+00:02:48,120 --> 00:02:50,390
+Loosely speaking Clifford algebras are
+algebraic structures where we can square
+
+136
+00:02:50,390 --> 00:02:50,400
+algebraic structures where we can square
+ 
+
+137
+00:02:50,400 --> 00:02:53,690
+algebraic structures where we can square
+symbols to plus one or minus one and
+
+138
+00:02:53,690 --> 00:02:53,700
+symbols to plus one or minus one and
+ 
+
+139
+00:02:53,700 --> 00:02:55,850
+symbols to plus one or minus one and
+also swap their order to get a negative
+
+140
+00:02:55,850 --> 00:02:55,860
+also swap their order to get a negative
+ 
+
+141
+00:02:55,860 --> 00:02:56,869
+also swap their order to get a negative
+sign
+
+142
+00:02:56,869 --> 00:02:56,879
+sign
+ 
+
+143
+00:02:56,879 --> 00:02:59,390
+sign
+a good first step for learning Clifford
+
+144
+00:02:59,390 --> 00:02:59,400
+a good first step for learning Clifford
+ 
+
+145
+00:02:59,400 --> 00:03:01,970
+a good first step for learning Clifford
+algebras is to begin by understanding
+
+146
+00:03:01,970 --> 00:03:01,980
+algebras is to begin by understanding
+ 
+
+147
+00:03:01,980 --> 00:03:05,390
+algebras is to begin by understanding
+Grassman algebras also called exterior
+
+148
+00:03:05,390 --> 00:03:05,400
+Grassman algebras also called exterior
+ 
+
+149
+00:03:05,400 --> 00:03:08,509
+Grassman algebras also called exterior
+algebras I realize I'm throwing a lot of
+
+150
+00:03:08,509 --> 00:03:08,519
+algebras I realize I'm throwing a lot of
+ 
+
+151
+00:03:08,519 --> 00:03:10,729
+algebras I realize I'm throwing a lot of
+names out right now but Grassman
+
+152
+00:03:10,729 --> 00:03:10,739
+names out right now but Grassman
+ 
+
+153
+00:03:10,739 --> 00:03:13,070
+names out right now but Grassman
+algebras can be thought of as a stepping
+
+154
+00:03:13,070 --> 00:03:13,080
+algebras can be thought of as a stepping
+ 
+
+155
+00:03:13,080 --> 00:03:15,770
+algebras can be thought of as a stepping
+stone to learning Clifford algebras so
+
+156
+00:03:15,770 --> 00:03:15,780
+stone to learning Clifford algebras so
+ 
+
+157
+00:03:15,780 --> 00:03:17,089
+stone to learning Clifford algebras so
+we're going to start with learning
+
+158
+00:03:17,089 --> 00:03:17,099
+we're going to start with learning
+ 
+
+159
+00:03:17,099 --> 00:03:19,250
+we're going to start with learning
+Grassman algebras
+
+160
+00:03:19,250 --> 00:03:19,260
+Grassman algebras
+ 
+
+161
+00:03:19,260 --> 00:03:22,550
+Grassman algebras
+the key idea in Grassman algebra is the
+
+162
+00:03:22,550 --> 00:03:22,560
+the key idea in Grassman algebra is the
+ 
+
+163
+00:03:22,560 --> 00:03:24,050
+the key idea in Grassman algebra is the
+wedge product
+
+164
+00:03:24,050 --> 00:03:24,060
+wedge product
+ 
+
+165
+00:03:24,060 --> 00:03:26,990
+wedge product
+if we have a vector U and another vector
+
+166
+00:03:26,990 --> 00:03:27,000
+if we have a vector U and another vector
+ 
+
+167
+00:03:27,000 --> 00:03:31,430
+if we have a vector U and another vector
+v their wedge product U wedge V is a
+
+168
+00:03:31,430 --> 00:03:31,440
+v their wedge product U wedge V is a
+ 
+
+169
+00:03:31,440 --> 00:03:35,149
+v their wedge product U wedge V is a
+plane segment formed by u and v with an
+
+170
+00:03:35,149 --> 00:03:35,159
+plane segment formed by u and v with an
+ 
+
+171
+00:03:35,159 --> 00:03:38,030
+plane segment formed by u and v with an
+orientation that follows the arrows
+
+172
+00:03:38,030 --> 00:03:38,040
+orientation that follows the arrows
+ 
+
+173
+00:03:38,040 --> 00:03:40,369
+orientation that follows the arrows
+if we swap the order of these vectors
+
+174
+00:03:40,369 --> 00:03:40,379
+if we swap the order of these vectors
+ 
+
+175
+00:03:40,379 --> 00:03:43,550
+if we swap the order of these vectors
+and look at V wedge U we get the same
+
+176
+00:03:43,550 --> 00:03:43,560
+and look at V wedge U we get the same
+ 
+
+177
+00:03:43,560 --> 00:03:45,890
+and look at V wedge U we get the same
+plane segment but with the opposite
+
+178
+00:03:45,890 --> 00:03:45,900
+plane segment but with the opposite
+ 
+
+179
+00:03:45,900 --> 00:03:47,630
+plane segment but with the opposite
+orientation
+
+180
+00:03:47,630 --> 00:03:47,640
+orientation
+ 
+
+181
+00:03:47,640 --> 00:03:50,390
+orientation
+these oriented plane segments are called
+
+182
+00:03:50,390 --> 00:03:50,400
+these oriented plane segments are called
+ 
+
+183
+00:03:50,400 --> 00:03:52,130
+these oriented plane segments are called
+bi-vectors
+
+184
+00:03:52,130 --> 00:03:52,140
+bi-vectors
+ 
+
+185
+00:03:52,140 --> 00:03:54,949
+bi-vectors
+these bi-vectors are a useful way for
+
+186
+00:03:54,949 --> 00:03:54,959
+these bi-vectors are a useful way for
+ 
+
+187
+00:03:54,959 --> 00:03:57,229
+these bi-vectors are a useful way for
+representing rotations and angular
+
+188
+00:03:57,229 --> 00:03:57,239
+representing rotations and angular
+ 
+
+189
+00:03:57,239 --> 00:03:58,490
+representing rotations and angular
+momentum
+
+190
+00:03:58,490 --> 00:03:58,500
+momentum
+ 
+
+191
+00:03:58,500 --> 00:04:01,369
+momentum
+in introductory physics classes angular
+
+192
+00:04:01,369 --> 00:04:01,379
+in introductory physics classes angular
+ 
+
+193
+00:04:01,379 --> 00:04:03,949
+in introductory physics classes angular
+momentum is usually represented using a
+
+194
+00:04:03,949 --> 00:04:03,959
+momentum is usually represented using a
+ 
+
+195
+00:04:03,959 --> 00:04:06,470
+momentum is usually represented using a
+vector which you get by using the
+
+196
+00:04:06,470 --> 00:04:06,480
+vector which you get by using the
+ 
+
+197
+00:04:06,480 --> 00:04:09,470
+vector which you get by using the
+awkward right hand rule where you curl
+
+198
+00:04:09,470 --> 00:04:09,480
+awkward right hand rule where you curl
+ 
+
+199
+00:04:09,480 --> 00:04:11,390
+awkward right hand rule where you curl
+the fingers of your right hand in the
+
+200
+00:04:11,390 --> 00:04:11,400
+the fingers of your right hand in the
+ 
+
+201
+00:04:11,400 --> 00:04:13,910
+the fingers of your right hand in the
+direction of the rotation and stick your
+
+202
+00:04:13,910 --> 00:04:13,920
+direction of the rotation and stick your
+ 
+
+203
+00:04:13,920 --> 00:04:15,530
+direction of the rotation and stick your
+thumb out in the direction of the
+
+204
+00:04:15,530 --> 00:04:15,540
+thumb out in the direction of the
+ 
+
+205
+00:04:15,540 --> 00:04:17,449
+thumb out in the direction of the
+angular momentum vector
+
+206
+00:04:17,449 --> 00:04:17,459
+angular momentum vector
+ 
+
+207
+00:04:17,459 --> 00:04:20,449
+angular momentum vector
+not only is this awkward but it can lead
+
+208
+00:04:20,449 --> 00:04:20,459
+not only is this awkward but it can lead
+ 
+
+209
+00:04:20,459 --> 00:04:23,270
+not only is this awkward but it can lead
+to strange geometric results
+
+210
+00:04:23,270 --> 00:04:23,280
+to strange geometric results
+ 
+
+211
+00:04:23,280 --> 00:04:25,790
+to strange geometric results
+for example if we reflect a rotating
+
+212
+00:04:25,790 --> 00:04:25,800
+for example if we reflect a rotating
+ 
+
+213
+00:04:25,800 --> 00:04:28,909
+for example if we reflect a rotating
+object in a mirror the angular momentum
+
+214
+00:04:28,909 --> 00:04:28,919
+object in a mirror the angular momentum
+ 
+
+215
+00:04:28,919 --> 00:04:32,030
+object in a mirror the angular momentum
+Vector points in the opposite direction
+
+216
+00:04:32,030 --> 00:04:32,040
+Vector points in the opposite direction
+ 
+
+217
+00:04:32,040 --> 00:04:34,550
+Vector points in the opposite direction
+this is a very strange behavior for a
+
+218
+00:04:34,550 --> 00:04:34,560
+this is a very strange behavior for a
+ 
+
+219
+00:04:34,560 --> 00:04:36,830
+this is a very strange behavior for a
+vector and indicates we might be doing
+
+220
+00:04:36,830 --> 00:04:36,840
+vector and indicates we might be doing
+ 
+
+221
+00:04:36,840 --> 00:04:38,450
+vector and indicates we might be doing
+something wrong
+
+222
+00:04:38,450 --> 00:04:38,460
+something wrong
+ 
+
+223
+00:04:38,460 --> 00:04:41,030
+something wrong
+however when we represent rotations and
+
+224
+00:04:41,030 --> 00:04:41,040
+however when we represent rotations and
+ 
+
+225
+00:04:41,040 --> 00:04:43,310
+however when we represent rotations and
+angular momentum using bi-vectors
+
+226
+00:04:43,310 --> 00:04:43,320
+angular momentum using bi-vectors
+ 
+
+227
+00:04:43,320 --> 00:04:46,430
+angular momentum using bi-vectors
+instead the direction of rotation is
+
+228
+00:04:46,430 --> 00:04:46,440
+instead the direction of rotation is
+ 
+
+229
+00:04:46,440 --> 00:04:49,070
+instead the direction of rotation is
+immediately obvious and when we reflect
+
+230
+00:04:49,070 --> 00:04:49,080
+immediately obvious and when we reflect
+ 
+
+231
+00:04:49,080 --> 00:04:51,830
+immediately obvious and when we reflect
+the rotation in a mirror the bi-vector
+
+232
+00:04:51,830 --> 00:04:51,840
+the rotation in a mirror the bi-vector
+ 
+
+233
+00:04:51,840 --> 00:04:54,710
+the rotation in a mirror the bi-vector
+changes in a predictable way reversing
+
+234
+00:04:54,710 --> 00:04:54,720
+changes in a predictable way reversing
+ 
+
+235
+00:04:54,720 --> 00:04:56,870
+changes in a predictable way reversing
+the orientation in a way that makes
+
+236
+00:04:56,870 --> 00:04:56,880
+the orientation in a way that makes
+ 
+
+237
+00:04:56,880 --> 00:04:58,610
+the orientation in a way that makes
+sense
+
+238
+00:04:58,610 --> 00:04:58,620
+sense
+ 
+
+239
+00:04:58,620 --> 00:05:01,790
+sense
+when we have a vector U it's opposite
+
+240
+00:05:01,790 --> 00:05:01,800
+when we have a vector U it's opposite
+ 
+
+241
+00:05:01,800 --> 00:05:05,270
+when we have a vector U it's opposite
+minus U is a parallel Vector of the same
+
+242
+00:05:05,270 --> 00:05:05,280
+minus U is a parallel Vector of the same
+ 
+
+243
+00:05:05,280 --> 00:05:07,490
+minus U is a parallel Vector of the same
+length but pointing in the opposite
+
+244
+00:05:07,490 --> 00:05:07,500
+length but pointing in the opposite
+ 
+
+245
+00:05:07,500 --> 00:05:10,790
+length but pointing in the opposite
+direction when we add U and negative U
+
+246
+00:05:10,790 --> 00:05:10,800
+direction when we add U and negative U
+ 
+
+247
+00:05:10,800 --> 00:05:13,370
+direction when we add U and negative U
+together we get zero
+
+248
+00:05:13,370 --> 00:05:13,380
+together we get zero
+ 
+
+249
+00:05:13,380 --> 00:05:16,370
+together we get zero
+similarly when we have a bi Vector U
+
+250
+00:05:16,370 --> 00:05:16,380
+similarly when we have a bi Vector U
+ 
+
+251
+00:05:16,380 --> 00:05:20,330
+similarly when we have a bi Vector U
+wedge V it's opposite V wedge U is a
+
+252
+00:05:20,330 --> 00:05:20,340
+wedge V it's opposite V wedge U is a
+ 
+
+253
+00:05:20,340 --> 00:05:23,330
+wedge V it's opposite V wedge U is a
+bi-vector of the same size but oriented
+
+254
+00:05:23,330 --> 00:05:23,340
+bi-vector of the same size but oriented
+ 
+
+255
+00:05:23,340 --> 00:05:25,430
+bi-vector of the same size but oriented
+in the opposite direction
+
+256
+00:05:25,430 --> 00:05:25,440
+in the opposite direction
+ 
+
+257
+00:05:25,440 --> 00:05:28,490
+in the opposite direction
+when we add U wedge V and V wedge U
+
+258
+00:05:28,490 --> 00:05:28,500
+when we add U wedge V and V wedge U
+ 
+
+259
+00:05:28,500 --> 00:05:31,010
+when we add U wedge V and V wedge U
+together we get zero
+
+260
+00:05:31,010 --> 00:05:31,020
+together we get zero
+ 
+
+261
+00:05:31,020 --> 00:05:33,469
+together we get zero
+for this reason we can also write V
+
+262
+00:05:33,469 --> 00:05:33,479
+for this reason we can also write V
+ 
+
+263
+00:05:33,479 --> 00:05:37,070
+for this reason we can also write V
+wedge U as negative U wedge V because
+
+264
+00:05:37,070 --> 00:05:37,080
+wedge U as negative U wedge V because
+ 
+
+265
+00:05:37,080 --> 00:05:40,189
+wedge U as negative U wedge V because
+it's the same bi-vector as U wedge V but
+
+266
+00:05:40,189 --> 00:05:40,199
+it's the same bi-vector as U wedge V but
+ 
+
+267
+00:05:40,199 --> 00:05:42,890
+it's the same bi-vector as U wedge V but
+with the opposite orientation
+
+268
+00:05:42,890 --> 00:05:42,900
+with the opposite orientation
+ 
+
+269
+00:05:42,900 --> 00:05:44,990
+with the opposite orientation
+this gives us our first important
+
+270
+00:05:44,990 --> 00:05:45,000
+this gives us our first important
+ 
+
+271
+00:05:45,000 --> 00:05:47,749
+this gives us our first important
+property of the wedge product when we
+
+272
+00:05:47,749 --> 00:05:47,759
+property of the wedge product when we
+ 
+
+273
+00:05:47,759 --> 00:05:49,490
+property of the wedge product when we
+swap the order of the vectors in the
+
+274
+00:05:49,490 --> 00:05:49,500
+swap the order of the vectors in the
+ 
+
+275
+00:05:49,500 --> 00:05:52,129
+swap the order of the vectors in the
+wedge product we get a negative sign in
+
+276
+00:05:52,129 --> 00:05:52,139
+wedge product we get a negative sign in
+ 
+
+277
+00:05:52,139 --> 00:05:52,969
+wedge product we get a negative sign in
+front
+
+278
+00:05:52,969 --> 00:05:52,979
+front
+ 
+
+279
+00:05:52,979 --> 00:05:55,310
+front
+this means that the wedge product is
+
+280
+00:05:55,310 --> 00:05:55,320
+this means that the wedge product is
+ 
+
+281
+00:05:55,320 --> 00:05:57,469
+this means that the wedge product is
+anti-commutative
+
+282
+00:05:57,469 --> 00:05:57,479
+anti-commutative
+ 
+
+283
+00:05:57,479 --> 00:06:00,170
+anti-commutative
+when it comes to vectors A vector's
+
+284
+00:06:00,170 --> 00:06:00,180
+when it comes to vectors A vector's
+ 
+
+285
+00:06:00,180 --> 00:06:02,689
+when it comes to vectors A vector's
+magnitude is equal to the length of its
+
+286
+00:06:02,689 --> 00:06:02,699
+magnitude is equal to the length of its
+ 
+
+287
+00:06:02,699 --> 00:06:06,170
+magnitude is equal to the length of its
+Arrow if a vector has length 0 we call
+
+288
+00:06:06,170 --> 00:06:06,180
+Arrow if a vector has length 0 we call
+ 
+
+289
+00:06:06,180 --> 00:06:08,270
+Arrow if a vector has length 0 we call
+it the zero vector
+
+290
+00:06:08,270 --> 00:06:08,280
+it the zero vector
+ 
+
+291
+00:06:08,280 --> 00:06:11,210
+it the zero vector
+for bi-vectors a bi-vector's magnitude
+
+292
+00:06:11,210 --> 00:06:11,220
+for bi-vectors a bi-vector's magnitude
+ 
+
+293
+00:06:11,220 --> 00:06:13,490
+for bi-vectors a bi-vector's magnitude
+is equal to the area of its plane
+
+294
+00:06:13,490 --> 00:06:13,500
+is equal to the area of its plane
+ 
+
+295
+00:06:13,500 --> 00:06:17,450
+is equal to the area of its plane
+segment if a bi Vector has zero area we
+
+296
+00:06:17,450 --> 00:06:17,460
+segment if a bi Vector has zero area we
+ 
+
+297
+00:06:17,460 --> 00:06:20,330
+segment if a bi Vector has zero area we
+call it the Zero by vector
+
+298
+00:06:20,330 --> 00:06:20,340
+call it the Zero by vector
+ 
+
+299
+00:06:20,340 --> 00:06:22,370
+call it the Zero by vector
+notice that if we take the wedge product
+
+300
+00:06:22,370 --> 00:06:22,380
+notice that if we take the wedge product
+ 
+
+301
+00:06:22,380 --> 00:06:25,370
+notice that if we take the wedge product
+of two vectors that are parallel we end
+
+302
+00:06:25,370 --> 00:06:25,380
+of two vectors that are parallel we end
+ 
+
+303
+00:06:25,380 --> 00:06:28,670
+of two vectors that are parallel we end
+up with an area of zero so we get the
+
+304
+00:06:28,670 --> 00:06:28,680
+up with an area of zero so we get the
+ 
+
+305
+00:06:28,680 --> 00:06:30,409
+up with an area of zero so we get the
+Zero by vector
+
+306
+00:06:30,409 --> 00:06:30,419
+Zero by vector
+ 
+
+307
+00:06:30,419 --> 00:06:32,809
+Zero by vector
+in particular the wedge product of a
+
+308
+00:06:32,809 --> 00:06:32,819
+in particular the wedge product of a
+ 
+
+309
+00:06:32,819 --> 00:06:36,529
+in particular the wedge product of a
+vector with itself always gives zero
+
+310
+00:06:36,529 --> 00:06:36,539
+vector with itself always gives zero
+ 
+
+311
+00:06:36,539 --> 00:06:39,290
+vector with itself always gives zero
+when we have the wedge product used over
+
+312
+00:06:39,290 --> 00:06:39,300
+when we have the wedge product used over
+ 
+
+313
+00:06:39,300 --> 00:06:42,050
+when we have the wedge product used over
+a sum of vectors we can distribute the
+
+314
+00:06:42,050 --> 00:06:42,060
+a sum of vectors we can distribute the
+ 
+
+315
+00:06:42,060 --> 00:06:44,689
+a sum of vectors we can distribute the
+wedge product over the sum similar to
+
+316
+00:06:44,689 --> 00:06:44,699
+wedge product over the sum similar to
+ 
+
+317
+00:06:44,699 --> 00:06:46,670
+wedge product over the sum similar to
+The Way We distribute multiplication
+
+318
+00:06:46,670 --> 00:06:46,680
+The Way We distribute multiplication
+ 
+
+319
+00:06:46,680 --> 00:06:50,390
+The Way We distribute multiplication
+over brackets in high school algebra
+
+320
+00:06:50,390 --> 00:06:50,400
+over brackets in high school algebra
+ 
+
+321
+00:06:50,400 --> 00:06:52,909
+over brackets in high school algebra
+this has an easy visual interpretation
+
+322
+00:06:52,909 --> 00:06:52,919
+this has an easy visual interpretation
+ 
+
+323
+00:06:52,919 --> 00:06:56,930
+this has an easy visual interpretation
+if we add U1 and U2 and then take the
+
+324
+00:06:56,930 --> 00:06:56,940
+if we add U1 and U2 and then take the
+ 
+
+325
+00:06:56,940 --> 00:06:59,330
+if we add U1 and U2 and then take the
+wedge product with v this is the same
+
+326
+00:06:59,330 --> 00:06:59,340
+wedge product with v this is the same
+ 
+
+327
+00:06:59,340 --> 00:07:03,050
+wedge product with v this is the same
+thing as taking U1 wedge V and U2 wedge
+
+328
+00:07:03,050 --> 00:07:03,060
+thing as taking U1 wedge V and U2 wedge
+ 
+
+329
+00:07:03,060 --> 00:07:05,689
+thing as taking U1 wedge V and U2 wedge
+V and adding them together into a single
+
+330
+00:07:05,689 --> 00:07:05,699
+V and adding them together into a single
+ 
+
+331
+00:07:05,699 --> 00:07:07,610
+V and adding them together into a single
+oriented plane
+
+332
+00:07:07,610 --> 00:07:07,620
+oriented plane
+ 
+
+333
+00:07:07,620 --> 00:07:09,650
+oriented plane
+this gives us the distributive
+
+334
+00:07:09,650 --> 00:07:09,660
+this gives us the distributive
+ 
+
+335
+00:07:09,660 --> 00:07:12,590
+this gives us the distributive
+properties of the wedge product
+
+336
+00:07:12,590 --> 00:07:12,600
+properties of the wedge product
+ 
+
+337
+00:07:12,600 --> 00:07:16,249
+properties of the wedge product
+also when we multiply U wedge V by a
+
+338
+00:07:16,249 --> 00:07:16,259
+also when we multiply U wedge V by a
+ 
+
+339
+00:07:16,259 --> 00:07:19,070
+also when we multiply U wedge V by a
+scalar like three we can either multiply
+
+340
+00:07:19,070 --> 00:07:19,080
+scalar like three we can either multiply
+ 
+
+341
+00:07:19,080 --> 00:07:22,870
+scalar like three we can either multiply
+the U by 3 or multiply the V by three
+
+342
+00:07:22,870 --> 00:07:22,880
+the U by 3 or multiply the V by three
+ 
+
+343
+00:07:22,880 --> 00:07:26,270
+the U by 3 or multiply the V by three
+mathematically the results are the same
+
+344
+00:07:26,270 --> 00:07:26,280
+mathematically the results are the same
+ 
+
+345
+00:07:26,280 --> 00:07:28,730
+mathematically the results are the same
+now these results might look different
+
+346
+00:07:28,730 --> 00:07:28,740
+now these results might look different
+ 
+
+347
+00:07:28,740 --> 00:07:31,730
+now these results might look different
+to you visually however as long as the
+
+348
+00:07:31,730 --> 00:07:31,740
+to you visually however as long as the
+ 
+
+349
+00:07:31,740 --> 00:07:34,129
+to you visually however as long as the
+areas of the two plane segments are the
+
+350
+00:07:34,129 --> 00:07:34,139
+areas of the two plane segments are the
+ 
+
+351
+00:07:34,139 --> 00:07:36,650
+areas of the two plane segments are the
+same and the orientations are the same
+
+352
+00:07:36,650 --> 00:07:36,660
+same and the orientations are the same
+ 
+
+353
+00:07:36,660 --> 00:07:40,430
+same and the orientations are the same
+the bi-vectors are considered equal it
+
+354
+00:07:40,430 --> 00:07:40,440
+the bi-vectors are considered equal it
+ 
+
+355
+00:07:40,440 --> 00:07:42,469
+the bi-vectors are considered equal it
+doesn't matter if we draw the areas as
+
+356
+00:07:42,469 --> 00:07:42,479
+doesn't matter if we draw the areas as
+ 
+
+357
+00:07:42,479 --> 00:07:45,050
+doesn't matter if we draw the areas as
+squares rectangles parallelograms
+
+358
+00:07:45,050 --> 00:07:45,060
+squares rectangles parallelograms
+ 
+
+359
+00:07:45,060 --> 00:07:48,230
+squares rectangles parallelograms
+circles or some other shape and the
+
+360
+00:07:48,230 --> 00:07:48,240
+circles or some other shape and the
+ 
+
+361
+00:07:48,240 --> 00:07:50,450
+circles or some other shape and the
+angle or rotation of the shape also
+
+362
+00:07:50,450 --> 00:07:50,460
+angle or rotation of the shape also
+ 
+
+363
+00:07:50,460 --> 00:07:51,950
+angle or rotation of the shape also
+doesn't matter
+
+364
+00:07:51,950 --> 00:07:51,960
+doesn't matter
+ 
+
+365
+00:07:51,960 --> 00:07:55,370
+doesn't matter
+for example any bi-vector drawn as a
+
+366
+00:07:55,370 --> 00:07:55,380
+for example any bi-vector drawn as a
+ 
+
+367
+00:07:55,380 --> 00:07:58,070
+for example any bi-vector drawn as a
+parallelogram can be redrawn as a
+
+368
+00:07:58,070 --> 00:07:58,080
+parallelogram can be redrawn as a
+ 
+
+369
+00:07:58,080 --> 00:07:59,210
+parallelogram can be redrawn as a
+rectangle
+
+370
+00:07:59,210 --> 00:07:59,220
+rectangle
+ 
+
+371
+00:07:59,220 --> 00:08:00,950
+rectangle
+the portion of the wedge product
+
+372
+00:08:00,950 --> 00:08:00,960
+the portion of the wedge product
+ 
+
+373
+00:08:00,960 --> 00:08:03,830
+the portion of the wedge product
+involving parallel vectors goes to zero
+
+374
+00:08:03,830 --> 00:08:03,840
+involving parallel vectors goes to zero
+ 
+
+375
+00:08:03,840 --> 00:08:06,589
+involving parallel vectors goes to zero
+so we only need the orthogonal portion
+
+376
+00:08:06,589 --> 00:08:06,599
+so we only need the orthogonal portion
+ 
+
+377
+00:08:06,599 --> 00:08:08,570
+so we only need the orthogonal portion
+of the vectors
+
+378
+00:08:08,570 --> 00:08:08,580
+of the vectors
+ 
+
+379
+00:08:08,580 --> 00:08:11,450
+of the vectors
+also the property of the wedge product
+
+380
+00:08:11,450 --> 00:08:11,460
+also the property of the wedge product
+ 
+
+381
+00:08:11,460 --> 00:08:14,210
+also the property of the wedge product
+being anti-commutative and the property
+
+382
+00:08:14,210 --> 00:08:14,220
+being anti-commutative and the property
+ 
+
+383
+00:08:14,220 --> 00:08:16,610
+being anti-commutative and the property
+of a vector wedged with itself equaling
+
+384
+00:08:16,610 --> 00:08:16,620
+of a vector wedged with itself equaling
+ 
+
+385
+00:08:16,620 --> 00:08:19,490
+of a vector wedged with itself equaling
+zero are actually equivalent properties
+
+386
+00:08:19,490 --> 00:08:19,500
+zero are actually equivalent properties
+ 
+
+387
+00:08:19,500 --> 00:08:22,670
+zero are actually equivalent properties
+and can be derived from each other
+
+388
+00:08:22,670 --> 00:08:22,680
+and can be derived from each other
+ 
+
+389
+00:08:22,680 --> 00:08:25,129
+and can be derived from each other
+if we take the anti-commutative property
+
+390
+00:08:25,129 --> 00:08:25,139
+if we take the anti-commutative property
+ 
+
+391
+00:08:25,139 --> 00:08:28,550
+if we take the anti-commutative property
+and set V equals U we get something that
+
+392
+00:08:28,550 --> 00:08:28,560
+and set V equals U we get something that
+ 
+
+393
+00:08:28,560 --> 00:08:31,309
+and set V equals U we get something that
+equals the negative of itself which must
+
+394
+00:08:31,309 --> 00:08:31,319
+equals the negative of itself which must
+ 
+
+395
+00:08:31,319 --> 00:08:33,949
+equals the negative of itself which must
+be zero so that proves the equivalence
+
+396
+00:08:33,949 --> 00:08:33,959
+be zero so that proves the equivalence
+ 
+
+397
+00:08:33,959 --> 00:08:35,690
+be zero so that proves the equivalence
+in One Direction
+
+398
+00:08:35,690 --> 00:08:35,700
+in One Direction
+ 
+
+399
+00:08:35,700 --> 00:08:38,149
+in One Direction
+if we instead start with this wedge
+
+400
+00:08:38,149 --> 00:08:38,159
+if we instead start with this wedge
+ 
+
+401
+00:08:38,159 --> 00:08:41,209
+if we instead start with this wedge
+product of a sum U plus V with itself
+
+402
+00:08:41,209 --> 00:08:41,219
+product of a sum U plus V with itself
+ 
+
+403
+00:08:41,219 --> 00:08:43,730
+product of a sum U plus V with itself
+and assume anything wedged with itself
+
+404
+00:08:43,730 --> 00:08:43,740
+and assume anything wedged with itself
+ 
+
+405
+00:08:43,740 --> 00:08:46,730
+and assume anything wedged with itself
+is zero we can distribute to get four
+
+406
+00:08:46,730 --> 00:08:46,740
+is zero we can distribute to get four
+ 
+
+407
+00:08:46,740 --> 00:08:50,329
+is zero we can distribute to get four
+terms two of which go to zero and we're
+
+408
+00:08:50,329 --> 00:08:50,339
+terms two of which go to zero and we're
+ 
+
+409
+00:08:50,339 --> 00:08:52,670
+terms two of which go to zero and we're
+left with the anti-communitive property
+
+410
+00:08:52,670 --> 00:08:52,680
+left with the anti-communitive property
+ 
+
+411
+00:08:52,680 --> 00:08:55,190
+left with the anti-communitive property
+this shows the equivalence in the other
+
+412
+00:08:55,190 --> 00:08:55,200
+this shows the equivalence in the other
+ 
+
+413
+00:08:55,200 --> 00:08:57,110
+this shows the equivalence in the other
+direction
+
+414
+00:08:57,110 --> 00:08:57,120
+direction
+ 
+
+415
+00:08:57,120 --> 00:08:59,509
+direction
+now we've talked about the abstract
+
+416
+00:08:59,509 --> 00:08:59,519
+now we've talked about the abstract
+ 
+
+417
+00:08:59,519 --> 00:09:02,570
+now we've talked about the abstract
+properties of bi vectors but I'd also
+
+418
+00:09:02,570 --> 00:09:02,580
+properties of bi vectors but I'd also
+ 
+
+419
+00:09:02,580 --> 00:09:04,990
+properties of bi vectors but I'd also
+like to talk about bi-vector components
+
+420
+00:09:04,990 --> 00:09:05,000
+like to talk about bi-vector components
+ 
+
+421
+00:09:05,000 --> 00:09:08,329
+like to talk about bi-vector components
+let's say we're working in 2D space with
+
+422
+00:09:08,329 --> 00:09:08,339
+let's say we're working in 2D space with
+ 
+
+423
+00:09:08,339 --> 00:09:12,050
+let's say we're working in 2D space with
+basis vectors e x and e y and we're
+
+424
+00:09:12,050 --> 00:09:12,060
+basis vectors e x and e y and we're
+ 
+
+425
+00:09:12,060 --> 00:09:15,590
+basis vectors e x and e y and we're
+looking at the bi-vector U wedge V what
+
+426
+00:09:15,590 --> 00:09:15,600
+looking at the bi-vector U wedge V what
+ 
+
+427
+00:09:15,600 --> 00:09:18,290
+looking at the bi-vector U wedge V what
+are these bi vectors components
+
+428
+00:09:18,290 --> 00:09:18,300
+are these bi vectors components
+ 
+
+429
+00:09:18,300 --> 00:09:21,110
+are these bi vectors components
+we can write u and v as linear
+
+430
+00:09:21,110 --> 00:09:21,120
+we can write u and v as linear
+ 
+
+431
+00:09:21,120 --> 00:09:24,110
+we can write u and v as linear
+combinations of the basis vectors then
+
+432
+00:09:24,110 --> 00:09:24,120
+combinations of the basis vectors then
+ 
+
+433
+00:09:24,120 --> 00:09:26,329
+combinations of the basis vectors then
+distribute over the wedge product to get
+
+434
+00:09:26,329 --> 00:09:26,339
+distribute over the wedge product to get
+ 
+
+435
+00:09:26,339 --> 00:09:30,050
+distribute over the wedge product to get
+four terms first outer inner last
+
+436
+00:09:30,050 --> 00:09:30,060
+four terms first outer inner last
+ 
+
+437
+00:09:30,060 --> 00:09:34,730
+four terms first outer inner last
+the ex wedge ex and ey wedge ey terms go
+
+438
+00:09:34,730 --> 00:09:34,740
+the ex wedge ex and ey wedge ey terms go
+ 
+
+439
+00:09:34,740 --> 00:09:38,690
+the ex wedge ex and ey wedge ey terms go
+to zero and we can rewrite e y wedge ex
+
+440
+00:09:38,690 --> 00:09:38,700
+to zero and we can rewrite e y wedge ex
+ 
+
+441
+00:09:38,700 --> 00:09:42,790
+to zero and we can rewrite e y wedge ex
+as negative ex wedge ey using the
+
+442
+00:09:42,790 --> 00:09:42,800
+as negative ex wedge ey using the
+ 
+
+443
+00:09:42,800 --> 00:09:45,650
+as negative ex wedge ey using the
+anti-commutivity of the wedge product
+
+444
+00:09:45,650 --> 00:09:45,660
+anti-commutivity of the wedge product
+ 
+
+445
+00:09:45,660 --> 00:09:49,190
+anti-commutivity of the wedge product
+so we find that U wedge V has only one
+
+446
+00:09:49,190 --> 00:09:49,200
+so we find that U wedge V has only one
+ 
+
+447
+00:09:49,200 --> 00:09:52,310
+so we find that U wedge V has only one
+component with the basis by Vector e x
+
+448
+00:09:52,310 --> 00:09:52,320
+component with the basis by Vector e x
+ 
+
+449
+00:09:52,320 --> 00:09:56,389
+component with the basis by Vector e x
+wedge ey and the component is u x v y
+
+450
+00:09:56,389 --> 00:09:56,399
+wedge ey and the component is u x v y
+ 
+
+451
+00:09:56,399 --> 00:10:00,110
+wedge ey and the component is u x v y
+minus u y v x which is the formula for
+
+452
+00:10:00,110 --> 00:10:00,120
+minus u y v x which is the formula for
+ 
+
+453
+00:10:00,120 --> 00:10:02,990
+minus u y v x which is the formula for
+the area of a parallelogram using Vector
+
+454
+00:10:02,990 --> 00:10:03,000
+the area of a parallelogram using Vector
+ 
+
+455
+00:10:03,000 --> 00:10:04,310
+the area of a parallelogram using Vector
+components
+
+456
+00:10:04,310 --> 00:10:04,320
+components
+ 
+
+457
+00:10:04,320 --> 00:10:07,430
+components
+there is only one basis bi-vector here
+
+458
+00:10:07,430 --> 00:10:07,440
+there is only one basis bi-vector here
+ 
+
+459
+00:10:07,440 --> 00:10:10,370
+there is only one basis bi-vector here
+because in the X Y plane there is only
+
+460
+00:10:10,370 --> 00:10:10,380
+because in the X Y plane there is only
+ 
+
+461
+00:10:10,380 --> 00:10:13,490
+because in the X Y plane there is only
+one possible pair of axes
+
+462
+00:10:13,490 --> 00:10:13,500
+one possible pair of axes
+ 
+
+463
+00:10:13,500 --> 00:10:16,910
+one possible pair of axes
+in 3D space the formula for U wedge V
+
+464
+00:10:16,910 --> 00:10:16,920
+in 3D space the formula for U wedge V
+ 
+
+465
+00:10:16,920 --> 00:10:19,910
+in 3D space the formula for U wedge V
+has three components because there are
+
+466
+00:10:19,910 --> 00:10:19,920
+has three components because there are
+ 
+
+467
+00:10:19,920 --> 00:10:24,650
+has three components because there are
+three possible pairs of axes y z z x and
+
+468
+00:10:24,650 --> 00:10:24,660
+three possible pairs of axes y z z x and
+ 
+
+469
+00:10:24,660 --> 00:10:26,150
+three possible pairs of axes y z z x and
+x y
+
+470
+00:10:26,150 --> 00:10:26,160
+x y
+ 
+
+471
+00:10:26,160 --> 00:10:29,090
+x y
+as an exercise you can try proving that
+
+472
+00:10:29,090 --> 00:10:29,100
+as an exercise you can try proving that
+ 
+
+473
+00:10:29,100 --> 00:10:30,949
+as an exercise you can try proving that
+these are the components
+
+474
+00:10:30,949 --> 00:10:30,959
+these are the components
+ 
+
+475
+00:10:30,959 --> 00:10:33,170
+these are the components
+these end up being the same components
+
+476
+00:10:33,170 --> 00:10:33,180
+these end up being the same components
+ 
+
+477
+00:10:33,180 --> 00:10:35,690
+these end up being the same components
+that result from the cross product of u
+
+478
+00:10:35,690 --> 00:10:35,700
+that result from the cross product of u
+ 
+
+479
+00:10:35,700 --> 00:10:37,550
+that result from the cross product of u
+and v
+
+480
+00:10:37,550 --> 00:10:37,560
+and v
+ 
+
+481
+00:10:37,560 --> 00:10:39,710
+and v
+if we continue using the wedge product
+
+482
+00:10:39,710 --> 00:10:39,720
+if we continue using the wedge product
+ 
+
+483
+00:10:39,720 --> 00:10:41,750
+if we continue using the wedge product
+we can build higher dimensional
+
+484
+00:10:41,750 --> 00:10:41,760
+we can build higher dimensional
+ 
+
+485
+00:10:41,760 --> 00:10:44,930
+we can build higher dimensional
+multi-vectors like tri-vectors quad
+
+486
+00:10:44,930 --> 00:10:44,940
+multi-vectors like tri-vectors quad
+ 
+
+487
+00:10:44,940 --> 00:10:48,350
+multi-vectors like tri-vectors quad
+vectors and so on however we can't keep
+
+488
+00:10:48,350 --> 00:10:48,360
+vectors and so on however we can't keep
+ 
+
+489
+00:10:48,360 --> 00:10:50,210
+vectors and so on however we can't keep
+going up forever
+
+490
+00:10:50,210 --> 00:10:50,220
+going up forever
+ 
+
+491
+00:10:50,220 --> 00:10:52,970
+going up forever
+in three dimensions for example the
+
+492
+00:10:52,970 --> 00:10:52,980
+in three dimensions for example the
+ 
+
+493
+00:10:52,980 --> 00:10:56,090
+in three dimensions for example the
+tri-vector is the highest we can go if
+
+494
+00:10:56,090 --> 00:10:56,100
+tri-vector is the highest we can go if
+ 
+
+495
+00:10:56,100 --> 00:10:58,610
+tri-vector is the highest we can go if
+we include an extra wedge product the
+
+496
+00:10:58,610 --> 00:10:58,620
+we include an extra wedge product the
+ 
+
+497
+00:10:58,620 --> 00:11:01,310
+we include an extra wedge product the
+result will always go to zero because
+
+498
+00:11:01,310 --> 00:11:01,320
+result will always go to zero because
+ 
+
+499
+00:11:01,320 --> 00:11:03,530
+result will always go to zero because
+we'll always have a vector wedged with
+
+500
+00:11:03,530 --> 00:11:03,540
+we'll always have a vector wedged with
+ 
+
+501
+00:11:03,540 --> 00:11:05,810
+we'll always have a vector wedged with
+itself somewhere
+
+502
+00:11:05,810 --> 00:11:05,820
+itself somewhere
+ 
+
+503
+00:11:05,820 --> 00:11:08,569
+itself somewhere
+also take note that in three dimensions
+
+504
+00:11:08,569 --> 00:11:08,579
+also take note that in three dimensions
+ 
+
+505
+00:11:08,579 --> 00:11:11,870
+also take note that in three dimensions
+there is only one trivector possibly
+
+506
+00:11:11,870 --> 00:11:11,880
+there is only one trivector possibly
+ 
+
+507
+00:11:11,880 --> 00:11:14,690
+there is only one trivector possibly
+with a scaling constant in front since
+
+508
+00:11:14,690 --> 00:11:14,700
+with a scaling constant in front since
+ 
+
+509
+00:11:14,700 --> 00:11:16,910
+with a scaling constant in front since
+we can always swap the basis vectors
+
+510
+00:11:16,910 --> 00:11:16,920
+we can always swap the basis vectors
+ 
+
+511
+00:11:16,920 --> 00:11:20,630
+we can always swap the basis vectors
+into the XYZ order by introducing minus
+
+512
+00:11:20,630 --> 00:11:20,640
+into the XYZ order by introducing minus
+ 
+
+513
+00:11:20,640 --> 00:11:23,030
+into the XYZ order by introducing minus
+signs as needed
+
+514
+00:11:23,030 --> 00:11:23,040
+signs as needed
+ 
+
+515
+00:11:23,040 --> 00:11:26,210
+signs as needed
+in space with a given Dimension we can
+
+516
+00:11:26,210 --> 00:11:26,220
+in space with a given Dimension we can
+ 
+
+517
+00:11:26,220 --> 00:11:28,430
+in space with a given Dimension we can
+count the number of basis multi-vectors
+
+518
+00:11:28,430 --> 00:11:28,440
+count the number of basis multi-vectors
+ 
+
+519
+00:11:28,440 --> 00:11:31,550
+count the number of basis multi-vectors
+of each type just by counting the number
+
+520
+00:11:31,550 --> 00:11:31,560
+of each type just by counting the number
+ 
+
+521
+00:11:31,560 --> 00:11:35,329
+of each type just by counting the number
+of possible basis Vector combinations
+
+522
+00:11:35,329 --> 00:11:35,339
+of possible basis Vector combinations
+ 
+
+523
+00:11:35,339 --> 00:11:38,210
+of possible basis Vector combinations
+as a result the multi-vectors in a given
+
+524
+00:11:38,210 --> 00:11:38,220
+as a result the multi-vectors in a given
+ 
+
+525
+00:11:38,220 --> 00:11:41,090
+as a result the multi-vectors in a given
+Grassman algebra form a sort of diamond
+
+526
+00:11:41,090 --> 00:11:41,100
+Grassman algebra form a sort of diamond
+ 
+
+527
+00:11:41,100 --> 00:11:44,449
+Grassman algebra form a sort of diamond
+shape with low-grade multi-vectors at
+
+528
+00:11:44,449 --> 00:11:44,459
+shape with low-grade multi-vectors at
+ 
+
+529
+00:11:44,459 --> 00:11:46,850
+shape with low-grade multi-vectors at
+the bottom and high-grade multi-vectors
+
+530
+00:11:46,850 --> 00:11:46,860
+the bottom and high-grade multi-vectors
+ 
+
+531
+00:11:46,860 --> 00:11:49,310
+the bottom and high-grade multi-vectors
+at the top
+
+532
+00:11:49,310 --> 00:11:49,320
+at the top
+ 
+
+533
+00:11:49,320 --> 00:11:52,130
+at the top
+every multi-vector has exactly two
+
+534
+00:11:52,130 --> 00:11:52,140
+every multi-vector has exactly two
+ 
+
+535
+00:11:52,140 --> 00:11:55,490
+every multi-vector has exactly two
+possible orientations given by a plus or
+
+536
+00:11:55,490 --> 00:11:55,500
+possible orientations given by a plus or
+ 
+
+537
+00:11:55,500 --> 00:11:56,930
+possible orientations given by a plus or
+a minus sign
+
+538
+00:11:56,930 --> 00:11:56,940
+a minus sign
+ 
+
+539
+00:11:56,940 --> 00:11:59,509
+a minus sign
+we reverse the orientation of a vector
+
+540
+00:11:59,509 --> 00:11:59,519
+we reverse the orientation of a vector
+ 
+
+541
+00:11:59,519 --> 00:12:02,810
+we reverse the orientation of a vector
+just by flipping the Arrow's Direction
+
+542
+00:12:02,810 --> 00:12:02,820
+just by flipping the Arrow's Direction
+ 
+
+543
+00:12:02,820 --> 00:12:05,810
+just by flipping the Arrow's Direction
+we can build a bi-vector using a set of
+
+544
+00:12:05,810 --> 00:12:05,820
+we can build a bi-vector using a set of
+ 
+
+545
+00:12:05,820 --> 00:12:08,810
+we can build a bi-vector using a set of
+vectors all oriented so that the tip of
+
+546
+00:12:08,810 --> 00:12:08,820
+vectors all oriented so that the tip of
+ 
+
+547
+00:12:08,820 --> 00:12:12,170
+vectors all oriented so that the tip of
+one touches the tail of the next forming
+
+548
+00:12:12,170 --> 00:12:12,180
+one touches the tail of the next forming
+ 
+
+549
+00:12:12,180 --> 00:12:14,630
+one touches the tail of the next forming
+the boundary of a plane segment
+
+550
+00:12:14,630 --> 00:12:14,640
+the boundary of a plane segment
+ 
+
+551
+00:12:14,640 --> 00:12:17,630
+the boundary of a plane segment
+the orientation of this bi Vector just
+
+552
+00:12:17,630 --> 00:12:17,640
+the orientation of this bi Vector just
+ 
+
+553
+00:12:17,640 --> 00:12:19,670
+the orientation of this bi Vector just
+follows the orientation of the vectors
+
+554
+00:12:19,670 --> 00:12:19,680
+follows the orientation of the vectors
+ 
+
+555
+00:12:19,680 --> 00:12:21,470
+follows the orientation of the vectors
+along the boundary
+
+556
+00:12:21,470 --> 00:12:21,480
+along the boundary
+ 
+
+557
+00:12:21,480 --> 00:12:23,870
+along the boundary
+we can reverse the orientation of the
+
+558
+00:12:23,870 --> 00:12:23,880
+we can reverse the orientation of the
+ 
+
+559
+00:12:23,880 --> 00:12:26,329
+we can reverse the orientation of the
+bifector introducing a negative sign
+
+560
+00:12:26,329 --> 00:12:26,339
+bifector introducing a negative sign
+ 
+
+561
+00:12:26,339 --> 00:12:28,850
+bifector introducing a negative sign
+just by reversing the orientation of the
+
+562
+00:12:28,850 --> 00:12:28,860
+just by reversing the orientation of the
+ 
+
+563
+00:12:28,860 --> 00:12:31,370
+just by reversing the orientation of the
+vectors along the boundary
+
+564
+00:12:31,370 --> 00:12:31,380
+vectors along the boundary
+ 
+
+565
+00:12:31,380 --> 00:12:34,069
+vectors along the boundary
+this logic applies for higher Dimensions
+
+566
+00:12:34,069 --> 00:12:34,079
+this logic applies for higher Dimensions
+ 
+
+567
+00:12:34,079 --> 00:12:37,550
+this logic applies for higher Dimensions
+as well we can build a tri-vector using
+
+568
+00:12:37,550 --> 00:12:37,560
+as well we can build a tri-vector using
+ 
+
+569
+00:12:37,560 --> 00:12:40,069
+as well we can build a tri-vector using
+a set of bi-vectors that form the faces
+
+570
+00:12:40,069 --> 00:12:40,079
+a set of bi-vectors that form the faces
+ 
+
+571
+00:12:40,079 --> 00:12:41,389
+a set of bi-vectors that form the faces
+of a cube
+
+572
+00:12:41,389 --> 00:12:41,399
+of a cube
+ 
+
+573
+00:12:41,399 --> 00:12:44,389
+of a cube
+the rule is each bi-vector must be
+
+574
+00:12:44,389 --> 00:12:44,399
+the rule is each bi-vector must be
+ 
+
+575
+00:12:44,399 --> 00:12:46,810
+the rule is each bi-vector must be
+oriented opposite to its neighbors
+
+576
+00:12:46,810 --> 00:12:46,820
+oriented opposite to its neighbors
+ 
+
+577
+00:12:46,820 --> 00:12:50,030
+oriented opposite to its neighbors
+wherever they share an edge
+
+578
+00:12:50,030 --> 00:12:50,040
+wherever they share an edge
+ 
+
+579
+00:12:50,040 --> 00:12:52,490
+wherever they share an edge
+if we want to reverse the orientation of
+
+580
+00:12:52,490 --> 00:12:52,500
+if we want to reverse the orientation of
+ 
+
+581
+00:12:52,500 --> 00:12:54,710
+if we want to reverse the orientation of
+a trivector we just reverse the
+
+582
+00:12:54,710 --> 00:12:54,720
+a trivector we just reverse the
+ 
+
+583
+00:12:54,720 --> 00:12:58,790
+a trivector we just reverse the
+orientations of all its bi-vector faces
+
+584
+00:12:58,790 --> 00:12:58,800
+orientations of all its bi-vector faces
+ 
+
+585
+00:12:58,800 --> 00:13:00,949
+orientations of all its bi-vector faces
+the approach of using the boundary to
+
+586
+00:13:00,949 --> 00:13:00,959
+the approach of using the boundary to
+ 
+
+587
+00:13:00,959 --> 00:13:03,230
+the approach of using the boundary to
+define the orientation of a multi-vector
+
+588
+00:13:03,230 --> 00:13:03,240
+define the orientation of a multi-vector
+ 
+
+589
+00:13:03,240 --> 00:13:05,870
+define the orientation of a multi-vector
+applies for multi-vectors of all
+
+590
+00:13:05,870 --> 00:13:05,880
+applies for multi-vectors of all
+ 
+
+591
+00:13:05,880 --> 00:13:07,850
+applies for multi-vectors of all
+dimensions
+
+592
+00:13:07,850 --> 00:13:07,860
+dimensions
+ 
+
+593
+00:13:07,860 --> 00:13:11,269
+dimensions
+so that's Grassman algebras which are
+
+594
+00:13:11,269 --> 00:13:11,279
+so that's Grassman algebras which are
+ 
+
+595
+00:13:11,279 --> 00:13:13,670
+so that's Grassman algebras which are
+algebraic structures over Vector spaces
+
+596
+00:13:13,670 --> 00:13:13,680
+algebraic structures over Vector spaces
+ 
+
+597
+00:13:13,680 --> 00:13:16,069
+algebraic structures over Vector spaces
+that use the wedge product to build
+
+598
+00:13:16,069 --> 00:13:16,079
+that use the wedge product to build
+ 
+
+599
+00:13:16,079 --> 00:13:18,050
+that use the wedge product to build
+multi-vectors
+
+600
+00:13:18,050 --> 00:13:18,060
+multi-vectors
+ 
+
+601
+00:13:18,060 --> 00:13:21,410
+multi-vectors
+now what's a Clifford algebra Loosely
+
+602
+00:13:21,410 --> 00:13:21,420
+now what's a Clifford algebra Loosely
+ 
+
+603
+00:13:21,420 --> 00:13:23,870
+now what's a Clifford algebra Loosely
+speaking it's an algebra where symbols
+
+604
+00:13:23,870 --> 00:13:23,880
+speaking it's an algebra where symbols
+ 
+
+605
+00:13:23,880 --> 00:13:27,050
+speaking it's an algebra where symbols
+Square to either plus 1 or -1 and
+
+606
+00:13:27,050 --> 00:13:27,060
+Square to either plus 1 or -1 and
+ 
+
+607
+00:13:27,060 --> 00:13:29,269
+Square to either plus 1 or -1 and
+flipping the order of symbols introduces
+
+608
+00:13:29,269 --> 00:13:29,279
+flipping the order of symbols introduces
+ 
+
+609
+00:13:29,279 --> 00:13:32,090
+flipping the order of symbols introduces
+a negative sign similar to what we saw
+
+610
+00:13:32,090 --> 00:13:32,100
+a negative sign similar to what we saw
+ 
+
+611
+00:13:32,100 --> 00:13:34,370
+a negative sign similar to what we saw
+with Grassman algebras
+
+612
+00:13:34,370 --> 00:13:34,380
+with Grassman algebras
+ 
+
+613
+00:13:34,380 --> 00:13:37,310
+with Grassman algebras
+this multiplication rule is called the
+
+614
+00:13:37,310 --> 00:13:37,320
+this multiplication rule is called the
+ 
+
+615
+00:13:37,320 --> 00:13:40,210
+this multiplication rule is called the
+Clifford product or geometric product
+
+616
+00:13:40,210 --> 00:13:40,220
+Clifford product or geometric product
+ 
+
+617
+00:13:40,220 --> 00:13:43,310
+Clifford product or geometric product
+which is denoted by writing symbols next
+
+618
+00:13:43,310 --> 00:13:43,320
+which is denoted by writing symbols next
+ 
+
+619
+00:13:43,320 --> 00:13:45,769
+which is denoted by writing symbols next
+to each other like this
+
+620
+00:13:45,769 --> 00:13:45,779
+to each other like this
+ 
+
+621
+00:13:45,779 --> 00:13:48,290
+to each other like this
+we'll soon see that this leads us to the
+
+622
+00:13:48,290 --> 00:13:48,300
+we'll soon see that this leads us to the
+ 
+
+623
+00:13:48,300 --> 00:13:51,050
+we'll soon see that this leads us to the
+complex numbers the quaternions the
+
+624
+00:13:51,050 --> 00:13:51,060
+complex numbers the quaternions the
+ 
+
+625
+00:13:51,060 --> 00:13:55,190
+complex numbers the quaternions the
+sigma matrices and their generalizations
+
+626
+00:13:55,190 --> 00:13:55,200
+sigma matrices and their generalizations
+ 
+
+627
+00:13:55,200 --> 00:13:57,170
+sigma matrices and their generalizations
+instead of starting with a formal
+
+628
+00:13:57,170 --> 00:13:57,180
+instead of starting with a formal
+ 
+
+629
+00:13:57,180 --> 00:13:59,449
+instead of starting with a formal
+definition of Clifford algebras I'm
+
+630
+00:13:59,449 --> 00:13:59,459
+definition of Clifford algebras I'm
+ 
+
+631
+00:13:59,459 --> 00:14:01,610
+definition of Clifford algebras I'm
+going to go through a few examples and
+
+632
+00:14:01,610 --> 00:14:01,620
+going to go through a few examples and
+ 
+
+633
+00:14:01,620 --> 00:14:04,069
+going to go through a few examples and
+then I'll give a definition at the end
+
+634
+00:14:04,069 --> 00:14:04,079
+then I'll give a definition at the end
+ 
+
+635
+00:14:04,079 --> 00:14:06,230
+then I'll give a definition at the end
+so let's look at some examples of
+
+636
+00:14:06,230 --> 00:14:06,240
+so let's look at some examples of
+ 
+
+637
+00:14:06,240 --> 00:14:08,690
+so let's look at some examples of
+Clifford algebras which are algebras
+
+638
+00:14:08,690 --> 00:14:08,700
+Clifford algebras which are algebras
+ 
+
+639
+00:14:08,700 --> 00:14:11,509
+Clifford algebras which are algebras
+with symbols that square two plus one or
+
+640
+00:14:11,509 --> 00:14:11,519
+with symbols that square two plus one or
+ 
+
+641
+00:14:11,519 --> 00:14:12,889
+with symbols that square two plus one or
+-1
+
+642
+00:14:12,889 --> 00:14:12,899
+-1
+ 
+
+643
+00:14:12,899 --> 00:14:15,470
+-1
+let's say we have a symbol I that
+
+644
+00:14:15,470 --> 00:14:15,480
+let's say we have a symbol I that
+ 
+
+645
+00:14:15,480 --> 00:14:17,569
+let's say we have a symbol I that
+squares 2 minus one
+
+646
+00:14:17,569 --> 00:14:17,579
+squares 2 minus one
+ 
+
+647
+00:14:17,579 --> 00:14:20,389
+squares 2 minus one
+one way to approach this is to interpret
+
+648
+00:14:20,389 --> 00:14:20,399
+one way to approach this is to interpret
+ 
+
+649
+00:14:20,399 --> 00:14:23,269
+one way to approach this is to interpret
+this as a matrix problem saying that the
+
+650
+00:14:23,269 --> 00:14:23,279
+this as a matrix problem saying that the
+ 
+
+651
+00:14:23,279 --> 00:14:25,370
+this as a matrix problem saying that the
+number one is actually the identity
+
+652
+00:14:25,370 --> 00:14:25,380
+number one is actually the identity
+ 
+
+653
+00:14:25,380 --> 00:14:28,730
+number one is actually the identity
+Matrix and the symbol I is actually a
+
+654
+00:14:28,730 --> 00:14:28,740
+Matrix and the symbol I is actually a
+ 
+
+655
+00:14:28,740 --> 00:14:30,889
+Matrix and the symbol I is actually a
+matrix like this that squares to the
+
+656
+00:14:30,889 --> 00:14:30,899
+matrix like this that squares to the
+ 
+
+657
+00:14:30,899 --> 00:14:32,629
+matrix like this that squares to the
+negative identity
+
+658
+00:14:32,629 --> 00:14:32,639
+negative identity
+ 
+
+659
+00:14:32,639 --> 00:14:36,050
+negative identity
+the expression a plus IB would then give
+
+660
+00:14:36,050 --> 00:14:36,060
+the expression a plus IB would then give
+ 
+
+661
+00:14:36,060 --> 00:14:38,509
+the expression a plus IB would then give
+you a matrix like this
+
+662
+00:14:38,509 --> 00:14:38,519
+you a matrix like this
+ 
+
+663
+00:14:38,519 --> 00:14:40,910
+you a matrix like this
+another way to approach this is to
+
+664
+00:14:40,910 --> 00:14:40,920
+another way to approach this is to
+ 
+
+665
+00:14:40,920 --> 00:14:44,329
+another way to approach this is to
+Simply treat I as its own symbol with i
+
+666
+00:14:44,329 --> 00:14:44,339
+Simply treat I as its own symbol with i
+ 
+
+667
+00:14:44,339 --> 00:14:46,850
+Simply treat I as its own symbol with i
+squared equals negative one as the
+
+668
+00:14:46,850 --> 00:14:46,860
+squared equals negative one as the
+ 
+
+669
+00:14:46,860 --> 00:14:48,050
+squared equals negative one as the
+definition
+
+670
+00:14:48,050 --> 00:14:48,060
+definition
+ 
+
+671
+00:14:48,060 --> 00:14:50,090
+definition
+this is the more traditional approach
+
+672
+00:14:50,090 --> 00:14:50,100
+this is the more traditional approach
+ 
+
+673
+00:14:50,100 --> 00:14:52,490
+this is the more traditional approach
+and it's how we normally Define complex
+
+674
+00:14:52,490 --> 00:14:52,500
+and it's how we normally Define complex
+ 
+
+675
+00:14:52,500 --> 00:14:53,870
+and it's how we normally Define complex
+numbers
+
+676
+00:14:53,870 --> 00:14:53,880
+numbers
+ 
+
+677
+00:14:53,880 --> 00:14:55,910
+numbers
+what we have here is the Clifford
+
+678
+00:14:55,910 --> 00:14:55,920
+what we have here is the Clifford
+ 
+
+679
+00:14:55,920 --> 00:14:57,069
+what we have here is the Clifford
+algebra
+
+680
+00:14:57,069 --> 00:14:57,079
+algebra
+ 
+
+681
+00:14:57,079 --> 00:15:00,710
+algebra
+cl01 because we have zero symbols that
+
+682
+00:15:00,710 --> 00:15:00,720
+cl01 because we have zero symbols that
+ 
+
+683
+00:15:00,720 --> 00:15:03,350
+cl01 because we have zero symbols that
+square two positive one and a single
+
+684
+00:15:03,350 --> 00:15:03,360
+square two positive one and a single
+ 
+
+685
+00:15:03,360 --> 00:15:06,290
+square two positive one and a single
+symbol that squares two negative one so
+
+686
+00:15:06,290 --> 00:15:06,300
+symbol that squares two negative one so
+ 
+
+687
+00:15:06,300 --> 00:15:10,670
+symbol that squares two negative one so
+the complex numbers also called cl01 are
+
+688
+00:15:10,670 --> 00:15:10,680
+the complex numbers also called cl01 are
+ 
+
+689
+00:15:10,680 --> 00:15:14,150
+the complex numbers also called cl01 are
+a first example of a Clifford algebra
+
+690
+00:15:14,150 --> 00:15:14,160
+a first example of a Clifford algebra
+ 
+
+691
+00:15:14,160 --> 00:15:16,970
+a first example of a Clifford algebra
+so we have two options for looking at
+
+692
+00:15:16,970 --> 00:15:16,980
+so we have two options for looking at
+ 
+
+693
+00:15:16,980 --> 00:15:19,550
+so we have two options for looking at
+Clifford algebras we can either look at
+
+694
+00:15:19,550 --> 00:15:19,560
+Clifford algebras we can either look at
+ 
+
+695
+00:15:19,560 --> 00:15:22,310
+Clifford algebras we can either look at
+them using matrices or we can look at
+
+696
+00:15:22,310 --> 00:15:22,320
+them using matrices or we can look at
+ 
+
+697
+00:15:22,320 --> 00:15:25,550
+them using matrices or we can look at
+them using abstract symbols now we
+
+698
+00:15:25,550 --> 00:15:25,560
+them using abstract symbols now we
+ 
+
+699
+00:15:25,560 --> 00:15:27,470
+them using abstract symbols now we
+normally take the second approach of
+
+700
+00:15:27,470 --> 00:15:27,480
+normally take the second approach of
+ 
+
+701
+00:15:27,480 --> 00:15:30,470
+normally take the second approach of
+abstract symbols as the more Pure or
+
+702
+00:15:30,470 --> 00:15:30,480
+abstract symbols as the more Pure or
+ 
+
+703
+00:15:30,480 --> 00:15:32,509
+abstract symbols as the more Pure or
+correct definition of the complex
+
+704
+00:15:32,509 --> 00:15:32,519
+correct definition of the complex
+ 
+
+705
+00:15:32,519 --> 00:15:35,389
+correct definition of the complex
+numbers and we prefer it over the Matrix
+
+706
+00:15:35,389 --> 00:15:35,399
+numbers and we prefer it over the Matrix
+ 
+
+707
+00:15:35,399 --> 00:15:36,650
+numbers and we prefer it over the Matrix
+approach
+
+708
+00:15:36,650 --> 00:15:36,660
+approach
+ 
+
+709
+00:15:36,660 --> 00:15:38,629
+approach
+the reason is there are an infinite
+
+710
+00:15:38,629 --> 00:15:38,639
+the reason is there are an infinite
+ 
+
+711
+00:15:38,639 --> 00:15:40,790
+the reason is there are an infinite
+number of matrices of all different
+
+712
+00:15:40,790 --> 00:15:40,800
+number of matrices of all different
+ 
+
+713
+00:15:40,800 --> 00:15:43,069
+number of matrices of all different
+sizes that square to the negative
+
+714
+00:15:43,069 --> 00:15:43,079
+sizes that square to the negative
+ 
+
+715
+00:15:43,079 --> 00:15:46,009
+sizes that square to the negative
+identity Matrix we say that these are
+
+716
+00:15:46,009 --> 00:15:46,019
+identity Matrix we say that these are
+ 
+
+717
+00:15:46,019 --> 00:15:48,530
+identity Matrix we say that these are
+all Matrix representations of the
+
+718
+00:15:48,530 --> 00:15:48,540
+all Matrix representations of the
+ 
+
+719
+00:15:48,540 --> 00:15:50,389
+all Matrix representations of the
+abstract symbol I
+
+720
+00:15:50,389 --> 00:15:50,399
+abstract symbol I
+ 
+
+721
+00:15:50,399 --> 00:15:52,850
+abstract symbol I
+but we don't actually need any of these
+
+722
+00:15:52,850 --> 00:15:52,860
+but we don't actually need any of these
+ 
+
+723
+00:15:52,860 --> 00:15:55,310
+but we don't actually need any of these
+Matrix representations to do math with
+
+724
+00:15:55,310 --> 00:15:55,320
+Matrix representations to do math with
+ 
+
+725
+00:15:55,320 --> 00:15:58,250
+Matrix representations to do math with
+complex numbers it's often simpler to
+
+726
+00:15:58,250 --> 00:15:58,260
+complex numbers it's often simpler to
+ 
+
+727
+00:15:58,260 --> 00:16:00,889
+complex numbers it's often simpler to
+just take the symbol I as its own object
+
+728
+00:16:00,889 --> 00:16:00,899
+just take the symbol I as its own object
+ 
+
+729
+00:16:00,899 --> 00:16:03,470
+just take the symbol I as its own object
+and forget about matrices
+
+730
+00:16:03,470 --> 00:16:03,480
+and forget about matrices
+ 
+
+731
+00:16:03,480 --> 00:16:06,290
+and forget about matrices
+as an exercise you can try multiplying
+
+732
+00:16:06,290 --> 00:16:06,300
+as an exercise you can try multiplying
+ 
+
+733
+00:16:06,300 --> 00:16:10,189
+as an exercise you can try multiplying
+the expression a plus IB times C plus ID
+
+734
+00:16:10,189 --> 00:16:10,199
+the expression a plus IB times C plus ID
+ 
+
+735
+00:16:10,199 --> 00:16:13,610
+the expression a plus IB times C plus ID
+in both Matrix form and symbolic form
+
+736
+00:16:13,610 --> 00:16:13,620
+in both Matrix form and symbolic form
+ 
+
+737
+00:16:13,620 --> 00:16:16,009
+in both Matrix form and symbolic form
+and show that they give equivalent
+
+738
+00:16:16,009 --> 00:16:16,019
+and show that they give equivalent
+ 
+
+739
+00:16:16,019 --> 00:16:17,990
+and show that they give equivalent
+results
+
+740
+00:16:17,990 --> 00:16:18,000
+results
+ 
+
+741
+00:16:18,000 --> 00:16:20,090
+results
+here's another example of a Clifford
+
+742
+00:16:20,090 --> 00:16:20,100
+here's another example of a Clifford
+ 
+
+743
+00:16:20,100 --> 00:16:22,610
+here's another example of a Clifford
+algebra let's say that we have a symbol
+
+744
+00:16:22,610 --> 00:16:22,620
+algebra let's say that we have a symbol
+ 
+
+745
+00:16:22,620 --> 00:16:26,569
+algebra let's say that we have a symbol
+J which squares two plus one again we
+
+746
+00:16:26,569 --> 00:16:26,579
+J which squares two plus one again we
+ 
+
+747
+00:16:26,579 --> 00:16:28,569
+J which squares two plus one again we
+can interpret this as a matrix problem
+
+748
+00:16:28,569 --> 00:16:28,579
+can interpret this as a matrix problem
+ 
+
+749
+00:16:28,579 --> 00:16:31,910
+can interpret this as a matrix problem
+saying one is the identity Matrix and J
+
+750
+00:16:31,910 --> 00:16:31,920
+saying one is the identity Matrix and J
+ 
+
+751
+00:16:31,920 --> 00:16:34,370
+saying one is the identity Matrix and J
+is a matrix like this that squares to
+
+752
+00:16:34,370 --> 00:16:34,380
+is a matrix like this that squares to
+ 
+
+753
+00:16:34,380 --> 00:16:35,629
+is a matrix like this that squares to
+the identity
+
+754
+00:16:35,629 --> 00:16:35,639
+the identity
+ 
+
+755
+00:16:35,639 --> 00:16:38,930
+the identity
+so the expression a plus J B would
+
+756
+00:16:38,930 --> 00:16:38,940
+so the expression a plus J B would
+ 
+
+757
+00:16:38,940 --> 00:16:41,810
+so the expression a plus J B would
+correspond to this Matrix here
+
+758
+00:16:41,810 --> 00:16:41,820
+correspond to this Matrix here
+ 
+
+759
+00:16:41,820 --> 00:16:44,030
+correspond to this Matrix here
+but once again there are an infinite
+
+760
+00:16:44,030 --> 00:16:44,040
+but once again there are an infinite
+ 
+
+761
+00:16:44,040 --> 00:16:46,490
+but once again there are an infinite
+number of matrices of all sizes that
+
+762
+00:16:46,490 --> 00:16:46,500
+number of matrices of all sizes that
+ 
+
+763
+00:16:46,500 --> 00:16:49,069
+number of matrices of all sizes that
+square to the identity a simpler
+
+764
+00:16:49,069 --> 00:16:49,079
+square to the identity a simpler
+ 
+
+765
+00:16:49,079 --> 00:16:51,769
+square to the identity a simpler
+approach is to just treat J as its own
+
+766
+00:16:51,769 --> 00:16:51,779
+approach is to just treat J as its own
+ 
+
+767
+00:16:51,779 --> 00:16:54,889
+approach is to just treat J as its own
+symbol with J squared equals plus one as
+
+768
+00:16:54,889 --> 00:16:54,899
+symbol with J squared equals plus one as
+ 
+
+769
+00:16:54,899 --> 00:16:56,749
+symbol with J squared equals plus one as
+the definition
+
+770
+00:16:56,749 --> 00:16:56,759
+the definition
+ 
+
+771
+00:16:56,759 --> 00:16:59,769
+the definition
+this is the Clifford algebra cl10
+
+772
+00:16:59,769 --> 00:16:59,779
+this is the Clifford algebra cl10
+ 
+
+773
+00:16:59,779 --> 00:17:02,329
+this is the Clifford algebra cl10
+because it has a single symbol that
+
+774
+00:17:02,329 --> 00:17:02,339
+because it has a single symbol that
+ 
+
+775
+00:17:02,339 --> 00:17:05,090
+because it has a single symbol that
+squares two plus one and zero symbols
+
+776
+00:17:05,090 --> 00:17:05,100
+squares two plus one and zero symbols
+ 
+
+777
+00:17:05,100 --> 00:17:07,909
+squares two plus one and zero symbols
+that square two minus one this is also
+
+778
+00:17:07,909 --> 00:17:07,919
+that square two minus one this is also
+ 
+
+779
+00:17:07,919 --> 00:17:11,569
+that square two minus one this is also
+called the split complex numbers
+
+780
+00:17:11,569 --> 00:17:11,579
+called the split complex numbers
+ 
+
+781
+00:17:11,579 --> 00:17:14,210
+called the split complex numbers
+here's another example we have three
+
+782
+00:17:14,210 --> 00:17:14,220
+here's another example we have three
+ 
+
+783
+00:17:14,220 --> 00:17:18,110
+here's another example we have three
+symbols Sigma X Sigma Y and sigma Z that
+
+784
+00:17:18,110 --> 00:17:18,120
+symbols Sigma X Sigma Y and sigma Z that
+ 
+
+785
+00:17:18,120 --> 00:17:20,630
+symbols Sigma X Sigma Y and sigma Z that
+all square 2 positive one
+
+786
+00:17:20,630 --> 00:17:20,640
+all square 2 positive one
+ 
+
+787
+00:17:20,640 --> 00:17:23,030
+all square 2 positive one
+but since we now have more than one
+
+788
+00:17:23,030 --> 00:17:23,040
+but since we now have more than one
+ 
+
+789
+00:17:23,040 --> 00:17:25,909
+but since we now have more than one
+symbol we now also need to decide how
+
+790
+00:17:25,909 --> 00:17:25,919
+symbol we now also need to decide how
+ 
+
+791
+00:17:25,919 --> 00:17:28,069
+symbol we now also need to decide how
+these symbols will multiply with each
+
+792
+00:17:28,069 --> 00:17:28,079
+these symbols will multiply with each
+ 
+
+793
+00:17:28,079 --> 00:17:30,710
+these symbols will multiply with each
+other let's take some inspiration from
+
+794
+00:17:30,710 --> 00:17:30,720
+other let's take some inspiration from
+ 
+
+795
+00:17:30,720 --> 00:17:33,650
+other let's take some inspiration from
+Grassman algebras let's say that when we
+
+796
+00:17:33,650 --> 00:17:33,660
+Grassman algebras let's say that when we
+ 
+
+797
+00:17:33,660 --> 00:17:35,630
+Grassman algebras let's say that when we
+multiply two of these Clifford algebra
+
+798
+00:17:35,630 --> 00:17:35,640
+multiply two of these Clifford algebra
+ 
+
+799
+00:17:35,640 --> 00:17:38,150
+multiply two of these Clifford algebra
+symbols together we can flip their order
+
+800
+00:17:38,150 --> 00:17:38,160
+symbols together we can flip their order
+ 
+
+801
+00:17:38,160 --> 00:17:41,090
+symbols together we can flip their order
+if we include a minus sign
+
+802
+00:17:41,090 --> 00:17:41,100
+if we include a minus sign
+ 
+
+803
+00:17:41,100 --> 00:17:43,549
+if we include a minus sign
+if we approach this as a matrix problem
+
+804
+00:17:43,549 --> 00:17:43,559
+if we approach this as a matrix problem
+ 
+
+805
+00:17:43,559 --> 00:17:46,970
+if we approach this as a matrix problem
+we get the sigma matrices or Pali
+
+806
+00:17:46,970 --> 00:17:46,980
+we get the sigma matrices or Pali
+ 
+
+807
+00:17:46,980 --> 00:17:49,250
+we get the sigma matrices or Pali
+matrices that we spent a lot of time
+
+808
+00:17:49,250 --> 00:17:49,260
+matrices that we spent a lot of time
+ 
+
+809
+00:17:49,260 --> 00:17:52,730
+matrices that we spent a lot of time
+talking about in videos six to ten but
+
+810
+00:17:52,730 --> 00:17:52,740
+talking about in videos six to ten but
+ 
+
+811
+00:17:52,740 --> 00:17:54,950
+talking about in videos six to ten but
+the Clifford algebra style approach is
+
+812
+00:17:54,950 --> 00:17:54,960
+the Clifford algebra style approach is
+ 
+
+813
+00:17:54,960 --> 00:17:57,470
+the Clifford algebra style approach is
+to forget about the matrices and just
+
+814
+00:17:57,470 --> 00:17:57,480
+to forget about the matrices and just
+ 
+
+815
+00:17:57,480 --> 00:17:59,870
+to forget about the matrices and just
+treat these three sigmas as their own
+
+816
+00:17:59,870 --> 00:17:59,880
+treat these three sigmas as their own
+ 
+
+817
+00:17:59,880 --> 00:18:02,870
+treat these three sigmas as their own
+symbols that square two positive one and
+
+818
+00:18:02,870 --> 00:18:02,880
+symbols that square two positive one and
+ 
+
+819
+00:18:02,880 --> 00:18:05,270
+symbols that square two positive one and
+anti-commute with each other
+
+820
+00:18:05,270 --> 00:18:05,280
+anti-commute with each other
+ 
+
+821
+00:18:05,280 --> 00:18:07,669
+anti-commute with each other
+actually if you were to go back and
+
+822
+00:18:07,669 --> 00:18:07,679
+actually if you were to go back and
+ 
+
+823
+00:18:07,679 --> 00:18:09,950
+actually if you were to go back and
+watch video number six which covers
+
+824
+00:18:09,950 --> 00:18:09,960
+watch video number six which covers
+ 
+
+825
+00:18:09,960 --> 00:18:12,830
+watch video number six which covers
+Sigma matrices in detail you'll notice
+
+826
+00:18:12,830 --> 00:18:12,840
+Sigma matrices in detail you'll notice
+ 
+
+827
+00:18:12,840 --> 00:18:14,930
+Sigma matrices in detail you'll notice
+that almost everything in the video can
+
+828
+00:18:14,930 --> 00:18:14,940
+that almost everything in the video can
+ 
+
+829
+00:18:14,940 --> 00:18:17,330
+that almost everything in the video can
+be figured out without writing down any
+
+830
+00:18:17,330 --> 00:18:17,340
+be figured out without writing down any
+ 
+
+831
+00:18:17,340 --> 00:18:20,510
+be figured out without writing down any
+matrices and just using these squaring
+
+832
+00:18:20,510 --> 00:18:20,520
+matrices and just using these squaring
+ 
+
+833
+00:18:20,520 --> 00:18:22,730
+matrices and just using these squaring
+and anti-commutative properties of the
+
+834
+00:18:22,730 --> 00:18:22,740
+and anti-commutative properties of the
+ 
+
+835
+00:18:22,740 --> 00:18:24,350
+and anti-commutative properties of the
+sigmas
+
+836
+00:18:24,350 --> 00:18:24,360
+sigmas
+ 
+
+837
+00:18:24,360 --> 00:18:27,169
+sigmas
+again the sigma's only approach is seen
+
+838
+00:18:27,169 --> 00:18:27,179
+again the sigma's only approach is seen
+ 
+
+839
+00:18:27,179 --> 00:18:29,270
+again the sigma's only approach is seen
+as simpler because we can get all the
+
+840
+00:18:29,270 --> 00:18:29,280
+as simpler because we can get all the
+ 
+
+841
+00:18:29,280 --> 00:18:31,070
+as simpler because we can get all the
+same results without worrying about
+
+842
+00:18:31,070 --> 00:18:31,080
+same results without worrying about
+ 
+
+843
+00:18:31,080 --> 00:18:32,570
+same results without worrying about
+matrices
+
+844
+00:18:32,570 --> 00:18:32,580
+matrices
+ 
+
+845
+00:18:32,580 --> 00:18:35,950
+matrices
+this gives us the Clifford algebra cl30
+
+846
+00:18:35,950 --> 00:18:35,960
+this gives us the Clifford algebra cl30
+ 
+
+847
+00:18:35,960 --> 00:18:38,330
+this gives us the Clifford algebra cl30
+because we have three symbols that
+
+848
+00:18:38,330 --> 00:18:38,340
+because we have three symbols that
+ 
+
+849
+00:18:38,340 --> 00:18:41,029
+because we have three symbols that
+square two plus one and zero symbols
+
+850
+00:18:41,029 --> 00:18:41,039
+square two plus one and zero symbols
+ 
+
+851
+00:18:41,039 --> 00:18:43,789
+square two plus one and zero symbols
+that square two minus one and the three
+
+852
+00:18:43,789 --> 00:18:43,799
+that square two minus one and the three
+ 
+
+853
+00:18:43,799 --> 00:18:46,190
+that square two minus one and the three
+symbols also anti-commute with each
+
+854
+00:18:46,190 --> 00:18:46,200
+symbols also anti-commute with each
+ 
+
+855
+00:18:46,200 --> 00:18:47,330
+symbols also anti-commute with each
+other
+
+856
+00:18:47,330 --> 00:18:47,340
+other
+ 
+
+857
+00:18:47,340 --> 00:18:49,669
+other
+this is also called the algebra of
+
+858
+00:18:49,669 --> 00:18:49,679
+this is also called the algebra of
+ 
+
+859
+00:18:49,679 --> 00:18:51,950
+this is also called the algebra of
+physical space
+
+860
+00:18:51,950 --> 00:18:51,960
+physical space
+ 
+
+861
+00:18:51,960 --> 00:18:54,770
+physical space
+pairs of different sigmas give us the bi
+
+862
+00:18:54,770 --> 00:18:54,780
+pairs of different sigmas give us the bi
+ 
+
+863
+00:18:54,780 --> 00:18:58,730
+pairs of different sigmas give us the bi
+vectors in cl30 and it turns out these
+
+864
+00:18:58,730 --> 00:18:58,740
+vectors in cl30 and it turns out these
+ 
+
+865
+00:18:58,740 --> 00:19:00,350
+vectors in cl30 and it turns out these
+are completely equivalent to the
+
+866
+00:19:00,350 --> 00:19:00,360
+are completely equivalent to the
+ 
+
+867
+00:19:00,360 --> 00:19:03,770
+are completely equivalent to the
+quaternion imaginary units i j k
+
+868
+00:19:03,770 --> 00:19:03,780
+quaternion imaginary units i j k
+ 
+
+869
+00:19:03,780 --> 00:19:06,950
+quaternion imaginary units i j k
+the reasons IJ and K anti-commute with
+
+870
+00:19:06,950 --> 00:19:06,960
+the reasons IJ and K anti-commute with
+ 
+
+871
+00:19:06,960 --> 00:19:09,110
+the reasons IJ and K anti-commute with
+each other is rooted in the fact that
+
+872
+00:19:09,110 --> 00:19:09,120
+each other is rooted in the fact that
+ 
+
+873
+00:19:09,120 --> 00:19:11,330
+each other is rooted in the fact that
+the sigma pair bi-vector is also
+
+874
+00:19:11,330 --> 00:19:11,340
+the sigma pair bi-vector is also
+ 
+
+875
+00:19:11,340 --> 00:19:13,310
+the sigma pair bi-vector is also
+anti-commute with each other
+
+876
+00:19:13,310 --> 00:19:13,320
+anti-commute with each other
+ 
+
+877
+00:19:13,320 --> 00:19:15,770
+anti-commute with each other
+we say that the quaternions are the even
+
+878
+00:19:15,770 --> 00:19:15,780
+we say that the quaternions are the even
+ 
+
+879
+00:19:15,780 --> 00:19:20,090
+we say that the quaternions are the even
+grade sub-algebra of cl30 because they
+
+880
+00:19:20,090 --> 00:19:20,100
+grade sub-algebra of cl30 because they
+ 
+
+881
+00:19:20,100 --> 00:19:22,789
+grade sub-algebra of cl30 because they
+only involve the grade zero scalar and
+
+882
+00:19:22,789 --> 00:19:22,799
+only involve the grade zero scalar and
+ 
+
+883
+00:19:22,799 --> 00:19:25,970
+only involve the grade zero scalar and
+the grade 2 bi-vectors
+
+884
+00:19:25,970 --> 00:19:25,980
+the grade 2 bi-vectors
+ 
+
+885
+00:19:25,980 --> 00:19:28,730
+the grade 2 bi-vectors
+here is one final example with four
+
+886
+00:19:28,730 --> 00:19:28,740
+here is one final example with four
+ 
+
+887
+00:19:28,740 --> 00:19:32,270
+here is one final example with four
+symbols gamma zero Gamma 1 gamma 2 and
+
+888
+00:19:32,270 --> 00:19:32,280
+symbols gamma zero Gamma 1 gamma 2 and
+ 
+
+889
+00:19:32,280 --> 00:19:35,990
+symbols gamma zero Gamma 1 gamma 2 and
+gamma 3. gamma zero squares 2 positive
+
+890
+00:19:35,990 --> 00:19:36,000
+gamma 3. gamma zero squares 2 positive
+ 
+
+891
+00:19:36,000 --> 00:19:38,450
+gamma 3. gamma zero squares 2 positive
+one and the other three Gammas Square
+
+892
+00:19:38,450 --> 00:19:38,460
+one and the other three Gammas Square
+ 
+
+893
+00:19:38,460 --> 00:19:41,210
+one and the other three Gammas Square
+two negative one and all the Gammas
+
+894
+00:19:41,210 --> 00:19:41,220
+two negative one and all the Gammas
+ 
+
+895
+00:19:41,220 --> 00:19:43,730
+two negative one and all the Gammas
+anti-commute with each other
+
+896
+00:19:43,730 --> 00:19:43,740
+anti-commute with each other
+ 
+
+897
+00:19:43,740 --> 00:19:46,370
+anti-commute with each other
+treating this as a matrix problem we can
+
+898
+00:19:46,370 --> 00:19:46,380
+treating this as a matrix problem we can
+ 
+
+899
+00:19:46,380 --> 00:19:49,190
+treating this as a matrix problem we can
+get these matrices which are called the
+
+900
+00:19:49,190 --> 00:19:49,200
+get these matrices which are called the
+ 
+
+901
+00:19:49,200 --> 00:19:52,669
+get these matrices which are called the
+Dirac matrices or gamma matrices
+
+902
+00:19:52,669 --> 00:19:52,679
+Dirac matrices or gamma matrices
+ 
+
+903
+00:19:52,679 --> 00:19:55,070
+Dirac matrices or gamma matrices
+these will pop up if you've ever studied
+
+904
+00:19:55,070 --> 00:19:55,080
+these will pop up if you've ever studied
+ 
+
+905
+00:19:55,080 --> 00:19:57,529
+these will pop up if you've ever studied
+the Dirac equation for particle physics
+
+906
+00:19:57,529 --> 00:19:57,539
+the Dirac equation for particle physics
+ 
+
+907
+00:19:57,539 --> 00:19:59,990
+the Dirac equation for particle physics
+or Quantum field Theory
+
+908
+00:19:59,990 --> 00:20:00,000
+or Quantum field Theory
+ 
+
+909
+00:20:00,000 --> 00:20:02,450
+or Quantum field Theory
+and again there are multiple Solutions
+
+910
+00:20:02,450 --> 00:20:02,460
+and again there are multiple Solutions
+ 
+
+911
+00:20:02,460 --> 00:20:05,330
+and again there are multiple Solutions
+this set of matrices is called the
+
+912
+00:20:05,330 --> 00:20:05,340
+this set of matrices is called the
+ 
+
+913
+00:20:05,340 --> 00:20:08,990
+this set of matrices is called the
+chiral basis or vial basis there's also
+
+914
+00:20:08,990 --> 00:20:09,000
+chiral basis or vial basis there's also
+ 
+
+915
+00:20:09,000 --> 00:20:11,270
+chiral basis or vial basis there's also
+this alternative solution called the
+
+916
+00:20:11,270 --> 00:20:11,280
+this alternative solution called the
+ 
+
+917
+00:20:11,280 --> 00:20:14,150
+this alternative solution called the
+mass basis or Dirac basis
+
+918
+00:20:14,150 --> 00:20:14,160
+mass basis or Dirac basis
+ 
+
+919
+00:20:14,160 --> 00:20:16,789
+mass basis or Dirac basis
+but as usual I'm going to say it's
+
+920
+00:20:16,789 --> 00:20:16,799
+but as usual I'm going to say it's
+ 
+
+921
+00:20:16,799 --> 00:20:19,070
+but as usual I'm going to say it's
+better to just treat the Gammas as their
+
+922
+00:20:19,070 --> 00:20:19,080
+better to just treat the Gammas as their
+ 
+
+923
+00:20:19,080 --> 00:20:22,010
+better to just treat the Gammas as their
+own symbols that obey these squaring and
+
+924
+00:20:22,010 --> 00:20:22,020
+own symbols that obey these squaring and
+ 
+
+925
+00:20:22,020 --> 00:20:24,590
+own symbols that obey these squaring and
+anti-commutative properties and take
+
+926
+00:20:24,590 --> 00:20:24,600
+anti-commutative properties and take
+ 
+
+927
+00:20:24,600 --> 00:20:27,230
+anti-commutative properties and take
+those as the definition this gives us
+
+928
+00:20:27,230 --> 00:20:27,240
+those as the definition this gives us
+ 
+
+929
+00:20:27,240 --> 00:20:30,650
+those as the definition this gives us
+the Clifford algebra cl13 because we
+
+930
+00:20:30,650 --> 00:20:30,660
+the Clifford algebra cl13 because we
+ 
+
+931
+00:20:30,660 --> 00:20:32,510
+the Clifford algebra cl13 because we
+have one symbol that squares two plus
+
+932
+00:20:32,510 --> 00:20:32,520
+have one symbol that squares two plus
+ 
+
+933
+00:20:32,520 --> 00:20:35,270
+have one symbol that squares two plus
+one and three symbols that square two
+
+934
+00:20:35,270 --> 00:20:35,280
+one and three symbols that square two
+ 
+
+935
+00:20:35,280 --> 00:20:38,150
+one and three symbols that square two
+minus one this is also called the
+
+936
+00:20:38,150 --> 00:20:38,160
+minus one this is also called the
+ 
+
+937
+00:20:38,160 --> 00:20:40,070
+minus one this is also called the
+space-time algebra
+
+938
+00:20:40,070 --> 00:20:40,080
+space-time algebra
+ 
+
+939
+00:20:40,080 --> 00:20:43,010
+space-time algebra
+suji lacmo has a great video showing how
+
+940
+00:20:43,010 --> 00:20:43,020
+suji lacmo has a great video showing how
+ 
+
+941
+00:20:43,020 --> 00:20:45,049
+suji lacmo has a great video showing how
+this can be used to formulate special
+
+942
+00:20:45,049 --> 00:20:45,059
+this can be used to formulate special
+ 
+
+943
+00:20:45,059 --> 00:20:48,770
+this can be used to formulate special
+relativity Linked In the description
+
+944
+00:20:48,770 --> 00:20:48,780
+relativity Linked In the description
+ 
+
+945
+00:20:48,780 --> 00:20:51,710
+relativity Linked In the description
+so generally speaking we say that the
+
+946
+00:20:51,710 --> 00:20:51,720
+so generally speaking we say that the
+ 
+
+947
+00:20:51,720 --> 00:20:55,669
+so generally speaking we say that the
+Clifford algebra clpq is in algebra with
+
+948
+00:20:55,669 --> 00:20:55,679
+Clifford algebra clpq is in algebra with
+ 
+
+949
+00:20:55,679 --> 00:20:59,029
+Clifford algebra clpq is in algebra with
+P symbols that square two plus one and Q
+
+950
+00:20:59,029 --> 00:20:59,039
+P symbols that square two plus one and Q
+ 
+
+951
+00:20:59,039 --> 00:21:01,789
+P symbols that square two plus one and Q
+symbols that square two minus one
+
+952
+00:21:01,789 --> 00:21:01,799
+symbols that square two minus one
+ 
+
+953
+00:21:01,799 --> 00:21:04,310
+symbols that square two minus one
+and the symbols all anti-commute with
+
+954
+00:21:04,310 --> 00:21:04,320
+and the symbols all anti-commute with
+ 
+
+955
+00:21:04,320 --> 00:21:05,590
+and the symbols all anti-commute with
+each other
+
+956
+00:21:05,590 --> 00:21:05,600
+each other
+ 
+
+957
+00:21:05,600 --> 00:21:09,049
+each other
+sometimes if Q equals zero and there are
+
+958
+00:21:09,049 --> 00:21:09,059
+sometimes if Q equals zero and there are
+ 
+
+959
+00:21:09,059 --> 00:21:11,930
+sometimes if Q equals zero and there are
+no symbols that square two minus one we
+
+960
+00:21:11,930 --> 00:21:11,940
+no symbols that square two minus one we
+ 
+
+961
+00:21:11,940 --> 00:21:14,510
+no symbols that square two minus one we
+can omit the Q in our notation and just
+
+962
+00:21:14,510 --> 00:21:14,520
+can omit the Q in our notation and just
+ 
+
+963
+00:21:14,520 --> 00:21:17,930
+can omit the Q in our notation and just
+write CLP for a Clifford algebra with P
+
+964
+00:21:17,930 --> 00:21:17,940
+write CLP for a Clifford algebra with P
+ 
+
+965
+00:21:17,940 --> 00:21:20,630
+write CLP for a Clifford algebra with P
+symbols that square two plus one and
+
+966
+00:21:20,630 --> 00:21:20,640
+symbols that square two plus one and
+ 
+
+967
+00:21:20,640 --> 00:21:22,549
+symbols that square two plus one and
+anti-commute
+
+968
+00:21:22,549 --> 00:21:22,559
+anti-commute
+ 
+
+969
+00:21:22,559 --> 00:21:24,310
+anti-commute
+I should mention that this
+
+970
+00:21:24,310 --> 00:21:24,320
+I should mention that this
+ 
+
+971
+00:21:24,320 --> 00:21:27,110
+I should mention that this
+anti-commutation relation is sometimes
+
+972
+00:21:27,110 --> 00:21:27,120
+anti-commutation relation is sometimes
+ 
+
+973
+00:21:27,120 --> 00:21:30,049
+anti-commutation relation is sometimes
+written like this with curly braces and
+
+974
+00:21:30,049 --> 00:21:30,059
+written like this with curly braces and
+ 
+
+975
+00:21:30,059 --> 00:21:32,690
+written like this with curly braces and
+the dot product or metric
+
+976
+00:21:32,690 --> 00:21:32,700
+the dot product or metric
+ 
+
+977
+00:21:32,700 --> 00:21:35,630
+the dot product or metric
+if the two symbols are different these
+
+978
+00:21:35,630 --> 00:21:35,640
+if the two symbols are different these
+ 
+
+979
+00:21:35,640 --> 00:21:38,570
+if the two symbols are different these
+two terms in the sum cancel and we get
+
+980
+00:21:38,570 --> 00:21:38,580
+two terms in the sum cancel and we get
+ 
+
+981
+00:21:38,580 --> 00:21:41,570
+two terms in the sum cancel and we get
+zero since the dot product of orthogonal
+
+982
+00:21:41,570 --> 00:21:41,580
+zero since the dot product of orthogonal
+ 
+
+983
+00:21:41,580 --> 00:21:44,990
+zero since the dot product of orthogonal
+vectors is zero if the two symbols are
+
+984
+00:21:44,990 --> 00:21:45,000
+vectors is zero if the two symbols are
+ 
+
+985
+00:21:45,000 --> 00:21:47,270
+vectors is zero if the two symbols are
+the same we get twice the vectors
+
+986
+00:21:47,270 --> 00:21:47,280
+the same we get twice the vectors
+ 
+
+987
+00:21:47,280 --> 00:21:49,730
+the same we get twice the vectors
+squared length
+
+988
+00:21:49,730 --> 00:21:49,740
+squared length
+ 
+
+989
+00:21:49,740 --> 00:21:52,850
+squared length
+as a quick aside sometimes in Clifford
+
+990
+00:21:52,850 --> 00:21:52,860
+as a quick aside sometimes in Clifford
+ 
+
+991
+00:21:52,860 --> 00:21:55,789
+as a quick aside sometimes in Clifford
+algebras we also include symbols that
+
+992
+00:21:55,789 --> 00:21:55,799
+algebras we also include symbols that
+ 
+
+993
+00:21:55,799 --> 00:21:58,669
+algebras we also include symbols that
+square to zero if we have a symbol
+
+994
+00:21:58,669 --> 00:21:58,679
+square to zero if we have a symbol
+ 
+
+995
+00:21:58,679 --> 00:22:01,549
+square to zero if we have a symbol
+Epsilon that squares to zero we can
+
+996
+00:22:01,549 --> 00:22:01,559
+Epsilon that squares to zero we can
+ 
+
+997
+00:22:01,559 --> 00:22:03,770
+Epsilon that squares to zero we can
+again interpret this as a matrix problem
+
+998
+00:22:03,770 --> 00:22:03,780
+again interpret this as a matrix problem
+ 
+
+999
+00:22:03,780 --> 00:22:06,890
+again interpret this as a matrix problem
+where zero is the zero Matrix and
+
+1000
+00:22:06,890 --> 00:22:06,900
+where zero is the zero Matrix and
+ 
+
+1001
+00:22:06,900 --> 00:22:09,350
+where zero is the zero Matrix and
+Epsilon is a matrix that squares two
+
+1002
+00:22:09,350 --> 00:22:09,360
+Epsilon is a matrix that squares two
+ 
+
+1003
+00:22:09,360 --> 00:22:11,750
+Epsilon is a matrix that squares two
+zero like this
+
+1004
+00:22:11,750 --> 00:22:11,760
+zero like this
+ 
+
+1005
+00:22:11,760 --> 00:22:14,570
+zero like this
+but it's more common to treat Epsilon as
+
+1006
+00:22:14,570 --> 00:22:14,580
+but it's more common to treat Epsilon as
+ 
+
+1007
+00:22:14,580 --> 00:22:16,850
+but it's more common to treat Epsilon as
+its own symbol with Epsilon squared
+
+1008
+00:22:16,850 --> 00:22:16,860
+its own symbol with Epsilon squared
+ 
+
+1009
+00:22:16,860 --> 00:22:19,090
+its own symbol with Epsilon squared
+equals zero as the definition
+
+1010
+00:22:19,090 --> 00:22:19,100
+equals zero as the definition
+ 
+
+1011
+00:22:19,100 --> 00:22:22,610
+equals zero as the definition
+these are called the Dual numbers in
+
+1012
+00:22:22,610 --> 00:22:22,620
+these are called the Dual numbers in
+ 
+
+1013
+00:22:22,620 --> 00:22:26,049
+these are called the Dual numbers in
+Clifford algebra notation we call this
+
+1014
+00:22:26,049 --> 00:22:26,059
+Clifford algebra notation we call this
+ 
+
+1015
+00:22:26,059 --> 00:22:29,330
+Clifford algebra notation we call this
+cl001 where the first two numbers tell
+
+1016
+00:22:29,330 --> 00:22:29,340
+cl001 where the first two numbers tell
+ 
+
+1017
+00:22:29,340 --> 00:22:31,490
+cl001 where the first two numbers tell
+us how many symbols Square two plus one
+
+1018
+00:22:31,490 --> 00:22:31,500
+us how many symbols Square two plus one
+ 
+
+1019
+00:22:31,500 --> 00:22:34,490
+us how many symbols Square two plus one
+and minus one and the third number tells
+
+1020
+00:22:34,490 --> 00:22:34,500
+and minus one and the third number tells
+ 
+
+1021
+00:22:34,500 --> 00:22:36,850
+and minus one and the third number tells
+us how many symbols Square two zero
+
+1022
+00:22:36,850 --> 00:22:36,860
+us how many symbols Square two zero
+ 
+
+1023
+00:22:36,860 --> 00:22:39,649
+us how many symbols Square two zero
+these won't come up very often in this
+
+1024
+00:22:39,649 --> 00:22:39,659
+these won't come up very often in this
+ 
+
+1025
+00:22:39,659 --> 00:22:42,110
+these won't come up very often in this
+video series but it's useful to know
+
+1026
+00:22:42,110 --> 00:22:42,120
+video series but it's useful to know
+ 
+
+1027
+00:22:42,120 --> 00:22:43,970
+video series but it's useful to know
+about
+
+1028
+00:22:43,970 --> 00:22:43,980
+about
+ 
+
+1029
+00:22:43,980 --> 00:22:46,669
+about
+so let's compare the wedge product from
+
+1030
+00:22:46,669 --> 00:22:46,679
+so let's compare the wedge product from
+ 
+
+1031
+00:22:46,679 --> 00:22:48,890
+so let's compare the wedge product from
+Grassman algebras to the Clifford
+
+1032
+00:22:48,890 --> 00:22:48,900
+Grassman algebras to the Clifford
+ 
+
+1033
+00:22:48,900 --> 00:22:51,590
+Grassman algebras to the Clifford
+product in Clifford algebras
+
+1034
+00:22:51,590 --> 00:22:51,600
+product in Clifford algebras
+ 
+
+1035
+00:22:51,600 --> 00:22:54,409
+product in Clifford algebras
+now with Grassman algebras I was often
+
+1036
+00:22:54,409 --> 00:22:54,419
+now with Grassman algebras I was often
+ 
+
+1037
+00:22:54,419 --> 00:22:56,990
+now with Grassman algebras I was often
+talking about vectors in Clifford
+
+1038
+00:22:56,990 --> 00:22:57,000
+talking about vectors in Clifford
+ 
+
+1039
+00:22:57,000 --> 00:22:58,970
+talking about vectors in Clifford
+algebras I was Loosely talking about
+
+1040
+00:22:58,970 --> 00:22:58,980
+algebras I was Loosely talking about
+ 
+
+1041
+00:22:58,980 --> 00:23:02,029
+algebras I was Loosely talking about
+symbols but we're going to interpret
+
+1042
+00:23:02,029 --> 00:23:02,039
+symbols but we're going to interpret
+ 
+
+1043
+00:23:02,039 --> 00:23:04,430
+symbols but we're going to interpret
+these symbols as basis vectors in
+
+1044
+00:23:04,430 --> 00:23:04,440
+these symbols as basis vectors in
+ 
+
+1045
+00:23:04,440 --> 00:23:06,110
+these symbols as basis vectors in
+Clifford algebras
+
+1046
+00:23:06,110 --> 00:23:06,120
+Clifford algebras
+ 
+
+1047
+00:23:06,120 --> 00:23:10,149
+Clifford algebras
+for example with the sigma matrices cl30
+
+1048
+00:23:10,149 --> 00:23:10,159
+for example with the sigma matrices cl30
+ 
+
+1049
+00:23:10,159 --> 00:23:12,950
+for example with the sigma matrices cl30
+we can think of the three symbols as
+
+1050
+00:23:12,950 --> 00:23:12,960
+we can think of the three symbols as
+ 
+
+1051
+00:23:12,960 --> 00:23:16,130
+we can think of the three symbols as
+forming a 3D orthonormal basis
+
+1052
+00:23:16,130 --> 00:23:16,140
+forming a 3D orthonormal basis
+ 
+
+1053
+00:23:16,140 --> 00:23:17,690
+forming a 3D orthonormal basis
+this is how we've been treating the
+
+1054
+00:23:17,690 --> 00:23:17,700
+this is how we've been treating the
+ 
+
+1055
+00:23:17,700 --> 00:23:21,110
+this is how we've been treating the
+sigma matrices in previous videos
+
+1056
+00:23:21,110 --> 00:23:21,120
+sigma matrices in previous videos
+ 
+
+1057
+00:23:21,120 --> 00:23:23,810
+sigma matrices in previous videos
+with Grassman algebras the wedge product
+
+1058
+00:23:23,810 --> 00:23:23,820
+with Grassman algebras the wedge product
+ 
+
+1059
+00:23:23,820 --> 00:23:26,570
+with Grassman algebras the wedge product
+of a vector with itself always gives
+
+1060
+00:23:26,570 --> 00:23:26,580
+of a vector with itself always gives
+ 
+
+1061
+00:23:26,580 --> 00:23:29,450
+of a vector with itself always gives
+zero because the resulting plane segment
+
+1062
+00:23:29,450 --> 00:23:29,460
+zero because the resulting plane segment
+ 
+
+1063
+00:23:29,460 --> 00:23:32,630
+zero because the resulting plane segment
+has an area of zero with Clifford
+
+1064
+00:23:32,630 --> 00:23:32,640
+has an area of zero with Clifford
+ 
+
+1065
+00:23:32,640 --> 00:23:35,090
+has an area of zero with Clifford
+algebras taking the Clifford product of
+
+1066
+00:23:35,090 --> 00:23:35,100
+algebras taking the Clifford product of
+ 
+
+1067
+00:23:35,100 --> 00:23:37,789
+algebras taking the Clifford product of
+a vector with itself gives that vectors
+
+1068
+00:23:37,789 --> 00:23:37,799
+a vector with itself gives that vectors
+ 
+
+1069
+00:23:37,799 --> 00:23:39,770
+a vector with itself gives that vectors
+squared magnitude
+
+1070
+00:23:39,770 --> 00:23:39,780
+squared magnitude
+ 
+
+1071
+00:23:39,780 --> 00:23:42,590
+squared magnitude
+unit vectors in our orthonormal basis
+
+1072
+00:23:42,590 --> 00:23:42,600
+unit vectors in our orthonormal basis
+ 
+
+1073
+00:23:42,600 --> 00:23:46,130
+unit vectors in our orthonormal basis
+Square two plus one or -1 because they
+
+1074
+00:23:46,130 --> 00:23:46,140
+Square two plus one or -1 because they
+ 
+
+1075
+00:23:46,140 --> 00:23:47,870
+Square two plus one or -1 because they
+have a length of one
+
+1076
+00:23:47,870 --> 00:23:47,880
+have a length of one
+ 
+
+1077
+00:23:47,880 --> 00:23:50,870
+have a length of one
+likewise a vector of length 5 will
+
+1078
+00:23:50,870 --> 00:23:50,880
+likewise a vector of length 5 will
+ 
+
+1079
+00:23:50,880 --> 00:23:54,289
+likewise a vector of length 5 will
+Square two plus or minus 25.
+
+1080
+00:23:54,289 --> 00:23:54,299
+Square two plus or minus 25.
+ 
+
+1081
+00:23:54,299 --> 00:23:56,750
+Square two plus or minus 25.
+if you're confused about why a vector
+
+1082
+00:23:56,750 --> 00:23:56,760
+if you're confused about why a vector
+ 
+
+1083
+00:23:56,760 --> 00:23:59,690
+if you're confused about why a vector
+would Square to negative one this ends
+
+1084
+00:23:59,690 --> 00:23:59,700
+would Square to negative one this ends
+ 
+
+1085
+00:23:59,700 --> 00:24:01,909
+would Square to negative one this ends
+up being useful in special relativity
+
+1086
+00:24:01,909 --> 00:24:01,919
+up being useful in special relativity
+ 
+
+1087
+00:24:01,919 --> 00:24:03,950
+up being useful in special relativity
+when we need to tell the difference
+
+1088
+00:24:03,950 --> 00:24:03,960
+when we need to tell the difference
+ 
+
+1089
+00:24:03,960 --> 00:24:06,950
+when we need to tell the difference
+between time-like vectors and space-like
+
+1090
+00:24:06,950 --> 00:24:06,960
+between time-like vectors and space-like
+ 
+
+1091
+00:24:06,960 --> 00:24:08,810
+between time-like vectors and space-like
+vectors
+
+1092
+00:24:08,810 --> 00:24:08,820
+vectors
+ 
+
+1093
+00:24:08,820 --> 00:24:11,930
+vectors
+with Grassman algebras anytime we have a
+
+1094
+00:24:11,930 --> 00:24:11,940
+with Grassman algebras anytime we have a
+ 
+
+1095
+00:24:11,940 --> 00:24:14,510
+with Grassman algebras anytime we have a
+wedge product of two vectors we can
+
+1096
+00:24:14,510 --> 00:24:14,520
+wedge product of two vectors we can
+ 
+
+1097
+00:24:14,520 --> 00:24:16,970
+wedge product of two vectors we can
+always flip their order if we include a
+
+1098
+00:24:16,970 --> 00:24:16,980
+always flip their order if we include a
+ 
+
+1099
+00:24:16,980 --> 00:24:18,890
+always flip their order if we include a
+negative sign which is the
+
+1100
+00:24:18,890 --> 00:24:18,900
+negative sign which is the
+ 
+
+1101
+00:24:18,900 --> 00:24:21,289
+negative sign which is the
+anti-commutative property
+
+1102
+00:24:21,289 --> 00:24:21,299
+anti-commutative property
+ 
+
+1103
+00:24:21,299 --> 00:24:23,570
+anti-commutative property
+for Clifford algebras the
+
+1104
+00:24:23,570 --> 00:24:23,580
+for Clifford algebras the
+ 
+
+1105
+00:24:23,580 --> 00:24:26,090
+for Clifford algebras the
+anti-communitive property applies only
+
+1106
+00:24:26,090 --> 00:24:26,100
+anti-communitive property applies only
+ 
+
+1107
+00:24:26,100 --> 00:24:28,669
+anti-communitive property applies only
+for orthogonal vectors
+
+1108
+00:24:28,669 --> 00:24:28,679
+for orthogonal vectors
+ 
+
+1109
+00:24:28,679 --> 00:24:32,450
+for orthogonal vectors
+for the sigmas sigma X Sigma Y and sigma
+
+1110
+00:24:32,450 --> 00:24:32,460
+for the sigmas sigma X Sigma Y and sigma
+ 
+
+1111
+00:24:32,460 --> 00:24:35,690
+for the sigmas sigma X Sigma Y and sigma
+Z are all orthogonal so they all
+
+1112
+00:24:35,690 --> 00:24:35,700
+Z are all orthogonal so they all
+ 
+
+1113
+00:24:35,700 --> 00:24:38,750
+Z are all orthogonal so they all
+anti-commute with each other but a given
+
+1114
+00:24:38,750 --> 00:24:38,760
+anti-commute with each other but a given
+ 
+
+1115
+00:24:38,760 --> 00:24:41,090
+anti-commute with each other but a given
+Sigma will not anti-commute with an
+
+1116
+00:24:41,090 --> 00:24:41,100
+Sigma will not anti-commute with an
+ 
+
+1117
+00:24:41,100 --> 00:24:43,370
+Sigma will not anti-commute with an
+arbitrary vector v which is not
+
+1118
+00:24:43,370 --> 00:24:43,380
+arbitrary vector v which is not
+ 
+
+1119
+00:24:43,380 --> 00:24:45,409
+arbitrary vector v which is not
+orthogonal to it
+
+1120
+00:24:45,409 --> 00:24:45,419
+orthogonal to it
+ 
+
+1121
+00:24:45,419 --> 00:24:47,570
+orthogonal to it
+let's look at the Clifford product of
+
+1122
+00:24:47,570 --> 00:24:47,580
+let's look at the Clifford product of
+ 
+
+1123
+00:24:47,580 --> 00:24:51,950
+let's look at the Clifford product of
+two vectors in cl20 where the ex and ey
+
+1124
+00:24:51,950 --> 00:24:51,960
+two vectors in cl20 where the ex and ey
+ 
+
+1125
+00:24:51,960 --> 00:24:55,669
+two vectors in cl20 where the ex and ey
+basis vectors both Square two plus one
+
+1126
+00:24:55,669 --> 00:24:55,679
+basis vectors both Square two plus one
+ 
+
+1127
+00:24:55,679 --> 00:24:58,789
+basis vectors both Square two plus one
+we can write vectors u and v in terms of
+
+1128
+00:24:58,789 --> 00:24:58,799
+we can write vectors u and v in terms of
+ 
+
+1129
+00:24:58,799 --> 00:25:00,169
+we can write vectors u and v in terms of
+this basis
+
+1130
+00:25:00,169 --> 00:25:00,179
+this basis
+ 
+
+1131
+00:25:00,179 --> 00:25:03,230
+this basis
+we can then write the Clifford product U
+
+1132
+00:25:03,230 --> 00:25:03,240
+we can then write the Clifford product U
+ 
+
+1133
+00:25:03,240 --> 00:25:06,010
+we can then write the Clifford product U
+times V using distributive properties
+
+1134
+00:25:06,010 --> 00:25:06,020
+times V using distributive properties
+ 
+
+1135
+00:25:06,020 --> 00:25:10,490
+times V using distributive properties
+first out inner last and get four terms
+
+1136
+00:25:10,490 --> 00:25:10,500
+first out inner last and get four terms
+ 
+
+1137
+00:25:10,500 --> 00:25:13,370
+first out inner last and get four terms
+the terms with e x squared and e y
+
+1138
+00:25:13,370 --> 00:25:13,380
+the terms with e x squared and e y
+ 
+
+1139
+00:25:13,380 --> 00:25:16,850
+the terms with e x squared and e y
+squared both go to plus one so we get a
+
+1140
+00:25:16,850 --> 00:25:16,860
+squared both go to plus one so we get a
+ 
+
+1141
+00:25:16,860 --> 00:25:18,649
+squared both go to plus one so we get a
+sum of scalars
+
+1142
+00:25:18,649 --> 00:25:18,659
+sum of scalars
+ 
+
+1143
+00:25:18,659 --> 00:25:22,430
+sum of scalars
+since e x and e y are orthogonal we can
+
+1144
+00:25:22,430 --> 00:25:22,440
+since e x and e y are orthogonal we can
+ 
+
+1145
+00:25:22,440 --> 00:25:25,970
+since e x and e y are orthogonal we can
+flip e y times e x to get Negative e x
+
+1146
+00:25:25,970 --> 00:25:25,980
+flip e y times e x to get Negative e x
+ 
+
+1147
+00:25:25,980 --> 00:25:30,049
+flip e y times e x to get Negative e x
+times e y using anti-commutivity we can
+
+1148
+00:25:30,049 --> 00:25:30,059
+times e y using anti-commutivity we can
+ 
+
+1149
+00:25:30,059 --> 00:25:32,990
+times e y using anti-commutivity we can
+then group these two terms together
+
+1150
+00:25:32,990 --> 00:25:33,000
+then group these two terms together
+ 
+
+1151
+00:25:33,000 --> 00:25:35,570
+then group these two terms together
+so the Clifford product of two vectors
+
+1152
+00:25:35,570 --> 00:25:35,580
+so the Clifford product of two vectors
+ 
+
+1153
+00:25:35,580 --> 00:25:39,010
+so the Clifford product of two vectors
+is the sum of a scalar and a bi-vector
+
+1154
+00:25:39,010 --> 00:25:39,020
+is the sum of a scalar and a bi-vector
+ 
+
+1155
+00:25:39,020 --> 00:25:41,750
+is the sum of a scalar and a bi-vector
+the scalar part looks like the dot
+
+1156
+00:25:41,750 --> 00:25:41,760
+the scalar part looks like the dot
+ 
+
+1157
+00:25:41,760 --> 00:25:44,810
+the scalar part looks like the dot
+product of u and v and the bi-vector
+
+1158
+00:25:44,810 --> 00:25:44,820
+product of u and v and the bi-vector
+ 
+
+1159
+00:25:44,820 --> 00:25:47,149
+product of u and v and the bi-vector
+part looks like the wedge product of u
+
+1160
+00:25:47,149 --> 00:25:47,159
+part looks like the wedge product of u
+ 
+
+1161
+00:25:47,159 --> 00:25:48,830
+part looks like the wedge product of u
+and v
+
+1162
+00:25:48,830 --> 00:25:48,840
+and v
+ 
+
+1163
+00:25:48,840 --> 00:25:51,950
+and v
+so loosely speaking the Clifford product
+
+1164
+00:25:51,950 --> 00:25:51,960
+so loosely speaking the Clifford product
+ 
+
+1165
+00:25:51,960 --> 00:25:54,230
+so loosely speaking the Clifford product
+can be thought of as a combination of
+
+1166
+00:25:54,230 --> 00:25:54,240
+can be thought of as a combination of
+ 
+
+1167
+00:25:54,240 --> 00:25:57,649
+can be thought of as a combination of
+the dot product and the wedge product
+
+1168
+00:25:57,649 --> 00:25:57,659
+the dot product and the wedge product
+ 
+
+1169
+00:25:57,659 --> 00:25:59,930
+the dot product and the wedge product
+when we take the Clifford product of two
+
+1170
+00:25:59,930 --> 00:25:59,940
+when we take the Clifford product of two
+ 
+
+1171
+00:25:59,940 --> 00:26:03,049
+when we take the Clifford product of two
+orthogonal vectors u and v the dot
+
+1172
+00:26:03,049 --> 00:26:03,059
+orthogonal vectors u and v the dot
+ 
+
+1173
+00:26:03,059 --> 00:26:05,510
+orthogonal vectors u and v the dot
+product goes to zero and we're left with
+
+1174
+00:26:05,510 --> 00:26:05,520
+product goes to zero and we're left with
+ 
+
+1175
+00:26:05,520 --> 00:26:08,330
+product goes to zero and we're left with
+just the wedge product so we get to use
+
+1176
+00:26:08,330 --> 00:26:08,340
+just the wedge product so we get to use
+ 
+
+1177
+00:26:08,340 --> 00:26:10,250
+just the wedge product so we get to use
+the anti-commutivity of the wedge
+
+1178
+00:26:10,250 --> 00:26:10,260
+the anti-commutivity of the wedge
+ 
+
+1179
+00:26:10,260 --> 00:26:13,190
+the anti-commutivity of the wedge
+product in this special case
+
+1180
+00:26:13,190 --> 00:26:13,200
+product in this special case
+ 
+
+1181
+00:26:13,200 --> 00:26:15,710
+product in this special case
+when we take the Clifford product of two
+
+1182
+00:26:15,710 --> 00:26:15,720
+when we take the Clifford product of two
+ 
+
+1183
+00:26:15,720 --> 00:26:18,950
+when we take the Clifford product of two
+parallel vectors u and v the wedge
+
+1184
+00:26:18,950 --> 00:26:18,960
+parallel vectors u and v the wedge
+ 
+
+1185
+00:26:18,960 --> 00:26:21,890
+parallel vectors u and v the wedge
+product part goes to zero and we get U
+
+1186
+00:26:21,890 --> 00:26:21,900
+product part goes to zero and we get U
+ 
+
+1187
+00:26:21,900 --> 00:26:25,610
+product part goes to zero and we get U
+dot V which also equals V Dot U due to
+
+1188
+00:26:25,610 --> 00:26:25,620
+dot V which also equals V Dot U due to
+ 
+
+1189
+00:26:25,620 --> 00:26:28,250
+dot V which also equals V Dot U due to
+the commutivity of the dot product
+
+1190
+00:26:28,250 --> 00:26:28,260
+the commutivity of the dot product
+ 
+
+1191
+00:26:28,260 --> 00:26:30,649
+the commutivity of the dot product
+and remember the dot product of a vector
+
+1192
+00:26:30,649 --> 00:26:30,659
+and remember the dot product of a vector
+ 
+
+1193
+00:26:30,659 --> 00:26:33,169
+and remember the dot product of a vector
+with itself gives that vectors squared
+
+1194
+00:26:33,169 --> 00:26:33,179
+with itself gives that vectors squared
+ 
+
+1195
+00:26:33,179 --> 00:26:35,390
+with itself gives that vectors squared
+length
+
+1196
+00:26:35,390 --> 00:26:35,400
+length
+ 
+
+1197
+00:26:35,400 --> 00:26:38,029
+length
+before I finish the video I'm going to
+
+1198
+00:26:38,029 --> 00:26:38,039
+before I finish the video I'm going to
+ 
+
+1199
+00:26:38,039 --> 00:26:40,669
+before I finish the video I'm going to
+go over some more abstract definitions
+
+1200
+00:26:40,669 --> 00:26:40,679
+go over some more abstract definitions
+ 
+
+1201
+00:26:40,679 --> 00:26:42,890
+go over some more abstract definitions
+of Grassman algebras and Clifford
+
+1202
+00:26:42,890 --> 00:26:42,900
+of Grassman algebras and Clifford
+ 
+
+1203
+00:26:42,900 --> 00:26:45,890
+of Grassman algebras and Clifford
+algebras that involve tensor algebras
+
+1204
+00:26:45,890 --> 00:26:45,900
+algebras that involve tensor algebras
+ 
+
+1205
+00:26:45,900 --> 00:26:48,590
+algebras that involve tensor algebras
+and quotients this is a little more
+
+1206
+00:26:48,590 --> 00:26:48,600
+and quotients this is a little more
+ 
+
+1207
+00:26:48,600 --> 00:26:50,690
+and quotients this is a little more
+advanced and you probably don't need to
+
+1208
+00:26:50,690 --> 00:26:50,700
+advanced and you probably don't need to
+ 
+
+1209
+00:26:50,700 --> 00:26:52,549
+advanced and you probably don't need to
+worry about it if you're a beginner with
+
+1210
+00:26:52,549 --> 00:26:52,559
+worry about it if you're a beginner with
+ 
+
+1211
+00:26:52,559 --> 00:26:55,190
+worry about it if you're a beginner with
+Clifford algebras I'm just including
+
+1212
+00:26:55,190 --> 00:26:55,200
+Clifford algebras I'm just including
+ 
+
+1213
+00:26:55,200 --> 00:26:57,350
+Clifford algebras I'm just including
+this section for completeness for those
+
+1214
+00:26:57,350 --> 00:26:57,360
+this section for completeness for those
+ 
+
+1215
+00:26:57,360 --> 00:26:59,149
+this section for completeness for those
+who want to know about it
+
+1216
+00:26:59,149 --> 00:26:59,159
+who want to know about it
+ 
+
+1217
+00:26:59,159 --> 00:27:01,250
+who want to know about it
+I've already talked about the tensor
+
+1218
+00:27:01,250 --> 00:27:01,260
+I've already talked about the tensor
+ 
+
+1219
+00:27:01,260 --> 00:27:04,250
+I've already talked about the tensor
+product in video number eight as a basic
+
+1220
+00:27:04,250 --> 00:27:04,260
+product in video number eight as a basic
+ 
+
+1221
+00:27:04,260 --> 00:27:06,649
+product in video number eight as a basic
+review the tensor product is like an
+
+1222
+00:27:06,649 --> 00:27:06,659
+review the tensor product is like an
+ 
+
+1223
+00:27:06,659 --> 00:27:08,870
+review the tensor product is like an
+abstract generalization of the outer
+
+1224
+00:27:08,870 --> 00:27:08,880
+abstract generalization of the outer
+ 
+
+1225
+00:27:08,880 --> 00:27:11,090
+abstract generalization of the outer
+product of a column vector and a row
+
+1226
+00:27:11,090 --> 00:27:11,100
+product of a column vector and a row
+ 
+
+1227
+00:27:11,100 --> 00:27:12,110
+product of a column vector and a row
+vector
+
+1228
+00:27:12,110 --> 00:27:12,120
+vector
+ 
+
+1229
+00:27:12,120 --> 00:27:14,390
+vector
+it obeys distributive properties over
+
+1230
+00:27:14,390 --> 00:27:14,400
+it obeys distributive properties over
+ 
+
+1231
+00:27:14,400 --> 00:27:17,049
+it obeys distributive properties over
+addition just like array multiplication
+
+1232
+00:27:17,049 --> 00:27:17,059
+addition just like array multiplication
+ 
+
+1233
+00:27:17,059 --> 00:27:19,789
+addition just like array multiplication
+and distributivity works in both
+
+1234
+00:27:19,789 --> 00:27:19,799
+and distributivity works in both
+ 
+
+1235
+00:27:19,799 --> 00:27:21,590
+and distributivity works in both
+directions
+
+1236
+00:27:21,590 --> 00:27:21,600
+directions
+ 
+
+1237
+00:27:21,600 --> 00:27:24,409
+directions
+and when multiplying by a scalar we can
+
+1238
+00:27:24,409 --> 00:27:24,419
+and when multiplying by a scalar we can
+ 
+
+1239
+00:27:24,419 --> 00:27:26,149
+and when multiplying by a scalar we can
+either give the scalar to the left hand
+
+1240
+00:27:26,149 --> 00:27:26,159
+either give the scalar to the left hand
+ 
+
+1241
+00:27:26,159 --> 00:27:28,669
+either give the scalar to the left hand
+side or the right hand side
+
+1242
+00:27:28,669 --> 00:27:28,679
+side or the right hand side
+ 
+
+1243
+00:27:28,679 --> 00:27:32,450
+side or the right hand side
+we can create tensor products of 2 3 4
+
+1244
+00:27:32,450 --> 00:27:32,460
+we can create tensor products of 2 3 4
+ 
+
+1245
+00:27:32,460 --> 00:27:35,330
+we can create tensor products of 2 3 4
+or any number of vectors
+
+1246
+00:27:35,330 --> 00:27:35,340
+or any number of vectors
+ 
+
+1247
+00:27:35,340 --> 00:27:37,850
+or any number of vectors
+now I'll introduce the tensor algebra
+
+1248
+00:27:37,850 --> 00:27:37,860
+now I'll introduce the tensor algebra
+ 
+
+1249
+00:27:37,860 --> 00:27:40,250
+now I'll introduce the tensor algebra
+let's say that we have a two-dimensional
+
+1250
+00:27:40,250 --> 00:27:40,260
+let's say that we have a two-dimensional
+ 
+
+1251
+00:27:40,260 --> 00:27:43,909
+let's say that we have a two-dimensional
+Vector space V with basis vectors E1 and
+
+1252
+00:27:43,909 --> 00:27:43,919
+Vector space V with basis vectors E1 and
+ 
+
+1253
+00:27:43,919 --> 00:27:45,350
+Vector space V with basis vectors E1 and
+E2
+
+1254
+00:27:45,350 --> 00:27:45,360
+E2
+ 
+
+1255
+00:27:45,360 --> 00:27:48,890
+E2
+the tensor algebra of V denoted Tia V
+
+1256
+00:27:48,890 --> 00:27:48,900
+the tensor algebra of V denoted Tia V
+ 
+
+1257
+00:27:48,900 --> 00:27:52,250
+the tensor algebra of V denoted Tia V
+includes scalars all the vectors in V
+
+1258
+00:27:52,250 --> 00:27:52,260
+includes scalars all the vectors in V
+ 
+
+1259
+00:27:52,260 --> 00:27:54,830
+includes scalars all the vectors in V
+all the tensor products of two vectors
+
+1260
+00:27:54,830 --> 00:27:54,840
+all the tensor products of two vectors
+ 
+
+1261
+00:27:54,840 --> 00:27:57,529
+all the tensor products of two vectors
+in V all the tensor products of three
+
+1262
+00:27:57,529 --> 00:27:57,539
+in V all the tensor products of three
+ 
+
+1263
+00:27:57,539 --> 00:28:01,850
+in V all the tensor products of three
+vectors in v and so on up to Infinity
+
+1264
+00:28:01,850 --> 00:28:01,860
+vectors in v and so on up to Infinity
+ 
+
+1265
+00:28:01,860 --> 00:28:04,130
+vectors in v and so on up to Infinity
+as we increase the number of tensor
+
+1266
+00:28:04,130 --> 00:28:04,140
+as we increase the number of tensor
+ 
+
+1267
+00:28:04,140 --> 00:28:06,710
+as we increase the number of tensor
+products the number of possible terms
+
+1268
+00:28:06,710 --> 00:28:06,720
+products the number of possible terms
+ 
+
+1269
+00:28:06,720 --> 00:28:09,049
+products the number of possible terms
+increases exponentially
+
+1270
+00:28:09,049 --> 00:28:09,059
+increases exponentially
+ 
+
+1271
+00:28:09,059 --> 00:28:11,390
+increases exponentially
+individual vectors live in the vector
+
+1272
+00:28:11,390 --> 00:28:11,400
+individual vectors live in the vector
+ 
+
+1273
+00:28:11,400 --> 00:28:15,350
+individual vectors live in the vector
+space V Vector pairs live in V tensor V
+
+1274
+00:28:15,350 --> 00:28:15,360
+space V Vector pairs live in V tensor V
+ 
+
+1275
+00:28:15,360 --> 00:28:19,370
+space V Vector pairs live in V tensor V
+also written V squared Vector triples
+
+1276
+00:28:19,370 --> 00:28:19,380
+also written V squared Vector triples
+ 
+
+1277
+00:28:19,380 --> 00:28:23,510
+also written V squared Vector triples
+live in V tensor V tensor V or V cubed
+
+1278
+00:28:23,510 --> 00:28:23,520
+live in V tensor V tensor V or V cubed
+ 
+
+1279
+00:28:23,520 --> 00:28:25,730
+live in V tensor V tensor V or V cubed
+and so on
+
+1280
+00:28:25,730 --> 00:28:25,740
+and so on
+ 
+
+1281
+00:28:25,740 --> 00:28:28,490
+and so on
+scalars live in the set of scalar's s
+
+1282
+00:28:28,490 --> 00:28:28,500
+scalars live in the set of scalar's s
+ 
+
+1283
+00:28:28,500 --> 00:28:31,190
+scalars live in the set of scalar's s
+which is sometimes written as V to the
+
+1284
+00:28:31,190 --> 00:28:31,200
+which is sometimes written as V to the
+ 
+
+1285
+00:28:31,200 --> 00:28:33,230
+which is sometimes written as V to the
+power of zero
+
+1286
+00:28:33,230 --> 00:28:33,240
+power of zero
+ 
+
+1287
+00:28:33,240 --> 00:28:35,690
+power of zero
+in tensor algebras we can add together
+
+1288
+00:28:35,690 --> 00:28:35,700
+in tensor algebras we can add together
+ 
+
+1289
+00:28:35,700 --> 00:28:38,390
+in tensor algebras we can add together
+arbitrary elements from this infinite
+
+1290
+00:28:38,390 --> 00:28:38,400
+arbitrary elements from this infinite
+ 
+
+1291
+00:28:38,400 --> 00:28:40,909
+arbitrary elements from this infinite
+collection so we can write expressions
+
+1292
+00:28:40,909 --> 00:28:40,919
+collection so we can write expressions
+ 
+
+1293
+00:28:40,919 --> 00:28:45,350
+collection so we can write expressions
+like two plus three e one minus 5 E2
+
+1294
+00:28:45,350 --> 00:28:45,360
+like two plus three e one minus 5 E2
+ 
+
+1295
+00:28:45,360 --> 00:28:48,169
+like two plus three e one minus 5 E2
+tensor E1 tensor E2
+
+1296
+00:28:48,169 --> 00:28:48,179
+tensor E1 tensor E2
+ 
+
+1297
+00:28:48,179 --> 00:28:50,690
+tensor E1 tensor E2
+now let's try modifying our tensor
+
+1298
+00:28:50,690 --> 00:28:50,700
+now let's try modifying our tensor
+ 
+
+1299
+00:28:50,700 --> 00:28:53,330
+now let's try modifying our tensor
+algebra with a special rule
+
+1300
+00:28:53,330 --> 00:28:53,340
+algebra with a special rule
+ 
+
+1301
+00:28:53,340 --> 00:28:55,970
+algebra with a special rule
+we're going to say that anytime we see a
+
+1302
+00:28:55,970 --> 00:28:55,980
+we're going to say that anytime we see a
+ 
+
+1303
+00:28:55,980 --> 00:28:58,310
+we're going to say that anytime we see a
+vector tensored with itself it will go
+
+1304
+00:28:58,310 --> 00:28:58,320
+vector tensored with itself it will go
+ 
+
+1305
+00:28:58,320 --> 00:28:59,630
+vector tensored with itself it will go
+to zero
+
+1306
+00:28:59,630 --> 00:28:59,640
+to zero
+ 
+
+1307
+00:28:59,640 --> 00:29:02,750
+to zero
+this leaves scalars unchanged and also
+
+1308
+00:29:02,750 --> 00:29:02,760
+this leaves scalars unchanged and also
+ 
+
+1309
+00:29:02,760 --> 00:29:05,630
+this leaves scalars unchanged and also
+leaves individual vectors unchanged
+
+1310
+00:29:05,630 --> 00:29:05,640
+leaves individual vectors unchanged
+ 
+
+1311
+00:29:05,640 --> 00:29:08,110
+leaves individual vectors unchanged
+but with tensor products of two vectors
+
+1312
+00:29:08,110 --> 00:29:08,120
+but with tensor products of two vectors
+ 
+
+1313
+00:29:08,120 --> 00:29:13,370
+but with tensor products of two vectors
+E1 tensor E1 and E2 tensor E2 now get
+
+1314
+00:29:13,370 --> 00:29:13,380
+E1 tensor E1 and E2 tensor E2 now get
+ 
+
+1315
+00:29:13,380 --> 00:29:15,289
+E1 tensor E1 and E2 tensor E2 now get
+sent to zero
+
+1316
+00:29:15,289 --> 00:29:15,299
+sent to zero
+ 
+
+1317
+00:29:15,299 --> 00:29:18,590
+sent to zero
+but as we proved earlier the property of
+
+1318
+00:29:18,590 --> 00:29:18,600
+but as we proved earlier the property of
+ 
+
+1319
+00:29:18,600 --> 00:29:20,930
+but as we proved earlier the property of
+a vector product with itself equaling
+
+1320
+00:29:20,930 --> 00:29:20,940
+a vector product with itself equaling
+ 
+
+1321
+00:29:20,940 --> 00:29:23,630
+a vector product with itself equaling
+zero automatically implies that we can
+
+1322
+00:29:23,630 --> 00:29:23,640
+zero automatically implies that we can
+ 
+
+1323
+00:29:23,640 --> 00:29:25,669
+zero automatically implies that we can
+swap the order of a product if we
+
+1324
+00:29:25,669 --> 00:29:25,679
+swap the order of a product if we
+ 
+
+1325
+00:29:25,679 --> 00:29:28,909
+swap the order of a product if we
+introduce a negative sign so using this
+
+1326
+00:29:28,909 --> 00:29:28,919
+introduce a negative sign so using this
+ 
+
+1327
+00:29:28,919 --> 00:29:33,590
+introduce a negative sign so using this
+new rule E1 tensor E2 equals negative E2
+
+1328
+00:29:33,590 --> 00:29:33,600
+new rule E1 tensor E2 equals negative E2
+ 
+
+1329
+00:29:33,600 --> 00:29:35,630
+new rule E1 tensor E2 equals negative E2
+tensor E1
+
+1330
+00:29:35,630 --> 00:29:35,640
+tensor E1
+ 
+
+1331
+00:29:35,640 --> 00:29:38,389
+tensor E1
+for the tensor product of three vectors
+
+1332
+00:29:38,389 --> 00:29:38,399
+for the tensor product of three vectors
+ 
+
+1333
+00:29:38,399 --> 00:29:41,149
+for the tensor product of three vectors
+it turns out every single term goes to
+
+1334
+00:29:41,149 --> 00:29:41,159
+it turns out every single term goes to
+ 
+
+1335
+00:29:41,159 --> 00:29:44,090
+it turns out every single term goes to
+zero since all terms contain at least
+
+1336
+00:29:44,090 --> 00:29:44,100
+zero since all terms contain at least
+ 
+
+1337
+00:29:44,100 --> 00:29:47,750
+zero since all terms contain at least
+one pair of identical basis vectors this
+
+1338
+00:29:47,750 --> 00:29:47,760
+one pair of identical basis vectors this
+ 
+
+1339
+00:29:47,760 --> 00:29:49,970
+one pair of identical basis vectors this
+applies for any larger tensor products
+
+1340
+00:29:49,970 --> 00:29:49,980
+applies for any larger tensor products
+ 
+
+1341
+00:29:49,980 --> 00:29:51,049
+applies for any larger tensor products
+as well
+
+1342
+00:29:51,049 --> 00:29:51,059
+as well
+ 
+
+1343
+00:29:51,059 --> 00:29:53,990
+as well
+so using this new rule we've eliminated
+
+1344
+00:29:53,990 --> 00:29:54,000
+so using this new rule we've eliminated
+ 
+
+1345
+00:29:54,000 --> 00:29:56,389
+so using this new rule we've eliminated
+a huge number of infinite tensor
+
+1346
+00:29:56,389 --> 00:29:56,399
+a huge number of infinite tensor
+ 
+
+1347
+00:29:56,399 --> 00:29:59,750
+a huge number of infinite tensor
+products and we're left with only four
+
+1348
+00:29:59,750 --> 00:29:59,760
+products and we're left with only four
+ 
+
+1349
+00:29:59,760 --> 00:30:01,970
+products and we're left with only four
+what we're left with is exactly the
+
+1350
+00:30:01,970 --> 00:30:01,980
+what we're left with is exactly the
+ 
+
+1351
+00:30:01,980 --> 00:30:04,610
+what we're left with is exactly the
+rules for The Grassman algebra
+
+1352
+00:30:04,610 --> 00:30:04,620
+rules for The Grassman algebra
+ 
+
+1353
+00:30:04,620 --> 00:30:07,909
+rules for The Grassman algebra
+so abstractly The Grassman algebra is
+
+1354
+00:30:07,909 --> 00:30:07,919
+so abstractly The Grassman algebra is
+ 
+
+1355
+00:30:07,919 --> 00:30:09,889
+so abstractly The Grassman algebra is
+what we get when we start with the
+
+1356
+00:30:09,889 --> 00:30:09,899
+what we get when we start with the
+ 
+
+1357
+00:30:09,899 --> 00:30:12,350
+what we get when we start with the
+tensor algebra and apply the Special
+
+1358
+00:30:12,350 --> 00:30:12,360
+tensor algebra and apply the Special
+ 
+
+1359
+00:30:12,360 --> 00:30:14,510
+tensor algebra and apply the Special
+Rule that any Vector tensored with
+
+1360
+00:30:14,510 --> 00:30:14,520
+Rule that any Vector tensored with
+ 
+
+1361
+00:30:14,520 --> 00:30:16,730
+Rule that any Vector tensored with
+itself goes to zero
+
+1362
+00:30:16,730 --> 00:30:16,740
+itself goes to zero
+ 
+
+1363
+00:30:16,740 --> 00:30:19,010
+itself goes to zero
+more formally we say that The Grassman
+
+1364
+00:30:19,010 --> 00:30:19,020
+more formally we say that The Grassman
+ 
+
+1365
+00:30:19,020 --> 00:30:21,769
+more formally we say that The Grassman
+algebra is what we get when we take the
+
+1366
+00:30:21,769 --> 00:30:21,779
+algebra is what we get when we take the
+ 
+
+1367
+00:30:21,779 --> 00:30:24,470
+algebra is what we get when we take the
+quotient of the tensor algebra by the
+
+1368
+00:30:24,470 --> 00:30:24,480
+quotient of the tensor algebra by the
+ 
+
+1369
+00:30:24,480 --> 00:30:28,070
+quotient of the tensor algebra by the
+ideal generated by V tensor V
+
+1370
+00:30:28,070 --> 00:30:28,080
+ideal generated by V tensor V
+ 
+
+1371
+00:30:28,080 --> 00:30:30,889
+ideal generated by V tensor V
+we can start over and do this again but
+
+1372
+00:30:30,889 --> 00:30:30,899
+we can start over and do this again but
+ 
+
+1373
+00:30:30,899 --> 00:30:33,590
+we can start over and do this again but
+with a slightly modified rule where we
+
+1374
+00:30:33,590 --> 00:30:33,600
+with a slightly modified rule where we
+ 
+
+1375
+00:30:33,600 --> 00:30:36,470
+with a slightly modified rule where we
+take any Vector tensored with itself and
+
+1376
+00:30:36,470 --> 00:30:36,480
+take any Vector tensored with itself and
+ 
+
+1377
+00:30:36,480 --> 00:30:38,930
+take any Vector tensored with itself and
+instead of setting it to zero we set it
+
+1378
+00:30:38,930 --> 00:30:38,940
+instead of setting it to zero we set it
+ 
+
+1379
+00:30:38,940 --> 00:30:41,570
+instead of setting it to zero we set it
+to that vector's squared length
+
+1380
+00:30:41,570 --> 00:30:41,580
+to that vector's squared length
+ 
+
+1381
+00:30:41,580 --> 00:30:44,630
+to that vector's squared length
+using this Rule scalars and individual
+
+1382
+00:30:44,630 --> 00:30:44,640
+using this Rule scalars and individual
+ 
+
+1383
+00:30:44,640 --> 00:30:48,710
+using this Rule scalars and individual
+vectors are unaffected E1 tensor E1 and
+
+1384
+00:30:48,710 --> 00:30:48,720
+vectors are unaffected E1 tensor E1 and
+ 
+
+1385
+00:30:48,720 --> 00:30:52,010
+vectors are unaffected E1 tensor E1 and
+E2 tensor E2 are now equal to the scalar
+
+1386
+00:30:52,010 --> 00:30:52,020
+E2 tensor E2 are now equal to the scalar
+ 
+
+1387
+00:30:52,020 --> 00:30:53,090
+E2 tensor E2 are now equal to the scalar
+one
+
+1388
+00:30:53,090 --> 00:30:53,100
+one
+ 
+
+1389
+00:30:53,100 --> 00:30:55,610
+one
+this property also results in the
+
+1390
+00:30:55,610 --> 00:30:55,620
+this property also results in the
+ 
+
+1391
+00:30:55,620 --> 00:30:58,490
+this property also results in the
+anti-commutative property if two vectors
+
+1392
+00:30:58,490 --> 00:30:58,500
+anti-commutative property if two vectors
+ 
+
+1393
+00:30:58,500 --> 00:31:00,230
+anti-commutative property if two vectors
+are orthogonal
+
+1394
+00:31:00,230 --> 00:31:00,240
+are orthogonal
+ 
+
+1395
+00:31:00,240 --> 00:31:02,990
+are orthogonal
+this is because orthogonal vectors obey
+
+1396
+00:31:02,990 --> 00:31:03,000
+this is because orthogonal vectors obey
+ 
+
+1397
+00:31:03,000 --> 00:31:05,870
+this is because orthogonal vectors obey
+a Pythagoras formula which allows us to
+
+1398
+00:31:05,870 --> 00:31:05,880
+a Pythagoras formula which allows us to
+ 
+
+1399
+00:31:05,880 --> 00:31:07,909
+a Pythagoras formula which allows us to
+cancel the terms from both sides of this
+
+1400
+00:31:07,909 --> 00:31:07,919
+cancel the terms from both sides of this
+ 
+
+1401
+00:31:07,919 --> 00:31:09,230
+cancel the terms from both sides of this
+equation
+
+1402
+00:31:09,230 --> 00:31:09,240
+equation
+ 
+
+1403
+00:31:09,240 --> 00:31:12,889
+equation
+and so because E1 and E2 are orthogonal
+
+1404
+00:31:12,889 --> 00:31:12,899
+and so because E1 and E2 are orthogonal
+ 
+
+1405
+00:31:12,899 --> 00:31:16,730
+and so because E1 and E2 are orthogonal
+we get that E2 tensor E1 equals negative
+
+1406
+00:31:16,730 --> 00:31:16,740
+we get that E2 tensor E1 equals negative
+ 
+
+1407
+00:31:16,740 --> 00:31:19,250
+we get that E2 tensor E1 equals negative
+E1 tensor E2
+
+1408
+00:31:19,250 --> 00:31:19,260
+E1 tensor E2
+ 
+
+1409
+00:31:19,260 --> 00:31:21,950
+E1 tensor E2
+for the terms with three vectors in the
+
+1410
+00:31:21,950 --> 00:31:21,960
+for the terms with three vectors in the
+ 
+
+1411
+00:31:21,960 --> 00:31:24,590
+for the terms with three vectors in the
+product any identical vectors get sent
+
+1412
+00:31:24,590 --> 00:31:24,600
+product any identical vectors get sent
+ 
+
+1413
+00:31:24,600 --> 00:31:27,110
+product any identical vectors get sent
+to the scalar plus one so we're left
+
+1414
+00:31:27,110 --> 00:31:27,120
+to the scalar plus one so we're left
+ 
+
+1415
+00:31:27,120 --> 00:31:29,870
+to the scalar plus one so we're left
+with just individual vectors which we
+
+1416
+00:31:29,870 --> 00:31:29,880
+with just individual vectors which we
+ 
+
+1417
+00:31:29,880 --> 00:31:32,210
+with just individual vectors which we
+already have in our algebra
+
+1418
+00:31:32,210 --> 00:31:32,220
+already have in our algebra
+ 
+
+1419
+00:31:32,220 --> 00:31:34,970
+already have in our algebra
+in fact any more complicated combination
+
+1420
+00:31:34,970 --> 00:31:34,980
+in fact any more complicated combination
+ 
+
+1421
+00:31:34,980 --> 00:31:37,430
+in fact any more complicated combination
+of vectors will always give us either
+
+1422
+00:31:37,430 --> 00:31:37,440
+of vectors will always give us either
+ 
+
+1423
+00:31:37,440 --> 00:31:41,269
+of vectors will always give us either
+scalars vectors or bi-vectors so again
+
+1424
+00:31:41,269 --> 00:31:41,279
+scalars vectors or bi-vectors so again
+ 
+
+1425
+00:31:41,279 --> 00:31:43,669
+scalars vectors or bi-vectors so again
+we've removed all the higher infinite
+
+1426
+00:31:43,669 --> 00:31:43,679
+we've removed all the higher infinite
+ 
+
+1427
+00:31:43,679 --> 00:31:46,130
+we've removed all the higher infinite
+number of terms and we're left with only
+
+1428
+00:31:46,130 --> 00:31:46,140
+number of terms and we're left with only
+ 
+
+1429
+00:31:46,140 --> 00:31:47,870
+number of terms and we're left with only
+four terms
+
+1430
+00:31:47,870 --> 00:31:47,880
+four terms
+ 
+
+1431
+00:31:47,880 --> 00:31:50,470
+four terms
+this is exactly the Clifford algebra
+
+1432
+00:31:50,470 --> 00:31:50,480
+this is exactly the Clifford algebra
+ 
+
+1433
+00:31:50,480 --> 00:31:54,049
+this is exactly the Clifford algebra
+cl20 where vectors Square to their
+
+1434
+00:31:54,049 --> 00:31:54,059
+cl20 where vectors Square to their
+ 
+
+1435
+00:31:54,059 --> 00:31:56,330
+cl20 where vectors Square to their
+squared magnitudes and orthogonal
+
+1436
+00:31:56,330 --> 00:31:56,340
+squared magnitudes and orthogonal
+ 
+
+1437
+00:31:56,340 --> 00:31:58,430
+squared magnitudes and orthogonal
+vectors anti-commute
+
+1438
+00:31:58,430 --> 00:31:58,440
+vectors anti-commute
+ 
+
+1439
+00:31:58,440 --> 00:32:01,549
+vectors anti-commute
+so abstractly the Clifford algebra is
+
+1440
+00:32:01,549 --> 00:32:01,559
+so abstractly the Clifford algebra is
+ 
+
+1441
+00:32:01,559 --> 00:32:03,230
+so abstractly the Clifford algebra is
+what we get when we start with the
+
+1442
+00:32:03,230 --> 00:32:03,240
+what we get when we start with the
+ 
+
+1443
+00:32:03,240 --> 00:32:05,690
+what we get when we start with the
+tensor algebra and apply the Special
+
+1444
+00:32:05,690 --> 00:32:05,700
+tensor algebra and apply the Special
+ 
+
+1445
+00:32:05,700 --> 00:32:07,909
+tensor algebra and apply the Special
+Rule that any Vector tensored with
+
+1446
+00:32:07,909 --> 00:32:07,919
+Rule that any Vector tensored with
+ 
+
+1447
+00:32:07,919 --> 00:32:11,269
+Rule that any Vector tensored with
+itself goes to its squared length
+
+1448
+00:32:11,269 --> 00:32:11,279
+itself goes to its squared length
+ 
+
+1449
+00:32:11,279 --> 00:32:13,909
+itself goes to its squared length
+more formally we say that the Clifford
+
+1450
+00:32:13,909 --> 00:32:13,919
+more formally we say that the Clifford
+ 
+
+1451
+00:32:13,919 --> 00:32:16,549
+more formally we say that the Clifford
+algebra is what we get when we take the
+
+1452
+00:32:16,549 --> 00:32:16,559
+algebra is what we get when we take the
+ 
+
+1453
+00:32:16,559 --> 00:32:19,250
+algebra is what we get when we take the
+quotient of the tensor algebra by the
+
+1454
+00:32:19,250 --> 00:32:19,260
+quotient of the tensor algebra by the
+ 
+
+1455
+00:32:19,260 --> 00:32:22,010
+quotient of the tensor algebra by the
+ideal generated by the tensor V minus
+
+1456
+00:32:22,010 --> 00:32:22,020
+ideal generated by the tensor V minus
+ 
+
+1457
+00:32:22,020 --> 00:32:24,590
+ideal generated by the tensor V minus
+the squared magnitude of V
+
+1458
+00:32:24,590 --> 00:32:24,600
+the squared magnitude of V
+ 
+
+1459
+00:32:24,600 --> 00:32:26,510
+the squared magnitude of V
+you might also see this magnitude
+
+1460
+00:32:26,510 --> 00:32:26,520
+you might also see this magnitude
+ 
+
+1461
+00:32:26,520 --> 00:32:29,389
+you might also see this magnitude
+formula written with a G this is called
+
+1462
+00:32:29,389 --> 00:32:29,399
+formula written with a G this is called
+ 
+
+1463
+00:32:29,399 --> 00:32:31,850
+formula written with a G this is called
+the metric tensor and it's just a
+
+1464
+00:32:31,850 --> 00:32:31,860
+the metric tensor and it's just a
+ 
+
+1465
+00:32:31,860 --> 00:32:35,149
+the metric tensor and it's just a
+function that gives Vector lengths
+
+1466
+00:32:35,149 --> 00:32:35,159
+function that gives Vector lengths
+ 
+
+1467
+00:32:35,159 --> 00:32:38,630
+function that gives Vector lengths
+so to conclude a Clifford algebra also
+
+1468
+00:32:38,630 --> 00:32:38,640
+so to conclude a Clifford algebra also
+ 
+
+1469
+00:32:38,640 --> 00:32:41,389
+so to conclude a Clifford algebra also
+called a geometric algebra is what we
+
+1470
+00:32:41,389 --> 00:32:41,399
+called a geometric algebra is what we
+ 
+
+1471
+00:32:41,399 --> 00:32:43,490
+called a geometric algebra is what we
+get when we take a vector space and
+
+1472
+00:32:43,490 --> 00:32:43,500
+get when we take a vector space and
+ 
+
+1473
+00:32:43,500 --> 00:32:45,409
+get when we take a vector space and
+allow multiplication between vectors
+
+1474
+00:32:45,409 --> 00:32:45,419
+allow multiplication between vectors
+ 
+
+1475
+00:32:45,419 --> 00:32:48,169
+allow multiplication between vectors
+using the Clifford product also called
+
+1476
+00:32:48,169 --> 00:32:48,179
+using the Clifford product also called
+ 
+
+1477
+00:32:48,179 --> 00:32:50,269
+using the Clifford product also called
+the geometric product
+
+1478
+00:32:50,269 --> 00:32:50,279
+the geometric product
+ 
+
+1479
+00:32:50,279 --> 00:32:52,370
+the geometric product
+the Clifford product of a vector with
+
+1480
+00:32:52,370 --> 00:32:52,380
+the Clifford product of a vector with
+ 
+
+1481
+00:32:52,380 --> 00:32:54,950
+the Clifford product of a vector with
+itself gives that vectors squared
+
+1482
+00:32:54,950 --> 00:32:54,960
+itself gives that vectors squared
+ 
+
+1483
+00:32:54,960 --> 00:32:57,350
+itself gives that vectors squared
+magnitude and the Clifford product of
+
+1484
+00:32:57,350 --> 00:32:57,360
+magnitude and the Clifford product of
+ 
+
+1485
+00:32:57,360 --> 00:32:59,350
+magnitude and the Clifford product of
+two orthogonal vectors is
+
+1486
+00:32:59,350 --> 00:32:59,360
+two orthogonal vectors is
+ 
+
+1487
+00:32:59,360 --> 00:33:01,850
+two orthogonal vectors is
+anti-communitive so we can swap the
+
+1488
+00:33:01,850 --> 00:33:01,860
+anti-communitive so we can swap the
+ 
+
+1489
+00:33:01,860 --> 00:33:04,730
+anti-communitive so we can swap the
+order if we include a negative sign in
+
+1490
+00:33:04,730 --> 00:33:04,740
+order if we include a negative sign in
+ 
+
+1491
+00:33:04,740 --> 00:33:06,769
+order if we include a negative sign in
+the next video we're going to see how we
+
+1492
+00:33:06,769 --> 00:33:06,779
+the next video we're going to see how we
+ 
+
+1493
+00:33:06,779 --> 00:33:09,529
+the next video we're going to see how we
+can use Clifford algebras to build spin
+
+1494
+00:33:09,529 --> 00:33:09,539
+can use Clifford algebras to build spin
+ 
+
+1495
+00:33:09,539 --> 00:33:12,529
+can use Clifford algebras to build spin
+groups in any Dimension these are groups
+
+1496
+00:33:12,529 --> 00:33:12,539
+groups in any Dimension these are groups
+ 
+
+1497
+00:33:12,539 --> 00:33:14,810
+groups in any Dimension these are groups
+that double cover the rotation group in
+
+1498
+00:33:14,810 --> 00:33:14,820
+that double cover the rotation group in
+ 
+
+1499
+00:33:14,820 --> 00:33:17,870
+that double cover the rotation group in
+a given Dimension and do rotations and
+
+1500
+00:33:17,870 --> 00:33:17,880
+a given Dimension and do rotations and
+ 
+
+1501
+00:33:17,880 --> 00:33:20,029
+a given Dimension and do rotations and
+lorentz boosts using double-sided
+
+1502
+00:33:20,029 --> 00:33:20,039
+lorentz boosts using double-sided
+ 
+
+1503
+00:33:20,039 --> 00:33:22,880
+lorentz boosts using double-sided
+transformations
+

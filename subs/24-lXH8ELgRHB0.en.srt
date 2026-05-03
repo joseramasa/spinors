@@ -1,0 +1,6985 @@
+1
+00:00:00,160 --> 00:00:01,990
+
+We're continuing our discussion of how
+
+2
+00:00:01,990 --> 00:00:02,000
+We're continuing our discussion of how
+ 
+
+3
+00:00:02,000 --> 00:00:04,789
+We're continuing our discussion of how
+spinners are used in particle physics.
+
+4
+00:00:04,789 --> 00:00:04,799
+spinners are used in particle physics.
+ 
+
+5
+00:00:04,799 --> 00:00:06,950
+spinners are used in particle physics.
+In the previous video, we discussed the
+
+6
+00:00:06,950 --> 00:00:06,960
+In the previous video, we discussed the
+ 
+
+7
+00:00:06,960 --> 00:00:09,350
+In the previous video, we discussed the
+theory behind the DRA equation,
+
+8
+00:00:09,350 --> 00:00:09,360
+theory behind the DRA equation,
+ 
+
+9
+00:00:09,360 --> 00:00:11,509
+theory behind the DRA equation,
+including what the gamas mean, what
+
+10
+00:00:11,509 --> 00:00:11,519
+including what the gamas mean, what
+ 
+
+11
+00:00:11,519 --> 00:00:14,070
+including what the gamas mean, what
+direct spinners are, and the concepts of
+
+12
+00:00:14,070 --> 00:00:14,080
+direct spinners are, and the concepts of
+ 
+
+13
+00:00:14,080 --> 00:00:16,310
+direct spinners are, and the concepts of
+left and right kirality.
+
+14
+00:00:16,310 --> 00:00:16,320
+left and right kirality.
+ 
+
+15
+00:00:16,320 --> 00:00:18,470
+left and right kirality.
+In the next few videos, I'm going to be
+
+16
+00:00:18,470 --> 00:00:18,480
+In the next few videos, I'm going to be
+ 
+
+17
+00:00:18,480 --> 00:00:20,710
+In the next few videos, I'm going to be
+working up to the solutions of the DRA
+
+18
+00:00:20,710 --> 00:00:20,720
+working up to the solutions of the DRA
+ 
+
+19
+00:00:20,720 --> 00:00:23,189
+working up to the solutions of the DRA
+equation.
+
+20
+00:00:23,189 --> 00:00:23,199
+equation.
+ 
+
+21
+00:00:23,199 --> 00:00:25,189
+equation.
+to help us understand the solutions of
+
+22
+00:00:25,189 --> 00:00:25,199
+to help us understand the solutions of
+ 
+
+23
+00:00:25,199 --> 00:00:27,509
+to help us understand the solutions of
+the direct equation better. In this
+
+24
+00:00:27,509 --> 00:00:27,519
+the direct equation better. In this
+ 
+
+25
+00:00:27,519 --> 00:00:29,349
+the direct equation better. In this
+video, I'm going to solve the Klein
+
+26
+00:00:29,349 --> 00:00:29,359
+video, I'm going to solve the Klein
+ 
+
+27
+00:00:29,359 --> 00:00:32,150
+video, I'm going to solve the Klein
+Gordon equation. Then in the next video,
+
+28
+00:00:32,150 --> 00:00:32,160
+Gordon equation. Then in the next video,
+ 
+
+29
+00:00:32,160 --> 00:00:35,350
+Gordon equation. Then in the next video,
+I'll solve the ProAka equation.
+
+30
+00:00:35,350 --> 00:00:35,360
+I'll solve the ProAka equation.
+ 
+
+31
+00:00:35,360 --> 00:00:37,510
+I'll solve the ProAka equation.
+The Klein Gordon equation describes a
+
+32
+00:00:37,510 --> 00:00:37,520
+The Klein Gordon equation describes a
+ 
+
+33
+00:00:37,520 --> 00:00:41,510
+The Klein Gordon equation describes a
+scalar field and has wavelike solutions.
+
+34
+00:00:41,510 --> 00:00:41,520
+scalar field and has wavelike solutions.
+ 
+
+35
+00:00:41,520 --> 00:00:43,830
+scalar field and has wavelike solutions.
+The ProAka equation describes a vector
+
+36
+00:00:43,830 --> 00:00:43,840
+The ProAka equation describes a vector
+ 
+
+37
+00:00:43,840 --> 00:00:46,150
+The ProAka equation describes a vector
+field and it also has wavelike
+
+38
+00:00:46,150 --> 00:00:46,160
+field and it also has wavelike
+ 
+
+39
+00:00:46,160 --> 00:00:48,950
+field and it also has wavelike
+solutions. But the vector nature of the
+
+40
+00:00:48,950 --> 00:00:48,960
+solutions. But the vector nature of the
+ 
+
+41
+00:00:48,960 --> 00:00:50,790
+solutions. But the vector nature of the
+field allows waves with the same
+
+42
+00:00:50,790 --> 00:00:50,800
+field allows waves with the same
+ 
+
+43
+00:00:50,800 --> 00:00:52,709
+field allows waves with the same
+frequencies to have different
+
+44
+00:00:52,709 --> 00:00:52,719
+frequencies to have different
+ 
+
+45
+00:00:52,719 --> 00:00:54,229
+frequencies to have different
+polarizations
+
+46
+00:00:54,229 --> 00:00:54,239
+polarizations
+ 
+
+47
+00:00:54,239 --> 00:00:56,229
+polarizations
+like horizontal, vertical, and
+
+48
+00:00:56,229 --> 00:00:56,239
+like horizontal, vertical, and
+ 
+
+49
+00:00:56,239 --> 00:00:59,029
+like horizontal, vertical, and
+longitudinal polarizations.
+
+50
+00:00:59,029 --> 00:00:59,039
+longitudinal polarizations.
+ 
+
+51
+00:00:59,039 --> 00:01:01,349
+longitudinal polarizations.
+Finally, the direct equation describes
+
+52
+00:01:01,349 --> 00:01:01,359
+Finally, the direct equation describes
+ 
+
+53
+00:01:01,359 --> 00:01:04,310
+Finally, the direct equation describes
+spinner fields and also has wavelike
+
+54
+00:01:04,310 --> 00:01:04,320
+spinner fields and also has wavelike
+ 
+
+55
+00:01:04,320 --> 00:01:07,190
+spinner fields and also has wavelike
+solutions, but the spinner nature of the
+
+56
+00:01:07,190 --> 00:01:07,200
+solutions, but the spinner nature of the
+ 
+
+57
+00:01:07,200 --> 00:01:08,950
+solutions, but the spinner nature of the
+field allows waves with the same
+
+58
+00:01:08,950 --> 00:01:08,960
+field allows waves with the same
+ 
+
+59
+00:01:08,960 --> 00:01:11,750
+field allows waves with the same
+frequencies to have either spin up or
+
+60
+00:01:11,750 --> 00:01:11,760
+frequencies to have either spin up or
+ 
+
+61
+00:01:11,760 --> 00:01:14,710
+frequencies to have either spin up or
+spin down orientations.
+
+62
+00:01:14,710 --> 00:01:14,720
+spin down orientations.
+ 
+
+63
+00:01:14,720 --> 00:01:16,710
+spin down orientations.
+We'll also see that the direct equation
+
+64
+00:01:16,710 --> 00:01:16,720
+We'll also see that the direct equation
+ 
+
+65
+00:01:16,720 --> 00:01:20,149
+We'll also see that the direct equation
+has both matter and antimatter solutions
+
+66
+00:01:20,149 --> 00:01:20,159
+has both matter and antimatter solutions
+ 
+
+67
+00:01:20,159 --> 00:01:22,070
+has both matter and antimatter solutions
+and this is related to the concepts of
+
+68
+00:01:22,070 --> 00:01:22,080
+and this is related to the concepts of
+ 
+
+69
+00:01:22,080 --> 00:01:24,710
+and this is related to the concepts of
+left and right kirality.
+
+70
+00:01:24,710 --> 00:01:24,720
+left and right kirality.
+ 
+
+71
+00:01:24,720 --> 00:01:26,789
+left and right kirality.
+We'll also talk about how kirality
+
+72
+00:01:26,789 --> 00:01:26,799
+We'll also talk about how kirality
+ 
+
+73
+00:01:26,799 --> 00:01:28,950
+We'll also talk about how kirality
+relates to the helicity of a spinner
+
+74
+00:01:28,950 --> 00:01:28,960
+relates to the helicity of a spinner
+ 
+
+75
+00:01:28,960 --> 00:01:30,789
+relates to the helicity of a spinner
+particle.
+
+76
+00:01:30,789 --> 00:01:30,799
+particle.
+ 
+
+77
+00:01:30,799 --> 00:01:32,710
+particle.
+Each of these three equations will get
+
+78
+00:01:32,710 --> 00:01:32,720
+Each of these three equations will get
+ 
+
+79
+00:01:32,720 --> 00:01:35,830
+Each of these three equations will get
+its own video explaining the solutions.
+
+80
+00:01:35,830 --> 00:01:35,840
+its own video explaining the solutions.
+ 
+
+81
+00:01:35,840 --> 00:01:37,910
+its own video explaining the solutions.
+We'll start in this video with the Klein
+
+82
+00:01:37,910 --> 00:01:37,920
+We'll start in this video with the Klein
+ 
+
+83
+00:01:37,920 --> 00:01:40,310
+We'll start in this video with the Klein
+Gordon equation solutions for scalar
+
+84
+00:01:40,310 --> 00:01:40,320
+Gordon equation solutions for scalar
+ 
+
+85
+00:01:40,320 --> 00:01:42,469
+Gordon equation solutions for scalar
+fields.
+
+86
+00:01:42,469 --> 00:01:42,479
+fields.
+ 
+
+87
+00:01:42,479 --> 00:01:44,710
+fields.
+Now all of the fields in this video are
+
+88
+00:01:44,710 --> 00:01:44,720
+Now all of the fields in this video are
+ 
+
+89
+00:01:44,720 --> 00:01:47,270
+Now all of the fields in this video are
+going to be purely classical fields
+
+90
+00:01:47,270 --> 00:01:47,280
+going to be purely classical fields
+ 
+
+91
+00:01:47,280 --> 00:01:49,270
+going to be purely classical fields
+which means we can know the exact field
+
+92
+00:01:49,270 --> 00:01:49,280
+which means we can know the exact field
+ 
+
+93
+00:01:49,280 --> 00:01:52,149
+which means we can know the exact field
+values and field momenta together at the
+
+94
+00:01:52,149 --> 00:01:52,159
+values and field momenta together at the
+ 
+
+95
+00:01:52,159 --> 00:01:54,630
+values and field momenta together at the
+same time. So the fields are not yet
+
+96
+00:01:54,630 --> 00:01:54,640
+same time. So the fields are not yet
+ 
+
+97
+00:01:54,640 --> 00:01:56,550
+same time. So the fields are not yet
+quantized.
+
+98
+00:01:56,550 --> 00:01:56,560
+quantized.
+ 
+
+99
+00:01:56,560 --> 00:01:57,990
+quantized.
+If you want to see how to use
+
+100
+00:01:57,990 --> 00:01:58,000
+If you want to see how to use
+ 
+
+101
+00:01:58,000 --> 00:02:00,230
+If you want to see how to use
+commutators and anti-commutators to
+
+102
+00:02:00,230 --> 00:02:00,240
+commutators and anti-commutators to
+ 
+
+103
+00:02:00,240 --> 00:02:02,630
+commutators and anti-commutators to
+quantize these classical fields to get
+
+104
+00:02:02,630 --> 00:02:02,640
+quantize these classical fields to get
+ 
+
+105
+00:02:02,640 --> 00:02:05,590
+quantize these classical fields to get
+quantum fields, you can watch video 21
+
+106
+00:02:05,590 --> 00:02:05,600
+quantum fields, you can watch video 21
+ 
+
+107
+00:02:05,600 --> 00:02:08,550
+quantum fields, you can watch video 21
+in this series.
+
+108
+00:02:08,550 --> 00:02:08,560
+in this series.
+ 
+
+109
+00:02:08,560 --> 00:02:10,469
+in this series.
+So let's start with the Klein Gordon
+
+110
+00:02:10,469 --> 00:02:10,479
+So let's start with the Klein Gordon
+ 
+
+111
+00:02:10,479 --> 00:02:12,869
+So let's start with the Klein Gordon
+equation which describes the behavior of
+
+112
+00:02:12,869 --> 00:02:12,879
+equation which describes the behavior of
+ 
+
+113
+00:02:12,879 --> 00:02:16,630
+equation which describes the behavior of
+a relativistic scalar field fi. As a
+
+114
+00:02:16,630 --> 00:02:16,640
+a relativistic scalar field fi. As a
+ 
+
+115
+00:02:16,640 --> 00:02:19,589
+a relativistic scalar field fi. As a
+review of video 21, a one-dimensional
+
+116
+00:02:19,589 --> 00:02:19,599
+review of video 21, a one-dimensional
+ 
+
+117
+00:02:19,599 --> 00:02:22,150
+review of video 21, a one-dimensional
+scalar field is like a one-dimensional
+
+118
+00:02:22,150 --> 00:02:22,160
+scalar field is like a one-dimensional
+ 
+
+119
+00:02:22,160 --> 00:02:25,110
+scalar field is like a one-dimensional
+collection of masses on springs all
+
+120
+00:02:25,110 --> 00:02:25,120
+collection of masses on springs all
+ 
+
+121
+00:02:25,120 --> 00:02:27,990
+collection of masses on springs all
+connected with rubber bands.
+
+122
+00:02:27,990 --> 00:02:28,000
+connected with rubber bands.
+ 
+
+123
+00:02:28,000 --> 00:02:30,550
+connected with rubber bands.
+X gives the location of a mass along the
+
+124
+00:02:30,550 --> 00:02:30,560
+X gives the location of a mass along the
+ 
+
+125
+00:02:30,560 --> 00:02:33,910
+X gives the location of a mass along the
+X ais and PH of X gives the amplitude of
+
+126
+00:02:33,910 --> 00:02:33,920
+X ais and PH of X gives the amplitude of
+ 
+
+127
+00:02:33,920 --> 00:02:37,910
+X ais and PH of X gives the amplitude of
+the mass located at position X.
+
+128
+00:02:37,910 --> 00:02:37,920
+the mass located at position X.
+ 
+
+129
+00:02:37,920 --> 00:02:40,710
+the mass located at position X.
+The kinetic energy of a specific mass is
+
+130
+00:02:40,710 --> 00:02:40,720
+The kinetic energy of a specific mass is
+ 
+
+131
+00:02:40,720 --> 00:02:42,470
+The kinetic energy of a specific mass is
+related to the square of the time
+
+132
+00:02:42,470 --> 00:02:42,480
+related to the square of the time
+ 
+
+133
+00:02:42,480 --> 00:02:45,589
+related to the square of the time
+derivative of f ofx, which indicates how
+
+134
+00:02:45,589 --> 00:02:45,599
+derivative of f ofx, which indicates how
+ 
+
+135
+00:02:45,599 --> 00:02:48,710
+derivative of f ofx, which indicates how
+fast the mass is shaking. Since we'll be
+
+136
+00:02:48,710 --> 00:02:48,720
+fast the mass is shaking. Since we'll be
+ 
+
+137
+00:02:48,720 --> 00:02:50,630
+fast the mass is shaking. Since we'll be
+working with special relativity, we
+
+138
+00:02:50,630 --> 00:02:50,640
+working with special relativity, we
+ 
+
+139
+00:02:50,640 --> 00:02:52,390
+working with special relativity, we
+always put a factor of the speed of
+
+140
+00:02:52,390 --> 00:02:52,400
+always put a factor of the speed of
+ 
+
+141
+00:02:52,400 --> 00:02:55,589
+always put a factor of the speed of
+light c next to the time t to give units
+
+142
+00:02:55,589 --> 00:02:55,599
+light c next to the time t to give units
+ 
+
+143
+00:02:55,599 --> 00:02:58,309
+light c next to the time t to give units
+of meters, which puts time on equal
+
+144
+00:02:58,309 --> 00:02:58,319
+of meters, which puts time on equal
+ 
+
+145
+00:02:58,319 --> 00:03:01,670
+of meters, which puts time on equal
+footing with space coordinates.
+
+146
+00:03:01,670 --> 00:03:01,680
+footing with space coordinates.
+ 
+
+147
+00:03:01,680 --> 00:03:04,149
+footing with space coordinates.
+The potential energy for a mass due to
+
+148
+00:03:04,149 --> 00:03:04,159
+The potential energy for a mass due to
+ 
+
+149
+00:03:04,159 --> 00:03:06,630
+The potential energy for a mass due to
+the extension of its spring is related
+
+150
+00:03:06,630 --> 00:03:06,640
+the extension of its spring is related
+ 
+
+151
+00:03:06,640 --> 00:03:09,350
+the extension of its spring is related
+to the square of the amplitude phi. So
+
+152
+00:03:09,350 --> 00:03:09,360
+to the square of the amplitude phi. So
+ 
+
+153
+00:03:09,360 --> 00:03:12,309
+to the square of the amplitude phi. So
+how much the spring is extended as well
+
+154
+00:03:12,309 --> 00:03:12,319
+how much the spring is extended as well
+ 
+
+155
+00:03:12,319 --> 00:03:14,630
+how much the spring is extended as well
+as the stiffness of the spring which is
+
+156
+00:03:14,630 --> 00:03:14,640
+as the stiffness of the spring which is
+ 
+
+157
+00:03:14,640 --> 00:03:17,990
+as the stiffness of the spring which is
+denoted with a spring constant.
+
+158
+00:03:17,990 --> 00:03:18,000
+denoted with a spring constant.
+ 
+
+159
+00:03:18,000 --> 00:03:20,630
+denoted with a spring constant.
+In field theory we commonly write this
+
+160
+00:03:20,630 --> 00:03:20,640
+In field theory we commonly write this
+ 
+
+161
+00:03:20,640 --> 00:03:22,949
+In field theory we commonly write this
+spring constant as mass times the speed
+
+162
+00:03:22,949 --> 00:03:22,959
+spring constant as mass times the speed
+ 
+
+163
+00:03:22,959 --> 00:03:25,670
+spring constant as mass times the speed
+of light C divided by the reduced planks
+
+164
+00:03:25,670 --> 00:03:25,680
+of light C divided by the reduced planks
+ 
+
+165
+00:03:25,680 --> 00:03:28,229
+of light C divided by the reduced planks
+constant H bar.
+
+166
+00:03:28,229 --> 00:03:28,239
+constant H bar.
+ 
+
+167
+00:03:28,239 --> 00:03:30,630
+constant H bar.
+So this is a mass term and we can think
+
+168
+00:03:30,630 --> 00:03:30,640
+So this is a mass term and we can think
+ 
+
+169
+00:03:30,640 --> 00:03:33,030
+So this is a mass term and we can think
+of the field's mass as sort of like the
+
+170
+00:03:33,030 --> 00:03:33,040
+of the field's mass as sort of like the
+ 
+
+171
+00:03:33,040 --> 00:03:35,830
+of the field's mass as sort of like the
+field's stiffness or how difficult it is
+
+172
+00:03:35,830 --> 00:03:35,840
+field's stiffness or how difficult it is
+ 
+
+173
+00:03:35,840 --> 00:03:39,350
+field's stiffness or how difficult it is
+to excite the field. The factors of C
+
+174
+00:03:39,350 --> 00:03:39,360
+to excite the field. The factors of C
+ 
+
+175
+00:03:39,360 --> 00:03:42,070
+to excite the field. The factors of C
+and H bar also help give this term
+
+176
+00:03:42,070 --> 00:03:42,080
+and H bar also help give this term
+ 
+
+177
+00:03:42,080 --> 00:03:43,830
+and H bar also help give this term
+consistent units with all the other
+
+178
+00:03:43,830 --> 00:03:43,840
+consistent units with all the other
+ 
+
+179
+00:03:43,840 --> 00:03:46,309
+consistent units with all the other
+terms in the equation which have units
+
+180
+00:03:46,309 --> 00:03:46,319
+terms in the equation which have units
+ 
+
+181
+00:03:46,319 --> 00:03:49,030
+terms in the equation which have units
+of 1 over distance squared.
+
+182
+00:03:49,030 --> 00:03:49,040
+of 1 over distance squared.
+ 
+
+183
+00:03:49,040 --> 00:03:51,430
+of 1 over distance squared.
+With purely classical fields, the factor
+
+184
+00:03:51,430 --> 00:03:51,440
+With purely classical fields, the factor
+ 
+
+185
+00:03:51,440 --> 00:03:54,550
+With purely classical fields, the factor
+of h bar is often left out, but I'm
+
+186
+00:03:54,550 --> 00:03:54,560
+of h bar is often left out, but I'm
+ 
+
+187
+00:03:54,560 --> 00:03:56,710
+of h bar is often left out, but I'm
+going to leave it in for these videos.
+
+188
+00:03:56,710 --> 00:03:56,720
+going to leave it in for these videos.
+ 
+
+189
+00:03:56,720 --> 00:03:58,470
+going to leave it in for these videos.
+even if we are dealing with classical
+
+190
+00:03:58,470 --> 00:03:58,480
+even if we are dealing with classical
+ 
+
+191
+00:03:58,480 --> 00:04:02,229
+even if we are dealing with classical
+fields that have not been quantized yet.
+
+192
+00:04:02,229 --> 00:04:02,239
+fields that have not been quantized yet.
+ 
+
+193
+00:04:02,239 --> 00:04:04,550
+fields that have not been quantized yet.
+Finally, there is also potential energy
+
+194
+00:04:04,550 --> 00:04:04,560
+Finally, there is also potential energy
+ 
+
+195
+00:04:04,560 --> 00:04:06,390
+Finally, there is also potential energy
+due to the rubber bands connecting the
+
+196
+00:04:06,390 --> 00:04:06,400
+due to the rubber bands connecting the
+ 
+
+197
+00:04:06,400 --> 00:04:09,429
+due to the rubber bands connecting the
+masses. When two neighboring masses are
+
+198
+00:04:09,429 --> 00:04:09,439
+masses. When two neighboring masses are
+ 
+
+199
+00:04:09,439 --> 00:04:11,429
+masses. When two neighboring masses are
+at different amplitudes, the rubber
+
+200
+00:04:11,429 --> 00:04:11,439
+at different amplitudes, the rubber
+ 
+
+201
+00:04:11,439 --> 00:04:13,110
+at different amplitudes, the rubber
+bands will try and pull them back
+
+202
+00:04:13,110 --> 00:04:13,120
+bands will try and pull them back
+ 
+
+203
+00:04:13,120 --> 00:04:15,830
+bands will try and pull them back
+together. So, this potential energy is
+
+204
+00:04:15,830 --> 00:04:15,840
+together. So, this potential energy is
+ 
+
+205
+00:04:15,840 --> 00:04:17,590
+together. So, this potential energy is
+related to the square of the derivative
+
+206
+00:04:17,590 --> 00:04:17,600
+related to the square of the derivative
+ 
+
+207
+00:04:17,600 --> 00:04:21,349
+related to the square of the derivative
+of phi with respect to x.
+
+208
+00:04:21,349 --> 00:04:21,359
+of phi with respect to x.
+ 
+
+209
+00:04:21,359 --> 00:04:23,590
+of phi with respect to x.
+We say that these energies are really
+
+210
+00:04:23,590 --> 00:04:23,600
+We say that these energies are really
+ 
+
+211
+00:04:23,600 --> 00:04:25,990
+We say that these energies are really
+energy densities because they give us
+
+212
+00:04:25,990 --> 00:04:26,000
+energy densities because they give us
+ 
+
+213
+00:04:26,000 --> 00:04:28,710
+energy densities because they give us
+the energy per mass located at position
+
+214
+00:04:28,710 --> 00:04:28,720
+the energy per mass located at position
+ 
+
+215
+00:04:28,720 --> 00:04:30,230
+the energy per mass located at position
+x.
+
+216
+00:04:30,230 --> 00:04:30,240
+x.
+ 
+
+217
+00:04:30,240 --> 00:04:32,310
+x.
+Taking the kinetic and potential energy
+
+218
+00:04:32,310 --> 00:04:32,320
+Taking the kinetic and potential energy
+ 
+
+219
+00:04:32,320 --> 00:04:34,710
+Taking the kinetic and potential energy
+densities, we can use their sum to get
+
+220
+00:04:34,710 --> 00:04:34,720
+densities, we can use their sum to get
+ 
+
+221
+00:04:34,720 --> 00:04:37,510
+densities, we can use their sum to get
+the field's Hamiltonian density and use
+
+222
+00:04:37,510 --> 00:04:37,520
+the field's Hamiltonian density and use
+ 
+
+223
+00:04:37,520 --> 00:04:39,110
+the field's Hamiltonian density and use
+their difference to get the field's
+
+224
+00:04:39,110 --> 00:04:39,120
+their difference to get the field's
+ 
+
+225
+00:04:39,120 --> 00:04:41,830
+their difference to get the field's
+lrangeian density.
+
+226
+00:04:41,830 --> 00:04:41,840
+lrangeian density.
+ 
+
+227
+00:04:41,840 --> 00:04:43,830
+lrangeian density.
+To get the equations of motion for the
+
+228
+00:04:43,830 --> 00:04:43,840
+To get the equations of motion for the
+ 
+
+229
+00:04:43,840 --> 00:04:46,230
+To get the equations of motion for the
+field, we can put this Klein Gordon
+
+230
+00:04:46,230 --> 00:04:46,240
+field, we can put this Klein Gordon
+ 
+
+231
+00:04:46,240 --> 00:04:48,390
+field, we can put this Klein Gordon
+Lrangeian through the Oiler Lrange
+
+232
+00:04:48,390 --> 00:04:48,400
+Lrangeian through the Oiler Lrange
+ 
+
+233
+00:04:48,400 --> 00:04:50,629
+Lrangeian through the Oiler Lrange
+equation for fields.
+
+234
+00:04:50,629 --> 00:04:50,639
+equation for fields.
+ 
+
+235
+00:04:50,639 --> 00:04:52,710
+equation for fields.
+To do this, I'm going to rewrite the
+
+236
+00:04:52,710 --> 00:04:52,720
+To do this, I'm going to rewrite the
+ 
+
+237
+00:04:52,720 --> 00:04:56,629
+To do this, I'm going to rewrite the
+derivatives using subscript notation.
+
+238
+00:04:56,629 --> 00:04:56,639
+derivatives using subscript notation.
+ 
+
+239
+00:04:56,639 --> 00:04:58,629
+derivatives using subscript notation.
+Now, with the field oiler lrange
+
+240
+00:04:58,629 --> 00:04:58,639
+Now, with the field oiler lrange
+ 
+
+241
+00:04:58,639 --> 00:05:01,430
+Now, with the field oiler lrange
+equations, we treat the field phi and
+
+242
+00:05:01,430 --> 00:05:01,440
+equations, we treat the field phi and
+ 
+
+243
+00:05:01,440 --> 00:05:03,350
+equations, we treat the field phi and
+its derivatives as independent
+
+244
+00:05:03,350 --> 00:05:03,360
+its derivatives as independent
+ 
+
+245
+00:05:03,360 --> 00:05:05,909
+its derivatives as independent
+variables. So, taking the partial
+
+246
+00:05:05,909 --> 00:05:05,919
+variables. So, taking the partial
+ 
+
+247
+00:05:05,919 --> 00:05:08,550
+variables. So, taking the partial
+derivative with respect to phi. All
+
+248
+00:05:08,550 --> 00:05:08,560
+derivative with respect to phi. All
+ 
+
+249
+00:05:08,560 --> 00:05:11,670
+derivative with respect to phi. All
+terms go to zero except the last one
+
+250
+00:05:11,670 --> 00:05:11,680
+terms go to zero except the last one
+ 
+
+251
+00:05:11,680 --> 00:05:14,070
+terms go to zero except the last one
+where power rule decreases the power by
+
+252
+00:05:14,070 --> 00:05:14,080
+where power rule decreases the power by
+ 
+
+253
+00:05:14,080 --> 00:05:18,310
+where power rule decreases the power by
+one and brings a factor of two in front.
+
+254
+00:05:18,310 --> 00:05:18,320
+one and brings a factor of two in front.
+ 
+
+255
+00:05:18,320 --> 00:05:20,150
+one and brings a factor of two in front.
+For taking the derivative with respect
+
+256
+00:05:20,150 --> 00:05:20,160
+For taking the derivative with respect
+ 
+
+257
+00:05:20,160 --> 00:05:22,550
+For taking the derivative with respect
+to partial ctfi,
+
+258
+00:05:22,550 --> 00:05:22,560
+to partial ctfi,
+ 
+
+259
+00:05:22,560 --> 00:05:24,870
+to partial ctfi,
+all terms go to zero except the first
+
+260
+00:05:24,870 --> 00:05:24,880
+all terms go to zero except the first
+ 
+
+261
+00:05:24,880 --> 00:05:28,710
+all terms go to zero except the first
+one and power rule gives us partial ctfi
+
+262
+00:05:28,710 --> 00:05:28,720
+one and power rule gives us partial ctfi
+ 
+
+263
+00:05:28,720 --> 00:05:31,029
+one and power rule gives us partial ctfi
+as a result.
+
+264
+00:05:31,029 --> 00:05:31,039
+as a result.
+ 
+
+265
+00:05:31,039 --> 00:05:33,189
+as a result.
+Similarly, for the partial xfi
+
+266
+00:05:33,189 --> 00:05:33,199
+Similarly, for the partial xfi
+ 
+
+267
+00:05:33,199 --> 00:05:36,070
+Similarly, for the partial xfi
+derivative, we get negative partial xfi
+
+268
+00:05:36,070 --> 00:05:36,080
+derivative, we get negative partial xfi
+ 
+
+269
+00:05:36,080 --> 00:05:38,310
+derivative, we get negative partial xfi
+as a result.
+
+270
+00:05:38,310 --> 00:05:38,320
+as a result.
+ 
+
+271
+00:05:38,320 --> 00:05:40,710
+as a result.
+Knowing all this, if we expand the sum
+
+272
+00:05:40,710 --> 00:05:40,720
+Knowing all this, if we expand the sum
+ 
+
+273
+00:05:40,720 --> 00:05:43,189
+Knowing all this, if we expand the sum
+in the Oiler Lrange equation to include
+
+274
+00:05:43,189 --> 00:05:43,199
+in the Oiler Lrange equation to include
+ 
+
+275
+00:05:43,199 --> 00:05:46,150
+in the Oiler Lrange equation to include
+the time and x indices and plug in the
+
+276
+00:05:46,150 --> 00:05:46,160
+the time and x indices and plug in the
+ 
+
+277
+00:05:46,160 --> 00:05:48,710
+the time and x indices and plug in the
+derivative terms, when we bring
+
+278
+00:05:48,710 --> 00:05:48,720
+derivative terms, when we bring
+ 
+
+279
+00:05:48,720 --> 00:05:50,950
+derivative terms, when we bring
+everything to one side, we get the Klein
+
+280
+00:05:50,950 --> 00:05:50,960
+everything to one side, we get the Klein
+ 
+
+281
+00:05:50,960 --> 00:05:53,830
+everything to one side, we get the Klein
+Gordon equation. This is the equation of
+
+282
+00:05:53,830 --> 00:05:53,840
+Gordon equation. This is the equation of
+ 
+
+283
+00:05:53,840 --> 00:05:56,469
+Gordon equation. This is the equation of
+motion for a scalar field phi that we
+
+284
+00:05:56,469 --> 00:05:56,479
+motion for a scalar field phi that we
+ 
+
+285
+00:05:56,479 --> 00:06:00,550
+motion for a scalar field phi that we
+described with the Klein Gordon Lronian.
+
+286
+00:06:00,550 --> 00:06:00,560
+described with the Klein Gordon Lronian.
+ 
+
+287
+00:06:00,560 --> 00:06:02,390
+described with the Klein Gordon Lronian.
+If we want to extend this to a
+
+288
+00:06:02,390 --> 00:06:02,400
+If we want to extend this to a
+ 
+
+289
+00:06:02,400 --> 00:06:04,309
+If we want to extend this to a
+three-dimensional Klein Gordon field
+
+290
+00:06:04,309 --> 00:06:04,319
+three-dimensional Klein Gordon field
+ 
+
+291
+00:06:04,319 --> 00:06:07,510
+three-dimensional Klein Gordon field
+that depends on X, Y, and Zed, we just
+
+292
+00:06:07,510 --> 00:06:07,520
+that depends on X, Y, and Zed, we just
+ 
+
+293
+00:06:07,520 --> 00:06:09,830
+that depends on X, Y, and Zed, we just
+need to include gradient terms in the
+
+294
+00:06:09,830 --> 00:06:09,840
+need to include gradient terms in the
+ 
+
+295
+00:06:09,840 --> 00:06:12,790
+need to include gradient terms in the
+potential energy density for the Y and Z
+
+296
+00:06:12,790 --> 00:06:12,800
+potential energy density for the Y and Z
+ 
+
+297
+00:06:12,800 --> 00:06:15,830
+potential energy density for the Y and Z
+directions. And these get corresponding
+
+298
+00:06:15,830 --> 00:06:15,840
+directions. And these get corresponding
+ 
+
+299
+00:06:15,840 --> 00:06:19,670
+directions. And these get corresponding
+terms in the Klein Gordon equation.
+
+300
+00:06:19,670 --> 00:06:19,680
+terms in the Klein Gordon equation.
+ 
+
+301
+00:06:19,680 --> 00:06:22,150
+terms in the Klein Gordon equation.
+Now, if we pull out the fi field in
+
+302
+00:06:22,150 --> 00:06:22,160
+Now, if we pull out the fi field in
+ 
+
+303
+00:06:22,160 --> 00:06:24,870
+Now, if we pull out the fi field in
+front, we can notice all these second
+
+304
+00:06:24,870 --> 00:06:24,880
+front, we can notice all these second
+ 
+
+305
+00:06:24,880 --> 00:06:27,670
+front, we can notice all these second
+derivative terms in the four space-time
+
+306
+00:06:27,670 --> 00:06:27,680
+derivative terms in the four space-time
+ 
+
+307
+00:06:27,680 --> 00:06:29,189
+derivative terms in the four space-time
+directions.
+
+308
+00:06:29,189 --> 00:06:29,199
+directions.
+ 
+
+309
+00:06:29,199 --> 00:06:31,270
+directions.
+The time derivative has a plus sign in
+
+310
+00:06:31,270 --> 00:06:31,280
+The time derivative has a plus sign in
+ 
+
+311
+00:06:31,280 --> 00:06:33,590
+The time derivative has a plus sign in
+front and the space derivatives all get
+
+312
+00:06:33,590 --> 00:06:33,600
+front and the space derivatives all get
+ 
+
+313
+00:06:33,600 --> 00:06:35,670
+front and the space derivatives all get
+minus signs.
+
+314
+00:06:35,670 --> 00:06:35,680
+minus signs.
+ 
+
+315
+00:06:35,680 --> 00:06:38,230
+minus signs.
+We can write this sum of four terms
+
+316
+00:06:38,230 --> 00:06:38,240
+We can write this sum of four terms
+ 
+
+317
+00:06:38,240 --> 00:06:40,870
+We can write this sum of four terms
+using arrays with an inner row column
+
+318
+00:06:40,870 --> 00:06:40,880
+using arrays with an inner row column
+ 
+
+319
+00:06:40,880 --> 00:06:43,749
+using arrays with an inner row column
+product. If we include this matrix in
+
+320
+00:06:43,749 --> 00:06:43,759
+product. If we include this matrix in
+ 
+
+321
+00:06:43,759 --> 00:06:45,909
+product. If we include this matrix in
+the middle that have the correct signs
+
+322
+00:06:45,909 --> 00:06:45,919
+the middle that have the correct signs
+ 
+
+323
+00:06:45,919 --> 00:06:49,110
+the middle that have the correct signs
+along the diagonal. This is the manovsky
+
+324
+00:06:49,110 --> 00:06:49,120
+along the diagonal. This is the manovsky
+ 
+
+325
+00:06:49,120 --> 00:06:50,950
+along the diagonal. This is the manovsky
+metric ADA that you should recognize
+
+326
+00:06:50,950 --> 00:06:50,960
+metric ADA that you should recognize
+ 
+
+327
+00:06:50,960 --> 00:06:53,749
+metric ADA that you should recognize
+from special relativity.
+
+328
+00:06:53,749 --> 00:06:53,759
+from special relativity.
+ 
+
+329
+00:06:53,759 --> 00:06:55,430
+from special relativity.
+We can also write this array
+
+330
+00:06:55,430 --> 00:06:55,440
+We can also write this array
+ 
+
+331
+00:06:55,440 --> 00:06:57,990
+We can also write this array
+multiplication using Einstein summation
+
+332
+00:06:57,990 --> 00:06:58,000
+multiplication using Einstein summation
+ 
+
+333
+00:06:58,000 --> 00:06:59,909
+multiplication using Einstein summation
+notation where we have implied
+
+334
+00:06:59,909 --> 00:06:59,919
+notation where we have implied
+ 
+
+335
+00:06:59,919 --> 00:07:02,950
+notation where we have implied
+summations over the mu and new indices
+
+336
+00:07:02,950 --> 00:07:02,960
+summations over the mu and new indices
+ 
+
+337
+00:07:02,960 --> 00:07:07,510
+summations over the mu and new indices
+that range from 0 to 3. Here index 0
+
+338
+00:07:07,510 --> 00:07:07,520
+that range from 0 to 3. Here index 0
+ 
+
+339
+00:07:07,520 --> 00:07:11,909
+that range from 0 to 3. Here index 0
+indicates the time ct and indices 1 2 3
+
+340
+00:07:11,909 --> 00:07:11,919
+indicates the time ct and indices 1 2 3
+ 
+
+341
+00:07:11,919 --> 00:07:15,909
+indicates the time ct and indices 1 2 3
+indicates the space directions xyz.
+
+342
+00:07:15,909 --> 00:07:15,919
+indicates the space directions xyz.
+ 
+
+343
+00:07:15,919 --> 00:07:18,629
+indicates the space directions xyz.
+With these spac-time summation indices,
+
+344
+00:07:18,629 --> 00:07:18,639
+With these spac-time summation indices,
+ 
+
+345
+00:07:18,639 --> 00:07:20,950
+With these spac-time summation indices,
+it's very common to use the notation of
+
+346
+00:07:20,950 --> 00:07:20,960
+it's very common to use the notation of
+ 
+
+347
+00:07:20,960 --> 00:07:23,510
+it's very common to use the notation of
+raising and lowering indices using the
+
+348
+00:07:23,510 --> 00:07:23,520
+raising and lowering indices using the
+ 
+
+349
+00:07:23,520 --> 00:07:27,510
+raising and lowering indices using the
+manovsky metric ADA. For example, we can
+
+350
+00:07:27,510 --> 00:07:27,520
+manovsky metric ADA. For example, we can
+ 
+
+351
+00:07:27,520 --> 00:07:29,670
+manovsky metric ADA. For example, we can
+take the ADA summed with a derivative
+
+352
+00:07:29,670 --> 00:07:29,680
+take the ADA summed with a derivative
+ 
+
+353
+00:07:29,680 --> 00:07:32,070
+take the ADA summed with a derivative
+with a lowered index and replace it with
+
+354
+00:07:32,070 --> 00:07:32,080
+with a lowered index and replace it with
+ 
+
+355
+00:07:32,080 --> 00:07:35,029
+with a lowered index and replace it with
+a derivative with a raised index. This
+
+356
+00:07:35,029 --> 00:07:35,039
+a derivative with a raised index. This
+ 
+
+357
+00:07:35,039 --> 00:07:36,629
+a derivative with a raised index. This
+allows us to write the Klein Gordon
+
+358
+00:07:36,629 --> 00:07:36,639
+allows us to write the Klein Gordon
+ 
+
+359
+00:07:36,639 --> 00:07:39,670
+allows us to write the Klein Gordon
+equation like this.
+
+360
+00:07:39,670 --> 00:07:39,680
+equation like this.
+ 
+
+361
+00:07:39,680 --> 00:07:41,749
+equation like this.
+So now that we have some background with
+
+362
+00:07:41,749 --> 00:07:41,759
+So now that we have some background with
+ 
+
+363
+00:07:41,759 --> 00:07:44,070
+So now that we have some background with
+the Klein Gordon equation, let's
+
+364
+00:07:44,070 --> 00:07:44,080
+the Klein Gordon equation, let's
+ 
+
+365
+00:07:44,080 --> 00:07:46,950
+the Klein Gordon equation, let's
+actually solve it. This is the Klein
+
+366
+00:07:46,950 --> 00:07:46,960
+actually solve it. This is the Klein
+ 
+
+367
+00:07:46,960 --> 00:07:49,029
+actually solve it. This is the Klein
+Gordon equation with three dimensions of
+
+368
+00:07:49,029 --> 00:07:49,039
+Gordon equation with three dimensions of
+ 
+
+369
+00:07:49,039 --> 00:07:51,670
+Gordon equation with three dimensions of
+space and one dimension of time, also
+
+370
+00:07:51,670 --> 00:07:51,680
+space and one dimension of time, also
+ 
+
+371
+00:07:51,680 --> 00:07:55,029
+space and one dimension of time, also
+called 3 + 1 spacetime. And its solution
+
+372
+00:07:55,029 --> 00:07:55,039
+called 3 + 1 spacetime. And its solution
+ 
+
+373
+00:07:55,039 --> 00:07:57,589
+called 3 + 1 spacetime. And its solution
+is a little more complicated. So to
+
+374
+00:07:57,589 --> 00:07:57,599
+is a little more complicated. So to
+ 
+
+375
+00:07:57,599 --> 00:07:59,909
+is a little more complicated. So to
+simplify things, we'll get rid of the y
+
+376
+00:07:59,909 --> 00:07:59,919
+simplify things, we'll get rid of the y
+ 
+
+377
+00:07:59,919 --> 00:08:02,150
+simplify things, we'll get rid of the y
+and zed directions and just look at the
+
+378
+00:08:02,150 --> 00:08:02,160
+and zed directions and just look at the
+ 
+
+379
+00:08:02,160 --> 00:08:03,990
+and zed directions and just look at the
+Klein Gordon equation with one dimension
+
+380
+00:08:03,990 --> 00:08:04,000
+Klein Gordon equation with one dimension
+ 
+
+381
+00:08:04,000 --> 00:08:06,390
+Klein Gordon equation with one dimension
+of space and one dimension of time,
+
+382
+00:08:06,390 --> 00:08:06,400
+of space and one dimension of time,
+ 
+
+383
+00:08:06,400 --> 00:08:09,589
+of space and one dimension of time,
+which is the 1 + 1 space-time version.
+
+384
+00:08:09,589 --> 00:08:09,599
+which is the 1 + 1 space-time version.
+ 
+
+385
+00:08:09,599 --> 00:08:11,430
+which is the 1 + 1 space-time version.
+So we're only going to look at the time
+
+386
+00:08:11,430 --> 00:08:11,440
+So we're only going to look at the time
+ 
+
+387
+00:08:11,440 --> 00:08:14,150
+So we're only going to look at the time
+and x terms and ignore the y and zed
+
+388
+00:08:14,150 --> 00:08:14,160
+and x terms and ignore the y and zed
+ 
+
+389
+00:08:14,160 --> 00:08:16,150
+and x terms and ignore the y and zed
+terms.
+
+390
+00:08:16,150 --> 00:08:16,160
+terms.
+ 
+
+391
+00:08:16,160 --> 00:08:18,070
+terms.
+The solutions to this Klein Gordon
+
+392
+00:08:18,070 --> 00:08:18,080
+The solutions to this Klein Gordon
+ 
+
+393
+00:08:18,080 --> 00:08:21,430
+The solutions to this Klein Gordon
+equation are given by cosine waves where
+
+394
+00:08:21,430 --> 00:08:21,440
+equation are given by cosine waves where
+ 
+
+395
+00:08:21,440 --> 00:08:23,589
+equation are given by cosine waves where
+omega is the wave's angular frequency in
+
+396
+00:08:23,589 --> 00:08:23,599
+omega is the wave's angular frequency in
+ 
+
+397
+00:08:23,599 --> 00:08:26,150
+omega is the wave's angular frequency in
+time and K is the wave's angular
+
+398
+00:08:26,150 --> 00:08:26,160
+time and K is the wave's angular
+ 
+
+399
+00:08:26,160 --> 00:08:28,950
+time and K is the wave's angular
+frequency in space, also called the
+
+400
+00:08:28,950 --> 00:08:28,960
+frequency in space, also called the
+ 
+
+401
+00:08:28,960 --> 00:08:31,990
+frequency in space, also called the
+angular wave number. You might find it a
+
+402
+00:08:31,990 --> 00:08:32,000
+angular wave number. You might find it a
+ 
+
+403
+00:08:32,000 --> 00:08:33,750
+angular wave number. You might find it a
+bit weird how I'm dividing the frequency
+
+404
+00:08:33,750 --> 00:08:33,760
+bit weird how I'm dividing the frequency
+ 
+
+405
+00:08:33,760 --> 00:08:37,190
+bit weird how I'm dividing the frequency
+by C and then multiplying time by C
+
+406
+00:08:37,190 --> 00:08:37,200
+by C and then multiplying time by C
+ 
+
+407
+00:08:37,200 --> 00:08:39,029
+by C and then multiplying time by C
+since these factors would just cancel
+
+408
+00:08:39,029 --> 00:08:39,039
+since these factors would just cancel
+ 
+
+409
+00:08:39,039 --> 00:08:42,389
+since these factors would just cancel
+out. But these extra factors of C ensure
+
+410
+00:08:42,389 --> 00:08:42,399
+out. But these extra factors of C ensure
+ 
+
+411
+00:08:42,399 --> 00:08:45,430
+out. But these extra factors of C ensure
+both time and space have units of meters
+
+412
+00:08:45,430 --> 00:08:45,440
+both time and space have units of meters
+ 
+
+413
+00:08:45,440 --> 00:08:47,430
+both time and space have units of meters
+and ensure that frequency and wave
+
+414
+00:08:47,430 --> 00:08:47,440
+and ensure that frequency and wave
+ 
+
+415
+00:08:47,440 --> 00:08:49,350
+and ensure that frequency and wave
+number both have units of one over
+
+416
+00:08:49,350 --> 00:08:49,360
+number both have units of one over
+ 
+
+417
+00:08:49,360 --> 00:08:52,230
+number both have units of one over
+meters. If you like, you can cancel
+
+418
+00:08:52,230 --> 00:08:52,240
+meters. If you like, you can cancel
+ 
+
+419
+00:08:52,240 --> 00:08:55,190
+meters. If you like, you can cancel
+these C's or use natural units and set C
+
+420
+00:08:55,190 --> 00:08:55,200
+these C's or use natural units and set C
+ 
+
+421
+00:08:55,200 --> 00:08:57,269
+these C's or use natural units and set C
+equal to one. But I'm going to leave
+
+422
+00:08:57,269 --> 00:08:57,279
+equal to one. But I'm going to leave
+ 
+
+423
+00:08:57,279 --> 00:09:00,389
+equal to one. But I'm going to leave
+these factors of C in
+
+424
+00:09:00,389 --> 00:09:00,399
+these factors of C in
+ 
+
+425
+00:09:00,399 --> 00:09:03,190
+these factors of C in
+to see why this cosine solution works.
+
+426
+00:09:03,190 --> 00:09:03,200
+to see why this cosine solution works.
+ 
+
+427
+00:09:03,200 --> 00:09:05,110
+to see why this cosine solution works.
+Let's look at the Klein Gordon equation
+
+428
+00:09:05,110 --> 00:09:05,120
+Let's look at the Klein Gordon equation
+ 
+
+429
+00:09:05,120 --> 00:09:07,750
+Let's look at the Klein Gordon equation
+term by term. To take the derivative
+
+430
+00:09:07,750 --> 00:09:07,760
+term by term. To take the derivative
+ 
+
+431
+00:09:07,760 --> 00:09:11,110
+term by term. To take the derivative
+with respect to ct, we treat ct as a
+
+432
+00:09:11,110 --> 00:09:11,120
+with respect to ct, we treat ct as a
+ 
+
+433
+00:09:11,120 --> 00:09:13,590
+with respect to ct, we treat ct as a
+single variable in the formula.
+
+434
+00:09:13,590 --> 00:09:13,600
+single variable in the formula.
+ 
+
+435
+00:09:13,600 --> 00:09:16,389
+single variable in the formula.
+Equivalently, we can treat this as 1 / c
+
+436
+00:09:16,389 --> 00:09:16,399
+Equivalently, we can treat this as 1 / c
+ 
+
+437
+00:09:16,399 --> 00:09:19,670
+Equivalently, we can treat this as 1 / c
+* a time derivative. If you want,
+
+438
+00:09:19,670 --> 00:09:19,680
+* a time derivative. If you want,
+ 
+
+439
+00:09:19,680 --> 00:09:21,990
+* a time derivative. If you want,
+so the derivative of cosine is negative
+
+440
+00:09:21,990 --> 00:09:22,000
+so the derivative of cosine is negative
+ 
+
+441
+00:09:22,000 --> 00:09:24,790
+so the derivative of cosine is negative
+sign. And by chain rule, we get a factor
+
+442
+00:09:24,790 --> 00:09:24,800
+sign. And by chain rule, we get a factor
+ 
+
+443
+00:09:24,800 --> 00:09:28,550
+sign. And by chain rule, we get a factor
+of omega / c. If we take the derivative
+
+444
+00:09:28,550 --> 00:09:28,560
+of omega / c. If we take the derivative
+ 
+
+445
+00:09:28,560 --> 00:09:31,430
+of omega / c. If we take the derivative
+again, s becomes cosine and we get
+
+446
+00:09:31,430 --> 00:09:31,440
+again, s becomes cosine and we get
+ 
+
+447
+00:09:31,440 --> 00:09:33,990
+again, s becomes cosine and we get
+another factor of omega / c by chain
+
+448
+00:09:33,990 --> 00:09:34,000
+another factor of omega / c by chain
+ 
+
+449
+00:09:34,000 --> 00:09:37,670
+another factor of omega / c by chain
+rule. So for our cosine solution we see
+
+450
+00:09:37,670 --> 00:09:37,680
+rule. So for our cosine solution we see
+ 
+
+451
+00:09:37,680 --> 00:09:39,829
+rule. So for our cosine solution we see
+that phi and the second derivative of
+
+452
+00:09:39,829 --> 00:09:39,839
+that phi and the second derivative of
+ 
+
+453
+00:09:39,839 --> 00:09:42,230
+that phi and the second derivative of
+phi with respect to time are
+
+454
+00:09:42,230 --> 00:09:42,240
+phi with respect to time are
+ 
+
+455
+00:09:42,240 --> 00:09:44,710
+phi with respect to time are
+proportional where the proportionality
+
+456
+00:09:44,710 --> 00:09:44,720
+proportional where the proportionality
+ 
+
+457
+00:09:44,720 --> 00:09:46,710
+proportional where the proportionality
+constant is the negative frequency
+
+458
+00:09:46,710 --> 00:09:46,720
+constant is the negative frequency
+ 
+
+459
+00:09:46,720 --> 00:09:48,630
+constant is the negative frequency
+squared.
+
+460
+00:09:48,630 --> 00:09:48,640
+squared.
+ 
+
+461
+00:09:48,640 --> 00:09:51,269
+squared.
+If we look at the x derivative term we
+
+462
+00:09:51,269 --> 00:09:51,279
+If we look at the x derivative term we
+ 
+
+463
+00:09:51,279 --> 00:09:53,590
+If we look at the x derivative term we
+see that we get something similar except
+
+464
+00:09:53,590 --> 00:09:53,600
+see that we get something similar except
+ 
+
+465
+00:09:53,600 --> 00:09:55,509
+see that we get something similar except
+the proportionality constant is the
+
+466
+00:09:55,509 --> 00:09:55,519
+the proportionality constant is the
+ 
+
+467
+00:09:55,519 --> 00:09:58,870
+the proportionality constant is the
+negative wave number squared instead.
+
+468
+00:09:58,870 --> 00:09:58,880
+negative wave number squared instead.
+ 
+
+469
+00:09:58,880 --> 00:10:00,870
+negative wave number squared instead.
+So looking at the Klein Gordon equation
+
+470
+00:10:00,870 --> 00:10:00,880
+So looking at the Klein Gordon equation
+ 
+
+471
+00:10:00,880 --> 00:10:03,990
+So looking at the Klein Gordon equation
+and assuming our cosine solution, we can
+
+472
+00:10:03,990 --> 00:10:04,000
+and assuming our cosine solution, we can
+ 
+
+473
+00:10:04,000 --> 00:10:06,070
+and assuming our cosine solution, we can
+replace the second time derivative with
+
+474
+00:10:06,070 --> 00:10:06,080
+replace the second time derivative with
+ 
+
+475
+00:10:06,080 --> 00:10:08,310
+replace the second time derivative with
+negative frequency squared and replace
+
+476
+00:10:08,310 --> 00:10:08,320
+negative frequency squared and replace
+ 
+
+477
+00:10:08,320 --> 00:10:10,230
+negative frequency squared and replace
+the second x derivative with negative
+
+478
+00:10:10,230 --> 00:10:10,240
+the second x derivative with negative
+ 
+
+479
+00:10:10,240 --> 00:10:12,949
+the second x derivative with negative
+wave number squared.
+
+480
+00:10:12,949 --> 00:10:12,959
+wave number squared.
+ 
+
+481
+00:10:12,959 --> 00:10:15,350
+wave number squared.
+Finally, we can also combine these terms
+
+482
+00:10:15,350 --> 00:10:15,360
+Finally, we can also combine these terms
+ 
+
+483
+00:10:15,360 --> 00:10:17,910
+Finally, we can also combine these terms
+together and divide both sides by the
+
+484
+00:10:17,910 --> 00:10:17,920
+together and divide both sides by the
+ 
+
+485
+00:10:17,920 --> 00:10:19,829
+together and divide both sides by the
+field phi.
+
+486
+00:10:19,829 --> 00:10:19,839
+field phi.
+ 
+
+487
+00:10:19,839 --> 00:10:21,990
+field phi.
+In the end, we get this relationship
+
+488
+00:10:21,990 --> 00:10:22,000
+In the end, we get this relationship
+ 
+
+489
+00:10:22,000 --> 00:10:24,550
+In the end, we get this relationship
+here between mass, frequency, and wave
+
+490
+00:10:24,550 --> 00:10:24,560
+here between mass, frequency, and wave
+ 
+
+491
+00:10:24,560 --> 00:10:27,110
+here between mass, frequency, and wave
+number. This is called the dispersion
+
+492
+00:10:27,110 --> 00:10:27,120
+number. This is called the dispersion
+ 
+
+493
+00:10:27,120 --> 00:10:29,670
+number. This is called the dispersion
+relation and I'll explain why in a
+
+494
+00:10:29,670 --> 00:10:29,680
+relation and I'll explain why in a
+ 
+
+495
+00:10:29,680 --> 00:10:31,670
+relation and I'll explain why in a
+moment.
+
+496
+00:10:31,670 --> 00:10:31,680
+moment.
+ 
+
+497
+00:10:31,680 --> 00:10:33,590
+moment.
+So to solve the Klein Gordon equation,
+
+498
+00:10:33,590 --> 00:10:33,600
+So to solve the Klein Gordon equation,
+ 
+
+499
+00:10:33,600 --> 00:10:35,910
+So to solve the Klein Gordon equation,
+we can pick any cosine wave with any
+
+500
+00:10:35,910 --> 00:10:35,920
+we can pick any cosine wave with any
+ 
+
+501
+00:10:35,920 --> 00:10:38,710
+we can pick any cosine wave with any
+frequency or wave number as long as they
+
+502
+00:10:38,710 --> 00:10:38,720
+frequency or wave number as long as they
+ 
+
+503
+00:10:38,720 --> 00:10:41,750
+frequency or wave number as long as they
+obey this dispersion relation.
+
+504
+00:10:41,750 --> 00:10:41,760
+obey this dispersion relation.
+ 
+
+505
+00:10:41,760 --> 00:10:44,389
+obey this dispersion relation.
+It's also worth noting that if we take
+
+506
+00:10:44,389 --> 00:10:44,399
+It's also worth noting that if we take
+ 
+
+507
+00:10:44,399 --> 00:10:47,430
+It's also worth noting that if we take
+this basic cosine solution and include a
+
+508
+00:10:47,430 --> 00:10:47,440
+this basic cosine solution and include a
+ 
+
+509
+00:10:47,440 --> 00:10:51,110
+this basic cosine solution and include a
+scale factor a and a phase factor theta,
+
+510
+00:10:51,110 --> 00:10:51,120
+scale factor a and a phase factor theta,
+ 
+
+511
+00:10:51,120 --> 00:10:53,190
+scale factor a and a phase factor theta,
+this is still a solution to the Klein
+
+512
+00:10:53,190 --> 00:10:53,200
+this is still a solution to the Klein
+ 
+
+513
+00:10:53,200 --> 00:10:55,990
+this is still a solution to the Klein
+Gordon equation because the scale and
+
+514
+00:10:55,990 --> 00:10:56,000
+Gordon equation because the scale and
+ 
+
+515
+00:10:56,000 --> 00:10:58,069
+Gordon equation because the scale and
+phase factors don't impact the
+
+516
+00:10:58,069 --> 00:10:58,079
+phase factors don't impact the
+ 
+
+517
+00:10:58,079 --> 00:11:00,550
+phase factors don't impact the
+differential equation.
+
+518
+00:11:00,550 --> 00:11:00,560
+differential equation.
+ 
+
+519
+00:11:00,560 --> 00:11:03,110
+differential equation.
+You might also recall the cosine angle
+
+520
+00:11:03,110 --> 00:11:03,120
+You might also recall the cosine angle
+ 
+
+521
+00:11:03,120 --> 00:11:05,990
+You might also recall the cosine angle
+sum identity. This allows us to split
+
+522
+00:11:05,990 --> 00:11:06,000
+sum identity. This allows us to split
+ 
+
+523
+00:11:06,000 --> 00:11:08,790
+sum identity. This allows us to split
+the cosine into a sum of a term with
+
+524
+00:11:08,790 --> 00:11:08,800
+the cosine into a sum of a term with
+ 
+
+525
+00:11:08,800 --> 00:11:11,910
+the cosine into a sum of a term with
+cosiness and a term with ss. And we can
+
+526
+00:11:11,910 --> 00:11:11,920
+cosiness and a term with ss. And we can
+ 
+
+527
+00:11:11,920 --> 00:11:14,630
+cosiness and a term with ss. And we can
+rewrite the scale factor a times the
+
+528
+00:11:14,630 --> 00:11:14,640
+rewrite the scale factor a times the
+ 
+
+529
+00:11:14,640 --> 00:11:17,509
+rewrite the scale factor a times the
+trig functions of theta as new scaling
+
+530
+00:11:17,509 --> 00:11:17,519
+trig functions of theta as new scaling
+ 
+
+531
+00:11:17,519 --> 00:11:19,269
+trig functions of theta as new scaling
+constants.
+
+532
+00:11:19,269 --> 00:11:19,279
+constants.
+ 
+
+533
+00:11:19,279 --> 00:11:22,150
+constants.
+So giving the cosine wave a phase factor
+
+534
+00:11:22,150 --> 00:11:22,160
+So giving the cosine wave a phase factor
+ 
+
+535
+00:11:22,160 --> 00:11:24,470
+So giving the cosine wave a phase factor
+is the same thing as writing a sum of a
+
+536
+00:11:24,470 --> 00:11:24,480
+is the same thing as writing a sum of a
+ 
+
+537
+00:11:24,480 --> 00:11:27,910
+is the same thing as writing a sum of a
+cosine wave and a sine wave.
+
+538
+00:11:27,910 --> 00:11:27,920
+cosine wave and a sine wave.
+ 
+
+539
+00:11:27,920 --> 00:11:30,389
+cosine wave and a sine wave.
+Another way to rewrite the basic cosine
+
+540
+00:11:30,389 --> 00:11:30,399
+Another way to rewrite the basic cosine
+ 
+
+541
+00:11:30,399 --> 00:11:33,829
+Another way to rewrite the basic cosine
+solution is using Oilers's formula.
+
+542
+00:11:33,829 --> 00:11:33,839
+solution is using Oilers's formula.
+ 
+
+543
+00:11:33,839 --> 00:11:35,829
+solution is using Oilers's formula.
+Taking the real part of a complex
+
+544
+00:11:35,829 --> 00:11:35,839
+Taking the real part of a complex
+ 
+
+545
+00:11:35,839 --> 00:11:38,150
+Taking the real part of a complex
+exponential is the same thing as a
+
+546
+00:11:38,150 --> 00:11:38,160
+exponential is the same thing as a
+ 
+
+547
+00:11:38,160 --> 00:11:41,509
+exponential is the same thing as a
+cosine wave. We can also include the
+
+548
+00:11:41,509 --> 00:11:41,519
+cosine wave. We can also include the
+ 
+
+549
+00:11:41,519 --> 00:11:43,829
+cosine wave. We can also include the
+complex exponential of the phase factor
+
+550
+00:11:43,829 --> 00:11:43,839
+complex exponential of the phase factor
+ 
+
+551
+00:11:43,839 --> 00:11:47,269
+complex exponential of the phase factor
+theta into the real scale factor a to
+
+552
+00:11:47,269 --> 00:11:47,279
+theta into the real scale factor a to
+ 
+
+553
+00:11:47,279 --> 00:11:51,030
+theta into the real scale factor a to
+give us a new complex scale factor.
+
+554
+00:11:51,030 --> 00:11:51,040
+give us a new complex scale factor.
+ 
+
+555
+00:11:51,040 --> 00:11:52,949
+give us a new complex scale factor.
+So we can use the real part of this
+
+556
+00:11:52,949 --> 00:11:52,959
+So we can use the real part of this
+ 
+
+557
+00:11:52,959 --> 00:11:55,990
+So we can use the real part of this
+solution for real fields or we can use
+
+558
+00:11:55,990 --> 00:11:56,000
+solution for real fields or we can use
+ 
+
+559
+00:11:56,000 --> 00:11:58,710
+solution for real fields or we can use
+the entire complex wave if the field is
+
+560
+00:11:58,710 --> 00:11:58,720
+the entire complex wave if the field is
+ 
+
+561
+00:11:58,720 --> 00:12:01,430
+the entire complex wave if the field is
+complex.
+
+562
+00:12:01,430 --> 00:12:01,440
+complex.
+ 
+
+563
+00:12:01,440 --> 00:12:03,590
+complex.
+Now, one last thing to note about the
+
+564
+00:12:03,590 --> 00:12:03,600
+Now, one last thing to note about the
+ 
+
+565
+00:12:03,600 --> 00:12:05,750
+Now, one last thing to note about the
+Klein Gordon equation is that it's
+
+566
+00:12:05,750 --> 00:12:05,760
+Klein Gordon equation is that it's
+ 
+
+567
+00:12:05,760 --> 00:12:08,230
+Klein Gordon equation is that it's
+linear. This means that if we have a
+
+568
+00:12:08,230 --> 00:12:08,240
+linear. This means that if we have a
+ 
+
+569
+00:12:08,240 --> 00:12:11,750
+linear. This means that if we have a
+wave fi 1 and another wave fi 2, which
+
+570
+00:12:11,750 --> 00:12:11,760
+wave fi 1 and another wave fi 2, which
+ 
+
+571
+00:12:11,760 --> 00:12:14,230
+wave fi 1 and another wave fi 2, which
+both solve the Klein Gordon equation,
+
+572
+00:12:14,230 --> 00:12:14,240
+both solve the Klein Gordon equation,
+ 
+
+573
+00:12:14,240 --> 00:12:17,590
+both solve the Klein Gordon equation,
+then their sum fi 1 + 52 is also a
+
+574
+00:12:17,590 --> 00:12:17,600
+then their sum fi 1 + 52 is also a
+ 
+
+575
+00:12:17,600 --> 00:12:20,389
+then their sum fi 1 + 52 is also a
+solution to the Klein Gordon equation.
+
+576
+00:12:20,389 --> 00:12:20,399
+solution to the Klein Gordon equation.
+ 
+
+577
+00:12:20,399 --> 00:12:25,030
+solution to the Klein Gordon equation.
+This is easily checked as seen here.
+
+578
+00:12:25,030 --> 00:12:25,040
+This is easily checked as seen here.
+ 
+
+579
+00:12:25,040 --> 00:12:27,030
+This is easily checked as seen here.
+This means that we can add an infinite
+
+580
+00:12:27,030 --> 00:12:27,040
+This means that we can add an infinite
+ 
+
+581
+00:12:27,040 --> 00:12:28,550
+This means that we can add an infinite
+number of different wave solutions
+
+582
+00:12:28,550 --> 00:12:28,560
+number of different wave solutions
+ 
+
+583
+00:12:28,560 --> 00:12:31,509
+number of different wave solutions
+together to get another solution.
+
+584
+00:12:31,509 --> 00:12:31,519
+together to get another solution.
+ 
+
+585
+00:12:31,519 --> 00:12:33,590
+together to get another solution.
+We can even do an infinite continuous
+
+586
+00:12:33,590 --> 00:12:33,600
+We can even do an infinite continuous
+ 
+
+587
+00:12:33,600 --> 00:12:36,710
+We can even do an infinite continuous
+sum over basic cosine solutions by doing
+
+588
+00:12:36,710 --> 00:12:36,720
+sum over basic cosine solutions by doing
+ 
+
+589
+00:12:36,720 --> 00:12:39,430
+sum over basic cosine solutions by doing
+an integral over the wave number K since
+
+590
+00:12:39,430 --> 00:12:39,440
+an integral over the wave number K since
+ 
+
+591
+00:12:39,440 --> 00:12:43,110
+an integral over the wave number K since
+K is a continuous variable.
+
+592
+00:12:43,110 --> 00:12:43,120
+K is a continuous variable.
+ 
+
+593
+00:12:43,120 --> 00:12:45,430
+K is a continuous variable.
+It's also worth noting that in the most
+
+594
+00:12:45,430 --> 00:12:45,440
+It's also worth noting that in the most
+ 
+
+595
+00:12:45,440 --> 00:12:48,470
+It's also worth noting that in the most
+general case both cosine and sine waves
+
+596
+00:12:48,470 --> 00:12:48,480
+general case both cosine and sine waves
+ 
+
+597
+00:12:48,480 --> 00:12:50,629
+general case both cosine and sine waves
+solve the equation and we can
+
+598
+00:12:50,629 --> 00:12:50,639
+solve the equation and we can
+ 
+
+599
+00:12:50,639 --> 00:12:52,870
+solve the equation and we can
+alternatively write the solutions using
+
+600
+00:12:52,870 --> 00:12:52,880
+alternatively write the solutions using
+ 
+
+601
+00:12:52,880 --> 00:12:56,550
+alternatively write the solutions using
+complex exponentials if we want.
+
+602
+00:12:56,550 --> 00:12:56,560
+complex exponentials if we want.
+ 
+
+603
+00:12:56,560 --> 00:12:58,949
+complex exponentials if we want.
+So we know for the 1D Klein Gordon
+
+604
+00:12:58,949 --> 00:12:58,959
+So we know for the 1D Klein Gordon
+ 
+
+605
+00:12:58,959 --> 00:13:01,030
+So we know for the 1D Klein Gordon
+equation the basis solutions are
+
+606
+00:13:01,030 --> 00:13:01,040
+equation the basis solutions are
+ 
+
+607
+00:13:01,040 --> 00:13:03,110
+equation the basis solutions are
+sinosoidal waves that obey this
+
+608
+00:13:03,110 --> 00:13:03,120
+sinosoidal waves that obey this
+ 
+
+609
+00:13:03,120 --> 00:13:05,670
+sinosoidal waves that obey this
+dispersion relation. And since the Klein
+
+610
+00:13:05,670 --> 00:13:05,680
+dispersion relation. And since the Klein
+ 
+
+611
+00:13:05,680 --> 00:13:07,829
+dispersion relation. And since the Klein
+Gordon equation is linear, we can add
+
+612
+00:13:07,829 --> 00:13:07,839
+Gordon equation is linear, we can add
+ 
+
+613
+00:13:07,839 --> 00:13:09,750
+Gordon equation is linear, we can add
+any number of these basic syosoidal
+
+614
+00:13:09,750 --> 00:13:09,760
+any number of these basic syosoidal
+ 
+
+615
+00:13:09,760 --> 00:13:11,509
+any number of these basic syosoidal
+solutions together to get a new
+
+616
+00:13:11,509 --> 00:13:11,519
+solutions together to get a new
+ 
+
+617
+00:13:11,519 --> 00:13:13,110
+solutions together to get a new
+solution.
+
+618
+00:13:13,110 --> 00:13:13,120
+solution.
+ 
+
+619
+00:13:13,120 --> 00:13:15,110
+solution.
+Generalizing to the three spaced
+
+620
+00:13:15,110 --> 00:13:15,120
+Generalizing to the three spaced
+ 
+
+621
+00:13:15,120 --> 00:13:16,870
+Generalizing to the three spaced
+dimensional version of the Klein Gordon
+
+622
+00:13:16,870 --> 00:13:16,880
+dimensional version of the Klein Gordon
+ 
+
+623
+00:13:16,880 --> 00:13:19,670
+dimensional version of the Klein Gordon
+equation is easy. We just use the same
+
+624
+00:13:19,670 --> 00:13:19,680
+equation is easy. We just use the same
+ 
+
+625
+00:13:19,680 --> 00:13:23,110
+equation is easy. We just use the same
+basic cosine solution, but using x, y,
+
+626
+00:13:23,110 --> 00:13:23,120
+basic cosine solution, but using x, y,
+ 
+
+627
+00:13:23,120 --> 00:13:26,069
+basic cosine solution, but using x, y,
+and zed terms where each of x, y, and
+
+628
+00:13:26,069 --> 00:13:26,079
+and zed terms where each of x, y, and
+ 
+
+629
+00:13:26,079 --> 00:13:29,350
+and zed terms where each of x, y, and
+zed has its own wave number.
+
+630
+00:13:29,350 --> 00:13:29,360
+zed has its own wave number.
+ 
+
+631
+00:13:29,360 --> 00:13:32,069
+zed has its own wave number.
+If we define omega over c as the time
+
+632
+00:13:32,069 --> 00:13:32,079
+If we define omega over c as the time
+ 
+
+633
+00:13:32,079 --> 00:13:34,629
+If we define omega over c as the time
+component of the wave number, these four
+
+634
+00:13:34,629 --> 00:13:34,639
+component of the wave number, these four
+ 
+
+635
+00:13:34,639 --> 00:13:36,949
+component of the wave number, these four
+k components can be assembled into a
+
+636
+00:13:36,949 --> 00:13:36,959
+k components can be assembled into a
+ 
+
+637
+00:13:36,959 --> 00:13:39,670
+k components can be assembled into a
+four vector called the wave number four
+
+638
+00:13:39,670 --> 00:13:39,680
+four vector called the wave number four
+ 
+
+639
+00:13:39,680 --> 00:13:41,190
+four vector called the wave number four
+vector.
+
+640
+00:13:41,190 --> 00:13:41,200
+vector.
+ 
+
+641
+00:13:41,200 --> 00:13:43,430
+vector.
+And we can rewrite the cosine argument
+
+642
+00:13:43,430 --> 00:13:43,440
+And we can rewrite the cosine argument
+ 
+
+643
+00:13:43,440 --> 00:13:46,150
+And we can rewrite the cosine argument
+as a simple summation.
+
+644
+00:13:46,150 --> 00:13:46,160
+as a simple summation.
+ 
+
+645
+00:13:46,160 --> 00:13:49,030
+as a simple summation.
+We call these basic solutions plain wave
+
+646
+00:13:49,030 --> 00:13:49,040
+We call these basic solutions plain wave
+ 
+
+647
+00:13:49,040 --> 00:13:50,550
+We call these basic solutions plain wave
+solutions
+
+648
+00:13:50,550 --> 00:13:50,560
+solutions
+ 
+
+649
+00:13:50,560 --> 00:13:52,230
+solutions
+because the components of the wave
+
+650
+00:13:52,230 --> 00:13:52,240
+because the components of the wave
+ 
+
+651
+00:13:52,240 --> 00:13:54,870
+because the components of the wave
+number vector indicate the orientation
+
+652
+00:13:54,870 --> 00:13:54,880
+number vector indicate the orientation
+ 
+
+653
+00:13:54,880 --> 00:13:58,790
+number vector indicate the orientation
+of planes in the wave.
+
+654
+00:13:58,790 --> 00:13:58,800
+of planes in the wave.
+ 
+
+655
+00:13:58,800 --> 00:14:01,030
+of planes in the wave.
+Now, since the Klein Gordon equation has
+
+656
+00:14:01,030 --> 00:14:01,040
+Now, since the Klein Gordon equation has
+ 
+
+657
+00:14:01,040 --> 00:14:03,590
+Now, since the Klein Gordon equation has
+wavelike solutions, it's worth asking
+
+658
+00:14:03,590 --> 00:14:03,600
+wavelike solutions, it's worth asking
+ 
+
+659
+00:14:03,600 --> 00:14:06,870
+wavelike solutions, it's worth asking
+what speed these waves travel at. One
+
+660
+00:14:06,870 --> 00:14:06,880
+what speed these waves travel at. One
+ 
+
+661
+00:14:06,880 --> 00:14:09,030
+what speed these waves travel at. One
+basic way to find the wave speed is to
+
+662
+00:14:09,030 --> 00:14:09,040
+basic way to find the wave speed is to
+ 
+
+663
+00:14:09,040 --> 00:14:11,350
+basic way to find the wave speed is to
+take the ratio of the angular frequency
+
+664
+00:14:11,350 --> 00:14:11,360
+take the ratio of the angular frequency
+ 
+
+665
+00:14:11,360 --> 00:14:14,790
+take the ratio of the angular frequency
+omega and the angular wave number K.
+
+666
+00:14:14,790 --> 00:14:14,800
+omega and the angular wave number K.
+ 
+
+667
+00:14:14,800 --> 00:14:17,030
+omega and the angular wave number K.
+This ratio has the expected units of
+
+668
+00:14:17,030 --> 00:14:17,040
+This ratio has the expected units of
+ 
+
+669
+00:14:17,040 --> 00:14:19,030
+This ratio has the expected units of
+velocity.
+
+670
+00:14:19,030 --> 00:14:19,040
+velocity.
+ 
+
+671
+00:14:19,040 --> 00:14:21,269
+velocity.
+But we can also visualize the wave speed
+
+672
+00:14:21,269 --> 00:14:21,279
+But we can also visualize the wave speed
+ 
+
+673
+00:14:21,279 --> 00:14:23,990
+But we can also visualize the wave speed
+on a space-time diagram.
+
+674
+00:14:23,990 --> 00:14:24,000
+on a space-time diagram.
+ 
+
+675
+00:14:24,000 --> 00:14:26,389
+on a space-time diagram.
+Frequency indicates how many wave peaks
+
+676
+00:14:26,389 --> 00:14:26,399
+Frequency indicates how many wave peaks
+ 
+
+677
+00:14:26,399 --> 00:14:28,790
+Frequency indicates how many wave peaks
+we see in a given unit of time at a
+
+678
+00:14:28,790 --> 00:14:28,800
+we see in a given unit of time at a
+ 
+
+679
+00:14:28,800 --> 00:14:31,430
+we see in a given unit of time at a
+constant position. And wave number
+
+680
+00:14:31,430 --> 00:14:31,440
+constant position. And wave number
+ 
+
+681
+00:14:31,440 --> 00:14:33,670
+constant position. And wave number
+indicates how many wave peaks we see in
+
+682
+00:14:33,670 --> 00:14:33,680
+indicates how many wave peaks we see in
+ 
+
+683
+00:14:33,680 --> 00:14:36,230
+indicates how many wave peaks we see in
+a given unit of space at a constant
+
+684
+00:14:36,230 --> 00:14:36,240
+a given unit of space at a constant
+ 
+
+685
+00:14:36,240 --> 00:14:37,829
+a given unit of space at a constant
+time.
+
+686
+00:14:37,829 --> 00:14:37,839
+time.
+ 
+
+687
+00:14:37,839 --> 00:14:40,389
+time.
+If we know what these densities are, we
+
+688
+00:14:40,389 --> 00:14:40,399
+If we know what these densities are, we
+ 
+
+689
+00:14:40,399 --> 00:14:42,470
+If we know what these densities are, we
+can draw the world lines of the peaks of
+
+690
+00:14:42,470 --> 00:14:42,480
+can draw the world lines of the peaks of
+ 
+
+691
+00:14:42,480 --> 00:14:45,509
+can draw the world lines of the peaks of
+the wave on the space-time diagram. And
+
+692
+00:14:45,509 --> 00:14:45,519
+the wave on the space-time diagram. And
+ 
+
+693
+00:14:45,519 --> 00:14:47,590
+the wave on the space-time diagram. And
+the slopes of these wave peak world
+
+694
+00:14:47,590 --> 00:14:47,600
+the slopes of these wave peak world
+ 
+
+695
+00:14:47,600 --> 00:14:49,910
+the slopes of these wave peak world
+lines will tell us how fast the wave is
+
+696
+00:14:49,910 --> 00:14:49,920
+lines will tell us how fast the wave is
+ 
+
+697
+00:14:49,920 --> 00:14:51,430
+lines will tell us how fast the wave is
+traveling.
+
+698
+00:14:51,430 --> 00:14:51,440
+traveling.
+ 
+
+699
+00:14:51,440 --> 00:14:54,629
+traveling.
+So let's compute this ratio omega over K
+
+700
+00:14:54,629 --> 00:14:54,639
+So let's compute this ratio omega over K
+ 
+
+701
+00:14:54,639 --> 00:14:57,670
+So let's compute this ratio omega over K
+for our Klein Gordon solutions.
+
+702
+00:14:57,670 --> 00:14:57,680
+for our Klein Gordon solutions.
+ 
+
+703
+00:14:57,680 --> 00:14:59,269
+for our Klein Gordon solutions.
+To do this, let's start with our
+
+704
+00:14:59,269 --> 00:14:59,279
+To do this, let's start with our
+ 
+
+705
+00:14:59,279 --> 00:15:01,269
+To do this, let's start with our
+dispersion relation for the Klein Gordon
+
+706
+00:15:01,269 --> 00:15:01,279
+dispersion relation for the Klein Gordon
+ 
+
+707
+00:15:01,279 --> 00:15:04,069
+dispersion relation for the Klein Gordon
+equation. So we'll bring the wave number
+
+708
+00:15:04,069 --> 00:15:04,079
+equation. So we'll bring the wave number
+ 
+
+709
+00:15:04,079 --> 00:15:06,389
+equation. So we'll bring the wave number
+term to the other side, changing its
+
+710
+00:15:06,389 --> 00:15:06,399
+term to the other side, changing its
+ 
+
+711
+00:15:06,399 --> 00:15:09,829
+term to the other side, changing its
+sign. Then we'll divide both sides by K^
+
+712
+00:15:09,829 --> 00:15:09,839
+sign. Then we'll divide both sides by K^
+ 
+
+713
+00:15:09,839 --> 00:15:14,629
+sign. Then we'll divide both sides by K^
+2 and then multiply both sides by C^ 2.
+
+714
+00:15:14,629 --> 00:15:14,639
+2 and then multiply both sides by C^ 2.
+ 
+
+715
+00:15:14,639 --> 00:15:17,350
+2 and then multiply both sides by C^ 2.
+Now to get our desired ratio omega over
+
+716
+00:15:17,350 --> 00:15:17,360
+Now to get our desired ratio omega over
+ 
+
+717
+00:15:17,360 --> 00:15:19,750
+Now to get our desired ratio omega over
+k, we just take the square root of both
+
+718
+00:15:19,750 --> 00:15:19,760
+k, we just take the square root of both
+ 
+
+719
+00:15:19,760 --> 00:15:22,310
+k, we just take the square root of both
+sides and we get this for the wave
+
+720
+00:15:22,310 --> 00:15:22,320
+sides and we get this for the wave
+ 
+
+721
+00:15:22,320 --> 00:15:24,470
+sides and we get this for the wave
+velocity.
+
+722
+00:15:24,470 --> 00:15:24,480
+velocity.
+ 
+
+723
+00:15:24,480 --> 00:15:26,470
+velocity.
+Now this result is actually a bit
+
+724
+00:15:26,470 --> 00:15:26,480
+Now this result is actually a bit
+ 
+
+725
+00:15:26,480 --> 00:15:28,710
+Now this result is actually a bit
+concerning. If we were dealing with a
+
+726
+00:15:28,710 --> 00:15:28,720
+concerning. If we were dealing with a
+ 
+
+727
+00:15:28,720 --> 00:15:31,910
+concerning. If we were dealing with a
+massless field where m equals 0, then
+
+728
+00:15:31,910 --> 00:15:31,920
+massless field where m equals 0, then
+ 
+
+729
+00:15:31,920 --> 00:15:33,509
+massless field where m equals 0, then
+the wave speed would be the speed of
+
+730
+00:15:33,509 --> 00:15:33,519
+the wave speed would be the speed of
+ 
+
+731
+00:15:33,519 --> 00:15:36,790
+the wave speed would be the speed of
+light c, which is fine. But if the field
+
+732
+00:15:36,790 --> 00:15:36,800
+light c, which is fine. But if the field
+ 
+
+733
+00:15:36,800 --> 00:15:39,350
+light c, which is fine. But if the field
+has a nonzero mass, then the speed of
+
+734
+00:15:39,350 --> 00:15:39,360
+has a nonzero mass, then the speed of
+ 
+
+735
+00:15:39,360 --> 00:15:41,189
+has a nonzero mass, then the speed of
+the wave is actually greater than the
+
+736
+00:15:41,189 --> 00:15:41,199
+the wave is actually greater than the
+ 
+
+737
+00:15:41,199 --> 00:15:43,670
+the wave is actually greater than the
+speed of light c. since this term under
+
+738
+00:15:43,670 --> 00:15:43,680
+speed of light c. since this term under
+ 
+
+739
+00:15:43,680 --> 00:15:45,910
+speed of light c. since this term under
+the square root sign is always greater
+
+740
+00:15:45,910 --> 00:15:45,920
+the square root sign is always greater
+ 
+
+741
+00:15:45,920 --> 00:15:48,790
+the square root sign is always greater
+than one. So you might think this means
+
+742
+00:15:48,790 --> 00:15:48,800
+than one. So you might think this means
+ 
+
+743
+00:15:48,800 --> 00:15:50,470
+than one. So you might think this means
+we've broken the rules of special
+
+744
+00:15:50,470 --> 00:15:50,480
+we've broken the rules of special
+ 
+
+745
+00:15:50,480 --> 00:15:52,310
+we've broken the rules of special
+relativity.
+
+746
+00:15:52,310 --> 00:15:52,320
+relativity.
+ 
+
+747
+00:15:52,320 --> 00:15:54,389
+relativity.
+However, it turns out this result is
+
+748
+00:15:54,389 --> 00:15:54,399
+However, it turns out this result is
+ 
+
+749
+00:15:54,399 --> 00:15:56,470
+However, it turns out this result is
+actually fine if we understand the
+
+750
+00:15:56,470 --> 00:15:56,480
+actually fine if we understand the
+ 
+
+751
+00:15:56,480 --> 00:15:58,150
+actually fine if we understand the
+difference between the phase velocity of
+
+752
+00:15:58,150 --> 00:15:58,160
+difference between the phase velocity of
+ 
+
+753
+00:15:58,160 --> 00:16:01,829
+difference between the phase velocity of
+a wave and the group velocity of a wave.
+
+754
+00:16:01,829 --> 00:16:01,839
+a wave and the group velocity of a wave.
+ 
+
+755
+00:16:01,839 --> 00:16:04,710
+a wave and the group velocity of a wave.
+As you can see here, this traveling wave
+
+756
+00:16:04,710 --> 00:16:04,720
+As you can see here, this traveling wave
+ 
+
+757
+00:16:04,720 --> 00:16:07,269
+As you can see here, this traveling wave
+has an outer envelope which is traveling
+
+758
+00:16:07,269 --> 00:16:07,279
+has an outer envelope which is traveling
+ 
+
+759
+00:16:07,279 --> 00:16:10,069
+has an outer envelope which is traveling
+more slowly and inner wave peaks that
+
+760
+00:16:10,069 --> 00:16:10,079
+more slowly and inner wave peaks that
+ 
+
+761
+00:16:10,079 --> 00:16:12,389
+more slowly and inner wave peaks that
+are traveling more quickly.
+
+762
+00:16:12,389 --> 00:16:12,399
+are traveling more quickly.
+ 
+
+763
+00:16:12,399 --> 00:16:14,710
+are traveling more quickly.
+The slower outer envelope is what is
+
+764
+00:16:14,710 --> 00:16:14,720
+The slower outer envelope is what is
+ 
+
+765
+00:16:14,720 --> 00:16:16,389
+The slower outer envelope is what is
+actually capable of transmitting
+
+766
+00:16:16,389 --> 00:16:16,399
+actually capable of transmitting
+ 
+
+767
+00:16:16,399 --> 00:16:19,110
+actually capable of transmitting
+information. So if we want to obey the
+
+768
+00:16:19,110 --> 00:16:19,120
+information. So if we want to obey the
+ 
+
+769
+00:16:19,120 --> 00:16:21,749
+information. So if we want to obey the
+laws of special relativity and not send
+
+770
+00:16:21,749 --> 00:16:21,759
+laws of special relativity and not send
+ 
+
+771
+00:16:21,759 --> 00:16:23,990
+laws of special relativity and not send
+information faster than light, this
+
+772
+00:16:23,990 --> 00:16:24,000
+information faster than light, this
+ 
+
+773
+00:16:24,000 --> 00:16:26,389
+information faster than light, this
+envelope's group velocity must be less
+
+774
+00:16:26,389 --> 00:16:26,399
+envelope's group velocity must be less
+ 
+
+775
+00:16:26,399 --> 00:16:29,430
+envelope's group velocity must be less
+than or equal to the speed of light C.
+
+776
+00:16:29,430 --> 00:16:29,440
+than or equal to the speed of light C.
+ 
+
+777
+00:16:29,440 --> 00:16:31,910
+than or equal to the speed of light C.
+The fast inner wave peaks are not
+
+778
+00:16:31,910 --> 00:16:31,920
+The fast inner wave peaks are not
+ 
+
+779
+00:16:31,920 --> 00:16:34,790
+The fast inner wave peaks are not
+capable of transmitting information. So
+
+780
+00:16:34,790 --> 00:16:34,800
+capable of transmitting information. So
+ 
+
+781
+00:16:34,800 --> 00:16:37,030
+capable of transmitting information. So
+it's actually fine if the phase velocity
+
+782
+00:16:37,030 --> 00:16:37,040
+it's actually fine if the phase velocity
+ 
+
+783
+00:16:37,040 --> 00:16:40,629
+it's actually fine if the phase velocity
+of these peaks is faster than light.
+
+784
+00:16:40,629 --> 00:16:40,639
+of these peaks is faster than light.
+ 
+
+785
+00:16:40,639 --> 00:16:43,269
+of these peaks is faster than light.
+The omega over k ratio we calculated
+
+786
+00:16:43,269 --> 00:16:43,279
+The omega over k ratio we calculated
+ 
+
+787
+00:16:43,279 --> 00:16:46,389
+The omega over k ratio we calculated
+before is the phase velocity. So it's
+
+788
+00:16:46,389 --> 00:16:46,399
+before is the phase velocity. So it's
+ 
+
+789
+00:16:46,399 --> 00:16:48,389
+before is the phase velocity. So it's
+fine that this is faster than light
+
+790
+00:16:48,389 --> 00:16:48,399
+fine that this is faster than light
+ 
+
+791
+00:16:48,399 --> 00:16:50,069
+fine that this is faster than light
+because this will not transmit
+
+792
+00:16:50,069 --> 00:16:50,079
+because this will not transmit
+ 
+
+793
+00:16:50,079 --> 00:16:51,670
+because this will not transmit
+information.
+
+794
+00:16:51,670 --> 00:16:51,680
+information.
+ 
+
+795
+00:16:51,680 --> 00:16:53,430
+information.
+If you think about it, a single
+
+796
+00:16:53,430 --> 00:16:53,440
+If you think about it, a single
+ 
+
+797
+00:16:53,440 --> 00:16:55,670
+If you think about it, a single
+traveling cosine wave that looks the
+
+798
+00:16:55,670 --> 00:16:55,680
+traveling cosine wave that looks the
+ 
+
+799
+00:16:55,680 --> 00:16:58,550
+traveling cosine wave that looks the
+same everywhere in time and space cannot
+
+800
+00:16:58,550 --> 00:16:58,560
+same everywhere in time and space cannot
+ 
+
+801
+00:16:58,560 --> 00:17:02,470
+same everywhere in time and space cannot
+be used to transmit any information.
+
+802
+00:17:02,470 --> 00:17:02,480
+be used to transmit any information.
+ 
+
+803
+00:17:02,480 --> 00:17:05,189
+be used to transmit any information.
+Now what about the group velocity?
+
+804
+00:17:05,189 --> 00:17:05,199
+Now what about the group velocity?
+ 
+
+805
+00:17:05,199 --> 00:17:07,189
+Now what about the group velocity?
+Well, let's consider a Klein Gordon
+
+806
+00:17:07,189 --> 00:17:07,199
+Well, let's consider a Klein Gordon
+ 
+
+807
+00:17:07,199 --> 00:17:09,669
+Well, let's consider a Klein Gordon
+solution that is made of a sum of two
+
+808
+00:17:09,669 --> 00:17:09,679
+solution that is made of a sum of two
+ 
+
+809
+00:17:09,679 --> 00:17:12,630
+solution that is made of a sum of two
+basic cosine waves with frequencies and
+
+810
+00:17:12,630 --> 00:17:12,640
+basic cosine waves with frequencies and
+ 
+
+811
+00:17:12,640 --> 00:17:16,230
+basic cosine waves with frequencies and
+wave numbers labeled 1 and two.
+
+812
+00:17:16,230 --> 00:17:16,240
+wave numbers labeled 1 and two.
+ 
+
+813
+00:17:16,240 --> 00:17:18,630
+wave numbers labeled 1 and two.
+Now, if we take the cosine angle sum
+
+814
+00:17:18,630 --> 00:17:18,640
+Now, if we take the cosine angle sum
+ 
+
+815
+00:17:18,640 --> 00:17:21,189
+Now, if we take the cosine angle sum
+trig identity and the cosine angle
+
+816
+00:17:21,189 --> 00:17:21,199
+trig identity and the cosine angle
+ 
+
+817
+00:17:21,199 --> 00:17:23,429
+trig identity and the cosine angle
+difference trig identity and add them
+
+818
+00:17:23,429 --> 00:17:23,439
+difference trig identity and add them
+ 
+
+819
+00:17:23,439 --> 00:17:25,750
+difference trig identity and add them
+together, we see that a sum of two
+
+820
+00:17:25,750 --> 00:17:25,760
+together, we see that a sum of two
+ 
+
+821
+00:17:25,760 --> 00:17:28,390
+together, we see that a sum of two
+cosine waves can actually be rewritten
+
+822
+00:17:28,390 --> 00:17:28,400
+cosine waves can actually be rewritten
+ 
+
+823
+00:17:28,400 --> 00:17:32,070
+cosine waves can actually be rewritten
+as the product of two cosine waves. We
+
+824
+00:17:32,070 --> 00:17:32,080
+as the product of two cosine waves. We
+ 
+
+825
+00:17:32,080 --> 00:17:33,669
+as the product of two cosine waves. We
+can also switch some of the variables
+
+826
+00:17:33,669 --> 00:17:33,679
+can also switch some of the variables
+ 
+
+827
+00:17:33,679 --> 00:17:35,909
+can also switch some of the variables
+around to get this easier to understand
+
+828
+00:17:35,909 --> 00:17:35,919
+around to get this easier to understand
+ 
+
+829
+00:17:35,919 --> 00:17:38,230
+around to get this easier to understand
+formula here.
+
+830
+00:17:38,230 --> 00:17:38,240
+formula here.
+ 
+
+831
+00:17:38,240 --> 00:17:40,710
+formula here.
+So if we have our two Klein Gordon waves
+
+832
+00:17:40,710 --> 00:17:40,720
+So if we have our two Klein Gordon waves
+ 
+
+833
+00:17:40,720 --> 00:17:43,190
+So if we have our two Klein Gordon waves
+summed together here, we can use this
+
+834
+00:17:43,190 --> 00:17:43,200
+summed together here, we can use this
+ 
+
+835
+00:17:43,200 --> 00:17:45,990
+summed together here, we can use this
+new trig identity to rewrite it as a
+
+836
+00:17:45,990 --> 00:17:46,000
+new trig identity to rewrite it as a
+ 
+
+837
+00:17:46,000 --> 00:17:49,029
+new trig identity to rewrite it as a
+product of two cosine waves. One where
+
+838
+00:17:49,029 --> 00:17:49,039
+product of two cosine waves. One where
+ 
+
+839
+00:17:49,039 --> 00:17:50,630
+product of two cosine waves. One where
+the frequencies and wave numbers are
+
+840
+00:17:50,630 --> 00:17:50,640
+the frequencies and wave numbers are
+ 
+
+841
+00:17:50,640 --> 00:17:52,549
+the frequencies and wave numbers are
+added and one where the frequencies and
+
+842
+00:17:52,549 --> 00:17:52,559
+added and one where the frequencies and
+ 
+
+843
+00:17:52,559 --> 00:17:55,270
+added and one where the frequencies and
+wave numbers are subtracted.
+
+844
+00:17:55,270 --> 00:17:55,280
+wave numbers are subtracted.
+ 
+
+845
+00:17:55,280 --> 00:17:57,909
+wave numbers are subtracted.
+The cosine with the addition signs
+
+846
+00:17:57,909 --> 00:17:57,919
+The cosine with the addition signs
+ 
+
+847
+00:17:57,919 --> 00:18:00,230
+The cosine with the addition signs
+represents the inner waves that travel
+
+848
+00:18:00,230 --> 00:18:00,240
+represents the inner waves that travel
+ 
+
+849
+00:18:00,240 --> 00:18:02,950
+represents the inner waves that travel
+with the wave's phase velocity.
+
+850
+00:18:02,950 --> 00:18:02,960
+with the wave's phase velocity.
+ 
+
+851
+00:18:02,960 --> 00:18:05,510
+with the wave's phase velocity.
+And the cosine with the minus signs
+
+852
+00:18:05,510 --> 00:18:05,520
+And the cosine with the minus signs
+ 
+
+853
+00:18:05,520 --> 00:18:07,909
+And the cosine with the minus signs
+represents the outer wave envelope that
+
+854
+00:18:07,909 --> 00:18:07,919
+represents the outer wave envelope that
+ 
+
+855
+00:18:07,919 --> 00:18:11,190
+represents the outer wave envelope that
+travels with the wave's group velocity.
+
+856
+00:18:11,190 --> 00:18:11,200
+travels with the wave's group velocity.
+ 
+
+857
+00:18:11,200 --> 00:18:13,590
+travels with the wave's group velocity.
+So the group velocity would just be the
+
+858
+00:18:13,590 --> 00:18:13,600
+So the group velocity would just be the
+ 
+
+859
+00:18:13,600 --> 00:18:16,630
+So the group velocity would just be the
+omega over k ratio for this outer cosine
+
+860
+00:18:16,630 --> 00:18:16,640
+omega over k ratio for this outer cosine
+ 
+
+861
+00:18:16,640 --> 00:18:21,110
+omega over k ratio for this outer cosine
+wave which is omega 1 - omega 2 over k1
+
+862
+00:18:21,110 --> 00:18:21,120
+wave which is omega 1 - omega 2 over k1
+ 
+
+863
+00:18:21,120 --> 00:18:23,029
+wave which is omega 1 - omega 2 over k1
+- k2.
+
+864
+00:18:23,029 --> 00:18:23,039
+- k2.
+ 
+
+865
+00:18:23,039 --> 00:18:25,270
+- k2.
+We can also write this as delta omega
+
+866
+00:18:25,270 --> 00:18:25,280
+We can also write this as delta omega
+ 
+
+867
+00:18:25,280 --> 00:18:27,990
+We can also write this as delta omega
+over delta k.
+
+868
+00:18:27,990 --> 00:18:28,000
+over delta k.
+ 
+
+869
+00:18:28,000 --> 00:18:30,710
+over delta k.
+Now here we had a sum of just two cosine
+
+870
+00:18:30,710 --> 00:18:30,720
+Now here we had a sum of just two cosine
+ 
+
+871
+00:18:30,720 --> 00:18:33,430
+Now here we had a sum of just two cosine
+waves. But if instead we had a
+
+872
+00:18:33,430 --> 00:18:33,440
+waves. But if instead we had a
+ 
+
+873
+00:18:33,440 --> 00:18:35,430
+waves. But if instead we had a
+continuous spectrum of different cosine
+
+874
+00:18:35,430 --> 00:18:35,440
+continuous spectrum of different cosine
+ 
+
+875
+00:18:35,440 --> 00:18:37,510
+continuous spectrum of different cosine
+waves with different frequencies and
+
+876
+00:18:37,510 --> 00:18:37,520
+waves with different frequencies and
+ 
+
+877
+00:18:37,520 --> 00:18:39,830
+waves with different frequencies and
+wave numbers, this difference formula
+
+878
+00:18:39,830 --> 00:18:39,840
+wave numbers, this difference formula
+ 
+
+879
+00:18:39,840 --> 00:18:41,909
+wave numbers, this difference formula
+for the group velocity would become a
+
+880
+00:18:41,909 --> 00:18:41,919
+for the group velocity would become a
+ 
+
+881
+00:18:41,919 --> 00:18:43,750
+for the group velocity would become a
+derivative.
+
+882
+00:18:43,750 --> 00:18:43,760
+derivative.
+ 
+
+883
+00:18:43,760 --> 00:18:45,510
+derivative.
+So this derivative is what gives us the
+
+884
+00:18:45,510 --> 00:18:45,520
+So this derivative is what gives us the
+ 
+
+885
+00:18:45,520 --> 00:18:47,430
+So this derivative is what gives us the
+equation for the group velocity of the
+
+886
+00:18:47,430 --> 00:18:47,440
+equation for the group velocity of the
+ 
+
+887
+00:18:47,440 --> 00:18:49,990
+equation for the group velocity of the
+wave envelope.
+
+888
+00:18:49,990 --> 00:18:50,000
+wave envelope.
+ 
+
+889
+00:18:50,000 --> 00:18:51,990
+wave envelope.
+Let's return to our Klein Gordon
+
+890
+00:18:51,990 --> 00:18:52,000
+Let's return to our Klein Gordon
+ 
+
+891
+00:18:52,000 --> 00:18:55,029
+Let's return to our Klein Gordon
+dispersion relation from before. If we
+
+892
+00:18:55,029 --> 00:18:55,039
+dispersion relation from before. If we
+ 
+
+893
+00:18:55,039 --> 00:18:57,909
+dispersion relation from before. If we
+isolate omega squared and then take the
+
+894
+00:18:57,909 --> 00:18:57,919
+isolate omega squared and then take the
+ 
+
+895
+00:18:57,919 --> 00:19:00,230
+isolate omega squared and then take the
+square root, we can then take the
+
+896
+00:19:00,230 --> 00:19:00,240
+square root, we can then take the
+ 
+
+897
+00:19:00,240 --> 00:19:02,470
+square root, we can then take the
+derivative of both sides with respect to
+
+898
+00:19:02,470 --> 00:19:02,480
+derivative of both sides with respect to
+ 
+
+899
+00:19:02,480 --> 00:19:05,830
+derivative of both sides with respect to
+K to calculate the group velocity.
+
+900
+00:19:05,830 --> 00:19:05,840
+K to calculate the group velocity.
+ 
+
+901
+00:19:05,840 --> 00:19:08,070
+K to calculate the group velocity.
+Treating the square root as a 1/2
+
+902
+00:19:08,070 --> 00:19:08,080
+Treating the square root as a 1/2
+ 
+
+903
+00:19:08,080 --> 00:19:10,549
+Treating the square root as a 1/2
+exponent, we can use power rule to
+
+904
+00:19:10,549 --> 00:19:10,559
+exponent, we can use power rule to
+ 
+
+905
+00:19:10,559 --> 00:19:13,270
+exponent, we can use power rule to
+decrease the exponent by one and put a
+
+906
+00:19:13,270 --> 00:19:13,280
+decrease the exponent by one and put a
+ 
+
+907
+00:19:13,280 --> 00:19:16,310
+decrease the exponent by one and put a
+factor of 1/2 in front and then use
+
+908
+00:19:16,310 --> 00:19:16,320
+factor of 1/2 in front and then use
+ 
+
+909
+00:19:16,320 --> 00:19:18,470
+factor of 1/2 in front and then use
+chain rule to get an extra factor of the
+
+910
+00:19:18,470 --> 00:19:18,480
+chain rule to get an extra factor of the
+ 
+
+911
+00:19:18,480 --> 00:19:22,789
+chain rule to get an extra factor of the
+derivative of k^ 2 which is 2 k.
+
+912
+00:19:22,789 --> 00:19:22,799
+derivative of k^ 2 which is 2 k.
+ 
+
+913
+00:19:22,799 --> 00:19:26,870
+derivative of k^ 2 which is 2 k.
+The 1/2 and 2 cancel and the - 1/2
+
+914
+00:19:26,870 --> 00:19:26,880
+The 1/2 and 2 cancel and the - 1/2
+ 
+
+915
+00:19:26,880 --> 00:19:29,190
+The 1/2 and 2 cancel and the - 1/2
+exponent gives us a square root in the
+
+916
+00:19:29,190 --> 00:19:29,200
+exponent gives us a square root in the
+ 
+
+917
+00:19:29,200 --> 00:19:31,430
+exponent gives us a square root in the
+denominator. So this is the group
+
+918
+00:19:31,430 --> 00:19:31,440
+denominator. So this is the group
+ 
+
+919
+00:19:31,440 --> 00:19:33,990
+denominator. So this is the group
+velocity formula.
+
+920
+00:19:33,990 --> 00:19:34,000
+velocity formula.
+ 
+
+921
+00:19:34,000 --> 00:19:36,710
+velocity formula.
+For a massless field with m equals z,
+
+922
+00:19:36,710 --> 00:19:36,720
+For a massless field with m equals z,
+ 
+
+923
+00:19:36,720 --> 00:19:40,150
+For a massless field with m equals z,
+the group velocity simply becomes c. But
+
+924
+00:19:40,150 --> 00:19:40,160
+the group velocity simply becomes c. But
+ 
+
+925
+00:19:40,160 --> 00:19:42,630
+the group velocity simply becomes c. But
+for a massive field, this term in the
+
+926
+00:19:42,630 --> 00:19:42,640
+for a massive field, this term in the
+ 
+
+927
+00:19:42,640 --> 00:19:44,870
+for a massive field, this term in the
+denominator is always going to be bigger
+
+928
+00:19:44,870 --> 00:19:44,880
+denominator is always going to be bigger
+ 
+
+929
+00:19:44,880 --> 00:19:48,789
+denominator is always going to be bigger
+than k since m is positive. Which means
+
+930
+00:19:48,789 --> 00:19:48,799
+than k since m is positive. Which means
+ 
+
+931
+00:19:48,799 --> 00:19:50,870
+than k since m is positive. Which means
+that the group velocity is always going
+
+932
+00:19:50,870 --> 00:19:50,880
+that the group velocity is always going
+ 
+
+933
+00:19:50,880 --> 00:19:53,669
+that the group velocity is always going
+to be less than the speed of light.
+
+934
+00:19:53,669 --> 00:19:53,679
+to be less than the speed of light.
+ 
+
+935
+00:19:53,679 --> 00:19:55,590
+to be less than the speed of light.
+So this shows us that the speed of
+
+936
+00:19:55,590 --> 00:19:55,600
+So this shows us that the speed of
+ 
+
+937
+00:19:55,600 --> 00:19:57,990
+So this shows us that the speed of
+information contained in the wave cannot
+
+938
+00:19:57,990 --> 00:19:58,000
+information contained in the wave cannot
+ 
+
+939
+00:19:58,000 --> 00:20:00,390
+information contained in the wave cannot
+exceed the speed of light. So the Klein
+
+940
+00:20:00,390 --> 00:20:00,400
+exceed the speed of light. So the Klein
+ 
+
+941
+00:20:00,400 --> 00:20:02,470
+exceed the speed of light. So the Klein
+Gordon field obeys the laws of special
+
+942
+00:20:02,470 --> 00:20:02,480
+Gordon field obeys the laws of special
+ 
+
+943
+00:20:02,480 --> 00:20:06,070
+Gordon field obeys the laws of special
+relativity.
+
+944
+00:20:06,070 --> 00:20:06,080
+
+ 
+
+945
+00:20:06,080 --> 00:20:08,070
+
+Now I'll finally talk about why this
+
+946
+00:20:08,070 --> 00:20:08,080
+Now I'll finally talk about why this
+ 
+
+947
+00:20:08,080 --> 00:20:10,070
+Now I'll finally talk about why this
+relation is called the dispersion
+
+948
+00:20:10,070 --> 00:20:10,080
+relation is called the dispersion
+ 
+
+949
+00:20:10,080 --> 00:20:13,350
+relation is called the dispersion
+relation. If we imagine a set of basic
+
+950
+00:20:13,350 --> 00:20:13,360
+relation. If we imagine a set of basic
+ 
+
+951
+00:20:13,360 --> 00:20:15,029
+relation. If we imagine a set of basic
+cosine solutions with different
+
+952
+00:20:15,029 --> 00:20:15,039
+cosine solutions with different
+ 
+
+953
+00:20:15,039 --> 00:20:17,510
+cosine solutions with different
+frequencies and wave numbers, then each
+
+954
+00:20:17,510 --> 00:20:17,520
+frequencies and wave numbers, then each
+ 
+
+955
+00:20:17,520 --> 00:20:19,590
+frequencies and wave numbers, then each
+basic wave will travel at a different
+
+956
+00:20:19,590 --> 00:20:19,600
+basic wave will travel at a different
+ 
+
+957
+00:20:19,600 --> 00:20:21,990
+basic wave will travel at a different
+phase velocity depending on the value of
+
+958
+00:20:21,990 --> 00:20:22,000
+phase velocity depending on the value of
+ 
+
+959
+00:20:22,000 --> 00:20:25,190
+phase velocity depending on the value of
+its wave number K. Since the mass m is
+
+960
+00:20:25,190 --> 00:20:25,200
+its wave number K. Since the mass m is
+ 
+
+961
+00:20:25,200 --> 00:20:27,669
+its wave number K. Since the mass m is
+constant for the whole field,
+
+962
+00:20:27,669 --> 00:20:27,679
+constant for the whole field,
+ 
+
+963
+00:20:27,679 --> 00:20:30,149
+constant for the whole field,
+we can see that when k is very large,
+
+964
+00:20:30,149 --> 00:20:30,159
+we can see that when k is very large,
+ 
+
+965
+00:20:30,159 --> 00:20:32,310
+we can see that when k is very large,
+the phase velocity will be about the
+
+966
+00:20:32,310 --> 00:20:32,320
+the phase velocity will be about the
+ 
+
+967
+00:20:32,320 --> 00:20:35,510
+the phase velocity will be about the
+speed of light. But when k gets smaller
+
+968
+00:20:35,510 --> 00:20:35,520
+speed of light. But when k gets smaller
+ 
+
+969
+00:20:35,520 --> 00:20:37,830
+speed of light. But when k gets smaller
+and smaller, the phase velocity will get
+
+970
+00:20:37,830 --> 00:20:37,840
+and smaller, the phase velocity will get
+ 
+
+971
+00:20:37,840 --> 00:20:40,630
+and smaller, the phase velocity will get
+bigger and bigger. So this means that
+
+972
+00:20:40,630 --> 00:20:40,640
+bigger and bigger. So this means that
+ 
+
+973
+00:20:40,640 --> 00:20:43,270
+bigger and bigger. So this means that
+our collection of basic cosine waves
+
+974
+00:20:43,270 --> 00:20:43,280
+our collection of basic cosine waves
+ 
+
+975
+00:20:43,280 --> 00:20:46,470
+our collection of basic cosine waves
+will all travel at different speeds. So
+
+976
+00:20:46,470 --> 00:20:46,480
+will all travel at different speeds. So
+ 
+
+977
+00:20:46,480 --> 00:20:48,470
+will all travel at different speeds. So
+any envelope shape that they have when
+
+978
+00:20:48,470 --> 00:20:48,480
+any envelope shape that they have when
+ 
+
+979
+00:20:48,480 --> 00:20:51,029
+any envelope shape that they have when
+the wave starts traveling will gradually
+
+980
+00:20:51,029 --> 00:20:51,039
+the wave starts traveling will gradually
+ 
+
+981
+00:20:51,039 --> 00:20:54,070
+the wave starts traveling will gradually
+start to deform or disperse as the wave
+
+982
+00:20:54,070 --> 00:20:54,080
+start to deform or disperse as the wave
+ 
+
+983
+00:20:54,080 --> 00:20:56,470
+start to deform or disperse as the wave
+travels along. And this is why we call
+
+984
+00:20:56,470 --> 00:20:56,480
+travels along. And this is why we call
+ 
+
+985
+00:20:56,480 --> 00:20:59,990
+travels along. And this is why we call
+this the dispersion relation.
+
+986
+00:20:59,990 --> 00:21:00,000
+this the dispersion relation.
+ 
+
+987
+00:21:00,000 --> 00:21:02,149
+this the dispersion relation.
+However, in the special case of massless
+
+988
+00:21:02,149 --> 00:21:02,159
+However, in the special case of massless
+ 
+
+989
+00:21:02,159 --> 00:21:04,549
+However, in the special case of massless
+fields where m equals 0, the phase
+
+990
+00:21:04,549 --> 00:21:04,559
+fields where m equals 0, the phase
+ 
+
+991
+00:21:04,559 --> 00:21:07,590
+fields where m equals 0, the phase
+velocity for every basic cosine wave is
+
+992
+00:21:07,590 --> 00:21:07,600
+velocity for every basic cosine wave is
+ 
+
+993
+00:21:07,600 --> 00:21:09,909
+velocity for every basic cosine wave is
+always the speed of light c regardless
+
+994
+00:21:09,909 --> 00:21:09,919
+always the speed of light c regardless
+ 
+
+995
+00:21:09,919 --> 00:21:12,390
+always the speed of light c regardless
+of what the wave number is.
+
+996
+00:21:12,390 --> 00:21:12,400
+of what the wave number is.
+ 
+
+997
+00:21:12,400 --> 00:21:14,230
+of what the wave number is.
+This means that the wave envelope in
+
+998
+00:21:14,230 --> 00:21:14,240
+This means that the wave envelope in
+ 
+
+999
+00:21:14,240 --> 00:21:17,110
+This means that the wave envelope in
+massless fields will not disperse and
+
+1000
+00:21:17,110 --> 00:21:17,120
+massless fields will not disperse and
+ 
+
+1001
+00:21:17,120 --> 00:21:21,110
+massless fields will not disperse and
+will maintain its shape forever.
+
+1002
+00:21:21,110 --> 00:21:21,120
+will maintain its shape forever.
+ 
+
+1003
+00:21:21,120 --> 00:21:23,029
+will maintain its shape forever.
+Now there's one last thing I want to
+
+1004
+00:21:23,029 --> 00:21:23,039
+Now there's one last thing I want to
+ 
+
+1005
+00:21:23,039 --> 00:21:25,110
+Now there's one last thing I want to
+talk about which is the complex version
+
+1006
+00:21:25,110 --> 00:21:25,120
+talk about which is the complex version
+ 
+
+1007
+00:21:25,120 --> 00:21:27,430
+talk about which is the complex version
+of the Klein Gordon field and how it
+
+1008
+00:21:27,430 --> 00:21:27,440
+of the Klein Gordon field and how it
+ 
+
+1009
+00:21:27,440 --> 00:21:29,750
+of the Klein Gordon field and how it
+relates to antimatter.
+
+1010
+00:21:29,750 --> 00:21:29,760
+relates to antimatter.
+ 
+
+1011
+00:21:29,760 --> 00:21:31,590
+relates to antimatter.
+So we've already seen the real version
+
+1012
+00:21:31,590 --> 00:21:31,600
+So we've already seen the real version
+ 
+
+1013
+00:21:31,600 --> 00:21:34,070
+So we've already seen the real version
+of the Klein Gordon Lrangeian where the
+
+1014
+00:21:34,070 --> 00:21:34,080
+of the Klein Gordon Lrangeian where the
+ 
+
+1015
+00:21:34,080 --> 00:21:37,190
+of the Klein Gordon Lrangeian where the
+function fi outputs a real number and
+
+1016
+00:21:37,190 --> 00:21:37,200
+function fi outputs a real number and
+ 
+
+1017
+00:21:37,200 --> 00:21:38,630
+function fi outputs a real number and
+when we put this through the oiler
+
+1018
+00:21:38,630 --> 00:21:38,640
+when we put this through the oiler
+ 
+
+1019
+00:21:38,640 --> 00:21:41,110
+when we put this through the oiler
+lrange equation we get the Klein Gordon
+
+1020
+00:21:41,110 --> 00:21:41,120
+lrange equation we get the Klein Gordon
+ 
+
+1021
+00:21:41,120 --> 00:21:42,630
+lrange equation we get the Klein Gordon
+equation
+
+1022
+00:21:42,630 --> 00:21:42,640
+equation
+ 
+
+1023
+00:21:42,640 --> 00:21:45,029
+equation
+but now let's consider the complex Klein
+
+1024
+00:21:45,029 --> 00:21:45,039
+but now let's consider the complex Klein
+ 
+
+1025
+00:21:45,039 --> 00:21:48,149
+but now let's consider the complex Klein
+Gordon Lrangeian where phi outputs a
+
+1026
+00:21:48,149 --> 00:21:48,159
+Gordon Lrangeian where phi outputs a
+ 
+
+1027
+00:21:48,159 --> 00:21:51,430
+Gordon Lrangeian where phi outputs a
+complex number in this lrgonian instead
+
+1028
+00:21:51,430 --> 00:21:51,440
+complex number in this lrgonian instead
+ 
+
+1029
+00:21:51,440 --> 00:21:53,669
+complex number in this lrgonian instead
+of squaring the terms we take the
+
+1030
+00:21:53,669 --> 00:21:53,679
+of squaring the terms we take the
+ 
+
+1031
+00:21:53,679 --> 00:21:56,630
+of squaring the terms we take the
+squared magnitude of the terms.
+
+1032
+00:21:56,630 --> 00:21:56,640
+squared magnitude of the terms.
+ 
+
+1033
+00:21:56,640 --> 00:21:59,110
+squared magnitude of the terms.
+This means each term in the sum involves
+
+1034
+00:21:59,110 --> 00:21:59,120
+This means each term in the sum involves
+ 
+
+1035
+00:21:59,120 --> 00:22:01,350
+This means each term in the sum involves
+an expression times its complex
+
+1036
+00:22:01,350 --> 00:22:01,360
+an expression times its complex
+ 
+
+1037
+00:22:01,360 --> 00:22:02,870
+an expression times its complex
+conjugate.
+
+1038
+00:22:02,870 --> 00:22:02,880
+conjugate.
+ 
+
+1039
+00:22:02,880 --> 00:22:04,870
+conjugate.
+For the derivative terms, since the
+
+1040
+00:22:04,870 --> 00:22:04,880
+For the derivative terms, since the
+ 
+
+1041
+00:22:04,880 --> 00:22:06,870
+For the derivative terms, since the
+variables we are taking derivatives with
+
+1042
+00:22:06,870 --> 00:22:06,880
+variables we are taking derivatives with
+ 
+
+1043
+00:22:06,880 --> 00:22:09,270
+variables we are taking derivatives with
+respect to are real, they are not
+
+1044
+00:22:09,270 --> 00:22:09,280
+respect to are real, they are not
+ 
+
+1045
+00:22:09,280 --> 00:22:11,909
+respect to are real, they are not
+affected by the complex conjugate. So
+
+1046
+00:22:11,909 --> 00:22:11,919
+affected by the complex conjugate. So
+ 
+
+1047
+00:22:11,919 --> 00:22:15,750
+affected by the complex conjugate. So
+the star can just be moved to fi.
+
+1048
+00:22:15,750 --> 00:22:15,760
+the star can just be moved to fi.
+ 
+
+1049
+00:22:15,760 --> 00:22:18,230
+the star can just be moved to fi.
+Now it's worth noting that one complex
+
+1050
+00:22:18,230 --> 00:22:18,240
+Now it's worth noting that one complex
+ 
+
+1051
+00:22:18,240 --> 00:22:21,669
+Now it's worth noting that one complex
+field can be viewed as two real fields
+
+1052
+00:22:21,669 --> 00:22:21,679
+field can be viewed as two real fields
+ 
+
+1053
+00:22:21,679 --> 00:22:23,909
+field can be viewed as two real fields
+since the complex fi has both a real
+
+1054
+00:22:23,909 --> 00:22:23,919
+since the complex fi has both a real
+ 
+
+1055
+00:22:23,919 --> 00:22:26,549
+since the complex fi has both a real
+part and an imaginary part.
+
+1056
+00:22:26,549 --> 00:22:26,559
+part and an imaginary part.
+ 
+
+1057
+00:22:26,559 --> 00:22:28,230
+part and an imaginary part.
+However, when dealing with the field
+
+1058
+00:22:28,230 --> 00:22:28,240
+However, when dealing with the field
+ 
+
+1059
+00:22:28,240 --> 00:22:30,789
+However, when dealing with the field
+equations, it's more useful to consider
+
+1060
+00:22:30,789 --> 00:22:30,799
+equations, it's more useful to consider
+ 
+
+1061
+00:22:30,799 --> 00:22:33,990
+equations, it's more useful to consider
+phi and its complex conjugate phi star
+
+1062
+00:22:33,990 --> 00:22:34,000
+phi and its complex conjugate phi star
+ 
+
+1063
+00:22:34,000 --> 00:22:37,590
+phi and its complex conjugate phi star
+as the main field variables instead.
+
+1064
+00:22:37,590 --> 00:22:37,600
+as the main field variables instead.
+ 
+
+1065
+00:22:37,600 --> 00:22:40,230
+as the main field variables instead.
+So with this complex lrangeian, if we
+
+1066
+00:22:40,230 --> 00:22:40,240
+So with this complex lrangeian, if we
+ 
+
+1067
+00:22:40,240 --> 00:22:42,710
+So with this complex lrangeian, if we
+put it through the oiler lrange equation
+
+1068
+00:22:42,710 --> 00:22:42,720
+put it through the oiler lrange equation
+ 
+
+1069
+00:22:42,720 --> 00:22:45,350
+put it through the oiler lrange equation
+varying with respect to phi, we get the
+
+1070
+00:22:45,350 --> 00:22:45,360
+varying with respect to phi, we get the
+ 
+
+1071
+00:22:45,360 --> 00:22:48,950
+varying with respect to phi, we get the
+klein gordon equation for fi star. But
+
+1072
+00:22:48,950 --> 00:22:48,960
+klein gordon equation for fi star. But
+ 
+
+1073
+00:22:48,960 --> 00:22:50,870
+klein gordon equation for fi star. But
+we can also put this lrangeian through
+
+1074
+00:22:50,870 --> 00:22:50,880
+we can also put this lrangeian through
+ 
+
+1075
+00:22:50,880 --> 00:22:54,149
+we can also put this lrangeian through
+the oiler lrange equation varying for fi
+
+1076
+00:22:54,149 --> 00:22:54,159
+the oiler lrange equation varying for fi
+ 
+
+1077
+00:22:54,159 --> 00:22:56,230
+the oiler lrange equation varying for fi
+star and we get the klein gordon
+
+1078
+00:22:56,230 --> 00:22:56,240
+star and we get the klein gordon
+ 
+
+1079
+00:22:56,240 --> 00:22:59,909
+star and we get the klein gordon
+equation for fi. So we actually get two
+
+1080
+00:22:59,909 --> 00:22:59,919
+equation for fi. So we actually get two
+ 
+
+1081
+00:22:59,919 --> 00:23:02,710
+equation for fi. So we actually get two
+klein gordon equations here.
+
+1082
+00:23:02,710 --> 00:23:02,720
+klein gordon equations here.
+ 
+
+1083
+00:23:02,720 --> 00:23:05,510
+klein gordon equations here.
+Also these overall factors of 1/2 don't
+
+1084
+00:23:05,510 --> 00:23:05,520
+Also these overall factors of 1/2 don't
+ 
+
+1085
+00:23:05,520 --> 00:23:07,750
+Also these overall factors of 1/2 don't
+impact the physics. So we typically
+
+1086
+00:23:07,750 --> 00:23:07,760
+impact the physics. So we typically
+ 
+
+1087
+00:23:07,760 --> 00:23:10,470
+impact the physics. So we typically
+remove them from the lrangeian.
+
+1088
+00:23:10,470 --> 00:23:10,480
+remove them from the lrangeian.
+ 
+
+1089
+00:23:10,480 --> 00:23:13,909
+remove them from the lrangeian.
+So here phi represents matter particles
+
+1090
+00:23:13,909 --> 00:23:13,919
+So here phi represents matter particles
+ 
+
+1091
+00:23:13,919 --> 00:23:15,830
+So here phi represents matter particles
+and phi star represents the
+
+1092
+00:23:15,830 --> 00:23:15,840
+and phi star represents the
+ 
+
+1093
+00:23:15,840 --> 00:23:18,630
+and phi star represents the
+corresponding antimatter particles with
+
+1094
+00:23:18,630 --> 00:23:18,640
+corresponding antimatter particles with
+ 
+
+1095
+00:23:18,640 --> 00:23:20,950
+corresponding antimatter particles with
+opposite charge.
+
+1096
+00:23:20,950 --> 00:23:20,960
+opposite charge.
+ 
+
+1097
+00:23:20,960 --> 00:23:23,190
+opposite charge.
+So scalar matter and antimatter
+
+1098
+00:23:23,190 --> 00:23:23,200
+So scalar matter and antimatter
+ 
+
+1099
+00:23:23,200 --> 00:23:25,510
+So scalar matter and antimatter
+particles can sort of be viewed as
+
+1100
+00:23:25,510 --> 00:23:25,520
+particles can sort of be viewed as
+ 
+
+1101
+00:23:25,520 --> 00:23:27,830
+particles can sort of be viewed as
+different types of excitations in the
+
+1102
+00:23:27,830 --> 00:23:27,840
+different types of excitations in the
+ 
+
+1103
+00:23:27,840 --> 00:23:30,710
+different types of excitations in the
+same scalar complex field related by the
+
+1104
+00:23:30,710 --> 00:23:30,720
+same scalar complex field related by the
+ 
+
+1105
+00:23:30,720 --> 00:23:32,950
+same scalar complex field related by the
+complex conjugate.
+
+1106
+00:23:32,950 --> 00:23:32,960
+complex conjugate.
+ 
+
+1107
+00:23:32,960 --> 00:23:35,669
+complex conjugate.
+So if the standard matter excitation is
+
+1108
+00:23:35,669 --> 00:23:35,679
+So if the standard matter excitation is
+ 
+
+1109
+00:23:35,679 --> 00:23:37,830
+So if the standard matter excitation is
+a complex exponential with a positive
+
+1110
+00:23:37,830 --> 00:23:37,840
+a complex exponential with a positive
+ 
+
+1111
+00:23:37,840 --> 00:23:40,470
+a complex exponential with a positive
+sign, then the corresponding antimatter
+
+1112
+00:23:40,470 --> 00:23:40,480
+sign, then the corresponding antimatter
+ 
+
+1113
+00:23:40,480 --> 00:23:42,870
+sign, then the corresponding antimatter
+excitation is a complex exponential with
+
+1114
+00:23:42,870 --> 00:23:42,880
+excitation is a complex exponential with
+ 
+
+1115
+00:23:42,880 --> 00:23:46,149
+excitation is a complex exponential with
+a negative sign. These two excitations
+
+1116
+00:23:46,149 --> 00:23:46,159
+a negative sign. These two excitations
+ 
+
+1117
+00:23:46,159 --> 00:23:48,710
+a negative sign. These two excitations
+have the same real part but opposite
+
+1118
+00:23:48,710 --> 00:23:48,720
+have the same real part but opposite
+ 
+
+1119
+00:23:48,720 --> 00:23:52,230
+have the same real part but opposite
+signed imaginary parts.
+
+1120
+00:23:52,230 --> 00:23:52,240
+signed imaginary parts.
+ 
+
+1121
+00:23:52,240 --> 00:23:55,029
+signed imaginary parts.
+Now to understand electric charge we'll
+
+1122
+00:23:55,029 --> 00:23:55,039
+Now to understand electric charge we'll
+ 
+
+1123
+00:23:55,039 --> 00:23:58,149
+Now to understand electric charge we'll
+look at this lrangeian's u1 symmetry
+
+1124
+00:23:58,149 --> 00:23:58,159
+look at this lrangeian's u1 symmetry
+ 
+
+1125
+00:23:58,159 --> 00:24:00,870
+look at this lrangeian's u1 symmetry
+where u1 is the group of all 1x1
+
+1126
+00:24:00,870 --> 00:24:00,880
+where u1 is the group of all 1x1
+ 
+
+1127
+00:24:00,880 --> 00:24:03,909
+where u1 is the group of all 1x1
+unititary matrices which is just the set
+
+1128
+00:24:03,909 --> 00:24:03,919
+unititary matrices which is just the set
+ 
+
+1129
+00:24:03,919 --> 00:24:07,510
+unititary matrices which is just the set
+of complex numbers with magnitude 1. If
+
+1130
+00:24:07,510 --> 00:24:07,520
+of complex numbers with magnitude 1. If
+ 
+
+1131
+00:24:07,520 --> 00:24:10,070
+of complex numbers with magnitude 1. If
+we transform phi by multiplying it by a
+
+1132
+00:24:10,070 --> 00:24:10,080
+we transform phi by multiplying it by a
+ 
+
+1133
+00:24:10,080 --> 00:24:13,110
+we transform phi by multiplying it by a
+complex phase, then phi star will
+
+1134
+00:24:13,110 --> 00:24:13,120
+complex phase, then phi star will
+ 
+
+1135
+00:24:13,120 --> 00:24:15,430
+complex phase, then phi star will
+transform with the same complex phase
+
+1136
+00:24:15,430 --> 00:24:15,440
+transform with the same complex phase
+ 
+
+1137
+00:24:15,440 --> 00:24:17,990
+transform with the same complex phase
+but in the opposite direction since the
+
+1138
+00:24:17,990 --> 00:24:18,000
+but in the opposite direction since the
+ 
+
+1139
+00:24:18,000 --> 00:24:19,830
+but in the opposite direction since the
+complex conjugate will change the sign
+
+1140
+00:24:19,830 --> 00:24:19,840
+complex conjugate will change the sign
+ 
+
+1141
+00:24:19,840 --> 00:24:22,710
+complex conjugate will change the sign
+of the i in the exponent.
+
+1142
+00:24:22,710 --> 00:24:22,720
+of the i in the exponent.
+ 
+
+1143
+00:24:22,720 --> 00:24:25,269
+of the i in the exponent.
+If we take our lrronian and apply this
+
+1144
+00:24:25,269 --> 00:24:25,279
+If we take our lrronian and apply this
+ 
+
+1145
+00:24:25,279 --> 00:24:27,430
+If we take our lrronian and apply this
+u1 phase transformation to the field
+
+1146
+00:24:27,430 --> 00:24:27,440
+u1 phase transformation to the field
+ 
+
+1147
+00:24:27,440 --> 00:24:30,549
+u1 phase transformation to the field
+phi, all of these complex phases do not
+
+1148
+00:24:30,549 --> 00:24:30,559
+phi, all of these complex phases do not
+ 
+
+1149
+00:24:30,559 --> 00:24:33,269
+phi, all of these complex phases do not
+depend on the space-time variables. So
+
+1150
+00:24:33,269 --> 00:24:33,279
+depend on the space-time variables. So
+ 
+
+1151
+00:24:33,279 --> 00:24:34,950
+depend on the space-time variables. So
+we can pull them in and out of the
+
+1152
+00:24:34,950 --> 00:24:34,960
+we can pull them in and out of the
+ 
+
+1153
+00:24:34,960 --> 00:24:37,110
+we can pull them in and out of the
+space-time derivatives.
+
+1154
+00:24:37,110 --> 00:24:37,120
+space-time derivatives.
+ 
+
+1155
+00:24:37,120 --> 00:24:39,190
+space-time derivatives.
+This means that every positive phase
+
+1156
+00:24:39,190 --> 00:24:39,200
+This means that every positive phase
+ 
+
+1157
+00:24:39,200 --> 00:24:41,430
+This means that every positive phase
+will get cancelled by a corresponding
+
+1158
+00:24:41,430 --> 00:24:41,440
+will get cancelled by a corresponding
+ 
+
+1159
+00:24:41,440 --> 00:24:44,470
+will get cancelled by a corresponding
+negative phase. So the overall arrange
+
+1160
+00:24:44,470 --> 00:24:44,480
+negative phase. So the overall arrange
+ 
+
+1161
+00:24:44,480 --> 00:24:47,190
+negative phase. So the overall arrange
+is left unchanged by this U1 phase
+
+1162
+00:24:47,190 --> 00:24:47,200
+is left unchanged by this U1 phase
+ 
+
+1163
+00:24:47,200 --> 00:24:49,909
+is left unchanged by this U1 phase
+transformation.
+
+1164
+00:24:49,909 --> 00:24:49,919
+transformation.
+ 
+
+1165
+00:24:49,919 --> 00:24:52,549
+transformation.
+Now a theorem called nottor's theorem
+
+1166
+00:24:52,549 --> 00:24:52,559
+Now a theorem called nottor's theorem
+ 
+
+1167
+00:24:52,559 --> 00:24:54,870
+Now a theorem called nottor's theorem
+tells us that every continuous symmetry
+
+1168
+00:24:54,870 --> 00:24:54,880
+tells us that every continuous symmetry
+ 
+
+1169
+00:24:54,880 --> 00:24:57,750
+tells us that every continuous symmetry
+in a lronian will always result in a
+
+1170
+00:24:57,750 --> 00:24:57,760
+in a lronian will always result in a
+ 
+
+1171
+00:24:57,760 --> 00:25:00,549
+in a lronian will always result in a
+conserved quantity. We can see this
+
+1172
+00:25:00,549 --> 00:25:00,559
+conserved quantity. We can see this
+ 
+
+1173
+00:25:00,559 --> 00:25:02,310
+conserved quantity. We can see this
+conserved quantity if we look at the
+
+1174
+00:25:02,310 --> 00:25:02,320
+conserved quantity if we look at the
+ 
+
+1175
+00:25:02,320 --> 00:25:04,950
+conserved quantity if we look at the
+Klein Gordon equations for fi and phi
+
+1176
+00:25:04,950 --> 00:25:04,960
+Klein Gordon equations for fi and phi
+ 
+
+1177
+00:25:04,960 --> 00:25:06,310
+Klein Gordon equations for fi and phi
+star.
+
+1178
+00:25:06,310 --> 00:25:06,320
+star.
+ 
+
+1179
+00:25:06,320 --> 00:25:08,470
+star.
+We'll multiply the fi equation on the
+
+1180
+00:25:08,470 --> 00:25:08,480
+We'll multiply the fi equation on the
+ 
+
+1181
+00:25:08,480 --> 00:25:11,590
+We'll multiply the fi equation on the
+left by fi star and multiply the phi
+
+1182
+00:25:11,590 --> 00:25:11,600
+left by fi star and multiply the phi
+ 
+
+1183
+00:25:11,600 --> 00:25:15,029
+left by fi star and multiply the phi
+star equation on the left by phi. Now
+
+1184
+00:25:15,029 --> 00:25:15,039
+star equation on the left by phi. Now
+ 
+
+1185
+00:25:15,039 --> 00:25:17,830
+star equation on the left by phi. Now
+let's subtract the equations which will
+
+1186
+00:25:17,830 --> 00:25:17,840
+let's subtract the equations which will
+ 
+
+1187
+00:25:17,840 --> 00:25:19,830
+let's subtract the equations which will
+cancel the mass terms but leave the
+
+1188
+00:25:19,830 --> 00:25:19,840
+cancel the mass terms but leave the
+ 
+
+1189
+00:25:19,840 --> 00:25:21,990
+cancel the mass terms but leave the
+derivative terms.
+
+1190
+00:25:21,990 --> 00:25:22,000
+derivative terms.
+ 
+
+1191
+00:25:22,000 --> 00:25:24,470
+derivative terms.
+Now I'll add and subtract this term with
+
+1192
+00:25:24,470 --> 00:25:24,480
+Now I'll add and subtract this term with
+ 
+
+1193
+00:25:24,480 --> 00:25:27,990
+Now I'll add and subtract this term with
+derivatives of phi and phi star. These
+
+1194
+00:25:27,990 --> 00:25:28,000
+derivatives of phi and phi star. These
+ 
+
+1195
+00:25:28,000 --> 00:25:29,830
+derivatives of phi and phi star. These
+first two terms have a lower mu
+
+1196
+00:25:29,830 --> 00:25:29,840
+first two terms have a lower mu
+ 
+
+1197
+00:25:29,840 --> 00:25:32,230
+first two terms have a lower mu
+derivative on the left on the first term
+
+1198
+00:25:32,230 --> 00:25:32,240
+derivative on the left on the first term
+ 
+
+1199
+00:25:32,240 --> 00:25:35,029
+derivative on the left on the first term
+and on the right in the second term. So
+
+1200
+00:25:35,029 --> 00:25:35,039
+and on the right in the second term. So
+ 
+
+1201
+00:25:35,039 --> 00:25:36,870
+and on the right in the second term. So
+they can be grouped together using
+
+1202
+00:25:36,870 --> 00:25:36,880
+they can be grouped together using
+ 
+
+1203
+00:25:36,880 --> 00:25:39,990
+they can be grouped together using
+product rule in reverse. The same is
+
+1204
+00:25:39,990 --> 00:25:40,000
+product rule in reverse. The same is
+ 
+
+1205
+00:25:40,000 --> 00:25:41,750
+product rule in reverse. The same is
+true for grouping the third and fourth
+
+1206
+00:25:41,750 --> 00:25:41,760
+true for grouping the third and fourth
+ 
+
+1207
+00:25:41,760 --> 00:25:43,269
+true for grouping the third and fourth
+terms.
+
+1208
+00:25:43,269 --> 00:25:43,279
+terms.
+ 
+
+1209
+00:25:43,279 --> 00:25:45,669
+terms.
+Overall we get this equation here
+
+1210
+00:25:45,669 --> 00:25:45,679
+Overall we get this equation here
+ 
+
+1211
+00:25:45,679 --> 00:25:48,149
+Overall we get this equation here
+equaling zero.
+
+1212
+00:25:48,149 --> 00:25:48,159
+equaling zero.
+ 
+
+1213
+00:25:48,159 --> 00:25:50,470
+equaling zero.
+We can consider this formula here in the
+
+1214
+00:25:50,470 --> 00:25:50,480
+We can consider this formula here in the
+ 
+
+1215
+00:25:50,480 --> 00:25:53,830
+We can consider this formula here in the
+brackets to be a current for vector J
+
+1216
+00:25:53,830 --> 00:25:53,840
+brackets to be a current for vector J
+ 
+
+1217
+00:25:53,840 --> 00:25:57,350
+brackets to be a current for vector J
+and this obeys a continuity equation.
+
+1218
+00:25:57,350 --> 00:25:57,360
+and this obeys a continuity equation.
+ 
+
+1219
+00:25:57,360 --> 00:25:59,269
+and this obeys a continuity equation.
+This basically means there's a charge
+
+1220
+00:25:59,269 --> 00:25:59,279
+This basically means there's a charge
+ 
+
+1221
+00:25:59,279 --> 00:26:01,669
+This basically means there's a charge
+density which is the time component of
+
+1222
+00:26:01,669 --> 00:26:01,679
+density which is the time component of
+ 
+
+1223
+00:26:01,679 --> 00:26:04,630
+density which is the time component of
+J. And the only way this charge density
+
+1224
+00:26:04,630 --> 00:26:04,640
+J. And the only way this charge density
+ 
+
+1225
+00:26:04,640 --> 00:26:07,269
+J. And the only way this charge density
+can change over time is if there's a
+
+1226
+00:26:07,269 --> 00:26:07,279
+can change over time is if there's a
+ 
+
+1227
+00:26:07,279 --> 00:26:09,430
+can change over time is if there's a
+convergence or divergence of some
+
+1228
+00:26:09,430 --> 00:26:09,440
+convergence or divergence of some
+ 
+
+1229
+00:26:09,440 --> 00:26:12,789
+convergence or divergence of some
+current at a given point. This is the
+
+1230
+00:26:12,789 --> 00:26:12,799
+current at a given point. This is the
+ 
+
+1231
+00:26:12,799 --> 00:26:15,350
+current at a given point. This is the
+electric charge current. And since it
+
+1232
+00:26:15,350 --> 00:26:15,360
+electric charge current. And since it
+ 
+
+1233
+00:26:15,360 --> 00:26:17,590
+electric charge current. And since it
+obeys the continuity equation, this
+
+1234
+00:26:17,590 --> 00:26:17,600
+obeys the continuity equation, this
+ 
+
+1235
+00:26:17,600 --> 00:26:19,750
+obeys the continuity equation, this
+means that total electric charge is
+
+1236
+00:26:19,750 --> 00:26:19,760
+means that total electric charge is
+ 
+
+1237
+00:26:19,760 --> 00:26:22,870
+means that total electric charge is
+conserved over time.
+
+1238
+00:26:22,870 --> 00:26:22,880
+conserved over time.
+ 
+
+1239
+00:26:22,880 --> 00:26:24,789
+conserved over time.
+Now I will point out that this four
+
+1240
+00:26:24,789 --> 00:26:24,799
+Now I will point out that this four
+ 
+
+1241
+00:26:24,799 --> 00:26:27,110
+Now I will point out that this four
+vector current we've defined here is
+
+1242
+00:26:27,110 --> 00:26:27,120
+vector current we've defined here is
+ 
+
+1243
+00:26:27,120 --> 00:26:29,269
+vector current we've defined here is
+purely imaginary.
+
+1244
+00:26:29,269 --> 00:26:29,279
+purely imaginary.
+ 
+
+1245
+00:26:29,279 --> 00:26:31,430
+purely imaginary.
+We can see this by taking the complex
+
+1246
+00:26:31,430 --> 00:26:31,440
+We can see this by taking the complex
+ 
+
+1247
+00:26:31,440 --> 00:26:33,669
+We can see this by taking the complex
+conjugate of the formula then
+
+1248
+00:26:33,669 --> 00:26:33,679
+conjugate of the formula then
+ 
+
+1249
+00:26:33,679 --> 00:26:35,510
+conjugate of the formula then
+distributing the star to all the terms
+
+1250
+00:26:35,510 --> 00:26:35,520
+distributing the star to all the terms
+ 
+
+1251
+00:26:35,520 --> 00:26:37,510
+distributing the star to all the terms
+inside and seeing that we get the
+
+1252
+00:26:37,510 --> 00:26:37,520
+inside and seeing that we get the
+ 
+
+1253
+00:26:37,520 --> 00:26:40,230
+inside and seeing that we get the
+negative of the original four vector.
+
+1254
+00:26:40,230 --> 00:26:40,240
+negative of the original four vector.
+ 
+
+1255
+00:26:40,240 --> 00:26:42,149
+negative of the original four vector.
+Since the complex conjugate equals the
+
+1256
+00:26:42,149 --> 00:26:42,159
+Since the complex conjugate equals the
+ 
+
+1257
+00:26:42,159 --> 00:26:44,549
+Since the complex conjugate equals the
+negative this means that J is purely
+
+1258
+00:26:44,549 --> 00:26:44,559
+negative this means that J is purely
+ 
+
+1259
+00:26:44,559 --> 00:26:46,310
+negative this means that J is purely
+imaginary.
+
+1260
+00:26:46,310 --> 00:26:46,320
+imaginary.
+ 
+
+1261
+00:26:46,320 --> 00:26:48,710
+imaginary.
+Because of this, we usually define J by
+
+1262
+00:26:48,710 --> 00:26:48,720
+Because of this, we usually define J by
+ 
+
+1263
+00:26:48,720 --> 00:26:50,950
+Because of this, we usually define J by
+multiplying this formula by the complex
+
+1264
+00:26:50,950 --> 00:26:50,960
+multiplying this formula by the complex
+ 
+
+1265
+00:26:50,960 --> 00:26:54,870
+multiplying this formula by the complex
+I to make the result purely real.
+
+1266
+00:26:54,870 --> 00:26:54,880
+I to make the result purely real.
+ 
+
+1267
+00:26:54,880 --> 00:26:57,190
+I to make the result purely real.
+Now, everything we've said so far is
+
+1268
+00:26:57,190 --> 00:26:57,200
+Now, everything we've said so far is
+ 
+
+1269
+00:26:57,200 --> 00:27:00,149
+Now, everything we've said so far is
+true in classical field theory. But
+
+1270
+00:27:00,149 --> 00:27:00,159
+true in classical field theory. But
+ 
+
+1271
+00:27:00,159 --> 00:27:02,149
+true in classical field theory. But
+let's jump ahead and take a quick look
+
+1272
+00:27:02,149 --> 00:27:02,159
+let's jump ahead and take a quick look
+ 
+
+1273
+00:27:02,159 --> 00:27:05,029
+let's jump ahead and take a quick look
+at quantum field theory where the field
+
+1274
+00:27:05,029 --> 00:27:05,039
+at quantum field theory where the field
+ 
+
+1275
+00:27:05,039 --> 00:27:08,310
+at quantum field theory where the field
+functions become quantum operators.
+
+1276
+00:27:08,310 --> 00:27:08,320
+functions become quantum operators.
+ 
+
+1277
+00:27:08,320 --> 00:27:10,230
+functions become quantum operators.
+This will lead us to creation and
+
+1278
+00:27:10,230 --> 00:27:10,240
+This will lead us to creation and
+ 
+
+1279
+00:27:10,240 --> 00:27:12,789
+This will lead us to creation and
+annihilation operators for both matter
+
+1280
+00:27:12,789 --> 00:27:12,799
+annihilation operators for both matter
+ 
+
+1281
+00:27:12,799 --> 00:27:15,830
+annihilation operators for both matter
+and antimatter particles.
+
+1282
+00:27:15,830 --> 00:27:15,840
+and antimatter particles.
+ 
+
+1283
+00:27:15,840 --> 00:27:18,070
+and antimatter particles.
+There are also number operators for
+
+1284
+00:27:18,070 --> 00:27:18,080
+There are also number operators for
+ 
+
+1285
+00:27:18,080 --> 00:27:19,750
+There are also number operators for
+counting the number of matter and
+
+1286
+00:27:19,750 --> 00:27:19,760
+counting the number of matter and
+ 
+
+1287
+00:27:19,760 --> 00:27:22,390
+counting the number of matter and
+antimatter particles with a given wave
+
+1288
+00:27:22,390 --> 00:27:22,400
+antimatter particles with a given wave
+ 
+
+1289
+00:27:22,400 --> 00:27:24,310
+antimatter particles with a given wave
+number K.
+
+1290
+00:27:24,310 --> 00:27:24,320
+number K.
+ 
+
+1291
+00:27:24,320 --> 00:27:26,149
+number K.
+There is also an electric charge
+
+1292
+00:27:26,149 --> 00:27:26,159
+There is also an electric charge
+ 
+
+1293
+00:27:26,159 --> 00:27:28,549
+There is also an electric charge
+operator Q which is related to the
+
+1294
+00:27:28,549 --> 00:27:28,559
+operator Q which is related to the
+ 
+
+1295
+00:27:28,559 --> 00:27:30,230
+operator Q which is related to the
+difference in the number of matter and
+
+1296
+00:27:30,230 --> 00:27:30,240
+difference in the number of matter and
+ 
+
+1297
+00:27:30,240 --> 00:27:32,549
+difference in the number of matter and
+antimatter particles and this is
+
+1298
+00:27:32,549 --> 00:27:32,559
+antimatter particles and this is
+ 
+
+1299
+00:27:32,559 --> 00:27:35,669
+antimatter particles and this is
+conserved over time.
+
+1300
+00:27:35,669 --> 00:27:35,679
+conserved over time.
+ 
+
+1301
+00:27:35,679 --> 00:27:38,070
+conserved over time.
+The Higs field related to the famous
+
+1302
+00:27:38,070 --> 00:27:38,080
+The Higs field related to the famous
+ 
+
+1303
+00:27:38,080 --> 00:27:41,830
+The Higs field related to the famous
+Higs Bzon is actually a pair of complex
+
+1304
+00:27:41,830 --> 00:27:41,840
+Higs Bzon is actually a pair of complex
+ 
+
+1305
+00:27:41,840 --> 00:27:44,950
+Higs Bzon is actually a pair of complex
+scalar fields in its original form and
+
+1306
+00:27:44,950 --> 00:27:44,960
+scalar fields in its original form and
+ 
+
+1307
+00:27:44,960 --> 00:27:47,990
+scalar fields in its original form and
+its free behavior ignoring interactions
+
+1308
+00:27:47,990 --> 00:27:48,000
+its free behavior ignoring interactions
+ 
+
+1309
+00:27:48,000 --> 00:27:50,710
+its free behavior ignoring interactions
+is described by the complex Klein Gordon
+
+1310
+00:27:50,710 --> 00:27:50,720
+is described by the complex Klein Gordon
+ 
+
+1311
+00:27:50,720 --> 00:27:52,950
+is described by the complex Klein Gordon
+field.
+
+1312
+00:27:52,950 --> 00:27:52,960
+field.
+ 
+
+1313
+00:27:52,960 --> 00:27:54,870
+field.
+So let's sum up everything we've learned
+
+1314
+00:27:54,870 --> 00:27:54,880
+So let's sum up everything we've learned
+ 
+
+1315
+00:27:54,880 --> 00:27:56,870
+So let's sum up everything we've learned
+about the Klein Gordon equation in this
+
+1316
+00:27:56,870 --> 00:27:56,880
+about the Klein Gordon equation in this
+ 
+
+1317
+00:27:56,880 --> 00:27:58,389
+about the Klein Gordon equation in this
+video.
+
+1318
+00:27:58,389 --> 00:27:58,399
+video.
+ 
+
+1319
+00:27:58,399 --> 00:28:00,789
+video.
+We learned that the Klein Gordon Lronian
+
+1320
+00:28:00,789 --> 00:28:00,799
+We learned that the Klein Gordon Lronian
+ 
+
+1321
+00:28:00,799 --> 00:28:02,950
+We learned that the Klein Gordon Lronian
+is inspired by an infinite field of
+
+1322
+00:28:02,950 --> 00:28:02,960
+is inspired by an infinite field of
+ 
+
+1323
+00:28:02,960 --> 00:28:05,510
+is inspired by an infinite field of
+masses on springs connected with rubber
+
+1324
+00:28:05,510 --> 00:28:05,520
+masses on springs connected with rubber
+ 
+
+1325
+00:28:05,520 --> 00:28:08,149
+masses on springs connected with rubber
+bands. And each term in the Klein Gordon
+
+1326
+00:28:08,149 --> 00:28:08,159
+bands. And each term in the Klein Gordon
+ 
+
+1327
+00:28:08,159 --> 00:28:10,470
+bands. And each term in the Klein Gordon
+lrangeian represents either kinetic
+
+1328
+00:28:10,470 --> 00:28:10,480
+lrangeian represents either kinetic
+ 
+
+1329
+00:28:10,480 --> 00:28:12,549
+lrangeian represents either kinetic
+energy or potential energy in this
+
+1330
+00:28:12,549 --> 00:28:12,559
+energy or potential energy in this
+ 
+
+1331
+00:28:12,559 --> 00:28:15,590
+energy or potential energy in this
+field. When we put this lrangeian
+
+1332
+00:28:15,590 --> 00:28:15,600
+field. When we put this lrangeian
+ 
+
+1333
+00:28:15,600 --> 00:28:17,750
+field. When we put this lrangeian
+through the oiler lrangege equations, we
+
+1334
+00:28:17,750 --> 00:28:17,760
+through the oiler lrangege equations, we
+ 
+
+1335
+00:28:17,760 --> 00:28:20,070
+through the oiler lrangege equations, we
+get the Klein Gordon equation which
+
+1336
+00:28:20,070 --> 00:28:20,080
+get the Klein Gordon equation which
+ 
+
+1337
+00:28:20,080 --> 00:28:22,470
+get the Klein Gordon equation which
+describes how the field fi evolves over
+
+1338
+00:28:22,470 --> 00:28:22,480
+describes how the field fi evolves over
+ 
+
+1339
+00:28:22,480 --> 00:28:25,590
+describes how the field fi evolves over
+time. This is the 1 + 1 space-time
+
+1340
+00:28:25,590 --> 00:28:25,600
+time. This is the 1 + 1 space-time
+ 
+
+1341
+00:28:25,600 --> 00:28:27,750
+time. This is the 1 + 1 space-time
+version of the Klein Gordon equation.
+
+1342
+00:28:27,750 --> 00:28:27,760
+version of the Klein Gordon equation.
+ 
+
+1343
+00:28:27,760 --> 00:28:30,149
+version of the Klein Gordon equation.
+But we can also write down the 3 + 1
+
+1344
+00:28:30,149 --> 00:28:30,159
+But we can also write down the 3 + 1
+ 
+
+1345
+00:28:30,159 --> 00:28:34,389
+But we can also write down the 3 + 1
+spac-time version with XY Z variables.
+
+1346
+00:28:34,389 --> 00:28:34,399
+spac-time version with XY Z variables.
+ 
+
+1347
+00:28:34,399 --> 00:28:36,549
+spac-time version with XY Z variables.
+The basic solutions to the Klein Gordon
+
+1348
+00:28:36,549 --> 00:28:36,559
+The basic solutions to the Klein Gordon
+ 
+
+1349
+00:28:36,559 --> 00:28:39,430
+The basic solutions to the Klein Gordon
+equation are sinosoidal waves which can
+
+1350
+00:28:39,430 --> 00:28:39,440
+equation are sinosoidal waves which can
+ 
+
+1351
+00:28:39,440 --> 00:28:42,389
+equation are sinosoidal waves which can
+be written in many different ways.
+
+1352
+00:28:42,389 --> 00:28:42,399
+be written in many different ways.
+ 
+
+1353
+00:28:42,399 --> 00:28:44,389
+be written in many different ways.
+And since the Klein Gordon equation is
+
+1354
+00:28:44,389 --> 00:28:44,399
+And since the Klein Gordon equation is
+ 
+
+1355
+00:28:44,399 --> 00:28:47,510
+And since the Klein Gordon equation is
+linear, any sum of scaled sinosoid
+
+1356
+00:28:47,510 --> 00:28:47,520
+linear, any sum of scaled sinosoid
+ 
+
+1357
+00:28:47,520 --> 00:28:49,590
+linear, any sum of scaled sinosoid
+solutions will give another valid
+
+1358
+00:28:49,590 --> 00:28:49,600
+solutions will give another valid
+ 
+
+1359
+00:28:49,600 --> 00:28:51,350
+solutions will give another valid
+solution.
+
+1360
+00:28:51,350 --> 00:28:51,360
+solution.
+ 
+
+1361
+00:28:51,360 --> 00:28:52,789
+solution.
+We also learned about the difference
+
+1362
+00:28:52,789 --> 00:28:52,799
+We also learned about the difference
+ 
+
+1363
+00:28:52,799 --> 00:28:54,710
+We also learned about the difference
+between the phase velocity and group
+
+1364
+00:28:54,710 --> 00:28:54,720
+between the phase velocity and group
+ 
+
+1365
+00:28:54,720 --> 00:28:57,669
+between the phase velocity and group
+velocity of Klein Gordon solutions.
+
+1366
+00:28:57,669 --> 00:28:57,679
+velocity of Klein Gordon solutions.
+ 
+
+1367
+00:28:57,679 --> 00:28:59,669
+velocity of Klein Gordon solutions.
+It is only the group velocity that is
+
+1368
+00:28:59,669 --> 00:28:59,679
+It is only the group velocity that is
+ 
+
+1369
+00:28:59,679 --> 00:29:02,470
+It is only the group velocity that is
+capable of transmitting information. So
+
+1370
+00:29:02,470 --> 00:29:02,480
+capable of transmitting information. So
+ 
+
+1371
+00:29:02,480 --> 00:29:05,269
+capable of transmitting information. So
+it is limited by the speed of light.
+
+1372
+00:29:05,269 --> 00:29:05,279
+it is limited by the speed of light.
+ 
+
+1373
+00:29:05,279 --> 00:29:07,190
+it is limited by the speed of light.
+However, the phase velocity does not
+
+1374
+00:29:07,190 --> 00:29:07,200
+However, the phase velocity does not
+ 
+
+1375
+00:29:07,200 --> 00:29:09,590
+However, the phase velocity does not
+have this limit.
+
+1376
+00:29:09,590 --> 00:29:09,600
+have this limit.
+ 
+
+1377
+00:29:09,600 --> 00:29:11,590
+have this limit.
+Finally, we learned about the complex
+
+1378
+00:29:11,590 --> 00:29:11,600
+Finally, we learned about the complex
+ 
+
+1379
+00:29:11,600 --> 00:29:14,070
+Finally, we learned about the complex
+Klein Gordon field which gives both
+
+1380
+00:29:14,070 --> 00:29:14,080
+Klein Gordon field which gives both
+ 
+
+1381
+00:29:14,080 --> 00:29:17,430
+Klein Gordon field which gives both
+matter and antimatter solutions.
+
+1382
+00:29:17,430 --> 00:29:17,440
+matter and antimatter solutions.
+ 
+
+1383
+00:29:17,440 --> 00:29:19,750
+matter and antimatter solutions.
+And we learned that the U1 symmetry of
+
+1384
+00:29:19,750 --> 00:29:19,760
+And we learned that the U1 symmetry of
+ 
+
+1385
+00:29:19,760 --> 00:29:22,470
+And we learned that the U1 symmetry of
+this lronian leads to a conserved
+
+1386
+00:29:22,470 --> 00:29:22,480
+this lronian leads to a conserved
+ 
+
+1387
+00:29:22,480 --> 00:29:25,269
+this lronian leads to a conserved
+current which is the electric current
+
+1388
+00:29:25,269 --> 00:29:25,279
+current which is the electric current
+ 
+
+1389
+00:29:25,279 --> 00:29:27,990
+current which is the electric current
+for vector. And this obeys a continuity
+
+1390
+00:29:27,990 --> 00:29:28,000
+for vector. And this obeys a continuity
+ 
+
+1391
+00:29:28,000 --> 00:29:30,070
+for vector. And this obeys a continuity
+equation.
+
+1392
+00:29:30,070 --> 00:29:30,080
+equation.
+ 
+
+1393
+00:29:30,080 --> 00:29:31,750
+equation.
+In the next video, we're going to look
+
+1394
+00:29:31,750 --> 00:29:31,760
+In the next video, we're going to look
+ 
+
+1395
+00:29:31,760 --> 00:29:33,669
+In the next video, we're going to look
+at the procrangeian
+
+1396
+00:29:33,669 --> 00:29:33,679
+at the procrangeian
+ 
+
+1397
+00:29:33,679 --> 00:29:38,039
+at the procrangeian
+which describes vector fields.
+

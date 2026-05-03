@@ -1,0 +1,6005 @@
+1
+00:00:00,000 --> 00:00:02,570
+
+so we finished talking about the basic
+
+2
+00:00:02,570 --> 00:00:02,580
+so we finished talking about the basic
+ 
+
+3
+00:00:02,580 --> 00:00:05,570
+so we finished talking about the basic
+examples of spinners in physics starting
+
+4
+00:00:05,570 --> 00:00:05,580
+examples of spinners in physics starting
+ 
+
+5
+00:00:05,580 --> 00:00:07,430
+examples of spinners in physics starting
+with this video we're going to start
+
+6
+00:00:07,430 --> 00:00:07,440
+with this video we're going to start
+ 
+
+7
+00:00:07,440 --> 00:00:09,410
+with this video we're going to start
+looking at Spinners from a purely
+
+8
+00:00:09,410 --> 00:00:09,420
+looking at Spinners from a purely
+ 
+
+9
+00:00:09,420 --> 00:00:12,290
+looking at Spinners from a purely
+mathematical point of view in both 3D
+
+10
+00:00:12,290 --> 00:00:12,300
+mathematical point of view in both 3D
+ 
+
+11
+00:00:12,300 --> 00:00:14,930
+mathematical point of view in both 3D
+space and 4D space time
+
+12
+00:00:14,930 --> 00:00:14,940
+space and 4D space time
+ 
+
+13
+00:00:14,940 --> 00:00:17,090
+space and 4D space time
+in this video we're going to see how we
+
+14
+00:00:17,090 --> 00:00:17,100
+in this video we're going to see how we
+ 
+
+15
+00:00:17,100 --> 00:00:20,510
+in this video we're going to see how we
+can rewrite a 3D Vector as a 2x2 matrix
+
+16
+00:00:20,510 --> 00:00:20,520
+can rewrite a 3D Vector as a 2x2 matrix
+ 
+
+17
+00:00:20,520 --> 00:00:23,390
+can rewrite a 3D Vector as a 2x2 matrix
+called a poly vector and in the next
+
+18
+00:00:23,390 --> 00:00:23,400
+called a poly vector and in the next
+ 
+
+19
+00:00:23,400 --> 00:00:25,189
+called a poly vector and in the next
+video we're going to see how we can
+
+20
+00:00:25,189 --> 00:00:25,199
+video we're going to see how we can
+ 
+
+21
+00:00:25,199 --> 00:00:27,950
+video we're going to see how we can
+Factor this polyvector into a pair of
+
+22
+00:00:27,950 --> 00:00:27,960
+Factor this polyvector into a pair of
+ 
+
+23
+00:00:27,960 --> 00:00:29,689
+Factor this polyvector into a pair of
+poly spinners
+
+24
+00:00:29,689 --> 00:00:29,699
+poly spinners
+ 
+
+25
+00:00:29,699 --> 00:00:31,970
+poly spinners
+later we'll see how we can do the same
+
+26
+00:00:31,970 --> 00:00:31,980
+later we'll see how we can do the same
+ 
+
+27
+00:00:31,980 --> 00:00:35,090
+later we'll see how we can do the same
+thing for a 4D space-time vector and
+
+28
+00:00:35,090 --> 00:00:35,100
+thing for a 4D space-time vector and
+ 
+
+29
+00:00:35,100 --> 00:00:39,049
+thing for a 4D space-time vector and
+Factor it into a pair of vial spinners
+
+30
+00:00:39,049 --> 00:00:39,059
+Factor it into a pair of vial spinners
+ 
+
+31
+00:00:39,059 --> 00:00:41,209
+Factor it into a pair of vial spinners
+for the next few videos we're going to
+
+32
+00:00:41,209 --> 00:00:41,219
+for the next few videos we're going to
+ 
+
+33
+00:00:41,219 --> 00:00:43,310
+for the next few videos we're going to
+be starting over and inventing Spinners
+
+34
+00:00:43,310 --> 00:00:43,320
+be starting over and inventing Spinners
+ 
+
+35
+00:00:43,320 --> 00:00:45,590
+be starting over and inventing Spinners
+from scratch so you won't actually
+
+36
+00:00:45,590 --> 00:00:45,600
+from scratch so you won't actually
+ 
+
+37
+00:00:45,600 --> 00:00:47,990
+from scratch so you won't actually
+require any of the previous videos to
+
+38
+00:00:47,990 --> 00:00:48,000
+require any of the previous videos to
+ 
+
+39
+00:00:48,000 --> 00:00:50,690
+require any of the previous videos to
+understand what's going on however the
+
+40
+00:00:50,690 --> 00:00:50,700
+understand what's going on however the
+ 
+
+41
+00:00:50,700 --> 00:00:52,670
+understand what's going on however the
+previous videos might help give more
+
+42
+00:00:52,670 --> 00:00:52,680
+previous videos might help give more
+ 
+
+43
+00:00:52,680 --> 00:00:55,850
+previous videos might help give more
+context for why we care about spinners
+
+44
+00:00:55,850 --> 00:00:55,860
+context for why we care about spinners
+ 
+
+45
+00:00:55,860 --> 00:00:58,189
+context for why we care about spinners
+I've included a list of sources for this
+
+46
+00:00:58,189 --> 00:00:58,199
+I've included a list of sources for this
+ 
+
+47
+00:00:58,199 --> 00:01:00,290
+I've included a list of sources for this
+video in the description if you want to
+
+48
+00:01:00,290 --> 00:01:00,300
+video in the description if you want to
+ 
+
+49
+00:01:00,300 --> 00:01:02,450
+video in the description if you want to
+learn more
+
+50
+00:01:02,450 --> 00:01:02,460
+learn more
+ 
+
+51
+00:01:02,460 --> 00:01:05,030
+learn more
+so writing a vector as a two by two
+
+52
+00:01:05,030 --> 00:01:05,040
+so writing a vector as a two by two
+ 
+
+53
+00:01:05,040 --> 00:01:07,250
+so writing a vector as a two by two
+Matrix like this probably looks pretty
+
+54
+00:01:07,250 --> 00:01:07,260
+Matrix like this probably looks pretty
+ 
+
+55
+00:01:07,260 --> 00:01:10,070
+Matrix like this probably looks pretty
+random but it turns out that this 2x2
+
+56
+00:01:10,070 --> 00:01:10,080
+random but it turns out that this 2x2
+ 
+
+57
+00:01:10,080 --> 00:01:12,950
+random but it turns out that this 2x2
+matrix is very useful for when we want
+
+58
+00:01:12,950 --> 00:01:12,960
+matrix is very useful for when we want
+ 
+
+59
+00:01:12,960 --> 00:01:15,230
+matrix is very useful for when we want
+to do geometric Transformations on our
+
+60
+00:01:15,230 --> 00:01:15,240
+to do geometric Transformations on our
+ 
+
+61
+00:01:15,240 --> 00:01:18,770
+to do geometric Transformations on our
+Vector like Reflections and rotations
+
+62
+00:01:18,770 --> 00:01:18,780
+Vector like Reflections and rotations
+ 
+
+63
+00:01:18,780 --> 00:01:21,410
+Vector like Reflections and rotations
+in order to understand why this form is
+
+64
+00:01:21,410 --> 00:01:21,420
+in order to understand why this form is
+ 
+
+65
+00:01:21,420 --> 00:01:23,690
+in order to understand why this form is
+useful we need to spend a bit of time
+
+66
+00:01:23,690 --> 00:01:23,700
+useful we need to spend a bit of time
+ 
+
+67
+00:01:23,700 --> 00:01:26,870
+useful we need to spend a bit of time
+talking about the poly matrices also
+
+68
+00:01:26,870 --> 00:01:26,880
+talking about the poly matrices also
+ 
+
+69
+00:01:26,880 --> 00:01:29,390
+talking about the poly matrices also
+called the sigma matrices
+
+70
+00:01:29,390 --> 00:01:29,400
+called the sigma matrices
+ 
+
+71
+00:01:29,400 --> 00:01:31,969
+called the sigma matrices
+later in this video we'll see how these
+
+72
+00:01:31,969 --> 00:01:31,979
+later in this video we'll see how these
+ 
+
+73
+00:01:31,979 --> 00:01:34,490
+later in this video we'll see how these
+matrices can help us reflect and rotate
+
+74
+00:01:34,490 --> 00:01:34,500
+matrices can help us reflect and rotate
+ 
+
+75
+00:01:34,500 --> 00:01:36,530
+matrices can help us reflect and rotate
+vectors
+
+76
+00:01:36,530 --> 00:01:36,540
+vectors
+ 
+
+77
+00:01:36,540 --> 00:01:39,069
+vectors
+so here are the three poly matrices
+
+78
+00:01:39,069 --> 00:01:39,079
+so here are the three poly matrices
+ 
+
+79
+00:01:39,079 --> 00:01:42,950
+so here are the three poly matrices
+Sigma X Sigma Y and sigma Z
+
+80
+00:01:42,950 --> 00:01:42,960
+Sigma X Sigma Y and sigma Z
+ 
+
+81
+00:01:42,960 --> 00:01:45,770
+Sigma X Sigma Y and sigma Z
+these are also called Sigma 1 Sigma 2
+
+82
+00:01:45,770 --> 00:01:45,780
+these are also called Sigma 1 Sigma 2
+ 
+
+83
+00:01:45,780 --> 00:01:49,069
+these are also called Sigma 1 Sigma 2
+and sigma 3 in some sources
+
+84
+00:01:49,069 --> 00:01:49,079
+and sigma 3 in some sources
+ 
+
+85
+00:01:49,079 --> 00:01:51,710
+and sigma 3 in some sources
+these matrices have some nice properties
+
+86
+00:01:51,710 --> 00:01:51,720
+these matrices have some nice properties
+ 
+
+87
+00:01:51,720 --> 00:01:54,950
+these matrices have some nice properties
+that make them useful for doing geometry
+
+88
+00:01:54,950 --> 00:01:54,960
+that make them useful for doing geometry
+ 
+
+89
+00:01:54,960 --> 00:01:57,830
+that make them useful for doing geometry
+first they have zero Trace second
+
+90
+00:01:57,830 --> 00:01:57,840
+first they have zero Trace second
+ 
+
+91
+00:01:57,840 --> 00:02:00,649
+first they have zero Trace second
+they're all hermitian third they all
+
+92
+00:02:00,649 --> 00:02:00,659
+they're all hermitian third they all
+ 
+
+93
+00:02:00,659 --> 00:02:03,710
+they're all hermitian third they all
+square to the identity Matrix fourth we
+
+94
+00:02:03,710 --> 00:02:03,720
+square to the identity Matrix fourth we
+ 
+
+95
+00:02:03,720 --> 00:02:05,990
+square to the identity Matrix fourth we
+can always swap the order of two Sigma
+
+96
+00:02:05,990 --> 00:02:06,000
+can always swap the order of two Sigma
+ 
+
+97
+00:02:06,000 --> 00:02:08,630
+can always swap the order of two Sigma
+matrices in a product if we include a
+
+98
+00:02:08,630 --> 00:02:08,640
+matrices in a product if we include a
+ 
+
+99
+00:02:08,640 --> 00:02:09,889
+matrices in a product if we include a
+negative sign
+
+100
+00:02:09,889 --> 00:02:09,899
+negative sign
+ 
+
+101
+00:02:09,899 --> 00:02:12,110
+negative sign
+another way of saying this is saying
+
+102
+00:02:12,110 --> 00:02:12,120
+another way of saying this is saying
+ 
+
+103
+00:02:12,120 --> 00:02:15,470
+another way of saying this is saying
+that the sigma matrices anti-commute
+
+104
+00:02:15,470 --> 00:02:15,480
+that the sigma matrices anti-commute
+ 
+
+105
+00:02:15,480 --> 00:02:18,170
+that the sigma matrices anti-commute
+let's review each of these properties in
+
+106
+00:02:18,170 --> 00:02:18,180
+let's review each of these properties in
+ 
+
+107
+00:02:18,180 --> 00:02:19,490
+let's review each of these properties in
+order
+
+108
+00:02:19,490 --> 00:02:19,500
+order
+ 
+
+109
+00:02:19,500 --> 00:02:22,309
+order
+the trace of a matrix is just the sum of
+
+110
+00:02:22,309 --> 00:02:22,319
+the trace of a matrix is just the sum of
+ 
+
+111
+00:02:22,319 --> 00:02:24,890
+the trace of a matrix is just the sum of
+the elements along the main diagonal
+
+112
+00:02:24,890 --> 00:02:24,900
+the elements along the main diagonal
+ 
+
+113
+00:02:24,900 --> 00:02:27,350
+the elements along the main diagonal
+it's pretty easy to see that each Sigma
+
+114
+00:02:27,350 --> 00:02:27,360
+it's pretty easy to see that each Sigma
+ 
+
+115
+00:02:27,360 --> 00:02:30,290
+it's pretty easy to see that each Sigma
+Matrix has zero Trace
+
+116
+00:02:30,290 --> 00:02:30,300
+Matrix has zero Trace
+ 
+
+117
+00:02:30,300 --> 00:02:33,110
+Matrix has zero Trace
+let's move on to the hermitian property
+
+118
+00:02:33,110 --> 00:02:33,120
+let's move on to the hermitian property
+ 
+
+119
+00:02:33,120 --> 00:02:35,390
+let's move on to the hermitian property
+remember the transpose of a matrix
+
+120
+00:02:35,390 --> 00:02:35,400
+remember the transpose of a matrix
+ 
+
+121
+00:02:35,400 --> 00:02:38,210
+remember the transpose of a matrix
+denoted with t just means we flip a
+
+122
+00:02:38,210 --> 00:02:38,220
+denoted with t just means we flip a
+ 
+
+123
+00:02:38,220 --> 00:02:41,210
+denoted with t just means we flip a
+matrix's rows and columns but when
+
+124
+00:02:41,210 --> 00:02:41,220
+matrix's rows and columns but when
+ 
+
+125
+00:02:41,220 --> 00:02:43,850
+matrix's rows and columns but when
+matrices have complex entries we're
+
+126
+00:02:43,850 --> 00:02:43,860
+matrices have complex entries we're
+ 
+
+127
+00:02:43,860 --> 00:02:46,009
+matrices have complex entries we're
+usually more interested in the hermitian
+
+128
+00:02:46,009 --> 00:02:46,019
+usually more interested in the hermitian
+ 
+
+129
+00:02:46,019 --> 00:02:49,610
+usually more interested in the hermitian
+conjugate denoted with a dagger symbol
+
+130
+00:02:49,610 --> 00:02:49,620
+conjugate denoted with a dagger symbol
+ 
+
+131
+00:02:49,620 --> 00:02:51,830
+conjugate denoted with a dagger symbol
+this means that we take the transpose of
+
+132
+00:02:51,830 --> 00:02:51,840
+this means that we take the transpose of
+ 
+
+133
+00:02:51,840 --> 00:02:53,750
+this means that we take the transpose of
+the Matrix and take the complex
+
+134
+00:02:53,750 --> 00:02:53,760
+the Matrix and take the complex
+ 
+
+135
+00:02:53,760 --> 00:02:56,270
+the Matrix and take the complex
+conjugate of each entry
+
+136
+00:02:56,270 --> 00:02:56,280
+conjugate of each entry
+ 
+
+137
+00:02:56,280 --> 00:02:58,670
+conjugate of each entry
+which flips the sign of each imaginary
+
+138
+00:02:58,670 --> 00:02:58,680
+which flips the sign of each imaginary
+ 
+
+139
+00:02:58,680 --> 00:03:00,229
+which flips the sign of each imaginary
+eye
+
+140
+00:03:00,229 --> 00:03:00,239
+eye
+ 
+
+141
+00:03:00,239 --> 00:03:03,050
+eye
+all three sigma matrices are hermitian
+
+142
+00:03:03,050 --> 00:03:03,060
+all three sigma matrices are hermitian
+ 
+
+143
+00:03:03,060 --> 00:03:05,330
+all three sigma matrices are hermitian
+which means they are equal to their own
+
+144
+00:03:05,330 --> 00:03:05,340
+which means they are equal to their own
+ 
+
+145
+00:03:05,340 --> 00:03:07,309
+which means they are equal to their own
+hermitian conjugates
+
+146
+00:03:07,309 --> 00:03:07,319
+hermitian conjugates
+ 
+
+147
+00:03:07,319 --> 00:03:10,009
+hermitian conjugates
+both Sigma X and sigma Z are real
+
+148
+00:03:10,009 --> 00:03:10,019
+both Sigma X and sigma Z are real
+ 
+
+149
+00:03:10,019 --> 00:03:12,290
+both Sigma X and sigma Z are real
+matrices so we can just take the
+
+150
+00:03:12,290 --> 00:03:12,300
+matrices so we can just take the
+ 
+
+151
+00:03:12,300 --> 00:03:14,449
+matrices so we can just take the
+transpose to see this and ignore the
+
+152
+00:03:14,449 --> 00:03:14,459
+transpose to see this and ignore the
+ 
+
+153
+00:03:14,459 --> 00:03:16,369
+transpose to see this and ignore the
+complex conjugate
+
+154
+00:03:16,369 --> 00:03:16,379
+complex conjugate
+ 
+
+155
+00:03:16,379 --> 00:03:19,490
+complex conjugate
+for Sigma y we first flip the rows and
+
+156
+00:03:19,490 --> 00:03:19,500
+for Sigma y we first flip the rows and
+ 
+
+157
+00:03:19,500 --> 00:03:22,790
+for Sigma y we first flip the rows and
+columns which exchanges plus I and minus
+
+158
+00:03:22,790 --> 00:03:22,800
+columns which exchanges plus I and minus
+ 
+
+159
+00:03:22,800 --> 00:03:25,729
+columns which exchanges plus I and minus
+I then the complex conjugate flips the
+
+160
+00:03:25,729 --> 00:03:25,739
+I then the complex conjugate flips the
+ 
+
+161
+00:03:25,739 --> 00:03:28,550
+I then the complex conjugate flips the
+plus and minus signs so we end up back
+
+162
+00:03:28,550 --> 00:03:28,560
+plus and minus signs so we end up back
+ 
+
+163
+00:03:28,560 --> 00:03:30,290
+plus and minus signs so we end up back
+where we started
+
+164
+00:03:30,290 --> 00:03:30,300
+where we started
+ 
+
+165
+00:03:30,300 --> 00:03:33,410
+where we started
+so all Sigma matrices are equal to their
+
+166
+00:03:33,410 --> 00:03:33,420
+so all Sigma matrices are equal to their
+ 
+
+167
+00:03:33,420 --> 00:03:35,750
+so all Sigma matrices are equal to their
+own daggers
+
+168
+00:03:35,750 --> 00:03:35,760
+own daggers
+ 
+
+169
+00:03:35,760 --> 00:03:38,210
+own daggers
+the third property says that all Sigma
+
+170
+00:03:38,210 --> 00:03:38,220
+the third property says that all Sigma
+ 
+
+171
+00:03:38,220 --> 00:03:40,690
+the third property says that all Sigma
+matrices Square to the identity Matrix
+
+172
+00:03:40,690 --> 00:03:40,700
+matrices Square to the identity Matrix
+ 
+
+173
+00:03:40,700 --> 00:03:43,369
+matrices Square to the identity Matrix
+which I'm going to denote with this
+
+174
+00:03:43,369 --> 00:03:43,379
+which I'm going to denote with this
+ 
+
+175
+00:03:43,379 --> 00:03:46,369
+which I'm going to denote with this
+fancy number one for this video
+
+176
+00:03:46,369 --> 00:03:46,379
+fancy number one for this video
+ 
+
+177
+00:03:46,379 --> 00:03:50,030
+fancy number one for this video
+I'll show this explicitly for Sigma y
+
+178
+00:03:50,030 --> 00:03:50,040
+I'll show this explicitly for Sigma y
+ 
+
+179
+00:03:50,040 --> 00:03:52,190
+I'll show this explicitly for Sigma y
+the inner product of the first row and
+
+180
+00:03:52,190 --> 00:03:52,200
+the inner product of the first row and
+ 
+
+181
+00:03:52,200 --> 00:03:54,410
+the inner product of the first row and
+the First Column gives us plus I times
+
+182
+00:03:54,410 --> 00:03:54,420
+the First Column gives us plus I times
+ 
+
+183
+00:03:54,420 --> 00:03:57,229
+the First Column gives us plus I times
+minus I and since I squared equals
+
+184
+00:03:57,229 --> 00:03:57,239
+minus I and since I squared equals
+ 
+
+185
+00:03:57,239 --> 00:04:00,110
+minus I and since I squared equals
+negative one this is just negative minus
+
+186
+00:04:00,110 --> 00:04:00,120
+negative one this is just negative minus
+ 
+
+187
+00:04:00,120 --> 00:04:02,930
+negative one this is just negative minus
+one or plus one
+
+188
+00:04:02,930 --> 00:04:02,940
+one or plus one
+ 
+
+189
+00:04:02,940 --> 00:04:06,110
+one or plus one
+the other inner products give us 0 0 and
+
+190
+00:04:06,110 --> 00:04:06,120
+the other inner products give us 0 0 and
+ 
+
+191
+00:04:06,120 --> 00:04:08,690
+the other inner products give us 0 0 and
+another plus one which is the identity
+
+192
+00:04:08,690 --> 00:04:08,700
+another plus one which is the identity
+ 
+
+193
+00:04:08,700 --> 00:04:10,070
+another plus one which is the identity
+Matrix
+
+194
+00:04:10,070 --> 00:04:10,080
+Matrix
+ 
+
+195
+00:04:10,080 --> 00:04:12,589
+Matrix
+you can check that Sigma X and sigma Z
+
+196
+00:04:12,589 --> 00:04:12,599
+you can check that Sigma X and sigma Z
+ 
+
+197
+00:04:12,599 --> 00:04:16,189
+you can check that Sigma X and sigma Z
+also Square to the identity Matrix
+
+198
+00:04:16,189 --> 00:04:16,199
+also Square to the identity Matrix
+ 
+
+199
+00:04:16,199 --> 00:04:19,069
+also Square to the identity Matrix
+the final property is that given the
+
+200
+00:04:19,069 --> 00:04:19,079
+the final property is that given the
+ 
+
+201
+00:04:19,079 --> 00:04:21,490
+the final property is that given the
+product of two different Sigma matrices
+
+202
+00:04:21,490 --> 00:04:21,500
+product of two different Sigma matrices
+ 
+
+203
+00:04:21,500 --> 00:04:24,350
+product of two different Sigma matrices
+this product equals the negative of the
+
+204
+00:04:24,350 --> 00:04:24,360
+this product equals the negative of the
+ 
+
+205
+00:04:24,360 --> 00:04:26,810
+this product equals the negative of the
+same two Sigma matrices multiplied in
+
+206
+00:04:26,810 --> 00:04:26,820
+same two Sigma matrices multiplied in
+ 
+
+207
+00:04:26,820 --> 00:04:28,969
+same two Sigma matrices multiplied in
+the opposite order
+
+208
+00:04:28,969 --> 00:04:28,979
+the opposite order
+ 
+
+209
+00:04:28,979 --> 00:04:31,430
+the opposite order
+I'll show this explicitly for Sigma y
+
+210
+00:04:31,430 --> 00:04:31,440
+I'll show this explicitly for Sigma y
+ 
+
+211
+00:04:31,440 --> 00:04:34,370
+I'll show this explicitly for Sigma y
+times Sigma Z which gives the components
+
+212
+00:04:34,370 --> 00:04:34,380
+times Sigma Z which gives the components
+ 
+
+213
+00:04:34,380 --> 00:04:37,790
+times Sigma Z which gives the components
+0 I I and zero
+
+214
+00:04:37,790 --> 00:04:37,800
+0 I I and zero
+ 
+
+215
+00:04:37,800 --> 00:04:40,430
+0 I I and zero
+if we reverse the product and do Sigma Z
+
+216
+00:04:40,430 --> 00:04:40,440
+if we reverse the product and do Sigma Z
+ 
+
+217
+00:04:40,440 --> 00:04:43,670
+if we reverse the product and do Sigma Z
+times Sigma y we get the components 0
+
+218
+00:04:43,670 --> 00:04:43,680
+times Sigma y we get the components 0
+ 
+
+219
+00:04:43,680 --> 00:04:47,450
+times Sigma y we get the components 0
+negative I negative I and zero which is
+
+220
+00:04:47,450 --> 00:04:47,460
+negative I negative I and zero which is
+ 
+
+221
+00:04:47,460 --> 00:04:49,249
+negative I negative I and zero which is
+the negative of the results we got
+
+222
+00:04:49,249 --> 00:04:49,259
+the negative of the results we got
+ 
+
+223
+00:04:49,259 --> 00:04:51,050
+the negative of the results we got
+before
+
+224
+00:04:51,050 --> 00:04:51,060
+before
+ 
+
+225
+00:04:51,060 --> 00:04:53,150
+before
+you can check for yourself that this
+
+226
+00:04:53,150 --> 00:04:53,160
+you can check for yourself that this
+ 
+
+227
+00:04:53,160 --> 00:04:55,550
+you can check for yourself that this
+property also applies to multiplying the
+
+228
+00:04:55,550 --> 00:04:55,560
+property also applies to multiplying the
+ 
+
+229
+00:04:55,560 --> 00:04:58,629
+property also applies to multiplying the
+other pairs of Sigma matrices
+
+230
+00:04:58,629 --> 00:04:58,639
+other pairs of Sigma matrices
+ 
+
+231
+00:04:58,639 --> 00:05:01,850
+other pairs of Sigma matrices
+these last two properties that Sigma
+
+232
+00:05:01,850 --> 00:05:01,860
+these last two properties that Sigma
+ 
+
+233
+00:05:01,860 --> 00:05:04,129
+these last two properties that Sigma
+matrices Square to the identity and
+
+234
+00:05:04,129 --> 00:05:04,139
+matrices Square to the identity and
+ 
+
+235
+00:05:04,139 --> 00:05:07,189
+matrices Square to the identity and
+anti-commute can be summarized by this
+
+236
+00:05:07,189 --> 00:05:07,199
+anti-commute can be summarized by this
+ 
+
+237
+00:05:07,199 --> 00:05:10,189
+anti-commute can be summarized by this
+formula the Delta symbol here is called
+
+238
+00:05:10,189 --> 00:05:10,199
+formula the Delta symbol here is called
+ 
+
+239
+00:05:10,199 --> 00:05:13,189
+formula the Delta symbol here is called
+the chronicer Delta which equals one if
+
+240
+00:05:13,189 --> 00:05:13,199
+the chronicer Delta which equals one if
+ 
+
+241
+00:05:13,199 --> 00:05:16,189
+the chronicer Delta which equals one if
+the I and J indices are the same and
+
+242
+00:05:16,189 --> 00:05:16,199
+the I and J indices are the same and
+ 
+
+243
+00:05:16,199 --> 00:05:18,770
+the I and J indices are the same and
+equal zero if they are different
+
+244
+00:05:18,770 --> 00:05:18,780
+equal zero if they are different
+ 
+
+245
+00:05:18,780 --> 00:05:20,930
+equal zero if they are different
+basically if we put the same Sigma
+
+246
+00:05:20,930 --> 00:05:20,940
+basically if we put the same Sigma
+ 
+
+247
+00:05:20,940 --> 00:05:24,469
+basically if we put the same Sigma
+Matrix in for both I and J both products
+
+248
+00:05:24,469 --> 00:05:24,479
+Matrix in for both I and J both products
+ 
+
+249
+00:05:24,479 --> 00:05:27,409
+Matrix in for both I and J both products
+Square to the identity so we get 2 times
+
+250
+00:05:27,409 --> 00:05:27,419
+Square to the identity so we get 2 times
+ 
+
+251
+00:05:27,419 --> 00:05:28,909
+Square to the identity so we get 2 times
+the identity
+
+252
+00:05:28,909 --> 00:05:28,919
+the identity
+ 
+
+253
+00:05:28,919 --> 00:05:31,189
+the identity
+but if the two Sigma matrices are
+
+254
+00:05:31,189 --> 00:05:31,199
+but if the two Sigma matrices are
+ 
+
+255
+00:05:31,199 --> 00:05:33,230
+but if the two Sigma matrices are
+different then the anti-commutative
+
+256
+00:05:33,230 --> 00:05:33,240
+different then the anti-commutative
+ 
+
+257
+00:05:33,240 --> 00:05:36,950
+different then the anti-commutative
+property means the terms cancel to zero
+
+258
+00:05:36,950 --> 00:05:36,960
+property means the terms cancel to zero
+ 
+
+259
+00:05:36,960 --> 00:05:39,230
+property means the terms cancel to zero
+this formula can be shortened even
+
+260
+00:05:39,230 --> 00:05:39,240
+this formula can be shortened even
+ 
+
+261
+00:05:39,240 --> 00:05:42,230
+this formula can be shortened even
+further using this notation where these
+
+262
+00:05:42,230 --> 00:05:42,240
+further using this notation where these
+ 
+
+263
+00:05:42,240 --> 00:05:43,870
+further using this notation where these
+curly brackets denotes the
+
+264
+00:05:43,870 --> 00:05:43,880
+curly brackets denotes the
+ 
+
+265
+00:05:43,880 --> 00:05:47,990
+curly brackets denotes the
+anti-commutator of two matrices
+
+266
+00:05:47,990 --> 00:05:48,000
+anti-commutator of two matrices
+ 
+
+267
+00:05:48,000 --> 00:05:50,150
+anti-commutator of two matrices
+now that we've studied the properties of
+
+268
+00:05:50,150 --> 00:05:50,160
+now that we've studied the properties of
+ 
+
+269
+00:05:50,160 --> 00:05:52,129
+now that we've studied the properties of
+the sigma matrices we're going to
+
+270
+00:05:52,129 --> 00:05:52,139
+the sigma matrices we're going to
+ 
+
+271
+00:05:52,139 --> 00:05:54,890
+the sigma matrices we're going to
+introduce the polyvector form of writing
+
+272
+00:05:54,890 --> 00:05:54,900
+introduce the polyvector form of writing
+ 
+
+273
+00:05:54,900 --> 00:05:58,249
+introduce the polyvector form of writing
+a vector we normally write a 3D vector v
+
+274
+00:05:58,249 --> 00:05:58,259
+a vector we normally write a 3D vector v
+ 
+
+275
+00:05:58,259 --> 00:06:01,550
+a vector we normally write a 3D vector v
+with components x y z as a linear
+
+276
+00:06:01,550 --> 00:06:01,560
+with components x y z as a linear
+ 
+
+277
+00:06:01,560 --> 00:06:04,850
+with components x y z as a linear
+combination of the basis vectors e x e y
+
+278
+00:06:04,850 --> 00:06:04,860
+combination of the basis vectors e x e y
+ 
+
+279
+00:06:04,860 --> 00:06:09,110
+combination of the basis vectors e x e y
+and e z each scaled by the components
+
+280
+00:06:09,110 --> 00:06:09,120
+and e z each scaled by the components
+ 
+
+281
+00:06:09,120 --> 00:06:11,330
+and e z each scaled by the components
+what we're going to do now is replace
+
+282
+00:06:11,330 --> 00:06:11,340
+what we're going to do now is replace
+ 
+
+283
+00:06:11,340 --> 00:06:13,850
+what we're going to do now is replace
+the basis vectors with the three sigma
+
+284
+00:06:13,850 --> 00:06:13,860
+the basis vectors with the three sigma
+ 
+
+285
+00:06:13,860 --> 00:06:16,730
+the basis vectors with the three sigma
+matrices so that we now have a linear
+
+286
+00:06:16,730 --> 00:06:16,740
+matrices so that we now have a linear
+ 
+
+287
+00:06:16,740 --> 00:06:19,610
+matrices so that we now have a linear
+combination of the sigma matrices
+
+288
+00:06:19,610 --> 00:06:19,620
+combination of the sigma matrices
+ 
+
+289
+00:06:19,620 --> 00:06:22,010
+combination of the sigma matrices
+if we write the matrices explicitly
+
+290
+00:06:22,010 --> 00:06:22,020
+if we write the matrices explicitly
+ 
+
+291
+00:06:22,020 --> 00:06:24,710
+if we write the matrices explicitly
+multiply in the components and add them
+
+292
+00:06:24,710 --> 00:06:24,720
+multiply in the components and add them
+ 
+
+293
+00:06:24,720 --> 00:06:28,249
+multiply in the components and add them
+together we get this 2 by 2 Matrix
+
+294
+00:06:28,249 --> 00:06:28,259
+together we get this 2 by 2 Matrix
+ 
+
+295
+00:06:28,259 --> 00:06:31,790
+together we get this 2 by 2 Matrix
+we call this a polyvector and it's an
+
+296
+00:06:31,790 --> 00:06:31,800
+we call this a polyvector and it's an
+ 
+
+297
+00:06:31,800 --> 00:06:35,170
+we call this a polyvector and it's an
+alternative way of writing a 3D vector
+
+298
+00:06:35,170 --> 00:06:35,180
+alternative way of writing a 3D vector
+ 
+
+299
+00:06:35,180 --> 00:06:38,330
+alternative way of writing a 3D vector
+polyvectors are also traceless since the
+
+300
+00:06:38,330 --> 00:06:38,340
+polyvectors are also traceless since the
+ 
+
+301
+00:06:38,340 --> 00:06:41,330
+polyvectors are also traceless since the
+individual Sigma matrices are traceless
+
+302
+00:06:41,330 --> 00:06:41,340
+individual Sigma matrices are traceless
+ 
+
+303
+00:06:41,340 --> 00:06:44,210
+individual Sigma matrices are traceless
+and polyvectors are hermitian since each
+
+304
+00:06:44,210 --> 00:06:44,220
+and polyvectors are hermitian since each
+ 
+
+305
+00:06:44,220 --> 00:06:46,430
+and polyvectors are hermitian since each
+of their individual Sigma matrices are
+
+306
+00:06:46,430 --> 00:06:46,440
+of their individual Sigma matrices are
+ 
+
+307
+00:06:46,440 --> 00:06:48,590
+of their individual Sigma matrices are
+also hermitian
+
+308
+00:06:48,590 --> 00:06:48,600
+also hermitian
+ 
+
+309
+00:06:48,600 --> 00:06:50,809
+also hermitian
+you can also check for yourself that
+
+310
+00:06:50,809 --> 00:06:50,819
+you can also check for yourself that
+ 
+
+311
+00:06:50,819 --> 00:06:54,170
+you can also check for yourself that
+multiplying a poly matrix by itself will
+
+312
+00:06:54,170 --> 00:06:54,180
+multiplying a poly matrix by itself will
+ 
+
+313
+00:06:54,180 --> 00:06:56,570
+multiplying a poly matrix by itself will
+give the vectors squared length times
+
+314
+00:06:56,570 --> 00:06:56,580
+give the vectors squared length times
+ 
+
+315
+00:06:56,580 --> 00:06:59,809
+give the vectors squared length times
+the identity Matrix
+
+316
+00:06:59,809 --> 00:06:59,819
+
+ 
+
+317
+00:06:59,819 --> 00:07:03,110
+
+this polyvector might seem strange but
+
+318
+00:07:03,110 --> 00:07:03,120
+this polyvector might seem strange but
+ 
+
+319
+00:07:03,120 --> 00:07:05,210
+this polyvector might seem strange but
+it's very useful for doing geometric
+
+320
+00:07:05,210 --> 00:07:05,220
+it's very useful for doing geometric
+ 
+
+321
+00:07:05,220 --> 00:07:07,909
+it's very useful for doing geometric
+Transformations such as Reflections and
+
+322
+00:07:07,909 --> 00:07:07,919
+Transformations such as Reflections and
+ 
+
+323
+00:07:07,919 --> 00:07:09,529
+Transformations such as Reflections and
+rotations
+
+324
+00:07:09,529 --> 00:07:09,539
+rotations
+ 
+
+325
+00:07:09,539 --> 00:07:11,870
+rotations
+remember if we want to reflect our
+
+326
+00:07:11,870 --> 00:07:11,880
+remember if we want to reflect our
+ 
+
+327
+00:07:11,880 --> 00:07:14,629
+remember if we want to reflect our
+Vector along the z-axis we just leave
+
+328
+00:07:14,629 --> 00:07:14,639
+Vector along the z-axis we just leave
+ 
+
+329
+00:07:14,639 --> 00:07:17,510
+Vector along the z-axis we just leave
+the X and Y components alone and flip
+
+330
+00:07:17,510 --> 00:07:17,520
+the X and Y components alone and flip
+ 
+
+331
+00:07:17,520 --> 00:07:20,150
+the X and Y components alone and flip
+the sign of the Z component this
+
+332
+00:07:20,150 --> 00:07:20,160
+the sign of the Z component this
+ 
+
+333
+00:07:20,160 --> 00:07:22,490
+the sign of the Z component this
+basically treats the X Y plane as a
+
+334
+00:07:22,490 --> 00:07:22,500
+basically treats the X Y plane as a
+ 
+
+335
+00:07:22,500 --> 00:07:25,490
+basically treats the X Y plane as a
+mirror and reflects our Vector reversing
+
+336
+00:07:25,490 --> 00:07:25,500
+mirror and reflects our Vector reversing
+ 
+
+337
+00:07:25,500 --> 00:07:28,610
+mirror and reflects our Vector reversing
+the sign along the Z Direction
+
+338
+00:07:28,610 --> 00:07:28,620
+the sign along the Z Direction
+ 
+
+339
+00:07:28,620 --> 00:07:31,189
+the sign along the Z Direction
+I'm now going to introduce an operation
+
+340
+00:07:31,189 --> 00:07:31,199
+I'm now going to introduce an operation
+ 
+
+341
+00:07:31,199 --> 00:07:33,350
+I'm now going to introduce an operation
+called conjugation
+
+342
+00:07:33,350 --> 00:07:33,360
+called conjugation
+ 
+
+343
+00:07:33,360 --> 00:07:36,710
+called conjugation
+when we conjugate by Sigma Z it means we
+
+344
+00:07:36,710 --> 00:07:36,720
+when we conjugate by Sigma Z it means we
+ 
+
+345
+00:07:36,720 --> 00:07:39,589
+when we conjugate by Sigma Z it means we
+multiply on the left by Sigma Z and on
+
+346
+00:07:39,589 --> 00:07:39,599
+multiply on the left by Sigma Z and on
+ 
+
+347
+00:07:39,599 --> 00:07:42,110
+multiply on the left by Sigma Z and on
+the right by Sigma Z inverse
+
+348
+00:07:42,110 --> 00:07:42,120
+the right by Sigma Z inverse
+ 
+
+349
+00:07:42,120 --> 00:07:45,529
+the right by Sigma Z inverse
+for example conjugating Sigma X by Sigma
+
+350
+00:07:45,529 --> 00:07:45,539
+for example conjugating Sigma X by Sigma
+ 
+
+351
+00:07:45,539 --> 00:07:47,809
+for example conjugating Sigma X by Sigma
+Z looks like this
+
+352
+00:07:47,809 --> 00:07:47,819
+Z looks like this
+ 
+
+353
+00:07:47,819 --> 00:07:49,670
+Z looks like this
+the colors here don't mean anything
+
+354
+00:07:49,670 --> 00:07:49,680
+the colors here don't mean anything
+ 
+
+355
+00:07:49,680 --> 00:07:52,070
+the colors here don't mean anything
+they're just to make the formula more
+
+356
+00:07:52,070 --> 00:07:52,080
+they're just to make the formula more
+ 
+
+357
+00:07:52,080 --> 00:07:53,629
+they're just to make the formula more
+readable
+
+358
+00:07:53,629 --> 00:07:53,639
+readable
+ 
+
+359
+00:07:53,639 --> 00:07:56,570
+readable
+however since Sigma Z squares to the
+
+360
+00:07:56,570 --> 00:07:56,580
+however since Sigma Z squares to the
+ 
+
+361
+00:07:56,580 --> 00:07:59,870
+however since Sigma Z squares to the
+identity it is its own inverse so we can
+
+362
+00:07:59,870 --> 00:07:59,880
+identity it is its own inverse so we can
+ 
+
+363
+00:07:59,880 --> 00:08:03,110
+identity it is its own inverse so we can
+just ignore the inverse symbol here
+
+364
+00:08:03,110 --> 00:08:03,120
+just ignore the inverse symbol here
+ 
+
+365
+00:08:03,120 --> 00:08:05,170
+just ignore the inverse symbol here
+since we know the sigma matrices
+
+366
+00:08:05,170 --> 00:08:05,180
+since we know the sigma matrices
+ 
+
+367
+00:08:05,180 --> 00:08:07,969
+since we know the sigma matrices
+anti-commute we can flip the order of
+
+368
+00:08:07,969 --> 00:08:07,979
+anti-commute we can flip the order of
+ 
+
+369
+00:08:07,979 --> 00:08:10,730
+anti-commute we can flip the order of
+Sigma X and sigma Z here and get a
+
+370
+00:08:10,730 --> 00:08:10,740
+Sigma X and sigma Z here and get a
+ 
+
+371
+00:08:10,740 --> 00:08:11,930
+Sigma X and sigma Z here and get a
+negative sign
+
+372
+00:08:11,930 --> 00:08:11,940
+negative sign
+ 
+
+373
+00:08:11,940 --> 00:08:14,749
+negative sign
+and replace this product of Sigma Z's by
+
+374
+00:08:14,749 --> 00:08:14,759
+and replace this product of Sigma Z's by
+ 
+
+375
+00:08:14,759 --> 00:08:19,070
+and replace this product of Sigma Z's by
+the identity so we get Negative Sigma X
+
+376
+00:08:19,070 --> 00:08:19,080
+the identity so we get Negative Sigma X
+ 
+
+377
+00:08:19,080 --> 00:08:22,249
+the identity so we get Negative Sigma X
+conjugating Sigma y by Sigma Z also
+
+378
+00:08:22,249 --> 00:08:22,259
+conjugating Sigma y by Sigma Z also
+ 
+
+379
+00:08:22,259 --> 00:08:25,070
+conjugating Sigma y by Sigma Z also
+gives us negative Sigma y
+
+380
+00:08:25,070 --> 00:08:25,080
+gives us negative Sigma y
+ 
+
+381
+00:08:25,080 --> 00:08:27,830
+gives us negative Sigma y
+conjugating Sigma Z by Sigma Z just
+
+382
+00:08:27,830 --> 00:08:27,840
+conjugating Sigma Z by Sigma Z just
+ 
+
+383
+00:08:27,840 --> 00:08:30,710
+conjugating Sigma Z by Sigma Z just
+gives us positive Sigma Z since there's
+
+384
+00:08:30,710 --> 00:08:30,720
+gives us positive Sigma Z since there's
+ 
+
+385
+00:08:30,720 --> 00:08:34,310
+gives us positive Sigma Z since there's
+no swapping needed to simplify
+
+386
+00:08:34,310 --> 00:08:34,320
+no swapping needed to simplify
+ 
+
+387
+00:08:34,320 --> 00:08:37,190
+no swapping needed to simplify
+so if we want to reflect a vector along
+
+388
+00:08:37,190 --> 00:08:37,200
+so if we want to reflect a vector along
+ 
+
+389
+00:08:37,200 --> 00:08:40,010
+so if we want to reflect a vector along
+the z-axis we need to flip the sign of
+
+390
+00:08:40,010 --> 00:08:40,020
+the z-axis we need to flip the sign of
+ 
+
+391
+00:08:40,020 --> 00:08:41,570
+the z-axis we need to flip the sign of
+the Z component
+
+392
+00:08:41,570 --> 00:08:41,580
+the Z component
+ 
+
+393
+00:08:41,580 --> 00:08:44,029
+the Z component
+but here we've done the exact opposite
+
+394
+00:08:44,029 --> 00:08:44,039
+but here we've done the exact opposite
+ 
+
+395
+00:08:44,039 --> 00:08:46,490
+but here we've done the exact opposite
+of that we've flipped every component
+
+396
+00:08:46,490 --> 00:08:46,500
+of that we've flipped every component
+ 
+
+397
+00:08:46,500 --> 00:08:49,250
+of that we've flipped every component
+sign except the Z component
+
+398
+00:08:49,250 --> 00:08:49,260
+sign except the Z component
+ 
+
+399
+00:08:49,260 --> 00:08:52,490
+sign except the Z component
+but this is easy to fix we just put a
+
+400
+00:08:52,490 --> 00:08:52,500
+but this is easy to fix we just put a
+ 
+
+401
+00:08:52,500 --> 00:08:53,930
+but this is easy to fix we just put a
+negative sign in front of our
+
+402
+00:08:53,930 --> 00:08:53,940
+negative sign in front of our
+ 
+
+403
+00:08:53,940 --> 00:08:57,290
+negative sign in front of our
+conjugation so negative conjugation by
+
+404
+00:08:57,290 --> 00:08:57,300
+conjugation so negative conjugation by
+ 
+
+405
+00:08:57,300 --> 00:08:59,810
+conjugation so negative conjugation by
+Sigma Z will flip the sign of the Z
+
+406
+00:08:59,810 --> 00:08:59,820
+Sigma Z will flip the sign of the Z
+ 
+
+407
+00:08:59,820 --> 00:09:01,970
+Sigma Z will flip the sign of the Z
+component and leave all the other
+
+408
+00:09:01,970 --> 00:09:01,980
+component and leave all the other
+ 
+
+409
+00:09:01,980 --> 00:09:04,430
+component and leave all the other
+components alone
+
+410
+00:09:04,430 --> 00:09:04,440
+components alone
+ 
+
+411
+00:09:04,440 --> 00:09:06,889
+components alone
+now watch what happens when we take a
+
+412
+00:09:06,889 --> 00:09:06,899
+now watch what happens when we take a
+ 
+
+413
+00:09:06,899 --> 00:09:09,530
+now watch what happens when we take a
+general poly vector v and negative
+
+414
+00:09:09,530 --> 00:09:09,540
+general poly vector v and negative
+ 
+
+415
+00:09:09,540 --> 00:09:11,750
+general poly vector v and negative
+conjugate by Sigma Z
+
+416
+00:09:11,750 --> 00:09:11,760
+conjugate by Sigma Z
+ 
+
+417
+00:09:11,760 --> 00:09:14,750
+conjugate by Sigma Z
+we can expand our polyvector as a linear
+
+418
+00:09:14,750 --> 00:09:14,760
+we can expand our polyvector as a linear
+ 
+
+419
+00:09:14,760 --> 00:09:17,690
+we can expand our polyvector as a linear
+combination of the sigma matrices
+
+420
+00:09:17,690 --> 00:09:17,700
+combination of the sigma matrices
+ 
+
+421
+00:09:17,700 --> 00:09:20,150
+combination of the sigma matrices
+and pull all the vector components out
+
+422
+00:09:20,150 --> 00:09:20,160
+and pull all the vector components out
+ 
+
+423
+00:09:20,160 --> 00:09:23,570
+and pull all the vector components out
+in front since they are just numbers
+
+424
+00:09:23,570 --> 00:09:23,580
+in front since they are just numbers
+ 
+
+425
+00:09:23,580 --> 00:09:25,730
+in front since they are just numbers
+we know all these negative conjugations
+
+426
+00:09:25,730 --> 00:09:25,740
+we know all these negative conjugations
+ 
+
+427
+00:09:25,740 --> 00:09:28,790
+we know all these negative conjugations
+leave the X and Y components unchanged
+
+428
+00:09:28,790 --> 00:09:28,800
+leave the X and Y components unchanged
+ 
+
+429
+00:09:28,800 --> 00:09:32,150
+leave the X and Y components unchanged
+and flips the sign of the Z component
+
+430
+00:09:32,150 --> 00:09:32,160
+and flips the sign of the Z component
+ 
+
+431
+00:09:32,160 --> 00:09:33,769
+and flips the sign of the Z component
+so we've showed that negative
+
+432
+00:09:33,769 --> 00:09:33,779
+so we've showed that negative
+ 
+
+433
+00:09:33,779 --> 00:09:37,009
+so we've showed that negative
+conjugating a polyvector by Sigma Z will
+
+434
+00:09:37,009 --> 00:09:37,019
+conjugating a polyvector by Sigma Z will
+ 
+
+435
+00:09:37,019 --> 00:09:40,430
+conjugating a polyvector by Sigma Z will
+reflect the vector along the z-axis
+
+436
+00:09:40,430 --> 00:09:40,440
+reflect the vector along the z-axis
+ 
+
+437
+00:09:40,440 --> 00:09:42,829
+reflect the vector along the z-axis
+we can get similar formulas for doing
+
+438
+00:09:42,829 --> 00:09:42,839
+we can get similar formulas for doing
+ 
+
+439
+00:09:42,839 --> 00:09:47,150
+we can get similar formulas for doing
+Reflections along the X and Y axes
+
+440
+00:09:47,150 --> 00:09:47,160
+Reflections along the X and Y axes
+ 
+
+441
+00:09:47,160 --> 00:09:49,430
+Reflections along the X and Y axes
+it turns out that we can reflect a
+
+442
+00:09:49,430 --> 00:09:49,440
+it turns out that we can reflect a
+ 
+
+443
+00:09:49,440 --> 00:09:51,530
+it turns out that we can reflect a
+vector along any direction that we like
+
+444
+00:09:51,530 --> 00:09:51,540
+vector along any direction that we like
+ 
+
+445
+00:09:51,540 --> 00:09:54,889
+vector along any direction that we like
+we just pick a unit Vector U of length
+
+446
+00:09:54,889 --> 00:09:54,899
+we just pick a unit Vector U of length
+ 
+
+447
+00:09:54,899 --> 00:09:57,170
+we just pick a unit Vector U of length
+one pointing in the direction of the
+
+448
+00:09:57,170 --> 00:09:57,180
+one pointing in the direction of the
+ 
+
+449
+00:09:57,180 --> 00:10:00,050
+one pointing in the direction of the
+reflection and negative conjugate our
+
+450
+00:10:00,050 --> 00:10:00,060
+reflection and negative conjugate our
+ 
+
+451
+00:10:00,060 --> 00:10:02,150
+reflection and negative conjugate our
+poly vector v
+
+452
+00:10:02,150 --> 00:10:02,160
+poly vector v
+ 
+
+453
+00:10:02,160 --> 00:10:05,210
+poly vector v
+remember Since U is a polyvector of
+
+454
+00:10:05,210 --> 00:10:05,220
+remember Since U is a polyvector of
+ 
+
+455
+00:10:05,220 --> 00:10:07,910
+remember Since U is a polyvector of
+length one and squaring a polyvector
+
+456
+00:10:07,910 --> 00:10:07,920
+length one and squaring a polyvector
+ 
+
+457
+00:10:07,920 --> 00:10:09,889
+length one and squaring a polyvector
+gives its squared length times the
+
+458
+00:10:09,889 --> 00:10:09,899
+gives its squared length times the
+ 
+
+459
+00:10:09,899 --> 00:10:12,710
+gives its squared length times the
+identity Matrix U squared should just
+
+460
+00:10:12,710 --> 00:10:12,720
+identity Matrix U squared should just
+ 
+
+461
+00:10:12,720 --> 00:10:15,530
+identity Matrix U squared should just
+equal the identity Matrix
+
+462
+00:10:15,530 --> 00:10:15,540
+equal the identity Matrix
+ 
+
+463
+00:10:15,540 --> 00:10:17,509
+equal the identity Matrix
+to see that the reflection actually
+
+464
+00:10:17,509 --> 00:10:17,519
+to see that the reflection actually
+ 
+
+465
+00:10:17,519 --> 00:10:20,810
+to see that the reflection actually
+happens lets negative conjugate V by a
+
+466
+00:10:20,810 --> 00:10:20,820
+happens lets negative conjugate V by a
+ 
+
+467
+00:10:20,820 --> 00:10:24,350
+happens lets negative conjugate V by a
+unit Vector U we can break up V into a
+
+468
+00:10:24,350 --> 00:10:24,360
+unit Vector U we can break up V into a
+ 
+
+469
+00:10:24,360 --> 00:10:26,630
+unit Vector U we can break up V into a
+portion that's parallel with u and
+
+470
+00:10:26,630 --> 00:10:26,640
+portion that's parallel with u and
+ 
+
+471
+00:10:26,640 --> 00:10:28,610
+portion that's parallel with u and
+perpendicular to U
+
+472
+00:10:28,610 --> 00:10:28,620
+perpendicular to U
+ 
+
+473
+00:10:28,620 --> 00:10:31,970
+perpendicular to U
+the parallel part would just be U scaled
+
+474
+00:10:31,970 --> 00:10:31,980
+the parallel part would just be U scaled
+ 
+
+475
+00:10:31,980 --> 00:10:34,670
+the parallel part would just be U scaled
+by some Factor K and for the
+
+476
+00:10:34,670 --> 00:10:34,680
+by some Factor K and for the
+ 
+
+477
+00:10:34,680 --> 00:10:37,009
+by some Factor K and for the
+perpendicular vectors it turns out we
+
+478
+00:10:37,009 --> 00:10:37,019
+perpendicular vectors it turns out we
+ 
+
+479
+00:10:37,019 --> 00:10:39,290
+perpendicular vectors it turns out we
+can swap their order if we pick up a
+
+480
+00:10:39,290 --> 00:10:39,300
+can swap their order if we pick up a
+ 
+
+481
+00:10:39,300 --> 00:10:40,790
+can swap their order if we pick up a
+negative sign
+
+482
+00:10:40,790 --> 00:10:40,800
+negative sign
+ 
+
+483
+00:10:40,800 --> 00:10:42,949
+negative sign
+we can collapse these products to
+
+484
+00:10:42,949 --> 00:10:42,959
+we can collapse these products to
+ 
+
+485
+00:10:42,959 --> 00:10:46,310
+we can collapse these products to
+identities and rewrite U times K as the
+
+486
+00:10:46,310 --> 00:10:46,320
+identities and rewrite U times K as the
+ 
+
+487
+00:10:46,320 --> 00:10:48,590
+identities and rewrite U times K as the
+parallel portion of V
+
+488
+00:10:48,590 --> 00:10:48,600
+parallel portion of V
+ 
+
+489
+00:10:48,600 --> 00:10:50,810
+parallel portion of V
+so we see that the portion of V that's
+
+490
+00:10:50,810 --> 00:10:50,820
+so we see that the portion of V that's
+ 
+
+491
+00:10:50,820 --> 00:10:54,230
+so we see that the portion of V that's
+parallel to U has been reversed well the
+
+492
+00:10:54,230 --> 00:10:54,240
+parallel to U has been reversed well the
+ 
+
+493
+00:10:54,240 --> 00:10:55,850
+parallel to U has been reversed well the
+perpendicular part has been left
+
+494
+00:10:55,850 --> 00:10:55,860
+perpendicular part has been left
+ 
+
+495
+00:10:55,860 --> 00:10:58,670
+perpendicular part has been left
+unchanged this is exactly what we want
+
+496
+00:10:58,670 --> 00:10:58,680
+unchanged this is exactly what we want
+ 
+
+497
+00:10:58,680 --> 00:11:01,009
+unchanged this is exactly what we want
+for reflections
+
+498
+00:11:01,009 --> 00:11:01,019
+for reflections
+ 
+
+499
+00:11:01,019 --> 00:11:03,290
+for reflections
+to prove this anti-commuting property
+
+500
+00:11:03,290 --> 00:11:03,300
+to prove this anti-commuting property
+ 
+
+501
+00:11:03,300 --> 00:11:05,569
+to prove this anti-commuting property
+that we used for perpendicular vectors
+
+502
+00:11:05,569 --> 00:11:05,579
+that we used for perpendicular vectors
+ 
+
+503
+00:11:05,579 --> 00:11:07,970
+that we used for perpendicular vectors
+you can pause the video and look at
+
+504
+00:11:07,970 --> 00:11:07,980
+you can pause the video and look at
+ 
+
+505
+00:11:07,980 --> 00:11:11,690
+you can pause the video and look at
+these slides
+
+506
+00:11:11,690 --> 00:11:11,700
+
+ 
+
+507
+00:11:11,700 --> 00:11:14,509
+
+the sigma matrices are also useful for
+
+508
+00:11:14,509 --> 00:11:14,519
+the sigma matrices are also useful for
+ 
+
+509
+00:11:14,519 --> 00:11:17,269
+the sigma matrices are also useful for
+doing rotations of vectors
+
+510
+00:11:17,269 --> 00:11:17,279
+doing rotations of vectors
+ 
+
+511
+00:11:17,279 --> 00:11:19,610
+doing rotations of vectors
+the key to doing a rotation is
+
+512
+00:11:19,610 --> 00:11:19,620
+the key to doing a rotation is
+ 
+
+513
+00:11:19,620 --> 00:11:21,949
+the key to doing a rotation is
+understanding that a rotation can be
+
+514
+00:11:21,949 --> 00:11:21,959
+understanding that a rotation can be
+ 
+
+515
+00:11:21,959 --> 00:11:24,949
+understanding that a rotation can be
+viewed as a pair of reflections
+
+516
+00:11:24,949 --> 00:11:24,959
+viewed as a pair of reflections
+ 
+
+517
+00:11:24,959 --> 00:11:27,350
+viewed as a pair of reflections
+let's say that we have this flag and
+
+518
+00:11:27,350 --> 00:11:27,360
+let's say that we have this flag and
+ 
+
+519
+00:11:27,360 --> 00:11:29,810
+let's say that we have this flag and
+reflect it in this mirror so that the
+
+520
+00:11:29,810 --> 00:11:29,820
+reflect it in this mirror so that the
+ 
+
+521
+00:11:29,820 --> 00:11:31,550
+reflect it in this mirror so that the
+flag is pointing in the opposite
+
+522
+00:11:31,550 --> 00:11:31,560
+flag is pointing in the opposite
+ 
+
+523
+00:11:31,560 --> 00:11:33,110
+flag is pointing in the opposite
+direction
+
+524
+00:11:33,110 --> 00:11:33,120
+direction
+ 
+
+525
+00:11:33,120 --> 00:11:35,569
+direction
+now let's reflect it again in this
+
+526
+00:11:35,569 --> 00:11:35,579
+now let's reflect it again in this
+ 
+
+527
+00:11:35,579 --> 00:11:36,889
+now let's reflect it again in this
+mirror
+
+528
+00:11:36,889 --> 00:11:36,899
+mirror
+ 
+
+529
+00:11:36,899 --> 00:11:39,530
+mirror
+the result is just a rotated version of
+
+530
+00:11:39,530 --> 00:11:39,540
+the result is just a rotated version of
+ 
+
+531
+00:11:39,540 --> 00:11:42,470
+the result is just a rotated version of
+our original flag so this shows us that
+
+532
+00:11:42,470 --> 00:11:42,480
+our original flag so this shows us that
+ 
+
+533
+00:11:42,480 --> 00:11:45,110
+our original flag so this shows us that
+a rotation is basically just like two
+
+534
+00:11:45,110 --> 00:11:45,120
+a rotation is basically just like two
+ 
+
+535
+00:11:45,120 --> 00:11:47,150
+a rotation is basically just like two
+reflections
+
+536
+00:11:47,150 --> 00:11:47,160
+reflections
+ 
+
+537
+00:11:47,160 --> 00:11:49,670
+reflections
+also notice that the angle of the flag's
+
+538
+00:11:49,670 --> 00:11:49,680
+also notice that the angle of the flag's
+ 
+
+539
+00:11:49,680 --> 00:11:52,370
+also notice that the angle of the flag's
+rotation is equal to twice the angle
+
+540
+00:11:52,370 --> 00:11:52,380
+rotation is equal to twice the angle
+ 
+
+541
+00:11:52,380 --> 00:11:55,430
+rotation is equal to twice the angle
+between the two mirrors that we used so
+
+542
+00:11:55,430 --> 00:11:55,440
+between the two mirrors that we used so
+ 
+
+543
+00:11:55,440 --> 00:11:58,190
+between the two mirrors that we used so
+if the angle of rotation is Theta then
+
+544
+00:11:58,190 --> 00:11:58,200
+if the angle of rotation is Theta then
+ 
+
+545
+00:11:58,200 --> 00:12:00,590
+if the angle of rotation is Theta then
+the angle between the mirrors is Theta
+
+546
+00:12:00,590 --> 00:12:00,600
+the angle between the mirrors is Theta
+ 
+
+547
+00:12:00,600 --> 00:12:02,750
+the angle between the mirrors is Theta
+over two
+
+548
+00:12:02,750 --> 00:12:02,760
+over two
+ 
+
+549
+00:12:02,760 --> 00:12:05,090
+over two
+let's try reflecting our poly Vector
+
+550
+00:12:05,090 --> 00:12:05,100
+let's try reflecting our poly Vector
+ 
+
+551
+00:12:05,100 --> 00:12:08,509
+let's try reflecting our poly Vector
+once along the x-axis and once along the
+
+552
+00:12:08,509 --> 00:12:08,519
+once along the x-axis and once along the
+ 
+
+553
+00:12:08,519 --> 00:12:11,530
+once along the x-axis and once along the
+y-axis to see what we get
+
+554
+00:12:11,530 --> 00:12:11,540
+y-axis to see what we get
+ 
+
+555
+00:12:11,540 --> 00:12:15,050
+y-axis to see what we get
+geometrically reflecting along X and
+
+556
+00:12:15,050 --> 00:12:15,060
+geometrically reflecting along X and
+ 
+
+557
+00:12:15,060 --> 00:12:18,949
+geometrically reflecting along X and
+then along y looks like this it's a 180
+
+558
+00:12:18,949 --> 00:12:18,959
+then along y looks like this it's a 180
+ 
+
+559
+00:12:18,959 --> 00:12:22,130
+then along y looks like this it's a 180
+degree rotation in the X Y plane
+
+560
+00:12:22,130 --> 00:12:22,140
+degree rotation in the X Y plane
+ 
+
+561
+00:12:22,140 --> 00:12:24,829
+degree rotation in the X Y plane
+this makes sense since the angle between
+
+562
+00:12:24,829 --> 00:12:24,839
+this makes sense since the angle between
+ 
+
+563
+00:12:24,839 --> 00:12:27,710
+this makes sense since the angle between
+our mirrors is 90 degrees and the
+
+564
+00:12:27,710 --> 00:12:27,720
+our mirrors is 90 degrees and the
+ 
+
+565
+00:12:27,720 --> 00:12:31,370
+our mirrors is 90 degrees and the
+resulting rotation is twice that 180
+
+566
+00:12:31,370 --> 00:12:31,380
+resulting rotation is twice that 180
+ 
+
+567
+00:12:31,380 --> 00:12:33,170
+resulting rotation is twice that 180
+degrees
+
+568
+00:12:33,170 --> 00:12:33,180
+degrees
+ 
+
+569
+00:12:33,180 --> 00:12:36,110
+degrees
+let's try doing this algebraically
+
+570
+00:12:36,110 --> 00:12:36,120
+let's try doing this algebraically
+ 
+
+571
+00:12:36,120 --> 00:12:38,690
+let's try doing this algebraically
+to reflect along X we do a negative
+
+572
+00:12:38,690 --> 00:12:38,700
+to reflect along X we do a negative
+ 
+
+573
+00:12:38,700 --> 00:12:40,790
+to reflect along X we do a negative
+sandwich with Sigma X
+
+574
+00:12:40,790 --> 00:12:40,800
+sandwich with Sigma X
+ 
+
+575
+00:12:40,800 --> 00:12:43,310
+sandwich with Sigma X
+to reflect along y we do a negative
+
+576
+00:12:43,310 --> 00:12:43,320
+to reflect along y we do a negative
+ 
+
+577
+00:12:43,320 --> 00:12:45,710
+to reflect along y we do a negative
+sandwich with Sigma y
+
+578
+00:12:45,710 --> 00:12:45,720
+sandwich with Sigma y
+ 
+
+579
+00:12:45,720 --> 00:12:48,769
+sandwich with Sigma y
+the negative signs cancel since we know
+
+580
+00:12:48,769 --> 00:12:48,779
+the negative signs cancel since we know
+ 
+
+581
+00:12:48,779 --> 00:12:51,470
+the negative signs cancel since we know
+the sigma matrices are hermitian we can
+
+582
+00:12:51,470 --> 00:12:51,480
+the sigma matrices are hermitian we can
+ 
+
+583
+00:12:51,480 --> 00:12:53,750
+the sigma matrices are hermitian we can
+add daggers to them without changing
+
+584
+00:12:53,750 --> 00:12:53,760
+add daggers to them without changing
+ 
+
+585
+00:12:53,760 --> 00:12:55,129
+add daggers to them without changing
+anything
+
+586
+00:12:55,129 --> 00:12:55,139
+anything
+ 
+
+587
+00:12:55,139 --> 00:12:57,829
+anything
+we also know from linear algebra that we
+
+588
+00:12:57,829 --> 00:12:57,839
+we also know from linear algebra that we
+ 
+
+589
+00:12:57,839 --> 00:12:59,750
+we also know from linear algebra that we
+can replace a product of daggered
+
+590
+00:12:59,750 --> 00:12:59,760
+can replace a product of daggered
+ 
+
+591
+00:12:59,760 --> 00:13:02,509
+can replace a product of daggered
+matrices if we reverse their order and
+
+592
+00:13:02,509 --> 00:13:02,519
+matrices if we reverse their order and
+ 
+
+593
+00:13:02,519 --> 00:13:04,850
+matrices if we reverse their order and
+Dagger the entire product
+
+594
+00:13:04,850 --> 00:13:04,860
+Dagger the entire product
+ 
+
+595
+00:13:04,860 --> 00:13:08,030
+Dagger the entire product
+so basically daggering a pair of sigmas
+
+596
+00:13:08,030 --> 00:13:08,040
+so basically daggering a pair of sigmas
+ 
+
+597
+00:13:08,040 --> 00:13:11,629
+so basically daggering a pair of sigmas
+is the same as reversing their order
+
+598
+00:13:11,629 --> 00:13:11,639
+is the same as reversing their order
+ 
+
+599
+00:13:11,639 --> 00:13:14,449
+is the same as reversing their order
+so this is the formula for doing a 180
+
+600
+00:13:14,449 --> 00:13:14,459
+so this is the formula for doing a 180
+ 
+
+601
+00:13:14,459 --> 00:13:17,870
+so this is the formula for doing a 180
+degree rotation in the X Y plane and if
+
+602
+00:13:17,870 --> 00:13:17,880
+degree rotation in the X Y plane and if
+ 
+
+603
+00:13:17,880 --> 00:13:20,150
+degree rotation in the X Y plane and if
+we work through the algebra we find that
+
+604
+00:13:20,150 --> 00:13:20,160
+we work through the algebra we find that
+ 
+
+605
+00:13:20,160 --> 00:13:23,210
+we work through the algebra we find that
+the X and Y components get reversed as
+
+606
+00:13:23,210 --> 00:13:23,220
+the X and Y components get reversed as
+ 
+
+607
+00:13:23,220 --> 00:13:27,470
+the X and Y components get reversed as
+expected for a 180 degree rotation
+
+608
+00:13:27,470 --> 00:13:27,480
+expected for a 180 degree rotation
+ 
+
+609
+00:13:27,480 --> 00:13:30,769
+expected for a 180 degree rotation
+now just for curiosity's sake let's see
+
+610
+00:13:30,769 --> 00:13:30,779
+now just for curiosity's sake let's see
+ 
+
+611
+00:13:30,779 --> 00:13:33,050
+now just for curiosity's sake let's see
+what happens if we try transforming V
+
+612
+00:13:33,050 --> 00:13:33,060
+what happens if we try transforming V
+ 
+
+613
+00:13:33,060 --> 00:13:35,410
+what happens if we try transforming V
+using a single-sided transformation
+
+614
+00:13:35,410 --> 00:13:35,420
+using a single-sided transformation
+ 
+
+615
+00:13:35,420 --> 00:13:39,170
+using a single-sided transformation
+instead of a double-sided transformation
+
+616
+00:13:39,170 --> 00:13:39,180
+instead of a double-sided transformation
+ 
+
+617
+00:13:39,180 --> 00:13:41,750
+instead of a double-sided transformation
+if we work through the algebra we get
+
+618
+00:13:41,750 --> 00:13:41,760
+if we work through the algebra we get
+ 
+
+619
+00:13:41,760 --> 00:13:43,730
+if we work through the algebra we get
+that the X Y components have been
+
+620
+00:13:43,730 --> 00:13:43,740
+that the X Y components have been
+ 
+
+621
+00:13:43,740 --> 00:13:46,730
+that the X Y components have been
+rotated by 90 degrees in the X Y plane
+
+622
+00:13:46,730 --> 00:13:46,740
+rotated by 90 degrees in the X Y plane
+ 
+
+623
+00:13:46,740 --> 00:13:49,550
+rotated by 90 degrees in the X Y plane
+however the Z component has come out
+
+624
+00:13:49,550 --> 00:13:49,560
+however the Z component has come out
+ 
+
+625
+00:13:49,560 --> 00:13:52,009
+however the Z component has come out
+wrong with sigmas that cannot be
+
+626
+00:13:52,009 --> 00:13:52,019
+wrong with sigmas that cannot be
+ 
+
+627
+00:13:52,019 --> 00:13:53,870
+wrong with sigmas that cannot be
+meaningfully simplified
+
+628
+00:13:53,870 --> 00:13:53,880
+meaningfully simplified
+ 
+
+629
+00:13:53,880 --> 00:13:56,389
+meaningfully simplified
+so doing a double-sided transformation
+
+630
+00:13:56,389 --> 00:13:56,399
+so doing a double-sided transformation
+ 
+
+631
+00:13:56,399 --> 00:13:59,690
+so doing a double-sided transformation
+is required to make all the basis sigmas
+
+632
+00:13:59,690 --> 00:13:59,700
+is required to make all the basis sigmas
+ 
+
+633
+00:13:59,700 --> 00:14:02,030
+is required to make all the basis sigmas
+work out properly
+
+634
+00:14:02,030 --> 00:14:02,040
+work out properly
+ 
+
+635
+00:14:02,040 --> 00:14:05,030
+work out properly
+now what if we wanted to rotate our poly
+
+636
+00:14:05,030 --> 00:14:05,040
+now what if we wanted to rotate our poly
+ 
+
+637
+00:14:05,040 --> 00:14:08,690
+now what if we wanted to rotate our poly
+vector by an arbitrary angle Theta we
+
+638
+00:14:08,690 --> 00:14:08,700
+vector by an arbitrary angle Theta we
+ 
+
+639
+00:14:08,700 --> 00:14:10,970
+vector by an arbitrary angle Theta we
+would need two mirrors separated by an
+
+640
+00:14:10,970 --> 00:14:10,980
+would need two mirrors separated by an
+ 
+
+641
+00:14:10,980 --> 00:14:13,310
+would need two mirrors separated by an
+angle of theta over two
+
+642
+00:14:13,310 --> 00:14:13,320
+angle of theta over two
+ 
+
+643
+00:14:13,320 --> 00:14:15,710
+angle of theta over two
+we could start with reflecting along the
+
+644
+00:14:15,710 --> 00:14:15,720
+we could start with reflecting along the
+ 
+
+645
+00:14:15,720 --> 00:14:18,590
+we could start with reflecting along the
+x-axis then use another reflection
+
+646
+00:14:18,590 --> 00:14:18,600
+x-axis then use another reflection
+ 
+
+647
+00:14:18,600 --> 00:14:21,470
+x-axis then use another reflection
+Vector angled at Theta over 2 compared
+
+648
+00:14:21,470 --> 00:14:21,480
+Vector angled at Theta over 2 compared
+ 
+
+649
+00:14:21,480 --> 00:14:23,810
+Vector angled at Theta over 2 compared
+to the x-axis
+
+650
+00:14:23,810 --> 00:14:23,820
+to the x-axis
+ 
+
+651
+00:14:23,820 --> 00:14:26,690
+to the x-axis
+when we do these two Reflections the
+
+652
+00:14:26,690 --> 00:14:26,700
+when we do these two Reflections the
+ 
+
+653
+00:14:26,700 --> 00:14:29,090
+when we do these two Reflections the
+negative signs cancel and after
+
+654
+00:14:29,090 --> 00:14:29,100
+negative signs cancel and after
+ 
+
+655
+00:14:29,100 --> 00:14:32,210
+negative signs cancel and after
+Distributing the sigma X squareds become
+
+656
+00:14:32,210 --> 00:14:32,220
+Distributing the sigma X squareds become
+ 
+
+657
+00:14:32,220 --> 00:14:35,389
+Distributing the sigma X squareds become
+identity matrices and we can swap the
+
+658
+00:14:35,389 --> 00:14:35,399
+identity matrices and we can swap the
+ 
+
+659
+00:14:35,399 --> 00:14:37,610
+identity matrices and we can swap the
+order of these sigmas by changing the
+
+660
+00:14:37,610 --> 00:14:37,620
+order of these sigmas by changing the
+ 
+
+661
+00:14:37,620 --> 00:14:39,470
+order of these sigmas by changing the
+sign in front
+
+662
+00:14:39,470 --> 00:14:39,480
+sign in front
+ 
+
+663
+00:14:39,480 --> 00:14:42,170
+sign in front
+we can also write the right side term as
+
+664
+00:14:42,170 --> 00:14:42,180
+we can also write the right side term as
+ 
+
+665
+00:14:42,180 --> 00:14:44,389
+we can also write the right side term as
+the hermitian conjugate of the left side
+
+666
+00:14:44,389 --> 00:14:44,399
+the hermitian conjugate of the left side
+ 
+
+667
+00:14:44,399 --> 00:14:47,449
+the hermitian conjugate of the left side
+term since the hermitian conjugate swaps
+
+668
+00:14:47,449 --> 00:14:47,459
+term since the hermitian conjugate swaps
+ 
+
+669
+00:14:47,459 --> 00:14:49,790
+term since the hermitian conjugate swaps
+the order of the sigmas
+
+670
+00:14:49,790 --> 00:14:49,800
+the order of the sigmas
+ 
+
+671
+00:14:49,800 --> 00:14:52,670
+the order of the sigmas
+so this is our formula for rotating in
+
+672
+00:14:52,670 --> 00:14:52,680
+so this is our formula for rotating in
+ 
+
+673
+00:14:52,680 --> 00:14:55,189
+so this is our formula for rotating in
+the X Y plane you'll notice that I'm
+
+674
+00:14:55,189 --> 00:14:55,199
+the X Y plane you'll notice that I'm
+ 
+
+675
+00:14:55,199 --> 00:14:58,730
+the X Y plane you'll notice that I'm
+using angles of theta over 2 here that's
+
+676
+00:14:58,730 --> 00:14:58,740
+using angles of theta over 2 here that's
+ 
+
+677
+00:14:58,740 --> 00:15:00,650
+using angles of theta over 2 here that's
+because each side of the transformation
+
+678
+00:15:00,650 --> 00:15:00,660
+because each side of the transformation
+ 
+
+679
+00:15:00,660 --> 00:15:04,189
+because each side of the transformation
+will rotate by Theta over two giving us
+
+680
+00:15:04,189 --> 00:15:04,199
+will rotate by Theta over two giving us
+ 
+
+681
+00:15:04,199 --> 00:15:07,370
+will rotate by Theta over two giving us
+a rotation of theta in total
+
+682
+00:15:07,370 --> 00:15:07,380
+a rotation of theta in total
+ 
+
+683
+00:15:07,380 --> 00:15:09,410
+a rotation of theta in total
+keep in mind that if the angle between
+
+684
+00:15:09,410 --> 00:15:09,420
+keep in mind that if the angle between
+ 
+
+685
+00:15:09,420 --> 00:15:12,410
+keep in mind that if the angle between
+the mirrors is zero we just reflect in
+
+686
+00:15:12,410 --> 00:15:12,420
+the mirrors is zero we just reflect in
+ 
+
+687
+00:15:12,420 --> 00:15:14,930
+the mirrors is zero we just reflect in
+the same mirror twice leading to no
+
+688
+00:15:14,930 --> 00:15:14,940
+the same mirror twice leading to no
+ 
+
+689
+00:15:14,940 --> 00:15:18,290
+the same mirror twice leading to no
+change as expected
+
+690
+00:15:18,290 --> 00:15:18,300
+change as expected
+ 
+
+691
+00:15:18,300 --> 00:15:21,350
+change as expected
+if I try to calculate this rotation the
+
+692
+00:15:21,350 --> 00:15:21,360
+if I try to calculate this rotation the
+ 
+
+693
+00:15:21,360 --> 00:15:23,629
+if I try to calculate this rotation the
+algebra between all the sigmas gets
+
+694
+00:15:23,629 --> 00:15:23,639
+algebra between all the sigmas gets
+ 
+
+695
+00:15:23,639 --> 00:15:26,269
+algebra between all the sigmas gets
+pretty tedious it's easier to write
+
+696
+00:15:26,269 --> 00:15:26,279
+pretty tedious it's easier to write
+ 
+
+697
+00:15:26,279 --> 00:15:29,389
+pretty tedious it's easier to write
+things out as matrices looking at this
+
+698
+00:15:29,389 --> 00:15:29,399
+things out as matrices looking at this
+ 
+
+699
+00:15:29,399 --> 00:15:31,250
+things out as matrices looking at this
+left expression and writing out the
+
+700
+00:15:31,250 --> 00:15:31,260
+left expression and writing out the
+ 
+
+701
+00:15:31,260 --> 00:15:34,310
+left expression and writing out the
+matrices we get this and we can rewrite
+
+702
+00:15:34,310 --> 00:15:34,320
+matrices we get this and we can rewrite
+ 
+
+703
+00:15:34,320 --> 00:15:36,769
+matrices we get this and we can rewrite
+the cosines and signs as complex
+
+704
+00:15:36,769 --> 00:15:36,779
+the cosines and signs as complex
+ 
+
+705
+00:15:36,779 --> 00:15:38,870
+the cosines and signs as complex
+exponentials
+
+706
+00:15:38,870 --> 00:15:38,880
+exponentials
+ 
+
+707
+00:15:38,880 --> 00:15:41,389
+exponentials
+the left Matrix multiplies the top row
+
+708
+00:15:41,389 --> 00:15:41,399
+the left Matrix multiplies the top row
+ 
+
+709
+00:15:41,399 --> 00:15:43,069
+the left Matrix multiplies the top row
+of our polyvector by a negative
+
+710
+00:15:43,069 --> 00:15:43,079
+of our polyvector by a negative
+ 
+
+711
+00:15:43,079 --> 00:15:45,829
+of our polyvector by a negative
+exponential and the bottom row by a
+
+712
+00:15:45,829 --> 00:15:45,839
+exponential and the bottom row by a
+ 
+
+713
+00:15:45,839 --> 00:15:47,810
+exponential and the bottom row by a
+positive exponential
+
+714
+00:15:47,810 --> 00:15:47,820
+positive exponential
+ 
+
+715
+00:15:47,820 --> 00:15:50,150
+positive exponential
+after taking the hermitian conjugate of
+
+716
+00:15:50,150 --> 00:15:50,160
+after taking the hermitian conjugate of
+ 
+
+717
+00:15:50,160 --> 00:15:52,189
+after taking the hermitian conjugate of
+the right Matrix we get similar
+
+718
+00:15:52,189 --> 00:15:52,199
+the right Matrix we get similar
+ 
+
+719
+00:15:52,199 --> 00:15:54,410
+the right Matrix we get similar
+multiplications for the left column and
+
+720
+00:15:54,410 --> 00:15:54,420
+multiplications for the left column and
+ 
+
+721
+00:15:54,420 --> 00:15:57,290
+multiplications for the left column and
+right column of our polyvector
+
+722
+00:15:57,290 --> 00:15:57,300
+right column of our polyvector
+ 
+
+723
+00:15:57,300 --> 00:16:00,110
+right column of our polyvector
+the exponentials next to the Z's cancel
+
+724
+00:16:00,110 --> 00:16:00,120
+the exponentials next to the Z's cancel
+ 
+
+725
+00:16:00,120 --> 00:16:03,050
+the exponentials next to the Z's cancel
+and we end up with a complex exponential
+
+726
+00:16:03,050 --> 00:16:03,060
+and we end up with a complex exponential
+ 
+
+727
+00:16:03,060 --> 00:16:06,230
+and we end up with a complex exponential
+multiplying R X and Y components by a
+
+728
+00:16:06,230 --> 00:16:06,240
+multiplying R X and Y components by a
+ 
+
+729
+00:16:06,240 --> 00:16:08,389
+multiplying R X and Y components by a
+phase of theta
+
+730
+00:16:08,389 --> 00:16:08,399
+phase of theta
+ 
+
+731
+00:16:08,399 --> 00:16:10,970
+phase of theta
+taking this entry and multiplying things
+
+732
+00:16:10,970 --> 00:16:10,980
+taking this entry and multiplying things
+ 
+
+733
+00:16:10,980 --> 00:16:14,210
+taking this entry and multiplying things
+out the real part is our new X component
+
+734
+00:16:14,210 --> 00:16:14,220
+out the real part is our new X component
+ 
+
+735
+00:16:14,220 --> 00:16:16,970
+out the real part is our new X component
+and the imaginary part is our new y
+
+736
+00:16:16,970 --> 00:16:16,980
+and the imaginary part is our new y
+ 
+
+737
+00:16:16,980 --> 00:16:18,350
+and the imaginary part is our new y
+component
+
+738
+00:16:18,350 --> 00:16:18,360
+component
+ 
+
+739
+00:16:18,360 --> 00:16:21,230
+component
+these Transformations match exactly what
+
+740
+00:16:21,230 --> 00:16:21,240
+these Transformations match exactly what
+ 
+
+741
+00:16:21,240 --> 00:16:23,750
+these Transformations match exactly what
+we'd get from a rotation Matrix in three
+
+742
+00:16:23,750 --> 00:16:23,760
+we'd get from a rotation Matrix in three
+ 
+
+743
+00:16:23,760 --> 00:16:26,930
+we'd get from a rotation Matrix in three
+dimensions by an angle Theta in the X Y
+
+744
+00:16:26,930 --> 00:16:26,940
+dimensions by an angle Theta in the X Y
+ 
+
+745
+00:16:26,940 --> 00:16:30,230
+dimensions by an angle Theta in the X Y
+plane so our two-sided transformation of
+
+746
+00:16:30,230 --> 00:16:30,240
+plane so our two-sided transformation of
+ 
+
+747
+00:16:30,240 --> 00:16:32,990
+plane so our two-sided transformation of
+our polyvector worked
+
+748
+00:16:32,990 --> 00:16:33,000
+our polyvector worked
+ 
+
+749
+00:16:33,000 --> 00:16:35,150
+our polyvector worked
+we can get similar matrices for
+
+750
+00:16:35,150 --> 00:16:35,160
+we can get similar matrices for
+ 
+
+751
+00:16:35,160 --> 00:16:40,069
+we can get similar matrices for
+rotations in the YZ plane and ZX plane
+
+752
+00:16:40,069 --> 00:16:40,079
+rotations in the YZ plane and ZX plane
+ 
+
+753
+00:16:40,079 --> 00:16:42,410
+rotations in the YZ plane and ZX plane
+it turns out that all of these matrices
+
+754
+00:16:42,410 --> 00:16:42,420
+it turns out that all of these matrices
+ 
+
+755
+00:16:42,420 --> 00:16:45,590
+it turns out that all of these matrices
+are special unitary two by two matrices
+
+756
+00:16:45,590 --> 00:16:45,600
+are special unitary two by two matrices
+ 
+
+757
+00:16:45,600 --> 00:16:49,730
+are special unitary two by two matrices
+or su2 matrices meaning they are all
+
+758
+00:16:49,730 --> 00:16:49,740
+or su2 matrices meaning they are all
+ 
+
+759
+00:16:49,740 --> 00:16:53,509
+or su2 matrices meaning they are all
+unitary and have determinants of one
+
+760
+00:16:53,509 --> 00:16:53,519
+unitary and have determinants of one
+ 
+
+761
+00:16:53,519 --> 00:16:56,389
+unitary and have determinants of one
+as an exercise you can try proving that
+
+762
+00:16:56,389 --> 00:16:56,399
+as an exercise you can try proving that
+ 
+
+763
+00:16:56,399 --> 00:16:58,970
+as an exercise you can try proving that
+all of these matrices are unitary by
+
+764
+00:16:58,970 --> 00:16:58,980
+all of these matrices are unitary by
+ 
+
+765
+00:16:58,980 --> 00:17:00,650
+all of these matrices are unitary by
+multiplying them by their hermitian
+
+766
+00:17:00,650 --> 00:17:00,660
+multiplying them by their hermitian
+ 
+
+767
+00:17:00,660 --> 00:17:02,509
+multiplying them by their hermitian
+conjugate and getting the identity
+
+768
+00:17:02,509 --> 00:17:02,519
+conjugate and getting the identity
+ 
+
+769
+00:17:02,519 --> 00:17:03,829
+conjugate and getting the identity
+Matrix
+
+770
+00:17:03,829 --> 00:17:03,839
+Matrix
+ 
+
+771
+00:17:03,839 --> 00:17:05,929
+Matrix
+see if you can do it using only the
+
+772
+00:17:05,929 --> 00:17:05,939
+see if you can do it using only the
+ 
+
+773
+00:17:05,939 --> 00:17:08,210
+see if you can do it using only the
+properties of the sigma matrices without
+
+774
+00:17:08,210 --> 00:17:08,220
+properties of the sigma matrices without
+ 
+
+775
+00:17:08,220 --> 00:17:12,110
+properties of the sigma matrices without
+writing the matrices explicitly
+
+776
+00:17:12,110 --> 00:17:12,120
+writing the matrices explicitly
+ 
+
+777
+00:17:12,120 --> 00:17:15,110
+writing the matrices explicitly
+so poly vectors are rotated by a
+
+778
+00:17:15,110 --> 00:17:15,120
+so poly vectors are rotated by a
+ 
+
+779
+00:17:15,120 --> 00:17:17,809
+so poly vectors are rotated by a
+double-sided transformation of su2
+
+780
+00:17:17,809 --> 00:17:17,819
+double-sided transformation of su2
+ 
+
+781
+00:17:17,819 --> 00:17:19,429
+double-sided transformation of su2
+matrices
+
+782
+00:17:19,429 --> 00:17:19,439
+matrices
+ 
+
+783
+00:17:19,439 --> 00:17:21,650
+matrices
+let's see if we can prove this fact
+
+784
+00:17:21,650 --> 00:17:21,660
+let's see if we can prove this fact
+ 
+
+785
+00:17:21,660 --> 00:17:24,350
+let's see if we can prove this fact
+definitively
+
+786
+00:17:24,350 --> 00:17:24,360
+definitively
+ 
+
+787
+00:17:24,360 --> 00:17:26,569
+definitively
+as a starting point we're going to
+
+788
+00:17:26,569 --> 00:17:26,579
+as a starting point we're going to
+ 
+
+789
+00:17:26,579 --> 00:17:29,390
+as a starting point we're going to
+assume that rotating a polyvector can be
+
+790
+00:17:29,390 --> 00:17:29,400
+assume that rotating a polyvector can be
+ 
+
+791
+00:17:29,400 --> 00:17:31,130
+assume that rotating a polyvector can be
+done with a double-sided transformation
+
+792
+00:17:31,130 --> 00:17:31,140
+done with a double-sided transformation
+ 
+
+793
+00:17:31,140 --> 00:17:34,370
+done with a double-sided transformation
+with matrices A and B
+
+794
+00:17:34,370 --> 00:17:34,380
+with matrices A and B
+ 
+
+795
+00:17:34,380 --> 00:17:36,350
+with matrices A and B
+we're going to use the properties of
+
+796
+00:17:36,350 --> 00:17:36,360
+we're going to use the properties of
+ 
+
+797
+00:17:36,360 --> 00:17:38,870
+we're going to use the properties of
+poly vectors to deduce What A and B
+
+798
+00:17:38,870 --> 00:17:38,880
+poly vectors to deduce What A and B
+ 
+
+799
+00:17:38,880 --> 00:17:40,549
+poly vectors to deduce What A and B
+should look like
+
+800
+00:17:40,549 --> 00:17:40,559
+should look like
+ 
+
+801
+00:17:40,559 --> 00:17:43,130
+should look like
+we already know that polyvectors are
+
+802
+00:17:43,130 --> 00:17:43,140
+we already know that polyvectors are
+ 
+
+803
+00:17:43,140 --> 00:17:46,190
+we already know that polyvectors are
+hermitian and have zero Trace but
+
+804
+00:17:46,190 --> 00:17:46,200
+hermitian and have zero Trace but
+ 
+
+805
+00:17:46,200 --> 00:17:48,590
+hermitian and have zero Trace but
+another important property of rotating a
+
+806
+00:17:48,590 --> 00:17:48,600
+another important property of rotating a
+ 
+
+807
+00:17:48,600 --> 00:17:51,409
+another important property of rotating a
+3D Vector is that its length will not
+
+808
+00:17:51,409 --> 00:17:51,419
+3D Vector is that its length will not
+ 
+
+809
+00:17:51,419 --> 00:17:53,870
+3D Vector is that its length will not
+change after the rotation
+
+810
+00:17:53,870 --> 00:17:53,880
+change after the rotation
+ 
+
+811
+00:17:53,880 --> 00:17:56,390
+change after the rotation
+so we expect the squared length x
+
+812
+00:17:56,390 --> 00:17:56,400
+so we expect the squared length x
+ 
+
+813
+00:17:56,400 --> 00:17:59,029
+so we expect the squared length x
+squared plus y squared plus Z squared to
+
+814
+00:17:59,029 --> 00:17:59,039
+squared plus y squared plus Z squared to
+ 
+
+815
+00:17:59,039 --> 00:18:02,570
+squared plus y squared plus Z squared to
+be unchanged after rotation
+
+816
+00:18:02,570 --> 00:18:02,580
+be unchanged after rotation
+ 
+
+817
+00:18:02,580 --> 00:18:04,789
+be unchanged after rotation
+notice that when we take the determinant
+
+818
+00:18:04,789 --> 00:18:04,799
+notice that when we take the determinant
+ 
+
+819
+00:18:04,799 --> 00:18:07,610
+notice that when we take the determinant
+of our polyvector we get Z times
+
+820
+00:18:07,610 --> 00:18:07,620
+of our polyvector we get Z times
+ 
+
+821
+00:18:07,620 --> 00:18:11,150
+of our polyvector we get Z times
+negative Z minus this times this
+
+822
+00:18:11,150 --> 00:18:11,160
+negative Z minus this times this
+ 
+
+823
+00:18:11,160 --> 00:18:13,789
+negative Z minus this times this
+and simplifying this becomes negative x
+
+824
+00:18:13,789 --> 00:18:13,799
+and simplifying this becomes negative x
+ 
+
+825
+00:18:13,799 --> 00:18:16,130
+and simplifying this becomes negative x
+squared minus y squared
+
+826
+00:18:16,130 --> 00:18:16,140
+squared minus y squared
+ 
+
+827
+00:18:16,140 --> 00:18:19,190
+squared minus y squared
+so the determinant of our poly Vector is
+
+828
+00:18:19,190 --> 00:18:19,200
+so the determinant of our poly Vector is
+ 
+
+829
+00:18:19,200 --> 00:18:21,350
+so the determinant of our poly Vector is
+the negative of the vectors squared
+
+830
+00:18:21,350 --> 00:18:21,360
+the negative of the vectors squared
+ 
+
+831
+00:18:21,360 --> 00:18:22,310
+the negative of the vectors squared
+length
+
+832
+00:18:22,310 --> 00:18:22,320
+length
+ 
+
+833
+00:18:22,320 --> 00:18:25,490
+length
+so when we rotate our polyvector its
+
+834
+00:18:25,490 --> 00:18:25,500
+so when we rotate our polyvector its
+ 
+
+835
+00:18:25,500 --> 00:18:27,169
+so when we rotate our polyvector its
+determinant which is the vectors
+
+836
+00:18:27,169 --> 00:18:27,179
+determinant which is the vectors
+ 
+
+837
+00:18:27,179 --> 00:18:29,390
+determinant which is the vectors
+negative squared length should not
+
+838
+00:18:29,390 --> 00:18:29,400
+negative squared length should not
+ 
+
+839
+00:18:29,400 --> 00:18:31,370
+negative squared length should not
+change
+
+840
+00:18:31,370 --> 00:18:31,380
+change
+ 
+
+841
+00:18:31,380 --> 00:18:34,010
+change
+using these three properties we can
+
+842
+00:18:34,010 --> 00:18:34,020
+using these three properties we can
+ 
+
+843
+00:18:34,020 --> 00:18:38,150
+using these three properties we can
+deduce the form of the A and B matrices
+
+844
+00:18:38,150 --> 00:18:38,160
+deduce the form of the A and B matrices
+ 
+
+845
+00:18:38,160 --> 00:18:41,150
+deduce the form of the A and B matrices
+since polyvectors are hermitian the
+
+846
+00:18:41,150 --> 00:18:41,160
+since polyvectors are hermitian the
+ 
+
+847
+00:18:41,160 --> 00:18:42,950
+since polyvectors are hermitian the
+resulting poly Vector after the
+
+848
+00:18:42,950 --> 00:18:42,960
+resulting poly Vector after the
+ 
+
+849
+00:18:42,960 --> 00:18:46,130
+resulting poly Vector after the
+transformation should also be hermitian
+
+850
+00:18:46,130 --> 00:18:46,140
+transformation should also be hermitian
+ 
+
+851
+00:18:46,140 --> 00:18:48,830
+transformation should also be hermitian
+and remember the hermitian conjugate of
+
+852
+00:18:48,830 --> 00:18:48,840
+and remember the hermitian conjugate of
+ 
+
+853
+00:18:48,840 --> 00:18:50,810
+and remember the hermitian conjugate of
+a product is the product of the
+
+854
+00:18:50,810 --> 00:18:50,820
+a product is the product of the
+ 
+
+855
+00:18:50,820 --> 00:18:52,850
+a product is the product of the
+individual hermitian conjugates in the
+
+856
+00:18:52,850 --> 00:18:52,860
+individual hermitian conjugates in the
+ 
+
+857
+00:18:52,860 --> 00:18:54,409
+individual hermitian conjugates in the
+reverse order
+
+858
+00:18:54,409 --> 00:18:54,419
+reverse order
+ 
+
+859
+00:18:54,419 --> 00:18:57,409
+reverse order
+since V equals V dagger we get this
+
+860
+00:18:57,409 --> 00:18:57,419
+since V equals V dagger we get this
+ 
+
+861
+00:18:57,419 --> 00:18:59,029
+since V equals V dagger we get this
+formula
+
+862
+00:18:59,029 --> 00:18:59,039
+formula
+ 
+
+863
+00:18:59,039 --> 00:19:01,610
+formula
+we can use this as a hint to assume that
+
+864
+00:19:01,610 --> 00:19:01,620
+we can use this as a hint to assume that
+ 
+
+865
+00:19:01,620 --> 00:19:04,789
+we can use this as a hint to assume that
+the B Matrix should equal a dagger so
+
+866
+00:19:04,789 --> 00:19:04,799
+the B Matrix should equal a dagger so
+ 
+
+867
+00:19:04,799 --> 00:19:07,370
+the B Matrix should equal a dagger so
+our transformation looks like a v a
+
+868
+00:19:07,370 --> 00:19:07,380
+our transformation looks like a v a
+ 
+
+869
+00:19:07,380 --> 00:19:09,470
+our transformation looks like a v a
+dagger
+
+870
+00:19:09,470 --> 00:19:09,480
+dagger
+ 
+
+871
+00:19:09,480 --> 00:19:11,450
+dagger
+next we want to know that the
+
+872
+00:19:11,450 --> 00:19:11,460
+next we want to know that the
+ 
+
+873
+00:19:11,460 --> 00:19:13,850
+next we want to know that the
+determinant or negative squared length
+
+874
+00:19:13,850 --> 00:19:13,860
+determinant or negative squared length
+ 
+
+875
+00:19:13,860 --> 00:19:16,430
+determinant or negative squared length
+of our poly Vector should not change
+
+876
+00:19:16,430 --> 00:19:16,440
+of our poly Vector should not change
+ 
+
+877
+00:19:16,440 --> 00:19:19,310
+of our poly Vector should not change
+after the transformation so these two
+
+878
+00:19:19,310 --> 00:19:19,320
+after the transformation so these two
+ 
+
+879
+00:19:19,320 --> 00:19:22,370
+after the transformation so these two
+determinants must be equal
+
+880
+00:19:22,370 --> 00:19:22,380
+determinants must be equal
+ 
+
+881
+00:19:22,380 --> 00:19:24,830
+determinants must be equal
+if we recall that the determinant of a
+
+882
+00:19:24,830 --> 00:19:24,840
+if we recall that the determinant of a
+ 
+
+883
+00:19:24,840 --> 00:19:26,750
+if we recall that the determinant of a
+product is just the product of the
+
+884
+00:19:26,750 --> 00:19:26,760
+product is just the product of the
+ 
+
+885
+00:19:26,760 --> 00:19:28,850
+product is just the product of the
+determinants we can cancel the
+
+886
+00:19:28,850 --> 00:19:28,860
+determinants we can cancel the
+ 
+
+887
+00:19:28,860 --> 00:19:32,210
+determinants we can cancel the
+determinant of v on both sides
+
+888
+00:19:32,210 --> 00:19:32,220
+determinant of v on both sides
+ 
+
+889
+00:19:32,220 --> 00:19:34,130
+determinant of v on both sides
+the transpose does not change the
+
+890
+00:19:34,130 --> 00:19:34,140
+the transpose does not change the
+ 
+
+891
+00:19:34,140 --> 00:19:36,950
+the transpose does not change the
+determinant results so we ignore it and
+
+892
+00:19:36,950 --> 00:19:36,960
+determinant results so we ignore it and
+ 
+
+893
+00:19:36,960 --> 00:19:38,570
+determinant results so we ignore it and
+we can bring the complex conjugate
+
+894
+00:19:38,570 --> 00:19:38,580
+we can bring the complex conjugate
+ 
+
+895
+00:19:38,580 --> 00:19:40,010
+we can bring the complex conjugate
+outside
+
+896
+00:19:40,010 --> 00:19:40,020
+outside
+ 
+
+897
+00:19:40,020 --> 00:19:42,529
+outside
+so we end up with the squared magnitude
+
+898
+00:19:42,529 --> 00:19:42,539
+so we end up with the squared magnitude
+ 
+
+899
+00:19:42,539 --> 00:19:46,070
+so we end up with the squared magnitude
+of the determinant of a being 1.
+
+900
+00:19:46,070 --> 00:19:46,080
+of the determinant of a being 1.
+ 
+
+901
+00:19:46,080 --> 00:19:48,770
+of the determinant of a being 1.
+this means that the determinant of a can
+
+902
+00:19:48,770 --> 00:19:48,780
+this means that the determinant of a can
+ 
+
+903
+00:19:48,780 --> 00:19:51,470
+this means that the determinant of a can
+be any complex number with magnitude one
+
+904
+00:19:51,470 --> 00:19:51,480
+be any complex number with magnitude one
+ 
+
+905
+00:19:51,480 --> 00:19:54,049
+be any complex number with magnitude one
+meaning it's a complex number on the
+
+906
+00:19:54,049 --> 00:19:54,059
+meaning it's a complex number on the
+ 
+
+907
+00:19:54,059 --> 00:19:58,310
+meaning it's a complex number on the
+unit circle of the form e to the I Theta
+
+908
+00:19:58,310 --> 00:19:58,320
+unit circle of the form e to the I Theta
+ 
+
+909
+00:19:58,320 --> 00:20:00,890
+unit circle of the form e to the I Theta
+however there's an important detail we
+
+910
+00:20:00,890 --> 00:20:00,900
+however there's an important detail we
+ 
+
+911
+00:20:00,900 --> 00:20:02,510
+however there's an important detail we
+need to pay attention to with
+
+912
+00:20:02,510 --> 00:20:02,520
+need to pay attention to with
+ 
+
+913
+00:20:02,520 --> 00:20:04,909
+need to pay attention to with
+double-sided transformations
+
+914
+00:20:04,909 --> 00:20:04,919
+double-sided transformations
+ 
+
+915
+00:20:04,919 --> 00:20:08,330
+double-sided transformations
+let's try replacing our Matrix a with a
+
+916
+00:20:08,330 --> 00:20:08,340
+let's try replacing our Matrix a with a
+ 
+
+917
+00:20:08,340 --> 00:20:10,730
+let's try replacing our Matrix a with a
+times a complex phase
+
+918
+00:20:10,730 --> 00:20:10,740
+times a complex phase
+ 
+
+919
+00:20:10,740 --> 00:20:13,070
+times a complex phase
+the phase on the right will get complex
+
+920
+00:20:13,070 --> 00:20:13,080
+the phase on the right will get complex
+ 
+
+921
+00:20:13,080 --> 00:20:15,409
+the phase on the right will get complex
+conjugated because of the hermitian
+
+922
+00:20:15,409 --> 00:20:15,419
+conjugated because of the hermitian
+ 
+
+923
+00:20:15,419 --> 00:20:18,110
+conjugated because of the hermitian
+conjugate causing it to cancel with the
+
+924
+00:20:18,110 --> 00:20:18,120
+conjugate causing it to cancel with the
+ 
+
+925
+00:20:18,120 --> 00:20:20,090
+conjugate causing it to cancel with the
+phase on the left
+
+926
+00:20:20,090 --> 00:20:20,100
+phase on the left
+ 
+
+927
+00:20:20,100 --> 00:20:22,610
+phase on the left
+the resulting transformation is the
+
+928
+00:20:22,610 --> 00:20:22,620
+the resulting transformation is the
+ 
+
+929
+00:20:22,620 --> 00:20:24,830
+the resulting transformation is the
+exact same as the one before we
+
+930
+00:20:24,830 --> 00:20:24,840
+exact same as the one before we
+ 
+
+931
+00:20:24,840 --> 00:20:27,110
+exact same as the one before we
+multiplied by the phase
+
+932
+00:20:27,110 --> 00:20:27,120
+multiplied by the phase
+ 
+
+933
+00:20:27,120 --> 00:20:29,270
+multiplied by the phase
+this means that there are multiple a
+
+934
+00:20:29,270 --> 00:20:29,280
+this means that there are multiple a
+ 
+
+935
+00:20:29,280 --> 00:20:31,250
+this means that there are multiple a
+matrices that lead to the same
+
+936
+00:20:31,250 --> 00:20:31,260
+matrices that lead to the same
+ 
+
+937
+00:20:31,260 --> 00:20:34,190
+matrices that lead to the same
+transformation all related by different
+
+938
+00:20:34,190 --> 00:20:34,200
+transformation all related by different
+ 
+
+939
+00:20:34,200 --> 00:20:36,289
+transformation all related by different
+phase factors
+
+940
+00:20:36,289 --> 00:20:36,299
+phase factors
+ 
+
+941
+00:20:36,299 --> 00:20:38,690
+phase factors
+so there is a redundancy in the a
+
+942
+00:20:38,690 --> 00:20:38,700
+so there is a redundancy in the a
+ 
+
+943
+00:20:38,700 --> 00:20:41,570
+so there is a redundancy in the a
+matrices for doing rotations
+
+944
+00:20:41,570 --> 00:20:41,580
+matrices for doing rotations
+ 
+
+945
+00:20:41,580 --> 00:20:44,690
+matrices for doing rotations
+we can pick out a specific a matrix by
+
+946
+00:20:44,690 --> 00:20:44,700
+we can pick out a specific a matrix by
+ 
+
+947
+00:20:44,700 --> 00:20:46,669
+we can pick out a specific a matrix by
+picking the one whose determinant is
+
+948
+00:20:46,669 --> 00:20:46,679
+picking the one whose determinant is
+ 
+
+949
+00:20:46,679 --> 00:20:49,250
+picking the one whose determinant is
+equal to one
+
+950
+00:20:49,250 --> 00:20:49,260
+equal to one
+ 
+
+951
+00:20:49,260 --> 00:20:51,950
+equal to one
+if a has a determinant of e to the I
+
+952
+00:20:51,950 --> 00:20:51,960
+if a has a determinant of e to the I
+ 
+
+953
+00:20:51,960 --> 00:20:54,289
+if a has a determinant of e to the I
+Theta we can always Force its
+
+954
+00:20:54,289 --> 00:20:54,299
+Theta we can always Force its
+ 
+
+955
+00:20:54,299 --> 00:20:56,930
+Theta we can always Force its
+determinant to be one by multiplying by
+
+956
+00:20:56,930 --> 00:20:56,940
+determinant to be one by multiplying by
+ 
+
+957
+00:20:56,940 --> 00:20:59,270
+determinant to be one by multiplying by
+a phase of e to the negative I Theta
+
+958
+00:20:59,270 --> 00:20:59,280
+a phase of e to the negative I Theta
+ 
+
+959
+00:20:59,280 --> 00:21:00,830
+a phase of e to the negative I Theta
+over two
+
+960
+00:21:00,830 --> 00:21:00,840
+over two
+ 
+
+961
+00:21:00,840 --> 00:21:03,350
+over two
+this phase will have no impact on the
+
+962
+00:21:03,350 --> 00:21:03,360
+this phase will have no impact on the
+ 
+
+963
+00:21:03,360 --> 00:21:05,510
+this phase will have no impact on the
+transformation due to the phase
+
+964
+00:21:05,510 --> 00:21:05,520
+transformation due to the phase
+ 
+
+965
+00:21:05,520 --> 00:21:07,850
+transformation due to the phase
+cancellation property of double-sided
+
+966
+00:21:07,850 --> 00:21:07,860
+cancellation property of double-sided
+ 
+
+967
+00:21:07,860 --> 00:21:09,590
+cancellation property of double-sided
+transformations
+
+968
+00:21:09,590 --> 00:21:09,600
+transformations
+ 
+
+969
+00:21:09,600 --> 00:21:12,529
+transformations
+so the phase drops out anyway
+
+970
+00:21:12,529 --> 00:21:12,539
+so the phase drops out anyway
+ 
+
+971
+00:21:12,539 --> 00:21:14,810
+so the phase drops out anyway
+but we can successfully Force the
+
+972
+00:21:14,810 --> 00:21:14,820
+but we can successfully Force the
+ 
+
+973
+00:21:14,820 --> 00:21:17,570
+but we can successfully Force the
+determinant of a to be one
+
+974
+00:21:17,570 --> 00:21:17,580
+determinant of a to be one
+ 
+
+975
+00:21:17,580 --> 00:21:19,490
+determinant of a to be one
+so by using the properties of
+
+976
+00:21:19,490 --> 00:21:19,500
+so by using the properties of
+ 
+
+977
+00:21:19,500 --> 00:21:21,230
+so by using the properties of
+determinants and eliminating the
+
+978
+00:21:21,230 --> 00:21:21,240
+determinants and eliminating the
+ 
+
+979
+00:21:21,240 --> 00:21:23,690
+determinants and eliminating the
+redundancies in the phase we can say
+
+980
+00:21:23,690 --> 00:21:23,700
+redundancies in the phase we can say
+ 
+
+981
+00:21:23,700 --> 00:21:28,430
+redundancies in the phase we can say
+that a has a determinant of positive one
+
+982
+00:21:28,430 --> 00:21:28,440
+
+ 
+
+983
+00:21:28,440 --> 00:21:31,310
+
+finally since poly vectors have zero
+
+984
+00:21:31,310 --> 00:21:31,320
+finally since poly vectors have zero
+ 
+
+985
+00:21:31,320 --> 00:21:33,350
+finally since poly vectors have zero
+trace the result of the transformation
+
+986
+00:21:33,350 --> 00:21:33,360
+trace the result of the transformation
+ 
+
+987
+00:21:33,360 --> 00:21:36,890
+trace the result of the transformation
+should also have zero Trace
+
+988
+00:21:36,890 --> 00:21:36,900
+should also have zero Trace
+ 
+
+989
+00:21:36,900 --> 00:21:39,230
+should also have zero Trace
+when we have the trace of a product of
+
+990
+00:21:39,230 --> 00:21:39,240
+when we have the trace of a product of
+ 
+
+991
+00:21:39,240 --> 00:21:42,110
+when we have the trace of a product of
+matrices a theorem from linear algebra
+
+992
+00:21:42,110 --> 00:21:42,120
+matrices a theorem from linear algebra
+ 
+
+993
+00:21:42,120 --> 00:21:44,210
+matrices a theorem from linear algebra
+tells us that we can cycle the product
+
+994
+00:21:44,210 --> 00:21:44,220
+tells us that we can cycle the product
+ 
+
+995
+00:21:44,220 --> 00:21:47,090
+tells us that we can cycle the product
+order bringing the last one and putting
+
+996
+00:21:47,090 --> 00:21:47,100
+order bringing the last one and putting
+ 
+
+997
+00:21:47,100 --> 00:21:48,409
+order bringing the last one and putting
+it in front
+
+998
+00:21:48,409 --> 00:21:48,419
+it in front
+ 
+
+999
+00:21:48,419 --> 00:21:51,890
+it in front
+now since the trace of V is 0 for any
+
+1000
+00:21:51,890 --> 00:21:51,900
+now since the trace of V is 0 for any
+ 
+
+1001
+00:21:51,900 --> 00:21:55,010
+now since the trace of V is 0 for any
+possible V the only way for this Trace
+
+1002
+00:21:55,010 --> 00:21:55,020
+possible V the only way for this Trace
+ 
+
+1003
+00:21:55,020 --> 00:21:58,250
+possible V the only way for this Trace
+to be zero is if a dagger a equals the
+
+1004
+00:21:58,250 --> 00:21:58,260
+to be zero is if a dagger a equals the
+ 
+
+1005
+00:21:58,260 --> 00:22:01,070
+to be zero is if a dagger a equals the
+identity Matrix times a constant
+
+1006
+00:22:01,070 --> 00:22:01,080
+identity Matrix times a constant
+ 
+
+1007
+00:22:01,080 --> 00:22:03,289
+identity Matrix times a constant
+this can be shown by checking the
+
+1008
+00:22:03,289 --> 00:22:03,299
+this can be shown by checking the
+ 
+
+1009
+00:22:03,299 --> 00:22:05,930
+this can be shown by checking the
+various cases of v and solving for the
+
+1010
+00:22:05,930 --> 00:22:05,940
+various cases of v and solving for the
+ 
+
+1011
+00:22:05,940 --> 00:22:08,930
+various cases of v and solving for the
+Matrix entries of a dagger a
+
+1012
+00:22:08,930 --> 00:22:08,940
+Matrix entries of a dagger a
+ 
+
+1013
+00:22:08,940 --> 00:22:11,330
+Matrix entries of a dagger a
+taking the determinant of this formula
+
+1014
+00:22:11,330 --> 00:22:11,340
+taking the determinant of this formula
+ 
+
+1015
+00:22:11,340 --> 00:22:13,789
+taking the determinant of this formula
+we already know from the last step that
+
+1016
+00:22:13,789 --> 00:22:13,799
+we already know from the last step that
+ 
+
+1017
+00:22:13,799 --> 00:22:17,029
+we already know from the last step that
+the determinant of a is one so k equals
+
+1018
+00:22:17,029 --> 00:22:17,039
+the determinant of a is one so k equals
+ 
+
+1019
+00:22:17,039 --> 00:22:19,970
+the determinant of a is one so k equals
+plus or minus one meaning a dagger times
+
+1020
+00:22:19,970 --> 00:22:19,980
+plus or minus one meaning a dagger times
+ 
+
+1021
+00:22:19,980 --> 00:22:22,190
+plus or minus one meaning a dagger times
+a equals plus or minus the identity
+
+1022
+00:22:22,190 --> 00:22:22,200
+a equals plus or minus the identity
+ 
+
+1023
+00:22:22,200 --> 00:22:23,630
+a equals plus or minus the identity
+Matrix
+
+1024
+00:22:23,630 --> 00:22:23,640
+Matrix
+ 
+
+1025
+00:22:23,640 --> 00:22:27,230
+Matrix
+however the product a dagger times a is
+
+1026
+00:22:27,230 --> 00:22:27,240
+however the product a dagger times a is
+ 
+
+1027
+00:22:27,240 --> 00:22:29,330
+however the product a dagger times a is
+guaranteed to have positive entries
+
+1028
+00:22:29,330 --> 00:22:29,340
+guaranteed to have positive entries
+ 
+
+1029
+00:22:29,340 --> 00:22:31,250
+guaranteed to have positive entries
+along the diagonal
+
+1030
+00:22:31,250 --> 00:22:31,260
+along the diagonal
+ 
+
+1031
+00:22:31,260 --> 00:22:33,890
+along the diagonal
+so the only option is that a dagger a
+
+1032
+00:22:33,890 --> 00:22:33,900
+so the only option is that a dagger a
+ 
+
+1033
+00:22:33,900 --> 00:22:36,770
+so the only option is that a dagger a
+equals the identity Matrix in other
+
+1034
+00:22:36,770 --> 00:22:36,780
+equals the identity Matrix in other
+ 
+
+1035
+00:22:36,780 --> 00:22:40,430
+equals the identity Matrix in other
+words a dagger equals a inverse
+
+1036
+00:22:40,430 --> 00:22:40,440
+words a dagger equals a inverse
+ 
+
+1037
+00:22:40,440 --> 00:22:43,190
+words a dagger equals a inverse
+the fact that a dagger equals a inverse
+
+1038
+00:22:43,190 --> 00:22:43,200
+the fact that a dagger equals a inverse
+ 
+
+1039
+00:22:43,200 --> 00:22:46,070
+the fact that a dagger equals a inverse
+means that a is a member of the group of
+
+1040
+00:22:46,070 --> 00:22:46,080
+means that a is a member of the group of
+ 
+
+1041
+00:22:46,080 --> 00:22:49,970
+means that a is a member of the group of
+two by two unitary matrices U2
+
+1042
+00:22:49,970 --> 00:22:49,980
+two by two unitary matrices U2
+ 
+
+1043
+00:22:49,980 --> 00:22:52,130
+two by two unitary matrices U2
+and the fact that it has a determinant
+
+1044
+00:22:52,130 --> 00:22:52,140
+and the fact that it has a determinant
+ 
+
+1045
+00:22:52,140 --> 00:22:54,890
+and the fact that it has a determinant
+of one means it's from the group of two
+
+1046
+00:22:54,890 --> 00:22:54,900
+of one means it's from the group of two
+ 
+
+1047
+00:22:54,900 --> 00:22:58,909
+of one means it's from the group of two
+by two special unitary matrices su2
+
+1048
+00:22:58,909 --> 00:22:58,919
+by two special unitary matrices su2
+ 
+
+1049
+00:22:58,919 --> 00:23:01,130
+by two special unitary matrices su2
+where the word special means the
+
+1050
+00:23:01,130 --> 00:23:01,140
+where the word special means the
+ 
+
+1051
+00:23:01,140 --> 00:23:03,649
+where the word special means the
+determinant is one
+
+1052
+00:23:03,649 --> 00:23:03,659
+determinant is one
+ 
+
+1053
+00:23:03,659 --> 00:23:06,230
+determinant is one
+so what we've shown is in order to
+
+1054
+00:23:06,230 --> 00:23:06,240
+so what we've shown is in order to
+ 
+
+1055
+00:23:06,240 --> 00:23:09,350
+so what we've shown is in order to
+rotate the poly vector by some angle we
+
+1056
+00:23:09,350 --> 00:23:09,360
+rotate the poly vector by some angle we
+ 
+
+1057
+00:23:09,360 --> 00:23:11,210
+rotate the poly vector by some angle we
+do a double-sided Matrix transformation
+
+1058
+00:23:11,210 --> 00:23:11,220
+do a double-sided Matrix transformation
+ 
+
+1059
+00:23:11,220 --> 00:23:15,110
+do a double-sided Matrix transformation
+like this with su2 matrices
+
+1060
+00:23:15,110 --> 00:23:15,120
+like this with su2 matrices
+ 
+
+1061
+00:23:15,120 --> 00:23:17,690
+like this with su2 matrices
+this is a direct result of polyvectors
+
+1062
+00:23:17,690 --> 00:23:17,700
+this is a direct result of polyvectors
+ 
+
+1063
+00:23:17,700 --> 00:23:20,930
+this is a direct result of polyvectors
+being traceless hermitian and having a
+
+1064
+00:23:20,930 --> 00:23:20,940
+being traceless hermitian and having a
+ 
+
+1065
+00:23:20,940 --> 00:23:22,610
+being traceless hermitian and having a
+determinant that's equal to the negative
+
+1066
+00:23:22,610 --> 00:23:22,620
+determinant that's equal to the negative
+ 
+
+1067
+00:23:22,620 --> 00:23:25,310
+determinant that's equal to the negative
+squared length of a vector which must be
+
+1068
+00:23:25,310 --> 00:23:25,320
+squared length of a vector which must be
+ 
+
+1069
+00:23:25,320 --> 00:23:28,430
+squared length of a vector which must be
+unchanged by rotations
+
+1070
+00:23:28,430 --> 00:23:28,440
+unchanged by rotations
+ 
+
+1071
+00:23:28,440 --> 00:23:31,970
+unchanged by rotations
+now what do su2 matrices actually look
+
+1072
+00:23:31,970 --> 00:23:31,980
+now what do su2 matrices actually look
+ 
+
+1073
+00:23:31,980 --> 00:23:35,990
+now what do su2 matrices actually look
+like if we take an su2 Matrix a with
+
+1074
+00:23:35,990 --> 00:23:36,000
+like if we take an su2 Matrix a with
+ 
+
+1075
+00:23:36,000 --> 00:23:38,750
+like if we take an su2 Matrix a with
+complex entries Alpha Beta Gamma Delta
+
+1076
+00:23:38,750 --> 00:23:38,760
+complex entries Alpha Beta Gamma Delta
+ 
+
+1077
+00:23:38,760 --> 00:23:41,750
+complex entries Alpha Beta Gamma Delta
+we know that a dagger involves flipping
+
+1078
+00:23:41,750 --> 00:23:41,760
+we know that a dagger involves flipping
+ 
+
+1079
+00:23:41,760 --> 00:23:44,149
+we know that a dagger involves flipping
+the off diagonal components and complex
+
+1080
+00:23:44,149 --> 00:23:44,159
+the off diagonal components and complex
+ 
+
+1081
+00:23:44,159 --> 00:23:46,789
+the off diagonal components and complex
+conjugating all the entries
+
+1082
+00:23:46,789 --> 00:23:46,799
+conjugating all the entries
+ 
+
+1083
+00:23:46,799 --> 00:23:49,190
+conjugating all the entries
+we also know that the inverse of any
+
+1084
+00:23:49,190 --> 00:23:49,200
+we also know that the inverse of any
+ 
+
+1085
+00:23:49,200 --> 00:23:52,070
+we also know that the inverse of any
+general two by two Matrix will take this
+
+1086
+00:23:52,070 --> 00:23:52,080
+general two by two Matrix will take this
+ 
+
+1087
+00:23:52,080 --> 00:23:53,450
+general two by two Matrix will take this
+form
+
+1088
+00:23:53,450 --> 00:23:53,460
+form
+ 
+
+1089
+00:23:53,460 --> 00:23:55,970
+form
+since the determinant of an su2 Matrix
+
+1090
+00:23:55,970 --> 00:23:55,980
+since the determinant of an su2 Matrix
+ 
+
+1091
+00:23:55,980 --> 00:23:59,330
+since the determinant of an su2 Matrix
+is one we can set this to one
+
+1092
+00:23:59,330 --> 00:23:59,340
+is one we can set this to one
+ 
+
+1093
+00:23:59,340 --> 00:24:03,049
+is one we can set this to one
+and since a dagger equals a inverse we
+
+1094
+00:24:03,049 --> 00:24:03,059
+and since a dagger equals a inverse we
+ 
+
+1095
+00:24:03,059 --> 00:24:05,270
+and since a dagger equals a inverse we
+immediately get that Delta equals the
+
+1096
+00:24:05,270 --> 00:24:05,280
+immediately get that Delta equals the
+ 
+
+1097
+00:24:05,280 --> 00:24:08,450
+immediately get that Delta equals the
+complex conjugate of Alpha and Gamma
+
+1098
+00:24:08,450 --> 00:24:08,460
+complex conjugate of Alpha and Gamma
+ 
+
+1099
+00:24:08,460 --> 00:24:10,850
+complex conjugate of Alpha and Gamma
+equals the negative complex conjugate of
+
+1100
+00:24:10,850 --> 00:24:10,860
+equals the negative complex conjugate of
+ 
+
+1101
+00:24:10,860 --> 00:24:12,049
+equals the negative complex conjugate of
+beta
+
+1102
+00:24:12,049 --> 00:24:12,059
+beta
+ 
+
+1103
+00:24:12,059 --> 00:24:16,130
+beta
+so all su2 matrices take this form where
+
+1104
+00:24:16,130 --> 00:24:16,140
+so all su2 matrices take this form where
+ 
+
+1105
+00:24:16,140 --> 00:24:18,590
+so all su2 matrices take this form where
+the determinant equals one so the
+
+1106
+00:24:18,590 --> 00:24:18,600
+the determinant equals one so the
+ 
+
+1107
+00:24:18,600 --> 00:24:21,049
+the determinant equals one so the
+squared magnitude of alpha plus the
+
+1108
+00:24:21,049 --> 00:24:21,059
+squared magnitude of alpha plus the
+ 
+
+1109
+00:24:21,059 --> 00:24:25,250
+squared magnitude of alpha plus the
+squared magnitude of beta equals one
+
+1110
+00:24:25,250 --> 00:24:25,260
+squared magnitude of beta equals one
+ 
+
+1111
+00:24:25,260 --> 00:24:27,770
+squared magnitude of beta equals one
+the three rotation matrices we saw
+
+1112
+00:24:27,770 --> 00:24:27,780
+the three rotation matrices we saw
+ 
+
+1113
+00:24:27,780 --> 00:24:30,770
+the three rotation matrices we saw
+earlier match this form so they are
+
+1114
+00:24:30,770 --> 00:24:30,780
+earlier match this form so they are
+ 
+
+1115
+00:24:30,780 --> 00:24:33,470
+earlier match this form so they are
+indeed su2 matrices
+
+1116
+00:24:33,470 --> 00:24:33,480
+indeed su2 matrices
+ 
+
+1117
+00:24:33,480 --> 00:24:36,770
+indeed su2 matrices
+also note that su2 matrices have two
+
+1118
+00:24:36,770 --> 00:24:36,780
+also note that su2 matrices have two
+ 
+
+1119
+00:24:36,780 --> 00:24:39,649
+also note that su2 matrices have two
+complex parameters or four real
+
+1120
+00:24:39,649 --> 00:24:39,659
+complex parameters or four real
+ 
+
+1121
+00:24:39,659 --> 00:24:41,090
+complex parameters or four real
+parameters
+
+1122
+00:24:41,090 --> 00:24:41,100
+parameters
+ 
+
+1123
+00:24:41,100 --> 00:24:43,549
+parameters
+however since the determinant is forced
+
+1124
+00:24:43,549 --> 00:24:43,559
+however since the determinant is forced
+ 
+
+1125
+00:24:43,559 --> 00:24:45,890
+however since the determinant is forced
+to be one this gives one extra
+
+1126
+00:24:45,890 --> 00:24:45,900
+to be one this gives one extra
+ 
+
+1127
+00:24:45,900 --> 00:24:48,230
+to be one this gives one extra
+constraint reducing the four real
+
+1128
+00:24:48,230 --> 00:24:48,240
+constraint reducing the four real
+ 
+
+1129
+00:24:48,240 --> 00:24:51,950
+constraint reducing the four real
+parameters to three real parameters
+
+1130
+00:24:51,950 --> 00:24:51,960
+parameters to three real parameters
+ 
+
+1131
+00:24:51,960 --> 00:24:54,590
+parameters to three real parameters
+as there are three independent planes of
+
+1132
+00:24:54,590 --> 00:24:54,600
+as there are three independent planes of
+ 
+
+1133
+00:24:54,600 --> 00:24:58,130
+as there are three independent planes of
+rotation that we can choose angles for
+
+1134
+00:24:58,130 --> 00:24:58,140
+rotation that we can choose angles for
+ 
+
+1135
+00:24:58,140 --> 00:25:00,350
+rotation that we can choose angles for
+another thing to notice is that the
+
+1136
+00:25:00,350 --> 00:25:00,360
+another thing to notice is that the
+ 
+
+1137
+00:25:00,360 --> 00:25:03,049
+another thing to notice is that the
+positive version of an su2 Matrix and
+
+1138
+00:25:03,049 --> 00:25:03,059
+positive version of an su2 Matrix and
+ 
+
+1139
+00:25:03,059 --> 00:25:05,330
+positive version of an su2 Matrix and
+the negative version of an su2 Matrix
+
+1140
+00:25:05,330 --> 00:25:05,340
+the negative version of an su2 Matrix
+ 
+
+1141
+00:25:05,340 --> 00:25:08,450
+the negative version of an su2 Matrix
+perform the exact same rotation
+
+1142
+00:25:08,450 --> 00:25:08,460
+perform the exact same rotation
+ 
+
+1143
+00:25:08,460 --> 00:25:10,909
+perform the exact same rotation
+since the negative signs cancel out in
+
+1144
+00:25:10,909 --> 00:25:10,919
+since the negative signs cancel out in
+ 
+
+1145
+00:25:10,919 --> 00:25:13,370
+since the negative signs cancel out in
+the double-sided transformation
+
+1146
+00:25:13,370 --> 00:25:13,380
+the double-sided transformation
+ 
+
+1147
+00:25:13,380 --> 00:25:16,430
+the double-sided transformation
+this means that for every 3x3 rotation
+
+1148
+00:25:16,430 --> 00:25:16,440
+this means that for every 3x3 rotation
+ 
+
+1149
+00:25:16,440 --> 00:25:19,970
+this means that for every 3x3 rotation
+Matrix in the group SO3 there are two
+
+1150
+00:25:19,970 --> 00:25:19,980
+Matrix in the group SO3 there are two
+ 
+
+1151
+00:25:19,980 --> 00:25:23,210
+Matrix in the group SO3 there are two
+corresponding rotation matrices in su2
+
+1152
+00:25:23,210 --> 00:25:23,220
+corresponding rotation matrices in su2
+ 
+
+1153
+00:25:23,220 --> 00:25:25,549
+corresponding rotation matrices in su2
+that do the same rotation
+
+1154
+00:25:25,549 --> 00:25:25,559
+that do the same rotation
+ 
+
+1155
+00:25:25,559 --> 00:25:28,909
+that do the same rotation
+we'll see later that this means su2 is
+
+1156
+00:25:28,909 --> 00:25:28,919
+we'll see later that this means su2 is
+ 
+
+1157
+00:25:28,919 --> 00:25:33,230
+we'll see later that this means su2 is
+the double cover of SO3
+
+1158
+00:25:33,230 --> 00:25:33,240
+
+ 
+
+1159
+00:25:33,240 --> 00:25:36,049
+
+so to summarize this video we saw that
+
+1160
+00:25:36,049 --> 00:25:36,059
+so to summarize this video we saw that
+ 
+
+1161
+00:25:36,059 --> 00:25:38,690
+so to summarize this video we saw that
+the sigma matrices also called poly
+
+1162
+00:25:38,690 --> 00:25:38,700
+the sigma matrices also called poly
+ 
+
+1163
+00:25:38,700 --> 00:25:41,049
+the sigma matrices also called poly
+matrices obey these special
+
+1164
+00:25:41,049 --> 00:25:41,059
+matrices obey these special
+ 
+
+1165
+00:25:41,059 --> 00:25:43,610
+matrices obey these special
+anti-commutation relations
+
+1166
+00:25:43,610 --> 00:25:43,620
+anti-commutation relations
+ 
+
+1167
+00:25:43,620 --> 00:25:45,909
+anti-commutation relations
+and this allows them to easily perform
+
+1168
+00:25:45,909 --> 00:25:45,919
+and this allows them to easily perform
+ 
+
+1169
+00:25:45,919 --> 00:25:49,850
+and this allows them to easily perform
+geometric Transformations on polyvectors
+
+1170
+00:25:49,850 --> 00:25:49,860
+geometric Transformations on polyvectors
+ 
+
+1171
+00:25:49,860 --> 00:25:51,890
+geometric Transformations on polyvectors
+Reflections are performed by doing
+
+1172
+00:25:51,890 --> 00:25:51,900
+Reflections are performed by doing
+ 
+
+1173
+00:25:51,900 --> 00:25:55,370
+Reflections are performed by doing
+negative conjugation on a polyvector and
+
+1174
+00:25:55,370 --> 00:25:55,380
+negative conjugation on a polyvector and
+ 
+
+1175
+00:25:55,380 --> 00:25:57,110
+negative conjugation on a polyvector and
+rotations are performed by doing
+
+1176
+00:25:57,110 --> 00:25:57,120
+rotations are performed by doing
+ 
+
+1177
+00:25:57,120 --> 00:25:59,690
+rotations are performed by doing
+double-sided Transformations like this
+
+1178
+00:25:59,690 --> 00:25:59,700
+double-sided Transformations like this
+ 
+
+1179
+00:25:59,700 --> 00:26:04,070
+double-sided Transformations like this
+where these matrices are su2 matrices
+
+1180
+00:26:04,070 --> 00:26:04,080
+where these matrices are su2 matrices
+ 
+
+1181
+00:26:04,080 --> 00:26:06,590
+where these matrices are su2 matrices
+each of the two matrices performs half
+
+1182
+00:26:06,590 --> 00:26:06,600
+each of the two matrices performs half
+ 
+
+1183
+00:26:06,600 --> 00:26:09,289
+each of the two matrices performs half
+the rotation so we use half angles
+
+1184
+00:26:09,289 --> 00:26:09,299
+the rotation so we use half angles
+ 
+
+1185
+00:26:09,299 --> 00:26:11,930
+the rotation so we use half angles
+inside the Matrix entries
+
+1186
+00:26:11,930 --> 00:26:11,940
+inside the Matrix entries
+ 
+
+1187
+00:26:11,940 --> 00:26:14,450
+inside the Matrix entries
+in the next video we're going to see how
+
+1188
+00:26:14,450 --> 00:26:14,460
+in the next video we're going to see how
+ 
+
+1189
+00:26:14,460 --> 00:26:17,269
+in the next video we're going to see how
+we can factor a poly Vector into a pair
+
+1190
+00:26:17,269 --> 00:26:17,279
+we can factor a poly Vector into a pair
+ 
+
+1191
+00:26:17,279 --> 00:26:20,990
+we can factor a poly Vector into a pair
+of poly Spinners each poly spinner will
+
+1192
+00:26:20,990 --> 00:26:21,000
+of poly Spinners each poly spinner will
+ 
+
+1193
+00:26:21,000 --> 00:26:24,830
+of poly Spinners each poly spinner will
+rotate using only a single su2 Matrix
+
+1194
+00:26:24,830 --> 00:26:24,840
+rotate using only a single su2 Matrix
+ 
+
+1195
+00:26:24,840 --> 00:26:27,769
+rotate using only a single su2 Matrix
+this is why poly spanners rotate half as
+
+1196
+00:26:27,769 --> 00:26:27,779
+this is why poly spanners rotate half as
+ 
+
+1197
+00:26:27,779 --> 00:26:31,010
+this is why poly spanners rotate half as
+much as vectors do and require two full
+
+1198
+00:26:31,010 --> 00:26:31,020
+much as vectors do and require two full
+ 
+
+1199
+00:26:31,020 --> 00:26:32,870
+much as vectors do and require two full
+rotations to get back to their starting
+
+1200
+00:26:32,870 --> 00:26:32,880
+rotations to get back to their starting
+ 
+
+1201
+00:26:32,880 --> 00:26:35,299
+rotations to get back to their starting
+point
+

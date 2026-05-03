@@ -1,0 +1,4185 @@
+1
+00:00:00,000 --> 00:00:02,750
+
+it's often said that a spinner is like
+
+2
+00:00:02,750 --> 00:00:02,760
+it's often said that a spinner is like
+ 
+
+3
+00:00:02,760 --> 00:00:05,510
+it's often said that a spinner is like
+the square root of a vector and I'll say
+
+4
+00:00:05,510 --> 00:00:05,520
+the square root of a vector and I'll say
+ 
+
+5
+00:00:05,520 --> 00:00:07,670
+the square root of a vector and I'll say
+that's kind of true but slightly
+
+6
+00:00:07,670 --> 00:00:07,680
+that's kind of true but slightly
+ 
+
+7
+00:00:07,680 --> 00:00:08,930
+that's kind of true but slightly
+inaccurate
+
+8
+00:00:08,930 --> 00:00:08,940
+inaccurate
+ 
+
+9
+00:00:08,940 --> 00:00:10,970
+inaccurate
+if you're thinking of taking an actual
+
+10
+00:00:10,970 --> 00:00:10,980
+if you're thinking of taking an actual
+ 
+
+11
+00:00:10,980 --> 00:00:13,310
+if you're thinking of taking an actual
+square root of a vector and getting a
+
+12
+00:00:13,310 --> 00:00:13,320
+square root of a vector and getting a
+ 
+
+13
+00:00:13,320 --> 00:00:16,670
+square root of a vector and getting a
+spinner that's not correct what is true
+
+14
+00:00:16,670 --> 00:00:16,680
+spinner that's not correct what is true
+ 
+
+15
+00:00:16,680 --> 00:00:19,790
+spinner that's not correct what is true
+is that we can take a 3D vector and cut
+
+16
+00:00:19,790 --> 00:00:19,800
+is that we can take a 3D vector and cut
+ 
+
+17
+00:00:19,800 --> 00:00:22,490
+is that we can take a 3D vector and cut
+up the vector into two pieces called
+
+18
+00:00:22,490 --> 00:00:22,500
+up the vector into two pieces called
+ 
+
+19
+00:00:22,500 --> 00:00:24,290
+up the vector into two pieces called
+poly spinners
+
+20
+00:00:24,290 --> 00:00:24,300
+poly spinners
+ 
+
+21
+00:00:24,300 --> 00:00:26,870
+poly spinners
+so it's better to say that a 3D Vector
+
+22
+00:00:26,870 --> 00:00:26,880
+so it's better to say that a 3D Vector
+ 
+
+23
+00:00:26,880 --> 00:00:29,390
+so it's better to say that a 3D Vector
+can be factored into a column spinner
+
+24
+00:00:29,390 --> 00:00:29,400
+can be factored into a column spinner
+ 
+
+25
+00:00:29,400 --> 00:00:31,609
+can be factored into a column spinner
+and a row spinner
+
+26
+00:00:31,609 --> 00:00:31,619
+and a row spinner
+ 
+
+27
+00:00:31,619 --> 00:00:33,590
+and a row spinner
+we're continuing with our introduction
+
+28
+00:00:33,590 --> 00:00:33,600
+we're continuing with our introduction
+ 
+
+29
+00:00:33,600 --> 00:00:36,410
+we're continuing with our introduction
+to Spinners in 3D from a mathematical
+
+30
+00:00:36,410 --> 00:00:36,420
+to Spinners in 3D from a mathematical
+ 
+
+31
+00:00:36,420 --> 00:00:37,910
+to Spinners in 3D from a mathematical
+point of view
+
+32
+00:00:37,910 --> 00:00:37,920
+point of view
+ 
+
+33
+00:00:37,920 --> 00:00:40,250
+point of view
+in the last video we introduced the
+
+34
+00:00:40,250 --> 00:00:40,260
+in the last video we introduced the
+ 
+
+35
+00:00:40,260 --> 00:00:43,310
+in the last video we introduced the
+sigma matrices also called the poly
+
+36
+00:00:43,310 --> 00:00:43,320
+sigma matrices also called the poly
+ 
+
+37
+00:00:43,320 --> 00:00:46,490
+sigma matrices also called the poly
+matrices we found that if we wrote a
+
+38
+00:00:46,490 --> 00:00:46,500
+matrices we found that if we wrote a
+ 
+
+39
+00:00:46,500 --> 00:00:49,069
+matrices we found that if we wrote a
+vector using the sigma matrices as basis
+
+40
+00:00:49,069 --> 00:00:49,079
+vector using the sigma matrices as basis
+ 
+
+41
+00:00:49,079 --> 00:00:51,650
+vector using the sigma matrices as basis
+vectors we ended up with a two by two
+
+42
+00:00:51,650 --> 00:00:51,660
+vectors we ended up with a two by two
+ 
+
+43
+00:00:51,660 --> 00:00:54,830
+vectors we ended up with a two by two
+Matrix called a polyvector which is an
+
+44
+00:00:54,830 --> 00:00:54,840
+Matrix called a polyvector which is an
+ 
+
+45
+00:00:54,840 --> 00:00:58,369
+Matrix called a polyvector which is an
+alternative way of writing a 3D vector
+
+46
+00:00:58,369 --> 00:00:58,379
+alternative way of writing a 3D vector
+ 
+
+47
+00:00:58,379 --> 00:01:01,010
+alternative way of writing a 3D vector
+just as we can take certain two by two
+
+48
+00:01:01,010 --> 00:01:01,020
+just as we can take certain two by two
+ 
+
+49
+00:01:01,020 --> 00:01:03,290
+just as we can take certain two by two
+matrices and write them as a column
+
+50
+00:01:03,290 --> 00:01:03,300
+matrices and write them as a column
+ 
+
+51
+00:01:03,300 --> 00:01:06,050
+matrices and write them as a column
+times a row it's also possible to take
+
+52
+00:01:06,050 --> 00:01:06,060
+times a row it's also possible to take
+ 
+
+53
+00:01:06,060 --> 00:01:09,350
+times a row it's also possible to take
+this 2x2 poly vector and write it as a
+
+54
+00:01:09,350 --> 00:01:09,360
+this 2x2 poly vector and write it as a
+ 
+
+55
+00:01:09,360 --> 00:01:10,910
+this 2x2 poly vector and write it as a
+column times a row
+
+56
+00:01:10,910 --> 00:01:10,920
+column times a row
+ 
+
+57
+00:01:10,920 --> 00:01:14,149
+column times a row
+this column and row are called poly
+
+58
+00:01:14,149 --> 00:01:14,159
+this column and row are called poly
+ 
+
+59
+00:01:14,159 --> 00:01:15,770
+this column and row are called poly
+spinners
+
+60
+00:01:15,770 --> 00:01:15,780
+spinners
+ 
+
+61
+00:01:15,780 --> 00:01:18,649
+spinners
+unlike traditional 3D vectors which
+
+62
+00:01:18,649 --> 00:01:18,659
+unlike traditional 3D vectors which
+ 
+
+63
+00:01:18,659 --> 00:01:20,690
+unlike traditional 3D vectors which
+rotate with a single three by three
+
+64
+00:01:20,690 --> 00:01:20,700
+rotate with a single three by three
+ 
+
+65
+00:01:20,700 --> 00:01:23,929
+rotate with a single three by three
+Matrix poly vectors are rotated with a
+
+66
+00:01:23,929 --> 00:01:23,939
+Matrix poly vectors are rotated with a
+ 
+
+67
+00:01:23,939 --> 00:01:26,210
+Matrix poly vectors are rotated with a
+double-sided transformation using
+
+68
+00:01:26,210 --> 00:01:26,220
+double-sided transformation using
+ 
+
+69
+00:01:26,220 --> 00:01:30,350
+double-sided transformation using
+special matrices called su2 matrices
+
+70
+00:01:30,350 --> 00:01:30,360
+special matrices called su2 matrices
+ 
+
+71
+00:01:30,360 --> 00:01:33,469
+special matrices called su2 matrices
+if we Factor our polyvector into a pair
+
+72
+00:01:33,469 --> 00:01:33,479
+if we Factor our polyvector into a pair
+ 
+
+73
+00:01:33,479 --> 00:01:36,649
+if we Factor our polyvector into a pair
+of poly Spinners then each spinner only
+
+74
+00:01:36,649 --> 00:01:36,659
+of poly Spinners then each spinner only
+ 
+
+75
+00:01:36,659 --> 00:01:40,490
+of poly Spinners then each spinner only
+transforms with a single su2 Matrix this
+
+76
+00:01:40,490 --> 00:01:40,500
+transforms with a single su2 Matrix this
+ 
+
+77
+00:01:40,500 --> 00:01:43,010
+transforms with a single su2 Matrix this
+explains why Spinners rotate half as
+
+78
+00:01:43,010 --> 00:01:43,020
+explains why Spinners rotate half as
+ 
+
+79
+00:01:43,020 --> 00:01:46,609
+explains why Spinners rotate half as
+much as vectors do
+
+80
+00:01:46,609 --> 00:01:46,619
+
+ 
+
+81
+00:01:46,619 --> 00:01:48,710
+
+before we start looking at Spinners
+
+82
+00:01:48,710 --> 00:01:48,720
+before we start looking at Spinners
+ 
+
+83
+00:01:48,720 --> 00:01:52,670
+before we start looking at Spinners
+let's review basic 2x2 matrices
+
+84
+00:01:52,670 --> 00:01:52,680
+let's review basic 2x2 matrices
+ 
+
+85
+00:01:52,680 --> 00:01:55,249
+let's review basic 2x2 matrices
+using array multiplication we can
+
+86
+00:01:55,249 --> 00:01:55,259
+using array multiplication we can
+ 
+
+87
+00:01:55,259 --> 00:01:58,010
+using array multiplication we can
+multiply a column by a row to get a two
+
+88
+00:01:58,010 --> 00:01:58,020
+multiply a column by a row to get a two
+ 
+
+89
+00:01:58,020 --> 00:02:01,190
+multiply a column by a row to get a two
+by two Matrix we just arrange them like
+
+90
+00:02:01,190 --> 00:02:01,200
+by two Matrix we just arrange them like
+ 
+
+91
+00:02:01,200 --> 00:02:03,590
+by two Matrix we just arrange them like
+this and follow the standard rules of
+
+92
+00:02:03,590 --> 00:02:03,600
+this and follow the standard rules of
+ 
+
+93
+00:02:03,600 --> 00:02:05,510
+this and follow the standard rules of
+array multiplication
+
+94
+00:02:05,510 --> 00:02:05,520
+array multiplication
+ 
+
+95
+00:02:05,520 --> 00:02:08,570
+array multiplication
+1 times 3 equals three one times two
+
+96
+00:02:08,570 --> 00:02:08,580
+1 times 3 equals three one times two
+ 
+
+97
+00:02:08,580 --> 00:02:11,089
+1 times 3 equals three one times two
+equals two negative four times three
+
+98
+00:02:11,089 --> 00:02:11,099
+equals two negative four times three
+ 
+
+99
+00:02:11,099 --> 00:02:13,970
+equals two negative four times three
+equals negative 12 and negative 4 times
+
+100
+00:02:13,970 --> 00:02:13,980
+equals negative 12 and negative 4 times
+ 
+
+101
+00:02:13,980 --> 00:02:16,430
+equals negative 12 and negative 4 times
+2 equals negative eight
+
+102
+00:02:16,430 --> 00:02:16,440
+2 equals negative eight
+ 
+
+103
+00:02:16,440 --> 00:02:18,830
+2 equals negative eight
+now it's also possible to do this
+
+104
+00:02:18,830 --> 00:02:18,840
+now it's also possible to do this
+ 
+
+105
+00:02:18,840 --> 00:02:20,690
+now it's also possible to do this
+process in reverse
+
+106
+00:02:20,690 --> 00:02:20,700
+process in reverse
+ 
+
+107
+00:02:20,700 --> 00:02:24,229
+process in reverse
+given this 2x2 matrix we can ask how to
+
+108
+00:02:24,229 --> 00:02:24,239
+given this 2x2 matrix we can ask how to
+ 
+
+109
+00:02:24,239 --> 00:02:27,350
+given this 2x2 matrix we can ask how to
+break it up into a column times a row
+
+110
+00:02:27,350 --> 00:02:27,360
+break it up into a column times a row
+ 
+
+111
+00:02:27,360 --> 00:02:29,869
+break it up into a column times a row
+you can think of this as trying to solve
+
+112
+00:02:29,869 --> 00:02:29,879
+you can think of this as trying to solve
+ 
+
+113
+00:02:29,879 --> 00:02:33,470
+you can think of this as trying to solve
+for these four variables a b c d
+
+114
+00:02:33,470 --> 00:02:33,480
+for these four variables a b c d
+ 
+
+115
+00:02:33,480 --> 00:02:35,930
+for these four variables a b c d
+if you like you can pause and try to
+
+116
+00:02:35,930 --> 00:02:35,940
+if you like you can pause and try to
+ 
+
+117
+00:02:35,940 --> 00:02:38,150
+if you like you can pause and try to
+figure it out but I'm going to give you
+
+118
+00:02:38,150 --> 00:02:38,160
+figure it out but I'm going to give you
+ 
+
+119
+00:02:38,160 --> 00:02:39,890
+figure it out but I'm going to give you
+the answer
+
+120
+00:02:39,890 --> 00:02:39,900
+the answer
+ 
+
+121
+00:02:39,900 --> 00:02:43,070
+the answer
+one solution is the column one four and
+
+122
+00:02:43,070 --> 00:02:43,080
+one solution is the column one four and
+ 
+
+123
+00:02:43,080 --> 00:02:45,589
+one solution is the column one four and
+the Row 1 100.
+
+124
+00:02:45,589 --> 00:02:45,599
+the Row 1 100.
+ 
+
+125
+00:02:45,599 --> 00:02:47,750
+the Row 1 100.
+however there are actually multiple
+
+126
+00:02:47,750 --> 00:02:47,760
+however there are actually multiple
+ 
+
+127
+00:02:47,760 --> 00:02:51,229
+however there are actually multiple
+possible solutions to this problem
+
+128
+00:02:51,229 --> 00:02:51,239
+possible solutions to this problem
+ 
+
+129
+00:02:51,239 --> 00:02:53,809
+possible solutions to this problem
+if we take our column row multiplication
+
+130
+00:02:53,809 --> 00:02:53,819
+if we take our column row multiplication
+ 
+
+131
+00:02:53,819 --> 00:02:56,330
+if we take our column row multiplication
+we can put a number one in the middle
+
+132
+00:02:56,330 --> 00:02:56,340
+we can put a number one in the middle
+ 
+
+133
+00:02:56,340 --> 00:02:58,610
+we can put a number one in the middle
+without changing anything
+
+134
+00:02:58,610 --> 00:02:58,620
+without changing anything
+ 
+
+135
+00:02:58,620 --> 00:03:00,890
+without changing anything
+we can then break up this number one
+
+136
+00:03:00,890 --> 00:03:00,900
+we can then break up this number one
+ 
+
+137
+00:03:00,900 --> 00:03:04,670
+we can then break up this number one
+into two times one-half multiplying the
+
+138
+00:03:04,670 --> 00:03:04,680
+into two times one-half multiplying the
+ 
+
+139
+00:03:04,680 --> 00:03:07,190
+into two times one-half multiplying the
+column on the left by 2 gives us the
+
+140
+00:03:07,190 --> 00:03:07,200
+column on the left by 2 gives us the
+ 
+
+141
+00:03:07,200 --> 00:03:10,190
+column on the left by 2 gives us the
+components 2 8 and multiplying the row
+
+142
+00:03:10,190 --> 00:03:10,200
+components 2 8 and multiplying the row
+ 
+
+143
+00:03:10,200 --> 00:03:13,009
+components 2 8 and multiplying the row
+on the right by one half gives us one
+
+144
+00:03:13,009 --> 00:03:13,019
+on the right by one half gives us one
+ 
+
+145
+00:03:13,019 --> 00:03:14,630
+on the right by one half gives us one
+half fifty
+
+146
+00:03:14,630 --> 00:03:14,640
+half fifty
+ 
+
+147
+00:03:14,640 --> 00:03:17,030
+half fifty
+this gives us another solution which
+
+148
+00:03:17,030 --> 00:03:17,040
+this gives us another solution which
+ 
+
+149
+00:03:17,040 --> 00:03:19,790
+this gives us another solution which
+also reproduces the same Matrix
+
+150
+00:03:19,790 --> 00:03:19,800
+also reproduces the same Matrix
+ 
+
+151
+00:03:19,800 --> 00:03:22,850
+also reproduces the same Matrix
+in fact we can multiply the column by
+
+152
+00:03:22,850 --> 00:03:22,860
+in fact we can multiply the column by
+ 
+
+153
+00:03:22,860 --> 00:03:25,970
+in fact we can multiply the column by
+any non-zero scaling Factor s and
+
+154
+00:03:25,970 --> 00:03:25,980
+any non-zero scaling Factor s and
+ 
+
+155
+00:03:25,980 --> 00:03:28,610
+any non-zero scaling Factor s and
+multiply the row by one over s and still
+
+156
+00:03:28,610 --> 00:03:28,620
+multiply the row by one over s and still
+ 
+
+157
+00:03:28,620 --> 00:03:31,610
+multiply the row by one over s and still
+get the same Matrix since the S and one
+
+158
+00:03:31,610 --> 00:03:31,620
+get the same Matrix since the S and one
+ 
+
+159
+00:03:31,620 --> 00:03:34,369
+get the same Matrix since the S and one
+over s will cancel with each other
+
+160
+00:03:34,369 --> 00:03:34,379
+over s will cancel with each other
+ 
+
+161
+00:03:34,379 --> 00:03:36,229
+over s will cancel with each other
+so there are an infinite number of
+
+162
+00:03:36,229 --> 00:03:36,239
+so there are an infinite number of
+ 
+
+163
+00:03:36,239 --> 00:03:38,809
+so there are an infinite number of
+solutions to this problem of factoring a
+
+164
+00:03:38,809 --> 00:03:38,819
+solutions to this problem of factoring a
+ 
+
+165
+00:03:38,819 --> 00:03:41,869
+solutions to this problem of factoring a
+matrix into a column and a row
+
+166
+00:03:41,869 --> 00:03:41,879
+matrix into a column and a row
+ 
+
+167
+00:03:41,879 --> 00:03:44,750
+matrix into a column and a row
+if we were to write this column as a b
+
+168
+00:03:44,750 --> 00:03:44,760
+if we were to write this column as a b
+ 
+
+169
+00:03:44,760 --> 00:03:48,410
+if we were to write this column as a b
+and the row as CD we could feel free to
+
+170
+00:03:48,410 --> 00:03:48,420
+and the row as CD we could feel free to
+ 
+
+171
+00:03:48,420 --> 00:03:51,229
+and the row as CD we could feel free to
+multiply the column by 1 over a and
+
+172
+00:03:51,229 --> 00:03:51,239
+multiply the column by 1 over a and
+ 
+
+173
+00:03:51,239 --> 00:03:53,750
+multiply the column by 1 over a and
+multiply the row by a to get another
+
+174
+00:03:53,750 --> 00:03:53,760
+multiply the row by a to get another
+ 
+
+175
+00:03:53,760 --> 00:03:55,490
+multiply the row by a to get another
+valid solution
+
+176
+00:03:55,490 --> 00:03:55,500
+valid solution
+ 
+
+177
+00:03:55,500 --> 00:03:58,250
+valid solution
+the resulting column has components one
+
+178
+00:03:58,250 --> 00:03:58,260
+the resulting column has components one
+ 
+
+179
+00:03:58,260 --> 00:04:00,410
+the resulting column has components one
+B over a
+
+180
+00:04:00,410 --> 00:04:00,420
+B over a
+ 
+
+181
+00:04:00,420 --> 00:04:02,270
+B over a
+while there are multiple possible
+
+182
+00:04:02,270 --> 00:04:02,280
+while there are multiple possible
+ 
+
+183
+00:04:02,280 --> 00:04:04,369
+while there are multiple possible
+columns that can solve the factoring
+
+184
+00:04:04,369 --> 00:04:04,379
+columns that can solve the factoring
+ 
+
+185
+00:04:04,379 --> 00:04:07,850
+columns that can solve the factoring
+problem the B over a ratio for all these
+
+186
+00:04:07,850 --> 00:04:07,860
+problem the B over a ratio for all these
+ 
+
+187
+00:04:07,860 --> 00:04:10,190
+problem the B over a ratio for all these
+columns is the same
+
+188
+00:04:10,190 --> 00:04:10,200
+columns is the same
+ 
+
+189
+00:04:10,200 --> 00:04:13,190
+columns is the same
+so when factoring a matrix we can get
+
+190
+00:04:13,190 --> 00:04:13,200
+so when factoring a matrix we can get
+ 
+
+191
+00:04:13,200 --> 00:04:16,129
+so when factoring a matrix we can get
+multiple possible columns but there is
+
+192
+00:04:16,129 --> 00:04:16,139
+multiple possible columns but there is
+ 
+
+193
+00:04:16,139 --> 00:04:19,250
+multiple possible columns but there is
+only one unique B over a ratio that
+
+194
+00:04:19,250 --> 00:04:19,260
+only one unique B over a ratio that
+ 
+
+195
+00:04:19,260 --> 00:04:21,770
+only one unique B over a ratio that
+solves the factoring problem
+
+196
+00:04:21,770 --> 00:04:21,780
+solves the factoring problem
+ 
+
+197
+00:04:21,780 --> 00:04:24,650
+solves the factoring problem
+so if you like you can convert this
+
+198
+00:04:24,650 --> 00:04:24,660
+so if you like you can convert this
+ 
+
+199
+00:04:24,660 --> 00:04:26,629
+so if you like you can convert this
+factoring problem into a series of
+
+200
+00:04:26,629 --> 00:04:26,639
+factoring problem into a series of
+ 
+
+201
+00:04:26,639 --> 00:04:29,930
+factoring problem into a series of
+equations and try solving for a b c and
+
+202
+00:04:29,930 --> 00:04:29,940
+equations and try solving for a b c and
+ 
+
+203
+00:04:29,940 --> 00:04:30,830
+equations and try solving for a b c and
+d
+
+204
+00:04:30,830 --> 00:04:30,840
+d
+ 
+
+205
+00:04:30,840 --> 00:04:32,629
+d
+since there are an infinite number of
+
+206
+00:04:32,629 --> 00:04:32,639
+since there are an infinite number of
+ 
+
+207
+00:04:32,639 --> 00:04:34,730
+since there are an infinite number of
+solutions you'll have to make a decision
+
+208
+00:04:34,730 --> 00:04:34,740
+solutions you'll have to make a decision
+ 
+
+209
+00:04:34,740 --> 00:04:37,550
+solutions you'll have to make a decision
+for what a should be before you solve
+
+210
+00:04:37,550 --> 00:04:37,560
+for what a should be before you solve
+ 
+
+211
+00:04:37,560 --> 00:04:40,969
+for what a should be before you solve
+for the rest of the variables
+
+212
+00:04:40,969 --> 00:04:40,979
+
+ 
+
+213
+00:04:40,979 --> 00:04:44,030
+
+now I should point out that not all two
+
+214
+00:04:44,030 --> 00:04:44,040
+now I should point out that not all two
+ 
+
+215
+00:04:44,040 --> 00:04:46,909
+now I should point out that not all two
+by two matrices can be factored into a
+
+216
+00:04:46,909 --> 00:04:46,919
+by two matrices can be factored into a
+ 
+
+217
+00:04:46,919 --> 00:04:50,210
+by two matrices can be factored into a
+column and a row for example this Matrix
+
+218
+00:04:50,210 --> 00:04:50,220
+column and a row for example this Matrix
+ 
+
+219
+00:04:50,220 --> 00:04:53,210
+column and a row for example this Matrix
+here with the 400 changed to a 500
+
+220
+00:04:53,210 --> 00:04:53,220
+here with the 400 changed to a 500
+ 
+
+221
+00:04:53,220 --> 00:04:56,870
+here with the 400 changed to a 500
+cannot be factored if you try to search
+
+222
+00:04:56,870 --> 00:04:56,880
+cannot be factored if you try to search
+ 
+
+223
+00:04:56,880 --> 00:05:00,050
+cannot be factored if you try to search
+for ABCD numbers to solve this you'll
+
+224
+00:05:00,050 --> 00:05:00,060
+for ABCD numbers to solve this you'll
+ 
+
+225
+00:05:00,060 --> 00:05:02,570
+for ABCD numbers to solve this you'll
+find that there are no Solutions
+
+226
+00:05:02,570 --> 00:05:02,580
+find that there are no Solutions
+ 
+
+227
+00:05:02,580 --> 00:05:05,030
+find that there are no Solutions
+the reason this first Matrix can be
+
+228
+00:05:05,030 --> 00:05:05,040
+the reason this first Matrix can be
+ 
+
+229
+00:05:05,040 --> 00:05:07,550
+the reason this first Matrix can be
+factored is because the columns are all
+
+230
+00:05:07,550 --> 00:05:07,560
+factored is because the columns are all
+ 
+
+231
+00:05:07,560 --> 00:05:09,230
+factored is because the columns are all
+multiples of each other
+
+232
+00:05:09,230 --> 00:05:09,240
+multiples of each other
+ 
+
+233
+00:05:09,240 --> 00:05:11,930
+multiples of each other
+here the First Column multiplied by 100
+
+234
+00:05:11,930 --> 00:05:11,940
+here the First Column multiplied by 100
+ 
+
+235
+00:05:11,940 --> 00:05:14,510
+here the First Column multiplied by 100
+gives the second column
+
+236
+00:05:14,510 --> 00:05:14,520
+gives the second column
+ 
+
+237
+00:05:14,520 --> 00:05:17,090
+gives the second column
+equivalently the rows are all multiples
+
+238
+00:05:17,090 --> 00:05:17,100
+equivalently the rows are all multiples
+ 
+
+239
+00:05:17,100 --> 00:05:19,610
+equivalently the rows are all multiples
+of each other the first row multiplied
+
+240
+00:05:19,610 --> 00:05:19,620
+of each other the first row multiplied
+ 
+
+241
+00:05:19,620 --> 00:05:22,610
+of each other the first row multiplied
+by four gives the second row
+
+242
+00:05:22,610 --> 00:05:22,620
+by four gives the second row
+ 
+
+243
+00:05:22,620 --> 00:05:25,249
+by four gives the second row
+in the specific case of a two by two
+
+244
+00:05:25,249 --> 00:05:25,259
+in the specific case of a two by two
+ 
+
+245
+00:05:25,259 --> 00:05:27,830
+in the specific case of a two by two
+Matrix these conditions are the same
+
+246
+00:05:27,830 --> 00:05:27,840
+Matrix these conditions are the same
+ 
+
+247
+00:05:27,840 --> 00:05:29,930
+Matrix these conditions are the same
+thing as saying the determinant of the
+
+248
+00:05:29,930 --> 00:05:29,940
+thing as saying the determinant of the
+ 
+
+249
+00:05:29,940 --> 00:05:32,150
+thing as saying the determinant of the
+Matrix is zero
+
+250
+00:05:32,150 --> 00:05:32,160
+Matrix is zero
+ 
+
+251
+00:05:32,160 --> 00:05:34,969
+Matrix is zero
+with this other Matrix The Columns are
+
+252
+00:05:34,969 --> 00:05:34,979
+with this other Matrix The Columns are
+ 
+
+253
+00:05:34,979 --> 00:05:37,370
+with this other Matrix The Columns are
+not multiples of each other and the
+
+254
+00:05:37,370 --> 00:05:37,380
+not multiples of each other and the
+ 
+
+255
+00:05:37,380 --> 00:05:40,790
+not multiples of each other and the
+determinant is non-zero so it cannot be
+
+256
+00:05:40,790 --> 00:05:40,800
+determinant is non-zero so it cannot be
+ 
+
+257
+00:05:40,800 --> 00:05:45,230
+determinant is non-zero so it cannot be
+factored into a column and a row
+
+258
+00:05:45,230 --> 00:05:45,240
+
+ 
+
+259
+00:05:45,240 --> 00:05:47,990
+
+now if we bring back our poly Vector
+
+260
+00:05:47,990 --> 00:05:48,000
+now if we bring back our poly Vector
+ 
+
+261
+00:05:48,000 --> 00:05:51,050
+now if we bring back our poly Vector
+let's try factoring this polyvector into
+
+262
+00:05:51,050 --> 00:05:51,060
+let's try factoring this polyvector into
+ 
+
+263
+00:05:51,060 --> 00:05:54,110
+let's try factoring this polyvector into
+a row and a column in other words we
+
+264
+00:05:54,110 --> 00:05:54,120
+a row and a column in other words we
+ 
+
+265
+00:05:54,120 --> 00:05:56,890
+a row and a column in other words we
+need to solve for these ABCD numbers
+
+266
+00:05:56,890 --> 00:05:56,900
+need to solve for these ABCD numbers
+ 
+
+267
+00:05:56,900 --> 00:06:00,290
+need to solve for these ABCD numbers
+this gives us four equations
+
+268
+00:06:00,290 --> 00:06:00,300
+this gives us four equations
+ 
+
+269
+00:06:00,300 --> 00:06:02,689
+this gives us four equations
+now let's keep a couple things in mind
+
+270
+00:06:02,689 --> 00:06:02,699
+now let's keep a couple things in mind
+ 
+
+271
+00:06:02,699 --> 00:06:06,230
+now let's keep a couple things in mind
+while we solve this first remember that
+
+272
+00:06:06,230 --> 00:06:06,240
+while we solve this first remember that
+ 
+
+273
+00:06:06,240 --> 00:06:08,689
+while we solve this first remember that
+there will be multiple Solutions because
+
+274
+00:06:08,689 --> 00:06:08,699
+there will be multiple Solutions because
+ 
+
+275
+00:06:08,699 --> 00:06:11,330
+there will be multiple Solutions because
+we can always multiply the column by a
+
+276
+00:06:11,330 --> 00:06:11,340
+we can always multiply the column by a
+ 
+
+277
+00:06:11,340 --> 00:06:14,210
+we can always multiply the column by a
+non-zero number s if we multiply the row
+
+278
+00:06:14,210 --> 00:06:14,220
+non-zero number s if we multiply the row
+ 
+
+279
+00:06:14,220 --> 00:06:16,310
+non-zero number s if we multiply the row
+by one over s
+
+280
+00:06:16,310 --> 00:06:16,320
+by one over s
+ 
+
+281
+00:06:16,320 --> 00:06:19,909
+by one over s
+also in order for solutions to exist the
+
+282
+00:06:19,909 --> 00:06:19,919
+also in order for solutions to exist the
+ 
+
+283
+00:06:19,919 --> 00:06:23,150
+also in order for solutions to exist the
+determinant of this Matrix must be zero
+
+284
+00:06:23,150 --> 00:06:23,160
+determinant of this Matrix must be zero
+ 
+
+285
+00:06:23,160 --> 00:06:25,610
+determinant of this Matrix must be zero
+recall from the last video that the
+
+286
+00:06:25,610 --> 00:06:25,620
+recall from the last video that the
+ 
+
+287
+00:06:25,620 --> 00:06:27,950
+recall from the last video that the
+determinant of a polyvector is the
+
+288
+00:06:27,950 --> 00:06:27,960
+determinant of a polyvector is the
+ 
+
+289
+00:06:27,960 --> 00:06:30,469
+determinant of a polyvector is the
+vector's negative squared length the
+
+290
+00:06:30,469 --> 00:06:30,479
+vector's negative squared length the
+ 
+
+291
+00:06:30,479 --> 00:06:32,689
+vector's negative squared length the
+negative of x squared plus y squared
+
+292
+00:06:32,689 --> 00:06:32,699
+negative of x squared plus y squared
+ 
+
+293
+00:06:32,699 --> 00:06:34,909
+negative of x squared plus y squared
+plus Z squared
+
+294
+00:06:34,909 --> 00:06:34,919
+plus Z squared
+ 
+
+295
+00:06:34,919 --> 00:06:38,150
+plus Z squared
+when a vector has zero squared length we
+
+296
+00:06:38,150 --> 00:06:38,160
+when a vector has zero squared length we
+ 
+
+297
+00:06:38,160 --> 00:06:41,510
+when a vector has zero squared length we
+call it an isotropic vector or sometimes
+
+298
+00:06:41,510 --> 00:06:41,520
+call it an isotropic vector or sometimes
+ 
+
+299
+00:06:41,520 --> 00:06:43,189
+call it an isotropic vector or sometimes
+a null vector
+
+300
+00:06:43,189 --> 00:06:43,199
+a null vector
+ 
+
+301
+00:06:43,199 --> 00:06:45,409
+a null vector
+keep in mind that the only way this
+
+302
+00:06:45,409 --> 00:06:45,419
+keep in mind that the only way this
+ 
+
+303
+00:06:45,419 --> 00:06:48,050
+keep in mind that the only way this
+Vector can have zero squared length is
+
+304
+00:06:48,050 --> 00:06:48,060
+Vector can have zero squared length is
+ 
+
+305
+00:06:48,060 --> 00:06:51,350
+Vector can have zero squared length is
+if all the components are zero or if at
+
+306
+00:06:51,350 --> 00:06:51,360
+if all the components are zero or if at
+ 
+
+307
+00:06:51,360 --> 00:06:53,510
+if all the components are zero or if at
+least some of the components are complex
+
+308
+00:06:53,510 --> 00:06:53,520
+least some of the components are complex
+ 
+
+309
+00:06:53,520 --> 00:06:55,249
+least some of the components are complex
+numbers
+
+310
+00:06:55,249 --> 00:06:55,259
+numbers
+ 
+
+311
+00:06:55,259 --> 00:06:57,830
+numbers
+getting back to factoring the polyvector
+
+312
+00:06:57,830 --> 00:06:57,840
+getting back to factoring the polyvector
+ 
+
+313
+00:06:57,840 --> 00:07:01,129
+getting back to factoring the polyvector
+since the squared length must be zero we
+
+314
+00:07:01,129 --> 00:07:01,139
+since the squared length must be zero we
+ 
+
+315
+00:07:01,139 --> 00:07:03,770
+since the squared length must be zero we
+must have Z squared equals negative x
+
+316
+00:07:03,770 --> 00:07:03,780
+must have Z squared equals negative x
+ 
+
+317
+00:07:03,780 --> 00:07:06,050
+must have Z squared equals negative x
+squared plus y squared
+
+318
+00:07:06,050 --> 00:07:06,060
+squared plus y squared
+ 
+
+319
+00:07:06,060 --> 00:07:08,689
+squared plus y squared
+if we take the square root of both sides
+
+320
+00:07:08,689 --> 00:07:08,699
+if we take the square root of both sides
+ 
+
+321
+00:07:08,699 --> 00:07:11,150
+if we take the square root of both sides
+we can pull the square root of negative
+
+322
+00:07:11,150 --> 00:07:11,160
+we can pull the square root of negative
+ 
+
+323
+00:07:11,160 --> 00:07:14,570
+we can pull the square root of negative
+one out in front as I
+
+324
+00:07:14,570 --> 00:07:14,580
+one out in front as I
+ 
+
+325
+00:07:14,580 --> 00:07:17,809
+one out in front as I
+now technically this square root could
+
+326
+00:07:17,809 --> 00:07:17,819
+now technically this square root could
+ 
+
+327
+00:07:17,819 --> 00:07:20,150
+now technically this square root could
+have either a plus sign or a minus sign
+
+328
+00:07:20,150 --> 00:07:20,160
+have either a plus sign or a minus sign
+ 
+
+329
+00:07:20,160 --> 00:07:22,969
+have either a plus sign or a minus sign
+in front and it would still satisfy our
+
+330
+00:07:22,969 --> 00:07:22,979
+in front and it would still satisfy our
+ 
+
+331
+00:07:22,979 --> 00:07:24,710
+in front and it would still satisfy our
+original equation
+
+332
+00:07:24,710 --> 00:07:24,720
+original equation
+ 
+
+333
+00:07:24,720 --> 00:07:27,409
+original equation
+but these basically correspond to the
+
+334
+00:07:27,409 --> 00:07:27,419
+but these basically correspond to the
+ 
+
+335
+00:07:27,419 --> 00:07:29,570
+but these basically correspond to the
+two different cases of a positive Z
+
+336
+00:07:29,570 --> 00:07:29,580
+two different cases of a positive Z
+ 
+
+337
+00:07:29,580 --> 00:07:32,809
+two different cases of a positive Z
+component and a negative Z component
+
+338
+00:07:32,809 --> 00:07:32,819
+component and a negative Z component
+ 
+
+339
+00:07:32,819 --> 00:07:34,909
+component and a negative Z component
+so I'm only going to look at the
+
+340
+00:07:34,909 --> 00:07:34,919
+so I'm only going to look at the
+ 
+
+341
+00:07:34,919 --> 00:07:37,070
+so I'm only going to look at the
+solutions with the plus sign in front of
+
+342
+00:07:37,070 --> 00:07:37,080
+solutions with the plus sign in front of
+ 
+
+343
+00:07:37,080 --> 00:07:39,650
+solutions with the plus sign in front of
+the square root if you want the negative
+
+344
+00:07:39,650 --> 00:07:39,660
+the square root if you want the negative
+ 
+
+345
+00:07:39,660 --> 00:07:41,870
+the square root if you want the negative
+Solutions you just need to change the
+
+346
+00:07:41,870 --> 00:07:41,880
+Solutions you just need to change the
+ 
+
+347
+00:07:41,880 --> 00:07:44,029
+Solutions you just need to change the
+sign of the Z component in the poly
+
+348
+00:07:44,029 --> 00:07:44,039
+sign of the Z component in the poly
+ 
+
+349
+00:07:44,039 --> 00:07:45,770
+sign of the Z component in the poly
+vector
+
+350
+00:07:45,770 --> 00:07:45,780
+vector
+ 
+
+351
+00:07:45,780 --> 00:07:47,749
+vector
+if we look at our first component
+
+352
+00:07:47,749 --> 00:07:47,759
+if we look at our first component
+ 
+
+353
+00:07:47,759 --> 00:07:51,710
+if we look at our first component
+equation Z equals a times C it would be
+
+354
+00:07:51,710 --> 00:07:51,720
+equation Z equals a times C it would be
+ 
+
+355
+00:07:51,720 --> 00:07:53,990
+equation Z equals a times C it would be
+useful if we could take our equation for
+
+356
+00:07:53,990 --> 00:07:54,000
+useful if we could take our equation for
+ 
+
+357
+00:07:54,000 --> 00:07:56,689
+useful if we could take our equation for
+Z over here and Factor the right hand
+
+358
+00:07:56,689 --> 00:07:56,699
+Z over here and Factor the right hand
+ 
+
+359
+00:07:56,699 --> 00:08:00,110
+Z over here and Factor the right hand
+side into two parts that way we can set
+
+360
+00:08:00,110 --> 00:08:00,120
+side into two parts that way we can set
+ 
+
+361
+00:08:00,120 --> 00:08:02,210
+side into two parts that way we can set
+one of them to a and set the other one
+
+362
+00:08:02,210 --> 00:08:02,220
+one of them to a and set the other one
+ 
+
+363
+00:08:02,220 --> 00:08:03,770
+one of them to a and set the other one
+to C
+
+364
+00:08:03,770 --> 00:08:03,780
+to C
+ 
+
+365
+00:08:03,780 --> 00:08:05,930
+to C
+to do this we're going to treat the
+
+366
+00:08:05,930 --> 00:08:05,940
+to do this we're going to treat the
+ 
+
+367
+00:08:05,940 --> 00:08:08,270
+to do this we're going to treat the
+expression under the square root sign as
+
+368
+00:08:08,270 --> 00:08:08,280
+expression under the square root sign as
+ 
+
+369
+00:08:08,280 --> 00:08:10,129
+expression under the square root sign as
+a difference of squares
+
+370
+00:08:10,129 --> 00:08:10,139
+a difference of squares
+ 
+
+371
+00:08:10,139 --> 00:08:12,409
+a difference of squares
+it's true that this looks like a sum of
+
+372
+00:08:12,409 --> 00:08:12,419
+it's true that this looks like a sum of
+ 
+
+373
+00:08:12,419 --> 00:08:15,529
+it's true that this looks like a sum of
+squares but we can turn a sum of squares
+
+374
+00:08:15,529 --> 00:08:15,539
+squares but we can turn a sum of squares
+ 
+
+375
+00:08:15,539 --> 00:08:18,110
+squares but we can turn a sum of squares
+into a difference of squares by changing
+
+376
+00:08:18,110 --> 00:08:18,120
+into a difference of squares by changing
+ 
+
+377
+00:08:18,120 --> 00:08:20,450
+into a difference of squares by changing
+the sign and including a factor of
+
+378
+00:08:20,450 --> 00:08:20,460
+the sign and including a factor of
+ 
+
+379
+00:08:20,460 --> 00:08:23,689
+the sign and including a factor of
+negative one here and negative one is
+
+380
+00:08:23,689 --> 00:08:23,699
+negative one here and negative one is
+ 
+
+381
+00:08:23,699 --> 00:08:27,050
+negative one here and negative one is
+really I squared and if we bring the I
+
+382
+00:08:27,050 --> 00:08:27,060
+really I squared and if we bring the I
+ 
+
+383
+00:08:27,060 --> 00:08:30,650
+really I squared and if we bring the I
+inside the same square as y we now have
+
+384
+00:08:30,650 --> 00:08:30,660
+inside the same square as y we now have
+ 
+
+385
+00:08:30,660 --> 00:08:32,990
+inside the same square as y we now have
+a difference of squares
+
+386
+00:08:32,990 --> 00:08:33,000
+a difference of squares
+ 
+
+387
+00:08:33,000 --> 00:08:35,570
+a difference of squares
+remember we can always factor a
+
+388
+00:08:35,570 --> 00:08:35,580
+remember we can always factor a
+ 
+
+389
+00:08:35,580 --> 00:08:38,930
+remember we can always factor a
+difference of squares into two terms the
+
+390
+00:08:38,930 --> 00:08:38,940
+difference of squares into two terms the
+ 
+
+391
+00:08:38,940 --> 00:08:40,850
+difference of squares into two terms the
+left term involving the first variable
+
+392
+00:08:40,850 --> 00:08:40,860
+left term involving the first variable
+ 
+
+393
+00:08:40,860 --> 00:08:43,790
+left term involving the first variable
+minus the second variable and the right
+
+394
+00:08:43,790 --> 00:08:43,800
+minus the second variable and the right
+ 
+
+395
+00:08:43,800 --> 00:08:46,190
+minus the second variable and the right
+term involving the first variable plus
+
+396
+00:08:46,190 --> 00:08:46,200
+term involving the first variable plus
+ 
+
+397
+00:08:46,200 --> 00:08:48,050
+term involving the first variable plus
+the second variable
+
+398
+00:08:48,050 --> 00:08:48,060
+the second variable
+ 
+
+399
+00:08:48,060 --> 00:08:50,329
+the second variable
+and for reasons of following convention
+
+400
+00:08:50,329 --> 00:08:50,339
+and for reasons of following convention
+ 
+
+401
+00:08:50,339 --> 00:08:54,590
+and for reasons of following convention
+I'm going to move the eye over here
+
+402
+00:08:54,590 --> 00:08:54,600
+I'm going to move the eye over here
+ 
+
+403
+00:08:54,600 --> 00:08:57,350
+I'm going to move the eye over here
+so we've successfully written Zed as a
+
+404
+00:08:57,350 --> 00:08:57,360
+so we've successfully written Zed as a
+ 
+
+405
+00:08:57,360 --> 00:08:59,930
+so we've successfully written Zed as a
+product of two terms and we can set
+
+406
+00:08:59,930 --> 00:08:59,940
+product of two terms and we can set
+ 
+
+407
+00:08:59,940 --> 00:09:02,990
+product of two terms and we can set
+these equal to a and C
+
+408
+00:09:02,990 --> 00:09:03,000
+these equal to a and C
+ 
+
+409
+00:09:03,000 --> 00:09:06,530
+these equal to a and C
+using our Solutions 4 A and C we can
+
+410
+00:09:06,530 --> 00:09:06,540
+using our Solutions 4 A and C we can
+ 
+
+411
+00:09:06,540 --> 00:09:10,790
+using our Solutions 4 A and C we can
+solve for b and d b ends up being equal
+
+412
+00:09:10,790 --> 00:09:10,800
+solve for b and d b ends up being equal
+ 
+
+413
+00:09:10,800 --> 00:09:14,930
+solve for b and d b ends up being equal
+to negative C and D ends up being equal
+
+414
+00:09:14,930 --> 00:09:14,940
+to negative C and D ends up being equal
+ 
+
+415
+00:09:14,940 --> 00:09:16,910
+to negative C and D ends up being equal
+to a
+
+416
+00:09:16,910 --> 00:09:16,920
+to a
+ 
+
+417
+00:09:16,920 --> 00:09:19,730
+to a
+so we've successfully factored our poly
+
+418
+00:09:19,730 --> 00:09:19,740
+so we've successfully factored our poly
+ 
+
+419
+00:09:19,740 --> 00:09:22,850
+so we've successfully factored our poly
+Vector into a column and a row and I'm
+
+420
+00:09:22,850 --> 00:09:22,860
+Vector into a column and a row and I'm
+ 
+
+421
+00:09:22,860 --> 00:09:24,530
+Vector into a column and a row and I'm
+going to call these two component
+
+422
+00:09:24,530 --> 00:09:24,540
+going to call these two component
+ 
+
+423
+00:09:24,540 --> 00:09:28,009
+going to call these two component
+objects poly spinners
+
+424
+00:09:28,009 --> 00:09:28,019
+objects poly spinners
+ 
+
+425
+00:09:28,019 --> 00:09:30,290
+objects poly spinners
+and I'm going to rewrite R A and B
+
+426
+00:09:30,290 --> 00:09:30,300
+and I'm going to rewrite R A and B
+ 
+
+427
+00:09:30,300 --> 00:09:33,290
+and I'm going to rewrite R A and B
+components as the Greek letters PSI 1
+
+428
+00:09:33,290 --> 00:09:33,300
+components as the Greek letters PSI 1
+ 
+
+429
+00:09:33,300 --> 00:09:37,130
+components as the Greek letters PSI 1
+and PSI 2 with upper indices
+
+430
+00:09:37,130 --> 00:09:37,140
+and PSI 2 with upper indices
+ 
+
+431
+00:09:37,140 --> 00:09:39,470
+and PSI 2 with upper indices
+so just keep in mind that these are
+
+432
+00:09:39,470 --> 00:09:39,480
+so just keep in mind that these are
+ 
+
+433
+00:09:39,480 --> 00:09:42,949
+so just keep in mind that these are
+column indices and not exponents they're
+
+434
+00:09:42,949 --> 00:09:42,959
+column indices and not exponents they're
+ 
+
+435
+00:09:42,959 --> 00:09:44,990
+column indices and not exponents they're
+just labels that indicate where the
+
+436
+00:09:44,990 --> 00:09:45,000
+just labels that indicate where the
+ 
+
+437
+00:09:45,000 --> 00:09:48,769
+just labels that indicate where the
+component belongs in the left column
+
+438
+00:09:48,769 --> 00:09:48,779
+component belongs in the left column
+ 
+
+439
+00:09:48,779 --> 00:09:51,110
+component belongs in the left column
+I'm also going to mention that many
+
+440
+00:09:51,110 --> 00:09:51,120
+I'm also going to mention that many
+ 
+
+441
+00:09:51,120 --> 00:09:54,050
+I'm also going to mention that many
+sources include factors of 1 over the
+
+442
+00:09:54,050 --> 00:09:54,060
+sources include factors of 1 over the
+ 
+
+443
+00:09:54,060 --> 00:09:56,389
+sources include factors of 1 over the
+square root of two in these components
+
+444
+00:09:56,389 --> 00:09:56,399
+square root of two in these components
+ 
+
+445
+00:09:56,399 --> 00:09:59,389
+square root of two in these components
+and include a factor of two in front of
+
+446
+00:09:59,389 --> 00:09:59,399
+and include a factor of two in front of
+ 
+
+447
+00:09:59,399 --> 00:10:01,850
+and include a factor of two in front of
+the array multiplication to compensate
+
+448
+00:10:01,850 --> 00:10:01,860
+the array multiplication to compensate
+ 
+
+449
+00:10:01,860 --> 00:10:02,870
+the array multiplication to compensate
+for them
+
+450
+00:10:02,870 --> 00:10:02,880
+for them
+ 
+
+451
+00:10:02,880 --> 00:10:05,870
+for them
+but I don't plan on doing that so this
+
+452
+00:10:05,870 --> 00:10:05,880
+but I don't plan on doing that so this
+ 
+
+453
+00:10:05,880 --> 00:10:09,829
+but I don't plan on doing that so this
+is the solution we'll be using
+
+454
+00:10:09,829 --> 00:10:09,839
+
+ 
+
+455
+00:10:09,839 --> 00:10:12,110
+
+so we've discovered a solution to the
+
+456
+00:10:12,110 --> 00:10:12,120
+so we've discovered a solution to the
+ 
+
+457
+00:10:12,120 --> 00:10:14,870
+so we've discovered a solution to the
+problem of factoring a polyvector into a
+
+458
+00:10:14,870 --> 00:10:14,880
+problem of factoring a polyvector into a
+ 
+
+459
+00:10:14,880 --> 00:10:18,110
+problem of factoring a polyvector into a
+column and a row the components PSI 1
+
+460
+00:10:18,110 --> 00:10:18,120
+column and a row the components PSI 1
+ 
+
+461
+00:10:18,120 --> 00:10:21,769
+column and a row the components PSI 1
+and PSI 2 are given in terms of X and Y
+
+462
+00:10:21,769 --> 00:10:21,779
+and PSI 2 are given in terms of X and Y
+ 
+
+463
+00:10:21,779 --> 00:10:24,110
+and PSI 2 are given in terms of X and Y
+by these formulas
+
+464
+00:10:24,110 --> 00:10:24,120
+by these formulas
+ 
+
+465
+00:10:24,120 --> 00:10:27,650
+by these formulas
+we can also solve for x y and z in terms
+
+466
+00:10:27,650 --> 00:10:27,660
+we can also solve for x y and z in terms
+ 
+
+467
+00:10:27,660 --> 00:10:30,710
+we can also solve for x y and z in terms
+of PSI 1 and PSI 2.
+
+468
+00:10:30,710 --> 00:10:30,720
+of PSI 1 and PSI 2.
+ 
+
+469
+00:10:30,720 --> 00:10:32,750
+of PSI 1 and PSI 2.
+now of course there are multiple
+
+470
+00:10:32,750 --> 00:10:32,760
+now of course there are multiple
+ 
+
+471
+00:10:32,760 --> 00:10:35,870
+now of course there are multiple
+solutions for these PSI components
+
+472
+00:10:35,870 --> 00:10:35,880
+solutions for these PSI components
+ 
+
+473
+00:10:35,880 --> 00:10:38,030
+solutions for these PSI components
+we can always multiply the column
+
+474
+00:10:38,030 --> 00:10:38,040
+we can always multiply the column
+ 
+
+475
+00:10:38,040 --> 00:10:39,949
+we can always multiply the column
+Spinner by a complex number with
+
+476
+00:10:39,949 --> 00:10:39,959
+Spinner by a complex number with
+ 
+
+477
+00:10:39,959 --> 00:10:43,430
+Spinner by a complex number with
+magnitude a and phase Theta if we divide
+
+478
+00:10:43,430 --> 00:10:43,440
+magnitude a and phase Theta if we divide
+ 
+
+479
+00:10:43,440 --> 00:10:45,530
+magnitude a and phase Theta if we divide
+the row Spinner by the same complex
+
+480
+00:10:45,530 --> 00:10:45,540
+the row Spinner by the same complex
+ 
+
+481
+00:10:45,540 --> 00:10:47,150
+the row Spinner by the same complex
+number
+
+482
+00:10:47,150 --> 00:10:47,160
+number
+ 
+
+483
+00:10:47,160 --> 00:10:49,730
+number
+for example we could always multiply the
+
+484
+00:10:49,730 --> 00:10:49,740
+for example we could always multiply the
+ 
+
+485
+00:10:49,740 --> 00:10:53,389
+for example we could always multiply the
+column Spinner by one over PSI 1 giving
+
+486
+00:10:53,389 --> 00:10:53,399
+column Spinner by one over PSI 1 giving
+ 
+
+487
+00:10:53,399 --> 00:10:56,810
+column Spinner by one over PSI 1 giving
+us the components one and the ratio PSI
+
+488
+00:10:56,810 --> 00:10:56,820
+us the components one and the ratio PSI
+ 
+
+489
+00:10:56,820 --> 00:10:59,329
+us the components one and the ratio PSI
+2 over x i 1.
+
+490
+00:10:59,329 --> 00:10:59,339
+2 over x i 1.
+ 
+
+491
+00:10:59,339 --> 00:11:01,730
+2 over x i 1.
+so while there are multiple possible
+
+492
+00:11:01,730 --> 00:11:01,740
+so while there are multiple possible
+ 
+
+493
+00:11:01,740 --> 00:11:03,650
+so while there are multiple possible
+column Spinners that solve this
+
+494
+00:11:03,650 --> 00:11:03,660
+column Spinners that solve this
+ 
+
+495
+00:11:03,660 --> 00:11:06,350
+column Spinners that solve this
+factoring problem for a given poly
+
+496
+00:11:06,350 --> 00:11:06,360
+factoring problem for a given poly
+ 
+
+497
+00:11:06,360 --> 00:11:10,670
+factoring problem for a given poly
+Vector the ratio PSI 2 over PSI 1 will
+
+498
+00:11:10,670 --> 00:11:10,680
+Vector the ratio PSI 2 over PSI 1 will
+ 
+
+499
+00:11:10,680 --> 00:11:13,970
+Vector the ratio PSI 2 over PSI 1 will
+be the same for all the solutions
+
+500
+00:11:13,970 --> 00:11:13,980
+be the same for all the solutions
+ 
+
+501
+00:11:13,980 --> 00:11:17,990
+be the same for all the solutions
+this ratio is a single complex number in
+
+502
+00:11:17,990 --> 00:11:18,000
+this ratio is a single complex number in
+ 
+
+503
+00:11:18,000 --> 00:11:20,210
+this ratio is a single complex number in
+the case of spinners with a ratio where
+
+504
+00:11:20,210 --> 00:11:20,220
+the case of spinners with a ratio where
+ 
+
+505
+00:11:20,220 --> 00:11:23,030
+the case of spinners with a ratio where
+the denominator is zero these are
+
+506
+00:11:23,030 --> 00:11:23,040
+the denominator is zero these are
+ 
+
+507
+00:11:23,040 --> 00:11:26,269
+the denominator is zero these are
+related to the point at Infinity a
+
+508
+00:11:26,269 --> 00:11:26,279
+related to the point at Infinity a
+ 
+
+509
+00:11:26,279 --> 00:11:28,490
+related to the point at Infinity a
+concept from projective geometry I
+
+510
+00:11:28,490 --> 00:11:28,500
+concept from projective geometry I
+ 
+
+511
+00:11:28,500 --> 00:11:31,130
+concept from projective geometry I
+covered in video 5.
+
+512
+00:11:31,130 --> 00:11:31,140
+covered in video 5.
+ 
+
+513
+00:11:31,140 --> 00:11:33,290
+covered in video 5.
+this relates back to the two physical
+
+514
+00:11:33,290 --> 00:11:33,300
+this relates back to the two physical
+ 
+
+515
+00:11:33,300 --> 00:11:35,990
+this relates back to the two physical
+applications of spinners we discussed in
+
+516
+00:11:35,990 --> 00:11:36,000
+applications of spinners we discussed in
+ 
+
+517
+00:11:36,000 --> 00:11:39,110
+applications of spinners we discussed in
+videos two through five the polarization
+
+518
+00:11:39,110 --> 00:11:39,120
+videos two through five the polarization
+ 
+
+519
+00:11:39,120 --> 00:11:42,710
+videos two through five the polarization
+of light waves and Quantum spin States
+
+520
+00:11:42,710 --> 00:11:42,720
+of light waves and Quantum spin States
+ 
+
+521
+00:11:42,720 --> 00:11:45,650
+of light waves and Quantum spin States
+LightWave polarizations can be described
+
+522
+00:11:45,650 --> 00:11:45,660
+LightWave polarizations can be described
+ 
+
+523
+00:11:45,660 --> 00:11:49,009
+LightWave polarizations can be described
+by a pair of complex numbers one for the
+
+524
+00:11:49,009 --> 00:11:49,019
+by a pair of complex numbers one for the
+ 
+
+525
+00:11:49,019 --> 00:11:51,590
+by a pair of complex numbers one for the
+horizontal polarization and one for the
+
+526
+00:11:51,590 --> 00:11:51,600
+horizontal polarization and one for the
+ 
+
+527
+00:11:51,600 --> 00:11:53,690
+horizontal polarization and one for the
+vertical polarization
+
+528
+00:11:53,690 --> 00:11:53,700
+vertical polarization
+ 
+
+529
+00:11:53,700 --> 00:11:55,670
+vertical polarization
+the complex numbers tell us the
+
+530
+00:11:55,670 --> 00:11:55,680
+the complex numbers tell us the
+ 
+
+531
+00:11:55,680 --> 00:11:59,690
+the complex numbers tell us the
+amplitude and phase of each polarization
+
+532
+00:11:59,690 --> 00:11:59,700
+amplitude and phase of each polarization
+ 
+
+533
+00:11:59,700 --> 00:12:02,030
+amplitude and phase of each polarization
+overall scaling of the wave does not
+
+534
+00:12:02,030 --> 00:12:02,040
+overall scaling of the wave does not
+ 
+
+535
+00:12:02,040 --> 00:12:04,970
+overall scaling of the wave does not
+change the polarization and overall
+
+536
+00:12:04,970 --> 00:12:04,980
+change the polarization and overall
+ 
+
+537
+00:12:04,980 --> 00:12:07,610
+change the polarization and overall
+phase factors just shifts the wave along
+
+538
+00:12:07,610 --> 00:12:07,620
+phase factors just shifts the wave along
+ 
+
+539
+00:12:07,620 --> 00:12:10,069
+phase factors just shifts the wave along
+the axis of travel without changing the
+
+540
+00:12:10,069 --> 00:12:10,079
+the axis of travel without changing the
+ 
+
+541
+00:12:10,079 --> 00:12:13,310
+the axis of travel without changing the
+polarization so LightWave polarizations
+
+542
+00:12:13,310 --> 00:12:13,320
+polarization so LightWave polarizations
+ 
+
+543
+00:12:13,320 --> 00:12:16,370
+polarization so LightWave polarizations
+are unchanged by overall multiplication
+
+544
+00:12:16,370 --> 00:12:16,380
+are unchanged by overall multiplication
+ 
+
+545
+00:12:16,380 --> 00:12:19,130
+are unchanged by overall multiplication
+by complex numbers
+
+546
+00:12:19,130 --> 00:12:19,140
+by complex numbers
+ 
+
+547
+00:12:19,140 --> 00:12:22,069
+by complex numbers
+we also learned Quantum spin states in
+
+548
+00:12:22,069 --> 00:12:22,079
+we also learned Quantum spin states in
+ 
+
+549
+00:12:22,079 --> 00:12:24,590
+we also learned Quantum spin states in
+the stern gerlock experiment are
+
+550
+00:12:24,590 --> 00:12:24,600
+the stern gerlock experiment are
+ 
+
+551
+00:12:24,600 --> 00:12:26,949
+the stern gerlock experiment are
+described by a pair of complex numbers
+
+552
+00:12:26,949 --> 00:12:26,959
+described by a pair of complex numbers
+ 
+
+553
+00:12:26,959 --> 00:12:29,449
+described by a pair of complex numbers
+one for the spin up probability
+
+554
+00:12:29,449 --> 00:12:29,459
+one for the spin up probability
+ 
+
+555
+00:12:29,459 --> 00:12:32,030
+one for the spin up probability
+amplitude and one for the spin down
+
+556
+00:12:32,030 --> 00:12:32,040
+amplitude and one for the spin down
+ 
+
+557
+00:12:32,040 --> 00:12:34,190
+amplitude and one for the spin down
+probability amplitude
+
+558
+00:12:34,190 --> 00:12:34,200
+probability amplitude
+ 
+
+559
+00:12:34,200 --> 00:12:37,009
+probability amplitude
+the probability of state A collapsing
+
+560
+00:12:37,009 --> 00:12:37,019
+the probability of state A collapsing
+ 
+
+561
+00:12:37,019 --> 00:12:40,910
+the probability of state A collapsing
+onto State B is given by born's rule
+
+562
+00:12:40,910 --> 00:12:40,920
+onto State B is given by born's rule
+ 
+
+563
+00:12:40,920 --> 00:12:43,730
+onto State B is given by born's rule
+if we multiply State a by a complex
+
+564
+00:12:43,730 --> 00:12:43,740
+if we multiply State a by a complex
+ 
+
+565
+00:12:43,740 --> 00:12:46,190
+if we multiply State a by a complex
+number the normalization in the
+
+566
+00:12:46,190 --> 00:12:46,200
+number the normalization in the
+ 
+
+567
+00:12:46,200 --> 00:12:48,650
+number the normalization in the
+denominator eliminates the scale factor
+
+568
+00:12:48,650 --> 00:12:48,660
+denominator eliminates the scale factor
+ 
+
+569
+00:12:48,660 --> 00:12:51,650
+denominator eliminates the scale factor
+and the absolute value eliminates the
+
+570
+00:12:51,650 --> 00:12:51,660
+and the absolute value eliminates the
+ 
+
+571
+00:12:51,660 --> 00:12:54,170
+and the absolute value eliminates the
+phase Factor giving us the same
+
+572
+00:12:54,170 --> 00:12:54,180
+phase Factor giving us the same
+ 
+
+573
+00:12:54,180 --> 00:12:57,290
+phase Factor giving us the same
+probability result we originally had
+
+574
+00:12:57,290 --> 00:12:57,300
+probability result we originally had
+ 
+
+575
+00:12:57,300 --> 00:13:00,590
+probability result we originally had
+so Quantum states are unchanged by
+
+576
+00:13:00,590 --> 00:13:00,600
+so Quantum states are unchanged by
+ 
+
+577
+00:13:00,600 --> 00:13:02,810
+so Quantum states are unchanged by
+overall multiplication by complex
+
+578
+00:13:02,810 --> 00:13:02,820
+overall multiplication by complex
+ 
+
+579
+00:13:02,820 --> 00:13:04,610
+overall multiplication by complex
+numbers
+
+580
+00:13:04,610 --> 00:13:04,620
+numbers
+ 
+
+581
+00:13:04,620 --> 00:13:07,670
+numbers
+so both light wave polarizations and
+
+582
+00:13:07,670 --> 00:13:07,680
+so both light wave polarizations and
+ 
+
+583
+00:13:07,680 --> 00:13:10,310
+so both light wave polarizations and
+Quantum spin states are described by a
+
+584
+00:13:10,310 --> 00:13:10,320
+Quantum spin states are described by a
+ 
+
+585
+00:13:10,320 --> 00:13:13,250
+Quantum spin states are described by a
+pair of complex numbers whose states are
+
+586
+00:13:13,250 --> 00:13:13,260
+pair of complex numbers whose states are
+ 
+
+587
+00:13:13,260 --> 00:13:15,350
+pair of complex numbers whose states are
+unaffected by overall complex number
+
+588
+00:13:15,350 --> 00:13:15,360
+unaffected by overall complex number
+ 
+
+589
+00:13:15,360 --> 00:13:17,090
+unaffected by overall complex number
+multiplication
+
+590
+00:13:17,090 --> 00:13:17,100
+multiplication
+ 
+
+591
+00:13:17,100 --> 00:13:19,490
+multiplication
+in other words it is only the ratio of
+
+592
+00:13:19,490 --> 00:13:19,500
+in other words it is only the ratio of
+ 
+
+593
+00:13:19,500 --> 00:13:22,009
+in other words it is only the ratio of
+their components that matters
+
+594
+00:13:22,009 --> 00:13:22,019
+their components that matters
+ 
+
+595
+00:13:22,019 --> 00:13:24,170
+their components that matters
+this is similar to the poly Spinners
+
+596
+00:13:24,170 --> 00:13:24,180
+this is similar to the poly Spinners
+ 
+
+597
+00:13:24,180 --> 00:13:27,170
+this is similar to the poly Spinners
+we've discovered in this video where a
+
+598
+00:13:27,170 --> 00:13:27,180
+we've discovered in this video where a
+ 
+
+599
+00:13:27,180 --> 00:13:30,110
+we've discovered in this video where a
+given Vector produces a unique ratio of
+
+600
+00:13:30,110 --> 00:13:30,120
+given Vector produces a unique ratio of
+ 
+
+601
+00:13:30,120 --> 00:13:32,750
+given Vector produces a unique ratio of
+poly spinner components
+
+602
+00:13:32,750 --> 00:13:32,760
+poly spinner components
+ 
+
+603
+00:13:32,760 --> 00:13:35,449
+poly spinner components
+in mathematical terms when several
+
+604
+00:13:35,449 --> 00:13:35,459
+in mathematical terms when several
+ 
+
+605
+00:13:35,459 --> 00:13:37,610
+in mathematical terms when several
+Spinners have the same component ratio
+
+606
+00:13:37,610 --> 00:13:37,620
+Spinners have the same component ratio
+ 
+
+607
+00:13:37,620 --> 00:13:40,129
+Spinners have the same component ratio
+we do consider them to be different
+
+608
+00:13:40,129 --> 00:13:40,139
+we do consider them to be different
+ 
+
+609
+00:13:40,139 --> 00:13:43,190
+we do consider them to be different
+Spinners but they are all associated
+
+610
+00:13:43,190 --> 00:13:43,200
+Spinners but they are all associated
+ 
+
+611
+00:13:43,200 --> 00:13:45,650
+Spinners but they are all associated
+with the same Vector so they can be
+
+612
+00:13:45,650 --> 00:13:45,660
+with the same Vector so they can be
+ 
+
+613
+00:13:45,660 --> 00:13:49,370
+with the same Vector so they can be
+grouped together in a kind of family
+
+614
+00:13:49,370 --> 00:13:49,380
+grouped together in a kind of family
+ 
+
+615
+00:13:49,380 --> 00:13:51,829
+grouped together in a kind of family
+recall from the last video that
+
+616
+00:13:51,829 --> 00:13:51,839
+recall from the last video that
+ 
+
+617
+00:13:51,839 --> 00:13:54,889
+recall from the last video that
+polyvectors rotate with double-sided su2
+
+618
+00:13:54,889 --> 00:13:54,899
+polyvectors rotate with double-sided su2
+ 
+
+619
+00:13:54,899 --> 00:13:56,569
+polyvectors rotate with double-sided su2
+transformations
+
+620
+00:13:56,569 --> 00:13:56,579
+transformations
+ 
+
+621
+00:13:56,579 --> 00:13:59,569
+transformations
+once we factor a polyvector into a pair
+
+622
+00:13:59,569 --> 00:13:59,579
+once we factor a polyvector into a pair
+ 
+
+623
+00:13:59,579 --> 00:14:02,750
+once we factor a polyvector into a pair
+of poly Spinners we see that each poly
+
+624
+00:14:02,750 --> 00:14:02,760
+of poly Spinners we see that each poly
+ 
+
+625
+00:14:02,760 --> 00:14:07,069
+of poly Spinners we see that each poly
+spinner rotates with a single su2 Matrix
+
+626
+00:14:07,069 --> 00:14:07,079
+spinner rotates with a single su2 Matrix
+ 
+
+627
+00:14:07,079 --> 00:14:09,829
+spinner rotates with a single su2 Matrix
+the column spinner rotates with an su2
+
+628
+00:14:09,829 --> 00:14:09,839
+the column spinner rotates with an su2
+ 
+
+629
+00:14:09,839 --> 00:14:12,410
+the column spinner rotates with an su2
+Matrix multiplied from the left
+
+630
+00:14:12,410 --> 00:14:12,420
+Matrix multiplied from the left
+ 
+
+631
+00:14:12,420 --> 00:14:14,870
+Matrix multiplied from the left
+and the row spinner rotates with the
+
+632
+00:14:14,870 --> 00:14:14,880
+and the row spinner rotates with the
+ 
+
+633
+00:14:14,880 --> 00:14:17,930
+and the row spinner rotates with the
+same su2 Matrix but hermitian conjugated
+
+634
+00:14:17,930 --> 00:14:17,940
+same su2 Matrix but hermitian conjugated
+ 
+
+635
+00:14:17,940 --> 00:14:21,110
+same su2 Matrix but hermitian conjugated
+and multiplied from the right
+
+636
+00:14:21,110 --> 00:14:21,120
+and multiplied from the right
+ 
+
+637
+00:14:21,120 --> 00:14:23,690
+and multiplied from the right
+we also saw that Spinners describing
+
+638
+00:14:23,690 --> 00:14:23,700
+we also saw that Spinners describing
+ 
+
+639
+00:14:23,700 --> 00:14:26,449
+we also saw that Spinners describing
+LightWave polarizations and Quantum spin
+
+640
+00:14:26,449 --> 00:14:26,459
+LightWave polarizations and Quantum spin
+ 
+
+641
+00:14:26,459 --> 00:14:30,230
+LightWave polarizations and Quantum spin
+States rotated with su2 matrices on the
+
+642
+00:14:30,230 --> 00:14:30,240
+States rotated with su2 matrices on the
+ 
+
+643
+00:14:30,240 --> 00:14:34,069
+States rotated with su2 matrices on the
+poincare sphere and block sphere
+
+644
+00:14:34,069 --> 00:14:34,079
+poincare sphere and block sphere
+ 
+
+645
+00:14:34,079 --> 00:14:37,069
+poincare sphere and block sphere
+the reason su2 matrices are able to
+
+646
+00:14:37,069 --> 00:14:37,079
+the reason su2 matrices are able to
+ 
+
+647
+00:14:37,079 --> 00:14:40,009
+the reason su2 matrices are able to
+rotate a spinner PSI is that the
+
+648
+00:14:40,009 --> 00:14:40,019
+rotate a spinner PSI is that the
+ 
+
+649
+00:14:40,019 --> 00:14:42,650
+rotate a spinner PSI is that the
+Spinners squared magnitude is given by
+
+650
+00:14:42,650 --> 00:14:42,660
+Spinners squared magnitude is given by
+ 
+
+651
+00:14:42,660 --> 00:14:46,490
+Spinners squared magnitude is given by
+the hermitian conjugate of PSI times PSI
+
+652
+00:14:46,490 --> 00:14:46,500
+the hermitian conjugate of PSI times PSI
+ 
+
+653
+00:14:46,500 --> 00:14:49,370
+the hermitian conjugate of PSI times PSI
+when we transform PSI using a unitary
+
+654
+00:14:49,370 --> 00:14:49,380
+when we transform PSI using a unitary
+ 
+
+655
+00:14:49,380 --> 00:14:52,610
+when we transform PSI using a unitary
+Matrix U we can flip these around and
+
+656
+00:14:52,610 --> 00:14:52,620
+Matrix U we can flip these around and
+ 
+
+657
+00:14:52,620 --> 00:14:55,430
+Matrix U we can flip these around and
+cancel U dagger and U to the identity
+
+658
+00:14:55,430 --> 00:14:55,440
+cancel U dagger and U to the identity
+ 
+
+659
+00:14:55,440 --> 00:14:59,329
+cancel U dagger and U to the identity
+Matrix Since U is unitary and this gives
+
+660
+00:14:59,329 --> 00:14:59,339
+Matrix Since U is unitary and this gives
+ 
+
+661
+00:14:59,339 --> 00:15:01,550
+Matrix Since U is unitary and this gives
+us the same squared magnitude for the
+
+662
+00:15:01,550 --> 00:15:01,560
+us the same squared magnitude for the
+ 
+
+663
+00:15:01,560 --> 00:15:02,750
+us the same squared magnitude for the
+spinner
+
+664
+00:15:02,750 --> 00:15:02,760
+spinner
+ 
+
+665
+00:15:02,760 --> 00:15:05,810
+spinner
+so unitary matrices rotate Spinners
+
+666
+00:15:05,810 --> 00:15:05,820
+so unitary matrices rotate Spinners
+ 
+
+667
+00:15:05,820 --> 00:15:09,949
+so unitary matrices rotate Spinners
+around without changing their length
+
+668
+00:15:09,949 --> 00:15:09,959
+
+ 
+
+669
+00:15:09,959 --> 00:15:12,290
+
+now we've learned how to factor a
+
+670
+00:15:12,290 --> 00:15:12,300
+now we've learned how to factor a
+ 
+
+671
+00:15:12,300 --> 00:15:15,230
+now we've learned how to factor a
+polyvector into a pair of poly Spinners
+
+672
+00:15:15,230 --> 00:15:15,240
+polyvector into a pair of poly Spinners
+ 
+
+673
+00:15:15,240 --> 00:15:18,110
+polyvector into a pair of poly Spinners
+only if the vector's squared length is
+
+674
+00:15:18,110 --> 00:15:18,120
+only if the vector's squared length is
+ 
+
+675
+00:15:18,120 --> 00:15:19,250
+only if the vector's squared length is
+zero
+
+676
+00:15:19,250 --> 00:15:19,260
+zero
+ 
+
+677
+00:15:19,260 --> 00:15:22,189
+zero
+this is called an isotropic vector or
+
+678
+00:15:22,189 --> 00:15:22,199
+this is called an isotropic vector or
+ 
+
+679
+00:15:22,199 --> 00:15:25,430
+this is called an isotropic vector or
+null vector and either all the XYZ
+
+680
+00:15:25,430 --> 00:15:25,440
+null vector and either all the XYZ
+ 
+
+681
+00:15:25,440 --> 00:15:28,790
+null vector and either all the XYZ
+components must be zero or at least some
+
+682
+00:15:28,790 --> 00:15:28,800
+components must be zero or at least some
+ 
+
+683
+00:15:28,800 --> 00:15:32,990
+components must be zero or at least some
+of the XYZ components must be complex
+
+684
+00:15:32,990 --> 00:15:33,000
+of the XYZ components must be complex
+ 
+
+685
+00:15:33,000 --> 00:15:35,389
+of the XYZ components must be complex
+but what if the vector's components are
+
+686
+00:15:35,389 --> 00:15:35,399
+but what if the vector's components are
+ 
+
+687
+00:15:35,399 --> 00:15:38,569
+but what if the vector's components are
+all real and non-zero then it's
+
+688
+00:15:38,569 --> 00:15:38,579
+all real and non-zero then it's
+ 
+
+689
+00:15:38,579 --> 00:15:40,610
+all real and non-zero then it's
+impossible for the squared length to be
+
+690
+00:15:40,610 --> 00:15:40,620
+impossible for the squared length to be
+ 
+
+691
+00:15:40,620 --> 00:15:41,810
+impossible for the squared length to be
+zero
+
+692
+00:15:41,810 --> 00:15:41,820
+zero
+ 
+
+693
+00:15:41,820 --> 00:15:44,150
+zero
+we can ask ourselves if it's still
+
+694
+00:15:44,150 --> 00:15:44,160
+we can ask ourselves if it's still
+ 
+
+695
+00:15:44,160 --> 00:15:46,910
+we can ask ourselves if it's still
+possible to factor this polyvector into
+
+696
+00:15:46,910 --> 00:15:46,920
+possible to factor this polyvector into
+ 
+
+697
+00:15:46,920 --> 00:15:48,710
+possible to factor this polyvector into
+spinners
+
+698
+00:15:48,710 --> 00:15:48,720
+spinners
+ 
+
+699
+00:15:48,720 --> 00:15:50,930
+spinners
+it turns out that we can Factor it into
+
+700
+00:15:50,930 --> 00:15:50,940
+it turns out that we can Factor it into
+ 
+
+701
+00:15:50,940 --> 00:15:54,290
+it turns out that we can Factor it into
+Spinners if we use a trick
+
+702
+00:15:54,290 --> 00:15:54,300
+Spinners if we use a trick
+ 
+
+703
+00:15:54,300 --> 00:15:56,509
+Spinners if we use a trick
+let's go back to this Matrix with
+
+704
+00:15:56,509 --> 00:15:56,519
+let's go back to this Matrix with
+ 
+
+705
+00:15:56,519 --> 00:16:01,189
+let's go back to this Matrix with
+components 1 100 4 500 this matrix's
+
+706
+00:16:01,189 --> 00:16:01,199
+components 1 100 4 500 this matrix's
+ 
+
+707
+00:16:01,199 --> 00:16:04,430
+components 1 100 4 500 this matrix's
+determinant is non-zero and so we can't
+
+708
+00:16:04,430 --> 00:16:04,440
+determinant is non-zero and so we can't
+ 
+
+709
+00:16:04,440 --> 00:16:07,129
+determinant is non-zero and so we can't
+Factor it directly into a column and a
+
+710
+00:16:07,129 --> 00:16:07,139
+Factor it directly into a column and a
+ 
+
+711
+00:16:07,139 --> 00:16:07,970
+Factor it directly into a column and a
+row
+
+712
+00:16:07,970 --> 00:16:07,980
+row
+ 
+
+713
+00:16:07,980 --> 00:16:11,269
+row
+however we can write it as a sum of four
+
+714
+00:16:11,269 --> 00:16:11,279
+however we can write it as a sum of four
+ 
+
+715
+00:16:11,279 --> 00:16:13,850
+however we can write it as a sum of four
+matrices one for each of the four
+
+716
+00:16:13,850 --> 00:16:13,860
+matrices one for each of the four
+ 
+
+717
+00:16:13,860 --> 00:16:16,069
+matrices one for each of the four
+components where all the other
+
+718
+00:16:16,069 --> 00:16:16,079
+components where all the other
+ 
+
+719
+00:16:16,079 --> 00:16:18,590
+components where all the other
+components are zero
+
+720
+00:16:18,590 --> 00:16:18,600
+components are zero
+ 
+
+721
+00:16:18,600 --> 00:16:20,990
+components are zero
+then we can pull the numbers out in
+
+722
+00:16:20,990 --> 00:16:21,000
+then we can pull the numbers out in
+ 
+
+723
+00:16:21,000 --> 00:16:23,750
+then we can pull the numbers out in
+front as scaling factors so that the
+
+724
+00:16:23,750 --> 00:16:23,760
+front as scaling factors so that the
+ 
+
+725
+00:16:23,760 --> 00:16:26,509
+front as scaling factors so that the
+matrices are made up of only ones and
+
+726
+00:16:26,509 --> 00:16:26,519
+matrices are made up of only ones and
+ 
+
+727
+00:16:26,519 --> 00:16:28,310
+matrices are made up of only ones and
+zeros
+
+728
+00:16:28,310 --> 00:16:28,320
+zeros
+ 
+
+729
+00:16:28,320 --> 00:16:31,550
+zeros
+now all of these four matrices now have
+
+730
+00:16:31,550 --> 00:16:31,560
+now all of these four matrices now have
+ 
+
+731
+00:16:31,560 --> 00:16:34,310
+now all of these four matrices now have
+determinants of zero so they can be
+
+732
+00:16:34,310 --> 00:16:34,320
+determinants of zero so they can be
+ 
+
+733
+00:16:34,320 --> 00:16:37,310
+determinants of zero so they can be
+factored into a column and a row
+
+734
+00:16:37,310 --> 00:16:37,320
+factored into a column and a row
+ 
+
+735
+00:16:37,320 --> 00:16:40,189
+factored into a column and a row
+for example this Matrix can be factored
+
+736
+00:16:40,189 --> 00:16:40,199
+for example this Matrix can be factored
+ 
+
+737
+00:16:40,199 --> 00:16:45,110
+for example this Matrix can be factored
+into the column 1 0 and the row one zero
+
+738
+00:16:45,110 --> 00:16:45,120
+into the column 1 0 and the row one zero
+ 
+
+739
+00:16:45,120 --> 00:16:47,389
+into the column 1 0 and the row one zero
+we can do something similar for the
+
+740
+00:16:47,389 --> 00:16:47,399
+we can do something similar for the
+ 
+
+741
+00:16:47,399 --> 00:16:49,430
+we can do something similar for the
+other matrices
+
+742
+00:16:49,430 --> 00:16:49,440
+other matrices
+ 
+
+743
+00:16:49,440 --> 00:16:52,189
+other matrices
+so we've successfully decomposed this
+
+744
+00:16:52,189 --> 00:16:52,199
+so we've successfully decomposed this
+ 
+
+745
+00:16:52,199 --> 00:16:56,449
+so we've successfully decomposed this
+Matrix into a sum of column row products
+
+746
+00:16:56,449 --> 00:16:56,459
+Matrix into a sum of column row products
+ 
+
+747
+00:16:56,459 --> 00:16:58,730
+Matrix into a sum of column row products
+even though we can't Factor it directly
+
+748
+00:16:58,730 --> 00:16:58,740
+even though we can't Factor it directly
+ 
+
+749
+00:16:58,740 --> 00:17:02,210
+even though we can't Factor it directly
+into a single column and a single row we
+
+750
+00:17:02,210 --> 00:17:02,220
+into a single column and a single row we
+ 
+
+751
+00:17:02,220 --> 00:17:04,669
+into a single column and a single row we
+can still express it as a sum of column
+
+752
+00:17:04,669 --> 00:17:04,679
+can still express it as a sum of column
+ 
+
+753
+00:17:04,679 --> 00:17:07,130
+can still express it as a sum of column
+row products
+
+754
+00:17:07,130 --> 00:17:07,140
+row products
+ 
+
+755
+00:17:07,140 --> 00:17:09,949
+row products
+the same thing applies to poly vectors
+
+756
+00:17:09,949 --> 00:17:09,959
+the same thing applies to poly vectors
+ 
+
+757
+00:17:09,959 --> 00:17:12,829
+the same thing applies to poly vectors
+when a poly vector's determinant is
+
+758
+00:17:12,829 --> 00:17:12,839
+when a poly vector's determinant is
+ 
+
+759
+00:17:12,839 --> 00:17:15,829
+when a poly vector's determinant is
+non-zero we can't Factor it directly
+
+760
+00:17:15,829 --> 00:17:15,839
+non-zero we can't Factor it directly
+ 
+
+761
+00:17:15,839 --> 00:17:17,990
+non-zero we can't Factor it directly
+into a column spinner row spinner
+
+762
+00:17:17,990 --> 00:17:18,000
+into a column spinner row spinner
+ 
+
+763
+00:17:18,000 --> 00:17:19,309
+into a column spinner row spinner
+product
+
+764
+00:17:19,309 --> 00:17:19,319
+product
+ 
+
+765
+00:17:19,319 --> 00:17:22,189
+product
+but we can break it apart and write it
+
+766
+00:17:22,189 --> 00:17:22,199
+but we can break it apart and write it
+ 
+
+767
+00:17:22,199 --> 00:17:25,309
+but we can break it apart and write it
+as a sum of column row products with
+
+768
+00:17:25,309 --> 00:17:25,319
+as a sum of column row products with
+ 
+
+769
+00:17:25,319 --> 00:17:28,010
+as a sum of column row products with
+different scaling factors in front
+
+770
+00:17:28,010 --> 00:17:28,020
+different scaling factors in front
+ 
+
+771
+00:17:28,020 --> 00:17:31,190
+different scaling factors in front
+and these columns and rows are all poly
+
+772
+00:17:31,190 --> 00:17:31,200
+and these columns and rows are all poly
+ 
+
+773
+00:17:31,200 --> 00:17:32,390
+and these columns and rows are all poly
+spinners
+
+774
+00:17:32,390 --> 00:17:32,400
+spinners
+ 
+
+775
+00:17:32,400 --> 00:17:34,909
+spinners
+when we rotate the vector using a
+
+776
+00:17:34,909 --> 00:17:34,919
+when we rotate the vector using a
+ 
+
+777
+00:17:34,919 --> 00:17:37,909
+when we rotate the vector using a
+double-sided su-2 transformation the
+
+778
+00:17:37,909 --> 00:17:37,919
+double-sided su-2 transformation the
+ 
+
+779
+00:17:37,919 --> 00:17:40,070
+double-sided su-2 transformation the
+column Spinners will all transform with
+
+780
+00:17:40,070 --> 00:17:40,080
+column Spinners will all transform with
+ 
+
+781
+00:17:40,080 --> 00:17:42,770
+column Spinners will all transform with
+an su2 Matrix on the left
+
+782
+00:17:42,770 --> 00:17:42,780
+an su2 Matrix on the left
+ 
+
+783
+00:17:42,780 --> 00:17:45,049
+an su2 Matrix on the left
+and all the row Spinners will transform
+
+784
+00:17:45,049 --> 00:17:45,059
+and all the row Spinners will transform
+ 
+
+785
+00:17:45,059 --> 00:17:47,690
+and all the row Spinners will transform
+with a hermitian conjugated su2 Matrix
+
+786
+00:17:47,690 --> 00:17:47,700
+with a hermitian conjugated su2 Matrix
+ 
+
+787
+00:17:47,700 --> 00:17:50,090
+with a hermitian conjugated su2 Matrix
+on the right
+
+788
+00:17:50,090 --> 00:17:50,100
+on the right
+ 
+
+789
+00:17:50,100 --> 00:17:52,850
+on the right
+so to summarize the properties of poly
+
+790
+00:17:52,850 --> 00:17:52,860
+so to summarize the properties of poly
+ 
+
+791
+00:17:52,860 --> 00:17:55,130
+so to summarize the properties of poly
+Spinners they are pairs of complex
+
+792
+00:17:55,130 --> 00:17:55,140
+Spinners they are pairs of complex
+ 
+
+793
+00:17:55,140 --> 00:17:58,250
+Spinners they are pairs of complex
+numbers that we get when we factor a 3D
+
+794
+00:17:58,250 --> 00:17:58,260
+numbers that we get when we factor a 3D
+ 
+
+795
+00:17:58,260 --> 00:18:01,850
+numbers that we get when we factor a 3D
+polyvector into a column and a row
+
+796
+00:18:01,850 --> 00:18:01,860
+polyvector into a column and a row
+ 
+
+797
+00:18:01,860 --> 00:18:04,310
+polyvector into a column and a row
+there are multiple solutions to this
+
+798
+00:18:04,310 --> 00:18:04,320
+there are multiple solutions to this
+ 
+
+799
+00:18:04,320 --> 00:18:07,070
+there are multiple solutions to this
+factoring problem but there is a unique
+
+800
+00:18:07,070 --> 00:18:07,080
+factoring problem but there is a unique
+ 
+
+801
+00:18:07,080 --> 00:18:09,770
+factoring problem but there is a unique
+ratio of spinner components that solves
+
+802
+00:18:09,770 --> 00:18:09,780
+ratio of spinner components that solves
+ 
+
+803
+00:18:09,780 --> 00:18:12,830
+ratio of spinner components that solves
+the problem for a given vector
+
+804
+00:18:12,830 --> 00:18:12,840
+the problem for a given vector
+ 
+
+805
+00:18:12,840 --> 00:18:15,650
+the problem for a given vector
+this factoring can only be done directly
+
+806
+00:18:15,650 --> 00:18:15,660
+this factoring can only be done directly
+ 
+
+807
+00:18:15,660 --> 00:18:18,529
+this factoring can only be done directly
+if the vector has zero squared length
+
+808
+00:18:18,529 --> 00:18:18,539
+if the vector has zero squared length
+ 
+
+809
+00:18:18,539 --> 00:18:21,230
+if the vector has zero squared length
+which means it's an isotropic Vector
+
+810
+00:18:21,230 --> 00:18:21,240
+which means it's an isotropic Vector
+ 
+
+811
+00:18:21,240 --> 00:18:23,930
+which means it's an isotropic Vector
+also called a null vector
+
+812
+00:18:23,930 --> 00:18:23,940
+also called a null vector
+ 
+
+813
+00:18:23,940 --> 00:18:27,529
+also called a null vector
+for non-isotropic vectors we can instead
+
+814
+00:18:27,529 --> 00:18:27,539
+for non-isotropic vectors we can instead
+ 
+
+815
+00:18:27,539 --> 00:18:30,230
+for non-isotropic vectors we can instead
+break the poly Vector up into several
+
+816
+00:18:30,230 --> 00:18:30,240
+break the poly Vector up into several
+ 
+
+817
+00:18:30,240 --> 00:18:33,169
+break the poly Vector up into several
+matrices with zero determinants and
+
+818
+00:18:33,169 --> 00:18:33,179
+matrices with zero determinants and
+ 
+
+819
+00:18:33,179 --> 00:18:35,750
+matrices with zero determinants and
+Factor each one into a column spinner
+
+820
+00:18:35,750 --> 00:18:35,760
+Factor each one into a column spinner
+ 
+
+821
+00:18:35,760 --> 00:18:37,730
+Factor each one into a column spinner
+and a row spinner
+
+822
+00:18:37,730 --> 00:18:37,740
+and a row spinner
+ 
+
+823
+00:18:37,740 --> 00:18:40,909
+and a row spinner
+finally while polyvectors rotate with a
+
+824
+00:18:40,909 --> 00:18:40,919
+finally while polyvectors rotate with a
+ 
+
+825
+00:18:40,919 --> 00:18:43,990
+finally while polyvectors rotate with a
+pair of su2 matrices one on each side
+
+826
+00:18:43,990 --> 00:18:44,000
+pair of su2 matrices one on each side
+ 
+
+827
+00:18:44,000 --> 00:18:46,850
+pair of su2 matrices one on each side
+column Spinners and row Spinners each
+
+828
+00:18:46,850 --> 00:18:46,860
+column Spinners and row Spinners each
+ 
+
+829
+00:18:46,860 --> 00:18:50,630
+column Spinners and row Spinners each
+rotate with a single su2 Matrix
+
+830
+00:18:50,630 --> 00:18:50,640
+rotate with a single su2 Matrix
+ 
+
+831
+00:18:50,640 --> 00:18:53,510
+rotate with a single su2 Matrix
+as an exercise you can try calculating
+
+832
+00:18:53,510 --> 00:18:53,520
+as an exercise you can try calculating
+ 
+
+833
+00:18:53,520 --> 00:18:56,810
+as an exercise you can try calculating
+the polyvector XYZ components for these
+
+834
+00:18:56,810 --> 00:18:56,820
+the polyvector XYZ components for these
+ 
+
+835
+00:18:56,820 --> 00:18:59,390
+the polyvector XYZ components for these
+poly Spinners and check if they make
+
+836
+00:18:59,390 --> 00:18:59,400
+poly Spinners and check if they make
+ 
+
+837
+00:18:59,400 --> 00:19:03,020
+poly Spinners and check if they make
+sense in relation to each other
+

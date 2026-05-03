@@ -1,0 +1,3125 @@
+1
+00:00:00,000 --> 00:00:02,990
+
+in the last video I showed that instead
+
+2
+00:00:02,990 --> 00:00:03,000
+in the last video I showed that instead
+ 
+
+3
+00:00:03,000 --> 00:00:05,870
+in the last video I showed that instead
+of rotating a 3D Vector with a 3X3
+
+4
+00:00:05,870 --> 00:00:05,880
+of rotating a 3D Vector with a 3X3
+ 
+
+5
+00:00:05,880 --> 00:00:09,230
+of rotating a 3D Vector with a 3X3
+rotation Matrix we can instead rotate it
+
+6
+00:00:09,230 --> 00:00:09,240
+rotation Matrix we can instead rotate it
+ 
+
+7
+00:00:09,240 --> 00:00:12,169
+rotation Matrix we can instead rotate it
+using a double-sided transformation we
+
+8
+00:00:12,169 --> 00:00:12,179
+using a double-sided transformation we
+ 
+
+9
+00:00:12,179 --> 00:00:14,270
+using a double-sided transformation we
+rewrite the vector as a two by two
+
+10
+00:00:14,270 --> 00:00:14,280
+rewrite the vector as a two by two
+ 
+
+11
+00:00:14,280 --> 00:00:16,849
+rewrite the vector as a two by two
+Matrix called a Paulie vector and
+
+12
+00:00:16,849 --> 00:00:16,859
+Matrix called a Paulie vector and
+ 
+
+13
+00:00:16,859 --> 00:00:19,310
+Matrix called a Paulie vector and
+multiply it on either side with an su2
+
+14
+00:00:19,310 --> 00:00:19,320
+multiply it on either side with an su2
+ 
+
+15
+00:00:19,320 --> 00:00:21,890
+multiply it on either side with an su2
+Matrix on the left and the hermitian
+
+16
+00:00:21,890 --> 00:00:21,900
+Matrix on the left and the hermitian
+ 
+
+17
+00:00:21,900 --> 00:00:24,410
+Matrix on the left and the hermitian
+conjugate of that su2 Matrix on the
+
+18
+00:00:24,410 --> 00:00:24,420
+conjugate of that su2 Matrix on the
+ 
+
+19
+00:00:24,420 --> 00:00:25,370
+conjugate of that su2 Matrix on the
+right
+
+20
+00:00:25,370 --> 00:00:25,380
+right
+ 
+
+21
+00:00:25,380 --> 00:00:27,529
+right
+some viewers pointed out this looks
+
+22
+00:00:27,529 --> 00:00:27,539
+some viewers pointed out this looks
+ 
+
+23
+00:00:27,539 --> 00:00:29,570
+some viewers pointed out this looks
+similar to rotating vectors with
+
+24
+00:00:29,570 --> 00:00:29,580
+similar to rotating vectors with
+ 
+
+25
+00:00:29,580 --> 00:00:32,269
+similar to rotating vectors with
+quaternions which also involves a
+
+26
+00:00:32,269 --> 00:00:32,279
+quaternions which also involves a
+ 
+
+27
+00:00:32,279 --> 00:00:34,850
+quaternions which also involves a
+double-sided transformation with a unit
+
+28
+00:00:34,850 --> 00:00:34,860
+double-sided transformation with a unit
+ 
+
+29
+00:00:34,860 --> 00:00:37,549
+double-sided transformation with a unit
+quaternion Q on the left and that
+
+30
+00:00:37,549 --> 00:00:37,559
+quaternion Q on the left and that
+ 
+
+31
+00:00:37,559 --> 00:00:40,130
+quaternion Q on the left and that
+quaternion's conjugate Q star on the
+
+32
+00:00:40,130 --> 00:00:40,140
+quaternion's conjugate Q star on the
+ 
+
+33
+00:00:40,140 --> 00:00:41,330
+quaternion's conjugate Q star on the
+right
+
+34
+00:00:41,330 --> 00:00:41,340
+right
+ 
+
+35
+00:00:41,340 --> 00:00:43,790
+right
+these look even more similar if we
+
+36
+00:00:43,790 --> 00:00:43,800
+these look even more similar if we
+ 
+
+37
+00:00:43,800 --> 00:00:46,729
+these look even more similar if we
+rewrite the su2 matrices using half
+
+38
+00:00:46,729 --> 00:00:46,739
+rewrite the su2 matrices using half
+ 
+
+39
+00:00:46,739 --> 00:00:48,830
+rewrite the su2 matrices using half
+angle trig functions and the sigma
+
+40
+00:00:48,830 --> 00:00:48,840
+angle trig functions and the sigma
+ 
+
+41
+00:00:48,840 --> 00:00:52,130
+angle trig functions and the sigma
+matrices and rewrites the quaternion Q
+
+42
+00:00:52,130 --> 00:00:52,140
+matrices and rewrites the quaternion Q
+ 
+
+43
+00:00:52,140 --> 00:00:56,270
+matrices and rewrites the quaternion Q
+using half angle trig functions and ijk
+
+44
+00:00:56,270 --> 00:00:56,280
+using half angle trig functions and ijk
+ 
+
+45
+00:00:56,280 --> 00:00:58,490
+using half angle trig functions and ijk
+it turns out that the unit quaternions
+
+46
+00:00:58,490 --> 00:00:58,500
+it turns out that the unit quaternions
+ 
+
+47
+00:00:58,500 --> 00:01:01,250
+it turns out that the unit quaternions
+are mathematically equivalent to su2
+
+48
+00:01:01,250 --> 00:01:01,260
+are mathematically equivalent to su2
+ 
+
+49
+00:01:01,260 --> 00:01:04,070
+are mathematically equivalent to su2
+matrices and in this video I'm going to
+
+50
+00:01:04,070 --> 00:01:04,080
+matrices and in this video I'm going to
+ 
+
+51
+00:01:04,080 --> 00:01:06,530
+matrices and in this video I'm going to
+show how
+
+52
+00:01:06,530 --> 00:01:06,540
+show how
+ 
+
+53
+00:01:06,540 --> 00:01:09,830
+show how
+first let's review quaternions hopefully
+
+54
+00:01:09,830 --> 00:01:09,840
+first let's review quaternions hopefully
+ 
+
+55
+00:01:09,840 --> 00:01:12,469
+first let's review quaternions hopefully
+you know that the imaginary number I is
+
+56
+00:01:12,469 --> 00:01:12,479
+you know that the imaginary number I is
+ 
+
+57
+00:01:12,479 --> 00:01:14,929
+you know that the imaginary number I is
+defined such that I squared equals
+
+58
+00:01:14,929 --> 00:01:14,939
+defined such that I squared equals
+ 
+
+59
+00:01:14,939 --> 00:01:17,630
+defined such that I squared equals
+negative one this allows us to write
+
+60
+00:01:17,630 --> 00:01:17,640
+negative one this allows us to write
+ 
+
+61
+00:01:17,640 --> 00:01:20,870
+negative one this allows us to write
+complex numbers of the form a plus b i
+
+62
+00:01:20,870 --> 00:01:20,880
+complex numbers of the form a plus b i
+ 
+
+63
+00:01:20,880 --> 00:01:24,850
+complex numbers of the form a plus b i
+where A and B are real coefficients
+
+64
+00:01:24,850 --> 00:01:24,860
+where A and B are real coefficients
+ 
+
+65
+00:01:24,860 --> 00:01:27,289
+where A and B are real coefficients
+quaternions are like an extension of the
+
+66
+00:01:27,289 --> 00:01:27,299
+quaternions are like an extension of the
+ 
+
+67
+00:01:27,299 --> 00:01:29,210
+quaternions are like an extension of the
+complex numbers where we have three
+
+68
+00:01:29,210 --> 00:01:29,220
+complex numbers where we have three
+ 
+
+69
+00:01:29,220 --> 00:01:33,230
+complex numbers where we have three
+imaginary units i j and k Each of which
+
+70
+00:01:33,230 --> 00:01:33,240
+imaginary units i j and k Each of which
+ 
+
+71
+00:01:33,240 --> 00:01:35,870
+imaginary units i j and k Each of which
+squares to negative one
+
+72
+00:01:35,870 --> 00:01:35,880
+squares to negative one
+ 
+
+73
+00:01:35,880 --> 00:01:38,510
+squares to negative one
+we can use these two right quaternions
+
+74
+00:01:38,510 --> 00:01:38,520
+we can use these two right quaternions
+ 
+
+75
+00:01:38,520 --> 00:01:42,350
+we can use these two right quaternions
+which have the form a plus bi plus CJ
+
+76
+00:01:42,350 --> 00:01:42,360
+which have the form a plus bi plus CJ
+ 
+
+77
+00:01:42,360 --> 00:01:46,670
+which have the form a plus bi plus CJ
+plus DK where a b c d are all real
+
+78
+00:01:46,670 --> 00:01:46,680
+plus DK where a b c d are all real
+ 
+
+79
+00:01:46,680 --> 00:01:48,469
+plus DK where a b c d are all real
+coefficients
+
+80
+00:01:48,469 --> 00:01:48,479
+coefficients
+ 
+
+81
+00:01:48,479 --> 00:01:51,170
+coefficients
+now with quaternions it's not enough to
+
+82
+00:01:51,170 --> 00:01:51,180
+now with quaternions it's not enough to
+ 
+
+83
+00:01:51,180 --> 00:01:53,630
+now with quaternions it's not enough to
+know that the imaginary units Square two
+
+84
+00:01:53,630 --> 00:01:53,640
+know that the imaginary units Square two
+ 
+
+85
+00:01:53,640 --> 00:01:56,690
+know that the imaginary units Square two
+minus one we also need to know how they
+
+86
+00:01:56,690 --> 00:01:56,700
+minus one we also need to know how they
+ 
+
+87
+00:01:56,700 --> 00:01:58,609
+minus one we also need to know how they
+multiply with each other
+
+88
+00:01:58,609 --> 00:01:58,619
+multiply with each other
+ 
+
+89
+00:01:58,619 --> 00:02:01,670
+multiply with each other
+the standard multiplication rules are I
+
+90
+00:02:01,670 --> 00:02:01,680
+the standard multiplication rules are I
+ 
+
+91
+00:02:01,680 --> 00:02:05,630
+the standard multiplication rules are I
+times J equals k j times k equals I and
+
+92
+00:02:05,630 --> 00:02:05,640
+times J equals k j times k equals I and
+ 
+
+93
+00:02:05,640 --> 00:02:08,089
+times J equals k j times k equals I and
+K times I equals J
+
+94
+00:02:08,089 --> 00:02:08,099
+K times I equals J
+ 
+
+95
+00:02:08,099 --> 00:02:10,190
+K times I equals J
+we can visualize these multiplication
+
+96
+00:02:10,190 --> 00:02:10,200
+we can visualize these multiplication
+ 
+
+97
+00:02:10,200 --> 00:02:12,770
+we can visualize these multiplication
+Rules by following the arrows on this
+
+98
+00:02:12,770 --> 00:02:12,780
+Rules by following the arrows on this
+ 
+
+99
+00:02:12,780 --> 00:02:13,790
+Rules by following the arrows on this
+circle
+
+100
+00:02:13,790 --> 00:02:13,800
+circle
+ 
+
+101
+00:02:13,800 --> 00:02:17,089
+circle
+for example if we do I times J we follow
+
+102
+00:02:17,089 --> 00:02:17,099
+for example if we do I times J we follow
+ 
+
+103
+00:02:17,099 --> 00:02:19,490
+for example if we do I times J we follow
+the arrows to get k
+
+104
+00:02:19,490 --> 00:02:19,500
+the arrows to get k
+ 
+
+105
+00:02:19,500 --> 00:02:21,650
+the arrows to get k
+if the multiplication goes against the
+
+106
+00:02:21,650 --> 00:02:21,660
+if the multiplication goes against the
+ 
+
+107
+00:02:21,660 --> 00:02:24,410
+if the multiplication goes against the
+arrows we get a negative sign for
+
+108
+00:02:24,410 --> 00:02:24,420
+arrows we get a negative sign for
+ 
+
+109
+00:02:24,420 --> 00:02:28,850
+arrows we get a negative sign for
+example J times I equals negative k
+
+110
+00:02:28,850 --> 00:02:28,860
+example J times I equals negative k
+ 
+
+111
+00:02:28,860 --> 00:02:31,790
+example J times I equals negative k
+this gives us an important property the
+
+112
+00:02:31,790 --> 00:02:31,800
+this gives us an important property the
+ 
+
+113
+00:02:31,800 --> 00:02:34,070
+this gives us an important property the
+quaternion imaginary units are
+
+114
+00:02:34,070 --> 00:02:34,080
+quaternion imaginary units are
+ 
+
+115
+00:02:34,080 --> 00:02:37,369
+quaternion imaginary units are
+anti-commutative this means that if we
+
+116
+00:02:37,369 --> 00:02:37,379
+anti-commutative this means that if we
+ 
+
+117
+00:02:37,379 --> 00:02:39,890
+anti-commutative this means that if we
+swap the order of multiplication of any
+
+118
+00:02:39,890 --> 00:02:39,900
+swap the order of multiplication of any
+ 
+
+119
+00:02:39,900 --> 00:02:42,890
+swap the order of multiplication of any
+two different imaginary units we get a
+
+120
+00:02:42,890 --> 00:02:42,900
+two different imaginary units we get a
+ 
+
+121
+00:02:42,900 --> 00:02:44,869
+two different imaginary units we get a
+negative sign in front
+
+122
+00:02:44,869 --> 00:02:44,879
+negative sign in front
+ 
+
+123
+00:02:44,879 --> 00:02:48,290
+negative sign in front
+so I times J equals negative J times I
+
+124
+00:02:48,290 --> 00:02:48,300
+so I times J equals negative J times I
+ 
+
+125
+00:02:48,300 --> 00:02:50,449
+so I times J equals negative J times I
+and so on
+
+126
+00:02:50,449 --> 00:02:50,459
+and so on
+ 
+
+127
+00:02:50,459 --> 00:02:52,970
+and so on
+we can also summarize the quaternion
+
+128
+00:02:52,970 --> 00:02:52,980
+we can also summarize the quaternion
+ 
+
+129
+00:02:52,980 --> 00:02:55,390
+we can also summarize the quaternion
+multiplication rules using this table
+
+130
+00:02:55,390 --> 00:02:55,400
+multiplication rules using this table
+ 
+
+131
+00:02:55,400 --> 00:02:58,309
+multiplication rules using this table
+however we can derive this entire table
+
+132
+00:02:58,309 --> 00:02:58,319
+however we can derive this entire table
+ 
+
+133
+00:02:58,319 --> 00:03:01,250
+however we can derive this entire table
+from just four simple formulas
+
+134
+00:03:01,250 --> 00:03:01,260
+from just four simple formulas
+ 
+
+135
+00:03:01,260 --> 00:03:04,369
+from just four simple formulas
+the first three formulas tell us that I
+
+136
+00:03:04,369 --> 00:03:04,379
+the first three formulas tell us that I
+ 
+
+137
+00:03:04,379 --> 00:03:07,850
+the first three formulas tell us that I
+J and K all square to negative one and
+
+138
+00:03:07,850 --> 00:03:07,860
+J and K all square to negative one and
+ 
+
+139
+00:03:07,860 --> 00:03:10,130
+J and K all square to negative one and
+the final formula tells us that I times
+
+140
+00:03:10,130 --> 00:03:10,140
+the final formula tells us that I times
+ 
+
+141
+00:03:10,140 --> 00:03:13,250
+the final formula tells us that I times
+J times k equals negative one
+
+142
+00:03:13,250 --> 00:03:13,260
+J times k equals negative one
+ 
+
+143
+00:03:13,260 --> 00:03:15,649
+J times k equals negative one
+all possible multiplications can be
+
+144
+00:03:15,649 --> 00:03:15,659
+all possible multiplications can be
+ 
+
+145
+00:03:15,659 --> 00:03:18,170
+all possible multiplications can be
+derived from these four rules
+
+146
+00:03:18,170 --> 00:03:18,180
+derived from these four rules
+ 
+
+147
+00:03:18,180 --> 00:03:20,750
+derived from these four rules
+for example if we take the last formula
+
+148
+00:03:20,750 --> 00:03:20,760
+for example if we take the last formula
+ 
+
+149
+00:03:20,760 --> 00:03:23,330
+for example if we take the last formula
+and multiply both sides by K on the
+
+150
+00:03:23,330 --> 00:03:23,340
+and multiply both sides by K on the
+ 
+
+151
+00:03:23,340 --> 00:03:25,729
+and multiply both sides by K on the
+right since K squared equals negative
+
+152
+00:03:25,729 --> 00:03:25,739
+right since K squared equals negative
+ 
+
+153
+00:03:25,739 --> 00:03:30,770
+right since K squared equals negative
+one we can derive I times J equals k
+
+154
+00:03:30,770 --> 00:03:30,780
+one we can derive I times J equals k
+ 
+
+155
+00:03:30,780 --> 00:03:33,050
+one we can derive I times J equals k
+I should also mention the idea of a
+
+156
+00:03:33,050 --> 00:03:33,060
+I should also mention the idea of a
+ 
+
+157
+00:03:33,060 --> 00:03:36,110
+I should also mention the idea of a
+quaternion's conjugate Q star
+
+158
+00:03:36,110 --> 00:03:36,120
+quaternion's conjugate Q star
+ 
+
+159
+00:03:36,120 --> 00:03:39,170
+quaternion's conjugate Q star
+given some quaternion Q we get the
+
+160
+00:03:39,170 --> 00:03:39,180
+given some quaternion Q we get the
+ 
+
+161
+00:03:39,180 --> 00:03:41,930
+given some quaternion Q we get the
+conjugate Q Star by switching the signs
+
+162
+00:03:41,930 --> 00:03:41,940
+conjugate Q Star by switching the signs
+ 
+
+163
+00:03:41,940 --> 00:03:45,229
+conjugate Q Star by switching the signs
+of the imaginary units i j k
+
+164
+00:03:45,229 --> 00:03:45,239
+of the imaginary units i j k
+ 
+
+165
+00:03:45,239 --> 00:03:49,070
+of the imaginary units i j k
+if we multiply Q by Q star we get 16
+
+166
+00:03:49,070 --> 00:03:49,080
+if we multiply Q by Q star we get 16
+ 
+
+167
+00:03:49,080 --> 00:03:51,830
+if we multiply Q by Q star we get 16
+terms where only the diagonal terms are
+
+168
+00:03:51,830 --> 00:03:51,840
+terms where only the diagonal terms are
+ 
+
+169
+00:03:51,840 --> 00:03:53,330
+terms where only the diagonal terms are
+non-zero
+
+170
+00:03:53,330 --> 00:03:53,340
+non-zero
+ 
+
+171
+00:03:53,340 --> 00:03:56,089
+non-zero
+so we get a squared plus b squared plus
+
+172
+00:03:56,089 --> 00:03:56,099
+so we get a squared plus b squared plus
+ 
+
+173
+00:03:56,099 --> 00:03:59,089
+so we get a squared plus b squared plus
+c squared plus D Squared which is the
+
+174
+00:03:59,089 --> 00:03:59,099
+c squared plus D Squared which is the
+ 
+
+175
+00:03:59,099 --> 00:04:01,970
+c squared plus D Squared which is the
+squared length of the quaternion
+
+176
+00:04:01,970 --> 00:04:01,980
+squared length of the quaternion
+ 
+
+177
+00:04:01,980 --> 00:04:04,910
+squared length of the quaternion
+we say that Q star over the squared
+
+178
+00:04:04,910 --> 00:04:04,920
+we say that Q star over the squared
+ 
+
+179
+00:04:04,920 --> 00:04:08,449
+we say that Q star over the squared
+length of Q is the inverse of Q denoted
+
+180
+00:04:08,449 --> 00:04:08,459
+length of Q is the inverse of Q denoted
+ 
+
+181
+00:04:08,459 --> 00:04:10,550
+length of Q is the inverse of Q denoted
+Q to the negative one
+
+182
+00:04:10,550 --> 00:04:10,560
+Q to the negative one
+ 
+
+183
+00:04:10,560 --> 00:04:13,850
+Q to the negative one
+this is because Q times Q inverse gives
+
+184
+00:04:13,850 --> 00:04:13,860
+this is because Q times Q inverse gives
+ 
+
+185
+00:04:13,860 --> 00:04:16,550
+this is because Q times Q inverse gives
+us one
+
+186
+00:04:16,550 --> 00:04:16,560
+
+ 
+
+187
+00:04:16,560 --> 00:04:19,250
+
+now let's review the sigma matrices and
+
+188
+00:04:19,250 --> 00:04:19,260
+now let's review the sigma matrices and
+ 
+
+189
+00:04:19,260 --> 00:04:22,250
+now let's review the sigma matrices and
+how they lead to su2 matrices
+
+190
+00:04:22,250 --> 00:04:22,260
+how they lead to su2 matrices
+ 
+
+191
+00:04:22,260 --> 00:04:25,070
+how they lead to su2 matrices
+we already introduced the sigma X Sigma
+
+192
+00:04:25,070 --> 00:04:25,080
+we already introduced the sigma X Sigma
+ 
+
+193
+00:04:25,080 --> 00:04:28,550
+we already introduced the sigma X Sigma
+Y and sigma Z matrices in the last video
+
+194
+00:04:28,550 --> 00:04:28,560
+Y and sigma Z matrices in the last video
+ 
+
+195
+00:04:28,560 --> 00:04:31,490
+Y and sigma Z matrices in the last video
+the I and the sigma y Matrix is the
+
+196
+00:04:31,490 --> 00:04:31,500
+the I and the sigma y Matrix is the
+ 
+
+197
+00:04:31,500 --> 00:04:33,950
+the I and the sigma y Matrix is the
+complex number I that squares 2 negative
+
+198
+00:04:33,950 --> 00:04:33,960
+complex number I that squares 2 negative
+ 
+
+199
+00:04:33,960 --> 00:04:34,969
+complex number I that squares 2 negative
+one
+
+200
+00:04:34,969 --> 00:04:34,979
+one
+ 
+
+201
+00:04:34,979 --> 00:04:37,610
+one
+we already saw these matrices all square
+
+202
+00:04:37,610 --> 00:04:37,620
+we already saw these matrices all square
+ 
+
+203
+00:04:37,620 --> 00:04:40,129
+we already saw these matrices all square
+to the identity Matrix which I'm
+
+204
+00:04:40,129 --> 00:04:40,139
+to the identity Matrix which I'm
+ 
+
+205
+00:04:40,139 --> 00:04:43,070
+to the identity Matrix which I'm
+denoting with this fancy number one
+
+206
+00:04:43,070 --> 00:04:43,080
+denoting with this fancy number one
+ 
+
+207
+00:04:43,080 --> 00:04:45,409
+denoting with this fancy number one
+we also know that they anti-commute with
+
+208
+00:04:45,409 --> 00:04:45,419
+we also know that they anti-commute with
+ 
+
+209
+00:04:45,419 --> 00:04:48,110
+we also know that they anti-commute with
+each other so when we swap the order of
+
+210
+00:04:48,110 --> 00:04:48,120
+each other so when we swap the order of
+ 
+
+211
+00:04:48,120 --> 00:04:50,570
+each other so when we swap the order of
+any two different Sigma matrices in a
+
+212
+00:04:50,570 --> 00:04:50,580
+any two different Sigma matrices in a
+ 
+
+213
+00:04:50,580 --> 00:04:54,230
+any two different Sigma matrices in a
+product we get a negative sign in front
+
+214
+00:04:54,230 --> 00:04:54,240
+product we get a negative sign in front
+ 
+
+215
+00:04:54,240 --> 00:04:56,570
+product we get a negative sign in front
+so the sigma matrices look a bit like
+
+216
+00:04:56,570 --> 00:04:56,580
+so the sigma matrices look a bit like
+ 
+
+217
+00:04:56,580 --> 00:04:59,450
+so the sigma matrices look a bit like
+the quaternion imaginary units they
+
+218
+00:04:59,450 --> 00:04:59,460
+the quaternion imaginary units they
+ 
+
+219
+00:04:59,460 --> 00:05:02,930
+the quaternion imaginary units they
+anti-commute just like ijk but they
+
+220
+00:05:02,930 --> 00:05:02,940
+anti-commute just like ijk but they
+ 
+
+221
+00:05:02,940 --> 00:05:05,270
+anti-commute just like ijk but they
+Square to positive one instead of
+
+222
+00:05:05,270 --> 00:05:05,280
+Square to positive one instead of
+ 
+
+223
+00:05:05,280 --> 00:05:07,909
+Square to positive one instead of
+squaring two negative one
+
+224
+00:05:07,909 --> 00:05:07,919
+squaring two negative one
+ 
+
+225
+00:05:07,919 --> 00:05:10,129
+squaring two negative one
+here's the key to linking the sigmas
+
+226
+00:05:10,129 --> 00:05:10,139
+here's the key to linking the sigmas
+ 
+
+227
+00:05:10,139 --> 00:05:13,850
+here's the key to linking the sigmas
+with i j k a single Sigma Matrix will
+
+228
+00:05:13,850 --> 00:05:13,860
+with i j k a single Sigma Matrix will
+ 
+
+229
+00:05:13,860 --> 00:05:16,969
+with i j k a single Sigma Matrix will
+Square two plus one but a pair of
+
+230
+00:05:16,969 --> 00:05:16,979
+Square two plus one but a pair of
+ 
+
+231
+00:05:16,979 --> 00:05:19,430
+Square two plus one but a pair of
+different Sigma matrices will Square two
+
+232
+00:05:19,430 --> 00:05:19,440
+different Sigma matrices will Square two
+ 
+
+233
+00:05:19,440 --> 00:05:20,749
+different Sigma matrices will Square two
+negative one
+
+234
+00:05:20,749 --> 00:05:20,759
+negative one
+ 
+
+235
+00:05:20,759 --> 00:05:23,510
+negative one
+for example if we take Sigma x times
+
+236
+00:05:23,510 --> 00:05:23,520
+for example if we take Sigma x times
+ 
+
+237
+00:05:23,520 --> 00:05:26,450
+for example if we take Sigma x times
+Sigma Y and square it we get to the
+
+238
+00:05:26,450 --> 00:05:26,460
+Sigma Y and square it we get to the
+ 
+
+239
+00:05:26,460 --> 00:05:28,850
+Sigma Y and square it we get to the
+sigma's X Y X Y
+
+240
+00:05:28,850 --> 00:05:28,860
+sigma's X Y X Y
+ 
+
+241
+00:05:28,860 --> 00:05:31,550
+sigma's X Y X Y
+if we flip the middle two sigmas we pick
+
+242
+00:05:31,550 --> 00:05:31,560
+if we flip the middle two sigmas we pick
+ 
+
+243
+00:05:31,560 --> 00:05:33,890
+if we flip the middle two sigmas we pick
+up a negative sign which we can bring
+
+244
+00:05:33,890 --> 00:05:33,900
+up a negative sign which we can bring
+ 
+
+245
+00:05:33,900 --> 00:05:35,330
+up a negative sign which we can bring
+out to the front
+
+246
+00:05:35,330 --> 00:05:35,340
+out to the front
+ 
+
+247
+00:05:35,340 --> 00:05:37,430
+out to the front
+we're left with Sigma x squared and
+
+248
+00:05:37,430 --> 00:05:37,440
+we're left with Sigma x squared and
+ 
+
+249
+00:05:37,440 --> 00:05:40,070
+we're left with Sigma x squared and
+sigma y squared which both go to the
+
+250
+00:05:40,070 --> 00:05:40,080
+sigma y squared which both go to the
+ 
+
+251
+00:05:40,080 --> 00:05:42,950
+sigma y squared which both go to the
+identity Matrix so we end up with the
+
+252
+00:05:42,950 --> 00:05:42,960
+identity Matrix so we end up with the
+ 
+
+253
+00:05:42,960 --> 00:05:46,010
+identity Matrix so we end up with the
+negative of the identity Matrix
+
+254
+00:05:46,010 --> 00:05:46,020
+negative of the identity Matrix
+ 
+
+255
+00:05:46,020 --> 00:05:48,830
+negative of the identity Matrix
+we can use a similar proof to show that
+
+256
+00:05:48,830 --> 00:05:48,840
+we can use a similar proof to show that
+ 
+
+257
+00:05:48,840 --> 00:05:51,290
+we can use a similar proof to show that
+any pair of different sigmas squares to
+
+258
+00:05:51,290 --> 00:05:51,300
+any pair of different sigmas squares to
+ 
+
+259
+00:05:51,300 --> 00:05:53,749
+any pair of different sigmas squares to
+the negative identity Matrix
+
+260
+00:05:53,749 --> 00:05:53,759
+the negative identity Matrix
+ 
+
+261
+00:05:53,759 --> 00:05:56,150
+the negative identity Matrix
+it also turns out that these pairs of
+
+262
+00:05:56,150 --> 00:05:56,160
+it also turns out that these pairs of
+ 
+
+263
+00:05:56,160 --> 00:05:58,670
+it also turns out that these pairs of
+Sigma matrices also anti-commute with
+
+264
+00:05:58,670 --> 00:05:58,680
+Sigma matrices also anti-commute with
+ 
+
+265
+00:05:58,680 --> 00:06:01,310
+Sigma matrices also anti-commute with
+one another we can show this just by
+
+266
+00:06:01,310 --> 00:06:01,320
+one another we can show this just by
+ 
+
+267
+00:06:01,320 --> 00:06:03,590
+one another we can show this just by
+swapping the individual sigmas step by
+
+268
+00:06:03,590 --> 00:06:03,600
+swapping the individual sigmas step by
+ 
+
+269
+00:06:03,600 --> 00:06:05,990
+swapping the individual sigmas step by
+step and we end up with a negative sign
+
+270
+00:06:05,990 --> 00:06:06,000
+step and we end up with a negative sign
+ 
+
+271
+00:06:06,000 --> 00:06:07,850
+step and we end up with a negative sign
+in front
+
+272
+00:06:07,850 --> 00:06:07,860
+in front
+ 
+
+273
+00:06:07,860 --> 00:06:09,770
+in front
+so it seems like the quaternion
+
+274
+00:06:09,770 --> 00:06:09,780
+so it seems like the quaternion
+ 
+
+275
+00:06:09,780 --> 00:06:13,129
+so it seems like the quaternion
+imaginary units i j k might somehow be
+
+276
+00:06:13,129 --> 00:06:13,139
+imaginary units i j k might somehow be
+ 
+
+277
+00:06:13,139 --> 00:06:16,310
+imaginary units i j k might somehow be
+related to pairs of Sigma matrices and
+
+278
+00:06:16,310 --> 00:06:16,320
+related to pairs of Sigma matrices and
+ 
+
+279
+00:06:16,320 --> 00:06:18,290
+related to pairs of Sigma matrices and
+that's exactly right here's the
+
+280
+00:06:18,290 --> 00:06:18,300
+that's exactly right here's the
+ 
+
+281
+00:06:18,300 --> 00:06:20,749
+that's exactly right here's the
+correspondence between them
+
+282
+00:06:20,749 --> 00:06:20,759
+correspondence between them
+ 
+
+283
+00:06:20,759 --> 00:06:23,330
+correspondence between them
+there's an easy way to remember this
+
+284
+00:06:23,330 --> 00:06:23,340
+there's an easy way to remember this
+ 
+
+285
+00:06:23,340 --> 00:06:26,210
+there's an easy way to remember this
+the quaternion imaginary I is sort of
+
+286
+00:06:26,210 --> 00:06:26,220
+the quaternion imaginary I is sort of
+ 
+
+287
+00:06:26,220 --> 00:06:29,150
+the quaternion imaginary I is sort of
+like the x-axis and this is matched with
+
+288
+00:06:29,150 --> 00:06:29,160
+like the x-axis and this is matched with
+ 
+
+289
+00:06:29,160 --> 00:06:32,150
+like the x-axis and this is matched with
+negative Sigma y times Sigma Z which is
+
+290
+00:06:32,150 --> 00:06:32,160
+negative Sigma y times Sigma Z which is
+ 
+
+291
+00:06:32,160 --> 00:06:34,610
+negative Sigma y times Sigma Z which is
+sort of like the YZ plane which is
+
+292
+00:06:34,610 --> 00:06:34,620
+sort of like the YZ plane which is
+ 
+
+293
+00:06:34,620 --> 00:06:37,510
+sort of like the YZ plane which is
+perpendicular to the x-axis
+
+294
+00:06:37,510 --> 00:06:37,520
+perpendicular to the x-axis
+ 
+
+295
+00:06:37,520 --> 00:06:40,490
+perpendicular to the x-axis
+similarly J is like the y-axis
+
+296
+00:06:40,490 --> 00:06:40,500
+similarly J is like the y-axis
+ 
+
+297
+00:06:40,500 --> 00:06:43,249
+similarly J is like the y-axis
+associated with the perpendicular ZX
+
+298
+00:06:43,249 --> 00:06:43,259
+associated with the perpendicular ZX
+ 
+
+299
+00:06:43,259 --> 00:06:46,490
+associated with the perpendicular ZX
+plane and K is like the z-axis
+
+300
+00:06:46,490 --> 00:06:46,500
+plane and K is like the z-axis
+ 
+
+301
+00:06:46,500 --> 00:06:50,330
+plane and K is like the z-axis
+associated with the X Y plane
+
+302
+00:06:50,330 --> 00:06:50,340
+associated with the X Y plane
+ 
+
+303
+00:06:50,340 --> 00:06:52,909
+associated with the X Y plane
+to prove this equivalence we need to
+
+304
+00:06:52,909 --> 00:06:52,919
+to prove this equivalence we need to
+ 
+
+305
+00:06:52,919 --> 00:06:55,010
+to prove this equivalence we need to
+establish the fundamental properties of
+
+306
+00:06:55,010 --> 00:06:55,020
+establish the fundamental properties of
+ 
+
+307
+00:06:55,020 --> 00:06:58,550
+establish the fundamental properties of
+quaternions that each of i j k Square 2
+
+308
+00:06:58,550 --> 00:06:58,560
+quaternions that each of i j k Square 2
+ 
+
+309
+00:06:58,560 --> 00:07:01,730
+quaternions that each of i j k Square 2
+negative 1 and that I times J times k
+
+310
+00:07:01,730 --> 00:07:01,740
+negative 1 and that I times J times k
+ 
+
+311
+00:07:01,740 --> 00:07:03,890
+negative 1 and that I times J times k
+equals negative one
+
+312
+00:07:03,890 --> 00:07:03,900
+equals negative one
+ 
+
+313
+00:07:03,900 --> 00:07:06,350
+equals negative one
+we've already shown that these pairs of
+
+314
+00:07:06,350 --> 00:07:06,360
+we've already shown that these pairs of
+ 
+
+315
+00:07:06,360 --> 00:07:08,749
+we've already shown that these pairs of
+Sigma matrices Square to the negative
+
+316
+00:07:08,749 --> 00:07:08,759
+Sigma matrices Square to the negative
+ 
+
+317
+00:07:08,759 --> 00:07:10,070
+Sigma matrices Square to the negative
+identity
+
+318
+00:07:10,070 --> 00:07:10,080
+identity
+ 
+
+319
+00:07:10,080 --> 00:07:12,170
+identity
+and the fact that we've added a negative
+
+320
+00:07:12,170 --> 00:07:12,180
+and the fact that we've added a negative
+ 
+
+321
+00:07:12,180 --> 00:07:14,390
+and the fact that we've added a negative
+sign in front doesn't change this result
+
+322
+00:07:14,390 --> 00:07:14,400
+sign in front doesn't change this result
+ 
+
+323
+00:07:14,400 --> 00:07:18,350
+sign in front doesn't change this result
+since negative one squares two plus one
+
+324
+00:07:18,350 --> 00:07:18,360
+since negative one squares two plus one
+ 
+
+325
+00:07:18,360 --> 00:07:20,930
+since negative one squares two plus one
+next we need to show the equivalent of I
+
+326
+00:07:20,930 --> 00:07:20,940
+next we need to show the equivalent of I
+ 
+
+327
+00:07:20,940 --> 00:07:24,230
+next we need to show the equivalent of I
+times J times k equals negative one
+
+328
+00:07:24,230 --> 00:07:24,240
+times J times k equals negative one
+ 
+
+329
+00:07:24,240 --> 00:07:27,290
+times J times k equals negative one
+if we replace i j k with our negative
+
+330
+00:07:27,290 --> 00:07:27,300
+if we replace i j k with our negative
+ 
+
+331
+00:07:27,300 --> 00:07:30,050
+if we replace i j k with our negative
+Sigma pairs we can multiply all three
+
+332
+00:07:30,050 --> 00:07:30,060
+Sigma pairs we can multiply all three
+ 
+
+333
+00:07:30,060 --> 00:07:32,089
+Sigma pairs we can multiply all three
+negative signs into a single negative
+
+334
+00:07:32,089 --> 00:07:32,099
+negative signs into a single negative
+ 
+
+335
+00:07:32,099 --> 00:07:34,430
+negative signs into a single negative
+sign out in front
+
+336
+00:07:34,430 --> 00:07:34,440
+sign out in front
+ 
+
+337
+00:07:34,440 --> 00:07:37,189
+sign out in front
+the inner pairs of Sigma Z's and sigma
+
+338
+00:07:37,189 --> 00:07:37,199
+the inner pairs of Sigma Z's and sigma
+ 
+
+339
+00:07:37,199 --> 00:07:40,610
+the inner pairs of Sigma Z's and sigma
+X's go to one and the remaining pairs of
+
+340
+00:07:40,610 --> 00:07:40,620
+X's go to one and the remaining pairs of
+ 
+
+341
+00:07:40,620 --> 00:07:43,730
+X's go to one and the remaining pairs of
+Sigma y's also goes to one so we get
+
+342
+00:07:43,730 --> 00:07:43,740
+Sigma y's also goes to one so we get
+ 
+
+343
+00:07:43,740 --> 00:07:46,189
+Sigma y's also goes to one so we get
+negative one as desired
+
+344
+00:07:46,189 --> 00:07:46,199
+negative one as desired
+ 
+
+345
+00:07:46,199 --> 00:07:48,529
+negative one as desired
+so these negative Sigma pairs are
+
+346
+00:07:48,529 --> 00:07:48,539
+so these negative Sigma pairs are
+ 
+
+347
+00:07:48,539 --> 00:07:50,629
+so these negative Sigma pairs are
+completely mathematically equivalent to
+
+348
+00:07:50,629 --> 00:07:50,639
+completely mathematically equivalent to
+ 
+
+349
+00:07:50,639 --> 00:07:53,629
+completely mathematically equivalent to
+the quaternion imaginary units in
+
+350
+00:07:53,629 --> 00:07:53,639
+the quaternion imaginary units in
+ 
+
+351
+00:07:53,639 --> 00:07:55,790
+the quaternion imaginary units in
+mathematical terms we say they are
+
+352
+00:07:55,790 --> 00:07:55,800
+mathematical terms we say they are
+ 
+
+353
+00:07:55,800 --> 00:07:59,029
+mathematical terms we say they are
+isomorphic
+
+354
+00:07:59,029 --> 00:07:59,039
+
+ 
+
+355
+00:07:59,039 --> 00:08:01,550
+
+so how does this fit into rotating
+
+356
+00:08:01,550 --> 00:08:01,560
+so how does this fit into rotating
+ 
+
+357
+00:08:01,560 --> 00:08:02,809
+so how does this fit into rotating
+vectors
+
+358
+00:08:02,809 --> 00:08:02,819
+vectors
+ 
+
+359
+00:08:02,819 --> 00:08:05,689
+vectors
+when rotating with quaternions we can
+
+360
+00:08:05,689 --> 00:08:05,699
+when rotating with quaternions we can
+ 
+
+361
+00:08:05,699 --> 00:08:08,570
+when rotating with quaternions we can
+write a vector v by replacing the XYZ
+
+362
+00:08:08,570 --> 00:08:08,580
+write a vector v by replacing the XYZ
+ 
+
+363
+00:08:08,580 --> 00:08:12,290
+write a vector v by replacing the XYZ
+basis vectors with i j and k
+
+364
+00:08:12,290 --> 00:08:12,300
+basis vectors with i j and k
+ 
+
+365
+00:08:12,300 --> 00:08:14,749
+basis vectors with i j and k
+so we get a quaternion with only pure
+
+366
+00:08:14,749 --> 00:08:14,759
+so we get a quaternion with only pure
+ 
+
+367
+00:08:14,759 --> 00:08:18,469
+so we get a quaternion with only pure
+imaginary parts and no real part
+
+368
+00:08:18,469 --> 00:08:18,479
+imaginary parts and no real part
+ 
+
+369
+00:08:18,479 --> 00:08:20,749
+imaginary parts and no real part
+we rotate V with a double-sided
+
+370
+00:08:20,749 --> 00:08:20,759
+we rotate V with a double-sided
+ 
+
+371
+00:08:20,759 --> 00:08:22,490
+we rotate V with a double-sided
+transformation involving a unit
+
+372
+00:08:22,490 --> 00:08:22,500
+transformation involving a unit
+ 
+
+373
+00:08:22,500 --> 00:08:25,790
+transformation involving a unit
+quaternion Q which is a quaternion with
+
+374
+00:08:25,790 --> 00:08:25,800
+quaternion Q which is a quaternion with
+ 
+
+375
+00:08:25,800 --> 00:08:27,770
+quaternion Q which is a quaternion with
+length one
+
+376
+00:08:27,770 --> 00:08:27,780
+length one
+ 
+
+377
+00:08:27,780 --> 00:08:31,070
+length one
+the real part of Q is cosine Theta over
+
+378
+00:08:31,070 --> 00:08:31,080
+the real part of Q is cosine Theta over
+ 
+
+379
+00:08:31,080 --> 00:08:34,370
+the real part of Q is cosine Theta over
+2 and the imaginary part is sine Theta
+
+380
+00:08:34,370 --> 00:08:34,380
+2 and the imaginary part is sine Theta
+ 
+
+381
+00:08:34,380 --> 00:08:37,670
+2 and the imaginary part is sine Theta
+over 2 times the axis of rotation
+
+382
+00:08:37,670 --> 00:08:37,680
+over 2 times the axis of rotation
+ 
+
+383
+00:08:37,680 --> 00:08:39,909
+over 2 times the axis of rotation
+for example if we want to rotate
+
+384
+00:08:39,909 --> 00:08:39,919
+for example if we want to rotate
+ 
+
+385
+00:08:39,919 --> 00:08:43,430
+for example if we want to rotate
+counterclockwise around the z-axis we
+
+386
+00:08:43,430 --> 00:08:43,440
+counterclockwise around the z-axis we
+ 
+
+387
+00:08:43,440 --> 00:08:46,910
+counterclockwise around the z-axis we
+set the axis of rotation to K
+
+388
+00:08:46,910 --> 00:08:46,920
+set the axis of rotation to K
+ 
+
+389
+00:08:46,920 --> 00:08:49,850
+set the axis of rotation to K
+for the Q star on the right we take the
+
+390
+00:08:49,850 --> 00:08:49,860
+for the Q star on the right we take the
+ 
+
+391
+00:08:49,860 --> 00:08:52,130
+for the Q star on the right we take the
+quaternions conjugate which means
+
+392
+00:08:52,130 --> 00:08:52,140
+quaternions conjugate which means
+ 
+
+393
+00:08:52,140 --> 00:08:53,870
+quaternions conjugate which means
+reversing the signs of the imaginary
+
+394
+00:08:53,870 --> 00:08:53,880
+reversing the signs of the imaginary
+ 
+
+395
+00:08:53,880 --> 00:08:56,630
+reversing the signs of the imaginary
+units i j k
+
+396
+00:08:56,630 --> 00:08:56,640
+units i j k
+ 
+
+397
+00:08:56,640 --> 00:08:59,090
+units i j k
+here's a worked example of rotating the
+
+398
+00:08:59,090 --> 00:08:59,100
+here's a worked example of rotating the
+ 
+
+399
+00:08:59,100 --> 00:09:02,269
+here's a worked example of rotating the
+vector k around the J axis by an angle
+
+400
+00:09:02,269 --> 00:09:02,279
+vector k around the J axis by an angle
+ 
+
+401
+00:09:02,279 --> 00:09:05,269
+vector k around the J axis by an angle
+Theta using some basic trig identities
+
+402
+00:09:05,269 --> 00:09:05,279
+Theta using some basic trig identities
+ 
+
+403
+00:09:05,279 --> 00:09:07,970
+Theta using some basic trig identities
+we end up with some Vector that lives in
+
+404
+00:09:07,970 --> 00:09:07,980
+we end up with some Vector that lives in
+ 
+
+405
+00:09:07,980 --> 00:09:10,750
+we end up with some Vector that lives in
+the ik plane rotating from The Starting
+
+406
+00:09:10,750 --> 00:09:10,760
+the ik plane rotating from The Starting
+ 
+
+407
+00:09:10,760 --> 00:09:14,269
+the ik plane rotating from The Starting
+k-axis by an angle Theta
+
+408
+00:09:14,269 --> 00:09:14,279
+k-axis by an angle Theta
+ 
+
+409
+00:09:14,279 --> 00:09:16,790
+k-axis by an angle Theta
+you might also see this formula written
+
+410
+00:09:16,790 --> 00:09:16,800
+you might also see this formula written
+ 
+
+411
+00:09:16,800 --> 00:09:19,970
+you might also see this formula written
+with Q on the left and Q inverse on the
+
+412
+00:09:19,970 --> 00:09:19,980
+with Q on the left and Q inverse on the
+ 
+
+413
+00:09:19,980 --> 00:09:23,269
+with Q on the left and Q inverse on the
+right this formula works if Q is not
+
+414
+00:09:23,269 --> 00:09:23,279
+right this formula works if Q is not
+ 
+
+415
+00:09:23,279 --> 00:09:25,910
+right this formula works if Q is not
+normalized and has a length not equal to
+
+416
+00:09:25,910 --> 00:09:25,920
+normalized and has a length not equal to
+ 
+
+417
+00:09:25,920 --> 00:09:27,230
+normalized and has a length not equal to
+1.
+
+418
+00:09:27,230 --> 00:09:27,240
+1.
+ 
+
+419
+00:09:27,240 --> 00:09:30,230
+1.
+the denominator for Q inverse forces
+
+420
+00:09:30,230 --> 00:09:30,240
+the denominator for Q inverse forces
+ 
+
+421
+00:09:30,240 --> 00:09:34,430
+the denominator for Q inverse forces
+both Q's to have length one
+
+422
+00:09:34,430 --> 00:09:34,440
+
+ 
+
+423
+00:09:34,440 --> 00:09:36,470
+
+if we want to do rotations with the
+
+424
+00:09:36,470 --> 00:09:36,480
+if we want to do rotations with the
+ 
+
+425
+00:09:36,480 --> 00:09:39,470
+if we want to do rotations with the
+sigma matrices instead we rewrite a
+
+426
+00:09:39,470 --> 00:09:39,480
+sigma matrices instead we rewrite a
+ 
+
+427
+00:09:39,480 --> 00:09:42,230
+sigma matrices instead we rewrite a
+vector v by replacing the XYZ basis
+
+428
+00:09:42,230 --> 00:09:42,240
+vector v by replacing the XYZ basis
+ 
+
+429
+00:09:42,240 --> 00:09:45,430
+vector v by replacing the XYZ basis
+vectors with Sigma X Sigma Y and sigma Z
+
+430
+00:09:45,430 --> 00:09:45,440
+vectors with Sigma X Sigma Y and sigma Z
+ 
+
+431
+00:09:45,440 --> 00:09:49,670
+vectors with Sigma X Sigma Y and sigma Z
+and this gives us our Paoli vector
+
+432
+00:09:49,670 --> 00:09:49,680
+and this gives us our Paoli vector
+ 
+
+433
+00:09:49,680 --> 00:09:52,250
+and this gives us our Paoli vector
+the double-sided transformation uses a
+
+434
+00:09:52,250 --> 00:09:52,260
+the double-sided transformation uses a
+ 
+
+435
+00:09:52,260 --> 00:09:55,130
+the double-sided transformation uses a
+matrix U which equals cosine Theta over
+
+436
+00:09:55,130 --> 00:09:55,140
+matrix U which equals cosine Theta over
+ 
+
+437
+00:09:55,140 --> 00:09:58,790
+matrix U which equals cosine Theta over
+2 times the identity Matrix minus sine
+
+438
+00:09:58,790 --> 00:09:58,800
+2 times the identity Matrix minus sine
+ 
+
+439
+00:09:58,800 --> 00:10:02,930
+2 times the identity Matrix minus sine
+Theta over 2 times the plane of rotation
+
+440
+00:10:02,930 --> 00:10:02,940
+Theta over 2 times the plane of rotation
+ 
+
+441
+00:10:02,940 --> 00:10:05,509
+Theta over 2 times the plane of rotation
+for example if we want to rotate in the
+
+442
+00:10:05,509 --> 00:10:05,519
+for example if we want to rotate in the
+ 
+
+443
+00:10:05,519 --> 00:10:09,110
+for example if we want to rotate in the
+YZ plane in the direction taking y to Z
+
+444
+00:10:09,110 --> 00:10:09,120
+YZ plane in the direction taking y to Z
+ 
+
+445
+00:10:09,120 --> 00:10:13,009
+YZ plane in the direction taking y to Z
+we use Sigma y times Sigma Z
+
+446
+00:10:13,009 --> 00:10:13,019
+we use Sigma y times Sigma Z
+ 
+
+447
+00:10:13,019 --> 00:10:15,290
+we use Sigma y times Sigma Z
+for the Matrix on the right half of the
+
+448
+00:10:15,290 --> 00:10:15,300
+for the Matrix on the right half of the
+ 
+
+449
+00:10:15,300 --> 00:10:17,810
+for the Matrix on the right half of the
+double-sided transformation we take the
+
+450
+00:10:17,810 --> 00:10:17,820
+double-sided transformation we take the
+ 
+
+451
+00:10:17,820 --> 00:10:20,930
+double-sided transformation we take the
+complex conjugate transpose of U also
+
+452
+00:10:20,930 --> 00:10:20,940
+complex conjugate transpose of U also
+ 
+
+453
+00:10:20,940 --> 00:10:23,030
+complex conjugate transpose of U also
+called the hermitian conjugate of U
+
+454
+00:10:23,030 --> 00:10:23,040
+called the hermitian conjugate of U
+ 
+
+455
+00:10:23,040 --> 00:10:26,150
+called the hermitian conjugate of U
+denoted with the dagger symbol
+
+456
+00:10:26,150 --> 00:10:26,160
+denoted with the dagger symbol
+ 
+
+457
+00:10:26,160 --> 00:10:28,670
+denoted with the dagger symbol
+since the sigma matrices are hermitian
+
+458
+00:10:28,670 --> 00:10:28,680
+since the sigma matrices are hermitian
+ 
+
+459
+00:10:28,680 --> 00:10:31,250
+since the sigma matrices are hermitian
+and equal to their own daggers the
+
+460
+00:10:31,250 --> 00:10:31,260
+and equal to their own daggers the
+ 
+
+461
+00:10:31,260 --> 00:10:33,590
+and equal to their own daggers the
+daggered applied to a pair of them just
+
+462
+00:10:33,590 --> 00:10:33,600
+daggered applied to a pair of them just
+ 
+
+463
+00:10:33,600 --> 00:10:35,930
+daggered applied to a pair of them just
+swaps their order which is the same
+
+464
+00:10:35,930 --> 00:10:35,940
+swaps their order which is the same
+ 
+
+465
+00:10:35,940 --> 00:10:39,050
+swaps their order which is the same
+thing as introducing a negative sign
+
+466
+00:10:39,050 --> 00:10:39,060
+thing as introducing a negative sign
+ 
+
+467
+00:10:39,060 --> 00:10:41,570
+thing as introducing a negative sign
+so this is just the U Matrix but with
+
+468
+00:10:41,570 --> 00:10:41,580
+so this is just the U Matrix but with
+ 
+
+469
+00:10:41,580 --> 00:10:43,490
+so this is just the U Matrix but with
+the rotation angle working in the
+
+470
+00:10:43,490 --> 00:10:43,500
+the rotation angle working in the
+ 
+
+471
+00:10:43,500 --> 00:10:46,310
+the rotation angle working in the
+opposite direction so it's really U
+
+472
+00:10:46,310 --> 00:10:46,320
+opposite direction so it's really U
+ 
+
+473
+00:10:46,320 --> 00:10:47,509
+opposite direction so it's really U
+inverse
+
+474
+00:10:47,509 --> 00:10:47,519
+inverse
+ 
+
+475
+00:10:47,519 --> 00:10:49,970
+inverse
+so the dagger is basically playing the
+
+476
+00:10:49,970 --> 00:10:49,980
+so the dagger is basically playing the
+ 
+
+477
+00:10:49,980 --> 00:10:52,610
+so the dagger is basically playing the
+same role as the quaternion conjugate we
+
+478
+00:10:52,610 --> 00:10:52,620
+same role as the quaternion conjugate we
+ 
+
+479
+00:10:52,620 --> 00:10:57,410
+same role as the quaternion conjugate we
+saw earlier so it's really U inverse
+
+480
+00:10:57,410 --> 00:10:57,420
+saw earlier so it's really U inverse
+ 
+
+481
+00:10:57,420 --> 00:11:00,590
+saw earlier so it's really U inverse
+Since U dagger equals U inverse we call
+
+482
+00:11:00,590 --> 00:11:00,600
+Since U dagger equals U inverse we call
+ 
+
+483
+00:11:00,600 --> 00:11:03,410
+Since U dagger equals U inverse we call
+you a unitary Matrix
+
+484
+00:11:03,410 --> 00:11:03,420
+you a unitary Matrix
+ 
+
+485
+00:11:03,420 --> 00:11:05,150
+you a unitary Matrix
+another thing to note is that
+
+486
+00:11:05,150 --> 00:11:05,160
+another thing to note is that
+ 
+
+487
+00:11:05,160 --> 00:11:07,910
+another thing to note is that
+multiplying U by an overall phase Factor
+
+488
+00:11:07,910 --> 00:11:07,920
+multiplying U by an overall phase Factor
+ 
+
+489
+00:11:07,920 --> 00:11:10,550
+multiplying U by an overall phase Factor
+e to the I Phi will not change the
+
+490
+00:11:10,550 --> 00:11:10,560
+e to the I Phi will not change the
+ 
+
+491
+00:11:10,560 --> 00:11:13,009
+e to the I Phi will not change the
+rotation results since complex phase
+
+492
+00:11:13,009 --> 00:11:13,019
+rotation results since complex phase
+ 
+
+493
+00:11:13,019 --> 00:11:15,350
+rotation results since complex phase
+factors will cancel out
+
+494
+00:11:15,350 --> 00:11:15,360
+factors will cancel out
+ 
+
+495
+00:11:15,360 --> 00:11:17,750
+factors will cancel out
+as I showed in the last video this
+
+496
+00:11:17,750 --> 00:11:17,760
+as I showed in the last video this
+ 
+
+497
+00:11:17,760 --> 00:11:20,389
+as I showed in the last video this
+allows us to set the determinant of U to
+
+498
+00:11:20,389 --> 00:11:20,399
+allows us to set the determinant of U to
+ 
+
+499
+00:11:20,399 --> 00:11:23,389
+allows us to set the determinant of U to
+any complex number of magnitude 1 that
+
+500
+00:11:23,389 --> 00:11:23,399
+any complex number of magnitude 1 that
+ 
+
+501
+00:11:23,399 --> 00:11:24,650
+any complex number of magnitude 1 that
+we like
+
+502
+00:11:24,650 --> 00:11:24,660
+we like
+ 
+
+503
+00:11:24,660 --> 00:11:27,470
+we like
+so we set the determinant of U to be
+
+504
+00:11:27,470 --> 00:11:27,480
+so we set the determinant of U to be
+ 
+
+505
+00:11:27,480 --> 00:11:30,470
+so we set the determinant of U to be
+plus one by convention making it a
+
+506
+00:11:30,470 --> 00:11:30,480
+plus one by convention making it a
+ 
+
+507
+00:11:30,480 --> 00:11:33,949
+plus one by convention making it a
+special unitary Matrix su2
+
+508
+00:11:33,949 --> 00:11:33,959
+special unitary Matrix su2
+ 
+
+509
+00:11:33,959 --> 00:11:36,350
+special unitary Matrix su2
+here's an example of rotating the vector
+
+510
+00:11:36,350 --> 00:11:36,360
+here's an example of rotating the vector
+ 
+
+511
+00:11:36,360 --> 00:11:39,650
+here's an example of rotating the vector
+Sigma Z in the ZX plane
+
+512
+00:11:39,650 --> 00:11:39,660
+Sigma Z in the ZX plane
+ 
+
+513
+00:11:39,660 --> 00:11:42,290
+Sigma Z in the ZX plane
+the math works out in a similar way to
+
+514
+00:11:42,290 --> 00:11:42,300
+the math works out in a similar way to
+ 
+
+515
+00:11:42,300 --> 00:11:44,090
+the math works out in a similar way to
+the example we saw earlier with
+
+516
+00:11:44,090 --> 00:11:44,100
+the example we saw earlier with
+ 
+
+517
+00:11:44,100 --> 00:11:47,090
+the example we saw earlier with
+quaternions
+
+518
+00:11:47,090 --> 00:11:47,100
+
+ 
+
+519
+00:11:47,100 --> 00:11:49,850
+
+so the quaternion rotation formula is
+
+520
+00:11:49,850 --> 00:11:49,860
+so the quaternion rotation formula is
+ 
+
+521
+00:11:49,860 --> 00:11:53,150
+so the quaternion rotation formula is
+written in terms of a rotation axis and
+
+522
+00:11:53,150 --> 00:11:53,160
+written in terms of a rotation axis and
+ 
+
+523
+00:11:53,160 --> 00:11:56,269
+written in terms of a rotation axis and
+the su2 rotation formula with the sigmas
+
+524
+00:11:56,269 --> 00:11:56,279
+the su2 rotation formula with the sigmas
+ 
+
+525
+00:11:56,279 --> 00:11:59,269
+the su2 rotation formula with the sigmas
+is written in terms of a rotation plane
+
+526
+00:11:59,269 --> 00:11:59,279
+is written in terms of a rotation plane
+ 
+
+527
+00:11:59,279 --> 00:12:02,630
+is written in terms of a rotation plane
+but both formulas are equivalent related
+
+528
+00:12:02,630 --> 00:12:02,640
+but both formulas are equivalent related
+ 
+
+529
+00:12:02,640 --> 00:12:05,210
+but both formulas are equivalent related
+by this equivalence
+
+530
+00:12:05,210 --> 00:12:05,220
+by this equivalence
+ 
+
+531
+00:12:05,220 --> 00:12:08,329
+by this equivalence
+so both unit quaternions and the su2
+
+532
+00:12:08,329 --> 00:12:08,339
+so both unit quaternions and the su2
+ 
+
+533
+00:12:08,339 --> 00:12:11,449
+so both unit quaternions and the su2
+matrices give us a way of rotating 3D
+
+534
+00:12:11,449 --> 00:12:11,459
+matrices give us a way of rotating 3D
+ 
+
+535
+00:12:11,459 --> 00:12:13,370
+matrices give us a way of rotating 3D
+vectors using double-sided
+
+536
+00:12:13,370 --> 00:12:13,380
+vectors using double-sided
+ 
+
+537
+00:12:13,380 --> 00:12:14,930
+vectors using double-sided
+transformations
+
+538
+00:12:14,930 --> 00:12:14,940
+transformations
+ 
+
+539
+00:12:14,940 --> 00:12:17,269
+transformations
+these are both describing a more General
+
+540
+00:12:17,269 --> 00:12:17,279
+these are both describing a more General
+ 
+
+541
+00:12:17,279 --> 00:12:20,810
+these are both describing a more General
+concept called a spin group in
+
+542
+00:12:20,810 --> 00:12:20,820
+concept called a spin group in
+ 
+
+543
+00:12:20,820 --> 00:12:22,910
+concept called a spin group in
+particular these are two different ways
+
+544
+00:12:22,910 --> 00:12:22,920
+particular these are two different ways
+ 
+
+545
+00:12:22,920 --> 00:12:25,790
+particular these are two different ways
+of describing spin three the spin group
+
+546
+00:12:25,790 --> 00:12:25,800
+of describing spin three the spin group
+ 
+
+547
+00:12:25,800 --> 00:12:28,130
+of describing spin three the spin group
+of three-dimensional space
+
+548
+00:12:28,130 --> 00:12:28,140
+of three-dimensional space
+ 
+
+549
+00:12:28,140 --> 00:12:31,310
+of three-dimensional space
+3 is what we call the double cover of
+
+550
+00:12:31,310 --> 00:12:31,320
+3 is what we call the double cover of
+ 
+
+551
+00:12:31,320 --> 00:12:34,190
+3 is what we call the double cover of
+the rotation group SO3
+
+552
+00:12:34,190 --> 00:12:34,200
+the rotation group SO3
+ 
+
+553
+00:12:34,200 --> 00:12:36,410
+the rotation group SO3
+I mentioned before that we normally
+
+554
+00:12:36,410 --> 00:12:36,420
+I mentioned before that we normally
+ 
+
+555
+00:12:36,420 --> 00:12:39,410
+I mentioned before that we normally
+rotate 3D vectors using three by three
+
+556
+00:12:39,410 --> 00:12:39,420
+rotate 3D vectors using three by three
+ 
+
+557
+00:12:39,420 --> 00:12:43,250
+rotate 3D vectors using three by three
+matrices called SO3 matrices
+
+558
+00:12:43,250 --> 00:12:43,260
+matrices called SO3 matrices
+ 
+
+559
+00:12:43,260 --> 00:12:46,910
+matrices called SO3 matrices
+for every SO3 Matrix are there are two
+
+560
+00:12:46,910 --> 00:12:46,920
+for every SO3 Matrix are there are two
+ 
+
+561
+00:12:46,920 --> 00:12:50,329
+for every SO3 Matrix are there are two
+quaternions that do the same rotation if
+
+562
+00:12:50,329 --> 00:12:50,339
+quaternions that do the same rotation if
+ 
+
+563
+00:12:50,339 --> 00:12:52,370
+quaternions that do the same rotation if
+Q is a quaternion that does the same
+
+564
+00:12:52,370 --> 00:12:52,380
+Q is a quaternion that does the same
+ 
+
+565
+00:12:52,380 --> 00:12:55,610
+Q is a quaternion that does the same
+rotation as R then negative Q will do
+
+566
+00:12:55,610 --> 00:12:55,620
+rotation as R then negative Q will do
+ 
+
+567
+00:12:55,620 --> 00:12:58,129
+rotation as R then negative Q will do
+the same rotation since the pair of
+
+568
+00:12:58,129 --> 00:12:58,139
+the same rotation since the pair of
+ 
+
+569
+00:12:58,139 --> 00:13:00,410
+the same rotation since the pair of
+minus signs will cancel out in the
+
+570
+00:13:00,410 --> 00:13:00,420
+minus signs will cancel out in the
+ 
+
+571
+00:13:00,420 --> 00:13:03,050
+minus signs will cancel out in the
+double-sided transformation
+
+572
+00:13:03,050 --> 00:13:03,060
+double-sided transformation
+ 
+
+573
+00:13:03,060 --> 00:13:05,810
+double-sided transformation
+the same reasoning applies to su2
+
+574
+00:13:05,810 --> 00:13:05,820
+the same reasoning applies to su2
+ 
+
+575
+00:13:05,820 --> 00:13:10,190
+the same reasoning applies to su2
+matrices for a given SO3 Matrix R there
+
+576
+00:13:10,190 --> 00:13:10,200
+matrices for a given SO3 Matrix R there
+ 
+
+577
+00:13:10,200 --> 00:13:13,970
+matrices for a given SO3 Matrix R there
+are two su-2 matrices plus u and minus U
+
+578
+00:13:13,970 --> 00:13:13,980
+are two su-2 matrices plus u and minus U
+ 
+
+579
+00:13:13,980 --> 00:13:17,569
+are two su-2 matrices plus u and minus U
+that will perform the same rotation
+
+580
+00:13:17,569 --> 00:13:17,579
+that will perform the same rotation
+ 
+
+581
+00:13:17,579 --> 00:13:20,810
+that will perform the same rotation
+so the unit quaternions or equivalently
+
+582
+00:13:20,810 --> 00:13:20,820
+so the unit quaternions or equivalently
+ 
+
+583
+00:13:20,820 --> 00:13:24,170
+so the unit quaternions or equivalently
+the su2 matrices are considered the
+
+584
+00:13:24,170 --> 00:13:24,180
+the su2 matrices are considered the
+ 
+
+585
+00:13:24,180 --> 00:13:27,290
+the su2 matrices are considered the
+double cover of SO3 rotation matrices
+
+586
+00:13:27,290 --> 00:13:27,300
+double cover of SO3 rotation matrices
+ 
+
+587
+00:13:27,300 --> 00:13:29,930
+double cover of SO3 rotation matrices
+because there are two members that will
+
+588
+00:13:29,930 --> 00:13:29,940
+because there are two members that will
+ 
+
+589
+00:13:29,940 --> 00:13:32,329
+because there are two members that will
+do the same rotation for any given
+
+590
+00:13:32,329 --> 00:13:32,339
+do the same rotation for any given
+ 
+
+591
+00:13:32,339 --> 00:13:34,490
+do the same rotation for any given
+rotation r
+
+592
+00:13:34,490 --> 00:13:34,500
+rotation r
+ 
+
+593
+00:13:34,500 --> 00:13:37,129
+rotation r
+if we want to learn to build the higher
+
+594
+00:13:37,129 --> 00:13:37,139
+if we want to learn to build the higher
+ 
+
+595
+00:13:37,139 --> 00:13:39,170
+if we want to learn to build the higher
+dimensional versions of the quaternions
+
+596
+00:13:39,170 --> 00:13:39,180
+dimensional versions of the quaternions
+ 
+
+597
+00:13:39,180 --> 00:13:43,069
+dimensional versions of the quaternions
+that do rotations in four five six and
+
+598
+00:13:43,069 --> 00:13:43,079
+that do rotations in four five six and
+ 
+
+599
+00:13:43,079 --> 00:13:45,590
+that do rotations in four five six and
+generally n Dimensions we need to learn
+
+600
+00:13:45,590 --> 00:13:45,600
+generally n Dimensions we need to learn
+ 
+
+601
+00:13:45,600 --> 00:13:48,710
+generally n Dimensions we need to learn
+how to build the spin and group we'll do
+
+602
+00:13:48,710 --> 00:13:48,720
+how to build the spin and group we'll do
+ 
+
+603
+00:13:48,720 --> 00:13:50,810
+how to build the spin and group we'll do
+this later in the video series when we
+
+604
+00:13:50,810 --> 00:13:50,820
+this later in the video series when we
+ 
+
+605
+00:13:50,820 --> 00:13:53,449
+this later in the video series when we
+discuss Clifford algebras also called
+
+606
+00:13:53,449 --> 00:13:53,459
+discuss Clifford algebras also called
+ 
+
+607
+00:13:53,459 --> 00:13:56,090
+discuss Clifford algebras also called
+geometric algebras
+
+608
+00:13:56,090 --> 00:13:56,100
+geometric algebras
+ 
+
+609
+00:13:56,100 --> 00:13:58,310
+geometric algebras
+in the next video I'll show that we can
+
+610
+00:13:58,310 --> 00:13:58,320
+in the next video I'll show that we can
+ 
+
+611
+00:13:58,320 --> 00:14:01,610
+in the next video I'll show that we can
+factor a Pali Vector into a pair of Pali
+
+612
+00:14:01,610 --> 00:14:01,620
+factor a Pali Vector into a pair of Pali
+ 
+
+613
+00:14:01,620 --> 00:14:04,490
+factor a Pali Vector into a pair of Pali
+Spinners where each one transforms with
+
+614
+00:14:04,490 --> 00:14:04,500
+Spinners where each one transforms with
+ 
+
+615
+00:14:04,500 --> 00:14:07,250
+Spinners where each one transforms with
+a single su2 Matrix
+
+616
+00:14:07,250 --> 00:14:07,260
+a single su2 Matrix
+ 
+
+617
+00:14:07,260 --> 00:14:10,069
+a single su2 Matrix
+so basically we can think of vectors as
+
+618
+00:14:10,069 --> 00:14:10,079
+so basically we can think of vectors as
+ 
+
+619
+00:14:10,079 --> 00:14:12,590
+so basically we can think of vectors as
+objects that transform with a pair of
+
+620
+00:14:12,590 --> 00:14:12,600
+objects that transform with a pair of
+ 
+
+621
+00:14:12,600 --> 00:14:15,590
+objects that transform with a pair of
+quaternions and we can think of spinners
+
+622
+00:14:15,590 --> 00:14:15,600
+quaternions and we can think of spinners
+ 
+
+623
+00:14:15,600 --> 00:14:18,230
+quaternions and we can think of spinners
+as objects that transform with a single
+
+624
+00:14:18,230 --> 00:14:18,240
+as objects that transform with a single
+ 
+
+625
+00:14:18,240 --> 00:14:20,899
+as objects that transform with a single
+quaternion
+

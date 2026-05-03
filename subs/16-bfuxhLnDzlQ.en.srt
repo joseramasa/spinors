@@ -1,0 +1,5985 @@
+1
+00:00:00,280 --> 00:00:02,510
+
+this is the final video where we discuss
+
+2
+00:00:02,510 --> 00:00:02,520
+this is the final video where we discuss
+ 
+
+3
+00:00:02,520 --> 00:00:05,829
+this is the final video where we discuss
+Spinners as members of Clifford algebras
+
+4
+00:00:05,829 --> 00:00:05,839
+Spinners as members of Clifford algebras
+ 
+
+5
+00:00:05,839 --> 00:00:07,990
+Spinners as members of Clifford algebras
+in the previous video we discussed how
+
+6
+00:00:07,990 --> 00:00:08,000
+in the previous video we discussed how
+ 
+
+7
+00:00:08,000 --> 00:00:09,950
+in the previous video we discussed how
+Spinners are members of minimal left
+
+8
+00:00:09,950 --> 00:00:09,960
+Spinners are members of minimal left
+ 
+
+9
+00:00:09,960 --> 00:00:13,310
+Spinners are members of minimal left
+ideals in Clifford algebras the easiest
+
+10
+00:00:13,310 --> 00:00:13,320
+ideals in Clifford algebras the easiest
+ 
+
+11
+00:00:13,320 --> 00:00:15,829
+ideals in Clifford algebras the easiest
+way to get a minimal left ideal is to
+
+12
+00:00:15,829 --> 00:00:15,839
+way to get a minimal left ideal is to
+ 
+
+13
+00:00:15,839 --> 00:00:18,750
+way to get a minimal left ideal is to
+find a minimal projector or item potent
+
+14
+00:00:18,750 --> 00:00:18,760
+find a minimal projector or item potent
+ 
+
+15
+00:00:18,760 --> 00:00:21,710
+find a minimal projector or item potent
+element that creates a minimal left
+
+16
+00:00:21,710 --> 00:00:21,720
+element that creates a minimal left
+ 
+
+17
+00:00:21,720 --> 00:00:24,269
+element that creates a minimal left
+ideal in this video we're going to talk
+
+18
+00:00:24,269 --> 00:00:24,279
+ideal in this video we're going to talk
+ 
+
+19
+00:00:24,279 --> 00:00:26,470
+ideal in this video we're going to talk
+about nil potent Elements which are
+
+20
+00:00:26,470 --> 00:00:26,480
+about nil potent Elements which are
+ 
+
+21
+00:00:26,480 --> 00:00:29,029
+about nil potent Elements which are
+elements that square to zero and we'll
+
+22
+00:00:29,029 --> 00:00:29,039
+elements that square to zero and we'll
+ 
+
+23
+00:00:29,039 --> 00:00:32,150
+elements that square to zero and we'll
+see how nil poent can create projectors
+
+24
+00:00:32,150 --> 00:00:32,160
+see how nil poent can create projectors
+ 
+
+25
+00:00:32,160 --> 00:00:33,830
+see how nil poent can create projectors
+which can then create minimal left
+
+26
+00:00:33,830 --> 00:00:33,840
+which can then create minimal left
+ 
+
+27
+00:00:33,840 --> 00:00:35,310
+which can then create minimal left
+ideals for
+
+28
+00:00:35,310 --> 00:00:35,320
+ideals for
+ 
+
+29
+00:00:35,320 --> 00:00:38,470
+ideals for
+us I'm also going to discuss maximally
+
+30
+00:00:38,470 --> 00:00:38,480
+us I'm also going to discuss maximally
+ 
+
+31
+00:00:38,480 --> 00:00:40,950
+us I'm also going to discuss maximally
+isotropic subspaces and their
+
+32
+00:00:40,950 --> 00:00:40,960
+isotropic subspaces and their
+ 
+
+33
+00:00:40,960 --> 00:00:44,029
+isotropic subspaces and their
+relationship to minimal left ideals
+
+34
+00:00:44,029 --> 00:00:44,039
+relationship to minimal left ideals
+ 
+
+35
+00:00:44,039 --> 00:00:46,910
+relationship to minimal left ideals
+we'll see that as an isotropic Subspace
+
+36
+00:00:46,910 --> 00:00:46,920
+we'll see that as an isotropic Subspace
+ 
+
+37
+00:00:46,920 --> 00:00:49,470
+we'll see that as an isotropic Subspace
+gets bigger and bigger the corresponding
+
+38
+00:00:49,470 --> 00:00:49,480
+gets bigger and bigger the corresponding
+ 
+
+39
+00:00:49,480 --> 00:00:52,709
+gets bigger and bigger the corresponding
+ideal will get smaller and
+
+40
+00:00:52,709 --> 00:00:52,719
+ideal will get smaller and
+ 
+
+41
+00:00:52,719 --> 00:00:55,349
+ideal will get smaller and
+smaller now to start this video I'm
+
+42
+00:00:55,349 --> 00:00:55,359
+smaller now to start this video I'm
+ 
+
+43
+00:00:55,359 --> 00:00:57,349
+smaller now to start this video I'm
+going to talk about a concept in quantum
+
+44
+00:00:57,349 --> 00:00:57,359
+going to talk about a concept in quantum
+ 
+
+45
+00:00:57,359 --> 00:00:59,150
+going to talk about a concept in quantum
+mechanics called creation and
+
+46
+00:00:59,150 --> 00:00:59,160
+mechanics called creation and
+ 
+
+47
+00:00:59,160 --> 00:01:00,470
+mechanics called creation and
+annihilation
+
+48
+00:01:00,470 --> 00:01:00,480
+annihilation
+ 
+
+49
+00:01:00,480 --> 00:01:03,189
+annihilation
+operators these operators are used to
+
+50
+00:01:03,189 --> 00:01:03,199
+operators these operators are used to
+ 
+
+51
+00:01:03,199 --> 00:01:05,229
+operators these operators are used to
+create and Destroy particles in
+
+52
+00:01:05,229 --> 00:01:05,239
+create and Destroy particles in
+ 
+
+53
+00:01:05,239 --> 00:01:07,670
+create and Destroy particles in
+multi-particle quantum mechanics and
+
+54
+00:01:07,670 --> 00:01:07,680
+multi-particle quantum mechanics and
+ 
+
+55
+00:01:07,680 --> 00:01:10,590
+multi-particle quantum mechanics and
+Quantum field Theory I don't expect you
+
+56
+00:01:10,590 --> 00:01:10,600
+Quantum field Theory I don't expect you
+ 
+
+57
+00:01:10,600 --> 00:01:13,109
+Quantum field Theory I don't expect you
+to be too familiar with this but I've
+
+58
+00:01:13,109 --> 00:01:13,119
+to be too familiar with this but I've
+ 
+
+59
+00:01:13,119 --> 00:01:14,990
+to be too familiar with this but I've
+left some links in the description to
+
+60
+00:01:14,990 --> 00:01:15,000
+left some links in the description to
+ 
+
+61
+00:01:15,000 --> 00:01:17,630
+left some links in the description to
+videos that discuss them in more
+
+62
+00:01:17,630 --> 00:01:17,640
+videos that discuss them in more
+ 
+
+63
+00:01:17,640 --> 00:01:19,870
+videos that discuss them in more
+detail if you've ever studied the
+
+64
+00:01:19,870 --> 00:01:19,880
+detail if you've ever studied the
+ 
+
+65
+00:01:19,880 --> 00:01:22,429
+detail if you've ever studied the
+quantum harmonic oscillator you'll know
+
+66
+00:01:22,429 --> 00:01:22,439
+quantum harmonic oscillator you'll know
+ 
+
+67
+00:01:22,439 --> 00:01:24,270
+quantum harmonic oscillator you'll know
+that one way to solve for the energy
+
+68
+00:01:24,270 --> 00:01:24,280
+that one way to solve for the energy
+ 
+
+69
+00:01:24,280 --> 00:01:26,950
+that one way to solve for the energy
+levels is to use the so-called raising
+
+70
+00:01:26,950 --> 00:01:26,960
+levels is to use the so-called raising
+ 
+
+71
+00:01:26,960 --> 00:01:29,950
+levels is to use the so-called raising
+and lowering operators also called
+
+72
+00:01:29,950 --> 00:01:29,960
+and lowering operators also called
+ 
+
+73
+00:01:29,960 --> 00:01:30,950
+and lowering operators also called
+ladder
+
+74
+00:01:30,950 --> 00:01:30,960
+ladder
+ 
+
+75
+00:01:30,960 --> 00:01:33,630
+ladder
+operators these can be used to travel
+
+76
+00:01:33,630 --> 00:01:33,640
+operators these can be used to travel
+ 
+
+77
+00:01:33,640 --> 00:01:35,830
+operators these can be used to travel
+between the various quantized energy
+
+78
+00:01:35,830 --> 00:01:35,840
+between the various quantized energy
+ 
+
+79
+00:01:35,840 --> 00:01:37,230
+between the various quantized energy
+states of the
+
+80
+00:01:37,230 --> 00:01:37,240
+states of the
+ 
+
+81
+00:01:37,240 --> 00:01:39,910
+states of the
+oscillator also the commutator of the
+
+82
+00:01:39,910 --> 00:01:39,920
+oscillator also the commutator of the
+ 
+
+83
+00:01:39,920 --> 00:01:43,389
+oscillator also the commutator of the
+raising and lowering operators equals
+
+84
+00:01:43,389 --> 00:01:43,399
+raising and lowering operators equals
+ 
+
+85
+00:01:43,399 --> 00:01:46,270
+raising and lowering operators equals
+1 when we upgrade to multiparticle
+
+86
+00:01:46,270 --> 00:01:46,280
+1 when we upgrade to multiparticle
+ 
+
+87
+00:01:46,280 --> 00:01:48,510
+1 when we upgrade to multiparticle
+Quantum Mechanics we get similar
+
+88
+00:01:48,510 --> 00:01:48,520
+Quantum Mechanics we get similar
+ 
+
+89
+00:01:48,520 --> 00:01:50,670
+Quantum Mechanics we get similar
+operators that allow us to create
+
+90
+00:01:50,670 --> 00:01:50,680
+operators that allow us to create
+ 
+
+91
+00:01:50,680 --> 00:01:54,030
+operators that allow us to create
+particles and destroy or annihilate
+
+92
+00:01:54,030 --> 00:01:54,040
+particles and destroy or annihilate
+ 
+
+93
+00:01:54,040 --> 00:01:56,590
+particles and destroy or annihilate
+particles and they obey a similar
+
+94
+00:01:56,590 --> 00:01:56,600
+particles and they obey a similar
+ 
+
+95
+00:01:56,600 --> 00:01:58,149
+particles and they obey a similar
+commutation
+
+96
+00:01:58,149 --> 00:01:58,159
+commutation
+ 
+
+97
+00:01:58,159 --> 00:02:00,709
+commutation
+relation these operator work for
+
+98
+00:02:00,709 --> 00:02:00,719
+relation these operator work for
+ 
+
+99
+00:02:00,719 --> 00:02:02,429
+relation these operator work for
+particles called
+
+100
+00:02:02,429 --> 00:02:02,439
+particles called
+ 
+
+101
+00:02:02,439 --> 00:02:05,630
+particles called
+bons the defining property of bons is
+
+102
+00:02:05,630 --> 00:02:05,640
+bons the defining property of bons is
+ 
+
+103
+00:02:05,640 --> 00:02:08,389
+bons the defining property of bons is
+that multiple bons are allowed to occupy
+
+104
+00:02:08,389 --> 00:02:08,399
+that multiple bons are allowed to occupy
+ 
+
+105
+00:02:08,399 --> 00:02:11,550
+that multiple bons are allowed to occupy
+the same Quantum State the photon is an
+
+106
+00:02:11,550 --> 00:02:11,560
+the same Quantum State the photon is an
+ 
+
+107
+00:02:11,560 --> 00:02:13,110
+the same Quantum State the photon is an
+example of a
+
+108
+00:02:13,110 --> 00:02:13,120
+example of a
+ 
+
+109
+00:02:13,120 --> 00:02:15,550
+example of a
+bozon the other main category of
+
+110
+00:02:15,550 --> 00:02:15,560
+bozon the other main category of
+ 
+
+111
+00:02:15,560 --> 00:02:17,270
+bozon the other main category of
+particles is
+
+112
+00:02:17,270 --> 00:02:17,280
+particles is
+ 
+
+113
+00:02:17,280 --> 00:02:20,550
+particles is
+ferons the defining property of Fons is
+
+114
+00:02:20,550 --> 00:02:20,560
+ferons the defining property of Fons is
+ 
+
+115
+00:02:20,560 --> 00:02:22,990
+ferons the defining property of Fons is
+that they obey the PO Exclusion
+
+116
+00:02:22,990 --> 00:02:23,000
+that they obey the PO Exclusion
+ 
+
+117
+00:02:23,000 --> 00:02:25,949
+that they obey the PO Exclusion
+Principle which says that two Fons
+
+118
+00:02:25,949 --> 00:02:25,959
+Principle which says that two Fons
+ 
+
+119
+00:02:25,959 --> 00:02:28,270
+Principle which says that two Fons
+cannot exist in the same state at the
+
+120
+00:02:28,270 --> 00:02:28,280
+cannot exist in the same state at the
+ 
+
+121
+00:02:28,280 --> 00:02:31,869
+cannot exist in the same state at the
+same time matter type particles like
+
+122
+00:02:31,869 --> 00:02:31,879
+same time matter type particles like
+ 
+
+123
+00:02:31,879 --> 00:02:34,630
+same time matter type particles like
+quarks electrons and neutrinos are
+
+124
+00:02:34,630 --> 00:02:34,640
+quarks electrons and neutrinos are
+ 
+
+125
+00:02:34,640 --> 00:02:37,110
+quarks electrons and neutrinos are
+examples of
+
+126
+00:02:37,110 --> 00:02:37,120
+examples of
+ 
+
+127
+00:02:37,120 --> 00:02:39,869
+examples of
+Fons now let's look at the operators
+
+128
+00:02:39,869 --> 00:02:39,879
+Fons now let's look at the operators
+ 
+
+129
+00:02:39,879 --> 00:02:42,830
+Fons now let's look at the operators
+related to creating and destroying
+
+130
+00:02:42,830 --> 00:02:42,840
+related to creating and destroying
+ 
+
+131
+00:02:42,840 --> 00:02:46,110
+related to creating and destroying
+ferons so with Fons we only have two
+
+132
+00:02:46,110 --> 00:02:46,120
+ferons so with Fons we only have two
+ 
+
+133
+00:02:46,120 --> 00:02:48,990
+ferons so with Fons we only have two
+valid States the empty State and the
+
+134
+00:02:48,990 --> 00:02:49,000
+valid States the empty State and the
+ 
+
+135
+00:02:49,000 --> 00:02:52,070
+valid States the empty State and the
+full or occupied state which has a
+
+136
+00:02:52,070 --> 00:02:52,080
+full or occupied state which has a
+ 
+
+137
+00:02:52,080 --> 00:02:54,990
+full or occupied state which has a
+particle in it we'll say that the
+
+138
+00:02:54,990 --> 00:02:55,000
+particle in it we'll say that the
+ 
+
+139
+00:02:55,000 --> 00:02:57,550
+particle in it we'll say that the
+operator Alpha plus is the creation
+
+140
+00:02:57,550 --> 00:02:57,560
+operator Alpha plus is the creation
+ 
+
+141
+00:02:57,560 --> 00:02:59,750
+operator Alpha plus is the creation
+operator that takes the empty State and
+
+142
+00:02:59,750 --> 00:02:59,760
+operator that takes the empty State and
+ 
+
+143
+00:02:59,760 --> 00:03:02,430
+operator that takes the empty State and
+and creates a firon particle giving us
+
+144
+00:03:02,430 --> 00:03:02,440
+and creates a firon particle giving us
+ 
+
+145
+00:03:02,440 --> 00:03:06,550
+and creates a firon particle giving us
+the full or occupied state so Alpha plus
+
+146
+00:03:06,550 --> 00:03:06,560
+the full or occupied state so Alpha plus
+ 
+
+147
+00:03:06,560 --> 00:03:08,589
+the full or occupied state so Alpha plus
+acting on the empty State gives us the
+
+148
+00:03:08,589 --> 00:03:08,599
+acting on the empty State gives us the
+ 
+
+149
+00:03:08,599 --> 00:03:09,630
+acting on the empty State gives us the
+full
+
+150
+00:03:09,630 --> 00:03:09,640
+full
+ 
+
+151
+00:03:09,640 --> 00:03:12,910
+full
+State conversely we'll say the operator
+
+152
+00:03:12,910 --> 00:03:12,920
+State conversely we'll say the operator
+ 
+
+153
+00:03:12,920 --> 00:03:16,390
+State conversely we'll say the operator
+Alpha minus is the annihilation operator
+
+154
+00:03:16,390 --> 00:03:16,400
+Alpha minus is the annihilation operator
+ 
+
+155
+00:03:16,400 --> 00:03:18,630
+Alpha minus is the annihilation operator
+it takes the full State destroys the
+
+156
+00:03:18,630 --> 00:03:18,640
+it takes the full State destroys the
+ 
+
+157
+00:03:18,640 --> 00:03:21,509
+it takes the full State destroys the
+firmon particle and Returns the empty
+
+158
+00:03:21,509 --> 00:03:21,519
+firmon particle and Returns the empty
+ 
+
+159
+00:03:21,519 --> 00:03:24,589
+firmon particle and Returns the empty
+state so Alpha minus acting on the full
+
+160
+00:03:24,589 --> 00:03:24,599
+state so Alpha minus acting on the full
+ 
+
+161
+00:03:24,599 --> 00:03:26,990
+state so Alpha minus acting on the full
+State gives us the empty
+
+162
+00:03:26,990 --> 00:03:27,000
+State gives us the empty
+ 
+
+163
+00:03:27,000 --> 00:03:29,789
+State gives us the empty
+State now what would happen if we appli
+
+164
+00:03:29,789 --> 00:03:29,799
+State now what would happen if we appli
+ 
+
+165
+00:03:29,799 --> 00:03:32,910
+State now what would happen if we appli
+the creation operator to the full State
+
+166
+00:03:32,910 --> 00:03:32,920
+the creation operator to the full State
+ 
+
+167
+00:03:32,920 --> 00:03:35,149
+the creation operator to the full State
+creating another firon would imply we
+
+168
+00:03:35,149 --> 00:03:35,159
+creating another firon would imply we
+ 
+
+169
+00:03:35,159 --> 00:03:37,990
+creating another firon would imply we
+have two firion in the same state which
+
+170
+00:03:37,990 --> 00:03:38,000
+have two firion in the same state which
+ 
+
+171
+00:03:38,000 --> 00:03:41,589
+have two firion in the same state which
+is impossible so we say this is equal to
+
+172
+00:03:41,589 --> 00:03:41,599
+is impossible so we say this is equal to
+ 
+
+173
+00:03:41,599 --> 00:03:44,470
+is impossible so we say this is equal to
+zero this zero indicates that the
+
+174
+00:03:44,470 --> 00:03:44,480
+zero this zero indicates that the
+ 
+
+175
+00:03:44,480 --> 00:03:47,070
+zero this zero indicates that the
+probability of getting two or more Fons
+
+176
+00:03:47,070 --> 00:03:47,080
+probability of getting two or more Fons
+ 
+
+177
+00:03:47,080 --> 00:03:49,390
+probability of getting two or more Fons
+in the same state is
+
+178
+00:03:49,390 --> 00:03:49,400
+in the same state is
+ 
+
+179
+00:03:49,400 --> 00:03:52,270
+in the same state is
+zero similarly when we apply the
+
+180
+00:03:52,270 --> 00:03:52,280
+zero similarly when we apply the
+ 
+
+181
+00:03:52,280 --> 00:03:55,190
+zero similarly when we apply the
+annihilation operator to the empty State
+
+182
+00:03:55,190 --> 00:03:55,200
+annihilation operator to the empty State
+ 
+
+183
+00:03:55,200 --> 00:03:57,670
+annihilation operator to the empty State
+this would imply we have less than zero
+
+184
+00:03:57,670 --> 00:03:57,680
+this would imply we have less than zero
+ 
+
+185
+00:03:57,680 --> 00:04:00,350
+this would imply we have less than zero
+particles which is impossible
+
+186
+00:04:00,350 --> 00:04:00,360
+particles which is impossible
+ 
+
+187
+00:04:00,360 --> 00:04:03,390
+particles which is impossible
+so we say that this equals z as
+
+188
+00:04:03,390 --> 00:04:03,400
+so we say that this equals z as
+ 
+
+189
+00:04:03,400 --> 00:04:06,190
+so we say that this equals z as
+well if we examine these rules a little
+
+190
+00:04:06,190 --> 00:04:06,200
+well if we examine these rules a little
+ 
+
+191
+00:04:06,200 --> 00:04:09,069
+well if we examine these rules a little
+more we get some interesting
+
+192
+00:04:09,069 --> 00:04:09,079
+more we get some interesting
+ 
+
+193
+00:04:09,079 --> 00:04:11,550
+more we get some interesting
+results what happens when we apply the
+
+194
+00:04:11,550 --> 00:04:11,560
+results what happens when we apply the
+ 
+
+195
+00:04:11,560 --> 00:04:14,229
+results what happens when we apply the
+creation operator twice to the empty
+
+196
+00:04:14,229 --> 00:04:14,239
+creation operator twice to the empty
+ 
+
+197
+00:04:14,239 --> 00:04:17,509
+creation operator twice to the empty
+State the first operator fills the state
+
+198
+00:04:17,509 --> 00:04:17,519
+State the first operator fills the state
+ 
+
+199
+00:04:17,519 --> 00:04:19,909
+State the first operator fills the state
+and the second Operator just gives us
+
+200
+00:04:19,909 --> 00:04:19,919
+and the second Operator just gives us
+ 
+
+201
+00:04:19,919 --> 00:04:22,590
+and the second Operator just gives us
+zero and if we apply two creation
+
+202
+00:04:22,590 --> 00:04:22,600
+zero and if we apply two creation
+ 
+
+203
+00:04:22,600 --> 00:04:24,710
+zero and if we apply two creation
+operators to the full State we
+
+204
+00:04:24,710 --> 00:04:24,720
+operators to the full State we
+ 
+
+205
+00:04:24,720 --> 00:04:28,270
+operators to the full State we
+immediately get zero as a result so
+
+206
+00:04:28,270 --> 00:04:28,280
+immediately get zero as a result so
+ 
+
+207
+00:04:28,280 --> 00:04:30,870
+immediately get zero as a result so
+regardless of the initial State applying
+
+208
+00:04:30,870 --> 00:04:30,880
+regardless of the initial State applying
+ 
+
+209
+00:04:30,880 --> 00:04:34,150
+regardless of the initial State applying
+the creation operator twice gives us
+
+210
+00:04:34,150 --> 00:04:34,160
+the creation operator twice gives us
+ 
+
+211
+00:04:34,160 --> 00:04:36,950
+the creation operator twice gives us
+zero the same is true for applying the
+
+212
+00:04:36,950 --> 00:04:36,960
+zero the same is true for applying the
+ 
+
+213
+00:04:36,960 --> 00:04:40,270
+zero the same is true for applying the
+annihilation operator twice applying two
+
+214
+00:04:40,270 --> 00:04:40,280
+annihilation operator twice applying two
+ 
+
+215
+00:04:40,280 --> 00:04:42,950
+annihilation operator twice applying two
+Annihilation operators to the full State
+
+216
+00:04:42,950 --> 00:04:42,960
+Annihilation operators to the full State
+ 
+
+217
+00:04:42,960 --> 00:04:45,189
+Annihilation operators to the full State
+the first one empties the state and the
+
+218
+00:04:45,189 --> 00:04:45,199
+the first one empties the state and the
+ 
+
+219
+00:04:45,199 --> 00:04:48,590
+the first one empties the state and the
+second one gives zero and applying to
+
+220
+00:04:48,590 --> 00:04:48,600
+second one gives zero and applying to
+ 
+
+221
+00:04:48,600 --> 00:04:50,350
+second one gives zero and applying to
+Annihilation operators to the empty
+
+222
+00:04:50,350 --> 00:04:50,360
+Annihilation operators to the empty
+ 
+
+223
+00:04:50,360 --> 00:04:53,710
+Annihilation operators to the empty
+State gives us zero immediately so
+
+224
+00:04:53,710 --> 00:04:53,720
+State gives us zero immediately so
+ 
+
+225
+00:04:53,720 --> 00:04:55,990
+State gives us zero immediately so
+applying to Annihilation operators
+
+226
+00:04:55,990 --> 00:04:56,000
+applying to Annihilation operators
+ 
+
+227
+00:04:56,000 --> 00:04:57,790
+applying to Annihilation operators
+always gives
+
+228
+00:04:57,790 --> 00:04:57,800
+always gives
+ 
+
+229
+00:04:57,800 --> 00:05:01,550
+always gives
+zero so both Alpha plus and Alpha minus
+
+230
+00:05:01,550 --> 00:05:01,560
+zero so both Alpha plus and Alpha minus
+ 
+
+231
+00:05:01,560 --> 00:05:05,029
+zero so both Alpha plus and Alpha minus
+Square to Z we say an operator that
+
+232
+00:05:05,029 --> 00:05:05,039
+Square to Z we say an operator that
+ 
+
+233
+00:05:05,039 --> 00:05:08,150
+Square to Z we say an operator that
+squares to zero is called nil
+
+234
+00:05:08,150 --> 00:05:08,160
+squares to zero is called nil
+ 
+
+235
+00:05:08,160 --> 00:05:10,830
+squares to zero is called nil
+potent so both the creation and
+
+236
+00:05:10,830 --> 00:05:10,840
+potent so both the creation and
+ 
+
+237
+00:05:10,840 --> 00:05:14,749
+potent so both the creation and
+Annihilation operators for Fons are nil
+
+238
+00:05:14,749 --> 00:05:14,759
+Annihilation operators for Fons are nil
+ 
+
+239
+00:05:14,759 --> 00:05:17,390
+Annihilation operators for Fons are nil
+potent you might also see elements with
+
+240
+00:05:17,390 --> 00:05:17,400
+potent you might also see elements with
+ 
+
+241
+00:05:17,400 --> 00:05:20,990
+potent you might also see elements with
+this property called isotropic or null
+
+242
+00:05:20,990 --> 00:05:21,000
+this property called isotropic or null
+ 
+
+243
+00:05:21,000 --> 00:05:22,710
+this property called isotropic or null
+although this language is more often
+
+244
+00:05:22,710 --> 00:05:22,720
+although this language is more often
+ 
+
+245
+00:05:22,720 --> 00:05:25,590
+although this language is more often
+used in the case of
+
+246
+00:05:25,590 --> 00:05:25,600
+used in the case of
+ 
+
+247
+00:05:25,600 --> 00:05:28,189
+used in the case of
+vectors another interesting property
+
+248
+00:05:28,189 --> 00:05:28,199
+vectors another interesting property
+ 
+
+249
+00:05:28,199 --> 00:05:30,870
+vectors another interesting property
+involves the anti commutator of alpha
+
+250
+00:05:30,870 --> 00:05:30,880
+involves the anti commutator of alpha
+ 
+
+251
+00:05:30,880 --> 00:05:34,270
+involves the anti commutator of alpha
+minus and Alpha plus the anticommutator
+
+252
+00:05:34,270 --> 00:05:34,280
+minus and Alpha plus the anticommutator
+ 
+
+253
+00:05:34,280 --> 00:05:36,670
+minus and Alpha plus the anticommutator
+is usually denoted with these curly
+
+254
+00:05:36,670 --> 00:05:36,680
+is usually denoted with these curly
+ 
+
+255
+00:05:36,680 --> 00:05:39,070
+is usually denoted with these curly
+braces and represents adding the
+
+256
+00:05:39,070 --> 00:05:39,080
+braces and represents adding the
+ 
+
+257
+00:05:39,080 --> 00:05:41,110
+braces and represents adding the
+products of the two operators in the
+
+258
+00:05:41,110 --> 00:05:41,120
+products of the two operators in the
+ 
+
+259
+00:05:41,120 --> 00:05:43,390
+products of the two operators in the
+forwards and backwards
+
+260
+00:05:43,390 --> 00:05:43,400
+forwards and backwards
+ 
+
+261
+00:05:43,400 --> 00:05:45,590
+forwards and backwards
+directions let's apply the anti
+
+262
+00:05:45,590 --> 00:05:45,600
+directions let's apply the anti
+ 
+
+263
+00:05:45,600 --> 00:05:48,430
+directions let's apply the anti
+commutator to the empty State we
+
+264
+00:05:48,430 --> 00:05:48,440
+commutator to the empty State we
+ 
+
+265
+00:05:48,440 --> 00:05:51,430
+commutator to the empty State we
+distribute and get two terms for the
+
+266
+00:05:51,430 --> 00:05:51,440
+distribute and get two terms for the
+ 
+
+267
+00:05:51,440 --> 00:05:54,070
+distribute and get two terms for the
+first term we create on the empty state
+
+268
+00:05:54,070 --> 00:05:54,080
+first term we create on the empty state
+ 
+
+269
+00:05:54,080 --> 00:05:57,029
+first term we create on the empty state
+to get full and then destroy full to get
+
+270
+00:05:57,029 --> 00:05:57,039
+to get full and then destroy full to get
+ 
+
+271
+00:05:57,039 --> 00:06:00,150
+to get full and then destroy full to get
+empty again on the second term we
+
+272
+00:06:00,150 --> 00:06:00,160
+empty again on the second term we
+ 
+
+273
+00:06:00,160 --> 00:06:02,749
+empty again on the second term we
+destroy the empty state so we get
+
+274
+00:06:02,749 --> 00:06:02,759
+destroy the empty state so we get
+ 
+
+275
+00:06:02,759 --> 00:06:05,830
+destroy the empty state so we get
+zero overall applying the anticommutator
+
+276
+00:06:05,830 --> 00:06:05,840
+zero overall applying the anticommutator
+ 
+
+277
+00:06:05,840 --> 00:06:07,990
+zero overall applying the anticommutator
+to the empty State just gives us the
+
+278
+00:06:07,990 --> 00:06:08,000
+to the empty State just gives us the
+ 
+
+279
+00:06:08,000 --> 00:06:09,430
+to the empty State just gives us the
+empty State
+
+280
+00:06:09,430 --> 00:06:09,440
+empty State
+ 
+
+281
+00:06:09,440 --> 00:06:12,230
+empty State
+again now let's apply the anticommutator
+
+282
+00:06:12,230 --> 00:06:12,240
+again now let's apply the anticommutator
+ 
+
+283
+00:06:12,240 --> 00:06:16,510
+again now let's apply the anticommutator
+to the full State again we get two terms
+
+284
+00:06:16,510 --> 00:06:16,520
+to the full State again we get two terms
+ 
+
+285
+00:06:16,520 --> 00:06:18,670
+to the full State again we get two terms
+in the first term we try creating on the
+
+286
+00:06:18,670 --> 00:06:18,680
+in the first term we try creating on the
+ 
+
+287
+00:06:18,680 --> 00:06:22,070
+in the first term we try creating on the
+full state so we get zero in the second
+
+288
+00:06:22,070 --> 00:06:22,080
+full state so we get zero in the second
+ 
+
+289
+00:06:22,080 --> 00:06:24,309
+full state so we get zero in the second
+term we destroy the full state to get
+
+290
+00:06:24,309 --> 00:06:24,319
+term we destroy the full state to get
+ 
+
+291
+00:06:24,319 --> 00:06:27,870
+term we destroy the full state to get
+empty and then create to get full again
+
+292
+00:06:27,870 --> 00:06:27,880
+empty and then create to get full again
+ 
+
+293
+00:06:27,880 --> 00:06:29,629
+empty and then create to get full again
+so the anticommutator
+
+294
+00:06:29,629 --> 00:06:29,639
+so the anticommutator
+ 
+
+295
+00:06:29,639 --> 00:06:32,270
+so the anticommutator
+on the full State gives us the full
+
+296
+00:06:32,270 --> 00:06:32,280
+on the full State gives us the full
+ 
+
+297
+00:06:32,280 --> 00:06:34,589
+on the full State gives us the full
+State what this means is that the
+
+298
+00:06:34,589 --> 00:06:34,599
+State what this means is that the
+ 
+
+299
+00:06:34,599 --> 00:06:37,469
+State what this means is that the
+anticommutator of alpha minus and Alpha
+
+300
+00:06:37,469 --> 00:06:37,479
+anticommutator of alpha minus and Alpha
+ 
+
+301
+00:06:37,479 --> 00:06:40,790
+anticommutator of alpha minus and Alpha
+plus equals 1 because whichever State we
+
+302
+00:06:40,790 --> 00:06:40,800
+plus equals 1 because whichever State we
+ 
+
+303
+00:06:40,800 --> 00:06:43,589
+plus equals 1 because whichever State we
+apply it to is just returned to us
+
+304
+00:06:43,589 --> 00:06:43,599
+apply it to is just returned to us
+ 
+
+305
+00:06:43,599 --> 00:06:44,950
+apply it to is just returned to us
+without any
+
+306
+00:06:44,950 --> 00:06:44,960
+without any
+ 
+
+307
+00:06:44,960 --> 00:06:47,670
+without any
+changes we can also Express the nil
+
+308
+00:06:47,670 --> 00:06:47,680
+changes we can also Express the nil
+ 
+
+309
+00:06:47,680 --> 00:06:50,469
+changes we can also Express the nil
+potent of alpha minus and Alpha Plus in
+
+310
+00:06:50,469 --> 00:06:50,479
+potent of alpha minus and Alpha Plus in
+ 
+
+311
+00:06:50,479 --> 00:06:53,670
+potent of alpha minus and Alpha Plus in
+terms of anticommutator by saying that
+
+312
+00:06:53,670 --> 00:06:53,680
+terms of anticommutator by saying that
+ 
+
+313
+00:06:53,680 --> 00:06:56,070
+terms of anticommutator by saying that
+the anticommutator of alpha minus with
+
+314
+00:06:56,070 --> 00:06:56,080
+the anticommutator of alpha minus with
+ 
+
+315
+00:06:56,080 --> 00:06:59,070
+the anticommutator of alpha minus with
+itself is zero and the anticommutator of
+
+316
+00:06:59,070 --> 00:06:59,080
+itself is zero and the anticommutator of
+ 
+
+317
+00:06:59,080 --> 00:07:01,510
+itself is zero and the anticommutator of
+alpha a plus with itself is
+
+318
+00:07:01,510 --> 00:07:01,520
+alpha a plus with itself is
+ 
+
+319
+00:07:01,520 --> 00:07:04,309
+alpha a plus with itself is
+zero these three anti-commutation
+
+320
+00:07:04,309 --> 00:07:04,319
+zero these three anti-commutation
+ 
+
+321
+00:07:04,319 --> 00:07:06,950
+zero these three anti-commutation
+relations fully describe the creation
+
+322
+00:07:06,950 --> 00:07:06,960
+relations fully describe the creation
+ 
+
+323
+00:07:06,960 --> 00:07:10,430
+relations fully describe the creation
+and Annihilation operators for
+
+324
+00:07:10,430 --> 00:07:10,440
+and Annihilation operators for
+ 
+
+325
+00:07:10,440 --> 00:07:13,270
+and Annihilation operators for
+Fons now what can we do with
+
+326
+00:07:13,270 --> 00:07:13,280
+Fons now what can we do with
+ 
+
+327
+00:07:13,280 --> 00:07:16,110
+Fons now what can we do with
+this it turns out that the nil potent
+
+328
+00:07:16,110 --> 00:07:16,120
+this it turns out that the nil potent
+ 
+
+329
+00:07:16,120 --> 00:07:18,390
+this it turns out that the nil potent
+operators we just discovered the
+
+330
+00:07:18,390 --> 00:07:18,400
+operators we just discovered the
+ 
+
+331
+00:07:18,400 --> 00:07:20,869
+operators we just discovered the
+creation and Annihilation operators for
+
+332
+00:07:20,869 --> 00:07:20,879
+creation and Annihilation operators for
+ 
+
+333
+00:07:20,879 --> 00:07:23,990
+creation and Annihilation operators for
+Fons can be used to build projectors
+
+334
+00:07:23,990 --> 00:07:24,000
+Fons can be used to build projectors
+ 
+
+335
+00:07:24,000 --> 00:07:26,070
+Fons can be used to build projectors
+that give us minimal left ideals in
+
+336
+00:07:26,070 --> 00:07:26,080
+that give us minimal left ideals in
+ 
+
+337
+00:07:26,080 --> 00:07:27,589
+that give us minimal left ideals in
+Clifford
+
+338
+00:07:27,589 --> 00:07:27,599
+Clifford
+ 
+
+339
+00:07:27,599 --> 00:07:30,270
+Clifford
+algebras when we take the nil potent
+
+340
+00:07:30,270 --> 00:07:30,280
+algebras when we take the nil potent
+ 
+
+341
+00:07:30,280 --> 00:07:32,589
+algebras when we take the nil potent
+elements and form their anticommutator
+
+342
+00:07:32,589 --> 00:07:32,599
+elements and form their anticommutator
+ 
+
+343
+00:07:32,599 --> 00:07:36,309
+elements and form their anticommutator
+we see it gives one it turns out that
+
+344
+00:07:36,309 --> 00:07:36,319
+we see it gives one it turns out that
+ 
+
+345
+00:07:36,319 --> 00:07:39,309
+we see it gives one it turns out that
+the two terms in the anticommutator are
+
+346
+00:07:39,309 --> 00:07:39,319
+the two terms in the anticommutator are
+ 
+
+347
+00:07:39,319 --> 00:07:41,790
+the two terms in the anticommutator are
+orthogonal projector partners that sum
+
+348
+00:07:41,790 --> 00:07:41,800
+orthogonal projector partners that sum
+ 
+
+349
+00:07:41,800 --> 00:07:44,710
+orthogonal projector partners that sum
+to one similar to the projectors we've
+
+350
+00:07:44,710 --> 00:07:44,720
+to one similar to the projectors we've
+ 
+
+351
+00:07:44,720 --> 00:07:47,469
+to one similar to the projectors we've
+come across in the last couple
+
+352
+00:07:47,469 --> 00:07:47,479
+come across in the last couple
+ 
+
+353
+00:07:47,479 --> 00:07:50,070
+come across in the last couple
+videos if you like you can pause the
+
+354
+00:07:50,070 --> 00:07:50,080
+videos if you like you can pause the
+ 
+
+355
+00:07:50,080 --> 00:07:52,270
+videos if you like you can pause the
+video and try to prove that each of
+
+356
+00:07:52,270 --> 00:07:52,280
+video and try to prove that each of
+ 
+
+357
+00:07:52,280 --> 00:07:55,189
+video and try to prove that each of
+these two elements are projectors that
+
+358
+00:07:55,189 --> 00:07:55,199
+these two elements are projectors that
+ 
+
+359
+00:07:55,199 --> 00:07:57,830
+these two elements are projectors that
+is they Square to themselves but I'm
+
+360
+00:07:57,830 --> 00:07:57,840
+is they Square to themselves but I'm
+ 
+
+361
+00:07:57,840 --> 00:07:59,990
+is they Square to themselves but I'm
+going to go ahead and prove it now
+
+362
+00:07:59,990 --> 00:08:00,000
+going to go ahead and prove it now
+ 
+
+363
+00:08:00,000 --> 00:08:03,790
+going to go ahead and prove it now
+now let's take p+ which equals Alpha
+
+364
+00:08:03,790 --> 00:08:03,800
+now let's take p+ which equals Alpha
+ 
+
+365
+00:08:03,800 --> 00:08:06,189
+now let's take p+ which equals Alpha
+minus Alpha plus and show that it
+
+366
+00:08:06,189 --> 00:08:06,199
+minus Alpha plus and show that it
+ 
+
+367
+00:08:06,199 --> 00:08:09,510
+minus Alpha plus and show that it
+squares to itself we get a product of
+
+368
+00:08:09,510 --> 00:08:09,520
+squares to itself we get a product of
+ 
+
+369
+00:08:09,520 --> 00:08:12,790
+squares to itself we get a product of
+four operators and we can take the inner
+
+370
+00:08:12,790 --> 00:08:12,800
+four operators and we can take the inner
+ 
+
+371
+00:08:12,800 --> 00:08:15,710
+four operators and we can take the inner
+Alpha plus Alpha minus and notice that
+
+372
+00:08:15,710 --> 00:08:15,720
+Alpha plus Alpha minus and notice that
+ 
+
+373
+00:08:15,720 --> 00:08:17,430
+Alpha plus Alpha minus and notice that
+it matches this term In our
+
+374
+00:08:17,430 --> 00:08:17,440
+it matches this term In our
+ 
+
+375
+00:08:17,440 --> 00:08:19,189
+it matches this term In our
+anti-commutation
+
+376
+00:08:19,189 --> 00:08:19,199
+anti-commutation
+ 
+
+377
+00:08:19,199 --> 00:08:22,350
+anti-commutation
+relation this means we can rewrite it as
+
+378
+00:08:22,350 --> 00:08:22,360
+relation this means we can rewrite it as
+ 
+
+379
+00:08:22,360 --> 00:08:26,550
+relation this means we can rewrite it as
+1 minus Alpha minus Alpha plus after we
+
+380
+00:08:26,550 --> 00:08:26,560
+1 minus Alpha minus Alpha plus after we
+ 
+
+381
+00:08:26,560 --> 00:08:29,309
+1 minus Alpha minus Alpha plus after we
+distribute the first term becomes Alpha
+
+382
+00:08:29,309 --> 00:08:29,319
+distribute the first term becomes Alpha
+ 
+
+383
+00:08:29,319 --> 00:08:32,469
+distribute the first term becomes Alpha
+minus Alpha plus and the second term has
+
+384
+00:08:32,469 --> 00:08:32,479
+minus Alpha plus and the second term has
+ 
+
+385
+00:08:32,479 --> 00:08:35,230
+minus Alpha plus and the second term has
+Alpha minus twice which immediately goes
+
+386
+00:08:35,230 --> 00:08:35,240
+Alpha minus twice which immediately goes
+ 
+
+387
+00:08:35,240 --> 00:08:38,829
+Alpha minus twice which immediately goes
+to zero since it's nil potent so we end
+
+388
+00:08:38,829 --> 00:08:38,839
+to zero since it's nil potent so we end
+ 
+
+389
+00:08:38,839 --> 00:08:41,750
+to zero since it's nil potent so we end
+up with Alpha minus Alpha plus which is
+
+390
+00:08:41,750 --> 00:08:41,760
+up with Alpha minus Alpha plus which is
+ 
+
+391
+00:08:41,760 --> 00:08:43,750
+up with Alpha minus Alpha plus which is
+the original projector
+
+392
+00:08:43,750 --> 00:08:43,760
+the original projector
+ 
+
+393
+00:08:43,760 --> 00:08:47,829
+the original projector
+p+ so p+ does Square to itself meaning
+
+394
+00:08:47,829 --> 00:08:47,839
+p+ so p+ does Square to itself meaning
+ 
+
+395
+00:08:47,839 --> 00:08:49,910
+p+ so p+ does Square to itself meaning
+that p+ is a
+
+396
+00:08:49,910 --> 00:08:49,920
+that p+ is a
+ 
+
+397
+00:08:49,920 --> 00:08:52,630
+that p+ is a
+projector we can use a similar proof to
+
+398
+00:08:52,630 --> 00:08:52,640
+projector we can use a similar proof to
+ 
+
+399
+00:08:52,640 --> 00:08:55,350
+projector we can use a similar proof to
+show that P minus is a
+
+400
+00:08:55,350 --> 00:08:55,360
+show that P minus is a
+ 
+
+401
+00:08:55,360 --> 00:08:58,230
+show that P minus is a
+projector you can also pause and try to
+
+402
+00:08:58,230 --> 00:08:58,240
+projector you can also pause and try to
+ 
+
+403
+00:08:58,240 --> 00:09:01,350
+projector you can also pause and try to
+show that P plus and P minus are
+
+404
+00:09:01,350 --> 00:09:01,360
+show that P plus and P minus are
+ 
+
+405
+00:09:01,360 --> 00:09:03,790
+show that P plus and P minus are
+orthogonal that is their product in
+
+406
+00:09:03,790 --> 00:09:03,800
+orthogonal that is their product in
+ 
+
+407
+00:09:03,800 --> 00:09:08,269
+orthogonal that is their product in
+either direction is zero p+ * P minus
+
+408
+00:09:08,269 --> 00:09:08,279
+either direction is zero p+ * P minus
+ 
+
+409
+00:09:08,279 --> 00:09:10,949
+either direction is zero p+ * P minus
+gives us Alpha plus twice in the middle
+
+410
+00:09:10,949 --> 00:09:10,959
+gives us Alpha plus twice in the middle
+ 
+
+411
+00:09:10,959 --> 00:09:13,509
+gives us Alpha plus twice in the middle
+which goes to zero because it's nil
+
+412
+00:09:13,509 --> 00:09:13,519
+which goes to zero because it's nil
+ 
+
+413
+00:09:13,519 --> 00:09:16,190
+which goes to zero because it's nil
+potent and in the other direction P
+
+414
+00:09:16,190 --> 00:09:16,200
+potent and in the other direction P
+ 
+
+415
+00:09:16,200 --> 00:09:19,509
+potent and in the other direction P
+minus * p+ Alpha minus twice in the
+
+416
+00:09:19,509 --> 00:09:19,519
+minus * p+ Alpha minus twice in the
+ 
+
+417
+00:09:19,519 --> 00:09:22,389
+minus * p+ Alpha minus twice in the
+middle goes to zero because it's nil
+
+418
+00:09:22,389 --> 00:09:22,399
+middle goes to zero because it's nil
+ 
+
+419
+00:09:22,399 --> 00:09:25,470
+middle goes to zero because it's nil
+potent so using our nil potent elements
+
+420
+00:09:25,470 --> 00:09:25,480
+potent so using our nil potent elements
+ 
+
+421
+00:09:25,480 --> 00:09:28,310
+potent so using our nil potent elements
+Alpha minus and Alpha plus we're able to
+
+422
+00:09:28,310 --> 00:09:28,320
+Alpha minus and Alpha plus we're able to
+ 
+
+423
+00:09:28,320 --> 00:09:31,870
+Alpha minus and Alpha plus we're able to
+Define two orthogonal projectors p+ and
+
+424
+00:09:31,870 --> 00:09:31,880
+Define two orthogonal projectors p+ and
+ 
+
+425
+00:09:31,880 --> 00:09:34,509
+Define two orthogonal projectors p+ and
+P minus that sum to
+
+426
+00:09:34,509 --> 00:09:34,519
+P minus that sum to
+ 
+
+427
+00:09:34,519 --> 00:09:37,670
+P minus that sum to
+one before we defined projectors by
+
+428
+00:09:37,670 --> 00:09:37,680
+one before we defined projectors by
+ 
+
+429
+00:09:37,680 --> 00:09:40,150
+one before we defined projectors by
+finding an element u in our Clifford
+
+430
+00:09:40,150 --> 00:09:40,160
+finding an element u in our Clifford
+ 
+
+431
+00:09:40,160 --> 00:09:43,829
+finding an element u in our Clifford
+algebra that squared 2 + 1 and then
+
+432
+00:09:43,829 --> 00:09:43,839
+algebra that squared 2 + 1 and then
+ 
+
+433
+00:09:43,839 --> 00:09:47,710
+algebra that squared 2 + 1 and then
+using the Formula 1 12 * 1 + U to define
+
+434
+00:09:47,710 --> 00:09:47,720
+using the Formula 1 12 * 1 + U to define
+ 
+
+435
+00:09:47,720 --> 00:09:48,509
+using the Formula 1 12 * 1 + U to define
+a
+
+436
+00:09:48,509 --> 00:09:48,519
+a
+ 
+
+437
+00:09:48,519 --> 00:09:51,190
+a
+projector but now we have an alternative
+
+438
+00:09:51,190 --> 00:09:51,200
+projector but now we have an alternative
+ 
+
+439
+00:09:51,200 --> 00:09:53,630
+projector but now we have an alternative
+method for constructing projectors that
+
+440
+00:09:53,630 --> 00:09:53,640
+method for constructing projectors that
+ 
+
+441
+00:09:53,640 --> 00:09:57,509
+method for constructing projectors that
+uses nil potent that anti- commute to
+
+442
+00:09:57,509 --> 00:09:57,519
+uses nil potent that anti- commute to
+ 
+
+443
+00:09:57,519 --> 00:10:00,870
+uses nil potent that anti- commute to
+one so to some everything up we have two
+
+444
+00:10:00,870 --> 00:10:00,880
+one so to some everything up we have two
+ 
+
+445
+00:10:00,880 --> 00:10:04,190
+one so to some everything up we have two
+nil potents Alpha minus and Alpha plus
+
+446
+00:10:04,190 --> 00:10:04,200
+nil potents Alpha minus and Alpha plus
+ 
+
+447
+00:10:04,200 --> 00:10:07,110
+nil potents Alpha minus and Alpha plus
+that square to zero and also anti
+
+448
+00:10:07,110 --> 00:10:07,120
+that square to zero and also anti
+ 
+
+449
+00:10:07,120 --> 00:10:10,110
+that square to zero and also anti
+commute to one we can use these nil
+
+450
+00:10:10,110 --> 00:10:10,120
+commute to one we can use these nil
+ 
+
+451
+00:10:10,120 --> 00:10:13,150
+commute to one we can use these nil
+potents to Define projectors p+ and P
+
+452
+00:10:13,150 --> 00:10:13,160
+potents to Define projectors p+ and P
+ 
+
+453
+00:10:13,160 --> 00:10:17,030
+potents to Define projectors p+ and P
+minus which Square to themselves these
+
+454
+00:10:17,030 --> 00:10:17,040
+minus which Square to themselves these
+ 
+
+455
+00:10:17,040 --> 00:10:19,710
+minus which Square to themselves these
+projectors are orthogonal and multiply
+
+456
+00:10:19,710 --> 00:10:19,720
+projectors are orthogonal and multiply
+ 
+
+457
+00:10:19,720 --> 00:10:23,069
+projectors are orthogonal and multiply
+with each other to give zero we can also
+
+458
+00:10:23,069 --> 00:10:23,079
+with each other to give zero we can also
+ 
+
+459
+00:10:23,079 --> 00:10:25,509
+with each other to give zero we can also
+reinterpret this anti-commutation
+
+460
+00:10:25,509 --> 00:10:25,519
+reinterpret this anti-commutation
+ 
+
+461
+00:10:25,519 --> 00:10:28,430
+reinterpret this anti-commutation
+relation to mean that the two orthogonal
+
+462
+00:10:28,430 --> 00:10:28,440
+relation to mean that the two orthogonal
+ 
+
+463
+00:10:28,440 --> 00:10:31,430
+relation to mean that the two orthogonal
+projectors sum to
+
+464
+00:10:31,430 --> 00:10:31,440
+projectors sum to
+ 
+
+465
+00:10:31,440 --> 00:10:34,670
+projectors sum to
+one so all of this so far might seem a
+
+466
+00:10:34,670 --> 00:10:34,680
+one so all of this so far might seem a
+ 
+
+467
+00:10:34,680 --> 00:10:37,190
+one so all of this so far might seem a
+bit abstract we've been talking about
+
+468
+00:10:37,190 --> 00:10:37,200
+bit abstract we've been talking about
+ 
+
+469
+00:10:37,200 --> 00:10:40,509
+bit abstract we've been talking about
+nil potent and projectors in abstract
+
+470
+00:10:40,509 --> 00:10:40,519
+nil potent and projectors in abstract
+ 
+
+471
+00:10:40,519 --> 00:10:43,230
+nil potent and projectors in abstract
+terms but I haven't yet connected this
+
+472
+00:10:43,230 --> 00:10:43,240
+terms but I haven't yet connected this
+ 
+
+473
+00:10:43,240 --> 00:10:44,870
+terms but I haven't yet connected this
+back to Clifford
+
+474
+00:10:44,870 --> 00:10:44,880
+back to Clifford
+ 
+
+475
+00:10:44,880 --> 00:10:47,990
+back to Clifford
+algebras to get a concrete example let's
+
+476
+00:10:47,990 --> 00:10:48,000
+algebras to get a concrete example let's
+ 
+
+477
+00:10:48,000 --> 00:10:50,670
+algebras to get a concrete example let's
+look at the SpaceTime algebra
+
+478
+00:10:50,670 --> 00:10:50,680
+look at the SpaceTime algebra
+ 
+
+479
+00:10:50,680 --> 00:10:53,550
+look at the SpaceTime algebra
+cl13 where the basis Vector gamma T
+
+480
+00:10:53,550 --> 00:10:53,560
+cl13 where the basis Vector gamma T
+ 
+
+481
+00:10:53,560 --> 00:10:56,710
+cl13 where the basis Vector gamma T
+squares 2 + 1 and the basis vectors
+
+482
+00:10:56,710 --> 00:10:56,720
+squares 2 + 1 and the basis vectors
+ 
+
+483
+00:10:56,720 --> 00:11:01,069
+squares 2 + 1 and the basis vectors
+gamma's XY Z all square to - one and all
+
+484
+00:11:01,069 --> 00:11:01,079
+gamma's XY Z all square to - one and all
+ 
+
+485
+00:11:01,079 --> 00:11:03,829
+gamma's XY Z all square to - one and all
+the basis vectors anti commute with each
+
+486
+00:11:03,829 --> 00:11:03,839
+the basis vectors anti commute with each
+ 
+
+487
+00:11:03,839 --> 00:11:06,829
+the basis vectors anti commute with each
+other vectors in space time that point
+
+488
+00:11:06,829 --> 00:11:06,839
+other vectors in space time that point
+ 
+
+489
+00:11:06,839 --> 00:11:09,430
+other vectors in space time that point
+along the directions of light beams are
+
+490
+00:11:09,430 --> 00:11:09,440
+along the directions of light beams are
+ 
+
+491
+00:11:09,440 --> 00:11:12,389
+along the directions of light beams are
+called lightlike vectors and these
+
+492
+00:11:12,389 --> 00:11:12,399
+called lightlike vectors and these
+ 
+
+493
+00:11:12,399 --> 00:11:16,230
+called lightlike vectors and these
+lightlike vectors Square to zero for
+
+494
+00:11:16,230 --> 00:11:16,240
+lightlike vectors Square to zero for
+ 
+
+495
+00:11:16,240 --> 00:11:18,509
+lightlike vectors Square to zero for
+this reason we also say that lightlike
+
+496
+00:11:18,509 --> 00:11:18,519
+this reason we also say that lightlike
+ 
+
+497
+00:11:18,519 --> 00:11:22,870
+this reason we also say that lightlike
+vectors are null isotropic or nil
+
+498
+00:11:22,870 --> 00:11:22,880
+vectors are null isotropic or nil
+ 
+
+499
+00:11:22,880 --> 00:11:25,949
+vectors are null isotropic or nil
+potent a simple lightlike Vector is
+
+500
+00:11:25,949 --> 00:11:25,959
+potent a simple lightlike Vector is
+ 
+
+501
+00:11:25,959 --> 00:11:29,550
+potent a simple lightlike Vector is
+gamma t plus gamma Zed it's easy to see
+
+502
+00:11:29,550 --> 00:11:29,560
+gamma t plus gamma Zed it's easy to see
+ 
+
+503
+00:11:29,560 --> 00:11:32,629
+gamma t plus gamma Zed it's easy to see
+this Vector squares to zero the inner
+
+504
+00:11:32,629 --> 00:11:32,639
+this Vector squares to zero the inner
+ 
+
+505
+00:11:32,639 --> 00:11:35,269
+this Vector squares to zero the inner
+terms cancel because they anticommute
+
+506
+00:11:35,269 --> 00:11:35,279
+terms cancel because they anticommute
+ 
+
+507
+00:11:35,279 --> 00:11:38,550
+terms cancel because they anticommute
+and the outer terms become 1 - one which
+
+508
+00:11:38,550 --> 00:11:38,560
+and the outer terms become 1 - one which
+ 
+
+509
+00:11:38,560 --> 00:11:41,829
+and the outer terms become 1 - one which
+goes to zero so this lightlike Vector
+
+510
+00:11:41,829 --> 00:11:41,839
+goes to zero so this lightlike Vector
+ 
+
+511
+00:11:41,839 --> 00:11:44,910
+goes to zero so this lightlike Vector
+can be thought of as a nil potent
+
+512
+00:11:44,910 --> 00:11:44,920
+can be thought of as a nil potent
+ 
+
+513
+00:11:44,920 --> 00:11:48,269
+can be thought of as a nil potent
+element the vector gamma T minus gamma
+
+514
+00:11:48,269 --> 00:11:48,279
+element the vector gamma T minus gamma
+ 
+
+515
+00:11:48,279 --> 00:11:50,069
+element the vector gamma T minus gamma
+Zed which represents a light beam
+
+516
+00:11:50,069 --> 00:11:50,079
+Zed which represents a light beam
+ 
+
+517
+00:11:50,079 --> 00:11:52,710
+Zed which represents a light beam
+pointing in the minus Z direction also
+
+518
+00:11:52,710 --> 00:11:52,720
+pointing in the minus Z direction also
+ 
+
+519
+00:11:52,720 --> 00:11:54,509
+pointing in the minus Z direction also
+squares to
+
+520
+00:11:54,509 --> 00:11:54,519
+squares to
+ 
+
+521
+00:11:54,519 --> 00:11:57,590
+squares to
+zero for reasons that we'll see later
+
+522
+00:11:57,590 --> 00:11:57,600
+zero for reasons that we'll see later
+ 
+
+523
+00:11:57,600 --> 00:11:59,269
+zero for reasons that we'll see later
+I'm going to multiply both of the these
+
+524
+00:11:59,269 --> 00:11:59,279
+I'm going to multiply both of the these
+ 
+
+525
+00:11:59,279 --> 00:12:02,870
+I'm going to multiply both of the these
+vectors by 1/ 12 this doesn't change the
+
+526
+00:12:02,870 --> 00:12:02,880
+vectors by 1/ 12 this doesn't change the
+ 
+
+527
+00:12:02,880 --> 00:12:05,069
+vectors by 1/ 12 this doesn't change the
+fact that they're nil
+
+528
+00:12:05,069 --> 00:12:05,079
+fact that they're nil
+ 
+
+529
+00:12:05,079 --> 00:12:07,430
+fact that they're nil
+potent I'm going to call these two
+
+530
+00:12:07,430 --> 00:12:07,440
+potent I'm going to call these two
+ 
+
+531
+00:12:07,440 --> 00:12:10,069
+potent I'm going to call these two
+vectors Alpha plus and Alpha
+
+532
+00:12:10,069 --> 00:12:10,079
+vectors Alpha plus and Alpha
+ 
+
+533
+00:12:10,079 --> 00:12:12,629
+vectors Alpha plus and Alpha
+minus we can check that the product of
+
+534
+00:12:12,629 --> 00:12:12,639
+minus we can check that the product of
+ 
+
+535
+00:12:12,639 --> 00:12:15,069
+minus we can check that the product of
+these nil potent elements give
+
+536
+00:12:15,069 --> 00:12:15,079
+these nil potent elements give
+ 
+
+537
+00:12:15,079 --> 00:12:18,310
+these nil potent elements give
+projectors we'll Define p+ as Alpha
+
+538
+00:12:18,310 --> 00:12:18,320
+projectors we'll Define p+ as Alpha
+ 
+
+539
+00:12:18,320 --> 00:12:21,710
+projectors we'll Define p+ as Alpha
+minus * Alpha plus expanding all this
+
+540
+00:12:21,710 --> 00:12:21,720
+minus * Alpha plus expanding all this
+ 
+
+541
+00:12:21,720 --> 00:12:26,750
+minus * Alpha plus expanding all this
+out we get 1 12 * 1 + gamma T gamma
+
+542
+00:12:26,750 --> 00:12:26,760
+out we get 1 12 * 1 + gamma T gamma
+ 
+
+543
+00:12:26,760 --> 00:12:29,949
+out we get 1 12 * 1 + gamma T gamma
+Z this gamma T gamma Zed by Vector
+
+544
+00:12:29,949 --> 00:12:29,959
+Z this gamma T gamma Zed by Vector
+ 
+
+545
+00:12:29,959 --> 00:12:32,949
+Z this gamma T gamma Zed by Vector
+squares 2 + 1 so this looks like the
+
+546
+00:12:32,949 --> 00:12:32,959
+squares 2 + 1 so this looks like the
+ 
+
+547
+00:12:32,959 --> 00:12:34,870
+squares 2 + 1 so this looks like the
+projectors we're familiar with from
+
+548
+00:12:34,870 --> 00:12:34,880
+projectors we're familiar with from
+ 
+
+549
+00:12:34,880 --> 00:12:36,110
+projectors we're familiar with from
+previous
+
+550
+00:12:36,110 --> 00:12:36,120
+previous
+ 
+
+551
+00:12:36,120 --> 00:12:39,509
+previous
+videos we also Define p minus to be
+
+552
+00:12:39,509 --> 00:12:39,519
+videos we also Define p minus to be
+ 
+
+553
+00:12:39,519 --> 00:12:42,949
+videos we also Define p minus to be
+Alpha plus * Alpha minus this gives us
+
+554
+00:12:42,949 --> 00:12:42,959
+Alpha plus * Alpha minus this gives us
+ 
+
+555
+00:12:42,959 --> 00:12:46,670
+Alpha plus * Alpha minus this gives us
+the complimentary projector 1 12 * 1 -
+
+556
+00:12:46,670 --> 00:12:46,680
+the complimentary projector 1 12 * 1 -
+ 
+
+557
+00:12:46,680 --> 00:12:48,430
+the complimentary projector 1 12 * 1 -
+gamma T gamma
+
+558
+00:12:48,430 --> 00:12:48,440
+gamma T gamma
+ 
+
+559
+00:12:48,440 --> 00:12:50,990
+gamma T gamma
+Zed it's easy to see that when we add
+
+560
+00:12:50,990 --> 00:12:51,000
+Zed it's easy to see that when we add
+ 
+
+561
+00:12:51,000 --> 00:12:54,110
+Zed it's easy to see that when we add
+these two projectors we get 1 or
+
+562
+00:12:54,110 --> 00:12:54,120
+these two projectors we get 1 or
+ 
+
+563
+00:12:54,120 --> 00:12:56,629
+these two projectors we get 1 or
+equivalently the anticommutator of our
+
+564
+00:12:56,629 --> 00:12:56,639
+equivalently the anticommutator of our
+ 
+
+565
+00:12:56,639 --> 00:12:59,550
+equivalently the anticommutator of our
+two nil potent is one
+
+566
+00:12:59,550 --> 00:12:59,560
+two nil potent is one
+ 
+
+567
+00:12:59,560 --> 00:13:01,750
+two nil potent is one
+this is why we multiplied our nil potent
+
+568
+00:13:01,750 --> 00:13:01,760
+this is why we multiplied our nil potent
+ 
+
+569
+00:13:01,760 --> 00:13:04,509
+this is why we multiplied our nil potent
+by a factor of 1/2 we wanted to make
+
+570
+00:13:04,509 --> 00:13:04,519
+by a factor of 1/2 we wanted to make
+ 
+
+571
+00:13:04,519 --> 00:13:07,269
+by a factor of 1/2 we wanted to make
+sure the anticommutator gave us one
+
+572
+00:13:07,269 --> 00:13:07,279
+sure the anticommutator gave us one
+ 
+
+573
+00:13:07,279 --> 00:13:09,470
+sure the anticommutator gave us one
+instead of
+
+574
+00:13:09,470 --> 00:13:09,480
+instead of
+ 
+
+575
+00:13:09,480 --> 00:13:12,310
+instead of
+four so let's review what we've done
+
+576
+00:13:12,310 --> 00:13:12,320
+four so let's review what we've done
+ 
+
+577
+00:13:12,320 --> 00:13:14,710
+four so let's review what we've done
+here we started with our SpaceTime
+
+578
+00:13:14,710 --> 00:13:14,720
+here we started with our SpaceTime
+ 
+
+579
+00:13:14,720 --> 00:13:16,710
+here we started with our SpaceTime
+algebra
+
+580
+00:13:16,710 --> 00:13:16,720
+algebra
+ 
+
+581
+00:13:16,720 --> 00:13:19,870
+algebra
+cl13 then we found a pair of nil potent
+
+582
+00:13:19,870 --> 00:13:19,880
+cl13 then we found a pair of nil potent
+ 
+
+583
+00:13:19,880 --> 00:13:22,590
+cl13 then we found a pair of nil potent
+elements Alpha plus and Alpha minus that
+
+584
+00:13:22,590 --> 00:13:22,600
+elements Alpha plus and Alpha minus that
+ 
+
+585
+00:13:22,600 --> 00:13:26,069
+elements Alpha plus and Alpha minus that
+anticommute 2 one we then used the
+
+586
+00:13:26,069 --> 00:13:26,079
+anticommute 2 one we then used the
+ 
+
+587
+00:13:26,079 --> 00:13:28,350
+anticommute 2 one we then used the
+products of these nil potents to give us
+
+588
+00:13:28,350 --> 00:13:28,360
+products of these nil potents to give us
+ 
+
+589
+00:13:28,360 --> 00:13:31,670
+products of these nil potents to give us
+project s we can now use one of these
+
+590
+00:13:31,670 --> 00:13:31,680
+project s we can now use one of these
+ 
+
+591
+00:13:31,680 --> 00:13:34,310
+project s we can now use one of these
+projectors to give us a left ideal by
+
+592
+00:13:34,310 --> 00:13:34,320
+projectors to give us a left ideal by
+ 
+
+593
+00:13:34,320 --> 00:13:36,590
+projectors to give us a left ideal by
+multiplying the entire algebra onto the
+
+594
+00:13:36,590 --> 00:13:36,600
+multiplying the entire algebra onto the
+ 
+
+595
+00:13:36,600 --> 00:13:39,350
+multiplying the entire algebra onto the
+projector from the left a procedure we
+
+596
+00:13:39,350 --> 00:13:39,360
+projector from the left a procedure we
+ 
+
+597
+00:13:39,360 --> 00:13:41,949
+projector from the left a procedure we
+talked about in the previous two
+
+598
+00:13:41,949 --> 00:13:41,959
+talked about in the previous two
+ 
+
+599
+00:13:41,959 --> 00:13:44,949
+talked about in the previous two
+videos however we saw in the last video
+
+600
+00:13:44,949 --> 00:13:44,959
+videos however we saw in the last video
+ 
+
+601
+00:13:44,959 --> 00:13:46,910
+videos however we saw in the last video
+that one projector in
+
+602
+00:13:46,910 --> 00:13:46,920
+that one projector in
+ 
+
+603
+00:13:46,920 --> 00:13:50,069
+that one projector in
+cl13 is not enough to give us a minimal
+
+604
+00:13:50,069 --> 00:13:50,079
+cl13 is not enough to give us a minimal
+ 
+
+605
+00:13:50,079 --> 00:13:52,949
+cl13 is not enough to give us a minimal
+ideal there are still smaller ideals
+
+606
+00:13:52,949 --> 00:13:52,959
+ideal there are still smaller ideals
+ 
+
+607
+00:13:52,959 --> 00:13:55,749
+ideal there are still smaller ideals
+inside our current ideal so we need to
+
+608
+00:13:55,749 --> 00:13:55,759
+inside our current ideal so we need to
+ 
+
+609
+00:13:55,759 --> 00:13:58,230
+inside our current ideal so we need to
+find another projector to make our ideal
+
+610
+00:13:58,230 --> 00:13:58,240
+find another projector to make our ideal
+ 
+
+611
+00:13:58,240 --> 00:13:59,430
+find another projector to make our ideal
+even
+
+612
+00:13:59,430 --> 00:13:59,440
+even
+ 
+
+613
+00:13:59,440 --> 00:14:01,749
+even
+smaller we can do this by finding
+
+614
+00:14:01,749 --> 00:14:01,759
+smaller we can do this by finding
+ 
+
+615
+00:14:01,759 --> 00:14:04,430
+smaller we can do this by finding
+another pair of nil potent
+
+616
+00:14:04,430 --> 00:14:04,440
+another pair of nil potent
+ 
+
+617
+00:14:04,440 --> 00:14:07,590
+another pair of nil potent
+elements I'm going to choose beta plus
+
+618
+00:14:07,590 --> 00:14:07,600
+elements I'm going to choose beta plus
+ 
+
+619
+00:14:07,600 --> 00:14:12,269
+elements I'm going to choose beta plus
+which is 12 * I gamma x + gamma Y and
+
+620
+00:14:12,269 --> 00:14:12,279
+which is 12 * I gamma x + gamma Y and
+ 
+
+621
+00:14:12,279 --> 00:14:15,550
+which is 12 * I gamma x + gamma Y and
+beta minus which is 1 12 * I gamma x
+
+622
+00:14:15,550 --> 00:14:15,560
+beta minus which is 1 12 * I gamma x
+ 
+
+623
+00:14:15,560 --> 00:14:16,990
+beta minus which is 1 12 * I gamma x
+minus gamma
+
+624
+00:14:16,990 --> 00:14:17,000
+minus gamma
+ 
+
+625
+00:14:17,000 --> 00:14:19,269
+minus gamma
+y you can go ahead and check for
+
+626
+00:14:19,269 --> 00:14:19,279
+y you can go ahead and check for
+ 
+
+627
+00:14:19,279 --> 00:14:21,470
+y you can go ahead and check for
+yourself that these elements Square to
+
+628
+00:14:21,470 --> 00:14:21,480
+yourself that these elements Square to
+ 
+
+629
+00:14:21,480 --> 00:14:24,870
+yourself that these elements Square to
+zero and also anti- commute to
+
+630
+00:14:24,870 --> 00:14:24,880
+zero and also anti- commute to
+ 
+
+631
+00:14:24,880 --> 00:14:27,749
+zero and also anti- commute to
+one another important property is that
+
+632
+00:14:27,749 --> 00:14:27,759
+one another important property is that
+ 
+
+633
+00:14:27,759 --> 00:14:31,230
+one another important property is that
+the betas an commute with the alphas so
+
+634
+00:14:31,230 --> 00:14:31,240
+the betas an commute with the alphas so
+ 
+
+635
+00:14:31,240 --> 00:14:33,350
+the betas an commute with the alphas so
+we can swap the order of an alpha and a
+
+636
+00:14:33,350 --> 00:14:33,360
+we can swap the order of an alpha and a
+ 
+
+637
+00:14:33,360 --> 00:14:35,870
+we can swap the order of an alpha and a
+beta in exchange for a negative
+
+638
+00:14:35,870 --> 00:14:35,880
+beta in exchange for a negative
+ 
+
+639
+00:14:35,880 --> 00:14:38,829
+beta in exchange for a negative
+sign the reason this is important is
+
+640
+00:14:38,829 --> 00:14:38,839
+sign the reason this is important is
+ 
+
+641
+00:14:38,839 --> 00:14:40,910
+sign the reason this is important is
+because it means projectors built from
+
+642
+00:14:40,910 --> 00:14:40,920
+because it means projectors built from
+ 
+
+643
+00:14:40,920 --> 00:14:43,749
+because it means projectors built from
+alphas and projectors built from betas
+
+644
+00:14:43,749 --> 00:14:43,759
+alphas and projectors built from betas
+ 
+
+645
+00:14:43,759 --> 00:14:45,389
+alphas and projectors built from betas
+will commute with each
+
+646
+00:14:45,389 --> 00:14:45,399
+will commute with each
+ 
+
+647
+00:14:45,399 --> 00:14:48,550
+will commute with each
+other remember the reason we care about
+
+648
+00:14:48,550 --> 00:14:48,560
+other remember the reason we care about
+ 
+
+649
+00:14:48,560 --> 00:14:50,910
+other remember the reason we care about
+commuting projectors is because the
+
+650
+00:14:50,910 --> 00:14:50,920
+commuting projectors is because the
+ 
+
+651
+00:14:50,920 --> 00:14:53,790
+commuting projectors is because the
+product of commuting projectors is also
+
+652
+00:14:53,790 --> 00:14:53,800
+product of commuting projectors is also
+ 
+
+653
+00:14:53,800 --> 00:14:55,350
+product of commuting projectors is also
+a
+
+654
+00:14:55,350 --> 00:14:55,360
+a
+ 
+
+655
+00:14:55,360 --> 00:14:58,389
+a
+projector if we Define the projector Q
+
+656
+00:14:58,389 --> 00:14:58,399
+projector if we Define the projector Q
+ 
+
+657
+00:14:58,399 --> 00:15:01,389
+projector if we Define the projector Q
+Plus and Q minus using the products of
+
+658
+00:15:01,389 --> 00:15:01,399
+Plus and Q minus using the products of
+ 
+
+659
+00:15:01,399 --> 00:15:04,230
+Plus and Q minus using the products of
+the betas we get these projectors that
+
+660
+00:15:04,230 --> 00:15:04,240
+the betas we get these projectors that
+ 
+
+661
+00:15:04,240 --> 00:15:06,230
+the betas we get these projectors that
+we saw in the previous
+
+662
+00:15:06,230 --> 00:15:06,240
+we saw in the previous
+ 
+
+663
+00:15:06,240 --> 00:15:10,910
+we saw in the previous
+video if we multiply p+ and q+ we can
+
+664
+00:15:10,910 --> 00:15:10,920
+video if we multiply p+ and q+ we can
+ 
+
+665
+00:15:10,920 --> 00:15:13,310
+video if we multiply p+ and q+ we can
+rewrite the projectors out in terms of
+
+666
+00:15:13,310 --> 00:15:13,320
+rewrite the projectors out in terms of
+ 
+
+667
+00:15:13,320 --> 00:15:15,710
+rewrite the projectors out in terms of
+our Alpha and beta nil
+
+668
+00:15:15,710 --> 00:15:15,720
+our Alpha and beta nil
+ 
+
+669
+00:15:15,720 --> 00:15:19,030
+our Alpha and beta nil
+potent we can then swap beta minus over
+
+670
+00:15:19,030 --> 00:15:19,040
+potent we can then swap beta minus over
+ 
+
+671
+00:15:19,040 --> 00:15:22,030
+potent we can then swap beta minus over
+in exchange for two negative signs and
+
+672
+00:15:22,030 --> 00:15:22,040
+in exchange for two negative signs and
+ 
+
+673
+00:15:22,040 --> 00:15:24,629
+in exchange for two negative signs and
+then swap beta plus over in exchange for
+
+674
+00:15:24,629 --> 00:15:24,639
+then swap beta plus over in exchange for
+ 
+
+675
+00:15:24,639 --> 00:15:25,910
+then swap beta plus over in exchange for
+two negative
+
+676
+00:15:25,910 --> 00:15:25,920
+two negative
+ 
+
+677
+00:15:25,920 --> 00:15:29,110
+two negative
+signs overall there is no sign ch change
+
+678
+00:15:29,110 --> 00:15:29,120
+signs overall there is no sign ch change
+ 
+
+679
+00:15:29,120 --> 00:15:30,949
+signs overall there is no sign ch change
+and we've managed to swap the order of
+
+680
+00:15:30,949 --> 00:15:30,959
+and we've managed to swap the order of
+ 
+
+681
+00:15:30,959 --> 00:15:33,710
+and we've managed to swap the order of
+the alphas and betas which means we've
+
+682
+00:15:33,710 --> 00:15:33,720
+the alphas and betas which means we've
+ 
+
+683
+00:15:33,720 --> 00:15:36,309
+the alphas and betas which means we've
+swapped the order of our
+
+684
+00:15:36,309 --> 00:15:36,319
+swapped the order of our
+ 
+
+685
+00:15:36,319 --> 00:15:39,269
+swapped the order of our
+projectors so just to make this clear
+
+686
+00:15:39,269 --> 00:15:39,279
+projectors so just to make this clear
+ 
+
+687
+00:15:39,279 --> 00:15:41,470
+projectors so just to make this clear
+when we build projectors from pairs of
+
+688
+00:15:41,470 --> 00:15:41,480
+when we build projectors from pairs of
+ 
+
+689
+00:15:41,480 --> 00:15:43,949
+when we build projectors from pairs of
+nil potents where the nil potents
+
+690
+00:15:43,949 --> 00:15:43,959
+nil potents where the nil potents
+ 
+
+691
+00:15:43,959 --> 00:15:46,189
+nil potents where the nil potents
+between the pairs anti commute with each
+
+692
+00:15:46,189 --> 00:15:46,199
+between the pairs anti commute with each
+ 
+
+693
+00:15:46,199 --> 00:15:48,749
+between the pairs anti commute with each
+other we end up with projectors that
+
+694
+00:15:48,749 --> 00:15:48,759
+other we end up with projectors that
+ 
+
+695
+00:15:48,759 --> 00:15:50,350
+other we end up with projectors that
+commute with each
+
+696
+00:15:50,350 --> 00:15:50,360
+commute with each
+ 
+
+697
+00:15:50,360 --> 00:15:53,749
+commute with each
+other now we can take our ideal produced
+
+698
+00:15:53,749 --> 00:15:53,759
+other now we can take our ideal produced
+ 
+
+699
+00:15:53,759 --> 00:15:57,110
+other now we can take our ideal produced
+by p+ and multiply it onto the commuting
+
+700
+00:15:57,110 --> 00:15:57,120
+by p+ and multiply it onto the commuting
+ 
+
+701
+00:15:57,120 --> 00:15:59,230
+by p+ and multiply it onto the commuting
+projector q+
+
+702
+00:15:59,230 --> 00:15:59,240
+projector q+
+ 
+
+703
+00:15:59,240 --> 00:16:02,189
+projector q+
+this gives us an even smaller ideal
+
+704
+00:16:02,189 --> 00:16:02,199
+this gives us an even smaller ideal
+ 
+
+705
+00:16:02,199 --> 00:16:04,590
+this gives us an even smaller ideal
+which in fact happens to be a minimal
+
+706
+00:16:04,590 --> 00:16:04,600
+which in fact happens to be a minimal
+ 
+
+707
+00:16:04,600 --> 00:16:07,269
+which in fact happens to be a minimal
+ideal so this is where Spinners live in
+
+708
+00:16:07,269 --> 00:16:07,279
+ideal so this is where Spinners live in
+ 
+
+709
+00:16:07,279 --> 00:16:09,749
+ideal so this is where Spinners live in
+the SpaceTime
+
+710
+00:16:09,749 --> 00:16:09,759
+the SpaceTime
+ 
+
+711
+00:16:09,759 --> 00:16:12,430
+the SpaceTime
+algebra okay let's go over this
+
+712
+00:16:12,430 --> 00:16:12,440
+algebra okay let's go over this
+ 
+
+713
+00:16:12,440 --> 00:16:15,150
+algebra okay let's go over this
+procedure again from the beginning and
+
+714
+00:16:15,150 --> 00:16:15,160
+procedure again from the beginning and
+ 
+
+715
+00:16:15,160 --> 00:16:17,189
+procedure again from the beginning and
+this time I'm going to explain how this
+
+716
+00:16:17,189 --> 00:16:17,199
+this time I'm going to explain how this
+ 
+
+717
+00:16:17,199 --> 00:16:19,590
+this time I'm going to explain how this
+relates to the concept of maximally
+
+718
+00:16:19,590 --> 00:16:19,600
+relates to the concept of maximally
+ 
+
+719
+00:16:19,600 --> 00:16:21,269
+relates to the concept of maximally
+isotropic
+
+720
+00:16:21,269 --> 00:16:21,279
+isotropic
+ 
+
+721
+00:16:21,279 --> 00:16:24,069
+isotropic
+subspaces remember the general procedure
+
+722
+00:16:24,069 --> 00:16:24,079
+subspaces remember the general procedure
+ 
+
+723
+00:16:24,079 --> 00:16:26,870
+subspaces remember the general procedure
+for building Spinners is to find a pair
+
+724
+00:16:26,870 --> 00:16:26,880
+for building Spinners is to find a pair
+ 
+
+725
+00:16:26,880 --> 00:16:30,189
+for building Spinners is to find a pair
+of nil potents that anti commute to one
+
+726
+00:16:30,189 --> 00:16:30,199
+of nil potents that anti commute to one
+ 
+
+727
+00:16:30,199 --> 00:16:32,829
+of nil potents that anti commute to one
+then use them to build projectors then
+
+728
+00:16:32,829 --> 00:16:32,839
+then use them to build projectors then
+ 
+
+729
+00:16:32,839 --> 00:16:35,069
+then use them to build projectors then
+use the projectors to project out an
+
+730
+00:16:35,069 --> 00:16:35,079
+use the projectors to project out an
+ 
+
+731
+00:16:35,079 --> 00:16:36,949
+use the projectors to project out an
+ideal from our
+
+732
+00:16:36,949 --> 00:16:36,959
+ideal from our
+ 
+
+733
+00:16:36,959 --> 00:16:39,509
+ideal from our
+algebra however we need to remember that
+
+734
+00:16:39,509 --> 00:16:39,519
+algebra however we need to remember that
+ 
+
+735
+00:16:39,519 --> 00:16:42,749
+algebra however we need to remember that
+Spinners live in a minimal ideal an
+
+736
+00:16:42,749 --> 00:16:42,759
+Spinners live in a minimal ideal an
+ 
+
+737
+00:16:42,759 --> 00:16:45,389
+Spinners live in a minimal ideal an
+ideal set in our algebra that contains
+
+738
+00:16:45,389 --> 00:16:45,399
+ideal set in our algebra that contains
+ 
+
+739
+00:16:45,399 --> 00:16:48,430
+ideal set in our algebra that contains
+no sub ideals inside of it except for
+
+740
+00:16:48,430 --> 00:16:48,440
+no sub ideals inside of it except for
+ 
+
+741
+00:16:48,440 --> 00:16:50,870
+no sub ideals inside of it except for
+the trivial ideal consisting of just the
+
+742
+00:16:50,870 --> 00:16:50,880
+the trivial ideal consisting of just the
+ 
+
+743
+00:16:50,880 --> 00:16:51,990
+the trivial ideal consisting of just the
+zero
+
+744
+00:16:51,990 --> 00:16:52,000
+zero
+ 
+
+745
+00:16:52,000 --> 00:16:54,110
+zero
+element let's say that we find a
+
+746
+00:16:54,110 --> 00:16:54,120
+element let's say that we find a
+ 
+
+747
+00:16:54,120 --> 00:16:57,069
+element let's say that we find a
+projector that gives us an ideal but the
+
+748
+00:16:57,069 --> 00:16:57,079
+projector that gives us an ideal but the
+ 
+
+749
+00:16:57,079 --> 00:16:59,389
+projector that gives us an ideal but the
+ideal is not minimal because it has a
+
+750
+00:16:59,389 --> 00:16:59,399
+ideal is not minimal because it has a
+ 
+
+751
+00:16:59,399 --> 00:17:02,389
+ideal is not minimal because it has a
+non-trivial ideal inside of it this
+
+752
+00:17:02,389 --> 00:17:02,399
+non-trivial ideal inside of it this
+ 
+
+753
+00:17:02,399 --> 00:17:04,549
+non-trivial ideal inside of it this
+means we need to continue using more and
+
+754
+00:17:04,549 --> 00:17:04,559
+means we need to continue using more and
+ 
+
+755
+00:17:04,559 --> 00:17:07,669
+means we need to continue using more and
+more projectors to shrink our ideal so
+
+756
+00:17:07,669 --> 00:17:07,679
+more projectors to shrink our ideal so
+ 
+
+757
+00:17:07,679 --> 00:17:10,150
+more projectors to shrink our ideal so
+that it's smaller and smaller until we
+
+758
+00:17:10,150 --> 00:17:10,160
+that it's smaller and smaller until we
+ 
+
+759
+00:17:10,160 --> 00:17:12,069
+that it's smaller and smaller until we
+reach a minimal
+
+760
+00:17:12,069 --> 00:17:12,079
+reach a minimal
+ 
+
+761
+00:17:12,079 --> 00:17:15,429
+reach a minimal
+ideal so let's start with our n potents
+
+762
+00:17:15,429 --> 00:17:15,439
+ideal so let's start with our n potents
+ 
+
+763
+00:17:15,439 --> 00:17:18,150
+ideal so let's start with our n potents
+Alpha plus and Alpha minus that we've
+
+764
+00:17:18,150 --> 00:17:18,160
+Alpha plus and Alpha minus that we've
+ 
+
+765
+00:17:18,160 --> 00:17:21,429
+Alpha plus and Alpha minus that we've
+shown here I've already said that nil
+
+766
+00:17:21,429 --> 00:17:21,439
+shown here I've already said that nil
+ 
+
+767
+00:17:21,439 --> 00:17:24,549
+shown here I've already said that nil
+potent vectors are also called isotropic
+
+768
+00:17:24,549 --> 00:17:24,559
+potent vectors are also called isotropic
+ 
+
+769
+00:17:24,559 --> 00:17:27,069
+potent vectors are also called isotropic
+vectors so we can think of our nil
+
+770
+00:17:27,069 --> 00:17:27,079
+vectors so we can think of our nil
+ 
+
+771
+00:17:27,079 --> 00:17:30,310
+vectors so we can think of our nil
+potent Vector Alpha plus as spanning an
+
+772
+00:17:30,310 --> 00:17:30,320
+potent Vector Alpha plus as spanning an
+ 
+
+773
+00:17:30,320 --> 00:17:33,390
+potent Vector Alpha plus as spanning an
+isotropic space which is a space where
+
+774
+00:17:33,390 --> 00:17:33,400
+isotropic space which is a space where
+ 
+
+775
+00:17:33,400 --> 00:17:37,029
+isotropic space which is a space where
+all elements Square to zero this space
+
+776
+00:17:37,029 --> 00:17:37,039
+all elements Square to zero this space
+ 
+
+777
+00:17:37,039 --> 00:17:39,430
+all elements Square to zero this space
+is just a line since it only has one
+
+778
+00:17:39,430 --> 00:17:39,440
+is just a line since it only has one
+ 
+
+779
+00:17:39,440 --> 00:17:42,950
+is just a line since it only has one
+basis vector or more technically since
+
+780
+00:17:42,950 --> 00:17:42,960
+basis vector or more technically since
+ 
+
+781
+00:17:42,960 --> 00:17:45,070
+basis vector or more technically since
+we're allowing for complex scaling
+
+782
+00:17:45,070 --> 00:17:45,080
+we're allowing for complex scaling
+ 
+
+783
+00:17:45,080 --> 00:17:47,029
+we're allowing for complex scaling
+coefficients we can think of our
+
+784
+00:17:47,029 --> 00:17:47,039
+coefficients we can think of our
+ 
+
+785
+00:17:47,039 --> 00:17:49,669
+coefficients we can think of our
+isotropic space as one complex
+
+786
+00:17:49,669 --> 00:17:49,679
+isotropic space as one complex
+ 
+
+787
+00:17:49,679 --> 00:17:53,150
+isotropic space as one complex
+dimensional visualized as the complex
+
+788
+00:17:53,150 --> 00:17:53,160
+dimensional visualized as the complex
+ 
+
+789
+00:17:53,160 --> 00:17:56,350
+dimensional visualized as the complex
+plane now if we use these nil potents to
+
+790
+00:17:56,350 --> 00:17:56,360
+plane now if we use these nil potents to
+ 
+
+791
+00:17:56,360 --> 00:17:59,710
+plane now if we use these nil potents to
+build a projector we get an ideal but
+
+792
+00:17:59,710 --> 00:17:59,720
+build a projector we get an ideal but
+ 
+
+793
+00:17:59,720 --> 00:18:02,789
+build a projector we get an ideal but
+it's not a minimal ideal so we need
+
+794
+00:18:02,789 --> 00:18:02,799
+it's not a minimal ideal so we need
+ 
+
+795
+00:18:02,799 --> 00:18:05,549
+it's not a minimal ideal so we need
+another projector to make our ideal
+
+796
+00:18:05,549 --> 00:18:05,559
+another projector to make our ideal
+ 
+
+797
+00:18:05,559 --> 00:18:08,029
+another projector to make our ideal
+smaller another way of saying this is
+
+798
+00:18:08,029 --> 00:18:08,039
+smaller another way of saying this is
+ 
+
+799
+00:18:08,039 --> 00:18:09,950
+smaller another way of saying this is
+that we need to make our isotropic
+
+800
+00:18:09,950 --> 00:18:09,960
+that we need to make our isotropic
+ 
+
+801
+00:18:09,960 --> 00:18:14,190
+that we need to make our isotropic
+Subspace bigger we need more nil potent
+
+802
+00:18:14,190 --> 00:18:14,200
+Subspace bigger we need more nil potent
+ 
+
+803
+00:18:14,200 --> 00:18:16,430
+Subspace bigger we need more nil potent
+so that we can make more projectors so
+
+804
+00:18:16,430 --> 00:18:16,440
+so that we can make more projectors so
+ 
+
+805
+00:18:16,440 --> 00:18:19,470
+so that we can make more projectors so
+that we can make our ideal smaller so we
+
+806
+00:18:19,470 --> 00:18:19,480
+that we can make our ideal smaller so we
+ 
+
+807
+00:18:19,480 --> 00:18:22,789
+that we can make our ideal smaller so we
+introduce nil potent beta plus and beta
+
+808
+00:18:22,789 --> 00:18:22,799
+introduce nil potent beta plus and beta
+ 
+
+809
+00:18:22,799 --> 00:18:25,590
+introduce nil potent beta plus and beta
+minus now we can take our isotropic
+
+810
+00:18:25,590 --> 00:18:25,600
+minus now we can take our isotropic
+ 
+
+811
+00:18:25,600 --> 00:18:28,590
+minus now we can take our isotropic
+Subspace spanned by Alpha plus and and
+
+812
+00:18:28,590 --> 00:18:28,600
+Subspace spanned by Alpha plus and and
+ 
+
+813
+00:18:28,600 --> 00:18:31,630
+Subspace spanned by Alpha plus and and
+expand it by including the span of beta
+
+814
+00:18:31,630 --> 00:18:31,640
+expand it by including the span of beta
+ 
+
+815
+00:18:31,640 --> 00:18:35,470
+expand it by including the span of beta
+plus this isotropic Subspace is now two
+
+816
+00:18:35,470 --> 00:18:35,480
+plus this isotropic Subspace is now two
+ 
+
+817
+00:18:35,480 --> 00:18:36,710
+plus this isotropic Subspace is now two
+complex
+
+818
+00:18:36,710 --> 00:18:36,720
+complex
+ 
+
+819
+00:18:36,720 --> 00:18:39,669
+complex
+dimensional also a key property is that
+
+820
+00:18:39,669 --> 00:18:39,679
+dimensional also a key property is that
+ 
+
+821
+00:18:39,679 --> 00:18:42,390
+dimensional also a key property is that
+the basis vectors for this space Alpha
+
+822
+00:18:42,390 --> 00:18:42,400
+the basis vectors for this space Alpha
+ 
+
+823
+00:18:42,400 --> 00:18:45,310
+the basis vectors for this space Alpha
+plus and beta plus anti commute with
+
+824
+00:18:45,310 --> 00:18:45,320
+plus and beta plus anti commute with
+ 
+
+825
+00:18:45,320 --> 00:18:48,110
+plus and beta plus anti commute with
+each other another way of saying this is
+
+826
+00:18:48,110 --> 00:18:48,120
+each other another way of saying this is
+ 
+
+827
+00:18:48,120 --> 00:18:50,310
+each other another way of saying this is
+that the alpha plus and beta plus
+
+828
+00:18:50,310 --> 00:18:50,320
+that the alpha plus and beta plus
+ 
+
+829
+00:18:50,320 --> 00:18:53,950
+that the alpha plus and beta plus
+vectors are orthogonal basis vectors
+
+830
+00:18:53,950 --> 00:18:53,960
+vectors are orthogonal basis vectors
+ 
+
+831
+00:18:53,960 --> 00:18:56,390
+vectors are orthogonal basis vectors
+since in Clifford algebras orthogonal
+
+832
+00:18:56,390 --> 00:18:56,400
+since in Clifford algebras orthogonal
+ 
+
+833
+00:18:56,400 --> 00:18:59,549
+since in Clifford algebras orthogonal
+vectors anti- commute with each other
+
+834
+00:18:59,549 --> 00:18:59,559
+vectors anti- commute with each other
+ 
+
+835
+00:18:59,559 --> 00:19:01,350
+vectors anti- commute with each other
+remember this makes it so that the
+
+836
+00:19:01,350 --> 00:19:01,360
+remember this makes it so that the
+ 
+
+837
+00:19:01,360 --> 00:19:04,270
+remember this makes it so that the
+resulting projectors commute with each
+
+838
+00:19:04,270 --> 00:19:04,280
+resulting projectors commute with each
+ 
+
+839
+00:19:04,280 --> 00:19:07,430
+resulting projectors commute with each
+other the fact that Alpha plus and beta
+
+840
+00:19:07,430 --> 00:19:07,440
+other the fact that Alpha plus and beta
+ 
+
+841
+00:19:07,440 --> 00:19:10,270
+other the fact that Alpha plus and beta
+plus anti- commute also ensures that
+
+842
+00:19:10,270 --> 00:19:10,280
+plus anti- commute also ensures that
+ 
+
+843
+00:19:10,280 --> 00:19:13,270
+plus anti- commute also ensures that
+every Vector in their span is also
+
+844
+00:19:13,270 --> 00:19:13,280
+every Vector in their span is also
+ 
+
+845
+00:19:13,280 --> 00:19:15,669
+every Vector in their span is also
+isotropic if we take any linear
+
+846
+00:19:15,669 --> 00:19:15,679
+isotropic if we take any linear
+ 
+
+847
+00:19:15,679 --> 00:19:18,549
+isotropic if we take any linear
+combination of alpha plus and beta plus
+
+848
+00:19:18,549 --> 00:19:18,559
+combination of alpha plus and beta plus
+ 
+
+849
+00:19:18,559 --> 00:19:21,430
+combination of alpha plus and beta plus
+and multiply it by itself the outer
+
+850
+00:19:21,430 --> 00:19:21,440
+and multiply it by itself the outer
+ 
+
+851
+00:19:21,440 --> 00:19:24,070
+and multiply it by itself the outer
+terms go to zero because the vectors are
+
+852
+00:19:24,070 --> 00:19:24,080
+terms go to zero because the vectors are
+ 
+
+853
+00:19:24,080 --> 00:19:26,870
+terms go to zero because the vectors are
+isotropic and the inner terms go to Zero
+
+854
+00:19:26,870 --> 00:19:26,880
+isotropic and the inner terms go to Zero
+ 
+
+855
+00:19:26,880 --> 00:19:28,470
+isotropic and the inner terms go to Zero
+by the anti-commutation
+
+856
+00:19:28,470 --> 00:19:28,480
+by the anti-commutation
+ 
+
+857
+00:19:28,480 --> 00:19:32,310
+by the anti-commutation
+property so we get zero overall so this
+
+858
+00:19:32,310 --> 00:19:32,320
+property so we get zero overall so this
+ 
+
+859
+00:19:32,320 --> 00:19:34,789
+property so we get zero overall so this
+anti-commuting property of the isotropic
+
+860
+00:19:34,789 --> 00:19:34,799
+anti-commuting property of the isotropic
+ 
+
+861
+00:19:34,799 --> 00:19:37,630
+anti-commuting property of the isotropic
+basis vectors ensures every Vector in
+
+862
+00:19:37,630 --> 00:19:37,640
+basis vectors ensures every Vector in
+ 
+
+863
+00:19:37,640 --> 00:19:40,750
+basis vectors ensures every Vector in
+this Subspace is also isotropic hence
+
+864
+00:19:40,750 --> 00:19:40,760
+this Subspace is also isotropic hence
+ 
+
+865
+00:19:40,760 --> 00:19:43,510
+this Subspace is also isotropic hence
+the name isotropic
+
+866
+00:19:43,510 --> 00:19:43,520
+the name isotropic
+ 
+
+867
+00:19:43,520 --> 00:19:46,470
+the name isotropic
+Subspace using our expanded isotropic
+
+868
+00:19:46,470 --> 00:19:46,480
+Subspace using our expanded isotropic
+ 
+
+869
+00:19:46,480 --> 00:19:49,710
+Subspace using our expanded isotropic
+Subspace we can build more projectors
+
+870
+00:19:49,710 --> 00:19:49,720
+Subspace we can build more projectors
+ 
+
+871
+00:19:49,720 --> 00:19:52,950
+Subspace we can build more projectors
+which give us a smaller ideal and in
+
+872
+00:19:52,950 --> 00:19:52,960
+which give us a smaller ideal and in
+ 
+
+873
+00:19:52,960 --> 00:19:55,630
+which give us a smaller ideal and in
+fact this smaller ideal is a minimal
+
+874
+00:19:55,630 --> 00:19:55,640
+fact this smaller ideal is a minimal
+ 
+
+875
+00:19:55,640 --> 00:19:57,230
+fact this smaller ideal is a minimal
+ideal in
+
+876
+00:19:57,230 --> 00:19:57,240
+ideal in
+ 
+
+877
+00:19:57,240 --> 00:19:58,990
+ideal in
+cl13
+
+878
+00:19:58,990 --> 00:19:59,000
+cl13
+ 
+
+879
+00:19:59,000 --> 00:20:00,789
+cl13
+so it turns out that the isotropic
+
+880
+00:20:00,789 --> 00:20:00,799
+so it turns out that the isotropic
+ 
+
+881
+00:20:00,799 --> 00:20:03,750
+so it turns out that the isotropic
+Subspace we've built here is a maximally
+
+882
+00:20:03,750 --> 00:20:03,760
+Subspace we've built here is a maximally
+ 
+
+883
+00:20:03,760 --> 00:20:06,830
+Subspace we've built here is a maximally
+isotropic Subspace it's the largest
+
+884
+00:20:06,830 --> 00:20:06,840
+isotropic Subspace it's the largest
+ 
+
+885
+00:20:06,840 --> 00:20:09,510
+isotropic Subspace it's the largest
+possible isotropic Subspace we can build
+
+886
+00:20:09,510 --> 00:20:09,520
+possible isotropic Subspace we can build
+ 
+
+887
+00:20:09,520 --> 00:20:11,510
+possible isotropic Subspace we can build
+inside this Clifford
+
+888
+00:20:11,510 --> 00:20:11,520
+inside this Clifford
+ 
+
+889
+00:20:11,520 --> 00:20:14,710
+inside this Clifford
+algebra so the rule is we start with nil
+
+890
+00:20:14,710 --> 00:20:14,720
+algebra so the rule is we start with nil
+ 
+
+891
+00:20:14,720 --> 00:20:17,149
+algebra so the rule is we start with nil
+potents from an isotropic Subspace in
+
+892
+00:20:17,149 --> 00:20:17,159
+potents from an isotropic Subspace in
+ 
+
+893
+00:20:17,159 --> 00:20:19,669
+potents from an isotropic Subspace in
+our Clifford algebra then use them to
+
+894
+00:20:19,669 --> 00:20:19,679
+our Clifford algebra then use them to
+ 
+
+895
+00:20:19,679 --> 00:20:22,710
+our Clifford algebra then use them to
+build a projector to get an ideal if we
+
+896
+00:20:22,710 --> 00:20:22,720
+build a projector to get an ideal if we
+ 
+
+897
+00:20:22,720 --> 00:20:25,390
+build a projector to get an ideal if we
+need a smaller ideal we expand our
+
+898
+00:20:25,390 --> 00:20:25,400
+need a smaller ideal we expand our
+ 
+
+899
+00:20:25,400 --> 00:20:27,510
+need a smaller ideal we expand our
+isotropic Subspace to get another
+
+900
+00:20:27,510 --> 00:20:27,520
+isotropic Subspace to get another
+ 
+
+901
+00:20:27,520 --> 00:20:31,110
+isotropic Subspace to get another
+projector to get a smaller ideal the
+
+902
+00:20:31,110 --> 00:20:31,120
+projector to get a smaller ideal the
+ 
+
+903
+00:20:31,120 --> 00:20:33,549
+projector to get a smaller ideal the
+larger our isotropic Subspace the
+
+904
+00:20:33,549 --> 00:20:33,559
+larger our isotropic Subspace the
+ 
+
+905
+00:20:33,559 --> 00:20:37,070
+larger our isotropic Subspace the
+smaller our ideal we keep expanding our
+
+906
+00:20:37,070 --> 00:20:37,080
+smaller our ideal we keep expanding our
+ 
+
+907
+00:20:37,080 --> 00:20:39,750
+smaller our ideal we keep expanding our
+isotropic Subspace until we reach a
+
+908
+00:20:39,750 --> 00:20:39,760
+isotropic Subspace until we reach a
+ 
+
+909
+00:20:39,760 --> 00:20:42,909
+isotropic Subspace until we reach a
+maximally isotropic Subspace which means
+
+910
+00:20:42,909 --> 00:20:42,919
+maximally isotropic Subspace which means
+ 
+
+911
+00:20:42,919 --> 00:20:44,990
+maximally isotropic Subspace which means
+we can produce the smallest possible
+
+912
+00:20:44,990 --> 00:20:45,000
+we can produce the smallest possible
+ 
+
+913
+00:20:45,000 --> 00:20:47,870
+we can produce the smallest possible
+ideal which is a minimal left
+
+914
+00:20:47,870 --> 00:20:47,880
+ideal which is a minimal left
+ 
+
+915
+00:20:47,880 --> 00:20:51,669
+ideal which is a minimal left
+ideal so the key idea from this video is
+
+916
+00:20:51,669 --> 00:20:51,679
+ideal so the key idea from this video is
+ 
+
+917
+00:20:51,679 --> 00:20:53,950
+ideal so the key idea from this video is
+in order to build minimal left ideals
+
+918
+00:20:53,950 --> 00:20:53,960
+in order to build minimal left ideals
+ 
+
+919
+00:20:53,960 --> 00:20:56,270
+in order to build minimal left ideals
+where Spinners live we need to build
+
+920
+00:20:56,270 --> 00:20:56,280
+where Spinners live we need to build
+ 
+
+921
+00:20:56,280 --> 00:20:58,470
+where Spinners live we need to build
+projectors using nil potence from a
+
+922
+00:20:58,470 --> 00:20:58,480
+projectors using nil potence from a
+ 
+
+923
+00:20:58,480 --> 00:21:01,950
+projectors using nil potence from a
+maximally isotropic
+
+924
+00:21:01,950 --> 00:21:01,960
+
+ 
+
+925
+00:21:01,960 --> 00:21:04,590
+
+Subspace so let's generalize this
+
+926
+00:21:04,590 --> 00:21:04,600
+Subspace so let's generalize this
+ 
+
+927
+00:21:04,600 --> 00:21:07,750
+Subspace so let's generalize this
+procedure to a general Clifford algebra
+
+928
+00:21:07,750 --> 00:21:07,760
+procedure to a general Clifford algebra
+ 
+
+929
+00:21:07,760 --> 00:21:09,230
+procedure to a general Clifford algebra
+let's start with
+
+930
+00:21:09,230 --> 00:21:09,240
+let's start with
+ 
+
+931
+00:21:09,240 --> 00:21:12,830
+let's start with
+cn0 with complex coefficients where all
+
+932
+00:21:12,830 --> 00:21:12,840
+cn0 with complex coefficients where all
+ 
+
+933
+00:21:12,840 --> 00:21:16,510
+cn0 with complex coefficients where all
+our basis vectors Square 2 + 1 Let's
+
+934
+00:21:16,510 --> 00:21:16,520
+our basis vectors Square 2 + 1 Let's
+ 
+
+935
+00:21:16,520 --> 00:21:18,310
+our basis vectors Square 2 + 1 Let's
+assume that we have an even number of
+
+936
+00:21:18,310 --> 00:21:18,320
+assume that we have an even number of
+ 
+
+937
+00:21:18,320 --> 00:21:22,070
+assume that we have an even number of
+basis vectors we can build nil potent by
+
+938
+00:21:22,070 --> 00:21:22,080
+basis vectors we can build nil potent by
+ 
+
+939
+00:21:22,080 --> 00:21:25,390
+basis vectors we can build nil potent by
+grouping the basis vectors into pairs
+
+940
+00:21:25,390 --> 00:21:25,400
+grouping the basis vectors into pairs
+ 
+
+941
+00:21:25,400 --> 00:21:28,870
+grouping the basis vectors into pairs
+the elements 12 * Sigma 1+ plus I Sigma
+
+942
+00:21:28,870 --> 00:21:28,880
+the elements 12 * Sigma 1+ plus I Sigma
+ 
+
+943
+00:21:28,880 --> 00:21:34,149
+the elements 12 * Sigma 1+ plus I Sigma
+2 and 12 * Sigma 1us I Sigma 2 are nil
+
+944
+00:21:34,149 --> 00:21:34,159
+2 and 12 * Sigma 1us I Sigma 2 are nil
+ 
+
+945
+00:21:34,159 --> 00:21:37,669
+2 and 12 * Sigma 1us I Sigma 2 are nil
+potents that anti- commute to one we can
+
+946
+00:21:37,669 --> 00:21:37,679
+potents that anti- commute to one we can
+ 
+
+947
+00:21:37,679 --> 00:21:40,149
+potents that anti- commute to one we can
+build more nil potent pairs that anti-c
+
+948
+00:21:40,149 --> 00:21:40,159
+build more nil potent pairs that anti-c
+ 
+
+949
+00:21:40,159 --> 00:21:43,710
+build more nil potent pairs that anti-c
+commute to one using similar formulas
+
+950
+00:21:43,710 --> 00:21:43,720
+commute to one using similar formulas
+ 
+
+951
+00:21:43,720 --> 00:21:45,950
+commute to one using similar formulas
+making sure that no basis vectors are
+
+952
+00:21:45,950 --> 00:21:45,960
+making sure that no basis vectors are
+ 
+
+953
+00:21:45,960 --> 00:21:47,870
+making sure that no basis vectors are
+used in more than one
+
+954
+00:21:47,870 --> 00:21:47,880
+used in more than one
+ 
+
+955
+00:21:47,880 --> 00:21:51,029
+used in more than one
+pair note that all the alpha pluses and
+
+956
+00:21:51,029 --> 00:21:51,039
+pair note that all the alpha pluses and
+ 
+
+957
+00:21:51,039 --> 00:21:54,149
+pair note that all the alpha pluses and
+Alpha minuses from different pairs anti-
+
+958
+00:21:54,149 --> 00:21:54,159
+Alpha minuses from different pairs anti-
+ 
+
+959
+00:21:54,159 --> 00:21:56,830
+Alpha minuses from different pairs anti-
+commute with each other this means that
+
+960
+00:21:56,830 --> 00:21:56,840
+commute with each other this means that
+ 
+
+961
+00:21:56,840 --> 00:21:59,190
+commute with each other this means that
+all the alphas from different pairs are
+
+962
+00:21:59,190 --> 00:21:59,200
+all the alphas from different pairs are
+ 
+
+963
+00:21:59,200 --> 00:22:02,590
+all the alphas from different pairs are
+mutually orthogonal with each other this
+
+964
+00:22:02,590 --> 00:22:02,600
+mutually orthogonal with each other this
+ 
+
+965
+00:22:02,600 --> 00:22:05,269
+mutually orthogonal with each other this
+means that the set of alpha pluses form
+
+966
+00:22:05,269 --> 00:22:05,279
+means that the set of alpha pluses form
+ 
+
+967
+00:22:05,279 --> 00:22:08,149
+means that the set of alpha pluses form
+an orthogonal basis for our maximally
+
+968
+00:22:08,149 --> 00:22:08,159
+an orthogonal basis for our maximally
+ 
+
+969
+00:22:08,159 --> 00:22:10,110
+an orthogonal basis for our maximally
+isotropic
+
+970
+00:22:10,110 --> 00:22:10,120
+isotropic
+ 
+
+971
+00:22:10,120 --> 00:22:13,029
+isotropic
+Subspace we use all our nil potents to
+
+972
+00:22:13,029 --> 00:22:13,039
+Subspace we use all our nil potents to
+ 
+
+973
+00:22:13,039 --> 00:22:13,870
+Subspace we use all our nil potents to
+build
+
+974
+00:22:13,870 --> 00:22:13,880
+build
+ 
+
+975
+00:22:13,880 --> 00:22:16,190
+build
+projectors and we multiply all our
+
+976
+00:22:16,190 --> 00:22:16,200
+projectors and we multiply all our
+ 
+
+977
+00:22:16,200 --> 00:22:18,310
+projectors and we multiply all our
+projectors together to get a minimal
+
+978
+00:22:18,310 --> 00:22:18,320
+projectors together to get a minimal
+ 
+
+979
+00:22:18,320 --> 00:22:20,870
+projectors together to get a minimal
+projector which gives us a minimal left
+
+980
+00:22:20,870 --> 00:22:20,880
+projector which gives us a minimal left
+ 
+
+981
+00:22:20,880 --> 00:22:23,470
+projector which gives us a minimal left
+ideal which is where Spinners
+
+982
+00:22:23,470 --> 00:22:23,480
+ideal which is where Spinners
+ 
+
+983
+00:22:23,480 --> 00:22:27,230
+ideal which is where Spinners
+live now what about clpq with complex
+
+984
+00:22:27,230 --> 00:22:27,240
+live now what about clpq with complex
+ 
+
+985
+00:22:27,240 --> 00:22:28,710
+live now what about clpq with complex
+coefficients
+
+986
+00:22:28,710 --> 00:22:28,720
+coefficients
+ 
+
+987
+00:22:28,720 --> 00:22:31,950
+coefficients
+here vectors can square to + one or
+
+988
+00:22:31,950 --> 00:22:31,960
+here vectors can square to + one or
+ 
+
+989
+00:22:31,960 --> 00:22:35,470
+here vectors can square to + one or
+minus1 so how do we build nil potent
+
+990
+00:22:35,470 --> 00:22:35,480
+minus1 so how do we build nil potent
+ 
+
+991
+00:22:35,480 --> 00:22:38,710
+minus1 so how do we build nil potent
+here our nil potent will always take
+
+992
+00:22:38,710 --> 00:22:38,720
+here our nil potent will always take
+ 
+
+993
+00:22:38,720 --> 00:22:41,789
+here our nil potent will always take
+this form as 1/2 times the sum or
+
+994
+00:22:41,789 --> 00:22:41,799
+this form as 1/2 times the sum or
+ 
+
+995
+00:22:41,799 --> 00:22:43,470
+this form as 1/2 times the sum or
+difference of two
+
+996
+00:22:43,470 --> 00:22:43,480
+difference of two
+ 
+
+997
+00:22:43,480 --> 00:22:46,470
+difference of two
+vectors the first Vector must Square to
+
+998
+00:22:46,470 --> 00:22:46,480
+vectors the first Vector must Square to
+ 
+
+999
+00:22:46,480 --> 00:22:49,350
+vectors the first Vector must Square to
++ one and the second Vector must Square
+
+1000
+00:22:49,350 --> 00:22:49,360
++ one and the second Vector must Square
+ 
+
+1001
+00:22:49,360 --> 00:22:50,750
++ one and the second Vector must Square
+to
+
+1002
+00:22:50,750 --> 00:22:50,760
+to
+ 
+
+1003
+00:22:50,760 --> 00:22:54,710
+to
+minus1 so if both vectors Square 2 + 1
+
+1004
+00:22:54,710 --> 00:22:54,720
+minus1 so if both vectors Square 2 + 1
+ 
+
+1005
+00:22:54,720 --> 00:22:56,710
+minus1 so if both vectors Square 2 + 1
+then the second Vector needs a factor of
+
+1006
+00:22:56,710 --> 00:22:56,720
+then the second Vector needs a factor of
+ 
+
+1007
+00:22:56,720 --> 00:22:59,909
+then the second Vector needs a factor of
+the complex I so it squares to
+
+1008
+00:22:59,909 --> 00:22:59,919
+the complex I so it squares to
+ 
+
+1009
+00:22:59,919 --> 00:23:03,350
+the complex I so it squares to
+-1 if the first Vector squares 2 + 1 and
+
+1010
+00:23:03,350 --> 00:23:03,360
+-1 if the first Vector squares 2 + 1 and
+ 
+
+1011
+00:23:03,360 --> 00:23:06,110
+-1 if the first Vector squares 2 + 1 and
+the second Vector squares 2 minus1 we
+
+1012
+00:23:06,110 --> 00:23:06,120
+the second Vector squares 2 minus1 we
+ 
+
+1013
+00:23:06,120 --> 00:23:08,430
+the second Vector squares 2 minus1 we
+can just leave them as they are with no
+
+1014
+00:23:08,430 --> 00:23:08,440
+can just leave them as they are with no
+ 
+
+1015
+00:23:08,440 --> 00:23:09,830
+can just leave them as they are with no
+complex
+
+1016
+00:23:09,830 --> 00:23:09,840
+complex
+ 
+
+1017
+00:23:09,840 --> 00:23:12,430
+complex
+factors if the first Vector squares to
+
+1018
+00:23:12,430 --> 00:23:12,440
+factors if the first Vector squares to
+ 
+
+1019
+00:23:12,440 --> 00:23:14,549
+factors if the first Vector squares to
+minus one and the second Vector squares
+
+1020
+00:23:14,549 --> 00:23:14,559
+minus one and the second Vector squares
+ 
+
+1021
+00:23:14,559 --> 00:23:17,870
+minus one and the second Vector squares
+2 + 1 then both vectors need factors of
+
+1022
+00:23:17,870 --> 00:23:17,880
+2 + 1 then both vectors need factors of
+ 
+
+1023
+00:23:17,880 --> 00:23:19,190
+2 + 1 then both vectors need factors of
+the complex
+
+1024
+00:23:19,190 --> 00:23:19,200
+the complex
+ 
+
+1025
+00:23:19,200 --> 00:23:23,029
+the complex
+I and if both vectors Square 2 minus one
+
+1026
+00:23:23,029 --> 00:23:23,039
+I and if both vectors Square 2 minus one
+ 
+
+1027
+00:23:23,039 --> 00:23:24,909
+I and if both vectors Square 2 minus one
+then the first Vector needs a factor of
+
+1028
+00:23:24,909 --> 00:23:24,919
+then the first Vector needs a factor of
+ 
+
+1029
+00:23:24,919 --> 00:23:26,470
+then the first Vector needs a factor of
+the complex
+
+1030
+00:23:26,470 --> 00:23:26,480
+the complex
+ 
+
+1031
+00:23:26,480 --> 00:23:29,110
+the complex
+I other than that the steps are the
+
+1032
+00:23:29,110 --> 00:23:29,120
+I other than that the steps are the
+ 
+
+1033
+00:23:29,120 --> 00:23:31,990
+I other than that the steps are the
+exact same build a maximally isotropic
+
+1034
+00:23:31,990 --> 00:23:32,000
+exact same build a maximally isotropic
+ 
+
+1035
+00:23:32,000 --> 00:23:34,870
+exact same build a maximally isotropic
+Subspace from the nil potent use the nil
+
+1036
+00:23:34,870 --> 00:23:34,880
+Subspace from the nil potent use the nil
+ 
+
+1037
+00:23:34,880 --> 00:23:37,350
+Subspace from the nil potent use the nil
+potent to build a minimal projector and
+
+1038
+00:23:37,350 --> 00:23:37,360
+potent to build a minimal projector and
+ 
+
+1039
+00:23:37,360 --> 00:23:39,390
+potent to build a minimal projector and
+use the projector to get a minimal left
+
+1040
+00:23:39,390 --> 00:23:39,400
+use the projector to get a minimal left
+ 
+
+1041
+00:23:39,400 --> 00:23:41,549
+use the projector to get a minimal left
+ideal where Spinners
+
+1042
+00:23:41,549 --> 00:23:41,559
+ideal where Spinners
+ 
+
+1043
+00:23:41,559 --> 00:23:44,669
+ideal where Spinners
+live now note that this procedure only
+
+1044
+00:23:44,669 --> 00:23:44,679
+live now note that this procedure only
+ 
+
+1045
+00:23:44,679 --> 00:23:47,750
+live now note that this procedure only
+works in Clifford algebras where P plus
+
+1046
+00:23:47,750 --> 00:23:47,760
+works in Clifford algebras where P plus
+ 
+
+1047
+00:23:47,760 --> 00:23:50,710
+works in Clifford algebras where P plus
+Q is an even number because we need an
+
+1048
+00:23:50,710 --> 00:23:50,720
+Q is an even number because we need an
+ 
+
+1049
+00:23:50,720 --> 00:23:53,149
+Q is an even number because we need an
+even number of basis vectors to build
+
+1050
+00:23:53,149 --> 00:23:53,159
+even number of basis vectors to build
+ 
+
+1051
+00:23:53,159 --> 00:23:56,430
+even number of basis vectors to build
+pairs of nil potent
+
+1052
+00:23:56,430 --> 00:23:56,440
+pairs of nil potent
+ 
+
+1053
+00:23:56,440 --> 00:23:59,230
+pairs of nil potent
+elements let's finish off this video
+
+1054
+00:23:59,230 --> 00:23:59,240
+elements let's finish off this video
+ 
+
+1055
+00:23:59,240 --> 00:24:01,269
+elements let's finish off this video
+with a concrete example of building
+
+1056
+00:24:01,269 --> 00:24:01,279
+with a concrete example of building
+ 
+
+1057
+00:24:01,279 --> 00:24:02,750
+with a concrete example of building
+Spinners in
+
+1058
+00:24:02,750 --> 00:24:02,760
+Spinners in
+ 
+
+1059
+00:24:02,760 --> 00:24:05,430
+Spinners in
+cl20 with complex
+
+1060
+00:24:05,430 --> 00:24:05,440
+cl20 with complex
+ 
+
+1061
+00:24:05,440 --> 00:24:09,029
+cl20 with complex
+coefficients cl20 is not a very big
+
+1062
+00:24:09,029 --> 00:24:09,039
+coefficients cl20 is not a very big
+ 
+
+1063
+00:24:09,039 --> 00:24:12,149
+coefficients cl20 is not a very big
+Clifford algebra it has one scaler two
+
+1064
+00:24:12,149 --> 00:24:12,159
+Clifford algebra it has one scaler two
+ 
+
+1065
+00:24:12,159 --> 00:24:15,750
+Clifford algebra it has one scaler two
+vectors and one B Vector we can scale by
+
+1066
+00:24:15,750 --> 00:24:15,760
+vectors and one B Vector we can scale by
+ 
+
+1067
+00:24:15,760 --> 00:24:18,269
+vectors and one B Vector we can scale by
+complex coefficients so you can think of
+
+1068
+00:24:18,269 --> 00:24:18,279
+complex coefficients so you can think of
+ 
+
+1069
+00:24:18,279 --> 00:24:21,029
+complex coefficients so you can think of
+this as four complex dimensional or
+
+1070
+00:24:21,029 --> 00:24:21,039
+this as four complex dimensional or
+ 
+
+1071
+00:24:21,039 --> 00:24:22,230
+this as four complex dimensional or
+eight real
+
+1072
+00:24:22,230 --> 00:24:22,240
+eight real
+ 
+
+1073
+00:24:22,240 --> 00:24:24,470
+eight real
+dimensional this actually ends up being
+
+1074
+00:24:24,470 --> 00:24:24,480
+dimensional this actually ends up being
+ 
+
+1075
+00:24:24,480 --> 00:24:28,430
+dimensional this actually ends up being
+equivalent to cl30 with real coefficient
+
+1076
+00:24:28,430 --> 00:24:28,440
+equivalent to cl30 with real coefficient
+ 
+
+1077
+00:24:28,440 --> 00:24:30,549
+equivalent to cl30 with real coefficient
+under this
+
+1078
+00:24:30,549 --> 00:24:30,559
+under this
+ 
+
+1079
+00:24:30,559 --> 00:24:33,510
+under this
+isomorphism we can build our pair of nil
+
+1080
+00:24:33,510 --> 00:24:33,520
+isomorphism we can build our pair of nil
+ 
+
+1081
+00:24:33,520 --> 00:24:36,350
+isomorphism we can build our pair of nil
+potents that anti- commute to one as
+
+1082
+00:24:36,350 --> 00:24:36,360
+potents that anti- commute to one as
+ 
+
+1083
+00:24:36,360 --> 00:24:39,149
+potents that anti- commute to one as
+follows we can then use the nil potence
+
+1084
+00:24:39,149 --> 00:24:39,159
+follows we can then use the nil potence
+ 
+
+1085
+00:24:39,159 --> 00:24:40,870
+follows we can then use the nil potence
+to build these
+
+1086
+00:24:40,870 --> 00:24:40,880
+to build these
+ 
+
+1087
+00:24:40,880 --> 00:24:43,230
+to build these
+projectors when we apply our four
+
+1088
+00:24:43,230 --> 00:24:43,240
+projectors when we apply our four
+ 
+
+1089
+00:24:43,240 --> 00:24:46,470
+projectors when we apply our four
+complex dimensional algebra onto p12
+
+1090
+00:24:46,470 --> 00:24:46,480
+complex dimensional algebra onto p12
+ 
+
+1091
+00:24:46,480 --> 00:24:48,950
+complex dimensional algebra onto p12
+plus from the left we end up with a
+
+1092
+00:24:48,950 --> 00:24:48,960
+plus from the left we end up with a
+ 
+
+1093
+00:24:48,960 --> 00:24:52,070
+plus from the left we end up with a
+minimal left ideal that is two complex
+
+1094
+00:24:52,070 --> 00:24:52,080
+minimal left ideal that is two complex
+ 
+
+1095
+00:24:52,080 --> 00:24:54,389
+minimal left ideal that is two complex
+dimensional it is spanned by our
+
+1096
+00:24:54,389 --> 00:24:54,399
+dimensional it is spanned by our
+ 
+
+1097
+00:24:54,399 --> 00:24:56,870
+dimensional it is spanned by our
+projector and sigma 1 times our
+
+1098
+00:24:56,870 --> 00:24:56,880
+projector and sigma 1 times our
+ 
+
+1099
+00:24:56,880 --> 00:24:58,750
+projector and sigma 1 times our
+projector
+
+1100
+00:24:58,750 --> 00:24:58,760
+projector
+ 
+
+1101
+00:24:58,760 --> 00:25:00,789
+projector
+so we can build Spinners as linear
+
+1102
+00:25:00,789 --> 00:25:00,799
+so we can build Spinners as linear
+ 
+
+1103
+00:25:00,799 --> 00:25:03,870
+so we can build Spinners as linear
+combinations with these two basis
+
+1104
+00:25:03,870 --> 00:25:03,880
+combinations with these two basis
+ 
+
+1105
+00:25:03,880 --> 00:25:06,470
+combinations with these two basis
+elements also notice that we can take
+
+1106
+00:25:06,470 --> 00:25:06,480
+elements also notice that we can take
+ 
+
+1107
+00:25:06,480 --> 00:25:09,669
+elements also notice that we can take
+Sigma 1 * the projector and use a bunch
+
+1108
+00:25:09,669 --> 00:25:09,679
+Sigma 1 * the projector and use a bunch
+ 
+
+1109
+00:25:09,679 --> 00:25:13,110
+Sigma 1 * the projector and use a bunch
+of algebra to rewrite it as Alpha plus *
+
+1110
+00:25:13,110 --> 00:25:13,120
+of algebra to rewrite it as Alpha plus *
+ 
+
+1111
+00:25:13,120 --> 00:25:15,909
+of algebra to rewrite it as Alpha plus *
+the projector this is an equivalent way
+
+1112
+00:25:15,909 --> 00:25:15,919
+the projector this is an equivalent way
+ 
+
+1113
+00:25:15,919 --> 00:25:17,669
+the projector this is an equivalent way
+of writing our spinner
+
+1114
+00:25:17,669 --> 00:25:17,679
+of writing our spinner
+ 
+
+1115
+00:25:17,679 --> 00:25:20,389
+of writing our spinner
+components this gives us a two component
+
+1116
+00:25:20,389 --> 00:25:20,399
+components this gives us a two component
+ 
+
+1117
+00:25:20,399 --> 00:25:23,549
+components this gives us a two component
+spinner in
+
+1118
+00:25:23,549 --> 00:25:23,559
+
+ 
+
+1119
+00:25:23,559 --> 00:25:26,070
+
+c20c you might notice that the first
+
+1120
+00:25:26,070 --> 00:25:26,080
+c20c you might notice that the first
+ 
+
+1121
+00:25:26,080 --> 00:25:28,029
+c20c you might notice that the first
+component looks a little bit like an
+
+1122
+00:25:28,029 --> 00:25:28,039
+component looks a little bit like an
+ 
+
+1123
+00:25:28,039 --> 00:25:30,669
+component looks a little bit like an
+empty firon State and the second
+
+1124
+00:25:30,669 --> 00:25:30,679
+empty firon State and the second
+ 
+
+1125
+00:25:30,679 --> 00:25:33,909
+empty firon State and the second
+component looks a bit like a filled Fon
+
+1126
+00:25:33,909 --> 00:25:33,919
+component looks a bit like a filled Fon
+ 
+
+1127
+00:25:33,919 --> 00:25:37,269
+component looks a bit like a filled Fon
+State Cole Fury makes note of this fact
+
+1128
+00:25:37,269 --> 00:25:37,279
+State Cole Fury makes note of this fact
+ 
+
+1129
+00:25:37,279 --> 00:25:40,350
+State Cole Fury makes note of this fact
+as well in her playlist when she refers
+
+1130
+00:25:40,350 --> 00:25:40,360
+as well in her playlist when she refers
+ 
+
+1131
+00:25:40,360 --> 00:25:42,389
+as well in her playlist when she refers
+to this as a fox
+
+1132
+00:25:42,389 --> 00:25:42,399
+to this as a fox
+ 
+
+1133
+00:25:42,399 --> 00:25:45,350
+to this as a fox
+space however at this point I don't see
+
+1134
+00:25:45,350 --> 00:25:45,360
+space however at this point I don't see
+ 
+
+1135
+00:25:45,360 --> 00:25:47,350
+space however at this point I don't see
+any reason to literally view these
+
+1136
+00:25:47,350 --> 00:25:47,360
+any reason to literally view these
+ 
+
+1137
+00:25:47,360 --> 00:25:50,430
+any reason to literally view these
+components as filled and empty States
+
+1138
+00:25:50,430 --> 00:25:50,440
+components as filled and empty States
+ 
+
+1139
+00:25:50,440 --> 00:25:53,510
+components as filled and empty States
+this mathematical analy with fermion is
+
+1140
+00:25:53,510 --> 00:25:53,520
+this mathematical analy with fermion is
+ 
+
+1141
+00:25:53,520 --> 00:25:55,710
+this mathematical analy with fermion is
+just something I used to help us
+
+1142
+00:25:55,710 --> 00:25:55,720
+just something I used to help us
+ 
+
+1143
+00:25:55,720 --> 00:25:58,590
+just something I used to help us
+understand nil potent better as far as
+
+1144
+00:25:58,590 --> 00:25:58,600
+understand nil potent better as far as
+ 
+
+1145
+00:25:58,600 --> 00:26:01,070
+understand nil potent better as far as
+I'm concerned these are just two basis
+
+1146
+00:26:01,070 --> 00:26:01,080
+I'm concerned these are just two basis
+ 
+
+1147
+00:26:01,080 --> 00:26:04,430
+I'm concerned these are just two basis
+Spinners used to make a spinner in
+
+1148
+00:26:04,430 --> 00:26:04,440
+Spinners used to make a spinner in
+ 
+
+1149
+00:26:04,440 --> 00:26:08,510
+Spinners used to make a spinner in
+cl20 they're not actual filled or empty
+
+1150
+00:26:08,510 --> 00:26:08,520
+cl20 they're not actual filled or empty
+ 
+
+1151
+00:26:08,520 --> 00:26:11,510
+cl20 they're not actual filled or empty
+States if we go to higher Dimensions the
+
+1152
+00:26:11,510 --> 00:26:11,520
+States if we go to higher Dimensions the
+ 
+
+1153
+00:26:11,520 --> 00:26:13,830
+States if we go to higher Dimensions the
+basis elements for Spinners will include
+
+1154
+00:26:13,830 --> 00:26:13,840
+basis elements for Spinners will include
+ 
+
+1155
+00:26:13,840 --> 00:26:16,590
+basis elements for Spinners will include
+all possible combinations of nil potent
+
+1156
+00:26:16,590 --> 00:26:16,600
+all possible combinations of nil potent
+ 
+
+1157
+00:26:16,600 --> 00:26:18,350
+all possible combinations of nil potent
+acting on the
+
+1158
+00:26:18,350 --> 00:26:18,360
+acting on the
+ 
+
+1159
+00:26:18,360 --> 00:26:21,110
+acting on the
+projector so this is the last video that
+
+1160
+00:26:21,110 --> 00:26:21,120
+projector so this is the last video that
+ 
+
+1161
+00:26:21,120 --> 00:26:23,909
+projector so this is the last video that
+discusses Spinners in terms of Clifford
+
+1162
+00:26:23,909 --> 00:26:23,919
+discusses Spinners in terms of Clifford
+ 
+
+1163
+00:26:23,919 --> 00:26:26,710
+discusses Spinners in terms of Clifford
+algebras I realize a lot of the concepts
+
+1164
+00:26:26,710 --> 00:26:26,720
+algebras I realize a lot of the concepts
+ 
+
+1165
+00:26:26,720 --> 00:26:29,389
+algebras I realize a lot of the concepts
+in the last few videos have been very
+
+1166
+00:26:29,389 --> 00:26:29,399
+in the last few videos have been very
+ 
+
+1167
+00:26:29,399 --> 00:26:31,789
+in the last few videos have been very
+abstract but learning them is helpful
+
+1168
+00:26:31,789 --> 00:26:31,799
+abstract but learning them is helpful
+ 
+
+1169
+00:26:31,799 --> 00:26:34,470
+abstract but learning them is helpful
+for working with spinners in arbitrary
+
+1170
+00:26:34,470 --> 00:26:34,480
+for working with spinners in arbitrary
+ 
+
+1171
+00:26:34,480 --> 00:26:36,909
+for working with spinners in arbitrary
+Dimensions hopefully these videos will
+
+1172
+00:26:36,909 --> 00:26:36,919
+Dimensions hopefully these videos will
+ 
+
+1173
+00:26:36,919 --> 00:26:39,110
+Dimensions hopefully these videos will
+make it easier to understand textbooks
+
+1174
+00:26:39,110 --> 00:26:39,120
+make it easier to understand textbooks
+ 
+
+1175
+00:26:39,120 --> 00:26:41,430
+make it easier to understand textbooks
+and papers that talk about minimal left
+
+1176
+00:26:41,430 --> 00:26:41,440
+and papers that talk about minimal left
+ 
+
+1177
+00:26:41,440 --> 00:26:44,549
+and papers that talk about minimal left
+ideals and maximally isotropic
+
+1178
+00:26:44,549 --> 00:26:44,559
+ideals and maximally isotropic
+ 
+
+1179
+00:26:44,559 --> 00:26:46,990
+ideals and maximally isotropic
+subspaces you can also check out this
+
+1180
+00:26:46,990 --> 00:26:47,000
+subspaces you can also check out this
+ 
+
+1181
+00:26:47,000 --> 00:26:49,909
+subspaces you can also check out this
+playlist by Cole Fury which helped me
+
+1182
+00:26:49,909 --> 00:26:49,919
+playlist by Cole Fury which helped me
+ 
+
+1183
+00:26:49,919 --> 00:26:52,149
+playlist by Cole Fury which helped me
+understand how nil potent can be used to
+
+1184
+00:26:52,149 --> 00:26:52,159
+understand how nil potent can be used to
+ 
+
+1185
+00:26:52,159 --> 00:26:54,990
+understand how nil potent can be used to
+build projectors and how projectors give
+
+1186
+00:26:54,990 --> 00:26:55,000
+build projectors and how projectors give
+ 
+
+1187
+00:26:55,000 --> 00:26:57,269
+build projectors and how projectors give
+us Spinners I've linked it in the
+
+1188
+00:26:57,269 --> 00:26:57,279
+us Spinners I've linked it in the
+ 
+
+1189
+00:26:57,279 --> 00:26:58,310
+us Spinners I've linked it in the
+descript
+
+1190
+00:26:58,310 --> 00:26:58,320
+descript
+ 
+
+1191
+00:26:58,320 --> 00:27:00,789
+descript
+deson in the next video we'll start
+
+1192
+00:27:00,789 --> 00:27:00,799
+deson in the next video we'll start
+ 
+
+1193
+00:27:00,799 --> 00:27:02,590
+deson in the next video we'll start
+talking about how Le groups and Lee
+
+1194
+00:27:02,590 --> 00:27:02,600
+talking about how Le groups and Lee
+ 
+
+1195
+00:27:02,600 --> 00:27:04,750
+talking about how Le groups and Lee
+algebras relate to
+
+1196
+00:27:04,750 --> 00:27:04,760
+algebras relate to
+ 
+
+1197
+00:27:04,760 --> 00:27:07,760
+algebras relate to
+spinners
+

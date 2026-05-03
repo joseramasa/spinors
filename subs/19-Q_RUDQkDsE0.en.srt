@@ -1,0 +1,9625 @@
+1
+00:00:00,040 --> 00:00:02,030
+
+we're continuing our discussion of Le
+
+2
+00:00:02,030 --> 00:00:02,040
+we're continuing our discussion of Le
+ 
+
+3
+00:00:02,040 --> 00:00:05,070
+we're continuing our discussion of Le
+groups and Lee algebras in the previous
+
+4
+00:00:05,070 --> 00:00:05,080
+groups and Lee algebras in the previous
+ 
+
+5
+00:00:05,080 --> 00:00:07,150
+groups and Lee algebras in the previous
+couple videos we found the Le group
+
+6
+00:00:07,150 --> 00:00:07,160
+couple videos we found the Le group
+ 
+
+7
+00:00:07,160 --> 00:00:10,350
+couple videos we found the Le group
+matrices for rotations of spin zero spin
+
+8
+00:00:10,350 --> 00:00:10,360
+matrices for rotations of spin zero spin
+ 
+
+9
+00:00:10,360 --> 00:00:14,070
+matrices for rotations of spin zero spin
+1/2 and spin one particles and in this
+
+10
+00:00:14,070 --> 00:00:14,080
+1/2 and spin one particles and in this
+ 
+
+11
+00:00:14,080 --> 00:00:15,629
+1/2 and spin one particles and in this
+video we're going to come up with a
+
+12
+00:00:15,629 --> 00:00:15,639
+video we're going to come up with a
+ 
+
+13
+00:00:15,639 --> 00:00:17,550
+video we're going to come up with a
+general procedure for finding the Le
+
+14
+00:00:17,550 --> 00:00:17,560
+general procedure for finding the Le
+ 
+
+15
+00:00:17,560 --> 00:00:20,269
+general procedure for finding the Le
+group matrices that rotate higher spin
+
+16
+00:00:20,269 --> 00:00:20,279
+group matrices that rotate higher spin
+ 
+
+17
+00:00:20,279 --> 00:00:23,269
+group matrices that rotate higher spin
+particles such as spin three Hales spin
+
+18
+00:00:23,269 --> 00:00:23,279
+particles such as spin three Hales spin
+ 
+
+19
+00:00:23,279 --> 00:00:25,630
+particles such as spin three Hales spin
+two and all higher spin
+
+20
+00:00:25,630 --> 00:00:25,640
+two and all higher spin
+ 
+
+21
+00:00:25,640 --> 00:00:27,910
+two and all higher spin
+particles this procedure will involve
+
+22
+00:00:27,910 --> 00:00:27,920
+particles this procedure will involve
+ 
+
+23
+00:00:27,920 --> 00:00:30,870
+particles this procedure will involve
+the latter operators
+
+24
+00:00:30,870 --> 00:00:30,880
+the latter operators
+ 
+
+25
+00:00:30,880 --> 00:00:33,030
+the latter operators
+we're going to see that the SO3 group
+
+26
+00:00:33,030 --> 00:00:33,040
+we're going to see that the SO3 group
+ 
+
+27
+00:00:33,040 --> 00:00:35,389
+we're going to see that the SO3 group
+only has representations for integer
+
+28
+00:00:35,389 --> 00:00:35,399
+only has representations for integer
+ 
+
+29
+00:00:35,399 --> 00:00:38,069
+only has representations for integer
+spin particles if we want to find
+
+30
+00:00:38,069 --> 00:00:38,079
+spin particles if we want to find
+ 
+
+31
+00:00:38,079 --> 00:00:40,270
+spin particles if we want to find
+representations for half integer spin
+
+32
+00:00:40,270 --> 00:00:40,280
+representations for half integer spin
+ 
+
+33
+00:00:40,280 --> 00:00:42,590
+representations for half integer spin
+particles as well we need to look at its
+
+34
+00:00:42,590 --> 00:00:42,600
+particles as well we need to look at its
+ 
+
+35
+00:00:42,600 --> 00:00:44,750
+particles as well we need to look at its
+double cover
+
+36
+00:00:44,750 --> 00:00:44,760
+double cover
+ 
+
+37
+00:00:44,760 --> 00:00:47,389
+double cover
+su2 before I talk about the procedure
+
+38
+00:00:47,389 --> 00:00:47,399
+su2 before I talk about the procedure
+ 
+
+39
+00:00:47,399 --> 00:00:49,750
+su2 before I talk about the procedure
+with the latter operators I'm going to
+
+40
+00:00:49,750 --> 00:00:49,760
+with the latter operators I'm going to
+ 
+
+41
+00:00:49,760 --> 00:00:52,189
+with the latter operators I'm going to
+be more formal about some definitions in
+
+42
+00:00:52,189 --> 00:00:52,199
+be more formal about some definitions in
+ 
+
+43
+00:00:52,199 --> 00:00:54,510
+be more formal about some definitions in
+representation Theory because I've been
+
+44
+00:00:54,510 --> 00:00:54,520
+representation Theory because I've been
+ 
+
+45
+00:00:54,520 --> 00:00:58,270
+representation Theory because I've been
+sort of glossing over them in previous
+
+46
+00:00:58,270 --> 00:00:58,280
+sort of glossing over them in previous
+ 
+
+47
+00:00:58,280 --> 00:01:00,869
+sort of glossing over them in previous
+videos so I've already mentioned that a
+
+48
+00:01:00,869 --> 00:01:00,879
+videos so I've already mentioned that a
+ 
+
+49
+00:01:00,879 --> 00:01:03,110
+videos so I've already mentioned that a
+group is a set with an operation that
+
+50
+00:01:03,110 --> 00:01:03,120
+group is a set with an operation that
+ 
+
+51
+00:01:03,120 --> 00:01:06,350
+group is a set with an operation that
+obeys these four properties closure
+
+52
+00:01:06,350 --> 00:01:06,360
+obeys these four properties closure
+ 
+
+53
+00:01:06,360 --> 00:01:08,550
+obeys these four properties closure
+associativity existence of an identity
+
+54
+00:01:08,550 --> 00:01:08,560
+associativity existence of an identity
+ 
+
+55
+00:01:08,560 --> 00:01:11,950
+associativity existence of an identity
+element and existence of inverses Le
+
+56
+00:01:11,950 --> 00:01:11,960
+element and existence of inverses Le
+ 
+
+57
+00:01:11,960 --> 00:01:13,870
+element and existence of inverses Le
+groups have the additional property of
+
+58
+00:01:13,870 --> 00:01:13,880
+groups have the additional property of
+ 
+
+59
+00:01:13,880 --> 00:01:15,429
+groups have the additional property of
+being
+
+60
+00:01:15,429 --> 00:01:15,439
+being
+ 
+
+61
+00:01:15,439 --> 00:01:17,789
+being
+continuous so what is the formal
+
+62
+00:01:17,789 --> 00:01:17,799
+continuous so what is the formal
+ 
+
+63
+00:01:17,799 --> 00:01:20,429
+continuous so what is the formal
+definition of a representation of a
+
+64
+00:01:20,429 --> 00:01:20,439
+definition of a representation of a
+ 
+
+65
+00:01:20,439 --> 00:01:24,109
+definition of a representation of a
+group a representation is a function row
+
+66
+00:01:24,109 --> 00:01:24,119
+group a representation is a function row
+ 
+
+67
+00:01:24,119 --> 00:01:26,990
+group a representation is a function row
+that takes every member in a group G and
+
+68
+00:01:26,990 --> 00:01:27,000
+that takes every member in a group G and
+ 
+
+69
+00:01:27,000 --> 00:01:30,910
+that takes every member in a group G and
+assigns it to an invertible N byn Matrix
+
+70
+00:01:30,910 --> 00:01:30,920
+assigns it to an invertible N byn Matrix
+ 
+
+71
+00:01:30,920 --> 00:01:33,950
+assigns it to an invertible N byn Matrix
+so row is a function from the group G to
+
+72
+00:01:33,950 --> 00:01:33,960
+so row is a function from the group G to
+ 
+
+73
+00:01:33,960 --> 00:01:36,910
+so row is a function from the group G to
+GL Ln the general linear group of
+
+74
+00:01:36,910 --> 00:01:36,920
+GL Ln the general linear group of
+ 
+
+75
+00:01:36,920 --> 00:01:39,149
+GL Ln the general linear group of
+invertible n byn
+
+76
+00:01:39,149 --> 00:01:39,159
+invertible n byn
+ 
+
+77
+00:01:39,159 --> 00:01:42,350
+invertible n byn
+matrices in order to be a representation
+
+78
+00:01:42,350 --> 00:01:42,360
+matrices in order to be a representation
+ 
+
+79
+00:01:42,360 --> 00:01:44,590
+matrices in order to be a representation
+this function row must preserve the
+
+80
+00:01:44,590 --> 00:01:44,600
+this function row must preserve the
+ 
+
+81
+00:01:44,600 --> 00:01:47,510
+this function row must preserve the
+group operation for all members in the
+
+82
+00:01:47,510 --> 00:01:47,520
+group operation for all members in the
+ 
+
+83
+00:01:47,520 --> 00:01:50,030
+group operation for all members in the
+group this means that combining two
+
+84
+00:01:50,030 --> 00:01:50,040
+group this means that combining two
+ 
+
+85
+00:01:50,040 --> 00:01:51,950
+group this means that combining two
+group elements and then getting its
+
+86
+00:01:51,950 --> 00:01:51,960
+group elements and then getting its
+ 
+
+87
+00:01:51,960 --> 00:01:54,550
+group elements and then getting its
+representation Matrix is the same thing
+
+88
+00:01:54,550 --> 00:01:54,560
+representation Matrix is the same thing
+ 
+
+89
+00:01:54,560 --> 00:01:56,630
+representation Matrix is the same thing
+as getting the representation matrices
+
+90
+00:01:56,630 --> 00:01:56,640
+as getting the representation matrices
+ 
+
+91
+00:01:56,640 --> 00:01:58,709
+as getting the representation matrices
+for both group members and then
+
+92
+00:01:58,709 --> 00:01:58,719
+for both group members and then
+ 
+
+93
+00:01:58,719 --> 00:02:01,630
+for both group members and then
+multiplying the matrices
+
+94
+00:02:01,630 --> 00:02:01,640
+multiplying the matrices
+ 
+
+95
+00:02:01,640 --> 00:02:03,389
+multiplying the matrices
+a consequence of this is that the
+
+96
+00:02:03,389 --> 00:02:03,399
+a consequence of this is that the
+ 
+
+97
+00:02:03,399 --> 00:02:05,990
+a consequence of this is that the
+group's identity element must be mapped
+
+98
+00:02:05,990 --> 00:02:06,000
+group's identity element must be mapped
+ 
+
+99
+00:02:06,000 --> 00:02:08,070
+group's identity element must be mapped
+to the N byn identity
+
+100
+00:02:08,070 --> 00:02:08,080
+to the N byn identity
+ 
+
+101
+00:02:08,080 --> 00:02:11,029
+to the N byn identity
+Matrix and group inverse elements must
+
+102
+00:02:11,029 --> 00:02:11,039
+Matrix and group inverse elements must
+ 
+
+103
+00:02:11,039 --> 00:02:12,710
+Matrix and group inverse elements must
+be mapped to the corresponding
+
+104
+00:02:12,710 --> 00:02:12,720
+be mapped to the corresponding
+ 
+
+105
+00:02:12,720 --> 00:02:15,830
+be mapped to the corresponding
+representation matrix's
+
+106
+00:02:15,830 --> 00:02:15,840
+representation matrix's
+ 
+
+107
+00:02:15,840 --> 00:02:19,229
+representation matrix's
+inverse now with Le groups like su2 and
+
+108
+00:02:19,229 --> 00:02:19,239
+inverse now with Le groups like su2 and
+ 
+
+109
+00:02:19,239 --> 00:02:22,430
+inverse now with Le groups like su2 and
+S SO3 the groups are defined in terms of
+
+110
+00:02:22,430 --> 00:02:22,440
+S SO3 the groups are defined in terms of
+ 
+
+111
+00:02:22,440 --> 00:02:26,550
+S SO3 the groups are defined in terms of
+matrices to begin with for example su2
+
+112
+00:02:26,550 --> 00:02:26,560
+matrices to begin with for example su2
+ 
+
+113
+00:02:26,560 --> 00:02:29,190
+matrices to begin with for example su2
+is defined as the set of 2x2 complex
+
+114
+00:02:29,190 --> 00:02:29,200
+is defined as the set of 2x2 complex
+ 
+
+115
+00:02:29,200 --> 00:02:32,869
+is defined as the set of 2x2 complex
+unitary matrices with determinant one we
+
+116
+00:02:32,869 --> 00:02:32,879
+unitary matrices with determinant one we
+ 
+
+117
+00:02:32,879 --> 00:02:34,869
+unitary matrices with determinant one we
+call these Matrix definitions the
+
+118
+00:02:34,869 --> 00:02:34,879
+call these Matrix definitions the
+ 
+
+119
+00:02:34,879 --> 00:02:38,350
+call these Matrix definitions the
+defining representation of the group but
+
+120
+00:02:38,350 --> 00:02:38,360
+defining representation of the group but
+ 
+
+121
+00:02:38,360 --> 00:02:40,710
+defining representation of the group but
+we can find matrices of other sizes that
+
+122
+00:02:40,710 --> 00:02:40,720
+we can find matrices of other sizes that
+ 
+
+123
+00:02:40,720 --> 00:02:43,030
+we can find matrices of other sizes that
+satisfy the conditions of a
+
+124
+00:02:43,030 --> 00:02:43,040
+satisfy the conditions of a
+ 
+
+125
+00:02:43,040 --> 00:02:45,750
+satisfy the conditions of a
+representation for example it's possible
+
+126
+00:02:45,750 --> 00:02:45,760
+representation for example it's possible
+ 
+
+127
+00:02:45,760 --> 00:02:49,350
+representation for example it's possible
+to map all su2 matrices to a set of 4x4
+
+128
+00:02:49,350 --> 00:02:49,360
+to map all su2 matrices to a set of 4x4
+ 
+
+129
+00:02:49,360 --> 00:02:51,830
+to map all su2 matrices to a set of 4x4
+matrices which obey all the same matrix
+
+130
+00:02:51,830 --> 00:02:51,840
+matrices which obey all the same matrix
+ 
+
+131
+00:02:51,840 --> 00:02:55,070
+matrices which obey all the same matrix
+multiplication rules it's also possible
+
+132
+00:02:55,070 --> 00:02:55,080
+multiplication rules it's also possible
+ 
+
+133
+00:02:55,080 --> 00:02:58,430
+multiplication rules it's also possible
+to map pairs of su2 matrices each to an
+
+134
+00:02:58,430 --> 00:02:58,440
+to map pairs of su2 matrices each to an
+ 
+
+135
+00:02:58,440 --> 00:03:00,589
+to map pairs of su2 matrices each to an
+S SO3 Matrix
+
+136
+00:03:00,589 --> 00:03:00,599
+S SO3 Matrix
+ 
+
+137
+00:03:00,599 --> 00:03:03,589
+S SO3 Matrix
+so the group s SO3 is a 3X3
+
+138
+00:03:03,589 --> 00:03:03,599
+so the group s SO3 is a 3X3
+ 
+
+139
+00:03:03,599 --> 00:03:05,789
+so the group s SO3 is a 3X3
+representation of
+
+140
+00:03:05,789 --> 00:03:05,799
+representation of
+ 
+
+141
+00:03:05,799 --> 00:03:08,350
+representation of
+su2 some of the group structure is
+
+142
+00:03:08,350 --> 00:03:08,360
+su2 some of the group structure is
+ 
+
+143
+00:03:08,360 --> 00:03:10,070
+su2 some of the group structure is
+forgotten here because it's an
+
+144
+00:03:10,070 --> 00:03:10,080
+forgotten here because it's an
+ 
+
+145
+00:03:10,080 --> 00:03:12,270
+forgotten here because it's an
+irreversible 2: one
+
+146
+00:03:12,270 --> 00:03:12,280
+irreversible 2: one
+ 
+
+147
+00:03:12,280 --> 00:03:15,149
+irreversible 2: one
+mapping the 1ex one representation of
+
+148
+00:03:15,149 --> 00:03:15,159
+mapping the 1ex one representation of
+ 
+
+149
+00:03:15,159 --> 00:03:18,550
+mapping the 1ex one representation of
+su2 sends all matrices to the one by one
+
+150
+00:03:18,550 --> 00:03:18,560
+su2 sends all matrices to the one by one
+ 
+
+151
+00:03:18,560 --> 00:03:19,830
+su2 sends all matrices to the one by one
+identity
+
+152
+00:03:19,830 --> 00:03:19,840
+identity
+ 
+
+153
+00:03:19,840 --> 00:03:22,589
+identity
+Matrix here all the group structure is
+
+154
+00:03:22,589 --> 00:03:22,599
+Matrix here all the group structure is
+ 
+
+155
+00:03:22,599 --> 00:03:24,910
+Matrix here all the group structure is
+forgotten but it still technically
+
+156
+00:03:24,910 --> 00:03:24,920
+forgotten but it still technically
+ 
+
+157
+00:03:24,920 --> 00:03:27,910
+forgotten but it still technically
+preserves all the multiplication
+
+158
+00:03:27,910 --> 00:03:27,920
+preserves all the multiplication
+ 
+
+159
+00:03:27,920 --> 00:03:31,030
+preserves all the multiplication
+rules we can also find representations
+
+160
+00:03:31,030 --> 00:03:31,040
+rules we can also find representations
+ 
+
+161
+00:03:31,040 --> 00:03:34,550
+rules we can also find representations
+for Lee algebras which is a function Pi
+
+162
+00:03:34,550 --> 00:03:34,560
+for Lee algebras which is a function Pi
+ 
+
+163
+00:03:34,560 --> 00:03:38,070
+for Lee algebras which is a function Pi
+that sends Lee algebra members to n byn
+
+164
+00:03:38,070 --> 00:03:38,080
+that sends Lee algebra members to n byn
+ 
+
+165
+00:03:38,080 --> 00:03:40,710
+that sends Lee algebra members to n byn
+matrices here the function Pi must
+
+166
+00:03:40,710 --> 00:03:40,720
+matrices here the function Pi must
+ 
+
+167
+00:03:40,720 --> 00:03:44,309
+matrices here the function Pi must
+preserve the Le bracket of the
+
+168
+00:03:44,309 --> 00:03:44,319
+preserve the Le bracket of the
+ 
+
+169
+00:03:44,319 --> 00:03:46,789
+preserve the Le bracket of the
+algebra now I mentioned we can find a
+
+170
+00:03:46,789 --> 00:03:46,799
+algebra now I mentioned we can find a
+ 
+
+171
+00:03:46,799 --> 00:03:49,949
+algebra now I mentioned we can find a
+4x4 representation of the Le group
+
+172
+00:03:49,949 --> 00:03:49,959
+4x4 representation of the Le group
+ 
+
+173
+00:03:49,959 --> 00:03:53,429
+4x4 representation of the Le group
+su2 but we've never seen this before how
+
+174
+00:03:53,429 --> 00:03:53,439
+su2 but we've never seen this before how
+ 
+
+175
+00:03:53,439 --> 00:03:56,670
+su2 but we've never seen this before how
+would we go about finding this 4x4
+
+176
+00:03:56,670 --> 00:03:56,680
+would we go about finding this 4x4
+ 
+
+177
+00:03:56,680 --> 00:03:58,670
+would we go about finding this 4x4
+representation well there's one way of
+
+178
+00:03:58,670 --> 00:03:58,680
+representation well there's one way of
+ 
+
+179
+00:03:58,680 --> 00:04:01,270
+representation well there's one way of
+getting a 4x4 representation that's sort
+
+180
+00:04:01,270 --> 00:04:01,280
+getting a 4x4 representation that's sort
+ 
+
+181
+00:04:01,280 --> 00:04:04,670
+getting a 4x4 representation that's sort
+of cheating we could take a pair of 2x2
+
+182
+00:04:04,670 --> 00:04:04,680
+of cheating we could take a pair of 2x2
+ 
+
+183
+00:04:04,680 --> 00:04:08,589
+of cheating we could take a pair of 2x2
+su2 matrices and take their direct sum
+
+184
+00:04:08,589 --> 00:04:08,599
+su2 matrices and take their direct sum
+ 
+
+185
+00:04:08,599 --> 00:04:09,990
+su2 matrices and take their direct sum
+which means arranging them in Block
+
+186
+00:04:09,990 --> 00:04:10,000
+which means arranging them in Block
+ 
+
+187
+00:04:10,000 --> 00:04:12,190
+which means arranging them in Block
+diagonal form so that the first one
+
+188
+00:04:12,190 --> 00:04:12,200
+diagonal form so that the first one
+ 
+
+189
+00:04:12,200 --> 00:04:14,309
+diagonal form so that the first one
+transforms the top two components of a
+
+190
+00:04:14,309 --> 00:04:14,319
+transforms the top two components of a
+ 
+
+191
+00:04:14,319 --> 00:04:16,670
+transforms the top two components of a
+column and the second one transforms the
+
+192
+00:04:16,670 --> 00:04:16,680
+column and the second one transforms the
+ 
+
+193
+00:04:16,680 --> 00:04:19,629
+column and the second one transforms the
+bottom two components of a column when
+
+194
+00:04:19,629 --> 00:04:19,639
+bottom two components of a column when
+ 
+
+195
+00:04:19,639 --> 00:04:22,150
+bottom two components of a column when
+multiplying block diagonal matrices like
+
+196
+00:04:22,150 --> 00:04:22,160
+multiplying block diagonal matrices like
+ 
+
+197
+00:04:22,160 --> 00:04:24,670
+multiplying block diagonal matrices like
+this the upper blocks will only multiply
+
+198
+00:04:24,670 --> 00:04:24,680
+this the upper blocks will only multiply
+ 
+
+199
+00:04:24,680 --> 00:04:26,710
+this the upper blocks will only multiply
+with upper blocks and the lower blocks
+
+200
+00:04:26,710 --> 00:04:26,720
+with upper blocks and the lower blocks
+ 
+
+201
+00:04:26,720 --> 00:04:29,670
+with upper blocks and the lower blocks
+will only multiply with lower blocks so
+
+202
+00:04:29,670 --> 00:04:29,680
+will only multiply with lower blocks so
+ 
+
+203
+00:04:29,680 --> 00:04:31,469
+will only multiply with lower blocks so
+it's like we've put two independent
+
+204
+00:04:31,469 --> 00:04:31,479
+it's like we've put two independent
+ 
+
+205
+00:04:31,479 --> 00:04:34,830
+it's like we've put two independent
+copies of su2 into the same
+
+206
+00:04:34,830 --> 00:04:34,840
+copies of su2 into the same
+ 
+
+207
+00:04:34,840 --> 00:04:36,990
+copies of su2 into the same
+Matrix this would satisfy the
+
+208
+00:04:36,990 --> 00:04:37,000
+Matrix this would satisfy the
+ 
+
+209
+00:04:37,000 --> 00:04:39,990
+Matrix this would satisfy the
+requirements of a 4x4
+
+210
+00:04:39,990 --> 00:04:40,000
+requirements of a 4x4
+ 
+
+211
+00:04:40,000 --> 00:04:42,230
+requirements of a 4x4
+representation alternatively we could
+
+212
+00:04:42,230 --> 00:04:42,240
+representation alternatively we could
+ 
+
+213
+00:04:42,240 --> 00:04:45,790
+representation alternatively we could
+take a 3X3 representation and the 1x1
+
+214
+00:04:45,790 --> 00:04:45,800
+take a 3X3 representation and the 1x1
+ 
+
+215
+00:04:45,800 --> 00:04:47,909
+take a 3X3 representation and the 1x1
+representation and arrange them in Block
+
+216
+00:04:47,909 --> 00:04:47,919
+representation and arrange them in Block
+ 
+
+217
+00:04:47,919 --> 00:04:49,270
+representation and arrange them in Block
+diagonal
+
+218
+00:04:49,270 --> 00:04:49,280
+diagonal
+ 
+
+219
+00:04:49,280 --> 00:04:52,350
+diagonal
+form when we construct a representation
+
+220
+00:04:52,350 --> 00:04:52,360
+form when we construct a representation
+ 
+
+221
+00:04:52,360 --> 00:04:55,029
+form when we construct a representation
+using smaller representations with the
+
+222
+00:04:55,029 --> 00:04:55,039
+using smaller representations with the
+ 
+
+223
+00:04:55,039 --> 00:04:57,590
+using smaller representations with the
+direct sum to give a matrix in Block
+
+224
+00:04:57,590 --> 00:04:57,600
+direct sum to give a matrix in Block
+ 
+
+225
+00:04:57,600 --> 00:04:59,830
+direct sum to give a matrix in Block
+diagonal form we call this
+
+226
+00:04:59,830 --> 00:04:59,840
+diagonal form we call this
+ 
+
+227
+00:04:59,840 --> 00:05:01,550
+diagonal form we call this
+representation
+
+228
+00:05:01,550 --> 00:05:01,560
+representation
+ 
+
+229
+00:05:01,560 --> 00:05:04,469
+representation
+reducible if a representation cannot be
+
+230
+00:05:04,469 --> 00:05:04,479
+reducible if a representation cannot be
+ 
+
+231
+00:05:04,479 --> 00:05:07,110
+reducible if a representation cannot be
+written as a direct sum then we call it
+
+232
+00:05:07,110 --> 00:05:07,120
+written as a direct sum then we call it
+ 
+
+233
+00:05:07,120 --> 00:05:11,749
+written as a direct sum then we call it
+an irreducible representation or IRP for
+
+234
+00:05:11,749 --> 00:05:11,759
+an irreducible representation or IRP for
+ 
+
+235
+00:05:11,759 --> 00:05:14,469
+an irreducible representation or IRP for
+short in this video we're interested in
+
+236
+00:05:14,469 --> 00:05:14,479
+short in this video we're interested in
+ 
+
+237
+00:05:14,479 --> 00:05:18,029
+short in this video we're interested in
+finding irreducible representations or
+
+238
+00:05:18,029 --> 00:05:18,039
+finding irreducible representations or
+ 
+
+239
+00:05:18,039 --> 00:05:20,710
+finding irreducible representations or
+IRS so we're ignoring the case of
+
+240
+00:05:20,710 --> 00:05:20,720
+IRS so we're ignoring the case of
+ 
+
+241
+00:05:20,720 --> 00:05:23,150
+IRS so we're ignoring the case of
+building representations from smaller
+
+242
+00:05:23,150 --> 00:05:23,160
+building representations from smaller
+ 
+
+243
+00:05:23,160 --> 00:05:25,710
+building representations from smaller
+representations using the direct
+
+244
+00:05:25,710 --> 00:05:25,720
+representations using the direct
+ 
+
+245
+00:05:25,720 --> 00:05:28,790
+representations using the direct
+sum we'll see later that for the su2
+
+246
+00:05:28,790 --> 00:05:28,800
+sum we'll see later that for the su2
+ 
+
+247
+00:05:28,800 --> 00:05:31,309
+sum we'll see later that for the su2
+group there is exactly one unique
+
+248
+00:05:31,309 --> 00:05:31,319
+group there is exactly one unique
+ 
+
+249
+00:05:31,319 --> 00:05:34,670
+group there is exactly one unique
+representation for a given Matrix size
+
+250
+00:05:34,670 --> 00:05:34,680
+representation for a given Matrix size
+ 
+
+251
+00:05:34,680 --> 00:05:36,670
+representation for a given Matrix size
+we can label these representations by
+
+252
+00:05:36,670 --> 00:05:36,680
+we can label these representations by
+ 
+
+253
+00:05:36,680 --> 00:05:39,469
+we can label these representations by
+The Matrix size n also called the
+
+254
+00:05:39,469 --> 00:05:39,479
+The Matrix size n also called the
+ 
+
+255
+00:05:39,479 --> 00:05:41,670
+The Matrix size n also called the
+dimension we can also label these
+
+256
+00:05:41,670 --> 00:05:41,680
+dimension we can also label these
+ 
+
+257
+00:05:41,680 --> 00:05:44,430
+dimension we can also label these
+representations by the Spin value which
+
+258
+00:05:44,430 --> 00:05:44,440
+representations by the Spin value which
+ 
+
+259
+00:05:44,440 --> 00:05:48,909
+representations by the Spin value which
+is the dimension minus1 / 2 we're also
+
+260
+00:05:48,909 --> 00:05:48,919
+is the dimension minus1 / 2 we're also
+ 
+
+261
+00:05:48,919 --> 00:05:51,710
+is the dimension minus1 / 2 we're also
+going to prove that the SO3 group only
+
+262
+00:05:51,710 --> 00:05:51,720
+going to prove that the SO3 group only
+ 
+
+263
+00:05:51,720 --> 00:05:53,790
+going to prove that the SO3 group only
+has odd dimensional
+
+264
+00:05:53,790 --> 00:05:53,800
+has odd dimensional
+ 
+
+265
+00:05:53,800 --> 00:05:56,510
+has odd dimensional
+representations or equivalently only
+
+266
+00:05:56,510 --> 00:05:56,520
+representations or equivalently only
+ 
+
+267
+00:05:56,520 --> 00:05:58,469
+representations or equivalently only
+integer spin
+
+268
+00:05:58,469 --> 00:05:58,479
+integer spin
+ 
+
+269
+00:05:58,479 --> 00:06:01,029
+integer spin
+representations
+
+270
+00:06:01,029 --> 00:06:01,039
+representations
+ 
+
+271
+00:06:01,039 --> 00:06:02,830
+representations
+so before we learn the procedure for
+
+272
+00:06:02,830 --> 00:06:02,840
+so before we learn the procedure for
+ 
+
+273
+00:06:02,840 --> 00:06:05,909
+so before we learn the procedure for
+building General representations of su2
+
+274
+00:06:05,909 --> 00:06:05,919
+building General representations of su2
+ 
+
+275
+00:06:05,919 --> 00:06:07,670
+building General representations of su2
+we're going to spend some time studying
+
+276
+00:06:07,670 --> 00:06:07,680
+we're going to spend some time studying
+ 
+
+277
+00:06:07,680 --> 00:06:10,950
+we're going to spend some time studying
+the 2x two or spin 1/2
+
+278
+00:06:10,950 --> 00:06:10,960
+the 2x two or spin 1/2
+ 
+
+279
+00:06:10,960 --> 00:06:12,909
+the 2x two or spin 1/2
+representation we'll start with the spin
+
+280
+00:06:12,909 --> 00:06:12,919
+representation we'll start with the spin
+ 
+
+281
+00:06:12,919 --> 00:06:16,150
+representation we'll start with the spin
+1/2 representation of the su2 Lee
+
+282
+00:06:16,150 --> 00:06:16,160
+1/2 representation of the su2 Lee
+ 
+
+283
+00:06:16,160 --> 00:06:18,670
+1/2 representation of the su2 Lee
+algebra then we'll Define the ladder
+
+284
+00:06:18,670 --> 00:06:18,680
+algebra then we'll Define the ladder
+ 
+
+285
+00:06:18,680 --> 00:06:20,629
+algebra then we'll Define the ladder
+operators and from there we'll
+
+286
+00:06:20,629 --> 00:06:20,639
+operators and from there we'll
+ 
+
+287
+00:06:20,639 --> 00:06:22,990
+operators and from there we'll
+generalize the ladder operators to any
+
+288
+00:06:22,990 --> 00:06:23,000
+generalize the ladder operators to any
+ 
+
+289
+00:06:23,000 --> 00:06:25,430
+generalize the ladder operators to any
+Spin and use them to build all higher
+
+290
+00:06:25,430 --> 00:06:25,440
+Spin and use them to build all higher
+ 
+
+291
+00:06:25,440 --> 00:06:28,189
+Spin and use them to build all higher
+dimensional
+
+292
+00:06:28,189 --> 00:06:28,199
+
+ 
+
+293
+00:06:28,199 --> 00:06:30,510
+
+representations we seen that one way to
+
+294
+00:06:30,510 --> 00:06:30,520
+representations we seen that one way to
+ 
+
+295
+00:06:30,520 --> 00:06:33,189
+representations we seen that one way to
+get Le group matrices is to take a basis
+
+296
+00:06:33,189 --> 00:06:33,199
+get Le group matrices is to take a basis
+ 
+
+297
+00:06:33,199 --> 00:06:35,230
+get Le group matrices is to take a basis
+of generators from the group's Lee
+
+298
+00:06:35,230 --> 00:06:35,240
+of generators from the group's Lee
+ 
+
+299
+00:06:35,240 --> 00:06:38,790
+of generators from the group's Lee
+algebra and exponentiate them we know
+
+300
+00:06:38,790 --> 00:06:38,800
+algebra and exponentiate them we know
+ 
+
+301
+00:06:38,800 --> 00:06:42,270
+algebra and exponentiate them we know
+the three 2x2 generators for su2 are
+
+302
+00:06:42,270 --> 00:06:42,280
+the three 2x2 generators for su2 are
+ 
+
+303
+00:06:42,280 --> 00:06:46,510
+the three 2x2 generators for su2 are
+given by - one2 time pairs of Sigma
+
+304
+00:06:46,510 --> 00:06:46,520
+given by - one2 time pairs of Sigma
+ 
+
+305
+00:06:46,520 --> 00:06:49,629
+given by - one2 time pairs of Sigma
+matrices these give a basis for 2x two
+
+306
+00:06:49,629 --> 00:06:49,639
+matrices these give a basis for 2x two
+ 
+
+307
+00:06:49,639 --> 00:06:52,110
+matrices these give a basis for 2x two
+traceless anti-mission
+
+308
+00:06:52,110 --> 00:06:52,120
+traceless anti-mission
+ 
+
+309
+00:06:52,120 --> 00:06:54,589
+traceless anti-mission
+matrices I'm now going to introduce the
+
+310
+00:06:54,589 --> 00:06:54,599
+matrices I'm now going to introduce the
+ 
+
+311
+00:06:54,599 --> 00:06:58,029
+matrices I'm now going to introduce the
+raising and lowering operators G+ and G
+
+312
+00:06:58,029 --> 00:06:58,039
+raising and lowering operators G+ and G
+ 
+
+313
+00:06:58,039 --> 00:07:01,430
+raising and lowering operators G+ and G
+minus which are also called ladder
+
+314
+00:07:01,430 --> 00:07:01,440
+minus which are also called ladder
+ 
+
+315
+00:07:01,440 --> 00:07:03,790
+minus which are also called ladder
+operators recall that the spin up
+
+316
+00:07:03,790 --> 00:07:03,800
+operators recall that the spin up
+ 
+
+317
+00:07:03,800 --> 00:07:06,070
+operators recall that the spin up
+spinner state is represented by the
+
+318
+00:07:06,070 --> 00:07:06,080
+spinner state is represented by the
+ 
+
+319
+00:07:06,080 --> 00:07:07,110
+spinner state is represented by the
+column
+
+320
+00:07:07,110 --> 00:07:07,120
+column
+ 
+
+321
+00:07:07,120 --> 00:07:10,150
+column
+1 and the spin down spinner state is
+
+322
+00:07:10,150 --> 00:07:10,160
+1 and the spin down spinner state is
+ 
+
+323
+00:07:10,160 --> 00:07:12,309
+1 and the spin down spinner state is
+represented by the column
+
+324
+00:07:12,309 --> 00:07:12,319
+represented by the column
+ 
+
+325
+00:07:12,319 --> 00:07:15,510
+represented by the column
+01 we'll Define the raising operator as
+
+326
+00:07:15,510 --> 00:07:15,520
+01 we'll Define the raising operator as
+ 
+
+327
+00:07:15,520 --> 00:07:17,749
+01 we'll Define the raising operator as
+changing the down state into the UP
+
+328
+00:07:17,749 --> 00:07:17,759
+changing the down state into the UP
+ 
+
+329
+00:07:17,759 --> 00:07:20,670
+changing the down state into the UP
+State and changing the UP State into the
+
+330
+00:07:20,670 --> 00:07:20,680
+State and changing the UP State into the
+ 
+
+331
+00:07:20,680 --> 00:07:23,830
+State and changing the UP State into the
+zero spinner we'll Define the lowering
+
+332
+00:07:23,830 --> 00:07:23,840
+zero spinner we'll Define the lowering
+ 
+
+333
+00:07:23,840 --> 00:07:26,029
+zero spinner we'll Define the lowering
+operator as changing the UP State into
+
+334
+00:07:26,029 --> 00:07:26,039
+operator as changing the UP State into
+ 
+
+335
+00:07:26,039 --> 00:07:28,350
+operator as changing the UP State into
+the down state and changing the down
+
+336
+00:07:28,350 --> 00:07:28,360
+the down state and changing the down
+ 
+
+337
+00:07:28,360 --> 00:07:30,390
+the down state and changing the down
+state into the Z
+
+338
+00:07:30,390 --> 00:07:30,400
+state into the Z
+ 
+
+339
+00:07:30,400 --> 00:07:33,990
+state into the Z
+spinner the raising operator G+ is given
+
+340
+00:07:33,990 --> 00:07:34,000
+spinner the raising operator G+ is given
+ 
+
+341
+00:07:34,000 --> 00:07:37,990
+spinner the raising operator G+ is given
+by The Matrix 01 0 0 and the lowering
+
+342
+00:07:37,990 --> 00:07:38,000
+by The Matrix 01 0 0 and the lowering
+ 
+
+343
+00:07:38,000 --> 00:07:40,550
+by The Matrix 01 0 0 and the lowering
+operator G minus is given by The Matrix
+
+344
+00:07:40,550 --> 00:07:40,560
+operator G minus is given by The Matrix
+ 
+
+345
+00:07:40,560 --> 00:07:46,430
+operator G minus is given by The Matrix
+001 0 you can see they obey the expected
+
+346
+00:07:46,430 --> 00:07:46,440
+001 0 you can see they obey the expected
+ 
+
+347
+00:07:46,440 --> 00:07:49,790
+001 0 you can see they obey the expected
+properties given the su2 generators to
+
+348
+00:07:49,790 --> 00:07:49,800
+properties given the su2 generators to
+ 
+
+349
+00:07:49,800 --> 00:07:53,270
+properties given the su2 generators to
+build G+ we can split it into symmetric
+
+350
+00:07:53,270 --> 00:07:53,280
+build G+ we can split it into symmetric
+ 
+
+351
+00:07:53,280 --> 00:07:56,670
+build G+ we can split it into symmetric
+and anti-symmetric parts then if we pull
+
+352
+00:07:56,670 --> 00:07:56,680
+and anti-symmetric parts then if we pull
+ 
+
+353
+00:07:56,680 --> 00:07:59,909
+and anti-symmetric parts then if we pull
+out a factor of I we can can see that we
+
+354
+00:07:59,909 --> 00:07:59,919
+out a factor of I we can can see that we
+ 
+
+355
+00:07:59,919 --> 00:08:06,510
+out a factor of I we can can see that we
+can rewrite G+ as I * g y z minus g z
+
+356
+00:08:06,510 --> 00:08:06,520
+can rewrite G+ as I * g y z minus g z
+ 
+
+357
+00:08:06,520 --> 00:08:09,270
+can rewrite G+ as I * g y z minus g z
+x we can do something similar with G
+
+358
+00:08:09,270 --> 00:08:09,280
+x we can do something similar with G
+ 
+
+359
+00:08:09,280 --> 00:08:15,230
+x we can do something similar with G
+minus to write it as I * g y z plus g z
+
+360
+00:08:15,230 --> 00:08:15,240
+minus to write it as I * g y z plus g z
+ 
+
+361
+00:08:15,240 --> 00:08:19,029
+minus to write it as I * g y z plus g z
+x I'm going to Define one last operator
+
+362
+00:08:19,029 --> 00:08:19,039
+x I'm going to Define one last operator
+ 
+
+363
+00:08:19,039 --> 00:08:22,230
+x I'm going to Define one last operator
+gz when this acts on the UP State it
+
+364
+00:08:22,230 --> 00:08:22,240
+gz when this acts on the UP State it
+ 
+
+365
+00:08:22,240 --> 00:08:25,790
+gz when this acts on the UP State it
+returns plus one2 time the UP State when
+
+366
+00:08:25,790 --> 00:08:25,800
+returns plus one2 time the UP State when
+ 
+
+367
+00:08:25,800 --> 00:08:28,230
+returns plus one2 time the UP State when
+it acts on the down state it returns
+
+368
+00:08:28,230 --> 00:08:28,240
+it acts on the down state it returns
+ 
+
+369
+00:08:28,240 --> 00:08:30,550
+it acts on the down state it returns
+min-2 times the down
+
+370
+00:08:30,550 --> 00:08:30,560
+min-2 times the down
+ 
+
+371
+00:08:30,560 --> 00:08:33,230
+min-2 times the down
+state in other words the up and down
+
+372
+00:08:33,230 --> 00:08:33,240
+state in other words the up and down
+ 
+
+373
+00:08:33,240 --> 00:08:37,070
+state in other words the up and down
+states are I vectors of the gz operator
+
+374
+00:08:37,070 --> 00:08:37,080
+states are I vectors of the gz operator
+ 
+
+375
+00:08:37,080 --> 00:08:40,550
+states are I vectors of the gz operator
+with I values +2 and minus
+
+376
+00:08:40,550 --> 00:08:40,560
+with I values +2 and minus
+ 
+
+377
+00:08:40,560 --> 00:08:43,909
+with I values +2 and minus
+one2 in this basis the gz Matrix would
+
+378
+00:08:43,909 --> 00:08:43,919
+one2 in this basis the gz Matrix would
+ 
+
+379
+00:08:43,919 --> 00:08:48,350
+one2 in this basis the gz Matrix would
+be diagonal with entries + 1/2 and
+
+380
+00:08:48,350 --> 00:08:48,360
+be diagonal with entries + 1/2 and
+ 
+
+381
+00:08:48,360 --> 00:08:53,790
+be diagonal with entries + 1/2 and
+min-2 this Matrix is simply equal to I *
+
+382
+00:08:53,790 --> 00:08:53,800
+min-2 this Matrix is simply equal to I *
+ 
+
+383
+00:08:53,800 --> 00:08:56,949
+min-2 this Matrix is simply equal to I *
+gxy also it's very common to label the
+
+384
+00:08:56,949 --> 00:08:56,959
+gxy also it's very common to label the
+ 
+
+385
+00:08:56,959 --> 00:08:59,190
+gxy also it's very common to label the
+up and down States after their igen Val
+
+386
+00:08:59,190 --> 00:08:59,200
+up and down States after their igen Val
+ 
+
+387
+00:08:59,200 --> 00:09:00,550
+up and down States after their igen Val
+values under
+
+388
+00:09:00,550 --> 00:09:00,560
+values under
+ 
+
+389
+00:09:00,560 --> 00:09:03,630
+values under
+gz so the UP State could be labeled with
+
+390
+00:09:03,630 --> 00:09:03,640
+gz so the UP State could be labeled with
+ 
+
+391
+00:09:03,640 --> 00:09:05,790
+gz so the UP State could be labeled with
+plus2 and the down state could be
+
+392
+00:09:05,790 --> 00:09:05,800
+plus2 and the down state could be
+ 
+
+393
+00:09:05,800 --> 00:09:07,829
+plus2 and the down state could be
+labeled with minus
+
+394
+00:09:07,829 --> 00:09:07,839
+labeled with minus
+ 
+
+395
+00:09:07,839 --> 00:09:10,430
+labeled with minus
+one2 this is related to why we call the
+
+396
+00:09:10,430 --> 00:09:10,440
+one2 this is related to why we call the
+ 
+
+397
+00:09:10,440 --> 00:09:14,910
+one2 this is related to why we call the
+2x two representation the spin 1/2
+
+398
+00:09:14,910 --> 00:09:14,920
+2x two representation the spin 1/2
+ 
+
+399
+00:09:14,920 --> 00:09:16,949
+2x two representation the spin 1/2
+representation the reason I'm calling
+
+400
+00:09:16,949 --> 00:09:16,959
+representation the reason I'm calling
+ 
+
+401
+00:09:16,959 --> 00:09:19,949
+representation the reason I'm calling
+this Matrix gz is because this is the
+
+402
+00:09:19,949 --> 00:09:19,959
+this Matrix gz is because this is the
+ 
+
+403
+00:09:19,959 --> 00:09:22,470
+this Matrix gz is because this is the
+Matrix physicists use when measuring the
+
+404
+00:09:22,470 --> 00:09:22,480
+Matrix physicists use when measuring the
+ 
+
+405
+00:09:22,480 --> 00:09:24,790
+Matrix physicists use when measuring the
+spin angular momentum of a particle
+
+406
+00:09:24,790 --> 00:09:24,800
+spin angular momentum of a particle
+ 
+
+407
+00:09:24,800 --> 00:09:28,430
+spin angular momentum of a particle
+along the Z AIS or equivalently the XY
+
+408
+00:09:28,430 --> 00:09:28,440
+along the Z AIS or equivalently the XY
+ 
+
+409
+00:09:28,440 --> 00:09:30,670
+along the Z AIS or equivalently the XY
+plane
+
+410
+00:09:30,670 --> 00:09:30,680
+plane
+ 
+
+411
+00:09:30,680 --> 00:09:34,310
+plane
+it's also worth noting that since gxy is
+
+412
+00:09:34,310 --> 00:09:34,320
+it's also worth noting that since gxy is
+ 
+
+413
+00:09:34,320 --> 00:09:36,910
+it's also worth noting that since gxy is
+anti-mission then gz must be Herm
+
+414
+00:09:36,910 --> 00:09:36,920
+anti-mission then gz must be Herm
+ 
+
+415
+00:09:36,920 --> 00:09:39,790
+anti-mission then gz must be Herm
+Mission this implies all the ion vectors
+
+416
+00:09:39,790 --> 00:09:39,800
+Mission this implies all the ion vectors
+ 
+
+417
+00:09:39,800 --> 00:09:41,430
+Mission this implies all the ion vectors
+of gz are
+
+418
+00:09:41,430 --> 00:09:41,440
+of gz are
+ 
+
+419
+00:09:41,440 --> 00:09:44,310
+of gz are
+orthogonal so the ion vectors of gz give
+
+420
+00:09:44,310 --> 00:09:44,320
+orthogonal so the ion vectors of gz give
+ 
+
+421
+00:09:44,320 --> 00:09:47,150
+orthogonal so the ion vectors of gz give
+us an orthogonal
+
+422
+00:09:47,150 --> 00:09:47,160
+us an orthogonal
+ 
+
+423
+00:09:47,160 --> 00:09:51,030
+us an orthogonal
+basis so using our original su2 basis
+
+424
+00:09:51,030 --> 00:09:51,040
+basis so using our original su2 basis
+ 
+
+425
+00:09:51,040 --> 00:09:54,069
+basis so using our original su2 basis
+we've defined three new operators the
+
+426
+00:09:54,069 --> 00:09:54,079
+we've defined three new operators the
+ 
+
+427
+00:09:54,079 --> 00:09:56,509
+we've defined three new operators the
+raising operator G plus the lowering
+
+428
+00:09:56,509 --> 00:09:56,519
+raising operator G plus the lowering
+ 
+
+429
+00:09:56,519 --> 00:09:59,230
+raising operator G plus the lowering
+operator G minus and the I value
+
+430
+00:09:59,230 --> 00:09:59,240
+operator G minus and the I value
+ 
+
+431
+00:09:59,240 --> 00:10:00,670
+operator G minus and the I value
+operator
+
+432
+00:10:00,670 --> 00:10:00,680
+operator
+ 
+
+433
+00:10:00,680 --> 00:10:03,509
+operator
+gz note that since we Define these
+
+434
+00:10:03,509 --> 00:10:03,519
+gz note that since we Define these
+ 
+
+435
+00:10:03,519 --> 00:10:05,550
+gz note that since we Define these
+raising and lowering operators using
+
+436
+00:10:05,550 --> 00:10:05,560
+raising and lowering operators using
+ 
+
+437
+00:10:05,560 --> 00:10:08,110
+raising and lowering operators using
+complex coefficients this means we are
+
+438
+00:10:08,110 --> 00:10:08,120
+complex coefficients this means we are
+ 
+
+439
+00:10:08,120 --> 00:10:11,790
+complex coefficients this means we are
+leaving the su2 Lee algebra and going to
+
+440
+00:10:11,790 --> 00:10:11,800
+leaving the su2 Lee algebra and going to
+ 
+
+441
+00:10:11,800 --> 00:10:13,790
+leaving the su2 Lee algebra and going to
+its complexified
+
+442
+00:10:13,790 --> 00:10:13,800
+its complexified
+ 
+
+443
+00:10:13,800 --> 00:10:16,470
+its complexified
+version also since most physics
+
+444
+00:10:16,470 --> 00:10:16,480
+version also since most physics
+ 
+
+445
+00:10:16,480 --> 00:10:18,990
+version also since most physics
+textbooks use Herm Mission matrices for
+
+446
+00:10:18,990 --> 00:10:19,000
+textbooks use Herm Mission matrices for
+ 
+
+447
+00:10:19,000 --> 00:10:21,750
+textbooks use Herm Mission matrices for
+the su2 generators you might find the
+
+448
+00:10:21,750 --> 00:10:21,760
+the su2 generators you might find the
+ 
+
+449
+00:10:21,760 --> 00:10:23,590
+the su2 generators you might find the
+definition of these operators look a
+
+450
+00:10:23,590 --> 00:10:23,600
+definition of these operators look a
+ 
+
+451
+00:10:23,600 --> 00:10:25,790
+definition of these operators look a
+little different but they behave the
+
+452
+00:10:25,790 --> 00:10:25,800
+little different but they behave the
+ 
+
+453
+00:10:25,800 --> 00:10:26,870
+little different but they behave the
+same
+
+454
+00:10:26,870 --> 00:10:26,880
+same
+ 
+
+455
+00:10:26,880 --> 00:10:29,710
+same
+way now let's look at the com mutators
+
+456
+00:10:29,710 --> 00:10:29,720
+way now let's look at the com mutators
+ 
+
+457
+00:10:29,720 --> 00:10:32,949
+way now let's look at the com mutators
+of these three matrices to help compute
+
+458
+00:10:32,949 --> 00:10:32,959
+of these three matrices to help compute
+ 
+
+459
+00:10:32,959 --> 00:10:34,470
+of these three matrices to help compute
+these I'm going to look at some
+
+460
+00:10:34,470 --> 00:10:34,480
+these I'm going to look at some
+ 
+
+461
+00:10:34,480 --> 00:10:37,150
+these I'm going to look at some
+properties of the commutator the
+
+462
+00:10:37,150 --> 00:10:37,160
+properties of the commutator the
+ 
+
+463
+00:10:37,160 --> 00:10:41,550
+properties of the commutator the
+commutator of matrices X and Y is x y -
+
+464
+00:10:41,550 --> 00:10:41,560
+commutator of matrices X and Y is x y -
+ 
+
+465
+00:10:41,560 --> 00:10:44,389
+commutator of matrices X and Y is x y -
+YX notice that if we swap the order of
+
+466
+00:10:44,389 --> 00:10:44,399
+YX notice that if we swap the order of
+ 
+
+467
+00:10:44,399 --> 00:10:47,069
+YX notice that if we swap the order of
+the commutator inputs we get a negative
+
+468
+00:10:47,069 --> 00:10:47,079
+the commutator inputs we get a negative
+ 
+
+469
+00:10:47,079 --> 00:10:49,550
+the commutator inputs we get a negative
+sign compared to the original
+
+470
+00:10:49,550 --> 00:10:49,560
+sign compared to the original
+ 
+
+471
+00:10:49,560 --> 00:10:51,629
+sign compared to the original
+commutator this also means the
+
+472
+00:10:51,629 --> 00:10:51,639
+commutator this also means the
+ 
+
+473
+00:10:51,639 --> 00:10:54,590
+commutator this also means the
+commutator of any Matrix with itself is
+
+474
+00:10:54,590 --> 00:10:54,600
+commutator of any Matrix with itself is
+ 
+
+475
+00:10:54,600 --> 00:10:58,030
+commutator of any Matrix with itself is
+always zero since the two terms
+
+476
+00:10:58,030 --> 00:10:58,040
+always zero since the two terms
+ 
+
+477
+00:10:58,040 --> 00:11:01,350
+always zero since the two terms
+cancel now let's look at linearity
+
+478
+00:11:01,350 --> 00:11:01,360
+cancel now let's look at linearity
+ 
+
+479
+00:11:01,360 --> 00:11:04,629
+cancel now let's look at linearity
+properties let's say we have matrices XY
+
+480
+00:11:04,629 --> 00:11:04,639
+properties let's say we have matrices XY
+ 
+
+481
+00:11:04,639 --> 00:11:08,310
+properties let's say we have matrices XY
+Z and scaling numbers A and B and we
+
+482
+00:11:08,310 --> 00:11:08,320
+Z and scaling numbers A and B and we
+ 
+
+483
+00:11:08,320 --> 00:11:10,829
+Z and scaling numbers A and B and we
+want to determine the commutator of Zed
+
+484
+00:11:10,829 --> 00:11:10,839
+want to determine the commutator of Zed
+ 
+
+485
+00:11:10,839 --> 00:11:14,350
+want to determine the commutator of Zed
+and ax + b y we can write out the
+
+486
+00:11:14,350 --> 00:11:14,360
+and ax + b y we can write out the
+ 
+
+487
+00:11:14,360 --> 00:11:17,670
+and ax + b y we can write out the
+commutator as the subtraction of the two
+
+488
+00:11:17,670 --> 00:11:17,680
+commutator as the subtraction of the two
+ 
+
+489
+00:11:17,680 --> 00:11:20,190
+commutator as the subtraction of the two
+products after Distributing we can
+
+490
+00:11:20,190 --> 00:11:20,200
+products after Distributing we can
+ 
+
+491
+00:11:20,200 --> 00:11:23,470
+products after Distributing we can
+factor out a from the Z and X terms and
+
+492
+00:11:23,470 --> 00:11:23,480
+factor out a from the Z and X terms and
+ 
+
+493
+00:11:23,480 --> 00:11:27,030
+factor out a from the Z and X terms and
+Factor B from The Zed and Y terms these
+
+494
+00:11:27,030 --> 00:11:27,040
+Factor B from The Zed and Y terms these
+ 
+
+495
+00:11:27,040 --> 00:11:30,509
+Factor B from The Zed and Y terms these
+then become the Z x and z y
+
+496
+00:11:30,509 --> 00:11:30,519
+then become the Z x and z y
+ 
+
+497
+00:11:30,519 --> 00:11:32,750
+then become the Z x and z y
+commutators so what we've learned here
+
+498
+00:11:32,750 --> 00:11:32,760
+commutators so what we've learned here
+ 
+
+499
+00:11:32,760 --> 00:11:34,590
+commutators so what we've learned here
+is that the second input in the
+
+500
+00:11:34,590 --> 00:11:34,600
+is that the second input in the
+ 
+
+501
+00:11:34,600 --> 00:11:37,590
+is that the second input in the
+commutator bracket is linear we can
+
+502
+00:11:37,590 --> 00:11:37,600
+commutator bracket is linear we can
+ 
+
+503
+00:11:37,600 --> 00:11:39,910
+commutator bracket is linear we can
+either add and scale matrices inside the
+
+504
+00:11:39,910 --> 00:11:39,920
+either add and scale matrices inside the
+ 
+
+505
+00:11:39,920 --> 00:11:42,829
+either add and scale matrices inside the
+commutator input or ADD and scale the
+
+506
+00:11:42,829 --> 00:11:42,839
+commutator input or ADD and scale the
+ 
+
+507
+00:11:42,839 --> 00:11:45,550
+commutator input or ADD and scale the
+commutators of the individual matrices
+
+508
+00:11:45,550 --> 00:11:45,560
+commutators of the individual matrices
+ 
+
+509
+00:11:45,560 --> 00:11:47,430
+commutators of the individual matrices
+and get the same
+
+510
+00:11:47,430 --> 00:11:47,440
+and get the same
+ 
+
+511
+00:11:47,440 --> 00:11:50,350
+and get the same
+result the first input of the commutator
+
+512
+00:11:50,350 --> 00:11:50,360
+result the first input of the commutator
+ 
+
+513
+00:11:50,360 --> 00:11:53,310
+result the first input of the commutator
+also obeys the linearity property so we
+
+514
+00:11:53,310 --> 00:11:53,320
+also obeys the linearity property so we
+ 
+
+515
+00:11:53,320 --> 00:11:56,629
+also obeys the linearity property so we
+say the commutator is
+
+516
+00:11:56,629 --> 00:11:56,639
+say the commutator is
+ 
+
+517
+00:11:56,639 --> 00:11:58,949
+say the commutator is
+bilinear I'm now going to compute the
+
+518
+00:11:58,949 --> 00:11:58,959
+bilinear I'm now going to compute the
+ 
+
+519
+00:11:58,959 --> 00:12:02,949
+bilinear I'm now going to compute the
+the commutator of G+ and G minus you can
+
+520
+00:12:02,949 --> 00:12:02,959
+the commutator of G+ and G minus you can
+ 
+
+521
+00:12:02,959 --> 00:12:05,509
+the commutator of G+ and G minus you can
+pause now if you want to try it
+
+522
+00:12:05,509 --> 00:12:05,519
+pause now if you want to try it
+ 
+
+523
+00:12:05,519 --> 00:12:07,910
+pause now if you want to try it
+yourself first we Sub in their
+
+524
+00:12:07,910 --> 00:12:07,920
+yourself first we Sub in their
+ 
+
+525
+00:12:07,920 --> 00:12:10,550
+yourself first we Sub in their
+definitions and then use linearity rules
+
+526
+00:12:10,550 --> 00:12:10,560
+definitions and then use linearity rules
+ 
+
+527
+00:12:10,560 --> 00:12:14,230
+definitions and then use linearity rules
+once and then twice to get four terms
+
+528
+00:12:14,230 --> 00:12:14,240
+once and then twice to get four terms
+ 
+
+529
+00:12:14,240 --> 00:12:16,670
+once and then twice to get four terms
+the commutator of a term with itself is
+
+530
+00:12:16,670 --> 00:12:16,680
+the commutator of a term with itself is
+ 
+
+531
+00:12:16,680 --> 00:12:19,110
+the commutator of a term with itself is
+always zero so the first and fourth
+
+532
+00:12:19,110 --> 00:12:19,120
+always zero so the first and fourth
+ 
+
+533
+00:12:19,120 --> 00:12:20,470
+always zero so the first and fourth
+terms go to
+
+534
+00:12:20,470 --> 00:12:20,480
+terms go to
+ 
+
+535
+00:12:20,480 --> 00:12:23,470
+terms go to
+zero we can put the factors of I out in
+
+536
+00:12:23,470 --> 00:12:23,480
+zero we can put the factors of I out in
+ 
+
+537
+00:12:23,480 --> 00:12:25,910
+zero we can put the factors of I out in
+front and swap the order of the inputs
+
+538
+00:12:25,910 --> 00:12:25,920
+front and swap the order of the inputs
+ 
+
+539
+00:12:25,920 --> 00:12:27,990
+front and swap the order of the inputs
+in the first remaining commutator if we
+
+540
+00:12:27,990 --> 00:12:28,000
+in the first remaining commutator if we
+ 
+
+541
+00:12:28,000 --> 00:12:29,910
+in the first remaining commutator if we
+change its sign
+
+542
+00:12:29,910 --> 00:12:29,920
+change its sign
+ 
+
+543
+00:12:29,920 --> 00:12:33,069
+change its sign
+we end up with 2 I * the commutator of g
+
+544
+00:12:33,069 --> 00:12:33,079
+we end up with 2 I * the commutator of g
+ 
+
+545
+00:12:33,079 --> 00:12:37,110
+we end up with 2 I * the commutator of g
+y z and G ZX which we know is
+
+546
+00:12:37,110 --> 00:12:37,120
+y z and G ZX which we know is
+ 
+
+547
+00:12:37,120 --> 00:12:40,550
+y z and G ZX which we know is
+gxy and using the definition of gz this
+
+548
+00:12:40,550 --> 00:12:40,560
+gxy and using the definition of gz this
+ 
+
+549
+00:12:40,560 --> 00:12:42,310
+gxy and using the definition of gz this
+gives us 2
+
+550
+00:12:42,310 --> 00:12:42,320
+gives us 2
+ 
+
+551
+00:12:42,320 --> 00:12:44,949
+gives us 2
+gz you can also pause and try to
+
+552
+00:12:44,949 --> 00:12:44,959
+gz you can also pause and try to
+ 
+
+553
+00:12:44,959 --> 00:12:48,350
+gz you can also pause and try to
+calculate the commutator of gz and G+
+
+554
+00:12:48,350 --> 00:12:48,360
+calculate the commutator of gz and G+
+ 
+
+555
+00:12:48,360 --> 00:12:50,590
+calculate the commutator of gz and G+
+with the answer being
+
+556
+00:12:50,590 --> 00:12:50,600
+with the answer being
+ 
+
+557
+00:12:50,600 --> 00:12:53,870
+with the answer being
+G+ and calculating the commutator of gz
+
+558
+00:12:53,870 --> 00:12:53,880
+G+ and calculating the commutator of gz
+ 
+
+559
+00:12:53,880 --> 00:12:56,750
+G+ and calculating the commutator of gz
+and G minus the answer ends up being
+
+560
+00:12:56,750 --> 00:12:56,760
+and G minus the answer ends up being
+ 
+
+561
+00:12:56,760 --> 00:12:59,750
+and G minus the answer ends up being
+negative G minus
+
+562
+00:12:59,750 --> 00:12:59,760
+negative G minus
+ 
+
+563
+00:12:59,760 --> 00:13:01,949
+negative G minus
+so we have this new basis of the
+
+564
+00:13:01,949 --> 00:13:01,959
+so we have this new basis of the
+ 
+
+565
+00:13:01,959 --> 00:13:04,230
+so we have this new basis of the
+complexified Lee algebra
+
+566
+00:13:04,230 --> 00:13:04,240
+complexified Lee algebra
+ 
+
+567
+00:13:04,240 --> 00:13:08,069
+complexified Lee algebra
+su2 and this gives us a new set of
+
+568
+00:13:08,069 --> 00:13:08,079
+su2 and this gives us a new set of
+ 
+
+569
+00:13:08,079 --> 00:13:10,269
+su2 and this gives us a new set of
+commutators so what was the point of
+
+570
+00:13:10,269 --> 00:13:10,279
+commutators so what was the point of
+ 
+
+571
+00:13:10,279 --> 00:13:12,110
+commutators so what was the point of
+this change of
+
+572
+00:13:12,110 --> 00:13:12,120
+this change of
+ 
+
+573
+00:13:12,120 --> 00:13:15,310
+this change of
+basis well we know gz acting on the plus
+
+574
+00:13:15,310 --> 00:13:15,320
+basis well we know gz acting on the plus
+ 
+
+575
+00:13:15,320 --> 00:13:19,629
+basis well we know gz acting on the plus
+1/2 State gives I Value Plus one2 and GZ
+
+576
+00:13:19,629 --> 00:13:19,639
+1/2 State gives I Value Plus one2 and GZ
+ 
+
+577
+00:13:19,639 --> 00:13:21,790
+1/2 State gives I Value Plus one2 and GZ
+acting on the minus one2 State gives an
+
+578
+00:13:21,790 --> 00:13:21,800
+acting on the minus one2 State gives an
+ 
+
+579
+00:13:21,800 --> 00:13:23,790
+acting on the minus one2 State gives an
+igen value of
+
+580
+00:13:23,790 --> 00:13:23,800
+igen value of
+ 
+
+581
+00:13:23,800 --> 00:13:27,189
+igen value of
+min-2 we can summarize this by saying gz
+
+582
+00:13:27,189 --> 00:13:27,199
+min-2 we can summarize this by saying gz
+ 
+
+583
+00:13:27,199 --> 00:13:29,750
+min-2 we can summarize this by saying gz
+acting on the M State gives an I value
+
+584
+00:13:29,750 --> 00:13:29,760
+acting on the M State gives an I value
+ 
+
+585
+00:13:29,760 --> 00:13:30,829
+acting on the M State gives an I value
+of
+
+586
+00:13:30,829 --> 00:13:30,839
+of
+ 
+
+587
+00:13:30,839 --> 00:13:34,430
+of
+M but what happens if we have gz acting
+
+588
+00:13:34,430 --> 00:13:34,440
+M but what happens if we have gz acting
+ 
+
+589
+00:13:34,440 --> 00:13:38,509
+M but what happens if we have gz acting
+on the state G+ * the M State we can
+
+590
+00:13:38,509 --> 00:13:38,519
+on the state G+ * the M State we can
+ 
+
+591
+00:13:38,519 --> 00:13:42,389
+on the state G+ * the M State we can
+take the product gz * G+ and see it in
+
+592
+00:13:42,389 --> 00:13:42,399
+take the product gz * G+ and see it in
+ 
+
+593
+00:13:42,399 --> 00:13:45,350
+take the product gz * G+ and see it in
+this commutation relation this means we
+
+594
+00:13:45,350 --> 00:13:45,360
+this commutation relation this means we
+ 
+
+595
+00:13:45,360 --> 00:13:47,590
+this commutation relation this means we
+can replace it with the commutator of gz
+
+596
+00:13:47,590 --> 00:13:47,600
+can replace it with the commutator of gz
+ 
+
+597
+00:13:47,600 --> 00:13:51,590
+can replace it with the commutator of gz
+and G+ added with G+ *
+
+598
+00:13:51,590 --> 00:13:51,600
+and G+ added with G+ *
+ 
+
+599
+00:13:51,600 --> 00:13:54,389
+and G+ added with G+ *
+gz we know from previous slides that
+
+600
+00:13:54,389 --> 00:13:54,399
+gz we know from previous slides that
+ 
+
+601
+00:13:54,399 --> 00:13:56,670
+gz we know from previous slides that
+this commutator just gives
+
+602
+00:13:56,670 --> 00:13:56,680
+this commutator just gives
+ 
+
+603
+00:13:56,680 --> 00:14:00,269
+this commutator just gives
+G+ and when gz X on the M state it gives
+
+604
+00:14:00,269 --> 00:14:00,279
+G+ and when gz X on the M state it gives
+ 
+
+605
+00:14:00,279 --> 00:14:03,990
+G+ and when gz X on the M state it gives
+the IG value M we can then factor out G+
+
+606
+00:14:03,990 --> 00:14:04,000
+the IG value M we can then factor out G+
+ 
+
+607
+00:14:04,000 --> 00:14:08,550
+the IG value M we can then factor out G+
+from these terms and get M +1 out in
+
+608
+00:14:08,550 --> 00:14:08,560
+from these terms and get M +1 out in
+ 
+
+609
+00:14:08,560 --> 00:14:10,870
+from these terms and get M +1 out in
+front what this means is that we can
+
+610
+00:14:10,870 --> 00:14:10,880
+front what this means is that we can
+ 
+
+611
+00:14:10,880 --> 00:14:14,430
+front what this means is that we can
+treat G+ * the M State as a new igen
+
+612
+00:14:14,430 --> 00:14:14,440
+treat G+ * the M State as a new igen
+ 
+
+613
+00:14:14,440 --> 00:14:17,990
+treat G+ * the M State as a new igen
+Vector of the gz operator and it has I
+
+614
+00:14:17,990 --> 00:14:18,000
+Vector of the gz operator and it has I
+ 
+
+615
+00:14:18,000 --> 00:14:20,230
+Vector of the gz operator and it has I
+value m +
+
+616
+00:14:20,230 --> 00:14:20,240
+value m +
+ 
+
+617
+00:14:20,240 --> 00:14:22,949
+value m +
+one this makes sense given what we
+
+618
+00:14:22,949 --> 00:14:22,959
+one this makes sense given what we
+ 
+
+619
+00:14:22,959 --> 00:14:25,629
+one this makes sense given what we
+expect from the raising operator it
+
+620
+00:14:25,629 --> 00:14:25,639
+expect from the raising operator it
+ 
+
+621
+00:14:25,639 --> 00:14:27,550
+expect from the raising operator it
+should raise us from the minus one2
+
+622
+00:14:27,550 --> 00:14:27,560
+should raise us from the minus one2
+ 
+
+623
+00:14:27,560 --> 00:14:30,749
+should raise us from the minus one2
+state to the Plus 1/ half State thereby
+
+624
+00:14:30,749 --> 00:14:30,759
+state to the Plus 1/ half State thereby
+ 
+
+625
+00:14:30,759 --> 00:14:33,749
+state to the Plus 1/ half State thereby
+increasing the igen value by
+
+626
+00:14:33,749 --> 00:14:33,759
+increasing the igen value by
+ 
+
+627
+00:14:33,759 --> 00:14:37,509
+increasing the igen value by
+one now recall that the G+ operator will
+
+628
+00:14:37,509 --> 00:14:37,519
+one now recall that the G+ operator will
+ 
+
+629
+00:14:37,519 --> 00:14:39,870
+one now recall that the G+ operator will
+send the vector with the highest igen
+
+630
+00:14:39,870 --> 00:14:39,880
+send the vector with the highest igen
+ 
+
+631
+00:14:39,880 --> 00:14:43,990
+send the vector with the highest igen
+value to zero this is true in the 2x2
+
+632
+00:14:43,990 --> 00:14:44,000
+value to zero this is true in the 2x2
+ 
+
+633
+00:14:44,000 --> 00:14:46,269
+value to zero this is true in the 2x2
+representation but it's true in any
+
+634
+00:14:46,269 --> 00:14:46,279
+representation but it's true in any
+ 
+
+635
+00:14:46,279 --> 00:14:47,749
+representation but it's true in any
+finite dimensional
+
+636
+00:14:47,749 --> 00:14:47,759
+finite dimensional
+ 
+
+637
+00:14:47,759 --> 00:14:49,790
+finite dimensional
+representation because we'll eventually
+
+638
+00:14:49,790 --> 00:14:49,800
+representation because we'll eventually
+ 
+
+639
+00:14:49,800 --> 00:14:53,069
+representation because we'll eventually
+run out of basis vectors to Rays at some
+
+640
+00:14:53,069 --> 00:14:53,079
+run out of basis vectors to Rays at some
+ 
+
+641
+00:14:53,079 --> 00:14:56,389
+run out of basis vectors to Rays at some
+point we call the basis Vector that G+
+
+642
+00:14:56,389 --> 00:14:56,399
+point we call the basis Vector that G+
+ 
+
+643
+00:14:56,399 --> 00:14:58,990
+point we call the basis Vector that G+
+sends to zero the vector with the
+
+644
+00:14:58,990 --> 00:14:59,000
+sends to zero the vector with the
+ 
+
+645
+00:14:59,000 --> 00:15:02,110
+sends to zero the vector with the
+highest igen value we sometimes call
+
+646
+00:15:02,110 --> 00:15:02,120
+highest igen value we sometimes call
+ 
+
+647
+00:15:02,120 --> 00:15:05,150
+highest igen value we sometimes call
+igen values weights in this context so
+
+648
+00:15:05,150 --> 00:15:05,160
+igen values weights in this context so
+ 
+
+649
+00:15:05,160 --> 00:15:07,189
+igen values weights in this context so
+this is also called the IG Vector with
+
+650
+00:15:07,189 --> 00:15:07,199
+this is also called the IG Vector with
+ 
+
+651
+00:15:07,199 --> 00:15:08,910
+this is also called the IG Vector with
+the highest
+
+652
+00:15:08,910 --> 00:15:08,920
+the highest
+ 
+
+653
+00:15:08,920 --> 00:15:11,269
+the highest
+weight we can do something similar with
+
+654
+00:15:11,269 --> 00:15:11,279
+weight we can do something similar with
+ 
+
+655
+00:15:11,279 --> 00:15:14,269
+weight we can do something similar with
+the lowering operator G minus except
+
+656
+00:15:14,269 --> 00:15:14,279
+the lowering operator G minus except
+ 
+
+657
+00:15:14,279 --> 00:15:16,389
+the lowering operator G minus except
+this time the commutator gives negative
+
+658
+00:15:16,389 --> 00:15:16,399
+this time the commutator gives negative
+ 
+
+659
+00:15:16,399 --> 00:15:19,110
+this time the commutator gives negative
+G minus and so we end up with an IG
+
+660
+00:15:19,110 --> 00:15:19,120
+G minus and so we end up with an IG
+ 
+
+661
+00:15:19,120 --> 00:15:21,110
+G minus and so we end up with an IG
+value of M
+
+662
+00:15:21,110 --> 00:15:21,120
+value of M
+ 
+
+663
+00:15:21,120 --> 00:15:24,350
+value of M
+minus1 again this makes sense we expect
+
+664
+00:15:24,350 --> 00:15:24,360
+minus1 again this makes sense we expect
+ 
+
+665
+00:15:24,360 --> 00:15:26,790
+minus1 again this makes sense we expect
+the lowering operator to decrease the IG
+
+666
+00:15:26,790 --> 00:15:26,800
+the lowering operator to decrease the IG
+ 
+
+667
+00:15:26,800 --> 00:15:29,230
+the lowering operator to decrease the IG
+value of a state by one
+
+668
+00:15:29,230 --> 00:15:29,240
+value of a state by one
+ 
+
+669
+00:15:29,240 --> 00:15:31,230
+value of a state by one
+except in the case of the lowest IG
+
+670
+00:15:31,230 --> 00:15:31,240
+except in the case of the lowest IG
+ 
+
+671
+00:15:31,240 --> 00:15:33,710
+except in the case of the lowest IG
+value or lowest weight Vector which gets
+
+672
+00:15:33,710 --> 00:15:33,720
+value or lowest weight Vector which gets
+ 
+
+673
+00:15:33,720 --> 00:15:35,189
+value or lowest weight Vector which gets
+sent to
+
+674
+00:15:35,189 --> 00:15:35,199
+sent to
+ 
+
+675
+00:15:35,199 --> 00:15:38,189
+sent to
+zero it turns out that if the highest IG
+
+676
+00:15:38,189 --> 00:15:38,199
+zero it turns out that if the highest IG
+ 
+
+677
+00:15:38,199 --> 00:15:41,350
+zero it turns out that if the highest IG
+value is J then the lowest IG value will
+
+678
+00:15:41,350 --> 00:15:41,360
+value is J then the lowest IG value will
+ 
+
+679
+00:15:41,360 --> 00:15:44,790
+value is J then the lowest IG value will
+be minus J I'll prove this a bit later
+
+680
+00:15:44,790 --> 00:15:44,800
+be minus J I'll prove this a bit later
+ 
+
+681
+00:15:44,800 --> 00:15:46,069
+be minus J I'll prove this a bit later
+in the
+
+682
+00:15:46,069 --> 00:15:46,079
+in the
+ 
+
+683
+00:15:46,079 --> 00:15:48,670
+in the
+video so let's think carefully about
+
+684
+00:15:48,670 --> 00:15:48,680
+video so let's think carefully about
+ 
+
+685
+00:15:48,680 --> 00:15:50,749
+video so let's think carefully about
+what we've just seen with these igen
+
+686
+00:15:50,749 --> 00:15:50,759
+what we've just seen with these igen
+ 
+
+687
+00:15:50,759 --> 00:15:53,670
+what we've just seen with these igen
+value relations thinking in terms of any
+
+688
+00:15:53,670 --> 00:15:53,680
+value relations thinking in terms of any
+ 
+
+689
+00:15:53,680 --> 00:15:57,590
+value relations thinking in terms of any
+Dimension not just the 2x two
+
+690
+00:15:57,590 --> 00:15:57,600
+Dimension not just the 2x two
+ 
+
+691
+00:15:57,600 --> 00:16:00,430
+Dimension not just the 2x two
+representation when we applied gz to the
+
+692
+00:16:00,430 --> 00:16:00,440
+representation when we applied gz to the
+ 
+
+693
+00:16:00,440 --> 00:16:04,430
+representation when we applied gz to the
+state G+ on M we got an IG value of m +
+
+694
+00:16:04,430 --> 00:16:04,440
+state G+ on M we got an IG value of m +
+ 
+
+695
+00:16:04,440 --> 00:16:07,910
+state G+ on M we got an IG value of m +
+1 so this means that the G+ on M State
+
+696
+00:16:07,910 --> 00:16:07,920
+1 so this means that the G+ on M State
+ 
+
+697
+00:16:07,920 --> 00:16:11,550
+1 so this means that the G+ on M State
+behaves like the state m + one however
+
+698
+00:16:11,550 --> 00:16:11,560
+behaves like the state m + one however
+ 
+
+699
+00:16:11,560 --> 00:16:13,590
+behaves like the state m + one however
+since the state appears on both sides of
+
+700
+00:16:13,590 --> 00:16:13,600
+since the state appears on both sides of
+ 
+
+701
+00:16:13,600 --> 00:16:16,230
+since the state appears on both sides of
+the equation we have only showed that G+
+
+702
+00:16:16,230 --> 00:16:16,240
+the equation we have only showed that G+
+ 
+
+703
+00:16:16,240 --> 00:16:19,949
+the equation we have only showed that G+
+on M is proportional to the state M +1
+
+704
+00:16:19,949 --> 00:16:19,959
+on M is proportional to the state M +1
+ 
+
+705
+00:16:19,959 --> 00:16:22,829
+on M is proportional to the state M +1
+they are not necessarily equal they're
+
+706
+00:16:22,829 --> 00:16:22,839
+they are not necessarily equal they're
+ 
+
+707
+00:16:22,839 --> 00:16:25,629
+they are not necessarily equal they're
+only equal up to some scaling Factor
+
+708
+00:16:25,629 --> 00:16:25,639
+only equal up to some scaling Factor
+ 
+
+709
+00:16:25,639 --> 00:16:29,150
+only equal up to some scaling Factor
+Alpha similarly with the G minus k
+
+710
+00:16:29,150 --> 00:16:29,160
+Alpha similarly with the G minus k
+ 
+
+711
+00:16:29,160 --> 00:16:31,710
+Alpha similarly with the G minus k
+the state G minus on M behaves like the
+
+712
+00:16:31,710 --> 00:16:31,720
+the state G minus on M behaves like the
+ 
+
+713
+00:16:31,720 --> 00:16:34,710
+the state G minus on M behaves like the
+state M minus1 and is proportional
+
+714
+00:16:34,710 --> 00:16:34,720
+state M minus1 and is proportional
+ 
+
+715
+00:16:34,720 --> 00:16:36,309
+state M minus1 and is proportional
+According to some proportionality
+
+716
+00:16:36,309 --> 00:16:36,319
+According to some proportionality
+ 
+
+717
+00:16:36,319 --> 00:16:37,910
+According to some proportionality
+constant
+
+718
+00:16:37,910 --> 00:16:37,920
+constant
+ 
+
+719
+00:16:37,920 --> 00:16:41,189
+constant
+beta now to solve for Alpha and beta I'm
+
+720
+00:16:41,189 --> 00:16:41,199
+beta now to solve for Alpha and beta I'm
+ 
+
+721
+00:16:41,199 --> 00:16:42,790
+beta now to solve for Alpha and beta I'm
+going to make the assumptions that the
+
+722
+00:16:42,790 --> 00:16:42,800
+going to make the assumptions that the
+ 
+
+723
+00:16:42,800 --> 00:16:45,590
+going to make the assumptions that the
+igen vectors of gz that we're working
+
+724
+00:16:45,590 --> 00:16:45,600
+igen vectors of gz that we're working
+ 
+
+725
+00:16:45,600 --> 00:16:49,110
+igen vectors of gz that we're working
+with are all normalized so the broet
+
+726
+00:16:49,110 --> 00:16:49,120
+with are all normalized so the broet
+ 
+
+727
+00:16:49,120 --> 00:16:51,790
+with are all normalized so the broet
+inner product of any gz I Vector with
+
+728
+00:16:51,790 --> 00:16:51,800
+inner product of any gz I Vector with
+ 
+
+729
+00:16:51,800 --> 00:16:54,309
+inner product of any gz I Vector with
+itself always equals
+
+730
+00:16:54,309 --> 00:16:54,319
+itself always equals
+ 
+
+731
+00:16:54,319 --> 00:16:58,509
+itself always equals
+1 to get the norm of G+ on M we use a
+
+732
+00:16:58,509 --> 00:16:58,519
+1 to get the norm of G+ on M we use a
+ 
+
+733
+00:16:58,519 --> 00:17:00,949
+1 to get the norm of G+ on M we use a
+its corresponding bra Vector which is
+
+734
+00:17:00,949 --> 00:17:00,959
+its corresponding bra Vector which is
+ 
+
+735
+00:17:00,959 --> 00:17:03,670
+its corresponding bra Vector which is
+its hermiss conjugate this equals the
+
+736
+00:17:03,670 --> 00:17:03,680
+its hermiss conjugate this equals the
+ 
+
+737
+00:17:03,680 --> 00:17:06,870
+its hermiss conjugate this equals the
+bra version of M * G Plus
+
+738
+00:17:06,870 --> 00:17:06,880
+bra version of M * G Plus
+ 
+
+739
+00:17:06,880 --> 00:17:09,230
+bra version of M * G Plus
+dagger now let's take their inner
+
+740
+00:17:09,230 --> 00:17:09,240
+dagger now let's take their inner
+ 
+
+741
+00:17:09,240 --> 00:17:12,909
+dagger now let's take their inner
+product we know G+ raises the state to m
+
+742
+00:17:12,909 --> 00:17:12,919
+product we know G+ raises the state to m
+ 
+
+743
+00:17:12,919 --> 00:17:15,870
+product we know G+ raises the state to m
++ 1 with a proportionality constant
+
+744
+00:17:15,870 --> 00:17:15,880
++ 1 with a proportionality constant
+ 
+
+745
+00:17:15,880 --> 00:17:19,549
++ 1 with a proportionality constant
+Alpha for the Kat Vector G Plus dagger
+
+746
+00:17:19,549 --> 00:17:19,559
+Alpha for the Kat Vector G Plus dagger
+ 
+
+747
+00:17:19,559 --> 00:17:21,590
+Alpha for the Kat Vector G Plus dagger
+should do the same thing on the bra
+
+748
+00:17:21,590 --> 00:17:21,600
+should do the same thing on the bra
+ 
+
+749
+00:17:21,600 --> 00:17:24,270
+should do the same thing on the bra
+Vector but it gives the proportionality
+
+750
+00:17:24,270 --> 00:17:24,280
+Vector but it gives the proportionality
+ 
+
+751
+00:17:24,280 --> 00:17:27,110
+Vector but it gives the proportionality
+constant of alpha complex conjugate
+
+752
+00:17:27,110 --> 00:17:27,120
+constant of alpha complex conjugate
+ 
+
+753
+00:17:27,120 --> 00:17:29,270
+constant of alpha complex conjugate
+Instead This is is because the Herm
+
+754
+00:17:29,270 --> 00:17:29,280
+Instead This is is because the Herm
+ 
+
+755
+00:17:29,280 --> 00:17:31,510
+Instead This is is because the Herm
+Mission conjugate of a scaler is just
+
+756
+00:17:31,510 --> 00:17:31,520
+Mission conjugate of a scaler is just
+ 
+
+757
+00:17:31,520 --> 00:17:33,110
+Mission conjugate of a scaler is just
+the complex
+
+758
+00:17:33,110 --> 00:17:33,120
+the complex
+ 
+
+759
+00:17:33,120 --> 00:17:35,390
+the complex
+conjugate putting the scalers out in
+
+760
+00:17:35,390 --> 00:17:35,400
+conjugate putting the scalers out in
+ 
+
+761
+00:17:35,400 --> 00:17:38,789
+conjugate putting the scalers out in
+front Alpha conjugate time Alpha is just
+
+762
+00:17:38,789 --> 00:17:38,799
+front Alpha conjugate time Alpha is just
+ 
+
+763
+00:17:38,799 --> 00:17:41,789
+front Alpha conjugate time Alpha is just
+the squared magnitude of Alpha and since
+
+764
+00:17:41,789 --> 00:17:41,799
+the squared magnitude of Alpha and since
+ 
+
+765
+00:17:41,799 --> 00:17:43,909
+the squared magnitude of Alpha and since
+these State vectors are normalized we
+
+766
+00:17:43,909 --> 00:17:43,919
+these State vectors are normalized we
+ 
+
+767
+00:17:43,919 --> 00:17:45,110
+these State vectors are normalized we
+just get
+
+768
+00:17:45,110 --> 00:17:45,120
+just get
+ 
+
+769
+00:17:45,120 --> 00:17:48,110
+just get
+one so we've shown that the squared Norm
+
+770
+00:17:48,110 --> 00:17:48,120
+one so we've shown that the squared Norm
+ 
+
+771
+00:17:48,120 --> 00:17:51,430
+one so we've shown that the squared Norm
+of the G+ onm state is the magnitude of
+
+772
+00:17:51,430 --> 00:17:51,440
+of the G+ onm state is the magnitude of
+ 
+
+773
+00:17:51,440 --> 00:17:54,470
+of the G+ onm state is the magnitude of
+alpha squared we can similarly show that
+
+774
+00:17:54,470 --> 00:17:54,480
+alpha squared we can similarly show that
+ 
+
+775
+00:17:54,480 --> 00:17:56,950
+alpha squared we can similarly show that
+the squared Norm of the G minus onm
+
+776
+00:17:56,950 --> 00:17:56,960
+the squared Norm of the G minus onm
+ 
+
+777
+00:17:56,960 --> 00:18:00,270
+the squared Norm of the G minus onm
+state is the magnitude of beta
+
+778
+00:18:00,270 --> 00:18:00,280
+state is the magnitude of beta
+ 
+
+779
+00:18:00,280 --> 00:18:04,350
+state is the magnitude of beta
+squ so let's calculate G+ D or G+ by
+
+780
+00:18:04,350 --> 00:18:04,360
+squ so let's calculate G+ D or G+ by
+ 
+
+781
+00:18:04,360 --> 00:18:07,029
+squ so let's calculate G+ D or G+ by
+plugging in its definition we can pass
+
+782
+00:18:07,029 --> 00:18:07,039
+plugging in its definition we can pass
+ 
+
+783
+00:18:07,039 --> 00:18:09,350
+plugging in its definition we can pass
+the dagger to all the terms inside the
+
+784
+00:18:09,350 --> 00:18:09,360
+the dagger to all the terms inside the
+ 
+
+785
+00:18:09,360 --> 00:18:11,789
+the dagger to all the terms inside the
+brackets which also flips the sign of
+
+786
+00:18:11,789 --> 00:18:11,799
+brackets which also flips the sign of
+ 
+
+787
+00:18:11,799 --> 00:18:15,230
+brackets which also flips the sign of
+the complex I if we distribute the four
+
+788
+00:18:15,230 --> 00:18:15,240
+the complex I if we distribute the four
+ 
+
+789
+00:18:15,240 --> 00:18:18,590
+the complex I if we distribute the four
+terms we can write minus I * I as
+
+790
+00:18:18,590 --> 00:18:18,600
+terms we can write minus I * I as
+ 
+
+791
+00:18:18,600 --> 00:18:22,510
+terms we can write minus I * I as
+1 now we know all the su2 generators are
+
+792
+00:18:22,510 --> 00:18:22,520
+1 now we know all the su2 generators are
+ 
+
+793
+00:18:22,520 --> 00:18:24,990
+1 now we know all the su2 generators are
+anti-mission so the dagger operation
+
+794
+00:18:24,990 --> 00:18:25,000
+anti-mission so the dagger operation
+ 
+
+795
+00:18:25,000 --> 00:18:27,310
+anti-mission so the dagger operation
+just gives a minus
+
+796
+00:18:27,310 --> 00:18:27,320
+just gives a minus
+ 
+
+797
+00:18:27,320 --> 00:18:31,950
+just gives a minus
+sign with what's left we get g y z^ 2us
+
+798
+00:18:31,950 --> 00:18:31,960
+sign with what's left we get g y z^ 2us
+ 
+
+799
+00:18:31,960 --> 00:18:36,750
+sign with what's left we get g y z^ 2us
+g z x^ 2 - I * this commutator which we
+
+800
+00:18:36,750 --> 00:18:36,760
+g z x^ 2 - I * this commutator which we
+ 
+
+801
+00:18:36,760 --> 00:18:38,710
+g z x^ 2 - I * this commutator which we
+know is just
+
+802
+00:18:38,710 --> 00:18:38,720
+know is just
+ 
+
+803
+00:18:38,720 --> 00:18:41,909
+know is just
+gxy and we know I * gxy is the
+
+804
+00:18:41,909 --> 00:18:41,919
+gxy and we know I * gxy is the
+ 
+
+805
+00:18:41,919 --> 00:18:45,230
+gxy and we know I * gxy is the
+definition of our ion value operator
+
+806
+00:18:45,230 --> 00:18:45,240
+definition of our ion value operator
+ 
+
+807
+00:18:45,240 --> 00:18:48,430
+definition of our ion value operator
+gz we can do a similar calculation for G
+
+808
+00:18:48,430 --> 00:18:48,440
+gz we can do a similar calculation for G
+ 
+
+809
+00:18:48,440 --> 00:18:51,390
+gz we can do a similar calculation for G
+minus dag or G minus the only difference
+
+810
+00:18:51,390 --> 00:18:51,400
+minus dag or G minus the only difference
+ 
+
+811
+00:18:51,400 --> 00:18:54,070
+minus dag or G minus the only difference
+is that gz has a plus sign instead of a
+
+812
+00:18:54,070 --> 00:18:54,080
+is that gz has a plus sign instead of a
+ 
+
+813
+00:18:54,080 --> 00:18:57,310
+is that gz has a plus sign instead of a
+minus sign so we have these two
+
+814
+00:18:57,310 --> 00:18:57,320
+minus sign so we have these two
+ 
+
+815
+00:18:57,320 --> 00:18:59,310
+minus sign so we have these two
+formulas
+
+816
+00:18:59,310 --> 00:18:59,320
+formulas
+ 
+
+817
+00:18:59,320 --> 00:19:01,789
+formulas
+to understand these formulas better I'm
+
+818
+00:19:01,789 --> 00:19:01,799
+to understand these formulas better I'm
+ 
+
+819
+00:19:01,799 --> 00:19:04,149
+to understand these formulas better I'm
+going to talk about the Kazmir operator
+
+820
+00:19:04,149 --> 00:19:04,159
+going to talk about the Kazmir operator
+ 
+
+821
+00:19:04,159 --> 00:19:07,149
+going to talk about the Kazmir operator
+g s which is defined as the negative
+
+822
+00:19:07,149 --> 00:19:07,159
+g s which is defined as the negative
+ 
+
+823
+00:19:07,159 --> 00:19:10,549
+g s which is defined as the negative
+squares of the su2 generators summed
+
+824
+00:19:10,549 --> 00:19:10,559
+squares of the su2 generators summed
+ 
+
+825
+00:19:10,559 --> 00:19:13,789
+squares of the su2 generators summed
+together g^ s is important because it
+
+826
+00:19:13,789 --> 00:19:13,799
+together g^ s is important because it
+ 
+
+827
+00:19:13,799 --> 00:19:16,350
+together g^ s is important because it
+commutes with everything in the Lee
+
+828
+00:19:16,350 --> 00:19:16,360
+commutes with everything in the Lee
+ 
+
+829
+00:19:16,360 --> 00:19:20,070
+commutes with everything in the Lee
+algebra this G squ operator is not a
+
+830
+00:19:20,070 --> 00:19:20,080
+algebra this G squ operator is not a
+ 
+
+831
+00:19:20,080 --> 00:19:23,270
+algebra this G squ operator is not a
+member of the Lee algebra su2 because
+
+832
+00:19:23,270 --> 00:19:23,280
+member of the Lee algebra su2 because
+ 
+
+833
+00:19:23,280 --> 00:19:25,430
+member of the Lee algebra su2 because
+the Lee algebra doesn't understand what
+
+834
+00:19:25,430 --> 00:19:25,440
+the Lee algebra doesn't understand what
+ 
+
+835
+00:19:25,440 --> 00:19:28,710
+the Lee algebra doesn't understand what
+squaring matrices means Lee Al albas
+
+836
+00:19:28,710 --> 00:19:28,720
+squaring matrices means Lee Al albas
+ 
+
+837
+00:19:28,720 --> 00:19:31,870
+squaring matrices means Lee Al albas
+only understand the Lee bracket or
+
+838
+00:19:31,870 --> 00:19:31,880
+only understand the Lee bracket or
+ 
+
+839
+00:19:31,880 --> 00:19:35,390
+only understand the Lee bracket or
+commutator the Kazmir operator g^ s
+
+840
+00:19:35,390 --> 00:19:35,400
+commutator the Kazmir operator g^ s
+ 
+
+841
+00:19:35,400 --> 00:19:37,270
+commutator the Kazmir operator g^ s
+instead lives in the universal
+
+842
+00:19:37,270 --> 00:19:37,280
+instead lives in the universal
+ 
+
+843
+00:19:37,280 --> 00:19:39,990
+instead lives in the universal
+enveloping algebra but I'm not going to
+
+844
+00:19:39,990 --> 00:19:40,000
+enveloping algebra but I'm not going to
+ 
+
+845
+00:19:40,000 --> 00:19:42,070
+enveloping algebra but I'm not going to
+talk about that in this
+
+846
+00:19:42,070 --> 00:19:42,080
+talk about that in this
+ 
+
+847
+00:19:42,080 --> 00:19:45,190
+talk about that in this
+video to prove that g squared commutes
+
+848
+00:19:45,190 --> 00:19:45,200
+video to prove that g squared commutes
+ 
+
+849
+00:19:45,200 --> 00:19:47,470
+video to prove that g squared commutes
+with everything I'm going to go over a
+
+850
+00:19:47,470 --> 00:19:47,480
+with everything I'm going to go over a
+ 
+
+851
+00:19:47,480 --> 00:19:50,510
+with everything I'm going to go over a
+couple more properties of the commutator
+
+852
+00:19:50,510 --> 00:19:50,520
+couple more properties of the commutator
+ 
+
+853
+00:19:50,520 --> 00:19:53,549
+couple more properties of the commutator
+first the commutator of a with a squ
+
+854
+00:19:53,549 --> 00:19:53,559
+first the commutator of a with a squ
+ 
+
+855
+00:19:53,559 --> 00:19:55,870
+first the commutator of a with a squ
+always goes to zero because the two
+
+856
+00:19:55,870 --> 00:19:55,880
+always goes to zero because the two
+ 
+
+857
+00:19:55,880 --> 00:19:59,750
+always goes to zero because the two
+terms cancel also the commutator obeys a
+
+858
+00:19:59,750 --> 00:19:59,760
+terms cancel also the commutator obeys a
+ 
+
+859
+00:19:59,760 --> 00:20:02,590
+terms cancel also the commutator obeys a
+kind of product rule if we take the
+
+860
+00:20:02,590 --> 00:20:02,600
+kind of product rule if we take the
+ 
+
+861
+00:20:02,600 --> 00:20:05,750
+kind of product rule if we take the
+commutator of a with B * C we can
+
+862
+00:20:05,750 --> 00:20:05,760
+commutator of a with B * C we can
+ 
+
+863
+00:20:05,760 --> 00:20:08,909
+commutator of a with B * C we can
+subtract and add b a c in the middle and
+
+864
+00:20:08,909 --> 00:20:08,919
+subtract and add b a c in the middle and
+ 
+
+865
+00:20:08,919 --> 00:20:12,310
+subtract and add b a c in the middle and
+get a sum of two commutators one with b
+
+866
+00:20:12,310 --> 00:20:12,320
+get a sum of two commutators one with b
+ 
+
+867
+00:20:12,320 --> 00:20:13,830
+get a sum of two commutators one with b
+and one with
+
+868
+00:20:13,830 --> 00:20:13,840
+and one with
+ 
+
+869
+00:20:13,840 --> 00:20:17,630
+and one with
+C using this we can prove gxy commutes
+
+870
+00:20:17,630 --> 00:20:17,640
+C using this we can prove gxy commutes
+ 
+
+871
+00:20:17,640 --> 00:20:20,110
+C using this we can prove gxy commutes
+with g^ s we can write out the
+
+872
+00:20:20,110 --> 00:20:20,120
+with g^ s we can write out the
+ 
+
+873
+00:20:20,120 --> 00:20:23,669
+with g^ s we can write out the
+definition of g^ s and then distribute
+
+874
+00:20:23,669 --> 00:20:23,679
+definition of g^ s and then distribute
+ 
+
+875
+00:20:23,679 --> 00:20:25,510
+definition of g^ s and then distribute
+we know the commutator involving only
+
+876
+00:20:25,510 --> 00:20:25,520
+we know the commutator involving only
+ 
+
+877
+00:20:25,520 --> 00:20:29,029
+we know the commutator involving only
+gxy goes to zero automatically
+
+878
+00:20:29,029 --> 00:20:29,039
+gxy goes to zero automatically
+ 
+
+879
+00:20:29,039 --> 00:20:31,110
+gxy goes to zero automatically
+the other two terms can be evaluated
+
+880
+00:20:31,110 --> 00:20:31,120
+the other two terms can be evaluated
+ 
+
+881
+00:20:31,120 --> 00:20:34,510
+the other two terms can be evaluated
+using product rule giving two terms
+
+882
+00:20:34,510 --> 00:20:34,520
+using product rule giving two terms
+ 
+
+883
+00:20:34,520 --> 00:20:37,630
+using product rule giving two terms
+each we can rewrite these commutators as
+
+884
+00:20:37,630 --> 00:20:37,640
+each we can rewrite these commutators as
+ 
+
+885
+00:20:37,640 --> 00:20:42,110
+each we can rewrite these commutators as
+gzx and gy Z working out the signs all
+
+886
+00:20:42,110 --> 00:20:42,120
+gzx and gy Z working out the signs all
+ 
+
+887
+00:20:42,120 --> 00:20:44,149
+gzx and gy Z working out the signs all
+the terms cancel and we see the
+
+888
+00:20:44,149 --> 00:20:44,159
+the terms cancel and we see the
+ 
+
+889
+00:20:44,159 --> 00:20:46,149
+the terms cancel and we see the
+commutator goes to
+
+890
+00:20:46,149 --> 00:20:46,159
+commutator goes to
+ 
+
+891
+00:20:46,159 --> 00:20:49,070
+commutator goes to
+zero we can use similar proofs to show
+
+892
+00:20:49,070 --> 00:20:49,080
+zero we can use similar proofs to show
+ 
+
+893
+00:20:49,080 --> 00:20:51,070
+zero we can use similar proofs to show
+that g^ s commutes with the other two
+
+894
+00:20:51,070 --> 00:20:51,080
+that g^ s commutes with the other two
+ 
+
+895
+00:20:51,080 --> 00:20:53,830
+that g^ s commutes with the other two
+basis vectors and so commutes with every
+
+896
+00:20:53,830 --> 00:20:53,840
+basis vectors and so commutes with every
+ 
+
+897
+00:20:53,840 --> 00:20:56,270
+basis vectors and so commutes with every
+element of
+
+898
+00:20:56,270 --> 00:20:56,280
+element of
+ 
+
+899
+00:20:56,280 --> 00:20:58,430
+element of
+su2 so knowing the defition definition
+
+900
+00:20:58,430 --> 00:20:58,440
+su2 so knowing the defition definition
+ 
+
+901
+00:20:58,440 --> 00:21:02,149
+su2 so knowing the defition definition
+of g^ s and also the gz operator we can
+
+902
+00:21:02,149 --> 00:21:02,159
+of g^ s and also the gz operator we can
+ 
+
+903
+00:21:02,159 --> 00:21:05,590
+of g^ s and also the gz operator we can
+move GX y^ 2 over to the other side and
+
+904
+00:21:05,590 --> 00:21:05,600
+move GX y^ 2 over to the other side and
+ 
+
+905
+00:21:05,600 --> 00:21:08,870
+move GX y^ 2 over to the other side and
+rewrite it in terms of
+
+906
+00:21:08,870 --> 00:21:08,880
+rewrite it in terms of
+ 
+
+907
+00:21:08,880 --> 00:21:11,950
+rewrite it in terms of
+gz finally we can take the G+ and G
+
+908
+00:21:11,950 --> 00:21:11,960
+gz finally we can take the G+ and G
+ 
+
+909
+00:21:11,960 --> 00:21:14,470
+gz finally we can take the G+ and G
+minus formulas from before and rewrite
+
+910
+00:21:14,470 --> 00:21:14,480
+minus formulas from before and rewrite
+ 
+
+911
+00:21:14,480 --> 00:21:18,390
+minus formulas from before and rewrite
+the gy Z and g z x Parts using g^ S and
+
+912
+00:21:18,390 --> 00:21:18,400
+the gy Z and g z x Parts using g^ S and
+ 
+
+913
+00:21:18,400 --> 00:21:19,870
+the gy Z and g z x Parts using g^ S and
+GZ
+
+914
+00:21:19,870 --> 00:21:19,880
+GZ
+ 
+
+915
+00:21:19,880 --> 00:21:22,149
+GZ
+instead so now these products are
+
+916
+00:21:22,149 --> 00:21:22,159
+instead so now these products are
+ 
+
+917
+00:21:22,159 --> 00:21:25,669
+instead so now these products are
+written entirely in terms of G ^2 and
+
+918
+00:21:25,669 --> 00:21:25,679
+written entirely in terms of G ^2 and
+ 
+
+919
+00:21:25,679 --> 00:21:29,789
+written entirely in terms of G ^2 and
+GZ so what does this casm Operator g^ 2
+
+920
+00:21:29,789 --> 00:21:29,799
+GZ so what does this casm Operator g^ 2
+ 
+
+921
+00:21:29,799 --> 00:21:33,310
+GZ so what does this casm Operator g^ 2
+give when it acts on the vector M well
+
+922
+00:21:33,310 --> 00:21:33,320
+give when it acts on the vector M well
+ 
+
+923
+00:21:33,320 --> 00:21:35,470
+give when it acts on the vector M well
+let's take M to be the highest weight
+
+924
+00:21:35,470 --> 00:21:35,480
+let's take M to be the highest weight
+ 
+
+925
+00:21:35,480 --> 00:21:38,830
+let's take M to be the highest weight
+Vector labeled J remember this is the
+
+926
+00:21:38,830 --> 00:21:38,840
+Vector labeled J remember this is the
+ 
+
+927
+00:21:38,840 --> 00:21:42,950
+Vector labeled J remember this is the
+vector that G+ sends to zero so if we
+
+928
+00:21:42,950 --> 00:21:42,960
+vector that G+ sends to zero so if we
+ 
+
+929
+00:21:42,960 --> 00:21:45,470
+vector that G+ sends to zero so if we
+apply g^ 2 to the highest weight Vector
+
+930
+00:21:45,470 --> 00:21:45,480
+apply g^ 2 to the highest weight Vector
+ 
+
+931
+00:21:45,480 --> 00:21:48,710
+apply g^ 2 to the highest weight Vector
+J the G+ acting on the vector J will
+
+932
+00:21:48,710 --> 00:21:48,720
+J the G+ acting on the vector J will
+ 
+
+933
+00:21:48,720 --> 00:21:51,789
+J the G+ acting on the vector J will
+immediately go to zero and GZ will
+
+934
+00:21:51,789 --> 00:21:51,799
+immediately go to zero and GZ will
+ 
+
+935
+00:21:51,799 --> 00:21:55,830
+immediately go to zero and GZ will
+simply return the I value J so gz^ 2 +
+
+936
+00:21:55,830 --> 00:21:55,840
+simply return the I value J so gz^ 2 +
+ 
+
+937
+00:21:55,840 --> 00:21:59,870
+simply return the I value J so gz^ 2 +
+gz just gives us j s + J which can be
+
+938
+00:21:59,870 --> 00:21:59,880
+gz just gives us j s + J which can be
+ 
+
+939
+00:21:59,880 --> 00:22:02,909
+gz just gives us j s + J which can be
+Rewritten as J * J +
+
+940
+00:22:02,909 --> 00:22:02,919
+Rewritten as J * J +
+ 
+
+941
+00:22:02,919 --> 00:22:06,029
+Rewritten as J * J +
+1 so knowing this let's use the lowering
+
+942
+00:22:06,029 --> 00:22:06,039
+1 so knowing this let's use the lowering
+ 
+
+943
+00:22:06,039 --> 00:22:09,549
+1 so knowing this let's use the lowering
+operator to see how g^ 2 acts on the J
+
+944
+00:22:09,549 --> 00:22:09,559
+operator to see how g^ 2 acts on the J
+ 
+
+945
+00:22:09,559 --> 00:22:13,029
+operator to see how g^ 2 acts on the J
+minus1 Vector we can replace the J
+
+946
+00:22:13,029 --> 00:22:13,039
+minus1 Vector we can replace the J
+ 
+
+947
+00:22:13,039 --> 00:22:16,029
+minus1 Vector we can replace the J
+minus1 Vector with G minus acting on the
+
+948
+00:22:16,029 --> 00:22:16,039
+minus1 Vector with G minus acting on the
+ 
+
+949
+00:22:16,039 --> 00:22:19,710
+minus1 Vector with G minus acting on the
+J Vector divided by Beta however since
+
+950
+00:22:19,710 --> 00:22:19,720
+J Vector divided by Beta however since
+ 
+
+951
+00:22:19,720 --> 00:22:22,549
+J Vector divided by Beta however since
+g^ 2 commutes with all the other G's we
+
+952
+00:22:22,549 --> 00:22:22,559
+g^ 2 commutes with all the other G's we
+ 
+
+953
+00:22:22,559 --> 00:22:24,789
+g^ 2 commutes with all the other G's we
+can flip their order and get it to act
+
+954
+00:22:24,789 --> 00:22:24,799
+can flip their order and get it to act
+ 
+
+955
+00:22:24,799 --> 00:22:28,830
+can flip their order and get it to act
+on the J Vector giving J * J + 1
+
+956
+00:22:28,830 --> 00:22:28,840
+on the J Vector giving J * J + 1
+ 
+
+957
+00:22:28,840 --> 00:22:31,269
+on the J Vector giving J * J + 1
+we can then use the lowering operator to
+
+958
+00:22:31,269 --> 00:22:31,279
+we can then use the lowering operator to
+ 
+
+959
+00:22:31,279 --> 00:22:34,830
+we can then use the lowering operator to
+return the J state to the jus1
+
+960
+00:22:34,830 --> 00:22:34,840
+return the J state to the jus1
+ 
+
+961
+00:22:34,840 --> 00:22:38,029
+return the J state to the jus1
+state so because g^ 2 commutes with
+
+962
+00:22:38,029 --> 00:22:38,039
+state so because g^ 2 commutes with
+ 
+
+963
+00:22:38,039 --> 00:22:41,990
+state so because g^ 2 commutes with
+everything it also returns J * J + 1
+
+964
+00:22:41,990 --> 00:22:42,000
+everything it also returns J * J + 1
+ 
+
+965
+00:22:42,000 --> 00:22:45,470
+everything it also returns J * J + 1
+when acting on the J minus1 vector and
+
+966
+00:22:45,470 --> 00:22:45,480
+when acting on the J minus1 vector and
+ 
+
+967
+00:22:45,480 --> 00:22:49,990
+when acting on the J minus1 vector and
+by induction G ^2 returns J * J + 1 on
+
+968
+00:22:49,990 --> 00:22:50,000
+by induction G ^2 returns J * J + 1 on
+ 
+
+969
+00:22:50,000 --> 00:22:52,710
+by induction G ^2 returns J * J + 1 on
+all other igen vectors of
+
+970
+00:22:52,710 --> 00:22:52,720
+all other igen vectors of
+ 
+
+971
+00:22:52,720 --> 00:22:55,830
+all other igen vectors of
+gz when a representation has highest
+
+972
+00:22:55,830 --> 00:22:55,840
+gz when a representation has highest
+ 
+
+973
+00:22:55,840 --> 00:22:59,350
+gz when a representation has highest
+weight J we call it the spin J
+
+974
+00:22:59,350 --> 00:22:59,360
+weight J we call it the spin J
+ 
+
+975
+00:22:59,360 --> 00:23:01,750
+weight J we call it the spin J
+representation this is why the 2x2
+
+976
+00:23:01,750 --> 00:23:01,760
+representation this is why the 2x2
+ 
+
+977
+00:23:01,760 --> 00:23:05,990
+representation this is why the 2x2
+representation is called the spin 1/2
+
+978
+00:23:05,990 --> 00:23:06,000
+representation is called the spin 1/2
+ 
+
+979
+00:23:06,000 --> 00:23:08,590
+representation is called the spin 1/2
+representation so we can finally compute
+
+980
+00:23:08,590 --> 00:23:08,600
+representation so we can finally compute
+ 
+
+981
+00:23:08,600 --> 00:23:11,750
+representation so we can finally compute
+what this G+ dagger G+ gives when acting
+
+982
+00:23:11,750 --> 00:23:11,760
+what this G+ dagger G+ gives when acting
+ 
+
+983
+00:23:11,760 --> 00:23:15,669
+what this G+ dagger G+ gives when acting
+on the M Vector the g^ 2 part gives us J
+
+984
+00:23:15,669 --> 00:23:15,679
+on the M Vector the g^ 2 part gives us J
+ 
+
+985
+00:23:15,679 --> 00:23:17,269
+on the M Vector the g^ 2 part gives us J
+* J +
+
+986
+00:23:17,269 --> 00:23:17,279
+* J +
+ 
+
+987
+00:23:17,279 --> 00:23:21,590
+* J +
+1 and the minus g z^ 2 minus g z part
+
+988
+00:23:21,590 --> 00:23:21,600
+1 and the minus g z^ 2 minus g z part
+ 
+
+989
+00:23:21,600 --> 00:23:25,070
+1 and the minus g z^ 2 minus g z part
+gives us m^2 minus M which can be
+
+990
+00:23:25,070 --> 00:23:25,080
+gives us m^2 minus M which can be
+ 
+
+991
+00:23:25,080 --> 00:23:28,870
+gives us m^2 minus M which can be
+Rewritten as M * m + 1
+
+992
+00:23:28,870 --> 00:23:28,880
+Rewritten as M * m + 1
+ 
+
+993
+00:23:28,880 --> 00:23:31,350
+Rewritten as M * m + 1
+plugging this into our formula for Alpha
+
+994
+00:23:31,350 --> 00:23:31,360
+plugging this into our formula for Alpha
+ 
+
+995
+00:23:31,360 --> 00:23:33,470
+plugging this into our formula for Alpha
+we can pull all the scalar Parts out in
+
+996
+00:23:33,470 --> 00:23:33,480
+we can pull all the scalar Parts out in
+ 
+
+997
+00:23:33,480 --> 00:23:36,269
+we can pull all the scalar Parts out in
+front send the norm of M to one since
+
+998
+00:23:36,269 --> 00:23:36,279
+front send the norm of M to one since
+ 
+
+999
+00:23:36,279 --> 00:23:38,950
+front send the norm of M to one since
+it's normalized and take the square root
+
+1000
+00:23:38,950 --> 00:23:38,960
+it's normalized and take the square root
+ 
+
+1001
+00:23:38,960 --> 00:23:41,269
+it's normalized and take the square root
+of this formula to get
+
+1002
+00:23:41,269 --> 00:23:41,279
+of this formula to get
+ 
+
+1003
+00:23:41,279 --> 00:23:44,029
+of this formula to get
+Alpha technically Alpha could be a
+
+1004
+00:23:44,029 --> 00:23:44,039
+Alpha technically Alpha could be a
+ 
+
+1005
+00:23:44,039 --> 00:23:47,110
+Alpha technically Alpha could be a
+complex number with a complex phase but
+
+1006
+00:23:47,110 --> 00:23:47,120
+complex number with a complex phase but
+ 
+
+1007
+00:23:47,120 --> 00:23:49,149
+complex number with a complex phase but
+we can choose a phase convention where
+
+1008
+00:23:49,149 --> 00:23:49,159
+we can choose a phase convention where
+ 
+
+1009
+00:23:49,159 --> 00:23:51,470
+we can choose a phase convention where
+Alpha is always a real
+
+1010
+00:23:51,470 --> 00:23:51,480
+Alpha is always a real
+ 
+
+1011
+00:23:51,480 --> 00:23:54,510
+Alpha is always a real
+number we can do something similar for G
+
+1012
+00:23:54,510 --> 00:23:54,520
+number we can do something similar for G
+ 
+
+1013
+00:23:54,520 --> 00:23:56,630
+number we can do something similar for G
+minus where the only difference is a
+
+1014
+00:23:56,630 --> 00:23:56,640
+minus where the only difference is a
+ 
+
+1015
+00:23:56,640 --> 00:23:59,110
+minus where the only difference is a
+minus sign in the formula here and this
+
+1016
+00:23:59,110 --> 00:23:59,120
+minus sign in the formula here and this
+ 
+
+1017
+00:23:59,120 --> 00:24:01,470
+minus sign in the formula here and this
+gives us a formula for
+
+1018
+00:24:01,470 --> 00:24:01,480
+gives us a formula for
+ 
+
+1019
+00:24:01,480 --> 00:24:04,510
+gives us a formula for
+beta so finally we now have the formulas
+
+1020
+00:24:04,510 --> 00:24:04,520
+beta so finally we now have the formulas
+ 
+
+1021
+00:24:04,520 --> 00:24:06,750
+beta so finally we now have the formulas
+for the alpha and beta coefficients for
+
+1022
+00:24:06,750 --> 00:24:06,760
+for the alpha and beta coefficients for
+ 
+
+1023
+00:24:06,760 --> 00:24:09,510
+for the alpha and beta coefficients for
+the raising and lowering operators and
+
+1024
+00:24:09,510 --> 00:24:09,520
+the raising and lowering operators and
+ 
+
+1025
+00:24:09,520 --> 00:24:11,909
+the raising and lowering operators and
+these work in any
+
+1026
+00:24:11,909 --> 00:24:11,919
+these work in any
+ 
+
+1027
+00:24:11,919 --> 00:24:14,710
+these work in any
+Dimension I'm going to point out that in
+
+1028
+00:24:14,710 --> 00:24:14,720
+Dimension I'm going to point out that in
+ 
+
+1029
+00:24:14,720 --> 00:24:17,830
+Dimension I'm going to point out that in
+the alpha formula if we plug in m equal
+
+1030
+00:24:17,830 --> 00:24:17,840
+the alpha formula if we plug in m equal
+ 
+
+1031
+00:24:17,840 --> 00:24:22,510
+the alpha formula if we plug in m equal
+J we get zero this means that G+ cannot
+
+1032
+00:24:22,510 --> 00:24:22,520
+J we get zero this means that G+ cannot
+ 
+
+1033
+00:24:22,520 --> 00:24:25,789
+J we get zero this means that G+ cannot
+raise the J state so J is the highest
+
+1034
+00:24:25,789 --> 00:24:25,799
+raise the J state so J is the highest
+ 
+
+1035
+00:24:25,799 --> 00:24:28,950
+raise the J state so J is the highest
+igen value or highest weight
+
+1036
+00:24:28,950 --> 00:24:28,960
+igen value or highest weight
+ 
+
+1037
+00:24:28,960 --> 00:24:32,110
+igen value or highest weight
+similarly for beta if we plug in M =
+
+1038
+00:24:32,110 --> 00:24:32,120
+similarly for beta if we plug in M =
+ 
+
+1039
+00:24:32,120 --> 00:24:36,470
+similarly for beta if we plug in M =
+minus J we get Zer so G minus cannot
+
+1040
+00:24:36,470 --> 00:24:36,480
+minus J we get Zer so G minus cannot
+ 
+
+1041
+00:24:36,480 --> 00:24:40,029
+minus J we get Zer so G minus cannot
+lower the minus J state so minus J is
+
+1042
+00:24:40,029 --> 00:24:40,039
+lower the minus J state so minus J is
+ 
+
+1043
+00:24:40,039 --> 00:24:43,389
+lower the minus J state so minus J is
+the lowest igen value or lowest weight
+
+1044
+00:24:43,389 --> 00:24:43,399
+the lowest igen value or lowest weight
+ 
+
+1045
+00:24:43,399 --> 00:24:45,190
+the lowest igen value or lowest weight
+this means that in a given
+
+1046
+00:24:45,190 --> 00:24:45,200
+this means that in a given
+ 
+
+1047
+00:24:45,200 --> 00:24:47,549
+this means that in a given
+representation the basis Vector weights
+
+1048
+00:24:47,549 --> 00:24:47,559
+representation the basis Vector weights
+ 
+
+1049
+00:24:47,559 --> 00:24:50,750
+representation the basis Vector weights
+range from plus J to minus J in
+
+1050
+00:24:50,750 --> 00:24:50,760
+range from plus J to minus J in
+ 
+
+1051
+00:24:50,760 --> 00:24:52,149
+range from plus J to minus J in
+increments of
+
+1052
+00:24:52,149 --> 00:24:52,159
+increments of
+ 
+
+1053
+00:24:52,159 --> 00:24:55,269
+increments of
+one this means that the highest weight J
+
+1054
+00:24:55,269 --> 00:24:55,279
+one this means that the highest weight J
+ 
+
+1055
+00:24:55,279 --> 00:24:58,430
+one this means that the highest weight J
+must be an integer or half integer
+
+1056
+00:24:58,430 --> 00:24:58,440
+must be an integer or half integer
+ 
+
+1057
+00:24:58,440 --> 00:25:00,510
+must be an integer or half integer
+otherwise increments of one would mean
+
+1058
+00:25:00,510 --> 00:25:00,520
+otherwise increments of one would mean
+ 
+
+1059
+00:25:00,520 --> 00:25:02,190
+otherwise increments of one would mean
+that the highest and lowest weights
+
+1060
+00:25:02,190 --> 00:25:02,200
+that the highest and lowest weights
+ 
+
+1061
+00:25:02,200 --> 00:25:04,510
+that the highest and lowest weights
+would have different magnitudes instead
+
+1062
+00:25:04,510 --> 00:25:04,520
+would have different magnitudes instead
+ 
+
+1063
+00:25:04,520 --> 00:25:07,750
+would have different magnitudes instead
+of equaling plus JN minus J which is
+
+1064
+00:25:07,750 --> 00:25:07,760
+of equaling plus JN minus J which is
+ 
+
+1065
+00:25:07,760 --> 00:25:09,870
+of equaling plus JN minus J which is
+required this also means that the
+
+1066
+00:25:09,870 --> 00:25:09,880
+required this also means that the
+ 
+
+1067
+00:25:09,880 --> 00:25:12,870
+required this also means that the
+dimension size n of the representation
+
+1068
+00:25:12,870 --> 00:25:12,880
+dimension size n of the representation
+ 
+
+1069
+00:25:12,880 --> 00:25:17,430
+dimension size n of the representation
+is always equal to 2J + 1 for spin J
+
+1070
+00:25:17,430 --> 00:25:17,440
+is always equal to 2J + 1 for spin J
+ 
+
+1071
+00:25:17,440 --> 00:25:20,029
+is always equal to 2J + 1 for spin J
+since a highest weight of J implies
+
+1072
+00:25:20,029 --> 00:25:20,039
+since a highest weight of J implies
+ 
+
+1073
+00:25:20,039 --> 00:25:24,470
+since a highest weight of J implies
+there are 2J + 1 basis I
+
+1074
+00:25:24,470 --> 00:25:24,480
+there are 2J + 1 basis I
+ 
+
+1075
+00:25:24,480 --> 00:25:26,950
+there are 2J + 1 basis I
+vectors so we've covered a lot over the
+
+1076
+00:25:26,950 --> 00:25:26,960
+vectors so we've covered a lot over the
+ 
+
+1077
+00:25:26,960 --> 00:25:29,350
+vectors so we've covered a lot over the
+course of this video video we started
+
+1078
+00:25:29,350 --> 00:25:29,360
+course of this video video we started
+ 
+
+1079
+00:25:29,360 --> 00:25:32,230
+course of this video video we started
+with the three generators in the su2 Lee
+
+1080
+00:25:32,230 --> 00:25:32,240
+with the three generators in the su2 Lee
+ 
+
+1081
+00:25:32,240 --> 00:25:35,950
+with the three generators in the su2 Lee
+algebra then we changed basis to G+ G
+
+1082
+00:25:35,950 --> 00:25:35,960
+algebra then we changed basis to G+ G
+ 
+
+1083
+00:25:35,960 --> 00:25:39,029
+algebra then we changed basis to G+ G
+minus and GZ and determined their
+
+1084
+00:25:39,029 --> 00:25:39,039
+minus and GZ and determined their
+ 
+
+1085
+00:25:39,039 --> 00:25:40,510
+minus and GZ and determined their
+commutation
+
+1086
+00:25:40,510 --> 00:25:40,520
+commutation
+ 
+
+1087
+00:25:40,520 --> 00:25:43,350
+commutation
+relations we also found these igen value
+
+1088
+00:25:43,350 --> 00:25:43,360
+relations we also found these igen value
+ 
+
+1089
+00:25:43,360 --> 00:25:46,190
+relations we also found these igen value
+relations for The Operators and we saw
+
+1090
+00:25:46,190 --> 00:25:46,200
+relations for The Operators and we saw
+ 
+
+1091
+00:25:46,200 --> 00:25:49,510
+relations for The Operators and we saw
+G+ and G minus raise and lower the igen
+
+1092
+00:25:49,510 --> 00:25:49,520
+G+ and G minus raise and lower the igen
+ 
+
+1093
+00:25:49,520 --> 00:25:51,269
+G+ and G minus raise and lower the igen
+vector States according to the
+
+1094
+00:25:51,269 --> 00:25:51,279
+vector States according to the
+ 
+
+1095
+00:25:51,279 --> 00:25:54,710
+vector States according to the
+proportionality factors Alpha and beta
+
+1096
+00:25:54,710 --> 00:25:54,720
+proportionality factors Alpha and beta
+ 
+
+1097
+00:25:54,720 --> 00:25:56,669
+proportionality factors Alpha and beta
+and we determined these formulas for the
+
+1098
+00:25:56,669 --> 00:25:56,679
+and we determined these formulas for the
+ 
+
+1099
+00:25:56,679 --> 00:25:59,510
+and we determined these formulas for the
+various Alpha and and beta coefficients
+
+1100
+00:25:59,510 --> 00:25:59,520
+various Alpha and and beta coefficients
+ 
+
+1101
+00:25:59,520 --> 00:26:01,389
+various Alpha and and beta coefficients
+which depend on their representation
+
+1102
+00:26:01,389 --> 00:26:01,399
+which depend on their representation
+ 
+
+1103
+00:26:01,399 --> 00:26:05,510
+which depend on their representation
+spin number J and a vector's I value
+
+1104
+00:26:05,510 --> 00:26:05,520
+spin number J and a vector's I value
+ 
+
+1105
+00:26:05,520 --> 00:26:08,549
+spin number J and a vector's I value
+M now in the case of the 2x two
+
+1106
+00:26:08,549 --> 00:26:08,559
+M now in the case of the 2x two
+ 
+
+1107
+00:26:08,559 --> 00:26:10,990
+M now in the case of the 2x two
+representation none of this gives us any
+
+1108
+00:26:10,990 --> 00:26:11,000
+representation none of this gives us any
+ 
+
+1109
+00:26:11,000 --> 00:26:13,750
+representation none of this gives us any
+new results that we didn't know before
+
+1110
+00:26:13,750 --> 00:26:13,760
+new results that we didn't know before
+ 
+
+1111
+00:26:13,760 --> 00:26:16,510
+new results that we didn't know before
+the alpha and betas just end up being
+
+1112
+00:26:16,510 --> 00:26:16,520
+the alpha and betas just end up being
+ 
+
+1113
+00:26:16,520 --> 00:26:19,710
+the alpha and betas just end up being
+one but the important fact here is that
+
+1114
+00:26:19,710 --> 00:26:19,720
+one but the important fact here is that
+ 
+
+1115
+00:26:19,720 --> 00:26:22,029
+one but the important fact here is that
+the truth of these formulas does not
+
+1116
+00:26:22,029 --> 00:26:22,039
+the truth of these formulas does not
+ 
+
+1117
+00:26:22,039 --> 00:26:24,070
+the truth of these formulas does not
+depend on the dimension of the
+
+1118
+00:26:24,070 --> 00:26:24,080
+depend on the dimension of the
+ 
+
+1119
+00:26:24,080 --> 00:26:26,350
+depend on the dimension of the
+representation we can use these formulas
+
+1120
+00:26:26,350 --> 00:26:26,360
+representation we can use these formulas
+ 
+
+1121
+00:26:26,360 --> 00:26:29,789
+representation we can use these formulas
+for the spin one case of 3x3 matrices
+
+1122
+00:26:29,789 --> 00:26:29,799
+for the spin one case of 3x3 matrices
+ 
+
+1123
+00:26:29,799 --> 00:26:32,990
+for the spin one case of 3x3 matrices
+the spin 3 haves case of 4x4 matrices
+
+1124
+00:26:32,990 --> 00:26:33,000
+the spin 3 haves case of 4x4 matrices
+ 
+
+1125
+00:26:33,000 --> 00:26:37,750
+the spin 3 haves case of 4x4 matrices
+the Spin 2 case of 5x5 matrices and so
+
+1126
+00:26:37,750 --> 00:26:37,760
+the Spin 2 case of 5x5 matrices and so
+ 
+
+1127
+00:26:37,760 --> 00:26:40,630
+the Spin 2 case of 5x5 matrices and so
+on let's try using all of this to build
+
+1128
+00:26:40,630 --> 00:26:40,640
+on let's try using all of this to build
+ 
+
+1129
+00:26:40,640 --> 00:26:43,269
+on let's try using all of this to build
+up the 3X3 spin one
+
+1130
+00:26:43,269 --> 00:26:43,279
+up the 3X3 spin one
+ 
+
+1131
+00:26:43,279 --> 00:26:45,510
+up the 3X3 spin one
+representation here we'll have three
+
+1132
+00:26:45,510 --> 00:26:45,520
+representation here we'll have three
+ 
+
+1133
+00:26:45,520 --> 00:26:47,870
+representation here we'll have three
+basis State vectors which I'm going to
+
+1134
+00:26:47,870 --> 00:26:47,880
+basis State vectors which I'm going to
+ 
+
+1135
+00:26:47,880 --> 00:26:51,190
+basis State vectors which I'm going to
+label as + one 0 and minus
+
+1136
+00:26:51,190 --> 00:26:51,200
+label as + one 0 and minus
+ 
+
+1137
+00:26:51,200 --> 00:26:55,149
+label as + one 0 and minus
+one the highest weight here is + one so
+
+1138
+00:26:55,149 --> 00:26:55,159
+one the highest weight here is + one so
+ 
+
+1139
+00:26:55,159 --> 00:26:58,350
+one the highest weight here is + one so
+this is the spin value J
+
+1140
+00:26:58,350 --> 00:26:58,360
+this is the spin value J
+ 
+
+1141
+00:26:58,360 --> 00:27:00,549
+this is the spin value J
+also keep in mind this Vector labeled
+
+1142
+00:27:00,549 --> 00:27:00,559
+also keep in mind this Vector labeled
+ 
+
+1143
+00:27:00,559 --> 00:27:04,070
+also keep in mind this Vector labeled
+with zero is not the zero Vector it's
+
+1144
+00:27:04,070 --> 00:27:04,080
+with zero is not the zero Vector it's
+ 
+
+1145
+00:27:04,080 --> 00:27:05,789
+with zero is not the zero Vector it's
+just the label we're giving to this
+
+1146
+00:27:05,789 --> 00:27:05,799
+just the label we're giving to this
+ 
+
+1147
+00:27:05,799 --> 00:27:09,389
+just the label we're giving to this
+particular basis Vector with igen value
+
+1148
+00:27:09,389 --> 00:27:09,399
+particular basis Vector with igen value
+ 
+
+1149
+00:27:09,399 --> 00:27:12,590
+particular basis Vector with igen value
+zero for the spin one case we know that
+
+1150
+00:27:12,590 --> 00:27:12,600
+zero for the spin one case we know that
+ 
+
+1151
+00:27:12,600 --> 00:27:17,350
+zero for the spin one case we know that
+J equals 1 so J * J + 1 =
+
+1152
+00:27:17,350 --> 00:27:17,360
+J equals 1 so J * J + 1 =
+ 
+
+1153
+00:27:17,360 --> 00:27:19,669
+J equals 1 so J * J + 1 =
+2 now let's calculate these
+
+1154
+00:27:19,669 --> 00:27:19,679
+2 now let's calculate these
+ 
+
+1155
+00:27:19,679 --> 00:27:21,549
+2 now let's calculate these
+proportionality constants for the
+
+1156
+00:27:21,549 --> 00:27:21,559
+proportionality constants for the
+ 
+
+1157
+00:27:21,559 --> 00:27:23,190
+proportionality constants for the
+raising and lowering
+
+1158
+00:27:23,190 --> 00:27:23,200
+raising and lowering
+ 
+
+1159
+00:27:23,200 --> 00:27:26,389
+raising and lowering
+operators for G+ acting on the minus one
+
+1160
+00:27:26,389 --> 00:27:26,399
+operators for G+ acting on the minus one
+ 
+
+1161
+00:27:26,399 --> 00:27:30,950
+operators for G+ acting on the minus one
+state we subit M = -1 and get a constant
+
+1162
+00:27:30,950 --> 00:27:30,960
+state we subit M = -1 and get a constant
+ 
+
+1163
+00:27:30,960 --> 00:27:34,470
+state we subit M = -1 and get a constant
+of theare < TK of 2 and here the state
+
+1164
+00:27:34,470 --> 00:27:34,480
+of theare < TK of 2 and here the state
+ 
+
+1165
+00:27:34,480 --> 00:27:38,310
+of theare < TK of 2 and here the state
+is raised to the zero state for G+
+
+1166
+00:27:38,310 --> 00:27:38,320
+is raised to the zero state for G+
+ 
+
+1167
+00:27:38,320 --> 00:27:40,830
+is raised to the zero state for G+
+acting on the Zero State we Sub in m
+
+1168
+00:27:40,830 --> 00:27:40,840
+acting on the Zero State we Sub in m
+ 
+
+1169
+00:27:40,840 --> 00:27:43,549
+acting on the Zero State we Sub in m
+equals 0 and we get a constant of the
+
+1170
+00:27:43,549 --> 00:27:43,559
+equals 0 and we get a constant of the
+ 
+
+1171
+00:27:43,559 --> 00:27:46,990
+equals 0 and we get a constant of the
+square < TK of two next to the one
+
+1172
+00:27:46,990 --> 00:27:47,000
+square < TK of two next to the one
+ 
+
+1173
+00:27:47,000 --> 00:27:50,110
+square < TK of two next to the one
+state we can also check that G+ acting
+
+1174
+00:27:50,110 --> 00:27:50,120
+state we can also check that G+ acting
+ 
+
+1175
+00:27:50,120 --> 00:27:53,110
+state we can also check that G+ acting
+on the one state goes to zero but this
+
+1176
+00:27:53,110 --> 00:27:53,120
+on the one state goes to zero but this
+ 
+
+1177
+00:27:53,120 --> 00:27:55,149
+on the one state goes to zero but this
+is expected since there are only three
+
+1178
+00:27:55,149 --> 00:27:55,159
+is expected since there are only three
+ 
+
+1179
+00:27:55,159 --> 00:27:57,750
+is expected since there are only three
+basis vectors and we can't raise the
+
+1180
+00:27:57,750 --> 00:27:57,760
+basis vectors and we can't raise the
+ 
+
+1181
+00:27:57,760 --> 00:28:00,830
+basis vectors and we can't raise the
+highest weight Vector to a higher
+
+1182
+00:28:00,830 --> 00:28:00,840
+highest weight Vector to a higher
+ 
+
+1183
+00:28:00,840 --> 00:28:03,750
+highest weight Vector to a higher
+one we can also apply G minus to the
+
+1184
+00:28:03,750 --> 00:28:03,760
+one we can also apply G minus to the
+ 
+
+1185
+00:28:03,760 --> 00:28:05,750
+one we can also apply G minus to the
+three states to get coefficients of the
+
+1186
+00:28:05,750 --> 00:28:05,760
+three states to get coefficients of the
+ 
+
+1187
+00:28:05,760 --> 00:28:08,590
+three states to get coefficients of the
+square roots of two except in the minus
+
+1188
+00:28:08,590 --> 00:28:08,600
+square roots of two except in the minus
+ 
+
+1189
+00:28:08,600 --> 00:28:10,909
+square roots of two except in the minus
+one state case where we get zero since
+
+1190
+00:28:10,909 --> 00:28:10,919
+one state case where we get zero since
+ 
+
+1191
+00:28:10,919 --> 00:28:13,230
+one state case where we get zero since
+we can't lower it
+
+1192
+00:28:13,230 --> 00:28:13,240
+we can't lower it
+ 
+
+1193
+00:28:13,240 --> 00:28:16,509
+we can't lower it
+anymore recall for a given Matrix we can
+
+1194
+00:28:16,509 --> 00:28:16,519
+anymore recall for a given Matrix we can
+ 
+
+1195
+00:28:16,519 --> 00:28:18,310
+anymore recall for a given Matrix we can
+get one of its entries using the
+
+1196
+00:28:18,310 --> 00:28:18,320
+get one of its entries using the
+ 
+
+1197
+00:28:18,320 --> 00:28:20,669
+get one of its entries using the
+appropriate row Vector on the left to
+
+1198
+00:28:20,669 --> 00:28:20,679
+appropriate row Vector on the left to
+ 
+
+1199
+00:28:20,679 --> 00:28:23,590
+appropriate row Vector on the left to
+select a row and the appropriate column
+
+1200
+00:28:23,590 --> 00:28:23,600
+select a row and the appropriate column
+ 
+
+1201
+00:28:23,600 --> 00:28:26,950
+select a row and the appropriate column
+Vector on the right to select a column
+
+1202
+00:28:26,950 --> 00:28:26,960
+Vector on the right to select a column
+ 
+
+1203
+00:28:26,960 --> 00:28:29,310
+Vector on the right to select a column
+this out puts the scaler entry for that
+
+1204
+00:28:29,310 --> 00:28:29,320
+this out puts the scaler entry for that
+ 
+
+1205
+00:28:29,320 --> 00:28:31,110
+this out puts the scaler entry for that
+row and
+
+1206
+00:28:31,110 --> 00:28:31,120
+row and
+ 
+
+1207
+00:28:31,120 --> 00:28:33,710
+row and
+column we can do the same thing for our
+
+1208
+00:28:33,710 --> 00:28:33,720
+column we can do the same thing for our
+ 
+
+1209
+00:28:33,720 --> 00:28:37,630
+column we can do the same thing for our
+3x3 G+ Matrix and get all nine of its
+
+1210
+00:28:37,630 --> 00:28:37,640
+3x3 G+ Matrix and get all nine of its
+ 
+
+1211
+00:28:37,640 --> 00:28:40,630
+3x3 G+ Matrix and get all nine of its
+entries using the various bras and Cs on
+
+1212
+00:28:40,630 --> 00:28:40,640
+entries using the various bras and Cs on
+ 
+
+1213
+00:28:40,640 --> 00:28:43,230
+entries using the various bras and Cs on
+either side most of the entries go to
+
+1214
+00:28:43,230 --> 00:28:43,240
+either side most of the entries go to
+ 
+
+1215
+00:28:43,240 --> 00:28:45,389
+either side most of the entries go to
+zero but a couple of them end up being
+
+1216
+00:28:45,389 --> 00:28:45,399
+zero but a couple of them end up being
+ 
+
+1217
+00:28:45,399 --> 00:28:48,269
+zero but a couple of them end up being
+the square root of two these entries are
+
+1218
+00:28:48,269 --> 00:28:48,279
+the square root of two these entries are
+ 
+
+1219
+00:28:48,279 --> 00:28:52,149
+the square root of two these entries are
+used to raise the various State igen
+
+1220
+00:28:52,149 --> 00:28:52,159
+used to raise the various State igen
+ 
+
+1221
+00:28:52,159 --> 00:28:54,789
+used to raise the various State igen
+vectors we can do something similar with
+
+1222
+00:28:54,789 --> 00:28:54,799
+vectors we can do something similar with
+ 
+
+1223
+00:28:54,799 --> 00:28:58,830
+vectors we can do something similar with
+the G minus operator to get this 3 3x3
+
+1224
+00:28:58,830 --> 00:28:58,840
+the G minus operator to get this 3 3x3
+ 
+
+1225
+00:28:58,840 --> 00:29:02,630
+the G minus operator to get this 3 3x3
+Matrix and also the gz Matrix but that's
+
+1226
+00:29:02,630 --> 00:29:02,640
+Matrix and also the gz Matrix but that's
+ 
+
+1227
+00:29:02,640 --> 00:29:04,750
+Matrix and also the gz Matrix but that's
+pretty obvious since all the igen values
+
+1228
+00:29:04,750 --> 00:29:04,760
+pretty obvious since all the igen values
+ 
+
+1229
+00:29:04,760 --> 00:29:07,269
+pretty obvious since all the igen values
+are already on the
+
+1230
+00:29:07,269 --> 00:29:07,279
+are already on the
+ 
+
+1231
+00:29:07,279 --> 00:29:09,830
+are already on the
+diagonal now that we have matrices for
+
+1232
+00:29:09,830 --> 00:29:09,840
+diagonal now that we have matrices for
+ 
+
+1233
+00:29:09,840 --> 00:29:13,509
+diagonal now that we have matrices for
+G+ G minus and GZ we can use our change
+
+1234
+00:29:13,509 --> 00:29:13,519
+G+ G minus and GZ we can use our change
+ 
+
+1235
+00:29:13,519 --> 00:29:16,230
+G+ G minus and GZ we can use our change
+of basis equations to change back to the
+
+1236
+00:29:16,230 --> 00:29:16,240
+of basis equations to change back to the
+ 
+
+1237
+00:29:16,240 --> 00:29:20,350
+of basis equations to change back to the
+standard basis for generators of 3D
+
+1238
+00:29:20,350 --> 00:29:20,360
+standard basis for generators of 3D
+ 
+
+1239
+00:29:20,360 --> 00:29:22,950
+standard basis for generators of 3D
+rotations these indeed give traceless
+
+1240
+00:29:22,950 --> 00:29:22,960
+rotations these indeed give traceless
+ 
+
+1241
+00:29:22,960 --> 00:29:25,070
+rotations these indeed give traceless
+anti-mission matrices that we would
+
+1242
+00:29:25,070 --> 00:29:25,080
+anti-mission matrices that we would
+ 
+
+1243
+00:29:25,080 --> 00:29:28,430
+anti-mission matrices that we would
+expect from the su2 Lee algebra
+
+1244
+00:29:28,430 --> 00:29:28,440
+expect from the su2 Lee algebra
+ 
+
+1245
+00:29:28,440 --> 00:29:30,830
+expect from the su2 Lee algebra
+now this is a different 3x3 solution
+
+1246
+00:29:30,830 --> 00:29:30,840
+now this is a different 3x3 solution
+ 
+
+1247
+00:29:30,840 --> 00:29:32,430
+now this is a different 3x3 solution
+than the one we've seen in previous
+
+1248
+00:29:32,430 --> 00:29:32,440
+than the one we've seen in previous
+ 
+
+1249
+00:29:32,440 --> 00:29:34,909
+than the one we've seen in previous
+videos but we can switch between these
+
+1250
+00:29:34,909 --> 00:29:34,919
+videos but we can switch between these
+ 
+
+1251
+00:29:34,919 --> 00:29:37,350
+videos but we can switch between these
+new ones and the more familiar 3x3
+
+1252
+00:29:37,350 --> 00:29:37,360
+new ones and the more familiar 3x3
+ 
+
+1253
+00:29:37,360 --> 00:29:40,070
+new ones and the more familiar 3x3
+solution just by using a change of
+
+1254
+00:29:40,070 --> 00:29:40,080
+solution just by using a change of
+ 
+
+1255
+00:29:40,080 --> 00:29:43,669
+solution just by using a change of
+coordinates the two solutions are
+
+1256
+00:29:43,669 --> 00:29:43,679
+coordinates the two solutions are
+ 
+
+1257
+00:29:43,679 --> 00:29:45,950
+coordinates the two solutions are
+equivalent now if we want to see the
+
+1258
+00:29:45,950 --> 00:29:45,960
+equivalent now if we want to see the
+ 
+
+1259
+00:29:45,960 --> 00:29:49,470
+equivalent now if we want to see the
+spin one representation of the su2 group
+
+1260
+00:29:49,470 --> 00:29:49,480
+spin one representation of the su2 group
+ 
+
+1261
+00:29:49,480 --> 00:29:51,630
+spin one representation of the su2 group
+we just exponentiate the generator
+
+1262
+00:29:51,630 --> 00:29:51,640
+we just exponentiate the generator
+ 
+
+1263
+00:29:51,640 --> 00:29:54,509
+we just exponentiate the generator
+matrices in the Lee algebra to get these
+
+1264
+00:29:54,509 --> 00:29:54,519
+matrices in the Lee algebra to get these
+ 
+
+1265
+00:29:54,519 --> 00:29:58,710
+matrices in the Lee algebra to get these
+rotation matrices in the Lee group
+
+1266
+00:29:58,710 --> 00:29:58,720
+rotation matrices in the Lee group
+ 
+
+1267
+00:29:58,720 --> 00:30:00,549
+rotation matrices in the Lee group
+okay so we saw that for the spin one
+
+1268
+00:30:00,549 --> 00:30:00,559
+okay so we saw that for the spin one
+ 
+
+1269
+00:30:00,559 --> 00:30:03,350
+okay so we saw that for the spin one
+representation of su2 the procedure was
+
+1270
+00:30:03,350 --> 00:30:03,360
+representation of su2 the procedure was
+ 
+
+1271
+00:30:03,360 --> 00:30:05,070
+representation of su2 the procedure was
+to calculate the proportionality
+
+1272
+00:30:05,070 --> 00:30:05,080
+to calculate the proportionality
+ 
+
+1273
+00:30:05,080 --> 00:30:09,070
+to calculate the proportionality
+constants then get G+ G minus and GZ as
+
+1274
+00:30:09,070 --> 00:30:09,080
+constants then get G+ G minus and GZ as
+ 
+
+1275
+00:30:09,080 --> 00:30:11,070
+constants then get G+ G minus and GZ as
+matrices then switch back to the
+
+1276
+00:30:11,070 --> 00:30:11,080
+matrices then switch back to the
+ 
+
+1277
+00:30:11,080 --> 00:30:13,710
+matrices then switch back to the
+standard basis and get the su2 Le
+
+1278
+00:30:13,710 --> 00:30:13,720
+standard basis and get the su2 Le
+ 
+
+1279
+00:30:13,720 --> 00:30:16,190
+standard basis and get the su2 Le
+algebra generators we can then
+
+1280
+00:30:16,190 --> 00:30:16,200
+algebra generators we can then
+ 
+
+1281
+00:30:16,200 --> 00:30:18,669
+algebra generators we can then
+exponentiate them to get the su2 Le
+
+1282
+00:30:18,669 --> 00:30:18,679
+exponentiate them to get the su2 Le
+ 
+
+1283
+00:30:18,679 --> 00:30:20,310
+exponentiate them to get the su2 Le
+group
+
+1284
+00:30:20,310 --> 00:30:20,320
+group
+ 
+
+1285
+00:30:20,320 --> 00:30:22,990
+group
+matrices we can use this same procedure
+
+1286
+00:30:22,990 --> 00:30:23,000
+matrices we can use this same procedure
+ 
+
+1287
+00:30:23,000 --> 00:30:25,350
+matrices we can use this same procedure
+again for the spin 3 half representation
+
+1288
+00:30:25,350 --> 00:30:25,360
+again for the spin 3 half representation
+ 
+
+1289
+00:30:25,360 --> 00:30:29,509
+again for the spin 3 half representation
+of su2 which uses 4x4
+
+1290
+00:30:29,509 --> 00:30:29,519
+of su2 which uses 4x4
+ 
+
+1291
+00:30:29,519 --> 00:30:32,110
+of su2 which uses 4x4
+matrices the four basis vectors would
+
+1292
+00:30:32,110 --> 00:30:32,120
+matrices the four basis vectors would
+ 
+
+1293
+00:30:32,120 --> 00:30:34,389
+matrices the four basis vectors would
+then be labeled with igen values plus
+
+1294
+00:30:34,389 --> 00:30:34,399
+then be labeled with igen values plus
+ 
+
+1295
+00:30:34,399 --> 00:30:38,630
+then be labeled with igen values plus
+three Hales + 1/2 - 1/2 and -
+
+1296
+00:30:38,630 --> 00:30:38,640
+three Hales + 1/2 - 1/2 and -
+ 
+
+1297
+00:30:38,640 --> 00:30:42,230
+three Hales + 1/2 - 1/2 and -
+3es the highest weight is three Hales so
+
+1298
+00:30:42,230 --> 00:30:42,240
+3es the highest weight is three Hales so
+ 
+
+1299
+00:30:42,240 --> 00:30:45,029
+3es the highest weight is three Hales so
+this is the spin 3es
+
+1300
+00:30:45,029 --> 00:30:45,039
+this is the spin 3es
+ 
+
+1301
+00:30:45,039 --> 00:30:47,190
+this is the spin 3es
+representation I'd encourage you to
+
+1302
+00:30:47,190 --> 00:30:47,200
+representation I'd encourage you to
+ 
+
+1303
+00:30:47,200 --> 00:30:49,669
+representation I'd encourage you to
+pause the video and try finding the spin
+
+1304
+00:30:49,669 --> 00:30:49,679
+pause the video and try finding the spin
+ 
+
+1305
+00:30:49,679 --> 00:30:52,269
+pause the video and try finding the spin
+three haves su2 Lee algebra
+
+1306
+00:30:52,269 --> 00:30:52,279
+three haves su2 Lee algebra
+ 
+
+1307
+00:30:52,279 --> 00:30:55,629
+three haves su2 Lee algebra
+representation before I give the
+
+1308
+00:30:55,629 --> 00:30:55,639
+representation before I give the
+ 
+
+1309
+00:30:55,639 --> 00:30:57,389
+representation before I give the
+answer calculating the the
+
+1310
+00:30:57,389 --> 00:30:57,399
+answer calculating the the
+ 
+
+1311
+00:30:57,399 --> 00:30:59,269
+answer calculating the the
+proportionality constants is a bit more
+
+1312
+00:30:59,269 --> 00:30:59,279
+proportionality constants is a bit more
+ 
+
+1313
+00:30:59,279 --> 00:31:02,310
+proportionality constants is a bit more
+involved this time but for gz we get the
+
+1314
+00:31:02,310 --> 00:31:02,320
+involved this time but for gz we get the
+ 
+
+1315
+00:31:02,320 --> 00:31:04,509
+involved this time but for gz we get the
+square < TK of 3 2 and the square < TK
+
+1316
+00:31:04,509 --> 00:31:04,519
+square < TK of 3 2 and the square < TK
+ 
+
+1317
+00:31:04,519 --> 00:31:08,269
+square < TK of 3 2 and the square < TK
+of 3 and for G minus we get similar
+
+1318
+00:31:08,269 --> 00:31:08,279
+of 3 and for G minus we get similar
+ 
+
+1319
+00:31:08,279 --> 00:31:11,509
+of 3 and for G minus we get similar
+results this gives us the following G+ G
+
+1320
+00:31:11,509 --> 00:31:11,519
+results this gives us the following G+ G
+ 
+
+1321
+00:31:11,519 --> 00:31:13,870
+results this gives us the following G+ G
+minus and GZ
+
+1322
+00:31:13,870 --> 00:31:13,880
+minus and GZ
+ 
+
+1323
+00:31:13,880 --> 00:31:18,669
+minus and GZ
+matrices changing basis we get these 4x4
+
+1324
+00:31:18,669 --> 00:31:18,679
+matrices changing basis we get these 4x4
+ 
+
+1325
+00:31:18,679 --> 00:31:21,950
+matrices changing basis we get these 4x4
+generators while exponentiating the gxy
+
+1326
+00:31:21,950 --> 00:31:21,960
+generators while exponentiating the gxy
+ 
+
+1327
+00:31:21,960 --> 00:31:24,870
+generators while exponentiating the gxy
+generator is easy exponentiating the
+
+1328
+00:31:24,870 --> 00:31:24,880
+generator is easy exponentiating the
+ 
+
+1329
+00:31:24,880 --> 00:31:27,430
+generator is easy exponentiating the
+other generators is trickier so I'm not
+
+1330
+00:31:27,430 --> 00:31:27,440
+other generators is trickier so I'm not
+ 
+
+1331
+00:31:27,440 --> 00:31:29,470
+other generators is trickier so I'm not
+going to do it in this
+
+1332
+00:31:29,470 --> 00:31:29,480
+going to do it in this
+ 
+
+1333
+00:31:29,480 --> 00:31:32,509
+going to do it in this
+video I'll also show you the 5x5
+
+1334
+00:31:32,509 --> 00:31:32,519
+video I'll also show you the 5x5
+ 
+
+1335
+00:31:32,519 --> 00:31:35,509
+video I'll also show you the 5x5
+solution for Spin 2 so pause now if you
+
+1336
+00:31:35,509 --> 00:31:35,519
+solution for Spin 2 so pause now if you
+ 
+
+1337
+00:31:35,519 --> 00:31:36,590
+solution for Spin 2 so pause now if you
+want to
+
+1338
+00:31:36,590 --> 00:31:36,600
+want to
+ 
+
+1339
+00:31:36,600 --> 00:31:39,870
+want to
+try the G Plus proportionality constants
+
+1340
+00:31:39,870 --> 00:31:39,880
+try the G Plus proportionality constants
+ 
+
+1341
+00:31:39,880 --> 00:31:42,190
+try the G Plus proportionality constants
+are 2 the square < TK of 6 the square <
+
+1342
+00:31:42,190 --> 00:31:42,200
+are 2 the square < TK of 6 the square <
+ 
+
+1343
+00:31:42,200 --> 00:31:46,629
+are 2 the square < TK of 6 the square <
+TK of 6 and 2 and same for G minus and
+
+1344
+00:31:46,629 --> 00:31:46,639
+TK of 6 and 2 and same for G minus and
+ 
+
+1345
+00:31:46,639 --> 00:31:49,629
+TK of 6 and 2 and same for G minus and
+we get these matrices for G+ G minus and
+
+1346
+00:31:49,629 --> 00:31:49,639
+we get these matrices for G+ G minus and
+ 
+
+1347
+00:31:49,639 --> 00:31:54,190
+we get these matrices for G+ G minus and
+GZ and we can change bases to get these
+
+1348
+00:31:54,190 --> 00:31:54,200
+GZ and we can change bases to get these
+ 
+
+1349
+00:31:54,200 --> 00:31:57,110
+GZ and we can change bases to get these
+generators exponentiating the gxy gener
+
+1350
+00:31:57,110 --> 00:31:57,120
+generators exponentiating the gxy gener
+ 
+
+1351
+00:31:57,120 --> 00:32:00,789
+generators exponentiating the gxy gener
+generator we easily get a 5x5 su2 group
+
+1352
+00:32:00,789 --> 00:32:00,799
+generator we easily get a 5x5 su2 group
+ 
+
+1353
+00:32:00,799 --> 00:32:03,830
+generator we easily get a 5x5 su2 group
+Matrix for doing rotations in the XY
+
+1354
+00:32:03,830 --> 00:32:03,840
+Matrix for doing rotations in the XY
+ 
+
+1355
+00:32:03,840 --> 00:32:06,470
+Matrix for doing rotations in the XY
+plane in the convention used in this
+
+1356
+00:32:06,470 --> 00:32:06,480
+plane in the convention used in this
+ 
+
+1357
+00:32:06,480 --> 00:32:09,029
+plane in the convention used in this
+video the XY generators and group
+
+1358
+00:32:09,029 --> 00:32:09,039
+video the XY generators and group
+ 
+
+1359
+00:32:09,039 --> 00:32:12,029
+video the XY generators and group
+matrices are always
+
+1360
+00:32:12,029 --> 00:32:12,039
+matrices are always
+ 
+
+1361
+00:32:12,039 --> 00:32:14,750
+matrices are always
+diagonal let's take a look at how some
+
+1362
+00:32:14,750 --> 00:32:14,760
+diagonal let's take a look at how some
+ 
+
+1363
+00:32:14,760 --> 00:32:17,590
+diagonal let's take a look at how some
+particles rotate in the XY plane under
+
+1364
+00:32:17,590 --> 00:32:17,600
+particles rotate in the XY plane under
+ 
+
+1365
+00:32:17,600 --> 00:32:21,430
+particles rotate in the XY plane under
+the su2 group spin zero particles
+
+1366
+00:32:21,430 --> 00:32:21,440
+the su2 group spin zero particles
+ 
+
+1367
+00:32:21,440 --> 00:32:24,149
+the su2 group spin zero particles
+transform with an identity Matrix so
+
+1368
+00:32:24,149 --> 00:32:24,159
+transform with an identity Matrix so
+ 
+
+1369
+00:32:24,159 --> 00:32:26,070
+transform with an identity Matrix so
+they don't change under
+
+1370
+00:32:26,070 --> 00:32:26,080
+they don't change under
+ 
+
+1371
+00:32:26,080 --> 00:32:29,789
+they don't change under
+rotations for spin 1/2 particles we get
+
+1372
+00:32:29,789 --> 00:32:29,799
+rotations for spin 1/2 particles we get
+ 
+
+1373
+00:32:29,799 --> 00:32:32,750
+rotations for spin 1/2 particles we get
+two states the spin up and spin down
+
+1374
+00:32:32,750 --> 00:32:32,760
+two states the spin up and spin down
+ 
+
+1375
+00:32:32,760 --> 00:32:35,830
+two states the spin up and spin down
+States whose complex coefficients change
+
+1376
+00:32:35,830 --> 00:32:35,840
+States whose complex coefficients change
+ 
+
+1377
+00:32:35,840 --> 00:32:38,870
+States whose complex coefficients change
+in opposite directions under this
+
+1378
+00:32:38,870 --> 00:32:38,880
+in opposite directions under this
+ 
+
+1379
+00:32:38,880 --> 00:32:41,310
+in opposite directions under this
+rotation it's also worth noting that the
+
+1380
+00:32:41,310 --> 00:32:41,320
+rotation it's also worth noting that the
+ 
+
+1381
+00:32:41,320 --> 00:32:44,110
+rotation it's also worth noting that the
+1/2 coefficients in the exponents mean
+
+1382
+00:32:44,110 --> 00:32:44,120
+1/2 coefficients in the exponents mean
+ 
+
+1383
+00:32:44,120 --> 00:32:47,549
+1/2 coefficients in the exponents mean
+the period of rotation is two full turns
+
+1384
+00:32:47,549 --> 00:32:47,559
+the period of rotation is two full turns
+ 
+
+1385
+00:32:47,559 --> 00:32:49,669
+the period of rotation is two full turns
+or 4
+
+1386
+00:32:49,669 --> 00:32:49,679
+or 4
+ 
+
+1387
+00:32:49,679 --> 00:32:53,190
+or 4
+Pi for spin one particles we get three
+
+1388
+00:32:53,190 --> 00:32:53,200
+Pi for spin one particles we get three
+ 
+
+1389
+00:32:53,200 --> 00:32:56,190
+Pi for spin one particles we get three
+states the plus one and minus one States
+
+1390
+00:32:56,190 --> 00:32:56,200
+states the plus one and minus one States
+ 
+
+1391
+00:32:56,200 --> 00:32:58,269
+states the plus one and minus one States
+correspond to two classical waves that
+
+1392
+00:32:58,269 --> 00:32:58,279
+correspond to two classical waves that
+ 
+
+1393
+00:32:58,279 --> 00:33:00,710
+correspond to two classical waves that
+are left and right polarized around the
+
+1394
+00:33:00,710 --> 00:33:00,720
+are left and right polarized around the
+ 
+
+1395
+00:33:00,720 --> 00:33:04,149
+are left and right polarized around the
+Zed AIS and they take a full turn of 2
+
+1396
+00:33:04,149 --> 00:33:04,159
+Zed AIS and they take a full turn of 2
+ 
+
+1397
+00:33:04,159 --> 00:33:07,149
+Zed AIS and they take a full turn of 2
+pi to get back to their starting point
+
+1398
+00:33:07,149 --> 00:33:07,159
+pi to get back to their starting point
+ 
+
+1399
+00:33:07,159 --> 00:33:09,029
+pi to get back to their starting point
+the zero State corresponds to the
+
+1400
+00:33:09,029 --> 00:33:09,039
+the zero State corresponds to the
+ 
+
+1401
+00:33:09,039 --> 00:33:11,590
+the zero State corresponds to the
+longitudinal polarization along the Zed
+
+1402
+00:33:11,590 --> 00:33:11,600
+longitudinal polarization along the Zed
+ 
+
+1403
+00:33:11,600 --> 00:33:14,629
+longitudinal polarization along the Zed
+AIS which does not change when we rotate
+
+1404
+00:33:14,629 --> 00:33:14,639
+AIS which does not change when we rotate
+ 
+
+1405
+00:33:14,639 --> 00:33:17,629
+AIS which does not change when we rotate
+around the Zed AIS so it transforms with
+
+1406
+00:33:17,629 --> 00:33:17,639
+around the Zed AIS so it transforms with
+ 
+
+1407
+00:33:17,639 --> 00:33:18,909
+around the Zed AIS so it transforms with
+the constant
+
+1408
+00:33:18,909 --> 00:33:18,919
+the constant
+ 
+
+1409
+00:33:18,919 --> 00:33:22,310
+the constant
+one for massless spin one particles that
+
+1410
+00:33:22,310 --> 00:33:22,320
+one for massless spin one particles that
+ 
+
+1411
+00:33:22,320 --> 00:33:24,430
+one for massless spin one particles that
+travel at the speed of light like
+
+1412
+00:33:24,430 --> 00:33:24,440
+travel at the speed of light like
+ 
+
+1413
+00:33:24,440 --> 00:33:27,629
+travel at the speed of light like
+photons the longitudinal polarization is
+
+1414
+00:33:27,629 --> 00:33:27,639
+photons the longitudinal polarization is
+ 
+
+1415
+00:33:27,639 --> 00:33:30,629
+photons the longitudinal polarization is
+not possible so we only have the + one
+
+1416
+00:33:30,629 --> 00:33:30,639
+not possible so we only have the + one
+ 
+
+1417
+00:33:30,639 --> 00:33:32,389
+not possible so we only have the + one
+and minus1
+
+1418
+00:33:32,389 --> 00:33:32,399
+and minus1
+ 
+
+1419
+00:33:32,399 --> 00:33:35,750
+and minus1
+states for spin 3 half particles we get
+
+1420
+00:33:35,750 --> 00:33:35,760
+states for spin 3 half particles we get
+ 
+
+1421
+00:33:35,760 --> 00:33:38,710
+states for spin 3 half particles we get
+four states the plus andus one/ half
+
+1422
+00:33:38,710 --> 00:33:38,720
+four states the plus andus one/ half
+ 
+
+1423
+00:33:38,720 --> 00:33:41,750
+four states the plus andus one/ half
+states have a period of two full turns
+
+1424
+00:33:41,750 --> 00:33:41,760
+states have a period of two full turns
+ 
+
+1425
+00:33:41,760 --> 00:33:43,950
+states have a period of two full turns
+but the plus and minus three half states
+
+1426
+00:33:43,950 --> 00:33:43,960
+but the plus and minus three half states
+ 
+
+1427
+00:33:43,960 --> 00:33:47,629
+but the plus and minus three half states
+have a period of 2/3 of a full turn
+
+1428
+00:33:47,629 --> 00:33:47,639
+have a period of 2/3 of a full turn
+ 
+
+1429
+00:33:47,639 --> 00:33:49,909
+have a period of 2/3 of a full turn
+however overall the states collectively
+
+1430
+00:33:49,909 --> 00:33:49,919
+however overall the states collectively
+ 
+
+1431
+00:33:49,919 --> 00:33:54,310
+however overall the states collectively
+have a period of two full turns or 4 Pi
+
+1432
+00:33:54,310 --> 00:33:54,320
+have a period of two full turns or 4 Pi
+ 
+
+1433
+00:33:54,320 --> 00:33:56,990
+have a period of two full turns or 4 Pi
+for spin two particles we get five state
+
+1434
+00:33:56,990 --> 00:33:57,000
+for spin two particles we get five state
+ 
+
+1435
+00:33:57,000 --> 00:33:59,590
+for spin two particles we get five state
+States the zero state is constant under
+
+1436
+00:33:59,590 --> 00:33:59,600
+States the zero state is constant under
+ 
+
+1437
+00:33:59,600 --> 00:34:02,430
+States the zero state is constant under
+these rotations the plus and minus one
+
+1438
+00:34:02,430 --> 00:34:02,440
+these rotations the plus and minus one
+ 
+
+1439
+00:34:02,440 --> 00:34:05,350
+these rotations the plus and minus one
+states have a period of one full turn
+
+1440
+00:34:05,350 --> 00:34:05,360
+states have a period of one full turn
+ 
+
+1441
+00:34:05,360 --> 00:34:07,629
+states have a period of one full turn
+and the plus and minus two states have a
+
+1442
+00:34:07,629 --> 00:34:07,639
+and the plus and minus two states have a
+ 
+
+1443
+00:34:07,639 --> 00:34:10,950
+and the plus and minus two states have a
+period of half a full turn collectively
+
+1444
+00:34:10,950 --> 00:34:10,960
+period of half a full turn collectively
+ 
+
+1445
+00:34:10,960 --> 00:34:12,950
+period of half a full turn collectively
+the states have a period of one full
+
+1446
+00:34:12,950 --> 00:34:12,960
+the states have a period of one full
+ 
+
+1447
+00:34:12,960 --> 00:34:16,990
+the states have a period of one full
+turn or 2 pi for massless spin two
+
+1448
+00:34:16,990 --> 00:34:17,000
+turn or 2 pi for massless spin two
+ 
+
+1449
+00:34:17,000 --> 00:34:18,790
+turn or 2 pi for massless spin two
+particles that travel at the speed of
+
+1450
+00:34:18,790 --> 00:34:18,800
+particles that travel at the speed of
+ 
+
+1451
+00:34:18,800 --> 00:34:21,829
+particles that travel at the speed of
+light like the hypothetical graviton the
+
+1452
+00:34:21,829 --> 00:34:21,839
+light like the hypothetical graviton the
+ 
+
+1453
+00:34:21,839 --> 00:34:24,550
+light like the hypothetical graviton the
+inner three states are not possible so
+
+1454
+00:34:24,550 --> 00:34:24,560
+inner three states are not possible so
+ 
+
+1455
+00:34:24,560 --> 00:34:27,389
+inner three states are not possible so
+we only have the plus two and minus 2
+
+1456
+00:34:27,389 --> 00:34:27,399
+we only have the plus two and minus 2
+ 
+
+1457
+00:34:27,399 --> 00:34:30,510
+we only have the plus two and minus 2
+States classically gravitational waves
+
+1458
+00:34:30,510 --> 00:34:30,520
+States classically gravitational waves
+ 
+
+1459
+00:34:30,520 --> 00:34:31,990
+States classically gravitational waves
+come in two
+
+1460
+00:34:31,990 --> 00:34:32,000
+come in two
+ 
+
+1461
+00:34:32,000 --> 00:34:34,909
+come in two
+polarizations the plus and cross
+
+1462
+00:34:34,909 --> 00:34:34,919
+polarizations the plus and cross
+ 
+
+1463
+00:34:34,919 --> 00:34:37,149
+polarizations the plus and cross
+polarizations where the amplitudes move
+
+1464
+00:34:37,149 --> 00:34:37,159
+polarizations where the amplitudes move
+ 
+
+1465
+00:34:37,159 --> 00:34:39,430
+polarizations where the amplitudes move
+in and out along the directions of plus
+
+1466
+00:34:39,430 --> 00:34:39,440
+in and out along the directions of plus
+ 
+
+1467
+00:34:39,440 --> 00:34:42,829
+in and out along the directions of plus
+and cross shapes the plus two and minus
+
+1468
+00:34:42,829 --> 00:34:42,839
+and cross shapes the plus two and minus
+ 
+
+1469
+00:34:42,839 --> 00:34:45,869
+and cross shapes the plus two and minus
+2 States correspond to specific linear
+
+1470
+00:34:45,869 --> 00:34:45,879
+2 States correspond to specific linear
+ 
+
+1471
+00:34:45,879 --> 00:34:49,149
+2 States correspond to specific linear
+combinations of the plus and cross
+
+1472
+00:34:49,149 --> 00:34:49,159
+combinations of the plus and cross
+ 
+
+1473
+00:34:49,159 --> 00:34:51,629
+combinations of the plus and cross
+polarizations these polarizations come
+
+1474
+00:34:51,629 --> 00:34:51,639
+polarizations these polarizations come
+ 
+
+1475
+00:34:51,639 --> 00:34:53,790
+polarizations these polarizations come
+back to themselves after half a full
+
+1476
+00:34:53,790 --> 00:34:53,800
+back to themselves after half a full
+ 
+
+1477
+00:34:53,800 --> 00:34:59,430
+back to themselves after half a full
+turn so their period is half of 2 pi
+
+1478
+00:34:59,430 --> 00:34:59,440
+
+ 
+
+1479
+00:34:59,440 --> 00:35:01,230
+
+now it can be confusing to tell the
+
+1480
+00:35:01,230 --> 00:35:01,240
+now it can be confusing to tell the
+ 
+
+1481
+00:35:01,240 --> 00:35:02,990
+now it can be confusing to tell the
+difference between the plus one state
+
+1482
+00:35:02,990 --> 00:35:03,000
+difference between the plus one state
+ 
+
+1483
+00:35:03,000 --> 00:35:05,630
+difference between the plus one state
+from the spin one representation and the
+
+1484
+00:35:05,630 --> 00:35:05,640
+from the spin one representation and the
+ 
+
+1485
+00:35:05,640 --> 00:35:08,150
+from the spin one representation and the
+plus one state from the Spin 2
+
+1486
+00:35:08,150 --> 00:35:08,160
+plus one state from the Spin 2
+ 
+
+1487
+00:35:08,160 --> 00:35:10,589
+plus one state from the Spin 2
+representation for this reason we often
+
+1488
+00:35:10,589 --> 00:35:10,599
+representation for this reason we often
+ 
+
+1489
+00:35:10,599 --> 00:35:13,510
+representation for this reason we often
+include the spin number J as a prefix
+
+1490
+00:35:13,510 --> 00:35:13,520
+include the spin number J as a prefix
+ 
+
+1491
+00:35:13,520 --> 00:35:16,870
+include the spin number J as a prefix
+label on the igen states this helps us
+
+1492
+00:35:16,870 --> 00:35:16,880
+label on the igen states this helps us
+ 
+
+1493
+00:35:16,880 --> 00:35:19,190
+label on the igen states this helps us
+keep track of which igen Vector belongs
+
+1494
+00:35:19,190 --> 00:35:19,200
+keep track of which igen Vector belongs
+ 
+
+1495
+00:35:19,200 --> 00:35:23,109
+keep track of which igen Vector belongs
+to which
+
+1496
+00:35:23,109 --> 00:35:23,119
+
+ 
+
+1497
+00:35:23,119 --> 00:35:25,270
+
+representation now it's a fact that
+
+1498
+00:35:25,270 --> 00:35:25,280
+representation now it's a fact that
+ 
+
+1499
+00:35:25,280 --> 00:35:27,470
+representation now it's a fact that
+there is exactly one IR reducible
+
+1500
+00:35:27,470 --> 00:35:27,480
+there is exactly one IR reducible
+ 
+
+1501
+00:35:27,480 --> 00:35:31,230
+there is exactly one IR reducible
+representation of su2 per Dimension if
+
+1502
+00:35:31,230 --> 00:35:31,240
+representation of su2 per Dimension if
+ 
+
+1503
+00:35:31,240 --> 00:35:33,990
+representation of su2 per Dimension if
+you find two different IRS of the same
+
+1504
+00:35:33,990 --> 00:35:34,000
+you find two different IRS of the same
+ 
+
+1505
+00:35:34,000 --> 00:35:36,390
+you find two different IRS of the same
+size you can always swap between them
+
+1506
+00:35:36,390 --> 00:35:36,400
+size you can always swap between them
+ 
+
+1507
+00:35:36,400 --> 00:35:38,230
+size you can always swap between them
+using a change of
+
+1508
+00:35:38,230 --> 00:35:38,240
+using a change of
+ 
+
+1509
+00:35:38,240 --> 00:35:40,589
+using a change of
+coordinates this happens because every
+
+1510
+00:35:40,589 --> 00:35:40,599
+coordinates this happens because every
+ 
+
+1511
+00:35:40,599 --> 00:35:44,030
+coordinates this happens because every
+su2 Lee algebra EP allows us to define
+
+1512
+00:35:44,030 --> 00:35:44,040
+su2 Lee algebra EP allows us to define
+ 
+
+1513
+00:35:44,040 --> 00:35:46,870
+su2 Lee algebra EP allows us to define
+the latter operators and assuming a
+
+1514
+00:35:46,870 --> 00:35:46,880
+the latter operators and assuming a
+ 
+
+1515
+00:35:46,880 --> 00:35:49,270
+the latter operators and assuming a
+finite dimensional representation there
+
+1516
+00:35:49,270 --> 00:35:49,280
+finite dimensional representation there
+ 
+
+1517
+00:35:49,280 --> 00:35:52,630
+finite dimensional representation there
+will always be a highest weight Vector J
+
+1518
+00:35:52,630 --> 00:35:52,640
+will always be a highest weight Vector J
+ 
+
+1519
+00:35:52,640 --> 00:35:54,870
+will always be a highest weight Vector J
+we can then use the lowering operator to
+
+1520
+00:35:54,870 --> 00:35:54,880
+we can then use the lowering operator to
+ 
+
+1521
+00:35:54,880 --> 00:35:58,030
+we can then use the lowering operator to
+create an orthogonal basis for this
+
+1522
+00:35:58,030 --> 00:35:58,040
+create an orthogonal basis for this
+ 
+
+1523
+00:35:58,040 --> 00:36:02,550
+create an orthogonal basis for this
+IR so if we have two su2 Lee algebra IRS
+
+1524
+00:36:02,550 --> 00:36:02,560
+IR so if we have two su2 Lee algebra IRS
+ 
+
+1525
+00:36:02,560 --> 00:36:06,150
+IR so if we have two su2 Lee algebra IRS
+of the same Dimension pi and Pi Tilda
+
+1526
+00:36:06,150 --> 00:36:06,160
+of the same Dimension pi and Pi Tilda
+ 
+
+1527
+00:36:06,160 --> 00:36:08,870
+of the same Dimension pi and Pi Tilda
+each with different generators we can
+
+1528
+00:36:08,870 --> 00:36:08,880
+each with different generators we can
+ 
+
+1529
+00:36:08,880 --> 00:36:10,790
+each with different generators we can
+always use their respective lad
+
+1530
+00:36:10,790 --> 00:36:10,800
+always use their respective lad
+ 
+
+1531
+00:36:10,800 --> 00:36:13,470
+always use their respective lad
+operators to Define an orthogonal basis
+
+1532
+00:36:13,470 --> 00:36:13,480
+operators to Define an orthogonal basis
+ 
+
+1533
+00:36:13,480 --> 00:36:15,270
+operators to Define an orthogonal basis
+for each
+
+1534
+00:36:15,270 --> 00:36:15,280
+for each
+ 
+
+1535
+00:36:15,280 --> 00:36:17,550
+for each
+representation we can then use a change
+
+1536
+00:36:17,550 --> 00:36:17,560
+representation we can then use a change
+ 
+
+1537
+00:36:17,560 --> 00:36:20,750
+representation we can then use a change
+of basis Matrix C to swap between these
+
+1538
+00:36:20,750 --> 00:36:20,760
+of basis Matrix C to swap between these
+ 
+
+1539
+00:36:20,760 --> 00:36:23,990
+of basis Matrix C to swap between these
+two bases this means we can also change
+
+1540
+00:36:23,990 --> 00:36:24,000
+two bases this means we can also change
+ 
+
+1541
+00:36:24,000 --> 00:36:27,190
+two bases this means we can also change
+bases for any linear map L and so we can
+
+1542
+00:36:27,190 --> 00:36:27,200
+bases for any linear map L and so we can
+ 
+
+1543
+00:36:27,200 --> 00:36:29,430
+bases for any linear map L and so we can
+always swap between the two su2
+
+1544
+00:36:29,430 --> 00:36:29,440
+always swap between the two su2
+ 
+
+1545
+00:36:29,440 --> 00:36:31,349
+always swap between the two su2
+generators using the same change of
+
+1546
+00:36:31,349 --> 00:36:31,359
+generators using the same change of
+ 
+
+1547
+00:36:31,359 --> 00:36:33,470
+generators using the same change of
+coordinates Matrix
+
+1548
+00:36:33,470 --> 00:36:33,480
+coordinates Matrix
+ 
+
+1549
+00:36:33,480 --> 00:36:37,309
+coordinates Matrix
+C the group representations of su2 also
+
+1550
+00:36:37,309 --> 00:36:37,319
+C the group representations of su2 also
+ 
+
+1551
+00:36:37,319 --> 00:36:39,349
+C the group representations of su2 also
+use the same change of coordinate Matrix
+
+1552
+00:36:39,349 --> 00:36:39,359
+use the same change of coordinate Matrix
+ 
+
+1553
+00:36:39,359 --> 00:36:42,109
+use the same change of coordinate Matrix
+C to change representations because of
+
+1554
+00:36:42,109 --> 00:36:42,119
+C to change representations because of
+ 
+
+1555
+00:36:42,119 --> 00:36:46,470
+C to change representations because of
+the properties of Matrix
+
+1556
+00:36:46,470 --> 00:36:46,480
+
+ 
+
+1557
+00:36:46,480 --> 00:36:49,390
+
+exponentials so we know that su2 has
+
+1558
+00:36:49,390 --> 00:36:49,400
+exponentials so we know that su2 has
+ 
+
+1559
+00:36:49,400 --> 00:36:52,030
+exponentials so we know that su2 has
+exactly one irreducible representation
+
+1560
+00:36:52,030 --> 00:36:52,040
+exactly one irreducible representation
+ 
+
+1561
+00:36:52,040 --> 00:36:55,630
+exactly one irreducible representation
+per Dimension now we'll prove that SO3
+
+1562
+00:36:55,630 --> 00:36:55,640
+per Dimension now we'll prove that SO3
+ 
+
+1563
+00:36:55,640 --> 00:36:58,150
+per Dimension now we'll prove that SO3
+has only one reducible representation
+
+1564
+00:36:58,150 --> 00:36:58,160
+has only one reducible representation
+ 
+
+1565
+00:36:58,160 --> 00:37:01,230
+has only one reducible representation
+for every odd Dimension this is a
+
+1566
+00:37:01,230 --> 00:37:01,240
+for every odd Dimension this is a
+ 
+
+1567
+00:37:01,240 --> 00:37:03,750
+for every odd Dimension this is a
+consequence of su2 being the double
+
+1568
+00:37:03,750 --> 00:37:03,760
+consequence of su2 being the double
+ 
+
+1569
+00:37:03,760 --> 00:37:05,069
+consequence of su2 being the double
+cover of
+
+1570
+00:37:05,069 --> 00:37:05,079
+cover of
+ 
+
+1571
+00:37:05,079 --> 00:37:09,069
+cover of
+S3 to prove this we'll list a few
+
+1572
+00:37:09,069 --> 00:37:09,079
+S3 to prove this we'll list a few
+ 
+
+1573
+00:37:09,079 --> 00:37:12,109
+S3 to prove this we'll list a few
+facts an important fact to remember is
+
+1574
+00:37:12,109 --> 00:37:12,119
+facts an important fact to remember is
+ 
+
+1575
+00:37:12,119 --> 00:37:14,870
+facts an important fact to remember is
+that a representation map row will
+
+1576
+00:37:14,870 --> 00:37:14,880
+that a representation map row will
+ 
+
+1577
+00:37:14,880 --> 00:37:17,150
+that a representation map row will
+always send the identity element of a
+
+1578
+00:37:17,150 --> 00:37:17,160
+always send the identity element of a
+ 
+
+1579
+00:37:17,160 --> 00:37:20,150
+always send the identity element of a
+group to the N byn identity
+
+1580
+00:37:20,150 --> 00:37:20,160
+group to the N byn identity
+ 
+
+1581
+00:37:20,160 --> 00:37:22,990
+group to the N byn identity
+Matrix this is required to preserve the
+
+1582
+00:37:22,990 --> 00:37:23,000
+Matrix this is required to preserve the
+ 
+
+1583
+00:37:23,000 --> 00:37:25,109
+Matrix this is required to preserve the
+group multiplication
+
+1584
+00:37:25,109 --> 00:37:25,119
+group multiplication
+ 
+
+1585
+00:37:25,119 --> 00:37:28,150
+group multiplication
+rules now the double cover map 5 from
+
+1586
+00:37:28,150 --> 00:37:28,160
+rules now the double cover map 5 from
+ 
+
+1587
+00:37:28,160 --> 00:37:31,550
+rules now the double cover map 5 from
+su2 to SO3 sends the plus and minus
+
+1588
+00:37:31,550 --> 00:37:31,560
+su2 to SO3 sends the plus and minus
+ 
+
+1589
+00:37:31,560 --> 00:37:34,630
+su2 to SO3 sends the plus and minus
+versions of a given su2 Matrix to the
+
+1590
+00:37:34,630 --> 00:37:34,640
+versions of a given su2 Matrix to the
+ 
+
+1591
+00:37:34,640 --> 00:37:38,349
+versions of a given su2 Matrix to the
+same s SO3 Matrix r as a result the
+
+1592
+00:37:38,349 --> 00:37:38,359
+same s SO3 Matrix r as a result the
+ 
+
+1593
+00:37:38,359 --> 00:37:40,829
+same s SO3 Matrix r as a result the
+double cover map F sends both the
+
+1594
+00:37:40,829 --> 00:37:40,839
+double cover map F sends both the
+ 
+
+1595
+00:37:40,839 --> 00:37:43,309
+double cover map F sends both the
+positive and negative 2x2 identity
+
+1596
+00:37:43,309 --> 00:37:43,319
+positive and negative 2x2 identity
+ 
+
+1597
+00:37:43,319 --> 00:37:47,550
+positive and negative 2x2 identity
+Matrix to the 3X3 identity
+
+1598
+00:37:47,550 --> 00:37:47,560
+Matrix to the 3X3 identity
+ 
+
+1599
+00:37:47,560 --> 00:37:50,150
+Matrix to the 3X3 identity
+Matrix now if we have an irreducible
+
+1600
+00:37:50,150 --> 00:37:50,160
+Matrix now if we have an irreducible
+ 
+
+1601
+00:37:50,160 --> 00:37:53,390
+Matrix now if we have an irreducible
+representation row of s SO3 if we
+
+1602
+00:37:53,390 --> 00:37:53,400
+representation row of s SO3 if we
+ 
+
+1603
+00:37:53,400 --> 00:37:55,270
+representation row of s SO3 if we
+combine it with the double covering map
+
+1604
+00:37:55,270 --> 00:37:55,280
+combine it with the double covering map
+ 
+
+1605
+00:37:55,280 --> 00:37:57,790
+combine it with the double covering map
+fi this AO automatically gives us an
+
+1606
+00:37:57,790 --> 00:37:57,800
+fi this AO automatically gives us an
+ 
+
+1607
+00:37:57,800 --> 00:38:01,630
+fi this AO automatically gives us an
+irreducible representation Sigma of
+
+1608
+00:38:01,630 --> 00:38:01,640
+irreducible representation Sigma of
+ 
+
+1609
+00:38:01,640 --> 00:38:04,670
+irreducible representation Sigma of
+su2 since F sends the negative identity
+
+1610
+00:38:04,670 --> 00:38:04,680
+su2 since F sends the negative identity
+ 
+
+1611
+00:38:04,680 --> 00:38:07,670
+su2 since F sends the negative identity
+to the identity Matrix and row sends the
+
+1612
+00:38:07,670 --> 00:38:07,680
+to the identity Matrix and row sends the
+ 
+
+1613
+00:38:07,680 --> 00:38:10,470
+to the identity Matrix and row sends the
+identity to the identity this means the
+
+1614
+00:38:10,470 --> 00:38:10,480
+identity to the identity this means the
+ 
+
+1615
+00:38:10,480 --> 00:38:12,670
+identity to the identity this means the
+induced map Sigma sends the negative
+
+1616
+00:38:12,670 --> 00:38:12,680
+induced map Sigma sends the negative
+ 
+
+1617
+00:38:12,680 --> 00:38:16,309
+induced map Sigma sends the negative
+identity in su2 to the identity
+
+1618
+00:38:16,309 --> 00:38:16,319
+identity in su2 to the identity
+ 
+
+1619
+00:38:16,319 --> 00:38:20,309
+identity in su2 to the identity
+Matrix now let's look at the 4x4 and 5x5
+
+1620
+00:38:20,309 --> 00:38:20,319
+Matrix now let's look at the 4x4 and 5x5
+ 
+
+1621
+00:38:20,319 --> 00:38:21,950
+Matrix now let's look at the 4x4 and 5x5
+IRS of
+
+1622
+00:38:21,950 --> 00:38:21,960
+IRS of
+ 
+
+1623
+00:38:21,960 --> 00:38:24,910
+IRS of
+su2 we know there's only one EP per
+
+1624
+00:38:24,910 --> 00:38:24,920
+su2 we know there's only one EP per
+ 
+
+1625
+00:38:24,920 --> 00:38:27,230
+su2 we know there's only one EP per
+Dimension and we already know that this
+
+1626
+00:38:27,230 --> 00:38:27,240
+Dimension and we already know that this
+ 
+
+1627
+00:38:27,240 --> 00:38:30,390
+Dimension and we already know that this
+2x2 diagonal matrix gets sent to this
+
+1628
+00:38:30,390 --> 00:38:30,400
+2x2 diagonal matrix gets sent to this
+ 
+
+1629
+00:38:30,400 --> 00:38:34,870
+2x2 diagonal matrix gets sent to this
+4x4 and 5x5 diagonal matrix
+
+1630
+00:38:34,870 --> 00:38:34,880
+4x4 and 5x5 diagonal matrix
+ 
+
+1631
+00:38:34,880 --> 00:38:38,630
+4x4 and 5x5 diagonal matrix
+respectively now let's set Theta to 2 pi
+
+1632
+00:38:38,630 --> 00:38:38,640
+respectively now let's set Theta to 2 pi
+ 
+
+1633
+00:38:38,640 --> 00:38:40,710
+respectively now let's set Theta to 2 pi
+all the exponents with a half integer
+
+1634
+00:38:40,710 --> 00:38:40,720
+all the exponents with a half integer
+ 
+
+1635
+00:38:40,720 --> 00:38:44,150
+all the exponents with a half integer
+next to the angle will get sent to -1
+
+1636
+00:38:44,150 --> 00:38:44,160
+next to the angle will get sent to -1
+ 
+
+1637
+00:38:44,160 --> 00:38:47,910
+next to the angle will get sent to -1
+since e to the I Pi * an odd number is
+
+1638
+00:38:47,910 --> 00:38:47,920
+since e to the I Pi * an odd number is
+ 
+
+1639
+00:38:47,920 --> 00:38:50,309
+since e to the I Pi * an odd number is
+-1 and all the exponentials with
+
+1640
+00:38:50,309 --> 00:38:50,319
+-1 and all the exponentials with
+ 
+
+1641
+00:38:50,319 --> 00:38:52,550
+-1 and all the exponentials with
+integers next to the angle will get sent
+
+1642
+00:38:52,550 --> 00:38:52,560
+integers next to the angle will get sent
+ 
+
+1643
+00:38:52,560 --> 00:38:56,109
+integers next to the angle will get sent
+to + one since e to the i 2 pi * an
+
+1644
+00:38:56,109 --> 00:38:56,119
+to + one since e to the i 2 pi * an
+ 
+
+1645
+00:38:56,119 --> 00:38:58,270
+to + one since e to the i 2 pi * an
+integer = +
+
+1646
+00:38:58,270 --> 00:38:58,280
+integer = +
+ 
+
+1647
+00:38:58,280 --> 00:39:02,630
+integer = +
+1 so in the 4x4 ep the negative identity
+
+1648
+00:39:02,630 --> 00:39:02,640
+1 so in the 4x4 ep the negative identity
+ 
+
+1649
+00:39:02,640 --> 00:39:05,550
+1 so in the 4x4 ep the negative identity
+gets sent to the negative identity and
+
+1650
+00:39:05,550 --> 00:39:05,560
+gets sent to the negative identity and
+ 
+
+1651
+00:39:05,560 --> 00:39:08,710
+gets sent to the negative identity and
+in the 5x5 ep the negative identity gets
+
+1652
+00:39:08,710 --> 00:39:08,720
+in the 5x5 ep the negative identity gets
+ 
+
+1653
+00:39:08,720 --> 00:39:10,790
+in the 5x5 ep the negative identity gets
+sent to the positive
+
+1654
+00:39:10,790 --> 00:39:10,800
+sent to the positive
+ 
+
+1655
+00:39:10,800 --> 00:39:13,630
+sent to the positive
+identity more generally for every even
+
+1656
+00:39:13,630 --> 00:39:13,640
+identity more generally for every even
+ 
+
+1657
+00:39:13,640 --> 00:39:16,870
+identity more generally for every even
+dimensional or half integer spin ep the
+
+1658
+00:39:16,870 --> 00:39:16,880
+dimensional or half integer spin ep the
+ 
+
+1659
+00:39:16,880 --> 00:39:18,829
+dimensional or half integer spin ep the
+negative identity is sent to the
+
+1660
+00:39:18,829 --> 00:39:18,839
+negative identity is sent to the
+ 
+
+1661
+00:39:18,839 --> 00:39:21,270
+negative identity is sent to the
+negative identity but for odd
+
+1662
+00:39:21,270 --> 00:39:21,280
+negative identity but for odd
+ 
+
+1663
+00:39:21,280 --> 00:39:24,150
+negative identity but for odd
+dimensional or integer spin ARS the
+
+1664
+00:39:24,150 --> 00:39:24,160
+dimensional or integer spin ARS the
+ 
+
+1665
+00:39:24,160 --> 00:39:26,430
+dimensional or integer spin ARS the
+negative identity is sent to the posit
+
+1666
+00:39:26,430 --> 00:39:26,440
+negative identity is sent to the posit
+ 
+
+1667
+00:39:26,440 --> 00:39:28,589
+negative identity is sent to the posit
+postive
+
+1668
+00:39:28,589 --> 00:39:28,599
+postive
+ 
+
+1669
+00:39:28,599 --> 00:39:30,790
+postive
+identity okay let's bring this all
+
+1670
+00:39:30,790 --> 00:39:30,800
+identity okay let's bring this all
+ 
+
+1671
+00:39:30,800 --> 00:39:32,950
+identity okay let's bring this all
+together we have the double cover map
+
+1672
+00:39:32,950 --> 00:39:32,960
+together we have the double cover map
+ 
+
+1673
+00:39:32,960 --> 00:39:36,630
+together we have the double cover map
+five from su2 to SO3 which sends the -2
+
+1674
+00:39:36,630 --> 00:39:36,640
+five from su2 to SO3 which sends the -2
+ 
+
+1675
+00:39:36,640 --> 00:39:40,270
+five from su2 to SO3 which sends the -2
+X2 identity to the 3X3 identity and if
+
+1676
+00:39:40,270 --> 00:39:40,280
+X2 identity to the 3X3 identity and if
+ 
+
+1677
+00:39:40,280 --> 00:39:42,030
+X2 identity to the 3X3 identity and if
+we have an N byn irreducible
+
+1678
+00:39:42,030 --> 00:39:42,040
+we have an N byn irreducible
+ 
+
+1679
+00:39:42,040 --> 00:39:44,790
+we have an N byn irreducible
+representation of s SO3 this will send
+
+1680
+00:39:44,790 --> 00:39:44,800
+representation of s SO3 this will send
+ 
+
+1681
+00:39:44,800 --> 00:39:48,349
+representation of s SO3 this will send
+the 3X3 identity to the N byn identity
+
+1682
+00:39:48,349 --> 00:39:48,359
+the 3X3 identity to the N byn identity
+ 
+
+1683
+00:39:48,359 --> 00:39:51,270
+the 3X3 identity to the N byn identity
+as required by the rules of
+
+1684
+00:39:51,270 --> 00:39:51,280
+as required by the rules of
+ 
+
+1685
+00:39:51,280 --> 00:39:53,710
+as required by the rules of
+representations this also induces an N
+
+1686
+00:39:53,710 --> 00:39:53,720
+representations this also induces an N
+ 
+
+1687
+00:39:53,720 --> 00:39:56,990
+representations this also induces an N
+byn irreducible representation Sigma of
+
+1688
+00:39:56,990 --> 00:39:57,000
+byn irreducible representation Sigma of
+ 
+
+1689
+00:39:57,000 --> 00:40:00,309
+byn irreducible representation Sigma of
+su2 which is the composition of fi and
+
+1690
+00:40:00,309 --> 00:40:00,319
+su2 which is the composition of fi and
+ 
+
+1691
+00:40:00,319 --> 00:40:04,790
+su2 which is the composition of fi and
+the S SO3 ere as a result this Sigma
+
+1692
+00:40:04,790 --> 00:40:04,800
+the S SO3 ere as a result this Sigma
+ 
+
+1693
+00:40:04,800 --> 00:40:08,150
+the S SO3 ere as a result this Sigma
+always Maps the - 2x2 identity to the N
+
+1694
+00:40:08,150 --> 00:40:08,160
+always Maps the - 2x2 identity to the N
+ 
+
+1695
+00:40:08,160 --> 00:40:09,230
+always Maps the - 2x2 identity to the N
+byn
+
+1696
+00:40:09,230 --> 00:40:09,240
+byn
+ 
+
+1697
+00:40:09,240 --> 00:40:11,270
+byn
+identity now let's include the
+
+1698
+00:40:11,270 --> 00:40:11,280
+identity now let's include the
+ 
+
+1699
+00:40:11,280 --> 00:40:14,150
+identity now let's include the
+information from the last slide if the
+
+1700
+00:40:14,150 --> 00:40:14,160
+information from the last slide if the
+ 
+
+1701
+00:40:14,160 --> 00:40:18,670
+information from the last slide if the
+dimension n is odd the N byn EP of su2
+
+1702
+00:40:18,670 --> 00:40:18,680
+dimension n is odd the N byn EP of su2
+ 
+
+1703
+00:40:18,680 --> 00:40:20,910
+dimension n is odd the N byn EP of su2
+will send the negative identity to the
+
+1704
+00:40:20,910 --> 00:40:20,920
+will send the negative identity to the
+ 
+
+1705
+00:40:20,920 --> 00:40:23,670
+will send the negative identity to the
+positive identity this is consistent
+
+1706
+00:40:23,670 --> 00:40:23,680
+positive identity this is consistent
+ 
+
+1707
+00:40:23,680 --> 00:40:25,910
+positive identity this is consistent
+with what we have above so there are no
+
+1708
+00:40:25,910 --> 00:40:25,920
+with what we have above so there are no
+ 
+
+1709
+00:40:25,920 --> 00:40:27,390
+with what we have above so there are no
+problems
+
+1710
+00:40:27,390 --> 00:40:27,400
+problems
+ 
+
+1711
+00:40:27,400 --> 00:40:30,430
+problems
+but if the dimension n is even the N byn
+
+1712
+00:40:30,430 --> 00:40:30,440
+but if the dimension n is even the N byn
+ 
+
+1713
+00:40:30,440 --> 00:40:33,589
+but if the dimension n is even the N byn
+EP of su2 sends the negative identity to
+
+1714
+00:40:33,589 --> 00:40:33,599
+EP of su2 sends the negative identity to
+ 
+
+1715
+00:40:33,599 --> 00:40:36,349
+EP of su2 sends the negative identity to
+the negative identity this contradicts
+
+1716
+00:40:36,349 --> 00:40:36,359
+the negative identity this contradicts
+ 
+
+1717
+00:40:36,359 --> 00:40:39,270
+the negative identity this contradicts
+what we have above the only conclusion
+
+1718
+00:40:39,270 --> 00:40:39,280
+what we have above the only conclusion
+ 
+
+1719
+00:40:39,280 --> 00:40:42,390
+what we have above the only conclusion
+we can draw is that there are no n byn
+
+1720
+00:40:42,390 --> 00:40:42,400
+we can draw is that there are no n byn
+ 
+
+1721
+00:40:42,400 --> 00:40:45,430
+we can draw is that there are no n byn
+irreducible representations of SO3 for
+
+1722
+00:40:45,430 --> 00:40:45,440
+irreducible representations of SO3 for
+ 
+
+1723
+00:40:45,440 --> 00:40:49,390
+irreducible representations of SO3 for
+even dimensional n if there was Sigma
+
+1724
+00:40:49,390 --> 00:40:49,400
+even dimensional n if there was Sigma
+ 
+
+1725
+00:40:49,400 --> 00:40:51,430
+even dimensional n if there was Sigma
+would always send the negative identity
+
+1726
+00:40:51,430 --> 00:40:51,440
+would always send the negative identity
+ 
+
+1727
+00:40:51,440 --> 00:40:53,990
+would always send the negative identity
+to the positive identity which is not
+
+1728
+00:40:53,990 --> 00:40:54,000
+to the positive identity which is not
+ 
+
+1729
+00:40:54,000 --> 00:40:57,230
+to the positive identity which is not
+the case for even dimensional EPS of
+
+1730
+00:40:57,230 --> 00:40:57,240
+the case for even dimensional EPS of
+ 
+
+1731
+00:40:57,240 --> 00:41:00,710
+the case for even dimensional EPS of
+su2 so we've proven that s SO3 only has
+
+1732
+00:41:00,710 --> 00:41:00,720
+su2 so we've proven that s SO3 only has
+ 
+
+1733
+00:41:00,720 --> 00:41:03,990
+su2 so we've proven that s SO3 only has
+IRS in odd Dimensions or equivalently
+
+1734
+00:41:03,990 --> 00:41:04,000
+IRS in odd Dimensions or equivalently
+ 
+
+1735
+00:41:04,000 --> 00:41:07,349
+IRS in odd Dimensions or equivalently
+for integer
+
+1736
+00:41:07,349 --> 00:41:07,359
+
+ 
+
+1737
+00:41:07,359 --> 00:41:10,190
+
+spins now I'd like to move on to space
+
+1738
+00:41:10,190 --> 00:41:10,200
+spins now I'd like to move on to space
+ 
+
+1739
+00:41:10,200 --> 00:41:13,230
+spins now I'd like to move on to space
+time but before I do I want to point out
+
+1740
+00:41:13,230 --> 00:41:13,240
+time but before I do I want to point out
+ 
+
+1741
+00:41:13,240 --> 00:41:14,710
+time but before I do I want to point out
+that it's possible to Define
+
+1742
+00:41:14,710 --> 00:41:14,720
+that it's possible to Define
+ 
+
+1743
+00:41:14,720 --> 00:41:18,270
+that it's possible to Define
+representations for su2 using polinomial
+
+1744
+00:41:18,270 --> 00:41:18,280
+representations for su2 using polinomial
+ 
+
+1745
+00:41:18,280 --> 00:41:21,670
+representations for su2 using polinomial
+and derivative operators like this these
+
+1746
+00:41:21,670 --> 00:41:21,680
+and derivative operators like this these
+ 
+
+1747
+00:41:21,680 --> 00:41:23,870
+and derivative operators like this these
+Obey the expected commutation relations
+
+1748
+00:41:23,870 --> 00:41:23,880
+Obey the expected commutation relations
+ 
+
+1749
+00:41:23,880 --> 00:41:24,910
+Obey the expected commutation relations
+for
+
+1750
+00:41:24,910 --> 00:41:24,920
+for
+ 
+
+1751
+00:41:24,920 --> 00:41:27,390
+for
+su2 we can prove this using these
+
+1752
+00:41:27,390 --> 00:41:27,400
+su2 we can prove this using these
+ 
+
+1753
+00:41:27,400 --> 00:41:29,630
+su2 we can prove this using these
+identities and various commutator
+
+1754
+00:41:29,630 --> 00:41:29,640
+identities and various commutator
+ 
+
+1755
+00:41:29,640 --> 00:41:31,430
+identities and various commutator
+properties that we've seen
+
+1756
+00:41:31,430 --> 00:41:31,440
+properties that we've seen
+ 
+
+1757
+00:41:31,440 --> 00:41:33,630
+properties that we've seen
+before I don't know if these have an
+
+1758
+00:41:33,630 --> 00:41:33,640
+before I don't know if these have an
+ 
+
+1759
+00:41:33,640 --> 00:41:35,910
+before I don't know if these have an
+official name but we could call them
+
+1760
+00:41:35,910 --> 00:41:35,920
+official name but we could call them
+ 
+
+1761
+00:41:35,920 --> 00:41:38,910
+official name but we could call them
+polom or differential
+
+1762
+00:41:38,910 --> 00:41:38,920
+polom or differential
+ 
+
+1763
+00:41:38,920 --> 00:41:41,150
+polom or differential
+representations in quantum mechanics
+
+1764
+00:41:41,150 --> 00:41:41,160
+representations in quantum mechanics
+ 
+
+1765
+00:41:41,160 --> 00:41:43,670
+representations in quantum mechanics
+these are usually defined with IH in
+
+1766
+00:41:43,670 --> 00:41:43,680
+these are usually defined with IH in
+ 
+
+1767
+00:41:43,680 --> 00:41:46,030
+these are usually defined with IH in
+front and they generate rotation
+
+1768
+00:41:46,030 --> 00:41:46,040
+front and they generate rotation
+ 
+
+1769
+00:41:46,040 --> 00:41:49,150
+front and they generate rotation
+operations on Wave
+
+1770
+00:41:49,150 --> 00:41:49,160
+operations on Wave
+ 
+
+1771
+00:41:49,160 --> 00:41:52,309
+operations on Wave
+functions now we know that su2 has one
+
+1772
+00:41:52,309 --> 00:41:52,319
+functions now we know that su2 has one
+ 
+
+1773
+00:41:52,319 --> 00:41:55,589
+functions now we know that su2 has one
+irreducible representation per Dimension
+
+1774
+00:41:55,589 --> 00:41:55,599
+irreducible representation per Dimension
+ 
+
+1775
+00:41:55,599 --> 00:41:57,349
+irreducible representation per Dimension
+but we know from from the last video
+
+1776
+00:41:57,349 --> 00:41:57,359
+but we know from from the last video
+ 
+
+1777
+00:41:57,359 --> 00:42:00,870
+but we know from from the last video
+that SL2 C in space time has two
+
+1778
+00:42:00,870 --> 00:42:00,880
+that SL2 C in space time has two
+ 
+
+1779
+00:42:00,880 --> 00:42:04,109
+that SL2 C in space time has two
+non-equivalent 2x two irreducible
+
+1780
+00:42:04,109 --> 00:42:04,119
+non-equivalent 2x two irreducible
+ 
+
+1781
+00:42:04,119 --> 00:42:06,190
+non-equivalent 2x two irreducible
+representations which we call the left
+
+1782
+00:42:06,190 --> 00:42:06,200
+representations which we call the left
+ 
+
+1783
+00:42:06,200 --> 00:42:08,030
+representations which we call the left
+and right
+
+1784
+00:42:08,030 --> 00:42:08,040
+and right
+ 
+
+1785
+00:42:08,040 --> 00:42:10,589
+and right
+representations we cannot change between
+
+1786
+00:42:10,589 --> 00:42:10,599
+representations we cannot change between
+ 
+
+1787
+00:42:10,599 --> 00:42:14,430
+representations we cannot change between
+these representations using a change of
+
+1788
+00:42:14,430 --> 00:42:14,440
+these representations using a change of
+ 
+
+1789
+00:42:14,440 --> 00:42:17,030
+these representations using a change of
+coordinates we know that with the su2
+
+1790
+00:42:17,030 --> 00:42:17,040
+coordinates we know that with the su2
+ 
+
+1791
+00:42:17,040 --> 00:42:20,030
+coordinates we know that with the su2
+Lee algebra if we complexify it with
+
+1792
+00:42:20,030 --> 00:42:20,040
+Lee algebra if we complexify it with
+ 
+
+1793
+00:42:20,040 --> 00:42:22,510
+Lee algebra if we complexify it with
+complex coefficients we can Define the
+
+1794
+00:42:22,510 --> 00:42:22,520
+complex coefficients we can Define the
+ 
+
+1795
+00:42:22,520 --> 00:42:25,069
+complex coefficients we can Define the
+raising and lowering operators which
+
+1796
+00:42:25,069 --> 00:42:25,079
+raising and lowering operators which
+ 
+
+1797
+00:42:25,079 --> 00:42:28,030
+raising and lowering operators which
+lets us Define a representation highest
+
+1798
+00:42:28,030 --> 00:42:28,040
+lets us Define a representation highest
+ 
+
+1799
+00:42:28,040 --> 00:42:30,109
+lets us Define a representation highest
+weight or spin
+
+1800
+00:42:30,109 --> 00:42:30,119
+weight or spin
+ 
+
+1801
+00:42:30,119 --> 00:42:33,990
+weight or spin
+value with the SL2 C Le algebra if we
+
+1802
+00:42:33,990 --> 00:42:34,000
+value with the SL2 C Le algebra if we
+ 
+
+1803
+00:42:34,000 --> 00:42:36,430
+value with the SL2 C Le algebra if we
+complexify it we can break it up into
+
+1804
+00:42:36,430 --> 00:42:36,440
+complexify it we can break it up into
+ 
+
+1805
+00:42:36,440 --> 00:42:38,990
+complexify it we can break it up into
+the direct sum of a pair of complexified
+
+1806
+00:42:38,990 --> 00:42:39,000
+the direct sum of a pair of complexified
+ 
+
+1807
+00:42:39,000 --> 00:42:43,470
+the direct sum of a pair of complexified
+su2 Le algebras each with their own spin
+
+1808
+00:42:43,470 --> 00:42:43,480
+su2 Le algebras each with their own spin
+ 
+
+1809
+00:42:43,480 --> 00:42:47,549
+su2 Le algebras each with their own spin
+values so a given SL2 C representation
+
+1810
+00:42:47,549 --> 00:42:47,559
+values so a given SL2 C representation
+ 
+
+1811
+00:42:47,559 --> 00:42:50,630
+values so a given SL2 C representation
+is defined by a pair of spin values
+
+1812
+00:42:50,630 --> 00:42:50,640
+is defined by a pair of spin values
+ 
+
+1813
+00:42:50,640 --> 00:42:52,150
+is defined by a pair of spin values
+instead of just
+
+1814
+00:42:52,150 --> 00:42:52,160
+instead of just
+ 
+
+1815
+00:42:52,160 --> 00:42:55,030
+instead of just
+one we saw this trick of breaking up
+
+1816
+00:42:55,030 --> 00:42:55,040
+one we saw this trick of breaking up
+ 
+
+1817
+00:42:55,040 --> 00:42:58,190
+one we saw this trick of breaking up
+complexified SL l2c into a pair of
+
+1818
+00:42:58,190 --> 00:42:58,200
+complexified SL l2c into a pair of
+ 
+
+1819
+00:42:58,200 --> 00:43:02,069
+complexified SL l2c into a pair of
+complexified S2s in the last video so
+
+1820
+00:43:02,069 --> 00:43:02,079
+complexified S2s in the last video so
+ 
+
+1821
+00:43:02,079 --> 00:43:03,549
+complexified S2s in the last video so
+let's see how this
+
+1822
+00:43:03,549 --> 00:43:03,559
+let's see how this
+ 
+
+1823
+00:43:03,559 --> 00:43:06,790
+let's see how this
+works we start by taking the SL 2C
+
+1824
+00:43:06,790 --> 00:43:06,800
+works we start by taking the SL 2C
+ 
+
+1825
+00:43:06,800 --> 00:43:09,710
+works we start by taking the SL 2C
+rotation and boost generators the J's
+
+1826
+00:43:09,710 --> 00:43:09,720
+rotation and boost generators the J's
+ 
+
+1827
+00:43:09,720 --> 00:43:13,030
+rotation and boost generators the J's
+and the K's and change bases to the A's
+
+1828
+00:43:13,030 --> 00:43:13,040
+and the K's and change bases to the A's
+ 
+
+1829
+00:43:13,040 --> 00:43:13,870
+and the K's and change bases to the A's
+and
+
+1830
+00:43:13,870 --> 00:43:13,880
+and
+ 
+
+1831
+00:43:13,880 --> 00:43:16,510
+and
+B's the only difference between the A's
+
+1832
+00:43:16,510 --> 00:43:16,520
+B's the only difference between the A's
+ 
+
+1833
+00:43:16,520 --> 00:43:19,390
+B's the only difference between the A's
+and B's is the sign in front of the K
+
+1834
+00:43:19,390 --> 00:43:19,400
+and B's is the sign in front of the K
+ 
+
+1835
+00:43:19,400 --> 00:43:21,150
+and B's is the sign in front of the K
+boost
+
+1836
+00:43:21,150 --> 00:43:21,160
+boost
+ 
+
+1837
+00:43:21,160 --> 00:43:23,630
+boost
+generators these form two separate
+
+1838
+00:43:23,630 --> 00:43:23,640
+generators these form two separate
+ 
+
+1839
+00:43:23,640 --> 00:43:26,790
+generators these form two separate
+copies of the su2 Lee algebra
+
+1840
+00:43:26,790 --> 00:43:26,800
+copies of the su2 Lee algebra
+ 
+
+1841
+00:43:26,800 --> 00:43:28,630
+copies of the su2 Lee algebra
+which commute with each
+
+1842
+00:43:28,630 --> 00:43:28,640
+which commute with each
+ 
+
+1843
+00:43:28,640 --> 00:43:32,150
+which commute with each
+other if we take each su2 copy and
+
+1844
+00:43:32,150 --> 00:43:32,160
+other if we take each su2 copy and
+ 
+
+1845
+00:43:32,160 --> 00:43:34,910
+other if we take each su2 copy and
+complexify it so that they have complex
+
+1846
+00:43:34,910 --> 00:43:34,920
+complexify it so that they have complex
+ 
+
+1847
+00:43:34,920 --> 00:43:37,309
+complexify it so that they have complex
+coefficients we can Define raising and
+
+1848
+00:43:37,309 --> 00:43:37,319
+coefficients we can Define raising and
+ 
+
+1849
+00:43:37,319 --> 00:43:39,950
+coefficients we can Define raising and
+lowering operators and igen value
+
+1850
+00:43:39,950 --> 00:43:39,960
+lowering operators and igen value
+ 
+
+1851
+00:43:39,960 --> 00:43:44,309
+lowering operators and igen value
+operators in each su2 copy this means we
+
+1852
+00:43:44,309 --> 00:43:44,319
+operators in each su2 copy this means we
+ 
+
+1853
+00:43:44,319 --> 00:43:47,109
+operators in each su2 copy this means we
+can label each su2 representation with
+
+1854
+00:43:47,109 --> 00:43:47,119
+can label each su2 representation with
+ 
+
+1855
+00:43:47,119 --> 00:43:50,349
+can label each su2 representation with
+the highest weight or spin
+
+1856
+00:43:50,349 --> 00:43:50,359
+the highest weight or spin
+ 
+
+1857
+00:43:50,359 --> 00:43:53,510
+the highest weight or spin
+value so this means that to label a
+
+1858
+00:43:53,510 --> 00:43:53,520
+value so this means that to label a
+ 
+
+1859
+00:43:53,520 --> 00:43:56,109
+value so this means that to label a
+given irreducible representation of SL
+
+1860
+00:43:56,109 --> 00:43:56,119
+given irreducible representation of SL
+ 
+
+1861
+00:43:56,119 --> 00:44:00,630
+given irreducible representation of SL
+to C we need to pick two spin values we
+
+1862
+00:44:00,630 --> 00:44:00,640
+to C we need to pick two spin values we
+ 
+
+1863
+00:44:00,640 --> 00:44:03,630
+to C we need to pick two spin values we
+refer to the first spin value as left
+
+1864
+00:44:03,630 --> 00:44:03,640
+refer to the first spin value as left
+ 
+
+1865
+00:44:03,640 --> 00:44:06,030
+refer to the first spin value as left
+and the Second Spin value where the sign
+
+1866
+00:44:06,030 --> 00:44:06,040
+and the Second Spin value where the sign
+ 
+
+1867
+00:44:06,040 --> 00:44:08,510
+and the Second Spin value where the sign
+in front of the boosts is reversed is
+
+1868
+00:44:08,510 --> 00:44:08,520
+in front of the boosts is reversed is
+ 
+
+1869
+00:44:08,520 --> 00:44:12,069
+in front of the boosts is reversed is
+called right these spin values are often
+
+1870
+00:44:12,069 --> 00:44:12,079
+called right these spin values are often
+ 
+
+1871
+00:44:12,079 --> 00:44:14,870
+called right these spin values are often
+written in an ordered pair like
+
+1872
+00:44:14,870 --> 00:44:14,880
+written in an ordered pair like
+ 
+
+1873
+00:44:14,880 --> 00:44:18,309
+written in an ordered pair like
+this so for su2 irreducible
+
+1874
+00:44:18,309 --> 00:44:18,319
+this so for su2 irreducible
+ 
+
+1875
+00:44:18,319 --> 00:44:20,630
+this so for su2 irreducible
+representations we get a one dimensional
+
+1876
+00:44:20,630 --> 00:44:20,640
+representations we get a one dimensional
+ 
+
+1877
+00:44:20,640 --> 00:44:22,349
+representations we get a one dimensional
+list of spin
+
+1878
+00:44:22,349 --> 00:44:22,359
+list of spin
+ 
+
+1879
+00:44:22,359 --> 00:44:25,549
+list of spin
+values but for SL2 C irreducible
+
+1880
+00:44:25,549 --> 00:44:25,559
+values but for SL2 C irreducible
+ 
+
+1881
+00:44:25,559 --> 00:44:27,470
+values but for SL2 C irreducible
+represent ations we get a
+
+1882
+00:44:27,470 --> 00:44:27,480
+represent ations we get a
+ 
+
+1883
+00:44:27,480 --> 00:44:30,390
+represent ations we get a
+two-dimensional grid which contains all
+
+1884
+00:44:30,390 --> 00:44:30,400
+two-dimensional grid which contains all
+ 
+
+1885
+00:44:30,400 --> 00:44:34,270
+two-dimensional grid which contains all
+possible pairs of left and right spin
+
+1886
+00:44:34,270 --> 00:44:34,280
+possible pairs of left and right spin
+ 
+
+1887
+00:44:34,280 --> 00:44:37,150
+possible pairs of left and right spin
+values if we move from the Lee algebra
+
+1888
+00:44:37,150 --> 00:44:37,160
+values if we move from the Lee algebra
+ 
+
+1889
+00:44:37,160 --> 00:44:41,549
+values if we move from the Lee algebra
+SL2 C to the Le group SL2 C the EPS are
+
+1890
+00:44:41,549 --> 00:44:41,559
+SL2 C to the Le group SL2 C the EPS are
+ 
+
+1891
+00:44:41,559 --> 00:44:45,109
+SL2 C to the Le group SL2 C the EPS are
+also labeled by a pair of spin values
+
+1892
+00:44:45,109 --> 00:44:45,119
+also labeled by a pair of spin values
+ 
+
+1893
+00:44:45,119 --> 00:44:47,270
+also labeled by a pair of spin values
+this time the EPS can be written as the
+
+1894
+00:44:47,270 --> 00:44:47,280
+this time the EPS can be written as the
+ 
+
+1895
+00:44:47,280 --> 00:44:49,870
+this time the EPS can be written as the
+tensor product of a left representation
+
+1896
+00:44:49,870 --> 00:44:49,880
+tensor product of a left representation
+ 
+
+1897
+00:44:49,880 --> 00:44:51,990
+tensor product of a left representation
+and a right
+
+1898
+00:44:51,990 --> 00:44:52,000
+and a right
+ 
+
+1899
+00:44:52,000 --> 00:44:55,030
+and a right
+representation we get a similar 2D table
+
+1900
+00:44:55,030 --> 00:44:55,040
+representation we get a similar 2D table
+ 
+
+1901
+00:44:55,040 --> 00:44:59,150
+representation we get a similar 2D table
+of eps for for the Le group SL2 C this
+
+1902
+00:44:59,150 --> 00:44:59,160
+of eps for for the Le group SL2 C this
+ 
+
+1903
+00:44:59,160 --> 00:45:01,069
+of eps for for the Le group SL2 C this
+contains the representations which
+
+1904
+00:45:01,069 --> 00:45:01,079
+contains the representations which
+ 
+
+1905
+00:45:01,079 --> 00:45:04,230
+contains the representations which
+transform scalers left and right vile
+
+1906
+00:45:04,230 --> 00:45:04,240
+transform scalers left and right vile
+ 
+
+1907
+00:45:04,240 --> 00:45:07,390
+transform scalers left and right vile
+Spinners as well as SpaceTime
+
+1908
+00:45:07,390 --> 00:45:07,400
+Spinners as well as SpaceTime
+ 
+
+1909
+00:45:07,400 --> 00:45:09,790
+Spinners as well as SpaceTime
+vectors I'm not going to go into much
+
+1910
+00:45:09,790 --> 00:45:09,800
+vectors I'm not going to go into much
+ 
+
+1911
+00:45:09,800 --> 00:45:12,270
+vectors I'm not going to go into much
+more detail here because the next video
+
+1912
+00:45:12,270 --> 00:45:12,280
+more detail here because the next video
+ 
+
+1913
+00:45:12,280 --> 00:45:16,589
+more detail here because the next video
+will be all about the tensor products of
+
+1914
+00:45:16,589 --> 00:45:16,599
+will be all about the tensor products of
+ 
+
+1915
+00:45:16,599 --> 00:45:18,710
+will be all about the tensor products of
+representations direct Spinners
+
+1916
+00:45:18,710 --> 00:45:18,720
+representations direct Spinners
+ 
+
+1917
+00:45:18,720 --> 00:45:20,829
+representations direct Spinners
+transform with the direct sum of the
+
+1918
+00:45:20,829 --> 00:45:20,839
+transform with the direct sum of the
+ 
+
+1919
+00:45:20,839 --> 00:45:23,069
+transform with the direct sum of the
+left and right spin 1/2
+
+1920
+00:45:23,069 --> 00:45:23,079
+left and right spin 1/2
+ 
+
+1921
+00:45:23,079 --> 00:45:25,510
+left and right spin 1/2
+representations so this is a reducible
+
+1922
+00:45:25,510 --> 00:45:25,520
+representations so this is a reducible
+ 
+
+1923
+00:45:25,520 --> 00:45:27,990
+representations so this is a reducible
+represent
+
+1924
+00:45:27,990 --> 00:45:28,000
+
+ 
+
+1925
+00:45:28,000 --> 00:45:31,000
+
+presentation
+

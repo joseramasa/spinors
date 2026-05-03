@@ -1,0 +1,10025 @@
+1
+00:00:00,400 --> 00:00:02,270
+
+In this video, we're finally going to
+
+2
+00:00:02,270 --> 00:00:02,280
+In this video, we're finally going to
+ 
+
+3
+00:00:02,280 --> 00:00:04,590
+In this video, we're finally going to
+cover the Dirac equation in particle
+
+4
+00:00:04,590 --> 00:00:04,600
+cover the Dirac equation in particle
+ 
+
+5
+00:00:04,600 --> 00:00:06,150
+cover the Dirac equation in particle
+physics.
+
+6
+00:00:06,150 --> 00:00:06,160
+physics.
+ 
+
+7
+00:00:06,160 --> 00:00:07,950
+physics.
+We've already covered the Klein-Gordon
+
+8
+00:00:07,950 --> 00:00:07,960
+We've already covered the Klein-Gordon
+ 
+
+9
+00:00:07,960 --> 00:00:11,150
+We've already covered the Klein-Gordon
+equation for classical scalar fields and
+
+10
+00:00:11,150 --> 00:00:11,160
+equation for classical scalar fields and
+ 
+
+11
+00:00:11,160 --> 00:00:13,750
+equation for classical scalar fields and
+the Proca equation for classical vector
+
+12
+00:00:13,750 --> 00:00:13,760
+the Proca equation for classical vector
+ 
+
+13
+00:00:13,760 --> 00:00:15,110
+the Proca equation for classical vector
+fields.
+
+14
+00:00:15,110 --> 00:00:15,120
+fields.
+ 
+
+15
+00:00:15,120 --> 00:00:16,630
+fields.
+Now, we're going to cover the Dirac
+
+16
+00:00:16,630 --> 00:00:16,640
+Now, we're going to cover the Dirac
+ 
+
+17
+00:00:16,640 --> 00:00:19,830
+Now, we're going to cover the Dirac
+equation for classical spinner fields,
+
+18
+00:00:19,830 --> 00:00:19,840
+equation for classical spinner fields,
+ 
+
+19
+00:00:19,840 --> 00:00:22,030
+equation for classical spinner fields,
+including the concepts of spin and
+
+20
+00:00:22,030 --> 00:00:22,040
+including the concepts of spin and
+ 
+
+21
+00:00:22,040 --> 00:00:23,750
+including the concepts of spin and
+chirality.
+
+22
+00:00:23,750 --> 00:00:23,760
+chirality.
+ 
+
+23
+00:00:23,760 --> 00:00:25,870
+chirality.
+Some concepts like helicity and
+
+24
+00:00:25,870 --> 00:00:25,880
+Some concepts like helicity and
+ 
+
+25
+00:00:25,880 --> 00:00:27,950
+Some concepts like helicity and
+antimatter, I'm going to be covering in
+
+26
+00:00:27,950 --> 00:00:27,960
+antimatter, I'm going to be covering in
+ 
+
+27
+00:00:27,960 --> 00:00:30,510
+antimatter, I'm going to be covering in
+the next video.
+
+28
+00:00:30,510 --> 00:00:30,520
+the next video.
+ 
+
+29
+00:00:30,520 --> 00:00:32,510
+the next video.
+The Dirac equation is more difficult
+
+30
+00:00:32,510 --> 00:00:32,520
+The Dirac equation is more difficult
+ 
+
+31
+00:00:32,520 --> 00:00:34,630
+The Dirac equation is more difficult
+than the previous two equations because
+
+32
+00:00:34,630 --> 00:00:34,640
+than the previous two equations because
+ 
+
+33
+00:00:34,640 --> 00:00:37,510
+than the previous two equations because
+it involves spinners and gamma matrices,
+
+34
+00:00:37,510 --> 00:00:37,520
+it involves spinners and gamma matrices,
+ 
+
+35
+00:00:37,520 --> 00:00:39,270
+it involves spinners and gamma matrices,
+which are unfamiliar to most physics
+
+36
+00:00:39,270 --> 00:00:39,280
+which are unfamiliar to most physics
+ 
+
+37
+00:00:39,280 --> 00:00:40,910
+which are unfamiliar to most physics
+students unless they've studied them
+
+38
+00:00:40,910 --> 00:00:40,920
+students unless they've studied them
+ 
+
+39
+00:00:40,920 --> 00:00:42,830
+students unless they've studied them
+specifically.
+
+40
+00:00:42,830 --> 00:00:42,840
+specifically.
+ 
+
+41
+00:00:42,840 --> 00:00:44,390
+specifically.
+I've already covered the different types
+
+42
+00:00:44,390 --> 00:00:44,400
+I've already covered the different types
+ 
+
+43
+00:00:44,400 --> 00:00:46,790
+I've already covered the different types
+of spinners in video nine, and I've
+
+44
+00:00:46,790 --> 00:00:46,800
+of spinners in video nine, and I've
+ 
+
+45
+00:00:46,800 --> 00:00:48,310
+of spinners in video nine, and I've
+covered some of the properties of the
+
+46
+00:00:48,310 --> 00:00:48,320
+covered some of the properties of the
+ 
+
+47
+00:00:48,320 --> 00:00:50,830
+covered some of the properties of the
+gamma matrices and the Dirac equation in
+
+48
+00:00:50,830 --> 00:00:50,840
+gamma matrices and the Dirac equation in
+ 
+
+49
+00:00:50,840 --> 00:00:52,830
+gamma matrices and the Dirac equation in
+video 22.
+
+50
+00:00:52,830 --> 00:00:52,840
+video 22.
+ 
+
+51
+00:00:52,840 --> 00:00:54,510
+video 22.
+So, if you find this video hard to
+
+52
+00:00:54,510 --> 00:00:54,520
+So, if you find this video hard to
+ 
+
+53
+00:00:54,520 --> 00:00:56,550
+So, if you find this video hard to
+understand, you can check the links in
+
+54
+00:00:56,550 --> 00:00:56,560
+understand, you can check the links in
+ 
+
+55
+00:00:56,560 --> 00:00:58,470
+understand, you can check the links in
+the description to watch those videos
+
+56
+00:00:58,470 --> 00:00:58,480
+the description to watch those videos
+ 
+
+57
+00:00:58,480 --> 00:01:01,070
+the description to watch those videos
+first.
+
+58
+00:01:01,070 --> 00:01:01,080
+first.
+ 
+
+59
+00:01:01,080 --> 00:01:03,390
+first.
+To arrive at the Dirac equation, the
+
+60
+00:01:03,390 --> 00:01:03,400
+To arrive at the Dirac equation, the
+ 
+
+61
+00:01:03,400 --> 00:01:05,270
+To arrive at the Dirac equation, the
+basic idea is that we take the
+
+62
+00:01:05,270 --> 00:01:05,280
+basic idea is that we take the
+ 
+
+63
+00:01:05,280 --> 00:01:07,630
+basic idea is that we take the
+Klein-Gordon equation and introduce the
+
+64
+00:01:07,630 --> 00:01:07,640
+Klein-Gordon equation and introduce the
+ 
+
+65
+00:01:07,640 --> 00:01:09,910
+Klein-Gordon equation and introduce the
+complex I so that we get a difference of
+
+66
+00:01:09,910 --> 00:01:09,920
+complex I so that we get a difference of
+ 
+
+67
+00:01:09,920 --> 00:01:11,470
+complex I so that we get a difference of
+squares.
+
+68
+00:01:11,470 --> 00:01:11,480
+squares.
+ 
+
+69
+00:01:11,480 --> 00:01:14,870
+squares.
+Then, we factor it into two pieces.
+
+70
+00:01:14,870 --> 00:01:14,880
+Then, we factor it into two pieces.
+ 
+
+71
+00:01:14,880 --> 00:01:16,710
+Then, we factor it into two pieces.
+We assume that the square root of this
+
+72
+00:01:16,710 --> 00:01:16,720
+We assume that the square root of this
+ 
+
+73
+00:01:16,720 --> 00:01:18,710
+We assume that the square root of this
+derivative operator is a linear
+
+74
+00:01:18,710 --> 00:01:18,720
+derivative operator is a linear
+ 
+
+75
+00:01:18,720 --> 00:01:20,470
+derivative operator is a linear
+combination of the four space-time
+
+76
+00:01:20,470 --> 00:01:20,480
+combination of the four space-time
+ 
+
+77
+00:01:20,480 --> 00:01:22,230
+combination of the four space-time
+derivatives with these gamma
+
+78
+00:01:22,230 --> 00:01:22,240
+derivatives with these gamma
+ 
+
+79
+00:01:22,240 --> 00:01:24,150
+derivatives with these gamma
+coefficients.
+
+80
+00:01:24,150 --> 00:01:24,160
+coefficients.
+ 
+
+81
+00:01:24,160 --> 00:01:26,550
+coefficients.
+If we square this linear combination, we
+
+82
+00:01:26,550 --> 00:01:26,560
+If we square this linear combination, we
+ 
+
+83
+00:01:26,560 --> 00:01:29,550
+If we square this linear combination, we
+get 16 terms, which must equal the four
+
+84
+00:01:29,550 --> 00:01:29,560
+get 16 terms, which must equal the four
+ 
+
+85
+00:01:29,560 --> 00:01:31,350
+get 16 terms, which must equal the four
+derivative terms in the original
+
+86
+00:01:31,350 --> 00:01:31,360
+derivative terms in the original
+ 
+
+87
+00:01:31,360 --> 00:01:33,750
+derivative terms in the original
+Klein-Gordon equation.
+
+88
+00:01:33,750 --> 00:01:33,760
+Klein-Gordon equation.
+ 
+
+89
+00:01:33,760 --> 00:01:36,070
+Klein-Gordon equation.
+Therefore, we conclude that gamma t
+
+90
+00:01:36,070 --> 00:01:36,080
+Therefore, we conclude that gamma t
+ 
+
+91
+00:01:36,080 --> 00:01:39,550
+Therefore, we conclude that gamma t
+squares to +1, gammas x, y, and z square
+
+92
+00:01:39,550 --> 00:01:39,560
+squares to +1, gammas x, y, and z square
+ 
+
+93
+00:01:39,560 --> 00:01:41,310
+squares to +1, gammas x, y, and z square
+to -1,
+
+94
+00:01:41,310 --> 00:01:41,320
+to -1,
+ 
+
+95
+00:01:41,320 --> 00:01:43,430
+to -1,
+and swapping the order of two gammas
+
+96
+00:01:43,430 --> 00:01:43,440
+and swapping the order of two gammas
+ 
+
+97
+00:01:43,440 --> 00:01:46,030
+and swapping the order of two gammas
+introduces a negative sign, so that the
+
+98
+00:01:46,030 --> 00:01:46,040
+introduces a negative sign, so that the
+ 
+
+99
+00:01:46,040 --> 00:01:48,630
+introduces a negative sign, so that the
+terms in this lower triangle cancel with
+
+100
+00:01:48,630 --> 00:01:48,640
+terms in this lower triangle cancel with
+ 
+
+101
+00:01:48,640 --> 00:01:51,950
+terms in this lower triangle cancel with
+the terms in this upper triangle.
+
+102
+00:01:51,950 --> 00:01:51,960
+the terms in this upper triangle.
+ 
+
+103
+00:01:51,960 --> 00:01:54,230
+the terms in this upper triangle.
+Since the gammas do not commute, they
+
+104
+00:01:54,230 --> 00:01:54,240
+Since the gammas do not commute, they
+ 
+
+105
+00:01:54,240 --> 00:01:56,390
+Since the gammas do not commute, they
+must be matrices instead of scalar
+
+106
+00:01:56,390 --> 00:01:56,400
+must be matrices instead of scalar
+ 
+
+107
+00:01:56,400 --> 00:01:58,630
+must be matrices instead of scalar
+numbers.
+
+108
+00:01:58,630 --> 00:01:58,640
+numbers.
+ 
+
+109
+00:01:58,640 --> 00:02:00,830
+numbers.
+If we take 1/2 of this factored
+
+110
+00:02:00,830 --> 00:02:00,840
+If we take 1/2 of this factored
+ 
+
+111
+00:02:00,840 --> 00:02:05,350
+If we take 1/2 of this factored
+equation, we get the Dirac equation.
+
+112
+00:02:05,350 --> 00:02:05,360
+equation, we get the Dirac equation.
+ 
+
+113
+00:02:05,360 --> 00:02:07,710
+equation, we get the Dirac equation.
+The gammas here are written as 4x4
+
+114
+00:02:07,710 --> 00:02:07,720
+The gammas here are written as 4x4
+ 
+
+115
+00:02:07,720 --> 00:02:10,510
+The gammas here are written as 4x4
+matrices, and the field psi is written
+
+116
+00:02:10,510 --> 00:02:10,520
+matrices, and the field psi is written
+ 
+
+117
+00:02:10,520 --> 00:02:13,870
+matrices, and the field psi is written
+as a four-component Dirac spinner.
+
+118
+00:02:13,870 --> 00:02:13,880
+as a four-component Dirac spinner.
+ 
+
+119
+00:02:13,880 --> 00:02:16,190
+as a four-component Dirac spinner.
+Technically, we could include spinner
+
+120
+00:02:16,190 --> 00:02:16,200
+Technically, we could include spinner
+ 
+
+121
+00:02:16,200 --> 00:02:18,750
+Technically, we could include spinner
+summation indices on these objects, but
+
+122
+00:02:18,750 --> 00:02:18,760
+summation indices on these objects, but
+ 
+
+123
+00:02:18,760 --> 00:02:20,750
+summation indices on these objects, but
+we often leave the spinner indices out
+
+124
+00:02:20,750 --> 00:02:20,760
+we often leave the spinner indices out
+ 
+
+125
+00:02:20,760 --> 00:02:23,230
+we often leave the spinner indices out
+for convenience, with the understanding
+
+126
+00:02:23,230 --> 00:02:23,240
+for convenience, with the understanding
+ 
+
+127
+00:02:23,240 --> 00:02:25,430
+for convenience, with the understanding
+that standard array multiplication rules
+
+128
+00:02:25,430 --> 00:02:25,440
+that standard array multiplication rules
+ 
+
+129
+00:02:25,440 --> 00:02:28,150
+that standard array multiplication rules
+will be used.
+
+130
+00:02:28,150 --> 00:02:28,160
+will be used.
+ 
+
+131
+00:02:28,160 --> 00:02:30,110
+will be used.
+Now, I'm going to talk about the Dirac
+
+132
+00:02:30,110 --> 00:02:30,120
+Now, I'm going to talk about the Dirac
+ 
+
+133
+00:02:30,120 --> 00:02:32,630
+Now, I'm going to talk about the Dirac
+Lagrangian density and Dirac equation
+
+134
+00:02:32,630 --> 00:02:32,640
+Lagrangian density and Dirac equation
+ 
+
+135
+00:02:32,640 --> 00:02:35,270
+Lagrangian density and Dirac equation
+solutions in a moment, but first I want
+
+136
+00:02:35,270 --> 00:02:35,280
+solutions in a moment, but first I want
+ 
+
+137
+00:02:35,280 --> 00:02:37,310
+solutions in a moment, but first I want
+to talk about some conventions used in
+
+138
+00:02:37,310 --> 00:02:37,320
+to talk about some conventions used in
+ 
+
+139
+00:02:37,320 --> 00:02:39,350
+to talk about some conventions used in
+this video.
+
+140
+00:02:39,350 --> 00:02:39,360
+this video.
+ 
+
+141
+00:02:39,360 --> 00:02:41,430
+this video.
+First, let's remind ourselves that there
+
+142
+00:02:41,430 --> 00:02:41,440
+First, let's remind ourselves that there
+ 
+
+143
+00:02:41,440 --> 00:02:43,470
+First, let's remind ourselves that there
+are many possible choices for what the
+
+144
+00:02:43,470 --> 00:02:43,480
+are many possible choices for what the
+ 
+
+145
+00:02:43,480 --> 00:02:45,830
+are many possible choices for what the
+gamma matrices could be.
+
+146
+00:02:45,830 --> 00:02:45,840
+gamma matrices could be.
+ 
+
+147
+00:02:45,840 --> 00:02:47,470
+gamma matrices could be.
+The only requirement is that they
+
+148
+00:02:47,470 --> 00:02:47,480
+The only requirement is that they
+ 
+
+149
+00:02:47,480 --> 00:02:51,030
+The only requirement is that they
+satisfy these properties here.
+
+150
+00:02:51,030 --> 00:02:51,040
+satisfy these properties here.
+ 
+
+151
+00:02:51,040 --> 00:02:53,510
+satisfy these properties here.
+It's often convenient to write the 4x4
+
+152
+00:02:53,510 --> 00:02:53,520
+It's often convenient to write the 4x4
+ 
+
+153
+00:02:53,520 --> 00:02:56,590
+It's often convenient to write the 4x4
+gamma matrices using the smaller 2x2
+
+154
+00:02:56,590 --> 00:02:56,600
+gamma matrices using the smaller 2x2
+ 
+
+155
+00:02:56,600 --> 00:02:59,750
+gamma matrices using the smaller 2x2
+sigma matrices seen here.
+
+156
+00:02:59,750 --> 00:02:59,760
+sigma matrices seen here.
+ 
+
+157
+00:02:59,760 --> 00:03:02,750
+sigma matrices seen here.
+All the sigma matrices square to the 2x2
+
+158
+00:03:02,750 --> 00:03:02,760
+All the sigma matrices square to the 2x2
+ 
+
+159
+00:03:02,760 --> 00:03:05,190
+All the sigma matrices square to the 2x2
+identity matrix, and they also all
+
+160
+00:03:05,190 --> 00:03:05,200
+identity matrix, and they also all
+ 
+
+161
+00:03:05,200 --> 00:03:08,750
+identity matrix, and they also all
+anti-commute with each other.
+
+162
+00:03:08,750 --> 00:03:08,760
+anti-commute with each other.
+ 
+
+163
+00:03:08,760 --> 00:03:11,630
+anti-commute with each other.
+In video 22, I showed this matrix
+
+164
+00:03:11,630 --> 00:03:11,640
+In video 22, I showed this matrix
+ 
+
+165
+00:03:11,640 --> 00:03:14,070
+In video 22, I showed this matrix
+solution for the gammas, which is called
+
+166
+00:03:14,070 --> 00:03:14,080
+solution for the gammas, which is called
+ 
+
+167
+00:03:14,080 --> 00:03:18,030
+solution for the gammas, which is called
+the chiral basis or Weyl basis.
+
+168
+00:03:18,030 --> 00:03:18,040
+the chiral basis or Weyl basis.
+ 
+
+169
+00:03:18,040 --> 00:03:20,070
+the chiral basis or Weyl basis.
+In the chiral basis, the top two
+
+170
+00:03:20,070 --> 00:03:20,080
+In the chiral basis, the top two
+ 
+
+171
+00:03:20,080 --> 00:03:22,350
+In the chiral basis, the top two
+components of a Dirac spinner represent
+
+172
+00:03:22,350 --> 00:03:22,360
+components of a Dirac spinner represent
+ 
+
+173
+00:03:22,360 --> 00:03:24,910
+components of a Dirac spinner represent
+the spin-up and spin-down components of
+
+174
+00:03:24,910 --> 00:03:24,920
+the spin-up and spin-down components of
+ 
+
+175
+00:03:24,920 --> 00:03:27,510
+the spin-up and spin-down components of
+a left chiral Weyl spinner, and the
+
+176
+00:03:27,510 --> 00:03:27,520
+a left chiral Weyl spinner, and the
+ 
+
+177
+00:03:27,520 --> 00:03:29,310
+a left chiral Weyl spinner, and the
+bottom two components represent the
+
+178
+00:03:29,310 --> 00:03:29,320
+bottom two components represent the
+ 
+
+179
+00:03:29,320 --> 00:03:31,430
+bottom two components represent the
+spin-up and spin-down components of a
+
+180
+00:03:31,430 --> 00:03:31,440
+spin-up and spin-down components of a
+ 
+
+181
+00:03:31,440 --> 00:03:34,790
+spin-up and spin-down components of a
+right chiral Weyl spinner.
+
+182
+00:03:34,790 --> 00:03:34,800
+right chiral Weyl spinner.
+ 
+
+183
+00:03:34,800 --> 00:03:37,230
+right chiral Weyl spinner.
+Under Lorentz transformations, these
+
+184
+00:03:37,230 --> 00:03:37,240
+Under Lorentz transformations, these
+ 
+
+185
+00:03:37,240 --> 00:03:39,510
+Under Lorentz transformations, these
+left and right spinners rotate in the
+
+186
+00:03:39,510 --> 00:03:39,520
+left and right spinners rotate in the
+ 
+
+187
+00:03:39,520 --> 00:03:42,550
+left and right spinners rotate in the
+same direction, but boost in opposite
+
+188
+00:03:42,550 --> 00:03:42,560
+same direction, but boost in opposite
+ 
+
+189
+00:03:42,560 --> 00:03:44,230
+same direction, but boost in opposite
+directions.
+
+190
+00:03:44,230 --> 00:03:44,240
+directions.
+ 
+
+191
+00:03:44,240 --> 00:03:46,870
+directions.
+This mirror opposite behavior is why we
+
+192
+00:03:46,870 --> 00:03:46,880
+This mirror opposite behavior is why we
+ 
+
+193
+00:03:46,880 --> 00:03:48,790
+This mirror opposite behavior is why we
+call them left and right chiral
+
+194
+00:03:48,790 --> 00:03:48,800
+call them left and right chiral
+ 
+
+195
+00:03:48,800 --> 00:03:50,870
+call them left and right chiral
+spinners.
+
+196
+00:03:50,870 --> 00:03:50,880
+spinners.
+ 
+
+197
+00:03:50,880 --> 00:03:53,470
+spinners.
+I also showed this other matrix solution
+
+198
+00:03:53,470 --> 00:03:53,480
+I also showed this other matrix solution
+ 
+
+199
+00:03:53,480 --> 00:03:57,670
+I also showed this other matrix solution
+called the mass basis or Dirac basis.
+
+200
+00:03:57,670 --> 00:03:57,680
+called the mass basis or Dirac basis.
+ 
+
+201
+00:03:57,680 --> 00:04:00,190
+called the mass basis or Dirac basis.
+Here, the x, y, z gamma matrices are the
+
+202
+00:04:00,190 --> 00:04:00,200
+Here, the x, y, z gamma matrices are the
+ 
+
+203
+00:04:00,200 --> 00:04:04,630
+Here, the x, y, z gamma matrices are the
+same, but gamma t is modified.
+
+204
+00:04:04,630 --> 00:04:04,640
+same, but gamma t is modified.
+ 
+
+205
+00:04:04,640 --> 00:04:06,630
+same, but gamma t is modified.
+We'll see later that we can move from
+
+206
+00:04:06,630 --> 00:04:06,640
+We'll see later that we can move from
+ 
+
+207
+00:04:06,640 --> 00:04:09,470
+We'll see later that we can move from
+the chiral basis to the mass basis by
+
+208
+00:04:09,470 --> 00:04:09,480
+the chiral basis to the mass basis by
+ 
+
+209
+00:04:09,480 --> 00:04:11,630
+the chiral basis to the mass basis by
+changing the spinner basis using this
+
+210
+00:04:11,630 --> 00:04:11,640
+changing the spinner basis using this
+ 
+
+211
+00:04:11,640 --> 00:04:13,750
+changing the spinner basis using this
+matrix U.
+
+212
+00:04:13,750 --> 00:04:13,760
+matrix U.
+ 
+
+213
+00:04:13,760 --> 00:04:15,910
+matrix U.
+When a Dirac spinner changes basis with
+
+214
+00:04:15,910 --> 00:04:15,920
+When a Dirac spinner changes basis with
+ 
+
+215
+00:04:15,920 --> 00:04:19,390
+When a Dirac spinner changes basis with
+a matrix U like this, vectors like the
+
+216
+00:04:19,390 --> 00:04:19,400
+a matrix U like this, vectors like the
+ 
+
+217
+00:04:19,400 --> 00:04:22,190
+a matrix U like this, vectors like the
+gamma matrices will change basis with U
+
+218
+00:04:22,190 --> 00:04:22,200
+gamma matrices will change basis with U
+ 
+
+219
+00:04:22,200 --> 00:04:24,950
+gamma matrices will change basis with U
+on the left and U inverse on the right
+
+220
+00:04:24,950 --> 00:04:24,960
+on the left and U inverse on the right
+ 
+
+221
+00:04:24,960 --> 00:04:26,790
+on the left and U inverse on the right
+like this.
+
+222
+00:04:26,790 --> 00:04:26,800
+like this.
+ 
+
+223
+00:04:26,800 --> 00:04:28,830
+like this.
+And this change of basis gives us the
+
+224
+00:04:28,830 --> 00:04:28,840
+And this change of basis gives us the
+ 
+
+225
+00:04:28,840 --> 00:04:31,470
+And this change of basis gives us the
+mass basis.
+
+226
+00:04:31,470 --> 00:04:31,480
+mass basis.
+ 
+
+227
+00:04:31,480 --> 00:04:33,990
+mass basis.
+So, anytime I solve the Dirac equation
+
+228
+00:04:33,990 --> 00:04:34,000
+So, anytime I solve the Dirac equation
+ 
+
+229
+00:04:34,000 --> 00:04:35,950
+So, anytime I solve the Dirac equation
+in this video, I'll be showing the
+
+230
+00:04:35,950 --> 00:04:35,960
+in this video, I'll be showing the
+ 
+
+231
+00:04:35,960 --> 00:04:39,110
+in this video, I'll be showing the
+solutions in the chiral basis, but I'll
+
+232
+00:04:39,110 --> 00:04:39,120
+solutions in the chiral basis, but I'll
+ 
+
+233
+00:04:39,120 --> 00:04:41,190
+solutions in the chiral basis, but I'll
+also show what the same solutions look
+
+234
+00:04:41,190 --> 00:04:41,200
+also show what the same solutions look
+ 
+
+235
+00:04:41,200 --> 00:04:44,750
+also show what the same solutions look
+like in the mass basis.
+
+236
+00:04:44,750 --> 00:04:44,760
+like in the mass basis.
+ 
+
+237
+00:04:44,760 --> 00:04:48,030
+like in the mass basis.
+And as I said in video 22, I do think
+
+238
+00:04:48,030 --> 00:04:48,040
+And as I said in video 22, I do think
+ 
+
+239
+00:04:48,040 --> 00:04:50,310
+And as I said in video 22, I do think
+it's best to interpret the gammas as
+
+240
+00:04:50,310 --> 00:04:50,320
+it's best to interpret the gammas as
+ 
+
+241
+00:04:50,320 --> 00:04:53,110
+it's best to interpret the gammas as
+space-time basis vectors, since they
+
+242
+00:04:53,110 --> 00:04:53,120
+space-time basis vectors, since they
+ 
+
+243
+00:04:53,120 --> 00:04:55,790
+space-time basis vectors, since they
+each have a space-time index.
+
+244
+00:04:55,790 --> 00:04:55,800
+each have a space-time index.
+ 
+
+245
+00:04:55,800 --> 00:04:57,750
+each have a space-time index.
+They're just a different representation
+
+246
+00:04:57,750 --> 00:04:57,760
+They're just a different representation
+ 
+
+247
+00:04:57,760 --> 00:05:00,030
+They're just a different representation
+of basis vectors compared to what we're
+
+248
+00:05:00,030 --> 00:05:00,040
+of basis vectors compared to what we're
+ 
+
+249
+00:05:00,040 --> 00:05:02,550
+of basis vectors compared to what we're
+used to, and they come with useful
+
+250
+00:05:02,550 --> 00:05:02,560
+used to, and they come with useful
+ 
+
+251
+00:05:02,560 --> 00:05:06,910
+used to, and they come with useful
+algebraic relations.
+
+252
+00:05:06,910 --> 00:05:06,920
+
+ 
+
+253
+00:05:06,920 --> 00:05:08,750
+
+Now, I'm going to point out some sign
+
+254
+00:05:08,750 --> 00:05:08,760
+Now, I'm going to point out some sign
+ 
+
+255
+00:05:08,760 --> 00:05:10,870
+Now, I'm going to point out some sign
+conventions on the gammas with raised
+
+256
+00:05:10,870 --> 00:05:10,880
+conventions on the gammas with raised
+ 
+
+257
+00:05:10,880 --> 00:05:13,030
+conventions on the gammas with raised
+and lowered indices.
+
+258
+00:05:13,030 --> 00:05:13,040
+and lowered indices.
+ 
+
+259
+00:05:13,040 --> 00:05:15,350
+and lowered indices.
+Typically, raising or lowering an index
+
+260
+00:05:15,350 --> 00:05:15,360
+Typically, raising or lowering an index
+ 
+
+261
+00:05:15,360 --> 00:05:17,390
+Typically, raising or lowering an index
+on one of the gammas involves using the
+
+262
+00:05:17,390 --> 00:05:17,400
+on one of the gammas involves using the
+ 
+
+263
+00:05:17,400 --> 00:05:19,710
+on one of the gammas involves using the
+Minkowski metric eta.
+
+264
+00:05:19,710 --> 00:05:19,720
+Minkowski metric eta.
+ 
+
+265
+00:05:19,720 --> 00:05:22,350
+Minkowski metric eta.
+This basically leaves gamma t alone and
+
+266
+00:05:22,350 --> 00:05:22,360
+This basically leaves gamma t alone and
+ 
+
+267
+00:05:22,360 --> 00:05:26,150
+This basically leaves gamma t alone and
+flips the signs of gammas x, y, and z.
+
+268
+00:05:26,150 --> 00:05:26,160
+flips the signs of gammas x, y, and z.
+ 
+
+269
+00:05:26,160 --> 00:05:28,550
+flips the signs of gammas x, y, and z.
+To be consistent with textbooks, I'm
+
+270
+00:05:28,550 --> 00:05:28,560
+To be consistent with textbooks, I'm
+ 
+
+271
+00:05:28,560 --> 00:05:30,630
+To be consistent with textbooks, I'm
+writing the gammas with upper indices in
+
+272
+00:05:30,630 --> 00:05:30,640
+writing the gammas with upper indices in
+ 
+
+273
+00:05:30,640 --> 00:05:32,990
+writing the gammas with upper indices in
+this video with the following matrix
+
+274
+00:05:32,990 --> 00:05:33,000
+this video with the following matrix
+ 
+
+275
+00:05:33,000 --> 00:05:36,550
+this video with the following matrix
+convention for the chiral basis.
+
+276
+00:05:36,550 --> 00:05:36,560
+convention for the chiral basis.
+ 
+
+277
+00:05:36,560 --> 00:05:38,550
+convention for the chiral basis.
+This is inconsistent with my previous
+
+278
+00:05:38,550 --> 00:05:38,560
+This is inconsistent with my previous
+ 
+
+279
+00:05:38,560 --> 00:05:40,870
+This is inconsistent with my previous
+videos in this series, where I wrote the
+
+280
+00:05:40,870 --> 00:05:40,880
+videos in this series, where I wrote the
+ 
+
+281
+00:05:40,880 --> 00:05:43,430
+videos in this series, where I wrote the
+exact same matrices, but for gamma with
+
+282
+00:05:43,430 --> 00:05:43,440
+exact same matrices, but for gamma with
+ 
+
+283
+00:05:43,440 --> 00:05:45,590
+exact same matrices, but for gamma with
+lower indices.
+
+284
+00:05:45,590 --> 00:05:45,600
+lower indices.
+ 
+
+285
+00:05:45,600 --> 00:05:47,470
+lower indices.
+I hope that this new convention isn't
+
+286
+00:05:47,470 --> 00:05:47,480
+I hope that this new convention isn't
+ 
+
+287
+00:05:47,480 --> 00:05:49,750
+I hope that this new convention isn't
+too confusing, but I'm using it to stay
+
+288
+00:05:49,750 --> 00:05:49,760
+too confusing, but I'm using it to stay
+ 
+
+289
+00:05:49,760 --> 00:05:53,110
+too confusing, but I'm using it to stay
+consistent with most textbooks.
+
+290
+00:05:53,110 --> 00:05:53,120
+consistent with most textbooks.
+ 
+
+291
+00:05:53,120 --> 00:05:55,470
+consistent with most textbooks.
+Also, in previous videos, when writing
+
+292
+00:05:55,470 --> 00:05:55,480
+Also, in previous videos, when writing
+ 
+
+293
+00:05:55,480 --> 00:05:58,110
+Also, in previous videos, when writing
+out complex waves, I haven't been very
+
+294
+00:05:58,110 --> 00:05:58,120
+out complex waves, I haven't been very
+ 
+
+295
+00:05:58,120 --> 00:06:00,030
+out complex waves, I haven't been very
+particular about whether I used a plus
+
+296
+00:06:00,030 --> 00:06:00,040
+particular about whether I used a plus
+ 
+
+297
+00:06:00,040 --> 00:06:02,510
+particular about whether I used a plus
+sign or a minus sign, since it didn't
+
+298
+00:06:02,510 --> 00:06:02,520
+sign or a minus sign, since it didn't
+ 
+
+299
+00:06:02,520 --> 00:06:05,350
+sign or a minus sign, since it didn't
+matter too much in most cases.
+
+300
+00:06:05,350 --> 00:06:05,360
+matter too much in most cases.
+ 
+
+301
+00:06:05,360 --> 00:06:07,230
+matter too much in most cases.
+But in this video, the sign convention
+
+302
+00:06:07,230 --> 00:06:07,240
+But in this video, the sign convention
+ 
+
+303
+00:06:07,240 --> 00:06:09,430
+But in this video, the sign convention
+is more important, so I will be using a
+
+304
+00:06:09,430 --> 00:06:09,440
+is more important, so I will be using a
+ 
+
+305
+00:06:09,440 --> 00:06:11,630
+is more important, so I will be using a
+negative sign in the complex waves by
+
+306
+00:06:11,630 --> 00:06:11,640
+negative sign in the complex waves by
+ 
+
+307
+00:06:11,640 --> 00:06:12,950
+negative sign in the complex waves by
+default.
+
+308
+00:06:12,950 --> 00:06:12,960
+default.
+ 
+
+309
+00:06:12,960 --> 00:06:15,270
+default.
+Again, this is what most textbooks use,
+
+310
+00:06:15,270 --> 00:06:15,280
+Again, this is what most textbooks use,
+ 
+
+311
+00:06:15,280 --> 00:06:19,150
+Again, this is what most textbooks use,
+so I hope it helps avoid confusion.
+
+312
+00:06:19,150 --> 00:06:19,160
+so I hope it helps avoid confusion.
+ 
+
+313
+00:06:19,160 --> 00:06:21,270
+so I hope it helps avoid confusion.
+Okay, so let's finally start solving the
+
+314
+00:06:21,270 --> 00:06:21,280
+Okay, so let's finally start solving the
+ 
+
+315
+00:06:21,280 --> 00:06:24,830
+Okay, so let's finally start solving the
+Dirac Lagrangian and equation.
+
+316
+00:06:24,830 --> 00:06:24,840
+Dirac Lagrangian and equation.
+ 
+
+317
+00:06:24,840 --> 00:06:27,390
+Dirac Lagrangian and equation.
+So, the Lagrangian density that produces
+
+318
+00:06:27,390 --> 00:06:27,400
+So, the Lagrangian density that produces
+ 
+
+319
+00:06:27,400 --> 00:06:30,670
+So, the Lagrangian density that produces
+the Dirac equation looks like this.
+
+320
+00:06:30,670 --> 00:06:30,680
+the Dirac equation looks like this.
+ 
+
+321
+00:06:30,680 --> 00:06:32,390
+the Dirac equation looks like this.
+There's a kinetic term involving
+
+322
+00:06:32,390 --> 00:06:32,400
+There's a kinetic term involving
+ 
+
+323
+00:06:32,400 --> 00:06:36,550
+There's a kinetic term involving
+space-time derivatives and a mass term.
+
+324
+00:06:36,550 --> 00:06:36,560
+space-time derivatives and a mass term.
+ 
+
+325
+00:06:36,560 --> 00:06:39,750
+space-time derivatives and a mass term.
+These terms involve both the field psi
+
+326
+00:06:39,750 --> 00:06:39,760
+These terms involve both the field psi
+ 
+
+327
+00:06:39,760 --> 00:06:43,190
+These terms involve both the field psi
+and its Dirac adjoint psi bar.
+
+328
+00:06:43,190 --> 00:06:43,200
+and its Dirac adjoint psi bar.
+ 
+
+329
+00:06:43,200 --> 00:06:46,310
+and its Dirac adjoint psi bar.
+The Dirac adjoint psi bar is defined as
+
+330
+00:06:46,310 --> 00:06:46,320
+The Dirac adjoint psi bar is defined as
+ 
+
+331
+00:06:46,320 --> 00:06:48,670
+The Dirac adjoint psi bar is defined as
+the Hermitian conjugate of psi times
+
+332
+00:06:48,670 --> 00:06:48,680
+the Hermitian conjugate of psi times
+ 
+
+333
+00:06:48,680 --> 00:06:50,230
+the Hermitian conjugate of psi times
+gamma t.
+
+334
+00:06:50,230 --> 00:06:50,240
+gamma t.
+ 
+
+335
+00:06:50,240 --> 00:06:53,070
+gamma t.
+I showed in video 22 that this inner
+
+336
+00:06:53,070 --> 00:06:53,080
+I showed in video 22 that this inner
+ 
+
+337
+00:06:53,080 --> 00:06:55,910
+I showed in video 22 that this inner
+product of psi bar does not change under
+
+338
+00:06:55,910 --> 00:06:55,920
+product of psi bar does not change under
+ 
+
+339
+00:06:55,920 --> 00:06:58,270
+product of psi bar does not change under
+a Lorentz transformation.
+
+340
+00:06:58,270 --> 00:06:58,280
+a Lorentz transformation.
+ 
+
+341
+00:06:58,280 --> 00:07:00,390
+a Lorentz transformation.
+So, we need to use this inner product in
+
+342
+00:07:00,390 --> 00:07:00,400
+So, we need to use this inner product in
+ 
+
+343
+00:07:00,400 --> 00:07:02,910
+So, we need to use this inner product in
+the Lagrangian density because we want
+
+344
+00:07:02,910 --> 00:07:02,920
+the Lagrangian density because we want
+ 
+
+345
+00:07:02,920 --> 00:07:05,190
+the Lagrangian density because we want
+the Dirac field to have laws of physics
+
+346
+00:07:05,190 --> 00:07:05,200
+the Dirac field to have laws of physics
+ 
+
+347
+00:07:05,200 --> 00:07:06,990
+the Dirac field to have laws of physics
+that look the same after a Lorentz
+
+348
+00:07:06,990 --> 00:07:07,000
+that look the same after a Lorentz
+ 
+
+349
+00:07:07,000 --> 00:07:09,590
+that look the same after a Lorentz
+transformation.
+
+350
+00:07:09,590 --> 00:07:09,600
+transformation.
+ 
+
+351
+00:07:09,600 --> 00:07:11,870
+transformation.
+An important thing to note here is that
+
+352
+00:07:11,870 --> 00:07:11,880
+An important thing to note here is that
+ 
+
+353
+00:07:11,880 --> 00:07:14,990
+An important thing to note here is that
+the Dirac equation is complex in the
+
+354
+00:07:14,990 --> 00:07:15,000
+the Dirac equation is complex in the
+ 
+
+355
+00:07:15,000 --> 00:07:16,990
+the Dirac equation is complex in the
+sense that the components of the spinner
+
+356
+00:07:16,990 --> 00:07:17,000
+sense that the components of the spinner
+ 
+
+357
+00:07:17,000 --> 00:07:21,550
+sense that the components of the spinner
+psi are complex numbers.
+
+358
+00:07:21,550 --> 00:07:21,560
+
+ 
+
+359
+00:07:21,560 --> 00:07:23,950
+
+So, we can start putting this Lagrangian
+
+360
+00:07:23,950 --> 00:07:23,960
+So, we can start putting this Lagrangian
+ 
+
+361
+00:07:23,960 --> 00:07:27,110
+So, we can start putting this Lagrangian
+through the Euler-Lagrange equations.
+
+362
+00:07:27,110 --> 00:07:27,120
+through the Euler-Lagrange equations.
+ 
+
+363
+00:07:27,120 --> 00:07:30,350
+through the Euler-Lagrange equations.
+And recall the psi and psi bar fields
+
+364
+00:07:30,350 --> 00:07:30,360
+And recall the psi and psi bar fields
+ 
+
+365
+00:07:30,360 --> 00:07:32,430
+And recall the psi and psi bar fields
+and their derivatives are treated as
+
+366
+00:07:32,430 --> 00:07:32,440
+and their derivatives are treated as
+ 
+
+367
+00:07:32,440 --> 00:07:35,150
+and their derivatives are treated as
+independent variables.
+
+368
+00:07:35,150 --> 00:07:35,160
+independent variables.
+ 
+
+369
+00:07:35,160 --> 00:07:37,470
+independent variables.
+Technically speaking, we would be taking
+
+370
+00:07:37,470 --> 00:07:37,480
+Technically speaking, we would be taking
+ 
+
+371
+00:07:37,480 --> 00:07:39,230
+Technically speaking, we would be taking
+derivatives with respect to the
+
+372
+00:07:39,230 --> 00:07:39,240
+derivatives with respect to the
+ 
+
+373
+00:07:39,240 --> 00:07:41,790
+derivatives with respect to the
+components of psi, but we're going to
+
+374
+00:07:41,790 --> 00:07:41,800
+components of psi, but we're going to
+ 
+
+375
+00:07:41,800 --> 00:07:44,230
+components of psi, but we're going to
+leave the spinner indices out as a kind
+
+376
+00:07:44,230 --> 00:07:44,240
+leave the spinner indices out as a kind
+ 
+
+377
+00:07:44,240 --> 00:07:47,070
+leave the spinner indices out as a kind
+of notation shortcut. We'll get the same
+
+378
+00:07:47,070 --> 00:07:47,080
+of notation shortcut. We'll get the same
+ 
+
+379
+00:07:47,080 --> 00:07:49,670
+of notation shortcut. We'll get the same
+results either way.
+
+380
+00:07:49,670 --> 00:07:49,680
+results either way.
+ 
+
+381
+00:07:49,680 --> 00:07:52,110
+results either way.
+If we use the Euler-Lagrange equations
+
+382
+00:07:52,110 --> 00:07:52,120
+If we use the Euler-Lagrange equations
+ 
+
+383
+00:07:52,120 --> 00:07:54,990
+If we use the Euler-Lagrange equations
+varying with respect to psi bar, on the
+
+384
+00:07:54,990 --> 00:07:55,000
+varying with respect to psi bar, on the
+ 
+
+385
+00:07:55,000 --> 00:07:57,270
+varying with respect to psi bar, on the
+left side, we can take this psi bar
+
+386
+00:07:57,270 --> 00:07:57,280
+left side, we can take this psi bar
+ 
+
+387
+00:07:57,280 --> 00:07:59,230
+left side, we can take this psi bar
+derivative and distribute it to both
+
+388
+00:07:59,230 --> 00:07:59,240
+derivative and distribute it to both
+ 
+
+389
+00:07:59,240 --> 00:08:00,510
+derivative and distribute it to both
+terms.
+
+390
+00:08:00,510 --> 00:08:00,520
+terms.
+ 
+
+391
+00:08:00,520 --> 00:08:02,750
+terms.
+We simply get the derivative of psi bar
+
+392
+00:08:02,750 --> 00:08:02,760
+We simply get the derivative of psi bar
+ 
+
+393
+00:08:02,760 --> 00:08:06,750
+We simply get the derivative of psi bar
+with respect to psi bar, which is one.
+
+394
+00:08:06,750 --> 00:08:06,760
+with respect to psi bar, which is one.
+ 
+
+395
+00:08:06,760 --> 00:08:09,830
+with respect to psi bar, which is one.
+And we're left with this.
+
+396
+00:08:09,830 --> 00:08:09,840
+And we're left with this.
+ 
+
+397
+00:08:09,840 --> 00:08:11,910
+And we're left with this.
+For the right side of the equation, the
+
+398
+00:08:11,910 --> 00:08:11,920
+For the right side of the equation, the
+ 
+
+399
+00:08:11,920 --> 00:08:15,470
+For the right side of the equation, the
+Lagrangian has no partial psi bar terms,
+
+400
+00:08:15,470 --> 00:08:15,480
+Lagrangian has no partial psi bar terms,
+ 
+
+401
+00:08:15,480 --> 00:08:18,830
+Lagrangian has no partial psi bar terms,
+so we immediately get zero.
+
+402
+00:08:18,830 --> 00:08:18,840
+so we immediately get zero.
+ 
+
+403
+00:08:18,840 --> 00:08:20,630
+so we immediately get zero.
+So, plugging these results into the
+
+404
+00:08:20,630 --> 00:08:20,640
+So, plugging these results into the
+ 
+
+405
+00:08:20,640 --> 00:08:23,190
+So, plugging these results into the
+Euler-Lagrange equation and factoring
+
+406
+00:08:23,190 --> 00:08:23,200
+Euler-Lagrange equation and factoring
+ 
+
+407
+00:08:23,200 --> 00:08:26,390
+Euler-Lagrange equation and factoring
+out psi, we get the Dirac equation for
+
+408
+00:08:26,390 --> 00:08:26,400
+out psi, we get the Dirac equation for
+ 
+
+409
+00:08:26,400 --> 00:08:28,870
+out psi, we get the Dirac equation for
+psi.
+
+410
+00:08:28,870 --> 00:08:28,880
+psi.
+ 
+
+411
+00:08:28,880 --> 00:08:30,590
+psi.
+Now, let's go through this process
+
+412
+00:08:30,590 --> 00:08:30,600
+Now, let's go through this process
+ 
+
+413
+00:08:30,600 --> 00:08:34,790
+Now, let's go through this process
+again, but varying with respect to psi.
+
+414
+00:08:34,790 --> 00:08:34,800
+again, but varying with respect to psi.
+ 
+
+415
+00:08:34,800 --> 00:08:37,190
+again, but varying with respect to psi.
+For the left-hand side, the first term
+
+416
+00:08:37,190 --> 00:08:37,200
+For the left-hand side, the first term
+ 
+
+417
+00:08:37,200 --> 00:08:40,029
+For the left-hand side, the first term
+contains no psis, and so it goes to
+
+418
+00:08:40,029 --> 00:08:40,039
+contains no psis, and so it goes to
+ 
+
+419
+00:08:40,039 --> 00:08:41,790
+contains no psis, and so it goes to
+zero.
+
+420
+00:08:41,790 --> 00:08:41,800
+zero.
+ 
+
+421
+00:08:41,800 --> 00:08:44,149
+zero.
+The second term gives us partial psi by
+
+422
+00:08:44,149 --> 00:08:44,159
+The second term gives us partial psi by
+ 
+
+423
+00:08:44,159 --> 00:08:47,470
+The second term gives us partial psi by
+partial psi, which goes to one. So,
+
+424
+00:08:47,470 --> 00:08:47,480
+partial psi, which goes to one. So,
+ 
+
+425
+00:08:47,480 --> 00:08:50,830
+partial psi, which goes to one. So,
+we're left with this.
+
+426
+00:08:50,830 --> 00:08:50,840
+we're left with this.
+ 
+
+427
+00:08:50,840 --> 00:08:53,430
+we're left with this.
+For the right-hand side, the second term
+
+428
+00:08:53,430 --> 00:08:53,440
+For the right-hand side, the second term
+ 
+
+429
+00:08:53,440 --> 00:08:57,350
+For the right-hand side, the second term
+has no partial psis, so it goes to zero.
+
+430
+00:08:57,350 --> 00:08:57,360
+has no partial psis, so it goes to zero.
+ 
+
+431
+00:08:57,360 --> 00:08:59,630
+has no partial psis, so it goes to zero.
+And for the first term, we get a
+
+432
+00:08:59,630 --> 00:08:59,640
+And for the first term, we get a
+ 
+
+433
+00:08:59,640 --> 00:09:02,150
+And for the first term, we get a
+derivative of partial alpha psi by
+
+434
+00:09:02,150 --> 00:09:02,160
+derivative of partial alpha psi by
+ 
+
+435
+00:09:02,160 --> 00:09:04,590
+derivative of partial alpha psi by
+partial mu psi.
+
+436
+00:09:04,590 --> 00:09:04,600
+partial mu psi.
+ 
+
+437
+00:09:04,600 --> 00:09:06,630
+partial mu psi.
+Again, since all the partial psi
+
+438
+00:09:06,630 --> 00:09:06,640
+Again, since all the partial psi
+ 
+
+439
+00:09:06,640 --> 00:09:09,590
+Again, since all the partial psi
+components are independent, this always
+
+440
+00:09:09,590 --> 00:09:09,600
+components are independent, this always
+ 
+
+441
+00:09:09,600 --> 00:09:13,070
+components are independent, this always
+goes to zero unless alpha and mu match,
+
+442
+00:09:13,070 --> 00:09:13,080
+goes to zero unless alpha and mu match,
+ 
+
+443
+00:09:13,080 --> 00:09:15,750
+goes to zero unless alpha and mu match,
+in which case it goes to one. So, this
+
+444
+00:09:15,750 --> 00:09:15,760
+in which case it goes to one. So, this
+ 
+
+445
+00:09:15,760 --> 00:09:18,390
+in which case it goes to one. So, this
+gives us a Kronecker delta.
+
+446
+00:09:18,390 --> 00:09:18,400
+gives us a Kronecker delta.
+ 
+
+447
+00:09:18,400 --> 00:09:20,710
+gives us a Kronecker delta.
+And this means the only non-zero term in
+
+448
+00:09:20,710 --> 00:09:20,720
+And this means the only non-zero term in
+ 
+
+449
+00:09:20,720 --> 00:09:24,030
+And this means the only non-zero term in
+the sum is when mu equals alpha, so we
+
+450
+00:09:24,030 --> 00:09:24,040
+the sum is when mu equals alpha, so we
+ 
+
+451
+00:09:24,040 --> 00:09:26,430
+the sum is when mu equals alpha, so we
+get this.
+
+452
+00:09:26,430 --> 00:09:26,440
+get this.
+ 
+
+453
+00:09:26,440 --> 00:09:28,150
+get this.
+Pluging these into the Euler-Lagrange
+
+454
+00:09:28,150 --> 00:09:28,160
+Pluging these into the Euler-Lagrange
+ 
+
+455
+00:09:28,160 --> 00:09:31,390
+Pluging these into the Euler-Lagrange
+equation and rearranging, we get what's
+
+456
+00:09:31,390 --> 00:09:31,400
+equation and rearranging, we get what's
+ 
+
+457
+00:09:31,400 --> 00:09:34,350
+equation and rearranging, we get what's
+called the adjoint Dirac equation,
+
+458
+00:09:34,350 --> 00:09:34,360
+called the adjoint Dirac equation,
+ 
+
+459
+00:09:34,360 --> 00:09:37,950
+called the adjoint Dirac equation,
+defining the solutions for psi bar.
+
+460
+00:09:37,950 --> 00:09:37,960
+defining the solutions for psi bar.
+ 
+
+461
+00:09:37,960 --> 00:09:40,830
+defining the solutions for psi bar.
+Note that the adjoint Dirac equation has
+
+462
+00:09:40,830 --> 00:09:40,840
+Note that the adjoint Dirac equation has
+ 
+
+463
+00:09:40,840 --> 00:09:43,190
+Note that the adjoint Dirac equation has
+a positive mass term instead of a
+
+464
+00:09:43,190 --> 00:09:43,200
+a positive mass term instead of a
+ 
+
+465
+00:09:43,200 --> 00:09:45,510
+a positive mass term instead of a
+negative mass term.
+
+466
+00:09:45,510 --> 00:09:45,520
+negative mass term.
+ 
+
+467
+00:09:45,520 --> 00:09:47,750
+negative mass term.
+Also, sometimes the adjoint Dirac
+
+468
+00:09:47,750 --> 00:09:47,760
+Also, sometimes the adjoint Dirac
+ 
+
+469
+00:09:47,760 --> 00:09:50,510
+Also, sometimes the adjoint Dirac
+equation is written with psi bar on the
+
+470
+00:09:50,510 --> 00:09:50,520
+equation is written with psi bar on the
+ 
+
+471
+00:09:50,520 --> 00:09:53,190
+equation is written with psi bar on the
+left, with the implication that the
+
+472
+00:09:53,190 --> 00:09:53,200
+left, with the implication that the
+ 
+
+473
+00:09:53,200 --> 00:09:56,070
+left, with the implication that the
+derivative operator acts leftward onto
+
+474
+00:09:56,070 --> 00:09:56,080
+derivative operator acts leftward onto
+ 
+
+475
+00:09:56,080 --> 00:09:58,470
+derivative operator acts leftward onto
+it.
+
+476
+00:09:58,470 --> 00:09:58,480
+it.
+ 
+
+477
+00:09:58,480 --> 00:10:00,990
+it.
+So, we see that the Dirac Lagrangian
+
+478
+00:10:00,990 --> 00:10:01,000
+So, we see that the Dirac Lagrangian
+ 
+
+479
+00:10:01,000 --> 00:10:04,230
+So, we see that the Dirac Lagrangian
+gives us two types of Dirac equations.
+
+480
+00:10:04,230 --> 00:10:04,240
+gives us two types of Dirac equations.
+ 
+
+481
+00:10:04,240 --> 00:10:06,990
+gives us two types of Dirac equations.
+One with solutions for psi and one with
+
+482
+00:10:06,990 --> 00:10:07,000
+One with solutions for psi and one with
+ 
+
+483
+00:10:07,000 --> 00:10:09,870
+One with solutions for psi and one with
+solutions for psi bar.
+
+484
+00:10:09,870 --> 00:10:09,880
+solutions for psi bar.
+ 
+
+485
+00:10:09,880 --> 00:10:11,510
+solutions for psi bar.
+You might think that these are the
+
+486
+00:10:11,510 --> 00:10:11,520
+You might think that these are the
+ 
+
+487
+00:10:11,520 --> 00:10:14,750
+You might think that these are the
+particle and antiparticle solutions, but
+
+488
+00:10:14,750 --> 00:10:14,760
+particle and antiparticle solutions, but
+ 
+
+489
+00:10:14,760 --> 00:10:17,150
+particle and antiparticle solutions, but
+it turns out that for Dirac spinners,
+
+490
+00:10:17,150 --> 00:10:17,160
+it turns out that for Dirac spinners,
+ 
+
+491
+00:10:17,160 --> 00:10:19,230
+it turns out that for Dirac spinners,
+writing the antiparticle solution will
+
+492
+00:10:19,230 --> 00:10:19,240
+writing the antiparticle solution will
+ 
+
+493
+00:10:19,240 --> 00:10:21,590
+writing the antiparticle solution will
+take a little more work.
+
+494
+00:10:21,590 --> 00:10:21,600
+take a little more work.
+ 
+
+495
+00:10:21,600 --> 00:10:23,470
+take a little more work.
+I'll talk about these antiparticle
+
+496
+00:10:23,470 --> 00:10:23,480
+I'll talk about these antiparticle
+ 
+
+497
+00:10:23,480 --> 00:10:27,910
+I'll talk about these antiparticle
+solutions in the next video.
+
+498
+00:10:27,910 --> 00:10:27,920
+
+ 
+
+499
+00:10:27,920 --> 00:10:30,430
+
+Now, with the real Klein-Gordon field,
+
+500
+00:10:30,430 --> 00:10:30,440
+Now, with the real Klein-Gordon field,
+ 
+
+501
+00:10:30,440 --> 00:10:33,710
+Now, with the real Klein-Gordon field,
+we saw that we got phi solutions.
+
+502
+00:10:33,710 --> 00:10:33,720
+we saw that we got phi solutions.
+ 
+
+503
+00:10:33,720 --> 00:10:35,550
+we saw that we got phi solutions.
+And when we moved to the complex
+
+504
+00:10:35,550 --> 00:10:35,560
+And when we moved to the complex
+ 
+
+505
+00:10:35,560 --> 00:10:37,630
+And when we moved to the complex
+Klein-Gordon field, we doubled the
+
+506
+00:10:37,630 --> 00:10:37,640
+Klein-Gordon field, we doubled the
+ 
+
+507
+00:10:37,640 --> 00:10:40,390
+Klein-Gordon field, we doubled the
+number of solutions and got both phi and
+
+508
+00:10:40,390 --> 00:10:40,400
+number of solutions and got both phi and
+ 
+
+509
+00:10:40,400 --> 00:10:43,110
+number of solutions and got both phi and
+phi star for particles and
+
+510
+00:10:43,110 --> 00:10:43,120
+phi star for particles and
+ 
+
+511
+00:10:43,120 --> 00:10:45,430
+phi star for particles and
+antiparticles.
+
+512
+00:10:45,430 --> 00:10:45,440
+antiparticles.
+ 
+
+513
+00:10:45,440 --> 00:10:48,590
+antiparticles.
+Similarly, the real Proca field had A
+
+514
+00:10:48,590 --> 00:10:48,600
+Similarly, the real Proca field had A
+ 
+
+515
+00:10:48,600 --> 00:10:51,470
+Similarly, the real Proca field had A
+solutions. And moving to the complex
+
+516
+00:10:51,470 --> 00:10:51,480
+solutions. And moving to the complex
+ 
+
+517
+00:10:51,480 --> 00:10:53,390
+solutions. And moving to the complex
+Proca field doubled the number of
+
+518
+00:10:53,390 --> 00:10:53,400
+Proca field doubled the number of
+ 
+
+519
+00:10:53,400 --> 00:10:57,590
+Proca field doubled the number of
+solutions and gave us A and A star.
+
+520
+00:10:57,590 --> 00:10:57,600
+solutions and gave us A and A star.
+ 
+
+521
+00:10:57,600 --> 00:10:59,910
+solutions and gave us A and A star.
+With the Dirac field, the field is
+
+522
+00:10:59,910 --> 00:10:59,920
+With the Dirac field, the field is
+ 
+
+523
+00:10:59,920 --> 00:11:03,470
+With the Dirac field, the field is
+already complex, and we get psi and psi
+
+524
+00:11:03,470 --> 00:11:03,480
+already complex, and we get psi and psi
+ 
+
+525
+00:11:03,480 --> 00:11:05,590
+already complex, and we get psi and psi
+bar solutions.
+
+526
+00:11:05,590 --> 00:11:05,600
+bar solutions.
+ 
+
+527
+00:11:05,600 --> 00:11:07,670
+bar solutions.
+It turns out that we can find a real
+
+528
+00:11:07,670 --> 00:11:07,680
+It turns out that we can find a real
+ 
+
+529
+00:11:07,680 --> 00:11:10,390
+It turns out that we can find a real
+version of the Dirac equation called the
+
+530
+00:11:10,390 --> 00:11:10,400
+version of the Dirac equation called the
+ 
+
+531
+00:11:10,400 --> 00:11:13,750
+version of the Dirac equation called the
+Majorana equation, and this has only one
+
+532
+00:11:13,750 --> 00:11:13,760
+Majorana equation, and this has only one
+ 
+
+533
+00:11:13,760 --> 00:11:16,710
+Majorana equation, and this has only one
+set of solutions psi. And here there's
+
+534
+00:11:16,710 --> 00:11:16,720
+set of solutions psi. And here there's
+ 
+
+535
+00:11:16,720 --> 00:11:18,950
+set of solutions psi. And here there's
+no distinction between particles and
+
+536
+00:11:18,950 --> 00:11:18,960
+no distinction between particles and
+ 
+
+537
+00:11:18,960 --> 00:11:21,910
+no distinction between particles and
+antiparticles.
+
+538
+00:11:21,910 --> 00:11:21,920
+antiparticles.
+ 
+
+539
+00:11:21,920 --> 00:11:24,390
+antiparticles.
+Now, let's finally look at the solutions
+
+540
+00:11:24,390 --> 00:11:24,400
+Now, let's finally look at the solutions
+ 
+
+541
+00:11:24,400 --> 00:11:26,790
+Now, let's finally look at the solutions
+of the Dirac equation, which is an
+
+542
+00:11:26,790 --> 00:11:26,800
+of the Dirac equation, which is an
+ 
+
+543
+00:11:26,800 --> 00:11:29,310
+of the Dirac equation, which is an
+equation that describes a field of Dirac
+
+544
+00:11:29,310 --> 00:11:29,320
+equation that describes a field of Dirac
+ 
+
+545
+00:11:29,320 --> 00:11:31,310
+equation that describes a field of Dirac
+spinners.
+
+546
+00:11:31,310 --> 00:11:31,320
+spinners.
+ 
+
+547
+00:11:31,320 --> 00:11:34,270
+spinners.
+In the Proca equation, we saw that A was
+
+548
+00:11:34,270 --> 00:11:34,280
+In the Proca equation, we saw that A was
+ 
+
+549
+00:11:34,280 --> 00:11:38,150
+In the Proca equation, we saw that A was
+a four-component object called a vector.
+
+550
+00:11:38,150 --> 00:11:38,160
+a four-component object called a vector.
+ 
+
+551
+00:11:38,160 --> 00:11:40,390
+a four-component object called a vector.
+In the Dirac equation, psi is a
+
+552
+00:11:40,390 --> 00:11:40,400
+In the Dirac equation, psi is a
+ 
+
+553
+00:11:40,400 --> 00:11:42,910
+In the Dirac equation, psi is a
+four-component object called a Dirac
+
+554
+00:11:42,910 --> 00:11:42,920
+four-component object called a Dirac
+ 
+
+555
+00:11:42,920 --> 00:11:45,390
+four-component object called a Dirac
+spinner.
+
+556
+00:11:45,390 --> 00:11:45,400
+spinner.
+ 
+
+557
+00:11:45,400 --> 00:11:47,990
+spinner.
+For the Proca equation, we found that we
+
+558
+00:11:47,990 --> 00:11:48,000
+For the Proca equation, we found that we
+ 
+
+559
+00:11:48,000 --> 00:11:50,750
+For the Proca equation, we found that we
+could write solutions using a space-time
+
+560
+00:11:50,750 --> 00:11:50,760
+could write solutions using a space-time
+ 
+
+561
+00:11:50,760 --> 00:11:54,990
+could write solutions using a space-time
+wave part times a constant vector part,
+
+562
+00:11:54,990 --> 00:11:55,000
+wave part times a constant vector part,
+ 
+
+563
+00:11:55,000 --> 00:11:56,870
+wave part times a constant vector part,
+where the vector indicates the vector
+
+564
+00:11:56,870 --> 00:11:56,880
+where the vector indicates the vector
+ 
+
+565
+00:11:56,880 --> 00:11:59,950
+where the vector indicates the vector
+wave's polarization.
+
+566
+00:11:59,950 --> 00:11:59,960
+wave's polarization.
+ 
+
+567
+00:11:59,960 --> 00:12:02,070
+wave's polarization.
+For the Dirac equation, we're going to
+
+568
+00:12:02,070 --> 00:12:02,080
+For the Dirac equation, we're going to
+ 
+
+569
+00:12:02,080 --> 00:12:03,910
+For the Dirac equation, we're going to
+see that we can write solutions using a
+
+570
+00:12:03,910 --> 00:12:03,920
+see that we can write solutions using a
+ 
+
+571
+00:12:03,920 --> 00:12:07,270
+see that we can write solutions using a
+space-time wave part times a constant
+
+572
+00:12:07,270 --> 00:12:07,280
+space-time wave part times a constant
+ 
+
+573
+00:12:07,280 --> 00:12:09,670
+space-time wave part times a constant
+spinner part, which indicates the
+
+574
+00:12:09,670 --> 00:12:09,680
+spinner part, which indicates the
+ 
+
+575
+00:12:09,680 --> 00:12:13,310
+spinner part, which indicates the
+spinner wave's spin and chirality.
+
+576
+00:12:13,310 --> 00:12:13,320
+spinner wave's spin and chirality.
+ 
+
+577
+00:12:13,320 --> 00:12:16,870
+spinner wave's spin and chirality.
+So, let's see why that's the case.
+
+578
+00:12:16,870 --> 00:12:16,880
+So, let's see why that's the case.
+ 
+
+579
+00:12:16,880 --> 00:12:19,310
+So, let's see why that's the case.
+It's actually pretty easy to see why the
+
+580
+00:12:19,310 --> 00:12:19,320
+It's actually pretty easy to see why the
+ 
+
+581
+00:12:19,320 --> 00:12:21,829
+It's actually pretty easy to see why the
+Dirac equation solutions take the form
+
+582
+00:12:21,829 --> 00:12:21,839
+Dirac equation solutions take the form
+ 
+
+583
+00:12:21,839 --> 00:12:24,230
+Dirac equation solutions take the form
+of space-time waves.
+
+584
+00:12:24,230 --> 00:12:24,240
+of space-time waves.
+ 
+
+585
+00:12:24,240 --> 00:12:26,870
+of space-time waves.
+Recall that the Dirac equation was taken
+
+586
+00:12:26,870 --> 00:12:26,880
+Recall that the Dirac equation was taken
+ 
+
+587
+00:12:26,880 --> 00:12:29,390
+Recall that the Dirac equation was taken
+to be one factor from the Klein-Gordon
+
+588
+00:12:29,390 --> 00:12:29,400
+to be one factor from the Klein-Gordon
+ 
+
+589
+00:12:29,400 --> 00:12:31,070
+to be one factor from the Klein-Gordon
+equation.
+
+590
+00:12:31,070 --> 00:12:31,080
+equation.
+ 
+
+591
+00:12:31,080 --> 00:12:33,470
+equation.
+If we multiply both sides by the second
+
+592
+00:12:33,470 --> 00:12:33,480
+If we multiply both sides by the second
+ 
+
+593
+00:12:33,480 --> 00:12:35,990
+If we multiply both sides by the second
+factor, then the right-hand side remains
+
+594
+00:12:35,990 --> 00:12:36,000
+factor, then the right-hand side remains
+ 
+
+595
+00:12:36,000 --> 00:12:37,230
+factor, then the right-hand side remains
+zero,
+
+596
+00:12:37,230 --> 00:12:37,240
+zero,
+ 
+
+597
+00:12:37,240 --> 00:12:39,270
+zero,
+and the two factors on the left-hand
+
+598
+00:12:39,270 --> 00:12:39,280
+and the two factors on the left-hand
+ 
+
+599
+00:12:39,280 --> 00:12:41,790
+and the two factors on the left-hand
+side multiply together back into the
+
+600
+00:12:41,790 --> 00:12:41,800
+side multiply together back into the
+ 
+
+601
+00:12:41,800 --> 00:12:45,550
+side multiply together back into the
+Klein-Gordon equation once again.
+
+602
+00:12:45,550 --> 00:12:45,560
+Klein-Gordon equation once again.
+ 
+
+603
+00:12:45,560 --> 00:12:47,350
+Klein-Gordon equation once again.
+So, this is telling us that all four
+
+604
+00:12:47,350 --> 00:12:47,360
+So, this is telling us that all four
+ 
+
+605
+00:12:47,360 --> 00:12:50,150
+So, this is telling us that all four
+components of the spinner psi must
+
+606
+00:12:50,150 --> 00:12:50,160
+components of the spinner psi must
+ 
+
+607
+00:12:50,160 --> 00:12:52,390
+components of the spinner psi must
+individually solve the Klein-Gordon
+
+608
+00:12:52,390 --> 00:12:52,400
+individually solve the Klein-Gordon
+ 
+
+609
+00:12:52,400 --> 00:12:55,310
+individually solve the Klein-Gordon
+equation, which we know has wave-like
+
+610
+00:12:55,310 --> 00:12:55,320
+equation, which we know has wave-like
+ 
+
+611
+00:12:55,320 --> 00:12:57,270
+equation, which we know has wave-like
+solutions.
+
+612
+00:12:57,270 --> 00:12:57,280
+solutions.
+ 
+
+613
+00:12:57,280 --> 00:12:58,790
+solutions.
+So, instead of solving for the four
+
+614
+00:12:58,790 --> 00:12:58,800
+So, instead of solving for the four
+ 
+
+615
+00:12:58,800 --> 00:13:01,670
+So, instead of solving for the four
+components individually, we can just use
+
+616
+00:13:01,670 --> 00:13:01,680
+components individually, we can just use
+ 
+
+617
+00:13:01,680 --> 00:13:03,990
+components individually, we can just use
+one space-time wave for all four
+
+618
+00:13:03,990 --> 00:13:04,000
+one space-time wave for all four
+ 
+
+619
+00:13:04,000 --> 00:13:06,630
+one space-time wave for all four
+components and then put a constant
+
+620
+00:13:06,630 --> 00:13:06,640
+components and then put a constant
+ 
+
+621
+00:13:06,640 --> 00:13:09,430
+components and then put a constant
+spinner in front. And here I've labeled
+
+622
+00:13:09,430 --> 00:13:09,440
+spinner in front. And here I've labeled
+ 
+
+623
+00:13:09,440 --> 00:13:12,230
+spinner in front. And here I've labeled
+the spinner components with beta.
+
+624
+00:13:12,230 --> 00:13:12,240
+the spinner components with beta.
+ 
+
+625
+00:13:12,240 --> 00:13:14,430
+the spinner components with beta.
+All that's left to do is to determine
+
+626
+00:13:14,430 --> 00:13:14,440
+All that's left to do is to determine
+ 
+
+627
+00:13:14,440 --> 00:13:17,030
+All that's left to do is to determine
+what these betas should be in order for
+
+628
+00:13:17,030 --> 00:13:17,040
+what these betas should be in order for
+ 
+
+629
+00:13:17,040 --> 00:13:19,230
+what these betas should be in order for
+us to get a valid solution to the Dirac
+
+630
+00:13:19,230 --> 00:13:19,240
+us to get a valid solution to the Dirac
+ 
+
+631
+00:13:19,240 --> 00:13:22,110
+us to get a valid solution to the Dirac
+equation.
+
+632
+00:13:22,110 --> 00:13:22,120
+
+ 
+
+633
+00:13:22,120 --> 00:13:24,270
+
+To begin, I'm going to work in the
+
+634
+00:13:24,270 --> 00:13:24,280
+To begin, I'm going to work in the
+ 
+
+635
+00:13:24,280 --> 00:13:26,550
+To begin, I'm going to work in the
+chiral basis.
+
+636
+00:13:26,550 --> 00:13:26,560
+chiral basis.
+ 
+
+637
+00:13:26,560 --> 00:13:28,790
+chiral basis.
+To solve the Dirac equation, we're going
+
+638
+00:13:28,790 --> 00:13:28,800
+To solve the Dirac equation, we're going
+ 
+
+639
+00:13:28,800 --> 00:13:30,750
+To solve the Dirac equation, we're going
+to start with a simple case where the
+
+640
+00:13:30,750 --> 00:13:30,760
+to start with a simple case where the
+ 
+
+641
+00:13:30,760 --> 00:13:33,630
+to start with a simple case where the
+wave does not depend on the spatial XYZ
+
+642
+00:13:33,630 --> 00:13:33,640
+wave does not depend on the spatial XYZ
+ 
+
+643
+00:13:33,640 --> 00:13:37,230
+wave does not depend on the spatial XYZ
+components and only depends on time.
+
+644
+00:13:37,230 --> 00:13:37,240
+components and only depends on time.
+ 
+
+645
+00:13:37,240 --> 00:13:39,390
+components and only depends on time.
+So, in other words, the entire spinner
+
+646
+00:13:39,390 --> 00:13:39,400
+So, in other words, the entire spinner
+ 
+
+647
+00:13:39,400 --> 00:13:41,390
+So, in other words, the entire spinner
+field will have the exact same spinner
+
+648
+00:13:41,390 --> 00:13:41,400
+field will have the exact same spinner
+ 
+
+649
+00:13:41,400 --> 00:13:44,990
+field will have the exact same spinner
+components at every location in space,
+
+650
+00:13:44,990 --> 00:13:45,000
+components at every location in space,
+ 
+
+651
+00:13:45,000 --> 00:13:46,910
+components at every location in space,
+but the spinner components can change
+
+652
+00:13:46,910 --> 00:13:46,920
+but the spinner components can change
+ 
+
+653
+00:13:46,920 --> 00:13:49,350
+but the spinner components can change
+over time.
+
+654
+00:13:49,350 --> 00:13:49,360
+over time.
+ 
+
+655
+00:13:49,360 --> 00:13:51,590
+over time.
+In the chiral basis, the left spinner
+
+656
+00:13:51,590 --> 00:13:51,600
+In the chiral basis, the left spinner
+ 
+
+657
+00:13:51,600 --> 00:13:54,230
+In the chiral basis, the left spinner
+components will be denoted by chi up and
+
+658
+00:13:54,230 --> 00:13:54,240
+components will be denoted by chi up and
+ 
+
+659
+00:13:54,240 --> 00:13:56,430
+components will be denoted by chi up and
+chi down, and the right spinner
+
+660
+00:13:56,430 --> 00:13:56,440
+chi down, and the right spinner
+ 
+
+661
+00:13:56,440 --> 00:13:59,110
+chi down, and the right spinner
+components will be denoted by xi up and
+
+662
+00:13:59,110 --> 00:13:59,120
+components will be denoted by xi up and
+ 
+
+663
+00:13:59,120 --> 00:14:00,910
+components will be denoted by xi up and
+xi down.
+
+664
+00:14:00,910 --> 00:14:00,920
+xi down.
+ 
+
+665
+00:14:00,920 --> 00:14:02,950
+xi down.
+And I'll sometimes use this notation
+
+666
+00:14:02,950 --> 00:14:02,960
+And I'll sometimes use this notation
+ 
+
+667
+00:14:02,960 --> 00:14:05,550
+And I'll sometimes use this notation
+here, where a Dirac spinner is denoted
+
+668
+00:14:05,550 --> 00:14:05,560
+here, where a Dirac spinner is denoted
+ 
+
+669
+00:14:05,560 --> 00:14:08,230
+here, where a Dirac spinner is denoted
+just by chi and xi
+
+670
+00:14:08,230 --> 00:14:08,240
+just by chi and xi
+ 
+
+671
+00:14:08,240 --> 00:14:10,590
+just by chi and xi
+with the understanding that chi and xi
+
+672
+00:14:10,590 --> 00:14:10,600
+with the understanding that chi and xi
+ 
+
+673
+00:14:10,600 --> 00:14:13,150
+with the understanding that chi and xi
+each have two components for spin up and
+
+674
+00:14:13,150 --> 00:14:13,160
+each have two components for spin up and
+ 
+
+675
+00:14:13,160 --> 00:14:15,670
+each have two components for spin up and
+spin down.
+
+676
+00:14:15,670 --> 00:14:15,680
+spin down.
+ 
+
+677
+00:14:15,680 --> 00:14:18,230
+spin down.
+So, in the chiral basis, the gamma T
+
+678
+00:14:18,230 --> 00:14:18,240
+So, in the chiral basis, the gamma T
+ 
+
+679
+00:14:18,240 --> 00:14:20,829
+So, in the chiral basis, the gamma T
+matrix is a 4 by 4 matrix that looks
+
+680
+00:14:20,829 --> 00:14:20,839
+matrix is a 4 by 4 matrix that looks
+ 
+
+681
+00:14:20,839 --> 00:14:24,069
+matrix is a 4 by 4 matrix that looks
+like this, where these fancy ones each
+
+682
+00:14:24,069 --> 00:14:24,079
+like this, where these fancy ones each
+ 
+
+683
+00:14:24,079 --> 00:14:26,990
+like this, where these fancy ones each
+indicate a 2 by 2 identity matrix and
+
+684
+00:14:26,990 --> 00:14:27,000
+indicate a 2 by 2 identity matrix and
+ 
+
+685
+00:14:27,000 --> 00:14:31,510
+indicate a 2 by 2 identity matrix and
+the zeros indicate a 2 by 2 zero matrix.
+
+686
+00:14:31,510 --> 00:14:31,520
+the zeros indicate a 2 by 2 zero matrix.
+ 
+
+687
+00:14:31,520 --> 00:14:33,949
+the zeros indicate a 2 by 2 zero matrix.
+And for the Dirac equation, after
+
+688
+00:14:33,949 --> 00:14:33,959
+And for the Dirac equation, after
+ 
+
+689
+00:14:33,959 --> 00:14:35,550
+And for the Dirac equation, after
+bringing the mass term to the other
+
+690
+00:14:35,550 --> 00:14:35,560
+bringing the mass term to the other
+ 
+
+691
+00:14:35,560 --> 00:14:36,870
+bringing the mass term to the other
+side,
+
+692
+00:14:36,870 --> 00:14:36,880
+side,
+ 
+
+693
+00:14:36,880 --> 00:14:39,430
+side,
+we can take this summation and remove
+
+694
+00:14:39,430 --> 00:14:39,440
+we can take this summation and remove
+ 
+
+695
+00:14:39,440 --> 00:14:42,430
+we can take this summation and remove
+all terms except the time term,
+
+696
+00:14:42,430 --> 00:14:42,440
+all terms except the time term,
+ 
+
+697
+00:14:42,440 --> 00:14:44,190
+all terms except the time term,
+since the space derivatives of the
+
+698
+00:14:44,190 --> 00:14:44,200
+since the space derivatives of the
+ 
+
+699
+00:14:44,200 --> 00:14:47,110
+since the space derivatives of the
+spinner psi will all go to zero, since
+
+700
+00:14:47,110 --> 00:14:47,120
+spinner psi will all go to zero, since
+ 
+
+701
+00:14:47,120 --> 00:14:50,030
+spinner psi will all go to zero, since
+there is no space dependence.
+
+702
+00:14:50,030 --> 00:14:50,040
+there is no space dependence.
+ 
+
+703
+00:14:50,040 --> 00:14:51,990
+there is no space dependence.
+I've also multiplied both sides by
+
+704
+00:14:51,990 --> 00:14:52,000
+I've also multiplied both sides by
+ 
+
+705
+00:14:52,000 --> 00:14:54,750
+I've also multiplied both sides by
+negative I to bring this I to the other
+
+706
+00:14:54,750 --> 00:14:54,760
+negative I to bring this I to the other
+ 
+
+707
+00:14:54,760 --> 00:14:56,670
+negative I to bring this I to the other
+side.
+
+708
+00:14:56,670 --> 00:14:56,680
+side.
+ 
+
+709
+00:14:56,680 --> 00:14:59,390
+side.
+Next, I'll write gamma T and the Dirac
+
+710
+00:14:59,390 --> 00:14:59,400
+Next, I'll write gamma T and the Dirac
+ 
+
+711
+00:14:59,400 --> 00:15:02,350
+Next, I'll write gamma T and the Dirac
+spinner in array notation.
+
+712
+00:15:02,350 --> 00:15:02,360
+spinner in array notation.
+ 
+
+713
+00:15:02,360 --> 00:15:05,030
+spinner in array notation.
+The gamma T matrix here has the effect
+
+714
+00:15:05,030 --> 00:15:05,040
+The gamma T matrix here has the effect
+ 
+
+715
+00:15:05,040 --> 00:15:07,310
+The gamma T matrix here has the effect
+of swapping the top and bottom halves of
+
+716
+00:15:07,310 --> 00:15:07,320
+of swapping the top and bottom halves of
+ 
+
+717
+00:15:07,320 --> 00:15:09,110
+of swapping the top and bottom halves of
+the Dirac spinner.
+
+718
+00:15:09,110 --> 00:15:09,120
+the Dirac spinner.
+ 
+
+719
+00:15:09,120 --> 00:15:12,910
+the Dirac spinner.
+So, chi and xi swap places.
+
+720
+00:15:12,910 --> 00:15:12,920
+So, chi and xi swap places.
+ 
+
+721
+00:15:12,920 --> 00:15:15,110
+So, chi and xi swap places.
+Now, looking at these columns component
+
+722
+00:15:15,110 --> 00:15:15,120
+Now, looking at these columns component
+ 
+
+723
+00:15:15,120 --> 00:15:17,670
+Now, looking at these columns component
+by component, we get two differential
+
+724
+00:15:17,670 --> 00:15:17,680
+by component, we get two differential
+ 
+
+725
+00:15:17,680 --> 00:15:20,630
+by component, we get two differential
+equations. One where the time derivative
+
+726
+00:15:20,630 --> 00:15:20,640
+equations. One where the time derivative
+ 
+
+727
+00:15:20,640 --> 00:15:23,990
+equations. One where the time derivative
+of xi is proportional to chi and another
+
+728
+00:15:23,990 --> 00:15:24,000
+of xi is proportional to chi and another
+ 
+
+729
+00:15:24,000 --> 00:15:25,870
+of xi is proportional to chi and another
+where the time derivative of chi is
+
+730
+00:15:25,870 --> 00:15:25,880
+where the time derivative of chi is
+ 
+
+731
+00:15:25,880 --> 00:15:28,949
+where the time derivative of chi is
+proportional to xi.
+
+732
+00:15:28,949 --> 00:15:28,959
+proportional to xi.
+ 
+
+733
+00:15:28,959 --> 00:15:31,430
+proportional to xi.
+So, taking the first of these equations,
+
+734
+00:15:31,430 --> 00:15:31,440
+So, taking the first of these equations,
+ 
+
+735
+00:15:31,440 --> 00:15:33,750
+So, taking the first of these equations,
+we can apply another time derivative to
+
+736
+00:15:33,750 --> 00:15:33,760
+we can apply another time derivative to
+ 
+
+737
+00:15:33,760 --> 00:15:35,670
+we can apply another time derivative to
+both sides.
+
+738
+00:15:35,670 --> 00:15:35,680
+both sides.
+ 
+
+739
+00:15:35,680 --> 00:15:37,829
+both sides.
+And then we can sub in this formula for
+
+740
+00:15:37,829 --> 00:15:37,839
+And then we can sub in this formula for
+ 
+
+741
+00:15:37,839 --> 00:15:40,710
+And then we can sub in this formula for
+the time derivative of chi.
+
+742
+00:15:40,710 --> 00:15:40,720
+the time derivative of chi.
+ 
+
+743
+00:15:40,720 --> 00:15:43,110
+the time derivative of chi.
+After squaring negative I to get
+
+744
+00:15:43,110 --> 00:15:43,120
+After squaring negative I to get
+ 
+
+745
+00:15:43,120 --> 00:15:45,910
+After squaring negative I to get
+negative one, we get this second-order
+
+746
+00:15:45,910 --> 00:15:45,920
+negative one, we get this second-order
+ 
+
+747
+00:15:45,920 --> 00:15:48,069
+negative one, we get this second-order
+differential equation containing only
+
+748
+00:15:48,069 --> 00:15:48,079
+differential equation containing only
+ 
+
+749
+00:15:48,079 --> 00:15:50,110
+differential equation containing only
+xi.
+
+750
+00:15:50,110 --> 00:15:50,120
+xi.
+ 
+
+751
+00:15:50,120 --> 00:15:52,910
+xi.
+There are two basic solutions for xi
+
+752
+00:15:52,910 --> 00:15:52,920
+There are two basic solutions for xi
+ 
+
+753
+00:15:52,920 --> 00:15:55,550
+There are two basic solutions for xi
+that solve this, which are complex
+
+754
+00:15:55,550 --> 00:15:55,560
+that solve this, which are complex
+ 
+
+755
+00:15:55,560 --> 00:15:57,870
+that solve this, which are complex
+exponentials with either a positive or a
+
+756
+00:15:57,870 --> 00:15:57,880
+exponentials with either a positive or a
+ 
+
+757
+00:15:57,880 --> 00:16:01,150
+exponentials with either a positive or a
+negative exponent.
+
+758
+00:16:01,150 --> 00:16:01,160
+negative exponent.
+ 
+
+759
+00:16:01,160 --> 00:16:03,829
+negative exponent.
+If we sub this formula for xi back into
+
+760
+00:16:03,829 --> 00:16:03,839
+If we sub this formula for xi back into
+ 
+
+761
+00:16:03,839 --> 00:16:06,630
+If we sub this formula for xi back into
+the first differential equation and take
+
+762
+00:16:06,630 --> 00:16:06,640
+the first differential equation and take
+ 
+
+763
+00:16:06,640 --> 00:16:09,390
+the first differential equation and take
+this derivative using chain rule, we get
+
+764
+00:16:09,390 --> 00:16:09,400
+this derivative using chain rule, we get
+ 
+
+765
+00:16:09,400 --> 00:16:12,949
+this derivative using chain rule, we get
+this equation for negative chi.
+
+766
+00:16:12,949 --> 00:16:12,959
+this equation for negative chi.
+ 
+
+767
+00:16:12,959 --> 00:16:15,030
+this equation for negative chi.
+If we multiply both sides by negative
+
+768
+00:16:15,030 --> 00:16:15,040
+If we multiply both sides by negative
+ 
+
+769
+00:16:15,040 --> 00:16:18,190
+If we multiply both sides by negative
+one, this plus or minus sign will become
+
+770
+00:16:18,190 --> 00:16:18,200
+one, this plus or minus sign will become
+ 
+
+771
+00:16:18,200 --> 00:16:21,069
+one, this plus or minus sign will become
+a minus or plus sign, and this is our
+
+772
+00:16:21,069 --> 00:16:21,079
+a minus or plus sign, and this is our
+ 
+
+773
+00:16:21,079 --> 00:16:24,350
+a minus or plus sign, and this is our
+solution for chi.
+
+774
+00:16:24,350 --> 00:16:24,360
+solution for chi.
+ 
+
+775
+00:16:24,360 --> 00:16:27,190
+solution for chi.
+So, we have these solutions for xi and
+
+776
+00:16:27,190 --> 00:16:27,200
+So, we have these solutions for xi and
+ 
+
+777
+00:16:27,200 --> 00:16:28,470
+So, we have these solutions for xi and
+chi.
+
+778
+00:16:28,470 --> 00:16:28,480
+chi.
+ 
+
+779
+00:16:28,480 --> 00:16:31,030
+chi.
+However, for the Dirac spinner psi, this
+
+780
+00:16:31,030 --> 00:16:31,040
+However, for the Dirac spinner psi, this
+ 
+
+781
+00:16:31,040 --> 00:16:32,790
+However, for the Dirac spinner psi, this
+only tells us the wave part of the
+
+782
+00:16:32,790 --> 00:16:32,800
+only tells us the wave part of the
+ 
+
+783
+00:16:32,800 --> 00:16:35,390
+only tells us the wave part of the
+solution, and we still need to determine
+
+784
+00:16:35,390 --> 00:16:35,400
+solution, and we still need to determine
+ 
+
+785
+00:16:35,400 --> 00:16:38,069
+solution, and we still need to determine
+the constant spinner in front, which
+
+786
+00:16:38,069 --> 00:16:38,079
+the constant spinner in front, which
+ 
+
+787
+00:16:38,079 --> 00:16:40,630
+the constant spinner in front, which
+I've denoted using chi and xi without
+
+788
+00:16:40,630 --> 00:16:40,640
+I've denoted using chi and xi without
+ 
+
+789
+00:16:40,640 --> 00:16:43,230
+I've denoted using chi and xi without
+any time dependence.
+
+790
+00:16:43,230 --> 00:16:43,240
+any time dependence.
+ 
+
+791
+00:16:43,240 --> 00:16:45,230
+any time dependence.
+There are a few solution cases we can
+
+792
+00:16:45,230 --> 00:16:45,240
+There are a few solution cases we can
+ 
+
+793
+00:16:45,240 --> 00:16:46,829
+There are a few solution cases we can
+find.
+
+794
+00:16:46,829 --> 00:16:46,839
+find.
+ 
+
+795
+00:16:46,839 --> 00:16:49,390
+find.
+For case one, let's take the negative
+
+796
+00:16:49,390 --> 00:16:49,400
+For case one, let's take the negative
+ 
+
+797
+00:16:49,400 --> 00:16:51,630
+For case one, let's take the negative
+exponential solutions.
+
+798
+00:16:51,630 --> 00:16:51,640
+exponential solutions.
+ 
+
+799
+00:16:51,640 --> 00:16:53,910
+exponential solutions.
+This means we take a plus sign in front
+
+800
+00:16:53,910 --> 00:16:53,920
+This means we take a plus sign in front
+ 
+
+801
+00:16:53,920 --> 00:16:57,190
+This means we take a plus sign in front
+of the chi, which means xi and chi are
+
+802
+00:16:57,190 --> 00:16:57,200
+of the chi, which means xi and chi are
+ 
+
+803
+00:16:57,200 --> 00:16:59,310
+of the chi, which means xi and chi are
+exactly equal.
+
+804
+00:16:59,310 --> 00:16:59,320
+exactly equal.
+ 
+
+805
+00:16:59,320 --> 00:17:03,310
+exactly equal.
+So, if xi is in the spin up state 1 0,
+
+806
+00:17:03,310 --> 00:17:03,320
+So, if xi is in the spin up state 1 0,
+ 
+
+807
+00:17:03,320 --> 00:17:06,069
+So, if xi is in the spin up state 1 0,
+then chi is also in the spin up state 1
+
+808
+00:17:06,069 --> 00:17:06,079
+then chi is also in the spin up state 1
+ 
+
+809
+00:17:06,079 --> 00:17:07,550
+then chi is also in the spin up state 1
+0.
+
+810
+00:17:07,550 --> 00:17:07,560
+0.
+ 
+
+811
+00:17:07,560 --> 00:17:11,270
+0.
+And if xi is in the spin down state 0 1,
+
+812
+00:17:11,270 --> 00:17:11,280
+And if xi is in the spin down state 0 1,
+ 
+
+813
+00:17:11,280 --> 00:17:13,790
+And if xi is in the spin down state 0 1,
+then chi is also in the spin down state
+
+814
+00:17:13,790 --> 00:17:13,800
+then chi is also in the spin down state
+ 
+
+815
+00:17:13,800 --> 00:17:15,590
+then chi is also in the spin down state
+0 1.
+
+816
+00:17:15,590 --> 00:17:15,600
+0 1.
+ 
+
+817
+00:17:15,600 --> 00:17:18,550
+0 1.
+Any other two-component constant spinner
+
+818
+00:17:18,550 --> 00:17:18,560
+Any other two-component constant spinner
+ 
+
+819
+00:17:18,560 --> 00:17:20,750
+Any other two-component constant spinner
+can be written as a linear combination
+
+820
+00:17:20,750 --> 00:17:20,760
+can be written as a linear combination
+ 
+
+821
+00:17:20,760 --> 00:17:23,510
+can be written as a linear combination
+of these two spinner states. So, these
+
+822
+00:17:23,510 --> 00:17:23,520
+of these two spinner states. So, these
+ 
+
+823
+00:17:23,520 --> 00:17:27,230
+of these two spinner states. So, these
+are all the solutions for case one.
+
+824
+00:17:27,230 --> 00:17:27,240
+are all the solutions for case one.
+ 
+
+825
+00:17:27,240 --> 00:17:29,510
+are all the solutions for case one.
+Now, for case two, we'll take the
+
+826
+00:17:29,510 --> 00:17:29,520
+Now, for case two, we'll take the
+ 
+
+827
+00:17:29,520 --> 00:17:32,070
+Now, for case two, we'll take the
+positive exponential, which means we
+
+828
+00:17:32,070 --> 00:17:32,080
+positive exponential, which means we
+ 
+
+829
+00:17:32,080 --> 00:17:35,110
+positive exponential, which means we
+take a negative sign in front of chi.
+
+830
+00:17:35,110 --> 00:17:35,120
+take a negative sign in front of chi.
+ 
+
+831
+00:17:35,120 --> 00:17:39,030
+take a negative sign in front of chi.
+So, xi and chi have opposite signs.
+
+832
+00:17:39,030 --> 00:17:39,040
+So, xi and chi have opposite signs.
+ 
+
+833
+00:17:39,040 --> 00:17:41,870
+So, xi and chi have opposite signs.
+This means that if xi is spin up, then
+
+834
+00:17:41,870 --> 00:17:41,880
+This means that if xi is spin up, then
+ 
+
+835
+00:17:41,880 --> 00:17:45,470
+This means that if xi is spin up, then
+chi is negative spin up. And if xi is
+
+836
+00:17:45,470 --> 00:17:45,480
+chi is negative spin up. And if xi is
+ 
+
+837
+00:17:45,480 --> 00:17:48,350
+chi is negative spin up. And if xi is
+spin down, then chi is negative spin
+
+838
+00:17:48,350 --> 00:17:48,360
+spin down, then chi is negative spin
+ 
+
+839
+00:17:48,360 --> 00:17:50,510
+spin down, then chi is negative spin
+down.
+
+840
+00:17:50,510 --> 00:17:50,520
+down.
+ 
+
+841
+00:17:50,520 --> 00:17:53,230
+down.
+So, we have four basic Dirac solutions
+
+842
+00:17:53,230 --> 00:17:53,240
+So, we have four basic Dirac solutions
+ 
+
+843
+00:17:53,240 --> 00:17:54,669
+So, we have four basic Dirac solutions
+in total.
+
+844
+00:17:54,669 --> 00:17:54,679
+in total.
+ 
+
+845
+00:17:54,679 --> 00:17:56,790
+in total.
+For the negative exponential case, we
+
+846
+00:17:56,790 --> 00:17:56,800
+For the negative exponential case, we
+ 
+
+847
+00:17:56,800 --> 00:17:59,190
+For the negative exponential case, we
+have a spin up solution and a spin down
+
+848
+00:17:59,190 --> 00:17:59,200
+have a spin up solution and a spin down
+ 
+
+849
+00:17:59,200 --> 00:18:02,270
+have a spin up solution and a spin down
+solution, where the signs of chi and xi
+
+850
+00:18:02,270 --> 00:18:02,280
+solution, where the signs of chi and xi
+ 
+
+851
+00:18:02,280 --> 00:18:03,550
+solution, where the signs of chi and xi
+match.
+
+852
+00:18:03,550 --> 00:18:03,560
+match.
+ 
+
+853
+00:18:03,560 --> 00:18:07,669
+match.
+We'll call these solutions U1 and U2.
+
+854
+00:18:07,669 --> 00:18:07,679
+We'll call these solutions U1 and U2.
+ 
+
+855
+00:18:07,679 --> 00:18:10,750
+We'll call these solutions U1 and U2.
+And for the positive exponential case,
+
+856
+00:18:10,750 --> 00:18:10,760
+And for the positive exponential case,
+ 
+
+857
+00:18:10,760 --> 00:18:13,030
+And for the positive exponential case,
+we have a spin up solution and a spin
+
+858
+00:18:13,030 --> 00:18:13,040
+we have a spin up solution and a spin
+ 
+
+859
+00:18:13,040 --> 00:18:16,230
+we have a spin up solution and a spin
+down solution, where chi and xi have
+
+860
+00:18:16,230 --> 00:18:16,240
+down solution, where chi and xi have
+ 
+
+861
+00:18:16,240 --> 00:18:17,990
+down solution, where chi and xi have
+opposite signs.
+
+862
+00:18:17,990 --> 00:18:18,000
+opposite signs.
+ 
+
+863
+00:18:18,000 --> 00:18:22,390
+opposite signs.
+We'll call these solutions V1 and V2.
+
+864
+00:18:22,390 --> 00:18:22,400
+We'll call these solutions V1 and V2.
+ 
+
+865
+00:18:22,400 --> 00:18:24,710
+We'll call these solutions V1 and V2.
+I'm also going to multiply each of these
+
+866
+00:18:24,710 --> 00:18:24,720
+I'm also going to multiply each of these
+ 
+
+867
+00:18:24,720 --> 00:18:27,750
+I'm also going to multiply each of these
+solutions by a normalization factor of 1
+
+868
+00:18:27,750 --> 00:18:27,760
+solutions by a normalization factor of 1
+ 
+
+869
+00:18:27,760 --> 00:18:30,030
+solutions by a normalization factor of 1
+over the square root of 2.
+
+870
+00:18:30,030 --> 00:18:30,040
+over the square root of 2.
+ 
+
+871
+00:18:30,040 --> 00:18:31,950
+over the square root of 2.
+This ensures each spinner has a
+
+872
+00:18:31,950 --> 00:18:31,960
+This ensures each spinner has a
+ 
+
+873
+00:18:31,960 --> 00:18:35,190
+This ensures each spinner has a
+magnitude of 1.
+
+874
+00:18:35,190 --> 00:18:35,200
+magnitude of 1.
+ 
+
+875
+00:18:35,200 --> 00:18:37,190
+magnitude of 1.
+Also, we should note that the Dirac
+
+876
+00:18:37,190 --> 00:18:37,200
+Also, we should note that the Dirac
+ 
+
+877
+00:18:37,200 --> 00:18:40,070
+Also, we should note that the Dirac
+equation is linear, so any linear
+
+878
+00:18:40,070 --> 00:18:40,080
+equation is linear, so any linear
+ 
+
+879
+00:18:40,080 --> 00:18:42,510
+equation is linear, so any linear
+combination of solutions is also a
+
+880
+00:18:42,510 --> 00:18:42,520
+combination of solutions is also a
+ 
+
+881
+00:18:42,520 --> 00:18:44,149
+combination of solutions is also a
+solution.
+
+882
+00:18:44,149 --> 00:18:44,159
+solution.
+ 
+
+883
+00:18:44,159 --> 00:18:46,790
+solution.
+So, a general solution here is any
+
+884
+00:18:46,790 --> 00:18:46,800
+So, a general solution here is any
+ 
+
+885
+00:18:46,800 --> 00:18:49,230
+So, a general solution here is any
+general linear combination of our four
+
+886
+00:18:49,230 --> 00:18:49,240
+general linear combination of our four
+ 
+
+887
+00:18:49,240 --> 00:18:52,870
+general linear combination of our four
+basic solutions.
+
+888
+00:18:52,870 --> 00:18:52,880
+
+ 
+
+889
+00:18:52,880 --> 00:18:54,390
+
+Now, I want to point out some
+
+890
+00:18:54,390 --> 00:18:54,400
+Now, I want to point out some
+ 
+
+891
+00:18:54,400 --> 00:18:56,710
+Now, I want to point out some
+alternative notation for these complex
+
+892
+00:18:56,710 --> 00:18:56,720
+alternative notation for these complex
+ 
+
+893
+00:18:56,720 --> 00:18:58,350
+alternative notation for these complex
+waves.
+
+894
+00:18:58,350 --> 00:18:58,360
+waves.
+ 
+
+895
+00:18:58,360 --> 00:19:01,149
+waves.
+For a stationary particle, we know that
+
+896
+00:19:01,149 --> 00:19:01,159
+For a stationary particle, we know that
+ 
+
+897
+00:19:01,159 --> 00:19:04,510
+For a stationary particle, we know that
+E equals mc squared. So, if we move this
+
+898
+00:19:04,510 --> 00:19:04,520
+E equals mc squared. So, if we move this
+ 
+
+899
+00:19:04,520 --> 00:19:07,390
+E equals mc squared. So, if we move this
+C into the brackets, we can replace mc
+
+900
+00:19:07,390 --> 00:19:07,400
+C into the brackets, we can replace mc
+ 
+
+901
+00:19:07,400 --> 00:19:10,350
+C into the brackets, we can replace mc
+squared with energy E.
+
+902
+00:19:10,350 --> 00:19:10,360
+squared with energy E.
+ 
+
+903
+00:19:10,360 --> 00:19:12,830
+squared with energy E.
+Also, the Planck relation tells us that
+
+904
+00:19:12,830 --> 00:19:12,840
+Also, the Planck relation tells us that
+ 
+
+905
+00:19:12,840 --> 00:19:15,070
+Also, the Planck relation tells us that
+energy is equal to the angular frequency
+
+906
+00:19:15,070 --> 00:19:15,080
+energy is equal to the angular frequency
+ 
+
+907
+00:19:15,080 --> 00:19:17,870
+energy is equal to the angular frequency
+omega times h bar.
+
+908
+00:19:17,870 --> 00:19:17,880
+omega times h bar.
+ 
+
+909
+00:19:17,880 --> 00:19:20,870
+omega times h bar.
+So, we can rewrite E over h bar as the
+
+910
+00:19:20,870 --> 00:19:20,880
+So, we can rewrite E over h bar as the
+ 
+
+911
+00:19:20,880 --> 00:19:24,710
+So, we can rewrite E over h bar as the
+angular frequency omega.
+
+912
+00:19:24,710 --> 00:19:24,720
+
+ 
+
+913
+00:19:24,720 --> 00:19:26,830
+
+Now, I'll point out that if we take the
+
+914
+00:19:26,830 --> 00:19:26,840
+Now, I'll point out that if we take the
+ 
+
+915
+00:19:26,840 --> 00:19:29,710
+Now, I'll point out that if we take the
+energy operator from quantum mechanics,
+
+916
+00:19:29,710 --> 00:19:29,720
+energy operator from quantum mechanics,
+ 
+
+917
+00:19:29,720 --> 00:19:31,710
+energy operator from quantum mechanics,
+which is ih bar times the time
+
+918
+00:19:31,710 --> 00:19:31,720
+which is ih bar times the time
+ 
+
+919
+00:19:31,720 --> 00:19:33,030
+which is ih bar times the time
+derivative,
+
+920
+00:19:33,030 --> 00:19:33,040
+derivative,
+ 
+
+921
+00:19:33,040 --> 00:19:35,190
+derivative,
+and apply it to our negative exponential
+
+922
+00:19:35,190 --> 00:19:35,200
+and apply it to our negative exponential
+ 
+
+923
+00:19:35,200 --> 00:19:38,350
+and apply it to our negative exponential
+wave, we get an eigenvalue of positive
+
+924
+00:19:38,350 --> 00:19:38,360
+wave, we get an eigenvalue of positive
+ 
+
+925
+00:19:38,360 --> 00:19:39,710
+wave, we get an eigenvalue of positive
+E.
+
+926
+00:19:39,710 --> 00:19:39,720
+E.
+ 
+
+927
+00:19:39,720 --> 00:19:41,909
+E.
+And if we apply the energy operator to
+
+928
+00:19:41,909 --> 00:19:41,919
+And if we apply the energy operator to
+ 
+
+929
+00:19:41,919 --> 00:19:44,510
+And if we apply the energy operator to
+our positive exponential wave, we get an
+
+930
+00:19:44,510 --> 00:19:44,520
+our positive exponential wave, we get an
+ 
+
+931
+00:19:44,520 --> 00:19:47,710
+our positive exponential wave, we get an
+eigenvalue of negative E.
+
+932
+00:19:47,710 --> 00:19:47,720
+eigenvalue of negative E.
+ 
+
+933
+00:19:47,720 --> 00:19:50,830
+eigenvalue of negative E.
+This fact led Paul Dirac to propose that
+
+934
+00:19:50,830 --> 00:19:50,840
+This fact led Paul Dirac to propose that
+ 
+
+935
+00:19:50,840 --> 00:19:53,390
+This fact led Paul Dirac to propose that
+the U solutions were for ordinary matter
+
+936
+00:19:53,390 --> 00:19:53,400
+the U solutions were for ordinary matter
+ 
+
+937
+00:19:53,400 --> 00:19:56,510
+the U solutions were for ordinary matter
+particles and the V solutions were for
+
+938
+00:19:56,510 --> 00:19:56,520
+particles and the V solutions were for
+ 
+
+939
+00:19:56,520 --> 00:19:59,070
+particles and the V solutions were for
+an antiparticle with the exact same
+
+940
+00:19:59,070 --> 00:19:59,080
+an antiparticle with the exact same
+ 
+
+941
+00:19:59,080 --> 00:20:02,350
+an antiparticle with the exact same
+properties but with negative energy.
+
+942
+00:20:02,350 --> 00:20:02,360
+properties but with negative energy.
+ 
+
+943
+00:20:02,360 --> 00:20:04,150
+properties but with negative energy.
+This isn't exactly the correct
+
+944
+00:20:04,150 --> 00:20:04,160
+This isn't exactly the correct
+ 
+
+945
+00:20:04,160 --> 00:20:06,150
+This isn't exactly the correct
+interpretation according to modern
+
+946
+00:20:06,150 --> 00:20:06,160
+interpretation according to modern
+ 
+
+947
+00:20:06,160 --> 00:20:08,670
+interpretation according to modern
+views, but we'll come back to this idea
+
+948
+00:20:08,670 --> 00:20:08,680
+views, but we'll come back to this idea
+ 
+
+949
+00:20:08,680 --> 00:20:12,190
+views, but we'll come back to this idea
+of antimatter later.
+
+950
+00:20:12,190 --> 00:20:12,200
+of antimatter later.
+ 
+
+951
+00:20:12,200 --> 00:20:14,550
+of antimatter later.
+Also, one final comment on these
+
+952
+00:20:14,550 --> 00:20:14,560
+Also, one final comment on these
+ 
+
+953
+00:20:14,560 --> 00:20:17,230
+Also, one final comment on these
+solutions, you'll notice that all basic
+
+954
+00:20:17,230 --> 00:20:17,240
+solutions, you'll notice that all basic
+ 
+
+955
+00:20:17,240 --> 00:20:19,990
+solutions, you'll notice that all basic
+solutions combine both left chiral and
+
+956
+00:20:19,990 --> 00:20:20,000
+solutions combine both left chiral and
+ 
+
+957
+00:20:20,000 --> 00:20:23,110
+solutions combine both left chiral and
+right chiral spinners together.
+
+958
+00:20:23,110 --> 00:20:23,120
+right chiral spinners together.
+ 
+
+959
+00:20:23,120 --> 00:20:25,590
+right chiral spinners together.
+For massive Dirac particles, you will
+
+960
+00:20:25,590 --> 00:20:25,600
+For massive Dirac particles, you will
+ 
+
+961
+00:20:25,600 --> 00:20:28,110
+For massive Dirac particles, you will
+never see an individual left chiral or
+
+962
+00:20:28,110 --> 00:20:28,120
+never see an individual left chiral or
+ 
+
+963
+00:20:28,120 --> 00:20:31,310
+never see an individual left chiral or
+right chiral particle that's stable.
+
+964
+00:20:31,310 --> 00:20:31,320
+right chiral particle that's stable.
+ 
+
+965
+00:20:31,320 --> 00:20:34,310
+right chiral particle that's stable.
+They will always come in pairs.
+
+966
+00:20:34,310 --> 00:20:34,320
+They will always come in pairs.
+ 
+
+967
+00:20:34,320 --> 00:20:36,510
+They will always come in pairs.
+The only way to get an individual right
+
+968
+00:20:36,510 --> 00:20:36,520
+The only way to get an individual right
+ 
+
+969
+00:20:36,520 --> 00:20:39,910
+The only way to get an individual right
+chiral particle is to combine a U and V
+
+970
+00:20:39,910 --> 00:20:39,920
+chiral particle is to combine a U and V
+ 
+
+971
+00:20:39,920 --> 00:20:43,710
+chiral particle is to combine a U and V
+solution together in linear combination.
+
+972
+00:20:43,710 --> 00:20:43,720
+solution together in linear combination.
+ 
+
+973
+00:20:43,720 --> 00:20:45,910
+solution together in linear combination.
+However, this isolated right chiral
+
+974
+00:20:45,910 --> 00:20:45,920
+However, this isolated right chiral
+ 
+
+975
+00:20:45,920 --> 00:20:48,670
+However, this isolated right chiral
+particle only exists at time equals
+
+976
+00:20:48,670 --> 00:20:48,680
+particle only exists at time equals
+ 
+
+977
+00:20:48,680 --> 00:20:50,030
+particle only exists at time equals
+zero.
+
+978
+00:20:50,030 --> 00:20:50,040
+zero.
+ 
+
+979
+00:20:50,040 --> 00:20:52,590
+zero.
+As time moves on, we again get a
+
+980
+00:20:52,590 --> 00:20:52,600
+As time moves on, we again get a
+ 
+
+981
+00:20:52,600 --> 00:20:54,470
+As time moves on, we again get a
+combination of left and right chiral
+
+982
+00:20:54,470 --> 00:20:54,480
+combination of left and right chiral
+ 
+
+983
+00:20:54,480 --> 00:20:56,990
+combination of left and right chiral
+spinners and then later get a left
+
+984
+00:20:56,990 --> 00:20:57,000
+spinners and then later get a left
+ 
+
+985
+00:20:57,000 --> 00:20:59,630
+spinners and then later get a left
+chiral spinner on its own. And then
+
+986
+00:20:59,630 --> 00:20:59,640
+chiral spinner on its own. And then
+ 
+
+987
+00:20:59,640 --> 00:21:01,990
+chiral spinner on its own. And then
+later we return to a combination of left
+
+988
+00:21:01,990 --> 00:21:02,000
+later we return to a combination of left
+ 
+
+989
+00:21:02,000 --> 00:21:04,550
+later we return to a combination of left
+and right chiral spinners.
+
+990
+00:21:04,550 --> 00:21:04,560
+and right chiral spinners.
+ 
+
+991
+00:21:04,560 --> 00:21:06,630
+and right chiral spinners.
+So, this solution will oscillate between
+
+992
+00:21:06,630 --> 00:21:06,640
+So, this solution will oscillate between
+ 
+
+993
+00:21:06,640 --> 00:21:09,190
+So, this solution will oscillate between
+left and right chiral particles as time
+
+994
+00:21:09,190 --> 00:21:09,200
+left and right chiral particles as time
+ 
+
+995
+00:21:09,200 --> 00:21:12,270
+left and right chiral particles as time
+moves forward.
+
+996
+00:21:12,270 --> 00:21:12,280
+
+ 
+
+997
+00:21:12,280 --> 00:21:14,750
+
+Now, the solution we've just found can
+
+998
+00:21:14,750 --> 00:21:14,760
+Now, the solution we've just found can
+ 
+
+999
+00:21:14,760 --> 00:21:16,790
+Now, the solution we've just found can
+be thought of as a kind of stationary
+
+1000
+00:21:16,790 --> 00:21:16,800
+be thought of as a kind of stationary
+ 
+
+1001
+00:21:16,800 --> 00:21:17,990
+be thought of as a kind of stationary
+wave.
+
+1002
+00:21:17,990 --> 00:21:18,000
+wave.
+ 
+
+1003
+00:21:18,000 --> 00:21:20,630
+wave.
+On a spacetime diagram, the wave fronts
+
+1004
+00:21:20,630 --> 00:21:20,640
+On a spacetime diagram, the wave fronts
+ 
+
+1005
+00:21:20,640 --> 00:21:22,390
+On a spacetime diagram, the wave fronts
+would look like this.
+
+1006
+00:21:22,390 --> 00:21:22,400
+would look like this.
+ 
+
+1007
+00:21:22,400 --> 00:21:25,270
+would look like this.
+Oscillating over time but being the same
+
+1008
+00:21:25,270 --> 00:21:25,280
+Oscillating over time but being the same
+ 
+
+1009
+00:21:25,280 --> 00:21:28,910
+Oscillating over time but being the same
+across space everywhere in the universe.
+
+1010
+00:21:28,910 --> 00:21:28,920
+across space everywhere in the universe.
+ 
+
+1011
+00:21:28,920 --> 00:21:30,950
+across space everywhere in the universe.
+If we wanted to get a traveling wave
+
+1012
+00:21:30,950 --> 00:21:30,960
+If we wanted to get a traveling wave
+ 
+
+1013
+00:21:30,960 --> 00:21:33,750
+If we wanted to get a traveling wave
+solution to the Dirac equation, we could
+
+1014
+00:21:33,750 --> 00:21:33,760
+solution to the Dirac equation, we could
+ 
+
+1015
+00:21:33,760 --> 00:21:36,910
+solution to the Dirac equation, we could
+keep this solution and just do a Lorentz
+
+1016
+00:21:36,910 --> 00:21:36,920
+keep this solution and just do a Lorentz
+ 
+
+1017
+00:21:36,920 --> 00:21:39,710
+keep this solution and just do a Lorentz
+boost in the Z direction to change our
+
+1018
+00:21:39,710 --> 00:21:39,720
+boost in the Z direction to change our
+ 
+
+1019
+00:21:39,720 --> 00:21:42,070
+boost in the Z direction to change our
+frame of reference.
+
+1020
+00:21:42,070 --> 00:21:42,080
+frame of reference.
+ 
+
+1021
+00:21:42,080 --> 00:21:44,870
+frame of reference.
+In this new frame, a line of constant
+
+1022
+00:21:44,870 --> 00:21:44,880
+In this new frame, a line of constant
+ 
+
+1023
+00:21:44,880 --> 00:21:48,270
+In this new frame, a line of constant
+time will cut across many wave fronts.
+
+1024
+00:21:48,270 --> 00:21:48,280
+time will cut across many wave fronts.
+ 
+
+1025
+00:21:48,280 --> 00:21:53,230
+time will cut across many wave fronts.
+So, the wave number Kz will be non-zero.
+
+1026
+00:21:53,230 --> 00:21:53,240
+So, the wave number Kz will be non-zero.
+ 
+
+1027
+00:21:53,240 --> 00:21:55,430
+So, the wave number Kz will be non-zero.
+It might be hard to understand how a
+
+1028
+00:21:55,430 --> 00:21:55,440
+It might be hard to understand how a
+ 
+
+1029
+00:21:55,440 --> 00:21:57,870
+It might be hard to understand how a
+stationary wave can become a traveling
+
+1030
+00:21:57,870 --> 00:21:57,880
+stationary wave can become a traveling
+ 
+
+1031
+00:21:57,880 --> 00:22:01,990
+stationary wave can become a traveling
+wave due to a change in reference frame.
+
+1032
+00:22:01,990 --> 00:22:02,000
+wave due to a change in reference frame.
+ 
+
+1033
+00:22:02,000 --> 00:22:03,630
+wave due to a change in reference frame.
+But remember the relativity of
+
+1034
+00:22:03,630 --> 00:22:03,640
+But remember the relativity of
+ 
+
+1035
+00:22:03,640 --> 00:22:05,390
+But remember the relativity of
+simultaneity.
+
+1036
+00:22:05,390 --> 00:22:05,400
+simultaneity.
+ 
+
+1037
+00:22:05,400 --> 00:22:08,150
+simultaneity.
+In one frame, two distant points may
+
+1038
+00:22:08,150 --> 00:22:08,160
+In one frame, two distant points may
+ 
+
+1039
+00:22:08,160 --> 00:22:10,630
+In one frame, two distant points may
+appear to have the same wave value at
+
+1040
+00:22:10,630 --> 00:22:10,640
+appear to have the same wave value at
+ 
+
+1041
+00:22:10,640 --> 00:22:12,310
+appear to have the same wave value at
+the same time.
+
+1042
+00:22:12,310 --> 00:22:12,320
+the same time.
+ 
+
+1043
+00:22:12,320 --> 00:22:14,350
+the same time.
+But in another frame that's boosted
+
+1044
+00:22:14,350 --> 00:22:14,360
+But in another frame that's boosted
+ 
+
+1045
+00:22:14,360 --> 00:22:16,710
+But in another frame that's boosted
+relative to the first frame, the same
+
+1046
+00:22:16,710 --> 00:22:16,720
+relative to the first frame, the same
+ 
+
+1047
+00:22:16,720 --> 00:22:19,550
+relative to the first frame, the same
+two points may not have these values at
+
+1048
+00:22:19,550 --> 00:22:19,560
+two points may not have these values at
+ 
+
+1049
+00:22:19,560 --> 00:22:21,590
+two points may not have these values at
+the same time anymore.
+
+1050
+00:22:21,590 --> 00:22:21,600
+the same time anymore.
+ 
+
+1051
+00:22:21,600 --> 00:22:25,590
+the same time anymore.
+So, a traveling wave can appear.
+
+1052
+00:22:25,590 --> 00:22:25,600
+So, a traveling wave can appear.
+ 
+
+1053
+00:22:25,600 --> 00:22:28,150
+So, a traveling wave can appear.
+So, in order to get Dirac solutions that
+
+1054
+00:22:28,150 --> 00:22:28,160
+So, in order to get Dirac solutions that
+ 
+
+1055
+00:22:28,160 --> 00:22:30,430
+So, in order to get Dirac solutions that
+are traveling waves, let's take our
+
+1056
+00:22:30,430 --> 00:22:30,440
+are traveling waves, let's take our
+ 
+
+1057
+00:22:30,440 --> 00:22:33,110
+are traveling waves, let's take our
+stationary wave solution and boost it in
+
+1058
+00:22:33,110 --> 00:22:33,120
+stationary wave solution and boost it in
+ 
+
+1059
+00:22:33,120 --> 00:22:35,350
+stationary wave solution and boost it in
+the Z direction.
+
+1060
+00:22:35,350 --> 00:22:35,360
+the Z direction.
+ 
+
+1061
+00:22:35,360 --> 00:22:38,350
+the Z direction.
+This requires two steps. First, we do a
+
+1062
+00:22:38,350 --> 00:22:38,360
+This requires two steps. First, we do a
+ 
+
+1063
+00:22:38,360 --> 00:22:40,830
+This requires two steps. First, we do a
+boost on the spacetime wave portion
+
+1064
+00:22:40,830 --> 00:22:40,840
+boost on the spacetime wave portion
+ 
+
+1065
+00:22:40,840 --> 00:22:42,830
+boost on the spacetime wave portion
+involving the wave vector K and
+
+1066
+00:22:42,830 --> 00:22:42,840
+involving the wave vector K and
+ 
+
+1067
+00:22:42,840 --> 00:22:45,590
+involving the wave vector K and
+spacetime coordinates X, and then we do
+
+1068
+00:22:45,590 --> 00:22:45,600
+spacetime coordinates X, and then we do
+ 
+
+1069
+00:22:45,600 --> 00:22:49,070
+spacetime coordinates X, and then we do
+a boost on the constant Dirac spinner.
+
+1070
+00:22:49,070 --> 00:22:49,080
+a boost on the constant Dirac spinner.
+ 
+
+1071
+00:22:49,080 --> 00:22:51,070
+a boost on the constant Dirac spinner.
+Let's start with boosting the spacetime
+
+1072
+00:22:51,070 --> 00:22:51,080
+Let's start with boosting the spacetime
+ 
+
+1073
+00:22:51,080 --> 00:22:52,710
+Let's start with boosting the spacetime
+wave part.
+
+1074
+00:22:52,710 --> 00:22:52,720
+wave part.
+ 
+
+1075
+00:22:52,720 --> 00:22:55,190
+wave part.
+Recall that a Lorentz boost is just a
+
+1076
+00:22:55,190 --> 00:22:55,200
+Recall that a Lorentz boost is just a
+ 
+
+1077
+00:22:55,200 --> 00:22:57,710
+Recall that a Lorentz boost is just a
+hyperbolic rotation.
+
+1078
+00:22:57,710 --> 00:22:57,720
+hyperbolic rotation.
+ 
+
+1079
+00:22:57,720 --> 00:23:00,070
+hyperbolic rotation.
+So, to boost our basis vectors in the
+
+1080
+00:23:00,070 --> 00:23:00,080
+So, to boost our basis vectors in the
+ 
+
+1081
+00:23:00,080 --> 00:23:03,270
+So, to boost our basis vectors in the
+plus Z direction, we use hyperbolic trig
+
+1082
+00:23:03,270 --> 00:23:03,280
+plus Z direction, we use hyperbolic trig
+ 
+
+1083
+00:23:03,280 --> 00:23:06,070
+plus Z direction, we use hyperbolic trig
+functions with a boost angle phi as
+
+1084
+00:23:06,070 --> 00:23:06,080
+functions with a boost angle phi as
+ 
+
+1085
+00:23:06,080 --> 00:23:09,270
+functions with a boost angle phi as
+coefficients on the ET and EZ basis
+
+1086
+00:23:09,270 --> 00:23:09,280
+coefficients on the ET and EZ basis
+ 
+
+1087
+00:23:09,280 --> 00:23:10,710
+coefficients on the ET and EZ basis
+vectors.
+
+1088
+00:23:10,710 --> 00:23:10,720
+vectors.
+ 
+
+1089
+00:23:10,720 --> 00:23:12,750
+vectors.
+This transformation can also be written
+
+1090
+00:23:12,750 --> 00:23:12,760
+This transformation can also be written
+ 
+
+1091
+00:23:12,760 --> 00:23:15,590
+This transformation can also be written
+with the basis vectors in a row and this
+
+1092
+00:23:15,590 --> 00:23:15,600
+with the basis vectors in a row and this
+ 
+
+1093
+00:23:15,600 --> 00:23:18,710
+with the basis vectors in a row and this
+transformation matrix.
+
+1094
+00:23:18,710 --> 00:23:18,720
+transformation matrix.
+ 
+
+1095
+00:23:18,720 --> 00:23:21,669
+transformation matrix.
+Since the wave covector K has lower
+
+1096
+00:23:21,669 --> 00:23:21,679
+Since the wave covector K has lower
+ 
+
+1097
+00:23:21,679 --> 00:23:24,430
+Since the wave covector K has lower
+indices just like the basis vectors, it
+
+1098
+00:23:24,430 --> 00:23:24,440
+indices just like the basis vectors, it
+ 
+
+1099
+00:23:24,440 --> 00:23:26,350
+indices just like the basis vectors, it
+will also transform with the same
+
+1100
+00:23:26,350 --> 00:23:26,360
+will also transform with the same
+ 
+
+1101
+00:23:26,360 --> 00:23:28,669
+will also transform with the same
+matrix.
+
+1102
+00:23:28,669 --> 00:23:28,679
+matrix.
+ 
+
+1103
+00:23:28,679 --> 00:23:30,430
+matrix.
+The spacetime coordinates have upper
+
+1104
+00:23:30,430 --> 00:23:30,440
+The spacetime coordinates have upper
+ 
+
+1105
+00:23:30,440 --> 00:23:32,790
+The spacetime coordinates have upper
+indices and so they are written in a
+
+1106
+00:23:32,790 --> 00:23:32,800
+indices and so they are written in a
+ 
+
+1107
+00:23:32,800 --> 00:23:35,190
+indices and so they are written in a
+column and they transform with the
+
+1108
+00:23:35,190 --> 00:23:35,200
+column and they transform with the
+ 
+
+1109
+00:23:35,200 --> 00:23:37,990
+column and they transform with the
+inverse matrix which has the negative of
+
+1110
+00:23:37,990 --> 00:23:38,000
+inverse matrix which has the negative of
+ 
+
+1111
+00:23:38,000 --> 00:23:40,830
+inverse matrix which has the negative of
+the hyperbolic angle.
+
+1112
+00:23:40,830 --> 00:23:40,840
+the hyperbolic angle.
+ 
+
+1113
+00:23:40,840 --> 00:23:42,510
+the hyperbolic angle.
+So, now we know how to transform the
+
+1114
+00:23:42,510 --> 00:23:42,520
+So, now we know how to transform the
+ 
+
+1115
+00:23:42,520 --> 00:23:46,230
+So, now we know how to transform the
+components in the spacetime wave.
+
+1116
+00:23:46,230 --> 00:23:46,240
+components in the spacetime wave.
+ 
+
+1117
+00:23:46,240 --> 00:23:48,950
+components in the spacetime wave.
+Now, to Lorentz boost the Dirac spinner,
+
+1118
+00:23:48,950 --> 00:23:48,960
+Now, to Lorentz boost the Dirac spinner,
+ 
+
+1119
+00:23:48,960 --> 00:23:50,910
+Now, to Lorentz boost the Dirac spinner,
+we're going to have to recall from video
+
+1120
+00:23:50,910 --> 00:23:50,920
+we're going to have to recall from video
+ 
+
+1121
+00:23:50,920 --> 00:23:53,710
+we're going to have to recall from video
+22 that another way to represent a
+
+1122
+00:23:53,710 --> 00:23:53,720
+22 that another way to represent a
+ 
+
+1123
+00:23:53,720 --> 00:23:55,910
+22 that another way to represent a
+four-vector is to use a linear
+
+1124
+00:23:55,910 --> 00:23:55,920
+four-vector is to use a linear
+ 
+
+1125
+00:23:55,920 --> 00:23:58,390
+four-vector is to use a linear
+combination of the gammas as basis
+
+1126
+00:23:58,390 --> 00:23:58,400
+combination of the gammas as basis
+ 
+
+1127
+00:23:58,400 --> 00:24:02,270
+combination of the gammas as basis
+vectors which gives this matrix here.
+
+1128
+00:24:02,270 --> 00:24:02,280
+vectors which gives this matrix here.
+ 
+
+1129
+00:24:02,280 --> 00:24:04,510
+vectors which gives this matrix here.
+And to Lorentz boost this in the Z
+
+1130
+00:24:04,510 --> 00:24:04,520
+And to Lorentz boost this in the Z
+ 
+
+1131
+00:24:04,520 --> 00:24:06,790
+And to Lorentz boost this in the Z
+direction, we use a double-sided
+
+1132
+00:24:06,790 --> 00:24:06,800
+direction, we use a double-sided
+ 
+
+1133
+00:24:06,800 --> 00:24:09,790
+direction, we use a double-sided
+transformation involving exponentials of
+
+1134
+00:24:09,790 --> 00:24:09,800
+transformation involving exponentials of
+ 
+
+1135
+00:24:09,800 --> 00:24:12,830
+transformation involving exponentials of
+a half angle and the time Z gamma
+
+1136
+00:24:12,830 --> 00:24:12,840
+a half angle and the time Z gamma
+ 
+
+1137
+00:24:12,840 --> 00:24:15,350
+a half angle and the time Z gamma
+bivector.
+
+1138
+00:24:15,350 --> 00:24:15,360
+bivector.
+ 
+
+1139
+00:24:15,360 --> 00:24:17,510
+bivector.
+A Dirac spinner is an object that
+
+1140
+00:24:17,510 --> 00:24:17,520
+A Dirac spinner is an object that
+ 
+
+1141
+00:24:17,520 --> 00:24:19,990
+A Dirac spinner is an object that
+Lorentz boosts with only a one-sided
+
+1142
+00:24:19,990 --> 00:24:20,000
+Lorentz boosts with only a one-sided
+ 
+
+1143
+00:24:20,000 --> 00:24:23,830
+Lorentz boosts with only a one-sided
+exponential transformation.
+
+1144
+00:24:23,830 --> 00:24:23,840
+
+ 
+
+1145
+00:24:23,840 --> 00:24:27,590
+
+In the chiral basis, the time Z bivector
+
+1146
+00:24:27,590 --> 00:24:27,600
+In the chiral basis, the time Z bivector
+ 
+
+1147
+00:24:27,600 --> 00:24:31,830
+In the chiral basis, the time Z bivector
+is a block diagonal matrix of sigma Zs.
+
+1148
+00:24:31,830 --> 00:24:31,840
+is a block diagonal matrix of sigma Zs.
+ 
+
+1149
+00:24:31,840 --> 00:24:33,630
+is a block diagonal matrix of sigma Zs.
+And this turns out to be a fully
+
+1150
+00:24:33,630 --> 00:24:33,640
+And this turns out to be a fully
+ 
+
+1151
+00:24:33,640 --> 00:24:35,910
+And this turns out to be a fully
+diagonal matrix.
+
+1152
+00:24:35,910 --> 00:24:35,920
+diagonal matrix.
+ 
+
+1153
+00:24:35,920 --> 00:24:38,150
+diagonal matrix.
+This is useful because the exponential
+
+1154
+00:24:38,150 --> 00:24:38,160
+This is useful because the exponential
+ 
+
+1155
+00:24:38,160 --> 00:24:41,190
+This is useful because the exponential
+of a diagonal matrix is equal to just
+
+1156
+00:24:41,190 --> 00:24:41,200
+of a diagonal matrix is equal to just
+ 
+
+1157
+00:24:41,200 --> 00:24:43,590
+of a diagonal matrix is equal to just
+taking the exponentials of the diagonal
+
+1158
+00:24:43,590 --> 00:24:43,600
+taking the exponentials of the diagonal
+ 
+
+1159
+00:24:43,600 --> 00:24:45,669
+taking the exponentials of the diagonal
+elements.
+
+1160
+00:24:45,669 --> 00:24:45,679
+elements.
+ 
+
+1161
+00:24:45,679 --> 00:24:47,990
+elements.
+So, we can see the four-component Dirac
+
+1162
+00:24:47,990 --> 00:24:48,000
+So, we can see the four-component Dirac
+ 
+
+1163
+00:24:48,000 --> 00:24:51,070
+So, we can see the four-component Dirac
+spinner is boosted in the Z direction
+
+1164
+00:24:51,070 --> 00:24:51,080
+spinner is boosted in the Z direction
+ 
+
+1165
+00:24:51,080 --> 00:24:53,230
+spinner is boosted in the Z direction
+simply by multiplying its components
+
+1166
+00:24:53,230 --> 00:24:53,240
+simply by multiplying its components
+ 
+
+1167
+00:24:53,240 --> 00:24:56,669
+simply by multiplying its components
+with these exponentials.
+
+1168
+00:24:56,669 --> 00:24:56,679
+with these exponentials.
+ 
+
+1169
+00:24:56,679 --> 00:24:59,669
+with these exponentials.
+Now, while this answer is correct, there
+
+1170
+00:24:59,669 --> 00:24:59,679
+Now, while this answer is correct, there
+ 
+
+1171
+00:24:59,679 --> 00:25:02,270
+Now, while this answer is correct, there
+are many equivalent ways of writing this
+
+1172
+00:25:02,270 --> 00:25:02,280
+are many equivalent ways of writing this
+ 
+
+1173
+00:25:02,280 --> 00:25:05,070
+are many equivalent ways of writing this
+Z boosted spinner that are used across
+
+1174
+00:25:05,070 --> 00:25:05,080
+Z boosted spinner that are used across
+ 
+
+1175
+00:25:05,080 --> 00:25:06,750
+Z boosted spinner that are used across
+different sources.
+
+1176
+00:25:06,750 --> 00:25:06,760
+different sources.
+ 
+
+1177
+00:25:06,760 --> 00:25:08,590
+different sources.
+So, I'm going to spend a few minutes
+
+1178
+00:25:08,590 --> 00:25:08,600
+So, I'm going to spend a few minutes
+ 
+
+1179
+00:25:08,600 --> 00:25:12,630
+So, I'm going to spend a few minutes
+rewriting this answer in different ways.
+
+1180
+00:25:12,630 --> 00:25:12,640
+rewriting this answer in different ways.
+ 
+
+1181
+00:25:12,640 --> 00:25:15,230
+rewriting this answer in different ways.
+First off, this exponential of a half
+
+1182
+00:25:15,230 --> 00:25:15,240
+First off, this exponential of a half
+ 
+
+1183
+00:25:15,240 --> 00:25:17,350
+First off, this exponential of a half
+angle can be rewritten as the
+
+1184
+00:25:17,350 --> 00:25:17,360
+angle can be rewritten as the
+ 
+
+1185
+00:25:17,360 --> 00:25:19,990
+angle can be rewritten as the
+exponential of the full angle all to the
+
+1186
+00:25:19,990 --> 00:25:20,000
+exponential of the full angle all to the
+ 
+
+1187
+00:25:20,000 --> 00:25:22,070
+exponential of the full angle all to the
+power of 1/2.
+
+1188
+00:25:22,070 --> 00:25:22,080
+power of 1/2.
+ 
+
+1189
+00:25:22,080 --> 00:25:24,710
+power of 1/2.
+And a 1/2 exponent is the same thing as
+
+1190
+00:25:24,710 --> 00:25:24,720
+And a 1/2 exponent is the same thing as
+ 
+
+1191
+00:25:24,720 --> 00:25:26,950
+And a 1/2 exponent is the same thing as
+a square root.
+
+1192
+00:25:26,950 --> 00:25:26,960
+a square root.
+ 
+
+1193
+00:25:26,960 --> 00:25:29,310
+a square root.
+And recall, just as a complex
+
+1194
+00:25:29,310 --> 00:25:29,320
+And recall, just as a complex
+ 
+
+1195
+00:25:29,320 --> 00:25:31,550
+And recall, just as a complex
+exponential can be rewritten using
+
+1196
+00:25:31,550 --> 00:25:31,560
+exponential can be rewritten using
+ 
+
+1197
+00:25:31,560 --> 00:25:34,910
+exponential can be rewritten using
+cosine and sine, a real exponential can
+
+1198
+00:25:34,910 --> 00:25:34,920
+cosine and sine, a real exponential can
+ 
+
+1199
+00:25:34,920 --> 00:25:37,590
+cosine and sine, a real exponential can
+be rewritten using hyperbolic cosine and
+
+1200
+00:25:37,590 --> 00:25:37,600
+be rewritten using hyperbolic cosine and
+ 
+
+1201
+00:25:37,600 --> 00:25:40,310
+be rewritten using hyperbolic cosine and
+hyperbolic sine.
+
+1202
+00:25:40,310 --> 00:25:40,320
+hyperbolic sine.
+ 
+
+1203
+00:25:40,320 --> 00:25:43,190
+hyperbolic sine.
+Now, we can understand cosh and sinh
+
+1204
+00:25:43,190 --> 00:25:43,200
+Now, we can understand cosh and sinh
+ 
+
+1205
+00:25:43,200 --> 00:25:45,550
+Now, we can understand cosh and sinh
+better by looking at right angle
+
+1206
+00:25:45,550 --> 00:25:45,560
+better by looking at right angle
+ 
+
+1207
+00:25:45,560 --> 00:25:48,390
+better by looking at right angle
+triangles in the time Z plane in
+
+1208
+00:25:48,390 --> 00:25:48,400
+triangles in the time Z plane in
+ 
+
+1209
+00:25:48,400 --> 00:25:49,950
+triangles in the time Z plane in
+spacetime
+
+1210
+00:25:49,950 --> 00:25:49,960
+spacetime
+ 
+
+1211
+00:25:49,960 --> 00:25:52,590
+spacetime
+which obey a Minkowski Pythagoras
+
+1212
+00:25:52,590 --> 00:25:52,600
+which obey a Minkowski Pythagoras
+ 
+
+1213
+00:25:52,600 --> 00:25:56,190
+which obey a Minkowski Pythagoras
+formula that uses a minus sign.
+
+1214
+00:25:56,190 --> 00:25:56,200
+formula that uses a minus sign.
+ 
+
+1215
+00:25:56,200 --> 00:25:58,590
+formula that uses a minus sign.
+For example, time squared minus Z
+
+1216
+00:25:58,590 --> 00:25:58,600
+For example, time squared minus Z
+ 
+
+1217
+00:25:58,600 --> 00:26:01,070
+For example, time squared minus Z
+squared equals the spacetime interval S
+
+1218
+00:26:01,070 --> 00:26:01,080
+squared equals the spacetime interval S
+ 
+
+1219
+00:26:01,080 --> 00:26:02,550
+squared equals the spacetime interval S
+squared.
+
+1220
+00:26:02,550 --> 00:26:02,560
+squared.
+ 
+
+1221
+00:26:02,560 --> 00:26:04,950
+squared.
+Also, Einstein's energy-momentum-mass
+
+1222
+00:26:04,950 --> 00:26:04,960
+Also, Einstein's energy-momentum-mass
+ 
+
+1223
+00:26:04,960 --> 00:26:07,590
+Also, Einstein's energy-momentum-mass
+relation tells us energy squared minus
+
+1224
+00:26:07,590 --> 00:26:07,600
+relation tells us energy squared minus
+ 
+
+1225
+00:26:07,600 --> 00:26:11,030
+relation tells us energy squared minus
+momentum squared equals mass squared.
+
+1226
+00:26:11,030 --> 00:26:11,040
+momentum squared equals mass squared.
+ 
+
+1227
+00:26:11,040 --> 00:26:13,070
+momentum squared equals mass squared.
+And finally, the dispersion relation
+
+1228
+00:26:13,070 --> 00:26:13,080
+And finally, the dispersion relation
+ 
+
+1229
+00:26:13,080 --> 00:26:15,470
+And finally, the dispersion relation
+tells us that frequency squared minus
+
+1230
+00:26:15,470 --> 00:26:15,480
+tells us that frequency squared minus
+ 
+
+1231
+00:26:15,480 --> 00:26:18,190
+tells us that frequency squared minus
+wave number squared equals mass over H
+
+1232
+00:26:18,190 --> 00:26:18,200
+wave number squared equals mass over H
+ 
+
+1233
+00:26:18,200 --> 00:26:20,990
+wave number squared equals mass over H
+bar all squared.
+
+1234
+00:26:20,990 --> 00:26:21,000
+bar all squared.
+ 
+
+1235
+00:26:21,000 --> 00:26:23,790
+bar all squared.
+In each of these three triangle cases,
+
+1236
+00:26:23,790 --> 00:26:23,800
+In each of these three triangle cases,
+ 
+
+1237
+00:26:23,800 --> 00:26:26,669
+In each of these three triangle cases,
+we can write cosh as adjacent over
+
+1238
+00:26:26,669 --> 00:26:26,679
+we can write cosh as adjacent over
+ 
+
+1239
+00:26:26,679 --> 00:26:30,150
+we can write cosh as adjacent over
+hypotenuse and sinh as opposite over
+
+1240
+00:26:30,150 --> 00:26:30,160
+hypotenuse and sinh as opposite over
+ 
+
+1241
+00:26:30,160 --> 00:26:33,030
+hypotenuse and sinh as opposite over
+hypotenuse.
+
+1242
+00:26:33,030 --> 00:26:33,040
+hypotenuse.
+ 
+
+1243
+00:26:33,040 --> 00:26:35,190
+hypotenuse.
+So, since our spacetime wave is
+
+1244
+00:26:35,190 --> 00:26:35,200
+So, since our spacetime wave is
+ 
+
+1245
+00:26:35,200 --> 00:26:38,030
+So, since our spacetime wave is
+described by a wave vector, it can be
+
+1246
+00:26:38,030 --> 00:26:38,040
+described by a wave vector, it can be
+ 
+
+1247
+00:26:38,040 --> 00:26:40,070
+described by a wave vector, it can be
+helpful to rewrite these expressions
+
+1248
+00:26:40,070 --> 00:26:40,080
+helpful to rewrite these expressions
+ 
+
+1249
+00:26:40,080 --> 00:26:43,190
+helpful to rewrite these expressions
+with hyperbolic angles using frequency
+
+1250
+00:26:43,190 --> 00:26:43,200
+with hyperbolic angles using frequency
+ 
+
+1251
+00:26:43,200 --> 00:26:45,830
+with hyperbolic angles using frequency
+and wave number.
+
+1252
+00:26:45,830 --> 00:26:45,840
+and wave number.
+ 
+
+1253
+00:26:45,840 --> 00:26:49,230
+and wave number.
+Or if we multiply by a factor of H bar,
+
+1254
+00:26:49,230 --> 00:26:49,240
+Or if we multiply by a factor of H bar,
+ 
+
+1255
+00:26:49,240 --> 00:26:53,390
+Or if we multiply by a factor of H bar,
+we can use energy and momentum.
+
+1256
+00:26:53,390 --> 00:26:53,400
+we can use energy and momentum.
+ 
+
+1257
+00:26:53,400 --> 00:26:55,870
+we can use energy and momentum.
+So, our Z boosted spinner components can
+
+1258
+00:26:55,870 --> 00:26:55,880
+So, our Z boosted spinner components can
+ 
+
+1259
+00:26:55,880 --> 00:26:59,710
+So, our Z boosted spinner components can
+be written like this.
+
+1260
+00:26:59,710 --> 00:26:59,720
+
+ 
+
+1261
+00:26:59,720 --> 00:27:02,030
+
+Now, let's look at yet another way of
+
+1262
+00:27:02,030 --> 00:27:02,040
+Now, let's look at yet another way of
+ 
+
+1263
+00:27:02,040 --> 00:27:04,750
+Now, let's look at yet another way of
+writing this boost matrix. This time
+
+1264
+00:27:04,750 --> 00:27:04,760
+writing this boost matrix. This time
+ 
+
+1265
+00:27:04,760 --> 00:27:07,070
+writing this boost matrix. This time
+looking at half angle exponentials that
+
+1266
+00:27:07,070 --> 00:27:07,080
+looking at half angle exponentials that
+ 
+
+1267
+00:27:07,080 --> 00:27:09,630
+looking at half angle exponentials that
+include sigma Z.
+
+1268
+00:27:09,630 --> 00:27:09,640
+include sigma Z.
+ 
+
+1269
+00:27:09,640 --> 00:27:11,910
+include sigma Z.
+Since sigma Z squares to the identity
+
+1270
+00:27:11,910 --> 00:27:11,920
+Since sigma Z squares to the identity
+ 
+
+1271
+00:27:11,920 --> 00:27:13,950
+Since sigma Z squares to the identity
+matrix, which is like the positive
+
+1272
+00:27:13,950 --> 00:27:13,960
+matrix, which is like the positive
+ 
+
+1273
+00:27:13,960 --> 00:27:16,470
+matrix, which is like the positive
+number one, we can rewrite this using
+
+1274
+00:27:16,470 --> 00:27:16,480
+number one, we can rewrite this using
+ 
+
+1275
+00:27:16,480 --> 00:27:19,510
+number one, we can rewrite this using
+the hyperbolic Euler's formula placing
+
+1276
+00:27:19,510 --> 00:27:19,520
+the hyperbolic Euler's formula placing
+ 
+
+1277
+00:27:19,520 --> 00:27:21,710
+the hyperbolic Euler's formula placing
+sigma Z where the complex I would
+
+1278
+00:27:21,710 --> 00:27:21,720
+sigma Z where the complex I would
+ 
+
+1279
+00:27:21,720 --> 00:27:24,150
+sigma Z where the complex I would
+normally go.
+
+1280
+00:27:24,150 --> 00:27:24,160
+normally go.
+ 
+
+1281
+00:27:24,160 --> 00:27:26,590
+normally go.
+Now, these half angle hyperbolic trig
+
+1282
+00:27:26,590 --> 00:27:26,600
+Now, these half angle hyperbolic trig
+ 
+
+1283
+00:27:26,600 --> 00:27:29,270
+Now, these half angle hyperbolic trig
+functions obey these trig identities
+
+1284
+00:27:29,270 --> 00:27:29,280
+functions obey these trig identities
+ 
+
+1285
+00:27:29,280 --> 00:27:32,990
+functions obey these trig identities
+here that you can look up on Wikipedia.
+
+1286
+00:27:32,990 --> 00:27:33,000
+here that you can look up on Wikipedia.
+ 
+
+1287
+00:27:33,000 --> 00:27:35,590
+here that you can look up on Wikipedia.
+And these involve hyperbolic cosine of
+
+1288
+00:27:35,590 --> 00:27:35,600
+And these involve hyperbolic cosine of
+ 
+
+1289
+00:27:35,600 --> 00:27:38,470
+And these involve hyperbolic cosine of
+the full angle phi.
+
+1290
+00:27:38,470 --> 00:27:38,480
+the full angle phi.
+ 
+
+1291
+00:27:38,480 --> 00:27:40,190
+the full angle phi.
+We've already seen that we can write
+
+1292
+00:27:40,190 --> 00:27:40,200
+We've already seen that we can write
+ 
+
+1293
+00:27:40,200 --> 00:27:42,870
+We've already seen that we can write
+cosh of phi using adjacent over
+
+1294
+00:27:42,870 --> 00:27:42,880
+cosh of phi using adjacent over
+ 
+
+1295
+00:27:42,880 --> 00:27:44,750
+cosh of phi using adjacent over
+hypotenuse.
+
+1296
+00:27:44,750 --> 00:27:44,760
+hypotenuse.
+ 
+
+1297
+00:27:44,760 --> 00:27:46,669
+hypotenuse.
+And if we write the number one as
+
+1298
+00:27:46,669 --> 00:27:46,679
+And if we write the number one as
+ 
+
+1299
+00:27:46,679 --> 00:27:49,110
+And if we write the number one as
+hypotenuse over hypotenuse, we can
+
+1300
+00:27:49,110 --> 00:27:49,120
+hypotenuse over hypotenuse, we can
+ 
+
+1301
+00:27:49,120 --> 00:27:51,070
+hypotenuse over hypotenuse, we can
+factor out one over the square root of
+
+1302
+00:27:51,070 --> 00:27:51,080
+factor out one over the square root of
+ 
+
+1303
+00:27:51,080 --> 00:27:53,910
+factor out one over the square root of
+the hypotenuse in front.
+
+1304
+00:27:53,910 --> 00:27:53,920
+the hypotenuse in front.
+ 
+
+1305
+00:27:53,920 --> 00:27:56,470
+the hypotenuse in front.
+For sinh of a half angle, we get a
+
+1306
+00:27:56,470 --> 00:27:56,480
+For sinh of a half angle, we get a
+ 
+
+1307
+00:27:56,480 --> 00:27:59,990
+For sinh of a half angle, we get a
+similar formula but with a minus sign.
+
+1308
+00:27:59,990 --> 00:28:00,000
+similar formula but with a minus sign.
+ 
+
+1309
+00:28:00,000 --> 00:28:02,750
+similar formula but with a minus sign.
+Also, note that because sinh can be
+
+1310
+00:28:02,750 --> 00:28:02,760
+Also, note that because sinh can be
+ 
+
+1311
+00:28:02,760 --> 00:28:05,310
+Also, note that because sinh can be
+negative, the plus or minus sign of this
+
+1312
+00:28:05,310 --> 00:28:05,320
+negative, the plus or minus sign of this
+ 
+
+1313
+00:28:05,320 --> 00:28:07,750
+negative, the plus or minus sign of this
+square root should have the same sign as
+
+1314
+00:28:07,750 --> 00:28:07,760
+square root should have the same sign as
+ 
+
+1315
+00:28:07,760 --> 00:28:10,190
+square root should have the same sign as
+phi. But I'm not going to bother writing
+
+1316
+00:28:10,190 --> 00:28:10,200
+phi. But I'm not going to bother writing
+ 
+
+1317
+00:28:10,200 --> 00:28:12,230
+phi. But I'm not going to bother writing
+this plus or minus sign explicitly for
+
+1318
+00:28:12,230 --> 00:28:12,240
+this plus or minus sign explicitly for
+ 
+
+1319
+00:28:12,240 --> 00:28:15,150
+this plus or minus sign explicitly for
+the rest of the video.
+
+1320
+00:28:15,150 --> 00:28:15,160
+the rest of the video.
+ 
+
+1321
+00:28:15,160 --> 00:28:17,550
+the rest of the video.
+We can apply this formula to the case of
+
+1322
+00:28:17,550 --> 00:28:17,560
+We can apply this formula to the case of
+ 
+
+1323
+00:28:17,560 --> 00:28:20,630
+We can apply this formula to the case of
+the energy-momentum-mass triangle
+
+1324
+00:28:20,630 --> 00:28:20,640
+the energy-momentum-mass triangle
+ 
+
+1325
+00:28:20,640 --> 00:28:23,310
+the energy-momentum-mass triangle
+or the frequency-wave number-mass over H
+
+1326
+00:28:23,310 --> 00:28:23,320
+or the frequency-wave number-mass over H
+ 
+
+1327
+00:28:23,320 --> 00:28:26,190
+or the frequency-wave number-mass over H
+bar triangle.
+
+1328
+00:28:26,190 --> 00:28:26,200
+bar triangle.
+ 
+
+1329
+00:28:26,200 --> 00:28:28,590
+bar triangle.
+So, knowing all of these hyperbolic trig
+
+1330
+00:28:28,590 --> 00:28:28,600
+So, knowing all of these hyperbolic trig
+ 
+
+1331
+00:28:28,600 --> 00:28:31,230
+So, knowing all of these hyperbolic trig
+identities here, we can rewrite our Z
+
+1332
+00:28:31,230 --> 00:28:31,240
+identities here, we can rewrite our Z
+ 
+
+1333
+00:28:31,240 --> 00:28:34,710
+identities here, we can rewrite our Z
+boosted spinner like this.
+
+1334
+00:28:34,710 --> 00:28:34,720
+boosted spinner like this.
+ 
+
+1335
+00:28:34,720 --> 00:28:36,870
+boosted spinner like this.
+As an exercise, you can check that these
+
+1336
+00:28:36,870 --> 00:28:36,880
+As an exercise, you can check that these
+ 
+
+1337
+00:28:36,880 --> 00:28:40,030
+As an exercise, you can check that these
+solutions satisfy the Dirac equation in
+
+1338
+00:28:40,030 --> 00:28:40,040
+solutions satisfy the Dirac equation in
+ 
+
+1339
+00:28:40,040 --> 00:28:42,149
+solutions satisfy the Dirac equation in
+the special case where the X and Y terms
+
+1340
+00:28:42,149 --> 00:28:42,159
+the special case where the X and Y terms
+ 
+
+1341
+00:28:42,159 --> 00:28:44,830
+the special case where the X and Y terms
+go to zero.
+
+1342
+00:28:44,830 --> 00:28:44,840
+go to zero.
+ 
+
+1343
+00:28:44,840 --> 00:28:47,390
+go to zero.
+Now, I realize this most recent boost
+
+1344
+00:28:47,390 --> 00:28:47,400
+Now, I realize this most recent boost
+ 
+
+1345
+00:28:47,400 --> 00:28:50,430
+Now, I realize this most recent boost
+formula looks pretty ugly, but it does
+
+1346
+00:28:50,430 --> 00:28:50,440
+formula looks pretty ugly, but it does
+ 
+
+1347
+00:28:50,440 --> 00:28:52,790
+formula looks pretty ugly, but it does
+have an advantage.
+
+1348
+00:28:52,790 --> 00:28:52,800
+have an advantage.
+ 
+
+1349
+00:28:52,800 --> 00:28:54,830
+have an advantage.
+Let's say that we pick some arbitrary
+
+1350
+00:28:54,830 --> 00:28:54,840
+Let's say that we pick some arbitrary
+ 
+
+1351
+00:28:54,840 --> 00:28:57,630
+Let's say that we pick some arbitrary
+boost direction B given by a linear
+
+1352
+00:28:57,630 --> 00:28:57,640
+boost direction B given by a linear
+ 
+
+1353
+00:28:57,640 --> 00:29:00,350
+boost direction B given by a linear
+combination of the gamma X, gamma Y, and
+
+1354
+00:29:00,350 --> 00:29:00,360
+combination of the gamma X, gamma Y, and
+ 
+
+1355
+00:29:00,360 --> 00:29:02,630
+combination of the gamma X, gamma Y, and
+gamma Z vectors.
+
+1356
+00:29:02,630 --> 00:29:02,640
+gamma Z vectors.
+ 
+
+1357
+00:29:02,640 --> 00:29:04,669
+gamma Z vectors.
+And let's say that this boost direction
+
+1358
+00:29:04,669 --> 00:29:04,679
+And let's say that this boost direction
+ 
+
+1359
+00:29:04,679 --> 00:29:07,870
+And let's say that this boost direction
+vector B has length one.
+
+1360
+00:29:07,870 --> 00:29:07,880
+vector B has length one.
+ 
+
+1361
+00:29:07,880 --> 00:29:09,669
+vector B has length one.
+Since we're going to be using this boost
+
+1362
+00:29:09,669 --> 00:29:09,679
+Since we're going to be using this boost
+ 
+
+1363
+00:29:09,679 --> 00:29:11,909
+Since we're going to be using this boost
+direction vector a lot, I'm going to
+
+1364
+00:29:11,909 --> 00:29:11,919
+direction vector a lot, I'm going to
+ 
+
+1365
+00:29:11,919 --> 00:29:14,430
+direction vector a lot, I'm going to
+rewrite the components of B using the
+
+1366
+00:29:14,430 --> 00:29:14,440
+rewrite the components of B using the
+ 
+
+1367
+00:29:14,440 --> 00:29:16,790
+rewrite the components of B using the
+letter N to remind ourselves that the
+
+1368
+00:29:16,790 --> 00:29:16,800
+letter N to remind ourselves that the
+ 
+
+1369
+00:29:16,800 --> 00:29:20,909
+letter N to remind ourselves that the
+vector is normalized with length one.
+
+1370
+00:29:20,909 --> 00:29:20,919
+vector is normalized with length one.
+ 
+
+1371
+00:29:20,919 --> 00:29:23,230
+vector is normalized with length one.
+If we calculate the spinner boost matrix
+
+1372
+00:29:23,230 --> 00:29:23,240
+If we calculate the spinner boost matrix
+ 
+
+1373
+00:29:23,240 --> 00:29:25,470
+If we calculate the spinner boost matrix
+for this direction B,
+
+1374
+00:29:25,470 --> 00:29:25,480
+for this direction B,
+ 
+
+1375
+00:29:25,480 --> 00:29:27,909
+for this direction B,
+we see that we get this exact same type
+
+1376
+00:29:27,909 --> 00:29:27,919
+we see that we get this exact same type
+ 
+
+1377
+00:29:27,919 --> 00:29:31,270
+we see that we get this exact same type
+of block diagonal matrix that we saw for
+
+1378
+00:29:31,270 --> 00:29:31,280
+of block diagonal matrix that we saw for
+ 
+
+1379
+00:29:31,280 --> 00:29:33,190
+of block diagonal matrix that we saw for
+sigma Z.
+
+1380
+00:29:33,190 --> 00:29:33,200
+sigma Z.
+ 
+
+1381
+00:29:33,200 --> 00:29:36,510
+sigma Z.
+And just as sigma Z squares to one, our
+
+1382
+00:29:36,510 --> 00:29:36,520
+And just as sigma Z squares to one, our
+ 
+
+1383
+00:29:36,520 --> 00:29:38,790
+And just as sigma Z squares to one, our
+boost direction vector will also square
+
+1384
+00:29:38,790 --> 00:29:38,800
+boost direction vector will also square
+ 
+
+1385
+00:29:38,800 --> 00:29:42,510
+boost direction vector will also square
+to one since it has length one.
+
+1386
+00:29:42,510 --> 00:29:42,520
+to one since it has length one.
+ 
+
+1387
+00:29:42,520 --> 00:29:44,669
+to one since it has length one.
+So, we can use this exact same boost
+
+1388
+00:29:44,669 --> 00:29:44,679
+So, we can use this exact same boost
+ 
+
+1389
+00:29:44,679 --> 00:29:47,430
+So, we can use this exact same boost
+formula that we saw before just with
+
+1390
+00:29:47,430 --> 00:29:47,440
+formula that we saw before just with
+ 
+
+1391
+00:29:47,440 --> 00:29:49,990
+formula that we saw before just with
+sigma z replaced with any normalized
+
+1392
+00:29:49,990 --> 00:29:50,000
+sigma z replaced with any normalized
+ 
+
+1393
+00:29:50,000 --> 00:29:52,670
+sigma z replaced with any normalized
+boost direction vector of our choice.
+
+1394
+00:29:52,670 --> 00:29:52,680
+boost direction vector of our choice.
+ 
+
+1395
+00:29:52,680 --> 00:29:54,830
+boost direction vector of our choice.
+And this lets us boost a Dirac spinner
+
+1396
+00:29:54,830 --> 00:29:54,840
+And this lets us boost a Dirac spinner
+ 
+
+1397
+00:29:54,840 --> 00:29:58,750
+And this lets us boost a Dirac spinner
+in an arbitrary direction.
+
+1398
+00:29:58,750 --> 00:29:58,760
+
+ 
+
+1399
+00:29:58,760 --> 00:30:00,870
+
+All right, I'm going to show one more
+
+1400
+00:30:00,870 --> 00:30:00,880
+All right, I'm going to show one more
+ 
+
+1401
+00:30:00,880 --> 00:30:03,310
+All right, I'm going to show one more
+way of writing Dirac solutions in the
+
+1402
+00:30:03,310 --> 00:30:03,320
+way of writing Dirac solutions in the
+ 
+
+1403
+00:30:03,320 --> 00:30:05,590
+way of writing Dirac solutions in the
+chiral basis.
+
+1404
+00:30:05,590 --> 00:30:05,600
+chiral basis.
+ 
+
+1405
+00:30:05,600 --> 00:30:08,150
+chiral basis.
+This matrix for boosting spinners uses
+
+1406
+00:30:08,150 --> 00:30:08,160
+This matrix for boosting spinners uses
+ 
+
+1407
+00:30:08,160 --> 00:30:10,910
+This matrix for boosting spinners uses
+exponentials of half angles.
+
+1408
+00:30:10,910 --> 00:30:10,920
+exponentials of half angles.
+ 
+
+1409
+00:30:10,920 --> 00:30:12,870
+exponentials of half angles.
+And we've seen that we can rewrite this
+
+1410
+00:30:12,870 --> 00:30:12,880
+And we've seen that we can rewrite this
+ 
+
+1411
+00:30:12,880 --> 00:30:15,670
+And we've seen that we can rewrite this
+half angle as the square root of a full
+
+1412
+00:30:15,670 --> 00:30:15,680
+half angle as the square root of a full
+ 
+
+1413
+00:30:15,680 --> 00:30:17,030
+half angle as the square root of a full
+angle.
+
+1414
+00:30:17,030 --> 00:30:17,040
+angle.
+ 
+
+1415
+00:30:17,040 --> 00:30:19,390
+angle.
+And then use Euler's formula to write
+
+1416
+00:30:19,390 --> 00:30:19,400
+And then use Euler's formula to write
+ 
+
+1417
+00:30:19,400 --> 00:30:23,750
+And then use Euler's formula to write
+the exponential using cosh and sinh.
+
+1418
+00:30:23,750 --> 00:30:23,760
+the exponential using cosh and sinh.
+ 
+
+1419
+00:30:23,760 --> 00:30:26,310
+the exponential using cosh and sinh.
+We've also seen that given a right angle
+
+1420
+00:30:26,310 --> 00:30:26,320
+We've also seen that given a right angle
+ 
+
+1421
+00:30:26,320 --> 00:30:29,390
+We've also seen that given a right angle
+triangle in Minkowski space, we can
+
+1422
+00:30:29,390 --> 00:30:29,400
+triangle in Minkowski space, we can
+ 
+
+1423
+00:30:29,400 --> 00:30:33,270
+triangle in Minkowski space, we can
+write cosh as adjacent over hypotenuse.
+
+1424
+00:30:33,270 --> 00:30:33,280
+write cosh as adjacent over hypotenuse.
+ 
+
+1425
+00:30:33,280 --> 00:30:35,550
+write cosh as adjacent over hypotenuse.
+And write sinh as opposite over
+
+1426
+00:30:35,550 --> 00:30:35,560
+And write sinh as opposite over
+ 
+
+1427
+00:30:35,560 --> 00:30:37,590
+And write sinh as opposite over
+hypotenuse.
+
+1428
+00:30:37,590 --> 00:30:37,600
+hypotenuse.
+ 
+
+1429
+00:30:37,600 --> 00:30:39,310
+hypotenuse.
+I'll use the dispersion relation
+
+1430
+00:30:39,310 --> 00:30:39,320
+I'll use the dispersion relation
+ 
+
+1431
+00:30:39,320 --> 00:30:42,710
+I'll use the dispersion relation
+triangle and set cosh to frequency over
+
+1432
+00:30:42,710 --> 00:30:42,720
+triangle and set cosh to frequency over
+ 
+
+1433
+00:30:42,720 --> 00:30:43,950
+triangle and set cosh to frequency over
+mass.
+
+1434
+00:30:43,950 --> 00:30:43,960
+mass.
+ 
+
+1435
+00:30:43,960 --> 00:30:48,030
+mass.
+And write sinh as wave number over mass.
+
+1436
+00:30:48,030 --> 00:30:48,040
+And write sinh as wave number over mass.
+ 
+
+1437
+00:30:48,040 --> 00:30:49,790
+And write sinh as wave number over mass.
+Now, since we're dealing with the full
+
+1438
+00:30:49,790 --> 00:30:49,800
+Now, since we're dealing with the full
+ 
+
+1439
+00:30:49,800 --> 00:30:52,150
+Now, since we're dealing with the full
+three dimensions of space here, this
+
+1440
+00:30:52,150 --> 00:30:52,160
+three dimensions of space here, this
+ 
+
+1441
+00:30:52,160 --> 00:30:54,630
+three dimensions of space here, this
+dispersion relation uses the magnitude
+
+1442
+00:30:54,630 --> 00:30:54,640
+dispersion relation uses the magnitude
+ 
+
+1443
+00:30:54,640 --> 00:30:59,310
+dispersion relation uses the magnitude
+of the 3D wave vector given here.
+
+1444
+00:30:59,310 --> 00:30:59,320
+of the 3D wave vector given here.
+ 
+
+1445
+00:30:59,320 --> 00:31:01,950
+of the 3D wave vector given here.
+Now, these NI components are part of a
+
+1446
+00:31:01,950 --> 00:31:01,960
+Now, these NI components are part of a
+ 
+
+1447
+00:31:01,960 --> 00:31:04,670
+Now, these NI components are part of a
+normal vector of length one. And when we
+
+1448
+00:31:04,670 --> 00:31:04,680
+normal vector of length one. And when we
+ 
+
+1449
+00:31:04,680 --> 00:31:07,550
+normal vector of length one. And when we
+multiply these by the magnitude of K, we
+
+1450
+00:31:07,550 --> 00:31:07,560
+multiply these by the magnitude of K, we
+ 
+
+1451
+00:31:07,560 --> 00:31:09,510
+multiply these by the magnitude of K, we
+simply get the wave number components
+
+1452
+00:31:09,510 --> 00:31:09,520
+simply get the wave number components
+ 
+
+1453
+00:31:09,520 --> 00:31:14,030
+simply get the wave number components
+KI. So, we get this expression.
+
+1454
+00:31:14,030 --> 00:31:14,040
+KI. So, we get this expression.
+ 
+
+1455
+00:31:14,040 --> 00:31:16,230
+KI. So, we get this expression.
+And here I factored out the mass terms
+
+1456
+00:31:16,230 --> 00:31:16,240
+And here I factored out the mass terms
+ 
+
+1457
+00:31:16,240 --> 00:31:17,950
+And here I factored out the mass terms
+in front.
+
+1458
+00:31:17,950 --> 00:31:17,960
+in front.
+ 
+
+1459
+00:31:17,960 --> 00:31:20,030
+in front.
+I've also written the 2x2 identity
+
+1460
+00:31:20,030 --> 00:31:20,040
+I've also written the 2x2 identity
+ 
+
+1461
+00:31:20,040 --> 00:31:23,070
+I've also written the 2x2 identity
+matrix as sigma T, which is a common
+
+1462
+00:31:23,070 --> 00:31:23,080
+matrix as sigma T, which is a common
+ 
+
+1463
+00:31:23,080 --> 00:31:26,310
+matrix as sigma T, which is a common
+alternative notation.
+
+1464
+00:31:26,310 --> 00:31:26,320
+alternative notation.
+ 
+
+1465
+00:31:26,320 --> 00:31:29,030
+alternative notation.
+Now, if I take the plus case here, this
+
+1466
+00:31:29,030 --> 00:31:29,040
+Now, if I take the plus case here, this
+ 
+
+1467
+00:31:29,040 --> 00:31:31,470
+Now, if I take the plus case here, this
+is really just a summation between K's
+
+1468
+00:31:31,470 --> 00:31:31,480
+is really just a summation between K's
+ 
+
+1469
+00:31:31,480 --> 00:31:35,630
+is really just a summation between K's
+and sigmas, which I can write like this.
+
+1470
+00:31:35,630 --> 00:31:35,640
+and sigmas, which I can write like this.
+ 
+
+1471
+00:31:35,640 --> 00:31:38,030
+and sigmas, which I can write like this.
+For the minus case, we can use this
+
+1472
+00:31:38,030 --> 00:31:38,040
+For the minus case, we can use this
+ 
+
+1473
+00:31:38,040 --> 00:31:41,510
+For the minus case, we can use this
+special notation sigma bar, where sigma
+
+1474
+00:31:41,510 --> 00:31:41,520
+special notation sigma bar, where sigma
+ 
+
+1475
+00:31:41,520 --> 00:31:45,030
+special notation sigma bar, where sigma
+bar T is the same as sigma T, but sigma
+
+1476
+00:31:45,030 --> 00:31:45,040
+bar T is the same as sigma T, but sigma
+ 
+
+1477
+00:31:45,040 --> 00:31:47,470
+bar T is the same as sigma T, but sigma
+bar for the space directions is equal to
+
+1478
+00:31:47,470 --> 00:31:47,480
+bar for the space directions is equal to
+ 
+
+1479
+00:31:47,480 --> 00:31:49,310
+bar for the space directions is equal to
+minus sigma.
+
+1480
+00:31:49,310 --> 00:31:49,320
+minus sigma.
+ 
+
+1481
+00:31:49,320 --> 00:31:51,710
+minus sigma.
+So, basically, the bar flips the spatial
+
+1482
+00:31:51,710 --> 00:31:51,720
+So, basically, the bar flips the spatial
+ 
+
+1483
+00:31:51,720 --> 00:31:53,950
+So, basically, the bar flips the spatial
+directions.
+
+1484
+00:31:53,950 --> 00:31:53,960
+directions.
+ 
+
+1485
+00:31:53,960 --> 00:31:56,230
+directions.
+With this, we can write the minus case
+
+1486
+00:31:56,230 --> 00:31:56,240
+With this, we can write the minus case
+ 
+
+1487
+00:31:56,240 --> 00:32:00,150
+With this, we can write the minus case
+using a summation with sigma bar.
+
+1488
+00:32:00,150 --> 00:32:00,160
+using a summation with sigma bar.
+ 
+
+1489
+00:32:00,160 --> 00:32:02,590
+using a summation with sigma bar.
+And as usual, we can always replace the
+
+1490
+00:32:02,590 --> 00:32:02,600
+And as usual, we can always replace the
+ 
+
+1491
+00:32:02,600 --> 00:32:05,390
+And as usual, we can always replace the
+four-dimensional wave vector K with four
+
+1492
+00:32:05,390 --> 00:32:05,400
+four-dimensional wave vector K with four
+ 
+
+1493
+00:32:05,400 --> 00:32:11,430
+four-dimensional wave vector K with four
+momentum P using a factor of h bar.
+
+1494
+00:32:11,430 --> 00:32:11,440
+
+ 
+
+1495
+00:32:11,440 --> 00:32:13,990
+
+So, given these new formulas, we can
+
+1496
+00:32:13,990 --> 00:32:14,000
+So, given these new formulas, we can
+ 
+
+1497
+00:32:14,000 --> 00:32:16,550
+So, given these new formulas, we can
+write this spinner boost matrix using
+
+1498
+00:32:16,550 --> 00:32:16,560
+write this spinner boost matrix using
+ 
+
+1499
+00:32:16,560 --> 00:32:19,110
+write this spinner boost matrix using
+these square root summations
+
+1500
+00:32:19,110 --> 00:32:19,120
+these square root summations
+ 
+
+1501
+00:32:19,120 --> 00:32:23,510
+these square root summations
+to get this boosted Dirac spinner here.
+
+1502
+00:32:23,510 --> 00:32:23,520
+to get this boosted Dirac spinner here.
+ 
+
+1503
+00:32:23,520 --> 00:32:25,990
+to get this boosted Dirac spinner here.
+Now, this formula is compact and
+
+1504
+00:32:25,990 --> 00:32:26,000
+Now, this formula is compact and
+ 
+
+1505
+00:32:26,000 --> 00:32:29,630
+Now, this formula is compact and
+correct, but these sigmas are matrices,
+
+1506
+00:32:29,630 --> 00:32:29,640
+correct, but these sigmas are matrices,
+ 
+
+1507
+00:32:29,640 --> 00:32:31,550
+correct, but these sigmas are matrices,
+and it's not immediately obvious how to
+
+1508
+00:32:31,550 --> 00:32:31,560
+and it's not immediately obvious how to
+ 
+
+1509
+00:32:31,560 --> 00:32:35,150
+and it's not immediately obvious how to
+calculate the square root of a matrix.
+
+1510
+00:32:35,150 --> 00:32:35,160
+calculate the square root of a matrix.
+ 
+
+1511
+00:32:35,160 --> 00:32:37,630
+calculate the square root of a matrix.
+Our previous solution with this big ugly
+
+1512
+00:32:37,630 --> 00:32:37,640
+Our previous solution with this big ugly
+ 
+
+1513
+00:32:37,640 --> 00:32:40,190
+Our previous solution with this big ugly
+formula actually gives the result of
+
+1514
+00:32:40,190 --> 00:32:40,200
+formula actually gives the result of
+ 
+
+1515
+00:32:40,200 --> 00:32:43,870
+formula actually gives the result of
+this square root operation.
+
+1516
+00:32:43,870 --> 00:32:43,880
+this square root operation.
+ 
+
+1517
+00:32:43,880 --> 00:32:45,710
+this square root operation.
+So, we've seen how to write boosted
+
+1518
+00:32:45,710 --> 00:32:45,720
+So, we've seen how to write boosted
+ 
+
+1519
+00:32:45,720 --> 00:32:48,110
+So, we've seen how to write boosted
+spinners using exponentials, using
+
+1520
+00:32:48,110 --> 00:32:48,120
+spinners using exponentials, using
+ 
+
+1521
+00:32:48,120 --> 00:32:50,590
+spinners using exponentials, using
+hyperbolic trig functions, and using
+
+1522
+00:32:50,590 --> 00:32:50,600
+hyperbolic trig functions, and using
+ 
+
+1523
+00:32:50,600 --> 00:32:52,710
+hyperbolic trig functions, and using
+physical quantities like frequency, wave
+
+1524
+00:32:52,710 --> 00:32:52,720
+physical quantities like frequency, wave
+ 
+
+1525
+00:32:52,720 --> 00:32:54,630
+physical quantities like frequency, wave
+number, and mass from a right angle
+
+1526
+00:32:54,630 --> 00:32:54,640
+number, and mass from a right angle
+ 
+
+1527
+00:32:54,640 --> 00:32:57,270
+number, and mass from a right angle
+triangle in space-time.
+
+1528
+00:32:57,270 --> 00:32:57,280
+triangle in space-time.
+ 
+
+1529
+00:32:57,280 --> 00:32:59,350
+triangle in space-time.
+If you like, you can try squaring the
+
+1530
+00:32:59,350 --> 00:32:59,360
+If you like, you can try squaring the
+ 
+
+1531
+00:32:59,360 --> 00:33:01,830
+If you like, you can try squaring the
+formulas in the right column here and
+
+1532
+00:33:01,830 --> 00:33:01,840
+formulas in the right column here and
+ 
+
+1533
+00:33:01,840 --> 00:33:03,990
+formulas in the right column here and
+confirming you get the expected values
+
+1534
+00:33:03,990 --> 00:33:04,000
+confirming you get the expected values
+ 
+
+1535
+00:33:04,000 --> 00:33:06,030
+confirming you get the expected values
+under the square root signs in the left
+
+1536
+00:33:06,030 --> 00:33:06,040
+under the square root signs in the left
+ 
+
+1537
+00:33:06,040 --> 00:33:09,030
+under the square root signs in the left
+column.
+
+1538
+00:33:09,030 --> 00:33:09,040
+
+ 
+
+1539
+00:33:09,040 --> 00:33:10,830
+
+Okay, so we've been through a lot of
+
+1540
+00:33:10,830 --> 00:33:10,840
+Okay, so we've been through a lot of
+ 
+
+1541
+00:33:10,840 --> 00:33:14,150
+Okay, so we've been through a lot of
+math in the chiral basis. Let's sum up
+
+1542
+00:33:14,150 --> 00:33:14,160
+math in the chiral basis. Let's sum up
+ 
+
+1543
+00:33:14,160 --> 00:33:15,790
+math in the chiral basis. Let's sum up
+all of our results for the Dirac
+
+1544
+00:33:15,790 --> 00:33:15,800
+all of our results for the Dirac
+ 
+
+1545
+00:33:15,800 --> 00:33:17,270
+all of our results for the Dirac
+equation.
+
+1546
+00:33:17,270 --> 00:33:17,280
+equation.
+ 
+
+1547
+00:33:17,280 --> 00:33:19,030
+equation.
+First, we start with the four basic
+
+1548
+00:33:19,030 --> 00:33:19,040
+First, we start with the four basic
+ 
+
+1549
+00:33:19,040 --> 00:33:22,310
+First, we start with the four basic
+stationary solutions here, labeled U1,
+
+1550
+00:33:22,310 --> 00:33:22,320
+stationary solutions here, labeled U1,
+ 
+
+1551
+00:33:22,320 --> 00:33:25,390
+stationary solutions here, labeled U1,
+U2, V1, and V2.
+
+1552
+00:33:25,390 --> 00:33:25,400
+U2, V1, and V2.
+ 
+
+1553
+00:33:25,400 --> 00:33:27,550
+U2, V1, and V2.
+Then, we can boost these solutions to a
+
+1554
+00:33:27,550 --> 00:33:27,560
+Then, we can boost these solutions to a
+ 
+
+1555
+00:33:27,560 --> 00:33:29,710
+Then, we can boost these solutions to a
+new reference frame.
+
+1556
+00:33:29,710 --> 00:33:29,720
+new reference frame.
+ 
+
+1557
+00:33:29,720 --> 00:33:32,870
+new reference frame.
+To do this, we pick any three values for
+
+1558
+00:33:32,870 --> 00:33:32,880
+To do this, we pick any three values for
+ 
+
+1559
+00:33:32,880 --> 00:33:35,550
+To do this, we pick any three values for
+the 3D spatial parts of the wave vector
+
+1560
+00:33:35,550 --> 00:33:35,560
+the 3D spatial parts of the wave vector
+ 
+
+1561
+00:33:35,560 --> 00:33:36,870
+the 3D spatial parts of the wave vector
+K.
+
+1562
+00:33:36,870 --> 00:33:36,880
+K.
+ 
+
+1563
+00:33:36,880 --> 00:33:38,710
+K.
+And then we use the dispersion relation
+
+1564
+00:33:38,710 --> 00:33:38,720
+And then we use the dispersion relation
+ 
+
+1565
+00:33:38,720 --> 00:33:41,030
+And then we use the dispersion relation
+to get the time component, which is the
+
+1566
+00:33:41,030 --> 00:33:41,040
+to get the time component, which is the
+ 
+
+1567
+00:33:41,040 --> 00:33:43,150
+to get the time component, which is the
+frequency.
+
+1568
+00:33:43,150 --> 00:33:43,160
+frequency.
+ 
+
+1569
+00:33:43,160 --> 00:33:45,390
+frequency.
+We can use these four components in the
+
+1570
+00:33:45,390 --> 00:33:45,400
+We can use these four components in the
+ 
+
+1571
+00:33:45,400 --> 00:33:47,550
+We can use these four components in the
+space-time wave part of our Dirac
+
+1572
+00:33:47,550 --> 00:33:47,560
+space-time wave part of our Dirac
+ 
+
+1573
+00:33:47,560 --> 00:33:49,950
+space-time wave part of our Dirac
+solution.
+
+1574
+00:33:49,950 --> 00:33:49,960
+solution.
+ 
+
+1575
+00:33:49,960 --> 00:33:51,710
+solution.
+Next, we need to boost the
+
+1576
+00:33:51,710 --> 00:33:51,720
+Next, we need to boost the
+ 
+
+1577
+00:33:51,720 --> 00:33:54,310
+Next, we need to boost the
+four-component Dirac spinner accordingly
+
+1578
+00:33:54,310 --> 00:33:54,320
+four-component Dirac spinner accordingly
+ 
+
+1579
+00:33:54,320 --> 00:33:57,030
+four-component Dirac spinner accordingly
+with this boost matrix.
+
+1580
+00:33:57,030 --> 00:33:57,040
+with this boost matrix.
+ 
+
+1581
+00:33:57,040 --> 00:33:59,790
+with this boost matrix.
+The boost direction N is a unit vector
+
+1582
+00:33:59,790 --> 00:33:59,800
+The boost direction N is a unit vector
+ 
+
+1583
+00:33:59,800 --> 00:34:02,150
+The boost direction N is a unit vector
+that we get from normalizing the spatial
+
+1584
+00:34:02,150 --> 00:34:02,160
+that we get from normalizing the spatial
+ 
+
+1585
+00:34:02,160 --> 00:34:05,790
+that we get from normalizing the spatial
+components of the 3D wave vector K.
+
+1586
+00:34:05,790 --> 00:34:05,800
+components of the 3D wave vector K.
+ 
+
+1587
+00:34:05,800 --> 00:34:08,349
+components of the 3D wave vector K.
+And the boost angle phi can be obtained
+
+1588
+00:34:08,349 --> 00:34:08,359
+And the boost angle phi can be obtained
+ 
+
+1589
+00:34:08,359 --> 00:34:10,630
+And the boost angle phi can be obtained
+from hyperbolic trig formulas in our
+
+1590
+00:34:10,630 --> 00:34:10,640
+from hyperbolic trig formulas in our
+ 
+
+1591
+00:34:10,640 --> 00:34:13,790
+from hyperbolic trig formulas in our
+Minkowski triangle.
+
+1592
+00:34:13,790 --> 00:34:13,800
+Minkowski triangle.
+ 
+
+1593
+00:34:13,800 --> 00:34:15,790
+Minkowski triangle.
+We can compactly write this boost
+
+1594
+00:34:15,790 --> 00:34:15,800
+We can compactly write this boost
+ 
+
+1595
+00:34:15,800 --> 00:34:18,310
+We can compactly write this boost
+solution using this matrix square root
+
+1596
+00:34:18,310 --> 00:34:18,320
+solution using this matrix square root
+ 
+
+1597
+00:34:18,320 --> 00:34:19,909
+solution using this matrix square root
+notation.
+
+1598
+00:34:19,909 --> 00:34:19,919
+notation.
+ 
+
+1599
+00:34:19,919 --> 00:34:21,909
+notation.
+But the explicit formulas for the square
+
+1600
+00:34:21,909 --> 00:34:21,919
+But the explicit formulas for the square
+ 
+
+1601
+00:34:21,919 --> 00:34:24,430
+But the explicit formulas for the square
+roots are given here.
+
+1602
+00:34:24,430 --> 00:34:24,440
+roots are given here.
+ 
+
+1603
+00:34:24,440 --> 00:34:26,590
+roots are given here.
+And of course, every frequency wave
+
+1604
+00:34:26,590 --> 00:34:26,600
+And of course, every frequency wave
+ 
+
+1605
+00:34:26,600 --> 00:34:29,270
+And of course, every frequency wave
+vector component here can be turned into
+
+1606
+00:34:29,270 --> 00:34:29,280
+vector component here can be turned into
+ 
+
+1607
+00:34:29,280 --> 00:34:31,710
+vector component here can be turned into
+an energy momentum component using a
+
+1608
+00:34:31,710 --> 00:34:31,720
+an energy momentum component using a
+ 
+
+1609
+00:34:31,720 --> 00:34:34,990
+an energy momentum component using a
+factor of h bar.
+
+1610
+00:34:34,990 --> 00:34:35,000
+factor of h bar.
+ 
+
+1611
+00:34:35,000 --> 00:34:37,230
+factor of h bar.
+Now, the basic solutions I talked about
+
+1612
+00:34:37,230 --> 00:34:37,240
+Now, the basic solutions I talked about
+ 
+
+1613
+00:34:37,240 --> 00:34:41,669
+Now, the basic solutions I talked about
+before, U1, U2, V1, V2, depend on both
+
+1614
+00:34:41,669 --> 00:34:41,679
+before, U1, U2, V1, V2, depend on both
+ 
+
+1615
+00:34:41,679 --> 00:34:45,430
+before, U1, U2, V1, V2, depend on both
+space-time position and the wave vector.
+
+1616
+00:34:45,430 --> 00:34:45,440
+space-time position and the wave vector.
+ 
+
+1617
+00:34:45,440 --> 00:34:47,430
+space-time position and the wave vector.
+However, it's common to pull out the
+
+1618
+00:34:47,430 --> 00:34:47,440
+However, it's common to pull out the
+ 
+
+1619
+00:34:47,440 --> 00:34:50,470
+However, it's common to pull out the
+space-time wave part and allow the U's
+
+1620
+00:34:50,470 --> 00:34:50,480
+space-time wave part and allow the U's
+ 
+
+1621
+00:34:50,480 --> 00:34:52,750
+space-time wave part and allow the U's
+and V's to just denote the constant
+
+1622
+00:34:52,750 --> 00:34:52,760
+and V's to just denote the constant
+ 
+
+1623
+00:34:52,760 --> 00:34:55,909
+and V's to just denote the constant
+spinner in front of the solutions, which
+
+1624
+00:34:55,909 --> 00:34:55,919
+spinner in front of the solutions, which
+ 
+
+1625
+00:34:55,919 --> 00:34:59,830
+spinner in front of the solutions, which
+depend only on the wave vector.
+
+1626
+00:34:59,830 --> 00:34:59,840
+depend only on the wave vector.
+ 
+
+1627
+00:34:59,840 --> 00:35:02,790
+depend only on the wave vector.
+The most generic Dirac solution involves
+
+1628
+00:35:02,790 --> 00:35:02,800
+The most generic Dirac solution involves
+ 
+
+1629
+00:35:02,800 --> 00:35:04,950
+The most generic Dirac solution involves
+summing these four solutions with their
+
+1630
+00:35:04,950 --> 00:35:04,960
+summing these four solutions with their
+ 
+
+1631
+00:35:04,960 --> 00:35:07,910
+summing these four solutions with their
+own complex scaling constants.
+
+1632
+00:35:07,910 --> 00:35:07,920
+own complex scaling constants.
+ 
+
+1633
+00:35:07,920 --> 00:35:10,349
+own complex scaling constants.
+And also integrating over all possible
+
+1634
+00:35:10,349 --> 00:35:10,359
+And also integrating over all possible
+ 
+
+1635
+00:35:10,359 --> 00:35:12,870
+And also integrating over all possible
+3D wave numbers.
+
+1636
+00:35:12,870 --> 00:35:12,880
+3D wave numbers.
+ 
+
+1637
+00:35:12,880 --> 00:35:15,830
+3D wave numbers.
+Again, recall that frequency omega is
+
+1638
+00:35:15,830 --> 00:35:15,840
+Again, recall that frequency omega is
+ 
+
+1639
+00:35:15,840 --> 00:35:17,790
+Again, recall that frequency omega is
+already determined by the three wave
+
+1640
+00:35:17,790 --> 00:35:17,800
+already determined by the three wave
+ 
+
+1641
+00:35:17,800 --> 00:35:20,550
+already determined by the three wave
+numbers and the field's mass, so we do
+
+1642
+00:35:20,550 --> 00:35:20,560
+numbers and the field's mass, so we do
+ 
+
+1643
+00:35:20,560 --> 00:35:23,470
+numbers and the field's mass, so we do
+not integrate over it.
+
+1644
+00:35:23,470 --> 00:35:23,480
+not integrate over it.
+ 
+
+1645
+00:35:23,480 --> 00:35:26,670
+not integrate over it.
+We can also do summations over U and V
+
+1646
+00:35:26,670 --> 00:35:26,680
+We can also do summations over U and V
+ 
+
+1647
+00:35:26,680 --> 00:35:28,950
+We can also do summations over U and V
+from one to two to write things more
+
+1648
+00:35:28,950 --> 00:35:28,960
+from one to two to write things more
+ 
+
+1649
+00:35:28,960 --> 00:35:30,750
+from one to two to write things more
+compactly.
+
+1650
+00:35:30,750 --> 00:35:30,760
+compactly.
+ 
+
+1651
+00:35:30,760 --> 00:35:32,870
+compactly.
+And this is the most generic solution to
+
+1652
+00:35:32,870 --> 00:35:32,880
+And this is the most generic solution to
+ 
+
+1653
+00:35:32,880 --> 00:35:36,830
+And this is the most generic solution to
+the Dirac equation.
+
+1654
+00:35:36,830 --> 00:35:36,840
+
+ 
+
+1655
+00:35:36,840 --> 00:35:38,750
+
+So, I realize we've been through a lot
+
+1656
+00:35:38,750 --> 00:35:38,760
+So, I realize we've been through a lot
+ 
+
+1657
+00:35:38,760 --> 00:35:41,390
+So, I realize we've been through a lot
+of math already, but there are even more
+
+1658
+00:35:41,390 --> 00:35:41,400
+of math already, but there are even more
+ 
+
+1659
+00:35:41,400 --> 00:35:43,430
+of math already, but there are even more
+ways to write the solutions to the Dirac
+
+1660
+00:35:43,430 --> 00:35:43,440
+ways to write the solutions to the Dirac
+ 
+
+1661
+00:35:43,440 --> 00:35:46,030
+ways to write the solutions to the Dirac
+equation. And this involves moving from
+
+1662
+00:35:46,030 --> 00:35:46,040
+equation. And this involves moving from
+ 
+
+1663
+00:35:46,040 --> 00:35:49,630
+equation. And this involves moving from
+the chiral basis to the mass basis.
+
+1664
+00:35:49,630 --> 00:35:49,640
+the chiral basis to the mass basis.
+ 
+
+1665
+00:35:49,640 --> 00:35:51,510
+the chiral basis to the mass basis.
+Thankfully, this just involves taking
+
+1666
+00:35:51,510 --> 00:35:51,520
+Thankfully, this just involves taking
+ 
+
+1667
+00:35:51,520 --> 00:35:53,790
+Thankfully, this just involves taking
+the solutions we already have and
+
+1668
+00:35:53,790 --> 00:35:53,800
+the solutions we already have and
+ 
+
+1669
+00:35:53,800 --> 00:35:57,349
+the solutions we already have and
+changing basis with this matrix U.
+
+1670
+00:35:57,349 --> 00:35:57,359
+changing basis with this matrix U.
+ 
+
+1671
+00:35:57,359 --> 00:35:59,630
+changing basis with this matrix U.
+If we apply this matrix U to a Dirac
+
+1672
+00:35:59,630 --> 00:35:59,640
+If we apply this matrix U to a Dirac
+ 
+
+1673
+00:35:59,640 --> 00:36:02,510
+If we apply this matrix U to a Dirac
+spinner, the resulting top half is just
+
+1674
+00:36:02,510 --> 00:36:02,520
+spinner, the resulting top half is just
+ 
+
+1675
+00:36:02,520 --> 00:36:04,470
+spinner, the resulting top half is just
+the sum of the left and right Weyl
+
+1676
+00:36:04,470 --> 00:36:04,480
+the sum of the left and right Weyl
+ 
+
+1677
+00:36:04,480 --> 00:36:05,870
+the sum of the left and right Weyl
+spinners.
+
+1678
+00:36:05,870 --> 00:36:05,880
+spinners.
+ 
+
+1679
+00:36:05,880 --> 00:36:08,150
+spinners.
+And the resulting lower half is just the
+
+1680
+00:36:08,150 --> 00:36:08,160
+And the resulting lower half is just the
+ 
+
+1681
+00:36:08,160 --> 00:36:09,870
+And the resulting lower half is just the
+difference of the left and right Weyl
+
+1682
+00:36:09,870 --> 00:36:09,880
+difference of the left and right Weyl
+ 
+
+1683
+00:36:09,880 --> 00:36:12,310
+difference of the left and right Weyl
+spinners, where the left spinner gets
+
+1684
+00:36:12,310 --> 00:36:12,320
+spinners, where the left spinner gets
+ 
+
+1685
+00:36:12,320 --> 00:36:14,430
+spinners, where the left spinner gets
+the minus sign.
+
+1686
+00:36:14,430 --> 00:36:14,440
+the minus sign.
+ 
+
+1687
+00:36:14,440 --> 00:36:16,870
+the minus sign.
+And we also have this scaling factor of
+
+1688
+00:36:16,870 --> 00:36:16,880
+And we also have this scaling factor of
+ 
+
+1689
+00:36:16,880 --> 00:36:20,110
+And we also have this scaling factor of
+1 over the square root of 2.
+
+1690
+00:36:20,110 --> 00:36:20,120
+1 over the square root of 2.
+ 
+
+1691
+00:36:20,120 --> 00:36:21,990
+1 over the square root of 2.
+You can sort of think of this change of
+
+1692
+00:36:21,990 --> 00:36:22,000
+You can sort of think of this change of
+ 
+
+1693
+00:36:22,000 --> 00:36:25,790
+You can sort of think of this change of
+basis as a kind of 45° rotation of
+
+1694
+00:36:25,790 --> 00:36:25,800
+basis as a kind of 45° rotation of
+ 
+
+1695
+00:36:25,800 --> 00:36:28,990
+basis as a kind of 45° rotation of
+spinner components.
+
+1696
+00:36:28,990 --> 00:36:29,000
+spinner components.
+ 
+
+1697
+00:36:29,000 --> 00:36:31,630
+spinner components.
+So, let's take our four basic stationary
+
+1698
+00:36:31,630 --> 00:36:31,640
+So, let's take our four basic stationary
+ 
+
+1699
+00:36:31,640 --> 00:36:34,710
+So, let's take our four basic stationary
+wave solutions in the chiral basis and
+
+1700
+00:36:34,710 --> 00:36:34,720
+wave solutions in the chiral basis and
+ 
+
+1701
+00:36:34,720 --> 00:36:37,950
+wave solutions in the chiral basis and
+move them to the mass basis.
+
+1702
+00:36:37,950 --> 00:36:37,960
+move them to the mass basis.
+ 
+
+1703
+00:36:37,960 --> 00:36:40,470
+move them to the mass basis.
+For U1, the sum of the left and right
+
+1704
+00:36:40,470 --> 00:36:40,480
+For U1, the sum of the left and right
+ 
+
+1705
+00:36:40,480 --> 00:36:43,190
+For U1, the sum of the left and right
+spinners gives two zero.
+
+1706
+00:36:43,190 --> 00:36:43,200
+spinners gives two zero.
+ 
+
+1707
+00:36:43,200 --> 00:36:44,630
+spinners gives two zero.
+And the difference between left and
+
+1708
+00:36:44,630 --> 00:36:44,640
+And the difference between left and
+ 
+
+1709
+00:36:44,640 --> 00:36:48,190
+And the difference between left and
+right simply gives a pair of zeros.
+
+1710
+00:36:48,190 --> 00:36:48,200
+right simply gives a pair of zeros.
+ 
+
+1711
+00:36:48,200 --> 00:36:51,030
+right simply gives a pair of zeros.
+The factors of 1 over square root of 2
+
+1712
+00:36:51,030 --> 00:36:51,040
+The factors of 1 over square root of 2
+ 
+
+1713
+00:36:51,040 --> 00:36:53,470
+The factors of 1 over square root of 2
+cancel with the two to just give a one
+
+1714
+00:36:53,470 --> 00:36:53,480
+cancel with the two to just give a one
+ 
+
+1715
+00:36:53,480 --> 00:36:55,870
+cancel with the two to just give a one
+in the first component.
+
+1716
+00:36:55,870 --> 00:36:55,880
+in the first component.
+ 
+
+1717
+00:36:55,880 --> 00:36:58,190
+in the first component.
+So, the U1 solution has a one in the
+
+1718
+00:36:58,190 --> 00:36:58,200
+So, the U1 solution has a one in the
+ 
+
+1719
+00:36:58,200 --> 00:37:00,470
+So, the U1 solution has a one in the
+first component and zeros everywhere
+
+1720
+00:37:00,470 --> 00:37:00,480
+first component and zeros everywhere
+ 
+
+1721
+00:37:00,480 --> 00:37:02,110
+first component and zeros everywhere
+else.
+
+1722
+00:37:02,110 --> 00:37:02,120
+else.
+ 
+
+1723
+00:37:02,120 --> 00:37:04,510
+else.
+The remaining basic solutions just have
+
+1724
+00:37:04,510 --> 00:37:04,520
+The remaining basic solutions just have
+ 
+
+1725
+00:37:04,520 --> 00:37:07,950
+The remaining basic solutions just have
+a one in the second, third, and fourth
+
+1726
+00:37:07,950 --> 00:37:07,960
+a one in the second, third, and fourth
+ 
+
+1727
+00:37:07,960 --> 00:37:10,470
+a one in the second, third, and fourth
+components, respectively, and zeros
+
+1728
+00:37:10,470 --> 00:37:10,480
+components, respectively, and zeros
+ 
+
+1729
+00:37:10,480 --> 00:37:12,670
+components, respectively, and zeros
+everywhere else.
+
+1730
+00:37:12,670 --> 00:37:12,680
+everywhere else.
+ 
+
+1731
+00:37:12,680 --> 00:37:15,870
+everywhere else.
+So, in the mass basis, the U solutions
+
+1732
+00:37:15,870 --> 00:37:15,880
+So, in the mass basis, the U solutions
+ 
+
+1733
+00:37:15,880 --> 00:37:18,070
+So, in the mass basis, the U solutions
+seem to be associated with the top half
+
+1734
+00:37:18,070 --> 00:37:18,080
+seem to be associated with the top half
+ 
+
+1735
+00:37:18,080 --> 00:37:20,950
+seem to be associated with the top half
+of the spinner, and the V solutions seem
+
+1736
+00:37:20,950 --> 00:37:20,960
+of the spinner, and the V solutions seem
+ 
+
+1737
+00:37:20,960 --> 00:37:22,910
+of the spinner, and the V solutions seem
+to be associated with the bottom half of
+
+1738
+00:37:22,910 --> 00:37:22,920
+to be associated with the bottom half of
+ 
+
+1739
+00:37:22,920 --> 00:37:24,830
+to be associated with the bottom half of
+the spinner.
+
+1740
+00:37:24,830 --> 00:37:24,840
+the spinner.
+ 
+
+1741
+00:37:24,840 --> 00:37:26,990
+the spinner.
+So far, the spinner solutions look
+
+1742
+00:37:26,990 --> 00:37:27,000
+So far, the spinner solutions look
+ 
+
+1743
+00:37:27,000 --> 00:37:30,030
+So far, the spinner solutions look
+simpler in the mass basis.
+
+1744
+00:37:30,030 --> 00:37:30,040
+simpler in the mass basis.
+ 
+
+1745
+00:37:30,040 --> 00:37:31,950
+simpler in the mass basis.
+However, we also need to take our
+
+1746
+00:37:31,950 --> 00:37:31,960
+However, we also need to take our
+ 
+
+1747
+00:37:31,960 --> 00:37:34,870
+However, we also need to take our
+boosted solutions and change them to the
+
+1748
+00:37:34,870 --> 00:37:34,880
+boosted solutions and change them to the
+ 
+
+1749
+00:37:34,880 --> 00:37:37,190
+boosted solutions and change them to the
+mass basis.
+
+1750
+00:37:37,190 --> 00:37:37,200
+mass basis.
+ 
+
+1751
+00:37:37,200 --> 00:37:39,670
+mass basis.
+Once again, in the mass basis, the top
+
+1752
+00:37:39,670 --> 00:37:39,680
+Once again, in the mass basis, the top
+ 
+
+1753
+00:37:39,680 --> 00:37:41,590
+Once again, in the mass basis, the top
+half is the sum of left and right
+
+1754
+00:37:41,590 --> 00:37:41,600
+half is the sum of left and right
+ 
+
+1755
+00:37:41,600 --> 00:37:43,030
+half is the sum of left and right
+spinners.
+
+1756
+00:37:43,030 --> 00:37:43,040
+spinners.
+ 
+
+1757
+00:37:43,040 --> 00:37:45,430
+spinners.
+And the bottom half is their difference
+
+1758
+00:37:45,430 --> 00:37:45,440
+And the bottom half is their difference
+ 
+
+1759
+00:37:45,440 --> 00:37:48,910
+And the bottom half is their difference
+with the minus sign on the left part.
+
+1760
+00:37:48,910 --> 00:37:48,920
+with the minus sign on the left part.
+ 
+
+1761
+00:37:48,920 --> 00:37:51,870
+with the minus sign on the left part.
+Now, for the U solutions, we know in the
+
+1762
+00:37:51,870 --> 00:37:51,880
+Now, for the U solutions, we know in the
+ 
+
+1763
+00:37:51,880 --> 00:37:54,030
+Now, for the U solutions, we know in the
+stationary case that the left and right
+
+1764
+00:37:54,030 --> 00:37:54,040
+stationary case that the left and right
+ 
+
+1765
+00:37:54,040 --> 00:37:57,310
+stationary case that the left and right
+spinners are equal. So, we can replace
+
+1766
+00:37:57,310 --> 00:37:57,320
+spinners are equal. So, we can replace
+ 
+
+1767
+00:37:57,320 --> 00:38:00,670
+spinners are equal. So, we can replace
+all the chis with xis here.
+
+1768
+00:38:00,670 --> 00:38:00,680
+all the chis with xis here.
+ 
+
+1769
+00:38:00,680 --> 00:38:03,110
+all the chis with xis here.
+The top half now has a sum of positive
+
+1770
+00:38:03,110 --> 00:38:03,120
+The top half now has a sum of positive
+ 
+
+1771
+00:38:03,120 --> 00:38:05,310
+The top half now has a sum of positive
+and negative exponentials.
+
+1772
+00:38:05,310 --> 00:38:05,320
+and negative exponentials.
+ 
+
+1773
+00:38:05,320 --> 00:38:08,470
+and negative exponentials.
+This equals 2 * cosh with an identity
+
+1774
+00:38:08,470 --> 00:38:08,480
+This equals 2 * cosh with an identity
+ 
+
+1775
+00:38:08,480 --> 00:38:10,550
+This equals 2 * cosh with an identity
+matrix in front.
+
+1776
+00:38:10,550 --> 00:38:10,560
+matrix in front.
+ 
+
+1777
+00:38:10,560 --> 00:38:12,390
+matrix in front.
+And the bottom half is a difference of
+
+1778
+00:38:12,390 --> 00:38:12,400
+And the bottom half is a difference of
+ 
+
+1779
+00:38:12,400 --> 00:38:15,710
+And the bottom half is a difference of
+exponentials. This can be written as 2 *
+
+1780
+00:38:15,710 --> 00:38:15,720
+exponentials. This can be written as 2 *
+ 
+
+1781
+00:38:15,720 --> 00:38:18,190
+exponentials. This can be written as 2 *
+sinh with the normal direction vector
+
+1782
+00:38:18,190 --> 00:38:18,200
+sinh with the normal direction vector
+ 
+
+1783
+00:38:18,200 --> 00:38:20,950
+sinh with the normal direction vector
+matrix in front.
+
+1784
+00:38:20,950 --> 00:38:20,960
+matrix in front.
+ 
+
+1785
+00:38:20,960 --> 00:38:23,349
+matrix in front.
+For the V solutions, the stationary
+
+1786
+00:38:23,349 --> 00:38:23,359
+For the V solutions, the stationary
+ 
+
+1787
+00:38:23,359 --> 00:38:25,430
+For the V solutions, the stationary
+solutions have left and right spinners
+
+1788
+00:38:25,430 --> 00:38:25,440
+solutions have left and right spinners
+ 
+
+1789
+00:38:25,440 --> 00:38:27,470
+solutions have left and right spinners
+with opposite sign.
+
+1790
+00:38:27,470 --> 00:38:27,480
+with opposite sign.
+ 
+
+1791
+00:38:27,480 --> 00:38:29,390
+with opposite sign.
+So, we can replace the chis with
+
+1792
+00:38:29,390 --> 00:38:29,400
+So, we can replace the chis with
+ 
+
+1793
+00:38:29,400 --> 00:38:31,510
+So, we can replace the chis with
+negative xis.
+
+1794
+00:38:31,510 --> 00:38:31,520
+negative xis.
+ 
+
+1795
+00:38:31,520 --> 00:38:33,630
+negative xis.
+This gives us the same spinner as the U
+
+1796
+00:38:33,630 --> 00:38:33,640
+This gives us the same spinner as the U
+ 
+
+1797
+00:38:33,640 --> 00:38:36,070
+This gives us the same spinner as the U
+solutions, but with the top and bottom
+
+1798
+00:38:36,070 --> 00:38:36,080
+solutions, but with the top and bottom
+ 
+
+1799
+00:38:36,080 --> 00:38:38,550
+solutions, but with the top and bottom
+halves reversed.
+
+1800
+00:38:38,550 --> 00:38:38,560
+halves reversed.
+ 
+
+1801
+00:38:38,560 --> 00:38:40,950
+halves reversed.
+Now, with both of these solutions, we
+
+1802
+00:38:40,950 --> 00:38:40,960
+Now, with both of these solutions, we
+ 
+
+1803
+00:38:40,960 --> 00:38:43,550
+Now, with both of these solutions, we
+can factor out the cosh in front,
+
+1804
+00:38:43,550 --> 00:38:43,560
+can factor out the cosh in front,
+ 
+
+1805
+00:38:43,560 --> 00:38:46,790
+can factor out the cosh in front,
+provided we divide sinh by cosh to
+
+1806
+00:38:46,790 --> 00:38:46,800
+provided we divide sinh by cosh to
+ 
+
+1807
+00:38:46,800 --> 00:38:48,790
+provided we divide sinh by cosh to
+compensate for it.
+
+1808
+00:38:48,790 --> 00:38:48,800
+compensate for it.
+ 
+
+1809
+00:38:48,800 --> 00:38:51,830
+compensate for it.
+And sinh over cosh is the definition of
+
+1810
+00:38:51,830 --> 00:38:51,840
+And sinh over cosh is the definition of
+ 
+
+1811
+00:38:51,840 --> 00:38:54,310
+And sinh over cosh is the definition of
+tanh.
+
+1812
+00:38:54,310 --> 00:38:54,320
+tanh.
+ 
+
+1813
+00:38:54,320 --> 00:38:56,310
+tanh.
+Recall these identities we found for
+
+1814
+00:38:56,310 --> 00:38:56,320
+Recall these identities we found for
+ 
+
+1815
+00:38:56,320 --> 00:38:59,950
+Recall these identities we found for
+cosh and sinh of a half angle.
+
+1816
+00:38:59,950 --> 00:38:59,960
+cosh and sinh of a half angle.
+ 
+
+1817
+00:38:59,960 --> 00:39:02,510
+cosh and sinh of a half angle.
+Since tanh of a half angle is just the
+
+1818
+00:39:02,510 --> 00:39:02,520
+Since tanh of a half angle is just the
+ 
+
+1819
+00:39:02,520 --> 00:39:06,110
+Since tanh of a half angle is just the
+ratio of sinh and cosh, we can take the
+
+1820
+00:39:06,110 --> 00:39:06,120
+ratio of sinh and cosh, we can take the
+ 
+
+1821
+00:39:06,120 --> 00:39:09,230
+ratio of sinh and cosh, we can take the
+ratio of these formulas.
+
+1822
+00:39:09,230 --> 00:39:09,240
+ratio of these formulas.
+ 
+
+1823
+00:39:09,240 --> 00:39:11,390
+ratio of these formulas.
+Canceling the terms in front, we get the
+
+1824
+00:39:11,390 --> 00:39:11,400
+Canceling the terms in front, we get the
+ 
+
+1825
+00:39:11,400 --> 00:39:14,349
+Canceling the terms in front, we get the
+square root of adjacent minus hypotenuse
+
+1826
+00:39:14,349 --> 00:39:14,359
+square root of adjacent minus hypotenuse
+ 
+
+1827
+00:39:14,359 --> 00:39:18,110
+square root of adjacent minus hypotenuse
+over adjacent plus hypotenuse.
+
+1828
+00:39:18,110 --> 00:39:18,120
+over adjacent plus hypotenuse.
+ 
+
+1829
+00:39:18,120 --> 00:39:20,030
+over adjacent plus hypotenuse.
+We can multiply both the numerator and
+
+1830
+00:39:20,030 --> 00:39:20,040
+We can multiply both the numerator and
+ 
+
+1831
+00:39:20,040 --> 00:39:24,070
+We can multiply both the numerator and
+denominator by adjacent plus hypotenuse.
+
+1832
+00:39:24,070 --> 00:39:24,080
+denominator by adjacent plus hypotenuse.
+ 
+
+1833
+00:39:24,080 --> 00:39:26,190
+denominator by adjacent plus hypotenuse.
+On the bottom, this gives us a squared
+
+1834
+00:39:26,190 --> 00:39:26,200
+On the bottom, this gives us a squared
+ 
+
+1835
+00:39:26,200 --> 00:39:28,910
+On the bottom, this gives us a squared
+sum, and on top, we get a difference of
+
+1836
+00:39:28,910 --> 00:39:28,920
+sum, and on top, we get a difference of
+ 
+
+1837
+00:39:28,920 --> 00:39:31,790
+sum, and on top, we get a difference of
+squares. Which, according to hyperbolic
+
+1838
+00:39:31,790 --> 00:39:31,800
+squares. Which, according to hyperbolic
+ 
+
+1839
+00:39:31,800 --> 00:39:36,110
+squares. Which, according to hyperbolic
+trig rules, gives us opposite squared.
+
+1840
+00:39:36,110 --> 00:39:36,120
+trig rules, gives us opposite squared.
+ 
+
+1841
+00:39:36,120 --> 00:39:38,349
+trig rules, gives us opposite squared.
+We can now cancel the squares and square
+
+1842
+00:39:38,349 --> 00:39:38,359
+We can now cancel the squares and square
+ 
+
+1843
+00:39:38,359 --> 00:39:41,190
+We can now cancel the squares and square
+root to get this formula for tanh of a
+
+1844
+00:39:41,190 --> 00:39:41,200
+root to get this formula for tanh of a
+ 
+
+1845
+00:39:41,200 --> 00:39:43,150
+root to get this formula for tanh of a
+half angle.
+
+1846
+00:39:43,150 --> 00:39:43,160
+half angle.
+ 
+
+1847
+00:39:43,160 --> 00:39:45,150
+half angle.
+And we can get a frequency wave number
+
+1848
+00:39:45,150 --> 00:39:45,160
+And we can get a frequency wave number
+ 
+
+1849
+00:39:45,160 --> 00:39:47,390
+And we can get a frequency wave number
+version of this formula as well as an
+
+1850
+00:39:47,390 --> 00:39:47,400
+version of this formula as well as an
+ 
+
+1851
+00:39:47,400 --> 00:39:51,070
+version of this formula as well as an
+energy momentum version of this formula.
+
+1852
+00:39:51,070 --> 00:39:51,080
+energy momentum version of this formula.
+ 
+
+1853
+00:39:51,080 --> 00:39:52,830
+energy momentum version of this formula.
+Going back to our formulas for the
+
+1854
+00:39:52,830 --> 00:39:52,840
+Going back to our formulas for the
+ 
+
+1855
+00:39:52,840 --> 00:39:55,550
+Going back to our formulas for the
+boosted spinners in the mass basis, we
+
+1856
+00:39:55,550 --> 00:39:55,560
+boosted spinners in the mass basis, we
+ 
+
+1857
+00:39:55,560 --> 00:39:57,990
+boosted spinners in the mass basis, we
+can now sub in our known formulas for
+
+1858
+00:39:57,990 --> 00:39:58,000
+can now sub in our known formulas for
+ 
+
+1859
+00:39:58,000 --> 00:40:02,070
+can now sub in our known formulas for
+cosh and tanh of half angles.
+
+1860
+00:40:02,070 --> 00:40:02,080
+cosh and tanh of half angles.
+ 
+
+1861
+00:40:02,080 --> 00:40:04,950
+cosh and tanh of half angles.
+And recall multiplying the normal vector
+
+1862
+00:40:04,950 --> 00:40:04,960
+And recall multiplying the normal vector
+ 
+
+1863
+00:40:04,960 --> 00:40:07,910
+And recall multiplying the normal vector
+and I components by the magnitude of K
+
+1864
+00:40:07,910 --> 00:40:07,920
+and I components by the magnitude of K
+ 
+
+1865
+00:40:07,920 --> 00:40:11,750
+and I components by the magnitude of K
+will just give the KI components.
+
+1866
+00:40:11,750 --> 00:40:11,760
+will just give the KI components.
+ 
+
+1867
+00:40:11,760 --> 00:40:14,430
+will just give the KI components.
+We can also plug in explicitly the spin
+
+1868
+00:40:14,430 --> 00:40:14,440
+We can also plug in explicitly the spin
+ 
+
+1869
+00:40:14,440 --> 00:40:16,950
+We can also plug in explicitly the spin
+up and spin down components to get these
+
+1870
+00:40:16,950 --> 00:40:16,960
+up and spin down components to get these
+ 
+
+1871
+00:40:16,960 --> 00:40:18,950
+up and spin down components to get these
+solutions here.
+
+1872
+00:40:18,950 --> 00:40:18,960
+solutions here.
+ 
+
+1873
+00:40:18,960 --> 00:40:21,310
+solutions here.
+And once again, we can convert to energy
+
+1874
+00:40:21,310 --> 00:40:21,320
+And once again, we can convert to energy
+ 
+
+1875
+00:40:21,320 --> 00:40:23,630
+And once again, we can convert to energy
+and momentum if we use a factor of h
+
+1876
+00:40:23,630 --> 00:40:23,640
+and momentum if we use a factor of h
+ 
+
+1877
+00:40:23,640 --> 00:40:26,390
+and momentum if we use a factor of h
+bar.
+
+1878
+00:40:26,390 --> 00:40:26,400
+
+ 
+
+1879
+00:40:26,400 --> 00:40:28,750
+
+Now recall that the U solutions have
+
+1880
+00:40:28,750 --> 00:40:28,760
+Now recall that the U solutions have
+ 
+
+1881
+00:40:28,760 --> 00:40:30,550
+Now recall that the U solutions have
+negative exponentials and the V
+
+1882
+00:40:30,550 --> 00:40:30,560
+negative exponentials and the V
+ 
+
+1883
+00:40:30,560 --> 00:40:33,910
+negative exponentials and the V
+solutions have positive exponentials.
+
+1884
+00:40:33,910 --> 00:40:33,920
+solutions have positive exponentials.
+ 
+
+1885
+00:40:33,920 --> 00:40:36,630
+solutions have positive exponentials.
+Confusingly, I've seen some sources flip
+
+1886
+00:40:36,630 --> 00:40:36,640
+Confusingly, I've seen some sources flip
+ 
+
+1887
+00:40:36,640 --> 00:40:39,110
+Confusingly, I've seen some sources flip
+the sign on the four-wave vector K
+
+1888
+00:40:39,110 --> 00:40:39,120
+the sign on the four-wave vector K
+ 
+
+1889
+00:40:39,120 --> 00:40:41,910
+the sign on the four-wave vector K
+components on the V solutions to make
+
+1890
+00:40:41,910 --> 00:40:41,920
+components on the V solutions to make
+ 
+
+1891
+00:40:41,920 --> 00:40:44,030
+components on the V solutions to make
+the exponent negative.
+
+1892
+00:40:44,030 --> 00:40:44,040
+the exponent negative.
+ 
+
+1893
+00:40:44,040 --> 00:40:46,430
+the exponent negative.
+And the signs on K in the spinner are
+
+1894
+00:40:46,430 --> 00:40:46,440
+And the signs on K in the spinner are
+ 
+
+1895
+00:40:46,440 --> 00:40:50,350
+And the signs on K in the spinner are
+flipped as a result in this case.
+
+1896
+00:40:50,350 --> 00:40:50,360
+flipped as a result in this case.
+ 
+
+1897
+00:40:50,360 --> 00:40:52,190
+flipped as a result in this case.
+So to sum everything up for the mass
+
+1898
+00:40:52,190 --> 00:40:52,200
+So to sum everything up for the mass
+ 
+
+1899
+00:40:52,200 --> 00:40:54,230
+So to sum everything up for the mass
+basis, these are the stationary
+
+1900
+00:40:54,230 --> 00:40:54,240
+basis, these are the stationary
+ 
+
+1901
+00:40:54,240 --> 00:40:56,590
+basis, these are the stationary
+solutions. These are the boosted
+
+1902
+00:40:56,590 --> 00:40:56,600
+solutions. These are the boosted
+ 
+
+1903
+00:40:56,600 --> 00:40:59,310
+solutions. These are the boosted
+solutions written with hyperbolic trig.
+
+1904
+00:40:59,310 --> 00:40:59,320
+solutions written with hyperbolic trig.
+ 
+
+1905
+00:40:59,320 --> 00:41:01,070
+solutions written with hyperbolic trig.
+And these are the boosted solutions
+
+1906
+00:41:01,070 --> 00:41:01,080
+And these are the boosted solutions
+ 
+
+1907
+00:41:01,080 --> 00:41:04,870
+And these are the boosted solutions
+written with physical quantities.
+
+1908
+00:41:04,870 --> 00:41:04,880
+written with physical quantities.
+ 
+
+1909
+00:41:04,880 --> 00:41:07,350
+written with physical quantities.
+So let's sum everything up.
+
+1910
+00:41:07,350 --> 00:41:07,360
+So let's sum everything up.
+ 
+
+1911
+00:41:07,360 --> 00:41:09,830
+So let's sum everything up.
+In the previous videos, we saw the real
+
+1912
+00:41:09,830 --> 00:41:09,840
+In the previous videos, we saw the real
+ 
+
+1913
+00:41:09,840 --> 00:41:12,790
+In the previous videos, we saw the real
+spin zero Klein-Gordon field has one
+
+1914
+00:41:12,790 --> 00:41:12,800
+spin zero Klein-Gordon field has one
+ 
+
+1915
+00:41:12,800 --> 00:41:15,590
+spin zero Klein-Gordon field has one
+solution per wave vector.
+
+1916
+00:41:15,590 --> 00:41:15,600
+solution per wave vector.
+ 
+
+1917
+00:41:15,600 --> 00:41:18,310
+solution per wave vector.
+And the real spin one Proca field has
+
+1918
+00:41:18,310 --> 00:41:18,320
+And the real spin one Proca field has
+ 
+
+1919
+00:41:18,320 --> 00:41:21,350
+And the real spin one Proca field has
+three solutions per wave vector because
+
+1920
+00:41:21,350 --> 00:41:21,360
+three solutions per wave vector because
+ 
+
+1921
+00:41:21,360 --> 00:41:24,870
+three solutions per wave vector because
+of the three possible polarizations.
+
+1922
+00:41:24,870 --> 00:41:24,880
+of the three possible polarizations.
+ 
+
+1923
+00:41:24,880 --> 00:41:27,390
+of the three possible polarizations.
+In this video, I did not cover the real
+
+1924
+00:41:27,390 --> 00:41:27,400
+In this video, I did not cover the real
+ 
+
+1925
+00:41:27,400 --> 00:41:29,550
+In this video, I did not cover the real
+spin one-half field, which is the
+
+1926
+00:41:29,550 --> 00:41:29,560
+spin one-half field, which is the
+ 
+
+1927
+00:41:29,560 --> 00:41:31,710
+spin one-half field, which is the
+Majorana field.
+
+1928
+00:41:31,710 --> 00:41:31,720
+Majorana field.
+ 
+
+1929
+00:41:31,720 --> 00:41:33,390
+Majorana field.
+But it makes sense that it would sit in
+
+1930
+00:41:33,390 --> 00:41:33,400
+But it makes sense that it would sit in
+ 
+
+1931
+00:41:33,400 --> 00:41:35,950
+But it makes sense that it would sit in
+between with two solutions per wave
+
+1932
+00:41:35,950 --> 00:41:35,960
+between with two solutions per wave
+ 
+
+1933
+00:41:35,960 --> 00:41:38,590
+between with two solutions per wave
+vector, which are the spin up and spin
+
+1934
+00:41:38,590 --> 00:41:38,600
+vector, which are the spin up and spin
+ 
+
+1935
+00:41:38,600 --> 00:41:40,990
+vector, which are the spin up and spin
+down solutions.
+
+1936
+00:41:40,990 --> 00:41:41,000
+down solutions.
+ 
+
+1937
+00:41:41,000 --> 00:41:43,430
+down solutions.
+When we complexify these fields, we
+
+1938
+00:41:43,430 --> 00:41:43,440
+When we complexify these fields, we
+ 
+
+1939
+00:41:43,440 --> 00:41:46,150
+When we complexify these fields, we
+double the number of solutions.
+
+1940
+00:41:46,150 --> 00:41:46,160
+double the number of solutions.
+ 
+
+1941
+00:41:46,160 --> 00:41:48,350
+double the number of solutions.
+This is why the Dirac field has four
+
+1942
+00:41:48,350 --> 00:41:48,360
+This is why the Dirac field has four
+ 
+
+1943
+00:41:48,360 --> 00:41:51,430
+This is why the Dirac field has four
+basic solutions per wave vector.
+
+1944
+00:41:51,430 --> 00:41:51,440
+basic solutions per wave vector.
+ 
+
+1945
+00:41:51,440 --> 00:41:53,910
+basic solutions per wave vector.
+The two basic spin up and spin down
+
+1946
+00:41:53,910 --> 00:41:53,920
+The two basic spin up and spin down
+ 
+
+1947
+00:41:53,920 --> 00:41:55,710
+The two basic spin up and spin down
+solutions are doubled after
+
+1948
+00:41:55,710 --> 00:41:55,720
+solutions are doubled after
+ 
+
+1949
+00:41:55,720 --> 00:41:57,390
+solutions are doubled after
+complexification,
+
+1950
+00:41:57,390 --> 00:41:57,400
+complexification,
+ 
+
+1951
+00:41:57,400 --> 00:41:59,470
+complexification,
+and we get four basic solutions in
+
+1952
+00:41:59,470 --> 00:41:59,480
+and we get four basic solutions in
+ 
+
+1953
+00:41:59,480 --> 00:42:01,270
+and we get four basic solutions in
+total.
+
+1954
+00:42:01,270 --> 00:42:01,280
+total.
+ 
+
+1955
+00:42:01,280 --> 00:42:03,550
+total.
+There's a spin up U solution and a spin
+
+1956
+00:42:03,550 --> 00:42:03,560
+There's a spin up U solution and a spin
+ 
+
+1957
+00:42:03,560 --> 00:42:06,190
+There's a spin up U solution and a spin
+up V solution, and a spin down U
+
+1958
+00:42:06,190 --> 00:42:06,200
+up V solution, and a spin down U
+ 
+
+1959
+00:42:06,200 --> 00:42:09,630
+up V solution, and a spin down U
+solution and a spin down V solution.
+
+1960
+00:42:09,630 --> 00:42:09,640
+solution and a spin down V solution.
+ 
+
+1961
+00:42:09,640 --> 00:42:12,270
+solution and a spin down V solution.
+The U and V solutions have space-time
+
+1962
+00:42:12,270 --> 00:42:12,280
+The U and V solutions have space-time
+ 
+
+1963
+00:42:12,280 --> 00:42:14,670
+The U and V solutions have space-time
+wave parts that are complex conjugates
+
+1964
+00:42:14,670 --> 00:42:14,680
+wave parts that are complex conjugates
+ 
+
+1965
+00:42:14,680 --> 00:42:16,870
+wave parts that are complex conjugates
+of each other.
+
+1966
+00:42:16,870 --> 00:42:16,880
+of each other.
+ 
+
+1967
+00:42:16,880 --> 00:42:19,470
+of each other.
+We saw that for the Dirac field, every
+
+1968
+00:42:19,470 --> 00:42:19,480
+We saw that for the Dirac field, every
+ 
+
+1969
+00:42:19,480 --> 00:42:22,070
+We saw that for the Dirac field, every
+solution contains both a left chiral and
+
+1970
+00:42:22,070 --> 00:42:22,080
+solution contains both a left chiral and
+ 
+
+1971
+00:42:22,080 --> 00:42:25,830
+solution contains both a left chiral and
+right chiral Weyl spinner inside of it.
+
+1972
+00:42:25,830 --> 00:42:25,840
+right chiral Weyl spinner inside of it.
+ 
+
+1973
+00:42:25,840 --> 00:42:28,070
+right chiral Weyl spinner inside of it.
+We can write stationary solutions in
+
+1974
+00:42:28,070 --> 00:42:28,080
+We can write stationary solutions in
+ 
+
+1975
+00:42:28,080 --> 00:42:30,310
+We can write stationary solutions in
+either the chiral basis or the mass
+
+1976
+00:42:30,310 --> 00:42:30,320
+either the chiral basis or the mass
+ 
+
+1977
+00:42:30,320 --> 00:42:31,750
+either the chiral basis or the mass
+basis.
+
+1978
+00:42:31,750 --> 00:42:31,760
+basis.
+ 
+
+1979
+00:42:31,760 --> 00:42:33,910
+basis.
+And we can boost these solutions to any
+
+1980
+00:42:33,910 --> 00:42:33,920
+And we can boost these solutions to any
+ 
+
+1981
+00:42:33,920 --> 00:42:38,430
+And we can boost these solutions to any
+arbitrary wave vector K of our choice.
+
+1982
+00:42:38,430 --> 00:42:38,440
+arbitrary wave vector K of our choice.
+ 
+
+1983
+00:42:38,440 --> 00:42:40,990
+arbitrary wave vector K of our choice.
+Finally, to get the most generic Dirac
+
+1984
+00:42:40,990 --> 00:42:41,000
+Finally, to get the most generic Dirac
+ 
+
+1985
+00:42:41,000 --> 00:42:43,350
+Finally, to get the most generic Dirac
+solution possible, we take a linear
+
+1986
+00:42:43,350 --> 00:42:43,360
+solution possible, we take a linear
+ 
+
+1987
+00:42:43,360 --> 00:42:46,190
+solution possible, we take a linear
+combination of these four solutions,
+
+1988
+00:42:46,190 --> 00:42:46,200
+combination of these four solutions,
+ 
+
+1989
+00:42:46,200 --> 00:42:49,030
+combination of these four solutions,
+each with their own scaling constants,
+
+1990
+00:42:49,030 --> 00:42:49,040
+each with their own scaling constants,
+ 
+
+1991
+00:42:49,040 --> 00:42:51,070
+each with their own scaling constants,
+and then integrate over all possible
+
+1992
+00:42:51,070 --> 00:42:51,080
+and then integrate over all possible
+ 
+
+1993
+00:42:51,080 --> 00:42:55,950
+and then integrate over all possible
+wave numbers KX, KY, and KZ.
+
+1994
+00:42:55,950 --> 00:42:55,960
+wave numbers KX, KY, and KZ.
+ 
+
+1995
+00:42:55,960 --> 00:42:58,110
+wave numbers KX, KY, and KZ.
+Now there are a number of topics related
+
+1996
+00:42:58,110 --> 00:42:58,120
+Now there are a number of topics related
+ 
+
+1997
+00:42:58,120 --> 00:43:00,150
+Now there are a number of topics related
+to the Dirac equation that I still need
+
+1998
+00:43:00,150 --> 00:43:00,160
+to the Dirac equation that I still need
+ 
+
+1999
+00:43:00,160 --> 00:43:02,870
+to the Dirac equation that I still need
+to cover, like helicity, conserved
+
+2000
+00:43:02,870 --> 00:43:02,880
+to cover, like helicity, conserved
+ 
+
+2001
+00:43:02,880 --> 00:43:04,870
+to cover, like helicity, conserved
+currents, and a proper treatment of
+
+2002
+00:43:04,870 --> 00:43:04,880
+currents, and a proper treatment of
+ 
+
+2003
+00:43:04,880 --> 00:43:07,470
+currents, and a proper treatment of
+antimatter. And I'm going to cover those
+
+2004
+00:43:07,470 --> 00:43:07,480
+antimatter. And I'm going to cover those
+ 
+
+2005
+00:43:07,480 --> 00:43:10,600
+antimatter. And I'm going to cover those
+in the next video.
+
