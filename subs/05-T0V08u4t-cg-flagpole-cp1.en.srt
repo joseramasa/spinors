@@ -1,0 +1,5565 @@
+1
+00:00:00,000 --> 00:00:02,510
+
+this is the final video where we'll be
+
+2
+00:00:02,510 --> 00:00:02,520
+this is the final video where we'll be
+ 
+
+3
+00:00:02,520 --> 00:00:04,370
+this is the final video where we'll be
+learning about the basic examples of
+
+4
+00:00:04,370 --> 00:00:04,380
+learning about the basic examples of
+ 
+
+5
+00:00:04,380 --> 00:00:06,470
+learning about the basic examples of
+spinners in physics
+
+6
+00:00:06,470 --> 00:00:06,480
+spinners in physics
+ 
+
+7
+00:00:06,480 --> 00:00:08,870
+spinners in physics
+in the last couple videos we've learned
+
+8
+00:00:08,870 --> 00:00:08,880
+in the last couple videos we've learned
+ 
+
+9
+00:00:08,880 --> 00:00:11,570
+in the last couple videos we've learned
+how both LightWave polarizations and
+
+10
+00:00:11,570 --> 00:00:11,580
+how both LightWave polarizations and
+ 
+
+11
+00:00:11,580 --> 00:00:14,209
+how both LightWave polarizations and
+Quantum spin States can be described
+
+12
+00:00:14,209 --> 00:00:14,219
+Quantum spin States can be described
+ 
+
+13
+00:00:14,219 --> 00:00:16,550
+Quantum spin States can be described
+mathematically by pairs of complex
+
+14
+00:00:16,550 --> 00:00:16,560
+mathematically by pairs of complex
+ 
+
+15
+00:00:16,560 --> 00:00:19,849
+mathematically by pairs of complex
+numbers called Spinners that rotate on a
+
+16
+00:00:19,849 --> 00:00:19,859
+numbers called Spinners that rotate on a
+ 
+
+17
+00:00:19,859 --> 00:00:22,609
+numbers called Spinners that rotate on a
+sphere with su2 matrices
+
+18
+00:00:22,609 --> 00:00:22,619
+sphere with su2 matrices
+ 
+
+19
+00:00:22,619 --> 00:00:24,590
+sphere with su2 matrices
+in this video we'll learn how to
+
+20
+00:00:24,590 --> 00:00:24,600
+in this video we'll learn how to
+ 
+
+21
+00:00:24,600 --> 00:00:27,290
+in this video we'll learn how to
+visualize Spinners as flag poles on a
+
+22
+00:00:27,290 --> 00:00:27,300
+visualize Spinners as flag poles on a
+ 
+
+23
+00:00:27,300 --> 00:00:29,929
+visualize Spinners as flag poles on a
+sphere and learn how Spinners are points
+
+24
+00:00:29,929 --> 00:00:29,939
+sphere and learn how Spinners are points
+ 
+
+25
+00:00:29,939 --> 00:00:32,510
+sphere and learn how Spinners are points
+on the complex projective line
+
+26
+00:00:32,510 --> 00:00:32,520
+on the complex projective line
+ 
+
+27
+00:00:32,520 --> 00:00:35,209
+on the complex projective line
+to begin let's review some of the basic
+
+28
+00:00:35,209 --> 00:00:35,219
+to begin let's review some of the basic
+ 
+
+29
+00:00:35,219 --> 00:00:37,670
+to begin let's review some of the basic
+facts about Jones vectors and Quantum
+
+30
+00:00:37,670 --> 00:00:37,680
+facts about Jones vectors and Quantum
+ 
+
+31
+00:00:37,680 --> 00:00:40,250
+facts about Jones vectors and Quantum
+spin State vectors
+
+32
+00:00:40,250 --> 00:00:40,260
+spin State vectors
+ 
+
+33
+00:00:40,260 --> 00:00:43,369
+spin State vectors
+a diagonally polarized wave is made up
+
+34
+00:00:43,369 --> 00:00:43,379
+a diagonally polarized wave is made up
+ 
+
+35
+00:00:43,379 --> 00:00:45,770
+a diagonally polarized wave is made up
+of equal amounts of horizontally and
+
+36
+00:00:45,770 --> 00:00:45,780
+of equal amounts of horizontally and
+ 
+
+37
+00:00:45,780 --> 00:00:48,049
+of equal amounts of horizontally and
+vertically polarized waves
+
+38
+00:00:48,049 --> 00:00:48,059
+vertically polarized waves
+ 
+
+39
+00:00:48,059 --> 00:00:50,569
+vertically polarized waves
+however if we phase shift the
+
+40
+00:00:50,569 --> 00:00:50,579
+however if we phase shift the
+ 
+
+41
+00:00:50,579 --> 00:00:52,729
+however if we phase shift the
+horizontally and vertically polarized
+
+42
+00:00:52,729 --> 00:00:52,739
+horizontally and vertically polarized
+ 
+
+43
+00:00:52,739 --> 00:00:55,729
+horizontally and vertically polarized
+Waves by the same amount all this does
+
+44
+00:00:55,729 --> 00:00:55,739
+Waves by the same amount all this does
+ 
+
+45
+00:00:55,739 --> 00:00:58,549
+Waves by the same amount all this does
+is shift the entire wave along the axis
+
+46
+00:00:58,549 --> 00:00:58,559
+is shift the entire wave along the axis
+ 
+
+47
+00:00:58,559 --> 00:01:00,229
+is shift the entire wave along the axis
+of travel
+
+48
+00:01:00,229 --> 00:01:00,239
+of travel
+ 
+
+49
+00:01:00,239 --> 00:01:02,810
+of travel
+the wave is still diagonally polarized
+
+50
+00:01:02,810 --> 00:01:02,820
+the wave is still diagonally polarized
+ 
+
+51
+00:01:02,820 --> 00:01:05,990
+the wave is still diagonally polarized
+so the polarization is unchanged
+
+52
+00:01:05,990 --> 00:01:06,000
+so the polarization is unchanged
+ 
+
+53
+00:01:06,000 --> 00:01:08,090
+so the polarization is unchanged
+so we know that multiplying A Jones
+
+54
+00:01:08,090 --> 00:01:08,100
+so we know that multiplying A Jones
+ 
+
+55
+00:01:08,100 --> 00:01:10,850
+so we know that multiplying A Jones
+vector by an overall phase does not
+
+56
+00:01:10,850 --> 00:01:10,860
+vector by an overall phase does not
+ 
+
+57
+00:01:10,860 --> 00:01:13,609
+vector by an overall phase does not
+change the polarization
+
+58
+00:01:13,609 --> 00:01:13,619
+change the polarization
+ 
+
+59
+00:01:13,619 --> 00:01:16,670
+change the polarization
+here's something else to consider if we
+
+60
+00:01:16,670 --> 00:01:16,680
+here's something else to consider if we
+ 
+
+61
+00:01:16,680 --> 00:01:19,130
+here's something else to consider if we
+take a diagonally polarized Jones vector
+
+62
+00:01:19,130 --> 00:01:19,140
+take a diagonally polarized Jones vector
+ 
+
+63
+00:01:19,140 --> 00:01:22,789
+take a diagonally polarized Jones vector
+and multiply it by two all this does is
+
+64
+00:01:22,789 --> 00:01:22,799
+and multiply it by two all this does is
+ 
+
+65
+00:01:22,799 --> 00:01:25,670
+and multiply it by two all this does is
+double the amplitude of the wave but the
+
+66
+00:01:25,670 --> 00:01:25,680
+double the amplitude of the wave but the
+ 
+
+67
+00:01:25,680 --> 00:01:28,310
+double the amplitude of the wave but the
+wave is still diagonally polarized
+
+68
+00:01:28,310 --> 00:01:28,320
+wave is still diagonally polarized
+ 
+
+69
+00:01:28,320 --> 00:01:31,670
+wave is still diagonally polarized
+so the polarization is unchanged so
+
+70
+00:01:31,670 --> 00:01:31,680
+so the polarization is unchanged so
+ 
+
+71
+00:01:31,680 --> 00:01:33,289
+so the polarization is unchanged so
+we've learned that multiplying A Jones
+
+72
+00:01:33,289 --> 00:01:33,299
+we've learned that multiplying A Jones
+ 
+
+73
+00:01:33,299 --> 00:01:36,170
+we've learned that multiplying A Jones
+vector by an overall scaling Factor does
+
+74
+00:01:36,170 --> 00:01:36,180
+vector by an overall scaling Factor does
+ 
+
+75
+00:01:36,180 --> 00:01:38,929
+vector by an overall scaling Factor does
+not change the polarization
+
+76
+00:01:38,929 --> 00:01:38,939
+not change the polarization
+ 
+
+77
+00:01:38,939 --> 00:01:42,350
+not change the polarization
+so polarizations are unchanged when we
+
+78
+00:01:42,350 --> 00:01:42,360
+so polarizations are unchanged when we
+ 
+
+79
+00:01:42,360 --> 00:01:44,690
+so polarizations are unchanged when we
+multiply a wave by any overall phase
+
+80
+00:01:44,690 --> 00:01:44,700
+multiply a wave by any overall phase
+ 
+
+81
+00:01:44,700 --> 00:01:48,950
+multiply a wave by any overall phase
+factor or any overall scaling factor and
+
+82
+00:01:48,950 --> 00:01:48,960
+factor or any overall scaling factor and
+ 
+
+83
+00:01:48,960 --> 00:01:51,230
+factor or any overall scaling factor and
+of course a scaling factor and a phase
+
+84
+00:01:51,230 --> 00:01:51,240
+of course a scaling factor and a phase
+ 
+
+85
+00:01:51,240 --> 00:01:53,690
+of course a scaling factor and a phase
+together can be used to describe any
+
+86
+00:01:53,690 --> 00:01:53,700
+together can be used to describe any
+ 
+
+87
+00:01:53,700 --> 00:01:56,450
+together can be used to describe any
+complex number this is just an
+
+88
+00:01:56,450 --> 00:01:56,460
+complex number this is just an
+ 
+
+89
+00:01:56,460 --> 00:01:58,310
+complex number this is just an
+alternative way of writing a complex
+
+90
+00:01:58,310 --> 00:01:58,320
+alternative way of writing a complex
+ 
+
+91
+00:01:58,320 --> 00:02:01,130
+alternative way of writing a complex
+number X Plus i y
+
+92
+00:02:01,130 --> 00:02:01,140
+number X Plus i y
+ 
+
+93
+00:02:01,140 --> 00:02:03,889
+number X Plus i y
+so polarizations are unchanged when we
+
+94
+00:02:03,889 --> 00:02:03,899
+so polarizations are unchanged when we
+ 
+
+95
+00:02:03,899 --> 00:02:06,289
+so polarizations are unchanged when we
+multiply Jones vectors by a complex
+
+96
+00:02:06,289 --> 00:02:06,299
+multiply Jones vectors by a complex
+ 
+
+97
+00:02:06,299 --> 00:02:08,029
+multiply Jones vectors by a complex
+number
+
+98
+00:02:08,029 --> 00:02:08,039
+number
+ 
+
+99
+00:02:08,039 --> 00:02:11,029
+number
+now let's look at Quantum spin states in
+
+100
+00:02:11,029 --> 00:02:11,039
+now let's look at Quantum spin states in
+ 
+
+101
+00:02:11,039 --> 00:02:13,490
+now let's look at Quantum spin states in
+the stern gearlock experiment
+
+102
+00:02:13,490 --> 00:02:13,500
+the stern gearlock experiment
+ 
+
+103
+00:02:13,500 --> 00:02:15,470
+the stern gearlock experiment
+we know that when we take a particle
+
+104
+00:02:15,470 --> 00:02:15,480
+we know that when we take a particle
+ 
+
+105
+00:02:15,480 --> 00:02:18,050
+we know that when we take a particle
+with a given spin State and apply an
+
+106
+00:02:18,050 --> 00:02:18,060
+with a given spin State and apply an
+ 
+
+107
+00:02:18,060 --> 00:02:20,510
+with a given spin State and apply an
+inhomogeneous magnetic field the
+
+108
+00:02:20,510 --> 00:02:20,520
+inhomogeneous magnetic field the
+ 
+
+109
+00:02:20,520 --> 00:02:22,550
+inhomogeneous magnetic field the
+particle will exit the magnet as a
+
+110
+00:02:22,550 --> 00:02:22,560
+particle will exit the magnet as a
+ 
+
+111
+00:02:22,560 --> 00:02:25,130
+particle will exit the magnet as a
+Quantum superposition of two outcome
+
+112
+00:02:25,130 --> 00:02:25,140
+Quantum superposition of two outcome
+ 
+
+113
+00:02:25,140 --> 00:02:27,650
+Quantum superposition of two outcome
+states that are split in the up and down
+
+114
+00:02:27,650 --> 00:02:27,660
+states that are split in the up and down
+ 
+
+115
+00:02:27,660 --> 00:02:30,770
+states that are split in the up and down
+directions I was a bit imprecise about
+
+116
+00:02:30,770 --> 00:02:30,780
+directions I was a bit imprecise about
+ 
+
+117
+00:02:30,780 --> 00:02:33,170
+directions I was a bit imprecise about
+this in my last video but the states
+
+118
+00:02:33,170 --> 00:02:33,180
+this in my last video but the states
+ 
+
+119
+00:02:33,180 --> 00:02:35,449
+this in my last video but the states
+doesn't fully collapse into the spin up
+
+120
+00:02:35,449 --> 00:02:35,459
+doesn't fully collapse into the spin up
+ 
+
+121
+00:02:35,459 --> 00:02:37,970
+doesn't fully collapse into the spin up
+or spin down state until a measurement
+
+122
+00:02:37,970 --> 00:02:37,980
+or spin down state until a measurement
+ 
+
+123
+00:02:37,980 --> 00:02:40,550
+or spin down state until a measurement
+is performed at a detector
+
+124
+00:02:40,550 --> 00:02:40,560
+is performed at a detector
+ 
+
+125
+00:02:40,560 --> 00:02:43,369
+is performed at a detector
+the probabilities for collapsing into a
+
+126
+00:02:43,369 --> 00:02:43,379
+the probabilities for collapsing into a
+ 
+
+127
+00:02:43,379 --> 00:02:45,589
+the probabilities for collapsing into a
+given state are given by the squared
+
+128
+00:02:45,589 --> 00:02:45,599
+given state are given by the squared
+ 
+
+129
+00:02:45,599 --> 00:02:48,229
+given state are given by the squared
+magnitudes of the inner product of the
+
+130
+00:02:48,229 --> 00:02:48,239
+magnitudes of the inner product of the
+ 
+
+131
+00:02:48,239 --> 00:02:50,470
+magnitudes of the inner product of the
+States before and after the collapse
+
+132
+00:02:50,470 --> 00:02:50,480
+States before and after the collapse
+ 
+
+133
+00:02:50,480 --> 00:02:53,809
+States before and after the collapse
+this is called born's Rule
+
+134
+00:02:53,809 --> 00:02:53,819
+this is called born's Rule
+ 
+
+135
+00:02:53,819 --> 00:02:56,509
+this is called born's Rule
+if we multiply our initial State vector
+
+136
+00:02:56,509 --> 00:02:56,519
+if we multiply our initial State vector
+ 
+
+137
+00:02:56,519 --> 00:02:59,330
+if we multiply our initial State vector
+by an overall phase and then look at the
+
+138
+00:02:59,330 --> 00:02:59,340
+by an overall phase and then look at the
+ 
+
+139
+00:02:59,340 --> 00:03:02,210
+by an overall phase and then look at the
+results of born's rule the complex phase
+
+140
+00:03:02,210 --> 00:03:02,220
+results of born's rule the complex phase
+ 
+
+141
+00:03:02,220 --> 00:03:04,729
+results of born's rule the complex phase
+comes out and has a magnitude of one
+
+142
+00:03:04,729 --> 00:03:04,739
+comes out and has a magnitude of one
+ 
+
+143
+00:03:04,739 --> 00:03:06,890
+comes out and has a magnitude of one
+leaving the resulting probabilities
+
+144
+00:03:06,890 --> 00:03:06,900
+leaving the resulting probabilities
+ 
+
+145
+00:03:06,900 --> 00:03:08,809
+leaving the resulting probabilities
+unchanged
+
+146
+00:03:08,809 --> 00:03:08,819
+unchanged
+ 
+
+147
+00:03:08,819 --> 00:03:11,750
+unchanged
+what this means is that any two State
+
+148
+00:03:11,750 --> 00:03:11,760
+what this means is that any two State
+ 
+
+149
+00:03:11,760 --> 00:03:14,030
+what this means is that any two State
+vectors that are related by a complex
+
+150
+00:03:14,030 --> 00:03:14,040
+vectors that are related by a complex
+ 
+
+151
+00:03:14,040 --> 00:03:16,850
+vectors that are related by a complex
+phase represent the same Quantum state
+
+152
+00:03:16,850 --> 00:03:16,860
+phase represent the same Quantum state
+ 
+
+153
+00:03:16,860 --> 00:03:20,089
+phase represent the same Quantum state
+so Quantum states are unchanged by
+
+154
+00:03:20,089 --> 00:03:20,099
+so Quantum states are unchanged by
+ 
+
+155
+00:03:20,099 --> 00:03:22,970
+so Quantum states are unchanged by
+overall phase factors
+
+156
+00:03:22,970 --> 00:03:22,980
+overall phase factors
+ 
+
+157
+00:03:22,980 --> 00:03:25,550
+overall phase factors
+now let's consider multiplying a Quantum
+
+158
+00:03:25,550 --> 00:03:25,560
+now let's consider multiplying a Quantum
+ 
+
+159
+00:03:25,560 --> 00:03:28,070
+now let's consider multiplying a Quantum
+State vector by the number two
+
+160
+00:03:28,070 --> 00:03:28,080
+State vector by the number two
+ 
+
+161
+00:03:28,080 --> 00:03:30,589
+State vector by the number two
+in many introductory quantum mechanics
+
+162
+00:03:30,589 --> 00:03:30,599
+in many introductory quantum mechanics
+ 
+
+163
+00:03:30,599 --> 00:03:33,050
+in many introductory quantum mechanics
+classes your professor might tell you
+
+164
+00:03:33,050 --> 00:03:33,060
+classes your professor might tell you
+ 
+
+165
+00:03:33,060 --> 00:03:35,809
+classes your professor might tell you
+that this is not allowed because this
+
+166
+00:03:35,809 --> 00:03:35,819
+that this is not allowed because this
+ 
+
+167
+00:03:35,819 --> 00:03:37,970
+that this is not allowed because this
+can give us probabilities larger than
+
+168
+00:03:37,970 --> 00:03:37,980
+can give us probabilities larger than
+ 
+
+169
+00:03:37,980 --> 00:03:41,449
+can give us probabilities larger than
+one when we use born's rule professors
+
+170
+00:03:41,449 --> 00:03:41,459
+one when we use born's rule professors
+ 
+
+171
+00:03:41,459 --> 00:03:43,729
+one when we use born's rule professors
+might tell you that it's required that
+
+172
+00:03:43,729 --> 00:03:43,739
+might tell you that it's required that
+ 
+
+173
+00:03:43,739 --> 00:03:46,369
+might tell you that it's required that
+all Quantum State vectors must have a
+
+174
+00:03:46,369 --> 00:03:46,379
+all Quantum State vectors must have a
+ 
+
+175
+00:03:46,379 --> 00:03:48,949
+all Quantum State vectors must have a
+length of one to ensure that the
+
+176
+00:03:48,949 --> 00:03:48,959
+length of one to ensure that the
+ 
+
+177
+00:03:48,959 --> 00:03:51,589
+length of one to ensure that the
+probabilities of all possible collapsed
+
+178
+00:03:51,589 --> 00:03:51,599
+probabilities of all possible collapsed
+ 
+
+179
+00:03:51,599 --> 00:03:54,470
+probabilities of all possible collapsed
+States add up to one
+
+180
+00:03:54,470 --> 00:03:54,480
+States add up to one
+ 
+
+181
+00:03:54,480 --> 00:03:57,830
+States add up to one
+however we can actually allow Quantum
+
+182
+00:03:57,830 --> 00:03:57,840
+however we can actually allow Quantum
+ 
+
+183
+00:03:57,840 --> 00:04:00,410
+however we can actually allow Quantum
+State vectors to have lengths larger or
+
+184
+00:04:00,410 --> 00:04:00,420
+State vectors to have lengths larger or
+ 
+
+185
+00:04:00,420 --> 00:04:03,110
+State vectors to have lengths larger or
+smaller than one if we make an
+
+186
+00:04:03,110 --> 00:04:03,120
+smaller than one if we make an
+ 
+
+187
+00:04:03,120 --> 00:04:05,809
+smaller than one if we make an
+appropriate change to born's rule
+
+188
+00:04:05,809 --> 00:04:05,819
+appropriate change to born's rule
+ 
+
+189
+00:04:05,819 --> 00:04:08,149
+appropriate change to born's rule
+this new version of Bourne's rule
+
+190
+00:04:08,149 --> 00:04:08,159
+this new version of Bourne's rule
+ 
+
+191
+00:04:08,159 --> 00:04:10,729
+this new version of Bourne's rule
+contains a division by the squared
+
+192
+00:04:10,729 --> 00:04:10,739
+contains a division by the squared
+ 
+
+193
+00:04:10,739 --> 00:04:13,250
+contains a division by the squared
+Vector lengths which normalizes both
+
+194
+00:04:13,250 --> 00:04:13,260
+Vector lengths which normalizes both
+ 
+
+195
+00:04:13,260 --> 00:04:16,129
+Vector lengths which normalizes both
+vectors to have a length of one
+
+196
+00:04:16,129 --> 00:04:16,139
+vectors to have a length of one
+ 
+
+197
+00:04:16,139 --> 00:04:19,069
+vectors to have a length of one
+with the newborns rule we can feel free
+
+198
+00:04:19,069 --> 00:04:19,079
+with the newborns rule we can feel free
+ 
+
+199
+00:04:19,079 --> 00:04:20,870
+with the newborns rule we can feel free
+to change the lengths of our state
+
+200
+00:04:20,870 --> 00:04:20,880
+to change the lengths of our state
+ 
+
+201
+00:04:20,880 --> 00:04:23,689
+to change the lengths of our state
+vectors as we like as long as they are
+
+202
+00:04:23,689 --> 00:04:23,699
+vectors as we like as long as they are
+ 
+
+203
+00:04:23,699 --> 00:04:26,870
+vectors as we like as long as they are
+non-zero because the newborn's rule will
+
+204
+00:04:26,870 --> 00:04:26,880
+non-zero because the newborn's rule will
+ 
+
+205
+00:04:26,880 --> 00:04:29,930
+non-zero because the newborn's rule will
+normalize them to one for us
+
+206
+00:04:29,930 --> 00:04:29,940
+normalize them to one for us
+ 
+
+207
+00:04:29,940 --> 00:04:32,450
+normalize them to one for us
+so if we multiply the first state vector
+
+208
+00:04:32,450 --> 00:04:32,460
+so if we multiply the first state vector
+ 
+
+209
+00:04:32,460 --> 00:04:35,930
+so if we multiply the first state vector
+by 2 we get a factor of 2 squared in the
+
+210
+00:04:35,930 --> 00:04:35,940
+by 2 we get a factor of 2 squared in the
+ 
+
+211
+00:04:35,940 --> 00:04:38,689
+by 2 we get a factor of 2 squared in the
+denominator which cancels with 2 squared
+
+212
+00:04:38,689 --> 00:04:38,699
+denominator which cancels with 2 squared
+ 
+
+213
+00:04:38,699 --> 00:04:41,390
+denominator which cancels with 2 squared
+in the numerator leaving the probability
+
+214
+00:04:41,390 --> 00:04:41,400
+in the numerator leaving the probability
+ 
+
+215
+00:04:41,400 --> 00:04:44,689
+in the numerator leaving the probability
+result from born's rule unchanged so
+
+216
+00:04:44,689 --> 00:04:44,699
+result from born's rule unchanged so
+ 
+
+217
+00:04:44,699 --> 00:04:47,030
+result from born's rule unchanged so
+it's only the angle between states that
+
+218
+00:04:47,030 --> 00:04:47,040
+it's only the angle between states that
+ 
+
+219
+00:04:47,040 --> 00:04:49,370
+it's only the angle between states that
+matters not the lengths of the state
+
+220
+00:04:49,370 --> 00:04:49,380
+matters not the lengths of the state
+ 
+
+221
+00:04:49,380 --> 00:04:51,409
+matters not the lengths of the state
+vectors
+
+222
+00:04:51,409 --> 00:04:51,419
+vectors
+ 
+
+223
+00:04:51,419 --> 00:04:54,530
+vectors
+so with the newborn's rule multiplying a
+
+224
+00:04:54,530 --> 00:04:54,540
+so with the newborn's rule multiplying a
+ 
+
+225
+00:04:54,540 --> 00:04:57,230
+so with the newborn's rule multiplying a
+Quantum State vector by an overall phase
+
+226
+00:04:57,230 --> 00:04:57,240
+Quantum State vector by an overall phase
+ 
+
+227
+00:04:57,240 --> 00:05:00,590
+Quantum State vector by an overall phase
+by an overall scaling factor or both
+
+228
+00:05:00,590 --> 00:05:00,600
+by an overall scaling factor or both
+ 
+
+229
+00:05:00,600 --> 00:05:04,010
+by an overall scaling factor or both
+leaves the state unchanged
+
+230
+00:05:04,010 --> 00:05:04,020
+leaves the state unchanged
+ 
+
+231
+00:05:04,020 --> 00:05:07,070
+leaves the state unchanged
+so both Jones vectors for light waves
+
+232
+00:05:07,070 --> 00:05:07,080
+so both Jones vectors for light waves
+ 
+
+233
+00:05:07,080 --> 00:05:09,650
+so both Jones vectors for light waves
+and Quantum State vectors in the stern
+
+234
+00:05:09,650 --> 00:05:09,660
+and Quantum State vectors in the stern
+ 
+
+235
+00:05:09,660 --> 00:05:12,650
+and Quantum State vectors in the stern
+gerlock experiment can be written as a
+
+236
+00:05:12,650 --> 00:05:12,660
+gerlock experiment can be written as a
+ 
+
+237
+00:05:12,660 --> 00:05:14,749
+gerlock experiment can be written as a
+pair of complex numbers
+
+238
+00:05:14,749 --> 00:05:14,759
+pair of complex numbers
+ 
+
+239
+00:05:14,759 --> 00:05:17,390
+pair of complex numbers
+and both of these can be multiplied by
+
+240
+00:05:17,390 --> 00:05:17,400
+and both of these can be multiplied by
+ 
+
+241
+00:05:17,400 --> 00:05:19,790
+and both of these can be multiplied by
+an overall scaling factor and an overall
+
+242
+00:05:19,790 --> 00:05:19,800
+an overall scaling factor and an overall
+ 
+
+243
+00:05:19,800 --> 00:05:22,790
+an overall scaling factor and an overall
+complex phase without changing the state
+
+244
+00:05:22,790 --> 00:05:22,800
+complex phase without changing the state
+ 
+
+245
+00:05:22,800 --> 00:05:24,710
+complex phase without changing the state
+they represent
+
+246
+00:05:24,710 --> 00:05:24,720
+they represent
+ 
+
+247
+00:05:24,720 --> 00:05:27,050
+they represent
+we call these pairs of complex numbers
+
+248
+00:05:27,050 --> 00:05:27,060
+we call these pairs of complex numbers
+ 
+
+249
+00:05:27,060 --> 00:05:29,570
+we call these pairs of complex numbers
+that don't care about overall complex
+
+250
+00:05:29,570 --> 00:05:29,580
+that don't care about overall complex
+ 
+
+251
+00:05:29,580 --> 00:05:32,990
+that don't care about overall complex
+multiplication spinners
+
+252
+00:05:32,990 --> 00:05:33,000
+multiplication spinners
+ 
+
+253
+00:05:33,000 --> 00:05:35,270
+multiplication spinners
+so we can write Spinners as a pair of
+
+254
+00:05:35,270 --> 00:05:35,280
+so we can write Spinners as a pair of
+ 
+
+255
+00:05:35,280 --> 00:05:38,390
+so we can write Spinners as a pair of
+complex numbers Alpha and beta
+
+256
+00:05:38,390 --> 00:05:38,400
+complex numbers Alpha and beta
+ 
+
+257
+00:05:38,400 --> 00:05:41,330
+complex numbers Alpha and beta
+these two complex numbers are made up of
+
+258
+00:05:41,330 --> 00:05:41,340
+these two complex numbers are made up of
+ 
+
+259
+00:05:41,340 --> 00:05:44,570
+these two complex numbers are made up of
+four real numbers two scaling factors
+
+260
+00:05:44,570 --> 00:05:44,580
+four real numbers two scaling factors
+ 
+
+261
+00:05:44,580 --> 00:05:46,730
+four real numbers two scaling factors
+and two phases
+
+262
+00:05:46,730 --> 00:05:46,740
+and two phases
+ 
+
+263
+00:05:46,740 --> 00:05:49,070
+and two phases
+this might make you think that Spinners
+
+264
+00:05:49,070 --> 00:05:49,080
+this might make you think that Spinners
+ 
+
+265
+00:05:49,080 --> 00:05:51,650
+this might make you think that Spinners
+require four real numbers to be
+
+266
+00:05:51,650 --> 00:05:51,660
+require four real numbers to be
+ 
+
+267
+00:05:51,660 --> 00:05:54,770
+require four real numbers to be
+specified but since we are free to
+
+268
+00:05:54,770 --> 00:05:54,780
+specified but since we are free to
+ 
+
+269
+00:05:54,780 --> 00:05:57,350
+specified but since we are free to
+multiply a spinner by any complex number
+
+270
+00:05:57,350 --> 00:05:57,360
+multiply a spinner by any complex number
+ 
+
+271
+00:05:57,360 --> 00:05:59,810
+multiply a spinner by any complex number
+without changing it we can always
+
+272
+00:05:59,810 --> 00:05:59,820
+without changing it we can always
+ 
+
+273
+00:05:59,820 --> 00:06:02,390
+without changing it we can always
+multiply by one over Alpha
+
+274
+00:06:02,390 --> 00:06:02,400
+multiply by one over Alpha
+ 
+
+275
+00:06:02,400 --> 00:06:05,210
+multiply by one over Alpha
+causing the top component to be one and
+
+276
+00:06:05,210 --> 00:06:05,220
+causing the top component to be one and
+ 
+
+277
+00:06:05,220 --> 00:06:07,310
+causing the top component to be one and
+making the bottom component the ratio
+
+278
+00:06:07,310 --> 00:06:07,320
+making the bottom component the ratio
+ 
+
+279
+00:06:07,320 --> 00:06:09,469
+making the bottom component the ratio
+beta over Alpha
+
+280
+00:06:09,469 --> 00:06:09,479
+beta over Alpha
+ 
+
+281
+00:06:09,479 --> 00:06:11,990
+beta over Alpha
+so really there's only one complex
+
+282
+00:06:11,990 --> 00:06:12,000
+so really there's only one complex
+ 
+
+283
+00:06:12,000 --> 00:06:14,689
+so really there's only one complex
+number that's required to specify a
+
+284
+00:06:14,689 --> 00:06:14,699
+number that's required to specify a
+ 
+
+285
+00:06:14,699 --> 00:06:17,510
+number that's required to specify a
+spinner since it is only the ratio of
+
+286
+00:06:17,510 --> 00:06:17,520
+spinner since it is only the ratio of
+ 
+
+287
+00:06:17,520 --> 00:06:19,909
+spinner since it is only the ratio of
+beta over Alpha that actually matters
+
+288
+00:06:19,909 --> 00:06:19,919
+beta over Alpha that actually matters
+ 
+
+289
+00:06:19,919 --> 00:06:23,150
+beta over Alpha that actually matters
+and this is a single complex number with
+
+290
+00:06:23,150 --> 00:06:23,160
+and this is a single complex number with
+ 
+
+291
+00:06:23,160 --> 00:06:25,550
+and this is a single complex number with
+two real parameters
+
+292
+00:06:25,550 --> 00:06:25,560
+two real parameters
+ 
+
+293
+00:06:25,560 --> 00:06:27,770
+two real parameters
+this is why we're able to visualize
+
+294
+00:06:27,770 --> 00:06:27,780
+this is why we're able to visualize
+ 
+
+295
+00:06:27,780 --> 00:06:31,550
+this is why we're able to visualize
+Spinners as arrows on a sphere only two
+
+296
+00:06:31,550 --> 00:06:31,560
+Spinners as arrows on a sphere only two
+ 
+
+297
+00:06:31,560 --> 00:06:33,950
+Spinners as arrows on a sphere only two
+real parameters are needed to specify
+
+298
+00:06:33,950 --> 00:06:33,960
+real parameters are needed to specify
+ 
+
+299
+00:06:33,960 --> 00:06:37,430
+real parameters are needed to specify
+them the longitude and the latitude
+
+300
+00:06:37,430 --> 00:06:37,440
+them the longitude and the latitude
+ 
+
+301
+00:06:37,440 --> 00:06:40,129
+them the longitude and the latitude
+the remaining two parameters the overall
+
+302
+00:06:40,129 --> 00:06:40,139
+the remaining two parameters the overall
+ 
+
+303
+00:06:40,139 --> 00:06:44,270
+the remaining two parameters the overall
+phase and overall scaling are ignored
+
+304
+00:06:44,270 --> 00:06:44,280
+phase and overall scaling are ignored
+ 
+
+305
+00:06:44,280 --> 00:06:46,670
+phase and overall scaling are ignored
+however we can still visualize the
+
+306
+00:06:46,670 --> 00:06:46,680
+however we can still visualize the
+ 
+
+307
+00:06:46,680 --> 00:06:49,430
+however we can still visualize the
+overall phase and overall scaling if we
+
+308
+00:06:49,430 --> 00:06:49,440
+overall phase and overall scaling if we
+ 
+
+309
+00:06:49,440 --> 00:06:53,990
+overall phase and overall scaling if we
+like using a flagpole visualization
+
+310
+00:06:53,990 --> 00:06:54,000
+like using a flagpole visualization
+ 
+
+311
+00:06:54,000 --> 00:06:56,990
+like using a flagpole visualization
+instead of drawing a spinner as an arrow
+
+312
+00:06:56,990 --> 00:06:57,000
+instead of drawing a spinner as an arrow
+ 
+
+313
+00:06:57,000 --> 00:07:00,409
+instead of drawing a spinner as an arrow
+on this sphere we can instead draw it as
+
+314
+00:07:00,409 --> 00:07:00,419
+on this sphere we can instead draw it as
+ 
+
+315
+00:07:00,419 --> 00:07:02,809
+on this sphere we can instead draw it as
+a flag on a flagpole
+
+316
+00:07:02,809 --> 00:07:02,819
+a flag on a flagpole
+ 
+
+317
+00:07:02,819 --> 00:07:05,629
+a flag on a flagpole
+the orientation of this flag on the
+
+318
+00:07:05,629 --> 00:07:05,639
+the orientation of this flag on the
+ 
+
+319
+00:07:05,639 --> 00:07:08,210
+the orientation of this flag on the
+flagpole represents the overall phase
+
+320
+00:07:08,210 --> 00:07:08,220
+flagpole represents the overall phase
+ 
+
+321
+00:07:08,220 --> 00:07:11,210
+flagpole represents the overall phase
+factor that we're ignoring we can also
+
+322
+00:07:11,210 --> 00:07:11,220
+factor that we're ignoring we can also
+ 
+
+323
+00:07:11,220 --> 00:07:13,670
+factor that we're ignoring we can also
+change the length of the flagpole to
+
+324
+00:07:13,670 --> 00:07:13,680
+change the length of the flagpole to
+ 
+
+325
+00:07:13,680 --> 00:07:16,070
+change the length of the flagpole to
+represent the overall scale factor that
+
+326
+00:07:16,070 --> 00:07:16,080
+represent the overall scale factor that
+ 
+
+327
+00:07:16,080 --> 00:07:18,350
+represent the overall scale factor that
+we're ignoring so that it can be less
+
+328
+00:07:18,350 --> 00:07:18,360
+we're ignoring so that it can be less
+ 
+
+329
+00:07:18,360 --> 00:07:21,350
+we're ignoring so that it can be less
+than or greater than one as long as it's
+
+330
+00:07:21,350 --> 00:07:21,360
+than or greater than one as long as it's
+ 
+
+331
+00:07:21,360 --> 00:07:23,570
+than or greater than one as long as it's
+not zero
+
+332
+00:07:23,570 --> 00:07:23,580
+not zero
+ 
+
+333
+00:07:23,580 --> 00:07:26,270
+not zero
+note that a specific spinner is only
+
+334
+00:07:26,270 --> 00:07:26,280
+note that a specific spinner is only
+ 
+
+335
+00:07:26,280 --> 00:07:28,430
+note that a specific spinner is only
+identified with the point where the
+
+336
+00:07:28,430 --> 00:07:28,440
+identified with the point where the
+ 
+
+337
+00:07:28,440 --> 00:07:31,070
+identified with the point where the
+flagpole meets the sphere so changing
+
+338
+00:07:31,070 --> 00:07:31,080
+flagpole meets the sphere so changing
+ 
+
+339
+00:07:31,080 --> 00:07:33,409
+flagpole meets the sphere so changing
+the angle of the flag and changing the
+
+340
+00:07:33,409 --> 00:07:33,419
+the angle of the flag and changing the
+ 
+
+341
+00:07:33,419 --> 00:07:35,809
+the angle of the flag and changing the
+flagpole's length do not change which
+
+342
+00:07:35,809 --> 00:07:35,819
+flagpole's length do not change which
+ 
+
+343
+00:07:35,819 --> 00:07:38,570
+flagpole's length do not change which
+spinner we're talking about
+
+344
+00:07:38,570 --> 00:07:38,580
+spinner we're talking about
+ 
+
+345
+00:07:38,580 --> 00:07:41,089
+spinner we're talking about
+we can see these factors mathematically
+
+346
+00:07:41,089 --> 00:07:41,099
+we can see these factors mathematically
+ 
+
+347
+00:07:41,099 --> 00:07:43,490
+we can see these factors mathematically
+if we write out our spinner as a
+
+348
+00:07:43,490 --> 00:07:43,500
+if we write out our spinner as a
+ 
+
+349
+00:07:43,500 --> 00:07:46,309
+if we write out our spinner as a
+combination of two basis Spinners each
+
+350
+00:07:46,309 --> 00:07:46,319
+combination of two basis Spinners each
+ 
+
+351
+00:07:46,319 --> 00:07:49,010
+combination of two basis Spinners each
+with complex number coefficients
+
+352
+00:07:49,010 --> 00:07:49,020
+with complex number coefficients
+ 
+
+353
+00:07:49,020 --> 00:07:51,290
+with complex number coefficients
+if we multiply and divide the second
+
+354
+00:07:51,290 --> 00:07:51,300
+if we multiply and divide the second
+ 
+
+355
+00:07:51,300 --> 00:07:55,550
+if we multiply and divide the second
+term by e to the I Phi 1 we can factor
+
+356
+00:07:55,550 --> 00:07:55,560
+term by e to the I Phi 1 we can factor
+ 
+
+357
+00:07:55,560 --> 00:07:58,969
+term by e to the I Phi 1 we can factor
+out e to the I Phi 1 from both terms and
+
+358
+00:07:58,969 --> 00:07:58,979
+out e to the I Phi 1 from both terms and
+ 
+
+359
+00:07:58,979 --> 00:08:01,129
+out e to the I Phi 1 from both terms and
+bring it out in front
+
+360
+00:08:01,129 --> 00:08:01,139
+bring it out in front
+ 
+
+361
+00:08:01,139 --> 00:08:03,890
+bring it out in front
+if we take the Spinner's magnitude to be
+
+362
+00:08:03,890 --> 00:08:03,900
+if we take the Spinner's magnitude to be
+ 
+
+363
+00:08:03,900 --> 00:08:06,950
+if we take the Spinner's magnitude to be
+M we can multiply and divide both terms
+
+364
+00:08:06,950 --> 00:08:06,960
+M we can multiply and divide both terms
+ 
+
+365
+00:08:06,960 --> 00:08:11,450
+M we can multiply and divide both terms
+by m then bring a factor M out in front
+
+366
+00:08:11,450 --> 00:08:11,460
+by m then bring a factor M out in front
+ 
+
+367
+00:08:11,460 --> 00:08:15,770
+by m then bring a factor M out in front
+the ratios A1 over M and A2 over M can
+
+368
+00:08:15,770 --> 00:08:15,780
+the ratios A1 over M and A2 over M can
+ 
+
+369
+00:08:15,780 --> 00:08:18,830
+the ratios A1 over M and A2 over M can
+be visualized on a triangle like this
+
+370
+00:08:18,830 --> 00:08:18,840
+be visualized on a triangle like this
+ 
+
+371
+00:08:18,840 --> 00:08:21,890
+be visualized on a triangle like this
+A1 over m is just the cosine of this
+
+372
+00:08:21,890 --> 00:08:21,900
+A1 over m is just the cosine of this
+ 
+
+373
+00:08:21,900 --> 00:08:25,369
+A1 over m is just the cosine of this
+angle and A2 over m is just the sign of
+
+374
+00:08:25,369 --> 00:08:25,379
+angle and A2 over m is just the sign of
+ 
+
+375
+00:08:25,379 --> 00:08:26,629
+angle and A2 over m is just the sign of
+this angle
+
+376
+00:08:26,629 --> 00:08:26,639
+this angle
+ 
+
+377
+00:08:26,639 --> 00:08:28,610
+this angle
+you'll notice that I've chosen to write
+
+378
+00:08:28,610 --> 00:08:28,620
+you'll notice that I've chosen to write
+ 
+
+379
+00:08:28,620 --> 00:08:31,909
+you'll notice that I've chosen to write
+this angle as Theta over 2. this is
+
+380
+00:08:31,909 --> 00:08:31,919
+this angle as Theta over 2. this is
+ 
+
+381
+00:08:31,919 --> 00:08:34,670
+this angle as Theta over 2. this is
+because in the original space the two
+
+382
+00:08:34,670 --> 00:08:34,680
+because in the original space the two
+ 
+
+383
+00:08:34,680 --> 00:08:38,329
+because in the original space the two
+basis Spinners are 90 degrees apart but
+
+384
+00:08:38,329 --> 00:08:38,339
+basis Spinners are 90 degrees apart but
+ 
+
+385
+00:08:38,339 --> 00:08:40,670
+basis Spinners are 90 degrees apart but
+on this sphere where we ignore overall
+
+386
+00:08:40,670 --> 00:08:40,680
+on this sphere where we ignore overall
+ 
+
+387
+00:08:40,680 --> 00:08:44,389
+on this sphere where we ignore overall
+signs they are 180 degrees apart
+
+388
+00:08:44,389 --> 00:08:44,399
+signs they are 180 degrees apart
+ 
+
+389
+00:08:44,399 --> 00:08:46,850
+signs they are 180 degrees apart
+so we need to take this angle on the
+
+390
+00:08:46,850 --> 00:08:46,860
+so we need to take this angle on the
+ 
+
+391
+00:08:46,860 --> 00:08:50,090
+so we need to take this angle on the
+sphere and divide it by 2 to get to the
+
+392
+00:08:50,090 --> 00:08:50,100
+sphere and divide it by 2 to get to the
+ 
+
+393
+00:08:50,100 --> 00:08:52,130
+sphere and divide it by 2 to get to the
+correct angle between the basis Spinners
+
+394
+00:08:52,130 --> 00:08:52,140
+correct angle between the basis Spinners
+ 
+
+395
+00:08:52,140 --> 00:08:54,710
+correct angle between the basis Spinners
+in the original space
+
+396
+00:08:54,710 --> 00:08:54,720
+in the original space
+ 
+
+397
+00:08:54,720 --> 00:08:58,430
+in the original space
+so we can rewrite A1 over M as a cosine
+
+398
+00:08:58,430 --> 00:08:58,440
+so we can rewrite A1 over M as a cosine
+ 
+
+399
+00:08:58,440 --> 00:09:02,389
+so we can rewrite A1 over M as a cosine
+and rewrite a 2 over M as a sign
+
+400
+00:09:02,389 --> 00:09:02,399
+and rewrite a 2 over M as a sign
+ 
+
+401
+00:09:02,399 --> 00:09:06,050
+and rewrite a 2 over M as a sign
+I'll also rewrite Phi 1 as Omega and
+
+402
+00:09:06,050 --> 00:09:06,060
+I'll also rewrite Phi 1 as Omega and
+ 
+
+403
+00:09:06,060 --> 00:09:08,210
+I'll also rewrite Phi 1 as Omega and
+rewrites the phase difference Phi 2
+
+404
+00:09:08,210 --> 00:09:08,220
+rewrites the phase difference Phi 2
+ 
+
+405
+00:09:08,220 --> 00:09:11,449
+rewrites the phase difference Phi 2
+minus Phi 1 as just Phi
+
+406
+00:09:11,449 --> 00:09:11,459
+minus Phi 1 as just Phi
+ 
+
+407
+00:09:11,459 --> 00:09:14,030
+minus Phi 1 as just Phi
+so we've Rewritten our two component
+
+408
+00:09:14,030 --> 00:09:14,040
+so we've Rewritten our two component
+ 
+
+409
+00:09:14,040 --> 00:09:16,850
+so we've Rewritten our two component
+spinner like this and it has four real
+
+410
+00:09:16,850 --> 00:09:16,860
+spinner like this and it has four real
+ 
+
+411
+00:09:16,860 --> 00:09:22,310
+spinner like this and it has four real
+parameters M Omega Theta and Phi
+
+412
+00:09:22,310 --> 00:09:22,320
+parameters M Omega Theta and Phi
+ 
+
+413
+00:09:22,320 --> 00:09:25,190
+parameters M Omega Theta and Phi
+the Theta and Phi parameters determine
+
+414
+00:09:25,190 --> 00:09:25,200
+the Theta and Phi parameters determine
+ 
+
+415
+00:09:25,200 --> 00:09:28,850
+the Theta and Phi parameters determine
+where the spinner points on the sphere
+
+416
+00:09:28,850 --> 00:09:28,860
+where the spinner points on the sphere
+ 
+
+417
+00:09:28,860 --> 00:09:31,130
+where the spinner points on the sphere
+Omega is the overall phase and
+
+418
+00:09:31,130 --> 00:09:31,140
+Omega is the overall phase and
+ 
+
+419
+00:09:31,140 --> 00:09:33,410
+Omega is the overall phase and
+determines the angle of the flag on the
+
+420
+00:09:33,410 --> 00:09:33,420
+determines the angle of the flag on the
+ 
+
+421
+00:09:33,420 --> 00:09:34,550
+determines the angle of the flag on the
+flagpole
+
+422
+00:09:34,550 --> 00:09:34,560
+flagpole
+ 
+
+423
+00:09:34,560 --> 00:09:37,250
+flagpole
+and M which is the overall magnitude
+
+424
+00:09:37,250 --> 00:09:37,260
+and M which is the overall magnitude
+ 
+
+425
+00:09:37,260 --> 00:09:40,430
+and M which is the overall magnitude
+determines the length of the flagpole
+
+426
+00:09:40,430 --> 00:09:40,440
+determines the length of the flagpole
+ 
+
+427
+00:09:40,440 --> 00:09:43,250
+determines the length of the flagpole
+the Omega and M parameters can be
+
+428
+00:09:43,250 --> 00:09:43,260
+the Omega and M parameters can be
+ 
+
+429
+00:09:43,260 --> 00:09:46,310
+the Omega and M parameters can be
+ignored since overall phases and overall
+
+430
+00:09:46,310 --> 00:09:46,320
+ignored since overall phases and overall
+ 
+
+431
+00:09:46,320 --> 00:09:49,430
+ignored since overall phases and overall
+scaling factors don't change the spinner
+
+432
+00:09:49,430 --> 00:09:49,440
+scaling factors don't change the spinner
+ 
+
+433
+00:09:49,440 --> 00:09:52,070
+scaling factors don't change the spinner
+only the Theta and Phi parameters matter
+
+434
+00:09:52,070 --> 00:09:52,080
+only the Theta and Phi parameters matter
+ 
+
+435
+00:09:52,080 --> 00:09:54,230
+only the Theta and Phi parameters matter
+because they determine where the spinner
+
+436
+00:09:54,230 --> 00:09:54,240
+because they determine where the spinner
+ 
+
+437
+00:09:54,240 --> 00:09:56,630
+because they determine where the spinner
+points on the sphere
+
+438
+00:09:56,630 --> 00:09:56,640
+points on the sphere
+ 
+
+439
+00:09:56,640 --> 00:09:59,210
+points on the sphere
+as an exercise you can try calculating
+
+440
+00:09:59,210 --> 00:09:59,220
+as an exercise you can try calculating
+ 
+
+441
+00:09:59,220 --> 00:10:02,269
+as an exercise you can try calculating
+the Theta Phi and Omega parameters for
+
+442
+00:10:02,269 --> 00:10:02,279
+the Theta Phi and Omega parameters for
+ 
+
+443
+00:10:02,279 --> 00:10:04,790
+the Theta Phi and Omega parameters for
+this spinner of length one that's been
+
+444
+00:10:04,790 --> 00:10:04,800
+this spinner of length one that's been
+ 
+
+445
+00:10:04,800 --> 00:10:06,530
+this spinner of length one that's been
+rotated around
+
+446
+00:10:06,530 --> 00:10:06,540
+rotated around
+ 
+
+447
+00:10:06,540 --> 00:10:08,449
+rotated around
+and try checking that the flag
+
+448
+00:10:08,449 --> 00:10:08,459
+and try checking that the flag
+ 
+
+449
+00:10:08,459 --> 00:10:12,350
+and try checking that the flag
+orientations make sense
+
+450
+00:10:12,350 --> 00:10:12,360
+
+ 
+
+451
+00:10:12,360 --> 00:10:15,110
+
+so Spinners are pairs of complex numbers
+
+452
+00:10:15,110 --> 00:10:15,120
+so Spinners are pairs of complex numbers
+ 
+
+453
+00:10:15,120 --> 00:10:17,930
+so Spinners are pairs of complex numbers
+where the overall multiplication by a
+
+454
+00:10:17,930 --> 00:10:17,940
+where the overall multiplication by a
+ 
+
+455
+00:10:17,940 --> 00:10:20,449
+where the overall multiplication by a
+non-zero complex number doesn't change
+
+456
+00:10:20,449 --> 00:10:20,459
+non-zero complex number doesn't change
+ 
+
+457
+00:10:20,459 --> 00:10:22,009
+non-zero complex number doesn't change
+the spinner
+
+458
+00:10:22,009 --> 00:10:22,019
+the spinner
+ 
+
+459
+00:10:22,019 --> 00:10:25,130
+the spinner
+this probably seems very mysterious but
+
+460
+00:10:25,130 --> 00:10:25,140
+this probably seems very mysterious but
+ 
+
+461
+00:10:25,140 --> 00:10:26,389
+this probably seems very mysterious but
+there is a way we can understand
+
+462
+00:10:26,389 --> 00:10:26,399
+there is a way we can understand
+ 
+
+463
+00:10:26,399 --> 00:10:29,329
+there is a way we can understand
+Spinners better by realizing they are
+
+464
+00:10:29,329 --> 00:10:29,339
+Spinners better by realizing they are
+ 
+
+465
+00:10:29,339 --> 00:10:32,630
+Spinners better by realizing they are
+members of the complex projective line
+
+466
+00:10:32,630 --> 00:10:32,640
+members of the complex projective line
+ 
+
+467
+00:10:32,640 --> 00:10:35,150
+members of the complex projective line
+the complex projective line is a bit
+
+468
+00:10:35,150 --> 00:10:35,160
+the complex projective line is a bit
+ 
+
+469
+00:10:35,160 --> 00:10:37,850
+the complex projective line is a bit
+confusing when you first see it so let's
+
+470
+00:10:37,850 --> 00:10:37,860
+confusing when you first see it so let's
+ 
+
+471
+00:10:37,860 --> 00:10:40,610
+confusing when you first see it so let's
+start simple and look at projections in
+
+472
+00:10:40,610 --> 00:10:40,620
+start simple and look at projections in
+ 
+
+473
+00:10:40,620 --> 00:10:43,070
+start simple and look at projections in
+the ordinary two-dimensional space with
+
+474
+00:10:43,070 --> 00:10:43,080
+the ordinary two-dimensional space with
+ 
+
+475
+00:10:43,080 --> 00:10:46,790
+the ordinary two-dimensional space with
+real numbers which is the X Y plane
+
+476
+00:10:46,790 --> 00:10:46,800
+real numbers which is the X Y plane
+ 
+
+477
+00:10:46,800 --> 00:10:49,069
+real numbers which is the X Y plane
+let's imagine that we have a vertical
+
+478
+00:10:49,069 --> 00:10:49,079
+let's imagine that we have a vertical
+ 
+
+479
+00:10:49,079 --> 00:10:52,850
+let's imagine that we have a vertical
+screen at the position x equals one and
+
+480
+00:10:52,850 --> 00:10:52,860
+screen at the position x equals one and
+ 
+
+481
+00:10:52,860 --> 00:10:55,310
+screen at the position x equals one and
+we want to project points onto this
+
+482
+00:10:55,310 --> 00:10:55,320
+we want to project points onto this
+ 
+
+483
+00:10:55,320 --> 00:10:56,750
+we want to project points onto this
+screen
+
+484
+00:10:56,750 --> 00:10:56,760
+screen
+ 
+
+485
+00:10:56,760 --> 00:10:59,630
+screen
+one way to project points is to send
+
+486
+00:10:59,630 --> 00:10:59,640
+one way to project points is to send
+ 
+
+487
+00:10:59,640 --> 00:11:01,790
+one way to project points is to send
+them along parallel lines at right
+
+488
+00:11:01,790 --> 00:11:01,800
+them along parallel lines at right
+ 
+
+489
+00:11:01,800 --> 00:11:03,650
+them along parallel lines at right
+angles to the screen
+
+490
+00:11:03,650 --> 00:11:03,660
+angles to the screen
+ 
+
+491
+00:11:03,660 --> 00:11:07,069
+angles to the screen
+this is called orthogonal projection and
+
+492
+00:11:07,069 --> 00:11:07,079
+this is called orthogonal projection and
+ 
+
+493
+00:11:07,079 --> 00:11:11,750
+this is called orthogonal projection and
+it Maps the point x y to the point 1 y
+
+494
+00:11:11,750 --> 00:11:11,760
+it Maps the point x y to the point 1 y
+ 
+
+495
+00:11:11,760 --> 00:11:14,810
+it Maps the point x y to the point 1 y
+the y-coordinate stays the same but the
+
+496
+00:11:14,810 --> 00:11:14,820
+the y-coordinate stays the same but the
+ 
+
+497
+00:11:14,820 --> 00:11:17,630
+the y-coordinate stays the same but the
+x coordinate is forced to be one after
+
+498
+00:11:17,630 --> 00:11:17,640
+x coordinate is forced to be one after
+ 
+
+499
+00:11:17,640 --> 00:11:19,190
+x coordinate is forced to be one after
+the projection
+
+500
+00:11:19,190 --> 00:11:19,200
+the projection
+ 
+
+501
+00:11:19,200 --> 00:11:22,069
+the projection
+with this projection objects retain
+
+502
+00:11:22,069 --> 00:11:22,079
+with this projection objects retain
+ 
+
+503
+00:11:22,079 --> 00:11:24,470
+with this projection objects retain
+their true vertical sizes after the
+
+504
+00:11:24,470 --> 00:11:24,480
+their true vertical sizes after the
+ 
+
+505
+00:11:24,480 --> 00:11:26,150
+their true vertical sizes after the
+projection
+
+506
+00:11:26,150 --> 00:11:26,160
+projection
+ 
+
+507
+00:11:26,160 --> 00:11:28,490
+projection
+another type of projection is called
+
+508
+00:11:28,490 --> 00:11:28,500
+another type of projection is called
+ 
+
+509
+00:11:28,500 --> 00:11:31,910
+another type of projection is called
+perspective projection for this we put
+
+510
+00:11:31,910 --> 00:11:31,920
+perspective projection for this we put
+ 
+
+511
+00:11:31,920 --> 00:11:34,550
+perspective projection for this we put
+our I at the origin point and project
+
+512
+00:11:34,550 --> 00:11:34,560
+our I at the origin point and project
+ 
+
+513
+00:11:34,560 --> 00:11:37,430
+our I at the origin point and project
+all points in the plane towards our eye
+
+514
+00:11:37,430 --> 00:11:37,440
+all points in the plane towards our eye
+ 
+
+515
+00:11:37,440 --> 00:11:40,130
+all points in the plane towards our eye
+using radial lines
+
+516
+00:11:40,130 --> 00:11:40,140
+using radial lines
+ 
+
+517
+00:11:40,140 --> 00:11:42,470
+using radial lines
+the locations where these radial lines
+
+518
+00:11:42,470 --> 00:11:42,480
+the locations where these radial lines
+ 
+
+519
+00:11:42,480 --> 00:11:45,110
+the locations where these radial lines
+hit the screen are where the points end
+
+520
+00:11:45,110 --> 00:11:45,120
+hit the screen are where the points end
+ 
+
+521
+00:11:45,120 --> 00:11:47,569
+hit the screen are where the points end
+up after the projection
+
+522
+00:11:47,569 --> 00:11:47,579
+up after the projection
+ 
+
+523
+00:11:47,579 --> 00:11:50,210
+up after the projection
+with perspective projection the true
+
+524
+00:11:50,210 --> 00:11:50,220
+with perspective projection the true
+ 
+
+525
+00:11:50,220 --> 00:11:52,730
+with perspective projection the true
+size of objects is not retained after
+
+526
+00:11:52,730 --> 00:11:52,740
+size of objects is not retained after
+ 
+
+527
+00:11:52,740 --> 00:11:54,230
+size of objects is not retained after
+the projection
+
+528
+00:11:54,230 --> 00:11:54,240
+the projection
+ 
+
+529
+00:11:54,240 --> 00:11:56,449
+the projection
+objects that are farther away from the
+
+530
+00:11:56,449 --> 00:11:56,459
+objects that are farther away from the
+ 
+
+531
+00:11:56,459 --> 00:11:58,910
+objects that are farther away from the
+screen will appear to shrink more than
+
+532
+00:11:58,910 --> 00:11:58,920
+screen will appear to shrink more than
+ 
+
+533
+00:11:58,920 --> 00:12:02,750
+screen will appear to shrink more than
+objects that are closer to the screen
+
+534
+00:12:02,750 --> 00:12:02,760
+
+ 
+
+535
+00:12:02,760 --> 00:12:05,509
+
+with perspective projection all the
+
+536
+00:12:05,509 --> 00:12:05,519
+with perspective projection all the
+ 
+
+537
+00:12:05,519 --> 00:12:08,269
+with perspective projection all the
+points on this diagonal line through the
+
+538
+00:12:08,269 --> 00:12:08,279
+points on this diagonal line through the
+ 
+
+539
+00:12:08,279 --> 00:12:11,150
+points on this diagonal line through the
+origin will be projected to this same
+
+540
+00:12:11,150 --> 00:12:11,160
+origin will be projected to this same
+ 
+
+541
+00:12:11,160 --> 00:12:13,730
+origin will be projected to this same
+specific point on our screen
+
+542
+00:12:13,730 --> 00:12:13,740
+specific point on our screen
+ 
+
+543
+00:12:13,740 --> 00:12:16,069
+specific point on our screen
+we normally write the equation of a line
+
+544
+00:12:16,069 --> 00:12:16,079
+we normally write the equation of a line
+ 
+
+545
+00:12:16,079 --> 00:12:20,210
+we normally write the equation of a line
+as y equals MX plus b where m is the
+
+546
+00:12:20,210 --> 00:12:20,220
+as y equals MX plus b where m is the
+ 
+
+547
+00:12:20,220 --> 00:12:23,630
+as y equals MX plus b where m is the
+slope and B is the y-intercept
+
+548
+00:12:23,630 --> 00:12:23,640
+slope and B is the y-intercept
+ 
+
+549
+00:12:23,640 --> 00:12:26,210
+slope and B is the y-intercept
+however since our projection lines go
+
+550
+00:12:26,210 --> 00:12:26,220
+however since our projection lines go
+ 
+
+551
+00:12:26,220 --> 00:12:30,050
+however since our projection lines go
+through the origin we have b equals zero
+
+552
+00:12:30,050 --> 00:12:30,060
+through the origin we have b equals zero
+ 
+
+553
+00:12:30,060 --> 00:12:32,750
+through the origin we have b equals zero
+and so the slope M of the line is equal
+
+554
+00:12:32,750 --> 00:12:32,760
+and so the slope M of the line is equal
+ 
+
+555
+00:12:32,760 --> 00:12:34,910
+and so the slope M of the line is equal
+to Y over X
+
+556
+00:12:34,910 --> 00:12:34,920
+to Y over X
+ 
+
+557
+00:12:34,920 --> 00:12:37,430
+to Y over X
+this is true for any point on the line
+
+558
+00:12:37,430 --> 00:12:37,440
+this is true for any point on the line
+ 
+
+559
+00:12:37,440 --> 00:12:40,190
+this is true for any point on the line
+so all points on this line have the same
+
+560
+00:12:40,190 --> 00:12:40,200
+so all points on this line have the same
+ 
+
+561
+00:12:40,200 --> 00:12:42,949
+so all points on this line have the same
+y over X ratio
+
+562
+00:12:42,949 --> 00:12:42,959
+y over X ratio
+ 
+
+563
+00:12:42,959 --> 00:12:44,750
+y over X ratio
+if we look at the point where this
+
+564
+00:12:44,750 --> 00:12:44,760
+if we look at the point where this
+ 
+
+565
+00:12:44,760 --> 00:12:47,389
+if we look at the point where this
+projection line crosses the screen at x
+
+566
+00:12:47,389 --> 00:12:47,399
+projection line crosses the screen at x
+ 
+
+567
+00:12:47,399 --> 00:12:50,389
+projection line crosses the screen at x
+equals one we find that the Y value is
+
+568
+00:12:50,389 --> 00:12:50,399
+equals one we find that the Y value is
+ 
+
+569
+00:12:50,399 --> 00:12:51,889
+equals one we find that the Y value is
+the slope m
+
+570
+00:12:51,889 --> 00:12:51,899
+the slope m
+ 
+
+571
+00:12:51,899 --> 00:12:54,889
+the slope m
+so all X Y points on a given projection
+
+572
+00:12:54,889 --> 00:12:54,899
+so all X Y points on a given projection
+ 
+
+573
+00:12:54,899 --> 00:12:58,190
+so all X Y points on a given projection
+line get projected to the point 1 M
+
+574
+00:12:58,190 --> 00:12:58,200
+line get projected to the point 1 M
+ 
+
+575
+00:12:58,200 --> 00:13:03,170
+line get projected to the point 1 M
+where m is just the ratio y over X
+
+576
+00:13:03,170 --> 00:13:03,180
+where m is just the ratio y over X
+ 
+
+577
+00:13:03,180 --> 00:13:05,210
+where m is just the ratio y over X
+so the destination point will be
+
+578
+00:13:05,210 --> 00:13:05,220
+so the destination point will be
+ 
+
+579
+00:13:05,220 --> 00:13:07,730
+so the destination point will be
+completely determined by the ratio y
+
+580
+00:13:07,730 --> 00:13:07,740
+completely determined by the ratio y
+ 
+
+581
+00:13:07,740 --> 00:13:08,870
+completely determined by the ratio y
+over X
+
+582
+00:13:08,870 --> 00:13:08,880
+over X
+ 
+
+583
+00:13:08,880 --> 00:13:11,329
+over X
+this means that if we scale a point by
+
+584
+00:13:11,329 --> 00:13:11,339
+this means that if we scale a point by
+ 
+
+585
+00:13:11,339 --> 00:13:14,389
+this means that if we scale a point by
+some overall scale factor a it will not
+
+586
+00:13:14,389 --> 00:13:14,399
+some overall scale factor a it will not
+ 
+
+587
+00:13:14,399 --> 00:13:16,670
+some overall scale factor a it will not
+change its destination point after the
+
+588
+00:13:16,670 --> 00:13:16,680
+change its destination point after the
+ 
+
+589
+00:13:16,680 --> 00:13:17,870
+change its destination point after the
+projection
+
+590
+00:13:17,870 --> 00:13:17,880
+projection
+ 
+
+591
+00:13:17,880 --> 00:13:20,629
+projection
+all this does is push the point outward
+
+592
+00:13:20,629 --> 00:13:20,639
+all this does is push the point outward
+ 
+
+593
+00:13:20,639 --> 00:13:22,370
+all this does is push the point outward
+along the ray
+
+594
+00:13:22,370 --> 00:13:22,380
+along the ray
+ 
+
+595
+00:13:22,380 --> 00:13:24,829
+along the ray
+the scale factor will get canceled when
+
+596
+00:13:24,829 --> 00:13:24,839
+the scale factor will get canceled when
+ 
+
+597
+00:13:24,839 --> 00:13:28,190
+the scale factor will get canceled when
+we take the ratio between Y and X so it
+
+598
+00:13:28,190 --> 00:13:28,200
+we take the ratio between Y and X so it
+ 
+
+599
+00:13:28,200 --> 00:13:30,230
+we take the ratio between Y and X so it
+doesn't affect the final destination of
+
+600
+00:13:30,230 --> 00:13:30,240
+doesn't affect the final destination of
+ 
+
+601
+00:13:30,240 --> 00:13:32,750
+doesn't affect the final destination of
+the point after projection
+
+602
+00:13:32,750 --> 00:13:32,760
+the point after projection
+ 
+
+603
+00:13:32,760 --> 00:13:35,509
+the point after projection
+we call this space after the projection
+
+604
+00:13:35,509 --> 00:13:35,519
+we call this space after the projection
+ 
+
+605
+00:13:35,519 --> 00:13:40,670
+we call this space after the projection
+the real projective line rp1
+
+606
+00:13:40,670 --> 00:13:40,680
+
+ 
+
+607
+00:13:40,680 --> 00:13:42,769
+
+now there are a couple of important
+
+608
+00:13:42,769 --> 00:13:42,779
+now there are a couple of important
+ 
+
+609
+00:13:42,779 --> 00:13:44,870
+now there are a couple of important
+details to consider with the real
+
+610
+00:13:44,870 --> 00:13:44,880
+details to consider with the real
+ 
+
+611
+00:13:44,880 --> 00:13:46,670
+details to consider with the real
+projective line
+
+612
+00:13:46,670 --> 00:13:46,680
+projective line
+ 
+
+613
+00:13:46,680 --> 00:13:49,490
+projective line
+one thing to consider is this point here
+
+614
+00:13:49,490 --> 00:13:49,500
+one thing to consider is this point here
+ 
+
+615
+00:13:49,500 --> 00:13:52,550
+one thing to consider is this point here
+on the y-axis where does this point get
+
+616
+00:13:52,550 --> 00:13:52,560
+on the y-axis where does this point get
+ 
+
+617
+00:13:52,560 --> 00:13:54,949
+on the y-axis where does this point get
+projected to on the screen
+
+618
+00:13:54,949 --> 00:13:54,959
+projected to on the screen
+ 
+
+619
+00:13:54,959 --> 00:13:57,530
+projected to on the screen
+tracing a radial line towards the origin
+
+620
+00:13:57,530 --> 00:13:57,540
+tracing a radial line towards the origin
+ 
+
+621
+00:13:57,540 --> 00:13:59,810
+tracing a radial line towards the origin
+the resulting Ray points downward
+
+622
+00:13:59,810 --> 00:13:59,820
+the resulting Ray points downward
+ 
+
+623
+00:13:59,820 --> 00:14:02,389
+the resulting Ray points downward
+parallel to the screen and goes on
+
+624
+00:14:02,389 --> 00:14:02,399
+parallel to the screen and goes on
+ 
+
+625
+00:14:02,399 --> 00:14:03,470
+parallel to the screen and goes on
+forever
+
+626
+00:14:03,470 --> 00:14:03,480
+forever
+ 
+
+627
+00:14:03,480 --> 00:14:05,690
+forever
+so this point doesn't get projected to
+
+628
+00:14:05,690 --> 00:14:05,700
+so this point doesn't get projected to
+ 
+
+629
+00:14:05,700 --> 00:14:07,850
+so this point doesn't get projected to
+the screen at all
+
+630
+00:14:07,850 --> 00:14:07,860
+the screen at all
+ 
+
+631
+00:14:07,860 --> 00:14:09,949
+the screen at all
+we say that points like this get
+
+632
+00:14:09,949 --> 00:14:09,959
+we say that points like this get
+ 
+
+633
+00:14:09,959 --> 00:14:13,190
+we say that points like this get
+projected to the point at Infinity
+
+634
+00:14:13,190 --> 00:14:13,200
+projected to the point at Infinity
+ 
+
+635
+00:14:13,200 --> 00:14:16,069
+projected to the point at Infinity
+any point with a zero x value will get
+
+636
+00:14:16,069 --> 00:14:16,079
+any point with a zero x value will get
+ 
+
+637
+00:14:16,079 --> 00:14:18,230
+any point with a zero x value will get
+projected to this point at Infinity
+
+638
+00:14:18,230 --> 00:14:18,240
+projected to this point at Infinity
+ 
+
+639
+00:14:18,240 --> 00:14:21,410
+projected to this point at Infinity
+because the Y over X ratio involves
+
+640
+00:14:21,410 --> 00:14:21,420
+because the Y over X ratio involves
+ 
+
+641
+00:14:21,420 --> 00:14:23,329
+because the Y over X ratio involves
+division by zero
+
+642
+00:14:23,329 --> 00:14:23,339
+division by zero
+ 
+
+643
+00:14:23,339 --> 00:14:26,629
+division by zero
+this point at Infinity can be reached by
+
+644
+00:14:26,629 --> 00:14:26,639
+this point at Infinity can be reached by
+ 
+
+645
+00:14:26,639 --> 00:14:29,569
+this point at Infinity can be reached by
+projecting downward along the y-axis or
+
+646
+00:14:29,569 --> 00:14:29,579
+projecting downward along the y-axis or
+ 
+
+647
+00:14:29,579 --> 00:14:32,810
+projecting downward along the y-axis or
+upward along the y-axis so there is a
+
+648
+00:14:32,810 --> 00:14:32,820
+upward along the y-axis so there is a
+ 
+
+649
+00:14:32,820 --> 00:14:35,210
+upward along the y-axis so there is a
+single point at Infinity that can be
+
+650
+00:14:35,210 --> 00:14:35,220
+single point at Infinity that can be
+ 
+
+651
+00:14:35,220 --> 00:14:37,490
+single point at Infinity that can be
+reached by projecting infinitely in
+
+652
+00:14:37,490 --> 00:14:37,500
+reached by projecting infinitely in
+ 
+
+653
+00:14:37,500 --> 00:14:39,230
+reached by projecting infinitely in
+either the positive or negative
+
+654
+00:14:39,230 --> 00:14:39,240
+either the positive or negative
+ 
+
+655
+00:14:39,240 --> 00:14:40,970
+either the positive or negative
+directions
+
+656
+00:14:40,970 --> 00:14:40,980
+directions
+ 
+
+657
+00:14:40,980 --> 00:14:44,210
+directions
+this point at Infinity sort of joins up
+
+658
+00:14:44,210 --> 00:14:44,220
+this point at Infinity sort of joins up
+ 
+
+659
+00:14:44,220 --> 00:14:47,449
+this point at Infinity sort of joins up
+both infinite ends of the screen so that
+
+660
+00:14:47,449 --> 00:14:47,459
+both infinite ends of the screen so that
+ 
+
+661
+00:14:47,459 --> 00:14:50,090
+both infinite ends of the screen so that
+it forms a continuous loop
+
+662
+00:14:50,090 --> 00:14:50,100
+it forms a continuous loop
+ 
+
+663
+00:14:50,100 --> 00:14:53,150
+it forms a continuous loop
+this idea of a point at Infinity might
+
+664
+00:14:53,150 --> 00:14:53,160
+this idea of a point at Infinity might
+ 
+
+665
+00:14:53,160 --> 00:14:55,790
+this idea of a point at Infinity might
+make you feel uncomfortable but this is
+
+666
+00:14:55,790 --> 00:14:55,800
+make you feel uncomfortable but this is
+ 
+
+667
+00:14:55,800 --> 00:14:58,370
+make you feel uncomfortable but this is
+a perfectly valid mathematical object in
+
+668
+00:14:58,370 --> 00:14:58,380
+a perfectly valid mathematical object in
+ 
+
+669
+00:14:58,380 --> 00:15:00,170
+a perfectly valid mathematical object in
+projective geometry
+
+670
+00:15:00,170 --> 00:15:00,180
+projective geometry
+ 
+
+671
+00:15:00,180 --> 00:15:02,870
+projective geometry
+it's just an extra point we include for
+
+672
+00:15:02,870 --> 00:15:02,880
+it's just an extra point we include for
+ 
+
+673
+00:15:02,880 --> 00:15:06,170
+it's just an extra point we include for
+projecting points parallel to the screen
+
+674
+00:15:06,170 --> 00:15:06,180
+projecting points parallel to the screen
+ 
+
+675
+00:15:06,180 --> 00:15:09,290
+projecting points parallel to the screen
+just remember that all X Y points with
+
+676
+00:15:09,290 --> 00:15:09,300
+just remember that all X Y points with
+ 
+
+677
+00:15:09,300 --> 00:15:12,650
+just remember that all X Y points with
+the same y over X ratio get projected to
+
+678
+00:15:12,650 --> 00:15:12,660
+the same y over X ratio get projected to
+ 
+
+679
+00:15:12,660 --> 00:15:14,629
+the same y over X ratio get projected to
+the same point on the real projective
+
+680
+00:15:14,629 --> 00:15:14,639
+the same point on the real projective
+ 
+
+681
+00:15:14,639 --> 00:15:15,889
+the same point on the real projective
+line
+
+682
+00:15:15,889 --> 00:15:15,899
+line
+ 
+
+683
+00:15:15,899 --> 00:15:18,769
+line
+and in the case of X Y points where the
+
+684
+00:15:18,769 --> 00:15:18,779
+and in the case of X Y points where the
+ 
+
+685
+00:15:18,779 --> 00:15:21,590
+and in the case of X Y points where the
+x coordinate is zero all of these are
+
+686
+00:15:21,590 --> 00:15:21,600
+x coordinate is zero all of these are
+ 
+
+687
+00:15:21,600 --> 00:15:24,050
+x coordinate is zero all of these are
+considered equivalent and are projected
+
+688
+00:15:24,050 --> 00:15:24,060
+considered equivalent and are projected
+ 
+
+689
+00:15:24,060 --> 00:15:26,689
+considered equivalent and are projected
+to the point at Infinity
+
+690
+00:15:26,689 --> 00:15:26,699
+to the point at Infinity
+ 
+
+691
+00:15:26,699 --> 00:15:29,509
+to the point at Infinity
+although keep in mind the origin Point
+
+692
+00:15:29,509 --> 00:15:29,519
+although keep in mind the origin Point
+ 
+
+693
+00:15:29,519 --> 00:15:32,269
+although keep in mind the origin Point
+does not get projected anywhere and is
+
+694
+00:15:32,269 --> 00:15:32,279
+does not get projected anywhere and is
+ 
+
+695
+00:15:32,279 --> 00:15:35,810
+does not get projected anywhere and is
+ignored for the real projective line
+
+696
+00:15:35,810 --> 00:15:35,820
+ignored for the real projective line
+ 
+
+697
+00:15:35,820 --> 00:15:38,090
+ignored for the real projective line
+the second thing I want you to consider
+
+698
+00:15:38,090 --> 00:15:38,100
+the second thing I want you to consider
+ 
+
+699
+00:15:38,100 --> 00:15:41,329
+the second thing I want you to consider
+is the left half of the plane behind our
+
+700
+00:15:41,329 --> 00:15:41,339
+is the left half of the plane behind our
+ 
+
+701
+00:15:41,339 --> 00:15:43,670
+is the left half of the plane behind our
+eye that's at the origin
+
+702
+00:15:43,670 --> 00:15:43,680
+eye that's at the origin
+ 
+
+703
+00:15:43,680 --> 00:15:46,490
+eye that's at the origin
+it's important to remember that points
+
+704
+00:15:46,490 --> 00:15:46,500
+it's important to remember that points
+ 
+
+705
+00:15:46,500 --> 00:15:49,250
+it's important to remember that points
+behind our eye will also get projected
+
+706
+00:15:49,250 --> 00:15:49,260
+behind our eye will also get projected
+ 
+
+707
+00:15:49,260 --> 00:15:50,509
+behind our eye will also get projected
+to the screen
+
+708
+00:15:50,509 --> 00:15:50,519
+to the screen
+ 
+
+709
+00:15:50,519 --> 00:15:53,810
+to the screen
+so if we look at this circle these two
+
+710
+00:15:53,810 --> 00:15:53,820
+so if we look at this circle these two
+ 
+
+711
+00:15:53,820 --> 00:15:55,970
+so if we look at this circle these two
+points on opposite sides of the circle
+
+712
+00:15:55,970 --> 00:15:55,980
+points on opposite sides of the circle
+ 
+
+713
+00:15:55,980 --> 00:15:58,970
+points on opposite sides of the circle
+will get projected to the same point on
+
+714
+00:15:58,970 --> 00:15:58,980
+will get projected to the same point on
+ 
+
+715
+00:15:58,980 --> 00:16:01,550
+will get projected to the same point on
+the screen because they exist on the
+
+716
+00:16:01,550 --> 00:16:01,560
+the screen because they exist on the
+ 
+
+717
+00:16:01,560 --> 00:16:03,889
+the screen because they exist on the
+same line on the origin
+
+718
+00:16:03,889 --> 00:16:03,899
+same line on the origin
+ 
+
+719
+00:16:03,899 --> 00:16:07,069
+same line on the origin
+any two points on opposite sides of a
+
+720
+00:16:07,069 --> 00:16:07,079
+any two points on opposite sides of a
+ 
+
+721
+00:16:07,079 --> 00:16:09,949
+any two points on opposite sides of a
+circle centered at the origin will get
+
+722
+00:16:09,949 --> 00:16:09,959
+circle centered at the origin will get
+ 
+
+723
+00:16:09,959 --> 00:16:12,230
+circle centered at the origin will get
+projected to the same point on the real
+
+724
+00:16:12,230 --> 00:16:12,240
+projected to the same point on the real
+ 
+
+725
+00:16:12,240 --> 00:16:13,790
+projected to the same point on the real
+projective line
+
+726
+00:16:13,790 --> 00:16:13,800
+projective line
+ 
+
+727
+00:16:13,800 --> 00:16:16,009
+projective line
+the projection can't tell the difference
+
+728
+00:16:16,009 --> 00:16:16,019
+the projection can't tell the difference
+ 
+
+729
+00:16:16,019 --> 00:16:18,170
+the projection can't tell the difference
+between the positive version of a point
+
+730
+00:16:18,170 --> 00:16:18,180
+between the positive version of a point
+ 
+
+731
+00:16:18,180 --> 00:16:20,350
+between the positive version of a point
+and the negative version of a point
+
+732
+00:16:20,350 --> 00:16:20,360
+and the negative version of a point
+ 
+
+733
+00:16:20,360 --> 00:16:24,290
+and the negative version of a point
+because in both cases the Y over X ratio
+
+734
+00:16:24,290 --> 00:16:24,300
+because in both cases the Y over X ratio
+ 
+
+735
+00:16:24,300 --> 00:16:27,410
+because in both cases the Y over X ratio
+is the same the projection doesn't care
+
+736
+00:16:27,410 --> 00:16:27,420
+is the same the projection doesn't care
+ 
+
+737
+00:16:27,420 --> 00:16:30,230
+is the same the projection doesn't care
+about overall scale factors of negative
+
+738
+00:16:30,230 --> 00:16:30,240
+about overall scale factors of negative
+ 
+
+739
+00:16:30,240 --> 00:16:31,610
+about overall scale factors of negative
+one
+
+740
+00:16:31,610 --> 00:16:31,620
+one
+ 
+
+741
+00:16:31,620 --> 00:16:34,850
+one
+so if we take a semicircle and project
+
+742
+00:16:34,850 --> 00:16:34,860
+so if we take a semicircle and project
+ 
+
+743
+00:16:34,860 --> 00:16:37,910
+so if we take a semicircle and project
+all of its points onto the screen we'll
+
+744
+00:16:37,910 --> 00:16:37,920
+all of its points onto the screen we'll
+ 
+
+745
+00:16:37,920 --> 00:16:40,210
+all of its points onto the screen we'll
+cover every single point on the screen
+
+746
+00:16:40,210 --> 00:16:40,220
+cover every single point on the screen
+ 
+
+747
+00:16:40,220 --> 00:16:43,670
+cover every single point on the screen
+including the point at Infinity
+
+748
+00:16:43,670 --> 00:16:43,680
+including the point at Infinity
+ 
+
+749
+00:16:43,680 --> 00:16:45,710
+including the point at Infinity
+watch what happens to the projected
+
+750
+00:16:45,710 --> 00:16:45,720
+watch what happens to the projected
+ 
+
+751
+00:16:45,720 --> 00:16:48,650
+watch what happens to the projected
+Point as we travel along this circle
+
+752
+00:16:48,650 --> 00:16:48,660
+Point as we travel along this circle
+ 
+
+753
+00:16:48,660 --> 00:16:50,990
+Point as we travel along this circle
+the projected Point goes off to infinity
+
+754
+00:16:50,990 --> 00:16:51,000
+the projected Point goes off to infinity
+ 
+
+755
+00:16:51,000 --> 00:16:53,689
+the projected Point goes off to infinity
+and then comes back after a half turn
+
+756
+00:16:53,689 --> 00:16:53,699
+and then comes back after a half turn
+ 
+
+757
+00:16:53,699 --> 00:16:56,749
+and then comes back after a half turn
+around the circle the next half turn on
+
+758
+00:16:56,749 --> 00:16:56,759
+around the circle the next half turn on
+ 
+
+759
+00:16:56,759 --> 00:16:59,090
+around the circle the next half turn on
+the circle corresponds to another loop
+
+760
+00:16:59,090 --> 00:16:59,100
+the circle corresponds to another loop
+ 
+
+761
+00:16:59,100 --> 00:17:01,370
+the circle corresponds to another loop
+on the real projective line
+
+762
+00:17:01,370 --> 00:17:01,380
+on the real projective line
+ 
+
+763
+00:17:01,380 --> 00:17:03,429
+on the real projective line
+so one turn around the circle
+
+764
+00:17:03,429 --> 00:17:03,439
+so one turn around the circle
+ 
+
+765
+00:17:03,439 --> 00:17:06,590
+so one turn around the circle
+corresponds to two full turns around the
+
+766
+00:17:06,590 --> 00:17:06,600
+corresponds to two full turns around the
+ 
+
+767
+00:17:06,600 --> 00:17:08,689
+corresponds to two full turns around the
+real projective line
+
+768
+00:17:08,689 --> 00:17:08,699
+real projective line
+ 
+
+769
+00:17:08,699 --> 00:17:10,909
+real projective line
+it's almost like the projection takes
+
+770
+00:17:10,909 --> 00:17:10,919
+it's almost like the projection takes
+ 
+
+771
+00:17:10,919 --> 00:17:13,610
+it's almost like the projection takes
+the circle and makes it curl around on
+
+772
+00:17:13,610 --> 00:17:13,620
+the circle and makes it curl around on
+ 
+
+773
+00:17:13,620 --> 00:17:16,130
+the circle and makes it curl around on
+itself so that it wraps around twice
+
+774
+00:17:16,130 --> 00:17:16,140
+itself so that it wraps around twice
+ 
+
+775
+00:17:16,140 --> 00:17:18,949
+itself so that it wraps around twice
+instead of just once
+
+776
+00:17:18,949 --> 00:17:18,959
+instead of just once
+ 
+
+777
+00:17:18,959 --> 00:17:21,949
+instead of just once
+so that's the real projective line we
+
+778
+00:17:21,949 --> 00:17:21,959
+so that's the real projective line we
+ 
+
+779
+00:17:21,959 --> 00:17:24,829
+so that's the real projective line we
+put a screen at x equals one and project
+
+780
+00:17:24,829 --> 00:17:24,839
+put a screen at x equals one and project
+ 
+
+781
+00:17:24,839 --> 00:17:27,590
+put a screen at x equals one and project
+all the points in the plane along radial
+
+782
+00:17:27,590 --> 00:17:27,600
+all the points in the plane along radial
+ 
+
+783
+00:17:27,600 --> 00:17:30,289
+all the points in the plane along radial
+lines connected to the origin
+
+784
+00:17:30,289 --> 00:17:30,299
+lines connected to the origin
+ 
+
+785
+00:17:30,299 --> 00:17:32,630
+lines connected to the origin
+the destination points are completely
+
+786
+00:17:32,630 --> 00:17:32,640
+the destination points are completely
+ 
+
+787
+00:17:32,640 --> 00:17:36,350
+the destination points are completely
+determined by the ratio y over X and so
+
+788
+00:17:36,350 --> 00:17:36,360
+determined by the ratio y over X and so
+ 
+
+789
+00:17:36,360 --> 00:17:39,110
+determined by the ratio y over X and so
+overall scale values don't matter
+
+790
+00:17:39,110 --> 00:17:39,120
+overall scale values don't matter
+ 
+
+791
+00:17:39,120 --> 00:17:41,210
+overall scale values don't matter
+points on the vertical axis are
+
+792
+00:17:41,210 --> 00:17:41,220
+points on the vertical axis are
+ 
+
+793
+00:17:41,220 --> 00:17:44,270
+points on the vertical axis are
+projected to the point at infinity and
+
+794
+00:17:44,270 --> 00:17:44,280
+projected to the point at infinity and
+ 
+
+795
+00:17:44,280 --> 00:17:46,250
+projected to the point at infinity and
+points on the opposite sides of a circle
+
+796
+00:17:46,250 --> 00:17:46,260
+points on the opposite sides of a circle
+ 
+
+797
+00:17:46,260 --> 00:17:48,770
+points on the opposite sides of a circle
+will end up projected to the same place
+
+798
+00:17:48,770 --> 00:17:48,780
+will end up projected to the same place
+ 
+
+799
+00:17:48,780 --> 00:17:51,350
+will end up projected to the same place
+because projection destroys the
+
+800
+00:17:51,350 --> 00:17:51,360
+because projection destroys the
+ 
+
+801
+00:17:51,360 --> 00:17:53,570
+because projection destroys the
+difference between positive and negative
+
+802
+00:17:53,570 --> 00:17:53,580
+difference between positive and negative
+ 
+
+803
+00:17:53,580 --> 00:17:55,730
+difference between positive and negative
+versions of points
+
+804
+00:17:55,730 --> 00:17:55,740
+versions of points
+ 
+
+805
+00:17:55,740 --> 00:17:58,310
+versions of points
+now it's possible to do this in higher
+
+806
+00:17:58,310 --> 00:17:58,320
+now it's possible to do this in higher
+ 
+
+807
+00:17:58,320 --> 00:18:00,950
+now it's possible to do this in higher
+Dimensions as well we get the real
+
+808
+00:18:00,950 --> 00:18:00,960
+Dimensions as well we get the real
+ 
+
+809
+00:18:00,960 --> 00:18:05,210
+Dimensions as well we get the real
+projective plane rp2 by projecting all
+
+810
+00:18:05,210 --> 00:18:05,220
+projective plane rp2 by projecting all
+ 
+
+811
+00:18:05,220 --> 00:18:08,150
+projective plane rp2 by projecting all
+points in 3D space radially from the
+
+812
+00:18:08,150 --> 00:18:08,160
+points in 3D space radially from the
+ 
+
+813
+00:18:08,160 --> 00:18:10,730
+points in 3D space radially from the
+origin onto a flat two-dimensional
+
+814
+00:18:10,730 --> 00:18:10,740
+origin onto a flat two-dimensional
+ 
+
+815
+00:18:10,740 --> 00:18:13,490
+origin onto a flat two-dimensional
+screen at x equals one
+
+816
+00:18:13,490 --> 00:18:13,500
+screen at x equals one
+ 
+
+817
+00:18:13,500 --> 00:18:16,070
+screen at x equals one
+in this case the resulting point on the
+
+818
+00:18:16,070 --> 00:18:16,080
+in this case the resulting point on the
+ 
+
+819
+00:18:16,080 --> 00:18:18,529
+in this case the resulting point on the
+screen only depends on two real numbers
+
+820
+00:18:18,529 --> 00:18:18,539
+screen only depends on two real numbers
+ 
+
+821
+00:18:18,539 --> 00:18:22,430
+screen only depends on two real numbers
+the ratio y over X and the ratios at
+
+822
+00:18:22,430 --> 00:18:22,440
+the ratio y over X and the ratios at
+ 
+
+823
+00:18:22,440 --> 00:18:24,110
+the ratio y over X and the ratios at
+over X
+
+824
+00:18:24,110 --> 00:18:24,120
+over X
+ 
+
+825
+00:18:24,120 --> 00:18:26,750
+over X
+we saw the real projective line is like
+
+826
+00:18:26,750 --> 00:18:26,760
+we saw the real projective line is like
+ 
+
+827
+00:18:26,760 --> 00:18:29,090
+we saw the real projective line is like
+a circle with opposite points made
+
+828
+00:18:29,090 --> 00:18:29,100
+a circle with opposite points made
+ 
+
+829
+00:18:29,100 --> 00:18:31,730
+a circle with opposite points made
+equivalent so it's like a semi-circle
+
+830
+00:18:31,730 --> 00:18:31,740
+equivalent so it's like a semi-circle
+ 
+
+831
+00:18:31,740 --> 00:18:34,370
+equivalent so it's like a semi-circle
+where walking off one end teleports you
+
+832
+00:18:34,370 --> 00:18:34,380
+where walking off one end teleports you
+ 
+
+833
+00:18:34,380 --> 00:18:36,049
+where walking off one end teleports you
+to the other end
+
+834
+00:18:36,049 --> 00:18:36,059
+to the other end
+ 
+
+835
+00:18:36,059 --> 00:18:38,570
+to the other end
+the real projective plane is like a
+
+836
+00:18:38,570 --> 00:18:38,580
+the real projective plane is like a
+ 
+
+837
+00:18:38,580 --> 00:18:40,430
+the real projective plane is like a
+sphere with opposite points made
+
+838
+00:18:40,430 --> 00:18:40,440
+sphere with opposite points made
+ 
+
+839
+00:18:40,440 --> 00:18:43,190
+sphere with opposite points made
+equivalent so it's like a half sphere
+
+840
+00:18:43,190 --> 00:18:43,200
+equivalent so it's like a half sphere
+ 
+
+841
+00:18:43,200 --> 00:18:45,950
+equivalent so it's like a half sphere
+where walking off the edge teleports you
+
+842
+00:18:45,950 --> 00:18:45,960
+where walking off the edge teleports you
+ 
+
+843
+00:18:45,960 --> 00:18:48,409
+where walking off the edge teleports you
+to the opposite Edge
+
+844
+00:18:48,409 --> 00:18:48,419
+to the opposite Edge
+ 
+
+845
+00:18:48,419 --> 00:18:50,750
+to the opposite Edge
+we can use a similar approach for real
+
+846
+00:18:50,750 --> 00:18:50,760
+we can use a similar approach for real
+ 
+
+847
+00:18:50,760 --> 00:18:54,529
+we can use a similar approach for real
+projective spaces in higher dimensions
+
+848
+00:18:54,529 --> 00:18:54,539
+projective spaces in higher dimensions
+ 
+
+849
+00:18:54,539 --> 00:18:57,169
+projective spaces in higher dimensions
+but let's get back to Spinners and
+
+850
+00:18:57,169 --> 00:18:57,179
+but let's get back to Spinners and
+ 
+
+851
+00:18:57,179 --> 00:18:59,930
+but let's get back to Spinners and
+consider the complex projective line
+
+852
+00:18:59,930 --> 00:18:59,940
+consider the complex projective line
+ 
+
+853
+00:18:59,940 --> 00:19:02,510
+consider the complex projective line
+the complex projective line is very
+
+854
+00:19:02,510 --> 00:19:02,520
+the complex projective line is very
+ 
+
+855
+00:19:02,520 --> 00:19:04,490
+the complex projective line is very
+similar to the real projective line
+
+856
+00:19:04,490 --> 00:19:04,500
+similar to the real projective line
+ 
+
+857
+00:19:04,500 --> 00:19:07,190
+similar to the real projective line
+except instead of dealing with a pair of
+
+858
+00:19:07,190 --> 00:19:07,200
+except instead of dealing with a pair of
+ 
+
+859
+00:19:07,200 --> 00:19:09,470
+except instead of dealing with a pair of
+real numbers that are unchanged by real
+
+860
+00:19:09,470 --> 00:19:09,480
+real numbers that are unchanged by real
+ 
+
+861
+00:19:09,480 --> 00:19:12,230
+real numbers that are unchanged by real
+number scaling we deal with a pair of
+
+862
+00:19:12,230 --> 00:19:12,240
+number scaling we deal with a pair of
+ 
+
+863
+00:19:12,240 --> 00:19:14,690
+number scaling we deal with a pair of
+complex numbers that are unchanged by
+
+864
+00:19:14,690 --> 00:19:14,700
+complex numbers that are unchanged by
+ 
+
+865
+00:19:14,700 --> 00:19:16,909
+complex numbers that are unchanged by
+complex number scaling
+
+866
+00:19:16,909 --> 00:19:16,919
+complex number scaling
+ 
+
+867
+00:19:16,919 --> 00:19:19,610
+complex number scaling
+unfortunately it's basically impossible
+
+868
+00:19:19,610 --> 00:19:19,620
+unfortunately it's basically impossible
+ 
+
+869
+00:19:19,620 --> 00:19:22,370
+unfortunately it's basically impossible
+to visualize a space of two complex
+
+870
+00:19:22,370 --> 00:19:22,380
+to visualize a space of two complex
+ 
+
+871
+00:19:22,380 --> 00:19:25,370
+to visualize a space of two complex
+numbers because this would involve four
+
+872
+00:19:25,370 --> 00:19:25,380
+numbers because this would involve four
+ 
+
+873
+00:19:25,380 --> 00:19:27,169
+numbers because this would involve four
+real dimensions
+
+874
+00:19:27,169 --> 00:19:27,179
+real dimensions
+ 
+
+875
+00:19:27,179 --> 00:19:29,750
+real dimensions
+but the mathematical reasoning works the
+
+876
+00:19:29,750 --> 00:19:29,760
+but the mathematical reasoning works the
+ 
+
+877
+00:19:29,760 --> 00:19:32,270
+but the mathematical reasoning works the
+same as the real projective line we
+
+878
+00:19:32,270 --> 00:19:32,280
+same as the real projective line we
+ 
+
+879
+00:19:32,280 --> 00:19:35,150
+same as the real projective line we
+project our Alpha Beta points onto a
+
+880
+00:19:35,150 --> 00:19:35,160
+project our Alpha Beta points onto a
+ 
+
+881
+00:19:35,160 --> 00:19:38,150
+project our Alpha Beta points onto a
+kind of screen located at Alpha equals
+
+882
+00:19:38,150 --> 00:19:38,160
+kind of screen located at Alpha equals
+ 
+
+883
+00:19:38,160 --> 00:19:39,470
+kind of screen located at Alpha equals
+one
+
+884
+00:19:39,470 --> 00:19:39,480
+one
+ 
+
+885
+00:19:39,480 --> 00:19:41,990
+one
+the position on the screen is entirely
+
+886
+00:19:41,990 --> 00:19:42,000
+the position on the screen is entirely
+ 
+
+887
+00:19:42,000 --> 00:19:45,650
+the position on the screen is entirely
+determined by the ratio beta over Alpha
+
+888
+00:19:45,650 --> 00:19:45,660
+determined by the ratio beta over Alpha
+ 
+
+889
+00:19:45,660 --> 00:19:48,169
+determined by the ratio beta over Alpha
+points that have a coordinate of alpha
+
+890
+00:19:48,169 --> 00:19:48,179
+points that have a coordinate of alpha
+ 
+
+891
+00:19:48,179 --> 00:19:50,810
+points that have a coordinate of alpha
+equals zero will get projected to the
+
+892
+00:19:50,810 --> 00:19:50,820
+equals zero will get projected to the
+ 
+
+893
+00:19:50,820 --> 00:19:53,930
+equals zero will get projected to the
+point at Infinity since this results in
+
+894
+00:19:53,930 --> 00:19:53,940
+point at Infinity since this results in
+ 
+
+895
+00:19:53,940 --> 00:19:57,590
+point at Infinity since this results in
+a ratio of beta over zero although we
+
+896
+00:19:57,590 --> 00:19:57,600
+a ratio of beta over zero although we
+ 
+
+897
+00:19:57,600 --> 00:19:59,330
+a ratio of beta over zero although we
+ignore the origin point when doing
+
+898
+00:19:59,330 --> 00:19:59,340
+ignore the origin point when doing
+ 
+
+899
+00:19:59,340 --> 00:20:01,430
+ignore the origin point when doing
+projections
+
+900
+00:20:01,430 --> 00:20:01,440
+projections
+ 
+
+901
+00:20:01,440 --> 00:20:03,950
+projections
+after the projection we can no longer
+
+902
+00:20:03,950 --> 00:20:03,960
+after the projection we can no longer
+ 
+
+903
+00:20:03,960 --> 00:20:05,750
+after the projection we can no longer
+tell the difference between the positive
+
+904
+00:20:05,750 --> 00:20:05,760
+tell the difference between the positive
+ 
+
+905
+00:20:05,760 --> 00:20:07,669
+tell the difference between the positive
+version of a point and the negative
+
+906
+00:20:07,669 --> 00:20:07,679
+version of a point and the negative
+ 
+
+907
+00:20:07,679 --> 00:20:09,710
+version of a point and the negative
+version of a point because they both
+
+908
+00:20:09,710 --> 00:20:09,720
+version of a point because they both
+ 
+
+909
+00:20:09,720 --> 00:20:11,930
+version of a point because they both
+have the exact same beta over Alpha
+
+910
+00:20:11,930 --> 00:20:11,940
+have the exact same beta over Alpha
+ 
+
+911
+00:20:11,940 --> 00:20:13,310
+have the exact same beta over Alpha
+ratio
+
+912
+00:20:13,310 --> 00:20:13,320
+ratio
+ 
+
+913
+00:20:13,320 --> 00:20:15,710
+ratio
+in fact we can't tell the difference
+
+914
+00:20:15,710 --> 00:20:15,720
+in fact we can't tell the difference
+ 
+
+915
+00:20:15,720 --> 00:20:18,289
+in fact we can't tell the difference
+between any two points scaled by an
+
+916
+00:20:18,289 --> 00:20:18,299
+between any two points scaled by an
+ 
+
+917
+00:20:18,299 --> 00:20:20,930
+between any two points scaled by an
+overall amplitude and complex phase
+
+918
+00:20:20,930 --> 00:20:20,940
+overall amplitude and complex phase
+ 
+
+919
+00:20:20,940 --> 00:20:23,990
+overall amplitude and complex phase
+because these also go away when we take
+
+920
+00:20:23,990 --> 00:20:24,000
+because these also go away when we take
+ 
+
+921
+00:20:24,000 --> 00:20:26,990
+because these also go away when we take
+the ratio beta over Alpha
+
+922
+00:20:26,990 --> 00:20:27,000
+the ratio beta over Alpha
+ 
+
+923
+00:20:27,000 --> 00:20:30,049
+the ratio beta over Alpha
+the flagpole sphere is how we visualize
+
+924
+00:20:30,049 --> 00:20:30,059
+the flagpole sphere is how we visualize
+ 
+
+925
+00:20:30,059 --> 00:20:32,390
+the flagpole sphere is how we visualize
+points in the complex projective line
+
+926
+00:20:32,390 --> 00:20:32,400
+points in the complex projective line
+ 
+
+927
+00:20:32,400 --> 00:20:35,210
+points in the complex projective line
+with one of the sphere's poles being the
+
+928
+00:20:35,210 --> 00:20:35,220
+with one of the sphere's poles being the
+ 
+
+929
+00:20:35,220 --> 00:20:37,310
+with one of the sphere's poles being the
+point at Infinity
+
+930
+00:20:37,310 --> 00:20:37,320
+point at Infinity
+ 
+
+931
+00:20:37,320 --> 00:20:40,190
+point at Infinity
+the ratio beta over Alpha completely
+
+932
+00:20:40,190 --> 00:20:40,200
+the ratio beta over Alpha completely
+ 
+
+933
+00:20:40,200 --> 00:20:42,350
+the ratio beta over Alpha completely
+determines the direction of the flagpole
+
+934
+00:20:42,350 --> 00:20:42,360
+determines the direction of the flagpole
+ 
+
+935
+00:20:42,360 --> 00:20:44,090
+determines the direction of the flagpole
+on the sphere
+
+936
+00:20:44,090 --> 00:20:44,100
+on the sphere
+ 
+
+937
+00:20:44,100 --> 00:20:46,310
+on the sphere
+we've seen this sphere called the point
+
+938
+00:20:46,310 --> 00:20:46,320
+we've seen this sphere called the point
+ 
+
+939
+00:20:46,320 --> 00:20:49,070
+we've seen this sphere called the point
+array sphere and the block sphere
+
+940
+00:20:49,070 --> 00:20:49,080
+array sphere and the block sphere
+ 
+
+941
+00:20:49,080 --> 00:20:50,990
+array sphere and the block sphere
+but in the context of the complex
+
+942
+00:20:50,990 --> 00:20:51,000
+but in the context of the complex
+ 
+
+943
+00:20:51,000 --> 00:20:53,870
+but in the context of the complex
+projective line we call it the Riemann
+
+944
+00:20:53,870 --> 00:20:53,880
+projective line we call it the Riemann
+ 
+
+945
+00:20:53,880 --> 00:20:55,610
+projective line we call it the Riemann
+sphere
+
+946
+00:20:55,610 --> 00:20:55,620
+sphere
+ 
+
+947
+00:20:55,620 --> 00:20:58,130
+sphere
+if we go back to the six main Spinners
+
+948
+00:20:58,130 --> 00:20:58,140
+if we go back to the six main Spinners
+ 
+
+949
+00:20:58,140 --> 00:20:59,870
+if we go back to the six main Spinners
+we've been looking at for the last few
+
+950
+00:20:59,870 --> 00:20:59,880
+we've been looking at for the last few
+ 
+
+951
+00:20:59,880 --> 00:21:02,330
+we've been looking at for the last few
+videos you'll notice that they are all
+
+952
+00:21:02,330 --> 00:21:02,340
+videos you'll notice that they are all
+ 
+
+953
+00:21:02,340 --> 00:21:04,850
+videos you'll notice that they are all
+completely defined by the ratio of their
+
+954
+00:21:04,850 --> 00:21:04,860
+completely defined by the ratio of their
+ 
+
+955
+00:21:04,860 --> 00:21:06,289
+completely defined by the ratio of their
+two components
+
+956
+00:21:06,289 --> 00:21:06,299
+two components
+ 
+
+957
+00:21:06,299 --> 00:21:08,350
+two components
+the spinner with Alpha equals 0
+
+958
+00:21:08,350 --> 00:21:08,360
+the spinner with Alpha equals 0
+ 
+
+959
+00:21:08,360 --> 00:21:11,810
+the spinner with Alpha equals 0
+represents the point at Infinity
+
+960
+00:21:11,810 --> 00:21:11,820
+represents the point at Infinity
+ 
+
+961
+00:21:11,820 --> 00:21:13,909
+represents the point at Infinity
+I'll briefly mention Mobius
+
+962
+00:21:13,909 --> 00:21:13,919
+I'll briefly mention Mobius
+ 
+
+963
+00:21:13,919 --> 00:21:16,250
+I'll briefly mention Mobius
+Transformations which are General
+
+964
+00:21:16,250 --> 00:21:16,260
+Transformations which are General
+ 
+
+965
+00:21:16,260 --> 00:21:18,950
+Transformations which are General
+matrices that act on a spinner
+
+966
+00:21:18,950 --> 00:21:18,960
+matrices that act on a spinner
+ 
+
+967
+00:21:18,960 --> 00:21:21,590
+matrices that act on a spinner
+by treating the inputs and outputs as
+
+968
+00:21:21,590 --> 00:21:21,600
+by treating the inputs and outputs as
+ 
+
+969
+00:21:21,600 --> 00:21:23,990
+by treating the inputs and outputs as
+single complex numbers given by the
+
+970
+00:21:23,990 --> 00:21:24,000
+single complex numbers given by the
+ 
+
+971
+00:21:24,000 --> 00:21:26,870
+single complex numbers given by the
+ratios of the spinner components we get
+
+972
+00:21:26,870 --> 00:21:26,880
+ratios of the spinner components we get
+ 
+
+973
+00:21:26,880 --> 00:21:28,970
+ratios of the spinner components we get
+this function here called a Mobius
+
+974
+00:21:28,970 --> 00:21:28,980
+this function here called a Mobius
+ 
+
+975
+00:21:28,980 --> 00:21:31,970
+this function here called a Mobius
+transformation I'll talk about this more
+
+976
+00:21:31,970 --> 00:21:31,980
+transformation I'll talk about this more
+ 
+
+977
+00:21:31,980 --> 00:21:35,330
+transformation I'll talk about this more
+in future videos
+
+978
+00:21:35,330 --> 00:21:35,340
+
+ 
+
+979
+00:21:35,340 --> 00:21:37,730
+
+so we now have a good mathematical
+
+980
+00:21:37,730 --> 00:21:37,740
+so we now have a good mathematical
+ 
+
+981
+00:21:37,740 --> 00:21:40,850
+so we now have a good mathematical
+description of what a spinner is it's a
+
+982
+00:21:40,850 --> 00:21:40,860
+description of what a spinner is it's a
+ 
+
+983
+00:21:40,860 --> 00:21:43,669
+description of what a spinner is it's a
+member of the complex projective line in
+
+984
+00:21:43,669 --> 00:21:43,679
+member of the complex projective line in
+ 
+
+985
+00:21:43,679 --> 00:21:45,590
+member of the complex projective line in
+other words it's a pair of complex
+
+986
+00:21:45,590 --> 00:21:45,600
+other words it's a pair of complex
+ 
+
+987
+00:21:45,600 --> 00:21:48,169
+other words it's a pair of complex
+numbers that have been projected so that
+
+988
+00:21:48,169 --> 00:21:48,179
+numbers that have been projected so that
+ 
+
+989
+00:21:48,179 --> 00:21:50,450
+numbers that have been projected so that
+the overall scaling and overall phase
+
+990
+00:21:50,450 --> 00:21:50,460
+the overall scaling and overall phase
+ 
+
+991
+00:21:50,460 --> 00:21:52,430
+the overall scaling and overall phase
+Factor doesn't matter
+
+992
+00:21:52,430 --> 00:21:52,440
+Factor doesn't matter
+ 
+
+993
+00:21:52,440 --> 00:21:54,529
+Factor doesn't matter
+it's only the ratio of the two
+
+994
+00:21:54,529 --> 00:21:54,539
+it's only the ratio of the two
+ 
+
+995
+00:21:54,539 --> 00:21:56,450
+it's only the ratio of the two
+components that matter
+
+996
+00:21:56,450 --> 00:21:56,460
+components that matter
+ 
+
+997
+00:21:56,460 --> 00:21:59,090
+components that matter
+the result of this projection is that a
+
+998
+00:21:59,090 --> 00:21:59,100
+the result of this projection is that a
+ 
+
+999
+00:21:59,100 --> 00:22:01,070
+the result of this projection is that a
+single rotation in the original space
+
+1000
+00:22:01,070 --> 00:22:01,080
+single rotation in the original space
+ 
+
+1001
+00:22:01,080 --> 00:22:04,370
+single rotation in the original space
+before projection results in two full
+
+1002
+00:22:04,370 --> 00:22:04,380
+before projection results in two full
+ 
+
+1003
+00:22:04,380 --> 00:22:06,590
+before projection results in two full
+rotations in the space after the
+
+1004
+00:22:06,590 --> 00:22:06,600
+rotations in the space after the
+ 
+
+1005
+00:22:06,600 --> 00:22:07,789
+rotations in the space after the
+projection
+
+1006
+00:22:07,789 --> 00:22:07,799
+projection
+ 
+
+1007
+00:22:07,799 --> 00:22:10,610
+projection
+because in the projected space we can no
+
+1008
+00:22:10,610 --> 00:22:10,620
+because in the projected space we can no
+ 
+
+1009
+00:22:10,620 --> 00:22:12,289
+because in the projected space we can no
+longer tell the difference between the
+
+1010
+00:22:12,289 --> 00:22:12,299
+longer tell the difference between the
+ 
+
+1011
+00:22:12,299 --> 00:22:14,330
+longer tell the difference between the
+positive and negative versions of a
+
+1012
+00:22:14,330 --> 00:22:14,340
+positive and negative versions of a
+ 
+
+1013
+00:22:14,340 --> 00:22:15,830
+positive and negative versions of a
+point
+
+1014
+00:22:15,830 --> 00:22:15,840
+point
+ 
+
+1015
+00:22:15,840 --> 00:22:18,049
+point
+each point on the complex projective
+
+1016
+00:22:18,049 --> 00:22:18,059
+each point on the complex projective
+ 
+
+1017
+00:22:18,059 --> 00:22:20,830
+each point on the complex projective
+line is determined by two real numbers
+
+1018
+00:22:20,830 --> 00:22:20,840
+line is determined by two real numbers
+ 
+
+1019
+00:22:20,840 --> 00:22:23,510
+line is determined by two real numbers
+and so we can draw the points on a
+
+1020
+00:22:23,510 --> 00:22:23,520
+and so we can draw the points on a
+ 
+
+1021
+00:22:23,520 --> 00:22:26,750
+and so we can draw the points on a
+sphere determined by two angles Theta
+
+1022
+00:22:26,750 --> 00:22:26,760
+sphere determined by two angles Theta
+ 
+
+1023
+00:22:26,760 --> 00:22:28,370
+sphere determined by two angles Theta
+and Phi
+
+1024
+00:22:28,370 --> 00:22:28,380
+and Phi
+ 
+
+1025
+00:22:28,380 --> 00:22:30,770
+and Phi
+if we want to visualize the overall
+
+1026
+00:22:30,770 --> 00:22:30,780
+if we want to visualize the overall
+ 
+
+1027
+00:22:30,780 --> 00:22:33,350
+if we want to visualize the overall
+phase of a spinner we can view it as the
+
+1028
+00:22:33,350 --> 00:22:33,360
+phase of a spinner we can view it as the
+ 
+
+1029
+00:22:33,360 --> 00:22:35,570
+phase of a spinner we can view it as the
+angle of a flag that is spinning around
+
+1030
+00:22:35,570 --> 00:22:35,580
+angle of a flag that is spinning around
+ 
+
+1031
+00:22:35,580 --> 00:22:38,570
+angle of a flag that is spinning around
+a flagpole and the overall scaling
+
+1032
+00:22:38,570 --> 00:22:38,580
+a flagpole and the overall scaling
+ 
+
+1033
+00:22:38,580 --> 00:22:40,850
+a flagpole and the overall scaling
+Factor can be visualized as the length
+
+1034
+00:22:40,850 --> 00:22:40,860
+Factor can be visualized as the length
+ 
+
+1035
+00:22:40,860 --> 00:22:42,409
+Factor can be visualized as the length
+of the flagpole
+
+1036
+00:22:42,409 --> 00:22:42,419
+of the flagpole
+ 
+
+1037
+00:22:42,419 --> 00:22:44,750
+of the flagpole
+but neither the angle of the FLAG NOR
+
+1038
+00:22:44,750 --> 00:22:44,760
+but neither the angle of the FLAG NOR
+ 
+
+1039
+00:22:44,760 --> 00:22:47,149
+but neither the angle of the FLAG NOR
+the length of the flagpole change the
+
+1040
+00:22:47,149 --> 00:22:47,159
+the length of the flagpole change the
+ 
+
+1041
+00:22:47,159 --> 00:22:49,310
+the length of the flagpole change the
+location of the relevant point on the
+
+1042
+00:22:49,310 --> 00:22:49,320
+location of the relevant point on the
+ 
+
+1043
+00:22:49,320 --> 00:22:52,070
+location of the relevant point on the
+sphere and so they don't actually change
+
+1044
+00:22:52,070 --> 00:22:52,080
+sphere and so they don't actually change
+ 
+
+1045
+00:22:52,080 --> 00:22:54,350
+sphere and so they don't actually change
+the spinner
+
+1046
+00:22:54,350 --> 00:22:54,360
+the spinner
+ 
+
+1047
+00:22:54,360 --> 00:22:57,470
+the spinner
+so we've closed the first chapter of our
+
+1048
+00:22:57,470 --> 00:22:57,480
+so we've closed the first chapter of our
+ 
+
+1049
+00:22:57,480 --> 00:23:00,350
+so we've closed the first chapter of our
+journey into understanding Spinners we
+
+1050
+00:23:00,350 --> 00:23:00,360
+journey into understanding Spinners we
+ 
+
+1051
+00:23:00,360 --> 00:23:01,970
+journey into understanding Spinners we
+have a mathematical description of
+
+1052
+00:23:01,970 --> 00:23:01,980
+have a mathematical description of
+ 
+
+1053
+00:23:01,980 --> 00:23:04,549
+have a mathematical description of
+spinners that works and can be applied
+
+1054
+00:23:04,549 --> 00:23:04,559
+spinners that works and can be applied
+ 
+
+1055
+00:23:04,559 --> 00:23:07,909
+spinners that works and can be applied
+to two different physical problems but
+
+1056
+00:23:07,909 --> 00:23:07,919
+to two different physical problems but
+ 
+
+1057
+00:23:07,919 --> 00:23:10,370
+to two different physical problems but
+there's still more to learn we'll see
+
+1058
+00:23:10,370 --> 00:23:10,380
+there's still more to learn we'll see
+ 
+
+1059
+00:23:10,380 --> 00:23:13,310
+there's still more to learn we'll see
+later that we can write 3D vectors as
+
+1060
+00:23:13,310 --> 00:23:13,320
+later that we can write 3D vectors as
+ 
+
+1061
+00:23:13,320 --> 00:23:15,770
+later that we can write 3D vectors as
+two by two matrices that rotate with
+
+1062
+00:23:15,770 --> 00:23:15,780
+two by two matrices that rotate with
+ 
+
+1063
+00:23:15,780 --> 00:23:18,890
+two by two matrices that rotate with
+double-sided Transformations using a
+
+1064
+00:23:18,890 --> 00:23:18,900
+double-sided Transformations using a
+ 
+
+1065
+00:23:18,900 --> 00:23:21,649
+double-sided Transformations using a
+pair of su2 matrices
+
+1066
+00:23:21,649 --> 00:23:21,659
+pair of su2 matrices
+ 
+
+1067
+00:23:21,659 --> 00:23:24,409
+pair of su2 matrices
+if you're familiar with quaternions this
+
+1068
+00:23:24,409 --> 00:23:24,419
+if you're familiar with quaternions this
+ 
+
+1069
+00:23:24,419 --> 00:23:26,630
+if you're familiar with quaternions this
+is equivalent to rotating a vector with
+
+1070
+00:23:26,630 --> 00:23:26,640
+is equivalent to rotating a vector with
+ 
+
+1071
+00:23:26,640 --> 00:23:29,870
+is equivalent to rotating a vector with
+a pair of unit quaternions
+
+1072
+00:23:29,870 --> 00:23:29,880
+a pair of unit quaternions
+ 
+
+1073
+00:23:29,880 --> 00:23:31,909
+a pair of unit quaternions
+we're going to see that we can Factor
+
+1074
+00:23:31,909 --> 00:23:31,919
+we're going to see that we can Factor
+ 
+
+1075
+00:23:31,919 --> 00:23:34,850
+we're going to see that we can Factor
+this 3D Vector into a pair of spinners
+
+1076
+00:23:34,850 --> 00:23:34,860
+this 3D Vector into a pair of spinners
+ 
+
+1077
+00:23:34,860 --> 00:23:37,789
+this 3D Vector into a pair of spinners
+and each spinner will rotate with a
+
+1078
+00:23:37,789 --> 00:23:37,799
+and each spinner will rotate with a
+ 
+
+1079
+00:23:37,799 --> 00:23:39,950
+and each spinner will rotate with a
+single su2 Matrix
+
+1080
+00:23:39,950 --> 00:23:39,960
+single su2 Matrix
+ 
+
+1081
+00:23:39,960 --> 00:23:42,890
+single su2 Matrix
+in other words Spinners transform with a
+
+1082
+00:23:42,890 --> 00:23:42,900
+in other words Spinners transform with a
+ 
+
+1083
+00:23:42,900 --> 00:23:45,049
+in other words Spinners transform with a
+single quaternion instead of two
+
+1084
+00:23:45,049 --> 00:23:45,059
+single quaternion instead of two
+ 
+
+1085
+00:23:45,059 --> 00:23:47,210
+single quaternion instead of two
+quaternions
+
+1086
+00:23:47,210 --> 00:23:47,220
+quaternions
+ 
+
+1087
+00:23:47,220 --> 00:23:49,610
+quaternions
+we'll also see how we can find the
+
+1088
+00:23:49,610 --> 00:23:49,620
+we'll also see how we can find the
+ 
+
+1089
+00:23:49,620 --> 00:23:51,289
+we'll also see how we can find the
+higher dimensional analogues of the
+
+1090
+00:23:51,289 --> 00:23:51,299
+higher dimensional analogues of the
+ 
+
+1091
+00:23:51,299 --> 00:23:54,590
+higher dimensional analogues of the
+quaternions and su2 matrices
+
+1092
+00:23:54,590 --> 00:23:54,600
+quaternions and su2 matrices
+ 
+
+1093
+00:23:54,600 --> 00:23:56,750
+quaternions and su2 matrices
+for example in the four-dimensional
+
+1094
+00:23:56,750 --> 00:23:56,760
+for example in the four-dimensional
+ 
+
+1095
+00:23:56,760 --> 00:23:59,450
+for example in the four-dimensional
+space time of special relativity we'll
+
+1096
+00:23:59,450 --> 00:23:59,460
+space time of special relativity we'll
+ 
+
+1097
+00:23:59,460 --> 00:24:01,730
+space time of special relativity we'll
+generalize the quaternions to The Matrix
+
+1098
+00:24:01,730 --> 00:24:01,740
+generalize the quaternions to The Matrix
+ 
+
+1099
+00:24:01,740 --> 00:24:05,210
+generalize the quaternions to The Matrix
+Group sl2c which will allow us to do
+
+1100
+00:24:05,210 --> 00:24:05,220
+Group sl2c which will allow us to do
+ 
+
+1101
+00:24:05,220 --> 00:24:07,850
+Group sl2c which will allow us to do
+both rotations and reference frame
+
+1102
+00:24:07,850 --> 00:24:07,860
+both rotations and reference frame
+ 
+
+1103
+00:24:07,860 --> 00:24:10,669
+both rotations and reference frame
+boosts giving us six types of rotations
+
+1104
+00:24:10,669 --> 00:24:10,679
+boosts giving us six types of rotations
+ 
+
+1105
+00:24:10,679 --> 00:24:13,549
+boosts giving us six types of rotations
+for space-time spinners
+
+1106
+00:24:13,549 --> 00:24:13,559
+for space-time spinners
+ 
+
+1107
+00:24:13,559 --> 00:24:15,830
+for space-time spinners
+also I've left a few links in the
+
+1108
+00:24:15,830 --> 00:24:15,840
+also I've left a few links in the
+ 
+
+1109
+00:24:15,840 --> 00:24:18,049
+also I've left a few links in the
+description to other sources that
+
+1110
+00:24:18,049 --> 00:24:18,059
+description to other sources that
+ 
+
+1111
+00:24:18,059 --> 00:24:19,789
+description to other sources that
+discuss physical applications of
+
+1112
+00:24:19,789 --> 00:24:19,799
+discuss physical applications of
+ 
+
+1113
+00:24:19,799 --> 00:24:24,440
+discuss physical applications of
+spinners and the flagpole visualization
+

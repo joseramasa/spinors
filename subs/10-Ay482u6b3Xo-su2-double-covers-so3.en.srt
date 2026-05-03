@@ -1,0 +1,6035 @@
+1
+00:00:00,060 --> 00:00:02,629
+
+this is our last video talking about the
+
+2
+00:00:02,629 --> 00:00:02,639
+this is our last video talking about the
+ 
+
+3
+00:00:02,639 --> 00:00:05,809
+this is our last video talking about the
+basics of spinners in 3D space and 4D
+
+4
+00:00:05,809 --> 00:00:05,819
+basics of spinners in 3D space and 4D
+ 
+
+5
+00:00:05,819 --> 00:00:08,210
+basics of spinners in 3D space and 4D
+space time from a mathematical point of
+
+6
+00:00:08,210 --> 00:00:08,220
+space time from a mathematical point of
+ 
+
+7
+00:00:08,220 --> 00:00:10,790
+space time from a mathematical point of
+view and we're going to talk about a
+
+8
+00:00:10,790 --> 00:00:10,800
+view and we're going to talk about a
+ 
+
+9
+00:00:10,800 --> 00:00:12,890
+view and we're going to talk about a
+deep concept we've been approaching for
+
+10
+00:00:12,890 --> 00:00:12,900
+deep concept we've been approaching for
+ 
+
+11
+00:00:12,900 --> 00:00:15,770
+deep concept we've been approaching for
+a while called the double cover which
+
+12
+00:00:15,770 --> 00:00:15,780
+a while called the double cover which
+ 
+
+13
+00:00:15,780 --> 00:00:18,769
+a while called the double cover which
+leads to the notion of a spin group this
+
+14
+00:00:18,769 --> 00:00:18,779
+leads to the notion of a spin group this
+ 
+
+15
+00:00:18,779 --> 00:00:20,630
+leads to the notion of a spin group this
+will set the stage for the next set of
+
+16
+00:00:20,630 --> 00:00:20,640
+will set the stage for the next set of
+ 
+
+17
+00:00:20,640 --> 00:00:22,730
+will set the stage for the next set of
+videos in the series where we discuss
+
+18
+00:00:22,730 --> 00:00:22,740
+videos in the series where we discuss
+ 
+
+19
+00:00:22,740 --> 00:00:26,029
+videos in the series where we discuss
+Clifford algebras also called geometric
+
+20
+00:00:26,029 --> 00:00:26,039
+Clifford algebras also called geometric
+ 
+
+21
+00:00:26,039 --> 00:00:28,370
+Clifford algebras also called geometric
+algebras
+
+22
+00:00:28,370 --> 00:00:28,380
+algebras
+ 
+
+23
+00:00:28,380 --> 00:00:31,189
+algebras
+over the last few videos we showed how
+
+24
+00:00:31,189 --> 00:00:31,199
+over the last few videos we showed how
+ 
+
+25
+00:00:31,199 --> 00:00:33,709
+over the last few videos we showed how
+3D vectors are rotated with the special
+
+26
+00:00:33,709 --> 00:00:33,719
+3D vectors are rotated with the special
+ 
+
+27
+00:00:33,719 --> 00:00:38,270
+3D vectors are rotated with the special
+orthogonal 3x3 matrices SO3
+
+28
+00:00:38,270 --> 00:00:38,280
+orthogonal 3x3 matrices SO3
+ 
+
+29
+00:00:38,280 --> 00:00:40,250
+orthogonal 3x3 matrices SO3
+we also showed that there was an
+
+30
+00:00:40,250 --> 00:00:40,260
+we also showed that there was an
+ 
+
+31
+00:00:40,260 --> 00:00:42,650
+we also showed that there was an
+alternative way of doing rotations where
+
+32
+00:00:42,650 --> 00:00:42,660
+alternative way of doing rotations where
+ 
+
+33
+00:00:42,660 --> 00:00:44,690
+alternative way of doing rotations where
+the vector was written as a two by two
+
+34
+00:00:44,690 --> 00:00:44,700
+the vector was written as a two by two
+ 
+
+35
+00:00:44,700 --> 00:00:47,930
+the vector was written as a two by two
+Matrix called a Pali vector and is
+
+36
+00:00:47,930 --> 00:00:47,940
+Matrix called a Pali vector and is
+ 
+
+37
+00:00:47,940 --> 00:00:49,430
+Matrix called a Pali vector and is
+rotated with a double-sided
+
+38
+00:00:49,430 --> 00:00:49,440
+rotated with a double-sided
+ 
+
+39
+00:00:49,440 --> 00:00:52,670
+rotated with a double-sided
+transformation using special unitary 2x2
+
+40
+00:00:52,670 --> 00:00:52,680
+transformation using special unitary 2x2
+ 
+
+41
+00:00:52,680 --> 00:00:55,610
+transformation using special unitary 2x2
+matrices su2
+
+42
+00:00:55,610 --> 00:00:55,620
+matrices su2
+ 
+
+43
+00:00:55,620 --> 00:00:59,209
+matrices su2
+as I mentioned in video 6.1 the su-2
+
+44
+00:00:59,209 --> 00:00:59,219
+as I mentioned in video 6.1 the su-2
+ 
+
+45
+00:00:59,219 --> 00:01:01,250
+as I mentioned in video 6.1 the su-2
+matrices are completely equivalent to
+
+46
+00:01:01,250 --> 00:01:01,260
+matrices are completely equivalent to
+ 
+
+47
+00:01:01,260 --> 00:01:03,830
+matrices are completely equivalent to
+unit quaternions so I'll be talking
+
+48
+00:01:03,830 --> 00:01:03,840
+unit quaternions so I'll be talking
+ 
+
+49
+00:01:03,840 --> 00:01:06,649
+unit quaternions so I'll be talking
+about them in this video as well
+
+50
+00:01:06,649 --> 00:01:06,659
+about them in this video as well
+ 
+
+51
+00:01:06,659 --> 00:01:09,469
+about them in this video as well
+we say that the su2 matrices are the
+
+52
+00:01:09,469 --> 00:01:09,479
+we say that the su2 matrices are the
+ 
+
+53
+00:01:09,479 --> 00:01:13,490
+we say that the su2 matrices are the
+double cover of SO3 matrices because for
+
+54
+00:01:13,490 --> 00:01:13,500
+double cover of SO3 matrices because for
+ 
+
+55
+00:01:13,500 --> 00:01:17,270
+double cover of SO3 matrices because for
+every 3x3 rotation Matrix R there are a
+
+56
+00:01:17,270 --> 00:01:17,280
+every 3x3 rotation Matrix R there are a
+ 
+
+57
+00:01:17,280 --> 00:01:20,990
+every 3x3 rotation Matrix R there are a
+pair of su2 matrices plus u and minus U
+
+58
+00:01:20,990 --> 00:01:21,000
+pair of su2 matrices plus u and minus U
+ 
+
+59
+00:01:21,000 --> 00:01:24,289
+pair of su2 matrices plus u and minus U
+that perform the same rotation
+
+60
+00:01:24,289 --> 00:01:24,299
+that perform the same rotation
+ 
+
+61
+00:01:24,299 --> 00:01:26,330
+that perform the same rotation
+because the transformation is
+
+62
+00:01:26,330 --> 00:01:26,340
+because the transformation is
+ 
+
+63
+00:01:26,340 --> 00:01:29,390
+because the transformation is
+double-sided if we replace plus u with
+
+64
+00:01:29,390 --> 00:01:29,400
+double-sided if we replace plus u with
+ 
+
+65
+00:01:29,400 --> 00:01:32,270
+double-sided if we replace plus u with
+minus U the two minus signs will cancel
+
+66
+00:01:32,270 --> 00:01:32,280
+minus U the two minus signs will cancel
+ 
+
+67
+00:01:32,280 --> 00:01:34,370
+minus U the two minus signs will cancel
+out leading to the same transformation
+
+68
+00:01:34,370 --> 00:01:34,380
+out leading to the same transformation
+ 
+
+69
+00:01:34,380 --> 00:01:36,410
+out leading to the same transformation
+we started with
+
+70
+00:01:36,410 --> 00:01:36,420
+we started with
+ 
+
+71
+00:01:36,420 --> 00:01:38,810
+we started with
+this is an algebraic view of what it
+
+72
+00:01:38,810 --> 00:01:38,820
+this is an algebraic view of what it
+ 
+
+73
+00:01:38,820 --> 00:01:41,749
+this is an algebraic view of what it
+means for su2 to be the double cover of
+
+74
+00:01:41,749 --> 00:01:41,759
+means for su2 to be the double cover of
+ 
+
+75
+00:01:41,759 --> 00:01:43,670
+means for su2 to be the double cover of
+SO3
+
+76
+00:01:43,670 --> 00:01:43,680
+SO3
+ 
+
+77
+00:01:43,680 --> 00:01:46,490
+SO3
+however there is also a topological
+
+78
+00:01:46,490 --> 00:01:46,500
+however there is also a topological
+ 
+
+79
+00:01:46,500 --> 00:01:49,130
+however there is also a topological
+interpretation for this concept of a
+
+80
+00:01:49,130 --> 00:01:49,140
+interpretation for this concept of a
+ 
+
+81
+00:01:49,140 --> 00:01:50,630
+interpretation for this concept of a
+double cover
+
+82
+00:01:50,630 --> 00:01:50,640
+double cover
+ 
+
+83
+00:01:50,640 --> 00:01:53,690
+double cover
+topology is an area of math that's
+
+84
+00:01:53,690 --> 00:01:53,700
+topology is an area of math that's
+ 
+
+85
+00:01:53,700 --> 00:01:56,210
+topology is an area of math that's
+sometimes called rubber sheet geometry
+
+86
+00:01:56,210 --> 00:01:56,220
+sometimes called rubber sheet geometry
+ 
+
+87
+00:01:56,220 --> 00:01:59,030
+sometimes called rubber sheet geometry
+because it involves studying the overall
+
+88
+00:01:59,030 --> 00:01:59,040
+because it involves studying the overall
+ 
+
+89
+00:01:59,040 --> 00:02:01,190
+because it involves studying the overall
+shape and connectedness of various
+
+90
+00:02:01,190 --> 00:02:01,200
+shape and connectedness of various
+ 
+
+91
+00:02:01,200 --> 00:02:03,770
+shape and connectedness of various
+spaces without worrying about exact
+
+92
+00:02:03,770 --> 00:02:03,780
+spaces without worrying about exact
+ 
+
+93
+00:02:03,780 --> 00:02:06,109
+spaces without worrying about exact
+sizes and angles
+
+94
+00:02:06,109 --> 00:02:06,119
+sizes and angles
+ 
+
+95
+00:02:06,119 --> 00:02:10,070
+sizes and angles
+when we study the topology of SO3 or su2
+
+96
+00:02:10,070 --> 00:02:10,080
+when we study the topology of SO3 or su2
+ 
+
+97
+00:02:10,080 --> 00:02:12,410
+when we study the topology of SO3 or su2
+we're studying the shape of what these
+
+98
+00:02:12,410 --> 00:02:12,420
+we're studying the shape of what these
+ 
+
+99
+00:02:12,420 --> 00:02:15,290
+we're studying the shape of what these
+spaces of rotations look like and how
+
+100
+00:02:15,290 --> 00:02:15,300
+spaces of rotations look like and how
+ 
+
+101
+00:02:15,300 --> 00:02:18,290
+spaces of rotations look like and how
+the space is connected with itself
+
+102
+00:02:18,290 --> 00:02:18,300
+the space is connected with itself
+ 
+
+103
+00:02:18,300 --> 00:02:20,809
+the space is connected with itself
+it turns out that the space of su2
+
+104
+00:02:20,809 --> 00:02:20,819
+it turns out that the space of su2
+ 
+
+105
+00:02:20,819 --> 00:02:23,210
+it turns out that the space of su2
+matrices looks like a three-dimensional
+
+106
+00:02:23,210 --> 00:02:23,220
+matrices looks like a three-dimensional
+ 
+
+107
+00:02:23,220 --> 00:02:25,550
+matrices looks like a three-dimensional
+sphere that lives in four-dimensional
+
+108
+00:02:25,550 --> 00:02:25,560
+sphere that lives in four-dimensional
+ 
+
+109
+00:02:25,560 --> 00:02:29,449
+sphere that lives in four-dimensional
+space called the three sphere or S3 for
+
+110
+00:02:29,449 --> 00:02:29,459
+space called the three sphere or S3 for
+ 
+
+111
+00:02:29,459 --> 00:02:30,290
+space called the three sphere or S3 for
+short
+
+112
+00:02:30,290 --> 00:02:30,300
+short
+ 
+
+113
+00:02:30,300 --> 00:02:32,570
+short
+this is a simplified view that looks
+
+114
+00:02:32,570 --> 00:02:32,580
+this is a simplified view that looks
+ 
+
+115
+00:02:32,580 --> 00:02:34,309
+this is a simplified view that looks
+more like a two-dimensional sphere
+
+116
+00:02:34,309 --> 00:02:34,319
+more like a two-dimensional sphere
+ 
+
+117
+00:02:34,319 --> 00:02:36,949
+more like a two-dimensional sphere
+because a true three-dimensional sphere
+
+118
+00:02:36,949 --> 00:02:36,959
+because a true three-dimensional sphere
+ 
+
+119
+00:02:36,959 --> 00:02:40,130
+because a true three-dimensional sphere
+is too difficult to draw a true three
+
+120
+00:02:40,130 --> 00:02:40,140
+is too difficult to draw a true three
+ 
+
+121
+00:02:40,140 --> 00:02:42,530
+is too difficult to draw a true three
+sphere has points that are specified by
+
+122
+00:02:42,530 --> 00:02:42,540
+sphere has points that are specified by
+ 
+
+123
+00:02:42,540 --> 00:02:45,890
+sphere has points that are specified by
+three angles instead of two angles
+
+124
+00:02:45,890 --> 00:02:45,900
+three angles instead of two angles
+ 
+
+125
+00:02:45,900 --> 00:02:49,610
+three angles instead of two angles
+the space of SO3 matrices looks like a
+
+126
+00:02:49,610 --> 00:02:49,620
+the space of SO3 matrices looks like a
+ 
+
+127
+00:02:49,620 --> 00:02:53,390
+the space of SO3 matrices looks like a
+real projective three space rp3 which
+
+128
+00:02:53,390 --> 00:02:53,400
+real projective three space rp3 which
+ 
+
+129
+00:02:53,400 --> 00:02:55,190
+real projective three space rp3 which
+sort of looks like half of a three
+
+130
+00:02:55,190 --> 00:02:55,200
+sort of looks like half of a three
+ 
+
+131
+00:02:55,200 --> 00:02:57,949
+sort of looks like half of a three
+sphere where if we walk off one Edge we
+
+132
+00:02:57,949 --> 00:02:57,959
+sphere where if we walk off one Edge we
+ 
+
+133
+00:02:57,959 --> 00:03:00,410
+sphere where if we walk off one Edge we
+get teleported to the other side
+
+134
+00:03:00,410 --> 00:03:00,420
+get teleported to the other side
+ 
+
+135
+00:03:00,420 --> 00:03:02,630
+get teleported to the other side
+let's try and understand what these
+
+136
+00:03:02,630 --> 00:03:02,640
+let's try and understand what these
+ 
+
+137
+00:03:02,640 --> 00:03:04,910
+let's try and understand what these
+spaces look like
+
+138
+00:03:04,910 --> 00:03:04,920
+spaces look like
+ 
+
+139
+00:03:04,920 --> 00:03:07,250
+spaces look like
+it can be pretty difficult to get an
+
+140
+00:03:07,250 --> 00:03:07,260
+it can be pretty difficult to get an
+ 
+
+141
+00:03:07,260 --> 00:03:09,470
+it can be pretty difficult to get an
+intuition for what we mean when we say
+
+142
+00:03:09,470 --> 00:03:09,480
+intuition for what we mean when we say
+ 
+
+143
+00:03:09,480 --> 00:03:13,550
+intuition for what we mean when we say
+su2 is the three sphere and SO3 is real
+
+144
+00:03:13,550 --> 00:03:13,560
+su2 is the three sphere and SO3 is real
+ 
+
+145
+00:03:13,560 --> 00:03:16,190
+su2 is the three sphere and SO3 is real
+projective three space and to understand
+
+146
+00:03:16,190 --> 00:03:16,200
+projective three space and to understand
+ 
+
+147
+00:03:16,200 --> 00:03:19,250
+projective three space and to understand
+why one is the double cover of the other
+
+148
+00:03:19,250 --> 00:03:19,260
+why one is the double cover of the other
+ 
+
+149
+00:03:19,260 --> 00:03:22,130
+why one is the double cover of the other
+these spaces are too high dimensional to
+
+150
+00:03:22,130 --> 00:03:22,140
+these spaces are too high dimensional to
+ 
+
+151
+00:03:22,140 --> 00:03:24,949
+these spaces are too high dimensional to
+easily visualize so let's start simple
+
+152
+00:03:24,949 --> 00:03:24,959
+easily visualize so let's start simple
+ 
+
+153
+00:03:24,959 --> 00:03:27,770
+easily visualize so let's start simple
+by working with the one sphere which is
+
+154
+00:03:27,770 --> 00:03:27,780
+by working with the one sphere which is
+ 
+
+155
+00:03:27,780 --> 00:03:30,949
+by working with the one sphere which is
+the circle and real projective line and
+
+156
+00:03:30,949 --> 00:03:30,959
+the circle and real projective line and
+ 
+
+157
+00:03:30,959 --> 00:03:33,589
+the circle and real projective line and
+work our way up from there we've already
+
+158
+00:03:33,589 --> 00:03:33,599
+work our way up from there we've already
+ 
+
+159
+00:03:33,599 --> 00:03:35,869
+work our way up from there we've already
+discussed the real projective line in
+
+160
+00:03:35,869 --> 00:03:35,879
+discussed the real projective line in
+ 
+
+161
+00:03:35,879 --> 00:03:38,869
+discussed the real projective line in
+video 5 in this series if we start with
+
+162
+00:03:38,869 --> 00:03:38,879
+video 5 in this series if we start with
+ 
+
+163
+00:03:38,879 --> 00:03:41,690
+video 5 in this series if we start with
+the 2D plane and draw a vertical screen
+
+164
+00:03:41,690 --> 00:03:41,700
+the 2D plane and draw a vertical screen
+ 
+
+165
+00:03:41,700 --> 00:03:44,809
+the 2D plane and draw a vertical screen
+at x equals one we can project points
+
+166
+00:03:44,809 --> 00:03:44,819
+at x equals one we can project points
+ 
+
+167
+00:03:44,819 --> 00:03:47,330
+at x equals one we can project points
+onto the screen by drawing lines that
+
+168
+00:03:47,330 --> 00:03:47,340
+onto the screen by drawing lines that
+ 
+
+169
+00:03:47,340 --> 00:03:50,149
+onto the screen by drawing lines that
+connect points to the origin and seeing
+
+170
+00:03:50,149 --> 00:03:50,159
+connect points to the origin and seeing
+ 
+
+171
+00:03:50,159 --> 00:03:52,030
+connect points to the origin and seeing
+where these lines intersect the screen
+
+172
+00:03:52,030 --> 00:03:52,040
+where these lines intersect the screen
+ 
+
+173
+00:03:52,040 --> 00:03:54,949
+where these lines intersect the screen
+the resulting space on the screen is
+
+174
+00:03:54,949 --> 00:03:54,959
+the resulting space on the screen is
+ 
+
+175
+00:03:54,959 --> 00:03:58,850
+the resulting space on the screen is
+called the real projective line rp1
+
+176
+00:03:58,850 --> 00:03:58,860
+called the real projective line rp1
+ 
+
+177
+00:03:58,860 --> 00:04:01,369
+called the real projective line rp1
+if we draw a circle centered at the
+
+178
+00:04:01,369 --> 00:04:01,379
+if we draw a circle centered at the
+ 
+
+179
+00:04:01,379 --> 00:04:04,190
+if we draw a circle centered at the
+origin and try projecting various points
+
+180
+00:04:04,190 --> 00:04:04,200
+origin and try projecting various points
+ 
+
+181
+00:04:04,200 --> 00:04:06,890
+origin and try projecting various points
+on the circle onto the screen we find
+
+182
+00:04:06,890 --> 00:04:06,900
+on the circle onto the screen we find
+ 
+
+183
+00:04:06,900 --> 00:04:09,530
+on the circle onto the screen we find
+that opposite points on the circle exist
+
+184
+00:04:09,530 --> 00:04:09,540
+that opposite points on the circle exist
+ 
+
+185
+00:04:09,540 --> 00:04:12,289
+that opposite points on the circle exist
+on the same line through the origin and
+
+186
+00:04:12,289 --> 00:04:12,299
+on the same line through the origin and
+ 
+
+187
+00:04:12,299 --> 00:04:14,149
+on the same line through the origin and
+so they will get projected to the same
+
+188
+00:04:14,149 --> 00:04:14,159
+so they will get projected to the same
+ 
+
+189
+00:04:14,159 --> 00:04:17,509
+so they will get projected to the same
+point on the screen this means that for
+
+190
+00:04:17,509 --> 00:04:17,519
+point on the screen this means that for
+ 
+
+191
+00:04:17,519 --> 00:04:19,610
+point on the screen this means that for
+every one point in the real projective
+
+192
+00:04:19,610 --> 00:04:19,620
+every one point in the real projective
+ 
+
+193
+00:04:19,620 --> 00:04:22,969
+every one point in the real projective
+line there are two points on the circle
+
+194
+00:04:22,969 --> 00:04:22,979
+line there are two points on the circle
+ 
+
+195
+00:04:22,979 --> 00:04:25,330
+line there are two points on the circle
+for this reason we say that the circle
+
+196
+00:04:25,330 --> 00:04:25,340
+for this reason we say that the circle
+ 
+
+197
+00:04:25,340 --> 00:04:28,370
+for this reason we say that the circle
+S1 is the double cover of the real
+
+198
+00:04:28,370 --> 00:04:28,380
+S1 is the double cover of the real
+ 
+
+199
+00:04:28,380 --> 00:04:31,249
+S1 is the double cover of the real
+projective line rp1
+
+200
+00:04:31,249 --> 00:04:31,259
+projective line rp1
+ 
+
+201
+00:04:31,259 --> 00:04:33,530
+projective line rp1
+if I do a single loop around the real
+
+202
+00:04:33,530 --> 00:04:33,540
+if I do a single loop around the real
+ 
+
+203
+00:04:33,540 --> 00:04:36,409
+if I do a single loop around the real
+projective line we only cover half of
+
+204
+00:04:36,409 --> 00:04:36,419
+projective line we only cover half of
+ 
+
+205
+00:04:36,419 --> 00:04:39,170
+projective line we only cover half of
+the circle It Takes Two Full loops
+
+206
+00:04:39,170 --> 00:04:39,180
+the circle It Takes Two Full loops
+ 
+
+207
+00:04:39,180 --> 00:04:41,689
+the circle It Takes Two Full loops
+around the real projective line to cover
+
+208
+00:04:41,689 --> 00:04:41,699
+around the real projective line to cover
+ 
+
+209
+00:04:41,699 --> 00:04:43,490
+around the real projective line to cover
+the full circle
+
+210
+00:04:43,490 --> 00:04:43,500
+the full circle
+ 
+
+211
+00:04:43,500 --> 00:04:45,830
+the full circle
+so the real projective line is a bit
+
+212
+00:04:45,830 --> 00:04:45,840
+so the real projective line is a bit
+ 
+
+213
+00:04:45,840 --> 00:04:48,770
+so the real projective line is a bit
+like a half circle where walking off one
+
+214
+00:04:48,770 --> 00:04:48,780
+like a half circle where walking off one
+ 
+
+215
+00:04:48,780 --> 00:04:50,990
+like a half circle where walking off one
+Edge immediately teleports you to the
+
+216
+00:04:50,990 --> 00:04:51,000
+Edge immediately teleports you to the
+ 
+
+217
+00:04:51,000 --> 00:04:53,270
+Edge immediately teleports you to the
+other side
+
+218
+00:04:53,270 --> 00:04:53,280
+other side
+ 
+
+219
+00:04:53,280 --> 00:04:55,550
+other side
+a given point on the real projective
+
+220
+00:04:55,550 --> 00:04:55,560
+a given point on the real projective
+ 
+
+221
+00:04:55,560 --> 00:04:59,030
+a given point on the real projective
+line can be described by a ratio of X Y
+
+222
+00:04:59,030 --> 00:04:59,040
+line can be described by a ratio of X Y
+ 
+
+223
+00:04:59,040 --> 00:05:00,409
+line can be described by a ratio of X Y
+coordinates
+
+224
+00:05:00,409 --> 00:05:00,419
+coordinates
+ 
+
+225
+00:05:00,419 --> 00:05:03,530
+coordinates
+any points with the same y over X ratio
+
+226
+00:05:03,530 --> 00:05:03,540
+any points with the same y over X ratio
+ 
+
+227
+00:05:03,540 --> 00:05:05,450
+any points with the same y over X ratio
+will be connected by the same line
+
+228
+00:05:05,450 --> 00:05:05,460
+will be connected by the same line
+ 
+
+229
+00:05:05,460 --> 00:05:08,150
+will be connected by the same line
+through the origin and so are projected
+
+230
+00:05:08,150 --> 00:05:08,160
+through the origin and so are projected
+ 
+
+231
+00:05:08,160 --> 00:05:10,249
+through the origin and so are projected
+to the same point on the real projective
+
+232
+00:05:10,249 --> 00:05:10,259
+to the same point on the real projective
+ 
+
+233
+00:05:10,259 --> 00:05:11,930
+to the same point on the real projective
+line
+
+234
+00:05:11,930 --> 00:05:11,940
+line
+ 
+
+235
+00:05:11,940 --> 00:05:14,270
+line
+this pattern extends in higher
+
+236
+00:05:14,270 --> 00:05:14,280
+this pattern extends in higher
+ 
+
+237
+00:05:14,280 --> 00:05:17,810
+this pattern extends in higher
+Dimensions if we start in 3D space and
+
+238
+00:05:17,810 --> 00:05:17,820
+Dimensions if we start in 3D space and
+ 
+
+239
+00:05:17,820 --> 00:05:21,409
+Dimensions if we start in 3D space and
+place a 2d screen at x equals one and
+
+240
+00:05:21,409 --> 00:05:21,419
+place a 2d screen at x equals one and
+ 
+
+241
+00:05:21,419 --> 00:05:23,150
+place a 2d screen at x equals one and
+then project points onto the screen
+
+242
+00:05:23,150 --> 00:05:23,160
+then project points onto the screen
+ 
+
+243
+00:05:23,160 --> 00:05:25,790
+then project points onto the screen
+along lines through the origin the
+
+244
+00:05:25,790 --> 00:05:25,800
+along lines through the origin the
+ 
+
+245
+00:05:25,800 --> 00:05:28,010
+along lines through the origin the
+screen ends up being the real projective
+
+246
+00:05:28,010 --> 00:05:28,020
+screen ends up being the real projective
+ 
+
+247
+00:05:28,020 --> 00:05:30,529
+screen ends up being the real projective
+plane rp2
+
+248
+00:05:30,529 --> 00:05:30,539
+plane rp2
+ 
+
+249
+00:05:30,539 --> 00:05:32,689
+plane rp2
+if we take a sphere centered at the
+
+250
+00:05:32,689 --> 00:05:32,699
+if we take a sphere centered at the
+ 
+
+251
+00:05:32,699 --> 00:05:35,390
+if we take a sphere centered at the
+origin and project its points onto the
+
+252
+00:05:35,390 --> 00:05:35,400
+origin and project its points onto the
+ 
+
+253
+00:05:35,400 --> 00:05:37,909
+origin and project its points onto the
+plane we find that opposite points on
+
+254
+00:05:37,909 --> 00:05:37,919
+plane we find that opposite points on
+ 
+
+255
+00:05:37,919 --> 00:05:39,830
+plane we find that opposite points on
+the sphere exist on the same line
+
+256
+00:05:39,830 --> 00:05:39,840
+the sphere exist on the same line
+ 
+
+257
+00:05:39,840 --> 00:05:41,990
+the sphere exist on the same line
+through the origin and so they get
+
+258
+00:05:41,990 --> 00:05:42,000
+through the origin and so they get
+ 
+
+259
+00:05:42,000 --> 00:05:44,090
+through the origin and so they get
+projected to the same point on the real
+
+260
+00:05:44,090 --> 00:05:44,100
+projected to the same point on the real
+ 
+
+261
+00:05:44,100 --> 00:05:46,189
+projected to the same point on the real
+projective plane
+
+262
+00:05:46,189 --> 00:05:46,199
+projective plane
+ 
+
+263
+00:05:46,199 --> 00:05:48,110
+projective plane
+so for every point on the real
+
+264
+00:05:48,110 --> 00:05:48,120
+so for every point on the real
+ 
+
+265
+00:05:48,120 --> 00:05:50,629
+so for every point on the real
+projective plane there are a pair of
+
+266
+00:05:50,629 --> 00:05:50,639
+projective plane there are a pair of
+ 
+
+267
+00:05:50,639 --> 00:05:52,550
+projective plane there are a pair of
+points on the two sphere that get
+
+268
+00:05:52,550 --> 00:05:52,560
+points on the two sphere that get
+ 
+
+269
+00:05:52,560 --> 00:05:55,550
+points on the two sphere that get
+projected to it and so we say that the
+
+270
+00:05:55,550 --> 00:05:55,560
+projected to it and so we say that the
+ 
+
+271
+00:05:55,560 --> 00:05:59,330
+projected to it and so we say that the
+two sphere is the double cover of rp2
+
+272
+00:05:59,330 --> 00:05:59,340
+two sphere is the double cover of rp2
+ 
+
+273
+00:05:59,340 --> 00:06:01,670
+two sphere is the double cover of rp2
+the real projective plane can be thought
+
+274
+00:06:01,670 --> 00:06:01,680
+the real projective plane can be thought
+ 
+
+275
+00:06:01,680 --> 00:06:04,850
+the real projective plane can be thought
+of like a half sphere where walking off
+
+276
+00:06:04,850 --> 00:06:04,860
+of like a half sphere where walking off
+ 
+
+277
+00:06:04,860 --> 00:06:07,010
+of like a half sphere where walking off
+the edge immediately teleports you to
+
+278
+00:06:07,010 --> 00:06:07,020
+the edge immediately teleports you to
+ 
+
+279
+00:06:07,020 --> 00:06:09,290
+the edge immediately teleports you to
+the opposite Edge
+
+280
+00:06:09,290 --> 00:06:09,300
+the opposite Edge
+ 
+
+281
+00:06:09,300 --> 00:06:11,810
+the opposite Edge
+points in the real projective plane can
+
+282
+00:06:11,810 --> 00:06:11,820
+points in the real projective plane can
+ 
+
+283
+00:06:11,820 --> 00:06:15,230
+points in the real projective plane can
+be described by a pair of ratios y over
+
+284
+00:06:15,230 --> 00:06:15,240
+be described by a pair of ratios y over
+ 
+
+285
+00:06:15,240 --> 00:06:18,469
+be described by a pair of ratios y over
+x and z over X any points in
+
+286
+00:06:18,469 --> 00:06:18,479
+x and z over X any points in
+ 
+
+287
+00:06:18,479 --> 00:06:20,870
+x and z over X any points in
+three-dimensional space with these same
+
+288
+00:06:20,870 --> 00:06:20,880
+three-dimensional space with these same
+ 
+
+289
+00:06:20,880 --> 00:06:23,450
+three-dimensional space with these same
+ratios will exist along the same line
+
+290
+00:06:23,450 --> 00:06:23,460
+ratios will exist along the same line
+ 
+
+291
+00:06:23,460 --> 00:06:25,790
+ratios will exist along the same line
+through the origin and so they will get
+
+292
+00:06:25,790 --> 00:06:25,800
+through the origin and so they will get
+ 
+
+293
+00:06:25,800 --> 00:06:28,070
+through the origin and so they will get
+projected to the same point on the real
+
+294
+00:06:28,070 --> 00:06:28,080
+projected to the same point on the real
+ 
+
+295
+00:06:28,080 --> 00:06:30,590
+projected to the same point on the real
+projective plane
+
+296
+00:06:30,590 --> 00:06:30,600
+projective plane
+ 
+
+297
+00:06:30,600 --> 00:06:32,870
+projective plane
+this pattern continues in the next
+
+298
+00:06:32,870 --> 00:06:32,880
+this pattern continues in the next
+ 
+
+299
+00:06:32,880 --> 00:06:35,930
+this pattern continues in the next
+Dimension with the three sphere which is
+
+300
+00:06:35,930 --> 00:06:35,940
+Dimension with the three sphere which is
+ 
+
+301
+00:06:35,940 --> 00:06:37,969
+Dimension with the three sphere which is
+too high dimensional for us to visualize
+
+302
+00:06:37,969 --> 00:06:37,979
+too high dimensional for us to visualize
+ 
+
+303
+00:06:37,979 --> 00:06:41,510
+too high dimensional for us to visualize
+but we can describe it with an equation
+
+304
+00:06:41,510 --> 00:06:41,520
+but we can describe it with an equation
+ 
+
+305
+00:06:41,520 --> 00:06:45,529
+but we can describe it with an equation
+the real projective three space rp3 is
+
+306
+00:06:45,529 --> 00:06:45,539
+the real projective three space rp3 is
+ 
+
+307
+00:06:45,539 --> 00:06:47,450
+the real projective three space rp3 is
+also too high dimensional for us to
+
+308
+00:06:47,450 --> 00:06:47,460
+also too high dimensional for us to
+ 
+
+309
+00:06:47,460 --> 00:06:50,330
+also too high dimensional for us to
+visualize however we can think of it as
+
+310
+00:06:50,330 --> 00:06:50,340
+visualize however we can think of it as
+ 
+
+311
+00:06:50,340 --> 00:06:52,610
+visualize however we can think of it as
+the three sphere with opposite points
+
+312
+00:06:52,610 --> 00:06:52,620
+the three sphere with opposite points
+ 
+
+313
+00:06:52,620 --> 00:06:54,770
+the three sphere with opposite points
+projected to the same point in
+
+314
+00:06:54,770 --> 00:06:54,780
+projected to the same point in
+ 
+
+315
+00:06:54,780 --> 00:06:57,050
+projected to the same point in
+three-dimensional space
+
+316
+00:06:57,050 --> 00:06:57,060
+three-dimensional space
+ 
+
+317
+00:06:57,060 --> 00:06:59,270
+three-dimensional space
+points in real projective three space
+
+318
+00:06:59,270 --> 00:06:59,280
+points in real projective three space
+ 
+
+319
+00:06:59,280 --> 00:07:02,930
+points in real projective three space
+can be described by three ratios y over
+
+320
+00:07:02,930 --> 00:07:02,940
+can be described by three ratios y over
+ 
+
+321
+00:07:02,940 --> 00:07:06,409
+can be described by three ratios y over
+X Z over X and W over X
+
+322
+00:07:06,409 --> 00:07:06,419
+X Z over X and W over X
+ 
+
+323
+00:07:06,419 --> 00:07:08,749
+X Z over X and W over X
+any points in four-dimensional space
+
+324
+00:07:08,749 --> 00:07:08,759
+any points in four-dimensional space
+ 
+
+325
+00:07:08,759 --> 00:07:11,809
+any points in four-dimensional space
+that have the same three ratios will
+
+326
+00:07:11,809 --> 00:07:11,819
+that have the same three ratios will
+ 
+
+327
+00:07:11,819 --> 00:07:13,850
+that have the same three ratios will
+exist along the same line through the
+
+328
+00:07:13,850 --> 00:07:13,860
+exist along the same line through the
+ 
+
+329
+00:07:13,860 --> 00:07:16,370
+exist along the same line through the
+origin and so they will get projected to
+
+330
+00:07:16,370 --> 00:07:16,380
+origin and so they will get projected to
+ 
+
+331
+00:07:16,380 --> 00:07:18,469
+origin and so they will get projected to
+the same point in real projective three
+
+332
+00:07:18,469 --> 00:07:18,479
+the same point in real projective three
+ 
+
+333
+00:07:18,479 --> 00:07:20,469
+the same point in real projective three
+space
+
+334
+00:07:20,469 --> 00:07:20,479
+space
+ 
+
+335
+00:07:20,479 --> 00:07:23,749
+space
+rp3 can be thought of as half of a three
+
+336
+00:07:23,749 --> 00:07:23,759
+rp3 can be thought of as half of a three
+ 
+
+337
+00:07:23,759 --> 00:07:26,749
+rp3 can be thought of as half of a three
+sphere where if we walk off the edge we
+
+338
+00:07:26,749 --> 00:07:26,759
+sphere where if we walk off the edge we
+ 
+
+339
+00:07:26,759 --> 00:07:28,430
+sphere where if we walk off the edge we
+get immediately teleported to the other
+
+340
+00:07:28,430 --> 00:07:28,440
+get immediately teleported to the other
+ 
+
+341
+00:07:28,440 --> 00:07:29,990
+get immediately teleported to the other
+side
+
+342
+00:07:29,990 --> 00:07:30,000
+side
+ 
+
+343
+00:07:30,000 --> 00:07:32,510
+side
+so what does this have to do with su2
+
+344
+00:07:32,510 --> 00:07:32,520
+so what does this have to do with su2
+ 
+
+345
+00:07:32,520 --> 00:07:35,330
+so what does this have to do with su2
+matrices being the double cover of SO3
+
+346
+00:07:35,330 --> 00:07:35,340
+matrices being the double cover of SO3
+ 
+
+347
+00:07:35,340 --> 00:07:36,710
+matrices being the double cover of SO3
+matrices
+
+348
+00:07:36,710 --> 00:07:36,720
+matrices
+ 
+
+349
+00:07:36,720 --> 00:07:39,650
+matrices
+well it turns out that su2 is shaped
+
+350
+00:07:39,650 --> 00:07:39,660
+well it turns out that su2 is shaped
+ 
+
+351
+00:07:39,660 --> 00:07:42,950
+well it turns out that su2 is shaped
+like the three sphere and SO3 is shaped
+
+352
+00:07:42,950 --> 00:07:42,960
+like the three sphere and SO3 is shaped
+ 
+
+353
+00:07:42,960 --> 00:07:45,770
+like the three sphere and SO3 is shaped
+like the real projective three space
+
+354
+00:07:45,770 --> 00:07:45,780
+like the real projective three space
+ 
+
+355
+00:07:45,780 --> 00:07:49,070
+like the real projective three space
+we'll show this starting with su2 let's
+
+356
+00:07:49,070 --> 00:07:49,080
+we'll show this starting with su2 let's
+ 
+
+357
+00:07:49,080 --> 00:07:51,770
+we'll show this starting with su2 let's
+take a 2x2 matrix with complex entries
+
+358
+00:07:51,770 --> 00:07:51,780
+take a 2x2 matrix with complex entries
+ 
+
+359
+00:07:51,780 --> 00:07:54,110
+take a 2x2 matrix with complex entries
+Alpha Beta Gamma Delta
+
+360
+00:07:54,110 --> 00:07:54,120
+Alpha Beta Gamma Delta
+ 
+
+361
+00:07:54,120 --> 00:07:57,050
+Alpha Beta Gamma Delta
+if this Matrix is unitary it means the
+
+362
+00:07:57,050 --> 00:07:57,060
+if this Matrix is unitary it means the
+ 
+
+363
+00:07:57,060 --> 00:07:59,330
+if this Matrix is unitary it means the
+Matrix is hermitian conjugate is equal
+
+364
+00:07:59,330 --> 00:07:59,340
+Matrix is hermitian conjugate is equal
+ 
+
+365
+00:07:59,340 --> 00:08:01,249
+Matrix is hermitian conjugate is equal
+to its inverse
+
+366
+00:08:01,249 --> 00:08:01,259
+to its inverse
+ 
+
+367
+00:08:01,259 --> 00:08:03,710
+to its inverse
+taking the hermitian conjugate is easy
+
+368
+00:08:03,710 --> 00:08:03,720
+taking the hermitian conjugate is easy
+ 
+
+369
+00:08:03,720 --> 00:08:05,990
+taking the hermitian conjugate is easy
+it's just the complex conjugate
+
+370
+00:08:05,990 --> 00:08:06,000
+it's just the complex conjugate
+ 
+
+371
+00:08:06,000 --> 00:08:08,629
+it's just the complex conjugate
+transpose and the formula for the
+
+372
+00:08:08,629 --> 00:08:08,639
+transpose and the formula for the
+ 
+
+373
+00:08:08,639 --> 00:08:10,969
+transpose and the formula for the
+inverse of a two by two Matrix is well
+
+374
+00:08:10,969 --> 00:08:10,979
+inverse of a two by two Matrix is well
+ 
+
+375
+00:08:10,979 --> 00:08:11,870
+inverse of a two by two Matrix is well
+known
+
+376
+00:08:11,870 --> 00:08:11,880
+known
+ 
+
+377
+00:08:11,880 --> 00:08:14,749
+known
+if the Matrix is special this means the
+
+378
+00:08:14,749 --> 00:08:14,759
+if the Matrix is special this means the
+ 
+
+379
+00:08:14,759 --> 00:08:17,629
+if the Matrix is special this means the
+determinant equals plus one and so we
+
+380
+00:08:17,629 --> 00:08:17,639
+determinant equals plus one and so we
+ 
+
+381
+00:08:17,639 --> 00:08:19,249
+determinant equals plus one and so we
+can take the determinant part of the
+
+382
+00:08:19,249 --> 00:08:19,259
+can take the determinant part of the
+ 
+
+383
+00:08:19,259 --> 00:08:22,189
+can take the determinant part of the
+formula and set it to plus one
+
+384
+00:08:22,189 --> 00:08:22,199
+formula and set it to plus one
+ 
+
+385
+00:08:22,199 --> 00:08:24,710
+formula and set it to plus one
+so for special unitary two by two
+
+386
+00:08:24,710 --> 00:08:24,720
+so for special unitary two by two
+ 
+
+387
+00:08:24,720 --> 00:08:27,409
+so for special unitary two by two
+matrices we end up with gamma equals
+
+388
+00:08:27,409 --> 00:08:27,419
+matrices we end up with gamma equals
+ 
+
+389
+00:08:27,419 --> 00:08:29,990
+matrices we end up with gamma equals
+negative beta complex conjugate and
+
+390
+00:08:29,990 --> 00:08:30,000
+negative beta complex conjugate and
+ 
+
+391
+00:08:30,000 --> 00:08:33,230
+negative beta complex conjugate and
+Delta equals Alpha complex conjugate
+
+392
+00:08:33,230 --> 00:08:33,240
+Delta equals Alpha complex conjugate
+ 
+
+393
+00:08:33,240 --> 00:08:35,750
+Delta equals Alpha complex conjugate
+so this is the form of an su2 Matrix
+
+394
+00:08:35,750 --> 00:08:35,760
+so this is the form of an su2 Matrix
+ 
+
+395
+00:08:35,760 --> 00:08:38,930
+so this is the form of an su2 Matrix
+defined by two complex numbers Alpha and
+
+396
+00:08:38,930 --> 00:08:38,940
+defined by two complex numbers Alpha and
+ 
+
+397
+00:08:38,940 --> 00:08:40,310
+defined by two complex numbers Alpha and
+beta
+
+398
+00:08:40,310 --> 00:08:40,320
+beta
+ 
+
+399
+00:08:40,320 --> 00:08:42,889
+beta
+but remember the determinant equals plus
+
+400
+00:08:42,889 --> 00:08:42,899
+but remember the determinant equals plus
+ 
+
+401
+00:08:42,899 --> 00:08:46,610
+but remember the determinant equals plus
+one so alpha alpha Star Plus beta beta
+
+402
+00:08:46,610 --> 00:08:46,620
+one so alpha alpha Star Plus beta beta
+ 
+
+403
+00:08:46,620 --> 00:08:48,710
+one so alpha alpha Star Plus beta beta
+star must equal one
+
+404
+00:08:48,710 --> 00:08:48,720
+star must equal one
+ 
+
+405
+00:08:48,720 --> 00:08:51,110
+star must equal one
+if we replace Alpha with the complex
+
+406
+00:08:51,110 --> 00:08:51,120
+if we replace Alpha with the complex
+ 
+
+407
+00:08:51,120 --> 00:08:54,530
+if we replace Alpha with the complex
+number A plus b i and replace beta with
+
+408
+00:08:54,530 --> 00:08:54,540
+number A plus b i and replace beta with
+ 
+
+409
+00:08:54,540 --> 00:08:57,470
+number A plus b i and replace beta with
+the complex number c plus d i and
+
+410
+00:08:57,470 --> 00:08:57,480
+the complex number c plus d i and
+ 
+
+411
+00:08:57,480 --> 00:09:00,170
+the complex number c plus d i and
+distribute we end up with the formula a
+
+412
+00:09:00,170 --> 00:09:00,180
+distribute we end up with the formula a
+ 
+
+413
+00:09:00,180 --> 00:09:02,269
+distribute we end up with the formula a
+squared plus b squared plus c squared
+
+414
+00:09:02,269 --> 00:09:02,279
+squared plus b squared plus c squared
+ 
+
+415
+00:09:02,279 --> 00:09:04,790
+squared plus b squared plus c squared
+plus d squared equals one
+
+416
+00:09:04,790 --> 00:09:04,800
+plus d squared equals one
+ 
+
+417
+00:09:04,800 --> 00:09:08,090
+plus d squared equals one
+if we think of a b c and d as coordinate
+
+418
+00:09:08,090 --> 00:09:08,100
+if we think of a b c and d as coordinate
+ 
+
+419
+00:09:08,100 --> 00:09:10,910
+if we think of a b c and d as coordinate
+variables in four-dimensional space this
+
+420
+00:09:10,910 --> 00:09:10,920
+variables in four-dimensional space this
+ 
+
+421
+00:09:10,920 --> 00:09:12,949
+variables in four-dimensional space this
+is the equation for a three-dimensional
+
+422
+00:09:12,949 --> 00:09:12,959
+is the equation for a three-dimensional
+ 
+
+423
+00:09:12,959 --> 00:09:13,970
+is the equation for a three-dimensional
+sphere
+
+424
+00:09:13,970 --> 00:09:13,980
+sphere
+ 
+
+425
+00:09:13,980 --> 00:09:17,210
+sphere
+there are three free parameters once we
+
+426
+00:09:17,210 --> 00:09:17,220
+there are three free parameters once we
+ 
+
+427
+00:09:17,220 --> 00:09:20,090
+there are three free parameters once we
+specify a b and c then D is
+
+428
+00:09:20,090 --> 00:09:20,100
+specify a b and c then D is
+ 
+
+429
+00:09:20,100 --> 00:09:23,090
+specify a b and c then D is
+automatically determined by the equation
+
+430
+00:09:23,090 --> 00:09:23,100
+automatically determined by the equation
+ 
+
+431
+00:09:23,100 --> 00:09:25,009
+automatically determined by the equation
+so the three sphere is a
+
+432
+00:09:25,009 --> 00:09:25,019
+so the three sphere is a
+ 
+
+433
+00:09:25,019 --> 00:09:27,769
+so the three sphere is a
+three-dimensional Space parameterized by
+
+434
+00:09:27,769 --> 00:09:27,779
+three-dimensional Space parameterized by
+ 
+
+435
+00:09:27,779 --> 00:09:30,889
+three-dimensional Space parameterized by
+three coordinates this makes sense since
+
+436
+00:09:30,889 --> 00:09:30,899
+three coordinates this makes sense since
+ 
+
+437
+00:09:30,899 --> 00:09:33,590
+three coordinates this makes sense since
+su2 is the space of three possible
+
+438
+00:09:33,590 --> 00:09:33,600
+su2 is the space of three possible
+ 
+
+439
+00:09:33,600 --> 00:09:37,490
+su2 is the space of three possible
+rotations in the X Y plane the y z plane
+
+440
+00:09:37,490 --> 00:09:37,500
+rotations in the X Y plane the y z plane
+ 
+
+441
+00:09:37,500 --> 00:09:39,949
+rotations in the X Y plane the y z plane
+and the ZX plane
+
+442
+00:09:39,949 --> 00:09:39,959
+and the ZX plane
+ 
+
+443
+00:09:39,959 --> 00:09:42,949
+and the ZX plane
+now recall I said that when it comes to
+
+444
+00:09:42,949 --> 00:09:42,959
+now recall I said that when it comes to
+ 
+
+445
+00:09:42,959 --> 00:09:45,829
+now recall I said that when it comes to
+double-sided Transformations the su2
+
+446
+00:09:45,829 --> 00:09:45,839
+double-sided Transformations the su2
+ 
+
+447
+00:09:45,839 --> 00:09:49,490
+double-sided Transformations the su2
+matrices plus u and minus U will do the
+
+448
+00:09:49,490 --> 00:09:49,500
+matrices plus u and minus U will do the
+ 
+
+449
+00:09:49,500 --> 00:09:52,130
+matrices plus u and minus U will do the
+same rotation because the negative signs
+
+450
+00:09:52,130 --> 00:09:52,140
+same rotation because the negative signs
+ 
+
+451
+00:09:52,140 --> 00:09:54,530
+same rotation because the negative signs
+will always cancel out in a double-sided
+
+452
+00:09:54,530 --> 00:09:54,540
+will always cancel out in a double-sided
+ 
+
+453
+00:09:54,540 --> 00:09:56,210
+will always cancel out in a double-sided
+transformation
+
+454
+00:09:56,210 --> 00:09:56,220
+transformation
+ 
+
+455
+00:09:56,220 --> 00:09:58,970
+transformation
+so if we think of our three sphere the
+
+456
+00:09:58,970 --> 00:09:58,980
+so if we think of our three sphere the
+ 
+
+457
+00:09:58,980 --> 00:10:02,269
+so if we think of our three sphere the
+matrices plus u and minus U would be on
+
+458
+00:10:02,269 --> 00:10:02,279
+matrices plus u and minus U would be on
+ 
+
+459
+00:10:02,279 --> 00:10:04,670
+matrices plus u and minus U would be on
+opposite sides and they perform the
+
+460
+00:10:04,670 --> 00:10:04,680
+opposite sides and they perform the
+ 
+
+461
+00:10:04,680 --> 00:10:06,949
+opposite sides and they perform the
+exact same rotation
+
+462
+00:10:06,949 --> 00:10:06,959
+exact same rotation
+ 
+
+463
+00:10:06,959 --> 00:10:09,769
+exact same rotation
+if we can imagine projecting plus u and
+
+464
+00:10:09,769 --> 00:10:09,779
+if we can imagine projecting plus u and
+ 
+
+465
+00:10:09,779 --> 00:10:12,350
+if we can imagine projecting plus u and
+minus U along the same line through the
+
+466
+00:10:12,350 --> 00:10:12,360
+minus U along the same line through the
+ 
+
+467
+00:10:12,360 --> 00:10:15,650
+minus U along the same line through the
+origin onto a screen the result would be
+
+468
+00:10:15,650 --> 00:10:15,660
+origin onto a screen the result would be
+ 
+
+469
+00:10:15,660 --> 00:10:18,310
+origin onto a screen the result would be
+a point in real projective three space
+
+470
+00:10:18,310 --> 00:10:18,320
+a point in real projective three space
+ 
+
+471
+00:10:18,320 --> 00:10:21,170
+a point in real projective three space
+rp3 which is when we have a
+
+472
+00:10:21,170 --> 00:10:21,180
+rp3 which is when we have a
+ 
+
+473
+00:10:21,180 --> 00:10:23,090
+rp3 which is when we have a
+three-dimensional screen living in
+
+474
+00:10:23,090 --> 00:10:23,100
+three-dimensional screen living in
+ 
+
+475
+00:10:23,100 --> 00:10:25,250
+three-dimensional screen living in
+four-dimensional space
+
+476
+00:10:25,250 --> 00:10:25,260
+four-dimensional space
+ 
+
+477
+00:10:25,260 --> 00:10:28,009
+four-dimensional space
+this point corresponds to the SO3
+
+478
+00:10:28,009 --> 00:10:28,019
+this point corresponds to the SO3
+ 
+
+479
+00:10:28,019 --> 00:10:30,889
+this point corresponds to the SO3
+rotation Matrix R which does the same
+
+480
+00:10:30,889 --> 00:10:30,899
+rotation Matrix R which does the same
+ 
+
+481
+00:10:30,899 --> 00:10:34,430
+rotation Matrix R which does the same
+rotation as both plus u and minus U
+
+482
+00:10:34,430 --> 00:10:34,440
+rotation as both plus u and minus U
+ 
+
+483
+00:10:34,440 --> 00:10:37,970
+rotation as both plus u and minus U
+remember there are two su-2 matrices for
+
+484
+00:10:37,970 --> 00:10:37,980
+remember there are two su-2 matrices for
+ 
+
+485
+00:10:37,980 --> 00:10:40,430
+remember there are two su-2 matrices for
+every SO3 Matrix that performs the same
+
+486
+00:10:40,430 --> 00:10:40,440
+every SO3 Matrix that performs the same
+ 
+
+487
+00:10:40,440 --> 00:10:43,970
+every SO3 Matrix that performs the same
+rotation both plus u and minus U perform
+
+488
+00:10:43,970 --> 00:10:43,980
+rotation both plus u and minus U perform
+ 
+
+489
+00:10:43,980 --> 00:10:46,430
+rotation both plus u and minus U perform
+the same rotation as r
+
+490
+00:10:46,430 --> 00:10:46,440
+the same rotation as r
+ 
+
+491
+00:10:46,440 --> 00:10:49,250
+the same rotation as r
+the SO3 group is what we get when we
+
+492
+00:10:49,250 --> 00:10:49,260
+the SO3 group is what we get when we
+ 
+
+493
+00:10:49,260 --> 00:10:50,750
+the SO3 group is what we get when we
+simply forget about the differences
+
+494
+00:10:50,750 --> 00:10:50,760
+simply forget about the differences
+ 
+
+495
+00:10:50,760 --> 00:10:53,750
+simply forget about the differences
+between plus u and minus U and treat
+
+496
+00:10:53,750 --> 00:10:53,760
+between plus u and minus U and treat
+ 
+
+497
+00:10:53,760 --> 00:10:56,269
+between plus u and minus U and treat
+them as the same rotation r
+
+498
+00:10:56,269 --> 00:10:56,279
+them as the same rotation r
+ 
+
+499
+00:10:56,279 --> 00:10:59,449
+them as the same rotation r
+this is why SO3 has the shape of real
+
+500
+00:10:59,449 --> 00:10:59,459
+this is why SO3 has the shape of real
+ 
+
+501
+00:10:59,459 --> 00:11:02,690
+this is why SO3 has the shape of real
+projective three space
+
+502
+00:11:02,690 --> 00:11:02,700
+projective three space
+ 
+
+503
+00:11:02,700 --> 00:11:05,210
+projective three space
+this brings up a key difference between
+
+504
+00:11:05,210 --> 00:11:05,220
+this brings up a key difference between
+ 
+
+505
+00:11:05,220 --> 00:11:10,130
+this brings up a key difference between
+the topologies of su2 and SO3 su2 has
+
+506
+00:11:10,130 --> 00:11:10,140
+the topologies of su2 and SO3 su2 has
+ 
+
+507
+00:11:10,140 --> 00:11:12,230
+the topologies of su2 and SO3 su2 has
+the property of being a Simply Connected
+
+508
+00:11:12,230 --> 00:11:12,240
+the property of being a Simply Connected
+ 
+
+509
+00:11:12,240 --> 00:11:15,829
+the property of being a Simply Connected
+space whereas SO3 is not a Simply
+
+510
+00:11:15,829 --> 00:11:15,839
+space whereas SO3 is not a Simply
+ 
+
+511
+00:11:15,839 --> 00:11:18,410
+space whereas SO3 is not a Simply
+Connected space I'll explain what this
+
+512
+00:11:18,410 --> 00:11:18,420
+Connected space I'll explain what this
+ 
+
+513
+00:11:18,420 --> 00:11:19,910
+Connected space I'll explain what this
+means
+
+514
+00:11:19,910 --> 00:11:19,920
+means
+ 
+
+515
+00:11:19,920 --> 00:11:22,310
+means
+Loosely speaking a space is Simply
+
+516
+00:11:22,310 --> 00:11:22,320
+Loosely speaking a space is Simply
+ 
+
+517
+00:11:22,320 --> 00:11:25,970
+Loosely speaking a space is Simply
+Connected if it has no holes or handles
+
+518
+00:11:25,970 --> 00:11:25,980
+Connected if it has no holes or handles
+ 
+
+519
+00:11:25,980 --> 00:11:28,490
+Connected if it has no holes or handles
+one way to test if a space is Simply
+
+520
+00:11:28,490 --> 00:11:28,500
+one way to test if a space is Simply
+ 
+
+521
+00:11:28,500 --> 00:11:31,490
+one way to test if a space is Simply
+Connected is to draw a loop starting and
+
+522
+00:11:31,490 --> 00:11:31,500
+Connected is to draw a loop starting and
+ 
+
+523
+00:11:31,500 --> 00:11:34,370
+Connected is to draw a loop starting and
+ending at the same base point then check
+
+524
+00:11:34,370 --> 00:11:34,380
+ending at the same base point then check
+ 
+
+525
+00:11:34,380 --> 00:11:36,769
+ending at the same base point then check
+if we can continuously shrink the loop
+
+526
+00:11:36,769 --> 00:11:36,779
+if we can continuously shrink the loop
+ 
+
+527
+00:11:36,779 --> 00:11:39,590
+if we can continuously shrink the loop
+to a single point at the base point
+
+528
+00:11:39,590 --> 00:11:39,600
+to a single point at the base point
+ 
+
+529
+00:11:39,600 --> 00:11:42,889
+to a single point at the base point
+if all such Loops can be contracted the
+
+530
+00:11:42,889 --> 00:11:42,899
+if all such Loops can be contracted the
+ 
+
+531
+00:11:42,899 --> 00:11:45,050
+if all such Loops can be contracted the
+space is Simply Connected
+
+532
+00:11:45,050 --> 00:11:45,060
+space is Simply Connected
+ 
+
+533
+00:11:45,060 --> 00:11:48,230
+space is Simply Connected
+if the space has holes or handles we
+
+534
+00:11:48,230 --> 00:11:48,240
+if the space has holes or handles we
+ 
+
+535
+00:11:48,240 --> 00:11:50,509
+if the space has holes or handles we
+will be able to draw Loops that cannot
+
+536
+00:11:50,509 --> 00:11:50,519
+will be able to draw Loops that cannot
+ 
+
+537
+00:11:50,519 --> 00:11:54,050
+will be able to draw Loops that cannot
+be continuously shrunk to a single point
+
+538
+00:11:54,050 --> 00:11:54,060
+be continuously shrunk to a single point
+ 
+
+539
+00:11:54,060 --> 00:11:56,750
+be continuously shrunk to a single point
+all spheres with Dimension equal to or
+
+540
+00:11:56,750 --> 00:11:56,760
+all spheres with Dimension equal to or
+ 
+
+541
+00:11:56,760 --> 00:11:59,930
+all spheres with Dimension equal to or
+greater than two are Simply Connected
+
+542
+00:11:59,930 --> 00:11:59,940
+greater than two are Simply Connected
+ 
+
+543
+00:11:59,940 --> 00:12:02,210
+greater than two are Simply Connected
+it should be obvious on the two sphere
+
+544
+00:12:02,210 --> 00:12:02,220
+it should be obvious on the two sphere
+ 
+
+545
+00:12:02,220 --> 00:12:05,150
+it should be obvious on the two sphere
+that any Loop we draw can be contracted
+
+546
+00:12:05,150 --> 00:12:05,160
+that any Loop we draw can be contracted
+ 
+
+547
+00:12:05,160 --> 00:12:06,530
+that any Loop we draw can be contracted
+to a point
+
+548
+00:12:06,530 --> 00:12:06,540
+to a point
+ 
+
+549
+00:12:06,540 --> 00:12:08,690
+to a point
+the same is true for the three sphere
+
+550
+00:12:08,690 --> 00:12:08,700
+the same is true for the three sphere
+ 
+
+551
+00:12:08,700 --> 00:12:11,930
+the same is true for the three sphere
+and all higher dimensional spheres
+
+552
+00:12:11,930 --> 00:12:11,940
+and all higher dimensional spheres
+ 
+
+553
+00:12:11,940 --> 00:12:14,389
+and all higher dimensional spheres
+the exception is the one sphere or
+
+554
+00:12:14,389 --> 00:12:14,399
+the exception is the one sphere or
+ 
+
+555
+00:12:14,399 --> 00:12:18,110
+the exception is the one sphere or
+Circle which is not Simply Connected
+
+556
+00:12:18,110 --> 00:12:18,120
+Circle which is not Simply Connected
+ 
+
+557
+00:12:18,120 --> 00:12:19,910
+Circle which is not Simply Connected
+since the three sphere is Simply
+
+558
+00:12:19,910 --> 00:12:19,920
+since the three sphere is Simply
+ 
+
+559
+00:12:19,920 --> 00:12:22,250
+since the three sphere is Simply
+Connected this means that the space of
+
+560
+00:12:22,250 --> 00:12:22,260
+Connected this means that the space of
+ 
+
+561
+00:12:22,260 --> 00:12:26,870
+Connected this means that the space of
+su2 matrices or unit quaternions is also
+
+562
+00:12:26,870 --> 00:12:26,880
+su2 matrices or unit quaternions is also
+ 
+
+563
+00:12:26,880 --> 00:12:29,030
+su2 matrices or unit quaternions is also
+Simply Connected
+
+564
+00:12:29,030 --> 00:12:29,040
+Simply Connected
+ 
+
+565
+00:12:29,040 --> 00:12:31,910
+Simply Connected
+real projective spaces are not Simply
+
+566
+00:12:31,910 --> 00:12:31,920
+real projective spaces are not Simply
+ 
+
+567
+00:12:31,920 --> 00:12:34,370
+real projective spaces are not Simply
+Connected for example the real
+
+568
+00:12:34,370 --> 00:12:34,380
+Connected for example the real
+ 
+
+569
+00:12:34,380 --> 00:12:38,030
+Connected for example the real
+projective plane rp2 is a sphere with
+
+570
+00:12:38,030 --> 00:12:38,040
+projective plane rp2 is a sphere with
+ 
+
+571
+00:12:38,040 --> 00:12:40,910
+projective plane rp2 is a sphere with
+opposite points made equivalent if we
+
+572
+00:12:40,910 --> 00:12:40,920
+opposite points made equivalent if we
+ 
+
+573
+00:12:40,920 --> 00:12:43,370
+opposite points made equivalent if we
+have a loop like this that we try to
+
+574
+00:12:43,370 --> 00:12:43,380
+have a loop like this that we try to
+ 
+
+575
+00:12:43,380 --> 00:12:46,129
+have a loop like this that we try to
+contract if we contract part of the loop
+
+576
+00:12:46,129 --> 00:12:46,139
+contract if we contract part of the loop
+ 
+
+577
+00:12:46,139 --> 00:12:48,530
+contract if we contract part of the loop
+the opposite end of the loop will run
+
+578
+00:12:48,530 --> 00:12:48,540
+the opposite end of the loop will run
+ 
+
+579
+00:12:48,540 --> 00:12:51,110
+the opposite end of the loop will run
+away in the opposite direction because
+
+580
+00:12:51,110 --> 00:12:51,120
+away in the opposite direction because
+ 
+
+581
+00:12:51,120 --> 00:12:53,269
+away in the opposite direction because
+opposite points on the sphere are
+
+582
+00:12:53,269 --> 00:12:53,279
+opposite points on the sphere are
+ 
+
+583
+00:12:53,279 --> 00:12:56,210
+opposite points on the sphere are
+equivalent therefore Loops like this
+
+584
+00:12:56,210 --> 00:12:56,220
+equivalent therefore Loops like this
+ 
+
+585
+00:12:56,220 --> 00:12:59,509
+equivalent therefore Loops like this
+cannot be continuously shrunk to a point
+
+586
+00:12:59,509 --> 00:12:59,519
+cannot be continuously shrunk to a point
+ 
+
+587
+00:12:59,519 --> 00:13:01,850
+cannot be continuously shrunk to a point
+the same is true for real projective
+
+588
+00:13:01,850 --> 00:13:01,860
+the same is true for real projective
+ 
+
+589
+00:13:01,860 --> 00:13:05,389
+the same is true for real projective
+space rp3 which is the space of SO3
+
+590
+00:13:05,389 --> 00:13:05,399
+space rp3 which is the space of SO3
+ 
+
+591
+00:13:05,399 --> 00:13:06,769
+space rp3 which is the space of SO3
+matrices
+
+592
+00:13:06,769 --> 00:13:06,779
+matrices
+ 
+
+593
+00:13:06,779 --> 00:13:09,829
+matrices
+so the space of SO3 matrices is not
+
+594
+00:13:09,829 --> 00:13:09,839
+so the space of SO3 matrices is not
+ 
+
+595
+00:13:09,839 --> 00:13:11,810
+so the space of SO3 matrices is not
+Simply Connected
+
+596
+00:13:11,810 --> 00:13:11,820
+Simply Connected
+ 
+
+597
+00:13:11,820 --> 00:13:14,990
+Simply Connected
+the topology of spaces of rotations can
+
+598
+00:13:14,990 --> 00:13:15,000
+the topology of spaces of rotations can
+ 
+
+599
+00:13:15,000 --> 00:13:17,569
+the topology of spaces of rotations can
+be useful to think about for example
+
+600
+00:13:17,569 --> 00:13:17,579
+be useful to think about for example
+ 
+
+601
+00:13:17,579 --> 00:13:20,629
+be useful to think about for example
+it's common to think of rotations in 3D
+
+602
+00:13:20,629 --> 00:13:20,639
+it's common to think of rotations in 3D
+ 
+
+603
+00:13:20,639 --> 00:13:23,629
+it's common to think of rotations in 3D
+space as a combination of three rotation
+
+604
+00:13:23,629 --> 00:13:23,639
+space as a combination of three rotation
+ 
+
+605
+00:13:23,639 --> 00:13:27,650
+space as a combination of three rotation
+angles one for each axis these are the
+
+606
+00:13:27,650 --> 00:13:27,660
+angles one for each axis these are the
+ 
+
+607
+00:13:27,660 --> 00:13:30,590
+angles one for each axis these are the
+so-called Euler angles with each angle
+
+608
+00:13:30,590 --> 00:13:30,600
+so-called Euler angles with each angle
+ 
+
+609
+00:13:30,600 --> 00:13:35,329
+so-called Euler angles with each angle
+being on a circle from 0 to 360 degrees
+
+610
+00:13:35,329 --> 00:13:35,339
+being on a circle from 0 to 360 degrees
+ 
+
+611
+00:13:35,339 --> 00:13:38,870
+being on a circle from 0 to 360 degrees
+however this system has flaws in
+
+612
+00:13:38,870 --> 00:13:38,880
+however this system has flaws in
+ 
+
+613
+00:13:38,880 --> 00:13:40,910
+however this system has flaws in
+particular the order of the rotation
+
+614
+00:13:40,910 --> 00:13:40,920
+particular the order of the rotation
+ 
+
+615
+00:13:40,920 --> 00:13:42,889
+particular the order of the rotation
+angles matters
+
+616
+00:13:42,889 --> 00:13:42,899
+angles matters
+ 
+
+617
+00:13:42,899 --> 00:13:46,370
+angles matters
+rotating around X and then Y is not the
+
+618
+00:13:46,370 --> 00:13:46,380
+rotating around X and then Y is not the
+ 
+
+619
+00:13:46,380 --> 00:13:48,889
+rotating around X and then Y is not the
+same thing as rotating around Y and then
+
+620
+00:13:48,889 --> 00:13:48,899
+same thing as rotating around Y and then
+ 
+
+621
+00:13:48,899 --> 00:13:50,150
+same thing as rotating around Y and then
+X
+
+622
+00:13:50,150 --> 00:13:50,160
+X
+ 
+
+623
+00:13:50,160 --> 00:13:52,490
+X
+this awkwardness is reflected in the
+
+624
+00:13:52,490 --> 00:13:52,500
+this awkwardness is reflected in the
+ 
+
+625
+00:13:52,500 --> 00:13:55,670
+this awkwardness is reflected in the
+topology of Euler angles the combination
+
+626
+00:13:55,670 --> 00:13:55,680
+topology of Euler angles the combination
+ 
+
+627
+00:13:55,680 --> 00:13:58,670
+topology of Euler angles the combination
+of two rotation angles or two circles
+
+628
+00:13:58,670 --> 00:13:58,680
+of two rotation angles or two circles
+ 
+
+629
+00:13:58,680 --> 00:14:01,190
+of two rotation angles or two circles
+gives a space that looks like a Taurus
+
+630
+00:14:01,190 --> 00:14:01,200
+gives a space that looks like a Taurus
+ 
+
+631
+00:14:01,200 --> 00:14:03,769
+gives a space that looks like a Taurus
+and the combination of three rotation
+
+632
+00:14:03,769 --> 00:14:03,779
+and the combination of three rotation
+ 
+
+633
+00:14:03,779 --> 00:14:06,769
+and the combination of three rotation
+angles or three circles gives us a
+
+634
+00:14:06,769 --> 00:14:06,779
+angles or three circles gives us a
+ 
+
+635
+00:14:06,779 --> 00:14:10,550
+angles or three circles gives us a
+three-dimensional torus T3 this is not
+
+636
+00:14:10,550 --> 00:14:10,560
+three-dimensional torus T3 this is not
+ 
+
+637
+00:14:10,560 --> 00:14:12,610
+three-dimensional torus T3 this is not
+equivalent to the real projective space
+
+638
+00:14:12,610 --> 00:14:12,620
+equivalent to the real projective space
+ 
+
+639
+00:14:12,620 --> 00:14:16,730
+equivalent to the real projective space
+rp3 or its double cover S3
+
+640
+00:14:16,730 --> 00:14:16,740
+rp3 or its double cover S3
+ 
+
+641
+00:14:16,740 --> 00:14:21,050
+rp3 or its double cover S3
+points in rp3 or S3 immediately specify
+
+642
+00:14:21,050 --> 00:14:21,060
+points in rp3 or S3 immediately specify
+ 
+
+643
+00:14:21,060 --> 00:14:23,870
+points in rp3 or S3 immediately specify
+the correct axis and angle we need to do
+
+644
+00:14:23,870 --> 00:14:23,880
+the correct axis and angle we need to do
+ 
+
+645
+00:14:23,880 --> 00:14:26,690
+the correct axis and angle we need to do
+the rotation instead of providing three
+
+646
+00:14:26,690 --> 00:14:26,700
+the rotation instead of providing three
+ 
+
+647
+00:14:26,700 --> 00:14:29,030
+the rotation instead of providing three
+separate rotations and assuming there is
+
+648
+00:14:29,030 --> 00:14:29,040
+separate rotations and assuming there is
+ 
+
+649
+00:14:29,040 --> 00:14:31,550
+separate rotations and assuming there is
+a specific order or priority in the
+
+650
+00:14:31,550 --> 00:14:31,560
+a specific order or priority in the
+ 
+
+651
+00:14:31,560 --> 00:14:34,009
+a specific order or priority in the
+angle coordinates
+
+652
+00:14:34,009 --> 00:14:34,019
+angle coordinates
+ 
+
+653
+00:14:34,019 --> 00:14:36,829
+angle coordinates
+the idea of double covers doesn't just
+
+654
+00:14:36,829 --> 00:14:36,839
+the idea of double covers doesn't just
+ 
+
+655
+00:14:36,839 --> 00:14:40,250
+the idea of double covers doesn't just
+apply to 3D space we can also apply it
+
+656
+00:14:40,250 --> 00:14:40,260
+apply to 3D space we can also apply it
+ 
+
+657
+00:14:40,260 --> 00:14:42,710
+apply to 3D space we can also apply it
+to 4D space time
+
+658
+00:14:42,710 --> 00:14:42,720
+to 4D space time
+ 
+
+659
+00:14:42,720 --> 00:14:45,230
+to 4D space time
+if you watched video 9 in this series
+
+660
+00:14:45,230 --> 00:14:45,240
+if you watched video 9 in this series
+ 
+
+661
+00:14:45,240 --> 00:14:47,030
+if you watched video 9 in this series
+you'll recall that in the
+
+662
+00:14:47,030 --> 00:14:47,040
+you'll recall that in the
+ 
+
+663
+00:14:47,040 --> 00:14:48,889
+you'll recall that in the
+four-dimensional space time of special
+
+664
+00:14:48,889 --> 00:14:48,899
+four-dimensional space time of special
+ 
+
+665
+00:14:48,899 --> 00:14:51,710
+four-dimensional space time of special
+relativity lorentz Transformations are
+
+666
+00:14:51,710 --> 00:14:51,720
+relativity lorentz Transformations are
+ 
+
+667
+00:14:51,720 --> 00:14:54,769
+relativity lorentz Transformations are
+done with so13 matrices
+
+668
+00:14:54,769 --> 00:14:54,779
+done with so13 matrices
+ 
+
+669
+00:14:54,779 --> 00:14:56,810
+done with so13 matrices
+these are matrices that keep the
+
+670
+00:14:56,810 --> 00:14:56,820
+these are matrices that keep the
+ 
+
+671
+00:14:56,820 --> 00:14:59,210
+these are matrices that keep the
+space-time interval s squared constant
+
+672
+00:14:59,210 --> 00:14:59,220
+space-time interval s squared constant
+ 
+
+673
+00:14:59,220 --> 00:15:02,269
+space-time interval s squared constant
+and forbid spatial Reflections since the
+
+674
+00:15:02,269 --> 00:15:02,279
+and forbid spatial Reflections since the
+ 
+
+675
+00:15:02,279 --> 00:15:04,730
+and forbid spatial Reflections since the
+determinant is plus one
+
+676
+00:15:04,730 --> 00:15:04,740
+determinant is plus one
+ 
+
+677
+00:15:04,740 --> 00:15:07,490
+determinant is plus one
+we can also enforce the ortho Cronus
+
+678
+00:15:07,490 --> 00:15:07,500
+we can also enforce the ortho Cronus
+ 
+
+679
+00:15:07,500 --> 00:15:09,889
+we can also enforce the ortho Cronus
+property which means there are no time
+
+680
+00:15:09,889 --> 00:15:09,899
+property which means there are no time
+ 
+
+681
+00:15:09,899 --> 00:15:12,710
+property which means there are no time
+Reflections by forcing the zero zero
+
+682
+00:15:12,710 --> 00:15:12,720
+Reflections by forcing the zero zero
+ 
+
+683
+00:15:12,720 --> 00:15:15,889
+Reflections by forcing the zero zero
+component of the Matrix to be positive
+
+684
+00:15:15,889 --> 00:15:15,899
+component of the Matrix to be positive
+ 
+
+685
+00:15:15,899 --> 00:15:19,370
+component of the Matrix to be positive
+the plus superscript Above So indicates
+
+686
+00:15:19,370 --> 00:15:19,380
+the plus superscript Above So indicates
+ 
+
+687
+00:15:19,380 --> 00:15:21,590
+the plus superscript Above So indicates
+we're including this condition of no
+
+688
+00:15:21,590 --> 00:15:21,600
+we're including this condition of no
+ 
+
+689
+00:15:21,600 --> 00:15:24,170
+we're including this condition of no
+time Reflections I'm going to assume
+
+690
+00:15:24,170 --> 00:15:24,180
+time Reflections I'm going to assume
+ 
+
+691
+00:15:24,180 --> 00:15:26,689
+time Reflections I'm going to assume
+this orthochronous condition applies for
+
+692
+00:15:26,689 --> 00:15:26,699
+this orthochronous condition applies for
+ 
+
+693
+00:15:26,699 --> 00:15:28,910
+this orthochronous condition applies for
+the rest of this video
+
+694
+00:15:28,910 --> 00:15:28,920
+the rest of this video
+ 
+
+695
+00:15:28,920 --> 00:15:31,790
+the rest of this video
+we also learned that we could rewrite 4D
+
+696
+00:15:31,790 --> 00:15:31,800
+we also learned that we could rewrite 4D
+ 
+
+697
+00:15:31,800 --> 00:15:33,949
+we also learned that we could rewrite 4D
+space-time vectors as two by two
+
+698
+00:15:33,949 --> 00:15:33,959
+space-time vectors as two by two
+ 
+
+699
+00:15:33,959 --> 00:15:37,069
+space-time vectors as two by two
+matrices called vial vectors and we
+
+700
+00:15:37,069 --> 00:15:37,079
+matrices called vial vectors and we
+ 
+
+701
+00:15:37,079 --> 00:15:39,110
+matrices called vial vectors and we
+could lorentz transform those with
+
+702
+00:15:39,110 --> 00:15:39,120
+could lorentz transform those with
+ 
+
+703
+00:15:39,120 --> 00:15:41,689
+could lorentz transform those with
+double-sided Transformations involving
+
+704
+00:15:41,689 --> 00:15:41,699
+double-sided Transformations involving
+ 
+
+705
+00:15:41,699 --> 00:15:43,790
+double-sided Transformations involving
+special linear two by two complex
+
+706
+00:15:43,790 --> 00:15:43,800
+special linear two by two complex
+ 
+
+707
+00:15:43,800 --> 00:15:46,970
+special linear two by two complex
+matrices sl2c
+
+708
+00:15:46,970 --> 00:15:46,980
+matrices sl2c
+ 
+
+709
+00:15:46,980 --> 00:15:50,210
+matrices sl2c
+this means that sl2c is the double cover
+
+710
+00:15:50,210 --> 00:15:50,220
+this means that sl2c is the double cover
+ 
+
+711
+00:15:50,220 --> 00:15:55,189
+this means that sl2c is the double cover
+of so13 as there are two sl2c matrices
+
+712
+00:15:55,189 --> 00:15:55,199
+of so13 as there are two sl2c matrices
+ 
+
+713
+00:15:55,199 --> 00:15:58,490
+of so13 as there are two sl2c matrices
+for every so13 Matrix that performs the
+
+714
+00:15:58,490 --> 00:15:58,500
+for every so13 Matrix that performs the
+ 
+
+715
+00:15:58,500 --> 00:16:00,769
+for every so13 Matrix that performs the
+same Lorenz transformation
+
+716
+00:16:00,769 --> 00:16:00,779
+same Lorenz transformation
+ 
+
+717
+00:16:00,779 --> 00:16:03,590
+same Lorenz transformation
+again negative signs will cancel out in
+
+718
+00:16:03,590 --> 00:16:03,600
+again negative signs will cancel out in
+ 
+
+719
+00:16:03,600 --> 00:16:06,310
+again negative signs will cancel out in
+double-sided transformations
+
+720
+00:16:06,310 --> 00:16:06,320
+double-sided transformations
+ 
+
+721
+00:16:06,320 --> 00:16:08,870
+double-sided transformations
+so11 is the set of lorentz
+
+722
+00:16:08,870 --> 00:16:08,880
+so11 is the set of lorentz
+ 
+
+723
+00:16:08,880 --> 00:16:11,150
+so11 is the set of lorentz
+transformations in one time Dimension
+
+724
+00:16:11,150 --> 00:16:11,160
+transformations in one time Dimension
+ 
+
+725
+00:16:11,160 --> 00:16:13,430
+transformations in one time Dimension
+and one space dimension
+
+726
+00:16:13,430 --> 00:16:13,440
+and one space dimension
+ 
+
+727
+00:16:13,440 --> 00:16:15,710
+and one space dimension
+this set of Transformations gives a
+
+728
+00:16:15,710 --> 00:16:15,720
+this set of Transformations gives a
+ 
+
+729
+00:16:15,720 --> 00:16:18,769
+this set of Transformations gives a
+hyperbola which extends infinitely in
+
+730
+00:16:18,769 --> 00:16:18,779
+hyperbola which extends infinitely in
+ 
+
+731
+00:16:18,779 --> 00:16:20,389
+hyperbola which extends infinitely in
+either direction
+
+732
+00:16:20,389 --> 00:16:20,399
+either direction
+ 
+
+733
+00:16:20,399 --> 00:16:22,550
+either direction
+hyperbolas are transformed with
+
+734
+00:16:22,550 --> 00:16:22,560
+hyperbolas are transformed with
+ 
+
+735
+00:16:22,560 --> 00:16:25,490
+hyperbolas are transformed with
+hyperbolic rotations using hyperbolic
+
+736
+00:16:25,490 --> 00:16:25,500
+hyperbolic rotations using hyperbolic
+ 
+
+737
+00:16:25,500 --> 00:16:28,430
+hyperbolic rotations using hyperbolic
+cosine and hyperbolic sine these are
+
+738
+00:16:28,430 --> 00:16:28,440
+cosine and hyperbolic sine these are
+ 
+
+739
+00:16:28,440 --> 00:16:31,430
+cosine and hyperbolic sine these are
+also called lorentz boosts
+
+740
+00:16:31,430 --> 00:16:31,440
+also called lorentz boosts
+ 
+
+741
+00:16:31,440 --> 00:16:33,350
+also called lorentz boosts
+this is different than the set of
+
+742
+00:16:33,350 --> 00:16:33,360
+this is different than the set of
+ 
+
+743
+00:16:33,360 --> 00:16:36,650
+this is different than the set of
+rotations into spatial Dimensions SO2
+
+744
+00:16:36,650 --> 00:16:36,660
+rotations into spatial Dimensions SO2
+ 
+
+745
+00:16:36,660 --> 00:16:39,769
+rotations into spatial Dimensions SO2
+which gives a circle transformed with
+
+746
+00:16:39,769 --> 00:16:39,779
+which gives a circle transformed with
+ 
+
+747
+00:16:39,779 --> 00:16:42,430
+which gives a circle transformed with
+circular trig functions
+
+748
+00:16:42,430 --> 00:16:42,440
+circular trig functions
+ 
+
+749
+00:16:42,440 --> 00:16:44,990
+circular trig functions
+hyperbolas have the topological property
+
+750
+00:16:44,990 --> 00:16:45,000
+hyperbolas have the topological property
+ 
+
+751
+00:16:45,000 --> 00:16:48,470
+hyperbolas have the topological property
+of being non-compact which Loosely means
+
+752
+00:16:48,470 --> 00:16:48,480
+of being non-compact which Loosely means
+ 
+
+753
+00:16:48,480 --> 00:16:51,290
+of being non-compact which Loosely means
+that they go on forever so hyperbolic
+
+754
+00:16:51,290 --> 00:16:51,300
+that they go on forever so hyperbolic
+ 
+
+755
+00:16:51,300 --> 00:16:53,569
+that they go on forever so hyperbolic
+angles range from negative Infinity to
+
+756
+00:16:53,569 --> 00:16:53,579
+angles range from negative Infinity to
+ 
+
+757
+00:16:53,579 --> 00:16:55,189
+angles range from negative Infinity to
+positive Infinity
+
+758
+00:16:55,189 --> 00:16:55,199
+positive Infinity
+ 
+
+759
+00:16:55,199 --> 00:16:58,310
+positive Infinity
+this is unlike circles which are Compact
+
+760
+00:16:58,310 --> 00:16:58,320
+this is unlike circles which are Compact
+ 
+
+761
+00:16:58,320 --> 00:17:01,730
+this is unlike circles which are Compact
+and have a finite extent and so circular
+
+762
+00:17:01,730 --> 00:17:01,740
+and have a finite extent and so circular
+ 
+
+763
+00:17:01,740 --> 00:17:05,470
+and have a finite extent and so circular
+angles will loop back on themselves
+
+764
+00:17:05,470 --> 00:17:05,480
+angles will loop back on themselves
+ 
+
+765
+00:17:05,480 --> 00:17:07,789
+angles will loop back on themselves
+so12 is the set of lorentz
+
+766
+00:17:07,789 --> 00:17:07,799
+so12 is the set of lorentz
+ 
+
+767
+00:17:07,799 --> 00:17:10,069
+so12 is the set of lorentz
+transformations in one time Dimension
+
+768
+00:17:10,069 --> 00:17:10,079
+transformations in one time Dimension
+ 
+
+769
+00:17:10,079 --> 00:17:12,530
+transformations in one time Dimension
+and two space dimensions
+
+770
+00:17:12,530 --> 00:17:12,540
+and two space dimensions
+ 
+
+771
+00:17:12,540 --> 00:17:15,350
+and two space dimensions
+we now have two spatial Dimensions we
+
+772
+00:17:15,350 --> 00:17:15,360
+we now have two spatial Dimensions we
+ 
+
+773
+00:17:15,360 --> 00:17:19,069
+we now have two spatial Dimensions we
+can boost in given by two hyperbolas and
+
+774
+00:17:19,069 --> 00:17:19,079
+can boost in given by two hyperbolas and
+ 
+
+775
+00:17:19,079 --> 00:17:21,829
+can boost in given by two hyperbolas and
+we can also rotate around in a circle in
+
+776
+00:17:21,829 --> 00:17:21,839
+we can also rotate around in a circle in
+ 
+
+777
+00:17:21,839 --> 00:17:24,770
+we can also rotate around in a circle in
+the two spatial Dimensions this gives us
+
+778
+00:17:24,770 --> 00:17:24,780
+the two spatial Dimensions this gives us
+ 
+
+779
+00:17:24,780 --> 00:17:27,530
+the two spatial Dimensions this gives us
+a hyperboloid sheet
+
+780
+00:17:27,530 --> 00:17:27,540
+a hyperboloid sheet
+ 
+
+781
+00:17:27,540 --> 00:17:30,530
+a hyperboloid sheet
+in contrast SO3 is the group of
+
+782
+00:17:30,530 --> 00:17:30,540
+in contrast SO3 is the group of
+ 
+
+783
+00:17:30,540 --> 00:17:33,890
+in contrast SO3 is the group of
+rotational symmetries of 3D space which
+
+784
+00:17:33,890 --> 00:17:33,900
+rotational symmetries of 3D space which
+ 
+
+785
+00:17:33,900 --> 00:17:35,990
+rotational symmetries of 3D space which
+is given by the three possible rotations
+
+786
+00:17:35,990 --> 00:17:36,000
+is given by the three possible rotations
+ 
+
+787
+00:17:36,000 --> 00:17:38,770
+is given by the three possible rotations
+of the two sphere
+
+788
+00:17:38,770 --> 00:17:38,780
+of the two sphere
+ 
+
+789
+00:17:38,780 --> 00:17:41,029
+of the two sphere
+so13 is the set of lorentz
+
+790
+00:17:41,029 --> 00:17:41,039
+so13 is the set of lorentz
+ 
+
+791
+00:17:41,039 --> 00:17:43,490
+so13 is the set of lorentz
+transformations in one time Dimension
+
+792
+00:17:43,490 --> 00:17:43,500
+transformations in one time Dimension
+ 
+
+793
+00:17:43,500 --> 00:17:45,950
+transformations in one time Dimension
+and three spatial dimensions
+
+794
+00:17:45,950 --> 00:17:45,960
+and three spatial dimensions
+ 
+
+795
+00:17:45,960 --> 00:17:48,409
+and three spatial dimensions
+I can't draw this but it would be a
+
+796
+00:17:48,409 --> 00:17:48,419
+I can't draw this but it would be a
+ 
+
+797
+00:17:48,419 --> 00:17:50,810
+I can't draw this but it would be a
+higher dimensional hyperboloid with
+
+798
+00:17:50,810 --> 00:17:50,820
+higher dimensional hyperboloid with
+ 
+
+799
+00:17:50,820 --> 00:17:53,630
+higher dimensional hyperboloid with
+three possible hyperbola boosts and
+
+800
+00:17:53,630 --> 00:17:53,640
+three possible hyperbola boosts and
+ 
+
+801
+00:17:53,640 --> 00:17:57,230
+three possible hyperbola boosts and
+three possible circles to rotate in
+
+802
+00:17:57,230 --> 00:17:57,240
+three possible circles to rotate in
+ 
+
+803
+00:17:57,240 --> 00:18:00,830
+three possible circles to rotate in
+in contrast so4 is the group of rotation
+
+804
+00:18:00,830 --> 00:18:00,840
+in contrast so4 is the group of rotation
+ 
+
+805
+00:18:00,840 --> 00:18:04,610
+in contrast so4 is the group of rotation
+symmetries of 4D space which is the six
+
+806
+00:18:04,610 --> 00:18:04,620
+symmetries of 4D space which is the six
+ 
+
+807
+00:18:04,620 --> 00:18:08,289
+symmetries of 4D space which is the six
+possible rotations of the three sphere
+
+808
+00:18:08,289 --> 00:18:08,299
+possible rotations of the three sphere
+ 
+
+809
+00:18:08,299 --> 00:18:12,529
+possible rotations of the three sphere
+sl2c is the double cover of so13 and is
+
+810
+00:18:12,529 --> 00:18:12,539
+sl2c is the double cover of so13 and is
+ 
+
+811
+00:18:12,539 --> 00:18:15,950
+sl2c is the double cover of so13 and is
+given by a set of six basic 2x2 matrices
+
+812
+00:18:15,950 --> 00:18:15,960
+given by a set of six basic 2x2 matrices
+ 
+
+813
+00:18:15,960 --> 00:18:18,350
+given by a set of six basic 2x2 matrices
+that operate on Spinners on the Block
+
+814
+00:18:18,350 --> 00:18:18,360
+that operate on Spinners on the Block
+ 
+
+815
+00:18:18,360 --> 00:18:20,029
+that operate on Spinners on the Block
+sphere
+
+816
+00:18:20,029 --> 00:18:20,039
+sphere
+ 
+
+817
+00:18:20,039 --> 00:18:22,430
+sphere
+three of these matrices do the basic
+
+818
+00:18:22,430 --> 00:18:22,440
+three of these matrices do the basic
+ 
+
+819
+00:18:22,440 --> 00:18:24,529
+three of these matrices do the basic
+rotations of the block sphere that we're
+
+820
+00:18:24,529 --> 00:18:24,539
+rotations of the block sphere that we're
+ 
+
+821
+00:18:24,539 --> 00:18:25,970
+rotations of the block sphere that we're
+familiar with
+
+822
+00:18:25,970 --> 00:18:25,980
+familiar with
+ 
+
+823
+00:18:25,980 --> 00:18:28,850
+familiar with
+but there are also three boost matrices
+
+824
+00:18:28,850 --> 00:18:28,860
+but there are also three boost matrices
+ 
+
+825
+00:18:28,860 --> 00:18:31,190
+but there are also three boost matrices
+which can also transform the block
+
+826
+00:18:31,190 --> 00:18:31,200
+which can also transform the block
+ 
+
+827
+00:18:31,200 --> 00:18:32,810
+which can also transform the block
+sphere
+
+828
+00:18:32,810 --> 00:18:32,820
+sphere
+ 
+
+829
+00:18:32,820 --> 00:18:36,350
+sphere
+if we boost in the plus Z Direction then
+
+830
+00:18:36,350 --> 00:18:36,360
+if we boost in the plus Z Direction then
+ 
+
+831
+00:18:36,360 --> 00:18:39,169
+if we boost in the plus Z Direction then
+the plus Z and minus said Spinners stay
+
+832
+00:18:39,169 --> 00:18:39,179
+the plus Z and minus said Spinners stay
+ 
+
+833
+00:18:39,179 --> 00:18:42,830
+the plus Z and minus said Spinners stay
+fixed circles centered around the z-axis
+
+834
+00:18:42,830 --> 00:18:42,840
+fixed circles centered around the z-axis
+ 
+
+835
+00:18:42,840 --> 00:18:44,990
+fixed circles centered around the z-axis
+are pushed in the direction of the
+
+836
+00:18:44,990 --> 00:18:45,000
+are pushed in the direction of the
+ 
+
+837
+00:18:45,000 --> 00:18:47,330
+are pushed in the direction of the
+negative Z spinner as we continue
+
+838
+00:18:47,330 --> 00:18:47,340
+negative Z spinner as we continue
+ 
+
+839
+00:18:47,340 --> 00:18:48,590
+negative Z spinner as we continue
+boosting
+
+840
+00:18:48,590 --> 00:18:48,600
+boosting
+ 
+
+841
+00:18:48,600 --> 00:18:51,169
+boosting
+there is a similar effect for X boosts
+
+842
+00:18:51,169 --> 00:18:51,179
+there is a similar effect for X boosts
+ 
+
+843
+00:18:51,179 --> 00:18:53,450
+there is a similar effect for X boosts
+and Y boosts
+
+844
+00:18:53,450 --> 00:18:53,460
+and Y boosts
+ 
+
+845
+00:18:53,460 --> 00:18:56,150
+and Y boosts
+as an exercise you can try coming up
+
+846
+00:18:56,150 --> 00:18:56,160
+as an exercise you can try coming up
+ 
+
+847
+00:18:56,160 --> 00:18:58,250
+as an exercise you can try coming up
+with a mathematical argument for why
+
+848
+00:18:58,250 --> 00:18:58,260
+with a mathematical argument for why
+ 
+
+849
+00:18:58,260 --> 00:19:00,890
+with a mathematical argument for why
+these matrices push circles in One
+
+850
+00:19:00,890 --> 00:19:00,900
+these matrices push circles in One
+ 
+
+851
+00:19:00,900 --> 00:19:03,409
+these matrices push circles in One
+Direction on the Block sphere you can
+
+852
+00:19:03,409 --> 00:19:03,419
+Direction on the Block sphere you can
+ 
+
+853
+00:19:03,419 --> 00:19:05,150
+Direction on the Block sphere you can
+look at the limiting behaviors of
+
+854
+00:19:05,150 --> 00:19:05,160
+look at the limiting behaviors of
+ 
+
+855
+00:19:05,160 --> 00:19:07,850
+look at the limiting behaviors of
+hyperbolic sine and hyperbolic cosine to
+
+856
+00:19:07,850 --> 00:19:07,860
+hyperbolic sine and hyperbolic cosine to
+ 
+
+857
+00:19:07,860 --> 00:19:08,930
+hyperbolic sine and hyperbolic cosine to
+help you
+
+858
+00:19:08,930 --> 00:19:08,940
+help you
+ 
+
+859
+00:19:08,940 --> 00:19:11,750
+help you
+keep in mind overall scaling and phases
+
+860
+00:19:11,750 --> 00:19:11,760
+keep in mind overall scaling and phases
+ 
+
+861
+00:19:11,760 --> 00:19:13,789
+keep in mind overall scaling and phases
+don't matter for Spinners on the Block
+
+862
+00:19:13,789 --> 00:19:13,799
+don't matter for Spinners on the Block
+ 
+
+863
+00:19:13,799 --> 00:19:15,529
+don't matter for Spinners on the Block
+sphere
+
+864
+00:19:15,529 --> 00:19:15,539
+sphere
+ 
+
+865
+00:19:15,539 --> 00:19:18,350
+sphere
+recall two spinners are mathematically
+
+866
+00:19:18,350 --> 00:19:18,360
+recall two spinners are mathematically
+ 
+
+867
+00:19:18,360 --> 00:19:20,930
+recall two spinners are mathematically
+orthogonal if they point in opposite
+
+868
+00:19:20,930 --> 00:19:20,940
+orthogonal if they point in opposite
+ 
+
+869
+00:19:20,940 --> 00:19:23,450
+orthogonal if they point in opposite
+directions on the Block sphere this is
+
+870
+00:19:23,450 --> 00:19:23,460
+directions on the Block sphere this is
+ 
+
+871
+00:19:23,460 --> 00:19:25,430
+directions on the Block sphere this is
+because opposite directions on the Block
+
+872
+00:19:25,430 --> 00:19:25,440
+because opposite directions on the Block
+ 
+
+873
+00:19:25,440 --> 00:19:28,430
+because opposite directions on the Block
+sphere represent two mutually exclusive
+
+874
+00:19:28,430 --> 00:19:28,440
+sphere represent two mutually exclusive
+ 
+
+875
+00:19:28,440 --> 00:19:30,650
+sphere represent two mutually exclusive
+measurement states in the stern gerlock
+
+876
+00:19:30,650 --> 00:19:30,660
+measurement states in the stern gerlock
+ 
+
+877
+00:19:30,660 --> 00:19:32,450
+measurement states in the stern gerlock
+experiment
+
+878
+00:19:32,450 --> 00:19:32,460
+experiment
+ 
+
+879
+00:19:32,460 --> 00:19:34,190
+experiment
+you'll notice that if we have two
+
+880
+00:19:34,190 --> 00:19:34,200
+you'll notice that if we have two
+ 
+
+881
+00:19:34,200 --> 00:19:37,070
+you'll notice that if we have two
+spinners that are orthogonal and then we
+
+882
+00:19:37,070 --> 00:19:37,080
+spinners that are orthogonal and then we
+ 
+
+883
+00:19:37,080 --> 00:19:39,590
+spinners that are orthogonal and then we
+perform a boost operation on the sphere
+
+884
+00:19:39,590 --> 00:19:39,600
+perform a boost operation on the sphere
+ 
+
+885
+00:19:39,600 --> 00:19:42,470
+perform a boost operation on the sphere
+it is possible that the Spinners are no
+
+886
+00:19:42,470 --> 00:19:42,480
+it is possible that the Spinners are no
+ 
+
+887
+00:19:42,480 --> 00:19:45,650
+it is possible that the Spinners are no
+longer orthogonal after the Boost this
+
+888
+00:19:45,650 --> 00:19:45,660
+longer orthogonal after the Boost this
+ 
+
+889
+00:19:45,660 --> 00:19:47,810
+longer orthogonal after the Boost this
+would seem to violate Bourne's rule
+
+890
+00:19:47,810 --> 00:19:47,820
+would seem to violate Bourne's rule
+ 
+
+891
+00:19:47,820 --> 00:19:49,970
+would seem to violate Bourne's rule
+which says that probabilities and
+
+892
+00:19:49,970 --> 00:19:49,980
+which says that probabilities and
+ 
+
+893
+00:19:49,980 --> 00:19:52,130
+which says that probabilities and
+quantum mechanics are directly related
+
+894
+00:19:52,130 --> 00:19:52,140
+quantum mechanics are directly related
+ 
+
+895
+00:19:52,140 --> 00:19:55,190
+quantum mechanics are directly related
+to the angle between State vectors
+
+896
+00:19:55,190 --> 00:19:55,200
+to the angle between State vectors
+ 
+
+897
+00:19:55,200 --> 00:19:58,130
+to the angle between State vectors
+if we do a boost two spinners can be
+
+898
+00:19:58,130 --> 00:19:58,140
+if we do a boost two spinners can be
+ 
+
+899
+00:19:58,140 --> 00:20:00,710
+if we do a boost two spinners can be
+orthogonal in one frame but be
+
+900
+00:20:00,710 --> 00:20:00,720
+orthogonal in one frame but be
+ 
+
+901
+00:20:00,720 --> 00:20:03,169
+orthogonal in one frame but be
+non-orthogonal in another frame
+
+902
+00:20:03,169 --> 00:20:03,179
+non-orthogonal in another frame
+ 
+
+903
+00:20:03,179 --> 00:20:04,970
+non-orthogonal in another frame
+this makes it seem like quantum
+
+904
+00:20:04,970 --> 00:20:04,980
+this makes it seem like quantum
+ 
+
+905
+00:20:04,980 --> 00:20:07,370
+this makes it seem like quantum
+mechanics is not compatible with lorentz
+
+906
+00:20:07,370 --> 00:20:07,380
+mechanics is not compatible with lorentz
+ 
+
+907
+00:20:07,380 --> 00:20:10,310
+mechanics is not compatible with lorentz
+boosts from special relativity this is
+
+908
+00:20:10,310 --> 00:20:10,320
+boosts from special relativity this is
+ 
+
+909
+00:20:10,320 --> 00:20:12,049
+boosts from special relativity this is
+one of the challenges that comes with
+
+910
+00:20:12,049 --> 00:20:12,059
+one of the challenges that comes with
+ 
+
+911
+00:20:12,059 --> 00:20:14,090
+one of the challenges that comes with
+uniting quantum mechanics with special
+
+912
+00:20:14,090 --> 00:20:14,100
+uniting quantum mechanics with special
+ 
+
+913
+00:20:14,100 --> 00:20:17,029
+uniting quantum mechanics with special
+relativity this contradiction is solved
+
+914
+00:20:17,029 --> 00:20:17,039
+relativity this contradiction is solved
+ 
+
+915
+00:20:17,039 --> 00:20:19,370
+relativity this contradiction is solved
+in Quantum field Theory where we treat
+
+916
+00:20:19,370 --> 00:20:19,380
+in Quantum field Theory where we treat
+ 
+
+917
+00:20:19,380 --> 00:20:22,610
+in Quantum field Theory where we treat
+particles as excitations in fields that
+
+918
+00:20:22,610 --> 00:20:22,620
+particles as excitations in fields that
+ 
+
+919
+00:20:22,620 --> 00:20:25,130
+particles as excitations in fields that
+extend all throughout space which
+
+920
+00:20:25,130 --> 00:20:25,140
+extend all throughout space which
+ 
+
+921
+00:20:25,140 --> 00:20:27,470
+extend all throughout space which
+include position degrees of freedom as
+
+922
+00:20:27,470 --> 00:20:27,480
+include position degrees of freedom as
+ 
+
+923
+00:20:27,480 --> 00:20:30,230
+include position degrees of freedom as
+well as rotational degrees of freedom
+
+924
+00:20:30,230 --> 00:20:30,240
+well as rotational degrees of freedom
+ 
+
+925
+00:20:30,240 --> 00:20:32,930
+well as rotational degrees of freedom
+however I won't be talking about that in
+
+926
+00:20:32,930 --> 00:20:32,940
+however I won't be talking about that in
+ 
+
+927
+00:20:32,940 --> 00:20:35,150
+however I won't be talking about that in
+this video
+
+928
+00:20:35,150 --> 00:20:35,160
+this video
+ 
+
+929
+00:20:35,160 --> 00:20:38,210
+this video
+I'll mention one last thing about sl2c
+
+930
+00:20:38,210 --> 00:20:38,220
+I'll mention one last thing about sl2c
+ 
+
+931
+00:20:38,220 --> 00:20:40,549
+I'll mention one last thing about sl2c
+which is how it relates to Mobius
+
+932
+00:20:40,549 --> 00:20:40,559
+which is how it relates to Mobius
+ 
+
+933
+00:20:40,559 --> 00:20:42,529
+which is how it relates to Mobius
+transformations
+
+934
+00:20:42,529 --> 00:20:42,539
+transformations
+ 
+
+935
+00:20:42,539 --> 00:20:44,810
+transformations
+recall that for Spinners that represent
+
+936
+00:20:44,810 --> 00:20:44,820
+recall that for Spinners that represent
+ 
+
+937
+00:20:44,820 --> 00:20:47,810
+recall that for Spinners that represent
+Quantum States overall multiplication by
+
+938
+00:20:47,810 --> 00:20:47,820
+Quantum States overall multiplication by
+ 
+
+939
+00:20:47,820 --> 00:20:50,690
+Quantum States overall multiplication by
+a non-zero complex number doesn't change
+
+940
+00:20:50,690 --> 00:20:50,700
+a non-zero complex number doesn't change
+ 
+
+941
+00:20:50,700 --> 00:20:53,510
+a non-zero complex number doesn't change
+the quantum State because these overall
+
+942
+00:20:53,510 --> 00:20:53,520
+the quantum State because these overall
+ 
+
+943
+00:20:53,520 --> 00:20:55,490
+the quantum State because these overall
+factors are canceled out in the
+
+944
+00:20:55,490 --> 00:20:55,500
+factors are canceled out in the
+ 
+
+945
+00:20:55,500 --> 00:20:57,529
+factors are canceled out in the
+normalized born's rule
+
+946
+00:20:57,529 --> 00:20:57,539
+normalized born's rule
+ 
+
+947
+00:20:57,539 --> 00:20:59,990
+normalized born's rule
+because of this Spinners are completely
+
+948
+00:20:59,990 --> 00:21:00,000
+because of this Spinners are completely
+ 
+
+949
+00:21:00,000 --> 00:21:02,390
+because of this Spinners are completely
+defined by the ratio of their two
+
+950
+00:21:02,390 --> 00:21:02,400
+defined by the ratio of their two
+ 
+
+951
+00:21:02,400 --> 00:21:04,310
+defined by the ratio of their two
+components
+
+952
+00:21:04,310 --> 00:21:04,320
+components
+ 
+
+953
+00:21:04,320 --> 00:21:06,529
+components
+let's take a two component spinner with
+
+954
+00:21:06,529 --> 00:21:06,539
+let's take a two component spinner with
+ 
+
+955
+00:21:06,539 --> 00:21:09,590
+let's take a two component spinner with
+components PSI and transform it by a two
+
+956
+00:21:09,590 --> 00:21:09,600
+components PSI and transform it by a two
+ 
+
+957
+00:21:09,600 --> 00:21:11,570
+components PSI and transform it by a two
+by two Matrix to give another two
+
+958
+00:21:11,570 --> 00:21:11,580
+by two Matrix to give another two
+ 
+
+959
+00:21:11,580 --> 00:21:14,090
+by two Matrix to give another two
+component spinner with components PSI
+
+960
+00:21:14,090 --> 00:21:14,100
+component spinner with components PSI
+ 
+
+961
+00:21:14,100 --> 00:21:15,169
+component spinner with components PSI
+tilde
+
+962
+00:21:15,169 --> 00:21:15,179
+tilde
+ 
+
+963
+00:21:15,179 --> 00:21:17,390
+tilde
+since only the ratio of the output
+
+964
+00:21:17,390 --> 00:21:17,400
+since only the ratio of the output
+ 
+
+965
+00:21:17,400 --> 00:21:19,669
+since only the ratio of the output
+components matters we can write the
+
+966
+00:21:19,669 --> 00:21:19,679
+components matters we can write the
+ 
+
+967
+00:21:19,679 --> 00:21:21,770
+components matters we can write the
+matrix multiplication as a pair of
+
+968
+00:21:21,770 --> 00:21:21,780
+matrix multiplication as a pair of
+ 
+
+969
+00:21:21,780 --> 00:21:25,430
+matrix multiplication as a pair of
+equations and take their ratio
+
+970
+00:21:25,430 --> 00:21:25,440
+equations and take their ratio
+ 
+
+971
+00:21:25,440 --> 00:21:27,950
+equations and take their ratio
+we can also multiply the numerator and
+
+972
+00:21:27,950 --> 00:21:27,960
+we can also multiply the numerator and
+ 
+
+973
+00:21:27,960 --> 00:21:31,130
+we can also multiply the numerator and
+denominator by 1 over PSI 2 to give us
+
+974
+00:21:31,130 --> 00:21:31,140
+denominator by 1 over PSI 2 to give us
+ 
+
+975
+00:21:31,140 --> 00:21:33,890
+denominator by 1 over PSI 2 to give us
+ratios of the input components
+
+976
+00:21:33,890 --> 00:21:33,900
+ratios of the input components
+ 
+
+977
+00:21:33,900 --> 00:21:36,230
+ratios of the input components
+I'm going to write this ratio of input
+
+978
+00:21:36,230 --> 00:21:36,240
+I'm going to write this ratio of input
+ 
+
+979
+00:21:36,240 --> 00:21:39,169
+I'm going to write this ratio of input
+components as Z and the ratio of output
+
+980
+00:21:39,169 --> 00:21:39,179
+components as Z and the ratio of output
+ 
+
+981
+00:21:39,179 --> 00:21:41,570
+components as Z and the ratio of output
+components as Z tilde
+
+982
+00:21:41,570 --> 00:21:41,580
+components as Z tilde
+ 
+
+983
+00:21:41,580 --> 00:21:43,730
+components as Z tilde
+this is an alternative way of writing
+
+984
+00:21:43,730 --> 00:21:43,740
+this is an alternative way of writing
+ 
+
+985
+00:21:43,740 --> 00:21:46,430
+this is an alternative way of writing
+Transformations on spinners and it's
+
+986
+00:21:46,430 --> 00:21:46,440
+Transformations on spinners and it's
+ 
+
+987
+00:21:46,440 --> 00:21:49,549
+Transformations on spinners and it's
+called a Mobius transformation also
+
+988
+00:21:49,549 --> 00:21:49,559
+called a Mobius transformation also
+ 
+
+989
+00:21:49,559 --> 00:21:51,110
+called a Mobius transformation also
+called a fractional linear
+
+990
+00:21:51,110 --> 00:21:51,120
+called a fractional linear
+ 
+
+991
+00:21:51,120 --> 00:21:53,149
+called a fractional linear
+transformation
+
+992
+00:21:53,149 --> 00:21:53,159
+transformation
+ 
+
+993
+00:21:53,159 --> 00:21:54,950
+transformation
+notice that if we take the Matrix
+
+994
+00:21:54,950 --> 00:21:54,960
+notice that if we take the Matrix
+ 
+
+995
+00:21:54,960 --> 00:21:57,110
+notice that if we take the Matrix
+coefficients and multiply them by an
+
+996
+00:21:57,110 --> 00:21:57,120
+coefficients and multiply them by an
+ 
+
+997
+00:21:57,120 --> 00:21:59,630
+coefficients and multiply them by an
+arbitrary complex number this will not
+
+998
+00:21:59,630 --> 00:21:59,640
+arbitrary complex number this will not
+ 
+
+999
+00:21:59,640 --> 00:22:02,390
+arbitrary complex number this will not
+affect the Mobius transformation since
+
+1000
+00:22:02,390 --> 00:22:02,400
+affect the Mobius transformation since
+ 
+
+1001
+00:22:02,400 --> 00:22:04,430
+affect the Mobius transformation since
+the factors will cancel out in the
+
+1002
+00:22:04,430 --> 00:22:04,440
+the factors will cancel out in the
+ 
+
+1003
+00:22:04,440 --> 00:22:06,230
+the factors will cancel out in the
+fraction formula
+
+1004
+00:22:06,230 --> 00:22:06,240
+fraction formula
+ 
+
+1005
+00:22:06,240 --> 00:22:08,810
+fraction formula
+this means that any matrices that differ
+
+1006
+00:22:08,810 --> 00:22:08,820
+this means that any matrices that differ
+ 
+
+1007
+00:22:08,820 --> 00:22:11,149
+this means that any matrices that differ
+by an overall multiplication of a
+
+1008
+00:22:11,149 --> 00:22:11,159
+by an overall multiplication of a
+ 
+
+1009
+00:22:11,159 --> 00:22:13,370
+by an overall multiplication of a
+complex number perform the same
+
+1010
+00:22:13,370 --> 00:22:13,380
+complex number perform the same
+ 
+
+1011
+00:22:13,380 --> 00:22:15,289
+complex number perform the same
+transformation
+
+1012
+00:22:15,289 --> 00:22:15,299
+transformation
+ 
+
+1013
+00:22:15,299 --> 00:22:18,230
+transformation
+this allows us to scale the matrices by
+
+1014
+00:22:18,230 --> 00:22:18,240
+this allows us to scale the matrices by
+ 
+
+1015
+00:22:18,240 --> 00:22:21,409
+this allows us to scale the matrices by
+any complex number we like and therefore
+
+1016
+00:22:21,409 --> 00:22:21,419
+any complex number we like and therefore
+ 
+
+1017
+00:22:21,419 --> 00:22:23,690
+any complex number we like and therefore
+set the Matrix determinant to any number
+
+1018
+00:22:23,690 --> 00:22:23,700
+set the Matrix determinant to any number
+ 
+
+1019
+00:22:23,700 --> 00:22:26,510
+set the Matrix determinant to any number
+we like we can choose a scaling number
+
+1020
+00:22:26,510 --> 00:22:26,520
+we like we can choose a scaling number
+ 
+
+1021
+00:22:26,520 --> 00:22:28,610
+we like we can choose a scaling number
+which sets the determinant of the Matrix
+
+1022
+00:22:28,610 --> 00:22:28,620
+which sets the determinant of the Matrix
+ 
+
+1023
+00:22:28,620 --> 00:22:30,529
+which sets the determinant of the Matrix
+two plus one
+
+1024
+00:22:30,529 --> 00:22:30,539
+two plus one
+ 
+
+1025
+00:22:30,539 --> 00:22:32,510
+two plus one
+you might think that this gives us the
+
+1026
+00:22:32,510 --> 00:22:32,520
+you might think that this gives us the
+ 
+
+1027
+00:22:32,520 --> 00:22:36,049
+you might think that this gives us the
+sl2c matrices but not quite
+
+1028
+00:22:36,049 --> 00:22:36,059
+sl2c matrices but not quite
+ 
+
+1029
+00:22:36,059 --> 00:22:38,930
+sl2c matrices but not quite
+since overall scaling doesn't change the
+
+1030
+00:22:38,930 --> 00:22:38,940
+since overall scaling doesn't change the
+ 
+
+1031
+00:22:38,940 --> 00:22:41,090
+since overall scaling doesn't change the
+transformation this means that the
+
+1032
+00:22:41,090 --> 00:22:41,100
+transformation this means that the
+ 
+
+1033
+00:22:41,100 --> 00:22:42,950
+transformation this means that the
+positive version of a matrix is
+
+1034
+00:22:42,950 --> 00:22:42,960
+positive version of a matrix is
+ 
+
+1035
+00:22:42,960 --> 00:22:45,049
+positive version of a matrix is
+equivalent to the negative version of
+
+1036
+00:22:45,049 --> 00:22:45,059
+equivalent to the negative version of
+ 
+
+1037
+00:22:45,059 --> 00:22:46,490
+equivalent to the negative version of
+that Matrix
+
+1038
+00:22:46,490 --> 00:22:46,500
+that Matrix
+ 
+
+1039
+00:22:46,500 --> 00:22:50,330
+that Matrix
+so this doesn't give us sl2c but instead
+
+1040
+00:22:50,330 --> 00:22:50,340
+so this doesn't give us sl2c but instead
+ 
+
+1041
+00:22:50,340 --> 00:22:52,090
+so this doesn't give us sl2c but instead
+its projected version
+
+1042
+00:22:52,090 --> 00:22:52,100
+its projected version
+ 
+
+1043
+00:22:52,100 --> 00:22:55,730
+its projected version
+so13 which is also sometimes called the
+
+1044
+00:22:55,730 --> 00:22:55,740
+so13 which is also sometimes called the
+ 
+
+1045
+00:22:55,740 --> 00:23:00,830
+so13 which is also sometimes called the
+projective special linear matrices psl2c
+
+1046
+00:23:00,830 --> 00:23:00,840
+
+ 
+
+1047
+00:23:00,840 --> 00:23:03,350
+
+so we see that Mobius Transformations
+
+1048
+00:23:03,350 --> 00:23:03,360
+so we see that Mobius Transformations
+ 
+
+1049
+00:23:03,360 --> 00:23:06,549
+so we see that Mobius Transformations
+are equivalent to Lorenz Transformations
+
+1050
+00:23:06,549 --> 00:23:06,559
+are equivalent to Lorenz Transformations
+ 
+
+1051
+00:23:06,559 --> 00:23:10,789
+are equivalent to Lorenz Transformations
+so13 on spinners
+
+1052
+00:23:10,789 --> 00:23:10,799
+so13 on spinners
+ 
+
+1053
+00:23:10,799 --> 00:23:13,310
+so13 on spinners
+now these double covers of the rotation
+
+1054
+00:23:13,310 --> 00:23:13,320
+now these double covers of the rotation
+ 
+
+1055
+00:23:13,320 --> 00:23:15,950
+now these double covers of the rotation
+and lorentz groups actually have special
+
+1056
+00:23:15,950 --> 00:23:15,960
+and lorentz groups actually have special
+ 
+
+1057
+00:23:15,960 --> 00:23:19,850
+and lorentz groups actually have special
+names they are called spin groups
+
+1058
+00:23:19,850 --> 00:23:19,860
+names they are called spin groups
+ 
+
+1059
+00:23:19,860 --> 00:23:23,450
+names they are called spin groups
+for example the double cover of SO3 is
+
+1060
+00:23:23,450 --> 00:23:23,460
+for example the double cover of SO3 is
+ 
+
+1061
+00:23:23,460 --> 00:23:26,570
+for example the double cover of SO3 is
+called the group spin 3 which also
+
+1062
+00:23:26,570 --> 00:23:26,580
+called the group spin 3 which also
+ 
+
+1063
+00:23:26,580 --> 00:23:29,570
+called the group spin 3 which also
+happens to be equivalent to su2
+
+1064
+00:23:29,570 --> 00:23:29,580
+happens to be equivalent to su2
+ 
+
+1065
+00:23:29,580 --> 00:23:33,289
+happens to be equivalent to su2
+the double cover of so13 is called the
+
+1066
+00:23:33,289 --> 00:23:33,299
+the double cover of so13 is called the
+ 
+
+1067
+00:23:33,299 --> 00:23:36,770
+the double cover of so13 is called the
+group spin 1 3 which also happens to be
+
+1068
+00:23:36,770 --> 00:23:36,780
+group spin 1 3 which also happens to be
+ 
+
+1069
+00:23:36,780 --> 00:23:39,770
+group spin 1 3 which also happens to be
+equivalent to sl2c
+
+1070
+00:23:39,770 --> 00:23:39,780
+equivalent to sl2c
+ 
+
+1071
+00:23:39,780 --> 00:23:41,990
+equivalent to sl2c
+we were able to figure out what the spin
+
+1072
+00:23:41,990 --> 00:23:42,000
+we were able to figure out what the spin
+ 
+
+1073
+00:23:42,000 --> 00:23:44,930
+we were able to figure out what the spin
+3 and spin 1 3 groups were using
+
+1074
+00:23:44,930 --> 00:23:44,940
+3 and spin 1 3 groups were using
+ 
+
+1075
+00:23:44,940 --> 00:23:47,450
+3 and spin 1 3 groups were using
+intuition and cleverness over the past
+
+1076
+00:23:47,450 --> 00:23:47,460
+intuition and cleverness over the past
+ 
+
+1077
+00:23:47,460 --> 00:23:50,750
+intuition and cleverness over the past
+few videos once we found there were ways
+
+1078
+00:23:50,750 --> 00:23:50,760
+few videos once we found there were ways
+ 
+
+1079
+00:23:50,760 --> 00:23:53,930
+few videos once we found there were ways
+to represent 3D spatial vectors and 4D
+
+1080
+00:23:53,930 --> 00:23:53,940
+to represent 3D spatial vectors and 4D
+ 
+
+1081
+00:23:53,940 --> 00:23:55,970
+to represent 3D spatial vectors and 4D
+space-time vectors as two by two
+
+1082
+00:23:55,970 --> 00:23:55,980
+space-time vectors as two by two
+ 
+
+1083
+00:23:55,980 --> 00:23:58,370
+space-time vectors as two by two
+matrices we ended up figuring out
+
+1084
+00:23:58,370 --> 00:23:58,380
+matrices we ended up figuring out
+ 
+
+1085
+00:23:58,380 --> 00:24:01,010
+matrices we ended up figuring out
+through a mix of trial and error that we
+
+1086
+00:24:01,010 --> 00:24:01,020
+through a mix of trial and error that we
+ 
+
+1087
+00:24:01,020 --> 00:24:02,810
+through a mix of trial and error that we
+could rotate the components of these two
+
+1088
+00:24:02,810 --> 00:24:02,820
+could rotate the components of these two
+ 
+
+1089
+00:24:02,820 --> 00:24:05,330
+could rotate the components of these two
+by two matrices using double-sided
+
+1090
+00:24:05,330 --> 00:24:05,340
+by two matrices using double-sided
+ 
+
+1091
+00:24:05,340 --> 00:24:07,250
+by two matrices using double-sided
+transformations
+
+1092
+00:24:07,250 --> 00:24:07,260
+transformations
+ 
+
+1093
+00:24:07,260 --> 00:24:10,250
+transformations
+and this gave us the double covers su2
+
+1094
+00:24:10,250 --> 00:24:10,260
+and this gave us the double covers su2
+ 
+
+1095
+00:24:10,260 --> 00:24:14,029
+and this gave us the double covers su2
+and sl2c which are also called spin 3
+
+1096
+00:24:14,029 --> 00:24:14,039
+and sl2c which are also called spin 3
+ 
+
+1097
+00:24:14,039 --> 00:24:16,130
+and sl2c which are also called spin 3
+and spin 1 3.
+
+1098
+00:24:16,130 --> 00:24:16,140
+and spin 1 3.
+ 
+
+1099
+00:24:16,140 --> 00:24:18,649
+and spin 1 3.
+but there's a more systematic way of
+
+1100
+00:24:18,649 --> 00:24:18,659
+but there's a more systematic way of
+ 
+
+1101
+00:24:18,659 --> 00:24:20,750
+but there's a more systematic way of
+building these spin groups
+
+1102
+00:24:20,750 --> 00:24:20,760
+building these spin groups
+ 
+
+1103
+00:24:20,760 --> 00:24:23,450
+building these spin groups
+for any Dimension n given the rotation
+
+1104
+00:24:23,450 --> 00:24:23,460
+for any Dimension n given the rotation
+ 
+
+1105
+00:24:23,460 --> 00:24:26,630
+for any Dimension n given the rotation
+group son there's a systematic way of
+
+1106
+00:24:26,630 --> 00:24:26,640
+group son there's a systematic way of
+ 
+
+1107
+00:24:26,640 --> 00:24:29,930
+group son there's a systematic way of
+constructing its double cover spin n
+
+1108
+00:24:29,930 --> 00:24:29,940
+constructing its double cover spin n
+ 
+
+1109
+00:24:29,940 --> 00:24:31,909
+constructing its double cover spin n
+if you think of the unit length
+
+1110
+00:24:31,909 --> 00:24:31,919
+if you think of the unit length
+ 
+
+1111
+00:24:31,919 --> 00:24:34,430
+if you think of the unit length
+quaternions as being the group spin 3
+
+1112
+00:24:34,430 --> 00:24:34,440
+quaternions as being the group spin 3
+ 
+
+1113
+00:24:34,440 --> 00:24:37,310
+quaternions as being the group spin 3
+then the group spin n would be the
+
+1114
+00:24:37,310 --> 00:24:37,320
+then the group spin n would be the
+ 
+
+1115
+00:24:37,320 --> 00:24:39,649
+then the group spin n would be the
+generalization of the quaternions for
+
+1116
+00:24:39,649 --> 00:24:39,659
+generalization of the quaternions for
+ 
+
+1117
+00:24:39,659 --> 00:24:43,250
+generalization of the quaternions for
+any arbitrary Dimension n likewise for
+
+1118
+00:24:43,250 --> 00:24:43,260
+any arbitrary Dimension n likewise for
+ 
+
+1119
+00:24:43,260 --> 00:24:45,830
+any arbitrary Dimension n likewise for
+any space time with p time dimensions
+
+1120
+00:24:45,830 --> 00:24:45,840
+any space time with p time dimensions
+ 
+
+1121
+00:24:45,840 --> 00:24:48,710
+any space time with p time dimensions
+and Q space dimensions we have the
+
+1122
+00:24:48,710 --> 00:24:48,720
+and Q space dimensions we have the
+ 
+
+1123
+00:24:48,720 --> 00:24:52,610
+and Q space dimensions we have the
+lorentz group sopq there's a systematic
+
+1124
+00:24:52,610 --> 00:24:52,620
+lorentz group sopq there's a systematic
+ 
+
+1125
+00:24:52,620 --> 00:24:54,649
+lorentz group sopq there's a systematic
+way of constructing its double cover
+
+1126
+00:24:54,649 --> 00:24:54,659
+way of constructing its double cover
+ 
+
+1127
+00:24:54,659 --> 00:24:56,870
+way of constructing its double cover
+spin PQ
+
+1128
+00:24:56,870 --> 00:24:56,880
+spin PQ
+ 
+
+1129
+00:24:56,880 --> 00:24:59,390
+spin PQ
+the systematic way of constructing these
+
+1130
+00:24:59,390 --> 00:24:59,400
+the systematic way of constructing these
+ 
+
+1131
+00:24:59,400 --> 00:25:01,970
+the systematic way of constructing these
+spin groups involves the use of Clifford
+
+1132
+00:25:01,970 --> 00:25:01,980
+spin groups involves the use of Clifford
+ 
+
+1133
+00:25:01,980 --> 00:25:05,270
+spin groups involves the use of Clifford
+algebras also called geometric algebras
+
+1134
+00:25:05,270 --> 00:25:05,280
+algebras also called geometric algebras
+ 
+
+1135
+00:25:05,280 --> 00:25:07,490
+algebras also called geometric algebras
+which is what we're going to cover in
+
+1136
+00:25:07,490 --> 00:25:07,500
+which is what we're going to cover in
+ 
+
+1137
+00:25:07,500 --> 00:25:10,190
+which is what we're going to cover in
+the next few videos in the series
+
+1138
+00:25:10,190 --> 00:25:10,200
+the next few videos in the series
+ 
+
+1139
+00:25:10,200 --> 00:25:12,590
+the next few videos in the series
+Clifford algebras can be thought of as
+
+1140
+00:25:12,590 --> 00:25:12,600
+Clifford algebras can be thought of as
+ 
+
+1141
+00:25:12,600 --> 00:25:14,890
+Clifford algebras can be thought of as
+generalizations of complex numbers
+
+1142
+00:25:14,890 --> 00:25:14,900
+generalizations of complex numbers
+ 
+
+1143
+00:25:14,900 --> 00:25:18,230
+generalizations of complex numbers
+quaternions and the sigma matrices as
+
+1144
+00:25:18,230 --> 00:25:18,240
+quaternions and the sigma matrices as
+ 
+
+1145
+00:25:18,240 --> 00:25:20,149
+quaternions and the sigma matrices as
+well as the Dirac matrices from the
+
+1146
+00:25:20,149 --> 00:25:20,159
+well as the Dirac matrices from the
+ 
+
+1147
+00:25:20,159 --> 00:25:23,090
+well as the Dirac matrices from the
+Dirac equation in particle physics
+
+1148
+00:25:23,090 --> 00:25:23,100
+Dirac equation in particle physics
+ 
+
+1149
+00:25:23,100 --> 00:25:25,850
+Dirac equation in particle physics
+the key idea behind Clifford algebra's
+
+1150
+00:25:25,850 --> 00:25:25,860
+the key idea behind Clifford algebra's
+ 
+
+1151
+00:25:25,860 --> 00:25:28,070
+the key idea behind Clifford algebra's
+is having symbols that square to either
+
+1152
+00:25:28,070 --> 00:25:28,080
+is having symbols that square to either
+ 
+
+1153
+00:25:28,080 --> 00:25:30,830
+is having symbols that square to either
+plus one or minus one that also
+
+1154
+00:25:30,830 --> 00:25:30,840
+plus one or minus one that also
+ 
+
+1155
+00:25:30,840 --> 00:25:32,990
+plus one or minus one that also
+anti-commute with each other
+
+1156
+00:25:32,990 --> 00:25:33,000
+anti-commute with each other
+ 
+
+1157
+00:25:33,000 --> 00:25:35,750
+anti-commute with each other
+these simple properties let us do some
+
+1158
+00:25:35,750 --> 00:25:35,760
+these simple properties let us do some
+ 
+
+1159
+00:25:35,760 --> 00:25:37,789
+these simple properties let us do some
+very impressive things
+
+1160
+00:25:37,789 --> 00:25:37,799
+very impressive things
+ 
+
+1161
+00:25:37,799 --> 00:25:40,310
+very impressive things
+we normally think of scalars vectors
+
+1162
+00:25:40,310 --> 00:25:40,320
+we normally think of scalars vectors
+ 
+
+1163
+00:25:40,320 --> 00:25:43,070
+we normally think of scalars vectors
+Spinners and the rotation operations on
+
+1164
+00:25:43,070 --> 00:25:43,080
+Spinners and the rotation operations on
+ 
+
+1165
+00:25:43,080 --> 00:25:45,289
+Spinners and the rotation operations on
+these objects as being separate kinds of
+
+1166
+00:25:45,289 --> 00:25:45,299
+these objects as being separate kinds of
+ 
+
+1167
+00:25:45,299 --> 00:25:46,490
+these objects as being separate kinds of
+objects
+
+1168
+00:25:46,490 --> 00:25:46,500
+objects
+ 
+
+1169
+00:25:46,500 --> 00:25:48,950
+objects
+but in Clifford algebras all these
+
+1170
+00:25:48,950 --> 00:25:48,960
+but in Clifford algebras all these
+ 
+
+1171
+00:25:48,960 --> 00:25:51,950
+but in Clifford algebras all these
+objects live together side by side this
+
+1172
+00:25:51,950 --> 00:25:51,960
+objects live together side by side this
+ 
+
+1173
+00:25:51,960 --> 00:25:54,409
+objects live together side by side this
+doesn't give us any new math or physics
+
+1174
+00:25:54,409 --> 00:25:54,419
+doesn't give us any new math or physics
+ 
+
+1175
+00:25:54,419 --> 00:25:56,630
+doesn't give us any new math or physics
+but it does let us rewrite certain
+
+1176
+00:25:56,630 --> 00:25:56,640
+but it does let us rewrite certain
+ 
+
+1177
+00:25:56,640 --> 00:25:58,850
+but it does let us rewrite certain
+equations in math and physics in
+
+1178
+00:25:58,850 --> 00:25:58,860
+equations in math and physics in
+ 
+
+1179
+00:25:58,860 --> 00:26:00,950
+equations in math and physics in
+impressively clean ways
+
+1180
+00:26:00,950 --> 00:26:00,960
+impressively clean ways
+ 
+
+1181
+00:26:00,960 --> 00:26:03,350
+impressively clean ways
+for example it's possible to write the
+
+1182
+00:26:03,350 --> 00:26:03,360
+for example it's possible to write the
+ 
+
+1183
+00:26:03,360 --> 00:26:05,570
+for example it's possible to write the
+four Maxwell equations of electricity
+
+1184
+00:26:05,570 --> 00:26:05,580
+four Maxwell equations of electricity
+ 
+
+1185
+00:26:05,580 --> 00:26:08,510
+four Maxwell equations of electricity
+and magnetism as a single equation using
+
+1186
+00:26:08,510 --> 00:26:08,520
+and magnetism as a single equation using
+ 
+
+1187
+00:26:08,520 --> 00:26:10,370
+and magnetism as a single equation using
+Clifford algebras
+
+1188
+00:26:10,370 --> 00:26:10,380
+Clifford algebras
+ 
+
+1189
+00:26:10,380 --> 00:26:12,590
+Clifford algebras
+it's also possible to write the Dirac
+
+1190
+00:26:12,590 --> 00:26:12,600
+it's also possible to write the Dirac
+ 
+
+1191
+00:26:12,600 --> 00:26:15,350
+it's also possible to write the Dirac
+equation Which models free Spin one-half
+
+1192
+00:26:15,350 --> 00:26:15,360
+equation Which models free Spin one-half
+ 
+
+1193
+00:26:15,360 --> 00:26:17,750
+equation Which models free Spin one-half
+particles and quantum mechanics using
+
+1194
+00:26:17,750 --> 00:26:17,760
+particles and quantum mechanics using
+ 
+
+1195
+00:26:17,760 --> 00:26:20,090
+particles and quantum mechanics using
+Clifford algebras
+
+1196
+00:26:20,090 --> 00:26:20,100
+Clifford algebras
+ 
+
+1197
+00:26:20,100 --> 00:26:21,950
+Clifford algebras
+we can also systematically build
+
+1198
+00:26:21,950 --> 00:26:21,960
+we can also systematically build
+ 
+
+1199
+00:26:21,960 --> 00:26:24,289
+we can also systematically build
+Spinners and Clifford algebras as well
+
+1200
+00:26:24,289 --> 00:26:24,299
+Spinners and Clifford algebras as well
+ 
+
+1201
+00:26:24,299 --> 00:26:26,390
+Spinners and Clifford algebras as well
+so if you want to learn more about
+
+1202
+00:26:26,390 --> 00:26:26,400
+so if you want to learn more about
+ 
+
+1203
+00:26:26,400 --> 00:26:28,669
+so if you want to learn more about
+Clifford algebras you can move on to the
+
+1204
+00:26:28,669 --> 00:26:28,679
+Clifford algebras you can move on to the
+ 
+
+1205
+00:26:28,679 --> 00:26:30,769
+Clifford algebras you can move on to the
+next video spinners for beginners number
+
+1206
+00:26:30,769 --> 00:26:30,779
+next video spinners for beginners number
+ 
+
+1207
+00:26:30,779 --> 00:26:33,380
+next video spinners for beginners number
+11.
+

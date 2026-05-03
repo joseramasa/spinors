@@ -1,0 +1,4115 @@
+1
+00:00:00,060 --> 00:00:02,930
+
+so in the last video I introduced my
+
+2
+00:00:02,930 --> 00:00:02,940
+so in the last video I introduced my
+ 
+
+3
+00:00:02,940 --> 00:00:05,450
+so in the last video I introduced my
+staircase plan for explaining Spinners
+
+4
+00:00:05,450 --> 00:00:05,460
+staircase plan for explaining Spinners
+ 
+
+5
+00:00:05,460 --> 00:00:07,249
+staircase plan for explaining Spinners
+which starts with the simplest
+
+6
+00:00:07,249 --> 00:00:07,259
+which starts with the simplest
+ 
+
+7
+00:00:07,259 --> 00:00:09,650
+which starts with the simplest
+explanations at the bottom and ends with
+
+8
+00:00:09,650 --> 00:00:09,660
+explanations at the bottom and ends with
+ 
+
+9
+00:00:09,660 --> 00:00:11,750
+explanations at the bottom and ends with
+the most complicated explanations at the
+
+10
+00:00:11,750 --> 00:00:11,760
+the most complicated explanations at the
+ 
+
+11
+00:00:11,760 --> 00:00:14,089
+the most complicated explanations at the
+top we're going to start at the bottom
+
+12
+00:00:14,089 --> 00:00:14,099
+top we're going to start at the bottom
+ 
+
+13
+00:00:14,099 --> 00:00:16,490
+top we're going to start at the bottom
+of the staircase which is basic examples
+
+14
+00:00:16,490 --> 00:00:16,500
+of the staircase which is basic examples
+ 
+
+15
+00:00:16,500 --> 00:00:18,830
+of the staircase which is basic examples
+of spinners in physics
+
+16
+00:00:18,830 --> 00:00:18,840
+of spinners in physics
+ 
+
+17
+00:00:18,840 --> 00:00:21,290
+of spinners in physics
+in the next four or five videos I'm
+
+18
+00:00:21,290 --> 00:00:21,300
+in the next four or five videos I'm
+ 
+
+19
+00:00:21,300 --> 00:00:23,570
+in the next four or five videos I'm
+going to talk about two examples of how
+
+20
+00:00:23,570 --> 00:00:23,580
+going to talk about two examples of how
+ 
+
+21
+00:00:23,580 --> 00:00:25,970
+going to talk about two examples of how
+Spinners come up in physics the
+
+22
+00:00:25,970 --> 00:00:25,980
+Spinners come up in physics the
+ 
+
+23
+00:00:25,980 --> 00:00:28,490
+Spinners come up in physics the
+polarization of light waves and Quantum
+
+24
+00:00:28,490 --> 00:00:28,500
+polarization of light waves and Quantum
+ 
+
+25
+00:00:28,500 --> 00:00:29,870
+polarization of light waves and Quantum
+spin States
+
+26
+00:00:29,870 --> 00:00:29,880
+spin States
+ 
+
+27
+00:00:29,880 --> 00:00:31,970
+spin States
+we're going to find that both of these
+
+28
+00:00:31,970 --> 00:00:31,980
+we're going to find that both of these
+ 
+
+29
+00:00:31,980 --> 00:00:34,490
+we're going to find that both of these
+phenomena can be described by Spinners
+
+30
+00:00:34,490 --> 00:00:34,500
+phenomena can be described by Spinners
+ 
+
+31
+00:00:34,500 --> 00:00:37,370
+phenomena can be described by Spinners
+in the form of two by one columns with
+
+32
+00:00:37,370 --> 00:00:37,380
+in the form of two by one columns with
+ 
+
+33
+00:00:37,380 --> 00:00:39,410
+in the form of two by one columns with
+complex number entries
+
+34
+00:00:39,410 --> 00:00:39,420
+complex number entries
+ 
+
+35
+00:00:39,420 --> 00:00:41,869
+complex number entries
+afterward we'll see how we can visualize
+
+36
+00:00:41,869 --> 00:00:41,879
+afterward we'll see how we can visualize
+ 
+
+37
+00:00:41,879 --> 00:00:44,770
+afterward we'll see how we can visualize
+these Spinners as flag poles on a sphere
+
+38
+00:00:44,770 --> 00:00:44,780
+these Spinners as flag poles on a sphere
+ 
+
+39
+00:00:44,780 --> 00:00:47,990
+these Spinners as flag poles on a sphere
+called the plank array sphere or block
+
+40
+00:00:47,990 --> 00:00:48,000
+called the plank array sphere or block
+ 
+
+41
+00:00:48,000 --> 00:00:49,369
+called the plank array sphere or block
+sphere
+
+42
+00:00:49,369 --> 00:00:49,379
+sphere
+ 
+
+43
+00:00:49,379 --> 00:00:51,950
+sphere
+in this video we're going to discuss all
+
+44
+00:00:51,950 --> 00:00:51,960
+in this video we're going to discuss all
+ 
+
+45
+00:00:51,960 --> 00:00:53,810
+in this video we're going to discuss all
+the different polarizations of light
+
+46
+00:00:53,810 --> 00:00:53,820
+the different polarizations of light
+ 
+
+47
+00:00:53,820 --> 00:00:56,389
+the different polarizations of light
+waves and their corresponding Spinners
+
+48
+00:00:56,389 --> 00:00:56,399
+waves and their corresponding Spinners
+ 
+
+49
+00:00:56,399 --> 00:00:59,689
+waves and their corresponding Spinners
+which are called Jones vectors in this
+
+50
+00:00:59,689 --> 00:00:59,699
+which are called Jones vectors in this
+ 
+
+51
+00:00:59,699 --> 00:01:01,130
+which are called Jones vectors in this
+specific case
+
+52
+00:01:01,130 --> 00:01:01,140
+specific case
+ 
+
+53
+00:01:01,140 --> 00:01:03,470
+specific case
+and in the next video we will discuss
+
+54
+00:01:03,470 --> 00:01:03,480
+and in the next video we will discuss
+ 
+
+55
+00:01:03,480 --> 00:01:05,090
+and in the next video we will discuss
+how to rotate between these
+
+56
+00:01:05,090 --> 00:01:05,100
+how to rotate between these
+ 
+
+57
+00:01:05,100 --> 00:01:09,590
+how to rotate between these
+polarizations using su2 matrices
+
+58
+00:01:09,590 --> 00:01:09,600
+polarizations using su2 matrices
+ 
+
+59
+00:01:09,600 --> 00:01:11,750
+polarizations using su2 matrices
+so I'm hoping you're familiar with
+
+60
+00:01:11,750 --> 00:01:11,760
+so I'm hoping you're familiar with
+ 
+
+61
+00:01:11,760 --> 00:01:14,330
+so I'm hoping you're familiar with
+electric and magnetic fields the
+
+62
+00:01:14,330 --> 00:01:14,340
+electric and magnetic fields the
+ 
+
+63
+00:01:14,340 --> 00:01:16,310
+electric and magnetic fields the
+electric field is a set of vectors
+
+64
+00:01:16,310 --> 00:01:16,320
+electric field is a set of vectors
+ 
+
+65
+00:01:16,320 --> 00:01:18,890
+electric field is a set of vectors
+everywhere in space that point in the
+
+66
+00:01:18,890 --> 00:01:18,900
+everywhere in space that point in the
+ 
+
+67
+00:01:18,900 --> 00:01:20,929
+everywhere in space that point in the
+direction that a positive charge will be
+
+68
+00:01:20,929 --> 00:01:20,939
+direction that a positive charge will be
+ 
+
+69
+00:01:20,939 --> 00:01:23,990
+direction that a positive charge will be
+pulled in due to electric forces
+
+70
+00:01:23,990 --> 00:01:24,000
+pulled in due to electric forces
+ 
+
+71
+00:01:24,000 --> 00:01:26,270
+pulled in due to electric forces
+the magnetic field is another set of
+
+72
+00:01:26,270 --> 00:01:26,280
+the magnetic field is another set of
+ 
+
+73
+00:01:26,280 --> 00:01:28,730
+the magnetic field is another set of
+vectors everywhere in space that tell us
+
+74
+00:01:28,730 --> 00:01:28,740
+vectors everywhere in space that tell us
+ 
+
+75
+00:01:28,740 --> 00:01:31,070
+vectors everywhere in space that tell us
+which direction a compass will point due
+
+76
+00:01:31,070 --> 00:01:31,080
+which direction a compass will point due
+ 
+
+77
+00:01:31,080 --> 00:01:33,230
+which direction a compass will point due
+to Magnetic forces
+
+78
+00:01:33,230 --> 00:01:33,240
+to Magnetic forces
+ 
+
+79
+00:01:33,240 --> 00:01:35,569
+to Magnetic forces
+according to the laws of electricity and
+
+80
+00:01:35,569 --> 00:01:35,579
+according to the laws of electricity and
+ 
+
+81
+00:01:35,579 --> 00:01:38,270
+according to the laws of electricity and
+magnetism it's possible for electric and
+
+82
+00:01:38,270 --> 00:01:38,280
+magnetism it's possible for electric and
+ 
+
+83
+00:01:38,280 --> 00:01:40,850
+magnetism it's possible for electric and
+magnetic field vectors to vibrate back
+
+84
+00:01:40,850 --> 00:01:40,860
+magnetic field vectors to vibrate back
+ 
+
+85
+00:01:40,860 --> 00:01:43,630
+magnetic field vectors to vibrate back
+and forth together in a wave called an
+
+86
+00:01:43,630 --> 00:01:43,640
+and forth together in a wave called an
+ 
+
+87
+00:01:43,640 --> 00:01:45,649
+and forth together in a wave called an
+electromagnetic wave
+
+88
+00:01:45,649 --> 00:01:45,659
+electromagnetic wave
+ 
+
+89
+00:01:45,659 --> 00:01:48,370
+electromagnetic wave
+the light we see is an example of
+
+90
+00:01:48,370 --> 00:01:48,380
+the light we see is an example of
+ 
+
+91
+00:01:48,380 --> 00:01:50,450
+the light we see is an example of
+electromagnetic waves
+
+92
+00:01:50,450 --> 00:01:50,460
+electromagnetic waves
+ 
+
+93
+00:01:50,460 --> 00:01:53,389
+electromagnetic waves
+usually electromagnetic waves are
+
+94
+00:01:53,389 --> 00:01:53,399
+usually electromagnetic waves are
+ 
+
+95
+00:01:53,399 --> 00:01:55,670
+usually electromagnetic waves are
+traveling waves meaning they travel
+
+96
+00:01:55,670 --> 00:01:55,680
+traveling waves meaning they travel
+ 
+
+97
+00:01:55,680 --> 00:01:57,950
+traveling waves meaning they travel
+through space over time
+
+98
+00:01:57,950 --> 00:01:57,960
+through space over time
+ 
+
+99
+00:01:57,960 --> 00:02:00,410
+through space over time
+the image you're seeing here is a
+
+100
+00:02:00,410 --> 00:02:00,420
+the image you're seeing here is a
+ 
+
+101
+00:02:00,420 --> 00:02:03,109
+the image you're seeing here is a
+snapshot of an electromagnetic wave at a
+
+102
+00:02:03,109 --> 00:02:03,119
+snapshot of an electromagnetic wave at a
+ 
+
+103
+00:02:03,119 --> 00:02:06,050
+snapshot of an electromagnetic wave at a
+single instant in time but as time
+
+104
+00:02:06,050 --> 00:02:06,060
+single instant in time but as time
+ 
+
+105
+00:02:06,060 --> 00:02:09,910
+single instant in time but as time
+passes by the wave will travel forward
+
+106
+00:02:09,910 --> 00:02:09,920
+passes by the wave will travel forward
+ 
+
+107
+00:02:09,920 --> 00:02:12,530
+passes by the wave will travel forward
+electromagnetic waves are transverse
+
+108
+00:02:12,530 --> 00:02:12,540
+electromagnetic waves are transverse
+ 
+
+109
+00:02:12,540 --> 00:02:15,170
+electromagnetic waves are transverse
+waves this means the direction of the
+
+110
+00:02:15,170 --> 00:02:15,180
+waves this means the direction of the
+ 
+
+111
+00:02:15,180 --> 00:02:17,030
+waves this means the direction of the
+wave oscillations is always
+
+112
+00:02:17,030 --> 00:02:17,040
+wave oscillations is always
+ 
+
+113
+00:02:17,040 --> 00:02:20,270
+wave oscillations is always
+perpendicular to the direction of travel
+
+114
+00:02:20,270 --> 00:02:20,280
+perpendicular to the direction of travel
+ 
+
+115
+00:02:20,280 --> 00:02:22,850
+perpendicular to the direction of travel
+so if an electromagnetic wave is
+
+116
+00:02:22,850 --> 00:02:22,860
+so if an electromagnetic wave is
+ 
+
+117
+00:02:22,860 --> 00:02:25,670
+so if an electromagnetic wave is
+traveling in the Z direction the wave
+
+118
+00:02:25,670 --> 00:02:25,680
+traveling in the Z direction the wave
+ 
+
+119
+00:02:25,680 --> 00:02:27,770
+traveling in the Z direction the wave
+can oscillate in the X Y plane
+
+120
+00:02:27,770 --> 00:02:27,780
+can oscillate in the X Y plane
+ 
+
+121
+00:02:27,780 --> 00:02:29,809
+can oscillate in the X Y plane
+perpendicular to the direction of travel
+
+122
+00:02:29,809 --> 00:02:29,819
+perpendicular to the direction of travel
+ 
+
+123
+00:02:29,819 --> 00:02:32,990
+perpendicular to the direction of travel
+but the wave cannot oscillate in the Z
+
+124
+00:02:32,990 --> 00:02:33,000
+but the wave cannot oscillate in the Z
+ 
+
+125
+00:02:33,000 --> 00:02:35,390
+but the wave cannot oscillate in the Z
+Direction parallel to the direction of
+
+126
+00:02:35,390 --> 00:02:35,400
+Direction parallel to the direction of
+ 
+
+127
+00:02:35,400 --> 00:02:36,710
+Direction parallel to the direction of
+travel
+
+128
+00:02:36,710 --> 00:02:36,720
+travel
+ 
+
+129
+00:02:36,720 --> 00:02:38,990
+travel
+the polarization of a given
+
+130
+00:02:38,990 --> 00:02:39,000
+the polarization of a given
+ 
+
+131
+00:02:39,000 --> 00:02:41,869
+the polarization of a given
+electromagnetic wave is the geometric
+
+132
+00:02:41,869 --> 00:02:41,879
+electromagnetic wave is the geometric
+ 
+
+133
+00:02:41,879 --> 00:02:44,570
+electromagnetic wave is the geometric
+orientation of the wave
+
+134
+00:02:44,570 --> 00:02:44,580
+orientation of the wave
+ 
+
+135
+00:02:44,580 --> 00:02:47,210
+orientation of the wave
+we only use the electric field e to
+
+136
+00:02:47,210 --> 00:02:47,220
+we only use the electric field e to
+ 
+
+137
+00:02:47,220 --> 00:02:49,070
+we only use the electric field e to
+define the polarization of an
+
+138
+00:02:49,070 --> 00:02:49,080
+define the polarization of an
+ 
+
+139
+00:02:49,080 --> 00:02:51,410
+define the polarization of an
+electromagnetic wave so we ignore the
+
+140
+00:02:51,410 --> 00:02:51,420
+electromagnetic wave so we ignore the
+ 
+
+141
+00:02:51,420 --> 00:02:53,150
+electromagnetic wave so we ignore the
+magnetic field when talking about
+
+142
+00:02:53,150 --> 00:02:53,160
+magnetic field when talking about
+ 
+
+143
+00:02:53,160 --> 00:02:55,550
+magnetic field when talking about
+polarization
+
+144
+00:02:55,550 --> 00:02:55,560
+polarization
+ 
+
+145
+00:02:55,560 --> 00:02:57,770
+polarization
+let's look at an electromagnetic wave
+
+146
+00:02:57,770 --> 00:02:57,780
+let's look at an electromagnetic wave
+ 
+
+147
+00:02:57,780 --> 00:03:00,890
+let's look at an electromagnetic wave
+propagating in the Z direction again
+
+148
+00:03:00,890 --> 00:03:00,900
+propagating in the Z direction again
+ 
+
+149
+00:03:00,900 --> 00:03:03,350
+propagating in the Z direction again
+here we're looking at a snapshot of a
+
+150
+00:03:03,350 --> 00:03:03,360
+here we're looking at a snapshot of a
+ 
+
+151
+00:03:03,360 --> 00:03:06,890
+here we're looking at a snapshot of a
+traveling wave at one instant in time
+
+152
+00:03:06,890 --> 00:03:06,900
+traveling wave at one instant in time
+ 
+
+153
+00:03:06,900 --> 00:03:09,170
+traveling wave at one instant in time
+when the electric field oscillates up
+
+154
+00:03:09,170 --> 00:03:09,180
+when the electric field oscillates up
+ 
+
+155
+00:03:09,180 --> 00:03:12,229
+when the electric field oscillates up
+and down along the y-axis we call this
+
+156
+00:03:12,229 --> 00:03:12,239
+and down along the y-axis we call this
+ 
+
+157
+00:03:12,239 --> 00:03:14,390
+and down along the y-axis we call this
+vertical polarization
+
+158
+00:03:14,390 --> 00:03:14,400
+vertical polarization
+ 
+
+159
+00:03:14,400 --> 00:03:17,030
+vertical polarization
+if we rotate this Wave by a quarter turn
+
+160
+00:03:17,030 --> 00:03:17,040
+if we rotate this Wave by a quarter turn
+ 
+
+161
+00:03:17,040 --> 00:03:19,369
+if we rotate this Wave by a quarter turn
+it is now oscillating left and right
+
+162
+00:03:19,369 --> 00:03:19,379
+it is now oscillating left and right
+ 
+
+163
+00:03:19,379 --> 00:03:22,250
+it is now oscillating left and right
+along the x-axis and we call this
+
+164
+00:03:22,250 --> 00:03:22,260
+along the x-axis and we call this
+ 
+
+165
+00:03:22,260 --> 00:03:24,830
+along the x-axis and we call this
+horizontal polarization
+
+166
+00:03:24,830 --> 00:03:24,840
+horizontal polarization
+ 
+
+167
+00:03:24,840 --> 00:03:27,410
+horizontal polarization
+if we rotate the wave by another quarter
+
+168
+00:03:27,410 --> 00:03:27,420
+if we rotate the wave by another quarter
+ 
+
+169
+00:03:27,420 --> 00:03:29,210
+if we rotate the wave by another quarter
+turn we end up with vertical
+
+170
+00:03:29,210 --> 00:03:29,220
+turn we end up with vertical
+ 
+
+171
+00:03:29,220 --> 00:03:31,910
+turn we end up with vertical
+polarization again although with the
+
+172
+00:03:31,910 --> 00:03:31,920
+polarization again although with the
+ 
+
+173
+00:03:31,920 --> 00:03:34,610
+polarization again although with the
+wave shifted by a half cycle compared to
+
+174
+00:03:34,610 --> 00:03:34,620
+wave shifted by a half cycle compared to
+ 
+
+175
+00:03:34,620 --> 00:03:36,770
+wave shifted by a half cycle compared to
+the original wave
+
+176
+00:03:36,770 --> 00:03:36,780
+the original wave
+ 
+
+177
+00:03:36,780 --> 00:03:39,110
+the original wave
+let's look more closely at a vertically
+
+178
+00:03:39,110 --> 00:03:39,120
+let's look more closely at a vertically
+ 
+
+179
+00:03:39,120 --> 00:03:41,809
+let's look more closely at a vertically
+polarized wave remember the electric
+
+180
+00:03:41,809 --> 00:03:41,819
+polarized wave remember the electric
+ 
+
+181
+00:03:41,819 --> 00:03:44,570
+polarized wave remember the electric
+field is a vector field meaning it is
+
+182
+00:03:44,570 --> 00:03:44,580
+field is a vector field meaning it is
+ 
+
+183
+00:03:44,580 --> 00:03:46,910
+field is a vector field meaning it is
+represented as an arrow at every point
+
+184
+00:03:46,910 --> 00:03:46,920
+represented as an arrow at every point
+ 
+
+185
+00:03:46,920 --> 00:03:48,830
+represented as an arrow at every point
+in space and time
+
+186
+00:03:48,830 --> 00:03:48,840
+in space and time
+ 
+
+187
+00:03:48,840 --> 00:03:51,710
+in space and time
+the arrow has components in the X Y and
+
+188
+00:03:51,710 --> 00:03:51,720
+the arrow has components in the X Y and
+ 
+
+189
+00:03:51,720 --> 00:03:54,170
+the arrow has components in the X Y and
+Z directions which we can write like
+
+190
+00:03:54,170 --> 00:03:54,180
+Z directions which we can write like
+ 
+
+191
+00:03:54,180 --> 00:03:57,170
+Z directions which we can write like
+this using a linear combination of the
+
+192
+00:03:57,170 --> 00:03:57,180
+this using a linear combination of the
+ 
+
+193
+00:03:57,180 --> 00:03:59,750
+this using a linear combination of the
+XYZ basis vectors
+
+194
+00:03:59,750 --> 00:03:59,760
+XYZ basis vectors
+ 
+
+195
+00:03:59,760 --> 00:04:02,030
+XYZ basis vectors
+we can also write this as a three
+
+196
+00:04:02,030 --> 00:04:02,040
+we can also write this as a three
+ 
+
+197
+00:04:02,040 --> 00:04:04,670
+we can also write this as a three
+component column like this
+
+198
+00:04:04,670 --> 00:04:04,680
+component column like this
+ 
+
+199
+00:04:04,680 --> 00:04:07,190
+component column like this
+for a vertically polarized wave the
+
+200
+00:04:07,190 --> 00:04:07,200
+for a vertically polarized wave the
+ 
+
+201
+00:04:07,200 --> 00:04:09,410
+for a vertically polarized wave the
+electric field only exists along the
+
+202
+00:04:09,410 --> 00:04:09,420
+electric field only exists along the
+ 
+
+203
+00:04:09,420 --> 00:04:12,770
+electric field only exists along the
+y-axis so the x and z components of the
+
+204
+00:04:12,770 --> 00:04:12,780
+y-axis so the x and z components of the
+ 
+
+205
+00:04:12,780 --> 00:04:15,470
+y-axis so the x and z components of the
+electric field go to zero
+
+206
+00:04:15,470 --> 00:04:15,480
+electric field go to zero
+ 
+
+207
+00:04:15,480 --> 00:04:17,930
+electric field go to zero
+if we were to write out the Y component
+
+208
+00:04:17,930 --> 00:04:17,940
+if we were to write out the Y component
+ 
+
+209
+00:04:17,940 --> 00:04:20,270
+if we were to write out the Y component
+of the electric field for this traveling
+
+210
+00:04:20,270 --> 00:04:20,280
+of the electric field for this traveling
+ 
+
+211
+00:04:20,280 --> 00:04:23,629
+of the electric field for this traveling
+wave it would be an amplitude a times a
+
+212
+00:04:23,629 --> 00:04:23,639
+wave it would be an amplitude a times a
+ 
+
+213
+00:04:23,639 --> 00:04:26,450
+wave it would be an amplitude a times a
+cosine wave that depends on both time
+
+214
+00:04:26,450 --> 00:04:26,460
+cosine wave that depends on both time
+ 
+
+215
+00:04:26,460 --> 00:04:28,129
+cosine wave that depends on both time
+and space
+
+216
+00:04:28,129 --> 00:04:28,139
+and space
+ 
+
+217
+00:04:28,139 --> 00:04:31,730
+and space
+here T is time and Z is the location
+
+218
+00:04:31,730 --> 00:04:31,740
+here T is time and Z is the location
+ 
+
+219
+00:04:31,740 --> 00:04:34,430
+here T is time and Z is the location
+along the z-axis
+
+220
+00:04:34,430 --> 00:04:34,440
+along the z-axis
+ 
+
+221
+00:04:34,440 --> 00:04:37,370
+along the z-axis
+Omega is the angular frequency and K is
+
+222
+00:04:37,370 --> 00:04:37,380
+Omega is the angular frequency and K is
+ 
+
+223
+00:04:37,380 --> 00:04:39,290
+Omega is the angular frequency and K is
+the angular wave number
+
+224
+00:04:39,290 --> 00:04:39,300
+the angular wave number
+ 
+
+225
+00:04:39,300 --> 00:04:42,230
+the angular wave number
+I find traveling waves are easiest to
+
+226
+00:04:42,230 --> 00:04:42,240
+I find traveling waves are easiest to
+ 
+
+227
+00:04:42,240 --> 00:04:45,530
+I find traveling waves are easiest to
+visualize on a space-time diagram with
+
+228
+00:04:45,530 --> 00:04:45,540
+visualize on a space-time diagram with
+ 
+
+229
+00:04:45,540 --> 00:04:47,749
+visualize on a space-time diagram with
+time moving into the future as we move
+
+230
+00:04:47,749 --> 00:04:47,759
+time moving into the future as we move
+ 
+
+231
+00:04:47,759 --> 00:04:49,129
+time moving into the future as we move
+upward
+
+232
+00:04:49,129 --> 00:04:49,139
+upward
+ 
+
+233
+00:04:49,139 --> 00:04:51,409
+upward
+let's say that we have a wave that
+
+234
+00:04:51,409 --> 00:04:51,419
+let's say that we have a wave that
+ 
+
+235
+00:04:51,419 --> 00:04:54,050
+let's say that we have a wave that
+travels in the positive Z Direction over
+
+236
+00:04:54,050 --> 00:04:54,060
+travels in the positive Z Direction over
+ 
+
+237
+00:04:54,060 --> 00:04:55,790
+travels in the positive Z Direction over
+time
+
+238
+00:04:55,790 --> 00:04:55,800
+time
+ 
+
+239
+00:04:55,800 --> 00:04:58,909
+time
+we could draw out this traveling wave as
+
+240
+00:04:58,909 --> 00:04:58,919
+we could draw out this traveling wave as
+ 
+
+241
+00:04:58,919 --> 00:05:01,909
+we could draw out this traveling wave as
+a surface in our space-time diagram
+
+242
+00:05:01,909 --> 00:05:01,919
+a surface in our space-time diagram
+ 
+
+243
+00:05:01,919 --> 00:05:04,490
+a surface in our space-time diagram
+the density of the waves in the spatial
+
+244
+00:05:04,490 --> 00:05:04,500
+the density of the waves in the spatial
+ 
+
+245
+00:05:04,500 --> 00:05:06,530
+the density of the waves in the spatial
+direction is given by the wave number
+
+246
+00:05:06,530 --> 00:05:06,540
+direction is given by the wave number
+ 
+
+247
+00:05:06,540 --> 00:05:09,770
+direction is given by the wave number
+and the density of the waves in time is
+
+248
+00:05:09,770 --> 00:05:09,780
+and the density of the waves in time is
+ 
+
+249
+00:05:09,780 --> 00:05:12,530
+and the density of the waves in time is
+given by the frequency
+
+250
+00:05:12,530 --> 00:05:12,540
+given by the frequency
+ 
+
+251
+00:05:12,540 --> 00:05:14,749
+given by the frequency
+one thing we can do to modify our
+
+252
+00:05:14,749 --> 00:05:14,759
+one thing we can do to modify our
+ 
+
+253
+00:05:14,759 --> 00:05:17,629
+one thing we can do to modify our
+traveling wave is to add an extra Phi
+
+254
+00:05:17,629 --> 00:05:17,639
+traveling wave is to add an extra Phi
+ 
+
+255
+00:05:17,639 --> 00:05:20,870
+traveling wave is to add an extra Phi
+value inside the sinusoid function you
+
+256
+00:05:20,870 --> 00:05:20,880
+value inside the sinusoid function you
+ 
+
+257
+00:05:20,880 --> 00:05:22,610
+value inside the sinusoid function you
+can think of this as indicating the
+
+258
+00:05:22,610 --> 00:05:22,620
+can think of this as indicating the
+ 
+
+259
+00:05:22,620 --> 00:05:25,550
+can think of this as indicating the
+wave's starting value at the origin Z
+
+260
+00:05:25,550 --> 00:05:25,560
+wave's starting value at the origin Z
+ 
+
+261
+00:05:25,560 --> 00:05:29,570
+wave's starting value at the origin Z
+equals zero when time T equals zero
+
+262
+00:05:29,570 --> 00:05:29,580
+equals zero when time T equals zero
+ 
+
+263
+00:05:29,580 --> 00:05:32,529
+equals zero when time T equals zero
+this starting value is called a phase
+
+264
+00:05:32,529 --> 00:05:32,539
+this starting value is called a phase
+ 
+
+265
+00:05:32,539 --> 00:05:35,749
+this starting value is called a phase
+and changing the phase value will shift
+
+266
+00:05:35,749 --> 00:05:35,759
+and changing the phase value will shift
+ 
+
+267
+00:05:35,759 --> 00:05:38,210
+and changing the phase value will shift
+the wave back and forth along the axis
+
+268
+00:05:38,210 --> 00:05:38,220
+the wave back and forth along the axis
+ 
+
+269
+00:05:38,220 --> 00:05:40,689
+the wave back and forth along the axis
+of travel
+
+270
+00:05:40,689 --> 00:05:40,699
+of travel
+ 
+
+271
+00:05:40,699 --> 00:05:43,730
+of travel
+applying a phase shift of negative pi
+
+272
+00:05:43,730 --> 00:05:43,740
+applying a phase shift of negative pi
+ 
+
+273
+00:05:43,740 --> 00:05:46,850
+applying a phase shift of negative pi
+over 2 to a cosine will shift the way
+
+274
+00:05:46,850 --> 00:05:46,860
+over 2 to a cosine will shift the way
+ 
+
+275
+00:05:46,860 --> 00:05:49,670
+over 2 to a cosine will shift the way
+the head a quarter cycle which is
+
+276
+00:05:49,670 --> 00:05:49,680
+the head a quarter cycle which is
+ 
+
+277
+00:05:49,680 --> 00:05:52,550
+the head a quarter cycle which is
+equivalent to a sine wave
+
+278
+00:05:52,550 --> 00:05:52,560
+equivalent to a sine wave
+ 
+
+279
+00:05:52,560 --> 00:05:54,950
+equivalent to a sine wave
+now something that can help us represent
+
+280
+00:05:54,950 --> 00:05:54,960
+now something that can help us represent
+ 
+
+281
+00:05:54,960 --> 00:05:57,830
+now something that can help us represent
+waves is remembering Euler's formula
+
+282
+00:05:57,830 --> 00:05:57,840
+waves is remembering Euler's formula
+ 
+
+283
+00:05:57,840 --> 00:06:00,409
+waves is remembering Euler's formula
+which tells us that we can write e to
+
+284
+00:06:00,409 --> 00:06:00,419
+which tells us that we can write e to
+ 
+
+285
+00:06:00,419 --> 00:06:03,350
+which tells us that we can write e to
+the power of the imaginary I times Theta
+
+286
+00:06:03,350 --> 00:06:03,360
+the power of the imaginary I times Theta
+ 
+
+287
+00:06:03,360 --> 00:06:07,850
+the power of the imaginary I times Theta
+as cosine theta plus I times sine Theta
+
+288
+00:06:07,850 --> 00:06:07,860
+as cosine theta plus I times sine Theta
+ 
+
+289
+00:06:07,860 --> 00:06:11,029
+as cosine theta plus I times sine Theta
+this is a useful property because if we
+
+290
+00:06:11,029 --> 00:06:11,039
+this is a useful property because if we
+ 
+
+291
+00:06:11,039 --> 00:06:13,969
+this is a useful property because if we
+have e to the I Theta and we want to add
+
+292
+00:06:13,969 --> 00:06:13,979
+have e to the I Theta and we want to add
+ 
+
+293
+00:06:13,979 --> 00:06:17,150
+have e to the I Theta and we want to add
+some angle Phi to it all we do is just
+
+294
+00:06:17,150 --> 00:06:17,160
+some angle Phi to it all we do is just
+ 
+
+295
+00:06:17,160 --> 00:06:20,629
+some angle Phi to it all we do is just
+multiply by e to the I times Phi and use
+
+296
+00:06:20,629 --> 00:06:20,639
+multiply by e to the I times Phi and use
+ 
+
+297
+00:06:20,639 --> 00:06:22,790
+multiply by e to the I times Phi and use
+the standard exponent rules to rewrite
+
+298
+00:06:22,790 --> 00:06:22,800
+the standard exponent rules to rewrite
+ 
+
+299
+00:06:22,800 --> 00:06:25,430
+the standard exponent rules to rewrite
+this as a single exponential with the
+
+300
+00:06:25,430 --> 00:06:25,440
+this as a single exponential with the
+ 
+
+301
+00:06:25,440 --> 00:06:27,170
+this as a single exponential with the
+exponents added
+
+302
+00:06:27,170 --> 00:06:27,180
+exponents added
+ 
+
+303
+00:06:27,180 --> 00:06:29,809
+exponents added
+if we then use Euler's formula to
+
+304
+00:06:29,809 --> 00:06:29,819
+if we then use Euler's formula to
+ 
+
+305
+00:06:29,819 --> 00:06:32,809
+if we then use Euler's formula to
+convert back to sine and cosine we see
+
+306
+00:06:32,809 --> 00:06:32,819
+convert back to sine and cosine we see
+ 
+
+307
+00:06:32,819 --> 00:06:34,909
+convert back to sine and cosine we see
+that a phase Phi has been added inside
+
+308
+00:06:34,909 --> 00:06:34,919
+that a phase Phi has been added inside
+ 
+
+309
+00:06:34,919 --> 00:06:38,029
+that a phase Phi has been added inside
+the sinusoid functions
+
+310
+00:06:38,029 --> 00:06:38,039
+the sinusoid functions
+ 
+
+311
+00:06:38,039 --> 00:06:40,909
+the sinusoid functions
+now electromagnetic waves are described
+
+312
+00:06:40,909 --> 00:06:40,919
+now electromagnetic waves are described
+ 
+
+313
+00:06:40,919 --> 00:06:44,570
+now electromagnetic waves are described
+by real numbers but for convenience we
+
+314
+00:06:44,570 --> 00:06:44,580
+by real numbers but for convenience we
+ 
+
+315
+00:06:44,580 --> 00:06:47,629
+by real numbers but for convenience we
+can pretend that our ey component is
+
+316
+00:06:47,629 --> 00:06:47,639
+can pretend that our ey component is
+ 
+
+317
+00:06:47,639 --> 00:06:50,570
+can pretend that our ey component is
+actually a complex number where the real
+
+318
+00:06:50,570 --> 00:06:50,580
+actually a complex number where the real
+ 
+
+319
+00:06:50,580 --> 00:06:52,969
+actually a complex number where the real
+part of this complex number is the
+
+320
+00:06:52,969 --> 00:06:52,979
+part of this complex number is the
+ 
+
+321
+00:06:52,979 --> 00:06:55,430
+part of this complex number is the
+actual electric field we observe in real
+
+322
+00:06:55,430 --> 00:06:55,440
+actual electric field we observe in real
+ 
+
+323
+00:06:55,440 --> 00:06:58,189
+actual electric field we observe in real
+life with the imaginary part being
+
+324
+00:06:58,189 --> 00:06:58,199
+life with the imaginary part being
+ 
+
+325
+00:06:58,199 --> 00:06:59,570
+life with the imaginary part being
+ignored
+
+326
+00:06:59,570 --> 00:06:59,580
+ignored
+ 
+
+327
+00:06:59,580 --> 00:07:02,450
+ignored
+this means the full ey component would
+
+328
+00:07:02,450 --> 00:07:02,460
+this means the full ey component would
+ 
+
+329
+00:07:02,460 --> 00:07:05,510
+this means the full ey component would
+have a real part with a cosine wave and
+
+330
+00:07:05,510 --> 00:07:05,520
+have a real part with a cosine wave and
+ 
+
+331
+00:07:05,520 --> 00:07:08,390
+have a real part with a cosine wave and
+we can invent the fake imaginary part to
+
+332
+00:07:08,390 --> 00:07:08,400
+we can invent the fake imaginary part to
+ 
+
+333
+00:07:08,400 --> 00:07:12,050
+we can invent the fake imaginary part to
+be a sine wave since we ignore it anyway
+
+334
+00:07:12,050 --> 00:07:12,060
+be a sine wave since we ignore it anyway
+ 
+
+335
+00:07:12,060 --> 00:07:15,050
+be a sine wave since we ignore it anyway
+using Euler's formula we can write this
+
+336
+00:07:15,050 --> 00:07:15,060
+using Euler's formula we can write this
+ 
+
+337
+00:07:15,060 --> 00:07:18,650
+using Euler's formula we can write this
+more compactly as a complex exponential
+
+338
+00:07:18,650 --> 00:07:18,660
+more compactly as a complex exponential
+ 
+
+339
+00:07:18,660 --> 00:07:21,050
+more compactly as a complex exponential
+this also means we can pull the phase
+
+340
+00:07:21,050 --> 00:07:21,060
+this also means we can pull the phase
+ 
+
+341
+00:07:21,060 --> 00:07:24,469
+this also means we can pull the phase
+Phi out using exponent rules and write
+
+342
+00:07:24,469 --> 00:07:24,479
+Phi out using exponent rules and write
+ 
+
+343
+00:07:24,479 --> 00:07:27,230
+Phi out using exponent rules and write
+it as a multiplicative Factor e to the I
+
+344
+00:07:27,230 --> 00:07:27,240
+it as a multiplicative Factor e to the I
+ 
+
+345
+00:07:27,240 --> 00:07:28,370
+it as a multiplicative Factor e to the I
+Phi
+
+346
+00:07:28,370 --> 00:07:28,380
+Phi
+ 
+
+347
+00:07:28,380 --> 00:07:31,010
+Phi
+this allows us to write traveling waves
+
+348
+00:07:31,010 --> 00:07:31,020
+this allows us to write traveling waves
+ 
+
+349
+00:07:31,020 --> 00:07:33,290
+this allows us to write traveling waves
+as three separate multiplicative factors
+
+350
+00:07:33,290 --> 00:07:33,300
+as three separate multiplicative factors
+ 
+
+351
+00:07:33,300 --> 00:07:36,830
+as three separate multiplicative factors
+the amplitude times the phase times the
+
+352
+00:07:36,830 --> 00:07:36,840
+the amplitude times the phase times the
+ 
+
+353
+00:07:36,840 --> 00:07:38,930
+the amplitude times the phase times the
+actual traveling wave
+
+354
+00:07:38,930 --> 00:07:38,940
+actual traveling wave
+ 
+
+355
+00:07:38,940 --> 00:07:42,050
+actual traveling wave
+so while the true electric field here is
+
+356
+00:07:42,050 --> 00:07:42,060
+so while the true electric field here is
+ 
+
+357
+00:07:42,060 --> 00:07:44,330
+so while the true electric field here is
+just the real part of this complex wave
+
+358
+00:07:44,330 --> 00:07:44,340
+just the real part of this complex wave
+ 
+
+359
+00:07:44,340 --> 00:07:47,270
+just the real part of this complex wave
+we can write the electric Fields using
+
+360
+00:07:47,270 --> 00:07:47,280
+we can write the electric Fields using
+ 
+
+361
+00:07:47,280 --> 00:07:49,610
+we can write the electric Fields using
+complex exponentials for mathematical
+
+362
+00:07:49,610 --> 00:07:49,620
+complex exponentials for mathematical
+ 
+
+363
+00:07:49,620 --> 00:07:51,830
+complex exponentials for mathematical
+convenience
+
+364
+00:07:51,830 --> 00:07:51,840
+convenience
+ 
+
+365
+00:07:51,840 --> 00:07:54,290
+convenience
+as I said before if we take this
+
+366
+00:07:54,290 --> 00:07:54,300
+as I said before if we take this
+ 
+
+367
+00:07:54,300 --> 00:07:56,809
+as I said before if we take this
+vertically polarized wave and rotate it
+
+368
+00:07:56,809 --> 00:07:56,819
+vertically polarized wave and rotate it
+ 
+
+369
+00:07:56,819 --> 00:07:59,510
+vertically polarized wave and rotate it
+a quarter turn we get a horizontally
+
+370
+00:07:59,510 --> 00:07:59,520
+a quarter turn we get a horizontally
+ 
+
+371
+00:07:59,520 --> 00:08:01,189
+a quarter turn we get a horizontally
+polarized wave
+
+372
+00:08:01,189 --> 00:08:01,199
+polarized wave
+ 
+
+373
+00:08:01,199 --> 00:08:03,650
+polarized wave
+in this case the wave only oscillates in
+
+374
+00:08:03,650 --> 00:08:03,660
+in this case the wave only oscillates in
+ 
+
+375
+00:08:03,660 --> 00:08:06,290
+in this case the wave only oscillates in
+the X Direction and so the Y and Z
+
+376
+00:08:06,290 --> 00:08:06,300
+the X Direction and so the Y and Z
+ 
+
+377
+00:08:06,300 --> 00:08:09,050
+the X Direction and so the Y and Z
+components of the field are zero
+
+378
+00:08:09,050 --> 00:08:09,060
+components of the field are zero
+ 
+
+379
+00:08:09,060 --> 00:08:11,629
+components of the field are zero
+once again the true electric field is
+
+380
+00:08:11,629 --> 00:08:11,639
+once again the true electric field is
+ 
+
+381
+00:08:11,639 --> 00:08:14,870
+once again the true electric field is
+given by a cosine but for convenience we
+
+382
+00:08:14,870 --> 00:08:14,880
+given by a cosine but for convenience we
+ 
+
+383
+00:08:14,880 --> 00:08:16,850
+given by a cosine but for convenience we
+can write it as a complex exponential
+
+384
+00:08:16,850 --> 00:08:16,860
+can write it as a complex exponential
+ 
+
+385
+00:08:16,860 --> 00:08:19,610
+can write it as a complex exponential
+with the amplitude and phase written
+
+386
+00:08:19,610 --> 00:08:19,620
+with the amplitude and phase written
+ 
+
+387
+00:08:19,620 --> 00:08:21,770
+with the amplitude and phase written
+separately in front
+
+388
+00:08:21,770 --> 00:08:21,780
+separately in front
+ 
+
+389
+00:08:21,780 --> 00:08:24,110
+separately in front
+so to review with the vertically
+
+390
+00:08:24,110 --> 00:08:24,120
+so to review with the vertically
+ 
+
+391
+00:08:24,120 --> 00:08:26,809
+so to review with the vertically
+polarized waves the Y component of the
+
+392
+00:08:26,809 --> 00:08:26,819
+polarized waves the Y component of the
+ 
+
+393
+00:08:26,819 --> 00:08:29,270
+polarized waves the Y component of the
+electric field is a traveling wave and
+
+394
+00:08:29,270 --> 00:08:29,280
+electric field is a traveling wave and
+ 
+
+395
+00:08:29,280 --> 00:08:32,510
+electric field is a traveling wave and
+the xnz components are zero and with a
+
+396
+00:08:32,510 --> 00:08:32,520
+the xnz components are zero and with a
+ 
+
+397
+00:08:32,520 --> 00:08:34,670
+the xnz components are zero and with a
+horizontally polarized wave the X
+
+398
+00:08:34,670 --> 00:08:34,680
+horizontally polarized wave the X
+ 
+
+399
+00:08:34,680 --> 00:08:36,529
+horizontally polarized wave the X
+component of the electric field is a
+
+400
+00:08:36,529 --> 00:08:36,539
+component of the electric field is a
+ 
+
+401
+00:08:36,539 --> 00:08:39,469
+component of the electric field is a
+traveling wave and the ynz components
+
+402
+00:08:39,469 --> 00:08:39,479
+traveling wave and the ynz components
+ 
+
+403
+00:08:39,479 --> 00:08:41,089
+traveling wave and the ynz components
+are zero
+
+404
+00:08:41,089 --> 00:08:41,099
+are zero
+ 
+
+405
+00:08:41,099 --> 00:08:43,909
+are zero
+now we know from physical experiments
+
+406
+00:08:43,909 --> 00:08:43,919
+now we know from physical experiments
+ 
+
+407
+00:08:43,919 --> 00:08:46,310
+now we know from physical experiments
+that electromagnetic waves can be
+
+408
+00:08:46,310 --> 00:08:46,320
+that electromagnetic waves can be
+ 
+
+409
+00:08:46,320 --> 00:08:49,190
+that electromagnetic waves can be
+superimposed on top of each other so
+
+410
+00:08:49,190 --> 00:08:49,200
+superimposed on top of each other so
+ 
+
+411
+00:08:49,200 --> 00:08:51,470
+superimposed on top of each other so
+it's possible to add horizontally and
+
+412
+00:08:51,470 --> 00:08:51,480
+it's possible to add horizontally and
+ 
+
+413
+00:08:51,480 --> 00:08:53,930
+it's possible to add horizontally and
+vertically polarized waves together like
+
+414
+00:08:53,930 --> 00:08:53,940
+vertically polarized waves together like
+ 
+
+415
+00:08:53,940 --> 00:08:54,949
+vertically polarized waves together like
+this
+
+416
+00:08:54,949 --> 00:08:54,959
+this
+ 
+
+417
+00:08:54,959 --> 00:08:57,290
+this
+now notice that the two polarizations
+
+418
+00:08:57,290 --> 00:08:57,300
+now notice that the two polarizations
+ 
+
+419
+00:08:57,300 --> 00:09:00,470
+now notice that the two polarizations
+each have their own amplitude and their
+
+420
+00:09:00,470 --> 00:09:00,480
+each have their own amplitude and their
+ 
+
+421
+00:09:00,480 --> 00:09:03,650
+each have their own amplitude and their
+own phase but the actual traveling wave
+
+422
+00:09:03,650 --> 00:09:03,660
+own phase but the actual traveling wave
+ 
+
+423
+00:09:03,660 --> 00:09:07,009
+own phase but the actual traveling wave
+portion is identical in both so we can
+
+424
+00:09:07,009 --> 00:09:07,019
+portion is identical in both so we can
+ 
+
+425
+00:09:07,019 --> 00:09:09,470
+portion is identical in both so we can
+Factor it out and write it outside the
+
+426
+00:09:09,470 --> 00:09:09,480
+Factor it out and write it outside the
+ 
+
+427
+00:09:09,480 --> 00:09:11,329
+Factor it out and write it outside the
+column like this
+
+428
+00:09:11,329 --> 00:09:11,339
+column like this
+ 
+
+429
+00:09:11,339 --> 00:09:14,150
+column like this
+now here I want to State the main idea
+
+430
+00:09:14,150 --> 00:09:14,160
+now here I want to State the main idea
+ 
+
+431
+00:09:14,160 --> 00:09:17,090
+now here I want to State the main idea
+of this video when it comes to studying
+
+432
+00:09:17,090 --> 00:09:17,100
+of this video when it comes to studying
+ 
+
+433
+00:09:17,100 --> 00:09:19,970
+of this video when it comes to studying
+the polarizations of waves all the
+
+434
+00:09:19,970 --> 00:09:19,980
+the polarizations of waves all the
+ 
+
+435
+00:09:19,980 --> 00:09:21,889
+the polarizations of waves all the
+information we need to look at is
+
+436
+00:09:21,889 --> 00:09:21,899
+information we need to look at is
+ 
+
+437
+00:09:21,899 --> 00:09:24,590
+information we need to look at is
+contained inside this column the
+
+438
+00:09:24,590 --> 00:09:24,600
+contained inside this column the
+ 
+
+439
+00:09:24,600 --> 00:09:26,810
+contained inside this column the
+amplitudes and the phases
+
+440
+00:09:26,810 --> 00:09:26,820
+amplitudes and the phases
+ 
+
+441
+00:09:26,820 --> 00:09:29,389
+amplitudes and the phases
+the actual traveling wave portion of the
+
+442
+00:09:29,389 --> 00:09:29,399
+the actual traveling wave portion of the
+ 
+
+443
+00:09:29,399 --> 00:09:32,269
+the actual traveling wave portion of the
+formula can be ignored since it's the
+
+444
+00:09:32,269 --> 00:09:32,279
+formula can be ignored since it's the
+ 
+
+445
+00:09:32,279 --> 00:09:34,910
+formula can be ignored since it's the
+same for all components
+
+446
+00:09:34,910 --> 00:09:34,920
+same for all components
+ 
+
+447
+00:09:34,920 --> 00:09:37,670
+same for all components
+we can even go one step further and
+
+448
+00:09:37,670 --> 00:09:37,680
+we can even go one step further and
+ 
+
+449
+00:09:37,680 --> 00:09:40,490
+we can even go one step further and
+ignore the Z component altogether since
+
+450
+00:09:40,490 --> 00:09:40,500
+ignore the Z component altogether since
+ 
+
+451
+00:09:40,500 --> 00:09:42,769
+ignore the Z component altogether since
+we can always choose coordinates where
+
+452
+00:09:42,769 --> 00:09:42,779
+we can always choose coordinates where
+ 
+
+453
+00:09:42,779 --> 00:09:45,410
+we can always choose coordinates where
+the Z direction is the direction of wave
+
+454
+00:09:45,410 --> 00:09:45,420
+the Z direction is the direction of wave
+ 
+
+455
+00:09:45,420 --> 00:09:47,870
+the Z direction is the direction of wave
+propagation and therefore the Z
+
+456
+00:09:47,870 --> 00:09:47,880
+propagation and therefore the Z
+ 
+
+457
+00:09:47,880 --> 00:09:49,850
+propagation and therefore the Z
+component of the electric field will
+
+458
+00:09:49,850 --> 00:09:49,860
+component of the electric field will
+ 
+
+459
+00:09:49,860 --> 00:09:52,430
+component of the electric field will
+always be zero
+
+460
+00:09:52,430 --> 00:09:52,440
+always be zero
+ 
+
+461
+00:09:52,440 --> 00:09:55,130
+always be zero
+the resulting two by one column of
+
+462
+00:09:55,130 --> 00:09:55,140
+the resulting two by one column of
+ 
+
+463
+00:09:55,140 --> 00:09:58,490
+the resulting two by one column of
+complex numbers is called a Jones vector
+
+464
+00:09:58,490 --> 00:09:58,500
+complex numbers is called a Jones vector
+ 
+
+465
+00:09:58,500 --> 00:10:00,590
+complex numbers is called a Jones vector
+and it tells us everything we need to
+
+466
+00:10:00,590 --> 00:10:00,600
+and it tells us everything we need to
+ 
+
+467
+00:10:00,600 --> 00:10:02,930
+and it tells us everything we need to
+know about the polarization of a given
+
+468
+00:10:02,930 --> 00:10:02,940
+know about the polarization of a given
+ 
+
+469
+00:10:02,940 --> 00:10:04,070
+know about the polarization of a given
+wave
+
+470
+00:10:04,070 --> 00:10:04,080
+wave
+ 
+
+471
+00:10:04,080 --> 00:10:06,889
+wave
+any light wave polarization can be
+
+472
+00:10:06,889 --> 00:10:06,899
+any light wave polarization can be
+ 
+
+473
+00:10:06,899 --> 00:10:09,290
+any light wave polarization can be
+written as a linear combination of a
+
+474
+00:10:09,290 --> 00:10:09,300
+written as a linear combination of a
+ 
+
+475
+00:10:09,300 --> 00:10:11,570
+written as a linear combination of a
+horizontally polarized wave and a
+
+476
+00:10:11,570 --> 00:10:11,580
+horizontally polarized wave and a
+ 
+
+477
+00:10:11,580 --> 00:10:13,910
+horizontally polarized wave and a
+vertically polarized wave each with
+
+478
+00:10:13,910 --> 00:10:13,920
+vertically polarized wave each with
+ 
+
+479
+00:10:13,920 --> 00:10:16,430
+vertically polarized wave each with
+complex numbers in front denoting their
+
+480
+00:10:16,430 --> 00:10:16,440
+complex numbers in front denoting their
+ 
+
+481
+00:10:16,440 --> 00:10:19,670
+complex numbers in front denoting their
+respective amplitudes and phases
+
+482
+00:10:19,670 --> 00:10:19,680
+respective amplitudes and phases
+ 
+
+483
+00:10:19,680 --> 00:10:22,070
+respective amplitudes and phases
+moving forward I'm going to write this
+
+484
+00:10:22,070 --> 00:10:22,080
+moving forward I'm going to write this
+ 
+
+485
+00:10:22,080 --> 00:10:24,650
+moving forward I'm going to write this
+horizontally polarized wave of amplitude
+
+486
+00:10:24,650 --> 00:10:24,660
+horizontally polarized wave of amplitude
+ 
+
+487
+00:10:24,660 --> 00:10:27,650
+horizontally polarized wave of amplitude
+1 using the vector Capital H
+
+488
+00:10:27,650 --> 00:10:27,660
+1 using the vector Capital H
+ 
+
+489
+00:10:27,660 --> 00:10:29,870
+1 using the vector Capital H
+and I'll write this vertically polarized
+
+490
+00:10:29,870 --> 00:10:29,880
+and I'll write this vertically polarized
+ 
+
+491
+00:10:29,880 --> 00:10:32,690
+and I'll write this vertically polarized
+wave with amplitude 1 using the vector
+
+492
+00:10:32,690 --> 00:10:32,700
+wave with amplitude 1 using the vector
+ 
+
+493
+00:10:32,700 --> 00:10:35,030
+wave with amplitude 1 using the vector
+capital V
+
+494
+00:10:35,030 --> 00:10:35,040
+capital V
+ 
+
+495
+00:10:35,040 --> 00:10:38,750
+capital V
+so using the idea of Jones vectors we
+
+496
+00:10:38,750 --> 00:10:38,760
+so using the idea of Jones vectors we
+ 
+
+497
+00:10:38,760 --> 00:10:41,090
+so using the idea of Jones vectors we
+can create new polarizations by
+
+498
+00:10:41,090 --> 00:10:41,100
+can create new polarizations by
+ 
+
+499
+00:10:41,100 --> 00:10:43,070
+can create new polarizations by
+selecting different values for the
+
+500
+00:10:43,070 --> 00:10:43,080
+selecting different values for the
+ 
+
+501
+00:10:43,080 --> 00:10:46,069
+selecting different values for the
+amplitude and phase parameters
+
+502
+00:10:46,069 --> 00:10:46,079
+amplitude and phase parameters
+ 
+
+503
+00:10:46,079 --> 00:10:49,310
+amplitude and phase parameters
+for example we can set both phases to
+
+504
+00:10:49,310 --> 00:10:49,320
+for example we can set both phases to
+ 
+
+505
+00:10:49,320 --> 00:10:52,190
+for example we can set both phases to
+zero so that the horizontal and vertical
+
+506
+00:10:52,190 --> 00:10:52,200
+zero so that the horizontal and vertical
+ 
+
+507
+00:10:52,200 --> 00:10:54,889
+zero so that the horizontal and vertical
+polarizations are in Phase with each
+
+508
+00:10:54,889 --> 00:10:54,899
+polarizations are in Phase with each
+ 
+
+509
+00:10:54,899 --> 00:10:57,949
+polarizations are in Phase with each
+other and then set both amplitudes to
+
+510
+00:10:57,949 --> 00:10:57,959
+other and then set both amplitudes to
+ 
+
+511
+00:10:57,959 --> 00:10:59,329
+other and then set both amplitudes to
+one
+
+512
+00:10:59,329 --> 00:10:59,339
+one
+ 
+
+513
+00:10:59,339 --> 00:11:02,329
+one
+if we think of H as a vector along the
+
+514
+00:11:02,329 --> 00:11:02,339
+if we think of H as a vector along the
+ 
+
+515
+00:11:02,339 --> 00:11:05,329
+if we think of H as a vector along the
+x-axis and v as a vector along the
+
+516
+00:11:05,329 --> 00:11:05,339
+x-axis and v as a vector along the
+ 
+
+517
+00:11:05,339 --> 00:11:08,810
+x-axis and v as a vector along the
+y-axis this new Jones Vector points
+
+518
+00:11:08,810 --> 00:11:08,820
+y-axis this new Jones Vector points
+ 
+
+519
+00:11:08,820 --> 00:11:11,870
+y-axis this new Jones Vector points
+diagonally to the upper right this is
+
+520
+00:11:11,870 --> 00:11:11,880
+diagonally to the upper right this is
+ 
+
+521
+00:11:11,880 --> 00:11:14,750
+diagonally to the upper right this is
+called diagonal polarization denoted
+
+522
+00:11:14,750 --> 00:11:14,760
+called diagonal polarization denoted
+ 
+
+523
+00:11:14,760 --> 00:11:16,670
+called diagonal polarization denoted
+with a capital D
+
+524
+00:11:16,670 --> 00:11:16,680
+with a capital D
+ 
+
+525
+00:11:16,680 --> 00:11:19,250
+with a capital D
+this is what we would get if we took a
+
+526
+00:11:19,250 --> 00:11:19,260
+this is what we would get if we took a
+ 
+
+527
+00:11:19,260 --> 00:11:21,889
+this is what we would get if we took a
+horizontally polarized wave and rotated
+
+528
+00:11:21,889 --> 00:11:21,899
+horizontally polarized wave and rotated
+ 
+
+529
+00:11:21,899 --> 00:11:26,030
+horizontally polarized wave and rotated
+it counterclockwise by 45 degrees
+
+530
+00:11:26,030 --> 00:11:26,040
+it counterclockwise by 45 degrees
+ 
+
+531
+00:11:26,040 --> 00:11:29,389
+it counterclockwise by 45 degrees
+although according to Pythagoras the
+
+532
+00:11:29,389 --> 00:11:29,399
+although according to Pythagoras the
+ 
+
+533
+00:11:29,399 --> 00:11:32,569
+although according to Pythagoras the
+Jones Vector h plus V has an amplitude
+
+534
+00:11:32,569 --> 00:11:32,579
+Jones Vector h plus V has an amplitude
+ 
+
+535
+00:11:32,579 --> 00:11:35,509
+Jones Vector h plus V has an amplitude
+of the square root of 2. so we usually
+
+536
+00:11:35,509 --> 00:11:35,519
+of the square root of 2. so we usually
+ 
+
+537
+00:11:35,519 --> 00:11:37,550
+of the square root of 2. so we usually
+divide the components by the square root
+
+538
+00:11:37,550 --> 00:11:37,560
+divide the components by the square root
+ 
+
+539
+00:11:37,560 --> 00:11:40,490
+divide the components by the square root
+of 2 to force the amplitude of D to be
+
+540
+00:11:40,490 --> 00:11:40,500
+of 2 to force the amplitude of D to be
+ 
+
+541
+00:11:40,500 --> 00:11:42,290
+of 2 to force the amplitude of D to be
+one
+
+542
+00:11:42,290 --> 00:11:42,300
+one
+ 
+
+543
+00:11:42,300 --> 00:11:44,990
+one
+it's also possible to set the amplitude
+
+544
+00:11:44,990 --> 00:11:45,000
+it's also possible to set the amplitude
+ 
+
+545
+00:11:45,000 --> 00:11:48,829
+it's also possible to set the amplitude
+to plus one for H and negative 1 for V
+
+546
+00:11:48,829 --> 00:11:48,839
+to plus one for H and negative 1 for V
+ 
+
+547
+00:11:48,839 --> 00:11:51,350
+to plus one for H and negative 1 for V
+and this gives us another polarization
+
+548
+00:11:51,350 --> 00:11:51,360
+and this gives us another polarization
+ 
+
+549
+00:11:51,360 --> 00:11:53,810
+and this gives us another polarization
+that points to the lower right
+
+550
+00:11:53,810 --> 00:11:53,820
+that points to the lower right
+ 
+
+551
+00:11:53,820 --> 00:11:56,630
+that points to the lower right
+we call this anti-diagonal polarization
+
+552
+00:11:56,630 --> 00:11:56,640
+we call this anti-diagonal polarization
+ 
+
+553
+00:11:56,640 --> 00:11:58,009
+we call this anti-diagonal polarization
+a
+
+554
+00:11:58,009 --> 00:11:58,019
+a
+ 
+
+555
+00:11:58,019 --> 00:12:00,110
+a
+this is what we would get if we took a
+
+556
+00:12:00,110 --> 00:12:00,120
+this is what we would get if we took a
+ 
+
+557
+00:12:00,120 --> 00:12:02,990
+this is what we would get if we took a
+horizontally polarized wave and rotated
+
+558
+00:12:02,990 --> 00:12:03,000
+horizontally polarized wave and rotated
+ 
+
+559
+00:12:03,000 --> 00:12:06,769
+horizontally polarized wave and rotated
+it clockwise by 45 degrees
+
+560
+00:12:06,769 --> 00:12:06,779
+it clockwise by 45 degrees
+ 
+
+561
+00:12:06,779 --> 00:12:09,650
+it clockwise by 45 degrees
+once again we normalize this by dividing
+
+562
+00:12:09,650 --> 00:12:09,660
+once again we normalize this by dividing
+ 
+
+563
+00:12:09,660 --> 00:12:12,710
+once again we normalize this by dividing
+by the square root of two
+
+564
+00:12:12,710 --> 00:12:12,720
+by the square root of two
+ 
+
+565
+00:12:12,720 --> 00:12:15,710
+by the square root of two
+so we can get the D and a polarizations
+
+566
+00:12:15,710 --> 00:12:15,720
+so we can get the D and a polarizations
+ 
+
+567
+00:12:15,720 --> 00:12:18,889
+so we can get the D and a polarizations
+by adding H and V together in the right
+
+568
+00:12:18,889 --> 00:12:18,899
+by adding H and V together in the right
+ 
+
+569
+00:12:18,899 --> 00:12:20,030
+by adding H and V together in the right
+amounts
+
+570
+00:12:20,030 --> 00:12:20,040
+amounts
+ 
+
+571
+00:12:20,040 --> 00:12:22,250
+amounts
+in fact we can make the waves
+
+572
+00:12:22,250 --> 00:12:22,260
+in fact we can make the waves
+ 
+
+573
+00:12:22,260 --> 00:12:24,710
+in fact we can make the waves
+polarization have any angle on this
+
+574
+00:12:24,710 --> 00:12:24,720
+polarization have any angle on this
+ 
+
+575
+00:12:24,720 --> 00:12:27,350
+polarization have any angle on this
+circle if we set the coefficients in
+
+576
+00:12:27,350 --> 00:12:27,360
+circle if we set the coefficients in
+ 
+
+577
+00:12:27,360 --> 00:12:30,170
+circle if we set the coefficients in
+front of H and V properly
+
+578
+00:12:30,170 --> 00:12:30,180
+front of H and V properly
+ 
+
+579
+00:12:30,180 --> 00:12:32,030
+front of H and V properly
+but there are actually more
+
+580
+00:12:32,030 --> 00:12:32,040
+but there are actually more
+ 
+
+581
+00:12:32,040 --> 00:12:34,250
+but there are actually more
+polarizations that we still haven't seen
+
+582
+00:12:34,250 --> 00:12:34,260
+polarizations that we still haven't seen
+ 
+
+583
+00:12:34,260 --> 00:12:35,930
+polarizations that we still haven't seen
+yet
+
+584
+00:12:35,930 --> 00:12:35,940
+yet
+ 
+
+585
+00:12:35,940 --> 00:12:39,230
+yet
+let's again set both amplitudes to one
+
+586
+00:12:39,230 --> 00:12:39,240
+let's again set both amplitudes to one
+ 
+
+587
+00:12:39,240 --> 00:12:41,990
+let's again set both amplitudes to one
+and set the horizontal phase to be zero
+
+588
+00:12:41,990 --> 00:12:42,000
+and set the horizontal phase to be zero
+ 
+
+589
+00:12:42,000 --> 00:12:44,870
+and set the horizontal phase to be zero
+and set the vertical phase to be pi over
+
+590
+00:12:44,870 --> 00:12:44,880
+and set the vertical phase to be pi over
+ 
+
+591
+00:12:44,880 --> 00:12:47,990
+and set the vertical phase to be pi over
+2 which is a phase of a quarter wave
+
+592
+00:12:47,990 --> 00:12:48,000
+2 which is a phase of a quarter wave
+ 
+
+593
+00:12:48,000 --> 00:12:49,250
+2 which is a phase of a quarter wave
+cycle
+
+594
+00:12:49,250 --> 00:12:49,260
+cycle
+ 
+
+595
+00:12:49,260 --> 00:12:52,069
+cycle
+this polarization is more difficult to
+
+596
+00:12:52,069 --> 00:12:52,079
+this polarization is more difficult to
+ 
+
+597
+00:12:52,079 --> 00:12:54,769
+this polarization is more difficult to
+visualize so let's bring back our column
+
+598
+00:12:54,769 --> 00:12:54,779
+visualize so let's bring back our column
+ 
+
+599
+00:12:54,779 --> 00:12:57,470
+visualize so let's bring back our column
+notation with the traveling wave to
+
+600
+00:12:57,470 --> 00:12:57,480
+notation with the traveling wave to
+ 
+
+601
+00:12:57,480 --> 00:12:59,269
+notation with the traveling wave to
+understand it better
+
+602
+00:12:59,269 --> 00:12:59,279
+understand it better
+ 
+
+603
+00:12:59,279 --> 00:13:01,310
+understand it better
+Let's Pretend We're stuck at the
+
+604
+00:13:01,310 --> 00:13:01,320
+Let's Pretend We're stuck at the
+ 
+
+605
+00:13:01,320 --> 00:13:04,129
+Let's Pretend We're stuck at the
+position Z equals zero and the angular
+
+606
+00:13:04,129 --> 00:13:04,139
+position Z equals zero and the angular
+ 
+
+607
+00:13:04,139 --> 00:13:07,069
+position Z equals zero and the angular
+frequency of the wave is one and we're
+
+608
+00:13:07,069 --> 00:13:07,079
+frequency of the wave is one and we're
+ 
+
+609
+00:13:07,079 --> 00:13:09,350
+frequency of the wave is one and we're
+watching The Wave travel around the X Y
+
+610
+00:13:09,350 --> 00:13:09,360
+watching The Wave travel around the X Y
+ 
+
+611
+00:13:09,360 --> 00:13:11,449
+watching The Wave travel around the X Y
+plane over time
+
+612
+00:13:11,449 --> 00:13:11,459
+plane over time
+ 
+
+613
+00:13:11,459 --> 00:13:13,670
+plane over time
+what would this look like
+
+614
+00:13:13,670 --> 00:13:13,680
+what would this look like
+ 
+
+615
+00:13:13,680 --> 00:13:16,550
+what would this look like
+we can combine the exponentials then use
+
+616
+00:13:16,550 --> 00:13:16,560
+we can combine the exponentials then use
+ 
+
+617
+00:13:16,560 --> 00:13:19,069
+we can combine the exponentials then use
+Euler's formula and then take the real
+
+618
+00:13:19,069 --> 00:13:19,079
+Euler's formula and then take the real
+ 
+
+619
+00:13:19,079 --> 00:13:21,530
+Euler's formula and then take the real
+part to see that the electric field is
+
+620
+00:13:21,530 --> 00:13:21,540
+part to see that the electric field is
+ 
+
+621
+00:13:21,540 --> 00:13:24,350
+part to see that the electric field is
+given by a cosine and a cosine with a
+
+622
+00:13:24,350 --> 00:13:24,360
+given by a cosine and a cosine with a
+ 
+
+623
+00:13:24,360 --> 00:13:27,230
+given by a cosine and a cosine with a
+phase factor of a quarter cycle which is
+
+624
+00:13:27,230 --> 00:13:27,240
+phase factor of a quarter cycle which is
+ 
+
+625
+00:13:27,240 --> 00:13:30,290
+phase factor of a quarter cycle which is
+really the same thing as a negative sign
+
+626
+00:13:30,290 --> 00:13:30,300
+really the same thing as a negative sign
+ 
+
+627
+00:13:30,300 --> 00:13:33,470
+really the same thing as a negative sign
+at time equals zero this gives the
+
+628
+00:13:33,470 --> 00:13:33,480
+at time equals zero this gives the
+ 
+
+629
+00:13:33,480 --> 00:13:37,550
+at time equals zero this gives the
+coordinates one zero then at T equals pi
+
+630
+00:13:37,550 --> 00:13:37,560
+coordinates one zero then at T equals pi
+ 
+
+631
+00:13:37,560 --> 00:13:40,370
+coordinates one zero then at T equals pi
+over two we get the coordinates zero
+
+632
+00:13:40,370 --> 00:13:40,380
+over two we get the coordinates zero
+ 
+
+633
+00:13:40,380 --> 00:13:41,930
+over two we get the coordinates zero
+negative one
+
+634
+00:13:41,930 --> 00:13:41,940
+negative one
+ 
+
+635
+00:13:41,940 --> 00:13:45,170
+negative one
+then at T equals Pi we get negative one
+
+636
+00:13:45,170 --> 00:13:45,180
+then at T equals Pi we get negative one
+ 
+
+637
+00:13:45,180 --> 00:13:46,430
+then at T equals Pi we get negative one
+zero
+
+638
+00:13:46,430 --> 00:13:46,440
+zero
+ 
+
+639
+00:13:46,440 --> 00:13:49,430
+zero
+at T equals three pi over two we get
+
+640
+00:13:49,430 --> 00:13:49,440
+at T equals three pi over two we get
+ 
+
+641
+00:13:49,440 --> 00:13:53,870
+at T equals three pi over two we get
+zero one and at T equals two Pi we get
+
+642
+00:13:53,870 --> 00:13:53,880
+zero one and at T equals two Pi we get
+ 
+
+643
+00:13:53,880 --> 00:13:56,389
+zero one and at T equals two Pi we get
+one zero again
+
+644
+00:13:56,389 --> 00:13:56,399
+one zero again
+ 
+
+645
+00:13:56,399 --> 00:13:59,210
+one zero again
+so in this wave the electric field
+
+646
+00:13:59,210 --> 00:13:59,220
+so in this wave the electric field
+ 
+
+647
+00:13:59,220 --> 00:14:02,210
+so in this wave the electric field
+Vector travels around in a circle in a
+
+648
+00:14:02,210 --> 00:14:02,220
+Vector travels around in a circle in a
+ 
+
+649
+00:14:02,220 --> 00:14:05,569
+Vector travels around in a circle in a
+clockwise Direction over time
+
+650
+00:14:05,569 --> 00:14:05,579
+clockwise Direction over time
+ 
+
+651
+00:14:05,579 --> 00:14:09,290
+clockwise Direction over time
+bringing back the z-axis if we take our
+
+652
+00:14:09,290 --> 00:14:09,300
+bringing back the z-axis if we take our
+ 
+
+653
+00:14:09,300 --> 00:14:11,629
+bringing back the z-axis if we take our
+left hand and point our Thumb in the
+
+654
+00:14:11,629 --> 00:14:11,639
+left hand and point our Thumb in the
+ 
+
+655
+00:14:11,639 --> 00:14:13,730
+left hand and point our Thumb in the
+direction of wave travel along the
+
+656
+00:14:13,730 --> 00:14:13,740
+direction of wave travel along the
+ 
+
+657
+00:14:13,740 --> 00:14:16,910
+direction of wave travel along the
+z-axis the electric field Vector at the
+
+658
+00:14:16,910 --> 00:14:16,920
+z-axis the electric field Vector at the
+ 
+
+659
+00:14:16,920 --> 00:14:19,910
+z-axis the electric field Vector at the
+origin Z equals zero will follow the
+
+660
+00:14:19,910 --> 00:14:19,920
+origin Z equals zero will follow the
+ 
+
+661
+00:14:19,920 --> 00:14:22,850
+origin Z equals zero will follow the
+direction of our curled fingers
+
+662
+00:14:22,850 --> 00:14:22,860
+direction of our curled fingers
+ 
+
+663
+00:14:22,860 --> 00:14:24,590
+direction of our curled fingers
+since the wave follows a circle
+
+664
+00:14:24,590 --> 00:14:24,600
+since the wave follows a circle
+ 
+
+665
+00:14:24,600 --> 00:14:27,530
+since the wave follows a circle
+according to our left hand we call it
+
+666
+00:14:27,530 --> 00:14:27,540
+according to our left hand we call it
+ 
+
+667
+00:14:27,540 --> 00:14:30,470
+according to our left hand we call it
+left circular polarized
+
+668
+00:14:30,470 --> 00:14:30,480
+left circular polarized
+ 
+
+669
+00:14:30,480 --> 00:14:33,110
+left circular polarized
+this wave would have a helix shape in
+
+670
+00:14:33,110 --> 00:14:33,120
+this wave would have a helix shape in
+ 
+
+671
+00:14:33,120 --> 00:14:34,690
+this wave would have a helix shape in
+three dimensions
+
+672
+00:14:34,690 --> 00:14:34,700
+three dimensions
+ 
+
+673
+00:14:34,700 --> 00:14:39,050
+three dimensions
+Wikipedia user Dave 3457 has made a
+
+674
+00:14:39,050 --> 00:14:39,060
+Wikipedia user Dave 3457 has made a
+ 
+
+675
+00:14:39,060 --> 00:14:40,970
+Wikipedia user Dave 3457 has made a
+great animation of this that he's put
+
+676
+00:14:40,970 --> 00:14:40,980
+great animation of this that he's put
+ 
+
+677
+00:14:40,980 --> 00:14:43,970
+great animation of this that he's put
+into the public domain
+
+678
+00:14:43,970 --> 00:14:43,980
+into the public domain
+ 
+
+679
+00:14:43,980 --> 00:14:46,910
+into the public domain
+we denote left circular polarized waves
+
+680
+00:14:46,910 --> 00:14:46,920
+we denote left circular polarized waves
+ 
+
+681
+00:14:46,920 --> 00:14:48,650
+we denote left circular polarized waves
+as capital l
+
+682
+00:14:48,650 --> 00:14:48,660
+as capital l
+ 
+
+683
+00:14:48,660 --> 00:14:51,350
+as capital l
+it's also more common to write e to the
+
+684
+00:14:51,350 --> 00:14:51,360
+it's also more common to write e to the
+ 
+
+685
+00:14:51,360 --> 00:14:55,250
+it's also more common to write e to the
+I pi over 2 as just I which is a quarter
+
+686
+00:14:55,250 --> 00:14:55,260
+I pi over 2 as just I which is a quarter
+ 
+
+687
+00:14:55,260 --> 00:14:57,530
+I pi over 2 as just I which is a quarter
+turn in the complex plane
+
+688
+00:14:57,530 --> 00:14:57,540
+turn in the complex plane
+ 
+
+689
+00:14:57,540 --> 00:15:00,350
+turn in the complex plane
+and once again we normalize by dividing
+
+690
+00:15:00,350 --> 00:15:00,360
+and once again we normalize by dividing
+ 
+
+691
+00:15:00,360 --> 00:15:03,829
+and once again we normalize by dividing
+by the square root of 2.
+
+692
+00:15:03,829 --> 00:15:03,839
+
+ 
+
+693
+00:15:03,839 --> 00:15:06,230
+
+if we repeat this process from the start
+
+694
+00:15:06,230 --> 00:15:06,240
+if we repeat this process from the start
+ 
+
+695
+00:15:06,240 --> 00:15:08,449
+if we repeat this process from the start
+but instead giving the vertical
+
+696
+00:15:08,449 --> 00:15:08,459
+but instead giving the vertical
+ 
+
+697
+00:15:08,459 --> 00:15:11,210
+but instead giving the vertical
+polarization a phase of negative pi over
+
+698
+00:15:11,210 --> 00:15:11,220
+polarization a phase of negative pi over
+ 
+
+699
+00:15:11,220 --> 00:15:15,170
+polarization a phase of negative pi over
+2 we get a helix wave that corkscrews in
+
+700
+00:15:15,170 --> 00:15:15,180
+2 we get a helix wave that corkscrews in
+ 
+
+701
+00:15:15,180 --> 00:15:17,629
+2 we get a helix wave that corkscrews in
+the opposite direction matching our
+
+702
+00:15:17,629 --> 00:15:17,639
+the opposite direction matching our
+ 
+
+703
+00:15:17,639 --> 00:15:19,910
+the opposite direction matching our
+right hand when the right thumb points
+
+704
+00:15:19,910 --> 00:15:19,920
+right hand when the right thumb points
+ 
+
+705
+00:15:19,920 --> 00:15:22,430
+right hand when the right thumb points
+in the direction of wave travel
+
+706
+00:15:22,430 --> 00:15:22,440
+in the direction of wave travel
+ 
+
+707
+00:15:22,440 --> 00:15:25,490
+in the direction of wave travel
+so we call this right circular polarized
+
+708
+00:15:25,490 --> 00:15:25,500
+so we call this right circular polarized
+ 
+
+709
+00:15:25,500 --> 00:15:28,430
+so we call this right circular polarized
+denoted by capital r
+
+710
+00:15:28,430 --> 00:15:28,440
+denoted by capital r
+ 
+
+711
+00:15:28,440 --> 00:15:31,129
+denoted by capital r
+now you'll notice in this video I've
+
+712
+00:15:31,129 --> 00:15:31,139
+now you'll notice in this video I've
+ 
+
+713
+00:15:31,139 --> 00:15:33,110
+now you'll notice in this video I've
+written my traveling waves with a
+
+714
+00:15:33,110 --> 00:15:33,120
+written my traveling waves with a
+ 
+
+715
+00:15:33,120 --> 00:15:35,949
+written my traveling waves with a
+positive time term and a negative Z term
+
+716
+00:15:35,949 --> 00:15:35,959
+positive time term and a negative Z term
+ 
+
+717
+00:15:35,959 --> 00:15:38,810
+positive time term and a negative Z term
+some textbooks use the opposite sign
+
+718
+00:15:38,810 --> 00:15:38,820
+some textbooks use the opposite sign
+ 
+
+719
+00:15:38,820 --> 00:15:42,110
+some textbooks use the opposite sign
+convention with a positive Z term and a
+
+720
+00:15:42,110 --> 00:15:42,120
+convention with a positive Z term and a
+ 
+
+721
+00:15:42,120 --> 00:15:45,350
+convention with a positive Z term and a
+negative time term and as a result the
+
+722
+00:15:45,350 --> 00:15:45,360
+negative time term and as a result the
+ 
+
+723
+00:15:45,360 --> 00:15:47,810
+negative time term and as a result the
+Jones vectors for circularly polarized
+
+724
+00:15:47,810 --> 00:15:47,820
+Jones vectors for circularly polarized
+ 
+
+725
+00:15:47,820 --> 00:15:50,210
+Jones vectors for circularly polarized
+waves have opposite signs on the
+
+726
+00:15:50,210 --> 00:15:50,220
+waves have opposite signs on the
+ 
+
+727
+00:15:50,220 --> 00:15:52,069
+waves have opposite signs on the
+imaginary parts
+
+728
+00:15:52,069 --> 00:15:52,079
+imaginary parts
+ 
+
+729
+00:15:52,079 --> 00:15:53,930
+imaginary parts
+so make sure you know which sign
+
+730
+00:15:53,930 --> 00:15:53,940
+so make sure you know which sign
+ 
+
+731
+00:15:53,940 --> 00:15:55,970
+so make sure you know which sign
+convention you're using when talking
+
+732
+00:15:55,970 --> 00:15:55,980
+convention you're using when talking
+ 
+
+733
+00:15:55,980 --> 00:15:59,509
+convention you're using when talking
+about circularly polarized waves
+
+734
+00:15:59,509 --> 00:15:59,519
+about circularly polarized waves
+ 
+
+735
+00:15:59,519 --> 00:16:02,930
+about circularly polarized waves
+so to summarize this video we initially
+
+736
+00:16:02,930 --> 00:16:02,940
+so to summarize this video we initially
+ 
+
+737
+00:16:02,940 --> 00:16:05,689
+so to summarize this video we initially
+discovered the Jones vectors H and V
+
+738
+00:16:05,689 --> 00:16:05,699
+discovered the Jones vectors H and V
+ 
+
+739
+00:16:05,699 --> 00:16:08,150
+discovered the Jones vectors H and V
+which represent horizontally and
+
+740
+00:16:08,150 --> 00:16:08,160
+which represent horizontally and
+ 
+
+741
+00:16:08,160 --> 00:16:11,569
+which represent horizontally and
+vertically polarized traveling waves we
+
+742
+00:16:11,569 --> 00:16:11,579
+vertically polarized traveling waves we
+ 
+
+743
+00:16:11,579 --> 00:16:13,250
+vertically polarized traveling waves we
+then found that writing them in
+
+744
+00:16:13,250 --> 00:16:13,260
+then found that writing them in
+ 
+
+745
+00:16:13,260 --> 00:16:15,590
+then found that writing them in
+different linear combinations could give
+
+746
+00:16:15,590 --> 00:16:15,600
+different linear combinations could give
+ 
+
+747
+00:16:15,600 --> 00:16:18,410
+different linear combinations could give
+us new polarizations of light like
+
+748
+00:16:18,410 --> 00:16:18,420
+us new polarizations of light like
+ 
+
+749
+00:16:18,420 --> 00:16:21,170
+us new polarizations of light like
+diagonal and anti-diagonal polarizations
+
+750
+00:16:21,170 --> 00:16:21,180
+diagonal and anti-diagonal polarizations
+ 
+
+751
+00:16:21,180 --> 00:16:23,689
+diagonal and anti-diagonal polarizations
+and the left and right circular
+
+752
+00:16:23,689 --> 00:16:23,699
+and the left and right circular
+ 
+
+753
+00:16:23,699 --> 00:16:25,850
+and the left and right circular
+polarizations
+
+754
+00:16:25,850 --> 00:16:25,860
+polarizations
+ 
+
+755
+00:16:25,860 --> 00:16:27,829
+polarizations
+we're going to see in the next video
+
+756
+00:16:27,829 --> 00:16:27,839
+we're going to see in the next video
+ 
+
+757
+00:16:27,839 --> 00:16:30,590
+we're going to see in the next video
+that these Jones vectors that represent
+
+758
+00:16:30,590 --> 00:16:30,600
+that these Jones vectors that represent
+ 
+
+759
+00:16:30,600 --> 00:16:34,430
+that these Jones vectors that represent
+wave polarizations are actually spinners
+
+760
+00:16:34,430 --> 00:16:34,440
+wave polarizations are actually spinners
+ 
+
+761
+00:16:34,440 --> 00:16:36,590
+wave polarizations are actually spinners
+at this point there's no particular
+
+762
+00:16:36,590 --> 00:16:36,600
+at this point there's no particular
+ 
+
+763
+00:16:36,600 --> 00:16:38,990
+at this point there's no particular
+reason why we would decide these pairs
+
+764
+00:16:38,990 --> 00:16:39,000
+reason why we would decide these pairs
+ 
+
+765
+00:16:39,000 --> 00:16:41,569
+reason why we would decide these pairs
+of complex numbers are special objects
+
+766
+00:16:41,569 --> 00:16:41,579
+of complex numbers are special objects
+ 
+
+767
+00:16:41,579 --> 00:16:43,670
+of complex numbers are special objects
+that deserve the special name of spinner
+
+768
+00:16:43,670 --> 00:16:43,680
+that deserve the special name of spinner
+ 
+
+769
+00:16:43,680 --> 00:16:46,550
+that deserve the special name of spinner
+but in the next video we're going to see
+
+770
+00:16:46,550 --> 00:16:46,560
+but in the next video we're going to see
+ 
+
+771
+00:16:46,560 --> 00:16:48,350
+but in the next video we're going to see
+how we can rotate these various
+
+772
+00:16:48,350 --> 00:16:48,360
+how we can rotate these various
+ 
+
+773
+00:16:48,360 --> 00:16:51,110
+how we can rotate these various
+polarizations into each other using
+
+774
+00:16:51,110 --> 00:16:51,120
+polarizations into each other using
+ 
+
+775
+00:16:51,120 --> 00:16:54,949
+polarizations into each other using
+special matrices called su2 matrices
+
+776
+00:16:54,949 --> 00:16:54,959
+special matrices called su2 matrices
+ 
+
+777
+00:16:54,959 --> 00:16:57,350
+special matrices called su2 matrices
+and this will reveal a special angle
+
+778
+00:16:57,350 --> 00:16:57,360
+and this will reveal a special angle
+ 
+
+779
+00:16:57,360 --> 00:16:59,629
+and this will reveal a special angle
+doubling relationship between physical
+
+780
+00:16:59,629 --> 00:16:59,639
+doubling relationship between physical
+ 
+
+781
+00:16:59,639 --> 00:17:02,150
+doubling relationship between physical
+space and the space of wave
+
+782
+00:17:02,150 --> 00:17:02,160
+space and the space of wave
+ 
+
+783
+00:17:02,160 --> 00:17:05,150
+space and the space of wave
+polarizations we'll see that one
+
+784
+00:17:05,150 --> 00:17:05,160
+polarizations we'll see that one
+ 
+
+785
+00:17:05,160 --> 00:17:07,970
+polarizations we'll see that one
+rotation in physical space corresponds
+
+786
+00:17:07,970 --> 00:17:07,980
+rotation in physical space corresponds
+ 
+
+787
+00:17:07,980 --> 00:17:09,890
+rotation in physical space corresponds
+to two full rotations in the
+
+788
+00:17:09,890 --> 00:17:09,900
+to two full rotations in the
+ 
+
+789
+00:17:09,900 --> 00:17:11,689
+to two full rotations in the
+polarization space
+
+790
+00:17:11,689 --> 00:17:11,699
+polarization space
+ 
+
+791
+00:17:11,699 --> 00:17:13,850
+polarization space
+the Jones vectors that live in
+
+792
+00:17:13,850 --> 00:17:13,860
+the Jones vectors that live in
+ 
+
+793
+00:17:13,860 --> 00:17:16,610
+the Jones vectors that live in
+polarization space require two full
+
+794
+00:17:16,610 --> 00:17:16,620
+polarization space require two full
+ 
+
+795
+00:17:16,620 --> 00:17:18,470
+polarization space require two full
+rotations to get back to the starting
+
+796
+00:17:18,470 --> 00:17:18,480
+rotations to get back to the starting
+ 
+
+797
+00:17:18,480 --> 00:17:20,929
+rotations to get back to the starting
+point and this is exactly what we would
+
+798
+00:17:20,929 --> 00:17:20,939
+point and this is exactly what we would
+ 
+
+799
+00:17:20,939 --> 00:17:23,270
+point and this is exactly what we would
+expect from spinners
+
+800
+00:17:23,270 --> 00:17:23,280
+expect from spinners
+ 
+
+801
+00:17:23,280 --> 00:17:25,610
+expect from spinners
+in the meantime before the next video
+
+802
+00:17:25,610 --> 00:17:25,620
+in the meantime before the next video
+ 
+
+803
+00:17:25,620 --> 00:17:28,309
+in the meantime before the next video
+I'd suggest trying to draw out the
+
+804
+00:17:28,309 --> 00:17:28,319
+I'd suggest trying to draw out the
+ 
+
+805
+00:17:28,319 --> 00:17:31,250
+I'd suggest trying to draw out the
+shapes of various polarizations for the
+
+806
+00:17:31,250 --> 00:17:31,260
+shapes of various polarizations for the
+ 
+
+807
+00:17:31,260 --> 00:17:34,250
+shapes of various polarizations for the
+Jones vectors shown on the screen here
+
+808
+00:17:34,250 --> 00:17:34,260
+Jones vectors shown on the screen here
+ 
+
+809
+00:17:34,260 --> 00:17:36,950
+Jones vectors shown on the screen here
+if you feel confused just use the
+
+810
+00:17:36,950 --> 00:17:36,960
+if you feel confused just use the
+ 
+
+811
+00:17:36,960 --> 00:17:39,470
+if you feel confused just use the
+strategy I showed earlier of taking Z
+
+812
+00:17:39,470 --> 00:17:39,480
+strategy I showed earlier of taking Z
+ 
+
+813
+00:17:39,480 --> 00:17:42,890
+strategy I showed earlier of taking Z
+equals zero and Omega equals one and
+
+814
+00:17:42,890 --> 00:17:42,900
+equals zero and Omega equals one and
+ 
+
+815
+00:17:42,900 --> 00:17:45,289
+equals zero and Omega equals one and
+plugging in different time values to see
+
+816
+00:17:45,289 --> 00:17:45,299
+plugging in different time values to see
+ 
+
+817
+00:17:45,299 --> 00:17:47,510
+plugging in different time values to see
+how the wave moves around in the X Y
+
+818
+00:17:47,510 --> 00:17:47,520
+how the wave moves around in the X Y
+ 
+
+819
+00:17:47,520 --> 00:17:48,529
+how the wave moves around in the X Y
+plane
+
+820
+00:17:48,529 --> 00:17:48,539
+plane
+ 
+
+821
+00:17:48,539 --> 00:17:50,330
+plane
+the answers are linked in the
+
+822
+00:17:50,330 --> 00:17:50,340
+the answers are linked in the
+ 
+
+823
+00:17:50,340 --> 00:17:52,700
+the answers are linked in the
+description
+

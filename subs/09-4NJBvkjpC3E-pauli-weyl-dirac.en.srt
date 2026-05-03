@@ -1,0 +1,10285 @@
+1
+00:00:00,240 --> 00:00:02,810
+
+we're continuing to study Spinners from
+
+2
+00:00:02,810 --> 00:00:02,820
+we're continuing to study Spinners from
+ 
+
+3
+00:00:02,820 --> 00:00:05,390
+we're continuing to study Spinners from
+a mathematical point of view and in this
+
+4
+00:00:05,390 --> 00:00:05,400
+a mathematical point of view and in this
+ 
+
+5
+00:00:05,400 --> 00:00:07,070
+a mathematical point of view and in this
+video we're going to discuss the
+
+6
+00:00:07,070 --> 00:00:07,080
+video we're going to discuss the
+ 
+
+7
+00:00:07,080 --> 00:00:09,530
+video we're going to discuss the
+difference between Paulie Spinners vial
+
+8
+00:00:09,530 --> 00:00:09,540
+difference between Paulie Spinners vial
+ 
+
+9
+00:00:09,540 --> 00:00:11,990
+difference between Paulie Spinners vial
+Spinners and direct spinners
+
+10
+00:00:11,990 --> 00:00:12,000
+Spinners and direct spinners
+ 
+
+11
+00:00:12,000 --> 00:00:14,390
+Spinners and direct spinners
+the short answer is that powley Spinners
+
+12
+00:00:14,390 --> 00:00:14,400
+the short answer is that powley Spinners
+ 
+
+13
+00:00:14,400 --> 00:00:16,730
+the short answer is that powley Spinners
+are two component objects associated
+
+14
+00:00:16,730 --> 00:00:16,740
+are two component objects associated
+ 
+
+15
+00:00:16,740 --> 00:00:20,029
+are two component objects associated
+with 3D space vial Spinners are two
+
+16
+00:00:20,029 --> 00:00:20,039
+with 3D space vial Spinners are two
+ 
+
+17
+00:00:20,039 --> 00:00:22,670
+with 3D space vial Spinners are two
+component objects associated with 4D
+
+18
+00:00:22,670 --> 00:00:22,680
+component objects associated with 4D
+ 
+
+19
+00:00:22,680 --> 00:00:25,790
+component objects associated with 4D
+space-time and direct Spinners are four
+
+20
+00:00:25,790 --> 00:00:25,800
+space-time and direct Spinners are four
+ 
+
+21
+00:00:25,800 --> 00:00:28,310
+space-time and direct Spinners are four
+component Spinners associated with 4D
+
+22
+00:00:28,310 --> 00:00:28,320
+component Spinners associated with 4D
+ 
+
+23
+00:00:28,320 --> 00:00:31,250
+component Spinners associated with 4D
+space-time made up of a left chiral vial
+
+24
+00:00:31,250 --> 00:00:31,260
+space-time made up of a left chiral vial
+ 
+
+25
+00:00:31,260 --> 00:00:33,590
+space-time made up of a left chiral vial
+spinner and a right chiral vial spinner
+
+26
+00:00:33,590 --> 00:00:33,600
+spinner and a right chiral vial spinner
+ 
+
+27
+00:00:33,600 --> 00:00:35,930
+spinner and a right chiral vial spinner
+stacked on top of each other
+
+28
+00:00:35,930 --> 00:00:35,940
+stacked on top of each other
+ 
+
+29
+00:00:35,940 --> 00:00:37,910
+stacked on top of each other
+we've spent the last few videos
+
+30
+00:00:37,910 --> 00:00:37,920
+we've spent the last few videos
+ 
+
+31
+00:00:37,920 --> 00:00:41,690
+we've spent the last few videos
+discussing powley Spinners in detail in
+
+32
+00:00:41,690 --> 00:00:41,700
+discussing powley Spinners in detail in
+ 
+
+33
+00:00:41,700 --> 00:00:43,549
+discussing powley Spinners in detail in
+this video we're going to discuss all
+
+34
+00:00:43,549 --> 00:00:43,559
+this video we're going to discuss all
+ 
+
+35
+00:00:43,559 --> 00:00:45,590
+this video we're going to discuss all
+the differences between Paulie Spinners
+
+36
+00:00:45,590 --> 00:00:45,600
+the differences between Paulie Spinners
+ 
+
+37
+00:00:45,600 --> 00:00:47,750
+the differences between Paulie Spinners
+and vial spinners
+
+38
+00:00:47,750 --> 00:00:47,760
+and vial spinners
+ 
+
+39
+00:00:47,760 --> 00:00:49,970
+and vial spinners
+once we understand the two component
+
+40
+00:00:49,970 --> 00:00:49,980
+once we understand the two component
+ 
+
+41
+00:00:49,980 --> 00:00:52,790
+once we understand the two component
+file Spinners it will be very easy to
+
+42
+00:00:52,790 --> 00:00:52,800
+file Spinners it will be very easy to
+ 
+
+43
+00:00:52,800 --> 00:00:54,709
+file Spinners it will be very easy to
+understand the four component direct
+
+44
+00:00:54,709 --> 00:00:54,719
+understand the four component direct
+ 
+
+45
+00:00:54,719 --> 00:00:57,170
+understand the four component direct
+Spinners since a direct spinner is
+
+46
+00:00:57,170 --> 00:00:57,180
+Spinners since a direct spinner is
+ 
+
+47
+00:00:57,180 --> 00:01:00,470
+Spinners since a direct spinner is
+simply a pair of vial spinners
+
+48
+00:01:00,470 --> 00:01:00,480
+simply a pair of vial spinners
+ 
+
+49
+00:01:00,480 --> 00:01:02,689
+simply a pair of vial spinners
+to begin I'm going to give an overview
+
+50
+00:01:02,689 --> 00:01:02,699
+to begin I'm going to give an overview
+ 
+
+51
+00:01:02,699 --> 00:01:04,969
+to begin I'm going to give an overview
+of all the differences between Pali
+
+52
+00:01:04,969 --> 00:01:04,979
+of all the differences between Pali
+ 
+
+53
+00:01:04,979 --> 00:01:07,789
+of all the differences between Pali
+Spinners and vial Spinners and then I'll
+
+54
+00:01:07,789 --> 00:01:07,799
+Spinners and vial Spinners and then I'll
+ 
+
+55
+00:01:07,799 --> 00:01:09,950
+Spinners and vial Spinners and then I'll
+spend the rest of this video exploring
+
+56
+00:01:09,950 --> 00:01:09,960
+spend the rest of this video exploring
+ 
+
+57
+00:01:09,960 --> 00:01:12,830
+spend the rest of this video exploring
+the differences in detail
+
+58
+00:01:12,830 --> 00:01:12,840
+the differences in detail
+ 
+
+59
+00:01:12,840 --> 00:01:15,890
+the differences in detail
+in 3D space we calculate the squared
+
+60
+00:01:15,890 --> 00:01:15,900
+in 3D space we calculate the squared
+ 
+
+61
+00:01:15,900 --> 00:01:18,350
+in 3D space we calculate the squared
+length of a vector using Pythagoras's
+
+62
+00:01:18,350 --> 00:01:18,360
+length of a vector using Pythagoras's
+ 
+
+63
+00:01:18,360 --> 00:01:21,230
+length of a vector using Pythagoras's
+Theorem x squared plus y squared plus Z
+
+64
+00:01:21,230 --> 00:01:21,240
+Theorem x squared plus y squared plus Z
+ 
+
+65
+00:01:21,240 --> 00:01:24,830
+Theorem x squared plus y squared plus Z
+squared in 4D space time we instead
+
+66
+00:01:24,830 --> 00:01:24,840
+squared in 4D space time we instead
+ 
+
+67
+00:01:24,840 --> 00:01:26,749
+squared in 4D space time we instead
+calculate the square of the space-time
+
+68
+00:01:26,749 --> 00:01:26,759
+calculate the square of the space-time
+ 
+
+69
+00:01:26,759 --> 00:01:30,109
+calculate the square of the space-time
+interval s squared which is time squared
+
+70
+00:01:30,109 --> 00:01:30,119
+interval s squared which is time squared
+ 
+
+71
+00:01:30,119 --> 00:01:32,990
+interval s squared which is time squared
+minus the space component squared
+
+72
+00:01:32,990 --> 00:01:33,000
+minus the space component squared
+ 
+
+73
+00:01:33,000 --> 00:01:35,569
+minus the space component squared
+the length of 3D vectors is held
+
+74
+00:01:35,569 --> 00:01:35,579
+the length of 3D vectors is held
+ 
+
+75
+00:01:35,579 --> 00:01:38,990
+the length of 3D vectors is held
+constant during rotations done with SO3
+
+76
+00:01:38,990 --> 00:01:39,000
+constant during rotations done with SO3
+ 
+
+77
+00:01:39,000 --> 00:01:40,370
+constant during rotations done with SO3
+matrices
+
+78
+00:01:40,370 --> 00:01:40,380
+matrices
+ 
+
+79
+00:01:40,380 --> 00:01:43,310
+matrices
+the space-time interval of 4D space-time
+
+80
+00:01:43,310 --> 00:01:43,320
+the space-time interval of 4D space-time
+ 
+
+81
+00:01:43,320 --> 00:01:45,770
+the space-time interval of 4D space-time
+vectors is held constant when we do
+
+82
+00:01:45,770 --> 00:01:45,780
+vectors is held constant when we do
+ 
+
+83
+00:01:45,780 --> 00:01:49,609
+vectors is held constant when we do
+Lorenz Transformations done with so13
+
+84
+00:01:49,609 --> 00:01:49,619
+Lorenz Transformations done with so13
+ 
+
+85
+00:01:49,619 --> 00:01:51,289
+Lorenz Transformations done with so13
+matrices
+
+86
+00:01:51,289 --> 00:01:51,299
+matrices
+ 
+
+87
+00:01:51,299 --> 00:01:54,649
+matrices
+we can rewrite 3D vectors as two by two
+
+88
+00:01:54,649 --> 00:01:54,659
+we can rewrite 3D vectors as two by two
+ 
+
+89
+00:01:54,659 --> 00:01:58,069
+we can rewrite 3D vectors as two by two
+matrices called Pali vectors and we can
+
+90
+00:01:58,069 --> 00:01:58,079
+matrices called Pali vectors and we can
+ 
+
+91
+00:01:58,079 --> 00:02:01,069
+matrices called Pali vectors and we can
+rewrite 4D space-time vectors as two by
+
+92
+00:02:01,069 --> 00:02:01,079
+rewrite 4D space-time vectors as two by
+ 
+
+93
+00:02:01,079 --> 00:02:04,370
+rewrite 4D space-time vectors as two by
+two matrices called vial vectors
+
+94
+00:02:04,370 --> 00:02:04,380
+two matrices called vial vectors
+ 
+
+95
+00:02:04,380 --> 00:02:06,410
+two matrices called vial vectors
+Paulie vectors are rotated with
+
+96
+00:02:06,410 --> 00:02:06,420
+Paulie vectors are rotated with
+ 
+
+97
+00:02:06,420 --> 00:02:09,350
+Paulie vectors are rotated with
+double-sided Transformations with su2
+
+98
+00:02:09,350 --> 00:02:09,360
+double-sided Transformations with su2
+ 
+
+99
+00:02:09,360 --> 00:02:12,470
+double-sided Transformations with su2
+matrices vial vectors are lorentz
+
+100
+00:02:12,470 --> 00:02:12,480
+matrices vial vectors are lorentz
+ 
+
+101
+00:02:12,480 --> 00:02:14,089
+matrices vial vectors are lorentz
+transformed with double-sided
+
+102
+00:02:14,089 --> 00:02:14,099
+transformed with double-sided
+ 
+
+103
+00:02:14,099 --> 00:02:18,229
+transformed with double-sided
+Transformations with sl2c matrices
+
+104
+00:02:18,229 --> 00:02:18,239
+Transformations with sl2c matrices
+ 
+
+105
+00:02:18,239 --> 00:02:20,809
+Transformations with sl2c matrices
+Pauly vectors can be factored into a
+
+106
+00:02:20,809 --> 00:02:20,819
+Pauly vectors can be factored into a
+ 
+
+107
+00:02:20,819 --> 00:02:23,990
+Pauly vectors can be factored into a
+pair of Pali Spinners and vial vectors
+
+108
+00:02:23,990 --> 00:02:24,000
+pair of Pali Spinners and vial vectors
+ 
+
+109
+00:02:24,000 --> 00:02:26,390
+pair of Pali Spinners and vial vectors
+can be factored into a pair of vial
+
+110
+00:02:26,390 --> 00:02:26,400
+can be factored into a pair of vial
+ 
+
+111
+00:02:26,400 --> 00:02:27,589
+can be factored into a pair of vial
+spinners
+
+112
+00:02:27,589 --> 00:02:27,599
+spinners
+ 
+
+113
+00:02:27,599 --> 00:02:30,530
+spinners
+the inner product of Paulie Spinners is
+
+114
+00:02:30,530 --> 00:02:30,540
+the inner product of Paulie Spinners is
+ 
+
+115
+00:02:30,540 --> 00:02:33,530
+the inner product of Paulie Spinners is
+Sci dagger PSI but the inner product of
+
+116
+00:02:33,530 --> 00:02:33,540
+Sci dagger PSI but the inner product of
+ 
+
+117
+00:02:33,540 --> 00:02:36,229
+Sci dagger PSI but the inner product of
+vile Spinners is side transposed times
+
+118
+00:02:36,229 --> 00:02:36,239
+vile Spinners is side transposed times
+ 
+
+119
+00:02:36,239 --> 00:02:39,110
+vile Spinners is side transposed times
+the Epsilon Matrix times PSI
+
+120
+00:02:39,110 --> 00:02:39,120
+the Epsilon Matrix times PSI
+ 
+
+121
+00:02:39,120 --> 00:02:41,390
+the Epsilon Matrix times PSI
+Pali Spinners don't have a notion of
+
+122
+00:02:41,390 --> 00:02:41,400
+Pali Spinners don't have a notion of
+ 
+
+123
+00:02:41,400 --> 00:02:44,330
+Pali Spinners don't have a notion of
+chirality but vile Spinners can be
+
+124
+00:02:44,330 --> 00:02:44,340
+chirality but vile Spinners can be
+ 
+
+125
+00:02:44,340 --> 00:02:47,210
+chirality but vile Spinners can be
+either left chiral or right chiral
+
+126
+00:02:47,210 --> 00:02:47,220
+either left chiral or right chiral
+ 
+
+127
+00:02:47,220 --> 00:02:49,850
+either left chiral or right chiral
+finally powley Spinners have two types
+
+128
+00:02:49,850 --> 00:02:49,860
+finally powley Spinners have two types
+ 
+
+129
+00:02:49,860 --> 00:02:52,430
+finally powley Spinners have two types
+of indices four Spinners and dual
+
+130
+00:02:52,430 --> 00:02:52,440
+of indices four Spinners and dual
+ 
+
+131
+00:02:52,440 --> 00:02:55,550
+of indices four Spinners and dual
+Spinners vial Spinners have four types
+
+132
+00:02:55,550 --> 00:02:55,560
+Spinners vial Spinners have four types
+ 
+
+133
+00:02:55,560 --> 00:02:57,650
+Spinners vial Spinners have four types
+of indices for the left and right
+
+134
+00:02:57,650 --> 00:02:57,660
+of indices for the left and right
+ 
+
+135
+00:02:57,660 --> 00:03:01,970
+of indices for the left and right
+versions of spinners and dual spinners
+
+136
+00:03:01,970 --> 00:03:01,980
+versions of spinners and dual spinners
+ 
+
+137
+00:03:01,980 --> 00:03:04,910
+versions of spinners and dual spinners
+to begin let's do a quick review of
+
+138
+00:03:04,910 --> 00:03:04,920
+to begin let's do a quick review of
+ 
+
+139
+00:03:04,920 --> 00:03:07,729
+to begin let's do a quick review of
+special relativity if this review goes
+
+140
+00:03:07,729 --> 00:03:07,739
+special relativity if this review goes
+ 
+
+141
+00:03:07,739 --> 00:03:10,130
+special relativity if this review goes
+too fast I've included some links in the
+
+142
+00:03:10,130 --> 00:03:10,140
+too fast I've included some links in the
+ 
+
+143
+00:03:10,140 --> 00:03:11,630
+too fast I've included some links in the
+description that cover special
+
+144
+00:03:11,630 --> 00:03:11,640
+description that cover special
+ 
+
+145
+00:03:11,640 --> 00:03:14,509
+description that cover special
+relativity more slowly
+
+146
+00:03:14,509 --> 00:03:14,519
+relativity more slowly
+ 
+
+147
+00:03:14,519 --> 00:03:17,270
+relativity more slowly
+in Galilean relativity a space-time
+
+148
+00:03:17,270 --> 00:03:17,280
+in Galilean relativity a space-time
+ 
+
+149
+00:03:17,280 --> 00:03:19,729
+in Galilean relativity a space-time
+diagram with time along the vertical
+
+150
+00:03:19,729 --> 00:03:19,739
+diagram with time along the vertical
+ 
+
+151
+00:03:19,739 --> 00:03:21,890
+diagram with time along the vertical
+axis looks like a sequence of
+
+152
+00:03:21,890 --> 00:03:21,900
+axis looks like a sequence of
+ 
+
+153
+00:03:21,900 --> 00:03:24,350
+axis looks like a sequence of
+photographs that change as we move up
+
+154
+00:03:24,350 --> 00:03:24,360
+photographs that change as we move up
+ 
+
+155
+00:03:24,360 --> 00:03:27,589
+photographs that change as we move up
+along the time axis we can change our
+
+156
+00:03:27,589 --> 00:03:27,599
+along the time axis we can change our
+ 
+
+157
+00:03:27,599 --> 00:03:29,869
+along the time axis we can change our
+frame of reference just by sliding these
+
+158
+00:03:29,869 --> 00:03:29,879
+frame of reference just by sliding these
+ 
+
+159
+00:03:29,879 --> 00:03:32,330
+frame of reference just by sliding these
+photographs left and right
+
+160
+00:03:32,330 --> 00:03:32,340
+photographs left and right
+ 
+
+161
+00:03:32,340 --> 00:03:34,970
+photographs left and right
+this means that light beams can have any
+
+162
+00:03:34,970 --> 00:03:34,980
+this means that light beams can have any
+ 
+
+163
+00:03:34,980 --> 00:03:37,610
+this means that light beams can have any
+speed and Galilean relativity because
+
+164
+00:03:37,610 --> 00:03:37,620
+speed and Galilean relativity because
+ 
+
+165
+00:03:37,620 --> 00:03:39,770
+speed and Galilean relativity because
+changing our reference frame will change
+
+166
+00:03:39,770 --> 00:03:39,780
+changing our reference frame will change
+ 
+
+167
+00:03:39,780 --> 00:03:41,809
+changing our reference frame will change
+the speed of light
+
+168
+00:03:41,809 --> 00:03:41,819
+the speed of light
+ 
+
+169
+00:03:41,819 --> 00:03:44,630
+the speed of light
+special relativity postulates that the
+
+170
+00:03:44,630 --> 00:03:44,640
+special relativity postulates that the
+ 
+
+171
+00:03:44,640 --> 00:03:47,030
+special relativity postulates that the
+speed of light C is the same in all
+
+172
+00:03:47,030 --> 00:03:47,040
+speed of light C is the same in all
+ 
+
+173
+00:03:47,040 --> 00:03:49,850
+speed of light C is the same in all
+inertial reference frames this means we
+
+174
+00:03:49,850 --> 00:03:49,860
+inertial reference frames this means we
+ 
+
+175
+00:03:49,860 --> 00:03:51,710
+inertial reference frames this means we
+need a new way to change our frame of
+
+176
+00:03:51,710 --> 00:03:51,720
+need a new way to change our frame of
+ 
+
+177
+00:03:51,720 --> 00:03:54,170
+need a new way to change our frame of
+reference that keeps these two beams of
+
+178
+00:03:54,170 --> 00:03:54,180
+reference that keeps these two beams of
+ 
+
+179
+00:03:54,180 --> 00:03:56,330
+reference that keeps these two beams of
+light unchanged
+
+180
+00:03:56,330 --> 00:03:56,340
+light unchanged
+ 
+
+181
+00:03:56,340 --> 00:03:58,550
+light unchanged
+the key to changing reference frames
+
+182
+00:03:58,550 --> 00:03:58,560
+the key to changing reference frames
+ 
+
+183
+00:03:58,560 --> 00:03:59,990
+the key to changing reference frames
+while keeping the speed of light
+
+184
+00:03:59,990 --> 00:04:00,000
+while keeping the speed of light
+ 
+
+185
+00:04:00,000 --> 00:04:03,050
+while keeping the speed of light
+constant is squashing space time along
+
+186
+00:04:03,050 --> 00:04:03,060
+constant is squashing space time along
+ 
+
+187
+00:04:03,060 --> 00:04:05,930
+constant is squashing space time along
+one beam of light and extending it along
+
+188
+00:04:05,930 --> 00:04:05,940
+one beam of light and extending it along
+ 
+
+189
+00:04:05,940 --> 00:04:08,089
+one beam of light and extending it along
+the other beam of light
+
+190
+00:04:08,089 --> 00:04:08,099
+the other beam of light
+ 
+
+191
+00:04:08,099 --> 00:04:10,970
+the other beam of light
+this change of coordinates is called a
+
+192
+00:04:10,970 --> 00:04:10,980
+this change of coordinates is called a
+ 
+
+193
+00:04:10,980 --> 00:04:13,490
+this change of coordinates is called a
+lorentz boost and it is given by this
+
+194
+00:04:13,490 --> 00:04:13,500
+lorentz boost and it is given by this
+ 
+
+195
+00:04:13,500 --> 00:04:14,869
+lorentz boost and it is given by this
+formula here
+
+196
+00:04:14,869 --> 00:04:14,879
+formula here
+ 
+
+197
+00:04:14,879 --> 00:04:17,390
+formula here
+it can also be written with hyperbolic
+
+198
+00:04:17,390 --> 00:04:17,400
+it can also be written with hyperbolic
+ 
+
+199
+00:04:17,400 --> 00:04:19,310
+it can also be written with hyperbolic
+trig functions
+
+200
+00:04:19,310 --> 00:04:19,320
+trig functions
+ 
+
+201
+00:04:19,320 --> 00:04:21,349
+trig functions
+so lorentz boosts are actually
+
+202
+00:04:21,349 --> 00:04:21,359
+so lorentz boosts are actually
+ 
+
+203
+00:04:21,359 --> 00:04:24,110
+so lorentz boosts are actually
+hyperbolic rotations
+
+204
+00:04:24,110 --> 00:04:24,120
+hyperbolic rotations
+ 
+
+205
+00:04:24,120 --> 00:04:26,450
+hyperbolic rotations
+you'll also notice I've written the time
+
+206
+00:04:26,450 --> 00:04:26,460
+you'll also notice I've written the time
+ 
+
+207
+00:04:26,460 --> 00:04:29,270
+you'll also notice I've written the time
+variable as the speed of light c times
+
+208
+00:04:29,270 --> 00:04:29,280
+variable as the speed of light c times
+ 
+
+209
+00:04:29,280 --> 00:04:32,330
+variable as the speed of light c times
+time this is a common convention in
+
+210
+00:04:32,330 --> 00:04:32,340
+time this is a common convention in
+ 
+
+211
+00:04:32,340 --> 00:04:35,030
+time this is a common convention in
+special relativity because it gives time
+
+212
+00:04:35,030 --> 00:04:35,040
+special relativity because it gives time
+ 
+
+213
+00:04:35,040 --> 00:04:37,790
+special relativity because it gives time
+units of distance which allows us to
+
+214
+00:04:37,790 --> 00:04:37,800
+units of distance which allows us to
+ 
+
+215
+00:04:37,800 --> 00:04:40,129
+units of distance which allows us to
+treat time and space together on equal
+
+216
+00:04:40,129 --> 00:04:40,139
+treat time and space together on equal
+ 
+
+217
+00:04:40,139 --> 00:04:43,129
+treat time and space together on equal
+footing in space time
+
+218
+00:04:43,129 --> 00:04:43,139
+footing in space time
+ 
+
+219
+00:04:43,139 --> 00:04:45,590
+footing in space time
+this brings us to the first Topic in
+
+220
+00:04:45,590 --> 00:04:45,600
+this brings us to the first Topic in
+ 
+
+221
+00:04:45,600 --> 00:04:48,469
+this brings us to the first Topic in
+this chart comparing length in 3D space
+
+222
+00:04:48,469 --> 00:04:48,479
+this chart comparing length in 3D space
+ 
+
+223
+00:04:48,479 --> 00:04:51,530
+this chart comparing length in 3D space
+to the space-time interval in 4D space
+
+224
+00:04:51,530 --> 00:04:51,540
+to the space-time interval in 4D space
+ 
+
+225
+00:04:51,540 --> 00:04:52,730
+to the space-time interval in 4D space
+time
+
+226
+00:04:52,730 --> 00:04:52,740
+time
+ 
+
+227
+00:04:52,740 --> 00:04:56,210
+time
+in 2D physical space we measure length
+
+228
+00:04:56,210 --> 00:04:56,220
+in 2D physical space we measure length
+ 
+
+229
+00:04:56,220 --> 00:04:59,390
+in 2D physical space we measure length
+using the Pythagoras formula involving a
+
+230
+00:04:59,390 --> 00:04:59,400
+using the Pythagoras formula involving a
+ 
+
+231
+00:04:59,400 --> 00:05:02,270
+using the Pythagoras formula involving a
+sum of squares x squared plus y squared
+
+232
+00:05:02,270 --> 00:05:02,280
+sum of squares x squared plus y squared
+ 
+
+233
+00:05:02,280 --> 00:05:05,749
+sum of squares x squared plus y squared
+equals r squared a curve of constant R
+
+234
+00:05:05,749 --> 00:05:05,759
+equals r squared a curve of constant R
+ 
+
+235
+00:05:05,759 --> 00:05:09,050
+equals r squared a curve of constant R
+is called a circle and R is the circle's
+
+236
+00:05:09,050 --> 00:05:09,060
+is called a circle and R is the circle's
+ 
+
+237
+00:05:09,060 --> 00:05:10,790
+is called a circle and R is the circle's
+radius
+
+238
+00:05:10,790 --> 00:05:10,800
+radius
+ 
+
+239
+00:05:10,800 --> 00:05:14,210
+radius
+in 2D space-time we measure a distance
+
+240
+00:05:14,210 --> 00:05:14,220
+in 2D space-time we measure a distance
+ 
+
+241
+00:05:14,220 --> 00:05:16,550
+in 2D space-time we measure a distance
+like quantity using the formula
+
+242
+00:05:16,550 --> 00:05:16,560
+like quantity using the formula
+ 
+
+243
+00:05:16,560 --> 00:05:19,370
+like quantity using the formula
+involving a difference of squares time
+
+244
+00:05:19,370 --> 00:05:19,380
+involving a difference of squares time
+ 
+
+245
+00:05:19,380 --> 00:05:21,830
+involving a difference of squares time
+squared minus space squared equals s
+
+246
+00:05:21,830 --> 00:05:21,840
+squared minus space squared equals s
+ 
+
+247
+00:05:21,840 --> 00:05:25,010
+squared minus space squared equals s
+squared where s is called the space time
+
+248
+00:05:25,010 --> 00:05:25,020
+squared where s is called the space time
+ 
+
+249
+00:05:25,020 --> 00:05:26,629
+squared where s is called the space time
+interval
+
+250
+00:05:26,629 --> 00:05:26,639
+interval
+ 
+
+251
+00:05:26,639 --> 00:05:29,450
+interval
+a curve of constant s is called a
+
+252
+00:05:29,450 --> 00:05:29,460
+a curve of constant s is called a
+ 
+
+253
+00:05:29,460 --> 00:05:32,870
+a curve of constant s is called a
+hyperbola unlike length squared which is
+
+254
+00:05:32,870 --> 00:05:32,880
+hyperbola unlike length squared which is
+ 
+
+255
+00:05:32,880 --> 00:05:35,990
+hyperbola unlike length squared which is
+either positive or zero s squared can
+
+256
+00:05:35,990 --> 00:05:36,000
+either positive or zero s squared can
+ 
+
+257
+00:05:36,000 --> 00:05:38,090
+either positive or zero s squared can
+also be negative
+
+258
+00:05:38,090 --> 00:05:38,100
+also be negative
+ 
+
+259
+00:05:38,100 --> 00:05:41,510
+also be negative
+when s squared is positive we call it a
+
+260
+00:05:41,510 --> 00:05:41,520
+when s squared is positive we call it a
+ 
+
+261
+00:05:41,520 --> 00:05:43,370
+when s squared is positive we call it a
+time like hyperbola
+
+262
+00:05:43,370 --> 00:05:43,380
+time like hyperbola
+ 
+
+263
+00:05:43,380 --> 00:05:46,490
+time like hyperbola
+when s squared is negative we call it a
+
+264
+00:05:46,490 --> 00:05:46,500
+when s squared is negative we call it a
+ 
+
+265
+00:05:46,500 --> 00:05:48,350
+when s squared is negative we call it a
+space like hyperbola
+
+266
+00:05:48,350 --> 00:05:48,360
+space like hyperbola
+ 
+
+267
+00:05:48,360 --> 00:05:50,990
+space like hyperbola
+when s squared is zero the time
+
+268
+00:05:50,990 --> 00:05:51,000
+when s squared is zero the time
+ 
+
+269
+00:05:51,000 --> 00:05:53,029
+when s squared is zero the time
+coordinate equals the space coordinate
+
+270
+00:05:53,029 --> 00:05:53,039
+coordinate equals the space coordinate
+ 
+
+271
+00:05:53,039 --> 00:05:55,070
+coordinate equals the space coordinate
+and this traces out the straight line
+
+272
+00:05:55,070 --> 00:05:55,080
+and this traces out the straight line
+ 
+
+273
+00:05:55,080 --> 00:05:57,469
+and this traces out the straight line
+Paths of light beams
+
+274
+00:05:57,469 --> 00:05:57,479
+Paths of light beams
+ 
+
+275
+00:05:57,479 --> 00:05:59,570
+Paths of light beams
+these curves have many different names
+
+276
+00:05:59,570 --> 00:05:59,580
+these curves have many different names
+ 
+
+277
+00:05:59,580 --> 00:06:03,050
+these curves have many different names
+such as null isotropic or lights like
+
+278
+00:06:03,050 --> 00:06:03,060
+such as null isotropic or lights like
+ 
+
+279
+00:06:03,060 --> 00:06:05,150
+such as null isotropic or lights like
+curves
+
+280
+00:06:05,150 --> 00:06:05,160
+curves
+ 
+
+281
+00:06:05,160 --> 00:06:07,730
+curves
+in three-dimensional space the squared
+
+282
+00:06:07,730 --> 00:06:07,740
+in three-dimensional space the squared
+ 
+
+283
+00:06:07,740 --> 00:06:10,370
+in three-dimensional space the squared
+length formula looks like this and in
+
+284
+00:06:10,370 --> 00:06:10,380
+length formula looks like this and in
+ 
+
+285
+00:06:10,380 --> 00:06:12,409
+length formula looks like this and in
+four-dimensional space time the
+
+286
+00:06:12,409 --> 00:06:12,419
+four-dimensional space time the
+ 
+
+287
+00:06:12,419 --> 00:06:14,270
+four-dimensional space time the
+space-time interval squared formula
+
+288
+00:06:14,270 --> 00:06:14,280
+space-time interval squared formula
+ 
+
+289
+00:06:14,280 --> 00:06:16,850
+space-time interval squared formula
+looks like this
+
+290
+00:06:16,850 --> 00:06:16,860
+looks like this
+ 
+
+291
+00:06:16,860 --> 00:06:19,610
+looks like this
+next we'll talk about the matrices used
+
+292
+00:06:19,610 --> 00:06:19,620
+next we'll talk about the matrices used
+ 
+
+293
+00:06:19,620 --> 00:06:22,610
+next we'll talk about the matrices used
+to rotate in 3D space and Lorenz
+
+294
+00:06:22,610 --> 00:06:22,620
+to rotate in 3D space and Lorenz
+ 
+
+295
+00:06:22,620 --> 00:06:25,909
+to rotate in 3D space and Lorenz
+transform in 4D space time
+
+296
+00:06:25,909 --> 00:06:25,919
+transform in 4D space time
+ 
+
+297
+00:06:25,919 --> 00:06:28,670
+transform in 4D space time
+in 3D space the squared length of a
+
+298
+00:06:28,670 --> 00:06:28,680
+in 3D space the squared length of a
+ 
+
+299
+00:06:28,680 --> 00:06:32,330
+in 3D space the squared length of a
+vector v is given by V transpose V
+
+300
+00:06:32,330 --> 00:06:32,340
+vector v is given by V transpose V
+ 
+
+301
+00:06:32,340 --> 00:06:35,270
+vector v is given by V transpose V
+a transformation r that keeps the length
+
+302
+00:06:35,270 --> 00:06:35,280
+a transformation r that keeps the length
+ 
+
+303
+00:06:35,280 --> 00:06:38,809
+a transformation r that keeps the length
+constant must satisfy R transpose equals
+
+304
+00:06:38,809 --> 00:06:38,819
+constant must satisfy R transpose equals
+ 
+
+305
+00:06:38,819 --> 00:06:42,290
+constant must satisfy R transpose equals
+R inverse we say R belongs to the group
+
+306
+00:06:42,290 --> 00:06:42,300
+R inverse we say R belongs to the group
+ 
+
+307
+00:06:42,300 --> 00:06:45,350
+R inverse we say R belongs to the group
+O three the three by three orthogonal
+
+308
+00:06:45,350 --> 00:06:45,360
+O three the three by three orthogonal
+ 
+
+309
+00:06:45,360 --> 00:06:48,469
+O three the three by three orthogonal
+matrices these include both rotations
+
+310
+00:06:48,469 --> 00:06:48,479
+matrices these include both rotations
+ 
+
+311
+00:06:48,479 --> 00:06:51,890
+matrices these include both rotations
+with determinant plus one and reflected
+
+312
+00:06:51,890 --> 00:06:51,900
+with determinant plus one and reflected
+ 
+
+313
+00:06:51,900 --> 00:06:55,670
+with determinant plus one and reflected
+rotations with determinant minus one
+
+314
+00:06:55,670 --> 00:06:55,680
+rotations with determinant minus one
+ 
+
+315
+00:06:55,680 --> 00:06:57,950
+rotations with determinant minus one
+if we want to restrict ourselves to
+
+316
+00:06:57,950 --> 00:06:57,960
+if we want to restrict ourselves to
+ 
+
+317
+00:06:57,960 --> 00:07:00,890
+if we want to restrict ourselves to
+rotations only we force the determinant
+
+318
+00:07:00,890 --> 00:07:00,900
+rotations only we force the determinant
+ 
+
+319
+00:07:00,900 --> 00:07:03,830
+rotations only we force the determinant
+to be plus one we call these
+
+320
+00:07:03,830 --> 00:07:03,840
+to be plus one we call these
+ 
+
+321
+00:07:03,840 --> 00:07:07,430
+to be plus one we call these
+Transformations SO3 the 3X3 special
+
+322
+00:07:07,430 --> 00:07:07,440
+Transformations SO3 the 3X3 special
+ 
+
+323
+00:07:07,440 --> 00:07:10,370
+Transformations SO3 the 3X3 special
+orthogonal matrices
+
+324
+00:07:10,370 --> 00:07:10,380
+orthogonal matrices
+ 
+
+325
+00:07:10,380 --> 00:07:13,610
+orthogonal matrices
+a rotation always pushes points along a
+
+326
+00:07:13,610 --> 00:07:13,620
+a rotation always pushes points along a
+ 
+
+327
+00:07:13,620 --> 00:07:16,670
+a rotation always pushes points along a
+circle in a plane which is defined by a
+
+328
+00:07:16,670 --> 00:07:16,680
+circle in a plane which is defined by a
+ 
+
+329
+00:07:16,680 --> 00:07:18,469
+circle in a plane which is defined by a
+pair of variables
+
+330
+00:07:18,469 --> 00:07:18,479
+pair of variables
+ 
+
+331
+00:07:18,479 --> 00:07:21,409
+pair of variables
+we can find all the basic rotation types
+
+332
+00:07:21,409 --> 00:07:21,419
+we can find all the basic rotation types
+ 
+
+333
+00:07:21,419 --> 00:07:24,050
+we can find all the basic rotation types
+by looking at all the possible pairs of
+
+334
+00:07:24,050 --> 00:07:24,060
+by looking at all the possible pairs of
+ 
+
+335
+00:07:24,060 --> 00:07:27,770
+by looking at all the possible pairs of
+coordinate variables which are x y y z
+
+336
+00:07:27,770 --> 00:07:27,780
+coordinate variables which are x y y z
+ 
+
+337
+00:07:27,780 --> 00:07:29,570
+coordinate variables which are x y y z
+and ZX
+
+338
+00:07:29,570 --> 00:07:29,580
+and ZX
+ 
+
+339
+00:07:29,580 --> 00:07:31,610
+and ZX
+so there are three basic types of
+
+340
+00:07:31,610 --> 00:07:31,620
+so there are three basic types of
+ 
+
+341
+00:07:31,620 --> 00:07:34,430
+so there are three basic types of
+rotations which are done with matrices
+
+342
+00:07:34,430 --> 00:07:34,440
+rotations which are done with matrices
+ 
+
+343
+00:07:34,440 --> 00:07:38,390
+rotations which are done with matrices
+involving cosines and Sines
+
+344
+00:07:38,390 --> 00:07:38,400
+involving cosines and Sines
+ 
+
+345
+00:07:38,400 --> 00:07:41,450
+involving cosines and Sines
+in 4D space-time the squared space-time
+
+346
+00:07:41,450 --> 00:07:41,460
+in 4D space-time the squared space-time
+ 
+
+347
+00:07:41,460 --> 00:07:44,689
+in 4D space-time the squared space-time
+interval of a vector W is given by W
+
+348
+00:07:44,689 --> 00:07:44,699
+interval of a vector W is given by W
+ 
+
+349
+00:07:44,699 --> 00:07:48,890
+interval of a vector W is given by W
+transpose ETA W where ETA is this Matrix
+
+350
+00:07:48,890 --> 00:07:48,900
+transpose ETA W where ETA is this Matrix
+ 
+
+351
+00:07:48,900 --> 00:07:51,469
+transpose ETA W where ETA is this Matrix
+called the mankowsky metric
+
+352
+00:07:51,469 --> 00:07:51,479
+called the mankowsky metric
+ 
+
+353
+00:07:51,479 --> 00:07:53,930
+called the mankowsky metric
+multiplying this out gives the familiar
+
+354
+00:07:53,930 --> 00:07:53,940
+multiplying this out gives the familiar
+ 
+
+355
+00:07:53,940 --> 00:07:56,629
+multiplying this out gives the familiar
+time squared minus space squared formula
+
+356
+00:07:56,629 --> 00:07:56,639
+time squared minus space squared formula
+ 
+
+357
+00:07:56,639 --> 00:07:58,909
+time squared minus space squared formula
+we saw earlier
+
+358
+00:07:58,909 --> 00:07:58,919
+we saw earlier
+ 
+
+359
+00:07:58,919 --> 00:08:01,730
+we saw earlier
+a transformation Lambda that keeps s
+
+360
+00:08:01,730 --> 00:08:01,740
+a transformation Lambda that keeps s
+ 
+
+361
+00:08:01,740 --> 00:08:04,790
+a transformation Lambda that keeps s
+squared constant must satisfy Lambda
+
+362
+00:08:04,790 --> 00:08:04,800
+squared constant must satisfy Lambda
+ 
+
+363
+00:08:04,800 --> 00:08:08,629
+squared constant must satisfy Lambda
+transpose ETA Lambda equals ETA
+
+364
+00:08:08,629 --> 00:08:08,639
+transpose ETA Lambda equals ETA
+ 
+
+365
+00:08:08,639 --> 00:08:11,930
+transpose ETA Lambda equals ETA
+we say Lambda belongs to the group 013
+
+366
+00:08:11,930 --> 00:08:11,940
+we say Lambda belongs to the group 013
+ 
+
+367
+00:08:11,940 --> 00:08:14,390
+we say Lambda belongs to the group 013
+the orthogonal group in one time
+
+368
+00:08:14,390 --> 00:08:14,400
+the orthogonal group in one time
+ 
+
+369
+00:08:14,400 --> 00:08:17,749
+the orthogonal group in one time
+Dimension and three space dimensions
+
+370
+00:08:17,749 --> 00:08:17,759
+Dimension and three space dimensions
+ 
+
+371
+00:08:17,759 --> 00:08:20,809
+Dimension and three space dimensions
+if we want to ignore spatial Reflections
+
+372
+00:08:20,809 --> 00:08:20,819
+if we want to ignore spatial Reflections
+ 
+
+373
+00:08:20,819 --> 00:08:23,689
+if we want to ignore spatial Reflections
+we force the determinant to be plus one
+
+374
+00:08:23,689 --> 00:08:23,699
+we force the determinant to be plus one
+ 
+
+375
+00:08:23,699 --> 00:08:26,270
+we force the determinant to be plus one
+which gives us the special orthogonal
+
+376
+00:08:26,270 --> 00:08:26,280
+which gives us the special orthogonal
+ 
+
+377
+00:08:26,280 --> 00:08:28,909
+which gives us the special orthogonal
+group so13
+
+378
+00:08:28,909 --> 00:08:28,919
+group so13
+ 
+
+379
+00:08:28,919 --> 00:08:31,730
+group so13
+if we want to forbid Reflections in time
+
+380
+00:08:31,730 --> 00:08:31,740
+if we want to forbid Reflections in time
+ 
+
+381
+00:08:31,740 --> 00:08:35,029
+if we want to forbid Reflections in time
+which swaps the past and the future we
+
+382
+00:08:35,029 --> 00:08:35,039
+which swaps the past and the future we
+ 
+
+383
+00:08:35,039 --> 00:08:37,070
+which swaps the past and the future we
+also need to demand that the top left
+
+384
+00:08:37,070 --> 00:08:37,080
+also need to demand that the top left
+ 
+
+385
+00:08:37,080 --> 00:08:40,430
+also need to demand that the top left
+member of the Lambda Matrix is positive
+
+386
+00:08:40,430 --> 00:08:40,440
+member of the Lambda Matrix is positive
+ 
+
+387
+00:08:40,440 --> 00:08:42,649
+member of the Lambda Matrix is positive
+this is called the ortho Cronus
+
+388
+00:08:42,649 --> 00:08:42,659
+this is called the ortho Cronus
+ 
+
+389
+00:08:42,659 --> 00:08:46,310
+this is called the ortho Cronus
+condition denoted with a plus
+
+390
+00:08:46,310 --> 00:08:46,320
+condition denoted with a plus
+ 
+
+391
+00:08:46,320 --> 00:08:48,829
+condition denoted with a plus
+these Transformations that keep s
+
+392
+00:08:48,829 --> 00:08:48,839
+these Transformations that keep s
+ 
+
+393
+00:08:48,839 --> 00:08:51,410
+these Transformations that keep s
+squared constant are called Lorenz
+
+394
+00:08:51,410 --> 00:08:51,420
+squared constant are called Lorenz
+ 
+
+395
+00:08:51,420 --> 00:08:53,030
+squared constant are called Lorenz
+transformations
+
+396
+00:08:53,030 --> 00:08:53,040
+transformations
+ 
+
+397
+00:08:53,040 --> 00:08:55,790
+transformations
+basic lorentz Transformations also take
+
+398
+00:08:55,790 --> 00:08:55,800
+basic lorentz Transformations also take
+ 
+
+399
+00:08:55,800 --> 00:08:58,910
+basic lorentz Transformations also take
+place in a plane defined by a pair of
+
+400
+00:08:58,910 --> 00:08:58,920
+place in a plane defined by a pair of
+ 
+
+401
+00:08:58,920 --> 00:09:00,350
+place in a plane defined by a pair of
+variables
+
+402
+00:09:00,350 --> 00:09:00,360
+variables
+ 
+
+403
+00:09:00,360 --> 00:09:02,690
+variables
+we can find all basic lorentz
+
+404
+00:09:02,690 --> 00:09:02,700
+we can find all basic lorentz
+ 
+
+405
+00:09:02,700 --> 00:09:04,790
+we can find all basic lorentz
+Transformations by looking at all
+
+406
+00:09:04,790 --> 00:09:04,800
+Transformations by looking at all
+ 
+
+407
+00:09:04,800 --> 00:09:07,210
+Transformations by looking at all
+possible pairs of coordinate variables
+
+408
+00:09:07,210 --> 00:09:07,220
+possible pairs of coordinate variables
+ 
+
+409
+00:09:07,220 --> 00:09:14,389
+possible pairs of coordinate variables
+these are x y y z z x t x t y and t z so
+
+410
+00:09:14,389 --> 00:09:14,399
+these are x y y z z x t x t y and t z so
+ 
+
+411
+00:09:14,399 --> 00:09:16,009
+these are x y y z z x t x t y and t z so
+there are six basic Lorenz
+
+412
+00:09:16,009 --> 00:09:16,019
+there are six basic Lorenz
+ 
+
+413
+00:09:16,019 --> 00:09:17,810
+there are six basic Lorenz
+transformations
+
+414
+00:09:17,810 --> 00:09:17,820
+transformations
+ 
+
+415
+00:09:17,820 --> 00:09:20,210
+transformations
+three of these are the 3D spatial
+
+416
+00:09:20,210 --> 00:09:20,220
+three of these are the 3D spatial
+ 
+
+417
+00:09:20,220 --> 00:09:22,730
+three of these are the 3D spatial
+rotations we've already seen
+
+418
+00:09:22,730 --> 00:09:22,740
+rotations we've already seen
+ 
+
+419
+00:09:22,740 --> 00:09:25,670
+rotations we've already seen
+the other three are lorentz boosts which
+
+420
+00:09:25,670 --> 00:09:25,680
+the other three are lorentz boosts which
+ 
+
+421
+00:09:25,680 --> 00:09:27,889
+the other three are lorentz boosts which
+move us to a new reference frame with
+
+422
+00:09:27,889 --> 00:09:27,899
+move us to a new reference frame with
+ 
+
+423
+00:09:27,899 --> 00:09:30,829
+move us to a new reference frame with
+some constant velocity
+
+424
+00:09:30,829 --> 00:09:30,839
+some constant velocity
+ 
+
+425
+00:09:30,839 --> 00:09:34,070
+some constant velocity
+in our s squared formula if we set time
+
+426
+00:09:34,070 --> 00:09:34,080
+in our s squared formula if we set time
+ 
+
+427
+00:09:34,080 --> 00:09:36,410
+in our s squared formula if we set time
+and the third space coordinate to zero
+
+428
+00:09:36,410 --> 00:09:36,420
+and the third space coordinate to zero
+ 
+
+429
+00:09:36,420 --> 00:09:38,750
+and the third space coordinate to zero
+we get the familiar equation of a circle
+
+430
+00:09:38,750 --> 00:09:38,760
+we get the familiar equation of a circle
+ 
+
+431
+00:09:38,760 --> 00:09:41,930
+we get the familiar equation of a circle
+and we rotate circles using cosines and
+
+432
+00:09:41,930 --> 00:09:41,940
+and we rotate circles using cosines and
+ 
+
+433
+00:09:41,940 --> 00:09:45,230
+and we rotate circles using cosines and
+Sines with matrices like these
+
+434
+00:09:45,230 --> 00:09:45,240
+Sines with matrices like these
+ 
+
+435
+00:09:45,240 --> 00:09:48,290
+Sines with matrices like these
+but we also have three boosts which
+
+436
+00:09:48,290 --> 00:09:48,300
+but we also have three boosts which
+ 
+
+437
+00:09:48,300 --> 00:09:50,509
+but we also have three boosts which
+match up the time variable and a space
+
+438
+00:09:50,509 --> 00:09:50,519
+match up the time variable and a space
+ 
+
+439
+00:09:50,519 --> 00:09:51,889
+match up the time variable and a space
+variable
+
+440
+00:09:51,889 --> 00:09:51,899
+variable
+ 
+
+441
+00:09:51,899 --> 00:09:54,530
+variable
+if we set two of the space variables to
+
+442
+00:09:54,530 --> 00:09:54,540
+if we set two of the space variables to
+ 
+
+443
+00:09:54,540 --> 00:09:57,550
+if we set two of the space variables to
+zero we get the equation of a hyperbola
+
+444
+00:09:57,550 --> 00:09:57,560
+zero we get the equation of a hyperbola
+ 
+
+445
+00:09:57,560 --> 00:10:00,829
+zero we get the equation of a hyperbola
+we transform hyperbolas with lorentz
+
+446
+00:10:00,829 --> 00:10:00,839
+we transform hyperbolas with lorentz
+ 
+
+447
+00:10:00,839 --> 00:10:03,790
+we transform hyperbolas with lorentz
+boosts also called hyperbolic rotations
+
+448
+00:10:03,790 --> 00:10:03,800
+boosts also called hyperbolic rotations
+ 
+
+449
+00:10:03,800 --> 00:10:06,949
+boosts also called hyperbolic rotations
+with hyperbolic cosine and hyperbolic
+
+450
+00:10:06,949 --> 00:10:06,959
+with hyperbolic cosine and hyperbolic
+ 
+
+451
+00:10:06,959 --> 00:10:07,970
+with hyperbolic cosine and hyperbolic
+sine
+
+452
+00:10:07,970 --> 00:10:07,980
+sine
+ 
+
+453
+00:10:07,980 --> 00:10:12,470
+sine
+these are given by these matrices here
+
+454
+00:10:12,470 --> 00:10:12,480
+
+ 
+
+455
+00:10:12,480 --> 00:10:14,930
+
+so let's start our comparison between
+
+456
+00:10:14,930 --> 00:10:14,940
+so let's start our comparison between
+ 
+
+457
+00:10:14,940 --> 00:10:17,389
+so let's start our comparison between
+Paulie Spinners and vial Spinners by
+
+458
+00:10:17,389 --> 00:10:17,399
+Paulie Spinners and vial Spinners by
+ 
+
+459
+00:10:17,399 --> 00:10:19,670
+Paulie Spinners and vial Spinners by
+talking about vial vectors
+
+460
+00:10:19,670 --> 00:10:19,680
+talking about vial vectors
+ 
+
+461
+00:10:19,680 --> 00:10:22,610
+talking about vial vectors
+with 3D vectors we found that if we
+
+462
+00:10:22,610 --> 00:10:22,620
+with 3D vectors we found that if we
+ 
+
+463
+00:10:22,620 --> 00:10:25,009
+with 3D vectors we found that if we
+replaced the basis vectors by Pauly
+
+464
+00:10:25,009 --> 00:10:25,019
+replaced the basis vectors by Pauly
+ 
+
+465
+00:10:25,019 --> 00:10:27,590
+replaced the basis vectors by Pauly
+matrices we ended up with a two by two
+
+466
+00:10:27,590 --> 00:10:27,600
+matrices we ended up with a two by two
+ 
+
+467
+00:10:27,600 --> 00:10:30,590
+matrices we ended up with a two by two
+Matrix called a Paoli Vector which is
+
+468
+00:10:30,590 --> 00:10:30,600
+Matrix called a Paoli Vector which is
+ 
+
+469
+00:10:30,600 --> 00:10:34,009
+Matrix called a Paoli Vector which is
+another way of representing a 3D vector
+
+470
+00:10:34,009 --> 00:10:34,019
+another way of representing a 3D vector
+ 
+
+471
+00:10:34,019 --> 00:10:36,949
+another way of representing a 3D vector
+for 4D space-time vectors we do
+
+472
+00:10:36,949 --> 00:10:36,959
+for 4D space-time vectors we do
+ 
+
+473
+00:10:36,959 --> 00:10:39,710
+for 4D space-time vectors we do
+something similar except we replace the
+
+474
+00:10:39,710 --> 00:10:39,720
+something similar except we replace the
+ 
+
+475
+00:10:39,720 --> 00:10:41,870
+something similar except we replace the
+time basis Vector with the identity
+
+476
+00:10:41,870 --> 00:10:41,880
+time basis Vector with the identity
+ 
+
+477
+00:10:41,880 --> 00:10:44,870
+time basis Vector with the identity
+Matrix which I'm writing as this fancy
+
+478
+00:10:44,870 --> 00:10:44,880
+Matrix which I'm writing as this fancy
+ 
+
+479
+00:10:44,880 --> 00:10:46,310
+Matrix which I'm writing as this fancy
+number one
+
+480
+00:10:46,310 --> 00:10:46,320
+number one
+ 
+
+481
+00:10:46,320 --> 00:10:49,190
+number one
+this can also be written as Sigma t or
+
+482
+00:10:49,190 --> 00:10:49,200
+this can also be written as Sigma t or
+ 
+
+483
+00:10:49,200 --> 00:10:51,170
+this can also be written as Sigma t or
+Sigma 0.
+
+484
+00:10:51,170 --> 00:10:51,180
+Sigma 0.
+ 
+
+485
+00:10:51,180 --> 00:10:53,269
+Sigma 0.
+this gives us a two by two Matrix
+
+486
+00:10:53,269 --> 00:10:53,279
+this gives us a two by two Matrix
+ 
+
+487
+00:10:53,279 --> 00:10:57,110
+this gives us a two by two Matrix
+representation of a 4D space-time vector
+
+488
+00:10:57,110 --> 00:10:57,120
+representation of a 4D space-time vector
+ 
+
+489
+00:10:57,120 --> 00:10:59,449
+representation of a 4D space-time vector
+I've never seen this Matrix given an
+
+490
+00:10:59,449 --> 00:10:59,459
+I've never seen this Matrix given an
+ 
+
+491
+00:10:59,459 --> 00:11:01,790
+I've never seen this Matrix given an
+official name so for this video series
+
+492
+00:11:01,790 --> 00:11:01,800
+official name so for this video series
+ 
+
+493
+00:11:01,800 --> 00:11:04,850
+official name so for this video series
+I'm going to call it a vial vector
+
+494
+00:11:04,850 --> 00:11:04,860
+I'm going to call it a vial vector
+ 
+
+495
+00:11:04,860 --> 00:11:07,130
+I'm going to call it a vial vector
+now how do we know this is the correct
+
+496
+00:11:07,130 --> 00:11:07,140
+now how do we know this is the correct
+ 
+
+497
+00:11:07,140 --> 00:11:09,470
+now how do we know this is the correct
+way of representing a 4D space-time
+
+498
+00:11:09,470 --> 00:11:09,480
+way of representing a 4D space-time
+ 
+
+499
+00:11:09,480 --> 00:11:12,530
+way of representing a 4D space-time
+Vector as a two by two Matrix
+
+500
+00:11:12,530 --> 00:11:12,540
+Vector as a two by two Matrix
+ 
+
+501
+00:11:12,540 --> 00:11:15,410
+Vector as a two by two Matrix
+well for Pali vectors when we took the
+
+502
+00:11:15,410 --> 00:11:15,420
+well for Pali vectors when we took the
+ 
+
+503
+00:11:15,420 --> 00:11:17,870
+well for Pali vectors when we took the
+determinant we got the formula for the
+
+504
+00:11:17,870 --> 00:11:17,880
+determinant we got the formula for the
+ 
+
+505
+00:11:17,880 --> 00:11:20,630
+determinant we got the formula for the
+negative squared length of the vector
+
+506
+00:11:20,630 --> 00:11:20,640
+negative squared length of the vector
+ 
+
+507
+00:11:20,640 --> 00:11:22,610
+negative squared length of the vector
+let's see what happens when we take the
+
+508
+00:11:22,610 --> 00:11:22,620
+let's see what happens when we take the
+ 
+
+509
+00:11:22,620 --> 00:11:25,069
+let's see what happens when we take the
+determinant of a vial vector
+
+510
+00:11:25,069 --> 00:11:25,079
+determinant of a vial vector
+ 
+
+511
+00:11:25,079 --> 00:11:27,530
+determinant of a vial vector
+we get two products which we can
+
+512
+00:11:27,530 --> 00:11:27,540
+we get two products which we can
+ 
+
+513
+00:11:27,540 --> 00:11:30,170
+we get two products which we can
+distribute and since these inner terms
+
+514
+00:11:30,170 --> 00:11:30,180
+distribute and since these inner terms
+ 
+
+515
+00:11:30,180 --> 00:11:33,110
+distribute and since these inner terms
+cancel we get time squared minus the
+
+516
+00:11:33,110 --> 00:11:33,120
+cancel we get time squared minus the
+ 
+
+517
+00:11:33,120 --> 00:11:35,269
+cancel we get time squared minus the
+squares of the three space components
+
+518
+00:11:35,269 --> 00:11:35,279
+squares of the three space components
+ 
+
+519
+00:11:35,279 --> 00:11:38,030
+squares of the three space components
+this equals the square of the space-time
+
+520
+00:11:38,030 --> 00:11:38,040
+this equals the square of the space-time
+ 
+
+521
+00:11:38,040 --> 00:11:40,370
+this equals the square of the space-time
+interval for this vector
+
+522
+00:11:40,370 --> 00:11:40,380
+interval for this vector
+ 
+
+523
+00:11:40,380 --> 00:11:42,889
+interval for this vector
+so this is a good indication that our
+
+524
+00:11:42,889 --> 00:11:42,899
+so this is a good indication that our
+ 
+
+525
+00:11:42,899 --> 00:11:45,050
+so this is a good indication that our
+vial Vector is the correct way of
+
+526
+00:11:45,050 --> 00:11:45,060
+vial Vector is the correct way of
+ 
+
+527
+00:11:45,060 --> 00:11:47,569
+vial Vector is the correct way of
+representing a space-time Vector as a
+
+528
+00:11:47,569 --> 00:11:47,579
+representing a space-time Vector as a
+ 
+
+529
+00:11:47,579 --> 00:11:50,030
+representing a space-time Vector as a
+two by two Matrix because its
+
+530
+00:11:50,030 --> 00:11:50,040
+two by two Matrix because its
+ 
+
+531
+00:11:50,040 --> 00:11:51,710
+two by two Matrix because its
+determinant tells us the vectors
+
+532
+00:11:51,710 --> 00:11:51,720
+determinant tells us the vectors
+ 
+
+533
+00:11:51,720 --> 00:11:54,350
+determinant tells us the vectors
+space-time interval
+
+534
+00:11:54,350 --> 00:11:54,360
+space-time interval
+ 
+
+535
+00:11:54,360 --> 00:11:56,690
+space-time interval
+now let's consider the double-sided
+
+536
+00:11:56,690 --> 00:11:56,700
+now let's consider the double-sided
+ 
+
+537
+00:11:56,700 --> 00:12:00,230
+now let's consider the double-sided
+transformation of vial vectors
+
+538
+00:12:00,230 --> 00:12:00,240
+transformation of vial vectors
+ 
+
+539
+00:12:00,240 --> 00:12:03,530
+transformation of vial vectors
+now we know that 3D vectors rotate with
+
+540
+00:12:03,530 --> 00:12:03,540
+now we know that 3D vectors rotate with
+ 
+
+541
+00:12:03,540 --> 00:12:07,310
+now we know that 3D vectors rotate with
+SO3 matrices and in video number six in
+
+542
+00:12:07,310 --> 00:12:07,320
+SO3 matrices and in video number six in
+ 
+
+543
+00:12:07,320 --> 00:12:09,650
+SO3 matrices and in video number six in
+this series we learned that we can do an
+
+544
+00:12:09,650 --> 00:12:09,660
+this series we learned that we can do an
+ 
+
+545
+00:12:09,660 --> 00:12:12,949
+this series we learned that we can do an
+equivalent rotation on Paulie vectors by
+
+546
+00:12:12,949 --> 00:12:12,959
+equivalent rotation on Paulie vectors by
+ 
+
+547
+00:12:12,959 --> 00:12:14,630
+equivalent rotation on Paulie vectors by
+acting on it with a double-sided
+
+548
+00:12:14,630 --> 00:12:14,640
+acting on it with a double-sided
+ 
+
+549
+00:12:14,640 --> 00:12:18,470
+acting on it with a double-sided
+transformation of su2 matrices the
+
+550
+00:12:18,470 --> 00:12:18,480
+transformation of su2 matrices the
+ 
+
+551
+00:12:18,480 --> 00:12:21,889
+transformation of su2 matrices the
+special unitary 2x2 matrices
+
+552
+00:12:21,889 --> 00:12:21,899
+special unitary 2x2 matrices
+ 
+
+553
+00:12:21,899 --> 00:12:24,889
+special unitary 2x2 matrices
+these matrices each do half the rotation
+
+554
+00:12:24,889 --> 00:12:24,899
+these matrices each do half the rotation
+ 
+
+555
+00:12:24,899 --> 00:12:28,190
+these matrices each do half the rotation
+and so they use half angles of theta
+
+556
+00:12:28,190 --> 00:12:28,200
+and so they use half angles of theta
+ 
+
+557
+00:12:28,200 --> 00:12:29,630
+and so they use half angles of theta
+over two
+
+558
+00:12:29,630 --> 00:12:29,640
+over two
+ 
+
+559
+00:12:29,640 --> 00:12:31,850
+over two
+it's worth asking if we can do something
+
+560
+00:12:31,850 --> 00:12:31,860
+it's worth asking if we can do something
+ 
+
+561
+00:12:31,860 --> 00:12:34,069
+it's worth asking if we can do something
+similar in space time
+
+562
+00:12:34,069 --> 00:12:34,079
+similar in space time
+ 
+
+563
+00:12:34,079 --> 00:12:36,949
+similar in space time
+we know 4D space-time vectors can be
+
+564
+00:12:36,949 --> 00:12:36,959
+we know 4D space-time vectors can be
+ 
+
+565
+00:12:36,959 --> 00:12:41,329
+we know 4D space-time vectors can be
+lorentz transformed with so13 matrices
+
+566
+00:12:41,329 --> 00:12:41,339
+lorentz transformed with so13 matrices
+ 
+
+567
+00:12:41,339 --> 00:12:44,269
+lorentz transformed with so13 matrices
+if we rewrite our space-time vectors as
+
+568
+00:12:44,269 --> 00:12:44,279
+if we rewrite our space-time vectors as
+ 
+
+569
+00:12:44,279 --> 00:12:47,449
+if we rewrite our space-time vectors as
+two by two vial vectors we can ask if
+
+570
+00:12:47,449 --> 00:12:47,459
+two by two vial vectors we can ask if
+ 
+
+571
+00:12:47,459 --> 00:12:49,009
+two by two vial vectors we can ask if
+there's a similar double-sided
+
+572
+00:12:49,009 --> 00:12:49,019
+there's a similar double-sided
+ 
+
+573
+00:12:49,019 --> 00:12:51,710
+there's a similar double-sided
+transformation that we can do to achieve
+
+574
+00:12:51,710 --> 00:12:51,720
+transformation that we can do to achieve
+ 
+
+575
+00:12:51,720 --> 00:12:54,050
+transformation that we can do to achieve
+lorentz transformations
+
+576
+00:12:54,050 --> 00:12:54,060
+lorentz transformations
+ 
+
+577
+00:12:54,060 --> 00:12:56,990
+lorentz transformations
+we knew that poly vectors were hermitian
+
+578
+00:12:56,990 --> 00:12:57,000
+we knew that poly vectors were hermitian
+ 
+
+579
+00:12:57,000 --> 00:12:59,389
+we knew that poly vectors were hermitian
+and so they should remain hermitian
+
+580
+00:12:59,389 --> 00:12:59,399
+and so they should remain hermitian
+ 
+
+581
+00:12:59,399 --> 00:13:02,629
+and so they should remain hermitian
+after a 3D rotation with a double-sided
+
+582
+00:13:02,629 --> 00:13:02,639
+after a 3D rotation with a double-sided
+ 
+
+583
+00:13:02,639 --> 00:13:05,690
+after a 3D rotation with a double-sided
+transformation involving matrices A and
+
+584
+00:13:05,690 --> 00:13:05,700
+transformation involving matrices A and
+ 
+
+585
+00:13:05,700 --> 00:13:06,710
+transformation involving matrices A and
+B
+
+586
+00:13:06,710 --> 00:13:06,720
+B
+ 
+
+587
+00:13:06,720 --> 00:13:09,230
+B
+this led us to conclude that b must
+
+588
+00:13:09,230 --> 00:13:09,240
+this led us to conclude that b must
+ 
+
+589
+00:13:09,240 --> 00:13:12,050
+this led us to conclude that b must
+equal a dagger the hermitian conjugate
+
+590
+00:13:12,050 --> 00:13:12,060
+equal a dagger the hermitian conjugate
+ 
+
+591
+00:13:12,060 --> 00:13:12,949
+equal a dagger the hermitian conjugate
+of a
+
+592
+00:13:12,949 --> 00:13:12,959
+of a
+ 
+
+593
+00:13:12,959 --> 00:13:16,250
+of a
+and so a Pali vector v is rotated using
+
+594
+00:13:16,250 --> 00:13:16,260
+and so a Pali vector v is rotated using
+ 
+
+595
+00:13:16,260 --> 00:13:17,470
+and so a Pali vector v is rotated using
+the transformation
+
+596
+00:13:17,470 --> 00:13:17,480
+the transformation
+ 
+
+597
+00:13:17,480 --> 00:13:20,329
+the transformation
+Ava dagger
+
+598
+00:13:20,329 --> 00:13:20,339
+Ava dagger
+ 
+
+599
+00:13:20,339 --> 00:13:23,990
+Ava dagger
+vial vectors are also hermitian and so
+
+600
+00:13:23,990 --> 00:13:24,000
+vial vectors are also hermitian and so
+ 
+
+601
+00:13:24,000 --> 00:13:26,449
+vial vectors are also hermitian and so
+if we do a lorentz transformation using
+
+602
+00:13:26,449 --> 00:13:26,459
+if we do a lorentz transformation using
+ 
+
+603
+00:13:26,459 --> 00:13:29,210
+if we do a lorentz transformation using
+a double-sided Matrix transformation the
+
+604
+00:13:29,210 --> 00:13:29,220
+a double-sided Matrix transformation the
+ 
+
+605
+00:13:29,220 --> 00:13:31,850
+a double-sided Matrix transformation the
+result should also be hermitian
+
+606
+00:13:31,850 --> 00:13:31,860
+result should also be hermitian
+ 
+
+607
+00:13:31,860 --> 00:13:34,730
+result should also be hermitian
+and we conclude we lorentz transform a
+
+608
+00:13:34,730 --> 00:13:34,740
+and we conclude we lorentz transform a
+ 
+
+609
+00:13:34,740 --> 00:13:37,690
+and we conclude we lorentz transform a
+vile Vector W using the transformation
+
+610
+00:13:37,690 --> 00:13:37,700
+vile Vector W using the transformation
+ 
+
+611
+00:13:37,700 --> 00:13:40,430
+vile Vector W using the transformation
+AWA dagger
+
+612
+00:13:40,430 --> 00:13:40,440
+AWA dagger
+ 
+
+613
+00:13:40,440 --> 00:13:42,829
+AWA dagger
+we also knew that the determinant of a
+
+614
+00:13:42,829 --> 00:13:42,839
+we also knew that the determinant of a
+ 
+
+615
+00:13:42,839 --> 00:13:45,290
+we also knew that the determinant of a
+Paulie Vector is the vector's negative
+
+616
+00:13:45,290 --> 00:13:45,300
+Paulie Vector is the vector's negative
+ 
+
+617
+00:13:45,300 --> 00:13:47,030
+Paulie Vector is the vector's negative
+squared length
+
+618
+00:13:47,030 --> 00:13:47,040
+squared length
+ 
+
+619
+00:13:47,040 --> 00:13:49,250
+squared length
+since rotations don't change the length
+
+620
+00:13:49,250 --> 00:13:49,260
+since rotations don't change the length
+ 
+
+621
+00:13:49,260 --> 00:13:51,470
+since rotations don't change the length
+of a vector we concluded that the
+
+622
+00:13:51,470 --> 00:13:51,480
+of a vector we concluded that the
+ 
+
+623
+00:13:51,480 --> 00:13:53,690
+of a vector we concluded that the
+determinant of the a matrix must have
+
+624
+00:13:53,690 --> 00:13:53,700
+determinant of the a matrix must have
+ 
+
+625
+00:13:53,700 --> 00:13:55,490
+determinant of the a matrix must have
+magnitude one
+
+626
+00:13:55,490 --> 00:13:55,500
+magnitude one
+ 
+
+627
+00:13:55,500 --> 00:13:57,829
+magnitude one
+we also saw that these double-sided
+
+628
+00:13:57,829 --> 00:13:57,839
+we also saw that these double-sided
+ 
+
+629
+00:13:57,839 --> 00:14:00,290
+we also saw that these double-sided
+Transformations allow for arbitrary
+
+630
+00:14:00,290 --> 00:14:00,300
+Transformations allow for arbitrary
+ 
+
+631
+00:14:00,300 --> 00:14:02,810
+Transformations allow for arbitrary
+phase shifts in the a matrix without
+
+632
+00:14:02,810 --> 00:14:02,820
+phase shifts in the a matrix without
+ 
+
+633
+00:14:02,820 --> 00:14:05,810
+phase shifts in the a matrix without
+changing the rotation result so it was
+
+634
+00:14:05,810 --> 00:14:05,820
+changing the rotation result so it was
+ 
+
+635
+00:14:05,820 --> 00:14:07,910
+changing the rotation result so it was
+always possible to pick a phase shift
+
+636
+00:14:07,910 --> 00:14:07,920
+always possible to pick a phase shift
+ 
+
+637
+00:14:07,920 --> 00:14:10,009
+always possible to pick a phase shift
+that sets the determinant of a to
+
+638
+00:14:10,009 --> 00:14:10,019
+that sets the determinant of a to
+ 
+
+639
+00:14:10,019 --> 00:14:12,590
+that sets the determinant of a to
+positive one
+
+640
+00:14:12,590 --> 00:14:12,600
+positive one
+ 
+
+641
+00:14:12,600 --> 00:14:15,410
+positive one
+the determinant of a vial Vector is the
+
+642
+00:14:15,410 --> 00:14:15,420
+the determinant of a vial Vector is the
+ 
+
+643
+00:14:15,420 --> 00:14:17,090
+the determinant of a vial Vector is the
+square of the vector's space-time
+
+644
+00:14:17,090 --> 00:14:17,100
+square of the vector's space-time
+ 
+
+645
+00:14:17,100 --> 00:14:20,150
+square of the vector's space-time
+interval which is unchanged under Lorenz
+
+646
+00:14:20,150 --> 00:14:20,160
+interval which is unchanged under Lorenz
+ 
+
+647
+00:14:20,160 --> 00:14:22,009
+interval which is unchanged under Lorenz
+transformations
+
+648
+00:14:22,009 --> 00:14:22,019
+transformations
+ 
+
+649
+00:14:22,019 --> 00:14:23,930
+transformations
+so we can also conclude that the
+
+650
+00:14:23,930 --> 00:14:23,940
+so we can also conclude that the
+ 
+
+651
+00:14:23,940 --> 00:14:26,750
+so we can also conclude that the
+determinant of a has magnitude 1. in the
+
+652
+00:14:26,750 --> 00:14:26,760
+determinant of a has magnitude 1. in the
+ 
+
+653
+00:14:26,760 --> 00:14:28,670
+determinant of a has magnitude 1. in the
+case of lorentz transforming vial
+
+654
+00:14:28,670 --> 00:14:28,680
+case of lorentz transforming vial
+ 
+
+655
+00:14:28,680 --> 00:14:31,129
+case of lorentz transforming vial
+vectors and we can force this
+
+656
+00:14:31,129 --> 00:14:31,139
+vectors and we can force this
+ 
+
+657
+00:14:31,139 --> 00:14:33,650
+vectors and we can force this
+determinant to be plus one using the
+
+658
+00:14:33,650 --> 00:14:33,660
+determinant to be plus one using the
+ 
+
+659
+00:14:33,660 --> 00:14:35,990
+determinant to be plus one using the
+phase shift property
+
+660
+00:14:35,990 --> 00:14:36,000
+phase shift property
+ 
+
+661
+00:14:36,000 --> 00:14:38,750
+phase shift property
+finally we observed that Paulie vectors
+
+662
+00:14:38,750 --> 00:14:38,760
+finally we observed that Paulie vectors
+ 
+
+663
+00:14:38,760 --> 00:14:42,290
+finally we observed that Paulie vectors
+had zero trace and we used this fact to
+
+664
+00:14:42,290 --> 00:14:42,300
+had zero trace and we used this fact to
+ 
+
+665
+00:14:42,300 --> 00:14:44,269
+had zero trace and we used this fact to
+prove that the transformation matrices
+
+666
+00:14:44,269 --> 00:14:44,279
+prove that the transformation matrices
+ 
+
+667
+00:14:44,279 --> 00:14:48,170
+prove that the transformation matrices
+on Pali vectors must be unitary
+
+668
+00:14:48,170 --> 00:14:48,180
+on Pali vectors must be unitary
+ 
+
+669
+00:14:48,180 --> 00:14:51,769
+on Pali vectors must be unitary
+however vial vectors can have non-zero
+
+670
+00:14:51,769 --> 00:14:51,779
+however vial vectors can have non-zero
+ 
+
+671
+00:14:51,779 --> 00:14:54,710
+however vial vectors can have non-zero
+Trace so we cannot guarantee that the
+
+672
+00:14:54,710 --> 00:14:54,720
+Trace so we cannot guarantee that the
+ 
+
+673
+00:14:54,720 --> 00:14:57,230
+Trace so we cannot guarantee that the
+matrices transforming vial vectors are
+
+674
+00:14:57,230 --> 00:14:57,240
+matrices transforming vial vectors are
+ 
+
+675
+00:14:57,240 --> 00:15:00,170
+matrices transforming vial vectors are
+unitary
+
+676
+00:15:00,170 --> 00:15:00,180
+
+ 
+
+677
+00:15:00,180 --> 00:15:02,930
+
+so poly vectors rotate with this
+
+678
+00:15:02,930 --> 00:15:02,940
+so poly vectors rotate with this
+ 
+
+679
+00:15:02,940 --> 00:15:05,269
+so poly vectors rotate with this
+double-sided transformation
+
+680
+00:15:05,269 --> 00:15:05,279
+double-sided transformation
+ 
+
+681
+00:15:05,279 --> 00:15:08,090
+double-sided transformation
+I'm going to rewrite the a matrix as U
+
+682
+00:15:08,090 --> 00:15:08,100
+I'm going to rewrite the a matrix as U
+ 
+
+683
+00:15:08,100 --> 00:15:09,769
+I'm going to rewrite the a matrix as U
+for clarity
+
+684
+00:15:09,769 --> 00:15:09,779
+for clarity
+ 
+
+685
+00:15:09,779 --> 00:15:11,990
+for clarity
+U is a two by two Matrix with
+
+686
+00:15:11,990 --> 00:15:12,000
+U is a two by two Matrix with
+ 
+
+687
+00:15:12,000 --> 00:15:15,530
+U is a two by two Matrix with
+determinant plus one so it is special
+
+688
+00:15:15,530 --> 00:15:15,540
+determinant plus one so it is special
+ 
+
+689
+00:15:15,540 --> 00:15:18,350
+determinant plus one so it is special
+The Matrix is also unitary
+
+690
+00:15:18,350 --> 00:15:18,360
+The Matrix is also unitary
+ 
+
+691
+00:15:18,360 --> 00:15:20,930
+The Matrix is also unitary
+so Paulie vectors rotate with special
+
+692
+00:15:20,930 --> 00:15:20,940
+so Paulie vectors rotate with special
+ 
+
+693
+00:15:20,940 --> 00:15:24,170
+so Paulie vectors rotate with special
+unitary two by two matrices also called
+
+694
+00:15:24,170 --> 00:15:24,180
+unitary two by two matrices also called
+ 
+
+695
+00:15:24,180 --> 00:15:26,990
+unitary two by two matrices also called
+su2 matrices
+
+696
+00:15:26,990 --> 00:15:27,000
+su2 matrices
+ 
+
+697
+00:15:27,000 --> 00:15:29,629
+su2 matrices
+vial vectors are lorentz transformed
+
+698
+00:15:29,629 --> 00:15:29,639
+vial vectors are lorentz transformed
+ 
+
+699
+00:15:29,639 --> 00:15:32,150
+vial vectors are lorentz transformed
+with a double-sided transformation and
+
+700
+00:15:32,150 --> 00:15:32,160
+with a double-sided transformation and
+ 
+
+701
+00:15:32,160 --> 00:15:34,790
+with a double-sided transformation and
+I'm going to rewrite the a matrix as L
+
+702
+00:15:34,790 --> 00:15:34,800
+I'm going to rewrite the a matrix as L
+ 
+
+703
+00:15:34,800 --> 00:15:36,590
+I'm going to rewrite the a matrix as L
+for clarity
+
+704
+00:15:36,590 --> 00:15:36,600
+for clarity
+ 
+
+705
+00:15:36,600 --> 00:15:38,689
+for clarity
+L is a two by two Matrix with
+
+706
+00:15:38,689 --> 00:15:38,699
+L is a two by two Matrix with
+ 
+
+707
+00:15:38,699 --> 00:15:41,569
+L is a two by two Matrix with
+determinant plus one so the Matrix is
+
+708
+00:15:41,569 --> 00:15:41,579
+determinant plus one so the Matrix is
+ 
+
+709
+00:15:41,579 --> 00:15:42,829
+determinant plus one so the Matrix is
+special
+
+710
+00:15:42,829 --> 00:15:42,839
+special
+ 
+
+711
+00:15:42,839 --> 00:15:45,290
+special
+but there is no requirement for these
+
+712
+00:15:45,290 --> 00:15:45,300
+but there is no requirement for these
+ 
+
+713
+00:15:45,300 --> 00:15:48,590
+but there is no requirement for these
+transformation matrices to be unitary so
+
+714
+00:15:48,590 --> 00:15:48,600
+transformation matrices to be unitary so
+ 
+
+715
+00:15:48,600 --> 00:15:50,810
+transformation matrices to be unitary so
+these are the special linear two by two
+
+716
+00:15:50,810 --> 00:15:50,820
+these are the special linear two by two
+ 
+
+717
+00:15:50,820 --> 00:15:53,269
+these are the special linear two by two
+matrices SL2
+
+718
+00:15:53,269 --> 00:15:53,279
+matrices SL2
+ 
+
+719
+00:15:53,279 --> 00:15:55,310
+matrices SL2
+since we're dealing with complex numbers
+
+720
+00:15:55,310 --> 00:15:55,320
+since we're dealing with complex numbers
+ 
+
+721
+00:15:55,320 --> 00:15:58,009
+since we're dealing with complex numbers
+we often write a letter C to tell us
+
+722
+00:15:58,009 --> 00:15:58,019
+we often write a letter C to tell us
+ 
+
+723
+00:15:58,019 --> 00:16:00,110
+we often write a letter C to tell us
+that the Matrix elements are complex
+
+724
+00:16:00,110 --> 00:16:00,120
+that the Matrix elements are complex
+ 
+
+725
+00:16:00,120 --> 00:16:02,269
+that the Matrix elements are complex
+instead of real
+
+726
+00:16:02,269 --> 00:16:02,279
+instead of real
+ 
+
+727
+00:16:02,279 --> 00:16:05,509
+instead of real
+so vial vectors are lorentz transformed
+
+728
+00:16:05,509 --> 00:16:05,519
+so vial vectors are lorentz transformed
+ 
+
+729
+00:16:05,519 --> 00:16:08,170
+so vial vectors are lorentz transformed
+with double-sided Transformations with
+
+730
+00:16:08,170 --> 00:16:08,180
+with double-sided Transformations with
+ 
+
+731
+00:16:08,180 --> 00:16:10,790
+with double-sided Transformations with
+sl2c matrices
+
+732
+00:16:10,790 --> 00:16:10,800
+sl2c matrices
+ 
+
+733
+00:16:10,800 --> 00:16:14,150
+sl2c matrices
+in video number six we found that su2
+
+734
+00:16:14,150 --> 00:16:14,160
+in video number six we found that su2
+ 
+
+735
+00:16:14,160 --> 00:16:16,790
+in video number six we found that su2
+matrices are defined by two complex
+
+736
+00:16:16,790 --> 00:16:16,800
+matrices are defined by two complex
+ 
+
+737
+00:16:16,800 --> 00:16:20,449
+matrices are defined by two complex
+numbers Alpha and beta this gives us
+
+738
+00:16:20,449 --> 00:16:20,459
+numbers Alpha and beta this gives us
+ 
+
+739
+00:16:20,459 --> 00:16:23,269
+numbers Alpha and beta this gives us
+four real numbers but since the
+
+740
+00:16:23,269 --> 00:16:23,279
+four real numbers but since the
+ 
+
+741
+00:16:23,279 --> 00:16:26,090
+four real numbers but since the
+determinant is plus one this gives one
+
+742
+00:16:26,090 --> 00:16:26,100
+determinant is plus one this gives one
+ 
+
+743
+00:16:26,100 --> 00:16:28,850
+determinant is plus one this gives one
+additional real constraint reducing the
+
+744
+00:16:28,850 --> 00:16:28,860
+additional real constraint reducing the
+ 
+
+745
+00:16:28,860 --> 00:16:31,550
+additional real constraint reducing the
+number of free parameters to three real
+
+746
+00:16:31,550 --> 00:16:31,560
+number of free parameters to three real
+ 
+
+747
+00:16:31,560 --> 00:16:34,550
+number of free parameters to three real
+numbers this corresponds to the three
+
+748
+00:16:34,550 --> 00:16:34,560
+numbers this corresponds to the three
+ 
+
+749
+00:16:34,560 --> 00:16:38,329
+numbers this corresponds to the three
+possible rotations in 3D space
+
+750
+00:16:38,329 --> 00:16:38,339
+possible rotations in 3D space
+ 
+
+751
+00:16:38,339 --> 00:16:41,990
+possible rotations in 3D space
+if we look at an sl2c Matrix we have
+
+752
+00:16:41,990 --> 00:16:42,000
+if we look at an sl2c Matrix we have
+ 
+
+753
+00:16:42,000 --> 00:16:44,990
+if we look at an sl2c Matrix we have
+four complex numbers or eight real
+
+754
+00:16:44,990 --> 00:16:45,000
+four complex numbers or eight real
+ 
+
+755
+00:16:45,000 --> 00:16:46,189
+four complex numbers or eight real
+numbers
+
+756
+00:16:46,189 --> 00:16:46,199
+numbers
+ 
+
+757
+00:16:46,199 --> 00:16:48,530
+numbers
+but since the determinant is forced to
+
+758
+00:16:48,530 --> 00:16:48,540
+but since the determinant is forced to
+ 
+
+759
+00:16:48,540 --> 00:16:51,710
+but since the determinant is forced to
+be plus one this gives us two additional
+
+760
+00:16:51,710 --> 00:16:51,720
+be plus one this gives us two additional
+ 
+
+761
+00:16:51,720 --> 00:16:54,710
+be plus one this gives us two additional
+real constraints where the determinants
+
+762
+00:16:54,710 --> 00:16:54,720
+real constraints where the determinants
+ 
+
+763
+00:16:54,720 --> 00:16:57,829
+real constraints where the determinants
+magnitude must be one and its phase must
+
+764
+00:16:57,829 --> 00:16:57,839
+magnitude must be one and its phase must
+ 
+
+765
+00:16:57,839 --> 00:17:00,949
+magnitude must be one and its phase must
+be zero this reduces the number of free
+
+766
+00:17:00,949 --> 00:17:00,959
+be zero this reduces the number of free
+ 
+
+767
+00:17:00,959 --> 00:17:04,250
+be zero this reduces the number of free
+parameters to six real numbers
+
+768
+00:17:04,250 --> 00:17:04,260
+parameters to six real numbers
+ 
+
+769
+00:17:04,260 --> 00:17:06,890
+parameters to six real numbers
+this corresponds to the three possible
+
+770
+00:17:06,890 --> 00:17:06,900
+this corresponds to the three possible
+ 
+
+771
+00:17:06,900 --> 00:17:10,490
+this corresponds to the three possible
+rotations and three possible boosts in
+
+772
+00:17:10,490 --> 00:17:10,500
+rotations and three possible boosts in
+ 
+
+773
+00:17:10,500 --> 00:17:13,069
+rotations and three possible boosts in
+4D space time
+
+774
+00:17:13,069 --> 00:17:13,079
+4D space time
+ 
+
+775
+00:17:13,079 --> 00:17:16,130
+4D space time
+recall from video number six that we
+
+776
+00:17:16,130 --> 00:17:16,140
+recall from video number six that we
+ 
+
+777
+00:17:16,140 --> 00:17:18,949
+recall from video number six that we
+could get Su 2 matrices using these half
+
+778
+00:17:18,949 --> 00:17:18,959
+could get Su 2 matrices using these half
+ 
+
+779
+00:17:18,959 --> 00:17:22,549
+could get Su 2 matrices using these half
+angle formulas involving cosine and sine
+
+780
+00:17:22,549 --> 00:17:22,559
+angle formulas involving cosine and sine
+ 
+
+781
+00:17:22,559 --> 00:17:25,370
+angle formulas involving cosine and sine
+we just multiply the sine term by a pair
+
+782
+00:17:25,370 --> 00:17:25,380
+we just multiply the sine term by a pair
+ 
+
+783
+00:17:25,380 --> 00:17:27,470
+we just multiply the sine term by a pair
+of sigmas that indicate the plane of
+
+784
+00:17:27,470 --> 00:17:27,480
+of sigmas that indicate the plane of
+ 
+
+785
+00:17:27,480 --> 00:17:28,970
+of sigmas that indicate the plane of
+rotation
+
+786
+00:17:28,970 --> 00:17:28,980
+rotation
+ 
+
+787
+00:17:28,980 --> 00:17:31,490
+rotation
+we can do something similar for boosts
+
+788
+00:17:31,490 --> 00:17:31,500
+we can do something similar for boosts
+ 
+
+789
+00:17:31,500 --> 00:17:33,770
+we can do something similar for boosts
+but using hyperbolic cosine and
+
+790
+00:17:33,770 --> 00:17:33,780
+but using hyperbolic cosine and
+ 
+
+791
+00:17:33,780 --> 00:17:36,830
+but using hyperbolic cosine and
+hyperbolic sign and we multiply the sine
+
+792
+00:17:36,830 --> 00:17:36,840
+hyperbolic sign and we multiply the sine
+ 
+
+793
+00:17:36,840 --> 00:17:39,770
+hyperbolic sign and we multiply the sine
+H term using Sigma T which is the
+
+794
+00:17:39,770 --> 00:17:39,780
+H term using Sigma T which is the
+ 
+
+795
+00:17:39,780 --> 00:17:42,350
+H term using Sigma T which is the
+identity Matrix and the sigma for the
+
+796
+00:17:42,350 --> 00:17:42,360
+identity Matrix and the sigma for the
+ 
+
+797
+00:17:42,360 --> 00:17:45,529
+identity Matrix and the sigma for the
+direction we're boosting in
+
+798
+00:17:45,529 --> 00:17:45,539
+direction we're boosting in
+ 
+
+799
+00:17:45,539 --> 00:17:47,930
+direction we're boosting in
+now let's talk about factoring these two
+
+800
+00:17:47,930 --> 00:17:47,940
+now let's talk about factoring these two
+ 
+
+801
+00:17:47,940 --> 00:17:50,630
+now let's talk about factoring these two
+by two matrices into spinners
+
+802
+00:17:50,630 --> 00:17:50,640
+by two matrices into spinners
+ 
+
+803
+00:17:50,640 --> 00:17:53,390
+by two matrices into spinners
+with Paulie vectors we found that it was
+
+804
+00:17:53,390 --> 00:17:53,400
+with Paulie vectors we found that it was
+ 
+
+805
+00:17:53,400 --> 00:17:56,210
+with Paulie vectors we found that it was
+sometimes possible to factor them into a
+
+806
+00:17:56,210 --> 00:17:56,220
+sometimes possible to factor them into a
+ 
+
+807
+00:17:56,220 --> 00:17:59,049
+sometimes possible to factor them into a
+column and a row called Paulie Spinners
+
+808
+00:17:59,049 --> 00:17:59,059
+column and a row called Paulie Spinners
+ 
+
+809
+00:17:59,059 --> 00:18:02,210
+column and a row called Paulie Spinners
+with the column being a spinner and the
+
+810
+00:18:02,210 --> 00:18:02,220
+with the column being a spinner and the
+ 
+
+811
+00:18:02,220 --> 00:18:04,430
+with the column being a spinner and the
+row being a dual spinner
+
+812
+00:18:04,430 --> 00:18:04,440
+row being a dual spinner
+ 
+
+813
+00:18:04,440 --> 00:18:06,710
+row being a dual spinner
+there were multiple solutions to this
+
+814
+00:18:06,710 --> 00:18:06,720
+there were multiple solutions to this
+ 
+
+815
+00:18:06,720 --> 00:18:09,110
+there were multiple solutions to this
+factoring since we could always get a
+
+816
+00:18:09,110 --> 00:18:09,120
+factoring since we could always get a
+ 
+
+817
+00:18:09,120 --> 00:18:11,390
+factoring since we could always get a
+new solution if we multiplied the column
+
+818
+00:18:11,390 --> 00:18:11,400
+new solution if we multiplied the column
+ 
+
+819
+00:18:11,400 --> 00:18:14,690
+new solution if we multiplied the column
+by a number K and multiplied the row by
+
+820
+00:18:14,690 --> 00:18:14,700
+by a number K and multiplied the row by
+ 
+
+821
+00:18:14,700 --> 00:18:16,310
+by a number K and multiplied the row by
+1 over k
+
+822
+00:18:16,310 --> 00:18:16,320
+1 over k
+ 
+
+823
+00:18:16,320 --> 00:18:18,650
+1 over k
+but the most straightforward solution is
+
+824
+00:18:18,650 --> 00:18:18,660
+but the most straightforward solution is
+ 
+
+825
+00:18:18,660 --> 00:18:21,470
+but the most straightforward solution is
+given by these formulas
+
+826
+00:18:21,470 --> 00:18:21,480
+given by these formulas
+ 
+
+827
+00:18:21,480 --> 00:18:23,990
+given by these formulas
+however we found this factoring could
+
+828
+00:18:23,990 --> 00:18:24,000
+however we found this factoring could
+ 
+
+829
+00:18:24,000 --> 00:18:26,150
+however we found this factoring could
+only be done if the determinant of the
+
+830
+00:18:26,150 --> 00:18:26,160
+only be done if the determinant of the
+ 
+
+831
+00:18:26,160 --> 00:18:28,250
+only be done if the determinant of the
+Matrix was Zero
+
+832
+00:18:28,250 --> 00:18:28,260
+Matrix was Zero
+ 
+
+833
+00:18:28,260 --> 00:18:30,529
+Matrix was Zero
+and in order for this factoring to be
+
+834
+00:18:30,529 --> 00:18:30,539
+and in order for this factoring to be
+ 
+
+835
+00:18:30,539 --> 00:18:33,110
+and in order for this factoring to be
+done we need either all the XYZ
+
+836
+00:18:33,110 --> 00:18:33,120
+done we need either all the XYZ
+ 
+
+837
+00:18:33,120 --> 00:18:36,169
+done we need either all the XYZ
+components to be zero or at least some
+
+838
+00:18:36,169 --> 00:18:36,179
+components to be zero or at least some
+ 
+
+839
+00:18:36,179 --> 00:18:38,870
+components to be zero or at least some
+of them to be complex numbers it's
+
+840
+00:18:38,870 --> 00:18:38,880
+of them to be complex numbers it's
+ 
+
+841
+00:18:38,880 --> 00:18:41,090
+of them to be complex numbers it's
+impossible to do this factoring if all
+
+842
+00:18:41,090 --> 00:18:41,100
+impossible to do this factoring if all
+ 
+
+843
+00:18:41,100 --> 00:18:44,930
+impossible to do this factoring if all
+the components are real and non-zero
+
+844
+00:18:44,930 --> 00:18:44,940
+the components are real and non-zero
+ 
+
+845
+00:18:44,940 --> 00:18:47,510
+the components are real and non-zero
+now let's try factoring a vial Vector
+
+846
+00:18:47,510 --> 00:18:47,520
+now let's try factoring a vial Vector
+ 
+
+847
+00:18:47,520 --> 00:18:50,029
+now let's try factoring a vial Vector
+into a column and a row which will
+
+848
+00:18:50,029 --> 00:18:50,039
+into a column and a row which will
+ 
+
+849
+00:18:50,039 --> 00:18:53,029
+into a column and a row which will
+require the determinant to be zero
+
+850
+00:18:53,029 --> 00:18:53,039
+require the determinant to be zero
+ 
+
+851
+00:18:53,039 --> 00:18:55,190
+require the determinant to be zero
+since the space-time interval formula
+
+852
+00:18:55,190 --> 00:18:55,200
+since the space-time interval formula
+ 
+
+853
+00:18:55,200 --> 00:18:57,529
+since the space-time interval formula
+contains both positive and negative
+
+854
+00:18:57,529 --> 00:18:57,539
+contains both positive and negative
+ 
+
+855
+00:18:57,539 --> 00:18:59,810
+contains both positive and negative
+terms it's possible to make the
+
+856
+00:18:59,810 --> 00:18:59,820
+terms it's possible to make the
+ 
+
+857
+00:18:59,820 --> 00:19:02,510
+terms it's possible to make the
+space-time interval equal zero using
+
+858
+00:19:02,510 --> 00:19:02,520
+space-time interval equal zero using
+ 
+
+859
+00:19:02,520 --> 00:19:05,390
+space-time interval equal zero using
+only real components so complex numbers
+
+860
+00:19:05,390 --> 00:19:05,400
+only real components so complex numbers
+ 
+
+861
+00:19:05,400 --> 00:19:07,730
+only real components so complex numbers
+are not required
+
+862
+00:19:07,730 --> 00:19:07,740
+are not required
+ 
+
+863
+00:19:07,740 --> 00:19:09,890
+are not required
+remember the space-time interval
+
+864
+00:19:09,890 --> 00:19:09,900
+remember the space-time interval
+ 
+
+865
+00:19:09,900 --> 00:19:13,250
+remember the space-time interval
+equaling 0 means the vector is null or
+
+866
+00:19:13,250 --> 00:19:13,260
+equaling 0 means the vector is null or
+ 
+
+867
+00:19:13,260 --> 00:19:16,789
+equaling 0 means the vector is null or
+isotropic also called light like since
+
+868
+00:19:16,789 --> 00:19:16,799
+isotropic also called light like since
+ 
+
+869
+00:19:16,799 --> 00:19:18,529
+isotropic also called light like since
+it points along the direction of travel
+
+870
+00:19:18,529 --> 00:19:18,539
+it points along the direction of travel
+ 
+
+871
+00:19:18,539 --> 00:19:21,650
+it points along the direction of travel
+of a light beam in space time
+
+872
+00:19:21,650 --> 00:19:21,660
+of a light beam in space time
+ 
+
+873
+00:19:21,660 --> 00:19:24,529
+of a light beam in space time
+so let's take a vial vector and assume
+
+874
+00:19:24,529 --> 00:19:24,539
+so let's take a vial vector and assume
+ 
+
+875
+00:19:24,539 --> 00:19:26,570
+so let's take a vial vector and assume
+its determinant the square of the
+
+876
+00:19:26,570 --> 00:19:26,580
+its determinant the square of the
+ 
+
+877
+00:19:26,580 --> 00:19:29,870
+its determinant the square of the
+space-time interval is zero we'll also
+
+878
+00:19:29,870 --> 00:19:29,880
+space-time interval is zero we'll also
+ 
+
+879
+00:19:29,880 --> 00:19:31,970
+space-time interval is zero we'll also
+assume all the components are real
+
+880
+00:19:31,970 --> 00:19:31,980
+assume all the components are real
+ 
+
+881
+00:19:31,980 --> 00:19:33,169
+assume all the components are real
+numbers
+
+882
+00:19:33,169 --> 00:19:33,179
+numbers
+ 
+
+883
+00:19:33,179 --> 00:19:35,690
+numbers
+in order to factor it into a column and
+
+884
+00:19:35,690 --> 00:19:35,700
+in order to factor it into a column and
+ 
+
+885
+00:19:35,700 --> 00:19:38,270
+in order to factor it into a column and
+a row we need to solve for these values
+
+886
+00:19:38,270 --> 00:19:38,280
+a row we need to solve for these values
+ 
+
+887
+00:19:38,280 --> 00:19:40,130
+a row we need to solve for these values
+a b c d
+
+888
+00:19:40,130 --> 00:19:40,140
+a b c d
+ 
+
+889
+00:19:40,140 --> 00:19:42,890
+a b c d
+multiplying the column by the row and
+
+890
+00:19:42,890 --> 00:19:42,900
+multiplying the column by the row and
+ 
+
+891
+00:19:42,900 --> 00:19:44,690
+multiplying the column by the row and
+comparing the results with the Matrix
+
+892
+00:19:44,690 --> 00:19:44,700
+comparing the results with the Matrix
+ 
+
+893
+00:19:44,700 --> 00:19:48,830
+comparing the results with the Matrix
+entries we get these four equations
+
+894
+00:19:48,830 --> 00:19:48,840
+entries we get these four equations
+ 
+
+895
+00:19:48,840 --> 00:19:51,230
+entries we get these four equations
+now remember all four space-time
+
+896
+00:19:51,230 --> 00:19:51,240
+now remember all four space-time
+ 
+
+897
+00:19:51,240 --> 00:19:54,529
+now remember all four space-time
+components are real numbers so time plus
+
+898
+00:19:54,529 --> 00:19:54,539
+components are real numbers so time plus
+ 
+
+899
+00:19:54,539 --> 00:19:58,549
+components are real numbers so time plus
+Z must be real this means that a times C
+
+900
+00:19:58,549 --> 00:19:58,559
+Z must be real this means that a times C
+ 
+
+901
+00:19:58,559 --> 00:20:00,770
+Z must be real this means that a times C
+must be real as well
+
+902
+00:20:00,770 --> 00:20:00,780
+must be real as well
+ 
+
+903
+00:20:00,780 --> 00:20:03,529
+must be real as well
+the only way for this to be true is if C
+
+904
+00:20:03,529 --> 00:20:03,539
+the only way for this to be true is if C
+ 
+
+905
+00:20:03,539 --> 00:20:06,230
+the only way for this to be true is if C
+equals the complex conjugate of a times
+
+906
+00:20:06,230 --> 00:20:06,240
+equals the complex conjugate of a times
+ 
+
+907
+00:20:06,240 --> 00:20:09,770
+equals the complex conjugate of a times
+some real Factor K1
+
+908
+00:20:09,770 --> 00:20:09,780
+some real Factor K1
+ 
+
+909
+00:20:09,780 --> 00:20:12,650
+some real Factor K1
+we also know that time minus said must
+
+910
+00:20:12,650 --> 00:20:12,660
+we also know that time minus said must
+ 
+
+911
+00:20:12,660 --> 00:20:15,590
+we also know that time minus said must
+be real so D must equal the complex
+
+912
+00:20:15,590 --> 00:20:15,600
+be real so D must equal the complex
+ 
+
+913
+00:20:15,600 --> 00:20:20,150
+be real so D must equal the complex
+conjugate of B times some real Factor K2
+
+914
+00:20:20,150 --> 00:20:20,160
+conjugate of B times some real Factor K2
+ 
+
+915
+00:20:20,160 --> 00:20:23,029
+conjugate of B times some real Factor K2
+looking at the other two equations we
+
+916
+00:20:23,029 --> 00:20:23,039
+looking at the other two equations we
+ 
+
+917
+00:20:23,039 --> 00:20:24,830
+looking at the other two equations we
+see that the right hand sides are
+
+918
+00:20:24,830 --> 00:20:24,840
+see that the right hand sides are
+ 
+
+919
+00:20:24,840 --> 00:20:27,529
+see that the right hand sides are
+complex conjugates of each other which
+
+920
+00:20:27,529 --> 00:20:27,539
+complex conjugates of each other which
+ 
+
+921
+00:20:27,539 --> 00:20:29,690
+complex conjugates of each other which
+means that the left sides must also be
+
+922
+00:20:29,690 --> 00:20:29,700
+means that the left sides must also be
+ 
+
+923
+00:20:29,700 --> 00:20:32,210
+means that the left sides must also be
+complex conjugates of each other
+
+924
+00:20:32,210 --> 00:20:32,220
+complex conjugates of each other
+ 
+
+925
+00:20:32,220 --> 00:20:36,049
+complex conjugates of each other
+if we sub in our formulas for C and D we
+
+926
+00:20:36,049 --> 00:20:36,059
+if we sub in our formulas for C and D we
+ 
+
+927
+00:20:36,059 --> 00:20:39,350
+if we sub in our formulas for C and D we
+can cancel A and B conjugate and that
+
+928
+00:20:39,350 --> 00:20:39,360
+can cancel A and B conjugate and that
+ 
+
+929
+00:20:39,360 --> 00:20:42,529
+can cancel A and B conjugate and that
+gives us K1 equals K2 since they are
+
+930
+00:20:42,529 --> 00:20:42,539
+gives us K1 equals K2 since they are
+ 
+
+931
+00:20:42,539 --> 00:20:43,909
+gives us K1 equals K2 since they are
+both real
+
+932
+00:20:43,909 --> 00:20:43,919
+both real
+ 
+
+933
+00:20:43,919 --> 00:20:46,850
+both real
+the real number K is just an arbitrary
+
+934
+00:20:46,850 --> 00:20:46,860
+the real number K is just an arbitrary
+ 
+
+935
+00:20:46,860 --> 00:20:49,810
+the real number K is just an arbitrary
+scaling factor that we can set to one
+
+936
+00:20:49,810 --> 00:20:49,820
+scaling factor that we can set to one
+ 
+
+937
+00:20:49,820 --> 00:20:52,610
+scaling factor that we can set to one
+basically if a vector points in a light
+
+938
+00:20:52,610 --> 00:20:52,620
+basically if a vector points in a light
+ 
+
+939
+00:20:52,620 --> 00:20:54,470
+basically if a vector points in a light
+like Direction with a space-time
+
+940
+00:20:54,470 --> 00:20:54,480
+like Direction with a space-time
+ 
+
+941
+00:20:54,480 --> 00:20:57,350
+like Direction with a space-time
+interval 0 multiplying it by a scale
+
+942
+00:20:57,350 --> 00:20:57,360
+interval 0 multiplying it by a scale
+ 
+
+943
+00:20:57,360 --> 00:20:59,990
+interval 0 multiplying it by a scale
+factor won't change the direction and it
+
+944
+00:20:59,990 --> 00:21:00,000
+factor won't change the direction and it
+ 
+
+945
+00:21:00,000 --> 00:21:01,909
+factor won't change the direction and it
+will still have a space-time interval of
+
+946
+00:21:01,909 --> 00:21:01,919
+will still have a space-time interval of
+ 
+
+947
+00:21:01,919 --> 00:21:05,330
+will still have a space-time interval of
+zero so we'll just take k equals one for
+
+948
+00:21:05,330 --> 00:21:05,340
+zero so we'll just take k equals one for
+ 
+
+949
+00:21:05,340 --> 00:21:07,190
+zero so we'll just take k equals one for
+Simplicity
+
+950
+00:21:07,190 --> 00:21:07,200
+Simplicity
+ 
+
+951
+00:21:07,200 --> 00:21:09,350
+Simplicity
+but we still need to solve for the
+
+952
+00:21:09,350 --> 00:21:09,360
+but we still need to solve for the
+ 
+
+953
+00:21:09,360 --> 00:21:11,870
+but we still need to solve for the
+complex numbers A and B
+
+954
+00:21:11,870 --> 00:21:11,880
+complex numbers A and B
+ 
+
+955
+00:21:11,880 --> 00:21:14,810
+complex numbers A and B
+iven these four formulas notice that if
+
+956
+00:21:14,810 --> 00:21:14,820
+iven these four formulas notice that if
+ 
+
+957
+00:21:14,820 --> 00:21:17,150
+iven these four formulas notice that if
+we add the first two together the time
+
+958
+00:21:17,150 --> 00:21:17,160
+we add the first two together the time
+ 
+
+959
+00:21:17,160 --> 00:21:19,490
+we add the first two together the time
+components add and the Z components
+
+960
+00:21:19,490 --> 00:21:19,500
+components add and the Z components
+ 
+
+961
+00:21:19,500 --> 00:21:22,669
+components add and the Z components
+cancel if we divide by two we get a
+
+962
+00:21:22,669 --> 00:21:22,679
+cancel if we divide by two we get a
+ 
+
+963
+00:21:22,679 --> 00:21:25,789
+cancel if we divide by two we get a
+formula for time in terms of A and B
+
+964
+00:21:25,789 --> 00:21:25,799
+formula for time in terms of A and B
+ 
+
+965
+00:21:25,799 --> 00:21:28,430
+formula for time in terms of A and B
+we can get an equation for Z if we
+
+966
+00:21:28,430 --> 00:21:28,440
+we can get an equation for Z if we
+ 
+
+967
+00:21:28,440 --> 00:21:31,430
+we can get an equation for Z if we
+subtract the two formulas instead and we
+
+968
+00:21:31,430 --> 00:21:31,440
+subtract the two formulas instead and we
+ 
+
+969
+00:21:31,440 --> 00:21:34,130
+subtract the two formulas instead and we
+can get similar formulas for X and Y by
+
+970
+00:21:34,130 --> 00:21:34,140
+can get similar formulas for X and Y by
+ 
+
+971
+00:21:34,140 --> 00:21:35,870
+can get similar formulas for X and Y by
+adding and subtracting the other two
+
+972
+00:21:35,870 --> 00:21:35,880
+adding and subtracting the other two
+ 
+
+973
+00:21:35,880 --> 00:21:37,250
+adding and subtracting the other two
+formulas
+
+974
+00:21:37,250 --> 00:21:37,260
+formulas
+ 
+
+975
+00:21:37,260 --> 00:21:39,049
+formulas
+so this gives us the space-time
+
+976
+00:21:39,049 --> 00:21:39,059
+so this gives us the space-time
+ 
+
+977
+00:21:39,059 --> 00:21:40,909
+so this gives us the space-time
+components in terms of the spinner
+
+978
+00:21:40,909 --> 00:21:40,919
+components in terms of the spinner
+ 
+
+979
+00:21:40,919 --> 00:21:43,370
+components in terms of the spinner
+components but how do we get the spinner
+
+980
+00:21:43,370 --> 00:21:43,380
+components but how do we get the spinner
+ 
+
+981
+00:21:43,380 --> 00:21:44,870
+components but how do we get the spinner
+components from the space-time
+
+982
+00:21:44,870 --> 00:21:44,880
+components from the space-time
+ 
+
+983
+00:21:44,880 --> 00:21:46,970
+components from the space-time
+components
+
+984
+00:21:46,970 --> 00:21:46,980
+components
+ 
+
+985
+00:21:46,980 --> 00:21:49,490
+components
+we can think of the complex numbers A
+
+986
+00:21:49,490 --> 00:21:49,500
+we can think of the complex numbers A
+ 
+
+987
+00:21:49,500 --> 00:21:52,310
+we can think of the complex numbers A
+and B as each being defined by a
+
+988
+00:21:52,310 --> 00:21:52,320
+and B as each being defined by a
+ 
+
+989
+00:21:52,320 --> 00:21:54,470
+and B as each being defined by a
+magnitude and a phase
+
+990
+00:21:54,470 --> 00:21:54,480
+magnitude and a phase
+ 
+
+991
+00:21:54,480 --> 00:21:57,049
+magnitude and a phase
+from equation one we see the magnitude
+
+992
+00:21:57,049 --> 00:21:57,059
+from equation one we see the magnitude
+ 
+
+993
+00:21:57,059 --> 00:22:00,490
+from equation one we see the magnitude
+of a is the square root of time plus Z
+
+994
+00:22:00,490 --> 00:22:00,500
+of a is the square root of time plus Z
+ 
+
+995
+00:22:00,500 --> 00:22:03,529
+of a is the square root of time plus Z
+likewise from equation 2 the magnitude
+
+996
+00:22:03,529 --> 00:22:03,539
+likewise from equation 2 the magnitude
+ 
+
+997
+00:22:03,539 --> 00:22:06,649
+likewise from equation 2 the magnitude
+of B is the square root of time minus
+
+998
+00:22:06,649 --> 00:22:06,659
+of B is the square root of time minus
+ 
+
+999
+00:22:06,659 --> 00:22:07,850
+of B is the square root of time minus
+said
+
+1000
+00:22:07,850 --> 00:22:07,860
+said
+ 
+
+1001
+00:22:07,860 --> 00:22:11,210
+said
+from equation 3 Let's divide both sides
+
+1002
+00:22:11,210 --> 00:22:11,220
+from equation 3 Let's divide both sides
+ 
+
+1003
+00:22:11,220 --> 00:22:14,210
+from equation 3 Let's divide both sides
+by the magnitudes of A and B which we
+
+1004
+00:22:14,210 --> 00:22:14,220
+by the magnitudes of A and B which we
+ 
+
+1005
+00:22:14,220 --> 00:22:16,490
+by the magnitudes of A and B which we
+can rewrite as these square roots on the
+
+1006
+00:22:16,490 --> 00:22:16,500
+can rewrite as these square roots on the
+ 
+
+1007
+00:22:16,500 --> 00:22:18,049
+can rewrite as these square roots on the
+right hand side
+
+1008
+00:22:18,049 --> 00:22:18,059
+right hand side
+ 
+
+1009
+00:22:18,059 --> 00:22:20,570
+right hand side
+on the left hand side a complex number
+
+1010
+00:22:20,570 --> 00:22:20,580
+on the left hand side a complex number
+ 
+
+1011
+00:22:20,580 --> 00:22:23,390
+on the left hand side a complex number
+divided by its magnitude just gives its
+
+1012
+00:22:23,390 --> 00:22:23,400
+divided by its magnitude just gives its
+ 
+
+1013
+00:22:23,400 --> 00:22:24,350
+divided by its magnitude just gives its
+phase
+
+1014
+00:22:24,350 --> 00:22:24,360
+phase
+ 
+
+1015
+00:22:24,360 --> 00:22:26,930
+phase
+combining the exponents this gives us
+
+1016
+00:22:26,930 --> 00:22:26,940
+combining the exponents this gives us
+ 
+
+1017
+00:22:26,940 --> 00:22:30,289
+combining the exponents this gives us
+the phase difference between a and b
+
+1018
+00:22:30,289 --> 00:22:30,299
+the phase difference between a and b
+ 
+
+1019
+00:22:30,299 --> 00:22:32,510
+the phase difference between a and b
+on the right hand side we can multiply
+
+1020
+00:22:32,510 --> 00:22:32,520
+on the right hand side we can multiply
+ 
+
+1021
+00:22:32,520 --> 00:22:34,549
+on the right hand side we can multiply
+the square roots to get the square root
+
+1022
+00:22:34,549 --> 00:22:34,559
+the square roots to get the square root
+ 
+
+1023
+00:22:34,559 --> 00:22:37,970
+the square roots to get the square root
+of time squared minus Z squared for a
+
+1024
+00:22:37,970 --> 00:22:37,980
+of time squared minus Z squared for a
+ 
+
+1025
+00:22:37,980 --> 00:22:40,250
+of time squared minus Z squared for a
+null Vector this also equals the square
+
+1026
+00:22:40,250 --> 00:22:40,260
+null Vector this also equals the square
+ 
+
+1027
+00:22:40,260 --> 00:22:43,909
+null Vector this also equals the square
+root of x squared plus y squared
+
+1028
+00:22:43,909 --> 00:22:43,919
+root of x squared plus y squared
+ 
+
+1029
+00:22:43,919 --> 00:22:46,010
+root of x squared plus y squared
+so even though there are four real
+
+1030
+00:22:46,010 --> 00:22:46,020
+so even though there are four real
+ 
+
+1031
+00:22:46,020 --> 00:22:48,529
+so even though there are four real
+numbers in this spinner we can only
+
+1032
+00:22:48,529 --> 00:22:48,539
+numbers in this spinner we can only
+ 
+
+1033
+00:22:48,539 --> 00:22:51,890
+numbers in this spinner we can only
+solve for three the two magnitudes and
+
+1034
+00:22:51,890 --> 00:22:51,900
+solve for three the two magnitudes and
+ 
+
+1035
+00:22:51,900 --> 00:22:54,830
+solve for three the two magnitudes and
+one phase difference this is because the
+
+1036
+00:22:54,830 --> 00:22:54,840
+one phase difference this is because the
+ 
+
+1037
+00:22:54,840 --> 00:22:56,930
+one phase difference this is because the
+four space time components for a null
+
+1038
+00:22:56,930 --> 00:22:56,940
+four space time components for a null
+ 
+
+1039
+00:22:56,940 --> 00:22:59,870
+four space time components for a null
+Vector only have three free parameters
+
+1040
+00:22:59,870 --> 00:22:59,880
+Vector only have three free parameters
+ 
+
+1041
+00:22:59,880 --> 00:23:02,690
+Vector only have three free parameters
+the fourth parameter is determined by
+
+1042
+00:23:02,690 --> 00:23:02,700
+the fourth parameter is determined by
+ 
+
+1043
+00:23:02,700 --> 00:23:05,510
+the fourth parameter is determined by
+the other three so we can only get three
+
+1044
+00:23:05,510 --> 00:23:05,520
+the other three so we can only get three
+ 
+
+1045
+00:23:05,520 --> 00:23:08,810
+the other three so we can only get three
+parameters for the Spinners any overall
+
+1046
+00:23:08,810 --> 00:23:08,820
+parameters for the Spinners any overall
+ 
+
+1047
+00:23:08,820 --> 00:23:11,390
+parameters for the Spinners any overall
+phase Factor will get canceled out when
+
+1048
+00:23:11,390 --> 00:23:11,400
+phase Factor will get canceled out when
+ 
+
+1049
+00:23:11,400 --> 00:23:13,730
+phase Factor will get canceled out when
+we multiply the Spinners together so
+
+1050
+00:23:13,730 --> 00:23:13,740
+we multiply the Spinners together so
+ 
+
+1051
+00:23:13,740 --> 00:23:16,130
+we multiply the Spinners together so
+overall phase factors don't impact the
+
+1052
+00:23:16,130 --> 00:23:16,140
+overall phase factors don't impact the
+ 
+
+1053
+00:23:16,140 --> 00:23:18,289
+overall phase factors don't impact the
+final results
+
+1054
+00:23:18,289 --> 00:23:18,299
+final results
+ 
+
+1055
+00:23:18,299 --> 00:23:20,630
+final results
+so we've successfully factored a null
+
+1056
+00:23:20,630 --> 00:23:20,640
+so we've successfully factored a null
+ 
+
+1057
+00:23:20,640 --> 00:23:23,750
+so we've successfully factored a null
+vial Vector into a vial spinner and a
+
+1058
+00:23:23,750 --> 00:23:23,760
+vial Vector into a vial spinner and a
+ 
+
+1059
+00:23:23,760 --> 00:23:25,669
+vial Vector into a vial spinner and a
+dual vial spinner
+
+1060
+00:23:25,669 --> 00:23:25,679
+dual vial spinner
+ 
+
+1061
+00:23:25,679 --> 00:23:28,310
+dual vial spinner
+from now on I'll label the components of
+
+1062
+00:23:28,310 --> 00:23:28,320
+from now on I'll label the components of
+ 
+
+1063
+00:23:28,320 --> 00:23:31,970
+from now on I'll label the components of
+a vial spinner as PSI 1 and PSI 2 with
+
+1064
+00:23:31,970 --> 00:23:31,980
+a vial spinner as PSI 1 and PSI 2 with
+ 
+
+1065
+00:23:31,980 --> 00:23:34,549
+a vial spinner as PSI 1 and PSI 2 with
+upper indices
+
+1066
+00:23:34,549 --> 00:23:34,559
+upper indices
+ 
+
+1067
+00:23:34,559 --> 00:23:37,730
+upper indices
+if we rotate a powley vector using a
+
+1068
+00:23:37,730 --> 00:23:37,740
+if we rotate a powley vector using a
+ 
+
+1069
+00:23:37,740 --> 00:23:41,090
+if we rotate a powley vector using a
+pair of su2 matrices and then Factor our
+
+1070
+00:23:41,090 --> 00:23:41,100
+pair of su2 matrices and then Factor our
+ 
+
+1071
+00:23:41,100 --> 00:23:43,970
+pair of su2 matrices and then Factor our
+poly Vector into a pair of Pali Spinners
+
+1072
+00:23:43,970 --> 00:23:43,980
+poly Vector into a pair of Pali Spinners
+ 
+
+1073
+00:23:43,980 --> 00:23:47,090
+poly Vector into a pair of Pali Spinners
+we see that the column spinner rotates
+
+1074
+00:23:47,090 --> 00:23:47,100
+we see that the column spinner rotates
+ 
+
+1075
+00:23:47,100 --> 00:23:49,970
+we see that the column spinner rotates
+with a single half angle su2 Matrix
+
+1076
+00:23:49,970 --> 00:23:49,980
+with a single half angle su2 Matrix
+ 
+
+1077
+00:23:49,980 --> 00:23:53,210
+with a single half angle su2 Matrix
+acting from the left and we see that our
+
+1078
+00:23:53,210 --> 00:23:53,220
+acting from the left and we see that our
+ 
+
+1079
+00:23:53,220 --> 00:23:55,970
+acting from the left and we see that our
+row dual spinner transforms with the
+
+1080
+00:23:55,970 --> 00:23:55,980
+row dual spinner transforms with the
+ 
+
+1081
+00:23:55,980 --> 00:23:58,190
+row dual spinner transforms with the
+hermitian conjugate of this half angle
+
+1082
+00:23:58,190 --> 00:23:58,200
+hermitian conjugate of this half angle
+ 
+
+1083
+00:23:58,200 --> 00:24:01,730
+hermitian conjugate of this half angle
+su2 Matrix acting from the right
+
+1084
+00:24:01,730 --> 00:24:01,740
+su2 Matrix acting from the right
+ 
+
+1085
+00:24:01,740 --> 00:24:04,970
+su2 Matrix acting from the right
+similarly if we lorentz transform a vial
+
+1086
+00:24:04,970 --> 00:24:04,980
+similarly if we lorentz transform a vial
+ 
+
+1087
+00:24:04,980 --> 00:24:07,730
+similarly if we lorentz transform a vial
+Vector using a double-sided sl2c
+
+1088
+00:24:07,730 --> 00:24:07,740
+Vector using a double-sided sl2c
+ 
+
+1089
+00:24:07,740 --> 00:24:10,490
+Vector using a double-sided sl2c
+transformation and then Factor it into a
+
+1090
+00:24:10,490 --> 00:24:10,500
+transformation and then Factor it into a
+ 
+
+1091
+00:24:10,500 --> 00:24:13,130
+transformation and then Factor it into a
+pair of vial Spinners we see that the
+
+1092
+00:24:13,130 --> 00:24:13,140
+pair of vial Spinners we see that the
+ 
+
+1093
+00:24:13,140 --> 00:24:15,529
+pair of vial Spinners we see that the
+column spinner transforms with a single
+
+1094
+00:24:15,529 --> 00:24:15,539
+column spinner transforms with a single
+ 
+
+1095
+00:24:15,539 --> 00:24:19,190
+column spinner transforms with a single
+sl2c Matrix from the left and the row
+
+1096
+00:24:19,190 --> 00:24:19,200
+sl2c Matrix from the left and the row
+ 
+
+1097
+00:24:19,200 --> 00:24:21,049
+sl2c Matrix from the left and the row
+dual spinner transforms with the
+
+1098
+00:24:21,049 --> 00:24:21,059
+dual spinner transforms with the
+ 
+
+1099
+00:24:21,059 --> 00:24:23,570
+dual spinner transforms with the
+hermitian conjugate of this sl2c Matrix
+
+1100
+00:24:23,570 --> 00:24:23,580
+hermitian conjugate of this sl2c Matrix
+ 
+
+1101
+00:24:23,580 --> 00:24:26,390
+hermitian conjugate of this sl2c Matrix
+from the right
+
+1102
+00:24:26,390 --> 00:24:26,400
+from the right
+ 
+
+1103
+00:24:26,400 --> 00:24:29,049
+from the right
+now let's talk about inner products
+
+1104
+00:24:29,049 --> 00:24:29,059
+now let's talk about inner products
+ 
+
+1105
+00:24:29,059 --> 00:24:31,909
+now let's talk about inner products
+Loosely speaking the inner product of
+
+1106
+00:24:31,909 --> 00:24:31,919
+Loosely speaking the inner product of
+ 
+
+1107
+00:24:31,919 --> 00:24:34,430
+Loosely speaking the inner product of
+two vectors tells us the angle between
+
+1108
+00:24:34,430 --> 00:24:34,440
+two vectors tells us the angle between
+ 
+
+1109
+00:24:34,440 --> 00:24:37,070
+two vectors tells us the angle between
+them and the inner product of a vector
+
+1110
+00:24:37,070 --> 00:24:37,080
+them and the inner product of a vector
+ 
+
+1111
+00:24:37,080 --> 00:24:39,230
+them and the inner product of a vector
+with itself tells us the vector's
+
+1112
+00:24:39,230 --> 00:24:39,240
+with itself tells us the vector's
+ 
+
+1113
+00:24:39,240 --> 00:24:40,970
+with itself tells us the vector's
+squared length
+
+1114
+00:24:40,970 --> 00:24:40,980
+squared length
+ 
+
+1115
+00:24:40,980 --> 00:24:43,850
+squared length
+the reason inner products are useful is
+
+1116
+00:24:43,850 --> 00:24:43,860
+the reason inner products are useful is
+ 
+
+1117
+00:24:43,860 --> 00:24:46,909
+the reason inner products are useful is
+that they don't change under rotations
+
+1118
+00:24:46,909 --> 00:24:46,919
+that they don't change under rotations
+ 
+
+1119
+00:24:46,919 --> 00:24:49,310
+that they don't change under rotations
+for example if we take the inner product
+
+1120
+00:24:49,310 --> 00:24:49,320
+for example if we take the inner product
+ 
+
+1121
+00:24:49,320 --> 00:24:53,270
+for example if we take the inner product
+of vectors u and v written U transpose V
+
+1122
+00:24:53,270 --> 00:24:53,280
+of vectors u and v written U transpose V
+ 
+
+1123
+00:24:53,280 --> 00:24:56,570
+of vectors u and v written U transpose V
+and rotate them both with an SO3 Matrix
+
+1124
+00:24:56,570 --> 00:24:56,580
+and rotate them both with an SO3 Matrix
+ 
+
+1125
+00:24:56,580 --> 00:25:00,049
+and rotate them both with an SO3 Matrix
+R since the transpose of an SO3 Matrix
+
+1126
+00:25:00,049 --> 00:25:00,059
+R since the transpose of an SO3 Matrix
+ 
+
+1127
+00:25:00,059 --> 00:25:02,690
+R since the transpose of an SO3 Matrix
+equals its inverse these cancel to the
+
+1128
+00:25:02,690 --> 00:25:02,700
+equals its inverse these cancel to the
+ 
+
+1129
+00:25:02,700 --> 00:25:05,149
+equals its inverse these cancel to the
+identity meaning the inner product is
+
+1130
+00:25:05,149 --> 00:25:05,159
+identity meaning the inner product is
+ 
+
+1131
+00:25:05,159 --> 00:25:06,649
+identity meaning the inner product is
+unchanged
+
+1132
+00:25:06,649 --> 00:25:06,659
+unchanged
+ 
+
+1133
+00:25:06,659 --> 00:25:09,770
+unchanged
+similarly if we take two Paulie Spinners
+
+1134
+00:25:09,770 --> 00:25:09,780
+similarly if we take two Paulie Spinners
+ 
+
+1135
+00:25:09,780 --> 00:25:13,390
+similarly if we take two Paulie Spinners
+PSI and Chi and take their inner product
+
+1136
+00:25:13,390 --> 00:25:13,400
+PSI and Chi and take their inner product
+ 
+
+1137
+00:25:13,400 --> 00:25:17,149
+PSI and Chi and take their inner product
+PSI dagger Chi when we rotate them with
+
+1138
+00:25:17,149 --> 00:25:17,159
+PSI dagger Chi when we rotate them with
+ 
+
+1139
+00:25:17,159 --> 00:25:20,630
+PSI dagger Chi when we rotate them with
+su2 matrices we end up with u dagger u
+
+1140
+00:25:20,630 --> 00:25:20,640
+su2 matrices we end up with u dagger u
+ 
+
+1141
+00:25:20,640 --> 00:25:22,070
+su2 matrices we end up with u dagger u
+in the middle
+
+1142
+00:25:22,070 --> 00:25:22,080
+in the middle
+ 
+
+1143
+00:25:22,080 --> 00:25:25,970
+in the middle
+and Since U is unitary U dagger equals U
+
+1144
+00:25:25,970 --> 00:25:25,980
+and Since U is unitary U dagger equals U
+ 
+
+1145
+00:25:25,980 --> 00:25:28,549
+and Since U is unitary U dagger equals U
+inverse so these cancel to the identity
+
+1146
+00:25:28,549 --> 00:25:28,559
+inverse so these cancel to the identity
+ 
+
+1147
+00:25:28,559 --> 00:25:32,510
+inverse so these cancel to the identity
+meaning the inner product is unchanged
+
+1148
+00:25:32,510 --> 00:25:32,520
+meaning the inner product is unchanged
+ 
+
+1149
+00:25:32,520 --> 00:25:36,230
+meaning the inner product is unchanged
+now if we take two vial Spinners PSI and
+
+1150
+00:25:36,230 --> 00:25:36,240
+now if we take two vial Spinners PSI and
+ 
+
+1151
+00:25:36,240 --> 00:25:39,710
+now if we take two vial Spinners PSI and
+Phi we might hope that PSI dagger Phi is
+
+1152
+00:25:39,710 --> 00:25:39,720
+Phi we might hope that PSI dagger Phi is
+ 
+
+1153
+00:25:39,720 --> 00:25:42,130
+Phi we might hope that PSI dagger Phi is
+unchanged under Lorenz Transformations
+
+1154
+00:25:42,130 --> 00:25:42,140
+unchanged under Lorenz Transformations
+ 
+
+1155
+00:25:42,140 --> 00:25:46,190
+unchanged under Lorenz Transformations
+but this turns out to be not true if we
+
+1156
+00:25:46,190 --> 00:25:46,200
+but this turns out to be not true if we
+ 
+
+1157
+00:25:46,200 --> 00:25:49,370
+but this turns out to be not true if we
+transform our vile Spinners with an sl2c
+
+1158
+00:25:49,370 --> 00:25:49,380
+transform our vile Spinners with an sl2c
+ 
+
+1159
+00:25:49,380 --> 00:25:52,909
+transform our vile Spinners with an sl2c
+Matrix called L this is not guaranteed
+
+1160
+00:25:52,909 --> 00:25:52,919
+Matrix called L this is not guaranteed
+ 
+
+1161
+00:25:52,919 --> 00:25:56,450
+Matrix called L this is not guaranteed
+to be unitary so this l dagger l in the
+
+1162
+00:25:56,450 --> 00:25:56,460
+to be unitary so this l dagger l in the
+ 
+
+1163
+00:25:56,460 --> 00:25:58,669
+to be unitary so this l dagger l in the
+middle will not always be the identity
+
+1164
+00:25:58,669 --> 00:25:58,679
+middle will not always be the identity
+ 
+
+1165
+00:25:58,679 --> 00:26:01,730
+middle will not always be the identity
+Matrix so this is not a good inner
+
+1166
+00:26:01,730 --> 00:26:01,740
+Matrix so this is not a good inner
+ 
+
+1167
+00:26:01,740 --> 00:26:04,610
+Matrix so this is not a good inner
+product for vial Spinners and we need a
+
+1168
+00:26:04,610 --> 00:26:04,620
+product for vial Spinners and we need a
+ 
+
+1169
+00:26:04,620 --> 00:26:07,130
+product for vial Spinners and we need a
+new inner product formula
+
+1170
+00:26:07,130 --> 00:26:07,140
+new inner product formula
+ 
+
+1171
+00:26:07,140 --> 00:26:09,710
+new inner product formula
+the inner product is often written as a
+
+1172
+00:26:09,710 --> 00:26:09,720
+the inner product is often written as a
+ 
+
+1173
+00:26:09,720 --> 00:26:12,649
+the inner product is often written as a
+row times a column but we can get more
+
+1174
+00:26:12,649 --> 00:26:12,659
+row times a column but we can get more
+ 
+
+1175
+00:26:12,659 --> 00:26:14,810
+row times a column but we can get more
+interesting inner products if we put a
+
+1176
+00:26:14,810 --> 00:26:14,820
+interesting inner products if we put a
+ 
+
+1177
+00:26:14,820 --> 00:26:17,510
+interesting inner products if we put a
+matrix in the middle between them for
+
+1178
+00:26:17,510 --> 00:26:17,520
+matrix in the middle between them for
+ 
+
+1179
+00:26:17,520 --> 00:26:19,789
+matrix in the middle between them for
+example the inner product in flat space
+
+1180
+00:26:19,789 --> 00:26:19,799
+example the inner product in flat space
+ 
+
+1181
+00:26:19,799 --> 00:26:22,850
+example the inner product in flat space
+time uses this Matrix here with a
+
+1182
+00:26:22,850 --> 00:26:22,860
+time uses this Matrix here with a
+ 
+
+1183
+00:26:22,860 --> 00:26:25,190
+time uses this Matrix here with a
+positive one and three negative ones
+
+1184
+00:26:25,190 --> 00:26:25,200
+positive one and three negative ones
+ 
+
+1185
+00:26:25,200 --> 00:26:28,190
+positive one and three negative ones
+along the diagonal this Matrix is called
+
+1186
+00:26:28,190 --> 00:26:28,200
+along the diagonal this Matrix is called
+ 
+
+1187
+00:26:28,200 --> 00:26:30,830
+along the diagonal this Matrix is called
+the mankowsky metric and is usually
+
+1188
+00:26:30,830 --> 00:26:30,840
+the mankowsky metric and is usually
+ 
+
+1189
+00:26:30,840 --> 00:26:32,930
+the mankowsky metric and is usually
+written as Ada
+
+1190
+00:26:32,930 --> 00:26:32,940
+written as Ada
+ 
+
+1191
+00:26:32,940 --> 00:26:35,210
+written as Ada
+we can try to find a similar Matrix
+
+1192
+00:26:35,210 --> 00:26:35,220
+we can try to find a similar Matrix
+ 
+
+1193
+00:26:35,220 --> 00:26:38,269
+we can try to find a similar Matrix
+Epsilon that goes in between a pair of
+
+1194
+00:26:38,269 --> 00:26:38,279
+Epsilon that goes in between a pair of
+ 
+
+1195
+00:26:38,279 --> 00:26:40,850
+Epsilon that goes in between a pair of
+vial Spinners which will give us a good
+
+1196
+00:26:40,850 --> 00:26:40,860
+vial Spinners which will give us a good
+ 
+
+1197
+00:26:40,860 --> 00:26:42,710
+vial Spinners which will give us a good
+inner product
+
+1198
+00:26:42,710 --> 00:26:42,720
+inner product
+ 
+
+1199
+00:26:42,720 --> 00:26:45,350
+inner product
+if I Lorenz transform the Spinners with
+
+1200
+00:26:45,350 --> 00:26:45,360
+if I Lorenz transform the Spinners with
+ 
+
+1201
+00:26:45,360 --> 00:26:48,769
+if I Lorenz transform the Spinners with
+an sl2c Matrix L and set the inner
+
+1202
+00:26:48,769 --> 00:26:48,779
+an sl2c Matrix L and set the inner
+ 
+
+1203
+00:26:48,779 --> 00:26:51,529
+an sl2c Matrix L and set the inner
+product equal to the original formula I
+
+1204
+00:26:51,529 --> 00:26:51,539
+product equal to the original formula I
+ 
+
+1205
+00:26:51,539 --> 00:26:53,930
+product equal to the original formula I
+end up with the constraint that l dagger
+
+1206
+00:26:53,930 --> 00:26:53,940
+end up with the constraint that l dagger
+ 
+
+1207
+00:26:53,940 --> 00:26:57,169
+end up with the constraint that l dagger
+Epsilon L must equal Epsilon
+
+1208
+00:26:57,169 --> 00:26:57,179
+Epsilon L must equal Epsilon
+ 
+
+1209
+00:26:57,179 --> 00:26:59,570
+Epsilon L must equal Epsilon
+it turns out that there is no Epsilon
+
+1210
+00:26:59,570 --> 00:26:59,580
+it turns out that there is no Epsilon
+ 
+
+1211
+00:26:59,580 --> 00:27:01,789
+it turns out that there is no Epsilon
+Matrix that will satisfy this formula
+
+1212
+00:27:01,789 --> 00:27:01,799
+Matrix that will satisfy this formula
+ 
+
+1213
+00:27:01,799 --> 00:27:05,149
+Matrix that will satisfy this formula
+for arbitrary l so it doesn't give us a
+
+1214
+00:27:05,149 --> 00:27:05,159
+for arbitrary l so it doesn't give us a
+ 
+
+1215
+00:27:05,159 --> 00:27:06,890
+for arbitrary l so it doesn't give us a
+good inner product
+
+1216
+00:27:06,890 --> 00:27:06,900
+good inner product
+ 
+
+1217
+00:27:06,900 --> 00:27:10,190
+good inner product
+however if I start over and use PSI
+
+1218
+00:27:10,190 --> 00:27:10,200
+however if I start over and use PSI
+ 
+
+1219
+00:27:10,200 --> 00:27:13,010
+however if I start over and use PSI
+transpose instead of PSI dagger I get
+
+1220
+00:27:13,010 --> 00:27:13,020
+transpose instead of PSI dagger I get
+ 
+
+1221
+00:27:13,020 --> 00:27:15,710
+transpose instead of PSI dagger I get
+the constraint L transpose Epsilon L
+
+1222
+00:27:15,710 --> 00:27:15,720
+the constraint L transpose Epsilon L
+ 
+
+1223
+00:27:15,720 --> 00:27:18,769
+the constraint L transpose Epsilon L
+equals Epsilon and it turns out this can
+
+1224
+00:27:18,769 --> 00:27:18,779
+equals Epsilon and it turns out this can
+ 
+
+1225
+00:27:18,779 --> 00:27:21,350
+equals Epsilon and it turns out this can
+give us a good inner product
+
+1226
+00:27:21,350 --> 00:27:21,360
+give us a good inner product
+ 
+
+1227
+00:27:21,360 --> 00:27:23,510
+give us a good inner product
+if I write this as a matrix equation
+
+1228
+00:27:23,510 --> 00:27:23,520
+if I write this as a matrix equation
+ 
+
+1229
+00:27:23,520 --> 00:27:26,630
+if I write this as a matrix equation
+where L has components Alpha Beta Gamma
+
+1230
+00:27:26,630 --> 00:27:26,640
+where L has components Alpha Beta Gamma
+ 
+
+1231
+00:27:26,640 --> 00:27:28,730
+where L has components Alpha Beta Gamma
+Delta and churn through the Matrix
+
+1232
+00:27:28,730 --> 00:27:28,740
+Delta and churn through the Matrix
+ 
+
+1233
+00:27:28,740 --> 00:27:31,430
+Delta and churn through the Matrix
+multiplications I get four equations
+
+1234
+00:27:31,430 --> 00:27:31,440
+multiplications I get four equations
+ 
+
+1235
+00:27:31,440 --> 00:27:34,029
+multiplications I get four equations
+constraining the components of Epsilon
+
+1236
+00:27:34,029 --> 00:27:34,039
+constraining the components of Epsilon
+ 
+
+1237
+00:27:34,039 --> 00:27:37,250
+constraining the components of Epsilon
+these equations must be true for any
+
+1238
+00:27:37,250 --> 00:27:37,260
+these equations must be true for any
+ 
+
+1239
+00:27:37,260 --> 00:27:40,370
+these equations must be true for any
+choice of Alpha Beta Gamma Delta as long
+
+1240
+00:27:40,370 --> 00:27:40,380
+choice of Alpha Beta Gamma Delta as long
+ 
+
+1241
+00:27:40,380 --> 00:27:43,430
+choice of Alpha Beta Gamma Delta as long
+as they're determinant equals one
+
+1242
+00:27:43,430 --> 00:27:43,440
+as they're determinant equals one
+ 
+
+1243
+00:27:43,440 --> 00:27:45,769
+as they're determinant equals one
+looking at equation one the right hand
+
+1244
+00:27:45,769 --> 00:27:45,779
+looking at equation one the right hand
+ 
+
+1245
+00:27:45,779 --> 00:27:49,010
+looking at equation one the right hand
+side only has the component Epsilon 1 1.
+
+1246
+00:27:49,010 --> 00:27:49,020
+side only has the component Epsilon 1 1.
+ 
+
+1247
+00:27:49,020 --> 00:27:52,430
+side only has the component Epsilon 1 1.
+this means Epsilon 2 2 must go to zero
+
+1248
+00:27:52,430 --> 00:27:52,440
+this means Epsilon 2 2 must go to zero
+ 
+
+1249
+00:27:52,440 --> 00:27:55,010
+this means Epsilon 2 2 must go to zero
+the middle term must also go to zero
+
+1250
+00:27:55,010 --> 00:27:55,020
+the middle term must also go to zero
+ 
+
+1251
+00:27:55,020 --> 00:27:57,830
+the middle term must also go to zero
+telling us that Epsilon 2 1 equals
+
+1252
+00:27:57,830 --> 00:27:57,840
+telling us that Epsilon 2 1 equals
+ 
+
+1253
+00:27:57,840 --> 00:28:01,190
+telling us that Epsilon 2 1 equals
+negative Epsilon 1 2. and finally
+
+1254
+00:28:01,190 --> 00:28:01,200
+negative Epsilon 1 2. and finally
+ 
+
+1255
+00:28:01,200 --> 00:28:04,669
+negative Epsilon 1 2. and finally
+Epsilon 1 1 must also be zero since the
+
+1256
+00:28:04,669 --> 00:28:04,679
+Epsilon 1 1 must also be zero since the
+ 
+
+1257
+00:28:04,679 --> 00:28:07,970
+Epsilon 1 1 must also be zero since the
+equation must be true for any Alpha
+
+1258
+00:28:07,970 --> 00:28:07,980
+equation must be true for any Alpha
+ 
+
+1259
+00:28:07,980 --> 00:28:10,190
+equation must be true for any Alpha
+so we have these constraints on the
+
+1260
+00:28:10,190 --> 00:28:10,200
+so we have these constraints on the
+ 
+
+1261
+00:28:10,200 --> 00:28:12,649
+so we have these constraints on the
+components of Epsilon the simplest
+
+1262
+00:28:12,649 --> 00:28:12,659
+components of Epsilon the simplest
+ 
+
+1263
+00:28:12,659 --> 00:28:15,710
+components of Epsilon the simplest
+solution is to pick Epsilon 1 2 equaling
+
+1264
+00:28:15,710 --> 00:28:15,720
+solution is to pick Epsilon 1 2 equaling
+ 
+
+1265
+00:28:15,720 --> 00:28:18,590
+solution is to pick Epsilon 1 2 equaling
+1 which gives us this Epsilon Matrix
+
+1266
+00:28:18,590 --> 00:28:18,600
+1 which gives us this Epsilon Matrix
+ 
+
+1267
+00:28:18,600 --> 00:28:23,810
+1 which gives us this Epsilon Matrix
+here with components 0 1 negative 1 0.
+
+1268
+00:28:23,810 --> 00:28:23,820
+here with components 0 1 negative 1 0.
+ 
+
+1269
+00:28:23,820 --> 00:28:26,149
+here with components 0 1 negative 1 0.
+so we've determined the correct inner
+
+1270
+00:28:26,149 --> 00:28:26,159
+so we've determined the correct inner
+ 
+
+1271
+00:28:26,159 --> 00:28:28,730
+so we've determined the correct inner
+product between vial Spinners is PSI
+
+1272
+00:28:28,730 --> 00:28:28,740
+product between vial Spinners is PSI
+ 
+
+1273
+00:28:28,740 --> 00:28:31,789
+product between vial Spinners is PSI
+transpose Epsilon Phi where the Epsilon
+
+1274
+00:28:31,789 --> 00:28:31,799
+transpose Epsilon Phi where the Epsilon
+ 
+
+1275
+00:28:31,799 --> 00:28:35,029
+transpose Epsilon Phi where the Epsilon
+Matrix equals this
+
+1276
+00:28:35,029 --> 00:28:35,039
+Matrix equals this
+ 
+
+1277
+00:28:35,039 --> 00:28:38,810
+Matrix equals this
+so for two Paulie Spinners xai and Kai
+
+1278
+00:28:38,810 --> 00:28:38,820
+so for two Paulie Spinners xai and Kai
+ 
+
+1279
+00:28:38,820 --> 00:28:42,710
+so for two Paulie Spinners xai and Kai
+their inner product is Sci dagger Kai
+
+1280
+00:28:42,710 --> 00:28:42,720
+their inner product is Sci dagger Kai
+ 
+
+1281
+00:28:42,720 --> 00:28:45,529
+their inner product is Sci dagger Kai
+dagger is what we call the Dual spinner
+
+1282
+00:28:45,529 --> 00:28:45,539
+dagger is what we call the Dual spinner
+ 
+
+1283
+00:28:45,539 --> 00:28:49,190
+dagger is what we call the Dual spinner
+of xai the duel is like the left portion
+
+1284
+00:28:49,190 --> 00:28:49,200
+of xai the duel is like the left portion
+ 
+
+1285
+00:28:49,200 --> 00:28:51,169
+of xai the duel is like the left portion
+of an inner product
+
+1286
+00:28:51,169 --> 00:28:51,179
+of an inner product
+ 
+
+1287
+00:28:51,179 --> 00:28:53,810
+of an inner product
+if PSI is a column that lives in a
+
+1288
+00:28:53,810 --> 00:28:53,820
+if PSI is a column that lives in a
+ 
+
+1289
+00:28:53,820 --> 00:28:56,870
+if PSI is a column that lives in a
+spinner space then sideager is a row
+
+1290
+00:28:56,870 --> 00:28:56,880
+spinner space then sideager is a row
+ 
+
+1291
+00:28:56,880 --> 00:28:58,850
+spinner space then sideager is a row
+that lives in the corresponding dual
+
+1292
+00:28:58,850 --> 00:28:58,860
+that lives in the corresponding dual
+ 
+
+1293
+00:28:58,860 --> 00:29:01,549
+that lives in the corresponding dual
+spinner space we talked about this in
+
+1294
+00:29:01,549 --> 00:29:01,559
+spinner space we talked about this in
+ 
+
+1295
+00:29:01,559 --> 00:29:03,230
+spinner space we talked about this in
+the last video
+
+1296
+00:29:03,230 --> 00:29:03,240
+the last video
+ 
+
+1297
+00:29:03,240 --> 00:29:07,190
+the last video
+for two vial Spinners PSI and Phi their
+
+1298
+00:29:07,190 --> 00:29:07,200
+for two vial Spinners PSI and Phi their
+ 
+
+1299
+00:29:07,200 --> 00:29:10,250
+for two vial Spinners PSI and Phi their
+inner product is PSI transpose Epsilon
+
+1300
+00:29:10,250 --> 00:29:10,260
+inner product is PSI transpose Epsilon
+ 
+
+1301
+00:29:10,260 --> 00:29:11,330
+inner product is PSI transpose Epsilon
+Phi
+
+1302
+00:29:11,330 --> 00:29:11,340
+Phi
+ 
+
+1303
+00:29:11,340 --> 00:29:14,570
+Phi
+this PSI transpose Epsilon term is the
+
+1304
+00:29:14,570 --> 00:29:14,580
+this PSI transpose Epsilon term is the
+ 
+
+1305
+00:29:14,580 --> 00:29:16,669
+this PSI transpose Epsilon term is the
+Dual spinner of PSI
+
+1306
+00:29:16,669 --> 00:29:16,679
+Dual spinner of PSI
+ 
+
+1307
+00:29:16,679 --> 00:29:19,490
+Dual spinner of PSI
+again the Dual spinner is like the left
+
+1308
+00:29:19,490 --> 00:29:19,500
+again the Dual spinner is like the left
+ 
+
+1309
+00:29:19,500 --> 00:29:21,830
+again the Dual spinner is like the left
+half of the inner product
+
+1310
+00:29:21,830 --> 00:29:21,840
+half of the inner product
+ 
+
+1311
+00:29:21,840 --> 00:29:24,289
+half of the inner product
+if PSI is a column that lives in a
+
+1312
+00:29:24,289 --> 00:29:24,299
+if PSI is a column that lives in a
+ 
+
+1313
+00:29:24,299 --> 00:29:26,570
+if PSI is a column that lives in a
+spinner space then side transpose
+
+1314
+00:29:26,570 --> 00:29:26,580
+spinner space then side transpose
+ 
+
+1315
+00:29:26,580 --> 00:29:29,029
+spinner space then side transpose
+Epsilon is a row that lives in the
+
+1316
+00:29:29,029 --> 00:29:29,039
+Epsilon is a row that lives in the
+ 
+
+1317
+00:29:29,039 --> 00:29:32,450
+Epsilon is a row that lives in the
+corresponding dual spinner space
+
+1318
+00:29:32,450 --> 00:29:32,460
+corresponding dual spinner space
+ 
+
+1319
+00:29:32,460 --> 00:29:35,090
+corresponding dual spinner space
+so we know the vial spinner in her
+
+1320
+00:29:35,090 --> 00:29:35,100
+so we know the vial spinner in her
+ 
+
+1321
+00:29:35,100 --> 00:29:37,850
+so we know the vial spinner in her
+product must be unchanged after a Lorenz
+
+1322
+00:29:37,850 --> 00:29:37,860
+product must be unchanged after a Lorenz
+ 
+
+1323
+00:29:37,860 --> 00:29:41,029
+product must be unchanged after a Lorenz
+transformation so L transpose Epsilon L
+
+1324
+00:29:41,029 --> 00:29:41,039
+transformation so L transpose Epsilon L
+ 
+
+1325
+00:29:41,039 --> 00:29:43,130
+transformation so L transpose Epsilon L
+must equal Epsilon
+
+1326
+00:29:43,130 --> 00:29:43,140
+must equal Epsilon
+ 
+
+1327
+00:29:43,140 --> 00:29:46,070
+must equal Epsilon
+if we multiply both sides by L inverse
+
+1328
+00:29:46,070 --> 00:29:46,080
+if we multiply both sides by L inverse
+ 
+
+1329
+00:29:46,080 --> 00:29:48,769
+if we multiply both sides by L inverse
+on the right we can cancel L and L
+
+1330
+00:29:48,769 --> 00:29:48,779
+on the right we can cancel L and L
+ 
+
+1331
+00:29:48,779 --> 00:29:51,769
+on the right we can cancel L and L
+inverse and see that L transpose Epsilon
+
+1332
+00:29:51,769 --> 00:29:51,779
+inverse and see that L transpose Epsilon
+ 
+
+1333
+00:29:51,779 --> 00:29:55,130
+inverse and see that L transpose Epsilon
+can be replaced by Epsilon L inverse
+
+1334
+00:29:55,130 --> 00:29:55,140
+can be replaced by Epsilon L inverse
+ 
+
+1335
+00:29:55,140 --> 00:29:57,289
+can be replaced by Epsilon L inverse
+this gives an alternate way of
+
+1336
+00:29:57,289 --> 00:29:57,299
+this gives an alternate way of
+ 
+
+1337
+00:29:57,299 --> 00:29:59,930
+this gives an alternate way of
+transforming the inner product where the
+
+1338
+00:29:59,930 --> 00:29:59,940
+transforming the inner product where the
+ 
+
+1339
+00:29:59,940 --> 00:30:03,049
+transforming the inner product where the
+second half Phi transforms with L and
+
+1340
+00:30:03,049 --> 00:30:03,059
+second half Phi transforms with L and
+ 
+
+1341
+00:30:03,059 --> 00:30:05,690
+second half Phi transforms with L and
+the first half PSI transpose Epsilon
+
+1342
+00:30:05,690 --> 00:30:05,700
+the first half PSI transpose Epsilon
+ 
+
+1343
+00:30:05,700 --> 00:30:08,870
+the first half PSI transpose Epsilon
+transforms with L inverse we'll talk
+
+1344
+00:30:08,870 --> 00:30:08,880
+transforms with L inverse we'll talk
+ 
+
+1345
+00:30:08,880 --> 00:30:12,049
+transforms with L inverse we'll talk
+about this more later in the video
+
+1346
+00:30:12,049 --> 00:30:12,059
+about this more later in the video
+ 
+
+1347
+00:30:12,059 --> 00:30:14,210
+about this more later in the video
+it's also worth mentioning that the vial
+
+1348
+00:30:14,210 --> 00:30:14,220
+it's also worth mentioning that the vial
+ 
+
+1349
+00:30:14,220 --> 00:30:16,970
+it's also worth mentioning that the vial
+spinner inner product is anti-symmetric
+
+1350
+00:30:16,970 --> 00:30:16,980
+spinner inner product is anti-symmetric
+ 
+
+1351
+00:30:16,980 --> 00:30:19,610
+spinner inner product is anti-symmetric
+and gets a negative sign when we swap
+
+1352
+00:30:19,610 --> 00:30:19,620
+and gets a negative sign when we swap
+ 
+
+1353
+00:30:19,620 --> 00:30:22,310
+and gets a negative sign when we swap
+the order of the Spinners and equals
+
+1354
+00:30:22,310 --> 00:30:22,320
+the order of the Spinners and equals
+ 
+
+1355
+00:30:22,320 --> 00:30:24,649
+the order of the Spinners and equals
+zero when we put the same spinner in
+
+1356
+00:30:24,649 --> 00:30:24,659
+zero when we put the same spinner in
+ 
+
+1357
+00:30:24,659 --> 00:30:25,850
+zero when we put the same spinner in
+twice
+
+1358
+00:30:25,850 --> 00:30:25,860
+twice
+ 
+
+1359
+00:30:25,860 --> 00:30:28,190
+twice
+because of this the Epsilon metric
+
+1360
+00:30:28,190 --> 00:30:28,200
+because of this the Epsilon metric
+ 
+
+1361
+00:30:28,200 --> 00:30:30,649
+because of this the Epsilon metric
+doesn't measure lengths and angles like
+
+1362
+00:30:30,649 --> 00:30:30,659
+doesn't measure lengths and angles like
+ 
+
+1363
+00:30:30,659 --> 00:30:33,710
+doesn't measure lengths and angles like
+most metrics it is more correctly called
+
+1364
+00:30:33,710 --> 00:30:33,720
+most metrics it is more correctly called
+ 
+
+1365
+00:30:33,720 --> 00:30:36,590
+most metrics it is more correctly called
+a simplectic form but I won't discuss
+
+1366
+00:30:36,590 --> 00:30:36,600
+a simplectic form but I won't discuss
+ 
+
+1367
+00:30:36,600 --> 00:30:39,649
+a simplectic form but I won't discuss
+that in this video
+
+1368
+00:30:39,649 --> 00:30:39,659
+
+ 
+
+1369
+00:30:39,659 --> 00:30:42,130
+
+next I'm going to talk about chirality
+
+1370
+00:30:42,130 --> 00:30:42,140
+next I'm going to talk about chirality
+ 
+
+1371
+00:30:42,140 --> 00:30:45,529
+next I'm going to talk about chirality
+for Pali Spinners there's no notion of
+
+1372
+00:30:45,529 --> 00:30:45,539
+for Pali Spinners there's no notion of
+ 
+
+1373
+00:30:45,539 --> 00:30:48,830
+for Pali Spinners there's no notion of
+left chiral or right chiral Spinners but
+
+1374
+00:30:48,830 --> 00:30:48,840
+left chiral or right chiral Spinners but
+ 
+
+1375
+00:30:48,840 --> 00:30:51,769
+left chiral or right chiral Spinners but
+vial Spinners come in two types either
+
+1376
+00:30:51,769 --> 00:30:51,779
+vial Spinners come in two types either
+ 
+
+1377
+00:30:51,779 --> 00:30:54,649
+vial Spinners come in two types either
+left chiral or right chiral
+
+1378
+00:30:54,649 --> 00:30:54,659
+left chiral or right chiral
+ 
+
+1379
+00:30:54,659 --> 00:30:56,990
+left chiral or right chiral
+the reason for this is that Paulie
+
+1380
+00:30:56,990 --> 00:30:57,000
+the reason for this is that Paulie
+ 
+
+1381
+00:30:57,000 --> 00:31:00,470
+the reason for this is that Paulie
+Spinners transform with su2 matrices and
+
+1382
+00:31:00,470 --> 00:31:00,480
+Spinners transform with su2 matrices and
+ 
+
+1383
+00:31:00,480 --> 00:31:04,250
+Spinners transform with su2 matrices and
+there is only one version of su2
+
+1384
+00:31:04,250 --> 00:31:04,260
+there is only one version of su2
+ 
+
+1385
+00:31:04,260 --> 00:31:07,430
+there is only one version of su2
+but vile spanners transform with sl2c
+
+1386
+00:31:07,430 --> 00:31:07,440
+but vile spanners transform with sl2c
+ 
+
+1387
+00:31:07,440 --> 00:31:10,970
+but vile spanners transform with sl2c
+matrices and there are two copies of
+
+1388
+00:31:10,970 --> 00:31:10,980
+matrices and there are two copies of
+ 
+
+1389
+00:31:10,980 --> 00:31:14,810
+matrices and there are two copies of
+sl2c matrices called the left and right
+
+1390
+00:31:14,810 --> 00:31:14,820
+sl2c matrices called the left and right
+ 
+
+1391
+00:31:14,820 --> 00:31:17,630
+sl2c matrices called the left and right
+representations and we can travel
+
+1392
+00:31:17,630 --> 00:31:17,640
+representations and we can travel
+ 
+
+1393
+00:31:17,640 --> 00:31:21,049
+representations and we can travel
+between them using complex conjugation
+
+1394
+00:31:21,049 --> 00:31:21,059
+between them using complex conjugation
+ 
+
+1395
+00:31:21,059 --> 00:31:23,570
+between them using complex conjugation
+I'll show you what I mean
+
+1396
+00:31:23,570 --> 00:31:23,580
+I'll show you what I mean
+ 
+
+1397
+00:31:23,580 --> 00:31:26,510
+I'll show you what I mean
+if we look at these two matrices you
+
+1398
+00:31:26,510 --> 00:31:26,520
+if we look at these two matrices you
+ 
+
+1399
+00:31:26,520 --> 00:31:27,950
+if we look at these two matrices you
+might argue that they are different
+
+1400
+00:31:27,950 --> 00:31:27,960
+might argue that they are different
+ 
+
+1401
+00:31:27,960 --> 00:31:31,310
+might argue that they are different
+Transformations one rotates in the X Y
+
+1402
+00:31:31,310 --> 00:31:31,320
+Transformations one rotates in the X Y
+ 
+
+1403
+00:31:31,320 --> 00:31:34,850
+Transformations one rotates in the X Y
+plane and one rotates in the YZ plane
+
+1404
+00:31:34,850 --> 00:31:34,860
+plane and one rotates in the YZ plane
+ 
+
+1405
+00:31:34,860 --> 00:31:37,430
+plane and one rotates in the YZ plane
+but another interpretation is that they
+
+1406
+00:31:37,430 --> 00:31:37,440
+but another interpretation is that they
+ 
+
+1407
+00:31:37,440 --> 00:31:39,190
+but another interpretation is that they
+are the same physical transformation
+
+1408
+00:31:39,190 --> 00:31:39,200
+are the same physical transformation
+ 
+
+1409
+00:31:39,200 --> 00:31:41,870
+are the same physical transformation
+just written in different coordinate
+
+1410
+00:31:41,870 --> 00:31:41,880
+just written in different coordinate
+ 
+
+1411
+00:31:41,880 --> 00:31:43,250
+just written in different coordinate
+systems
+
+1412
+00:31:43,250 --> 00:31:43,260
+systems
+ 
+
+1413
+00:31:43,260 --> 00:31:45,950
+systems
+in these visualizations the two physical
+
+1414
+00:31:45,950 --> 00:31:45,960
+in these visualizations the two physical
+ 
+
+1415
+00:31:45,960 --> 00:31:48,529
+in these visualizations the two physical
+rotations are the same but the
+
+1416
+00:31:48,529 --> 00:31:48,539
+rotations are the same but the
+ 
+
+1417
+00:31:48,539 --> 00:31:51,529
+rotations are the same but the
+coordinate axes are different
+
+1418
+00:31:51,529 --> 00:31:51,539
+coordinate axes are different
+ 
+
+1419
+00:31:51,539 --> 00:31:54,409
+coordinate axes are different
+to relate to the two matrices we can
+
+1420
+00:31:54,409 --> 00:31:54,419
+to relate to the two matrices we can
+ 
+
+1421
+00:31:54,419 --> 00:31:57,049
+to relate to the two matrices we can
+change coordinates with C do the
+
+1422
+00:31:57,049 --> 00:31:57,059
+change coordinates with C do the
+ 
+
+1423
+00:31:57,059 --> 00:31:59,570
+change coordinates with C do the
+rotation with r and then change
+
+1424
+00:31:59,570 --> 00:31:59,580
+rotation with r and then change
+ 
+
+1425
+00:31:59,580 --> 00:32:02,810
+rotation with r and then change
+coordinates back with C inverse
+
+1426
+00:32:02,810 --> 00:32:02,820
+coordinates back with C inverse
+ 
+
+1427
+00:32:02,820 --> 00:32:05,450
+coordinates back with C inverse
+the result of these three operations is
+
+1428
+00:32:05,450 --> 00:32:05,460
+the result of these three operations is
+ 
+
+1429
+00:32:05,460 --> 00:32:08,750
+the result of these three operations is
+the Matrix R tilde which rotates in the
+
+1430
+00:32:08,750 --> 00:32:08,760
+the Matrix R tilde which rotates in the
+ 
+
+1431
+00:32:08,760 --> 00:32:11,570
+the Matrix R tilde which rotates in the
+tilde coordinate system
+
+1432
+00:32:11,570 --> 00:32:11,580
+tilde coordinate system
+ 
+
+1433
+00:32:11,580 --> 00:32:14,029
+tilde coordinate system
+the same thing can happen with spinners
+
+1434
+00:32:14,029 --> 00:32:14,039
+the same thing can happen with spinners
+ 
+
+1435
+00:32:14,039 --> 00:32:17,389
+the same thing can happen with spinners
+we can have two different su2 matrices
+
+1436
+00:32:17,389 --> 00:32:17,399
+we can have two different su2 matrices
+ 
+
+1437
+00:32:17,399 --> 00:32:19,669
+we can have two different su2 matrices
+that end up doing the same physical
+
+1438
+00:32:19,669 --> 00:32:19,679
+that end up doing the same physical
+ 
+
+1439
+00:32:19,679 --> 00:32:22,490
+that end up doing the same physical
+transformation they only look different
+
+1440
+00:32:22,490 --> 00:32:22,500
+transformation they only look different
+ 
+
+1441
+00:32:22,500 --> 00:32:24,830
+transformation they only look different
+because the matrices are used in
+
+1442
+00:32:24,830 --> 00:32:24,840
+because the matrices are used in
+ 
+
+1443
+00:32:24,840 --> 00:32:27,529
+because the matrices are used in
+different spinner coordinate systems
+
+1444
+00:32:27,529 --> 00:32:27,539
+different spinner coordinate systems
+ 
+
+1445
+00:32:27,539 --> 00:32:31,190
+different spinner coordinate systems
+for example it's possible that you and U
+
+1446
+00:32:31,190 --> 00:32:31,200
+for example it's possible that you and U
+ 
+
+1447
+00:32:31,200 --> 00:32:33,830
+for example it's possible that you and U
+complex conjugate represent the same
+
+1448
+00:32:33,830 --> 00:32:33,840
+complex conjugate represent the same
+ 
+
+1449
+00:32:33,840 --> 00:32:36,529
+complex conjugate represent the same
+physical transformation just in
+
+1450
+00:32:36,529 --> 00:32:36,539
+physical transformation just in
+ 
+
+1451
+00:32:36,539 --> 00:32:39,409
+physical transformation just in
+different spinner coordinate systems
+
+1452
+00:32:39,409 --> 00:32:39,419
+different spinner coordinate systems
+ 
+
+1453
+00:32:39,419 --> 00:32:41,990
+different spinner coordinate systems
+to show this we just need to find a
+
+1454
+00:32:41,990 --> 00:32:42,000
+to show this we just need to find a
+ 
+
+1455
+00:32:42,000 --> 00:32:45,230
+to show this we just need to find a
+coordinate change C which satisfies C
+
+1456
+00:32:45,230 --> 00:32:45,240
+coordinate change C which satisfies C
+ 
+
+1457
+00:32:45,240 --> 00:32:48,830
+coordinate change C which satisfies C
+then U then C inverse equaling U complex
+
+1458
+00:32:48,830 --> 00:32:48,840
+then U then C inverse equaling U complex
+ 
+
+1459
+00:32:48,840 --> 00:32:50,269
+then U then C inverse equaling U complex
+conjugate
+
+1460
+00:32:50,269 --> 00:32:50,279
+conjugate
+ 
+
+1461
+00:32:50,279 --> 00:32:52,850
+conjugate
+if we write the Matrix Big C with
+
+1462
+00:32:52,850 --> 00:32:52,860
+if we write the Matrix Big C with
+ 
+
+1463
+00:32:52,860 --> 00:32:55,850
+if we write the Matrix Big C with
+entries A B C D and go through the
+
+1464
+00:32:55,850 --> 00:32:55,860
+entries A B C D and go through the
+ 
+
+1465
+00:32:55,860 --> 00:32:58,130
+entries A B C D and go through the
+Matrix multiplications we get four
+
+1466
+00:32:58,130 --> 00:32:58,140
+Matrix multiplications we get four
+ 
+
+1467
+00:32:58,140 --> 00:33:00,169
+Matrix multiplications we get four
+equations where I've written the
+
+1468
+00:33:00,169 --> 00:33:00,179
+equations where I've written the
+ 
+
+1469
+00:33:00,179 --> 00:33:02,750
+equations where I've written the
+determinant as capital D
+
+1470
+00:33:02,750 --> 00:33:02,760
+determinant as capital D
+ 
+
+1471
+00:33:02,760 --> 00:33:05,510
+determinant as capital D
+matching both sides of equation 2 tells
+
+1472
+00:33:05,510 --> 00:33:05,520
+matching both sides of equation 2 tells
+ 
+
+1473
+00:33:05,520 --> 00:33:07,549
+matching both sides of equation 2 tells
+us small c squared equals the
+
+1474
+00:33:07,549 --> 00:33:07,559
+us small c squared equals the
+ 
+
+1475
+00:33:07,559 --> 00:33:11,269
+us small c squared equals the
+determinant and a squared equals zero
+
+1476
+00:33:11,269 --> 00:33:11,279
+determinant and a squared equals zero
+ 
+
+1477
+00:33:11,279 --> 00:33:13,730
+determinant and a squared equals zero
+doing the same thing with equation three
+
+1478
+00:33:13,730 --> 00:33:13,740
+doing the same thing with equation three
+ 
+
+1479
+00:33:13,740 --> 00:33:17,029
+doing the same thing with equation three
+tells us small D squared equals zero and
+
+1480
+00:33:17,029 --> 00:33:17,039
+tells us small D squared equals zero and
+ 
+
+1481
+00:33:17,039 --> 00:33:20,149
+tells us small D squared equals zero and
+B squared equals the determinant
+
+1482
+00:33:20,149 --> 00:33:20,159
+B squared equals the determinant
+ 
+
+1483
+00:33:20,159 --> 00:33:22,130
+B squared equals the determinant
+plugging all this into the determinant
+
+1484
+00:33:22,130 --> 00:33:22,140
+plugging all this into the determinant
+ 
+
+1485
+00:33:22,140 --> 00:33:24,889
+plugging all this into the determinant
+formula tells us that b equals negative
+
+1486
+00:33:24,889 --> 00:33:24,899
+formula tells us that b equals negative
+ 
+
+1487
+00:33:24,899 --> 00:33:28,009
+formula tells us that b equals negative
+small C so our coordinate change Matrix
+
+1488
+00:33:28,009 --> 00:33:28,019
+small C so our coordinate change Matrix
+ 
+
+1489
+00:33:28,019 --> 00:33:30,590
+small C so our coordinate change Matrix
+Big C looks like this
+
+1490
+00:33:30,590 --> 00:33:30,600
+Big C looks like this
+ 
+
+1491
+00:33:30,600 --> 00:33:33,889
+Big C looks like this
+what this shows is that U and U complex
+
+1492
+00:33:33,889 --> 00:33:33,899
+what this shows is that U and U complex
+ 
+
+1493
+00:33:33,899 --> 00:33:36,710
+what this shows is that U and U complex
+conjugates can really be viewed as the
+
+1494
+00:33:36,710 --> 00:33:36,720
+conjugates can really be viewed as the
+ 
+
+1495
+00:33:36,720 --> 00:33:38,990
+conjugates can really be viewed as the
+same physical transformation but
+
+1496
+00:33:38,990 --> 00:33:39,000
+same physical transformation but
+ 
+
+1497
+00:33:39,000 --> 00:33:40,909
+same physical transformation but
+represented in different spinner
+
+1498
+00:33:40,909 --> 00:33:40,919
+represented in different spinner
+ 
+
+1499
+00:33:40,919 --> 00:33:43,669
+represented in different spinner
+coordinate systems
+
+1500
+00:33:43,669 --> 00:33:43,679
+coordinate systems
+ 
+
+1501
+00:33:43,679 --> 00:33:46,310
+coordinate systems
+it turns out that we cannot say the same
+
+1502
+00:33:46,310 --> 00:33:46,320
+it turns out that we cannot say the same
+ 
+
+1503
+00:33:46,320 --> 00:33:49,070
+it turns out that we cannot say the same
+thing for the sl2c matrices that
+
+1504
+00:33:49,070 --> 00:33:49,080
+thing for the sl2c matrices that
+ 
+
+1505
+00:33:49,080 --> 00:33:51,230
+thing for the sl2c matrices that
+transform vial spinners
+
+1506
+00:33:51,230 --> 00:33:51,240
+transform vial spinners
+ 
+
+1507
+00:33:51,240 --> 00:33:53,630
+transform vial spinners
+it turns out that there is no change of
+
+1508
+00:33:53,630 --> 00:33:53,640
+it turns out that there is no change of
+ 
+
+1509
+00:33:53,640 --> 00:33:56,870
+it turns out that there is no change of
+coordinate Matrix C which satisfies C
+
+1510
+00:33:56,870 --> 00:33:56,880
+coordinate Matrix C which satisfies C
+ 
+
+1511
+00:33:56,880 --> 00:34:00,169
+coordinate Matrix C which satisfies C
+then L then C inverse equaling L complex
+
+1512
+00:34:00,169 --> 00:34:00,179
+then L then C inverse equaling L complex
+ 
+
+1513
+00:34:00,179 --> 00:34:01,669
+then L then C inverse equaling L complex
+conjugate
+
+1514
+00:34:01,669 --> 00:34:01,679
+conjugate
+ 
+
+1515
+00:34:01,679 --> 00:34:04,310
+conjugate
+this means that if we take the sl2c
+
+1516
+00:34:04,310 --> 00:34:04,320
+this means that if we take the sl2c
+ 
+
+1517
+00:34:04,320 --> 00:34:06,889
+this means that if we take the sl2c
+matrices we're familiar with that do
+
+1518
+00:34:06,889 --> 00:34:06,899
+matrices we're familiar with that do
+ 
+
+1519
+00:34:06,899 --> 00:34:09,889
+matrices we're familiar with that do
+lorentz Transformations and then complex
+
+1520
+00:34:09,889 --> 00:34:09,899
+lorentz Transformations and then complex
+ 
+
+1521
+00:34:09,899 --> 00:34:12,950
+lorentz Transformations and then complex
+conjugate them we get an entirely new
+
+1522
+00:34:12,950 --> 00:34:12,960
+conjugate them we get an entirely new
+ 
+
+1523
+00:34:12,960 --> 00:34:17,270
+conjugate them we get an entirely new
+copy of sl2c which is not the result of
+
+1524
+00:34:17,270 --> 00:34:17,280
+copy of sl2c which is not the result of
+ 
+
+1525
+00:34:17,280 --> 00:34:19,070
+copy of sl2c which is not the result of
+a change of coordinates
+
+1526
+00:34:19,070 --> 00:34:19,080
+a change of coordinates
+ 
+
+1527
+00:34:19,080 --> 00:34:21,589
+a change of coordinates
+we call these two copies the left
+
+1528
+00:34:21,589 --> 00:34:21,599
+we call these two copies the left
+ 
+
+1529
+00:34:21,599 --> 00:34:23,450
+we call these two copies the left
+representation and the right
+
+1530
+00:34:23,450 --> 00:34:23,460
+representation and the right
+ 
+
+1531
+00:34:23,460 --> 00:34:25,550
+representation and the right
+representation
+
+1532
+00:34:25,550 --> 00:34:25,560
+representation
+ 
+
+1533
+00:34:25,560 --> 00:34:28,430
+representation
+left chiral vial Spinners will transform
+
+1534
+00:34:28,430 --> 00:34:28,440
+left chiral vial Spinners will transform
+ 
+
+1535
+00:34:28,440 --> 00:34:31,369
+left chiral vial Spinners will transform
+with the left representation and right
+
+1536
+00:34:31,369 --> 00:34:31,379
+with the left representation and right
+ 
+
+1537
+00:34:31,379 --> 00:34:33,950
+with the left representation and right
+chiral vial spanners will transform with
+
+1538
+00:34:33,950 --> 00:34:33,960
+chiral vial spanners will transform with
+ 
+
+1539
+00:34:33,960 --> 00:34:36,950
+chiral vial spanners will transform with
+the right representation
+
+1540
+00:34:36,950 --> 00:34:36,960
+the right representation
+ 
+
+1541
+00:34:36,960 --> 00:34:40,250
+the right representation
+so unlike Pali Spinners vial Spinners
+
+1542
+00:34:40,250 --> 00:34:40,260
+so unlike Pali Spinners vial Spinners
+ 
+
+1543
+00:34:40,260 --> 00:34:42,710
+so unlike Pali Spinners vial Spinners
+come in left chiral and right chiral
+
+1544
+00:34:42,710 --> 00:34:42,720
+come in left chiral and right chiral
+ 
+
+1545
+00:34:42,720 --> 00:34:45,050
+come in left chiral and right chiral
+versions
+
+1546
+00:34:45,050 --> 00:34:45,060
+versions
+ 
+
+1547
+00:34:45,060 --> 00:34:47,750
+versions
+finally let's go over the notation used
+
+1548
+00:34:47,750 --> 00:34:47,760
+finally let's go over the notation used
+ 
+
+1549
+00:34:47,760 --> 00:34:50,869
+finally let's go over the notation used
+for the components of vial spinners
+
+1550
+00:34:50,869 --> 00:34:50,879
+for the components of vial spinners
+ 
+
+1551
+00:34:50,879 --> 00:34:53,510
+for the components of vial spinners
+now this next section of the video will
+
+1552
+00:34:53,510 --> 00:34:53,520
+now this next section of the video will
+ 
+
+1553
+00:34:53,520 --> 00:34:56,089
+now this next section of the video will
+involve the placement of indices on vial
+
+1554
+00:34:56,089 --> 00:34:56,099
+involve the placement of indices on vial
+ 
+
+1555
+00:34:56,099 --> 00:34:59,150
+involve the placement of indices on vial
+Spinners unfortunately there are so many
+
+1556
+00:34:59,150 --> 00:34:59,160
+Spinners unfortunately there are so many
+ 
+
+1557
+00:34:59,160 --> 00:35:01,250
+Spinners unfortunately there are so many
+different index conventions across
+
+1558
+00:35:01,250 --> 00:35:01,260
+different index conventions across
+ 
+
+1559
+00:35:01,260 --> 00:35:03,410
+different index conventions across
+multiple sources that the conventions
+
+1560
+00:35:03,410 --> 00:35:03,420
+multiple sources that the conventions
+ 
+
+1561
+00:35:03,420 --> 00:35:05,690
+multiple sources that the conventions
+you see in this video will probably be
+
+1562
+00:35:05,690 --> 00:35:05,700
+you see in this video will probably be
+ 
+
+1563
+00:35:05,700 --> 00:35:07,790
+you see in this video will probably be
+different than the ones you find in a
+
+1564
+00:35:07,790 --> 00:35:07,800
+different than the ones you find in a
+ 
+
+1565
+00:35:07,800 --> 00:35:10,430
+different than the ones you find in a
+textbook so make sure to pay attention
+
+1566
+00:35:10,430 --> 00:35:10,440
+textbook so make sure to pay attention
+ 
+
+1567
+00:35:10,440 --> 00:35:13,010
+textbook so make sure to pay attention
+to the conventions of your textbook and
+
+1568
+00:35:13,010 --> 00:35:13,020
+to the conventions of your textbook and
+ 
+
+1569
+00:35:13,020 --> 00:35:15,170
+to the conventions of your textbook and
+how it differs from the conventions in
+
+1570
+00:35:15,170 --> 00:35:15,180
+how it differs from the conventions in
+ 
+
+1571
+00:35:15,180 --> 00:35:16,670
+how it differs from the conventions in
+this video
+
+1572
+00:35:16,670 --> 00:35:16,680
+this video
+ 
+
+1573
+00:35:16,680 --> 00:35:18,710
+this video
+so we've already seen that there are
+
+1574
+00:35:18,710 --> 00:35:18,720
+so we've already seen that there are
+ 
+
+1575
+00:35:18,720 --> 00:35:21,650
+so we've already seen that there are
+ordinary vial Spinners and dual vial
+
+1576
+00:35:21,650 --> 00:35:21,660
+ordinary vial Spinners and dual vial
+ 
+
+1577
+00:35:21,660 --> 00:35:22,849
+ordinary vial Spinners and dual vial
+spinners
+
+1578
+00:35:22,849 --> 00:35:22,859
+spinners
+ 
+
+1579
+00:35:22,859 --> 00:35:24,770
+spinners
+and now we're saying that there are left
+
+1580
+00:35:24,770 --> 00:35:24,780
+and now we're saying that there are left
+ 
+
+1581
+00:35:24,780 --> 00:35:27,290
+and now we're saying that there are left
+chiral vial Spinners and right chiral
+
+1582
+00:35:27,290 --> 00:35:27,300
+chiral vial Spinners and right chiral
+ 
+
+1583
+00:35:27,300 --> 00:35:29,870
+chiral vial Spinners and right chiral
+bile Spinners so there are actually four
+
+1584
+00:35:29,870 --> 00:35:29,880
+bile Spinners so there are actually four
+ 
+
+1585
+00:35:29,880 --> 00:35:33,109
+bile Spinners so there are actually four
+types of vial Spinners in total left
+
+1586
+00:35:33,109 --> 00:35:33,119
+types of vial Spinners in total left
+ 
+
+1587
+00:35:33,119 --> 00:35:37,010
+types of vial Spinners in total left
+left Dual right and right dual each of
+
+1588
+00:35:37,010 --> 00:35:37,020
+left Dual right and right dual each of
+ 
+
+1589
+00:35:37,020 --> 00:35:40,670
+left Dual right and right dual each of
+these transform in their own way
+
+1590
+00:35:40,670 --> 00:35:40,680
+these transform in their own way
+ 
+
+1591
+00:35:40,680 --> 00:35:42,829
+these transform in their own way
+let's say that when we do a lorentz
+
+1592
+00:35:42,829 --> 00:35:42,839
+let's say that when we do a lorentz
+ 
+
+1593
+00:35:42,839 --> 00:35:45,530
+let's say that when we do a lorentz
+transformation on space time the
+
+1594
+00:35:45,530 --> 00:35:45,540
+transformation on space time the
+ 
+
+1595
+00:35:45,540 --> 00:35:47,750
+transformation on space time the
+components of a left spinner PSI
+
+1596
+00:35:47,750 --> 00:35:47,760
+components of a left spinner PSI
+ 
+
+1597
+00:35:47,760 --> 00:35:51,950
+components of a left spinner PSI
+transform with an sl2c Matrix called l
+
+1598
+00:35:51,950 --> 00:35:51,960
+transform with an sl2c Matrix called l
+ 
+
+1599
+00:35:51,960 --> 00:35:54,710
+transform with an sl2c Matrix called l
+in this video series I'll denote left
+
+1600
+00:35:54,710 --> 00:35:54,720
+in this video series I'll denote left
+ 
+
+1601
+00:35:54,720 --> 00:35:57,589
+in this video series I'll denote left
+spinner components as columns with upper
+
+1602
+00:35:57,589 --> 00:35:57,599
+spinner components as columns with upper
+ 
+
+1603
+00:35:57,599 --> 00:35:59,390
+spinner components as columns with upper
+indices
+
+1604
+00:35:59,390 --> 00:35:59,400
+indices
+ 
+
+1605
+00:35:59,400 --> 00:36:02,810
+indices
+the left Dual of PSI is given by PSI
+
+1606
+00:36:02,810 --> 00:36:02,820
+the left Dual of PSI is given by PSI
+ 
+
+1607
+00:36:02,820 --> 00:36:06,050
+the left Dual of PSI is given by PSI
+transpose Epsilon remember this is just
+
+1608
+00:36:06,050 --> 00:36:06,060
+transpose Epsilon remember this is just
+ 
+
+1609
+00:36:06,060 --> 00:36:08,270
+transpose Epsilon remember this is just
+the other half of the inner product for
+
+1610
+00:36:08,270 --> 00:36:08,280
+the other half of the inner product for
+ 
+
+1611
+00:36:08,280 --> 00:36:10,069
+the other half of the inner product for
+vial spinners
+
+1612
+00:36:10,069 --> 00:36:10,079
+vial spinners
+ 
+
+1613
+00:36:10,079 --> 00:36:12,770
+vial spinners
+if PSI transforms with L from the left
+
+1614
+00:36:12,770 --> 00:36:12,780
+if PSI transforms with L from the left
+ 
+
+1615
+00:36:12,780 --> 00:36:15,829
+if PSI transforms with L from the left
+then side dual will transform with L
+
+1616
+00:36:15,829 --> 00:36:15,839
+then side dual will transform with L
+ 
+
+1617
+00:36:15,839 --> 00:36:17,750
+then side dual will transform with L
+inverse from the right
+
+1618
+00:36:17,750 --> 00:36:17,760
+inverse from the right
+ 
+
+1619
+00:36:17,760 --> 00:36:20,329
+inverse from the right
+remember the entire point of the inner
+
+1620
+00:36:20,329 --> 00:36:20,339
+remember the entire point of the inner
+ 
+
+1621
+00:36:20,339 --> 00:36:22,430
+remember the entire point of the inner
+product is that it stays the same under
+
+1622
+00:36:22,430 --> 00:36:22,440
+product is that it stays the same under
+ 
+
+1623
+00:36:22,440 --> 00:36:24,530
+product is that it stays the same under
+a lorentz transformation
+
+1624
+00:36:24,530 --> 00:36:24,540
+a lorentz transformation
+ 
+
+1625
+00:36:24,540 --> 00:36:27,710
+a lorentz transformation
+so if one half transforms with L the
+
+1626
+00:36:27,710 --> 00:36:27,720
+so if one half transforms with L the
+ 
+
+1627
+00:36:27,720 --> 00:36:31,010
+so if one half transforms with L the
+other half must transform with L inverse
+
+1628
+00:36:31,010 --> 00:36:31,020
+other half must transform with L inverse
+ 
+
+1629
+00:36:31,020 --> 00:36:33,890
+other half must transform with L inverse
+in this video series I denote left Dual
+
+1630
+00:36:33,890 --> 00:36:33,900
+in this video series I denote left Dual
+ 
+
+1631
+00:36:33,900 --> 00:36:36,349
+in this video series I denote left Dual
+spinner components as rows with lower
+
+1632
+00:36:36,349 --> 00:36:36,359
+spinner components as rows with lower
+ 
+
+1633
+00:36:36,359 --> 00:36:38,450
+spinner components as rows with lower
+indices
+
+1634
+00:36:38,450 --> 00:36:38,460
+indices
+ 
+
+1635
+00:36:38,460 --> 00:36:41,030
+indices
+if we take a left spinner and complex
+
+1636
+00:36:41,030 --> 00:36:41,040
+if we take a left spinner and complex
+ 
+
+1637
+00:36:41,040 --> 00:36:44,450
+if we take a left spinner and complex
+conjugate it we call the result a right
+
+1638
+00:36:44,450 --> 00:36:44,460
+conjugate it we call the result a right
+ 
+
+1639
+00:36:44,460 --> 00:36:47,810
+conjugate it we call the result a right
+dual spinner right dual vial Spinners
+
+1640
+00:36:47,810 --> 00:36:47,820
+dual spinner right dual vial Spinners
+ 
+
+1641
+00:36:47,820 --> 00:36:50,329
+dual spinner right dual vial Spinners
+transform with the complex conjugate of
+
+1642
+00:36:50,329 --> 00:36:50,339
+transform with the complex conjugate of
+ 
+
+1643
+00:36:50,339 --> 00:36:51,170
+transform with the complex conjugate of
+L
+
+1644
+00:36:51,170 --> 00:36:51,180
+L
+ 
+
+1645
+00:36:51,180 --> 00:36:54,050
+L
+in this video series I denote write dual
+
+1646
+00:36:54,050 --> 00:36:54,060
+in this video series I denote write dual
+ 
+
+1647
+00:36:54,060 --> 00:36:56,870
+in this video series I denote write dual
+Spinners as columns with upper indices
+
+1648
+00:36:56,870 --> 00:36:56,880
+Spinners as columns with upper indices
+ 
+
+1649
+00:36:56,880 --> 00:37:00,710
+Spinners as columns with upper indices
+that have dots on top
+
+1650
+00:37:00,710 --> 00:37:00,720
+that have dots on top
+ 
+
+1651
+00:37:00,720 --> 00:37:03,109
+that have dots on top
+if we look at the inner product of vial
+
+1652
+00:37:03,109 --> 00:37:03,119
+if we look at the inner product of vial
+ 
+
+1653
+00:37:03,119 --> 00:37:05,270
+if we look at the inner product of vial
+Spinners and complex conjugate the
+
+1654
+00:37:05,270 --> 00:37:05,280
+Spinners and complex conjugate the
+ 
+
+1655
+00:37:05,280 --> 00:37:07,910
+Spinners and complex conjugate the
+formula the second half PSI star
+
+1656
+00:37:07,910 --> 00:37:07,920
+formula the second half PSI star
+ 
+
+1657
+00:37:07,920 --> 00:37:10,250
+formula the second half PSI star
+transforms like a right dual spinner
+
+1658
+00:37:10,250 --> 00:37:10,260
+transforms like a right dual spinner
+ 
+
+1659
+00:37:10,260 --> 00:37:12,829
+transforms like a right dual spinner
+with L complex conjugate
+
+1660
+00:37:12,829 --> 00:37:12,839
+with L complex conjugate
+ 
+
+1661
+00:37:12,839 --> 00:37:14,930
+with L complex conjugate
+for the first half we can rewrite
+
+1662
+00:37:14,930 --> 00:37:14,940
+for the first half we can rewrite
+ 
+
+1663
+00:37:14,940 --> 00:37:18,170
+for the first half we can rewrite
+Epsilon Star as Epsilon since it's real
+
+1664
+00:37:18,170 --> 00:37:18,180
+Epsilon Star as Epsilon since it's real
+ 
+
+1665
+00:37:18,180 --> 00:37:21,109
+Epsilon Star as Epsilon since it's real
+and the complex conjugate transpose can
+
+1666
+00:37:21,109 --> 00:37:21,119
+and the complex conjugate transpose can
+ 
+
+1667
+00:37:21,119 --> 00:37:23,390
+and the complex conjugate transpose can
+be written as a dagger
+
+1668
+00:37:23,390 --> 00:37:23,400
+be written as a dagger
+ 
+
+1669
+00:37:23,400 --> 00:37:26,329
+be written as a dagger
+this must be a right spinner which
+
+1670
+00:37:26,329 --> 00:37:26,339
+this must be a right spinner which
+ 
+
+1671
+00:37:26,339 --> 00:37:28,790
+this must be a right spinner which
+transforms with the complex conjugate of
+
+1672
+00:37:28,790 --> 00:37:28,800
+transforms with the complex conjugate of
+ 
+
+1673
+00:37:28,800 --> 00:37:30,829
+transforms with the complex conjugate of
+L inverse
+
+1674
+00:37:30,829 --> 00:37:30,839
+L inverse
+ 
+
+1675
+00:37:30,839 --> 00:37:33,589
+L inverse
+this makes sense if one half of the
+
+1676
+00:37:33,589 --> 00:37:33,599
+this makes sense if one half of the
+ 
+
+1677
+00:37:33,599 --> 00:37:36,650
+this makes sense if one half of the
+inner product transforms with L star the
+
+1678
+00:37:36,650 --> 00:37:36,660
+inner product transforms with L star the
+ 
+
+1679
+00:37:36,660 --> 00:37:40,550
+inner product transforms with L star the
+other must transform with L star inverse
+
+1680
+00:37:40,550 --> 00:37:40,560
+other must transform with L star inverse
+ 
+
+1681
+00:37:40,560 --> 00:37:42,829
+other must transform with L star inverse
+in this video series I denote right
+
+1682
+00:37:42,829 --> 00:37:42,839
+in this video series I denote right
+ 
+
+1683
+00:37:42,839 --> 00:37:45,890
+in this video series I denote right
+Spinners as rows with lower indices with
+
+1684
+00:37:45,890 --> 00:37:45,900
+Spinners as rows with lower indices with
+ 
+
+1685
+00:37:45,900 --> 00:37:47,990
+Spinners as rows with lower indices with
+dots on top
+
+1686
+00:37:47,990 --> 00:37:48,000
+dots on top
+ 
+
+1687
+00:37:48,000 --> 00:37:50,390
+dots on top
+I've summarized all four of the
+
+1688
+00:37:50,390 --> 00:37:50,400
+I've summarized all four of the
+ 
+
+1689
+00:37:50,400 --> 00:37:52,970
+I've summarized all four of the
+different vial Spinners along with their
+
+1690
+00:37:52,970 --> 00:37:52,980
+different vial Spinners along with their
+ 
+
+1691
+00:37:52,980 --> 00:37:55,430
+different vial Spinners along with their
+transformation rules and index notations
+
+1692
+00:37:55,430 --> 00:37:55,440
+transformation rules and index notations
+ 
+
+1693
+00:37:55,440 --> 00:37:57,290
+transformation rules and index notations
+here
+
+1694
+00:37:57,290 --> 00:37:57,300
+here
+ 
+
+1695
+00:37:57,300 --> 00:37:59,930
+here
+this notation for the four types of vial
+
+1696
+00:37:59,930 --> 00:37:59,940
+this notation for the four types of vial
+ 
+
+1697
+00:37:59,940 --> 00:38:02,750
+this notation for the four types of vial
+Spinners that use both the dotted and
+
+1698
+00:38:02,750 --> 00:38:02,760
+Spinners that use both the dotted and
+ 
+
+1699
+00:38:02,760 --> 00:38:05,390
+Spinners that use both the dotted and
+undotted indices is called Van Der
+
+1700
+00:38:05,390 --> 00:38:05,400
+undotted indices is called Van Der
+ 
+
+1701
+00:38:05,400 --> 00:38:07,670
+undotted indices is called Van Der
+Varden notation
+
+1702
+00:38:07,670 --> 00:38:07,680
+Varden notation
+ 
+
+1703
+00:38:07,680 --> 00:38:10,730
+Varden notation
+now I should mention something else here
+
+1704
+00:38:10,730 --> 00:38:10,740
+now I should mention something else here
+ 
+
+1705
+00:38:10,740 --> 00:38:12,710
+now I should mention something else here
+I've written the various vial Spinners
+
+1706
+00:38:12,710 --> 00:38:12,720
+I've written the various vial Spinners
+ 
+
+1707
+00:38:12,720 --> 00:38:15,890
+I've written the various vial Spinners
+using a mix of columns and rows
+
+1708
+00:38:15,890 --> 00:38:15,900
+using a mix of columns and rows
+ 
+
+1709
+00:38:15,900 --> 00:38:18,890
+using a mix of columns and rows
+some sources prefer to write all vial
+
+1710
+00:38:18,890 --> 00:38:18,900
+some sources prefer to write all vial
+ 
+
+1711
+00:38:18,900 --> 00:38:21,230
+some sources prefer to write all vial
+Spinners as columns only
+
+1712
+00:38:21,230 --> 00:38:21,240
+Spinners as columns only
+ 
+
+1713
+00:38:21,240 --> 00:38:23,690
+Spinners as columns only
+to do this we need to take the transpose
+
+1714
+00:38:23,690 --> 00:38:23,700
+to do this we need to take the transpose
+ 
+
+1715
+00:38:23,700 --> 00:38:25,790
+to do this we need to take the transpose
+of the vial Spinners that I've written
+
+1716
+00:38:25,790 --> 00:38:25,800
+of the vial Spinners that I've written
+ 
+
+1717
+00:38:25,800 --> 00:38:27,770
+of the vial Spinners that I've written
+as rows
+
+1718
+00:38:27,770 --> 00:38:27,780
+as rows
+ 
+
+1719
+00:38:27,780 --> 00:38:30,349
+as rows
+so if we take this transformation and
+
+1720
+00:38:30,349 --> 00:38:30,359
+so if we take this transformation and
+ 
+
+1721
+00:38:30,359 --> 00:38:33,109
+so if we take this transformation and
+take the transpose of both sides this
+
+1722
+00:38:33,109 --> 00:38:33,119
+take the transpose of both sides this
+ 
+
+1723
+00:38:33,119 --> 00:38:35,089
+take the transpose of both sides this
+transposes everything inside the
+
+1724
+00:38:35,089 --> 00:38:35,099
+transposes everything inside the
+ 
+
+1725
+00:38:35,099 --> 00:38:38,690
+transposes everything inside the
+brackets and also reverses the order
+
+1726
+00:38:38,690 --> 00:38:38,700
+brackets and also reverses the order
+ 
+
+1727
+00:38:38,700 --> 00:38:41,569
+brackets and also reverses the order
+now the transpose of Epsilon is negative
+
+1728
+00:38:41,569 --> 00:38:41,579
+now the transpose of Epsilon is negative
+ 
+
+1729
+00:38:41,579 --> 00:38:44,930
+now the transpose of Epsilon is negative
+Epsilon but since we transpose Epsilon
+
+1730
+00:38:44,930 --> 00:38:44,940
+Epsilon but since we transpose Epsilon
+ 
+
+1731
+00:38:44,940 --> 00:38:47,569
+Epsilon but since we transpose Epsilon
+on both sides we get Negative signs on
+
+1732
+00:38:47,569 --> 00:38:47,579
+on both sides we get Negative signs on
+ 
+
+1733
+00:38:47,579 --> 00:38:50,210
+on both sides we get Negative signs on
+both sides that cancel out and we get
+
+1734
+00:38:50,210 --> 00:38:50,220
+both sides that cancel out and we get
+ 
+
+1735
+00:38:50,220 --> 00:38:51,710
+both sides that cancel out and we get
+this
+
+1736
+00:38:51,710 --> 00:38:51,720
+this
+ 
+
+1737
+00:38:51,720 --> 00:38:53,810
+this
+so keep in mind how the transformation
+
+1738
+00:38:53,810 --> 00:38:53,820
+so keep in mind how the transformation
+ 
+
+1739
+00:38:53,820 --> 00:38:57,770
+so keep in mind how the transformation
+rules change when we take the transpose
+
+1740
+00:38:57,770 --> 00:38:57,780
+rules change when we take the transpose
+ 
+
+1741
+00:38:57,780 --> 00:39:01,370
+rules change when we take the transpose
+so in the column only notation the four
+
+1742
+00:39:01,370 --> 00:39:01,380
+so in the column only notation the four
+ 
+
+1743
+00:39:01,380 --> 00:39:05,569
+so in the column only notation the four
+Transformations look like this
+
+1744
+00:39:05,569 --> 00:39:05,579
+
+ 
+
+1745
+00:39:05,579 --> 00:39:08,329
+
+the reason we refer to left-handed and
+
+1746
+00:39:08,329 --> 00:39:08,339
+the reason we refer to left-handed and
+ 
+
+1747
+00:39:08,339 --> 00:39:10,730
+the reason we refer to left-handed and
+right-handed Spinners is because they
+
+1748
+00:39:10,730 --> 00:39:10,740
+right-handed Spinners is because they
+ 
+
+1749
+00:39:10,740 --> 00:39:13,790
+right-handed Spinners is because they
+are related by mirror symmetry just like
+
+1750
+00:39:13,790 --> 00:39:13,800
+are related by mirror symmetry just like
+ 
+
+1751
+00:39:13,800 --> 00:39:16,190
+are related by mirror symmetry just like
+left and right hands
+
+1752
+00:39:16,190 --> 00:39:16,200
+left and right hands
+ 
+
+1753
+00:39:16,200 --> 00:39:18,890
+left and right hands
+we can reflect space in a mirror by
+
+1754
+00:39:18,890 --> 00:39:18,900
+we can reflect space in a mirror by
+ 
+
+1755
+00:39:18,900 --> 00:39:21,589
+we can reflect space in a mirror by
+sending the XYZ basis vectors to the
+
+1756
+00:39:21,589 --> 00:39:21,599
+sending the XYZ basis vectors to the
+ 
+
+1757
+00:39:21,599 --> 00:39:23,810
+sending the XYZ basis vectors to the
+negative versions of themselves
+
+1758
+00:39:23,810 --> 00:39:23,820
+negative versions of themselves
+ 
+
+1759
+00:39:23,820 --> 00:39:26,569
+negative versions of themselves
+if we do this rotation Transformations
+
+1760
+00:39:26,569 --> 00:39:26,579
+if we do this rotation Transformations
+ 
+
+1761
+00:39:26,579 --> 00:39:29,930
+if we do this rotation Transformations
+are unchanged because rotation in the X
+
+1762
+00:39:29,930 --> 00:39:29,940
+are unchanged because rotation in the X
+ 
+
+1763
+00:39:29,940 --> 00:39:33,170
+are unchanged because rotation in the X
+Y plane is unchanged when we reverse the
+
+1764
+00:39:33,170 --> 00:39:33,180
+Y plane is unchanged when we reverse the
+ 
+
+1765
+00:39:33,180 --> 00:39:36,290
+Y plane is unchanged when we reverse the
+X and Y basis vectors
+
+1766
+00:39:36,290 --> 00:39:36,300
+X and Y basis vectors
+ 
+
+1767
+00:39:36,300 --> 00:39:38,210
+X and Y basis vectors
+we can see this in our spinner
+
+1768
+00:39:38,210 --> 00:39:38,220
+we can see this in our spinner
+ 
+
+1769
+00:39:38,220 --> 00:39:41,390
+we can see this in our spinner
+transformation matrices as well because
+
+1770
+00:39:41,390 --> 00:39:41,400
+transformation matrices as well because
+ 
+
+1771
+00:39:41,400 --> 00:39:43,910
+transformation matrices as well because
+when we flip the signs on the two sigmas
+
+1772
+00:39:43,910 --> 00:39:43,920
+when we flip the signs on the two sigmas
+ 
+
+1773
+00:39:43,920 --> 00:39:46,609
+when we flip the signs on the two sigmas
+they cancel out leaving the Matrix
+
+1774
+00:39:46,609 --> 00:39:46,619
+they cancel out leaving the Matrix
+ 
+
+1775
+00:39:46,619 --> 00:39:48,710
+they cancel out leaving the Matrix
+unchanged
+
+1776
+00:39:48,710 --> 00:39:48,720
+unchanged
+ 
+
+1777
+00:39:48,720 --> 00:39:50,690
+unchanged
+when we look at how left and right
+
+1778
+00:39:50,690 --> 00:39:50,700
+when we look at how left and right
+ 
+
+1779
+00:39:50,700 --> 00:39:54,050
+when we look at how left and right
+Spinners transform we know that su2
+
+1780
+00:39:54,050 --> 00:39:54,060
+Spinners transform we know that su2
+ 
+
+1781
+00:39:54,060 --> 00:39:57,470
+Spinners transform we know that su2
+rotation matrices are unitary so L
+
+1782
+00:39:57,470 --> 00:39:57,480
+rotation matrices are unitary so L
+ 
+
+1783
+00:39:57,480 --> 00:40:00,710
+rotation matrices are unitary so L
+inverse equals l dagger this means that
+
+1784
+00:40:00,710 --> 00:40:00,720
+inverse equals l dagger this means that
+ 
+
+1785
+00:40:00,720 --> 00:40:03,170
+inverse equals l dagger this means that
+right chiral Spinners rotate with l
+
+1786
+00:40:03,170 --> 00:40:03,180
+right chiral Spinners rotate with l
+ 
+
+1787
+00:40:03,180 --> 00:40:06,950
+right chiral Spinners rotate with l
+dagger dagger which is just L the exact
+
+1788
+00:40:06,950 --> 00:40:06,960
+dagger dagger which is just L the exact
+ 
+
+1789
+00:40:06,960 --> 00:40:09,290
+dagger dagger which is just L the exact
+same rotation that left chiral Spinners
+
+1790
+00:40:09,290 --> 00:40:09,300
+same rotation that left chiral Spinners
+ 
+
+1791
+00:40:09,300 --> 00:40:11,690
+same rotation that left chiral Spinners
+rotate with
+
+1792
+00:40:11,690 --> 00:40:11,700
+rotate with
+ 
+
+1793
+00:40:11,700 --> 00:40:14,569
+rotate with
+however when it comes to lorentz boosts
+
+1794
+00:40:14,569 --> 00:40:14,579
+however when it comes to lorentz boosts
+ 
+
+1795
+00:40:14,579 --> 00:40:18,829
+however when it comes to lorentz boosts
+boosts are hermitian not unitary if we
+
+1796
+00:40:18,829 --> 00:40:18,839
+boosts are hermitian not unitary if we
+ 
+
+1797
+00:40:18,839 --> 00:40:21,290
+boosts are hermitian not unitary if we
+take the hermitian conjugate of 2x2
+
+1798
+00:40:21,290 --> 00:40:21,300
+take the hermitian conjugate of 2x2
+ 
+
+1799
+00:40:21,300 --> 00:40:23,990
+take the hermitian conjugate of 2x2
+boost matrices we get the exact same
+
+1800
+00:40:23,990 --> 00:40:24,000
+boost matrices we get the exact same
+ 
+
+1801
+00:40:24,000 --> 00:40:25,310
+boost matrices we get the exact same
+thing back
+
+1802
+00:40:25,310 --> 00:40:25,320
+thing back
+ 
+
+1803
+00:40:25,320 --> 00:40:27,470
+thing back
+the reason for this is that the Boost
+
+1804
+00:40:27,470 --> 00:40:27,480
+the reason for this is that the Boost
+ 
+
+1805
+00:40:27,480 --> 00:40:30,230
+the reason for this is that the Boost
+matrices only contain a single Sigma
+
+1806
+00:40:30,230 --> 00:40:30,240
+matrices only contain a single Sigma
+ 
+
+1807
+00:40:30,240 --> 00:40:32,930
+matrices only contain a single Sigma
+Matrix and the sigma matrices are
+
+1808
+00:40:32,930 --> 00:40:32,940
+Matrix and the sigma matrices are
+ 
+
+1809
+00:40:32,940 --> 00:40:34,370
+Matrix and the sigma matrices are
+hermitian
+
+1810
+00:40:34,370 --> 00:40:34,380
+hermitian
+ 
+
+1811
+00:40:34,380 --> 00:40:37,310
+hermitian
+when we mirror space this term in the
+
+1812
+00:40:37,310 --> 00:40:37,320
+when we mirror space this term in the
+ 
+
+1813
+00:40:37,320 --> 00:40:40,490
+when we mirror space this term in the
+lorentz Boost does change sign which is
+
+1814
+00:40:40,490 --> 00:40:40,500
+lorentz Boost does change sign which is
+ 
+
+1815
+00:40:40,500 --> 00:40:42,950
+lorentz Boost does change sign which is
+equivalent to reversing the angle in the
+
+1816
+00:40:42,950 --> 00:40:42,960
+equivalent to reversing the angle in the
+ 
+
+1817
+00:40:42,960 --> 00:40:45,530
+equivalent to reversing the angle in the
+Boost and giving us the inverse lorentz
+
+1818
+00:40:45,530 --> 00:40:45,540
+Boost and giving us the inverse lorentz
+ 
+
+1819
+00:40:45,540 --> 00:40:46,849
+Boost and giving us the inverse lorentz
+boost
+
+1820
+00:40:46,849 --> 00:40:46,859
+boost
+ 
+
+1821
+00:40:46,859 --> 00:40:48,890
+boost
+when we look at how left and right
+
+1822
+00:40:48,890 --> 00:40:48,900
+when we look at how left and right
+ 
+
+1823
+00:40:48,900 --> 00:40:51,710
+when we look at how left and right
+Spinners transform we know boost
+
+1824
+00:40:51,710 --> 00:40:51,720
+Spinners transform we know boost
+ 
+
+1825
+00:40:51,720 --> 00:40:55,010
+Spinners transform we know boost
+Transformations equal their own daggers
+
+1826
+00:40:55,010 --> 00:40:55,020
+Transformations equal their own daggers
+ 
+
+1827
+00:40:55,020 --> 00:40:57,829
+Transformations equal their own daggers
+so we can ignore the dagger here
+
+1828
+00:40:57,829 --> 00:40:57,839
+so we can ignore the dagger here
+ 
+
+1829
+00:40:57,839 --> 00:41:00,290
+so we can ignore the dagger here
+now we see that left and right file
+
+1830
+00:41:00,290 --> 00:41:00,300
+now we see that left and right file
+ 
+
+1831
+00:41:00,300 --> 00:41:03,470
+now we see that left and right file
+spanners transform in opposite ways when
+
+1832
+00:41:03,470 --> 00:41:03,480
+spanners transform in opposite ways when
+ 
+
+1833
+00:41:03,480 --> 00:41:06,349
+spanners transform in opposite ways when
+it comes to boosts which is what we
+
+1834
+00:41:06,349 --> 00:41:06,359
+it comes to boosts which is what we
+ 
+
+1835
+00:41:06,359 --> 00:41:08,810
+it comes to boosts which is what we
+would expect when we reflect space in a
+
+1836
+00:41:08,810 --> 00:41:08,820
+would expect when we reflect space in a
+ 
+
+1837
+00:41:08,820 --> 00:41:11,030
+would expect when we reflect space in a
+mirror
+
+1838
+00:41:11,030 --> 00:41:11,040
+mirror
+ 
+
+1839
+00:41:11,040 --> 00:41:12,890
+mirror
+if we go back to our transformation
+
+1840
+00:41:12,890 --> 00:41:12,900
+if we go back to our transformation
+ 
+
+1841
+00:41:12,900 --> 00:41:16,069
+if we go back to our transformation
+formula for a vial vector and Factor the
+
+1842
+00:41:16,069 --> 00:41:16,079
+formula for a vial vector and Factor the
+ 
+
+1843
+00:41:16,079 --> 00:41:19,430
+formula for a vial vector and Factor the
+vial Vector into two vial Spinners we
+
+1844
+00:41:19,430 --> 00:41:19,440
+vial Vector into two vial Spinners we
+ 
+
+1845
+00:41:19,440 --> 00:41:21,890
+vial Vector into two vial Spinners we
+see the first spinner transforms with L
+
+1846
+00:41:21,890 --> 00:41:21,900
+see the first spinner transforms with L
+ 
+
+1847
+00:41:21,900 --> 00:41:24,710
+see the first spinner transforms with L
+so this makes it a left-handed vial
+
+1848
+00:41:24,710 --> 00:41:24,720
+so this makes it a left-handed vial
+ 
+
+1849
+00:41:24,720 --> 00:41:25,730
+so this makes it a left-handed vial
+spinner
+
+1850
+00:41:25,730 --> 00:41:25,740
+spinner
+ 
+
+1851
+00:41:25,740 --> 00:41:27,770
+spinner
+if we take the second half of the
+
+1852
+00:41:27,770 --> 00:41:27,780
+if we take the second half of the
+ 
+
+1853
+00:41:27,780 --> 00:41:30,530
+if we take the second half of the
+formula and transpose it we see that
+
+1854
+00:41:30,530 --> 00:41:30,540
+formula and transpose it we see that
+ 
+
+1855
+00:41:30,540 --> 00:41:32,810
+formula and transpose it we see that
+this spinner transforms with L star
+
+1856
+00:41:32,810 --> 00:41:32,820
+this spinner transforms with L star
+ 
+
+1857
+00:41:32,820 --> 00:41:36,470
+this spinner transforms with L star
+which makes it a right dual spinner
+
+1858
+00:41:36,470 --> 00:41:36,480
+which makes it a right dual spinner
+ 
+
+1859
+00:41:36,480 --> 00:41:39,410
+which makes it a right dual spinner
+so a vial Vector can be thought of as
+
+1860
+00:41:39,410 --> 00:41:39,420
+so a vial Vector can be thought of as
+ 
+
+1861
+00:41:39,420 --> 00:41:41,690
+so a vial Vector can be thought of as
+the outer product of a left-handed vial
+
+1862
+00:41:41,690 --> 00:41:41,700
+the outer product of a left-handed vial
+ 
+
+1863
+00:41:41,700 --> 00:41:43,609
+the outer product of a left-handed vial
+spinner whose components are written
+
+1864
+00:41:43,609 --> 00:41:43,619
+spinner whose components are written
+ 
+
+1865
+00:41:43,619 --> 00:41:46,310
+spinner whose components are written
+with upper indices and a right-handed
+
+1866
+00:41:46,310 --> 00:41:46,320
+with upper indices and a right-handed
+ 
+
+1867
+00:41:46,320 --> 00:41:48,950
+with upper indices and a right-handed
+dual vial spanner whose components are
+
+1868
+00:41:48,950 --> 00:41:48,960
+dual vial spanner whose components are
+ 
+
+1869
+00:41:48,960 --> 00:41:52,130
+dual vial spanner whose components are
+written with upper dotted indices
+
+1870
+00:41:52,130 --> 00:41:52,140
+written with upper dotted indices
+ 
+
+1871
+00:41:52,140 --> 00:41:54,890
+written with upper dotted indices
+as seen in the last video if the vial
+
+1872
+00:41:54,890 --> 00:41:54,900
+as seen in the last video if the vial
+ 
+
+1873
+00:41:54,900 --> 00:41:58,010
+as seen in the last video if the vial
+vector's determinant is non-zero we can
+
+1874
+00:41:58,010 --> 00:41:58,020
+vector's determinant is non-zero we can
+ 
+
+1875
+00:41:58,020 --> 00:42:00,470
+vector's determinant is non-zero we can
+use the trick shown in the last video to
+
+1876
+00:42:00,470 --> 00:42:00,480
+use the trick shown in the last video to
+ 
+
+1877
+00:42:00,480 --> 00:42:02,990
+use the trick shown in the last video to
+break it up into a sum of four matrices
+
+1878
+00:42:02,990 --> 00:42:03,000
+break it up into a sum of four matrices
+ 
+
+1879
+00:42:03,000 --> 00:42:05,810
+break it up into a sum of four matrices
+and then Factor each of those into a
+
+1880
+00:42:05,810 --> 00:42:05,820
+and then Factor each of those into a
+ 
+
+1881
+00:42:05,820 --> 00:42:08,569
+and then Factor each of those into a
+pair of vial spinners
+
+1882
+00:42:08,569 --> 00:42:08,579
+pair of vial spinners
+ 
+
+1883
+00:42:08,579 --> 00:42:11,270
+pair of vial spinners
+so in general a vial Vector can be
+
+1884
+00:42:11,270 --> 00:42:11,280
+so in general a vial Vector can be
+ 
+
+1885
+00:42:11,280 --> 00:42:13,370
+so in general a vial Vector can be
+written as a linear combination of
+
+1886
+00:42:13,370 --> 00:42:13,380
+written as a linear combination of
+ 
+
+1887
+00:42:13,380 --> 00:42:15,710
+written as a linear combination of
+tensor products of left vial Spinners
+
+1888
+00:42:15,710 --> 00:42:15,720
+tensor products of left vial Spinners
+ 
+
+1889
+00:42:15,720 --> 00:42:18,829
+tensor products of left vial Spinners
+and right dual vial spinners
+
+1890
+00:42:18,829 --> 00:42:18,839
+and right dual vial spinners
+ 
+
+1891
+00:42:18,839 --> 00:42:21,170
+and right dual vial spinners
+in the last video we saw that a linear
+
+1892
+00:42:21,170 --> 00:42:21,180
+in the last video we saw that a linear
+ 
+
+1893
+00:42:21,180 --> 00:42:23,510
+in the last video we saw that a linear
+map called Sigma transforms a
+
+1894
+00:42:23,510 --> 00:42:23,520
+map called Sigma transforms a
+ 
+
+1895
+00:42:23,520 --> 00:42:25,910
+map called Sigma transforms a
+three-dimensional Vector into a powly
+
+1896
+00:42:25,910 --> 00:42:25,920
+three-dimensional Vector into a powly
+ 
+
+1897
+00:42:25,920 --> 00:42:28,250
+three-dimensional Vector into a powly
+vector which lives in the space of
+
+1898
+00:42:28,250 --> 00:42:28,260
+vector which lives in the space of
+ 
+
+1899
+00:42:28,260 --> 00:42:31,069
+vector which lives in the space of
+spinner dual spinner tensor products
+
+1900
+00:42:31,069 --> 00:42:31,079
+spinner dual spinner tensor products
+ 
+
+1901
+00:42:31,079 --> 00:42:33,230
+spinner dual spinner tensor products
+The Matrix entries of this linear map
+
+1902
+00:42:33,230 --> 00:42:33,240
+The Matrix entries of this linear map
+ 
+
+1903
+00:42:33,240 --> 00:42:35,750
+The Matrix entries of this linear map
+Sigma are here
+
+1904
+00:42:35,750 --> 00:42:35,760
+Sigma are here
+ 
+
+1905
+00:42:35,760 --> 00:42:38,270
+Sigma are here
+similarly we can also use a linear map
+
+1906
+00:42:38,270 --> 00:42:38,280
+similarly we can also use a linear map
+ 
+
+1907
+00:42:38,280 --> 00:42:42,050
+similarly we can also use a linear map
+Sigma to map a 4D space-time Vector to a
+
+1908
+00:42:42,050 --> 00:42:42,060
+Sigma to map a 4D space-time Vector to a
+ 
+
+1909
+00:42:42,060 --> 00:42:44,690
+Sigma to map a 4D space-time Vector to a
+vial Vector which lives in the space of
+
+1910
+00:42:44,690 --> 00:42:44,700
+vial Vector which lives in the space of
+ 
+
+1911
+00:42:44,700 --> 00:42:47,270
+vial Vector which lives in the space of
+left spinner right dual spinner tensor
+
+1912
+00:42:47,270 --> 00:42:47,280
+left spinner right dual spinner tensor
+ 
+
+1913
+00:42:47,280 --> 00:42:48,710
+left spinner right dual spinner tensor
+products
+
+1914
+00:42:48,710 --> 00:42:48,720
+products
+ 
+
+1915
+00:42:48,720 --> 00:42:50,810
+products
+The Matrix entries of this linear map
+
+1916
+00:42:50,810 --> 00:42:50,820
+The Matrix entries of this linear map
+ 
+
+1917
+00:42:50,820 --> 00:42:53,690
+The Matrix entries of this linear map
+are given here these are called the
+
+1918
+00:42:53,690 --> 00:42:53,700
+are given here these are called the
+ 
+
+1919
+00:42:53,700 --> 00:42:56,210
+are given here these are called the
+infeld van der Barden symbols
+
+1920
+00:42:56,210 --> 00:42:56,220
+infeld van der Barden symbols
+ 
+
+1921
+00:42:56,220 --> 00:42:58,910
+infeld van der Barden symbols
+as before we see that a single tensor
+
+1922
+00:42:58,910 --> 00:42:58,920
+as before we see that a single tensor
+ 
+
+1923
+00:42:58,920 --> 00:43:01,849
+as before we see that a single tensor
+index can be converted into two spinner
+
+1924
+00:43:01,849 --> 00:43:01,859
+index can be converted into two spinner
+ 
+
+1925
+00:43:01,859 --> 00:43:06,170
+index can be converted into two spinner
+indices using this linear map
+
+1926
+00:43:06,170 --> 00:43:06,180
+
+ 
+
+1927
+00:43:06,180 --> 00:43:08,089
+
+the last thing I'll mention in this
+
+1928
+00:43:08,089 --> 00:43:08,099
+the last thing I'll mention in this
+ 
+
+1929
+00:43:08,099 --> 00:43:10,609
+the last thing I'll mention in this
+video is Dirac spinners
+
+1930
+00:43:10,609 --> 00:43:10,619
+video is Dirac spinners
+ 
+
+1931
+00:43:10,619 --> 00:43:12,530
+video is Dirac spinners
+when dealing with spin one-half
+
+1932
+00:43:12,530 --> 00:43:12,540
+when dealing with spin one-half
+ 
+
+1933
+00:43:12,540 --> 00:43:15,410
+when dealing with spin one-half
+particles in special relativity we need
+
+1934
+00:43:15,410 --> 00:43:15,420
+particles in special relativity we need
+ 
+
+1935
+00:43:15,420 --> 00:43:18,109
+particles in special relativity we need
+to keep track of both left chiral and
+
+1936
+00:43:18,109 --> 00:43:18,119
+to keep track of both left chiral and
+ 
+
+1937
+00:43:18,119 --> 00:43:20,210
+to keep track of both left chiral and
+right chiral spinners
+
+1938
+00:43:20,210 --> 00:43:20,220
+right chiral spinners
+ 
+
+1939
+00:43:20,220 --> 00:43:22,250
+right chiral spinners
+when writing them both in column
+
+1940
+00:43:22,250 --> 00:43:22,260
+when writing them both in column
+ 
+
+1941
+00:43:22,260 --> 00:43:25,069
+when writing them both in column
+notation they follow these two different
+
+1942
+00:43:25,069 --> 00:43:25,079
+notation they follow these two different
+ 
+
+1943
+00:43:25,079 --> 00:43:27,770
+notation they follow these two different
+lorentz transformation rules
+
+1944
+00:43:27,770 --> 00:43:27,780
+lorentz transformation rules
+ 
+
+1945
+00:43:27,780 --> 00:43:29,930
+lorentz transformation rules
+it's possible to write the left and
+
+1946
+00:43:29,930 --> 00:43:29,940
+it's possible to write the left and
+ 
+
+1947
+00:43:29,940 --> 00:43:32,329
+it's possible to write the left and
+right Spinners stocked on top of each
+
+1948
+00:43:32,329 --> 00:43:32,339
+right Spinners stocked on top of each
+ 
+
+1949
+00:43:32,339 --> 00:43:35,030
+right Spinners stocked on top of each
+other like this as a four component
+
+1950
+00:43:35,030 --> 00:43:35,040
+other like this as a four component
+ 
+
+1951
+00:43:35,040 --> 00:43:38,510
+other like this as a four component
+column called a Dirac spinner
+
+1952
+00:43:38,510 --> 00:43:38,520
+column called a Dirac spinner
+ 
+
+1953
+00:43:38,520 --> 00:43:41,510
+column called a Dirac spinner
+the 4x4 Matrix which transforms this
+
+1954
+00:43:41,510 --> 00:43:41,520
+the 4x4 Matrix which transforms this
+ 
+
+1955
+00:43:41,520 --> 00:43:44,270
+the 4x4 Matrix which transforms this
+direct spinner is this blocked diagonal
+
+1956
+00:43:44,270 --> 00:43:44,280
+direct spinner is this blocked diagonal
+ 
+
+1957
+00:43:44,280 --> 00:43:47,270
+direct spinner is this blocked diagonal
+matrix here where the upper 2x2 block
+
+1958
+00:43:47,270 --> 00:43:47,280
+matrix here where the upper 2x2 block
+ 
+
+1959
+00:43:47,280 --> 00:43:50,030
+matrix here where the upper 2x2 block
+transforms the left spinner and the
+
+1960
+00:43:50,030 --> 00:43:50,040
+transforms the left spinner and the
+ 
+
+1961
+00:43:50,040 --> 00:43:52,490
+transforms the left spinner and the
+lower 2x2 block transforms the right
+
+1962
+00:43:52,490 --> 00:43:52,500
+lower 2x2 block transforms the right
+ 
+
+1963
+00:43:52,500 --> 00:43:53,990
+lower 2x2 block transforms the right
+spinner
+
+1964
+00:43:53,990 --> 00:43:54,000
+spinner
+ 
+
+1965
+00:43:54,000 --> 00:43:56,569
+spinner
+Dirac Spinners show up in the Dirac
+
+1966
+00:43:56,569 --> 00:43:56,579
+Dirac Spinners show up in the Dirac
+ 
+
+1967
+00:43:56,579 --> 00:43:59,390
+Dirac Spinners show up in the Dirac
+equation which describes spin one-half
+
+1968
+00:43:59,390 --> 00:43:59,400
+equation which describes spin one-half
+ 
+
+1969
+00:43:59,400 --> 00:44:02,030
+equation which describes spin one-half
+particles in special relativity
+
+1970
+00:44:02,030 --> 00:44:02,040
+particles in special relativity
+ 
+
+1971
+00:44:02,040 --> 00:44:04,730
+particles in special relativity
+including both the left and right vial
+
+1972
+00:44:04,730 --> 00:44:04,740
+including both the left and right vial
+ 
+
+1973
+00:44:04,740 --> 00:44:07,309
+including both the left and right vial
+Spinners allows for the description of
+
+1974
+00:44:07,309 --> 00:44:07,319
+Spinners allows for the description of
+ 
+
+1975
+00:44:07,319 --> 00:44:10,130
+Spinners allows for the description of
+both matter and antimatter spin one-half
+
+1976
+00:44:10,130 --> 00:44:10,140
+both matter and antimatter spin one-half
+ 
+
+1977
+00:44:10,140 --> 00:44:12,710
+both matter and antimatter spin one-half
+particles but I'm going to leave this
+
+1978
+00:44:12,710 --> 00:44:12,720
+particles but I'm going to leave this
+ 
+
+1979
+00:44:12,720 --> 00:44:14,630
+particles but I'm going to leave this
+discussion for later in this video
+
+1980
+00:44:14,630 --> 00:44:14,640
+discussion for later in this video
+ 
+
+1981
+00:44:14,640 --> 00:44:16,970
+discussion for later in this video
+series
+
+1982
+00:44:16,970 --> 00:44:16,980
+series
+ 
+
+1983
+00:44:16,980 --> 00:44:20,089
+series
+so to conclude this video I'm just going
+
+1984
+00:44:20,089 --> 00:44:20,099
+so to conclude this video I'm just going
+ 
+
+1985
+00:44:20,099 --> 00:44:22,069
+so to conclude this video I'm just going
+to review this chart of differences
+
+1986
+00:44:22,069 --> 00:44:22,079
+to review this chart of differences
+ 
+
+1987
+00:44:22,079 --> 00:44:24,890
+to review this chart of differences
+between the Pali Spinners of 3D space
+
+1988
+00:44:24,890 --> 00:44:24,900
+between the Pali Spinners of 3D space
+ 
+
+1989
+00:44:24,900 --> 00:44:29,150
+between the Pali Spinners of 3D space
+and the vial Spinners of 4D space-time
+
+1990
+00:44:29,150 --> 00:44:29,160
+and the vial Spinners of 4D space-time
+ 
+
+1991
+00:44:29,160 --> 00:44:32,150
+and the vial Spinners of 4D space-time
+in 3D space we measure physical length
+
+1992
+00:44:32,150 --> 00:44:32,160
+in 3D space we measure physical length
+ 
+
+1993
+00:44:32,160 --> 00:44:35,809
+in 3D space we measure physical length
+and we rotate vectors with SO3 matrices
+
+1994
+00:44:35,809 --> 00:44:35,819
+and we rotate vectors with SO3 matrices
+ 
+
+1995
+00:44:35,819 --> 00:44:38,450
+and we rotate vectors with SO3 matrices
+in 4D space-time we measure the
+
+1996
+00:44:38,450 --> 00:44:38,460
+in 4D space-time we measure the
+ 
+
+1997
+00:44:38,460 --> 00:44:41,030
+in 4D space-time we measure the
+space-time interval and rotate vectors
+
+1998
+00:44:41,030 --> 00:44:41,040
+space-time interval and rotate vectors
+ 
+
+1999
+00:44:41,040 --> 00:44:44,809
+space-time interval and rotate vectors
+with lorentz transformations so13
+
+2000
+00:44:44,809 --> 00:44:44,819
+with lorentz transformations so13
+ 
+
+2001
+00:44:44,819 --> 00:44:48,290
+with lorentz transformations so13
+D vectors can be written as 2x2 Pali
+
+2002
+00:44:48,290 --> 00:44:48,300
+D vectors can be written as 2x2 Pali
+ 
+
+2003
+00:44:48,300 --> 00:44:50,870
+D vectors can be written as 2x2 Pali
+vectors that rotate with double-sided
+
+2004
+00:44:50,870 --> 00:44:50,880
+vectors that rotate with double-sided
+ 
+
+2005
+00:44:50,880 --> 00:44:53,210
+vectors that rotate with double-sided
+su2 matrices
+
+2006
+00:44:53,210 --> 00:44:53,220
+su2 matrices
+ 
+
+2007
+00:44:53,220 --> 00:44:56,089
+su2 matrices
+4D space-time vectors can be written as
+
+2008
+00:44:56,089 --> 00:44:56,099
+4D space-time vectors can be written as
+ 
+
+2009
+00:44:56,099 --> 00:44:59,390
+4D space-time vectors can be written as
+2x2 vial vectors and transform with
+
+2010
+00:44:59,390 --> 00:44:59,400
+2x2 vial vectors and transform with
+ 
+
+2011
+00:44:59,400 --> 00:45:03,109
+2x2 vial vectors and transform with
+double-sided sl2c matrices
+
+2012
+00:45:03,109 --> 00:45:03,119
+double-sided sl2c matrices
+ 
+
+2013
+00:45:03,119 --> 00:45:05,990
+double-sided sl2c matrices
+Pauly vectors can be factored into Pali
+
+2014
+00:45:05,990 --> 00:45:06,000
+Pauly vectors can be factored into Pali
+ 
+
+2015
+00:45:06,000 --> 00:45:08,410
+Pauly vectors can be factored into Pali
+Spinners which have this inner product
+
+2016
+00:45:08,410 --> 00:45:08,420
+Spinners which have this inner product
+ 
+
+2017
+00:45:08,420 --> 00:45:11,390
+Spinners which have this inner product
+and vial vectors can be factored into
+
+2018
+00:45:11,390 --> 00:45:11,400
+and vial vectors can be factored into
+ 
+
+2019
+00:45:11,400 --> 00:45:13,910
+and vial vectors can be factored into
+vial Spinners which have this inner
+
+2020
+00:45:13,910 --> 00:45:13,920
+vial Spinners which have this inner
+ 
+
+2021
+00:45:13,920 --> 00:45:14,930
+vial Spinners which have this inner
+product
+
+2022
+00:45:14,930 --> 00:45:14,940
+product
+ 
+
+2023
+00:45:14,940 --> 00:45:17,930
+product
+the concept of chirality does not apply
+
+2024
+00:45:17,930 --> 00:45:17,940
+the concept of chirality does not apply
+ 
+
+2025
+00:45:17,940 --> 00:45:20,569
+the concept of chirality does not apply
+to Pali Spinners and so we only have
+
+2026
+00:45:20,569 --> 00:45:20,579
+to Pali Spinners and so we only have
+ 
+
+2027
+00:45:20,579 --> 00:45:23,030
+to Pali Spinners and so we only have
+spinners and dual spinners
+
+2028
+00:45:23,030 --> 00:45:23,040
+spinners and dual spinners
+ 
+
+2029
+00:45:23,040 --> 00:45:25,970
+spinners and dual spinners
+but left and right chirality does apply
+
+2030
+00:45:25,970 --> 00:45:25,980
+but left and right chirality does apply
+ 
+
+2031
+00:45:25,980 --> 00:45:28,730
+but left and right chirality does apply
+to vile Spinners and so we have left
+
+2032
+00:45:28,730 --> 00:45:28,740
+to vile Spinners and so we have left
+ 
+
+2033
+00:45:28,740 --> 00:45:32,150
+to vile Spinners and so we have left
+left Dual right duel and right vial
+
+2034
+00:45:32,150 --> 00:45:32,160
+left Dual right duel and right vial
+ 
+
+2035
+00:45:32,160 --> 00:45:34,490
+left Dual right duel and right vial
+Spinners each with their own different
+
+2036
+00:45:34,490 --> 00:45:34,500
+Spinners each with their own different
+ 
+
+2037
+00:45:34,500 --> 00:45:37,010
+Spinners each with their own different
+transformation rules
+
+2038
+00:45:37,010 --> 00:45:37,020
+transformation rules
+ 
+
+2039
+00:45:37,020 --> 00:45:39,770
+transformation rules
+as an exercise you can take these vial
+
+2040
+00:45:39,770 --> 00:45:39,780
+as an exercise you can take these vial
+ 
+
+2041
+00:45:39,780 --> 00:45:43,190
+as an exercise you can take these vial
+Spinners and sl2c matrices and see how
+
+2042
+00:45:43,190 --> 00:45:43,200
+Spinners and sl2c matrices and see how
+ 
+
+2043
+00:45:43,200 --> 00:45:46,130
+Spinners and sl2c matrices and see how
+the matrices act on the Spinners as a
+
+2044
+00:45:46,130 --> 00:45:46,140
+the matrices act on the Spinners as a
+ 
+
+2045
+00:45:46,140 --> 00:45:48,230
+the matrices act on the Spinners as a
+bonus you can try drawing these Spinners
+
+2046
+00:45:48,230 --> 00:45:48,240
+bonus you can try drawing these Spinners
+ 
+
+2047
+00:45:48,240 --> 00:45:51,530
+bonus you can try drawing these Spinners
+on the Block sphere from video 5.
+
+2048
+00:45:51,530 --> 00:45:51,540
+on the Block sphere from video 5.
+ 
+
+2049
+00:45:51,540 --> 00:45:54,230
+on the Block sphere from video 5.
+also if we assume that these Spinners
+
+2050
+00:45:54,230 --> 00:45:54,240
+also if we assume that these Spinners
+ 
+
+2051
+00:45:54,240 --> 00:45:56,270
+also if we assume that these Spinners
+and matrices belong to the left
+
+2052
+00:45:56,270 --> 00:45:56,280
+and matrices belong to the left
+ 
+
+2053
+00:45:56,280 --> 00:45:59,270
+and matrices belong to the left
+representation try writing out the left
+
+2054
+00:45:59,270 --> 00:45:59,280
+representation try writing out the left
+ 
+
+2055
+00:45:59,280 --> 00:46:02,089
+representation try writing out the left
+Dual right duel and right equivalence
+
+2056
+00:46:02,089 --> 00:46:02,099
+Dual right duel and right equivalence
+ 
+
+2057
+00:46:02,099 --> 00:46:07,280
+Dual right duel and right equivalence
+for these Spinners and sl2c matrices
+

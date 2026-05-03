@@ -1,0 +1,4265 @@
+1
+00:00:00,199 --> 00:00:03,270
+
+I often see people online use the phrase
+
+2
+00:00:03,270 --> 00:00:03,280
+I often see people online use the phrase
+ 
+
+3
+00:00:03,280 --> 00:00:05,630
+I often see people online use the phrase
+explain like I'm five when they want a
+
+4
+00:00:05,630 --> 00:00:05,640
+explain like I'm five when they want a
+ 
+
+5
+00:00:05,640 --> 00:00:07,750
+explain like I'm five when they want a
+simple explanation of a complicated
+
+6
+00:00:07,750 --> 00:00:07,760
+simple explanation of a complicated
+ 
+
+7
+00:00:07,760 --> 00:00:10,350
+simple explanation of a complicated
+topic they might want an explanation of
+
+8
+00:00:10,350 --> 00:00:10,360
+topic they might want an explanation of
+ 
+
+9
+00:00:10,360 --> 00:00:14,030
+topic they might want an explanation of
+how planes can fly or how GPS Works
+
+10
+00:00:14,030 --> 00:00:14,040
+how planes can fly or how GPS Works
+ 
+
+11
+00:00:14,040 --> 00:00:16,070
+how planes can fly or how GPS Works
+explained in a simple way even a
+
+12
+00:00:16,070 --> 00:00:16,080
+explained in a simple way even a
+ 
+
+13
+00:00:16,080 --> 00:00:18,630
+explained in a simple way even a
+5-year-old could understand a little
+
+14
+00:00:18,630 --> 00:00:18,640
+5-year-old could understand a little
+ 
+
+15
+00:00:18,640 --> 00:00:20,910
+5-year-old could understand a little
+while ago I came across a post that
+
+16
+00:00:20,910 --> 00:00:20,920
+while ago I came across a post that
+ 
+
+17
+00:00:20,920 --> 00:00:23,509
+while ago I came across a post that
+wanted an explain like I'm five style
+
+18
+00:00:23,509 --> 00:00:23,519
+wanted an explain like I'm five style
+ 
+
+19
+00:00:23,519 --> 00:00:26,230
+wanted an explain like I'm five style
+explanation for mathematical objects
+
+20
+00:00:26,230 --> 00:00:26,240
+explanation for mathematical objects
+ 
+
+21
+00:00:26,240 --> 00:00:28,990
+explanation for mathematical objects
+called Spinners the post only got one
+
+22
+00:00:28,990 --> 00:00:29,000
+called Spinners the post only got one
+ 
+
+23
+00:00:29,000 --> 00:00:31,669
+called Spinners the post only got one
+response and and it started with I don't
+
+24
+00:00:31,669 --> 00:00:31,679
+response and and it started with I don't
+ 
+
+25
+00:00:31,679 --> 00:00:33,470
+response and and it started with I don't
+think Spinners are something that can be
+
+26
+00:00:33,470 --> 00:00:33,480
+think Spinners are something that can be
+ 
+
+27
+00:00:33,480 --> 00:00:36,910
+think Spinners are something that can be
+explained like your five Spinners are
+
+28
+00:00:36,910 --> 00:00:36,920
+explained like your five Spinners are
+ 
+
+29
+00:00:36,920 --> 00:00:39,110
+explained like your five Spinners are
+mathematical objects that come up in
+
+30
+00:00:39,110 --> 00:00:39,120
+mathematical objects that come up in
+ 
+
+31
+00:00:39,120 --> 00:00:41,709
+mathematical objects that come up in
+advanced quantum physics and they have a
+
+32
+00:00:41,709 --> 00:00:41,719
+advanced quantum physics and they have a
+ 
+
+33
+00:00:41,719 --> 00:00:44,750
+advanced quantum physics and they have a
+reputation for being pretty confusing if
+
+34
+00:00:44,750 --> 00:00:44,760
+reputation for being pretty confusing if
+ 
+
+35
+00:00:44,760 --> 00:00:46,830
+reputation for being pretty confusing if
+you've learned any particle physics you
+
+36
+00:00:46,830 --> 00:00:46,840
+you've learned any particle physics you
+ 
+
+37
+00:00:46,840 --> 00:00:48,430
+you've learned any particle physics you
+might know that all fundamental
+
+38
+00:00:48,430 --> 00:00:48,440
+might know that all fundamental
+ 
+
+39
+00:00:48,440 --> 00:00:51,270
+might know that all fundamental
+particles can be broken up into two
+
+40
+00:00:51,270 --> 00:00:51,280
+particles can be broken up into two
+ 
+
+41
+00:00:51,280 --> 00:00:54,349
+particles can be broken up into two
+categories the bons which Loosely
+
+42
+00:00:54,349 --> 00:00:54,359
+categories the bons which Loosely
+ 
+
+43
+00:00:54,359 --> 00:00:56,150
+categories the bons which Loosely
+speaking are the force carrying
+
+44
+00:00:56,150 --> 00:00:56,160
+speaking are the force carrying
+ 
+
+45
+00:00:56,160 --> 00:00:59,470
+speaking are the force carrying
+particles and Fons which are the matter
+
+46
+00:00:59,470 --> 00:00:59,480
+particles and Fons which are the matter
+ 
+
+47
+00:00:59,480 --> 00:01:02,389
+particles and Fons which are the matter
+type partic parles that make up atoms
+
+48
+00:01:02,389 --> 00:01:02,399
+type partic parles that make up atoms
+ 
+
+49
+00:01:02,399 --> 00:01:04,869
+type partic parles that make up atoms
+all known fundamental bons have either
+
+50
+00:01:04,869 --> 00:01:04,879
+all known fundamental bons have either
+ 
+
+51
+00:01:04,879 --> 00:01:07,109
+all known fundamental bons have either
+spin one which are represented by
+
+52
+00:01:07,109 --> 00:01:07,119
+spin one which are represented by
+ 
+
+53
+00:01:07,119 --> 00:01:10,350
+spin one which are represented by
+vectors or have spin zero which are
+
+54
+00:01:10,350 --> 00:01:10,360
+vectors or have spin zero which are
+ 
+
+55
+00:01:10,360 --> 00:01:13,270
+vectors or have spin zero which are
+represented by scalers vectors and
+
+56
+00:01:13,270 --> 00:01:13,280
+represented by scalers vectors and
+ 
+
+57
+00:01:13,280 --> 00:01:15,390
+represented by scalers vectors and
+scalers are familiar mathematical
+
+58
+00:01:15,390 --> 00:01:15,400
+scalers are familiar mathematical
+ 
+
+59
+00:01:15,400 --> 00:01:18,190
+scalers are familiar mathematical
+objects to any undergraduate physics
+
+60
+00:01:18,190 --> 00:01:18,200
+objects to any undergraduate physics
+ 
+
+61
+00:01:18,200 --> 00:01:20,710
+objects to any undergraduate physics
+student however all known fundamental
+
+62
+00:01:20,710 --> 00:01:20,720
+student however all known fundamental
+ 
+
+63
+00:01:20,720 --> 00:01:24,069
+student however all known fundamental
+Fons have spin one half and these are
+
+64
+00:01:24,069 --> 00:01:24,079
+Fons have spin one half and these are
+ 
+
+65
+00:01:24,079 --> 00:01:27,550
+Fons have spin one half and these are
+represented by Spinners so around half
+
+66
+00:01:27,550 --> 00:01:27,560
+represented by Spinners so around half
+ 
+
+67
+00:01:27,560 --> 00:01:29,950
+represented by Spinners so around half
+of all known fundamental particles are
+
+68
+00:01:29,950 --> 00:01:29,960
+of all known fundamental particles are
+ 
+
+69
+00:01:29,960 --> 00:01:32,510
+of all known fundamental particles are
+described by Spinners but what exactly
+
+70
+00:01:32,510 --> 00:01:32,520
+described by Spinners but what exactly
+ 
+
+71
+00:01:32,520 --> 00:01:35,630
+described by Spinners but what exactly
+does that mean a first introduction to
+
+72
+00:01:35,630 --> 00:01:35,640
+does that mean a first introduction to
+ 
+
+73
+00:01:35,640 --> 00:01:37,870
+does that mean a first introduction to
+Spinners will normally explain them in
+
+74
+00:01:37,870 --> 00:01:37,880
+Spinners will normally explain them in
+ 
+
+75
+00:01:37,880 --> 00:01:40,590
+Spinners will normally explain them in
+terms of how they transform ukian
+
+76
+00:01:40,590 --> 00:01:40,600
+terms of how they transform ukian
+ 
+
+77
+00:01:40,600 --> 00:01:42,749
+terms of how they transform ukian
+vectors are basically just pointed
+
+78
+00:01:42,749 --> 00:01:42,759
+vectors are basically just pointed
+ 
+
+79
+00:01:42,759 --> 00:01:45,630
+vectors are basically just pointed
+sticks arrows and when we turn them
+
+80
+00:01:45,630 --> 00:01:45,640
+sticks arrows and when we turn them
+ 
+
+81
+00:01:45,640 --> 00:01:47,069
+sticks arrows and when we turn them
+around
+
+82
+00:01:47,069 --> 00:01:47,079
+around
+ 
+
+83
+00:01:47,079 --> 00:01:50,590
+around
+360° they end up back where they started
+
+84
+00:01:50,590 --> 00:01:50,600
+360° they end up back where they started
+ 
+
+85
+00:01:50,600 --> 00:01:53,069
+360° they end up back where they started
+but when we turn Spinners around
+
+86
+00:01:53,069 --> 00:01:53,079
+but when we turn Spinners around
+ 
+
+87
+00:01:53,079 --> 00:01:55,550
+but when we turn Spinners around
+360° they come back to the negative
+
+88
+00:01:55,550 --> 00:01:55,560
+360° they come back to the negative
+ 
+
+89
+00:01:55,560 --> 00:01:58,630
+360° they come back to the negative
+version of themselves it requires two
+
+90
+00:01:58,630 --> 00:01:58,640
+version of themselves it requires two
+ 
+
+91
+00:01:58,640 --> 00:02:00,709
+version of themselves it requires two
+full turns or
+
+92
+00:02:00,709 --> 00:02:00,719
+full turns or
+ 
+
+93
+00:02:00,719 --> 00:02:03,709
+full turns or
+720° to get a spinner back to where it
+
+94
+00:02:03,709 --> 00:02:03,719
+720° to get a spinner back to where it
+ 
+
+95
+00:02:03,719 --> 00:02:06,469
+720° to get a spinner back to where it
+started the property of requiring two
+
+96
+00:02:06,469 --> 00:02:06,479
+started the property of requiring two
+ 
+
+97
+00:02:06,479 --> 00:02:08,669
+started the property of requiring two
+full turns to get back to the starting
+
+98
+00:02:08,669 --> 00:02:08,679
+full turns to get back to the starting
+ 
+
+99
+00:02:08,679 --> 00:02:10,790
+full turns to get back to the starting
+position is one of the defining
+
+100
+00:02:10,790 --> 00:02:10,800
+position is one of the defining
+ 
+
+101
+00:02:10,800 --> 00:02:13,309
+position is one of the defining
+properties of spinners and this is
+
+102
+00:02:13,309 --> 00:02:13,319
+properties of spinners and this is
+ 
+
+103
+00:02:13,319 --> 00:02:16,589
+properties of spinners and this is
+demonstrated by drax's belt trick if we
+
+104
+00:02:16,589 --> 00:02:16,599
+demonstrated by drax's belt trick if we
+ 
+
+105
+00:02:16,599 --> 00:02:19,070
+demonstrated by drax's belt trick if we
+turn the free end of this belt once we
+
+106
+00:02:19,070 --> 00:02:19,080
+turn the free end of this belt once we
+ 
+
+107
+00:02:19,080 --> 00:02:21,390
+turn the free end of this belt once we
+get a Twist that cannot be removed by
+
+108
+00:02:21,390 --> 00:02:21,400
+get a Twist that cannot be removed by
+ 
+
+109
+00:02:21,400 --> 00:02:24,790
+get a Twist that cannot be removed by
+translating the free end around however
+
+110
+00:02:24,790 --> 00:02:24,800
+translating the free end around however
+ 
+
+111
+00:02:24,800 --> 00:02:27,430
+translating the free end around however
+after a second turn we can remove the
+
+112
+00:02:27,430 --> 00:02:27,440
+after a second turn we can remove the
+ 
+
+113
+00:02:27,440 --> 00:02:31,309
+after a second turn we can remove the
+Twist by moving the free end like this
+
+114
+00:02:31,309 --> 00:02:31,319
+Twist by moving the free end like this
+ 
+
+115
+00:02:31,319 --> 00:02:33,630
+Twist by moving the free end like this
+a similar trick can be done by holding a
+
+116
+00:02:33,630 --> 00:02:33,640
+a similar trick can be done by holding a
+ 
+
+117
+00:02:33,640 --> 00:02:36,869
+a similar trick can be done by holding a
+cup or a plate one turn leaves your arm
+
+118
+00:02:36,869 --> 00:02:36,879
+cup or a plate one turn leaves your arm
+ 
+
+119
+00:02:36,879 --> 00:02:40,030
+cup or a plate one turn leaves your arm
+with a Twist and a second turn gets you
+
+120
+00:02:40,030 --> 00:02:40,040
+with a Twist and a second turn gets you
+ 
+
+121
+00:02:40,040 --> 00:02:41,390
+with a Twist and a second turn gets you
+back to where you
+
+122
+00:02:41,390 --> 00:02:41,400
+back to where you
+ 
+
+123
+00:02:41,400 --> 00:02:44,910
+back to where you
+started now these are cute tricks but
+
+124
+00:02:44,910 --> 00:02:44,920
+started now these are cute tricks but
+ 
+
+125
+00:02:44,920 --> 00:02:46,790
+started now these are cute tricks but
+when I started seriously learning the
+
+126
+00:02:46,790 --> 00:02:46,800
+when I started seriously learning the
+ 
+
+127
+00:02:46,800 --> 00:02:49,190
+when I started seriously learning the
+mathematics of spinners I found most
+
+128
+00:02:49,190 --> 00:02:49,200
+mathematics of spinners I found most
+ 
+
+129
+00:02:49,200 --> 00:02:52,190
+mathematics of spinners I found most
+textbooks were incredibly hard to follow
+
+130
+00:02:52,190 --> 00:02:52,200
+textbooks were incredibly hard to follow
+ 
+
+131
+00:02:52,200 --> 00:02:54,670
+textbooks were incredibly hard to follow
+and I was left confused and
+
+132
+00:02:54,670 --> 00:02:54,680
+and I was left confused and
+ 
+
+133
+00:02:54,680 --> 00:02:57,070
+and I was left confused and
+frustrated I've spent over a year
+
+134
+00:02:57,070 --> 00:02:57,080
+frustrated I've spent over a year
+ 
+
+135
+00:02:57,080 --> 00:02:59,509
+frustrated I've spent over a year
+studying Spinners and at this point I
+
+136
+00:02:59,509 --> 00:02:59,519
+studying Spinners and at this point I
+ 
+
+137
+00:02:59,519 --> 00:03:02,550
+studying Spinners and at this point I
+think I have the basics down my goal now
+
+138
+00:03:02,550 --> 00:03:02,560
+think I have the basics down my goal now
+ 
+
+139
+00:03:02,560 --> 00:03:04,750
+think I have the basics down my goal now
+is to make a video series that lays out
+
+140
+00:03:04,750 --> 00:03:04,760
+is to make a video series that lays out
+ 
+
+141
+00:03:04,760 --> 00:03:06,869
+is to make a video series that lays out
+the basics of spinners at a level
+
+142
+00:03:06,869 --> 00:03:06,879
+the basics of spinners at a level
+ 
+
+143
+00:03:06,879 --> 00:03:09,390
+the basics of spinners at a level
+appropriate for undergraduate students
+
+144
+00:03:09,390 --> 00:03:09,400
+appropriate for undergraduate students
+ 
+
+145
+00:03:09,400 --> 00:03:12,070
+appropriate for undergraduate students
+or early graduate students so that they
+
+146
+00:03:12,070 --> 00:03:12,080
+or early graduate students so that they
+ 
+
+147
+00:03:12,080 --> 00:03:14,190
+or early graduate students so that they
+don't have to waste as much time being
+
+148
+00:03:14,190 --> 00:03:14,200
+don't have to waste as much time being
+ 
+
+149
+00:03:14,200 --> 00:03:15,869
+don't have to waste as much time being
+confused like I
+
+150
+00:03:15,869 --> 00:03:15,879
+confused like I
+ 
+
+151
+00:03:15,879 --> 00:03:19,229
+confused like I
+did like most complicated topics I think
+
+152
+00:03:19,229 --> 00:03:19,239
+did like most complicated topics I think
+ 
+
+153
+00:03:19,239 --> 00:03:22,190
+did like most complicated topics I think
+it's best to learn Spinners in stages as
+
+154
+00:03:22,190 --> 00:03:22,200
+it's best to learn Spinners in stages as
+ 
+
+155
+00:03:22,200 --> 00:03:23,949
+it's best to learn Spinners in stages as
+if you're climbing the stairs on a
+
+156
+00:03:23,949 --> 00:03:23,959
+if you're climbing the stairs on a
+ 
+
+157
+00:03:23,959 --> 00:03:26,430
+if you're climbing the stairs on a
+staircase starting with the easiest and
+
+158
+00:03:26,430 --> 00:03:26,440
+staircase starting with the easiest and
+ 
+
+159
+00:03:26,440 --> 00:03:28,990
+staircase starting with the easiest and
+most basic explanation and gradually
+
+160
+00:03:28,990 --> 00:03:29,000
+most basic explanation and gradually
+ 
+
+161
+00:03:29,000 --> 00:03:31,229
+most basic explanation and gradually
+getting more complicated and
+
+162
+00:03:31,229 --> 00:03:31,239
+getting more complicated and
+ 
+
+163
+00:03:31,239 --> 00:03:34,229
+getting more complicated and
+Abstract my planned staircase has five
+
+164
+00:03:34,229 --> 00:03:34,239
+Abstract my planned staircase has five
+ 
+
+165
+00:03:34,239 --> 00:03:36,910
+Abstract my planned staircase has five
+steps basic examples of spinners in
+
+166
+00:03:36,910 --> 00:03:36,920
+steps basic examples of spinners in
+ 
+
+167
+00:03:36,920 --> 00:03:39,390
+steps basic examples of spinners in
+physics viewing Spinners as the square
+
+168
+00:03:39,390 --> 00:03:39,400
+physics viewing Spinners as the square
+ 
+
+169
+00:03:39,400 --> 00:03:42,110
+physics viewing Spinners as the square
+roots of vectors viewing Spinners as
+
+170
+00:03:42,110 --> 00:03:42,120
+roots of vectors viewing Spinners as
+ 
+
+171
+00:03:42,120 --> 00:03:44,710
+roots of vectors viewing Spinners as
+members of Clifford algebras viewing
+
+172
+00:03:44,710 --> 00:03:44,720
+members of Clifford algebras viewing
+ 
+
+173
+00:03:44,720 --> 00:03:47,110
+members of Clifford algebras viewing
+Spinners in terms of Le groups and Lee
+
+174
+00:03:47,110 --> 00:03:47,120
+Spinners in terms of Le groups and Lee
+ 
+
+175
+00:03:47,120 --> 00:03:49,910
+Spinners in terms of Le groups and Lee
+algebras and finally talking a bit about
+
+176
+00:03:49,910 --> 00:03:49,920
+algebras and finally talking a bit about
+ 
+
+177
+00:03:49,920 --> 00:03:52,069
+algebras and finally talking a bit about
+how Spinners are used to describe all
+
+178
+00:03:52,069 --> 00:03:52,079
+how Spinners are used to describe all
+ 
+
+179
+00:03:52,079 --> 00:03:54,589
+how Spinners are used to describe all
+spin 1/ half particles in particle
+
+180
+00:03:54,589 --> 00:03:54,599
+spin 1/ half particles in particle
+ 
+
+181
+00:03:54,599 --> 00:03:57,550
+spin 1/ half particles in particle
+physics and Quantum field
+
+182
+00:03:57,550 --> 00:03:57,560
+physics and Quantum field
+ 
+
+183
+00:03:57,560 --> 00:04:00,509
+physics and Quantum field
+Theory so for the rest of this video I'm
+
+184
+00:04:00,509 --> 00:04:00,519
+Theory so for the rest of this video I'm
+ 
+
+185
+00:04:00,519 --> 00:04:02,509
+Theory so for the rest of this video I'm
+going to give an overview of the steps
+
+186
+00:04:02,509 --> 00:04:02,519
+going to give an overview of the steps
+ 
+
+187
+00:04:02,519 --> 00:04:05,630
+going to give an overview of the steps
+in this staircase you probably won't
+
+188
+00:04:05,630 --> 00:04:05,640
+in this staircase you probably won't
+ 
+
+189
+00:04:05,640 --> 00:04:07,030
+in this staircase you probably won't
+understand a lot of what I'm going to
+
+190
+00:04:07,030 --> 00:04:07,040
+understand a lot of what I'm going to
+ 
+
+191
+00:04:07,040 --> 00:04:09,270
+understand a lot of what I'm going to
+say but right now I'm just trying to
+
+192
+00:04:09,270 --> 00:04:09,280
+say but right now I'm just trying to
+ 
+
+193
+00:04:09,280 --> 00:04:11,710
+say but right now I'm just trying to
+give you a basic road map of the ideas
+
+194
+00:04:11,710 --> 00:04:11,720
+give you a basic road map of the ideas
+ 
+
+195
+00:04:11,720 --> 00:04:14,270
+give you a basic road map of the ideas
+that will come up later in this series
+
+196
+00:04:14,270 --> 00:04:14,280
+that will come up later in this series
+ 
+
+197
+00:04:14,280 --> 00:04:16,229
+that will come up later in this series
+I'll dig into the details as the video
+
+198
+00:04:16,229 --> 00:04:16,239
+I'll dig into the details as the video
+ 
+
+199
+00:04:16,239 --> 00:04:18,150
+I'll dig into the details as the video
+series goes
+
+200
+00:04:18,150 --> 00:04:18,160
+series goes
+ 
+
+201
+00:04:18,160 --> 00:04:20,909
+series goes
+on so a good place to start learning
+
+202
+00:04:20,909 --> 00:04:20,919
+on so a good place to start learning
+ 
+
+203
+00:04:20,919 --> 00:04:24,189
+on so a good place to start learning
+Spinners are examples from physics such
+
+204
+00:04:24,189 --> 00:04:24,199
+Spinners are examples from physics such
+ 
+
+205
+00:04:24,199 --> 00:04:26,710
+Spinners are examples from physics such
+as basic Quantum spin States and the
+
+206
+00:04:26,710 --> 00:04:26,720
+as basic Quantum spin States and the
+ 
+
+207
+00:04:26,720 --> 00:04:28,510
+as basic Quantum spin States and the
+polarization of light
+
+208
+00:04:28,510 --> 00:04:28,520
+polarization of light
+ 
+
+209
+00:04:28,520 --> 00:04:30,909
+polarization of light
+waves in in introductory quantum
+
+210
+00:04:30,909 --> 00:04:30,919
+waves in in introductory quantum
+ 
+
+211
+00:04:30,919 --> 00:04:32,830
+waves in in introductory quantum
+mechanics we learn that putting
+
+212
+00:04:32,830 --> 00:04:32,840
+mechanics we learn that putting
+ 
+
+213
+00:04:32,840 --> 00:04:34,950
+mechanics we learn that putting
+electrically neutral silver atoms
+
+214
+00:04:34,950 --> 00:04:34,960
+electrically neutral silver atoms
+ 
+
+215
+00:04:34,960 --> 00:04:37,390
+electrically neutral silver atoms
+through a magnetic field forces them to
+
+216
+00:04:37,390 --> 00:04:37,400
+through a magnetic field forces them to
+ 
+
+217
+00:04:37,400 --> 00:04:40,270
+through a magnetic field forces them to
+choose between one of two states either
+
+218
+00:04:40,270 --> 00:04:40,280
+choose between one of two states either
+ 
+
+219
+00:04:40,280 --> 00:04:42,189
+choose between one of two states either
+spin up or spin
+
+220
+00:04:42,189 --> 00:04:42,199
+spin up or spin
+ 
+
+221
+00:04:42,199 --> 00:04:45,790
+spin up or spin
+down in physical space up and down point
+
+222
+00:04:45,790 --> 00:04:45,800
+down in physical space up and down point
+ 
+
+223
+00:04:45,800 --> 00:04:50,390
+down in physical space up and down point
+in opposite directions 180° apart but
+
+224
+00:04:50,390 --> 00:04:50,400
+in opposite directions 180° apart but
+ 
+
+225
+00:04:50,400 --> 00:04:53,110
+in opposite directions 180° apart but
+the quantum spin up and spin down states
+
+226
+00:04:53,110 --> 00:04:53,120
+the quantum spin up and spin down states
+ 
+
+227
+00:04:53,120 --> 00:04:55,510
+the quantum spin up and spin down states
+of a particle don't live in physical
+
+228
+00:04:55,510 --> 00:04:55,520
+of a particle don't live in physical
+ 
+
+229
+00:04:55,520 --> 00:04:58,629
+of a particle don't live in physical
+space instead they live in an abstract
+
+230
+00:04:58,629 --> 00:04:58,639
+space instead they live in an abstract
+ 
+
+231
+00:04:58,639 --> 00:05:00,310
+space instead they live in an abstract
+State space
+
+232
+00:05:00,310 --> 00:05:00,320
+State space
+ 
+
+233
+00:05:00,320 --> 00:05:02,629
+State space
+the rules of quantum mechanics tell us
+
+234
+00:05:02,629 --> 00:05:02,639
+the rules of quantum mechanics tell us
+ 
+
+235
+00:05:02,639 --> 00:05:04,990
+the rules of quantum mechanics tell us
+that when two states are mutually
+
+236
+00:05:04,990 --> 00:05:05,000
+that when two states are mutually
+ 
+
+237
+00:05:05,000 --> 00:05:07,310
+that when two states are mutually
+exclusive they must be
+
+238
+00:05:07,310 --> 00:05:07,320
+exclusive they must be
+ 
+
+239
+00:05:07,320 --> 00:05:10,110
+exclusive they must be
+orthogonal the spin up and spin down
+
+240
+00:05:10,110 --> 00:05:10,120
+orthogonal the spin up and spin down
+ 
+
+241
+00:05:10,120 --> 00:05:12,710
+orthogonal the spin up and spin down
+states of a particle are mutually
+
+242
+00:05:12,710 --> 00:05:12,720
+states of a particle are mutually
+ 
+
+243
+00:05:12,720 --> 00:05:15,830
+states of a particle are mutually
+exclusive and so they are orthogonal
+
+244
+00:05:15,830 --> 00:05:15,840
+exclusive and so they are orthogonal
+ 
+
+245
+00:05:15,840 --> 00:05:17,870
+exclusive and so they are orthogonal
+separated by
+
+246
+00:05:17,870 --> 00:05:17,880
+separated by
+ 
+
+247
+00:05:17,880 --> 00:05:21,029
+separated by
+90° so here we see there's an angle
+
+248
+00:05:21,029 --> 00:05:21,039
+90° so here we see there's an angle
+ 
+
+249
+00:05:21,039 --> 00:05:23,790
+90° so here we see there's an angle
+doubling relationship between these two
+
+250
+00:05:23,790 --> 00:05:23,800
+doubling relationship between these two
+ 
+
+251
+00:05:23,800 --> 00:05:27,510
+doubling relationship between these two
+spaces a 90° turn in the abstract State
+
+252
+00:05:27,510 --> 00:05:27,520
+spaces a 90° turn in the abstract State
+ 
+
+253
+00:05:27,520 --> 00:05:31,350
+spaces a 90° turn in the abstract State
+space corresponds to a 100 180° turn in
+
+254
+00:05:31,350 --> 00:05:31,360
+space corresponds to a 100 180° turn in
+ 
+
+255
+00:05:31,360 --> 00:05:34,230
+space corresponds to a 100 180° turn in
+physical space this means that doing a
+
+256
+00:05:34,230 --> 00:05:34,240
+physical space this means that doing a
+ 
+
+257
+00:05:34,240 --> 00:05:37,270
+physical space this means that doing a
+full turn in the state space corresponds
+
+258
+00:05:37,270 --> 00:05:37,280
+full turn in the state space corresponds
+ 
+
+259
+00:05:37,280 --> 00:05:40,749
+full turn in the state space corresponds
+to two full turns in physical space
+
+260
+00:05:40,749 --> 00:05:40,759
+to two full turns in physical space
+ 
+
+261
+00:05:40,759 --> 00:05:43,189
+to two full turns in physical space
+requiring two full turns to get back to
+
+262
+00:05:43,189 --> 00:05:43,199
+requiring two full turns to get back to
+ 
+
+263
+00:05:43,199 --> 00:05:45,270
+requiring two full turns to get back to
+where we started is exactly what we
+
+264
+00:05:45,270 --> 00:05:45,280
+where we started is exactly what we
+ 
+
+265
+00:05:45,280 --> 00:05:48,309
+where we started is exactly what we
+would expect from Spinners and so matter
+
+266
+00:05:48,309 --> 00:05:48,319
+would expect from Spinners and so matter
+ 
+
+267
+00:05:48,319 --> 00:05:51,550
+would expect from Spinners and so matter
+particles are best described using
+
+268
+00:05:51,550 --> 00:05:51,560
+particles are best described using
+ 
+
+269
+00:05:51,560 --> 00:05:54,629
+particles are best described using
+Spinners we can write a spinner as a two
+
+270
+00:05:54,629 --> 00:05:54,639
+Spinners we can write a spinner as a two
+ 
+
+271
+00:05:54,639 --> 00:05:56,670
+Spinners we can write a spinner as a two
+component column where the two
+
+272
+00:05:56,670 --> 00:05:56,680
+component column where the two
+ 
+
+273
+00:05:56,680 --> 00:05:58,790
+component column where the two
+components indicate the probabilities
+
+274
+00:05:58,790 --> 00:05:58,800
+components indicate the probabilities
+ 
+
+275
+00:05:58,800 --> 00:06:01,469
+components indicate the probabilities
+for measuring SP spin up or spin down
+
+276
+00:06:01,469 --> 00:06:01,479
+for measuring SP spin up or spin down
+ 
+
+277
+00:06:01,479 --> 00:06:04,189
+for measuring SP spin up or spin down
+from a given Quantum
+
+278
+00:06:04,189 --> 00:06:04,199
+from a given Quantum
+ 
+
+279
+00:06:04,199 --> 00:06:07,070
+from a given Quantum
+State another example of spinners comes
+
+280
+00:06:07,070 --> 00:06:07,080
+State another example of spinners comes
+ 
+
+281
+00:06:07,080 --> 00:06:09,629
+State another example of spinners comes
+from classical physics where light is
+
+282
+00:06:09,629 --> 00:06:09,639
+from classical physics where light is
+ 
+
+283
+00:06:09,639 --> 00:06:12,710
+from classical physics where light is
+described as a wave the orientation of
+
+284
+00:06:12,710 --> 00:06:12,720
+described as a wave the orientation of
+ 
+
+285
+00:06:12,720 --> 00:06:14,950
+described as a wave the orientation of
+this wave is called its
+
+286
+00:06:14,950 --> 00:06:14,960
+this wave is called its
+ 
+
+287
+00:06:14,960 --> 00:06:17,189
+this wave is called its
+polarization two basic types of
+
+288
+00:06:17,189 --> 00:06:17,199
+polarization two basic types of
+ 
+
+289
+00:06:17,199 --> 00:06:19,990
+polarization two basic types of
+polarization are vertical polarization
+
+290
+00:06:19,990 --> 00:06:20,000
+polarization are vertical polarization
+ 
+
+291
+00:06:20,000 --> 00:06:21,629
+polarization are vertical polarization
+and horizontal
+
+292
+00:06:21,629 --> 00:06:21,639
+and horizontal
+ 
+
+293
+00:06:21,639 --> 00:06:23,870
+and horizontal
+polarization if we take a vertically
+
+294
+00:06:23,870 --> 00:06:23,880
+polarization if we take a vertically
+ 
+
+295
+00:06:23,880 --> 00:06:27,589
+polarization if we take a vertically
+polarized wave and rotate it 90° it
+
+296
+00:06:27,589 --> 00:06:27,599
+polarized wave and rotate it 90° it
+ 
+
+297
+00:06:27,599 --> 00:06:30,270
+polarized wave and rotate it 90° it
+becomes horizontally polarized
+
+298
+00:06:30,270 --> 00:06:30,280
+becomes horizontally polarized
+ 
+
+299
+00:06:30,280 --> 00:06:33,189
+becomes horizontally polarized
+after another 90° rotation it becomes
+
+300
+00:06:33,189 --> 00:06:33,199
+after another 90° rotation it becomes
+ 
+
+301
+00:06:33,199 --> 00:06:35,950
+after another 90° rotation it becomes
+vertically polarized again although with
+
+302
+00:06:35,950 --> 00:06:35,960
+vertically polarized again although with
+ 
+
+303
+00:06:35,960 --> 00:06:39,469
+vertically polarized again although with
+its phase shifted by half a
+
+304
+00:06:39,469 --> 00:06:39,479
+its phase shifted by half a
+ 
+
+305
+00:06:39,479 --> 00:06:41,950
+its phase shifted by half a
+cycle again we have an angle doubling
+
+306
+00:06:41,950 --> 00:06:41,960
+cycle again we have an angle doubling
+ 
+
+307
+00:06:41,960 --> 00:06:44,390
+cycle again we have an angle doubling
+relationship between physical space and
+
+308
+00:06:44,390 --> 00:06:44,400
+relationship between physical space and
+ 
+
+309
+00:06:44,400 --> 00:06:47,950
+relationship between physical space and
+the polarization State space a half turn
+
+310
+00:06:47,950 --> 00:06:47,960
+the polarization State space a half turn
+ 
+
+311
+00:06:47,960 --> 00:06:50,390
+the polarization State space a half turn
+in physical space corresponds to a full
+
+312
+00:06:50,390 --> 00:06:50,400
+in physical space corresponds to a full
+ 
+
+313
+00:06:50,400 --> 00:06:53,189
+in physical space corresponds to a full
+turn in the polarization State
+
+314
+00:06:53,189 --> 00:06:53,199
+turn in the polarization State
+ 
+
+315
+00:06:53,199 --> 00:06:56,070
+turn in the polarization State
+space while this is not the exact same
+
+316
+00:06:56,070 --> 00:06:56,080
+space while this is not the exact same
+ 
+
+317
+00:06:56,080 --> 00:06:58,909
+space while this is not the exact same
+as our example with Quantum spin States
+
+318
+00:06:58,909 --> 00:06:58,919
+as our example with Quantum spin States
+ 
+
+319
+00:06:58,919 --> 00:07:00,990
+as our example with Quantum spin States
+it does turn out that we can describe
+
+320
+00:07:00,990 --> 00:07:01,000
+it does turn out that we can describe
+ 
+
+321
+00:07:01,000 --> 00:07:03,710
+it does turn out that we can describe
+polarization states of light using
+
+322
+00:07:03,710 --> 00:07:03,720
+polarization states of light using
+ 
+
+323
+00:07:03,720 --> 00:07:06,309
+polarization states of light using
+Spinners once again we can write the
+
+324
+00:07:06,309 --> 00:07:06,319
+Spinners once again we can write the
+ 
+
+325
+00:07:06,319 --> 00:07:09,070
+Spinners once again we can write the
+spinner as a two component column where
+
+326
+00:07:09,070 --> 00:07:09,080
+spinner as a two component column where
+ 
+
+327
+00:07:09,080 --> 00:07:11,150
+spinner as a two component column where
+the two components indicate the amounts
+
+328
+00:07:11,150 --> 00:07:11,160
+the two components indicate the amounts
+ 
+
+329
+00:07:11,160 --> 00:07:13,510
+the two components indicate the amounts
+of vertically and horizontally polarized
+
+330
+00:07:13,510 --> 00:07:13,520
+of vertically and horizontally polarized
+ 
+
+331
+00:07:13,520 --> 00:07:15,909
+of vertically and horizontally polarized
+waves inside a given light
+
+332
+00:07:15,909 --> 00:07:15,919
+waves inside a given light
+ 
+
+333
+00:07:15,919 --> 00:07:18,430
+waves inside a given light
+wave it's worth noting that this is a
+
+334
+00:07:18,430 --> 00:07:18,440
+wave it's worth noting that this is a
+ 
+
+335
+00:07:18,440 --> 00:07:20,869
+wave it's worth noting that this is a
+purely classical effect with no quantum
+
+336
+00:07:20,869 --> 00:07:20,879
+purely classical effect with no quantum
+ 
+
+337
+00:07:20,879 --> 00:07:23,350
+purely classical effect with no quantum
+mechanics at all Spinners are just
+
+338
+00:07:23,350 --> 00:07:23,360
+mechanics at all Spinners are just
+ 
+
+339
+00:07:23,360 --> 00:07:25,830
+mechanics at all Spinners are just
+mathematical objects and while they are
+
+340
+00:07:25,830 --> 00:07:25,840
+mathematical objects and while they are
+ 
+
+341
+00:07:25,840 --> 00:07:28,230
+mathematical objects and while they are
+very important in quantum mechanics they
+
+342
+00:07:28,230 --> 00:07:28,240
+very important in quantum mechanics they
+ 
+
+343
+00:07:28,240 --> 00:07:30,070
+very important in quantum mechanics they
+can be used to describe things in
+
+344
+00:07:30,070 --> 00:07:30,080
+can be used to describe things in
+ 
+
+345
+00:07:30,080 --> 00:07:33,150
+can be used to describe things in
+classical physics 2 now that we have
+
+346
+00:07:33,150 --> 00:07:33,160
+classical physics 2 now that we have
+ 
+
+347
+00:07:33,160 --> 00:07:35,469
+classical physics 2 now that we have
+some motivation from physics the next
+
+348
+00:07:35,469 --> 00:07:35,479
+some motivation from physics the next
+ 
+
+349
+00:07:35,479 --> 00:07:37,710
+some motivation from physics the next
+step is to discuss Spinners from a
+
+350
+00:07:37,710 --> 00:07:37,720
+step is to discuss Spinners from a
+ 
+
+351
+00:07:37,720 --> 00:07:40,309
+step is to discuss Spinners from a
+purely mathematical point of view here
+
+352
+00:07:40,309 --> 00:07:40,319
+purely mathematical point of view here
+ 
+
+353
+00:07:40,319 --> 00:07:42,029
+purely mathematical point of view here
+we learn that Spinners are like the
+
+354
+00:07:42,029 --> 00:07:42,039
+we learn that Spinners are like the
+ 
+
+355
+00:07:42,039 --> 00:07:44,869
+we learn that Spinners are like the
+square roots of vectors this means that
+
+356
+00:07:44,869 --> 00:07:44,879
+square roots of vectors this means that
+ 
+
+357
+00:07:44,879 --> 00:07:47,629
+square roots of vectors this means that
+we can take a 3D vector and use a
+
+358
+00:07:47,629 --> 00:07:47,639
+we can take a 3D vector and use a
+ 
+
+359
+00:07:47,639 --> 00:07:50,309
+we can take a 3D vector and use a
+special trick to factor it into a column
+
+360
+00:07:50,309 --> 00:07:50,319
+special trick to factor it into a column
+ 
+
+361
+00:07:50,319 --> 00:07:54,110
+special trick to factor it into a column
+spinner and a row spinner with a matrix
+
+362
+00:07:54,110 --> 00:07:54,120
+spinner and a row spinner with a matrix
+ 
+
+363
+00:07:54,120 --> 00:07:56,710
+spinner and a row spinner with a matrix
+which is a rank two tensor we can
+
+364
+00:07:56,710 --> 00:07:56,720
+which is a rank two tensor we can
+ 
+
+365
+00:07:56,720 --> 00:07:58,629
+which is a rank two tensor we can
+sometimes Factor The Matrix into a
+
+366
+00:07:58,629 --> 00:07:58,639
+sometimes Factor The Matrix into a
+ 
+
+367
+00:07:58,639 --> 00:08:01,510
+sometimes Factor The Matrix into a
+column vector and a row Vector which are
+
+368
+00:08:01,510 --> 00:08:01,520
+column vector and a row Vector which are
+ 
+
+369
+00:08:01,520 --> 00:08:05,070
+column vector and a row Vector which are
+both rank one tensors so we can factor a
+
+370
+00:08:05,070 --> 00:08:05,080
+both rank one tensors so we can factor a
+ 
+
+371
+00:08:05,080 --> 00:08:08,749
+both rank one tensors so we can factor a
+rank two tensor into a pair of rank one
+
+372
+00:08:08,749 --> 00:08:08,759
+rank two tensor into a pair of rank one
+ 
+
+373
+00:08:08,759 --> 00:08:11,990
+rank two tensor into a pair of rank one
+tensors now if we have a vector in 3D
+
+374
+00:08:11,990 --> 00:08:12,000
+tensors now if we have a vector in 3D
+ 
+
+375
+00:08:12,000 --> 00:08:15,749
+tensors now if we have a vector in 3D
+space with components XY Z we can use a
+
+376
+00:08:15,749 --> 00:08:15,759
+space with components XY Z we can use a
+ 
+
+377
+00:08:15,759 --> 00:08:18,270
+space with components XY Z we can use a
+special trick to write it as a 2X two
+
+378
+00:08:18,270 --> 00:08:18,280
+special trick to write it as a 2X two
+ 
+
+379
+00:08:18,280 --> 00:08:22,070
+special trick to write it as a 2X two
+Matrix called a poly Vector this is done
+
+380
+00:08:22,070 --> 00:08:22,080
+Matrix called a poly Vector this is done
+ 
+
+381
+00:08:22,080 --> 00:08:24,149
+Matrix called a poly Vector this is done
+by multiplying each component of the
+
+382
+00:08:24,149 --> 00:08:24,159
+by multiplying each component of the
+ 
+
+383
+00:08:24,159 --> 00:08:26,390
+by multiplying each component of the
+vector by the sigma
+
+384
+00:08:26,390 --> 00:08:26,400
+vector by the sigma
+ 
+
+385
+00:08:26,400 --> 00:08:29,510
+vector by the sigma
+matrices we can then Factor this 2x2
+
+386
+00:08:29,510 --> 00:08:29,520
+matrices we can then Factor this 2x2
+ 
+
+387
+00:08:29,520 --> 00:08:31,950
+matrices we can then Factor this 2x2
+poly Vector into a column spinner and a
+
+388
+00:08:31,950 --> 00:08:31,960
+poly Vector into a column spinner and a
+ 
+
+389
+00:08:31,960 --> 00:08:34,750
+poly Vector into a column spinner and a
+row spinner called poly
+
+390
+00:08:34,750 --> 00:08:34,760
+row spinner called poly
+ 
+
+391
+00:08:34,760 --> 00:08:37,750
+row spinner called poly
+Spinners so loosely speaking we're
+
+392
+00:08:37,750 --> 00:08:37,760
+Spinners so loosely speaking we're
+ 
+
+393
+00:08:37,760 --> 00:08:40,350
+Spinners so loosely speaking we're
+factoring a vector which is a rank one
+
+394
+00:08:40,350 --> 00:08:40,360
+factoring a vector which is a rank one
+ 
+
+395
+00:08:40,360 --> 00:08:43,709
+factoring a vector which is a rank one
+tensor into a pair of spinners which are
+
+396
+00:08:43,709 --> 00:08:43,719
+tensor into a pair of spinners which are
+ 
+
+397
+00:08:43,719 --> 00:08:46,470
+tensor into a pair of spinners which are
+sort of like rank 1/2
+
+398
+00:08:46,470 --> 00:08:46,480
+sort of like rank 1/2
+ 
+
+399
+00:08:46,480 --> 00:08:50,269
+sort of like rank 1/2
+tensor now when we rotate a 3D Vector we
+
+400
+00:08:50,269 --> 00:08:50,279
+tensor now when we rotate a 3D Vector we
+ 
+
+401
+00:08:50,279 --> 00:08:53,949
+tensor now when we rotate a 3D Vector we
+usually use a 3X3 rotation Matrix like
+
+402
+00:08:53,949 --> 00:08:53,959
+usually use a 3X3 rotation Matrix like
+ 
+
+403
+00:08:53,959 --> 00:08:57,230
+usually use a 3X3 rotation Matrix like
+this but when we rewrite our 3D Vector
+
+404
+00:08:57,230 --> 00:08:57,240
+this but when we rewrite our 3D Vector
+ 
+
+405
+00:08:57,240 --> 00:09:01,069
+this but when we rewrite our 3D Vector
+as a 2X two poly vector rotating the X Y
+
+406
+00:09:01,069 --> 00:09:01,079
+as a 2X two poly vector rotating the X Y
+ 
+
+407
+00:09:01,079 --> 00:09:04,069
+as a 2X two poly vector rotating the X Y
+and Zed components is instead done with
+
+408
+00:09:04,069 --> 00:09:04,079
+and Zed components is instead done with
+ 
+
+409
+00:09:04,079 --> 00:09:07,509
+and Zed components is instead done with
+a pair of rotation matrices one on each
+
+410
+00:09:07,509 --> 00:09:07,519
+a pair of rotation matrices one on each
+ 
+
+411
+00:09:07,519 --> 00:09:10,990
+a pair of rotation matrices one on each
+side each Matrix is responsible for half
+
+412
+00:09:10,990 --> 00:09:11,000
+side each Matrix is responsible for half
+ 
+
+413
+00:09:11,000 --> 00:09:12,069
+side each Matrix is responsible for half
+of the
+
+414
+00:09:12,069 --> 00:09:12,079
+of the
+ 
+
+415
+00:09:12,079 --> 00:09:14,910
+of the
+rotation if we then Factor our poly
+
+416
+00:09:14,910 --> 00:09:14,920
+rotation if we then Factor our poly
+ 
+
+417
+00:09:14,920 --> 00:09:18,110
+rotation if we then Factor our poly
+Vector into a pair of poly Spinners
+
+418
+00:09:18,110 --> 00:09:18,120
+Vector into a pair of poly Spinners
+ 
+
+419
+00:09:18,120 --> 00:09:20,590
+Vector into a pair of poly Spinners
+notice that each spinner only gets one
+
+420
+00:09:20,590 --> 00:09:20,600
+notice that each spinner only gets one
+ 
+
+421
+00:09:20,600 --> 00:09:24,069
+notice that each spinner only gets one
+rotation Matrix so each spinner only
+
+422
+00:09:24,069 --> 00:09:24,079
+rotation Matrix so each spinner only
+ 
+
+423
+00:09:24,079 --> 00:09:27,269
+rotation Matrix so each spinner only
+rotates half as much as the vector does
+
+424
+00:09:27,269 --> 00:09:27,279
+rotates half as much as the vector does
+ 
+
+425
+00:09:27,279 --> 00:09:29,670
+rotates half as much as the vector does
+just like we saw with Quantum spin state
+
+426
+00:09:29,670 --> 00:09:29,680
+just like we saw with Quantum spin state
+ 
+
+427
+00:09:29,680 --> 00:09:32,030
+just like we saw with Quantum spin state
+and polarization states of
+
+428
+00:09:32,030 --> 00:09:32,040
+and polarization states of
+ 
+
+429
+00:09:32,040 --> 00:09:34,430
+and polarization states of
+light so when looking at all the
+
+430
+00:09:34,430 --> 00:09:34,440
+light so when looking at all the
+ 
+
+431
+00:09:34,440 --> 00:09:36,710
+light so when looking at all the
+different ranks of tensors we can think
+
+432
+00:09:36,710 --> 00:09:36,720
+different ranks of tensors we can think
+ 
+
+433
+00:09:36,720 --> 00:09:39,550
+different ranks of tensors we can think
+of spinners as fitting in right here a
+
+434
+00:09:39,550 --> 00:09:39,560
+of spinners as fitting in right here a
+ 
+
+435
+00:09:39,560 --> 00:09:42,310
+of spinners as fitting in right here a
+spinner is sort of like a tensor of rank
+
+436
+00:09:42,310 --> 00:09:42,320
+spinner is sort of like a tensor of rank
+ 
+
+437
+00:09:42,320 --> 00:09:45,550
+spinner is sort of like a tensor of rank
+1/2 because we can combine two spinners
+
+438
+00:09:45,550 --> 00:09:45,560
+1/2 because we can combine two spinners
+ 
+
+439
+00:09:45,560 --> 00:09:48,110
+1/2 because we can combine two spinners
+into a rank one tensor and because
+
+440
+00:09:48,110 --> 00:09:48,120
+into a rank one tensor and because
+ 
+
+441
+00:09:48,120 --> 00:09:50,389
+into a rank one tensor and because
+Spinners transform half as much as
+
+442
+00:09:50,389 --> 00:09:50,399
+Spinners transform half as much as
+ 
+
+443
+00:09:50,399 --> 00:09:51,550
+Spinners transform half as much as
+vectors
+
+444
+00:09:51,550 --> 00:09:51,560
+vectors
+ 
+
+445
+00:09:51,560 --> 00:09:54,829
+vectors
+do while poly Spinners are associated
+
+446
+00:09:54,829 --> 00:09:54,839
+do while poly Spinners are associated
+ 
+
+447
+00:09:54,839 --> 00:09:57,990
+do while poly Spinners are associated
+with rotations in 3D space in special
+
+448
+00:09:57,990 --> 00:09:58,000
+with rotations in 3D space in special
+ 
+
+449
+00:09:58,000 --> 00:10:00,470
+with rotations in 3D space in special
+relativity it's Al possible to get
+
+450
+00:10:00,470 --> 00:10:00,480
+relativity it's Al possible to get
+ 
+
+451
+00:10:00,480 --> 00:10:02,030
+relativity it's Al possible to get
+Spinners associated with
+
+452
+00:10:02,030 --> 00:10:02,040
+Spinners associated with
+ 
+
+453
+00:10:02,040 --> 00:10:04,630
+Spinners associated with
+four-dimensional SpaceTime which are
+
+454
+00:10:04,630 --> 00:10:04,640
+four-dimensional SpaceTime which are
+ 
+
+455
+00:10:04,640 --> 00:10:07,829
+four-dimensional SpaceTime which are
+called vial Spinners this is a bit
+
+456
+00:10:07,829 --> 00:10:07,839
+called vial Spinners this is a bit
+ 
+
+457
+00:10:07,839 --> 00:10:10,590
+called vial Spinners this is a bit
+confusing as poly Spinners and vile
+
+458
+00:10:10,590 --> 00:10:10,600
+confusing as poly Spinners and vile
+ 
+
+459
+00:10:10,600 --> 00:10:13,350
+confusing as poly Spinners and vile
+Spinners are different kinds of objects
+
+460
+00:10:13,350 --> 00:10:13,360
+Spinners are different kinds of objects
+ 
+
+461
+00:10:13,360 --> 00:10:15,710
+Spinners are different kinds of objects
+but they both look like two component
+
+462
+00:10:15,710 --> 00:10:15,720
+but they both look like two component
+ 
+
+463
+00:10:15,720 --> 00:10:18,030
+but they both look like two component
+columns we'll clear up the difference
+
+464
+00:10:18,030 --> 00:10:18,040
+columns we'll clear up the difference
+ 
+
+465
+00:10:18,040 --> 00:10:21,110
+columns we'll clear up the difference
+between them in future
+
+466
+00:10:21,110 --> 00:10:21,120
+between them in future
+ 
+
+467
+00:10:21,120 --> 00:10:24,190
+between them in future
+videos the next step in the staircase is
+
+468
+00:10:24,190 --> 00:10:24,200
+videos the next step in the staircase is
+ 
+
+469
+00:10:24,200 --> 00:10:27,269
+videos the next step in the staircase is
+Clifford algebras Clifford algebras are
+
+470
+00:10:27,269 --> 00:10:27,279
+Clifford algebras Clifford algebras are
+ 
+
+471
+00:10:27,279 --> 00:10:29,710
+Clifford algebras Clifford algebras are
+a bit abstract but they help help us to
+
+472
+00:10:29,710 --> 00:10:29,720
+a bit abstract but they help help us to
+ 
+
+473
+00:10:29,720 --> 00:10:32,550
+a bit abstract but they help help us to
+find Spinners in any Dimension not just
+
+474
+00:10:32,550 --> 00:10:32,560
+find Spinners in any Dimension not just
+ 
+
+475
+00:10:32,560 --> 00:10:33,990
+find Spinners in any Dimension not just
+three or four
+
+476
+00:10:33,990 --> 00:10:34,000
+three or four
+ 
+
+477
+00:10:34,000 --> 00:10:36,350
+three or four
+dimensions most physics students are
+
+478
+00:10:36,350 --> 00:10:36,360
+dimensions most physics students are
+ 
+
+479
+00:10:36,360 --> 00:10:39,790
+dimensions most physics students are
+familiar with scalers and vectors but
+
+480
+00:10:39,790 --> 00:10:39,800
+familiar with scalers and vectors but
+ 
+
+481
+00:10:39,800 --> 00:10:42,110
+familiar with scalers and vectors but
+sometimes in physics it's more useful to
+
+482
+00:10:42,110 --> 00:10:42,120
+sometimes in physics it's more useful to
+ 
+
+483
+00:10:42,120 --> 00:10:45,069
+sometimes in physics it's more useful to
+use their higher dimensional analoges by
+
+484
+00:10:45,069 --> 00:10:45,079
+use their higher dimensional analoges by
+ 
+
+485
+00:10:45,079 --> 00:10:48,629
+use their higher dimensional analoges by
+vectors Tri vectors and so on for
+
+486
+00:10:48,629 --> 00:10:48,639
+vectors Tri vectors and so on for
+ 
+
+487
+00:10:48,639 --> 00:10:51,110
+vectors Tri vectors and so on for
+example it's much more natural to
+
+488
+00:10:51,110 --> 00:10:51,120
+example it's much more natural to
+ 
+
+489
+00:10:51,120 --> 00:10:53,750
+example it's much more natural to
+represent angular momentum using a b
+
+490
+00:10:53,750 --> 00:10:53,760
+represent angular momentum using a b
+ 
+
+491
+00:10:53,760 --> 00:10:56,750
+represent angular momentum using a b
+Vector which is an oriented plane
+
+492
+00:10:56,750 --> 00:10:56,760
+Vector which is an oriented plane
+ 
+
+493
+00:10:56,760 --> 00:10:59,470
+Vector which is an oriented plane
+instead of using a vector which requires
+
+494
+00:10:59,470 --> 00:10:59,480
+instead of using a vector which requires
+ 
+
+495
+00:10:59,480 --> 00:11:01,509
+instead of using a vector which requires
+the awkward right hand rule to make
+
+496
+00:11:01,509 --> 00:11:01,519
+the awkward right hand rule to make
+ 
+
+497
+00:11:01,519 --> 00:11:05,310
+the awkward right hand rule to make
+sense of we can build these by vectors
+
+498
+00:11:05,310 --> 00:11:05,320
+sense of we can build these by vectors
+ 
+
+499
+00:11:05,320 --> 00:11:08,110
+sense of we can build these by vectors
+using the wedge product the wedge
+
+500
+00:11:08,110 --> 00:11:08,120
+using the wedge product the wedge
+ 
+
+501
+00:11:08,120 --> 00:11:11,310
+using the wedge product the wedge
+product of vectors u and v is a plane
+
+502
+00:11:11,310 --> 00:11:11,320
+product of vectors u and v is a plane
+ 
+
+503
+00:11:11,320 --> 00:11:13,990
+product of vectors u and v is a plane
+formed by the vectors u and v with an
+
+504
+00:11:13,990 --> 00:11:14,000
+formed by the vectors u and v with an
+ 
+
+505
+00:11:14,000 --> 00:11:17,389
+formed by the vectors u and v with an
+orientation that follows the arrows if
+
+506
+00:11:17,389 --> 00:11:17,399
+orientation that follows the arrows if
+ 
+
+507
+00:11:17,399 --> 00:11:19,750
+orientation that follows the arrows if
+we swap the order of the vectors we get
+
+508
+00:11:19,750 --> 00:11:19,760
+we swap the order of the vectors we get
+ 
+
+509
+00:11:19,760 --> 00:11:23,069
+we swap the order of the vectors we get
+the same plane but with the opposite
+
+510
+00:11:23,069 --> 00:11:23,079
+the same plane but with the opposite
+ 
+
+511
+00:11:23,079 --> 00:11:26,230
+the same plane but with the opposite
+orientation these are called B vectors
+
+512
+00:11:26,230 --> 00:11:26,240
+orientation these are called B vectors
+ 
+
+513
+00:11:26,240 --> 00:11:27,990
+orientation these are called B vectors
+and they're a much more straightforward
+
+514
+00:11:27,990 --> 00:11:28,000
+and they're a much more straightforward
+ 
+
+515
+00:11:28,000 --> 00:11:30,190
+and they're a much more straightforward
+way of representing
+
+516
+00:11:30,190 --> 00:11:30,200
+way of representing
+ 
+
+517
+00:11:30,200 --> 00:11:32,910
+way of representing
+rotations with the wedge product we can
+
+518
+00:11:32,910 --> 00:11:32,920
+rotations with the wedge product we can
+ 
+
+519
+00:11:32,920 --> 00:11:35,670
+rotations with the wedge product we can
+build bi vectors Tri vectors and the
+
+520
+00:11:35,670 --> 00:11:35,680
+build bi vectors Tri vectors and the
+ 
+
+521
+00:11:35,680 --> 00:11:38,269
+build bi vectors Tri vectors and the
+other higher dimensional multiv vectors
+
+522
+00:11:38,269 --> 00:11:38,279
+other higher dimensional multiv vectors
+ 
+
+523
+00:11:38,279 --> 00:11:40,629
+other higher dimensional multiv vectors
+which make it easier to represent
+
+524
+00:11:40,629 --> 00:11:40,639
+which make it easier to represent
+ 
+
+525
+00:11:40,639 --> 00:11:43,269
+which make it easier to represent
+geometric ideas in physics without
+
+526
+00:11:43,269 --> 00:11:43,279
+geometric ideas in physics without
+ 
+
+527
+00:11:43,279 --> 00:11:46,269
+geometric ideas in physics without
+having to rely on vectors for
+
+528
+00:11:46,269 --> 00:11:46,279
+having to rely on vectors for
+ 
+
+529
+00:11:46,279 --> 00:11:48,870
+having to rely on vectors for
+everything an algebra with the wedge
+
+530
+00:11:48,870 --> 00:11:48,880
+everything an algebra with the wedge
+ 
+
+531
+00:11:48,880 --> 00:11:52,430
+everything an algebra with the wedge
+product is called a grasman algebra or
+
+532
+00:11:52,430 --> 00:11:52,440
+product is called a grasman algebra or
+ 
+
+533
+00:11:52,440 --> 00:11:54,269
+product is called a grasman algebra or
+sometimes an exterior
+
+534
+00:11:54,269 --> 00:11:54,279
+sometimes an exterior
+ 
+
+535
+00:11:54,279 --> 00:11:57,310
+sometimes an exterior
+algebra when an algebra has both a wedge
+
+536
+00:11:57,310 --> 00:11:57,320
+algebra when an algebra has both a wedge
+ 
+
+537
+00:11:57,320 --> 00:12:00,150
+algebra when an algebra has both a wedge
+product and a DOT product we call it a
+
+538
+00:12:00,150 --> 00:12:00,160
+product and a DOT product we call it a
+ 
+
+539
+00:12:00,160 --> 00:12:03,550
+product and a DOT product we call it a
+Clifford algebra also called a geometric
+
+540
+00:12:03,550 --> 00:12:03,560
+Clifford algebra also called a geometric
+ 
+
+541
+00:12:03,560 --> 00:12:06,190
+Clifford algebra also called a geometric
+algebra the Clifford product of two
+
+542
+00:12:06,190 --> 00:12:06,200
+algebra the Clifford product of two
+ 
+
+543
+00:12:06,200 --> 00:12:08,670
+algebra the Clifford product of two
+vectors is like a combination of the dot
+
+544
+00:12:08,670 --> 00:12:08,680
+vectors is like a combination of the dot
+ 
+
+545
+00:12:08,680 --> 00:12:10,509
+vectors is like a combination of the dot
+product and the wedge
+
+546
+00:12:10,509 --> 00:12:10,519
+product and the wedge
+ 
+
+547
+00:12:10,519 --> 00:12:13,629
+product and the wedge
+product in the Clifford algebra for 3D
+
+548
+00:12:13,629 --> 00:12:13,639
+product in the Clifford algebra for 3D
+ 
+
+549
+00:12:13,639 --> 00:12:16,470
+product in the Clifford algebra for 3D
+space the basis vectors are the sigmas
+
+550
+00:12:16,470 --> 00:12:16,480
+space the basis vectors are the sigmas
+ 
+
+551
+00:12:16,480 --> 00:12:20,069
+space the basis vectors are the sigmas
+we saw before and in 4D space time the
+
+552
+00:12:20,069 --> 00:12:20,079
+we saw before and in 4D space time the
+ 
+
+553
+00:12:20,079 --> 00:12:22,310
+we saw before and in 4D space time the
+basis vectors are the
+
+554
+00:12:22,310 --> 00:12:22,320
+basis vectors are the
+ 
+
+555
+00:12:22,320 --> 00:12:25,710
+basis vectors are the
+gamas in Clifford algebras vectors are
+
+556
+00:12:25,710 --> 00:12:25,720
+gamas in Clifford algebras vectors are
+ 
+
+557
+00:12:25,720 --> 00:12:28,030
+gamas in Clifford algebras vectors are
+also rotated using double-sided
+
+558
+00:12:28,030 --> 00:12:28,040
+also rotated using double-sided
+ 
+
+559
+00:12:28,040 --> 00:12:31,670
+also rotated using double-sided
+transformations just as we saw with poly
+
+560
+00:12:31,670 --> 00:12:31,680
+transformations just as we saw with poly
+ 
+
+561
+00:12:31,680 --> 00:12:35,269
+transformations just as we saw with poly
+vectors Spinners also arise naturally in
+
+562
+00:12:35,269 --> 00:12:35,279
+vectors Spinners also arise naturally in
+ 
+
+563
+00:12:35,279 --> 00:12:38,150
+vectors Spinners also arise naturally in
+Clifford algebras for free here we can
+
+564
+00:12:38,150 --> 00:12:38,160
+Clifford algebras for free here we can
+ 
+
+565
+00:12:38,160 --> 00:12:40,670
+Clifford algebras for free here we can
+see the spin up and spin down States
+
+566
+00:12:40,670 --> 00:12:40,680
+see the spin up and spin down States
+ 
+
+567
+00:12:40,680 --> 00:12:43,230
+see the spin up and spin down States
+from quantum mechanics represented in a
+
+568
+00:12:43,230 --> 00:12:43,240
+from quantum mechanics represented in a
+ 
+
+569
+00:12:43,240 --> 00:12:44,150
+from quantum mechanics represented in a
+Clifford
+
+570
+00:12:44,150 --> 00:12:44,160
+Clifford
+ 
+
+571
+00:12:44,160 --> 00:12:46,949
+Clifford
+algebra we'll see that Spinners can be
+
+572
+00:12:46,949 --> 00:12:46,959
+algebra we'll see that Spinners can be
+ 
+
+573
+00:12:46,959 --> 00:12:49,350
+algebra we'll see that Spinners can be
+defined as members of minimal left
+
+574
+00:12:49,350 --> 00:12:49,360
+defined as members of minimal left
+ 
+
+575
+00:12:49,360 --> 00:12:51,230
+defined as members of minimal left
+ideals in Clifford
+
+576
+00:12:51,230 --> 00:12:51,240
+ideals in Clifford
+ 
+
+577
+00:12:51,240 --> 00:12:53,629
+ideals in Clifford
+algebras this is a pretty abstract
+
+578
+00:12:53,629 --> 00:12:53,639
+algebras this is a pretty abstract
+ 
+
+579
+00:12:53,639 --> 00:12:56,150
+algebras this is a pretty abstract
+sounding definition but we'll approach
+
+580
+00:12:56,150 --> 00:12:56,160
+sounding definition but we'll approach
+ 
+
+581
+00:12:56,160 --> 00:12:58,910
+sounding definition but we'll approach
+it slowly over several videos step by
+
+582
+00:12:58,910 --> 00:12:58,920
+it slowly over several videos step by
+ 
+
+583
+00:12:58,920 --> 00:13:02,030
+it slowly over several videos step by
+step app ultimately this is just a set
+
+584
+00:13:02,030 --> 00:13:02,040
+step app ultimately this is just a set
+ 
+
+585
+00:13:02,040 --> 00:13:03,910
+step app ultimately this is just a set
+of instructions for writing down
+
+586
+00:13:03,910 --> 00:13:03,920
+of instructions for writing down
+ 
+
+587
+00:13:03,920 --> 00:13:06,550
+of instructions for writing down
+Spinners using the right combination of
+
+588
+00:13:06,550 --> 00:13:06,560
+Spinners using the right combination of
+ 
+
+589
+00:13:06,560 --> 00:13:09,790
+Spinners using the right combination of
+scalers vectors and bi vectors and it
+
+590
+00:13:09,790 --> 00:13:09,800
+scalers vectors and bi vectors and it
+ 
+
+591
+00:13:09,800 --> 00:13:12,150
+scalers vectors and bi vectors and it
+works in any
+
+592
+00:13:12,150 --> 00:13:12,160
+works in any
+ 
+
+593
+00:13:12,160 --> 00:13:14,870
+works in any
+Dimension now while being able to Define
+
+594
+00:13:14,870 --> 00:13:14,880
+Dimension now while being able to Define
+ 
+
+595
+00:13:14,880 --> 00:13:17,790
+Dimension now while being able to Define
+Spinners in any Dimension is nice when
+
+596
+00:13:17,790 --> 00:13:17,800
+Spinners in any Dimension is nice when
+ 
+
+597
+00:13:17,800 --> 00:13:19,949
+Spinners in any Dimension is nice when
+it comes to physics the most important
+
+598
+00:13:19,949 --> 00:13:19,959
+it comes to physics the most important
+ 
+
+599
+00:13:19,959 --> 00:13:21,670
+it comes to physics the most important
+Spinners are associated with
+
+600
+00:13:21,670 --> 00:13:21,680
+Spinners are associated with
+ 
+
+601
+00:13:21,680 --> 00:13:23,430
+Spinners are associated with
+three-dimensional space and
+
+602
+00:13:23,430 --> 00:13:23,440
+three-dimensional space and
+ 
+
+603
+00:13:23,440 --> 00:13:26,110
+three-dimensional space and
+four-dimensional SpaceTime the poly
+
+604
+00:13:26,110 --> 00:13:26,120
+four-dimensional SpaceTime the poly
+ 
+
+605
+00:13:26,120 --> 00:13:27,910
+four-dimensional SpaceTime the poly
+Spinners and vile
+
+606
+00:13:27,910 --> 00:13:27,920
+Spinners and vile
+ 
+
+607
+00:13:27,920 --> 00:13:30,790
+Spinners and vile
+Spinners in in particle physics each
+
+608
+00:13:30,790 --> 00:13:30,800
+Spinners in in particle physics each
+ 
+
+609
+00:13:30,800 --> 00:13:33,710
+Spinners in in particle physics each
+type of particle has its own spin value
+
+610
+00:13:33,710 --> 00:13:33,720
+type of particle has its own spin value
+ 
+
+611
+00:13:33,720 --> 00:13:35,829
+type of particle has its own spin value
+with all known fundamental particles
+
+612
+00:13:35,829 --> 00:13:35,839
+with all known fundamental particles
+ 
+
+613
+00:13:35,839 --> 00:13:39,350
+with all known fundamental particles
+being either spin zero spin 1/2 or spin
+
+614
+00:13:39,350 --> 00:13:39,360
+being either spin zero spin 1/2 or spin
+ 
+
+615
+00:13:39,360 --> 00:13:42,430
+being either spin zero spin 1/2 or spin
+one composite particles can have higher
+
+616
+00:13:42,430 --> 00:13:42,440
+one composite particles can have higher
+ 
+
+617
+00:13:42,440 --> 00:13:45,590
+one composite particles can have higher
+spin like spin 3 over2 and the
+
+618
+00:13:45,590 --> 00:13:45,600
+spin like spin 3 over2 and the
+ 
+
+619
+00:13:45,600 --> 00:13:49,269
+spin like spin 3 over2 and the
+theoretical graviton has spin to any
+
+620
+00:13:49,269 --> 00:13:49,279
+theoretical graviton has spin to any
+ 
+
+621
+00:13:49,279 --> 00:13:51,150
+theoretical graviton has spin to any
+theory of quantum mechanics that
+
+622
+00:13:51,150 --> 00:13:51,160
+theory of quantum mechanics that
+ 
+
+623
+00:13:51,160 --> 00:13:53,870
+theory of quantum mechanics that
+incorporates relativity will require us
+
+624
+00:13:53,870 --> 00:13:53,880
+incorporates relativity will require us
+ 
+
+625
+00:13:53,880 --> 00:13:55,910
+incorporates relativity will require us
+to understand how different particle
+
+626
+00:13:55,910 --> 00:13:55,920
+to understand how different particle
+ 
+
+627
+00:13:55,920 --> 00:13:58,350
+to understand how different particle
+types transform under a change of
+
+628
+00:13:58,350 --> 00:13:58,360
+types transform under a change of
+ 
+
+629
+00:13:58,360 --> 00:13:59,910
+types transform under a change of
+reference frame
+
+630
+00:13:59,910 --> 00:13:59,920
+reference frame
+ 
+
+631
+00:13:59,920 --> 00:14:02,110
+reference frame
+to understand this we need to learn the
+
+632
+00:14:02,110 --> 00:14:02,120
+to understand this we need to learn the
+ 
+
+633
+00:14:02,120 --> 00:14:04,629
+to understand this we need to learn the
+theory of Le groups and Lee
+
+634
+00:14:04,629 --> 00:14:04,639
+theory of Le groups and Lee
+ 
+
+635
+00:14:04,639 --> 00:14:07,949
+theory of Le groups and Lee
+algebras if we exponentiate this 3x3
+
+636
+00:14:07,949 --> 00:14:07,959
+algebras if we exponentiate this 3x3
+ 
+
+637
+00:14:07,959 --> 00:14:10,949
+algebras if we exponentiate this 3x3
+Matrix here times Theta we get a
+
+638
+00:14:10,949 --> 00:14:10,959
+Matrix here times Theta we get a
+ 
+
+639
+00:14:10,959 --> 00:14:14,509
+Matrix here times Theta we get a
+rotation Matrix in the XY plane we say
+
+640
+00:14:14,509 --> 00:14:14,519
+rotation Matrix in the XY plane we say
+ 
+
+641
+00:14:14,519 --> 00:14:16,749
+rotation Matrix in the XY plane we say
+that this rotation Matrix is part of the
+
+642
+00:14:16,749 --> 00:14:16,759
+that this rotation Matrix is part of the
+ 
+
+643
+00:14:16,759 --> 00:14:20,389
+that this rotation Matrix is part of the
+Le group SO3 and this Matrix we
+
+644
+00:14:20,389 --> 00:14:20,399
+Le group SO3 and this Matrix we
+ 
+
+645
+00:14:20,399 --> 00:14:23,590
+Le group SO3 and this Matrix we
+exponentiate is called a generator and
+
+646
+00:14:23,590 --> 00:14:23,600
+exponentiate is called a generator and
+ 
+
+647
+00:14:23,600 --> 00:14:26,269
+exponentiate is called a generator and
+is part of the Lee algebra
+
+648
+00:14:26,269 --> 00:14:26,279
+is part of the Lee algebra
+ 
+
+649
+00:14:26,279 --> 00:14:29,949
+is part of the Lee algebra
+SO3 there are generators for all the 3x3
+
+650
+00:14:29,949 --> 00:14:29,959
+SO3 there are generators for all the 3x3
+ 
+
+651
+00:14:29,959 --> 00:14:30,990
+SO3 there are generators for all the 3x3
+rotation
+
+652
+00:14:30,990 --> 00:14:31,000
+rotation
+ 
+
+653
+00:14:31,000 --> 00:14:33,629
+rotation
+matrices and the generators follow
+
+654
+00:14:33,629 --> 00:14:33,639
+matrices and the generators follow
+ 
+
+655
+00:14:33,639 --> 00:14:36,310
+matrices and the generators follow
+special commutation relations which is
+
+656
+00:14:36,310 --> 00:14:36,320
+special commutation relations which is
+ 
+
+657
+00:14:36,320 --> 00:14:38,910
+special commutation relations which is
+why they form a Lee
+
+658
+00:14:38,910 --> 00:14:38,920
+why they form a Lee
+ 
+
+659
+00:14:38,920 --> 00:14:41,749
+why they form a Lee
+algebra if we use these commutation
+
+660
+00:14:41,749 --> 00:14:41,759
+algebra if we use these commutation
+ 
+
+661
+00:14:41,759 --> 00:14:44,350
+algebra if we use these commutation
+relations as a starting point we can
+
+662
+00:14:44,350 --> 00:14:44,360
+relations as a starting point we can
+ 
+
+663
+00:14:44,360 --> 00:14:46,949
+relations as a starting point we can
+find many generator matrices of all
+
+664
+00:14:46,949 --> 00:14:46,959
+find many generator matrices of all
+ 
+
+665
+00:14:46,959 --> 00:14:50,030
+find many generator matrices of all
+different sizes that satisfy them when
+
+666
+00:14:50,030 --> 00:14:50,040
+different sizes that satisfy them when
+ 
+
+667
+00:14:50,040 --> 00:14:52,870
+different sizes that satisfy them when
+we exponentiate these generators we get
+
+668
+00:14:52,870 --> 00:14:52,880
+we exponentiate these generators we get
+ 
+
+669
+00:14:52,880 --> 00:14:55,389
+we exponentiate these generators we get
+rotation matrices for all the different
+
+670
+00:14:55,389 --> 00:14:55,399
+rotation matrices for all the different
+ 
+
+671
+00:14:55,399 --> 00:14:59,389
+rotation matrices for all the different
+particle spin types the 3X3 matrices
+
+672
+00:14:59,389 --> 00:14:59,399
+particle spin types the 3X3 matrices
+ 
+
+673
+00:14:59,399 --> 00:15:02,790
+particle spin types the 3X3 matrices
+rotate the standard 3D vectors the 2x
+
+674
+00:15:02,790 --> 00:15:02,800
+rotate the standard 3D vectors the 2x
+ 
+
+675
+00:15:02,800 --> 00:15:06,350
+rotate the standard 3D vectors the 2x
+two matrices rotate poly Spinners and
+
+676
+00:15:06,350 --> 00:15:06,360
+two matrices rotate poly Spinners and
+ 
+
+677
+00:15:06,360 --> 00:15:08,829
+two matrices rotate poly Spinners and
+all the other matrices rotate particles
+
+678
+00:15:08,829 --> 00:15:08,839
+all the other matrices rotate particles
+ 
+
+679
+00:15:08,839 --> 00:15:11,590
+all the other matrices rotate particles
+with other spins so looking at the
+
+680
+00:15:11,590 --> 00:15:11,600
+with other spins so looking at the
+ 
+
+681
+00:15:11,600 --> 00:15:13,550
+with other spins so looking at the
+different matrices that come out of this
+
+682
+00:15:13,550 --> 00:15:13,560
+different matrices that come out of this
+ 
+
+683
+00:15:13,560 --> 00:15:16,430
+different matrices that come out of this
+Lee algebra gives us a recipe for
+
+684
+00:15:16,430 --> 00:15:16,440
+Lee algebra gives us a recipe for
+ 
+
+685
+00:15:16,440 --> 00:15:19,069
+Lee algebra gives us a recipe for
+rotating particles with different spins
+
+686
+00:15:19,069 --> 00:15:19,079
+rotating particles with different spins
+ 
+
+687
+00:15:19,079 --> 00:15:20,509
+rotating particles with different spins
+in three
+
+688
+00:15:20,509 --> 00:15:20,519
+in three
+ 
+
+689
+00:15:20,519 --> 00:15:22,670
+in three
+dimensions we can follow similar
+
+690
+00:15:22,670 --> 00:15:22,680
+dimensions we can follow similar
+ 
+
+691
+00:15:22,680 --> 00:15:25,269
+dimensions we can follow similar
+reasoning for Lorent transformations in
+
+692
+00:15:25,269 --> 00:15:25,279
+reasoning for Lorent transformations in
+ 
+
+693
+00:15:25,279 --> 00:15:28,189
+reasoning for Lorent transformations in
+special relativity with the Le group
+
+694
+00:15:28,189 --> 00:15:28,199
+special relativity with the Le group
+ 
+
+695
+00:15:28,199 --> 00:15:29,629
+special relativity with the Le group
+so13
+
+696
+00:15:29,629 --> 00:15:29,639
+so13
+ 
+
+697
+00:15:29,639 --> 00:15:32,550
+so13
+which has six generators and this tells
+
+698
+00:15:32,550 --> 00:15:32,560
+which has six generators and this tells
+ 
+
+699
+00:15:32,560 --> 00:15:35,069
+which has six generators and this tells
+us how to transform vile Spinners and
+
+700
+00:15:35,069 --> 00:15:35,079
+us how to transform vile Spinners and
+ 
+
+701
+00:15:35,079 --> 00:15:37,269
+us how to transform vile Spinners and
+particles of other spins according to
+
+702
+00:15:37,269 --> 00:15:37,279
+particles of other spins according to
+ 
+
+703
+00:15:37,279 --> 00:15:39,990
+particles of other spins according to
+Loren
+
+704
+00:15:39,990 --> 00:15:40,000
+
+ 
+
+705
+00:15:40,000 --> 00:15:42,430
+
+Transformations at this point we'll have
+
+706
+00:15:42,430 --> 00:15:42,440
+Transformations at this point we'll have
+ 
+
+707
+00:15:42,440 --> 00:15:44,389
+Transformations at this point we'll have
+most of the math required for
+
+708
+00:15:44,389 --> 00:15:44,399
+most of the math required for
+ 
+
+709
+00:15:44,399 --> 00:15:46,470
+most of the math required for
+understanding Spinners so we'll look at
+
+710
+00:15:46,470 --> 00:15:46,480
+understanding Spinners so we'll look at
+ 
+
+711
+00:15:46,480 --> 00:15:49,550
+understanding Spinners so we'll look at
+how they are used in particle physics
+
+712
+00:15:49,550 --> 00:15:49,560
+how they are used in particle physics
+ 
+
+713
+00:15:49,560 --> 00:15:52,309
+how they are used in particle physics
+modern particle physics treats particles
+
+714
+00:15:52,309 --> 00:15:52,319
+modern particle physics treats particles
+ 
+
+715
+00:15:52,319 --> 00:15:55,749
+modern particle physics treats particles
+as excitations in various fields for
+
+716
+00:15:55,749 --> 00:15:55,759
+as excitations in various fields for
+ 
+
+717
+00:15:55,759 --> 00:15:58,670
+as excitations in various fields for
+example an electron is an excitation in
+
+718
+00:15:58,670 --> 00:15:58,680
+example an electron is an excitation in
+ 
+
+719
+00:15:58,680 --> 00:16:01,749
+example an electron is an excitation in
+the electron field and a photon is an
+
+720
+00:16:01,749 --> 00:16:01,759
+the electron field and a photon is an
+ 
+
+721
+00:16:01,759 --> 00:16:05,269
+the electron field and a photon is an
+excitation in the photon field the spin
+
+722
+00:16:05,269 --> 00:16:05,279
+excitation in the photon field the spin
+ 
+
+723
+00:16:05,279 --> 00:16:08,389
+excitation in the photon field the spin
+zero higs field is a scalar field the
+
+724
+00:16:08,389 --> 00:16:08,399
+zero higs field is a scalar field the
+ 
+
+725
+00:16:08,399 --> 00:16:10,790
+zero higs field is a scalar field the
+spin one force carrying particles are
+
+726
+00:16:10,790 --> 00:16:10,800
+spin one force carrying particles are
+ 
+
+727
+00:16:10,800 --> 00:16:13,990
+spin one force carrying particles are
+each Vector fields and the various spin
+
+728
+00:16:13,990 --> 00:16:14,000
+each Vector fields and the various spin
+ 
+
+729
+00:16:14,000 --> 00:16:16,590
+each Vector fields and the various spin
+1 half matter particles each have
+
+730
+00:16:16,590 --> 00:16:16,600
+1 half matter particles each have
+ 
+
+731
+00:16:16,600 --> 00:16:19,949
+1 half matter particles each have
+spinner Fields the study of these fields
+
+732
+00:16:19,949 --> 00:16:19,959
+spinner Fields the study of these fields
+ 
+
+733
+00:16:19,959 --> 00:16:23,350
+spinner Fields the study of these fields
+is called Quantum field Theory or
+
+734
+00:16:23,350 --> 00:16:23,360
+is called Quantum field Theory or
+ 
+
+735
+00:16:23,360 --> 00:16:26,269
+is called Quantum field Theory or
+qft and the interactions between these
+
+736
+00:16:26,269 --> 00:16:26,279
+qft and the interactions between these
+ 
+
+737
+00:16:26,279 --> 00:16:28,509
+qft and the interactions between these
+various fields are modeled by an
+
+738
+00:16:28,509 --> 00:16:28,519
+various fields are modeled by an
+ 
+
+739
+00:16:28,519 --> 00:16:31,110
+various fields are modeled by an
+enormous formula called the standard
+
+740
+00:16:31,110 --> 00:16:31,120
+enormous formula called the standard
+ 
+
+741
+00:16:31,120 --> 00:16:32,509
+enormous formula called the standard
+model
+
+742
+00:16:32,509 --> 00:16:32,519
+model
+ 
+
+743
+00:16:32,519 --> 00:16:35,509
+model
+lran any terms in this formula that
+
+744
+00:16:35,509 --> 00:16:35,519
+lran any terms in this formula that
+ 
+
+745
+00:16:35,519 --> 00:16:38,470
+lran any terms in this formula that
+contain a pair of fields represent an
+
+746
+00:16:38,470 --> 00:16:38,480
+contain a pair of fields represent an
+ 
+
+747
+00:16:38,480 --> 00:16:41,350
+contain a pair of fields represent an
+interaction between those fields for
+
+748
+00:16:41,350 --> 00:16:41,360
+interaction between those fields for
+ 
+
+749
+00:16:41,360 --> 00:16:43,550
+interaction between those fields for
+example this term represents the
+
+750
+00:16:43,550 --> 00:16:43,560
+example this term represents the
+ 
+
+751
+00:16:43,560 --> 00:16:46,309
+example this term represents the
+electron spinner field interacting with
+
+752
+00:16:46,309 --> 00:16:46,319
+electron spinner field interacting with
+ 
+
+753
+00:16:46,319 --> 00:16:48,189
+electron spinner field interacting with
+the photon Vector
+
+754
+00:16:48,189 --> 00:16:48,199
+the photon Vector
+ 
+
+755
+00:16:48,199 --> 00:16:51,309
+the photon Vector
+field Spinners in Quantum field Theory
+
+756
+00:16:51,309 --> 00:16:51,319
+field Spinners in Quantum field Theory
+ 
+
+757
+00:16:51,319 --> 00:16:54,189
+field Spinners in Quantum field Theory
+are four component columns called dra
+
+758
+00:16:54,189 --> 00:16:54,199
+are four component columns called dra
+ 
+
+759
+00:16:54,199 --> 00:16:57,069
+are four component columns called dra
+Spinners which are really a pair of two
+
+760
+00:16:57,069 --> 00:16:57,079
+Spinners which are really a pair of two
+ 
+
+761
+00:16:57,079 --> 00:16:59,710
+Spinners which are really a pair of two
+component vial spinners one having
+
+762
+00:16:59,710 --> 00:16:59,720
+component vial spinners one having
+ 
+
+763
+00:16:59,720 --> 00:17:02,110
+component vial spinners one having
+left-handed chirality and the other
+
+764
+00:17:02,110 --> 00:17:02,120
+left-handed chirality and the other
+ 
+
+765
+00:17:02,120 --> 00:17:03,789
+left-handed chirality and the other
+having right-handed
+
+766
+00:17:03,789 --> 00:17:03,799
+having right-handed
+ 
+
+767
+00:17:03,799 --> 00:17:07,069
+having right-handed
+chirality ordinary tensors only have two
+
+768
+00:17:07,069 --> 00:17:07,079
+chirality ordinary tensors only have two
+ 
+
+769
+00:17:07,079 --> 00:17:11,029
+chirality ordinary tensors only have two
+index types upper and lower but because
+
+770
+00:17:11,029 --> 00:17:11,039
+index types upper and lower but because
+ 
+
+771
+00:17:11,039 --> 00:17:13,549
+index types upper and lower but because
+vile Spinners come in both left-handed
+
+772
+00:17:13,549 --> 00:17:13,559
+vile Spinners come in both left-handed
+ 
+
+773
+00:17:13,559 --> 00:17:16,309
+vile Spinners come in both left-handed
+and right-handed versions they require
+
+774
+00:17:16,309 --> 00:17:16,319
+and right-handed versions they require
+ 
+
+775
+00:17:16,319 --> 00:17:19,189
+and right-handed versions they require
+four index types using dots for
+
+776
+00:17:19,189 --> 00:17:19,199
+four index types using dots for
+ 
+
+777
+00:17:19,199 --> 00:17:21,710
+four index types using dots for
+right-handed Spinners and no dots for
+
+778
+00:17:21,710 --> 00:17:21,720
+right-handed Spinners and no dots for
+ 
+
+779
+00:17:21,720 --> 00:17:24,870
+right-handed Spinners and no dots for
+left-handed Spinners this notation is
+
+780
+00:17:24,870 --> 00:17:24,880
+left-handed Spinners this notation is
+ 
+
+781
+00:17:24,880 --> 00:17:27,350
+left-handed Spinners this notation is
+called the Vander Warden
+
+782
+00:17:27,350 --> 00:17:27,360
+called the Vander Warden
+ 
+
+783
+00:17:27,360 --> 00:17:30,230
+called the Vander Warden
+notation one interesting fact is that
+
+784
+00:17:30,230 --> 00:17:30,240
+notation one interesting fact is that
+ 
+
+785
+00:17:30,240 --> 00:17:32,870
+notation one interesting fact is that
+the weak nuclear force is only known to
+
+786
+00:17:32,870 --> 00:17:32,880
+the weak nuclear force is only known to
+ 
+
+787
+00:17:32,880 --> 00:17:36,070
+the weak nuclear force is only known to
+interact with left-handed particles so
+
+788
+00:17:36,070 --> 00:17:36,080
+interact with left-handed particles so
+ 
+
+789
+00:17:36,080 --> 00:17:38,669
+interact with left-handed particles so
+reflecting the universe in a mirror or
+
+790
+00:17:38,669 --> 00:17:38,679
+reflecting the universe in a mirror or
+ 
+
+791
+00:17:38,679 --> 00:17:40,789
+reflecting the universe in a mirror or
+equivalently swapping the left and
+
+792
+00:17:40,789 --> 00:17:40,799
+equivalently swapping the left and
+ 
+
+793
+00:17:40,799 --> 00:17:43,190
+equivalently swapping the left and
+right-handed particles in the formula
+
+794
+00:17:43,190 --> 00:17:43,200
+right-handed particles in the formula
+ 
+
+795
+00:17:43,200 --> 00:17:46,390
+right-handed particles in the formula
+does not result in the same physics and
+
+796
+00:17:46,390 --> 00:17:46,400
+does not result in the same physics and
+ 
+
+797
+00:17:46,400 --> 00:17:48,750
+does not result in the same physics and
+studying Quantum field Theory will help
+
+798
+00:17:48,750 --> 00:17:48,760
+studying Quantum field Theory will help
+ 
+
+799
+00:17:48,760 --> 00:17:51,230
+studying Quantum field Theory will help
+us understand how the various forces
+
+800
+00:17:51,230 --> 00:17:51,240
+us understand how the various forces
+ 
+
+801
+00:17:51,240 --> 00:17:54,110
+us understand how the various forces
+like the weak Force interact with the
+
+802
+00:17:54,110 --> 00:17:54,120
+like the weak Force interact with the
+ 
+
+803
+00:17:54,120 --> 00:17:56,549
+like the weak Force interact with the
+various spinner matter
+
+804
+00:17:56,549 --> 00:17:56,559
+various spinner matter
+ 
+
+805
+00:17:56,559 --> 00:17:59,070
+various spinner matter
+particles the study of quantum f field
+
+806
+00:17:59,070 --> 00:17:59,080
+particles the study of quantum f field
+ 
+
+807
+00:17:59,080 --> 00:18:01,590
+particles the study of quantum f field
+Theory can last several semesters in
+
+808
+00:18:01,590 --> 00:18:01,600
+Theory can last several semesters in
+ 
+
+809
+00:18:01,600 --> 00:18:04,110
+Theory can last several semesters in
+graduate school so in this series I'll
+
+810
+00:18:04,110 --> 00:18:04,120
+graduate school so in this series I'll
+ 
+
+811
+00:18:04,120 --> 00:18:06,070
+graduate school so in this series I'll
+only be scratching the surface of how
+
+812
+00:18:06,070 --> 00:18:06,080
+only be scratching the surface of how
+ 
+
+813
+00:18:06,080 --> 00:18:08,230
+only be scratching the surface of how
+Spinners are used in
+
+814
+00:18:08,230 --> 00:18:08,240
+Spinners are used in
+ 
+
+815
+00:18:08,240 --> 00:18:11,029
+Spinners are used in
+it so I realize if you've never studied
+
+816
+00:18:11,029 --> 00:18:11,039
+it so I realize if you've never studied
+ 
+
+817
+00:18:11,039 --> 00:18:13,590
+it so I realize if you've never studied
+Spinners before everything I just said
+
+818
+00:18:13,590 --> 00:18:13,600
+Spinners before everything I just said
+ 
+
+819
+00:18:13,600 --> 00:18:16,350
+Spinners before everything I just said
+was a lot to take in you don't need to
+
+820
+00:18:16,350 --> 00:18:16,360
+was a lot to take in you don't need to
+ 
+
+821
+00:18:16,360 --> 00:18:18,549
+was a lot to take in you don't need to
+understand any of it now I'm just trying
+
+822
+00:18:18,549 --> 00:18:18,559
+understand any of it now I'm just trying
+ 
+
+823
+00:18:18,559 --> 00:18:20,630
+understand any of it now I'm just trying
+to give you a basic road map for where
+
+824
+00:18:20,630 --> 00:18:20,640
+to give you a basic road map for where
+ 
+
+825
+00:18:20,640 --> 00:18:23,830
+to give you a basic road map for where
+this video series is going I also don't
+
+826
+00:18:23,830 --> 00:18:23,840
+this video series is going I also don't
+ 
+
+827
+00:18:23,840 --> 00:18:26,029
+this video series is going I also don't
+expect everyone to finish every single
+
+828
+00:18:26,029 --> 00:18:26,039
+expect everyone to finish every single
+ 
+
+829
+00:18:26,039 --> 00:18:28,510
+expect everyone to finish every single
+video in the series some people might
+
+830
+00:18:28,510 --> 00:18:28,520
+video in the series some people might
+ 
+
+831
+00:18:28,520 --> 00:18:31,029
+video in the series some people might
+have their curiosity satisfied after the
+
+832
+00:18:31,029 --> 00:18:31,039
+have their curiosity satisfied after the
+ 
+
+833
+00:18:31,039 --> 00:18:33,149
+have their curiosity satisfied after the
+first couple steps and decide they don't
+
+834
+00:18:33,149 --> 00:18:33,159
+first couple steps and decide they don't
+ 
+
+835
+00:18:33,159 --> 00:18:36,310
+first couple steps and decide they don't
+need to watch anymore and that's fine
+
+836
+00:18:36,310 --> 00:18:36,320
+need to watch anymore and that's fine
+ 
+
+837
+00:18:36,320 --> 00:18:38,149
+need to watch anymore and that's fine
+but I'm hoping that anyone who wants to
+
+838
+00:18:38,149 --> 00:18:38,159
+but I'm hoping that anyone who wants to
+ 
+
+839
+00:18:38,159 --> 00:18:40,470
+but I'm hoping that anyone who wants to
+learn about Spinners in any level of
+
+840
+00:18:40,470 --> 00:18:40,480
+learn about Spinners in any level of
+ 
+
+841
+00:18:40,480 --> 00:18:42,909
+learn about Spinners in any level of
+detail will find this video series
+
+842
+00:18:42,909 --> 00:18:42,919
+detail will find this video series
+ 
+
+843
+00:18:42,919 --> 00:18:45,710
+detail will find this video series
+helpful in untangling a rather confusing
+
+844
+00:18:45,710 --> 00:18:45,720
+helpful in untangling a rather confusing
+ 
+
+845
+00:18:45,720 --> 00:18:48,590
+helpful in untangling a rather confusing
+Topic in physics so if you're interested
+
+846
+00:18:48,590 --> 00:18:48,600
+Topic in physics so if you're interested
+ 
+
+847
+00:18:48,600 --> 00:18:50,830
+Topic in physics so if you're interested
+in watching more I've left a link to the
+
+848
+00:18:50,830 --> 00:18:50,840
+in watching more I've left a link to the
+ 
+
+849
+00:18:50,840 --> 00:18:53,110
+in watching more I've left a link to the
+playlist in the description and we'll
+
+850
+00:18:53,110 --> 00:18:53,120
+playlist in the description and we'll
+ 
+
+851
+00:18:53,120 --> 00:18:55,190
+playlist in the description and we'll
+start with learning some basic examples
+
+852
+00:18:55,190 --> 00:18:55,200
+start with learning some basic examples
+ 
+
+853
+00:18:55,200 --> 00:18:59,840
+start with learning some basic examples
+of how Spinners are used in physics
+

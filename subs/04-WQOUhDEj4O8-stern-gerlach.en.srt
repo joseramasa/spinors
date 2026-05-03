@@ -1,0 +1,5895 @@
+1
+00:00:00,420 --> 00:00:03,169
+
+in this video we're going to look at our
+
+2
+00:00:03,169 --> 00:00:03,179
+in this video we're going to look at our
+ 
+
+3
+00:00:03,179 --> 00:00:05,510
+in this video we're going to look at our
+second example of spinners in physics
+
+4
+00:00:05,510 --> 00:00:05,520
+second example of spinners in physics
+ 
+
+5
+00:00:05,520 --> 00:00:08,210
+second example of spinners in physics
+which involves the stair and gearlock
+
+6
+00:00:08,210 --> 00:00:08,220
+which involves the stair and gearlock
+ 
+
+7
+00:00:08,220 --> 00:00:10,610
+which involves the stair and gearlock
+experiment and how it reveals the
+
+8
+00:00:10,610 --> 00:00:10,620
+experiment and how it reveals the
+ 
+
+9
+00:00:10,620 --> 00:00:13,430
+experiment and how it reveals the
+existence of quantum spin States
+
+10
+00:00:13,430 --> 00:00:13,440
+existence of quantum spin States
+ 
+
+11
+00:00:13,440 --> 00:00:15,470
+existence of quantum spin States
+we're going to find that the mathematics
+
+12
+00:00:15,470 --> 00:00:15,480
+we're going to find that the mathematics
+ 
+
+13
+00:00:15,480 --> 00:00:18,410
+we're going to find that the mathematics
+used to describe Quantum spin States is
+
+14
+00:00:18,410 --> 00:00:18,420
+used to describe Quantum spin States is
+ 
+
+15
+00:00:18,420 --> 00:00:20,510
+used to describe Quantum spin States is
+the exact same as the mathematics used
+
+16
+00:00:20,510 --> 00:00:20,520
+the exact same as the mathematics used
+ 
+
+17
+00:00:20,520 --> 00:00:22,670
+the exact same as the mathematics used
+to describe the polarizations of
+
+18
+00:00:22,670 --> 00:00:22,680
+to describe the polarizations of
+ 
+
+19
+00:00:22,680 --> 00:00:25,370
+to describe the polarizations of
+classical light waves that we saw in the
+
+20
+00:00:25,370 --> 00:00:25,380
+classical light waves that we saw in the
+ 
+
+21
+00:00:25,380 --> 00:00:27,050
+classical light waves that we saw in the
+last two videos
+
+22
+00:00:27,050 --> 00:00:27,060
+last two videos
+ 
+
+23
+00:00:27,060 --> 00:00:29,689
+last two videos
+they are both described by two by one
+
+24
+00:00:29,689 --> 00:00:29,699
+they are both described by two by one
+ 
+
+25
+00:00:29,699 --> 00:00:32,630
+they are both described by two by one
+complex columns called Spinners that can
+
+26
+00:00:32,630 --> 00:00:32,640
+complex columns called Spinners that can
+ 
+
+27
+00:00:32,640 --> 00:00:36,229
+complex columns called Spinners that can
+be rotated with su2 matrices and there
+
+28
+00:00:36,229 --> 00:00:36,239
+be rotated with su2 matrices and there
+ 
+
+29
+00:00:36,239 --> 00:00:37,790
+be rotated with su2 matrices and there
+is an angle doubling relationship
+
+30
+00:00:37,790 --> 00:00:37,800
+is an angle doubling relationship
+ 
+
+31
+00:00:37,800 --> 00:00:40,790
+is an angle doubling relationship
+between physical space and the quantum
+
+32
+00:00:40,790 --> 00:00:40,800
+between physical space and the quantum
+ 
+
+33
+00:00:40,800 --> 00:00:42,110
+between physical space and the quantum
+State space
+
+34
+00:00:42,110 --> 00:00:42,120
+State space
+ 
+
+35
+00:00:42,120 --> 00:00:44,630
+State space
+just like how we saw there was an angle
+
+36
+00:00:44,630 --> 00:00:44,640
+just like how we saw there was an angle
+ 
+
+37
+00:00:44,640 --> 00:00:46,310
+just like how we saw there was an angle
+doubling relationship between
+
+38
+00:00:46,310 --> 00:00:46,320
+doubling relationship between
+ 
+
+39
+00:00:46,320 --> 00:00:49,369
+doubling relationship between
+polarization space and physical space in
+
+40
+00:00:49,369 --> 00:00:49,379
+polarization space and physical space in
+ 
+
+41
+00:00:49,379 --> 00:00:51,290
+polarization space and physical space in
+the last video
+
+42
+00:00:51,290 --> 00:00:51,300
+the last video
+ 
+
+43
+00:00:51,300 --> 00:00:52,790
+the last video
+before getting to the spinner
+
+44
+00:00:52,790 --> 00:00:52,800
+before getting to the spinner
+ 
+
+45
+00:00:52,800 --> 00:00:55,610
+before getting to the spinner
+mathematics let's describe the stair and
+
+46
+00:00:55,610 --> 00:00:55,620
+mathematics let's describe the stair and
+ 
+
+47
+00:00:55,620 --> 00:00:58,250
+mathematics let's describe the stair and
+gerlock experiment which was performed
+
+48
+00:00:58,250 --> 00:00:58,260
+gerlock experiment which was performed
+ 
+
+49
+00:00:58,260 --> 00:01:01,970
+gerlock experiment which was performed
+in 1922. I'm going to call it the SG
+
+50
+00:01:01,970 --> 00:01:01,980
+in 1922. I'm going to call it the SG
+ 
+
+51
+00:01:01,980 --> 00:01:04,490
+in 1922. I'm going to call it the SG
+experiment for short
+
+52
+00:01:04,490 --> 00:01:04,500
+experiment for short
+ 
+
+53
+00:01:04,500 --> 00:01:07,429
+experiment for short
+the SG experiment involves a beam of
+
+54
+00:01:07,429 --> 00:01:07,439
+the SG experiment involves a beam of
+ 
+
+55
+00:01:07,439 --> 00:01:10,010
+the SG experiment involves a beam of
+neutral atoms and an inhomogenous
+
+56
+00:01:10,010 --> 00:01:10,020
+neutral atoms and an inhomogenous
+ 
+
+57
+00:01:10,020 --> 00:01:11,630
+neutral atoms and an inhomogenous
+magnetic field
+
+58
+00:01:11,630 --> 00:01:11,640
+magnetic field
+ 
+
+59
+00:01:11,640 --> 00:01:14,330
+magnetic field
+a homogeneous magnetic field would have
+
+60
+00:01:14,330 --> 00:01:14,340
+a homogeneous magnetic field would have
+ 
+
+61
+00:01:14,340 --> 00:01:17,210
+a homogeneous magnetic field would have
+the same strength everywhere but this
+
+62
+00:01:17,210 --> 00:01:17,220
+the same strength everywhere but this
+ 
+
+63
+00:01:17,220 --> 00:01:20,149
+the same strength everywhere but this
+strangely shaped magnetic device is able
+
+64
+00:01:20,149 --> 00:01:20,159
+strangely shaped magnetic device is able
+ 
+
+65
+00:01:20,159 --> 00:01:22,670
+strangely shaped magnetic device is able
+to generate an inhomogenous magnetic
+
+66
+00:01:22,670 --> 00:01:22,680
+to generate an inhomogenous magnetic
+ 
+
+67
+00:01:22,680 --> 00:01:25,249
+to generate an inhomogenous magnetic
+field which is stronger at this pointed
+
+68
+00:01:25,249 --> 00:01:25,259
+field which is stronger at this pointed
+ 
+
+69
+00:01:25,259 --> 00:01:28,130
+field which is stronger at this pointed
+tip labeled South and weaker on the
+
+70
+00:01:28,130 --> 00:01:28,140
+tip labeled South and weaker on the
+ 
+
+71
+00:01:28,140 --> 00:01:30,469
+tip labeled South and weaker on the
+lower half labeled North
+
+72
+00:01:30,469 --> 00:01:30,479
+lower half labeled North
+ 
+
+73
+00:01:30,479 --> 00:01:33,109
+lower half labeled North
+the beam of neutral atoms in the
+
+74
+00:01:33,109 --> 00:01:33,119
+the beam of neutral atoms in the
+ 
+
+75
+00:01:33,119 --> 00:01:35,270
+the beam of neutral atoms in the
+original experiment was made of silver
+
+76
+00:01:35,270 --> 00:01:35,280
+original experiment was made of silver
+ 
+
+77
+00:01:35,280 --> 00:01:38,510
+original experiment was made of silver
+atoms neutral atoms have an equal number
+
+78
+00:01:38,510 --> 00:01:38,520
+atoms neutral atoms have an equal number
+ 
+
+79
+00:01:38,520 --> 00:01:41,810
+atoms neutral atoms have an equal number
+of protons and electrons so there is no
+
+80
+00:01:41,810 --> 00:01:41,820
+of protons and electrons so there is no
+ 
+
+81
+00:01:41,820 --> 00:01:43,249
+of protons and electrons so there is no
+net charge
+
+82
+00:01:43,249 --> 00:01:43,259
+net charge
+ 
+
+83
+00:01:43,259 --> 00:01:46,310
+net charge
+naively you'd expect neutral atoms to be
+
+84
+00:01:46,310 --> 00:01:46,320
+naively you'd expect neutral atoms to be
+ 
+
+85
+00:01:46,320 --> 00:01:48,350
+naively you'd expect neutral atoms to be
+completely unaffected by a magnetic
+
+86
+00:01:48,350 --> 00:01:48,360
+completely unaffected by a magnetic
+ 
+
+87
+00:01:48,360 --> 00:01:51,109
+completely unaffected by a magnetic
+field but the Bohr model of the atom
+
+88
+00:01:51,109 --> 00:01:51,119
+field but the Bohr model of the atom
+ 
+
+89
+00:01:51,119 --> 00:01:53,569
+field but the Bohr model of the atom
+that was developed in the early 1900s
+
+90
+00:01:53,569 --> 00:01:53,579
+that was developed in the early 1900s
+ 
+
+91
+00:01:53,579 --> 00:01:56,270
+that was developed in the early 1900s
+predicted that electrons orbited around
+
+92
+00:01:56,270 --> 00:01:56,280
+predicted that electrons orbited around
+ 
+
+93
+00:01:56,280 --> 00:01:59,330
+predicted that electrons orbited around
+the nucleus and this small Loop of
+
+94
+00:01:59,330 --> 00:01:59,340
+the nucleus and this small Loop of
+ 
+
+95
+00:01:59,340 --> 00:02:01,789
+the nucleus and this small Loop of
+electric current would behave like a
+
+96
+00:02:01,789 --> 00:02:01,799
+electric current would behave like a
+ 
+
+97
+00:02:01,799 --> 00:02:06,109
+electric current would behave like a
+magnetic dipole or a tiny bar magnet
+
+98
+00:02:06,109 --> 00:02:06,119
+magnetic dipole or a tiny bar magnet
+ 
+
+99
+00:02:06,119 --> 00:02:09,229
+magnetic dipole or a tiny bar magnet
+now if we were to send a bunch of tiny
+
+100
+00:02:09,229 --> 00:02:09,239
+now if we were to send a bunch of tiny
+ 
+
+101
+00:02:09,239 --> 00:02:11,270
+now if we were to send a bunch of tiny
+classical bar magnets through this
+
+102
+00:02:11,270 --> 00:02:11,280
+classical bar magnets through this
+ 
+
+103
+00:02:11,280 --> 00:02:14,330
+classical bar magnets through this
+inhomogenous magnetic field then the bar
+
+104
+00:02:14,330 --> 00:02:14,340
+inhomogenous magnetic field then the bar
+ 
+
+105
+00:02:14,340 --> 00:02:16,790
+inhomogenous magnetic field then the bar
+magnets with North pointing up would be
+
+106
+00:02:16,790 --> 00:02:16,800
+magnets with North pointing up would be
+ 
+
+107
+00:02:16,800 --> 00:02:19,190
+magnets with North pointing up would be
+deflected upward since the magnetic
+
+108
+00:02:19,190 --> 00:02:19,200
+deflected upward since the magnetic
+ 
+
+109
+00:02:19,200 --> 00:02:21,949
+deflected upward since the magnetic
+field is stronger at this tip
+
+110
+00:02:21,949 --> 00:02:21,959
+field is stronger at this tip
+ 
+
+111
+00:02:21,959 --> 00:02:24,290
+field is stronger at this tip
+and magnets with North pointing down
+
+112
+00:02:24,290 --> 00:02:24,300
+and magnets with North pointing down
+ 
+
+113
+00:02:24,300 --> 00:02:26,869
+and magnets with North pointing down
+would be deflected downward
+
+114
+00:02:26,869 --> 00:02:26,879
+would be deflected downward
+ 
+
+115
+00:02:26,879 --> 00:02:29,330
+would be deflected downward
+and every other orientation of bar
+
+116
+00:02:29,330 --> 00:02:29,340
+and every other orientation of bar
+ 
+
+117
+00:02:29,340 --> 00:02:31,550
+and every other orientation of bar
+magnet would be deflected somewhere in
+
+118
+00:02:31,550 --> 00:02:31,560
+magnet would be deflected somewhere in
+ 
+
+119
+00:02:31,560 --> 00:02:35,390
+magnet would be deflected somewhere in
+between depending on their orientation
+
+120
+00:02:35,390 --> 00:02:35,400
+between depending on their orientation
+ 
+
+121
+00:02:35,400 --> 00:02:37,850
+between depending on their orientation
+however after performing The Experiment
+
+122
+00:02:37,850 --> 00:02:37,860
+however after performing The Experiment
+ 
+
+123
+00:02:37,860 --> 00:02:41,390
+however after performing The Experiment
+this is not what we see we only see two
+
+124
+00:02:41,390 --> 00:02:41,400
+this is not what we see we only see two
+ 
+
+125
+00:02:41,400 --> 00:02:44,089
+this is not what we see we only see two
+types of deflection either completely up
+
+126
+00:02:44,089 --> 00:02:44,099
+types of deflection either completely up
+ 
+
+127
+00:02:44,099 --> 00:02:46,670
+types of deflection either completely up
+or completely down and nothing in
+
+128
+00:02:46,670 --> 00:02:46,680
+or completely down and nothing in
+ 
+
+129
+00:02:46,680 --> 00:02:48,229
+or completely down and nothing in
+between
+
+130
+00:02:48,229 --> 00:02:48,239
+between
+ 
+
+131
+00:02:48,239 --> 00:02:51,170
+between
+this experiment shows us that when we
+
+132
+00:02:51,170 --> 00:02:51,180
+this experiment shows us that when we
+ 
+
+133
+00:02:51,180 --> 00:02:53,089
+this experiment shows us that when we
+measure the angular momentum of a silver
+
+134
+00:02:53,089 --> 00:02:53,099
+measure the angular momentum of a silver
+ 
+
+135
+00:02:53,099 --> 00:02:55,729
+measure the angular momentum of a silver
+atom there are only two possible
+
+136
+00:02:55,729 --> 00:02:55,739
+atom there are only two possible
+ 
+
+137
+00:02:55,739 --> 00:02:58,430
+atom there are only two possible
+discrete results and so the angular
+
+138
+00:02:58,430 --> 00:02:58,440
+discrete results and so the angular
+ 
+
+139
+00:02:58,440 --> 00:03:02,869
+discrete results and so the angular
+momentum of silver atoms is quantized
+
+140
+00:03:02,869 --> 00:03:02,879
+momentum of silver atoms is quantized
+ 
+
+141
+00:03:02,879 --> 00:03:06,050
+momentum of silver atoms is quantized
+in later years this magnet-like behavior
+
+142
+00:03:06,050 --> 00:03:06,060
+in later years this magnet-like behavior
+ 
+
+143
+00:03:06,060 --> 00:03:09,290
+in later years this magnet-like behavior
+of silver atoms was found to be not due
+
+144
+00:03:09,290 --> 00:03:09,300
+of silver atoms was found to be not due
+ 
+
+145
+00:03:09,300 --> 00:03:11,270
+of silver atoms was found to be not due
+to the electrons orbital angular
+
+146
+00:03:11,270 --> 00:03:11,280
+to the electrons orbital angular
+ 
+
+147
+00:03:11,280 --> 00:03:13,850
+to the electrons orbital angular
+momentum around the nucleus
+
+148
+00:03:13,850 --> 00:03:13,860
+momentum around the nucleus
+ 
+
+149
+00:03:13,860 --> 00:03:16,130
+momentum around the nucleus
+it was later discovered that the Bohr
+
+150
+00:03:16,130 --> 00:03:16,140
+it was later discovered that the Bohr
+ 
+
+151
+00:03:16,140 --> 00:03:18,649
+it was later discovered that the Bohr
+model was wrong and that electron
+
+152
+00:03:18,649 --> 00:03:18,659
+model was wrong and that electron
+ 
+
+153
+00:03:18,659 --> 00:03:21,470
+model was wrong and that electron
+orbitals come in various shapes
+
+154
+00:03:21,470 --> 00:03:21,480
+orbitals come in various shapes
+ 
+
+155
+00:03:21,480 --> 00:03:24,890
+orbitals come in various shapes
+the first 46 electrons in a silver atom
+
+156
+00:03:24,890 --> 00:03:24,900
+the first 46 electrons in a silver atom
+ 
+
+157
+00:03:24,900 --> 00:03:27,649
+the first 46 electrons in a silver atom
+have no net orbital angular momentum
+
+158
+00:03:27,649 --> 00:03:27,659
+have no net orbital angular momentum
+ 
+
+159
+00:03:27,659 --> 00:03:32,030
+have no net orbital angular momentum
+overall the final 47th electron exists
+
+160
+00:03:32,030 --> 00:03:32,040
+overall the final 47th electron exists
+ 
+
+161
+00:03:32,040 --> 00:03:35,570
+overall the final 47th electron exists
+in the spherical 5S orbital which also
+
+162
+00:03:35,570 --> 00:03:35,580
+in the spherical 5S orbital which also
+ 
+
+163
+00:03:35,580 --> 00:03:38,690
+in the spherical 5S orbital which also
+has no net orbital angular momentum
+
+164
+00:03:38,690 --> 00:03:38,700
+has no net orbital angular momentum
+ 
+
+165
+00:03:38,700 --> 00:03:41,869
+has no net orbital angular momentum
+so electron orbitals do not generate a
+
+166
+00:03:41,869 --> 00:03:41,879
+so electron orbitals do not generate a
+ 
+
+167
+00:03:41,879 --> 00:03:44,030
+so electron orbitals do not generate a
+magnetic field here
+
+168
+00:03:44,030 --> 00:03:44,040
+magnetic field here
+ 
+
+169
+00:03:44,040 --> 00:03:46,910
+magnetic field here
+instead the magnetic dipole in silver
+
+170
+00:03:46,910 --> 00:03:46,920
+instead the magnetic dipole in silver
+ 
+
+171
+00:03:46,920 --> 00:03:50,030
+instead the magnetic dipole in silver
+atoms is due to the 47th electrons
+
+172
+00:03:50,030 --> 00:03:50,040
+atoms is due to the 47th electrons
+ 
+
+173
+00:03:50,040 --> 00:03:53,390
+atoms is due to the 47th electrons
+internal angular momentum also called
+
+174
+00:03:53,390 --> 00:03:53,400
+internal angular momentum also called
+ 
+
+175
+00:03:53,400 --> 00:03:56,089
+internal angular momentum also called
+spin angular momentum
+
+176
+00:03:56,089 --> 00:03:56,099
+spin angular momentum
+ 
+
+177
+00:03:56,099 --> 00:03:59,089
+spin angular momentum
+this internal angular momentum is
+
+178
+00:03:59,089 --> 00:03:59,099
+this internal angular momentum is
+ 
+
+179
+00:03:59,099 --> 00:04:01,610
+this internal angular momentum is
+sometimes envisioned as being due to the
+
+180
+00:04:01,610 --> 00:04:01,620
+sometimes envisioned as being due to the
+ 
+
+181
+00:04:01,620 --> 00:04:04,690
+sometimes envisioned as being due to the
+electron spinning on an axis like a ball
+
+182
+00:04:04,690 --> 00:04:04,700
+electron spinning on an axis like a ball
+ 
+
+183
+00:04:04,700 --> 00:04:07,850
+electron spinning on an axis like a ball
+however in reality electrons are
+
+184
+00:04:07,850 --> 00:04:07,860
+however in reality electrons are
+ 
+
+185
+00:04:07,860 --> 00:04:10,550
+however in reality electrons are
+described by wave functions and are not
+
+186
+00:04:10,550 --> 00:04:10,560
+described by wave functions and are not
+ 
+
+187
+00:04:10,560 --> 00:04:13,729
+described by wave functions and are not
+tiny spinning balls so this explanation
+
+188
+00:04:13,729 --> 00:04:13,739
+tiny spinning balls so this explanation
+ 
+
+189
+00:04:13,739 --> 00:04:16,189
+tiny spinning balls so this explanation
+also fails to explain the magnetic
+
+190
+00:04:16,189 --> 00:04:16,199
+also fails to explain the magnetic
+ 
+
+191
+00:04:16,199 --> 00:04:17,629
+also fails to explain the magnetic
+dipole
+
+192
+00:04:17,629 --> 00:04:17,639
+dipole
+ 
+
+193
+00:04:17,639 --> 00:04:19,849
+dipole
+the concept of an electron having
+
+194
+00:04:19,849 --> 00:04:19,859
+the concept of an electron having
+ 
+
+195
+00:04:19,859 --> 00:04:22,550
+the concept of an electron having
+internal angular momentum has a
+
+196
+00:04:22,550 --> 00:04:22,560
+internal angular momentum has a
+ 
+
+197
+00:04:22,560 --> 00:04:24,950
+internal angular momentum has a
+reputation for being very difficult to
+
+198
+00:04:24,950 --> 00:04:24,960
+reputation for being very difficult to
+ 
+
+199
+00:04:24,960 --> 00:04:26,330
+reputation for being very difficult to
+understand
+
+200
+00:04:26,330 --> 00:04:26,340
+understand
+ 
+
+201
+00:04:26,340 --> 00:04:28,969
+understand
+however there's an analogy with light
+
+202
+00:04:28,969 --> 00:04:28,979
+however there's an analogy with light
+ 
+
+203
+00:04:28,979 --> 00:04:31,670
+however there's an analogy with light
+that can help our understanding here
+
+204
+00:04:31,670 --> 00:04:31,680
+that can help our understanding here
+ 
+
+205
+00:04:31,680 --> 00:04:34,310
+that can help our understanding here
+matter particles have orbital angular
+
+206
+00:04:34,310 --> 00:04:34,320
+matter particles have orbital angular
+ 
+
+207
+00:04:34,320 --> 00:04:36,770
+matter particles have orbital angular
+momentum when they actually curve around
+
+208
+00:04:36,770 --> 00:04:36,780
+momentum when they actually curve around
+ 
+
+209
+00:04:36,780 --> 00:04:39,770
+momentum when they actually curve around
+in space and light rays can also have
+
+210
+00:04:39,770 --> 00:04:39,780
+in space and light rays can also have
+ 
+
+211
+00:04:39,780 --> 00:04:42,170
+in space and light rays can also have
+orbital angular momentum when they curve
+
+212
+00:04:42,170 --> 00:04:42,180
+orbital angular momentum when they curve
+ 
+
+213
+00:04:42,180 --> 00:04:43,969
+orbital angular momentum when they curve
+around in space
+
+214
+00:04:43,969 --> 00:04:43,979
+around in space
+ 
+
+215
+00:04:43,979 --> 00:04:46,670
+around in space
+but from our last video we know that
+
+216
+00:04:46,670 --> 00:04:46,680
+but from our last video we know that
+ 
+
+217
+00:04:46,680 --> 00:04:49,430
+but from our last video we know that
+light waves can be polarized which
+
+218
+00:04:49,430 --> 00:04:49,440
+light waves can be polarized which
+ 
+
+219
+00:04:49,440 --> 00:04:51,770
+light waves can be polarized which
+allows for an internal type of angular
+
+220
+00:04:51,770 --> 00:04:51,780
+allows for an internal type of angular
+ 
+
+221
+00:04:51,780 --> 00:04:54,230
+allows for an internal type of angular
+momentum that is internal to the light
+
+222
+00:04:54,230 --> 00:04:54,240
+momentum that is internal to the light
+ 
+
+223
+00:04:54,240 --> 00:04:56,090
+momentum that is internal to the light
+beam itself
+
+224
+00:04:56,090 --> 00:04:56,100
+beam itself
+ 
+
+225
+00:04:56,100 --> 00:04:58,969
+beam itself
+modern Quantum field Theory tells us
+
+226
+00:04:58,969 --> 00:04:58,979
+modern Quantum field Theory tells us
+ 
+
+227
+00:04:58,979 --> 00:05:01,189
+modern Quantum field Theory tells us
+that matter particles can also have
+
+228
+00:05:01,189 --> 00:05:01,199
+that matter particles can also have
+ 
+
+229
+00:05:01,199 --> 00:05:03,350
+that matter particles can also have
+something similar to a polarization
+
+230
+00:05:03,350 --> 00:05:03,360
+something similar to a polarization
+ 
+
+231
+00:05:03,360 --> 00:05:05,870
+something similar to a polarization
+which gives them internal angular
+
+232
+00:05:05,870 --> 00:05:05,880
+which gives them internal angular
+ 
+
+233
+00:05:05,880 --> 00:05:08,150
+which gives them internal angular
+momentum that's internal to the
+
+234
+00:05:08,150 --> 00:05:08,160
+momentum that's internal to the
+ 
+
+235
+00:05:08,160 --> 00:05:10,909
+momentum that's internal to the
+particles field instead of being due to
+
+236
+00:05:10,909 --> 00:05:10,919
+particles field instead of being due to
+ 
+
+237
+00:05:10,919 --> 00:05:14,390
+particles field instead of being due to
+curved paths in physical space
+
+238
+00:05:14,390 --> 00:05:14,400
+curved paths in physical space
+ 
+
+239
+00:05:14,400 --> 00:05:17,090
+curved paths in physical space
+but we're not going to focus on Quantum
+
+240
+00:05:17,090 --> 00:05:17,100
+but we're not going to focus on Quantum
+ 
+
+241
+00:05:17,100 --> 00:05:19,969
+but we're not going to focus on Quantum
+fields for now for this video we just
+
+242
+00:05:19,969 --> 00:05:19,979
+fields for now for this video we just
+ 
+
+243
+00:05:19,979 --> 00:05:22,490
+fields for now for this video we just
+want a basic experimental understanding
+
+244
+00:05:22,490 --> 00:05:22,500
+want a basic experimental understanding
+ 
+
+245
+00:05:22,500 --> 00:05:25,490
+want a basic experimental understanding
+of the quantized spin angular momentum
+
+246
+00:05:25,490 --> 00:05:25,500
+of the quantized spin angular momentum
+ 
+
+247
+00:05:25,500 --> 00:05:28,370
+of the quantized spin angular momentum
+of electrons we'll get this
+
+248
+00:05:28,370 --> 00:05:28,380
+of electrons we'll get this
+ 
+
+249
+00:05:28,380 --> 00:05:31,010
+of electrons we'll get this
+understanding by sending a beam of atoms
+
+250
+00:05:31,010 --> 00:05:31,020
+understanding by sending a beam of atoms
+ 
+
+251
+00:05:31,020 --> 00:05:34,370
+understanding by sending a beam of atoms
+through multiple SG experiments
+
+252
+00:05:34,370 --> 00:05:34,380
+through multiple SG experiments
+ 
+
+253
+00:05:34,380 --> 00:05:36,770
+through multiple SG experiments
+to start let's review some of the
+
+254
+00:05:36,770 --> 00:05:36,780
+to start let's review some of the
+ 
+
+255
+00:05:36,780 --> 00:05:39,529
+to start let's review some of the
+notation and Mathematics used in quantum
+
+256
+00:05:39,529 --> 00:05:39,539
+notation and Mathematics used in quantum
+ 
+
+257
+00:05:39,539 --> 00:05:41,029
+notation and Mathematics used in quantum
+mechanics
+
+258
+00:05:41,029 --> 00:05:41,039
+mechanics
+ 
+
+259
+00:05:41,039 --> 00:05:43,610
+mechanics
+In classical mechanics when we talk
+
+260
+00:05:43,610 --> 00:05:43,620
+In classical mechanics when we talk
+ 
+
+261
+00:05:43,620 --> 00:05:45,890
+In classical mechanics when we talk
+about the state of a particle we're
+
+262
+00:05:45,890 --> 00:05:45,900
+about the state of a particle we're
+ 
+
+263
+00:05:45,900 --> 00:05:48,050
+about the state of a particle we're
+referring to the particle's position and
+
+264
+00:05:48,050 --> 00:05:48,060
+referring to the particle's position and
+ 
+
+265
+00:05:48,060 --> 00:05:50,990
+referring to the particle's position and
+momentum and how these quantities change
+
+266
+00:05:50,990 --> 00:05:51,000
+momentum and how these quantities change
+ 
+
+267
+00:05:51,000 --> 00:05:52,490
+momentum and how these quantities change
+over time
+
+268
+00:05:52,490 --> 00:05:52,500
+over time
+ 
+
+269
+00:05:52,500 --> 00:05:55,610
+over time
+but in quantum mechanics a particle's
+
+270
+00:05:55,610 --> 00:05:55,620
+but in quantum mechanics a particle's
+ 
+
+271
+00:05:55,620 --> 00:05:58,310
+but in quantum mechanics a particle's
+state is instead represented by an
+
+272
+00:05:58,310 --> 00:05:58,320
+state is instead represented by an
+ 
+
+273
+00:05:58,320 --> 00:06:01,249
+state is instead represented by an
+abstract State Vector which Loosely
+
+274
+00:06:01,249 --> 00:06:01,259
+abstract State Vector which Loosely
+ 
+
+275
+00:06:01,259 --> 00:06:03,230
+abstract State Vector which Loosely
+speaking is the same thing as the
+
+276
+00:06:03,230 --> 00:06:03,240
+speaking is the same thing as the
+ 
+
+277
+00:06:03,240 --> 00:06:05,270
+speaking is the same thing as the
+particle's wave function
+
+278
+00:06:05,270 --> 00:06:05,280
+particle's wave function
+ 
+
+279
+00:06:05,280 --> 00:06:07,189
+particle's wave function
+everything that we can possibly know
+
+280
+00:06:07,189 --> 00:06:07,199
+everything that we can possibly know
+ 
+
+281
+00:06:07,199 --> 00:06:09,490
+everything that we can possibly know
+about a particle like its position
+
+282
+00:06:09,490 --> 00:06:09,500
+about a particle like its position
+ 
+
+283
+00:06:09,500 --> 00:06:13,189
+about a particle like its position
+momentum and energy can be derived from
+
+284
+00:06:13,189 --> 00:06:13,199
+momentum and energy can be derived from
+ 
+
+285
+00:06:13,199 --> 00:06:15,710
+momentum and energy can be derived from
+the particle's state vector
+
+286
+00:06:15,710 --> 00:06:15,720
+the particle's state vector
+ 
+
+287
+00:06:15,720 --> 00:06:18,350
+the particle's state vector
+this idea of an abstract State Vector
+
+288
+00:06:18,350 --> 00:06:18,360
+this idea of an abstract State Vector
+ 
+
+289
+00:06:18,360 --> 00:06:21,290
+this idea of an abstract State Vector
+can be a bit confusing but hopefully it
+
+290
+00:06:21,290 --> 00:06:21,300
+can be a bit confusing but hopefully it
+ 
+
+291
+00:06:21,300 --> 00:06:23,689
+can be a bit confusing but hopefully it
+will become more clear as the video goes
+
+292
+00:06:23,689 --> 00:06:23,699
+will become more clear as the video goes
+ 
+
+293
+00:06:23,699 --> 00:06:25,010
+will become more clear as the video goes
+on
+
+294
+00:06:25,010 --> 00:06:25,020
+on
+ 
+
+295
+00:06:25,020 --> 00:06:27,650
+on
+the standard way of writing a vector in
+
+296
+00:06:27,650 --> 00:06:27,660
+the standard way of writing a vector in
+ 
+
+297
+00:06:27,660 --> 00:06:30,469
+the standard way of writing a vector in
+physics is to write a little arrow above
+
+298
+00:06:30,469 --> 00:06:30,479
+physics is to write a little arrow above
+ 
+
+299
+00:06:30,479 --> 00:06:33,650
+physics is to write a little arrow above
+the variable but in quantum mechanics we
+
+300
+00:06:33,650 --> 00:06:33,660
+the variable but in quantum mechanics we
+ 
+
+301
+00:06:33,660 --> 00:06:36,590
+the variable but in quantum mechanics we
+use the KET Vector notation and write
+
+302
+00:06:36,590 --> 00:06:36,600
+use the KET Vector notation and write
+ 
+
+303
+00:06:36,600 --> 00:06:39,290
+use the KET Vector notation and write
+vectors like this with an angle bracket
+
+304
+00:06:39,290 --> 00:06:39,300
+vectors like this with an angle bracket
+ 
+
+305
+00:06:39,300 --> 00:06:41,570
+vectors like this with an angle bracket
+pointing to the right
+
+306
+00:06:41,570 --> 00:06:41,580
+pointing to the right
+ 
+
+307
+00:06:41,580 --> 00:06:44,150
+pointing to the right
+we can write cat factors as linear
+
+308
+00:06:44,150 --> 00:06:44,160
+we can write cat factors as linear
+ 
+
+309
+00:06:44,160 --> 00:06:46,790
+we can write cat factors as linear
+combinations of basis vectors as we
+
+310
+00:06:46,790 --> 00:06:46,800
+combinations of basis vectors as we
+ 
+
+311
+00:06:46,800 --> 00:06:49,550
+combinations of basis vectors as we
+normally do or write the components of
+
+312
+00:06:49,550 --> 00:06:49,560
+normally do or write the components of
+ 
+
+313
+00:06:49,560 --> 00:06:52,550
+normally do or write the components of
+the vector in a column like this
+
+314
+00:06:52,550 --> 00:06:52,560
+the vector in a column like this
+ 
+
+315
+00:06:52,560 --> 00:06:55,550
+the vector in a column like this
+four vectors with real components we can
+
+316
+00:06:55,550 --> 00:06:55,560
+four vectors with real components we can
+ 
+
+317
+00:06:55,560 --> 00:06:58,129
+four vectors with real components we can
+get the squared length of a vector v by
+
+318
+00:06:58,129 --> 00:06:58,139
+get the squared length of a vector v by
+ 
+
+319
+00:06:58,139 --> 00:07:00,590
+get the squared length of a vector v by
+writing V transpose V
+
+320
+00:07:00,590 --> 00:07:00,600
+writing V transpose V
+ 
+
+321
+00:07:00,600 --> 00:07:03,409
+writing V transpose V
+but in quantum mechanics Vector
+
+322
+00:07:03,409 --> 00:07:03,419
+but in quantum mechanics Vector
+ 
+
+323
+00:07:03,419 --> 00:07:06,590
+but in quantum mechanics Vector
+components can be complex numbers so we
+
+324
+00:07:06,590 --> 00:07:06,600
+components can be complex numbers so we
+ 
+
+325
+00:07:06,600 --> 00:07:08,870
+components can be complex numbers so we
+get the squared length of a vector by
+
+326
+00:07:08,870 --> 00:07:08,880
+get the squared length of a vector by
+ 
+
+327
+00:07:08,880 --> 00:07:12,590
+get the squared length of a vector by
+doing the transpose conjugate times V
+
+328
+00:07:12,590 --> 00:07:12,600
+doing the transpose conjugate times V
+ 
+
+329
+00:07:12,600 --> 00:07:16,010
+doing the transpose conjugate times V
+this extra complex conjugate ensures our
+
+330
+00:07:16,010 --> 00:07:16,020
+this extra complex conjugate ensures our
+ 
+
+331
+00:07:16,020 --> 00:07:19,670
+this extra complex conjugate ensures our
+final result for the magnitude is real
+
+332
+00:07:19,670 --> 00:07:19,680
+final result for the magnitude is real
+ 
+
+333
+00:07:19,680 --> 00:07:22,309
+final result for the magnitude is real
+the transpose complex conjugate is
+
+334
+00:07:22,309 --> 00:07:22,319
+the transpose complex conjugate is
+ 
+
+335
+00:07:22,319 --> 00:07:24,409
+the transpose complex conjugate is
+called the hermitian conjugate of a
+
+336
+00:07:24,409 --> 00:07:24,419
+called the hermitian conjugate of a
+ 
+
+337
+00:07:24,419 --> 00:07:27,110
+called the hermitian conjugate of a
+vector and this is written with a dagger
+
+338
+00:07:27,110 --> 00:07:27,120
+vector and this is written with a dagger
+ 
+
+339
+00:07:27,120 --> 00:07:28,670
+vector and this is written with a dagger
+symbol
+
+340
+00:07:28,670 --> 00:07:28,680
+symbol
+ 
+
+341
+00:07:28,680 --> 00:07:31,129
+symbol
+in quantum mechanics we write the
+
+342
+00:07:31,129 --> 00:07:31,139
+in quantum mechanics we write the
+ 
+
+343
+00:07:31,139 --> 00:07:33,830
+in quantum mechanics we write the
+hermitian conjugate of cat vectors like
+
+344
+00:07:33,830 --> 00:07:33,840
+hermitian conjugate of cat vectors like
+ 
+
+345
+00:07:33,840 --> 00:07:35,990
+hermitian conjugate of cat vectors like
+this with an angle bracket that's
+
+346
+00:07:35,990 --> 00:07:36,000
+this with an angle bracket that's
+ 
+
+347
+00:07:36,000 --> 00:07:38,930
+this with an angle bracket that's
+pointing left these are called bra
+
+348
+00:07:38,930 --> 00:07:38,940
+pointing left these are called bra
+ 
+
+349
+00:07:38,940 --> 00:07:40,430
+pointing left these are called bra
+vectors
+
+350
+00:07:40,430 --> 00:07:40,440
+vectors
+ 
+
+351
+00:07:40,440 --> 00:07:43,189
+vectors
+you can Loosely think of cat vectors as
+
+352
+00:07:43,189 --> 00:07:43,199
+you can Loosely think of cat vectors as
+ 
+
+353
+00:07:43,199 --> 00:07:46,189
+you can Loosely think of cat vectors as
+columns and Loosely think of bra vectors
+
+354
+00:07:46,189 --> 00:07:46,199
+columns and Loosely think of bra vectors
+ 
+
+355
+00:07:46,199 --> 00:07:47,809
+columns and Loosely think of bra vectors
+as rows
+
+356
+00:07:47,809 --> 00:07:47,819
+as rows
+ 
+
+357
+00:07:47,819 --> 00:07:50,270
+as rows
+when multiplied together they give a
+
+358
+00:07:50,270 --> 00:07:50,280
+when multiplied together they give a
+ 
+
+359
+00:07:50,280 --> 00:07:53,270
+when multiplied together they give a
+single number this is called their inner
+
+360
+00:07:53,270 --> 00:07:53,280
+single number this is called their inner
+ 
+
+361
+00:07:53,280 --> 00:07:55,670
+single number this is called their inner
+product
+
+362
+00:07:55,670 --> 00:07:55,680
+
+ 
+
+363
+00:07:55,680 --> 00:07:58,370
+
+now one of the strange Concepts in
+
+364
+00:07:58,370 --> 00:07:58,380
+now one of the strange Concepts in
+ 
+
+365
+00:07:58,380 --> 00:08:01,189
+now one of the strange Concepts in
+quantum mechanics is the idea of wave
+
+366
+00:08:01,189 --> 00:08:01,199
+quantum mechanics is the idea of wave
+ 
+
+367
+00:08:01,199 --> 00:08:02,870
+quantum mechanics is the idea of wave
+function collapse
+
+368
+00:08:02,870 --> 00:08:02,880
+function collapse
+ 
+
+369
+00:08:02,880 --> 00:08:05,450
+function collapse
+this is the idea that a particle can be
+
+370
+00:08:05,450 --> 00:08:05,460
+this is the idea that a particle can be
+ 
+
+371
+00:08:05,460 --> 00:08:08,689
+this is the idea that a particle can be
+in a superposition of several States but
+
+372
+00:08:08,689 --> 00:08:08,699
+in a superposition of several States but
+ 
+
+373
+00:08:08,699 --> 00:08:11,089
+in a superposition of several States but
+as soon as we measure the particle it
+
+374
+00:08:11,089 --> 00:08:11,099
+as soon as we measure the particle it
+ 
+
+375
+00:08:11,099 --> 00:08:12,770
+as soon as we measure the particle it
+will collapse into a single state
+
+376
+00:08:12,770 --> 00:08:12,780
+will collapse into a single state
+ 
+
+377
+00:08:12,780 --> 00:08:16,930
+will collapse into a single state
+According to some probabilistic rules
+
+378
+00:08:16,930 --> 00:08:16,940
+According to some probabilistic rules
+ 
+
+379
+00:08:16,940 --> 00:08:19,850
+According to some probabilistic rules
+mathematically Quantum superpositions
+
+380
+00:08:19,850 --> 00:08:19,860
+mathematically Quantum superpositions
+ 
+
+381
+00:08:19,860 --> 00:08:22,570
+mathematically Quantum superpositions
+are represented by linear combinations
+
+382
+00:08:22,570 --> 00:08:22,580
+are represented by linear combinations
+ 
+
+383
+00:08:22,580 --> 00:08:25,790
+are represented by linear combinations
+where each basis Vector represents one
+
+384
+00:08:25,790 --> 00:08:25,800
+where each basis Vector represents one
+ 
+
+385
+00:08:25,800 --> 00:08:27,890
+where each basis Vector represents one
+of the possible States the system can
+
+386
+00:08:27,890 --> 00:08:27,900
+of the possible States the system can
+ 
+
+387
+00:08:27,900 --> 00:08:29,270
+of the possible States the system can
+collapse to
+
+388
+00:08:29,270 --> 00:08:29,280
+collapse to
+ 
+
+389
+00:08:29,280 --> 00:08:31,010
+collapse to
+the coefficients in the linear
+
+390
+00:08:31,010 --> 00:08:31,020
+the coefficients in the linear
+ 
+
+391
+00:08:31,020 --> 00:08:33,170
+the coefficients in the linear
+combination are called probability
+
+392
+00:08:33,170 --> 00:08:33,180
+combination are called probability
+ 
+
+393
+00:08:33,180 --> 00:08:36,050
+combination are called probability
+amplitudes and they are related to the
+
+394
+00:08:36,050 --> 00:08:36,060
+amplitudes and they are related to the
+ 
+
+395
+00:08:36,060 --> 00:08:38,209
+amplitudes and they are related to the
+probability of measuring each state
+
+396
+00:08:38,209 --> 00:08:38,219
+probability of measuring each state
+ 
+
+397
+00:08:38,219 --> 00:08:40,969
+probability of measuring each state
+after the collapse
+
+398
+00:08:40,969 --> 00:08:40,979
+after the collapse
+ 
+
+399
+00:08:40,979 --> 00:08:44,329
+after the collapse
+in the SG experiment there are only two
+
+400
+00:08:44,329 --> 00:08:44,339
+in the SG experiment there are only two
+ 
+
+401
+00:08:44,339 --> 00:08:46,509
+in the SG experiment there are only two
+states the particle can collapse to
+
+402
+00:08:46,509 --> 00:08:46,519
+states the particle can collapse to
+ 
+
+403
+00:08:46,519 --> 00:08:50,030
+states the particle can collapse to
+either spin up denoted with an up Arrow
+
+404
+00:08:50,030 --> 00:08:50,040
+either spin up denoted with an up Arrow
+ 
+
+405
+00:08:50,040 --> 00:08:53,090
+either spin up denoted with an up Arrow
+cut or spin down denoted with a down
+
+406
+00:08:53,090 --> 00:08:53,100
+cut or spin down denoted with a down
+ 
+
+407
+00:08:53,100 --> 00:08:54,949
+cut or spin down denoted with a down
+arrow cut
+
+408
+00:08:54,949 --> 00:08:54,959
+arrow cut
+ 
+
+409
+00:08:54,959 --> 00:08:56,870
+arrow cut
+the rules for determining the
+
+410
+00:08:56,870 --> 00:08:56,880
+the rules for determining the
+ 
+
+411
+00:08:56,880 --> 00:08:59,269
+the rules for determining the
+probabilities for collapsing into a
+
+412
+00:08:59,269 --> 00:08:59,279
+probabilities for collapsing into a
+ 
+
+413
+00:08:59,279 --> 00:09:03,410
+probabilities for collapsing into a
+given state are given by Bourne's rule
+
+414
+00:09:03,410 --> 00:09:03,420
+given state are given by Bourne's rule
+ 
+
+415
+00:09:03,420 --> 00:09:06,650
+given state are given by Bourne's rule
+in simplified form Bourne's rule tells
+
+416
+00:09:06,650 --> 00:09:06,660
+in simplified form Bourne's rule tells
+ 
+
+417
+00:09:06,660 --> 00:09:08,570
+in simplified form Bourne's rule tells
+us that when we want to know the
+
+418
+00:09:08,570 --> 00:09:08,580
+us that when we want to know the
+ 
+
+419
+00:09:08,580 --> 00:09:11,449
+us that when we want to know the
+probability of some State a collapsing
+
+420
+00:09:11,449 --> 00:09:11,459
+probability of some State a collapsing
+ 
+
+421
+00:09:11,459 --> 00:09:15,290
+probability of some State a collapsing
+onto a state B after a measurement this
+
+422
+00:09:15,290 --> 00:09:15,300
+onto a state B after a measurement this
+ 
+
+423
+00:09:15,300 --> 00:09:17,870
+onto a state B after a measurement this
+probability equals the squared magnitude
+
+424
+00:09:17,870 --> 00:09:17,880
+probability equals the squared magnitude
+ 
+
+425
+00:09:17,880 --> 00:09:20,630
+probability equals the squared magnitude
+of the inner products of the states A
+
+426
+00:09:20,630 --> 00:09:20,640
+of the inner products of the states A
+ 
+
+427
+00:09:20,640 --> 00:09:24,350
+of the inner products of the states A
+and B written in brockette notation like
+
+428
+00:09:24,350 --> 00:09:24,360
+and B written in brockette notation like
+ 
+
+429
+00:09:24,360 --> 00:09:25,790
+and B written in brockette notation like
+this
+
+430
+00:09:25,790 --> 00:09:25,800
+this
+ 
+
+431
+00:09:25,800 --> 00:09:28,610
+this
+this inner product is sort of like the
+
+432
+00:09:28,610 --> 00:09:28,620
+this inner product is sort of like the
+ 
+
+433
+00:09:28,620 --> 00:09:31,370
+this inner product is sort of like the
+overlap between the two State vectors A
+
+434
+00:09:31,370 --> 00:09:31,380
+overlap between the two State vectors A
+ 
+
+435
+00:09:31,380 --> 00:09:34,850
+overlap between the two State vectors A
+and B if we were to cast A's Shadow onto
+
+436
+00:09:34,850 --> 00:09:34,860
+and B if we were to cast A's Shadow onto
+ 
+
+437
+00:09:34,860 --> 00:09:36,110
+and B if we were to cast A's Shadow onto
+B
+
+438
+00:09:36,110 --> 00:09:36,120
+B
+ 
+
+439
+00:09:36,120 --> 00:09:39,170
+B
+the process of casting B's Shadow onto a
+
+440
+00:09:39,170 --> 00:09:39,180
+the process of casting B's Shadow onto a
+ 
+
+441
+00:09:39,180 --> 00:09:42,350
+the process of casting B's Shadow onto a
+gives us the same result except complex
+
+442
+00:09:42,350 --> 00:09:42,360
+gives us the same result except complex
+ 
+
+443
+00:09:42,360 --> 00:09:44,329
+gives us the same result except complex
+conjugated
+
+444
+00:09:44,329 --> 00:09:44,339
+conjugated
+ 
+
+445
+00:09:44,339 --> 00:09:46,790
+conjugated
+however since the probabilities we
+
+446
+00:09:46,790 --> 00:09:46,800
+however since the probabilities we
+ 
+
+447
+00:09:46,800 --> 00:09:49,130
+however since the probabilities we
+measure are the squared lengths of these
+
+448
+00:09:49,130 --> 00:09:49,140
+measure are the squared lengths of these
+ 
+
+449
+00:09:49,140 --> 00:09:51,769
+measure are the squared lengths of these
+inner product overlaps it doesn't matter
+
+450
+00:09:51,769 --> 00:09:51,779
+inner product overlaps it doesn't matter
+ 
+
+451
+00:09:51,779 --> 00:09:53,990
+inner product overlaps it doesn't matter
+which direction we measure the overlaps
+
+452
+00:09:53,990 --> 00:09:54,000
+which direction we measure the overlaps
+ 
+
+453
+00:09:54,000 --> 00:09:54,769
+which direction we measure the overlaps
+in
+
+454
+00:09:54,769 --> 00:09:54,779
+in
+ 
+
+455
+00:09:54,779 --> 00:09:57,410
+in
+so the squared magnitude of these two
+
+456
+00:09:57,410 --> 00:09:57,420
+so the squared magnitude of these two
+ 
+
+457
+00:09:57,420 --> 00:09:59,930
+so the squared magnitude of these two
+inner products are equal
+
+458
+00:09:59,930 --> 00:09:59,940
+inner products are equal
+ 
+
+459
+00:09:59,940 --> 00:10:03,110
+inner products are equal
+now let's use born's rule to try and
+
+460
+00:10:03,110 --> 00:10:03,120
+now let's use born's rule to try and
+ 
+
+461
+00:10:03,120 --> 00:10:06,170
+now let's use born's rule to try and
+understand the quantum states in the SG
+
+462
+00:10:06,170 --> 00:10:06,180
+understand the quantum states in the SG
+ 
+
+463
+00:10:06,180 --> 00:10:08,090
+understand the quantum states in the SG
+experiment better
+
+464
+00:10:08,090 --> 00:10:08,100
+experiment better
+ 
+
+465
+00:10:08,100 --> 00:10:10,130
+experiment better
+we'll do this by putting particles
+
+466
+00:10:10,130 --> 00:10:10,140
+we'll do this by putting particles
+ 
+
+467
+00:10:10,140 --> 00:10:14,449
+we'll do this by putting particles
+through multiple SG experiments in a row
+
+468
+00:10:14,449 --> 00:10:14,459
+through multiple SG experiments in a row
+ 
+
+469
+00:10:14,459 --> 00:10:16,910
+through multiple SG experiments in a row
+to simplify the diagrams a bits I'm
+
+470
+00:10:16,910 --> 00:10:16,920
+to simplify the diagrams a bits I'm
+ 
+
+471
+00:10:16,920 --> 00:10:19,730
+to simplify the diagrams a bits I'm
+going to replace these magnets by a box
+
+472
+00:10:19,730 --> 00:10:19,740
+going to replace these magnets by a box
+ 
+
+473
+00:10:19,740 --> 00:10:22,790
+going to replace these magnets by a box
+with the letter Z on it this indicates
+
+474
+00:10:22,790 --> 00:10:22,800
+with the letter Z on it this indicates
+ 
+
+475
+00:10:22,800 --> 00:10:25,490
+with the letter Z on it this indicates
+the nhomogeneous magnetic field points
+
+476
+00:10:25,490 --> 00:10:25,500
+the nhomogeneous magnetic field points
+ 
+
+477
+00:10:25,500 --> 00:10:27,949
+the nhomogeneous magnetic field points
+in the Z Direction
+
+478
+00:10:27,949 --> 00:10:27,959
+in the Z Direction
+ 
+
+479
+00:10:27,959 --> 00:10:30,350
+in the Z Direction
+I'm also going to rewrite the spin up
+
+480
+00:10:30,350 --> 00:10:30,360
+I'm also going to rewrite the spin up
+ 
+
+481
+00:10:30,360 --> 00:10:33,050
+I'm also going to rewrite the spin up
+and spin down States AS Plus said and
+
+482
+00:10:33,050 --> 00:10:33,060
+and spin down States AS Plus said and
+ 
+
+483
+00:10:33,060 --> 00:10:35,329
+and spin down States AS Plus said and
+minus said indicating the coordinate
+
+484
+00:10:35,329 --> 00:10:35,339
+minus said indicating the coordinate
+ 
+
+485
+00:10:35,339 --> 00:10:36,949
+minus said indicating the coordinate
+directions that the particles are
+
+486
+00:10:36,949 --> 00:10:36,959
+directions that the particles are
+ 
+
+487
+00:10:36,959 --> 00:10:38,690
+directions that the particles are
+deflected in
+
+488
+00:10:38,690 --> 00:10:38,700
+deflected in
+ 
+
+489
+00:10:38,700 --> 00:10:40,910
+deflected in
+let's say that the particles in the
+
+490
+00:10:40,910 --> 00:10:40,920
+let's say that the particles in the
+ 
+
+491
+00:10:40,920 --> 00:10:44,569
+let's say that the particles in the
+initial beam are in some State PSI after
+
+492
+00:10:44,569 --> 00:10:44,579
+initial beam are in some State PSI after
+ 
+
+493
+00:10:44,579 --> 00:10:47,389
+initial beam are in some State PSI after
+going through the SG apparatus they
+
+494
+00:10:47,389 --> 00:10:47,399
+going through the SG apparatus they
+ 
+
+495
+00:10:47,399 --> 00:10:49,970
+going through the SG apparatus they
+collapse into one of two states either
+
+496
+00:10:49,970 --> 00:10:49,980
+collapse into one of two states either
+ 
+
+497
+00:10:49,980 --> 00:10:52,850
+collapse into one of two states either
+spin up or spin down
+
+498
+00:10:52,850 --> 00:10:52,860
+spin up or spin down
+ 
+
+499
+00:10:52,860 --> 00:10:56,210
+spin up or spin down
+let's take the spin up particles and put
+
+500
+00:10:56,210 --> 00:10:56,220
+let's take the spin up particles and put
+ 
+
+501
+00:10:56,220 --> 00:10:59,449
+let's take the spin up particles and put
+them through another SG apparatus
+
+502
+00:10:59,449 --> 00:10:59,459
+them through another SG apparatus
+ 
+
+503
+00:10:59,459 --> 00:11:01,610
+them through another SG apparatus
+we find that all the particles are
+
+504
+00:11:01,610 --> 00:11:01,620
+we find that all the particles are
+ 
+
+505
+00:11:01,620 --> 00:11:05,030
+we find that all the particles are
+deflected up and none are deflected down
+
+506
+00:11:05,030 --> 00:11:05,040
+deflected up and none are deflected down
+ 
+
+507
+00:11:05,040 --> 00:11:07,550
+deflected up and none are deflected down
+so according to Bourne's rule the
+
+508
+00:11:07,550 --> 00:11:07,560
+so according to Bourne's rule the
+ 
+
+509
+00:11:07,560 --> 00:11:10,190
+so according to Bourne's rule the
+probability of measuring spin up given a
+
+510
+00:11:10,190 --> 00:11:10,200
+probability of measuring spin up given a
+ 
+
+511
+00:11:10,200 --> 00:11:13,490
+probability of measuring spin up given a
+spin up state is one and the probability
+
+512
+00:11:13,490 --> 00:11:13,500
+spin up state is one and the probability
+ 
+
+513
+00:11:13,500 --> 00:11:16,250
+spin up state is one and the probability
+of measuring spin down given a spin up
+
+514
+00:11:16,250 --> 00:11:16,260
+of measuring spin down given a spin up
+ 
+
+515
+00:11:16,260 --> 00:11:18,949
+of measuring spin down given a spin up
+state is zero
+
+516
+00:11:18,949 --> 00:11:18,959
+state is zero
+ 
+
+517
+00:11:18,959 --> 00:11:22,130
+state is zero
+now let's put an SG apparatus after the
+
+518
+00:11:22,130 --> 00:11:22,140
+now let's put an SG apparatus after the
+ 
+
+519
+00:11:22,140 --> 00:11:25,310
+now let's put an SG apparatus after the
+down States as you might expect all the
+
+520
+00:11:25,310 --> 00:11:25,320
+down States as you might expect all the
+ 
+
+521
+00:11:25,320 --> 00:11:27,769
+down States as you might expect all the
+particles are deflected down
+
+522
+00:11:27,769 --> 00:11:27,779
+particles are deflected down
+ 
+
+523
+00:11:27,779 --> 00:11:29,990
+particles are deflected down
+so Bourne's rule tells us the
+
+524
+00:11:29,990 --> 00:11:30,000
+so Bourne's rule tells us the
+ 
+
+525
+00:11:30,000 --> 00:11:32,389
+so Bourne's rule tells us the
+probability of measuring spin down from
+
+526
+00:11:32,389 --> 00:11:32,399
+probability of measuring spin down from
+ 
+
+527
+00:11:32,399 --> 00:11:35,509
+probability of measuring spin down from
+spin down is one and the probability of
+
+528
+00:11:35,509 --> 00:11:35,519
+spin down is one and the probability of
+ 
+
+529
+00:11:35,519 --> 00:11:39,650
+spin down is one and the probability of
+measuring spin up from spin down is zero
+
+530
+00:11:39,650 --> 00:11:39,660
+measuring spin up from spin down is zero
+ 
+
+531
+00:11:39,660 --> 00:11:42,050
+measuring spin up from spin down is zero
+all of these inner product relationships
+
+532
+00:11:42,050 --> 00:11:42,060
+all of these inner product relationships
+ 
+
+533
+00:11:42,060 --> 00:11:44,990
+all of these inner product relationships
+from born's rule give us some useful
+
+534
+00:11:44,990 --> 00:11:45,000
+from born's rule give us some useful
+ 
+
+535
+00:11:45,000 --> 00:11:47,569
+from born's rule give us some useful
+information about the spin up and spin
+
+536
+00:11:47,569 --> 00:11:47,579
+information about the spin up and spin
+ 
+
+537
+00:11:47,579 --> 00:11:49,610
+information about the spin up and spin
+down state vectors
+
+538
+00:11:49,610 --> 00:11:49,620
+down state vectors
+ 
+
+539
+00:11:49,620 --> 00:11:52,009
+down state vectors
+for example it tells us that the spin
+
+540
+00:11:52,009 --> 00:11:52,019
+for example it tells us that the spin
+ 
+
+541
+00:11:52,019 --> 00:11:55,009
+for example it tells us that the spin
+Upstate has a magnitude of one and the
+
+542
+00:11:55,009 --> 00:11:55,019
+Upstate has a magnitude of one and the
+ 
+
+543
+00:11:55,019 --> 00:11:57,350
+Upstate has a magnitude of one and the
+spin down state also has a magnitude of
+
+544
+00:11:57,350 --> 00:11:57,360
+spin down state also has a magnitude of
+ 
+
+545
+00:11:57,360 --> 00:11:58,370
+spin down state also has a magnitude of
+one
+
+546
+00:11:58,370 --> 00:11:58,380
+one
+ 
+
+547
+00:11:58,380 --> 00:12:01,250
+one
+also the spin up and spin down states
+
+548
+00:12:01,250 --> 00:12:01,260
+also the spin up and spin down states
+ 
+
+549
+00:12:01,260 --> 00:12:04,069
+also the spin up and spin down states
+are orthogonal since their inner product
+
+550
+00:12:04,069 --> 00:12:04,079
+are orthogonal since their inner product
+ 
+
+551
+00:12:04,079 --> 00:12:06,829
+are orthogonal since their inner product
+is zero
+
+552
+00:12:06,829 --> 00:12:06,839
+is zero
+ 
+
+553
+00:12:06,839 --> 00:12:10,490
+is zero
+so in physical space up and down are
+
+554
+00:12:10,490 --> 00:12:10,500
+so in physical space up and down are
+ 
+
+555
+00:12:10,500 --> 00:12:14,150
+so in physical space up and down are
+separated by a turn of 180 degrees
+
+556
+00:12:14,150 --> 00:12:14,160
+separated by a turn of 180 degrees
+ 
+
+557
+00:12:14,160 --> 00:12:17,150
+separated by a turn of 180 degrees
+but in our Quantum State space where the
+
+558
+00:12:17,150 --> 00:12:17,160
+but in our Quantum State space where the
+ 
+
+559
+00:12:17,160 --> 00:12:19,910
+but in our Quantum State space where the
+particle spin States live the spin up
+
+560
+00:12:19,910 --> 00:12:19,920
+particle spin States live the spin up
+ 
+
+561
+00:12:19,920 --> 00:12:23,030
+particle spin States live the spin up
+and spin down states are orthogonal so
+
+562
+00:12:23,030 --> 00:12:23,040
+and spin down states are orthogonal so
+ 
+
+563
+00:12:23,040 --> 00:12:25,610
+and spin down states are orthogonal so
+they are 90 degrees apart
+
+564
+00:12:25,610 --> 00:12:25,620
+they are 90 degrees apart
+ 
+
+565
+00:12:25,620 --> 00:12:28,190
+they are 90 degrees apart
+so we're already starting to see that
+
+566
+00:12:28,190 --> 00:12:28,200
+so we're already starting to see that
+ 
+
+567
+00:12:28,200 --> 00:12:29,870
+so we're already starting to see that
+there's an angle doubling relationship
+
+568
+00:12:29,870 --> 00:12:29,880
+there's an angle doubling relationship
+ 
+
+569
+00:12:29,880 --> 00:12:32,569
+there's an angle doubling relationship
+between physical space and the quantum
+
+570
+00:12:32,569 --> 00:12:32,579
+between physical space and the quantum
+ 
+
+571
+00:12:32,579 --> 00:12:35,329
+between physical space and the quantum
+State space
+
+572
+00:12:35,329 --> 00:12:35,339
+
+ 
+
+573
+00:12:35,339 --> 00:12:38,030
+
+next we'll try the exact same setup
+
+574
+00:12:38,030 --> 00:12:38,040
+next we'll try the exact same setup
+ 
+
+575
+00:12:38,040 --> 00:12:42,170
+next we'll try the exact same setup
+except rotating the SG apparatuses by 90
+
+576
+00:12:42,170 --> 00:12:42,180
+except rotating the SG apparatuses by 90
+ 
+
+577
+00:12:42,180 --> 00:12:45,350
+except rotating the SG apparatuses by 90
+degrees so that the magnetic fields are
+
+578
+00:12:45,350 --> 00:12:45,360
+degrees so that the magnetic fields are
+ 
+
+579
+00:12:45,360 --> 00:12:47,870
+degrees so that the magnetic fields are
+oriented in the direction of the x-axis
+
+580
+00:12:47,870 --> 00:12:47,880
+oriented in the direction of the x-axis
+ 
+
+581
+00:12:47,880 --> 00:12:50,870
+oriented in the direction of the x-axis
+so that particle beams are split into
+
+582
+00:12:50,870 --> 00:12:50,880
+so that particle beams are split into
+ 
+
+583
+00:12:50,880 --> 00:12:54,949
+so that particle beams are split into
+the plus X and minus X directions
+
+584
+00:12:54,949 --> 00:12:54,959
+the plus X and minus X directions
+ 
+
+585
+00:12:54,959 --> 00:12:57,650
+the plus X and minus X directions
+performing the exact same experiments as
+
+586
+00:12:57,650 --> 00:12:57,660
+performing the exact same experiments as
+ 
+
+587
+00:12:57,660 --> 00:13:00,769
+performing the exact same experiments as
+above we get born rule formulas for the
+
+588
+00:13:00,769 --> 00:13:00,779
+above we get born rule formulas for the
+ 
+
+589
+00:13:00,779 --> 00:13:02,629
+above we get born rule formulas for the
+plus X state
+
+590
+00:13:02,629 --> 00:13:02,639
+plus X state
+ 
+
+591
+00:13:02,639 --> 00:13:05,870
+plus X state
+and the minus X state
+
+592
+00:13:05,870 --> 00:13:05,880
+and the minus X state
+ 
+
+593
+00:13:05,880 --> 00:13:08,629
+and the minus X state
+these inner product formulas tell us
+
+594
+00:13:08,629 --> 00:13:08,639
+these inner product formulas tell us
+ 
+
+595
+00:13:08,639 --> 00:13:11,870
+these inner product formulas tell us
+that the plus X and minus X states have
+
+596
+00:13:11,870 --> 00:13:11,880
+that the plus X and minus X states have
+ 
+
+597
+00:13:11,880 --> 00:13:15,230
+that the plus X and minus X states have
+magnitudes of one and the plus X and
+
+598
+00:13:15,230 --> 00:13:15,240
+magnitudes of one and the plus X and
+ 
+
+599
+00:13:15,240 --> 00:13:19,129
+magnitudes of one and the plus X and
+minus X states are orthogonal
+
+600
+00:13:19,129 --> 00:13:19,139
+minus X states are orthogonal
+ 
+
+601
+00:13:19,139 --> 00:13:21,650
+minus X states are orthogonal
+now let's try something more interesting
+
+602
+00:13:21,650 --> 00:13:21,660
+now let's try something more interesting
+ 
+
+603
+00:13:21,660 --> 00:13:25,129
+now let's try something more interesting
+let's arrange the first SG apparatus so
+
+604
+00:13:25,129 --> 00:13:25,139
+let's arrange the first SG apparatus so
+ 
+
+605
+00:13:25,139 --> 00:13:27,769
+let's arrange the first SG apparatus so
+that it points in the X Direction and
+
+606
+00:13:27,769 --> 00:13:27,779
+that it points in the X Direction and
+ 
+
+607
+00:13:27,779 --> 00:13:30,050
+that it points in the X Direction and
+then send the plus X particle beam
+
+608
+00:13:30,050 --> 00:13:30,060
+then send the plus X particle beam
+ 
+
+609
+00:13:30,060 --> 00:13:33,050
+then send the plus X particle beam
+through a second SG apparatus pointing
+
+610
+00:13:33,050 --> 00:13:33,060
+through a second SG apparatus pointing
+ 
+
+611
+00:13:33,060 --> 00:13:35,329
+through a second SG apparatus pointing
+in the Z Direction
+
+612
+00:13:35,329 --> 00:13:35,339
+in the Z Direction
+ 
+
+613
+00:13:35,339 --> 00:13:38,449
+in the Z Direction
+we find that the plus X particle beam is
+
+614
+00:13:38,449 --> 00:13:38,459
+we find that the plus X particle beam is
+ 
+
+615
+00:13:38,459 --> 00:13:41,329
+we find that the plus X particle beam is
+split evenly in the plus set and minus Z
+
+616
+00:13:41,329 --> 00:13:41,339
+split evenly in the plus set and minus Z
+ 
+
+617
+00:13:41,339 --> 00:13:43,069
+split evenly in the plus set and minus Z
+directions
+
+618
+00:13:43,069 --> 00:13:43,079
+directions
+ 
+
+619
+00:13:43,079 --> 00:13:45,350
+directions
+taking borne's rule again the
+
+620
+00:13:45,350 --> 00:13:45,360
+taking borne's rule again the
+ 
+
+621
+00:13:45,360 --> 00:13:47,690
+taking borne's rule again the
+probability of measuring plus said from
+
+622
+00:13:47,690 --> 00:13:47,700
+probability of measuring plus said from
+ 
+
+623
+00:13:47,700 --> 00:13:50,210
+probability of measuring plus said from
+plus X is one-half
+
+624
+00:13:50,210 --> 00:13:50,220
+plus X is one-half
+ 
+
+625
+00:13:50,220 --> 00:13:52,610
+plus X is one-half
+and the probability of measuring minus
+
+626
+00:13:52,610 --> 00:13:52,620
+and the probability of measuring minus
+ 
+
+627
+00:13:52,620 --> 00:13:56,509
+and the probability of measuring minus
+said from plus X is also one half
+
+628
+00:13:56,509 --> 00:13:56,519
+said from plus X is also one half
+ 
+
+629
+00:13:56,519 --> 00:13:58,910
+said from plus X is also one half
+if we repeat the experiment but starting
+
+630
+00:13:58,910 --> 00:13:58,920
+if we repeat the experiment but starting
+ 
+
+631
+00:13:58,920 --> 00:14:01,850
+if we repeat the experiment but starting
+with the minus X beam instead we also
+
+632
+00:14:01,850 --> 00:14:01,860
+with the minus X beam instead we also
+ 
+
+633
+00:14:01,860 --> 00:14:04,610
+with the minus X beam instead we also
+find a 50 50 split between the plus set
+
+634
+00:14:04,610 --> 00:14:04,620
+find a 50 50 split between the plus set
+ 
+
+635
+00:14:04,620 --> 00:14:06,889
+find a 50 50 split between the plus set
+and minus Z States
+
+636
+00:14:06,889 --> 00:14:06,899
+and minus Z States
+ 
+
+637
+00:14:06,899 --> 00:14:10,250
+and minus Z States
+so the plus X and minus X states can
+
+638
+00:14:10,250 --> 00:14:10,260
+so the plus X and minus X states can
+ 
+
+639
+00:14:10,260 --> 00:14:12,889
+so the plus X and minus X states can
+each collapse into the plus set or minus
+
+640
+00:14:12,889 --> 00:14:12,899
+each collapse into the plus set or minus
+ 
+
+641
+00:14:12,899 --> 00:14:15,769
+each collapse into the plus set or minus
+Z States when a magnetic field in the Z
+
+642
+00:14:15,769 --> 00:14:15,779
+Z States when a magnetic field in the Z
+ 
+
+643
+00:14:15,779 --> 00:14:17,930
+Z States when a magnetic field in the Z
+direction is applied
+
+644
+00:14:17,930 --> 00:14:17,940
+direction is applied
+ 
+
+645
+00:14:17,940 --> 00:14:20,509
+direction is applied
+this is telling us that the plus X State
+
+646
+00:14:20,509 --> 00:14:20,519
+this is telling us that the plus X State
+ 
+
+647
+00:14:20,519 --> 00:14:22,430
+this is telling us that the plus X State
+can be written as a Quantum
+
+648
+00:14:22,430 --> 00:14:22,440
+can be written as a Quantum
+ 
+
+649
+00:14:22,440 --> 00:14:25,430
+can be written as a Quantum
+superposition of the plus Z and minus Z
+
+650
+00:14:25,430 --> 00:14:25,440
+superposition of the plus Z and minus Z
+ 
+
+651
+00:14:25,440 --> 00:14:28,190
+superposition of the plus Z and minus Z
+states with the proper coefficients
+
+652
+00:14:28,190 --> 00:14:28,200
+states with the proper coefficients
+ 
+
+653
+00:14:28,200 --> 00:14:31,190
+states with the proper coefficients
+because it can collapse into either one
+
+654
+00:14:31,190 --> 00:14:31,200
+because it can collapse into either one
+ 
+
+655
+00:14:31,200 --> 00:14:33,110
+because it can collapse into either one
+after a measurement
+
+656
+00:14:33,110 --> 00:14:33,120
+after a measurement
+ 
+
+657
+00:14:33,120 --> 00:14:36,050
+after a measurement
+and remember Quantum superposition is
+
+658
+00:14:36,050 --> 00:14:36,060
+and remember Quantum superposition is
+ 
+
+659
+00:14:36,060 --> 00:14:38,030
+and remember Quantum superposition is
+just a fancy way of saying linear
+
+660
+00:14:38,030 --> 00:14:38,040
+just a fancy way of saying linear
+ 
+
+661
+00:14:38,040 --> 00:14:40,310
+just a fancy way of saying linear
+combination
+
+662
+00:14:40,310 --> 00:14:40,320
+combination
+ 
+
+663
+00:14:40,320 --> 00:14:42,110
+combination
+in order to get the expected
+
+664
+00:14:42,110 --> 00:14:42,120
+in order to get the expected
+ 
+
+665
+00:14:42,120 --> 00:14:44,509
+in order to get the expected
+probabilities of one-half from the
+
+666
+00:14:44,509 --> 00:14:44,519
+probabilities of one-half from the
+ 
+
+667
+00:14:44,519 --> 00:14:46,430
+probabilities of one-half from the
+experiment we need to set the
+
+668
+00:14:46,430 --> 00:14:46,440
+experiment we need to set the
+ 
+
+669
+00:14:46,440 --> 00:14:49,550
+experiment we need to set the
+coefficients for plus X to be one over
+
+670
+00:14:49,550 --> 00:14:49,560
+coefficients for plus X to be one over
+ 
+
+671
+00:14:49,560 --> 00:14:51,889
+coefficients for plus X to be one over
+the square root of two and one over the
+
+672
+00:14:51,889 --> 00:14:51,899
+the square root of two and one over the
+ 
+
+673
+00:14:51,899 --> 00:14:53,329
+the square root of two and one over the
+square root of two
+
+674
+00:14:53,329 --> 00:14:53,339
+square root of two
+ 
+
+675
+00:14:53,339 --> 00:14:56,569
+square root of two
+you can check that applying a plus said
+
+676
+00:14:56,569 --> 00:14:56,579
+you can check that applying a plus said
+ 
+
+677
+00:14:56,579 --> 00:15:00,530
+you can check that applying a plus said
+bra Vector to a plus Z cat vector and
+
+678
+00:15:00,530 --> 00:15:00,540
+bra Vector to a plus Z cat vector and
+ 
+
+679
+00:15:00,540 --> 00:15:02,990
+bra Vector to a plus Z cat vector and
+then squaring the results gives us the
+
+680
+00:15:02,990 --> 00:15:03,000
+then squaring the results gives us the
+ 
+
+681
+00:15:03,000 --> 00:15:05,810
+then squaring the results gives us the
+expected probability of one-half
+
+682
+00:15:05,810 --> 00:15:05,820
+expected probability of one-half
+ 
+
+683
+00:15:05,820 --> 00:15:08,269
+expected probability of one-half
+the same goes for applying the negative
+
+684
+00:15:08,269 --> 00:15:08,279
+the same goes for applying the negative
+ 
+
+685
+00:15:08,279 --> 00:15:11,750
+the same goes for applying the negative
+Z state to the plus X state
+
+686
+00:15:11,750 --> 00:15:11,760
+Z state to the plus X state
+ 
+
+687
+00:15:11,760 --> 00:15:14,810
+Z state to the plus X state
+the minus X state uses the coefficients
+
+688
+00:15:14,810 --> 00:15:14,820
+the minus X state uses the coefficients
+ 
+
+689
+00:15:14,820 --> 00:15:17,030
+the minus X state uses the coefficients
+plus one over the square root of two and
+
+690
+00:15:17,030 --> 00:15:17,040
+plus one over the square root of two and
+ 
+
+691
+00:15:17,040 --> 00:15:20,030
+plus one over the square root of two and
+minus one over the square root of two
+
+692
+00:15:20,030 --> 00:15:20,040
+minus one over the square root of two
+ 
+
+693
+00:15:20,040 --> 00:15:22,430
+minus one over the square root of two
+this also reproduces the expected
+
+694
+00:15:22,430 --> 00:15:22,440
+this also reproduces the expected
+ 
+
+695
+00:15:22,440 --> 00:15:24,829
+this also reproduces the expected
+probabilities of one-half
+
+696
+00:15:24,829 --> 00:15:24,839
+probabilities of one-half
+ 
+
+697
+00:15:24,839 --> 00:15:27,170
+probabilities of one-half
+and importantly this choice of
+
+698
+00:15:27,170 --> 00:15:27,180
+and importantly this choice of
+ 
+
+699
+00:15:27,180 --> 00:15:30,050
+and importantly this choice of
+coefficients makes the plus X and minus
+
+700
+00:15:30,050 --> 00:15:30,060
+coefficients makes the plus X and minus
+ 
+
+701
+00:15:30,060 --> 00:15:33,050
+coefficients makes the plus X and minus
+X states orthogonal with an inner
+
+702
+00:15:33,050 --> 00:15:33,060
+X states orthogonal with an inner
+ 
+
+703
+00:15:33,060 --> 00:15:36,290
+X states orthogonal with an inner
+product of zero and also makes each have
+
+704
+00:15:36,290 --> 00:15:36,300
+product of zero and also makes each have
+ 
+
+705
+00:15:36,300 --> 00:15:40,850
+product of zero and also makes each have
+a magnitude of one as expected
+
+706
+00:15:40,850 --> 00:15:40,860
+
+ 
+
+707
+00:15:40,860 --> 00:15:43,790
+
+looking at our Quantum spin space the
+
+708
+00:15:43,790 --> 00:15:43,800
+looking at our Quantum spin space the
+ 
+
+709
+00:15:43,800 --> 00:15:47,810
+looking at our Quantum spin space the
+plus X and minus X States look like this
+
+710
+00:15:47,810 --> 00:15:47,820
+plus X and minus X States look like this
+ 
+
+711
+00:15:47,820 --> 00:15:50,449
+plus X and minus X States look like this
+this continues with the expected angle
+
+712
+00:15:50,449 --> 00:15:50,459
+this continues with the expected angle
+ 
+
+713
+00:15:50,459 --> 00:15:52,310
+this continues with the expected angle
+doubling relationship with physical
+
+714
+00:15:52,310 --> 00:15:52,320
+doubling relationship with physical
+ 
+
+715
+00:15:52,320 --> 00:15:56,030
+doubling relationship with physical
+space where a 45 degree turn in Quantum
+
+716
+00:15:56,030 --> 00:15:56,040
+space where a 45 degree turn in Quantum
+ 
+
+717
+00:15:56,040 --> 00:15:58,850
+space where a 45 degree turn in Quantum
+spin space is a 90 degree turn in
+
+718
+00:15:58,850 --> 00:15:58,860
+spin space is a 90 degree turn in
+ 
+
+719
+00:15:58,860 --> 00:16:01,310
+spin space is a 90 degree turn in
+physical space
+
+720
+00:16:01,310 --> 00:16:01,320
+physical space
+ 
+
+721
+00:16:01,320 --> 00:16:04,129
+physical space
+next let's look at a pair of SG
+
+722
+00:16:04,129 --> 00:16:04,139
+next let's look at a pair of SG
+ 
+
+723
+00:16:04,139 --> 00:16:07,490
+next let's look at a pair of SG
+experiments pointing along the y-axis
+
+724
+00:16:07,490 --> 00:16:07,500
+experiments pointing along the y-axis
+ 
+
+725
+00:16:07,500 --> 00:16:10,009
+experiments pointing along the y-axis
+looking at the born rules we see that
+
+726
+00:16:10,009 --> 00:16:10,019
+looking at the born rules we see that
+ 
+
+727
+00:16:10,019 --> 00:16:12,889
+looking at the born rules we see that
+the plus Y and minus y states have
+
+728
+00:16:12,889 --> 00:16:12,899
+the plus Y and minus y states have
+ 
+
+729
+00:16:12,899 --> 00:16:16,189
+the plus Y and minus y states have
+magnitudes of 1 and are orthogonal
+
+730
+00:16:16,189 --> 00:16:16,199
+magnitudes of 1 and are orthogonal
+ 
+
+731
+00:16:16,199 --> 00:16:18,889
+magnitudes of 1 and are orthogonal
+if we start with a y aligned SG
+
+732
+00:16:18,889 --> 00:16:18,899
+if we start with a y aligned SG
+ 
+
+733
+00:16:18,899 --> 00:16:21,530
+if we start with a y aligned SG
+apparatus and then feed the plus y
+
+734
+00:16:21,530 --> 00:16:21,540
+apparatus and then feed the plus y
+ 
+
+735
+00:16:21,540 --> 00:16:23,870
+apparatus and then feed the plus y
+particle beam into a z-aligned SG
+
+736
+00:16:23,870 --> 00:16:23,880
+particle beam into a z-aligned SG
+ 
+
+737
+00:16:23,880 --> 00:16:26,629
+particle beam into a z-aligned SG
+apparatus we once again find a 50 50
+
+738
+00:16:26,629 --> 00:16:26,639
+apparatus we once again find a 50 50
+ 
+
+739
+00:16:26,639 --> 00:16:29,150
+apparatus we once again find a 50 50
+split between the plus Z and minus Z
+
+740
+00:16:29,150 --> 00:16:29,160
+split between the plus Z and minus Z
+ 
+
+741
+00:16:29,160 --> 00:16:30,170
+split between the plus Z and minus Z
+States
+
+742
+00:16:30,170 --> 00:16:30,180
+States
+ 
+
+743
+00:16:30,180 --> 00:16:32,689
+States
+the same occurs if we begin with the
+
+744
+00:16:32,689 --> 00:16:32,699
+the same occurs if we begin with the
+ 
+
+745
+00:16:32,699 --> 00:16:35,509
+the same occurs if we begin with the
+minus y particle beam
+
+746
+00:16:35,509 --> 00:16:35,519
+minus y particle beam
+ 
+
+747
+00:16:35,519 --> 00:16:38,629
+minus y particle beam
+so the plus Y and minus y States can be
+
+748
+00:16:38,629 --> 00:16:38,639
+so the plus Y and minus y States can be
+ 
+
+749
+00:16:38,639 --> 00:16:40,910
+so the plus Y and minus y States can be
+written as Quantum superpositions of
+
+750
+00:16:40,910 --> 00:16:40,920
+written as Quantum superpositions of
+ 
+
+751
+00:16:40,920 --> 00:16:43,670
+written as Quantum superpositions of
+plus said and minus said because they
+
+752
+00:16:43,670 --> 00:16:43,680
+plus said and minus said because they
+ 
+
+753
+00:16:43,680 --> 00:16:46,490
+plus said and minus said because they
+can collapse into either one
+
+754
+00:16:46,490 --> 00:16:46,500
+can collapse into either one
+ 
+
+755
+00:16:46,500 --> 00:16:49,249
+can collapse into either one
+but if we want to write the Y States as
+
+756
+00:16:49,249 --> 00:16:49,259
+but if we want to write the Y States as
+ 
+
+757
+00:16:49,259 --> 00:16:52,189
+but if we want to write the Y States as
+Quantum superpositions of the plus Z and
+
+758
+00:16:52,189 --> 00:16:52,199
+Quantum superpositions of the plus Z and
+ 
+
+759
+00:16:52,199 --> 00:16:55,550
+Quantum superpositions of the plus Z and
+minus Z States we run into a problem
+
+760
+00:16:55,550 --> 00:16:55,560
+minus Z States we run into a problem
+ 
+
+761
+00:16:55,560 --> 00:16:58,249
+minus Z States we run into a problem
+we've already used the coefficients of
+
+762
+00:16:58,249 --> 00:16:58,259
+we've already used the coefficients of
+ 
+
+763
+00:16:58,259 --> 00:17:01,069
+we've already used the coefficients of
+plus one over the square root of 2 and
+
+764
+00:17:01,069 --> 00:17:01,079
+plus one over the square root of 2 and
+ 
+
+765
+00:17:01,079 --> 00:17:03,769
+plus one over the square root of 2 and
+-1 over the square root of two for our
+
+766
+00:17:03,769 --> 00:17:03,779
+-1 over the square root of two for our
+ 
+
+767
+00:17:03,779 --> 00:17:07,789
+-1 over the square root of two for our
+spin plus X and minus X States and we
+
+768
+00:17:07,789 --> 00:17:07,799
+spin plus X and minus X States and we
+ 
+
+769
+00:17:07,799 --> 00:17:10,189
+spin plus X and minus X States and we
+can't reuse those coefficients
+
+770
+00:17:10,189 --> 00:17:10,199
+can't reuse those coefficients
+ 
+
+771
+00:17:10,199 --> 00:17:12,710
+can't reuse those coefficients
+so what coefficients can we pick that
+
+772
+00:17:12,710 --> 00:17:12,720
+so what coefficients can we pick that
+ 
+
+773
+00:17:12,720 --> 00:17:14,870
+so what coefficients can we pick that
+will still give us probabilities of 50
+
+774
+00:17:14,870 --> 00:17:14,880
+will still give us probabilities of 50
+ 
+
+775
+00:17:14,880 --> 00:17:16,429
+will still give us probabilities of 50
+percent
+
+776
+00:17:16,429 --> 00:17:16,439
+percent
+ 
+
+777
+00:17:16,439 --> 00:17:19,010
+percent
+the secret is to start using complex
+
+778
+00:17:19,010 --> 00:17:19,020
+the secret is to start using complex
+ 
+
+779
+00:17:19,020 --> 00:17:20,090
+the secret is to start using complex
+numbers
+
+780
+00:17:20,090 --> 00:17:20,100
+numbers
+ 
+
+781
+00:17:20,100 --> 00:17:22,789
+numbers
+we'll write the plus y State as a
+
+782
+00:17:22,789 --> 00:17:22,799
+we'll write the plus y State as a
+ 
+
+783
+00:17:22,799 --> 00:17:25,370
+we'll write the plus y State as a
+superposition of plus Z and minus Z
+
+784
+00:17:25,370 --> 00:17:25,380
+superposition of plus Z and minus Z
+ 
+
+785
+00:17:25,380 --> 00:17:28,069
+superposition of plus Z and minus Z
+using the coefficients one over the
+
+786
+00:17:28,069 --> 00:17:28,079
+using the coefficients one over the
+ 
+
+787
+00:17:28,079 --> 00:17:30,650
+using the coefficients one over the
+square root of 2 and I over the square
+
+788
+00:17:30,650 --> 00:17:30,660
+square root of 2 and I over the square
+ 
+
+789
+00:17:30,660 --> 00:17:32,330
+square root of 2 and I over the square
+root of two
+
+790
+00:17:32,330 --> 00:17:32,340
+root of two
+ 
+
+791
+00:17:32,340 --> 00:17:34,789
+root of two
+if we calculate the inner product of the
+
+792
+00:17:34,789 --> 00:17:34,799
+if we calculate the inner product of the
+ 
+
+793
+00:17:34,799 --> 00:17:38,029
+if we calculate the inner product of the
+plus Z and plus y States and then find
+
+794
+00:17:38,029 --> 00:17:38,039
+plus Z and plus y States and then find
+ 
+
+795
+00:17:38,039 --> 00:17:40,250
+plus Z and plus y States and then find
+the squared magnitude we get the
+
+796
+00:17:40,250 --> 00:17:40,260
+the squared magnitude we get the
+ 
+
+797
+00:17:40,260 --> 00:17:43,250
+the squared magnitude we get the
+expected probability of one-half
+
+798
+00:17:43,250 --> 00:17:43,260
+expected probability of one-half
+ 
+
+799
+00:17:43,260 --> 00:17:45,350
+expected probability of one-half
+the same thing happens for the inner
+
+800
+00:17:45,350 --> 00:17:45,360
+the same thing happens for the inner
+ 
+
+801
+00:17:45,360 --> 00:17:48,130
+the same thing happens for the inner
+product of the minus Z and plus y States
+
+802
+00:17:48,130 --> 00:17:48,140
+product of the minus Z and plus y States
+ 
+
+803
+00:17:48,140 --> 00:17:51,409
+product of the minus Z and plus y States
+the imaginary I goes away when we take
+
+804
+00:17:51,409 --> 00:17:51,419
+the imaginary I goes away when we take
+ 
+
+805
+00:17:51,419 --> 00:17:54,289
+the imaginary I goes away when we take
+the squared amplitude
+
+806
+00:17:54,289 --> 00:17:54,299
+the squared amplitude
+ 
+
+807
+00:17:54,299 --> 00:17:56,570
+the squared amplitude
+for the minus y State we use
+
+808
+00:17:56,570 --> 00:17:56,580
+for the minus y State we use
+ 
+
+809
+00:17:56,580 --> 00:17:58,730
+for the minus y State we use
+coefficients of one over the square root
+
+810
+00:17:58,730 --> 00:17:58,740
+coefficients of one over the square root
+ 
+
+811
+00:17:58,740 --> 00:18:01,610
+coefficients of one over the square root
+of two and minus I over the square root
+
+812
+00:18:01,610 --> 00:18:01,620
+of two and minus I over the square root
+ 
+
+813
+00:18:01,620 --> 00:18:02,870
+of two and minus I over the square root
+of 2.
+
+814
+00:18:02,870 --> 00:18:02,880
+of 2.
+ 
+
+815
+00:18:02,880 --> 00:18:05,330
+of 2.
+this gives the expected probabilities of
+
+816
+00:18:05,330 --> 00:18:05,340
+this gives the expected probabilities of
+ 
+
+817
+00:18:05,340 --> 00:18:07,310
+this gives the expected probabilities of
+one-half
+
+818
+00:18:07,310 --> 00:18:07,320
+one-half
+ 
+
+819
+00:18:07,320 --> 00:18:10,070
+one-half
+this also ensures that the plus Y and
+
+820
+00:18:10,070 --> 00:18:10,080
+this also ensures that the plus Y and
+ 
+
+821
+00:18:10,080 --> 00:18:13,070
+this also ensures that the plus Y and
+minus y states are orthogonal with an
+
+822
+00:18:13,070 --> 00:18:13,080
+minus y states are orthogonal with an
+ 
+
+823
+00:18:13,080 --> 00:18:15,049
+minus y states are orthogonal with an
+inner product of zero
+
+824
+00:18:15,049 --> 00:18:15,059
+inner product of zero
+ 
+
+825
+00:18:15,059 --> 00:18:18,049
+inner product of zero
+and also ensures their magnitudes are
+
+826
+00:18:18,049 --> 00:18:18,059
+and also ensures their magnitudes are
+ 
+
+827
+00:18:18,059 --> 00:18:19,610
+and also ensures their magnitudes are
+one
+
+828
+00:18:19,610 --> 00:18:19,620
+one
+ 
+
+829
+00:18:19,620 --> 00:18:22,190
+one
+as an exercise you can check that the
+
+830
+00:18:22,190 --> 00:18:22,200
+as an exercise you can check that the
+ 
+
+831
+00:18:22,200 --> 00:18:24,289
+as an exercise you can check that the
+inner product of one of the X states
+
+832
+00:18:24,289 --> 00:18:24,299
+inner product of one of the X states
+ 
+
+833
+00:18:24,299 --> 00:18:27,409
+inner product of one of the X states
+with one of the Y States always gives a
+
+834
+00:18:27,409 --> 00:18:27,419
+with one of the Y States always gives a
+ 
+
+835
+00:18:27,419 --> 00:18:30,470
+with one of the Y States always gives a
+squared magnitude of one-half and you
+
+836
+00:18:30,470 --> 00:18:30,480
+squared magnitude of one-half and you
+ 
+
+837
+00:18:30,480 --> 00:18:32,570
+squared magnitude of one-half and you
+can also think about what this means in
+
+838
+00:18:32,570 --> 00:18:32,580
+can also think about what this means in
+ 
+
+839
+00:18:32,580 --> 00:18:34,190
+can also think about what this means in
+terms of the results of the
+
+840
+00:18:34,190 --> 00:18:34,200
+terms of the results of the
+ 
+
+841
+00:18:34,200 --> 00:18:38,510
+terms of the results of the
+corresponding SG experiments
+
+842
+00:18:38,510 --> 00:18:38,520
+corresponding SG experiments
+ 
+
+843
+00:18:38,520 --> 00:18:40,730
+corresponding SG experiments
+so if we look at all the quantum
+
+844
+00:18:40,730 --> 00:18:40,740
+so if we look at all the quantum
+ 
+
+845
+00:18:40,740 --> 00:18:43,190
+so if we look at all the quantum
+superposition formulas we've written so
+
+846
+00:18:43,190 --> 00:18:43,200
+superposition formulas we've written so
+ 
+
+847
+00:18:43,200 --> 00:18:46,190
+superposition formulas we've written so
+far these relationships exactly match
+
+848
+00:18:46,190 --> 00:18:46,200
+far these relationships exactly match
+ 
+
+849
+00:18:46,200 --> 00:18:48,770
+far these relationships exactly match
+the formulas for the Jones vectors we
+
+850
+00:18:48,770 --> 00:18:48,780
+the formulas for the Jones vectors we
+ 
+
+851
+00:18:48,780 --> 00:18:51,650
+the formulas for the Jones vectors we
+saw in the previous two videos
+
+852
+00:18:51,650 --> 00:18:51,660
+saw in the previous two videos
+ 
+
+853
+00:18:51,660 --> 00:18:54,110
+saw in the previous two videos
+we can flip back and forth between them
+
+854
+00:18:54,110 --> 00:18:54,120
+we can flip back and forth between them
+ 
+
+855
+00:18:54,120 --> 00:18:57,049
+we can flip back and forth between them
+using this dictionary
+
+856
+00:18:57,049 --> 00:18:57,059
+using this dictionary
+ 
+
+857
+00:18:57,059 --> 00:18:59,450
+using this dictionary
+it also turns out that we can arrange
+
+858
+00:18:59,450 --> 00:18:59,460
+it also turns out that we can arrange
+ 
+
+859
+00:18:59,460 --> 00:19:01,970
+it also turns out that we can arrange
+these six Quantum States on a sphere
+
+860
+00:19:01,970 --> 00:19:01,980
+these six Quantum States on a sphere
+ 
+
+861
+00:19:01,980 --> 00:19:04,909
+these six Quantum States on a sphere
+like this aligning them with the
+
+862
+00:19:04,909 --> 00:19:04,919
+like this aligning them with the
+ 
+
+863
+00:19:04,919 --> 00:19:06,950
+like this aligning them with the
+directions and physical space that they
+
+864
+00:19:06,950 --> 00:19:06,960
+directions and physical space that they
+ 
+
+865
+00:19:06,960 --> 00:19:09,230
+directions and physical space that they
+actually represent
+
+866
+00:19:09,230 --> 00:19:09,240
+actually represent
+ 
+
+867
+00:19:09,240 --> 00:19:12,010
+actually represent
+this sphere is called the block sphere
+
+868
+00:19:12,010 --> 00:19:12,020
+this sphere is called the block sphere
+ 
+
+869
+00:19:12,020 --> 00:19:15,049
+this sphere is called the block sphere
+this is mathematically equivalent to the
+
+870
+00:19:15,049 --> 00:19:15,059
+this is mathematically equivalent to the
+ 
+
+871
+00:19:15,059 --> 00:19:17,390
+this is mathematically equivalent to the
+point array sphere we saw in the last
+
+872
+00:19:17,390 --> 00:19:17,400
+point array sphere we saw in the last
+ 
+
+873
+00:19:17,400 --> 00:19:20,390
+point array sphere we saw in the last
+video where these six main polarizations
+
+874
+00:19:20,390 --> 00:19:20,400
+video where these six main polarizations
+ 
+
+875
+00:19:20,400 --> 00:19:24,350
+video where these six main polarizations
+of light are also arranged on a sphere
+
+876
+00:19:24,350 --> 00:19:24,360
+of light are also arranged on a sphere
+ 
+
+877
+00:19:24,360 --> 00:19:27,409
+of light are also arranged on a sphere
+with LightWave polarizations we could
+
+878
+00:19:27,409 --> 00:19:27,419
+with LightWave polarizations we could
+ 
+
+879
+00:19:27,419 --> 00:19:29,810
+with LightWave polarizations we could
+mix the polarizations together in
+
+880
+00:19:29,810 --> 00:19:29,820
+mix the polarizations together in
+ 
+
+881
+00:19:29,820 --> 00:19:33,169
+mix the polarizations together in
+various ways to get any polarization on
+
+882
+00:19:33,169 --> 00:19:33,179
+various ways to get any polarization on
+ 
+
+883
+00:19:33,179 --> 00:19:35,450
+various ways to get any polarization on
+this sphere including elliptical
+
+884
+00:19:35,450 --> 00:19:35,460
+this sphere including elliptical
+ 
+
+885
+00:19:35,460 --> 00:19:37,610
+this sphere including elliptical
+polarizations
+
+886
+00:19:37,610 --> 00:19:37,620
+polarizations
+ 
+
+887
+00:19:37,620 --> 00:19:40,730
+polarizations
+similarly we can mix the quantum States
+
+888
+00:19:40,730 --> 00:19:40,740
+similarly we can mix the quantum States
+ 
+
+889
+00:19:40,740 --> 00:19:43,970
+similarly we can mix the quantum States
+in various superpositions to give any
+
+890
+00:19:43,970 --> 00:19:43,980
+in various superpositions to give any
+ 
+
+891
+00:19:43,980 --> 00:19:47,029
+in various superpositions to give any
+state on this sphere these correspond to
+
+892
+00:19:47,029 --> 00:19:47,039
+state on this sphere these correspond to
+ 
+
+893
+00:19:47,039 --> 00:19:50,270
+state on this sphere these correspond to
+States associated with SG experiments
+
+894
+00:19:50,270 --> 00:19:50,280
+States associated with SG experiments
+ 
+
+895
+00:19:50,280 --> 00:19:52,850
+States associated with SG experiments
+that are aligned at arbitrary directions
+
+896
+00:19:52,850 --> 00:19:52,860
+that are aligned at arbitrary directions
+ 
+
+897
+00:19:52,860 --> 00:19:54,890
+that are aligned at arbitrary directions
+in space
+
+898
+00:19:54,890 --> 00:19:54,900
+in space
+ 
+
+899
+00:19:54,900 --> 00:19:57,350
+in space
+we showed in the last video that we
+
+900
+00:19:57,350 --> 00:19:57,360
+we showed in the last video that we
+ 
+
+901
+00:19:57,360 --> 00:19:59,510
+we showed in the last video that we
+could rotate vectors across these
+
+902
+00:19:59,510 --> 00:19:59,520
+could rotate vectors across these
+ 
+
+903
+00:19:59,520 --> 00:20:02,090
+could rotate vectors across these
+spheres using two by two unitary
+
+904
+00:20:02,090 --> 00:20:02,100
+spheres using two by two unitary
+ 
+
+905
+00:20:02,100 --> 00:20:06,470
+spheres using two by two unitary
+matrices written as U2 for short
+
+906
+00:20:06,470 --> 00:20:06,480
+matrices written as U2 for short
+ 
+
+907
+00:20:06,480 --> 00:20:09,890
+matrices written as U2 for short
+remember rotating a vector PSI with a
+
+908
+00:20:09,890 --> 00:20:09,900
+remember rotating a vector PSI with a
+ 
+
+909
+00:20:09,900 --> 00:20:12,529
+remember rotating a vector PSI with a
+matrix u means that it's squared
+
+910
+00:20:12,529 --> 00:20:12,539
+matrix u means that it's squared
+ 
+
+911
+00:20:12,539 --> 00:20:14,690
+matrix u means that it's squared
+magnitude won't change
+
+912
+00:20:14,690 --> 00:20:14,700
+magnitude won't change
+ 
+
+913
+00:20:14,700 --> 00:20:17,210
+magnitude won't change
+so the squared magnitude formula should
+
+914
+00:20:17,210 --> 00:20:17,220
+so the squared magnitude formula should
+ 
+
+915
+00:20:17,220 --> 00:20:20,630
+so the squared magnitude formula should
+be equal before and after the rotation
+
+916
+00:20:20,630 --> 00:20:20,640
+be equal before and after the rotation
+ 
+
+917
+00:20:20,640 --> 00:20:23,090
+be equal before and after the rotation
+we can show that these matrices must
+
+918
+00:20:23,090 --> 00:20:23,100
+we can show that these matrices must
+ 
+
+919
+00:20:23,100 --> 00:20:25,850
+we can show that these matrices must
+have the property that U inverse equals
+
+920
+00:20:25,850 --> 00:20:25,860
+have the property that U inverse equals
+ 
+
+921
+00:20:25,860 --> 00:20:28,669
+have the property that U inverse equals
+U dagger which is the definition of a
+
+922
+00:20:28,669 --> 00:20:28,679
+U dagger which is the definition of a
+ 
+
+923
+00:20:28,679 --> 00:20:31,789
+U dagger which is the definition of a
+unitary Matrix
+
+924
+00:20:31,789 --> 00:20:31,799
+
+ 
+
+925
+00:20:31,799 --> 00:20:34,789
+
+now it turns out that for rotating these
+
+926
+00:20:34,789 --> 00:20:34,799
+now it turns out that for rotating these
+ 
+
+927
+00:20:34,799 --> 00:20:38,570
+now it turns out that for rotating these
+Quantum states on the sphere U2 matrices
+
+928
+00:20:38,570 --> 00:20:38,580
+Quantum states on the sphere U2 matrices
+ 
+
+929
+00:20:38,580 --> 00:20:41,510
+Quantum states on the sphere U2 matrices
+are too General because we've missed an
+
+930
+00:20:41,510 --> 00:20:41,520
+are too General because we've missed an
+ 
+
+931
+00:20:41,520 --> 00:20:44,690
+are too General because we've missed an
+important fact about born's rule
+
+932
+00:20:44,690 --> 00:20:44,700
+important fact about born's rule
+ 
+
+933
+00:20:44,700 --> 00:20:47,630
+important fact about born's rule
+as we already know Bourne's rule tells
+
+934
+00:20:47,630 --> 00:20:47,640
+as we already know Bourne's rule tells
+ 
+
+935
+00:20:47,640 --> 00:20:49,730
+as we already know Bourne's rule tells
+us that the probability of measuring a
+
+936
+00:20:49,730 --> 00:20:49,740
+us that the probability of measuring a
+ 
+
+937
+00:20:49,740 --> 00:20:53,630
+us that the probability of measuring a
+state a collapsing into a state B is the
+
+938
+00:20:53,630 --> 00:20:53,640
+state a collapsing into a state B is the
+ 
+
+939
+00:20:53,640 --> 00:20:55,490
+state a collapsing into a state B is the
+squared magnitude of the inner product
+
+940
+00:20:55,490 --> 00:20:55,500
+squared magnitude of the inner product
+ 
+
+941
+00:20:55,500 --> 00:20:57,830
+squared magnitude of the inner product
+of A and B
+
+942
+00:20:57,830 --> 00:20:57,840
+of A and B
+ 
+
+943
+00:20:57,840 --> 00:21:01,190
+of A and B
+now let's modify the state a by giving
+
+944
+00:21:01,190 --> 00:21:01,200
+now let's modify the state a by giving
+ 
+
+945
+00:21:01,200 --> 00:21:03,890
+now let's modify the state a by giving
+it a complex phase Factor e to the I
+
+946
+00:21:03,890 --> 00:21:03,900
+it a complex phase Factor e to the I
+ 
+
+947
+00:21:03,900 --> 00:21:06,590
+it a complex phase Factor e to the I
+Theta if we now calculate the
+
+948
+00:21:06,590 --> 00:21:06,600
+Theta if we now calculate the
+ 
+
+949
+00:21:06,600 --> 00:21:08,810
+Theta if we now calculate the
+probability of our new a state
+
+950
+00:21:08,810 --> 00:21:08,820
+probability of our new a state
+ 
+
+951
+00:21:08,820 --> 00:21:12,049
+probability of our new a state
+collapsing into State B we get the
+
+952
+00:21:12,049 --> 00:21:12,059
+collapsing into State B we get the
+ 
+
+953
+00:21:12,059 --> 00:21:15,169
+collapsing into State B we get the
+squared magnitude of this inner product
+
+954
+00:21:15,169 --> 00:21:15,179
+squared magnitude of this inner product
+ 
+
+955
+00:21:15,179 --> 00:21:17,750
+squared magnitude of this inner product
+the phase e to the I Theta gets a
+
+956
+00:21:17,750 --> 00:21:17,760
+the phase e to the I Theta gets a
+ 
+
+957
+00:21:17,760 --> 00:21:19,730
+the phase e to the I Theta gets a
+negative sign due to the required
+
+958
+00:21:19,730 --> 00:21:19,740
+negative sign due to the required
+ 
+
+959
+00:21:19,740 --> 00:21:22,370
+negative sign due to the required
+hermitian conjugate
+
+960
+00:21:22,370 --> 00:21:22,380
+hermitian conjugate
+ 
+
+961
+00:21:22,380 --> 00:21:25,310
+hermitian conjugate
+since e to the I Theta is just a scalar
+
+962
+00:21:25,310 --> 00:21:25,320
+since e to the I Theta is just a scalar
+ 
+
+963
+00:21:25,320 --> 00:21:27,770
+since e to the I Theta is just a scalar
+number we can pull it outside of the
+
+964
+00:21:27,770 --> 00:21:27,780
+number we can pull it outside of the
+ 
+
+965
+00:21:27,780 --> 00:21:29,090
+number we can pull it outside of the
+inner product
+
+966
+00:21:29,090 --> 00:21:29,100
+inner product
+ 
+
+967
+00:21:29,100 --> 00:21:32,090
+inner product
+and here the magnitude of a product is
+
+968
+00:21:32,090 --> 00:21:32,100
+and here the magnitude of a product is
+ 
+
+969
+00:21:32,100 --> 00:21:34,130
+and here the magnitude of a product is
+the same thing as the product of the
+
+970
+00:21:34,130 --> 00:21:34,140
+the same thing as the product of the
+ 
+
+971
+00:21:34,140 --> 00:21:36,890
+the same thing as the product of the
+magnitudes and the magnitude of a
+
+972
+00:21:36,890 --> 00:21:36,900
+magnitudes and the magnitude of a
+ 
+
+973
+00:21:36,900 --> 00:21:40,070
+magnitudes and the magnitude of a
+complex phase e to the I Theta is just
+
+974
+00:21:40,070 --> 00:21:40,080
+complex phase e to the I Theta is just
+ 
+
+975
+00:21:40,080 --> 00:21:43,070
+complex phase e to the I Theta is just
+one because it lives on the complex unit
+
+976
+00:21:43,070 --> 00:21:43,080
+one because it lives on the complex unit
+ 
+
+977
+00:21:43,080 --> 00:21:44,630
+one because it lives on the complex unit
+circle
+
+978
+00:21:44,630 --> 00:21:44,640
+circle
+ 
+
+979
+00:21:44,640 --> 00:21:47,690
+circle
+so the probability formula we get is
+
+980
+00:21:47,690 --> 00:21:47,700
+so the probability formula we get is
+ 
+
+981
+00:21:47,700 --> 00:21:50,990
+so the probability formula we get is
+unchanged compared to before
+
+982
+00:21:50,990 --> 00:21:51,000
+unchanged compared to before
+ 
+
+983
+00:21:51,000 --> 00:21:53,330
+unchanged compared to before
+so we know that when we measure the
+
+984
+00:21:53,330 --> 00:21:53,340
+so we know that when we measure the
+ 
+
+985
+00:21:53,340 --> 00:21:56,330
+so we know that when we measure the
+state a it can collapse into various
+
+986
+00:21:56,330 --> 00:21:56,340
+state a it can collapse into various
+ 
+
+987
+00:21:56,340 --> 00:21:58,669
+state a it can collapse into various
+other states According to some known
+
+988
+00:21:58,669 --> 00:21:58,679
+other states According to some known
+ 
+
+989
+00:21:58,679 --> 00:22:00,289
+other states According to some known
+probabilities
+
+990
+00:22:00,289 --> 00:22:00,299
+probabilities
+ 
+
+991
+00:22:00,299 --> 00:22:02,690
+probabilities
+and we just learned that when we measure
+
+992
+00:22:02,690 --> 00:22:02,700
+and we just learned that when we measure
+ 
+
+993
+00:22:02,700 --> 00:22:05,750
+and we just learned that when we measure
+the state a multiplied by a phase Factor
+
+994
+00:22:05,750 --> 00:22:05,760
+the state a multiplied by a phase Factor
+ 
+
+995
+00:22:05,760 --> 00:22:08,690
+the state a multiplied by a phase Factor
+it can collapse into the exact same set
+
+996
+00:22:08,690 --> 00:22:08,700
+it can collapse into the exact same set
+ 
+
+997
+00:22:08,700 --> 00:22:10,909
+it can collapse into the exact same set
+of states with the exact same
+
+998
+00:22:10,909 --> 00:22:10,919
+of states with the exact same
+ 
+
+999
+00:22:10,919 --> 00:22:12,649
+of states with the exact same
+probabilities
+
+1000
+00:22:12,649 --> 00:22:12,659
+probabilities
+ 
+
+1001
+00:22:12,659 --> 00:22:16,149
+probabilities
+because the states A and A times phase
+
+1002
+00:22:16,149 --> 00:22:16,159
+because the states A and A times phase
+ 
+
+1003
+00:22:16,159 --> 00:22:19,190
+because the states A and A times phase
+collapse into the exact same states with
+
+1004
+00:22:19,190 --> 00:22:19,200
+collapse into the exact same states with
+ 
+
+1005
+00:22:19,200 --> 00:22:21,770
+collapse into the exact same states with
+the exact same probabilities practically
+
+1006
+00:22:21,770 --> 00:22:21,780
+the exact same probabilities practically
+ 
+
+1007
+00:22:21,780 --> 00:22:24,110
+the exact same probabilities practically
+speaking there is no difference between
+
+1008
+00:22:24,110 --> 00:22:24,120
+speaking there is no difference between
+ 
+
+1009
+00:22:24,120 --> 00:22:25,370
+speaking there is no difference between
+them
+
+1010
+00:22:25,370 --> 00:22:25,380
+them
+ 
+
+1011
+00:22:25,380 --> 00:22:28,010
+them
+in real quantum mechanics experiments
+
+1012
+00:22:28,010 --> 00:22:28,020
+in real quantum mechanics experiments
+ 
+
+1013
+00:22:28,020 --> 00:22:30,770
+in real quantum mechanics experiments
+all we can do is perform experiments
+
+1014
+00:22:30,770 --> 00:22:30,780
+all we can do is perform experiments
+ 
+
+1015
+00:22:30,780 --> 00:22:33,649
+all we can do is perform experiments
+over and over again and keep score of
+
+1016
+00:22:33,649 --> 00:22:33,659
+over and over again and keep score of
+ 
+
+1017
+00:22:33,659 --> 00:22:35,270
+over and over again and keep score of
+the results we get
+
+1018
+00:22:35,270 --> 00:22:35,280
+the results we get
+ 
+
+1019
+00:22:35,280 --> 00:22:37,789
+the results we get
+if one scientist did experiments with
+
+1020
+00:22:37,789 --> 00:22:37,799
+if one scientist did experiments with
+ 
+
+1021
+00:22:37,799 --> 00:22:40,490
+if one scientist did experiments with
+State a and another scientist did
+
+1022
+00:22:40,490 --> 00:22:40,500
+State a and another scientist did
+ 
+
+1023
+00:22:40,500 --> 00:22:42,890
+State a and another scientist did
+experiments with State a times phase
+
+1024
+00:22:42,890 --> 00:22:42,900
+experiments with State a times phase
+ 
+
+1025
+00:22:42,900 --> 00:22:45,590
+experiments with State a times phase
+they would find all the statistics of
+
+1026
+00:22:45,590 --> 00:22:45,600
+they would find all the statistics of
+ 
+
+1027
+00:22:45,600 --> 00:22:48,049
+they would find all the statistics of
+their experimental results are the exact
+
+1028
+00:22:48,049 --> 00:22:48,059
+their experimental results are the exact
+ 
+
+1029
+00:22:48,059 --> 00:22:49,010
+their experimental results are the exact
+same
+
+1030
+00:22:49,010 --> 00:22:49,020
+same
+ 
+
+1031
+00:22:49,020 --> 00:22:52,549
+same
+so physically speaking State a and state
+
+1032
+00:22:52,549 --> 00:22:52,559
+so physically speaking State a and state
+ 
+
+1033
+00:22:52,559 --> 00:22:55,490
+so physically speaking State a and state
+a times phase are actually the same
+
+1034
+00:22:55,490 --> 00:22:55,500
+a times phase are actually the same
+ 
+
+1035
+00:22:55,500 --> 00:22:58,490
+a times phase are actually the same
+physical state even if the vectors look
+
+1036
+00:22:58,490 --> 00:22:58,500
+physical state even if the vectors look
+ 
+
+1037
+00:22:58,500 --> 00:23:01,010
+physical state even if the vectors look
+different the two vectors give the exact
+
+1038
+00:23:01,010 --> 00:23:01,020
+different the two vectors give the exact
+ 
+
+1039
+00:23:01,020 --> 00:23:03,590
+different the two vectors give the exact
+same physics
+
+1040
+00:23:03,590 --> 00:23:03,600
+same physics
+ 
+
+1041
+00:23:03,600 --> 00:23:06,950
+same physics
+so in quantum mechanics a physical state
+
+1042
+00:23:06,950 --> 00:23:06,960
+so in quantum mechanics a physical state
+ 
+
+1043
+00:23:06,960 --> 00:23:10,250
+so in quantum mechanics a physical state
+is unchanged when we multiply its vector
+
+1044
+00:23:10,250 --> 00:23:10,260
+is unchanged when we multiply its vector
+ 
+
+1045
+00:23:10,260 --> 00:23:14,090
+is unchanged when we multiply its vector
+by an overall phase such as I negative 1
+
+1046
+00:23:14,090 --> 00:23:14,100
+by an overall phase such as I negative 1
+ 
+
+1047
+00:23:14,100 --> 00:23:17,750
+by an overall phase such as I negative 1
+or any other complex phase
+
+1048
+00:23:17,750 --> 00:23:17,760
+or any other complex phase
+ 
+
+1049
+00:23:17,760 --> 00:23:21,350
+or any other complex phase
+now recall we said that U2 matrices will
+
+1050
+00:23:21,350 --> 00:23:21,360
+now recall we said that U2 matrices will
+ 
+
+1051
+00:23:21,360 --> 00:23:24,110
+now recall we said that U2 matrices will
+perform rotations on our block sphere of
+
+1052
+00:23:24,110 --> 00:23:24,120
+perform rotations on our block sphere of
+ 
+
+1053
+00:23:24,120 --> 00:23:27,049
+perform rotations on our block sphere of
+States but since overall phases don't
+
+1054
+00:23:27,049 --> 00:23:27,059
+States but since overall phases don't
+ 
+
+1055
+00:23:27,059 --> 00:23:29,990
+States but since overall phases don't
+matter there are multiple U2 matrices
+
+1056
+00:23:29,990 --> 00:23:30,000
+matter there are multiple U2 matrices
+ 
+
+1057
+00:23:30,000 --> 00:23:32,630
+matter there are multiple U2 matrices
+that can rotate us to the same output
+
+1058
+00:23:32,630 --> 00:23:32,640
+that can rotate us to the same output
+ 
+
+1059
+00:23:32,640 --> 00:23:35,029
+that can rotate us to the same output
+State each Matrix with a different
+
+1060
+00:23:35,029 --> 00:23:35,039
+State each Matrix with a different
+ 
+
+1061
+00:23:35,039 --> 00:23:37,610
+State each Matrix with a different
+overall phase so there is some
+
+1062
+00:23:37,610 --> 00:23:37,620
+overall phase so there is some
+ 
+
+1063
+00:23:37,620 --> 00:23:41,270
+overall phase so there is some
+redundancy in the group of U2 matrices
+
+1064
+00:23:41,270 --> 00:23:41,280
+redundancy in the group of U2 matrices
+ 
+
+1065
+00:23:41,280 --> 00:23:44,510
+redundancy in the group of U2 matrices
+in order to pick a unique U2 Matrix for
+
+1066
+00:23:44,510 --> 00:23:44,520
+in order to pick a unique U2 Matrix for
+ 
+
+1067
+00:23:44,520 --> 00:23:47,330
+in order to pick a unique U2 Matrix for
+doing rotations on our block sphere we
+
+1068
+00:23:47,330 --> 00:23:47,340
+doing rotations on our block sphere we
+ 
+
+1069
+00:23:47,340 --> 00:23:49,970
+doing rotations on our block sphere we
+pick the specific U2 Matrix whose
+
+1070
+00:23:49,970 --> 00:23:49,980
+pick the specific U2 Matrix whose
+ 
+
+1071
+00:23:49,980 --> 00:23:52,130
+pick the specific U2 Matrix whose
+determinant is one
+
+1072
+00:23:52,130 --> 00:23:52,140
+determinant is one
+ 
+
+1073
+00:23:52,140 --> 00:23:54,230
+determinant is one
+remember we can always set the
+
+1074
+00:23:54,230 --> 00:23:54,240
+remember we can always set the
+ 
+
+1075
+00:23:54,240 --> 00:23:57,110
+remember we can always set the
+determinant of a U2 Matrix to plus one
+
+1076
+00:23:57,110 --> 00:23:57,120
+determinant of a U2 Matrix to plus one
+ 
+
+1077
+00:23:57,120 --> 00:24:00,110
+determinant of a U2 Matrix to plus one
+by multiplying it by the correct complex
+
+1078
+00:24:00,110 --> 00:24:00,120
+by multiplying it by the correct complex
+ 
+
+1079
+00:24:00,120 --> 00:24:01,490
+by multiplying it by the correct complex
+phase
+
+1080
+00:24:01,490 --> 00:24:01,500
+phase
+ 
+
+1081
+00:24:01,500 --> 00:24:05,090
+phase
+this restricts us to su2 the group of
+
+1082
+00:24:05,090 --> 00:24:05,100
+this restricts us to su2 the group of
+ 
+
+1083
+00:24:05,100 --> 00:24:07,490
+this restricts us to su2 the group of
+two by two unitary matrices with
+
+1084
+00:24:07,490 --> 00:24:07,500
+two by two unitary matrices with
+ 
+
+1085
+00:24:07,500 --> 00:24:10,250
+two by two unitary matrices with
+determinants of plus one
+
+1086
+00:24:10,250 --> 00:24:10,260
+determinants of plus one
+ 
+
+1087
+00:24:10,260 --> 00:24:13,909
+determinants of plus one
+so in conclusion the behavior of quantum
+
+1088
+00:24:13,909 --> 00:24:13,919
+so in conclusion the behavior of quantum
+ 
+
+1089
+00:24:13,919 --> 00:24:16,490
+so in conclusion the behavior of quantum
+spin States is mathematically equivalent
+
+1090
+00:24:16,490 --> 00:24:16,500
+spin States is mathematically equivalent
+ 
+
+1091
+00:24:16,500 --> 00:24:19,430
+spin States is mathematically equivalent
+to the behavior of Jones vectors and
+
+1092
+00:24:19,430 --> 00:24:19,440
+to the behavior of Jones vectors and
+ 
+
+1093
+00:24:19,440 --> 00:24:22,850
+to the behavior of Jones vectors and
+light polarizations both are represented
+
+1094
+00:24:22,850 --> 00:24:22,860
+light polarizations both are represented
+ 
+
+1095
+00:24:22,860 --> 00:24:26,029
+light polarizations both are represented
+by two component complex columns which
+
+1096
+00:24:26,029 --> 00:24:26,039
+by two component complex columns which
+ 
+
+1097
+00:24:26,039 --> 00:24:28,789
+by two component complex columns which
+can be represented geometrically on a
+
+1098
+00:24:28,789 --> 00:24:28,799
+can be represented geometrically on a
+ 
+
+1099
+00:24:28,799 --> 00:24:29,630
+can be represented geometrically on a
+sphere
+
+1100
+00:24:29,630 --> 00:24:29,640
+sphere
+ 
+
+1101
+00:24:29,640 --> 00:24:32,149
+sphere
+we can rotate between points on the
+
+1102
+00:24:32,149 --> 00:24:32,159
+we can rotate between points on the
+ 
+
+1103
+00:24:32,159 --> 00:24:35,930
+we can rotate between points on the
+sphere using su2 matrices since both
+
+1104
+00:24:35,930 --> 00:24:35,940
+sphere using su2 matrices since both
+ 
+
+1105
+00:24:35,940 --> 00:24:38,390
+sphere using su2 matrices since both
+Quantum States and light polarizations
+
+1106
+00:24:38,390 --> 00:24:38,400
+Quantum States and light polarizations
+ 
+
+1107
+00:24:38,400 --> 00:24:41,330
+Quantum States and light polarizations
+don't care about overall phase factors
+
+1108
+00:24:41,330 --> 00:24:41,340
+don't care about overall phase factors
+ 
+
+1109
+00:24:41,340 --> 00:24:44,330
+don't care about overall phase factors
+which includes not caring about overall
+
+1110
+00:24:44,330 --> 00:24:44,340
+which includes not caring about overall
+ 
+
+1111
+00:24:44,340 --> 00:24:46,310
+which includes not caring about overall
+negative signs
+
+1112
+00:24:46,310 --> 00:24:46,320
+negative signs
+ 
+
+1113
+00:24:46,320 --> 00:24:49,190
+negative signs
+in the case of physical space for wave
+
+1114
+00:24:49,190 --> 00:24:49,200
+in the case of physical space for wave
+ 
+
+1115
+00:24:49,200 --> 00:24:51,950
+in the case of physical space for wave
+polarizations and the quantum State
+
+1116
+00:24:51,950 --> 00:24:51,960
+polarizations and the quantum State
+ 
+
+1117
+00:24:51,960 --> 00:24:55,010
+polarizations and the quantum State
+space for Quantum spin States these are
+
+1118
+00:24:55,010 --> 00:24:55,020
+space for Quantum spin States these are
+ 
+
+1119
+00:24:55,020 --> 00:24:57,289
+space for Quantum spin States these are
+spaces where the overall negative signs
+
+1120
+00:24:57,289 --> 00:24:57,299
+spaces where the overall negative signs
+ 
+
+1121
+00:24:57,299 --> 00:24:59,270
+spaces where the overall negative signs
+are still visible
+
+1122
+00:24:59,270 --> 00:24:59,280
+are still visible
+ 
+
+1123
+00:24:59,280 --> 00:25:01,909
+are still visible
+however when we move to the point array
+
+1124
+00:25:01,909 --> 00:25:01,919
+however when we move to the point array
+ 
+
+1125
+00:25:01,919 --> 00:25:04,370
+however when we move to the point array
+sphere and block sphere where the
+
+1126
+00:25:04,370 --> 00:25:04,380
+sphere and block sphere where the
+ 
+
+1127
+00:25:04,380 --> 00:25:07,070
+sphere and block sphere where the
+overall phases don't matter there is no
+
+1128
+00:25:07,070 --> 00:25:07,080
+overall phases don't matter there is no
+ 
+
+1129
+00:25:07,080 --> 00:25:08,870
+overall phases don't matter there is no
+difference between a vector's positive
+
+1130
+00:25:08,870 --> 00:25:08,880
+difference between a vector's positive
+ 
+
+1131
+00:25:08,880 --> 00:25:11,210
+difference between a vector's positive
+version and its negative version
+
+1132
+00:25:11,210 --> 00:25:11,220
+version and its negative version
+ 
+
+1133
+00:25:11,220 --> 00:25:13,810
+version and its negative version
+so one rotation in the original space
+
+1134
+00:25:13,810 --> 00:25:13,820
+so one rotation in the original space
+ 
+
+1135
+00:25:13,820 --> 00:25:16,789
+so one rotation in the original space
+corresponds to two rotations on these
+
+1136
+00:25:16,789 --> 00:25:16,799
+corresponds to two rotations on these
+ 
+
+1137
+00:25:16,799 --> 00:25:19,190
+corresponds to two rotations on these
+mathematical spheres where overall
+
+1138
+00:25:19,190 --> 00:25:19,200
+mathematical spheres where overall
+ 
+
+1139
+00:25:19,200 --> 00:25:21,529
+mathematical spheres where overall
+negative signs are ignored
+
+1140
+00:25:21,529 --> 00:25:21,539
+negative signs are ignored
+ 
+
+1141
+00:25:21,539 --> 00:25:23,870
+negative signs are ignored
+this is the source of the angle doubling
+
+1142
+00:25:23,870 --> 00:25:23,880
+this is the source of the angle doubling
+ 
+
+1143
+00:25:23,880 --> 00:25:27,350
+this is the source of the angle doubling
+relationships between the two spaces and
+
+1144
+00:25:27,350 --> 00:25:27,360
+relationships between the two spaces and
+ 
+
+1145
+00:25:27,360 --> 00:25:30,169
+relationships between the two spaces and
+why these two by one complex columns are
+
+1146
+00:25:30,169 --> 00:25:30,179
+why these two by one complex columns are
+ 
+
+1147
+00:25:30,179 --> 00:25:32,750
+why these two by one complex columns are
+called spinners
+
+1148
+00:25:32,750 --> 00:25:32,760
+called spinners
+ 
+
+1149
+00:25:32,760 --> 00:25:34,970
+called spinners
+now we've described the basic
+
+1150
+00:25:34,970 --> 00:25:34,980
+now we've described the basic
+ 
+
+1151
+00:25:34,980 --> 00:25:37,789
+now we've described the basic
+mathematics of spinners as two by one
+
+1152
+00:25:37,789 --> 00:25:37,799
+mathematics of spinners as two by one
+ 
+
+1153
+00:25:37,799 --> 00:25:40,970
+mathematics of spinners as two by one
+columns that rotate with su2 matrices
+
+1154
+00:25:40,970 --> 00:25:40,980
+columns that rotate with su2 matrices
+ 
+
+1155
+00:25:40,980 --> 00:25:43,850
+columns that rotate with su2 matrices
+and don't care about overall phase
+
+1156
+00:25:43,850 --> 00:25:43,860
+and don't care about overall phase
+ 
+
+1157
+00:25:43,860 --> 00:25:45,169
+and don't care about overall phase
+factors
+
+1158
+00:25:45,169 --> 00:25:45,179
+factors
+ 
+
+1159
+00:25:45,179 --> 00:25:47,750
+factors
+but it's possible you still find this
+
+1160
+00:25:47,750 --> 00:25:47,760
+but it's possible you still find this
+ 
+
+1161
+00:25:47,760 --> 00:25:50,570
+but it's possible you still find this
+pretty confusing so in our next video
+
+1162
+00:25:50,570 --> 00:25:50,580
+pretty confusing so in our next video
+ 
+
+1163
+00:25:50,580 --> 00:25:52,909
+pretty confusing so in our next video
+we're going to show how we can visualize
+
+1164
+00:25:52,909 --> 00:25:52,919
+we're going to show how we can visualize
+ 
+
+1165
+00:25:52,919 --> 00:25:56,930
+we're going to show how we can visualize
+Spinners as flag pulls on a sphere and
+
+1166
+00:25:56,930 --> 00:25:56,940
+Spinners as flag pulls on a sphere and
+ 
+
+1167
+00:25:56,940 --> 00:25:58,909
+Spinners as flag pulls on a sphere and
+show how these Spinners are really
+
+1168
+00:25:58,909 --> 00:25:58,919
+show how these Spinners are really
+ 
+
+1169
+00:25:58,919 --> 00:26:01,370
+show how these Spinners are really
+elements of a space called the complex
+
+1170
+00:26:01,370 --> 00:26:01,380
+elements of a space called the complex
+ 
+
+1171
+00:26:01,380 --> 00:26:03,169
+elements of a space called the complex
+projective line
+
+1172
+00:26:03,169 --> 00:26:03,179
+projective line
+ 
+
+1173
+00:26:03,179 --> 00:26:05,210
+projective line
+this will hopefully make all the
+
+1174
+00:26:05,210 --> 00:26:05,220
+this will hopefully make all the
+ 
+
+1175
+00:26:05,220 --> 00:26:07,430
+this will hopefully make all the
+mysterious mathematical properties of
+
+1176
+00:26:07,430 --> 00:26:07,440
+mysterious mathematical properties of
+ 
+
+1177
+00:26:07,440 --> 00:26:10,250
+mysterious mathematical properties of
+spinners disappear and make them seem
+
+1178
+00:26:10,250 --> 00:26:10,260
+spinners disappear and make them seem
+ 
+
+1179
+00:26:10,260 --> 00:26:13,520
+spinners disappear and make them seem
+more like common sense
+
