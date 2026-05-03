@@ -54,3 +54,88 @@ export function fmtC(c: Complex, prec = 2): string {
   const sign = i >= 0 ? '+' : '−';
   return `${r} ${sign} ${Math.abs(i).toFixed(prec)}i`;
 }
+
+/**
+ * Espinor parametrizado por ángulos polares (θ, φ) sobre la esfera de Bloch
+ * y una fase global γ. Convención estándar:
+ *   ψ(θ, φ, γ) = e^{iγ} ( cos(θ/2),  e^{iφ} sin(θ/2) )
+ * Da ⟨σ⟩ = ( sin θ cos φ, sin θ sin φ, cos θ ).
+ */
+export function blochAnglesToSpinor(theta: number, phi: number, gamma = 0): Spinor {
+  const c = Math.cos(theta / 2);
+  const s = Math.sin(theta / 2);
+  const eg = cphase(gamma);
+  const ep = cphase(phi);
+  return [cscale(eg, c), cmul(eg, cscale(ep, s))];
+}
+
+/**
+ * Recupera (θ, φ) de un espinor (ignora fase y norma).
+ * φ se calcula como arg(β) − arg(α). θ ∈ [0, π], φ ∈ (−π, π].
+ */
+export function spinorToBlochAngles(psi: Spinor): { theta: number; phi: number } {
+  const [a, b] = psi;
+  const ra = Math.hypot(a[0], a[1]);
+  const rb = Math.hypot(b[0], b[1]);
+  const norm = Math.hypot(ra, rb);
+  if (norm === 0) return { theta: 0, phi: 0 };
+  const theta = 2 * Math.atan2(rb, ra);
+  const phi = ra === 0 || rb === 0 ? 0 : Math.atan2(b[1], b[0]) - Math.atan2(a[1], a[0]);
+  // Normaliza φ a (−π, π]
+  let p = phi;
+  while (p > Math.PI) p -= 2 * Math.PI;
+  while (p <= -Math.PI) p += 2 * Math.PI;
+  return { theta, phi: p };
+}
+
+/** Multiplica el espinor por una fase global e^{iγ} (no cambia el punto de Bloch). */
+export function applyGlobalPhase(psi: Spinor, gamma: number): Spinor {
+  const eg = cphase(gamma);
+  return [cmul(eg, psi[0]), cmul(eg, psi[1])];
+}
+
+/**
+ * Trayectoria del campo eléctrico para el vector de Jones (α, β):
+ *   E(t) = Re[ (α, β) · e^{−iωt} ]
+ * Devuelve N puntos (Ex, Ey) sobre un periodo completo (ωt ∈ [0, 2π)).
+ */
+export function jonesEllipse(psi: Spinor, n = 96): Array<[number, number]> {
+  const out: Array<[number, number]> = [];
+  for (let k = 0; k < n; k++) {
+    const wt = (2 * Math.PI * k) / n;
+    const ph: Complex = [Math.cos(wt), -Math.sin(wt)];
+    const ex = cmul(psi[0], ph)[0];
+    const ey = cmul(psi[1], ph)[0];
+    out.push([ex, ey]);
+  }
+  return out;
+}
+
+/**
+ * Clasifica cualitativamente la polarización de un espinor leído como Jones.
+ * Devuelve un nombre corto: "lineal H", "circular R", "elíptica L", etc.
+ */
+export function polarizationLabel(psi: Spinor): string {
+  const ra = Math.hypot(psi[0][0], psi[0][1]);
+  const rb = Math.hypot(psi[1][0], psi[1][1]);
+  if (ra < 1e-6) return 'lineal V';
+  if (rb < 1e-6) return 'lineal H';
+  // diferencia de fase Δ = arg(β) − arg(α)
+  const dp = Math.atan2(psi[1][1], psi[1][0]) - Math.atan2(psi[0][1], psi[0][0]);
+  let d = dp;
+  while (d > Math.PI) d -= 2 * Math.PI;
+  while (d <= -Math.PI) d += 2 * Math.PI;
+  const balanced = Math.abs(ra - rb) < 0.05 * Math.max(ra, rb);
+  const ratio = rb / ra;
+  // Casi en fase / contrafase → lineal
+  if (Math.abs(d) < 0.05 || Math.abs(Math.abs(d) - Math.PI) < 0.05) {
+    const ang = Math.atan(ratio) * (180 / Math.PI);
+    const sign = Math.abs(d) < Math.PI / 2 ? '+' : '−';
+    return `lineal ${sign}${ang.toFixed(0)}°`;
+  }
+  // Δ ≈ ±π/2 y módulos iguales → circular
+  if (balanced && Math.abs(Math.abs(d) - Math.PI / 2) < 0.05) {
+    return d > 0 ? 'circular L' : 'circular R';
+  }
+  return d > 0 ? 'elíptica L' : 'elíptica R';
+}

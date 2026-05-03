@@ -1,0 +1,226 @@
+---
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import MathBlock from '../../components/MathBlock.astro';
+import BlochState from '../../components/interactive/BlochState.svelte';
+---
+
+<ArticleLayout
+  title="M2 · La esfera como espacio de estados"
+  subtitle="Bloch, Poincaré, CP¹: dónde vive realmente un espinor."
+  slug="02-bloch-cp1"
+>
+  <p>
+    En M1 dimos una definición provisional: un espinor es un par
+    <MathBlock f={String.raw`\psi = (\alpha, \beta) \in \mathbb{C}^2`} />
+    en el que ignoramos una fase y una escala globales. Esa convención no es un
+    capricho: es una observación experimental. Vamos a sacarle todas las
+    consecuencias geométricas y descubrir que un espinor no vive en
+    <MathBlock f={String.raw`\mathbb{C}^2`} /> sino en una esfera.
+  </p>
+
+  <h2>Por qué se ignoran fase y escala</h2>
+  <p>
+    Dos motivos físicos, uno por contexto.
+  </p>
+  <p>
+    <strong>Mecánica cuántica.</strong> La regla de Born dice que las
+    probabilidades de medida se calculan con módulos al cuadrado, normalizados
+    por la norma del estado. Un cambio
+    <MathBlock f={String.raw`\psi \mapsto \lambda \psi, \quad \lambda \in \mathbb{C}^\ast`} />
+    no afecta a ningún cociente
+    <MathBlock f={String.raw`|\langle a | \psi \rangle|^2 / \langle \psi | \psi \rangle`} />.
+    La fase global no es observable; la norma global se cancela en cualquier
+    valor esperado. Solo importa la dirección de
+    <MathBlock f={String.raw`\psi`} /> en
+    <MathBlock f={String.raw`\mathbb{C}^2`} />, no su longitud, ni la fase
+    elegida para representarla.
+  </p>
+  <p>
+    <strong>Óptica.</strong> El vector de Jones
+    <MathBlock f={String.raw`(E_x, E_y) \in \mathbb{C}^2`} />
+    describe la polarización de una onda monocromática plana. La intensidad
+    fija la norma; el origen temporal arbitrario fija la fase global. La forma
+    geométrica de la polarización (lineal, elíptica, circular) depende solo
+    del cociente
+    <MathBlock f={String.raw`E_y / E_x`} />.
+  </p>
+
+  <h2>El espacio que queda: CP¹</h2>
+  <p>
+    Si en
+    <MathBlock f={String.raw`\mathbb{C}^2 \setminus \{0\}`} />
+    identificamos
+    <MathBlock f={String.raw`\psi \sim \lambda \psi`} />
+    para cualquier
+    <MathBlock f={String.raw`\lambda \in \mathbb{C}^\ast`} />,
+    el cociente que obtenemos es la <em>línea proyectiva compleja</em>
+    <MathBlock f={String.raw`\mathbb{CP}^1`} />.
+    En cartas locales: si
+    <MathBlock f={String.raw`\alpha \neq 0`} />
+    podemos elegir el representante con
+    <MathBlock f={String.raw`\alpha = 1`} />
+    y todo el espinor queda codificado por un único número complejo
+    <MathBlock f={String.raw`z = \beta / \alpha \in \mathbb{C}`} />;
+    el caso límite
+    <MathBlock f={String.raw`\alpha = 0`} />
+    es el "punto en el infinito"
+    <MathBlock f={String.raw`z = \infty`} />.
+    Compactificando
+    <MathBlock f={String.raw`\mathbb{C} \cup \{\infty\}`} />
+    obtenemos topológicamente una esfera: la esfera de Riemann.
+  </p>
+
+  <p>
+    Esa esfera es la misma esfera que aparece en mecánica cuántica con el nombre
+    de <em>esfera de Bloch</em>, y la misma que aparece en óptica como
+    <em>esfera de Poincaré</em>. La construcción no depende del contexto: solo
+    del hecho de que estamos cocientando
+    <MathBlock f={String.raw`\mathbb{C}^2`} />
+    por
+    <MathBlock f={String.raw`\mathbb{C}^\ast`} />.
+  </p>
+
+  <h2>Coordenadas explícitas</h2>
+  <p>
+    Toda dirección unitaria
+    <MathBlock f={String.raw`\hat n = (\sin\theta\cos\varphi,\ \sin\theta\sin\varphi,\ \cos\theta)`} />
+    sobre la 2-esfera está representada por el espinor
+    <MathBlock
+      f={String.raw`\psi(\theta,\varphi) = \begin{pmatrix} \cos(\theta/2) \\ e^{i\varphi}\sin(\theta/2) \end{pmatrix}`}
+      d
+    />
+    con la convención estándar de fase. La pista clave aquí es el
+    <em>medio ángulo</em>: para girar el punto de Bloch
+    <MathBlock f={String.raw`\hat n`} />
+    una vuelta completa
+    <MathBlock f={String.raw`(\theta : 0 \to 2\pi)`} />
+    el espinor solo recorre media vuelta interna
+    <MathBlock f={String.raw`(\theta/2 : 0 \to \pi)`} />.
+    Es exactamente el doblado angular que vimos en M1, ahora escrito como
+    parametrización.
+  </p>
+
+  <p>
+    Verificación rápida: con esa
+    <MathBlock f={String.raw`\psi`} />,
+    <MathBlock f={String.raw`\langle\psi | \boldsymbol\sigma | \psi\rangle = (\sin\theta\cos\varphi,\ \sin\theta\sin\varphi,\ \cos\theta) = \hat n`} d />
+    así que el "vector de Pauli" promedio del estado es exactamente la
+    dirección que pintamos en la esfera. Eso es lo que justifica llamar a
+    <MathBlock f={String.raw`\hat n`} />
+    la "dirección" del espinor.
+  </p>
+
+  <h2>El asta de bandera</h2>
+  <p>
+    La fase global
+    <MathBlock f={String.raw`\gamma`} />
+    está ahí —forma parte de
+    <MathBlock f={String.raw`\psi = e^{i\gamma}(\cos(\theta/2),\ e^{i\varphi}\sin(\theta/2))`} />
+    pero no afecta al punto de Bloch. La forma estándar de visualizarla
+    (Penrose) es una "asta de bandera" anclada al punto: el asta es la
+    dirección
+    <MathBlock f={String.raw`\hat n`} />,
+    la bandera es una decoración perpendicular cuyo plano marca la fase. Mover
+    <MathBlock f={String.raw`\gamma`} />
+    rota la bandera alrededor del asta sin tocar el punto. Lo verás abajo
+    moviendo el slider γ: el punto y la elipse no cambian; la bandera sí.
+  </p>
+
+  <div class="widget">
+    <BlochState client:visible />
+  </div>
+
+  <p>
+    Aproveche los presets para fijar las seis direcciones canónicas
+    <MathBlock f={String.raw`|\pm z\rangle, |\pm x\rangle, |\pm y\rangle`} />
+    y observe cómo en cada caso la elipse de Jones cambia de carácter:
+    <MathBlock f={String.raw`|\pm z\rangle`} />
+    son lineales horizontal/vertical,
+    <MathBlock f={String.raw`|\pm x\rangle`} />
+    son lineales a
+    <MathBlock f={String.raw`\pm 45°`} />,
+    y
+    <MathBlock f={String.raw`|\pm y\rangle`} />
+    son las polarizaciones circulares. Estados ortogonales en
+    <MathBlock f={String.raw`\mathbb{C}^2`} />
+    aparecen <em>antípodas</em> en la esfera. Esa es la regla de doblado de
+    M1, leída al revés: 90° de ortogonalidad interna corresponden a 180° de
+    separación física.
+  </p>
+
+  <h2>Bloch vs Poincaré: el mismo dibujo</h2>
+  <p>
+    En mecánica cuántica el espacio de estados es la esfera de Bloch y la
+    dirección
+    <MathBlock f={String.raw`\hat n`} />
+    es la dirección física de cuantización del espín. En óptica, la esfera se
+    llama de Poincaré y los puntos representan estados de polarización: el
+    ecuador concentra las lineales, los polos las circulares, el resto son
+    elípticas. La matemática es idéntica
+    <MathBlock f={String.raw`(\mathbb{CP}^1)`} />;
+    solo cambia qué montaje experimental llamamos
+    <MathBlock f={String.raw`|+z\rangle`} />.
+  </p>
+
+  <h2>Lectura de la elipse</h2>
+  <p>
+    Con
+    <MathBlock f={String.raw`(\alpha, \beta) = (E_x, E_y)`} />
+    el campo eléctrico en función del tiempo es
+    <MathBlock f={String.raw`\mathbf E(t) = \operatorname{Re}\!\bigl[(\alpha,\ \beta)\, e^{-i\omega t}\bigr]`} d />
+    y la curva que traza
+    <MathBlock f={String.raw`(E_x(t), E_y(t))`} />
+    es la elipse de polarización. Tres casos límite:
+  </p>
+  <ul>
+    <li>
+      Si
+      <MathBlock f={String.raw`\arg\beta - \arg\alpha = 0\ \text{o}\ \pi`} />
+      la elipse degenera en un segmento: polarización lineal.
+    </li>
+    <li>
+      Si la diferencia es
+      <MathBlock f={String.raw`\pm \pi/2`} />
+      y los módulos coinciden, la elipse es una circunferencia: polarización
+      circular L o R según el signo.
+    </li>
+    <li>
+      Cualquier otra cosa es elíptica genérica.
+    </li>
+  </ul>
+  <p>
+    El widget ya etiqueta el caso. Note que cambiar
+    <MathBlock f={String.raw`\gamma`} />
+    no cambia el carácter de la elipse: solo desplaza el origen temporal —el
+    punto amarillo se mueve sobre la curva pero la curva es la misma. Esa
+    invariancia es <em>operativa</em> el motivo por el que ignoramos la fase
+    global.
+  </p>
+
+  <h2>Qué se lleva uno</h2>
+  <ul>
+    <li>
+      Un espinor proyectivo es un punto de
+      <MathBlock f={String.raw`\mathbb{CP}^1 \cong S^2`} />:
+      la esfera de Bloch / Poincaré.
+    </li>
+    <li>
+      La parametrización
+      <MathBlock f={String.raw`(\cos(\theta/2),\ e^{i\varphi}\sin(\theta/2))`} />
+      ya contiene el factor de medio ángulo: girar el punto requiere la mitad
+      del giro interno del espinor.
+    </li>
+    <li>
+      La fase global
+      <MathBlock f={String.raw`\gamma`} />
+      es la "bandera": existe, codifica más información que el punto solo, pero
+      no afecta a observables ni a la elipse de polarización.
+    </li>
+    <li>
+      Estados ortogonales son antípodas. En M3 veremos que esto es exactamente
+      la afirmación
+      <MathBlock f={String.raw`\det V = -|\mathbf v|^2`} />
+      cuando reescribamos un vector como matriz 2×2.
+    </li>
+  </ul>
+</ArticleLayout>
