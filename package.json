@@ -1,0 +1,32 @@
+{
+  "name": "spinors",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "mkdir -p public/katex && cp node_modules/katex/dist/katex.min.css public/katex/ && cp -r node_modules/katex/dist/fonts public/katex/",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "format": "prettier --write 'src/**/*.{ts,svelte,astro,css}'",
+    "lint": "eslint 'src/**/*.{ts,svelte,astro}'"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-svelte": "^3.0.0",
+    "prettier": "^3.0.0",
+    "prettier-plugin-svelte": "^3.0.0",
+    "svelte-eslint-parser": "^0.43.0",
+    "typescript-eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.0",
+    "@astrojs/svelte": "^7.0.0",
+    "astro": "^5.7.0",
+    "katex": "^0.16.22",
+    "svelte": "^5.0.0",
+    "typescript": "^5.6.0"
+  }
+}

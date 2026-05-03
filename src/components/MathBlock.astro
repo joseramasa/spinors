@@ -1,0 +1,16 @@
+---
+import katex from 'katex';
+
+interface Props {
+  f: string;
+  d?: boolean;
+}
+
+const { f, d = false } = Astro.props;
+const html = katex.renderToString(f, {
+  displayMode: d,
+  throwOnError: false,
+});
+---
+
+{d ? <div class="math-block" set:html={html} /> : <span set:html={html} />}

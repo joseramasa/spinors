@@ -1,0 +1,51 @@
+---
+import '../styles/global.css';
+import { MODULES } from '../data/modules';
+
+interface Props {
+  title: string;
+  subtitle?: string;
+  slug?: string;
+}
+
+const { title, subtitle, slug } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} — Espinores</title>
+    <meta name="description" content={subtitle ?? 'Curso interactivo de espinores'} />
+    <link rel="stylesheet" href={`${base}/katex/katex.min.css`} />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <h1><a href={`${base}/`}>Espinores</a></h1>
+        <ol>
+          {
+            MODULES.map((m) => (
+              <li>
+                <a href={`${base}/${m.slug}/`} class={slug === m.slug ? 'current' : ''}>
+                  {m.title}
+                </a>
+              </li>
+            ))
+          }
+        </ol>
+      </aside>
+      <main>
+        <h1>{title}</h1>
+        {subtitle && <p class="lede">{subtitle}</p>}
+        <slot />
+        <footer>
+          Material derivado de la serie <a href="https://www.youtube.com/playlist?list=PLJHszsWbB6hoOo_wMb0b6T44KM_ABZtBs">Spinors for Beginners</a> de Eigenchris.
+          Texto y widgets originales.
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

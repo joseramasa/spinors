@@ -1,0 +1,41 @@
+---
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+import { MODULES } from '../data/modules';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<ArticleLayout
+  title="Espinores"
+  subtitle="Un recorrido interactivo de los giros que necesitan dos vueltas hasta el electrón de Dirac."
+>
+  <p>
+    Los espinores tienen mala fama de ser confusos. Esta serie no intenta evitar
+    el formalismo, pero sí construirlo a partir de intuiciones que se puedan ver
+    y manipular en pantalla.
+  </p>
+
+  <h2>Itinerario</h2>
+  <ol>
+    {
+      MODULES.map((m) => (
+        <li>
+          <a href={`${base}/${m.slug}/`}>
+            <strong>{m.title}</strong>
+          </a>
+          <span> — {m.hook}</span>
+        </li>
+      ))
+    }
+  </ol>
+
+  <h2>Cómo está pensado</h2>
+  <p>
+    Cada módulo plantea una pregunta concreta, identifica la intuición que el
+    lector debe llevarse, y la sostiene con un widget interactivo central. Hay
+    ejercicios cortos al final, calculables en el navegador.
+  </p>
+  <p>
+    El orden recomendado es secuencial. M6 (Clifford) puede leerse en paralelo
+    con M4 y M5 si se prefiere el camino algebraico.
+  </p>
+</ArticleLayout>

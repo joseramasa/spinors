@@ -1,0 +1,59 @@
+---
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import MathBlock from '../../components/MathBlock.astro';
+---
+
+<ArticleLayout
+  title="M1 · La pista del giro doble"
+  subtitle="¿Qué es un espinor, y por qué hace falta girar dos veces?"
+  slug="01-giro-doble"
+>
+  <p>
+    Un objeto cotidiano —una flecha, una taza, un libro— vuelve a su posición
+    original tras una rotación de 360°. Hay objetos físicos para los que esto no
+    es cierto: hace falta girarlos <em>dos veces</em> para que vuelvan a ser
+    indistinguibles del estado inicial. Esos objetos son los espinores, y antes
+    de definirlos formalmente vamos a verlos en acción.
+  </p>
+
+  <h2>El truco del cinturón</h2>
+  <p>
+    Sujeta un extremo de un cinturón fijo y el otro libre. Da una vuelta
+    completa al extremo libre: aparece un retorcimiento que no puedes deshacer
+    moviendo el extremo en el espacio (sin volverlo a girar). Da otra vuelta en
+    el mismo sentido y, contraintuitivamente, ahora <em>sí</em> puedes deshacer
+    el retorcimiento pasando el extremo por encima o por debajo, sin rotarlo.
+  </p>
+  <p>
+    El truco del plato (sujetar un plato sobre la palma de la mano y rotarlo
+    sin soltarlo) es la misma idea: tu brazo lleva la cuenta del número de
+    vueltas módulo 2, no módulo 1.
+  </p>
+
+  <h2>Stern–Gerlach: el primer espinor físico</h2>
+  <p>
+    Cuando átomos de plata pasan por un imán inhomogéneo, el haz se parte en
+    dos. Las dos componentes se llaman <em>spin up</em> y <em>spin down</em>;
+    físicamente apuntan en direcciones opuestas (180° aparte), pero en el
+    espacio de estados cuántico son ortogonales (90°). Hay un factor 2 entre
+    geometría externa y geometría interna.
+  </p>
+
+  <h2>El widget</h2>
+  <div class="widget">
+    <div class="placeholder">
+      [ widget pendiente: flecha 3D rotando 0–720° acoplada a un punto en la
+      esfera de Bloch que rota a la mitad de velocidad ]
+    </div>
+  </div>
+
+  <h2>Definición provisional</h2>
+  <p>
+    Un espinor, por ahora, es un par de números complejos
+    <MathBlock f="\psi = \begin{pmatrix} \alpha \\ \beta \end{pmatrix}, \quad \alpha, \beta \in \mathbb{C}" d />
+    sometido a la convención de que los estados <MathBlock f="\psi" /> y
+    <MathBlock f="\lambda \psi" /> con <MathBlock f="\lambda \in \mathbb{C}^*" />
+    representan el mismo objeto físico. Las consecuencias geométricas de esa
+    convención son lo que vamos a desentrañar.
+  </p>
+</ArticleLayout>
