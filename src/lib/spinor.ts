@@ -111,6 +111,46 @@ export function polarizationKind(psi: Spinor, eps = 0.04): PolarizationKind {
 }
 
 /**
+ * Matriz de Pauli V = x σ_x + y σ_y + z σ_z, devuelta como 4 complejos
+ * en orden [V₀₀, V₀₁, V₁₀, V₁₁]. Hermítica: V₀₁* = V₁₀.
+ */
+export function pauliMatrix(v: [number, number, number]): [Complex, Complex, Complex, Complex] {
+  const [x, y, z] = v;
+  return [
+    [z, 0],
+    [x, -y], // x − i y
+    [x, y], //  x + i y
+    [-z, 0],
+  ];
+}
+
+/** Producto exterior ψψ†, devuelto como [M₀₀, M₀₁, M₁₀, M₁₁]. Hermítica de rango 1. */
+export function outerProduct(psi: Spinor): [Complex, Complex, Complex, Complex] {
+  const [a, b] = psi;
+  const aSq: Complex = [a[0] * a[0] + a[1] * a[1], 0];
+  const bSq: Complex = [b[0] * b[0] + b[1] * b[1], 0];
+  // ab̄ = (a₀ + i a₁)(b₀ − i b₁) = a₀b₀ + a₁b₁ + i(a₁b₀ − a₀b₁)
+  const abBar: Complex = [a[0] * b[0] + a[1] * b[1], a[1] * b[0] - a[0] * b[1]];
+  const baBar: Complex = [abBar[0], -abBar[1]];
+  return [aSq, abBar, baBar, bSq];
+}
+
+/** Aplica la matriz SU(2) U_z(θ) a la matriz V por sandwich U V U†. */
+export function sandwichRotZ(
+  V: [Complex, Complex, Complex, Complex],
+  theta: number,
+): [Complex, Complex, Complex, Complex] {
+  // U_z(θ) = diag(e^{−iθ/2}, e^{+iθ/2})  ⇒  U V U† modifica solo los off-diagonales:
+  //   V'₀₀ = V₀₀, V'₁₁ = V₁₁
+  //   V'₀₁ = e^{−iθ} V₀₁,   V'₁₀ = e^{+iθ} V₁₀
+  const c = Math.cos(theta);
+  const s = Math.sin(theta);
+  const v01: Complex = [V[1][0] * c + V[1][1] * s, -V[1][0] * s + V[1][1] * c];
+  const v10: Complex = [V[2][0] * c - V[2][1] * s, V[2][0] * s + V[2][1] * c];
+  return [V[0], v01, v10, V[3]];
+}
+
+/**
  * Genera puntos de la elipse de polarización trazada por el campo E real.
  * E(t) = (Re(α e^{-iωt}), Re(β e^{-iωt}))
  * Devuelve `n` muestras parametrizadas en ωt ∈ [0, 2π).

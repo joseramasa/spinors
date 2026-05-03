@@ -1,0 +1,120 @@
+---
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import MathBlock from '../../components/MathBlock.astro';
+import PauliFactorization from '../../components/interactive/PauliFactorization.svelte';
+---
+
+<ArticleLayout
+  title="M3 · Un vector es un sándwich de dos espinores"
+  subtitle="Por qué se dice que un espinor es la raíz cuadrada de un vector."
+  slug="03-vector-como-sandwich"
+>
+  <p>
+    Hasta aquí los espinores eran "objetos que giran a la mitad". En este
+    módulo vamos a ver el motivo algebraico: <strong>los espinores se combinan
+    de dos en dos para reconstruir un vector</strong>. La maquinaria es la base
+    de las matrices de Pauli y el resultado es una identidad notable:
+    <MathBlock f={String.raw`\psi\psi^{\dagger} = \tfrac{1}{2}(I + \mathbf{v}\!\cdot\!\boldsymbol{\sigma})`} d />
+    para todo espinor unitario <MathBlock f={String.raw`\psi`} /> y su
+    correspondiente dirección de Bloch <MathBlock f={String.raw`\mathbf{v}`} />.
+  </p>
+
+  <h2>Las matrices de Pauli como base de "vectores"</h2>
+  <p>
+    Las tres matrices
+    <MathBlock f={String.raw`\sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad \sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \quad \sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}`} d />
+    son hermíticas, de traza cero, cuadran a la identidad y anticonmutan dos a
+    dos: <MathBlock f={String.raw`\{\sigma_i,\sigma_j\} = 2\delta_{ij} I`} />.
+    Eso las convierte en una base natural para el espacio de matrices
+    hermíticas <MathBlock f={String.raw`2\times 2`} /> de traza nula. Cualquier
+    vector real <MathBlock f={String.raw`\mathbf{v} = (x,y,z)`} /> se codifica
+    como
+    <MathBlock f={String.raw`V = x\sigma_x + y\sigma_y + z\sigma_z = \begin{pmatrix} z & x - i y \\ x + i y & -z \end{pmatrix}`} d />
+    y la operación es invertible: <MathBlock f={String.raw`x = \tfrac{1}{2}\mathrm{tr}(\sigma_x V)`} />, etc.
+  </p>
+  <p>
+    Hechos clave: <MathBlock f={String.raw`\det V = -|\mathbf{v}|^2`} /> y
+    <MathBlock f={String.raw`\mathrm{tr}(V) = 0`} />. La aplicación
+    <MathBlock f={String.raw`\mathbf{v} \mapsto V`} /> es una biyección entre
+    <MathBlock f={String.raw`\mathbb{R}^3`} /> y las hermíticas
+    <MathBlock f={String.raw`2\times 2`} /> de traza nula.
+  </p>
+
+  <h2>Reflexiones y rotaciones como sándwiches</h2>
+  <p>
+    Si <MathBlock f={String.raw`\hat{u}`} /> es un vector unitario, la matriz
+    <MathBlock f={String.raw`U`} /> asociada cumple
+    <MathBlock f={String.raw`U^2 = I`} />, así que
+    <MathBlock f={String.raw`U^{-1} = U`} />. La <em>reflexión</em> de
+    <MathBlock f={String.raw`\mathbf{v}`} /> respecto al plano perpendicular a
+    <MathBlock f={String.raw`\hat{u}`} /> se escribe
+    <MathBlock f={String.raw`V \mapsto -U V U`} d />
+    Componiendo dos reflexiones (espejos a ángulo
+    <MathBlock f={String.raw`\theta/2`} />) sale una <em>rotación</em> de
+    ángulo <MathBlock f={String.raw`\theta`} />:
+    <MathBlock f={String.raw`V \mapsto R V R^{\dagger}, \qquad R = U_2 U_1 \in \mathrm{SU}(2)`} d />
+    Aquí está la pista del factor 2: cada matriz <MathBlock f={String.raw`U`} />
+    contribuye <MathBlock f={String.raw`\theta/4`} /> al ángulo de cada
+    reflexión, y dos reflexiones suman <MathBlock f={String.raw`\theta/2`} />
+    en cada lado del sándwich → <MathBlock f={String.raw`\theta`} /> total para
+    el vector pero solo <MathBlock f={String.raw`\theta/2`} /> para un espinor
+    columna que solo recibe la acción <MathBlock f={String.raw`R`} /> por la
+    izquierda.
+  </p>
+
+  <h2>Factorizar V como ψψ†</h2>
+  <p>
+    Toda matriz hermítica de rango 1 se escribe como un producto exterior
+    <MathBlock f={String.raw`\psi\psi^{\dagger}`} />. Para un vector unitario
+    <MathBlock f={String.raw`\mathbf{v}`} /> con espinor de Bloch
+    <MathBlock f={String.raw`\psi(\theta,\varphi) = \begin{pmatrix} \cos(\theta/2) \\ e^{i\varphi}\sin(\theta/2) \end{pmatrix}`} />
+    se cumple
+    <MathBlock f={String.raw`\psi\psi^{\dagger} = \begin{pmatrix} \cos^2(\theta/2) & e^{-i\varphi}\sin(\theta/2)\cos(\theta/2) \\ e^{i\varphi}\sin(\theta/2)\cos(\theta/2) & \sin^2(\theta/2) \end{pmatrix} = \tfrac{1}{2}(I + V)`} d />
+    Es decir: el espinor unitario <MathBlock f={String.raw`\psi`} /> codifica
+    <MathBlock f={String.raw`V`} /> (y por tanto
+    <MathBlock f={String.raw`\mathbf{v}`} />) salvo el sumando
+    <MathBlock f={String.raw`I`} />, y todo
+    <MathBlock f={String.raw`\psi`} /> con la misma dirección de Bloch difiere
+    en una fase global. <strong>Eso es ser "raíz cuadrada de un vector"</strong>:
+    rango 1 + rango 1 = vector + identidad.
+  </p>
+
+  <h2>El widget</h2>
+  <p>
+    Las dos sliders θ, φ orientan inicialmente <MathBlock f={String.raw`\mathbf{v}`} />.
+    La tercera (θ<sub>rot</sub>) aplica una rotación SU(2) alrededor de z:
+    al vector vía sandwich <MathBlock f={String.raw`R V R^{\dagger}`} />, al
+    espinor vía <MathBlock f={String.raw`R \psi`} />. Mira las cuatro casillas
+    de matrices y compara <MathBlock f={String.raw`\psi\psi^{\dagger}`} /> con
+    <MathBlock f={String.raw`\tfrac{1}{2}(I + V)`} /> entrada a entrada.
+    Comprueba que tras θ<sub>rot</sub> = 360° el vector está donde empezó pero
+    el signo del espinor se ha invertido.
+  </p>
+
+  <div class="widget">
+    <PauliFactorization client:visible />
+  </div>
+
+  <h2>Ejercicios</h2>
+  <ol>
+    <li>
+      Factoriza a mano el vector <em>null</em>
+      <MathBlock f={String.raw`\mathbf{n} = (1, i, 0)`} /> (que tiene
+      <MathBlock f={String.raw`|\mathbf{n}|^2 = 1 + i^2 + 0 = 0`} />): la
+      matriz asociada
+      <MathBlock f={String.raw`N`} /> tiene determinante cero, así que es
+      genuinamente <MathBlock f={String.raw`\xi\xi^{\dagger}`} />. Encuentra
+      <MathBlock f={String.raw`\xi`} /> salvo fase.
+    </li>
+    <li>
+      Comprueba que la composición de reflexiones por dos vectores
+      <MathBlock f={String.raw`\hat{u}_1 = \hat{x}`} /> y
+      <MathBlock f={String.raw`\hat{u}_2`} /> formando un ángulo
+      <MathBlock f={String.raw`\theta/2`} /> con
+      <MathBlock f={String.raw`\hat{x}`} /> en el plano <em>xy</em> produce
+      una rotación de <MathBlock f={String.raw`\theta`} /> alrededor de
+      <MathBlock f={String.raw`\hat{z}`} />. Hazlo simbólicamente con las
+      sigmas, no con matrices de rotación 3×3.
+    </li>
+  </ol>
+</ArticleLayout>
