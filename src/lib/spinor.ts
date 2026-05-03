@@ -54,3 +54,78 @@ export function fmtC(c: Complex, prec = 2): string {
   const sign = i >= 0 ? '+' : '−';
   return `${r} ${sign} ${Math.abs(i).toFixed(prec)}i`;
 }
+
+/**
+ * Espinor parametrizado por ángulos esféricos:
+ *   ψ(θ, φ) = (cos(θ/2), e^{iφ} sin(θ/2))
+ * Más una fase global γ (e^{iγ} multiplicando ambos componentes).
+ */
+export function spinorFromAngles(theta: number, phi: number, gamma = 0): Spinor {
+  const c = Math.cos(theta / 2);
+  const s = Math.sin(theta / 2);
+  // primera componente: c · e^{iγ}
+  const a: Complex = [c * Math.cos(gamma), c * Math.sin(gamma)];
+  // segunda componente: s · e^{i(γ+φ)}
+  const b: Complex = [s * Math.cos(gamma + phi), s * Math.sin(gamma + phi)];
+  return [a, b];
+}
+
+/** Norma cuadrada de ψ (= ⟨ψ|ψ⟩). Para uso de validación. */
+export function normSq(psi: Spinor): number {
+  return psi[0][0] ** 2 + psi[0][1] ** 2 + psi[1][0] ** 2 + psi[1][1] ** 2;
+}
+
+export type PolarizationKind =
+  | 'horizontal'
+  | 'vertical'
+  | 'diagonal'
+  | 'anti-diagonal'
+  | 'right-circular'
+  | 'left-circular'
+  | 'elliptical'
+  | 'lineal';
+
+/** Clasifica la polarización. Tolerancia ε para detectar casos puros. */
+export function polarizationKind(psi: Spinor, eps = 0.04): PolarizationKind {
+  const [a, b] = psi;
+  const ax = a[0], ay = a[1], bx = b[0], by = b[1];
+  const absA = Math.hypot(ax, ay);
+  const absB = Math.hypot(bx, by);
+  if (absB < eps) return 'horizontal';
+  if (absA < eps) return 'vertical';
+  // Diferencia de fase entre β y α
+  const phaseDiff = Math.atan2(by * ax - bx * ay, bx * ax + by * ay); // arg(β/α)
+  // Linear si phaseDiff ≈ 0 o ±π
+  const isLinear = Math.abs(Math.sin(phaseDiff)) < eps;
+  if (isLinear) {
+    if (Math.abs(absA - absB) < eps) {
+      return Math.cos(phaseDiff) > 0 ? 'diagonal' : 'anti-diagonal';
+    }
+    return 'lineal';
+  }
+  // Circular si |α| ≈ |β| y phaseDiff ≈ ±π/2
+  if (Math.abs(absA - absB) < eps && Math.abs(Math.cos(phaseDiff)) < eps) {
+    return phaseDiff > 0 ? 'right-circular' : 'left-circular';
+  }
+  return 'elliptical';
+}
+
+/**
+ * Genera puntos de la elipse de polarización trazada por el campo E real.
+ * E(t) = (Re(α e^{-iωt}), Re(β e^{-iωt}))
+ * Devuelve `n` muestras parametrizadas en ωt ∈ [0, 2π).
+ */
+export function polarizationEllipse(psi: Spinor, n = 96): [number, number][] {
+  const [a, b] = psi;
+  const pts: [number, number][] = [];
+  for (let k = 0; k < n; k++) {
+    const t = (k / n) * 2 * Math.PI;
+    const ct = Math.cos(t);
+    const st = Math.sin(t);
+    // Re(α e^{-it}) = ax · ct + ay · st
+    const ex = a[0] * ct + a[1] * st;
+    const ey = b[0] * ct + b[1] * st;
+    pts.push([ex, ey]);
+  }
+  return pts;
+}
