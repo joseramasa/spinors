@@ -13,10 +13,10 @@ M1 (Fenomenología y rotación doble)
  │         │         └── M7 (Dirac libre: ondas, espín, antimateria)
  │         └── M6 (Álgebra de Clifford: receta universal)
  │              └── (alimenta M5 con la noción geométrica de bivector y boost)
-M8 [opcional / avanzado] (Lie, representaciones, ladders, Clebsch-Gordan)
+M8 (Lie, representaciones, ladders, Clebsch-Gordan) — capstone teórico
 ```
 
-M1 → M2 → M3 son la espina dorsal mínima. M4 y M5 son la generalización a SU(2) y a Lorentz. M6 es el "puente abstracto" que da una receta universal y reinterpreta todo lo anterior (orden didáctico flexible: puede ir antes o después de M5). M7 es el pago físico: Dirac libre con todas las piezas. M8 es opcional para quien quiera entender por qué estas representaciones son únicas.
+M1 → M2 → M3 son la espina dorsal mínima. M4 y M5 son la generalización a SU(2) y a Lorentz. M6 es el "puente abstracto" que da una receta universal y reinterpreta todo lo anterior (orden didáctico flexible: puede ir antes o después de M5). M7 es el pago físico: Dirac libre con todas las piezas. M8 cierra la serie: justifica por qué estas representaciones son únicas y da el lenguaje para tratar espines superiores y descomposiciones tipo Clebsch-Gordan.
 
 ## Módulos
 
@@ -137,7 +137,7 @@ M1 → M2 → M3 son la espina dorsal mínima. M4 y M5 son la generalización a 
 - **Fuentes:** idx 22, 23, 24, 25, 26
 - **Pre-requisitos:** M5, M6.
 
-### Módulo 8 [opcional / avanzado] — Lie, representaciones, ladders
+### Módulo 8 — Lie, representaciones, ladders
 
 - **Pregunta de partida:** ¿Por qué hay exactamente una representación irreducible de SU(2) por cada dimensión, y cómo construyo las de espín mayor?
 - **Intuición clave:** El álgebra de Lie es el espacio tangente al grupo en la identidad; las representaciones se clasifican por el "peso máximo" (= valor de espín), y los operadores escalera (raising/lowering) generan la base de cada representación irreducible.
