@@ -1,0 +1,233 @@
+---
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import MathBlock from '../../components/MathBlock.astro';
+import VectorAsSandwich from '../../components/interactive/VectorAsSandwich.svelte';
+---
+
+<ArticleLayout
+  title="M3 · Un vector es un sándwich de dos espinores"
+  subtitle="Espinor = raíz cuadrada de vector."
+  slug="03-vector-como-sandwich"
+>
+  <p>
+    Hasta aquí hemos tratado al espinor como un objeto autónomo —el habitante
+    de
+    <MathBlock f={String.raw`\mathbb{CP}^1`} />— y al vector tridimensional como
+    algo distinto. La afirmación de este módulo es contraintuitiva: un vector
+    real
+    <MathBlock f={String.raw`\mathbf v \in \mathbb{R}^3`} /> es, literalmente,
+    un sándwich de dos espinores. Y, en el camino, vamos a entender en qué
+    sentido un espinor es la "raíz cuadrada" de un vector.
+  </p>
+
+  <h2>Las matrices de Pauli como base de vectores</h2>
+  <p>
+    Las tres matrices
+    <MathBlock f={String.raw`\sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix},\quad \sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix},\quad \sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}`} d />
+    son hermíticas, de traza nula, anticonmutan dos a dos
+    <MathBlock f={String.raw`\sigma_a \sigma_b + \sigma_b \sigma_a = 2\,\delta_{ab}\,\mathbb{1}`} />,
+    y forman una base del subespacio de matrices 2×2 hermíticas y de traza
+    nula. Cualquier vector
+    <MathBlock f={String.raw`\mathbf v = (v_x, v_y, v_z)`} /> queda codificado
+    biunívocamente en la matriz
+    <MathBlock f={String.raw`V \;=\; v_x \sigma_x + v_y \sigma_y + v_z \sigma_z \;=\; \begin{pmatrix} v_z & v_x - i v_y \\ v_x + i v_y & -v_z \end{pmatrix}.`} d />
+    Es lo que se llama el <em>vector de Pauli</em>. Dos identidades clave:
+  </p>
+  <ul>
+    <li>
+      <MathBlock f={String.raw`\det V = -(v_x^2 + v_y^2 + v_z^2) = -|\mathbf v|^2`} />.
+      El módulo al cuadrado del vector es <em>menos</em> el determinante de la
+      matriz: la geometría euclídea está cifrada en el determinante.
+    </li>
+    <li>
+      <MathBlock f={String.raw`V^2 = |\mathbf v|^2\,\mathbb{1}`} />.
+      Es decir,
+      <MathBlock f={String.raw`V/|\mathbf v|`} /> cuadra a la identidad — es
+      una "raíz cuadrada de
+      <MathBlock f={String.raw`\mathbb 1`} />" en la dirección
+      <MathBlock f={String.raw`\hat n = \mathbf v/|\mathbf v|`} />.
+    </li>
+  </ul>
+
+  <h2>Reflexiones, rotaciones y el sándwich</h2>
+  <p>
+    Si
+    <MathBlock f={String.raw`\hat u`} /> es un vector unitario (matriz
+    <MathBlock f={String.raw`U_{\hat u} = \hat u \cdot \boldsymbol\sigma`} />)
+    y
+    <MathBlock f={String.raw`\mathbf v`} /> un vector cualquiera, la operación
+    <MathBlock f={String.raw`V \;\mapsto\; -\,U_{\hat u}\, V\, U_{\hat u}^{-1}`} d />
+    es una <em>reflexión</em> de
+    <MathBlock f={String.raw`\mathbf v`} /> respecto al plano perpendicular a
+    <MathBlock f={String.raw`\hat u`} />. Componer dos reflexiones produce una
+    rotación, y un cálculo (que ampliaremos en M6) muestra que dicha
+    composición es exactamente
+    <MathBlock f={String.raw`V \;\mapsto\; R\, V\, R^{-1}, \qquad R = U_{\hat u_2} U_{\hat u_1} \in \mathrm{SU}(2),`} d />
+    con un ángulo de rotación que es <em>el doble</em> del ángulo entre los
+    espejos. Aquí ya asoma el medio ángulo: para conseguir una rotación física
+    de
+    <MathBlock f={String.raw`\theta`} />, basta con dos espejos a
+    <MathBlock f={String.raw`\theta/2`} />.
+  </p>
+
+  <p>
+    Más en general, una rotación arbitraria
+    <MathBlock f={String.raw`R \in \mathrm{SU}(2)`} />
+    actúa sobre vectores como una conjugación
+    <MathBlock f={String.raw`V \mapsto R V R^\dagger`} />: el vector queda
+    "metido en un sándwich" entre
+    <MathBlock f={String.raw`R`} /> y
+    <MathBlock f={String.raw`R^\dagger`} />. Cada uno de los dos factores
+    aporta la mitad del giro. Para cerrar el ciclo del vector, el sándwich
+    necesita un giro entero
+    <MathBlock f={String.raw`(\alpha = 2\pi)`} />; cada uno de los panes ha
+    girado solo
+    <MathBlock f={String.raw`\pi`} />.
+  </p>
+
+  <h2>Factorización del vector en espinores</h2>
+  <p>
+    El paso siguiente es preguntarse: ¿podemos partir
+    <MathBlock f={String.raw`V`} /> en un producto
+    <MathBlock f={String.raw`\psi\,\psi^\dagger`} />? La respuesta es: <em>casi
+    siempre, salvo por una constante</em>. Si
+    <MathBlock f={String.raw`\hat n = \mathbf v/|\mathbf v|`} /> es la
+    dirección unitaria de
+    <MathBlock f={String.raw`\mathbf v`} />, y
+    <MathBlock f={String.raw`\psi_+`} /> es el espinor que en M2 asignamos a
+    esa dirección,
+    <MathBlock f={String.raw`\psi_+(\theta,\varphi) = \begin{pmatrix} \cos(\theta/2) \\ e^{i\varphi}\sin(\theta/2) \end{pmatrix},`} d />
+    entonces el producto externo
+    <MathBlock f={String.raw`\psi_+ \psi_+^\dagger`} /> es el proyector
+    ortogonal sobre la dirección
+    <MathBlock f={String.raw`+\hat n`} /> y satisface la identidad
+    <MathBlock f={String.raw`2\,\psi_+ \psi_+^\dagger \;-\; \mathbb{1} \;=\; \hat n \cdot \boldsymbol\sigma.`} d />
+    El widget de abajo construye los dos lados de esta igualdad y los pinta
+    juntos: el lado izquierdo es la matriz
+    <em>derivada del espinor</em>; el lado derecho es la matriz
+    <em>derivada del vector</em>. Coinciden.
+  </p>
+
+  <p>
+    Para un vector real cualquiera,
+    <MathBlock f={String.raw`V \;=\; |\mathbf v|\,\bigl(2\,\psi_+\psi_+^\dagger - \mathbb 1\bigr) \;=\; |\mathbf v|\,(\psi_+\psi_+^\dagger - \psi_-\psi_-^\dagger),`} d />
+    donde
+    <MathBlock f={String.raw`\psi_-`} /> es el espinor antípoda en
+    <MathBlock f={String.raw`\mathbb{CP}^1`} />. Esa es la frase exacta del
+    título: un vector real es la diferencia de dos sándwiches de espinores
+    ortogonales, escalada por la longitud del vector. Para
+    <em>vectores nulos</em> (
+    <MathBlock f={String.raw`|\mathbf v| = 0`} />,
+    posibles solo en versión compleja), uno de los dos términos se anula y la
+    factorización colapsa al producto único
+    <MathBlock f={String.raw`V = \psi\,\psi^\dagger`} />: por eso a veces se
+    dice que un espinor es la raíz cuadrada de un vector <em>null</em>.
+  </p>
+
+  <h2>El widget: vector ↔ espinor en directo</h2>
+  <p>
+    Mueve los sliders
+    <MathBlock f={String.raw`(v_x, v_y, v_z)`} /> y observa cómo se actualiza
+    <MathBlock f={String.raw`V`} />. La fila siguiente muestra el espinor
+    <MathBlock f={String.raw`\psi_+`} />
+    correspondiente a la dirección de
+    <MathBlock f={String.raw`\mathbf v`} />, con una fase global
+    <MathBlock f={String.raw`\gamma`} /> ajustable. La identidad
+    <MathBlock f={String.raw`2\psi_+\psi_+^\dagger - \mathbb 1 = \hat n \cdot \boldsymbol\sigma`} />
+    se imprime entera para que veas que cuadra numéricamente.
+  </p>
+
+  <p>
+    Después aparece el slider
+    <MathBlock f={String.raw`\alpha`} /> (rotación física en torno a
+    <MathBlock f={String.raw`\hat z`} />). Al moverlo, observa dos cosas:
+  </p>
+  <ul>
+    <li>
+      <MathBlock f={String.raw`U V U^\dagger`} /> rota
+      <MathBlock f={String.raw`\mathbf v`} /> alrededor de
+      <MathBlock f={String.raw`\hat z`} /> a velocidad <em>plena</em>
+      <MathBlock f={String.raw`\alpha`} />: a
+      <MathBlock f={String.raw`\alpha = 2\pi`} /> el vector ha vuelto a su
+      posición.
+    </li>
+    <li>
+      <MathBlock f={String.raw`U \psi_+`} /> rota a velocidad <em>mitad</em>
+      <MathBlock f={String.raw`\alpha/2`} />: en
+      <MathBlock f={String.raw`\alpha = 2\pi`} /> el espinor ha cambiado de
+      signo (la insignia roja al lado del slider lo marca). Hay que llegar a
+      <MathBlock f={String.raw`\alpha = 4\pi`} /> para que vuelva.
+    </li>
+  </ul>
+
+  <div class="widget">
+    <VectorAsSandwich client:visible />
+  </div>
+
+  <p>
+    La asimetría está en el sándwich: el vector lleva
+    <MathBlock f={String.raw`U`} /> a un lado y
+    <MathBlock f={String.raw`U^\dagger`} /> al otro, y los signos de
+    medio ángulo se cancelan; el espinor solo lleva
+    <MathBlock f={String.raw`U`} /> y se queda con su mitad de fase.
+  </p>
+
+  <h2>Espinor y dual: filas vs columnas</h2>
+  <p>
+    Notación que necesitaremos en M5 para el espacio-tiempo: un espinor
+    columna
+    <MathBlock f={String.raw`\psi`} /> rota como
+    <MathBlock f={String.raw`\psi \mapsto U\psi`} />; su dual fila
+    <MathBlock f={String.raw`\psi^\dagger`} /> rota como
+    <MathBlock f={String.raw`\psi^\dagger \mapsto \psi^\dagger U^\dagger`} />.
+    El producto exterior
+    <MathBlock f={String.raw`\psi\,\psi^\dagger`} />, que codifica la dirección
+    del vector asociado, rota con
+    <MathBlock f={String.raw`U \cdots U^\dagger`} />: justo el sándwich.
+    Cuando enriquezcamos
+    <MathBlock f={String.raw`\mathrm{SU}(2)`} /> hasta
+    <MathBlock f={String.raw`\mathrm{SL}(2,\mathbb C)`} /> para incluir boosts,
+    columnas y filas dejarán de poder convertirse libremente con la daga, y
+    aparecerá la distinción "índices punteados / sin puntear" que distingue
+    espinores izquierdos de derechos.
+  </p>
+
+  <h2>Qué se lleva uno</h2>
+  <ul>
+    <li>
+      Un vector real
+      <MathBlock f={String.raw`\mathbf v \in \mathbb R^3`} /> está en biyección
+      con una matriz hermítica de traza nula
+      <MathBlock f={String.raw`V = \mathbf v \cdot \boldsymbol\sigma`} />, con
+      <MathBlock f={String.raw`\det V = -|\mathbf v|^2`} />.
+    </li>
+    <li>
+      Las rotaciones físicas actúan en el sándwich
+      <MathBlock f={String.raw`V \mapsto U V U^\dagger`} />, mientras que en un
+      espinor actúan con un solo factor
+      <MathBlock f={String.raw`\psi \mapsto U\psi`} />. De ahí el factor 2:1.
+    </li>
+    <li>
+      La factorización
+      <MathBlock f={String.raw`V = |\mathbf v|(2\,\psi_+\psi_+^\dagger - \mathbb 1)`} />
+      hace explícito que el espinor "es la raíz cuadrada del vector": un
+      vector pesa dos espinores.
+    </li>
+    <li>
+      Para
+      <MathBlock f={String.raw`\det V = 0`} /> (vectores complejos null) la
+      factorización es estrictamente
+      <MathBlock f={String.raw`V = \psi\psi^\dagger`} />: un espinor es una
+      raíz exacta. Es la imagen que recuperaremos en M5 sobre el cono de luz.
+    </li>
+  </ul>
+
+  <p>
+    En M4 daremos el siguiente paso: por qué hay
+    <em>dos</em> matrices
+    <MathBlock f={String.raw`\pm U`} /> de
+    <MathBlock f={String.raw`\mathrm{SU}(2)`} /> por cada rotación
+    <MathBlock f={String.raw`R \in \mathrm{SO}(3)`} />, y qué tiene esto que
+    ver con la 3-esfera y los cuaterniones.
+  </p>
+</ArticleLayout>
