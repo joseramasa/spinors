@@ -1,6 +1,7 @@
 ---
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
 import MathBlock from '../../components/MathBlock.astro';
+import BlochDoubleCover from '../../components/interactive/BlochDoubleCover.svelte';
 ---
 
 <ArticleLayout
@@ -39,13 +40,25 @@ import MathBlock from '../../components/MathBlock.astro';
     geometría externa y geometría interna.
   </p>
 
-  <h2>El widget</h2>
+  <h2>La pista geométrica</h2>
+  <p>
+    Mueve el slider de θ entre 0° y 720°. La <em>asta</em> azul (el
+    <em>flagpole</em>) representa la dirección física: rota a la velocidad
+    natural y vuelve a su posición tras 360°. La <em>bandera</em> amarilla
+    representa la fase del espinor: rota a la mitad de velocidad y solo vuelve
+    al estado inicial tras 720°. Mira la insignia de signo: cambia justo cuando
+    la bandera está cabeza abajo.
+  </p>
   <div class="widget">
-    <div class="placeholder">
-      [ widget pendiente: flecha 3D rotando 0–720° acoplada a un punto en la
-      esfera de Bloch que rota a la mitad de velocidad ]
-    </div>
+    <BlochDoubleCover client:visible />
   </div>
+  <p>
+    Esa relación 2:1 entre la rotación física y la rotación interna del espinor
+    es lo que justifica todo lo demás. La esfera (que vamos a construir
+    rigurosamente en M2) actúa de espacio de estados: cada dirección física es
+    un punto, y cada punto admite una "fase" extra (la bandera) que el mundo
+    macroscópico no ve.
+  </p>
 
   <h2>Definición provisional</h2>
   <p>
