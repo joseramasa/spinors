@@ -13,6 +13,10 @@ export function cmul(a: Complex, b: Complex): Complex {
   return [a[0] * b[0] - a[1] * b[1], a[0] * b[1] + a[1] * b[0]];
 }
 
+export function cadd(a: Complex, b: Complex): Complex {
+  return [a[0] + b[0], a[1] + b[1]];
+}
+
 export function cscale(a: Complex, s: number): Complex {
   return [a[0] * s, a[1] * s];
 }
@@ -133,6 +137,54 @@ export function outerProduct(psi: Spinor): [Complex, Complex, Complex, Complex] 
   const abBar: Complex = [a[0] * b[0] + a[1] * b[1], a[1] * b[0] - a[0] * b[1]];
   const baBar: Complex = [abBar[0], -abBar[1]];
   return [aSq, abBar, baBar, bSq];
+}
+
+/**
+ * Matriz SL(2,C) A = exp((α − iβ)/2 · σ·n̂) con n̂ unitario.
+ *   α = rapidez del boost en dirección n̂
+ *   β = ángulo de rotación alrededor de n̂
+ * Devuelve los cuatro complejos [A₀₀, A₀₁, A₁₀, A₁₁].
+ *
+ * Identidad usada: (σ·n̂)² = I para n̂ unitario, así que
+ * exp((α − iβ)/2 · σ·n̂) = a₀ I + aₙ σ·n̂ con
+ *   a₀ = cos(β/2) cosh(α/2) − i sin(β/2) sinh(α/2)
+ *   aₙ = cos(β/2) sinh(α/2) − i sin(β/2) cosh(α/2)
+ */
+export function sl2cMatrix(
+  alpha: number,
+  beta: number,
+  axis: [number, number, number],
+): [Complex, Complex, Complex, Complex] {
+  const [nx, ny, nz] = axis;
+  const cb = Math.cos(beta / 2), sb = Math.sin(beta / 2);
+  const ca = Math.cosh(alpha / 2), sa = Math.sinh(alpha / 2);
+  const a0: Complex = [cb * ca, -sb * sa];
+  const an: Complex = [cb * sa, -sb * ca];
+  const A00 = cadd(a0, cmul(an, [nz, 0]));
+  const A01 = cmul(an, [nx, -ny]);
+  const A10 = cmul(an, [nx, ny]);
+  const A11 = cadd(a0, cmul(an, [-nz, 0]));
+  return [A00, A01, A10, A11];
+}
+
+/** Acción de una matriz 2×2 (cuatro complejos) sobre un espinor columna. */
+export function applyMatrix(
+  M: [Complex, Complex, Complex, Complex],
+  psi: Spinor,
+): Spinor {
+  return [
+    cadd(cmul(M[0], psi[0]), cmul(M[1], psi[1])),
+    cadd(cmul(M[2], psi[0]), cmul(M[3], psi[1])),
+  ];
+}
+
+export function normalize(psi: Spinor): Spinor {
+  const n = Math.sqrt(normSq(psi));
+  if (n < 1e-12) return psi;
+  return [
+    [psi[0][0] / n, psi[0][1] / n],
+    [psi[1][0] / n, psi[1][1] / n],
+  ];
 }
 
 /** Aplica la matriz SU(2) U_z(θ) a la matriz V por sandwich U V U†. */
