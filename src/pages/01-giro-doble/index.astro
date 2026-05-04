@@ -6,17 +6,15 @@ import BlochDoubleCover from '../../components/interactive/BlochDoubleCover.svel
 
 <ArticleLayout
   title="M1 · Por qué hace falta un espinor"
-  subtitle="Hay un dato experimental sencillo del electrón que ningún vector puede explicar. Esa imposibilidad fuerza a inventar un objeto matemático nuevo."
+  subtitle="Stern-Gerlach impone una estructura matemática que ningún vector puede acomodar. La salida obligada es un objeto nuevo."
   slug="01-giro-doble"
 >
   <p>
-    Antes de definir nada, vamos a forzar el problema. Si los espinores
-    fueran solo una curiosidad matemática nadie se habría molestado en
-    inventarlos. Lo que vamos a ver es que hay un experimento básico
-    cuyo resultado es <em>incompatible</em> con describir el espín de un
-    electrón como un vector. La incompatibilidad es cuantitativa: aparece
-    un factor 2 que ningún vector sabe producir. Ese factor 2 es la razón
-    de ser del objeto que llamaremos espinor.
+    Si los espinores fueran solo una curiosidad matemática, nadie se
+    habría molestado en inventarlos. Vamos a forzar el problema y ver que
+    hay un experimento básico cuya estructura es <em>incompatible</em>
+    con describir el espín del electrón como un vector. La salida —
+    rigurosa, no analógica — es un objeto matemático nuevo: el espinor.
   </p>
 
   <h2>El experimento</h2>
@@ -25,182 +23,196 @@ import BlochDoubleCover from '../../components/interactive/BlochDoubleCover.svel
     desapareado pasa por un imán inhomogéneo orientado a lo largo de un
     eje. En la pantalla aparecen <strong>exactamente dos manchas</strong>,
     no una distribución continua. El haz se ha partido en dos. Hagas la
-    medida en el eje que la hagas, salen dos. Llamaremos a los dos
-    estados resultantes
-    <MathBlock f={String.raw`|+\hat{n}\rangle`} /> y
+    medida en el eje que la hagas, salen dos. Llamamos a los dos
+    estados resultantes <MathBlock f={String.raw`|+\hat{n}\rangle`} /> y
     <MathBlock f={String.raw`|-\hat{n}\rangle`} />, donde
-    <MathBlock f={String.raw`\hat{n}`} /> es el eje del imán. La cuántica
-    nos dice que estos dos estados son <strong>mutuamente excluyentes</strong>:
-    un átomo medido como
-    <MathBlock f={String.raw`|+\hat{n}\rangle`} /> no puede dar
-    simultáneamente <MathBlock f={String.raw`|-\hat{n}\rangle`} />. La
-    consecuencia formal es que su producto interno se anula:
+    <MathBlock f={String.raw`\hat{n}`} /> es el eje del imán.
+  </p>
+  <p>
+    Eso ya es información estructural: el espacio de estados internos
+    del átomo tiene <strong>dos dimensiones</strong>. Cada medición
+    distingue entre dos resultados; no hay un tercero. Si hubiera más
+    "información oculta" que el imán pudiera revelar, la veríamos como
+    más manchas en alguna orientación. No las hay.
+  </p>
+  <p>
+    Y los dos resultados son <strong>mutuamente excluyentes</strong>:
+    un átomo medido como <MathBlock f={String.raw`|+\hat{n}\rangle`} />
+    no puede dar simultáneamente
+    <MathBlock f={String.raw`|-\hat{n}\rangle`} />. La consecuencia
+    formal en el lenguaje cuántico es que su producto interno se anula:
     <MathBlock f={String.raw`\langle +\hat{n}\,|\,-\hat{n}\rangle = 0`} />.
   </p>
 
-  <h2>La pregunta cuantitativa</h2>
+  <h2>Lo que un vector no puede hacer</h2>
   <p>
-    Preparamos un átomo en estado <MathBlock f={String.raw`|+\hat{z}\rangle`} />
-    (lo medimos a lo largo de <MathBlock f={String.raw`z`} /> y nos
-    quedamos con los que dan "+"). Después lo metemos por un segundo
-    Stern-Gerlach orientado a lo largo de un eje
-    <MathBlock f={String.raw`\hat{n}`} /> que forma un ángulo
-    <MathBlock f={String.raw`\theta`} /> con
-    <MathBlock f={String.raw`\hat{z}`} />. ¿Qué fracción de los átomos
-    saldrá como <MathBlock f={String.raw`|+\hat{n}\rangle`} />?
+    El espacio de estados es 2-dimensional. La pregunta clave es: ¿cómo
+    se transforma ese espacio cuando rotamos físicamente el aparato?
+    Aquí aparece un hecho de teoría de grupos que cierra el problema
+    sin escapatoria.
   </p>
   <p>
-    Si el espín fuera un vector apuntando en
-    <MathBlock f={String.raw`\hat{z}`} />, esperaríamos algo proporcional
-    al producto escalar entre las direcciones físicas:
-    <MathBlock f={String.raw`\hat{z}\!\cdot\!\hat{n} = \cos\theta`} />.
-    Eso da una probabilidad
-    <MathBlock f={String.raw`(1+\cos\theta)/2 = \cos^{2}(\theta/2)`} /> si
-    forzamos que sea positiva, o algo lineal en
-    <MathBlock f={String.raw`\cos\theta`} /> si no. La ambigüedad la
-    resuelve el experimento.
+    Las representaciones irreducibles de
+    <MathBlock f={String.raw`\mathrm{SO}(3)`} /> — el grupo de
+    rotaciones de <MathBlock f={String.raw`\mathbb{R}^{3}`} /> — solo
+    existen en <strong>dimensiones impares</strong>: 1, 3, 5, 7, … Las
+    naturales son:
+  </p>
+  <ul>
+    <li>Dim 1: el escalar (espín 0); no rota.</li>
+    <li>Dim 3: el vector (espín 1); rota como <MathBlock f={String.raw`\mathbb{R}^{3}`} /> mismo.</li>
+    <li>Dim 5: tensor simétrico sin traza (espín 2); etc.</li>
+  </ul>
+  <p>
+    <strong>No hay representación irreducible de
+    <MathBlock f={String.raw`\mathrm{SO}(3)`} /> en dimensión 2.</strong>
+    No es que sea inusual o difícil de construir; es matemáticamente
+    imposible.
   </p>
   <p>
-    Lo que se mide es:
+    Eso significa que el espacio de dos estados del electrón
+    <em>no puede</em> transformarse como una representación de SO(3) y
+    al mismo tiempo permanecer 2-dimensional bajo rotaciones físicas.
+    Tiene que transformarse como representación de un <em>grupo
+    distinto</em>. La cuestión es: ¿cuál?
+  </p>
+
+  <h2>La salida: SU(2)</h2>
+  <p>
+    El grupo más pequeño que sí tiene representación irreducible de
+    dimensión 2 es <MathBlock f={String.raw`\mathrm{SU}(2)`} />:
+    matrices <MathBlock f={String.raw`2\times 2`} /> complejas,
+    unitarias, con determinante 1. Y resulta ser exactamente el
+    <strong>doble cubrimiento</strong> de
+    <MathBlock f={String.raw`\mathrm{SO}(3)`} />: para cada rotación
+    <MathBlock f={String.raw`R \in \mathrm{SO}(3)`} /> hay <em>dos</em>
+    matrices <MathBlock f={String.raw`\pm U \in \mathrm{SU}(2)`} />
+    que actúan por sándwich
+    <MathBlock f={String.raw`U V U^{\dagger}`} /> como
+    <MathBlock f={String.raw`R`} /> sobre vectores reales (M3, M4
+    desarrollan esto). La estructura "dos por uno" tiene una consecuencia
+    directa.
+  </p>
+  <p>
+    Sigue una rotación física continua de
+    <MathBlock f={String.raw`\theta = 0`} /> a
+    <MathBlock f={String.raw`360°`} /> en
+    <MathBlock f={String.raw`\mathrm{SO}(3)`} />. La matriz
+    <MathBlock f={String.raw`U(\theta)`} /> correspondiente en
+    <MathBlock f={String.raw`\mathrm{SU}(2)`} /> NO vuelve a
+    <MathBlock f={String.raw`+I`} /> tras
+    <MathBlock f={String.raw`360°`} />: va de
+    <MathBlock f={String.raw`+I`} /> a
+    <MathBlock f={String.raw`-I`} />, y solo regresa a
+    <MathBlock f={String.raw`+I`} /> tras
+    <MathBlock f={String.raw`720°`} />. Esa es la diferencia de
+    estructura entre los dos grupos.
+  </p>
+  <p>
+    <strong>Definición operativa del espinor:</strong> un vector columna
+    <MathBlock f={String.raw`\psi \in \mathbb{C}^{2}`} /> sobre el que
+    <MathBlock f={String.raw`\mathrm{SU}(2)`} /> actúa por la izquierda.
+    La regla concreta de transformación bajo rotación física por ángulo
+    <MathBlock f={String.raw`\theta`} /> alrededor de
+    <MathBlock f={String.raw`\hat{n}`} /> es:
+  </p>
+  <MathBlock f={String.raw`\psi \;\longmapsto\; U(\theta, \hat{n})\,\psi, \qquad U(\theta, \hat{n}) = \exp\!\big(-i\,(\theta/2)\,\hat{n}\!\cdot\!\boldsymbol{\sigma}\big)`} d />
+  <p>
+    El factor <MathBlock f={String.raw`\theta/2`} /> en el exponente NO
+    es decoración: es la consecuencia directa de que
+    <MathBlock f={String.raw`U(360°) = -I`} />. El espinor cambia de
+    signo bajo rotación física de
+    <MathBlock f={String.raw`360°`} /> y vuelve a su valor de partida
+    tras <MathBlock f={String.raw`720°`} />.
+  </p>
+
+  <h2>La probabilidad medida y por qué no basta sola</h2>
+  <p>
+    Razonable preguntarse: si un vector no puede hacer esto, ¿qué dato
+    cuantitativo lo confirma? La probabilidad medida en Stern-Gerlach
+    para un átomo preparado como
+    <MathBlock f={String.raw`|+\hat{z}\rangle`} /> y medido en
+    dirección <MathBlock f={String.raw`\hat{n}`} /> a ángulo
+    <MathBlock f={String.raw`\theta`} /> de <MathBlock f={String.raw`\hat{z}`} /> es:
   </p>
   <MathBlock f={String.raw`P(+\hat{n}\,|\,+\hat{z}) = \cos^{2}(\theta/2)`} d />
   <p>
-    Es decir, la <em>amplitud</em> de probabilidad cumple
-    <MathBlock f={String.raw`\langle +\hat{n}\,|\,+\hat{z}\rangle = \cos(\theta/2)`} />,
-    no <MathBlock f={String.raw`\cos\theta`} />. El argumento del coseno
-    es la <strong>mitad</strong> del ángulo físico entre los dos imanes.
+    El medio ángulo es sospechoso, pero no es prueba por sí solo. La
+    identidad <MathBlock f={String.raw`\cos^{2}(\theta/2) = (1+\cos\theta)/2`} />
+    significa que esa fórmula coincide con el modelo más simple de
+    "interpolación lineal" de un vector clásico que diera "+" con
+    probabilidad 1 a <MathBlock f={String.raw`\theta = 0`} /> y 0 a
+    <MathBlock f={String.raw`\theta = 180°`} />. Las probabilidades
+    Stern-Gerlach por sí solas son <em>compatibles</em> con un modelo
+    vectorial ad hoc.
+  </p>
+  <p>
+    Lo que sí distingue es la <strong>amplitud</strong>:
+    <MathBlock f={String.raw`\langle +\hat{n}\,|\,+\hat{z}\rangle = \cos(\theta/2)`} />.
+    Vale <MathBlock f={String.raw`+1`} /> a
+    <MathBlock f={String.raw`\theta = 0`} />,
+    <MathBlock f={String.raw`0`} /> a
+    <MathBlock f={String.raw`180°`} />,
+    <MathBlock f={String.raw`-1`} /> a
+    <MathBlock f={String.raw`360°`} />, y vuelve a
+    <MathBlock f={String.raw`+1`} /> a
+    <MathBlock f={String.raw`720°`} />. La probabilidad
+    <MathBlock f={String.raw`\cos^{2}(\theta/2)`} /> es ciega al signo
+    (lo cuadra), pero la amplitud lo lleva. La pregunta empírica es: ¿se
+    puede medir el signo, o es un artefacto del formalismo?
   </p>
 
-  <h2>El diagnóstico: factor 2</h2>
+  <h2>El cambio de signo es medible</h2>
   <p>
-    Hagamos cuatro comprobaciones con esa fórmula:
-  </p>
-  <ul>
-    <li>
-      <MathBlock f={String.raw`\theta = 0`} />: mismo aparato.
-      <MathBlock f={String.raw`\cos(0)=1`} />, probabilidad 1. ✓
-    </li>
-    <li>
-      <MathBlock f={String.raw`\theta = 90°`} />: aparatos perpendiculares.
-      <MathBlock f={String.raw`\cos(45°) = 1/\sqrt{2}`} />, probabilidad 1/2.
-      Mitad-mitad, exactamente lo que se observa.
-    </li>
-    <li>
-      <MathBlock f={String.raw`\theta = 180°`} />: aparatos antiparalelos
-      (<MathBlock f={String.raw`\hat{n} = -\hat{z}`} />).
-      <MathBlock f={String.raw`\cos(90°) = 0`} />, probabilidad 0. Eso es
-      la condición de mutua exclusión: los dos estados son ortogonales.
-      ✓
-    </li>
-    <li>
-      <MathBlock f={String.raw`\theta = 360°`} />: el aparato vuelve a su
-      orientación original. <MathBlock f={String.raw`\cos(180°) = -1`} />.
-      La amplitud es <strong>negativa</strong>: el estado ha cambiado de
-      signo, aunque la probabilidad
-      <MathBlock f={String.raw`(-1)^2 = 1`} /> sigue siendo 1.
-    </li>
-  </ul>
-  <p>
-    Ahí está el punto. <strong>Tras una rotación física de 360° del aparato,
-    el estado del átomo cambia de signo</strong>. Para volver al estado
-    original (sin signo) hay que rotar el aparato
-    <MathBlock f={String.raw`720°`} />. Ningún vector hace eso. Un vector
-    en <MathBlock f={String.raw`\mathbb{R}^3`} /> tras
-    <MathBlock f={String.raw`360°`} /> es indistinguible de su valor de
-    partida, por la propia construcción del espacio
-    <MathBlock f={String.raw`\mathbb{R}^3`} />. Aquí no.
+    Sí se puede. Werner, Colella y Overhauser (1975) usaron
+    interferometría de neutrones. Dividieron un haz de neutrones
+    monoenergéticos en dos brazos. En uno de los brazos rotaron el
+    espín del neutrón con un campo magnético controlado, manteniendo el
+    otro brazo intacto. Recombinaron los dos brazos y midieron la
+    intensidad de interferencia.
   </p>
   <p>
-    En resumen:
+    Resultado: la intensidad osciló con un <strong>periodo de
+    <MathBlock f={String.raw`720°`} /></strong>, no de
+    <MathBlock f={String.raw`360°`} />. A
+    <MathBlock f={String.raw`\theta = 360°`} /> los dos brazos se
+    recombinaban con <em>desfase</em> visible (signo opuesto), no en
+    fase. La conclusión directa: el espinor del neutrón
+    <strong>cambia de signo bajo rotación física de
+    <MathBlock f={String.raw`360°`} /></strong>, exactamente como
+    predice <MathBlock f={String.raw`\mathrm{SU}(2)`} />.
   </p>
-  <ul>
-    <li>
-      Las <strong>direcciones físicas</strong> del espacio rotan con
-      <MathBlock f={String.raw`\theta`} />: vuelven con
-      <MathBlock f={String.raw`360°`} />.
-    </li>
-    <li>
-      El <strong>estado del electrón</strong> rota con
-      <MathBlock f={String.raw`\theta/2`} />: vuelve con
-      <MathBlock f={String.raw`720°`} />.
-    </li>
-  </ul>
   <p>
-    Hay que pasar a un objeto matemático distinto, capaz de rotar a la
-    mitad de velocidad.
+    El espinor no es un truco notacional. Es una propiedad estructural
+    medible.
   </p>
 
-  <h2>La salida algebraica más sencilla</h2>
+  <h2>Un eco clásico: el truco del cinturón</h2>
   <p>
-    Pidamos lo mínimo. Queremos un objeto sobre el cual actúen
-    transformaciones que sean "raíces cuadradas" de las rotaciones de
-    <MathBlock f={String.raw`\mathbb{R}^3`} />. Las rotaciones físicas
-    forman el grupo <MathBlock f={String.raw`\mathrm{SO}(3)`} /> y se
-    pueden representar con matrices reales
-    <MathBlock f={String.raw`3\times 3`} />. La búsqueda de algo que rote
-    a media velocidad lleva sin pérdida de generalidad a las matrices
-    <MathBlock f={String.raw`2\times 2`} /> complejas y unitarias con
-    determinante <MathBlock f={String.raw`1`} />. Ese grupo se llama
-    <MathBlock f={String.raw`\mathrm{SU}(2)`} />, y para cada rotación de
-    <MathBlock f={String.raw`\mathrm{SO}(3)`} /> hay <em>dos</em> matrices
-    <MathBlock f={String.raw`\pm U`} /> en
-    <MathBlock f={String.raw`\mathrm{SU}(2)`} />: el doble cubrimiento que
-    M4 estudia con detalle.
+    El factor 2 no es exclusivo de la cuántica. Aparece en mecánica
+    clásica con el truco del cinturón:
   </p>
   <p>
-    Una matriz <MathBlock f={String.raw`2\times 2`} /> compleja necesita
-    actuar sobre algo. Ese "algo" es un par de números complejos:
-  </p>
-  <MathBlock f={String.raw`\psi = \begin{pmatrix} \alpha \\ \beta \end{pmatrix} \in \mathbb{C}^{2}`} d />
-  <p>
-    Lo llamamos <strong>espinor</strong>. Concretamente para el electrón,
-    una rotación física por ángulo
-    <MathBlock f={String.raw`\theta`} /> alrededor de
-    <MathBlock f={String.raw`\hat{n}`} /> se traduce en la transformación
-    del espinor:
-  </p>
-  <MathBlock f={String.raw`\psi \;\longmapsto\; U\,\psi, \qquad U = \exp\!\big(-i\,(\theta/2)\,\hat{n}\!\cdot\!\boldsymbol{\sigma}\big)`} d />
-  <p>
-    El factor <MathBlock f={String.raw`\theta/2`} /> en el exponente NO
-    es decoración: es exactamente el factor 2 que el experimento
-    impone. La definición del espinor está hecha a la medida del
-    problema.
-  </p>
-
-  <h2>Que esto no es una curiosidad cuántica</h2>
-  <p>
-    Hasta aquí el argumento podría dejar la duda de si el factor 2 es
-    una rareza específica de la mecánica cuántica. No lo es: aparece en
-    mecánica clásica si miras el lugar adecuado.
+    Sujeta firmemente un extremo de un cinturón a la pared, y agarra el
+    otro extremo con la mano. Da una vuelta completa al extremo que
+    sostienes (rotación de
+    <MathBlock f={String.raw`360°`} />). Aparece un retorcimiento que no
+    puedes deshacer trasladando el extremo en el espacio (sin volverlo a
+    girar). Da otra vuelta en el mismo sentido y, contraintuitivamente,
+    ahora <em>sí</em> puedes desenredar el cinturón pasando la mano por
+    encima o por debajo: dos vueltas se desenredan, una no. El truco del
+    plato (sostener un plato sobre la palma y rotar la mano sin
+    soltarlo) es la misma idea aplicada al brazo.
   </p>
   <p>
-    <strong>El truco del cinturón.</strong> Sujeta firmemente un extremo
-    de un cinturón a la pared, y agarra el otro extremo con la mano. Da
-    una vuelta completa al extremo que sostienes (rotación de
-    <MathBlock f={String.raw`360°`} />). Aparece un <em>retorcimiento</em>
-    en el cinturón que no puedes deshacer trasladando el extremo en el
-    espacio (sin volver a girarlo). Da otra vuelta en el mismo sentido y,
-    contraintuitivamente, ahora <em>sí</em> puedes desenredar el
-    cinturón pasando la mano por encima o por debajo: dos vueltas se
-    desenredan, una no.
-  </p>
-  <p>
-    El truco del plato (sostener un plato sobre la palma y rotar la
-    mano sin soltarlo) es la misma idea aplicada al brazo: una vuelta
-    deja el brazo enredado, dos vueltas lo enderezan.
-  </p>
-  <p>
-    No hay cuántica en esos trucos. Lo que demuestran es que el espacio
-    de rotaciones <MathBlock f={String.raw`\mathrm{SO}(3)`} /> tiene
-    lazos cerrados que <em>no se pueden contraer</em>: el lazo "una
-    vuelta" es topológicamente distinto del lazo "ninguna vuelta", pero
-    el lazo "dos vueltas" SÍ es contraíble. La existencia de objetos que
-    distinguen entre ambos casos — los espinores — es una propiedad
-    geométrica de
-    <MathBlock f={String.raw`\mathbb{R}^{3}`} />, no de la cuántica. La
-    naturaleza puso ese objeto a trabajar en el electrón porque, como
-    veremos en módulos posteriores, era lo más conveniente para
-    representar partículas con espín 1/2.
+    No hay cuántica en esos trucos. Lo que demuestran es que
+    <MathBlock f={String.raw`\mathrm{SO}(3)`} /> tiene lazos cerrados
+    que no se pueden contraer a un punto: el lazo "una vuelta" es
+    topológicamente distinto del lazo "ninguna vuelta", pero el lazo
+    "dos vueltas" SÍ es contraíble. La existencia matemática de
+    <MathBlock f={String.raw`\mathrm{SU}(2)`} /> como doble cubrimiento
+    de <MathBlock f={String.raw`\mathrm{SO}(3)`} /> es la respuesta
+    formal a esa estructura topológica. M4 lo desarrolla en detalle.
   </p>
 
   <h2>El widget</h2>
@@ -215,7 +227,7 @@ import BlochDoubleCover from '../../components/interactive/BlochDoubleCover.svel
     vuelve a su orientación original tras
     <MathBlock f={String.raw`720°`} />. La insignia de signo cambia
     cuando la bandera está cabeza abajo — eso es exactamente el cambio
-    de signo del estado que predijimos arriba.
+    de signo que el experimento WCO mide en el laboratorio.
   </p>
   <div class="widget">
     <BlochDoubleCover client:visible />
@@ -223,9 +235,11 @@ import BlochDoubleCover from '../../components/interactive/BlochDoubleCover.svel
 
   <h2>Lo que viene</h2>
   <p>
-    Hemos motivado la <em>existencia</em> del espinor como respuesta al
-    factor 2. Falta entender DÓNDE vive y CÓMO se relaciona con el resto
-    de la física. Plan del recorrido:
+    Hemos motivado la <em>existencia</em> del espinor con un argumento
+    estructural (no hay 2D-irrep de SO(3), así que el espacio de dos
+    manchas tiene que vivir en SU(2)) y con la verificación experimental
+    del cambio de signo a 360°. Falta entender DÓNDE vive el espinor y
+    CÓMO se relaciona con el resto de la física. Plan del recorrido:
   </p>
   <ul>
     <li><strong>M2:</strong> el espacio de los espinores no es
