@@ -5,103 +5,148 @@ import BlochInteractive from '../../components/interactive/BlochInteractive.svel
 ---
 
 <ArticleLayout
-  title="M2 · La esfera como espacio de estados"
-  subtitle="Bloch, Poincaré, CP¹: cómo dos números complejos colapsan en un punto sobre una esfera."
+  title="M2 · Dónde vive un espinor"
+  subtitle="C² tiene cuatro grados de libertad reales; los estados físicos distinguibles son menos. La diferencia es una esfera."
   slug="02-bloch-cp1"
 >
   <p>
-    En M1 vimos que un espinor parece "girar a la mitad de velocidad" que el
-    espacio físico. Antes de explicar de dónde sale ese factor 2 algebraicamente
-    (M3), necesitamos entender el espacio donde vive un espinor. La respuesta es
-    una sola frase: <strong>vive en una esfera</strong>. La construcción se llama
-    <em>esfera de Bloch</em> en mecánica cuántica, <em>esfera de Poincaré</em> en
-    óptica, y <em>línea proyectiva compleja</em>
-    <MathBlock f={String.raw`\mathbb{CP}^1`} /> en geometría. Las tres son lo mismo.
+    En M1 dijimos que un espinor es un par de números complejos
+    <MathBlock f={String.raw`\psi = (\alpha, \beta) \in \mathbb{C}^2`} />.
+    Eso son cuatro números reales. Pero el experimento Stern-Gerlach
+    distingue mucho menos: cada átomo da un resultado entre dos posibles
+    (más probabilidades), y esos datos se parametrizan con
+    <em>menos</em> de cuatro números reales. ¿Cuántos exactamente, y qué
+    estructura tienen? Esa es la pregunta de este módulo.
   </p>
 
-  <h2>Por qué la fase global y la escala son invisibles</h2>
+  <h2>Lo que un experimento NO ve</h2>
   <p>
-    Un espinor es un par
-    <MathBlock f={String.raw`\psi = \begin{pmatrix} \alpha \\ \beta \end{pmatrix} \in \mathbb{C}^2`} d />
-    pero la física no usa toda la información de
-    <MathBlock f={String.raw`\mathbb{C}^2`} />. Multiplicar
-    <MathBlock f={String.raw`\psi`} /> por un complejo no nulo
-    <MathBlock f={String.raw`\lambda \in \mathbb{C}^\ast`} /> da un estado
-    indistinguible:
+    Toma un espinor <MathBlock f={String.raw`\psi`} /> y multiplícalo por
+    un complejo no nulo cualquiera
+    <MathBlock f={String.raw`\lambda \in \mathbb{C}^{*}`} />. El nuevo
+    espinor <MathBlock f={String.raw`\lambda\psi`} /> describe
+    <em>el mismo experimento</em> que <MathBlock f={String.raw`\psi`} />,
+    porque la regla de Born usa
+    <MathBlock f={String.raw`|\langle\phi|\psi\rangle|^{2}`} /> y todo
+    factor común se cancela:
+    <MathBlock f={String.raw`|\langle\phi|\lambda\psi\rangle|^{2}/|\lambda\psi|^{2} = |\langle\phi|\psi\rangle|^{2}/|\psi|^{2}`} />.
+    Ningún detector puede distinguir un espinor de un múltiplo complejo
+    suyo.
+  </p>
+  <p>
+    Eso son <strong>dos grados de libertad reales que sobran</strong>: la
+    fase global (un real) y la escala (otro real). El espacio de estados
+    físicos distinguibles es entonces el cociente:
+  </p>
+  <MathBlock f={String.raw`\text{estados} \;=\; \mathbb{C}^{2} \setminus \{0\} \;/\; \mathbb{C}^{*}`} d />
+  <p>
+    Un espacio que tiene <MathBlock f={String.raw`4 - 2 = 2`} /> grados
+    de libertad reales. Algo bidimensional. La pregunta concreta es:
+    ¿qué espacio es, exactamente?
+  </p>
+
+  <h2>El cociente es una esfera</h2>
+  <p>
+    Hagamos la identificación explícita. Si
+    <MathBlock f={String.raw`\alpha \neq 0`} />, podemos elegir
+    <MathBlock f={String.raw`\lambda = 1/\alpha`} /> y el espinor queda
+    <MathBlock f={String.raw`(1, \beta/\alpha)`} />. Toda la información
+    física está en el cociente
+  </p>
+  <MathBlock f={String.raw`z = \beta/\alpha \in \mathbb{C}`} d />
+  <p>
+    un solo número complejo (= dos reales, como esperábamos). Falta el
+    caso <MathBlock f={String.raw`\alpha = 0`} />: ese se interpreta como
+    <MathBlock f={String.raw`z = \infty`} />. El conjunto resultante es
+    <MathBlock f={String.raw`\mathbb{C} \cup \{\infty\}`} />, conocido
+    como la <strong>esfera de Riemann</strong>: si proyectas el plano
+    complejo estereográficamente sobre una esfera unidad, los puntos
+    finitos llenan toda la esfera salvo el polo norte, y
+    <MathBlock f={String.raw`\infty`} /> ES el polo norte. Topológicamente
+    es <MathBlock f={String.raw`S^{2}`} />.
+  </p>
+  <p>
+    En la literatura de física aparece con tres nombres distintos según
+    el contexto, pero geométricamente es la misma esfera:
   </p>
   <ul>
-    <li>
-      En mecánica cuántica, la regla de Born usa <MathBlock f={String.raw`|\langle\phi|\psi\rangle|^2`} />,
-      que ignora factores complejos comunes en <MathBlock f={String.raw`\psi`} />.
-    </li>
-    <li>
-      En óptica, multiplicar el campo eléctrico
-      <MathBlock f={String.raw`\mathbf{E}(t) = \mathrm{Re}(\boldsymbol{\psi}\, e^{-i\omega t})`} />
-      por un complejo común corresponde a un cambio de origen temporal y de
-      amplitud — no es una polarización distinta.
-    </li>
+    <li><strong>Esfera de Bloch</strong>: en mecánica cuántica de espín 1/2.</li>
+    <li><strong>Esfera de Poincaré</strong>: en óptica de polarización.</li>
+    <li><strong>Línea proyectiva compleja
+      <MathBlock f={String.raw`\mathbb{CP}^{1}`} /></strong>: en geometría.</li>
   </ul>
-  <p>
-    Eso reduce el espacio de estados de
-    <MathBlock f={String.raw`\mathbb{C}^2`} /> (real-dim 4) a su cociente por la
-    relación de equivalencia <MathBlock f={String.raw`\psi \sim \lambda\psi`} />.
-    El cociente es la <strong>línea proyectiva compleja</strong>
-    <MathBlock f={String.raw`\mathbb{CP}^1`} />, que topológicamente es una
-    2-esfera (la <em>esfera de Riemann</em>).
-  </p>
 
-  <h2>La construcción explícita</h2>
+  <h2>Coordenadas naturales</h2>
   <p>
-    Si <MathBlock f={String.raw`\alpha \neq 0`} />, fijamos
-    <MathBlock f={String.raw`\lambda = 1/\alpha`} /> y el espinor queda
-    <MathBlock f={String.raw`(1, \beta/\alpha)`} />. El cociente
-    <MathBlock f={String.raw`z = \beta/\alpha \in \mathbb{C}`} /> caracteriza el
-    estado. Falta el caso <MathBlock f={String.raw`\alpha = 0`} />: lo
-    interpretamos como <MathBlock f={String.raw`z = \infty`} />. Así obtenemos
-    <MathBlock f={String.raw`\mathbb{CP}^1 \cong \mathbb{C} \cup \{\infty\}`} />,
-    que es la esfera de Riemann vía proyección estereográfica.
-  </p>
-  <p>
-    Equivalente más utilizado en física: parametrizar con dos ángulos
-    <MathBlock f={String.raw`(\theta, \varphi)`} />,
+    Para que la esfera quede parametrizada por dos ángulos físicos, se
+    fija la fase y la escala con la convención
+    <MathBlock f={String.raw`|\psi| = 1`} /> y
+    <MathBlock f={String.raw`\alpha`} /> real positivo. El espinor queda
   </p>
   <MathBlock f={String.raw`\psi(\theta, \varphi) = \cos\!\tfrac{\theta}{2}\,|+z\rangle + e^{i\varphi}\sin\!\tfrac{\theta}{2}\,|-z\rangle`} d />
   <p>
-    La <em>dirección de Bloch</em> asociada es
-    <MathBlock f={String.raw`\hat{n} = \langle\psi|\boldsymbol{\sigma}|\psi\rangle = (\sin\theta\cos\varphi,\ \sin\theta\sin\varphi,\ \cos\theta)`} />
-    — el punto en la esfera. Importante: <strong>no contiene la fase global</strong>.
+    con <MathBlock f={String.raw`\theta \in [0, \pi]`} /> el ángulo polar
+    y <MathBlock f={String.raw`\varphi \in [0, 2\pi)`} /> el azimutal. La
+    <em>dirección de Bloch</em> es entonces
+  </p>
+  <MathBlock f={String.raw`\hat{n} = \langle\psi|\boldsymbol{\sigma}|\psi\rangle = (\sin\theta\cos\varphi,\ \sin\theta\sin\varphi,\ \cos\theta)`} d />
+  <p>
+    Un punto de <MathBlock f={String.raw`S^{2}`} />. Es la dirección
+    física hacia la cual el espín "apunta". El factor 2 de M1 reaparece
+    aquí: si rotas el aparato un ángulo <MathBlock f={String.raw`\alpha`} />
+    en el espacio físico, el punto en la esfera se mueve también
+    <MathBlock f={String.raw`\alpha`} /> — pero el espinor de M1 rotaba
+    <MathBlock f={String.raw`\alpha/2`} />. La esfera es donde la "mitad"
+    se vuelve "entera": al proyectar a esfera perdemos justamente la
+    información que distinguía 360° de 720°.
+  </p>
+
+  <h2>La fase oculta: el flagpole</h2>
+  <p>
+    Esa información perdida no desaparece, solo deja de ser visible para
+    cualquier experimento clásico. Penrose la representa como una
+    <em>bandera</em> añadida al asta (el flagpole = punto en la esfera).
+    El asta es la dirección física observable; la bandera es la fase
+    global, que no se ve, pero rota a la mitad de velocidad y por eso
+    distingue 360° de 720° aunque el asta no lo haga. M3 hará explícita
+    la maquinaria; aquí basta saber que la bandera existe.
   </p>
 
   <h2>El widget</h2>
   <p>
-    Mueve <em>θ</em> y <em>φ</em> para mover el punto en la esfera, o pulsa uno
-    de los seis estados base. Mueve <em>γ</em> (la fase global) y observa: el
-    punto no se mueve, pero la <em>bandera</em> rota alrededor del flagpole. Ahí
-    está la pista: <strong>el flagpole es lo único que ve el mundo macroscópico,
-    la bandera es la fase global oculta</strong>.
+    Mueve <em>θ</em> y <em>φ</em> para mover el punto en la esfera; o
+    pulsa un preset (<MathBlock f={String.raw`|\!\pm\!z\rangle`} />,
+    <MathBlock f={String.raw`|\!\pm\!x\rangle`} />,
+    <MathBlock f={String.raw`|\!\pm\!y\rangle`} /> también nombrados como
+    polarizaciones H/V/D/A/R/L). El slider <em>γ</em> es la fase global:
+    <strong>el punto no se mueve, la bandera sí</strong>. Esa es la
+    prueba visual de que la fase global es invisible para el experimento
+    pero no para el espinor.
   </p>
   <p>
-    El cuadrante de la derecha muestra la <em>polarización física</em>: el
-    campo eléctrico
+    A la derecha del widget se traza la <em>elipse de polarización</em>:
+    el campo eléctrico
     <MathBlock f={String.raw`\mathbf{E}(t) = (\mathrm{Re}(\alpha e^{-i\omega t}), \mathrm{Re}(\beta e^{-i\omega t}))`} />
-    trazando la elipse correspondiente. Mover γ no cambia la forma de la elipse:
-    solo desplaza la fase del barrido.
+    correspondiente al espinor visto como vector de Jones. Mover γ
+    desplaza la fase del barrido (= el origen de tiempos), pero la forma
+    de la elipse es invariante. Confirma físicamente lo que el cálculo
+    decía.
   </p>
   <div class="widget">
     <BlochInteractive client:visible />
   </div>
 
-  <h2>Ejercicio</h2>
+  <h2>Ejercicios</h2>
   <ol>
     <li>
       Pon θ = 90° y γ = 0. Mueve φ de 0° a 360° y observa cómo cambia la
-      polarización: ¿en qué valores de φ obtienes lineal, en cuáles circular,
-      en cuáles elíptica?
+      polarización: ¿en qué valores de φ es lineal? ¿Circular?
+      ¿Elíptica?
     </li>
     <li>
-      Selecciona <MathBlock f={String.raw`|+y\rangle`} />. ¿Qué tipo de
-      polarización física corresponde? Comprueba que mover γ rota la bandera
-      pero no altera la elipse.
+      Selecciona <MathBlock f={String.raw`|+y\rangle`} />: ¿qué
+      polarización física corresponde? Mueve γ y verifica que la elipse
+      no cambia de forma.
     </li>
     <li>
       Calcula a mano la dirección de Bloch para
@@ -109,4 +154,17 @@ import BlochInteractive from '../../components/interactive/BlochInteractive.svel
       y verifica con el widget.
     </li>
   </ol>
+
+  <h2>De aquí salimos a M3</h2>
+  <p>
+    Hemos identificado <strong>dónde</strong> vive un espinor:
+    <MathBlock f={String.raw`\mathbb{CP}^{1} \cong S^{2}`} />, módulo una
+    bandera que recuerda la fase. Falta la maquinaria que conecta esa
+    esfera con vectores reales y con la rotación SU(2) que vimos en M1.
+    En M3 escribimos un vector como matriz 2×2 (de Pauli), descubrimos
+    que esa matriz <em>se factoriza</em> como
+    <MathBlock f={String.raw`\psi\psi^{\dagger}`} />, y de paso explica
+    por qué el espinor rota con UNA matriz mientras el vector necesita
+    DOS (sandwich): el origen algebraico del factor 2.
+  </p>
 </ArticleLayout>

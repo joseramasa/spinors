@@ -5,160 +5,212 @@ import DiracFreeWaves from '../../components/interactive/DiracFreeWaves.svelte';
 ---
 
 <ArticleLayout
-  title="M7 · Dirac libre"
-  subtitle="El pago físico: cómo describir un electrón libre relativista con cuatro componentes."
+  title="M7 · Cómo se mueve un electrón libre"
+  subtitle="Schrödinger no es relativista, Klein-Gordon da probabilidades negativas. Dirac arregla el problema, y al hacerlo predice la antimateria."
   slug="07-dirac"
 >
   <p>
-    El recorrido hasta aquí ha sido geométrico: espinores como puntos en una
-    esfera (M2), como factorizadores de vectores (M3), como elementos de
-    SU(2) y SL(2,C) (M4–M5), y como elementos de un álgebra de Clifford
-    (M6). Falta el cierre físico: cómo se usa toda esa maquinaria para
-    describir un electrón libre, y por qué el espinor relevante tiene
-    cuatro componentes.
+    Tenemos la maquinaria geométrica para describir el espín del
+    electrón (M1–M6). Falta lo más importante físicamente: ¿cómo se
+    mueve? La ecuación de Schrödinger funciona para un electrón no
+    relativista, pero cuando la velocidad es comparable con
+    <MathBlock f={String.raw`c`} /> deja de servir. La pregunta concreta:
+    ¿cuál es la versión relativista de Schrödinger para un electrón?
+  </p>
+  <p>
+    Hay un primer intento natural — Klein-Gordon — que <em>falla</em>.
+    De su fracaso sale Dirac, que no solo arregla el problema sino que
+    además predice algo que en 1928 nadie había observado: la
+    antimateria. Esa es la historia.
   </p>
 
-  <h2>De Klein-Gordon a Dirac</h2>
+  <h2>Klein-Gordon y por qué falla</h2>
   <p>
     La cuantización canónica relativista parte de
-    <MathBlock f={String.raw`E^2 = \mathbf{p}^2 + m^2`} d />
-    y reemplaza <MathBlock f={String.raw`E \to i\partial_t`} />,
-    <MathBlock f={String.raw`\mathbf{p} \to -i\nabla`} />:
-    <MathBlock f={String.raw`(\Box + m^2)\,\phi = 0`} d />
-    donde <MathBlock f={String.raw`\Box = \partial_t^2 - \nabla^2`} />. Es la
-    ecuación de Klein-Gordon, válida para campos escalares (espín 0). El
-    problema: la "densidad de probabilidad" natural sale negativa para
-    soluciones con energía negativa.
   </p>
+  <MathBlock f={String.raw`E^{2} = \mathbf{p}^{2} + m^{2}`} d />
   <p>
-    Dirac buscó una ecuación de <em>primer orden</em>:
-    <MathBlock f={String.raw`(i\gamma^{\mu}\partial_{\mu} - m)\,\psi = 0`} d />
-    Para que esto reproduzca Klein-Gordon al cuadrarse, los coeficientes
+    y reemplaza
+    <MathBlock f={String.raw`E \to i\partial_t`} />,
+    <MathBlock f={String.raw`\mathbf{p} \to -i\nabla`} />. Sale la
+    <strong>ecuación de Klein-Gordon</strong>:
+  </p>
+  <MathBlock f={String.raw`(\Box + m^{2})\,\phi = 0`} d />
+  <p>
+    con <MathBlock f={String.raw`\Box = \partial_t^{2} - \nabla^{2}`} />.
+    Es relativista (manifiestamente Lorentz-invariante) y es de segundo
+    orden en el tiempo. Ese segundo orden es el problema: la corriente
+    conservada que sale tiene "densidad de probabilidad"
+  </p>
+  <MathBlock f={String.raw`\rho \;=\; i(\phi^{*}\partial_{t}\phi - \phi\,\partial_{t}\phi^{*})`} d />
+  <p>
+    que puede ser <strong>negativa</strong> dependiendo del signo de
+    <MathBlock f={String.raw`\partial_t \phi`} />. Una probabilidad
+    negativa no tiene interpretación física como probabilidad. La
+    ecuación es matemáticamente correcta, pero no sirve para describir
+    una sola partícula. (Hoy se reinterpreta como ecuación de campo
+    para partículas escalares de espín 0, no como ecuación de onda de
+    una partícula.)
+  </p>
+
+  <h2>Dirac: factorizar la raíz cuadrada</h2>
+  <p>
+    Dirac quería una ecuación de <strong>primer orden</strong> en el
+    tiempo, para tener corrientes conservadas con densidad positiva.
+    Eso obliga a "extraer la raíz cuadrada" de Klein-Gordon, factorizar
+    <MathBlock f={String.raw`\Box + m^{2}`} /> en dos piezas lineales:
+  </p>
+  <MathBlock f={String.raw`\Box + m^{2} = (i\gamma^{\mu}\partial_{\mu} - m)(i\gamma^{\mu}\partial_{\mu} + m)`} d />
+  <p>
+    Para que el producto se desarrolle correctamente, los coeficientes
     <MathBlock f={String.raw`\gamma^{\mu}`} /> tienen que cumplir
   </p>
   <MathBlock f={String.raw`\{\gamma^{\mu}, \gamma^{\nu}\} = 2\,\eta^{\mu\nu}\,I`} d />
   <p>
-    eso es exactamente la relación definidora del álgebra de Clifford
-    <MathBlock f={String.raw`\mathrm{Cl}(1,3)`} /> de M6. Las matrices más
-    pequeñas que la satisfacen son <MathBlock f={String.raw`4\times 4`} /> —
-    de ahí que el espinor sea un vector columna con cuatro componentes.
+    Eso es exactamente la relación definidora del álgebra de Clifford
+    <MathBlock f={String.raw`\mathrm{Cl}(1,3)`} /> de M6. <strong>No
+    pueden ser números: tienen que anticonmutar</strong>. Las matrices
+    más pequeñas que satisfacen estas relaciones son
+    <MathBlock f={String.raw`4\times 4`} />. De ahí que el espinor tenga
+    cuatro componentes (no por capricho, por el tamaño mínimo de las
+    gammas). La ecuación de Dirac es:
+  </p>
+  <MathBlock f={String.raw`(i\gamma^{\mu}\partial_{\mu} - m)\,\psi = 0`} d />
+  <p>
+    Es de primer orden en el tiempo. Su corriente conservada es
+    <MathBlock f={String.raw`j^{\mu} = \bar{\psi}\gamma^{\mu}\psi`} />
+    con
+    <MathBlock f={String.raw`\bar{\psi} = \psi^{\dagger}\gamma^{0}`} />,
+    y <MathBlock f={String.raw`j^{0} = \psi^{\dagger}\psi`} /> es
+    <strong>positiva-definida</strong>. Problema resuelto.
   </p>
 
-  <h2>La base quiral</h2>
+  <h2>La base quiral conecta con M5</h2>
   <p>
-    En la base de Weyl (también llamada quiral), las gammas tienen forma
-    block-antidiagonal:
+    En la base de Weyl (también llamada quiral), las gammas tienen
+    forma block-antidiagonal:
   </p>
-  <MathBlock f={String.raw`\gamma^0 = \begin{pmatrix} 0 & I \\ I & 0 \end{pmatrix}, \quad \gamma^i = \begin{pmatrix} 0 & \sigma^i \\ -\sigma^i & 0 \end{pmatrix}`} d />
+  <MathBlock f={String.raw`\gamma^{0} = \begin{pmatrix} 0 & I \\ I & 0 \end{pmatrix}, \quad \gamma^{i} = \begin{pmatrix} 0 & \sigma^{i} \\ -\sigma^{i} & 0 \end{pmatrix}`} d />
   <p>
     La matriz de quiralidad
-    <MathBlock f={String.raw`\gamma^5 = i\gamma^0\gamma^1\gamma^2\gamma^3`} />
-    sale diagonal:
-    <MathBlock f={String.raw`\gamma^5 = \mathrm{diag}(-I, +I)`} />, con
-    autovalores <MathBlock f={String.raw`\mp 1`} /> en los bloques L y R.
-    Eso permite los proyectores
-    <MathBlock f={String.raw`P_L = \tfrac{1}{2}(I - \gamma^5)`} />,
-    <MathBlock f={String.raw`P_R = \tfrac{1}{2}(I + \gamma^5)`} /> que
-    extraen la parte left-chiral y right-chiral. El espinor de Dirac es la
-    suma directa que vimos en M5:
+    <MathBlock f={String.raw`\gamma^{5} = i\gamma^{0}\gamma^{1}\gamma^{2}\gamma^{3}`} />
+    sale diagonal,
+    <MathBlock f={String.raw`\gamma^{5} = \mathrm{diag}(-I, +I)`} />, lo
+    cual permite los proyectores
+    <MathBlock f={String.raw`P_L = \tfrac{1}{2}(I - \gamma^{5})`} />,
+    <MathBlock f={String.raw`P_R = \tfrac{1}{2}(I + \gamma^{5})`} /> que
+    extraen las dos quiralidades de M5:
   </p>
-  <MathBlock f={String.raw`\psi_D = \begin{pmatrix} \psi_L \\ \psi_R \end{pmatrix}, \quad \psi_L \in (\tfrac{1}{2},0),\ \psi_R \in (0,\tfrac{1}{2})`} d />
+  <MathBlock f={String.raw`\psi_D = \begin{pmatrix} \psi_L \\ \psi_R \end{pmatrix} \in (\tfrac{1}{2},0) \oplus (0,\tfrac{1}{2})`} d />
+  <p>
+    Las cuatro componentes de Dirac son: dos de
+    <MathBlock f={String.raw`\psi_L`} /> + dos de
+    <MathBlock f={String.raw`\psi_R`} />. La quiralidad que en M5
+    apareció como propiedad de SL(2,C) aquí es el primer ingrediente
+    pedagógico para entender el espinor 4-componente.
+  </p>
 
-  <h2>Soluciones de onda plana</h2>
+  <h2>Cuatro soluciones, dos sorpresas</h2>
   <p>
-    Buscando soluciones <MathBlock f={String.raw`\psi(x) = u(p)\,e^{-ip\cdot x}`} />
-    (energía positiva, "materia") y
-    <MathBlock f={String.raw`\psi(x) = v(p)\,e^{+ip\cdot x}`} /> (energía
-    negativa interpretada como antimateria), la ecuación de Dirac se
-    convierte en
+    Las soluciones de onda plana de la ecuación de Dirac son de dos
+    tipos:
   </p>
-  <MathBlock f={String.raw`(\gamma^{\mu}p_{\mu} - m)\,u(p) = 0, \qquad (\gamma^{\mu}p_{\mu} + m)\,v(p) = 0`} d />
+  <ul>
+    <li>
+      <MathBlock f={String.raw`\psi(x) = u(p)\,e^{-ip\cdot x}`} />:
+      energía positiva.
+    </li>
+    <li>
+      <MathBlock f={String.raw`\psi(x) = v(p)\,e^{+ip\cdot x}`} />:
+      energía negativa.
+    </li>
+  </ul>
   <p>
-    En base quiral, las soluciones explícitas son
+    Cada uno admite dos polarizaciones de espín, así que hay
+    <em>cuatro</em> espinores básicos. Las soluciones explícitas en
+    base quiral son:
   </p>
   <MathBlock f={String.raw`u(p, \xi) = \begin{pmatrix} \sqrt{p\cdot\sigma}\;\xi \\ \sqrt{p\cdot\bar{\sigma}}\;\xi \end{pmatrix}, \qquad v(p, \xi) = \begin{pmatrix} \sqrt{p\cdot\sigma}\;\xi \\ -\sqrt{p\cdot\bar{\sigma}}\;\xi \end{pmatrix}`} d />
   <p>
-    donde <MathBlock f={String.raw`p\cdot\sigma = E\,I - \mathbf{p}\!\cdot\!\boldsymbol{\sigma}`} />,
-    <MathBlock f={String.raw`p\cdot\bar{\sigma} = E\,I + \mathbf{p}\!\cdot\!\boldsymbol{\sigma}`} />
-    y <MathBlock f={String.raw`\xi`} /> es un espinor 2-componente con la
-    información de espín. Para un electrón en reposo
-    (<MathBlock f={String.raw`\mathbf{p} = 0`} />,
-    <MathBlock f={String.raw`E = m`} />), tanto la parte L como la R
-    valen <MathBlock f={String.raw`\sqrt{m}\,\xi`} />: las dos
-    componentes son <strong>iguales</strong>. Para
-    <MathBlock f={String.raw`v`} /> son <strong>opuestas</strong> (signo
-    relativo).
+    con <MathBlock f={String.raw`p\cdot\sigma = E\,I - \mathbf{p}\!\cdot\!\boldsymbol{\sigma}`} />,
+    <MathBlock f={String.raw`p\cdot\bar{\sigma} = E\,I + \mathbf{p}\!\cdot\!\boldsymbol{\sigma}`} />,
+    y <MathBlock f={String.raw`\xi`} /> el espinor 2-componente con la
+    información de espín. Las soluciones de energía negativa parecían
+    al principio una patología, pero Dirac propuso reinterpretarlas
+    (1928) como partículas de carga opuesta: la <strong>antimateria</strong>.
+    En 1932 Anderson observó positrones en rayos cósmicos. Eso confirmó
+    la predicción.
   </p>
 
   <h2>El widget</h2>
   <p>
-    Selecciona el tipo (<em>u</em> o <em>v</em>) y el spin (↑ o ↓). El
-    momento está fijado a lo largo de
+    Selecciona tipo (<em>u</em> o <em>v</em>) y spin (↑ o ↓). El
+    momento se desplaza a lo largo de
     <MathBlock f={String.raw`\hat{z}`} />: mueve el slider para variar
-    <MathBlock f={String.raw`p_z / m`} />. Observa los porcentajes de
-    <MathBlock f={String.raw`|\psi_L|^2`} /> y
-    <MathBlock f={String.raw`|\psi_R|^2`} />: en reposo son 50:50; al
-    boostar a lo largo del momento, la quiralidad alineada con la helicidad
-    domina. Para spin ↑ con <MathBlock f={String.raw`p_z > 0`} />, la
-    helicidad es +1 y R gana. Cuando
-    <MathBlock f={String.raw`p_z \gg m`} /> el espinor se vuelve
-    aproximadamente puro derecho.
+    <MathBlock f={String.raw`p_z / m`} />. Las barras muestran la
+    fracción <MathBlock f={String.raw`|\psi_L|^{2}`} /> y
+    <MathBlock f={String.raw`|\psi_R|^{2}`} /> del peso total. En
+    reposo son 50:50: una partícula masiva NO es puramente quiral.
+    Conforme aumenta el momento, la quiralidad alineada con la
+    helicidad domina; cuando
+    <MathBlock f={String.raw`p_z \gg m`} /> el espinor se vuelve casi
+    puro derecho (para u↑) o casi puro izquierdo (para u↓). Eso es la
+    relación entre quiralidad y helicidad: coinciden en el límite sin
+    masa, divergen con masa finita.
   </p>
-
   <div class="widget">
     <DiracFreeWaves client:visible />
   </div>
 
-  <h2>El bilineal Lorentz-invariante y la corriente</h2>
+  <h2>Quiralidad ≠ helicidad y la fuerza débil</h2>
   <p>
-    Definir un producto interno de espinores que respete Lorentz no es
-    trivial: el daga <MathBlock f={String.raw`\psi^{\dagger}\psi`} /> NO es
-    invariante (porque los boosts no son unitarios). Hay que insertar
-    <MathBlock f={String.raw`\gamma^0`} />:
-    <MathBlock f={String.raw`\bar{\psi} = \psi^{\dagger}\gamma^0`} d />
-    Entonces <MathBlock f={String.raw`\bar{\psi}\psi`} /> y la corriente
-    <MathBlock f={String.raw`j^{\mu} = \bar{\psi}\gamma^{\mu}\psi`} /> son
-    Lorentz-invariante y Lorentz-vectorial respectivamente. La conservación
-    <MathBlock f={String.raw`\partial_{\mu}j^{\mu} = 0`} /> se sigue de la
-    ecuación de Dirac, y <MathBlock f={String.raw`j^0`} /> es la densidad
-    de probabilidad: <em>esta vez positiva</em>. Ese es el punto que Dirac
-    resolvió respecto a Klein-Gordon.
+    Conviene insistir en la distinción:
   </p>
-
-  <h2>Quiralidad, helicidad y la fuerza débil</h2>
+  <ul>
+    <li>
+      <strong>Quiralidad</strong> (L vs R): propiedad de la
+      representación SL(2,C). Es Lorentz-covariante: si una partícula
+      es L en un frame, es L en todos.
+    </li>
+    <li>
+      <strong>Helicidad</strong> (signo de
+      <MathBlock f={String.raw`\hat{p}\!\cdot\!\boldsymbol{\sigma}`} />):
+      proyección del espín sobre el momento. Frame-dependiente: un
+      boost que invierta el signo del momento invierte la helicidad.
+    </li>
+  </ul>
   <p>
-    <strong>Quiralidad</strong> (L vs R) es una propiedad de la
-    representación de SL(2,C): es una etiqueta algebraica
-    Lorentz-covariante. <strong>Helicidad</strong> (signo de
-    <MathBlock f={String.raw`\hat{p}\cdot\boldsymbol{\sigma}`} />) es la
-    proyección del espín sobre el momento. Para una partícula sin masa
-    coinciden; para una partícula con masa son frame-dependientes
-    (helicidad cambia bajo boost que invierte el signo del momento).
-    Esa distinción es crucial porque la <em>fuerza débil</em> del Modelo
-    Estándar interactúa solo con la quiralidad izquierda
-    (<MathBlock f={String.raw`P_L \psi`} />). Reflejar el universo en un
-    espejo (paridad) intercambia L y R, y por tanto cambia la física
-    débil — la violación de paridad observada por Wu en 1957.
+    Para una partícula sin masa, ambas coinciden y son la misma cosa.
+    Para una partícula con masa, no. La fuerza débil del Modelo Estándar
+    se acopla solo a la <em>quiralidad</em> izquierda
+    (<MathBlock f={String.raw`P_L \psi`} />), y como masa mezcla L con
+    R bajo boost, una partícula masiva <em>siempre</em> tiene un poco
+    de la quiralidad opuesta — por eso interactúa débilmente aunque sea
+    "espín up siempre". Esto se conecta con la ruptura de paridad
+    discutida en M5: paridad intercambia L con R, y la naturaleza no
+    trata igual a las dos.
   </p>
 
   <h2>Ejercicios</h2>
   <ol>
     <li>
-      Para una partícula en reposo (<MathBlock f={String.raw`\mathbf{p}=0`} />,
+      Para una partícula en reposo
+      (<MathBlock f={String.raw`\mathbf{p} = 0`} />,
       <MathBlock f={String.raw`E = m`} />), escribe los cuatro espinores
-      básicos <MathBlock f={String.raw`u(\xi_{\uparrow})`} />,
+      básicos
+      <MathBlock f={String.raw`u(\xi_{\uparrow})`} />,
       <MathBlock f={String.raw`u(\xi_{\downarrow})`} />,
       <MathBlock f={String.raw`v(\xi_{\uparrow})`} />,
-      <MathBlock f={String.raw`v(\xi_{\downarrow})`} /> en la base quiral y
-      verifica que son autoestados de la matriz de masa
-      <MathBlock f={String.raw`\beta = \gamma^0`} /> (con autovalores
+      <MathBlock f={String.raw`v(\xi_{\downarrow})`} /> en base quiral
+      y verifica que son autoestados de
+      <MathBlock f={String.raw`\beta = \gamma^{0}`} /> (con autovalores
       <MathBlock f={String.raw`\pm 1`} />).
     </li>
     <li>
-      Aplica <MathBlock f={String.raw`P_L = \tfrac{1}{2}(I - \gamma^5)`} /> a
-      un espinor de Dirac general
-      <MathBlock f={String.raw`\psi = (\psi_L, \psi_R)^T`} /> y verifica
-      que selecciona el bloque L. Repite con
+      Aplica <MathBlock f={String.raw`P_L = \tfrac{1}{2}(I - \gamma^{5})`} />
+      a un espinor de Dirac general
+      <MathBlock f={String.raw`\psi = (\psi_L, \psi_R)^{T}`} /> y
+      comprueba que selecciona el bloque L. Repite con
       <MathBlock f={String.raw`P_R`} />.
     </li>
     <li>
@@ -166,7 +218,19 @@ import DiracFreeWaves from '../../components/interactive/DiracFreeWaves.svelte';
       <MathBlock f={String.raw`\mathbf{p}`} /> a lo largo de
       <MathBlock f={String.raw`+\hat{z}`} /> y
       <MathBlock f={String.raw`\xi = \xi_{\uparrow}`} />, la fracción
-      <MathBlock f={String.raw`|\psi_R|^2 / (|\psi_L|^2 + |\psi_R|^2) = (E + p_z)/(2E)`} />.
+      <MathBlock f={String.raw`|\psi_R|^{2} / (|\psi_L|^{2} + |\psi_R|^{2}) = (E + p_z)/(2E)`} />
+      y va a 1 en el límite ultrarelativista.
     </li>
   </ol>
+
+  <h2>De aquí salimos a M8</h2>
+  <p>
+    Hemos descrito el electrón (espín ½) y, de pasada, partículas
+    escalares (espín 0) y vectoriales (espín 1). Pero la naturaleza
+    tiene más espines: bariones de espín 3/2, gravitón de espín 2.
+    ¿Cómo se construyen las representaciones de espín mayor? ¿Qué
+    reglas las clasifican? Es M8, donde las irreps de SU(2) y SL(2,C)
+    se enumeran completamente con operadores escalera y producto
+    tensorial.
+  </p>
 </ArticleLayout>

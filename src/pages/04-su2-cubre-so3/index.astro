@@ -5,140 +5,220 @@ import DoubleCover from '../../components/interactive/DoubleCover.svelte';
 ---
 
 <ArticleLayout
-  title="M4 · SU(2) cubre SO(3)"
-  subtitle="Cuaterniones, doble cubrimiento, topología."
+  title="M4 · Por qué hay dos por cada rotación"
+  subtitle="La existencia del espinor no es una opción de modelado: viene impuesta por la topología del espacio de rotaciones."
   slug="04-su2-cubre-so3"
 >
   <p>
-    En M3 vimos que rotar un vector en <MathBlock f={String.raw`\mathbb{R}^3`} />
-    es un sándwich <MathBlock f={String.raw`V \mapsto R V R^{\dagger}`} /> con
-    <MathBlock f={String.raw`R \in \mathrm{SU}(2)`} />. La pregunta natural es:
-    ¿cuántas <MathBlock f={String.raw`R`} /> distintas dan la misma rotación
-    física? La respuesta es exactamente <strong>dos</strong>:
-    <MathBlock f={String.raw`R`} /> y <MathBlock f={String.raw`-R`} /> definen
-    el mismo elemento de <MathBlock f={String.raw`\mathrm{SO}(3)`} />. Ese 2:1
-    se llama <em>doble cubrimiento</em> y es la causa estructural de los
-    espinores.
+    En M3 escribimos rotaciones físicas como sándwiches
+    <MathBlock f={String.raw`V \mapsto R\,V\,R^{\dagger}`} /> con
+    <MathBlock f={String.raw`R \in \mathrm{SU}(2)`} />. Nos quedó
+    pendiente un detalle que parece técnico pero es el corazón de todo:
+    <strong>las dos matrices
+    <MathBlock f={String.raw`+R`} /> y <MathBlock f={String.raw`-R`} />
+    producen exactamente la misma rotación física</strong>. Cualquier
+    R y su negativa son indistinguibles para un experimento que mida
+    vectores. La pregunta concreta es:
+  </p>
+  <ul>
+    <li>¿Por qué hay <em>dos</em> R y no <em>una</em>?</li>
+    <li>¿Y qué tienen que ver esos dos con que el espinor cambie de
+      signo al rotar 360°?</li>
+  </ul>
+  <p>
+    Las dos preguntas tienen la misma respuesta: una propiedad
+    topológica del espacio de rotaciones. Construirla nos dará la razón
+    de fondo por la que existen los espinores.
   </p>
 
   <h2>SU(2) es la 3-esfera</h2>
   <p>
-    Un elemento genérico de <MathBlock f={String.raw`\mathrm{SU}(2)`} /> tiene
-    la forma
-    <MathBlock f={String.raw`U = \begin{pmatrix} \alpha & \beta \\ -\bar{\beta} & \bar{\alpha} \end{pmatrix}, \quad |\alpha|^2 + |\beta|^2 = 1`} d />
-    con <MathBlock f={String.raw`\alpha, \beta \in \mathbb{C}`} />. Si escribimos
-    <MathBlock f={String.raw`\alpha = a + i d`} /> y
-    <MathBlock f={String.raw`\beta = c + i b`} />, la condición de norma se
-    convierte en <MathBlock f={String.raw`a^2 + b^2 + c^2 + d^2 = 1`} />.
-    Eso es la ecuación de la <strong>3-esfera</strong>
-    <MathBlock f={String.raw`S^3 \subset \mathbb{R}^4`} />.
-    <strong>SU(2) = S³</strong>, identificadas como variedades.
+    Una matriz genérica de
+    <MathBlock f={String.raw`\mathrm{SU}(2)`} /> tiene la forma
   </p>
-
-  <h2>Cuaterniones: la misma estructura, otra notación</h2>
+  <MathBlock f={String.raw`U = \begin{pmatrix} \alpha & \beta \\ -\bar{\beta} & \bar{\alpha} \end{pmatrix}, \quad |\alpha|^{2} + |\beta|^{2} = 1`} d />
   <p>
-    Un cuaternión unitario es <MathBlock f={String.raw`q = a + b\, i + c\, j + d\, k`} />
-    con <MathBlock f={String.raw`|q|^2 = 1`} /> y
-    <MathBlock f={String.raw`i^2 = j^2 = k^2 = ijk = -1`} />. La biyección con
-    <MathBlock f={String.raw`\mathrm{SU}(2)`} /> es directa:
-    <MathBlock f={String.raw`q \;\leftrightarrow\; U(q) = a I - i\, (b\, \sigma_x + c\, \sigma_y + d\, \sigma_z)`} d />
-    Las correspondencias <MathBlock f={String.raw`i \leftrightarrow -i\sigma_x`} />,
-    <MathBlock f={String.raw`j \leftrightarrow -i\sigma_y`} />,
-    <MathBlock f={String.raw`k \leftrightarrow -i\sigma_z`} /> hacen consistentes
-    los productos. La rotación de ángulo <MathBlock f={String.raw`\theta`} />
-    alrededor de <MathBlock f={String.raw`\hat{n}`} /> tiene cuaternión
-    <MathBlock f={String.raw`q = \cos(\theta/2) + \sin(\theta/2)\,(\hat{n}_x i + \hat{n}_y j + \hat{n}_z k)`} d />
-    y observa la mitad del ángulo.
+    con <MathBlock f={String.raw`\alpha, \beta \in \mathbb{C}`} />.
+    Escribe <MathBlock f={String.raw`\alpha = a + i d`} /> y
+    <MathBlock f={String.raw`\beta = c + i b`} />: la condición de norma
+    se vuelve
+    <MathBlock f={String.raw`a^{2} + b^{2} + c^{2} + d^{2} = 1`} />, la
+    ecuación de la <strong>3-esfera</strong>
+    <MathBlock f={String.raw`S^{3} \subset \mathbb{R}^{4}`} />. Como
+    variedades, <MathBlock f={String.raw`\mathrm{SU}(2) = S^{3}`} />.
   </p>
 
   <h2>SO(3) es la mitad de S³</h2>
   <p>
-    El homomorfismo <MathBlock f={String.raw`\Phi: \mathrm{SU}(2) \to \mathrm{SO}(3)`} />
-    que asigna a cada <MathBlock f={String.raw`U`} /> la rotación
-    <MathBlock f={String.raw`V \mapsto U V U^{\dagger}`} /> tiene núcleo
-    <MathBlock f={String.raw`\{+I, -I\}`} />: los dos elementos
-    <MathBlock f={String.raw`\pm U`} /> mandan al mismo elemento de
-    <MathBlock f={String.raw`\mathrm{SO}(3)`} />. Topológicamente,
+    El homomorfismo
+    <MathBlock f={String.raw`\Phi: \mathrm{SU}(2) \to \mathrm{SO}(3)`} />
+    que asigna a <MathBlock f={String.raw`U`} /> la rotación
+    <MathBlock f={String.raw`V \mapsto U\,V\,U^{\dagger}`} /> tiene núcleo
+    <MathBlock f={String.raw`\{+I, -I\}`} />: cuando
+    <MathBlock f={String.raw`U = \pm I`} />, el sándwich es la
+    identidad. Más en general,
+    <MathBlock f={String.raw`U`} /> y <MathBlock f={String.raw`-U`} />
+    producen siempre la misma rotación porque los signos se cancelan a
+    izquierda y a derecha del sándwich. Eso significa que cada elemento
+    de <MathBlock f={String.raw`\mathrm{SO}(3)`} /> tiene
+    <em>exactamente dos</em> preimágenes en
+    <MathBlock f={String.raw`\mathrm{SU}(2)`} />, antipodales en
+    <MathBlock f={String.raw`S^{3}`} />:
   </p>
-  <MathBlock f={String.raw`\mathrm{SO}(3) \cong S^3 / \{\pm 1\} \cong \mathbb{RP}^3`} d />
+  <MathBlock f={String.raw`\mathrm{SO}(3) \cong S^{3} / \{\pm 1\} \cong \mathbb{RP}^{3}`} d />
   <p>
-    es decir, el espacio proyectivo real 3-dimensional: la 3-esfera con cada
-    par de puntos antipodales identificados. La diferencia topológica es
-    crucial:
+    SO(3) es el espacio proyectivo real 3-dimensional. Esa es la
+    respuesta a la primera pregunta: hay <em>dos</em> R por cada
+    rotación porque
+    <MathBlock f={String.raw`S^{3}`} /> tiene dos puntos antipodales
+    para cada punto de
+    <MathBlock f={String.raw`\mathbb{RP}^{3}`} />.
+  </p>
+
+  <h2>Lazos que no se contraen</h2>
+  <p>
+    Esto explica por qué hay dos. Falta la consecuencia importante. La
+    diferencia topológica entre
+    <MathBlock f={String.raw`S^{3}`} /> y
+    <MathBlock f={String.raw`\mathbb{RP}^{3}`} /> es:
   </p>
   <ul>
-    <li><MathBlock f={String.raw`S^3`} /> es <strong>simplemente conexo</strong>: todo lazo es contraíble.</li>
-    <li><MathBlock f={String.raw`\mathbb{RP}^3`} /> NO lo es: existe un lazo (el que va de un punto a su antípoda en S³ por una geodésica) que en SO(3) parece cerrado pero al levantarlo a SU(2) NO lo es. Hace falta dar dos vueltas para que cierre.</li>
+    <li>
+      <MathBlock f={String.raw`S^{3}`} /> es <strong>simplemente
+      conexo</strong>: cualquier lazo cerrado se puede contraer a un
+      punto.
+    </li>
+    <li>
+      <MathBlock f={String.raw`\mathbb{RP}^{3}`} /> NO lo es: existe un
+      lazo (el que conecta dos puntos antipodales en
+      <MathBlock f={String.raw`S^{3}`} /> y luego, identificándolos en
+      <MathBlock f={String.raw`\mathbb{RP}^{3}`} />, parece cerrado) que
+      no se puede contraer. Pero el lazo recorrido <em>dos veces</em>
+      sí se contrae.
+    </li>
   </ul>
   <p>
-    Esa imposibilidad de contraer un lazo en SO(3) es lo que justifica que las
-    representaciones espinoriales (las que mandan
-    <MathBlock f={String.raw`U \mapsto U`} />, no
-    <MathBlock f={String.raw`\Phi(U)`} />) <em>existan</em> y sean genuinamente
-    nuevas respecto a las representaciones tensoriales de SO(3).
+    Eso conecta directamente con el truco del cinturón de M1. Una
+    vuelta física entera (rotación de
+    <MathBlock f={String.raw`360°`} /> en
+    <MathBlock f={String.raw`\mathrm{SO}(3)`} />) es el lazo no
+    contraíble: deja al cinturón retorcido. Dos vueltas (en
+    <MathBlock f={String.raw`720°`} />) es contraíble: el cinturón se
+    desenreda.
+  </p>
+  <p>
+    Y aquí aparece la razón de fondo de la existencia de espinores. Una
+    representación del grupo SO(3) tiene que respetar la topología:
+    asignar el mismo objeto a lazos topológicamente equivalentes. Las
+    representaciones convencionales (vectores, tensores) cumplen
+    eso: una rotación de 360° es la identidad. Pero en
+    <MathBlock f={String.raw`S^{3} = \mathrm{SU}(2)`} /> el lazo de
+    360° NO es la identidad — es el camino de
+    <MathBlock f={String.raw`+I`} /> a
+    <MathBlock f={String.raw`-I`} />. <strong>Las representaciones de
+    SU(2) que NO son representaciones de SO(3) son justamente los
+    espinores</strong>: rotación 360° les da
+    <MathBlock f={String.raw`-1`} /> en lugar de
+    <MathBlock f={String.raw`+1`} />.
+  </p>
+  <p>
+    Eso da la respuesta a la segunda pregunta: el cambio de signo del
+    espinor tras 360° es el reflejo algebraico de que el lazo de 360°
+    en SO(3) no es contraíble. La cuántica no inventó este factor — la
+    geometría de
+    <MathBlock f={String.raw`\mathbb{R}^{3}`} /> ya lo pedía.
+  </p>
+
+  <h2>Cuaterniones: la misma estructura, otra notación</h2>
+  <p>
+    Los cuaterniones unitarios son
+    <MathBlock f={String.raw`q = a + b\,i + c\,j + d\,k`} /> con
+    <MathBlock f={String.raw`|q|^{2} = 1`} /> y reglas
+    <MathBlock f={String.raw`i^{2} = j^{2} = k^{2} = ijk = -1`} />. La
+    biyección con SU(2) es
+  </p>
+  <MathBlock f={String.raw`q \;\leftrightarrow\; U(q) = a I - i\,(b\,\sigma_x + c\,\sigma_y + d\,\sigma_z)`} d />
+  <p>
+    y la rotación de ángulo
+    <MathBlock f={String.raw`\theta`} /> alrededor de
+    <MathBlock f={String.raw`\hat{n}`} /> tiene cuaternión
+  </p>
+  <MathBlock f={String.raw`q = \cos(\theta/2) + \sin(\theta/2)\,(\hat{n}_x\, i + \hat{n}_y\, j + \hat{n}_z\, k)`} d />
+  <p>
+    Aparece el factor 2 una vez más. Un cuaternión unitario es un punto
+    de <MathBlock f={String.raw`S^{3}`} /> con la misma estructura que
+    SU(2). En aplicaciones prácticas (gráficos 3D, robótica) se usan
+    cuaterniones porque evitan el <em>gimbal lock</em> de los ángulos
+    de Euler — que parametrizan SO(3) por
+    <MathBlock f={String.raw`T^{3}`} /> en vez de
+    <MathBlock f={String.raw`\mathbb{RP}^{3}`} />, una topología
+    incorrecta que produce singularidades.
   </p>
 
   <h2>El widget</h2>
   <p>
-    Mueve el slider de θ y observa lo siguiente. La <em>bola unidad</em> de la
-    izquierda es la 3-esfera S³ proyectada por la parte vectorial del
-    cuaternión: el punto representa
-    <MathBlock f={String.raw`(b, c, d) = \sin(\theta/2)\hat{n}`} /> y el color
-    codifica la parte escalar
-    <MathBlock f={String.raw`a = \cos(\theta/2)`} /> (azul = +1, verde = 0, rojo = −1).
-    Mientras tanto, el cubo de la derecha rota en
-    <MathBlock f={String.raw`\mathbb{R}^3`} /> según la
-    <MathBlock f={String.raw`\mathrm{SO}(3)`} /> asociada.
+    El experimento clave es comparar lo que hace
+    <MathBlock f={String.raw`\mathrm{SO}(3)`} /> con lo que hace
+    <MathBlock f={String.raw`\mathrm{SU}(2)`} /> bajo la misma rotación
+    de ángulo θ. Mueve el slider de 0° a 720° y observa:
   </p>
+  <ul>
+    <li>
+      A la derecha, el cubo (en
+      <MathBlock f={String.raw`\mathbb{R}^{3}`} />) rota bajo SO(3) y
+      vuelve a su posición cada
+      <MathBlock f={String.raw`360°`} />.
+    </li>
+    <li>
+      A la izquierda, la 3-esfera proyectada en una bola unidad muestra
+      la posición del cuaternión en SU(2). El punto se mueve por el
+      diámetro y su color codifica
+      <MathBlock f={String.raw`a = \cos(\theta/2)`} /> (azul = identidad,
+      rojo = antípoda).
+    </li>
+  </ul>
   <p>
-    Tres tiempos clave: <strong>θ = 0°</strong>, identidad, punto azul al
-    centro; <strong>θ = 360°</strong>, cubo en su sitio pero punto rojo al
-    centro (antípoda en S³); <strong>θ = 720°</strong>, todo de vuelta.
+    Tres tiempos clave: <strong>θ = 0°</strong>, identidad, punto azul
+    al centro; <strong>θ = 360°</strong>, cubo en su sitio pero punto
+    rojo al centro (antípoda en
+    <MathBlock f={String.raw`S^{3}`} />); <strong>θ = 720°</strong>,
+    todo de vuelta. Eso es el doble cubrimiento en imagen.
   </p>
-
   <div class="widget">
     <DoubleCover client:visible />
   </div>
-
-  <h2>Relación con M1 y la "trampa del cinturón"</h2>
-  <p>
-    El lazo SO(3) que va de θ = 0 a θ = 360° es topológicamente NO-trivial: no
-    se puede contraer dentro de SO(3). En cambio, el lazo que va de 0 a 720° SÍ
-    es contraíble. Esa es la formalización topológica del truco del cinturón
-    de M1: una vuelta enreda, dos vueltas se desenredan.
-  </p>
-
-  <h2>Comparación con ángulos de Euler</h2>
-  <p>
-    Los ángulos de Euler parametrizan rotaciones con tres números
-    <MathBlock f={String.raw`(\phi, \theta, \psi)`} /> en
-    <MathBlock f={String.raw`T^3 = S^1 \times S^1 \times S^1`} /> (el toro).
-    No es la topología correcta de
-    <MathBlock f={String.raw`\mathrm{SO}(3)`} />, lo que produce
-    <em>gimbal lock</em>: configuraciones donde dos ejes coinciden y se pierde
-    un grado de libertad. Los cuaterniones (parametrización por
-    <MathBlock f={String.raw`S^3`} />) evitan el problema y por eso son
-    estándar en gráficos 3D y robótica.
-  </p>
 
   <h2>Ejercicios</h2>
   <ol>
     <li>
       Verifica que el producto de cuaterniones
       <MathBlock f={String.raw`q_1 q_2`} /> con
-      <MathBlock f={String.raw`q_1 = \cos(\theta_1/2) + \sin(\theta_1/2) k`} /> y
-      <MathBlock f={String.raw`q_2 = \cos(\theta_2/2) + \sin(\theta_2/2) k`} />
-      da una rotación alrededor de <MathBlock f={String.raw`\hat{z}`} /> de
-      ángulo <MathBlock f={String.raw`\theta_1 + \theta_2`} />.
+      <MathBlock f={String.raw`q_1 = \cos(\theta_1/2) + \sin(\theta_1/2)\,k`} /> y
+      <MathBlock f={String.raw`q_2 = \cos(\theta_2/2) + \sin(\theta_2/2)\,k`} />
+      da una rotación alrededor de <MathBlock f={String.raw`\hat{z}`} />
+      de ángulo <MathBlock f={String.raw`\theta_1 + \theta_2`} />.
     </li>
     <li>
       Para <MathBlock f={String.raw`q = (\tfrac{\sqrt{2}}{2}, \tfrac{\sqrt{2}}{2}, 0, 0)`} />
-      (es decir <MathBlock f={String.raw`\theta = 90°`} /> alrededor de
+      (rotación de
+      <MathBlock f={String.raw`90°`} /> alrededor de
       <MathBlock f={String.raw`\hat{x}`} />), calcula
       <MathBlock f={String.raw`q\, \hat{y}\, q^{-1}`} /> tratando
       <MathBlock f={String.raw`\hat{y}`} /> como cuaternión puro
-      <MathBlock f={String.raw`(0, 0, 1, 0)`} />. Debe salir
+      <MathBlock f={String.raw`(0, 0, 1, 0)`} />. El resultado debe ser
       <MathBlock f={String.raw`\hat{z}`} />.
     </li>
   </ol>
+
+  <h2>De aquí salimos a M5</h2>
+  <p>
+    Tenemos la maquinaria SU(2) → SO(3) sólida para el espacio
+    tridimensional. Pero el espín de un electrón es una propiedad
+    cuántica relativista: la teoría completa no son rotaciones de
+    <MathBlock f={String.raw`\mathbb{R}^{3}`} /> sino transformaciones
+    de Lorentz del espacio-tiempo. Toca extender la receta. M5 introduce
+    SL(2,C) — el doble cubrimiento del grupo de Lorentz propio — y
+    descubre que en relatividad el espinor se parte en dos piezas
+    inequivalentes (Weyl izquierda y derecha).
+  </p>
 </ArticleLayout>

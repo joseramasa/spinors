@@ -5,140 +5,215 @@ import LieLadder from '../../components/interactive/LieLadder.svelte';
 ---
 
 <ArticleLayout
-  title="M8 · Lie, representaciones, ladders"
-  subtitle="Por qué hay exactamente una irrep de SU(2) por cada dimensión, y cómo construirlas todas."
+  title="M8 · El catálogo de espines"
+  subtitle="Hemos manejado espín 0, ½ y 1. La naturaleza tiene 3/2, 2, etc. ¿Hay una receta que construya todas las representaciones?"
   slug="08-lie-representaciones"
 >
   <p>
-    Hasta aquí hemos manejado la representación de espín ½ (los espinores
-    "fundamentales") y, de pasada, el cuadrivector y el bivector. La pregunta
-    natural es: ¿qué representaciones admite SU(2)? ¿Cómo se construyen las
-    de espín mayor? La respuesta es que están <em>todas</em> clasificadas y
-    enumeradas: hay exactamente una representación irreducible de cada
-    dimensión <MathBlock f={String.raw`2J+1`} /> con
-    <MathBlock f={String.raw`J = 0, \tfrac{1}{2}, 1, \tfrac{3}{2}, \dots`} />.
+    Los módulos anteriores nos han dado representaciones concretas de
+    SU(2) y SL(2,C): el espinor (espín ½), el vector (espín 1), el
+    cuadrivector y el tensor electromagnético. La naturaleza, sin
+    embargo, tiene más:
+  </p>
+  <ul>
+    <li>Partículas escalares (Higgs): espín 0.</li>
+    <li>Partículas vectoriales (fotón, W, Z, gluón): espín 1.</li>
+    <li>Bariones como Δ⁺⁺ o Ω⁻: espín 3/2.</li>
+    <li>Gravitón (hipotético): espín 2.</li>
+  </ul>
+  <p>
+    Las dos preguntas concretas de este módulo:
+  </p>
+  <ol>
+    <li>
+      ¿Existe una representación irreducible de SU(2) para cada valor
+      de espín, o hay restricciones?
+    </li>
+    <li>
+      Si existen todas, ¿cómo se construyen explícitamente — qué
+      matrices realizan a las irreps de espín 1, 3/2, 2…?
+    </li>
+  </ol>
+  <p>
+    Las dos respuestas salen del mismo cálculo: las irreps de SU(2)
+    están enumeradas <em>una por dimensión impar y par</em> con
+    <MathBlock f={String.raw`J = 0, \tfrac{1}{2}, 1, \tfrac{3}{2}, \dots`} />,
+    y las construyen los operadores escalera del álgebra de Lie. La
+    misma técnica generaliza a SU(3), al grupo de Poincaré, etc.
   </p>
 
-  <h2>Álgebra de Lie: el espacio tangente</h2>
+  <h2>Álgebra de Lie: los generadores infinitesimales</h2>
   <p>
-    Un grupo de Lie es un grupo que también es una variedad diferenciable. Su
-    álgebra de Lie <MathBlock f={String.raw`\mathfrak{g}`} /> es el espacio
-    tangente en la identidad: los "generadores infinitesimales" de las
-    transformaciones del grupo. Para SU(2):
+    Un grupo de Lie es un grupo + variedad diferenciable. Su álgebra
+    de Lie es el espacio tangente en la identidad, los "generadores
+    infinitesimales" de las transformaciones. Para SU(2):
   </p>
-  <MathBlock f={String.raw`U = \exp\!\big(-i\,\boldsymbol{\theta}\!\cdot\!\boldsymbol{\sigma}/2\big),\quad \boldsymbol{\theta} \in \mathbb{R}^3`} d />
+  <MathBlock f={String.raw`U = \exp\!\big(-i\,\boldsymbol{\theta}\!\cdot\!\boldsymbol{\sigma}/2\big), \quad \boldsymbol{\theta} \in \mathbb{R}^{3}`} d />
   <p>
-    Los tres generadores son <MathBlock f={String.raw`J_i = \sigma_i / 2`} />
-    y satisfacen las relaciones de conmutación
+    Los tres generadores son
+    <MathBlock f={String.raw`J_i = \sigma_i / 2`} /> con relaciones de
+    conmutación
   </p>
   <MathBlock f={String.raw`[J_i, J_j] = i\,\epsilon_{ijk}\,J_k`} d />
   <p>
     Las mismas relaciones cumplen los generadores de SO(3) (matrices
-    antisimétricas <MathBlock f={String.raw`3\times 3`} />), por eso
-    <MathBlock f={String.raw`\mathfrak{so}(3)`} /> y
-    <MathBlock f={String.raw`\mathfrak{su}(2)`} /> son <em>la misma</em>
-    álgebra de Lie. La diferencia es global: SU(2) es la 3-esfera (M4),
-    SO(3) es <MathBlock f={String.raw`\mathbb{RP}^3`} />.
+    antisimétricas
+    <MathBlock f={String.raw`3\times 3`} />). Por eso
+    <MathBlock f={String.raw`\mathfrak{so}(3) = \mathfrak{su}(2)`} /> a
+    nivel local: <em>la diferencia entre SU(2) y SO(3) es global</em>
+    (M4), no infinitesimal.
   </p>
 
-  <h2>Construir todas las representaciones: operadores escalera</h2>
+  <h2>Diagonalizar lo más posible: J² y J_z</h2>
   <p>
-    Recombinando los generadores se obtienen los operadores
-    <em>escalera</em>:
+    En cualquier representación, hay dos operadores naturales que
+    conmutan con todo:
   </p>
-  <MathBlock f={String.raw`J^{\pm} = J_x \pm i\,J_y, \qquad [J_z, J^{\pm}] = \pm\,J^{\pm}, \qquad [J^{+}, J^{-}] = 2 J_z`} d />
+  <ul>
+    <li>
+      <MathBlock f={String.raw`\mathbf{J}^{2} = J_x^{2} + J_y^{2} + J_z^{2}`} />
+      (Casimir): conmuta con todos los <MathBlock f={String.raw`J_i`} />,
+      así que en una irrep toma un valor fijo. Lo etiquetamos
+      <MathBlock f={String.raw`J(J+1)`} /> por conveniencia.
+    </li>
+    <li>
+      <MathBlock f={String.raw`J_z`} /> conmuta solo consigo mismo. Sus
+      autovalores se llaman
+      <MathBlock f={String.raw`m`} />.
+    </li>
+  </ul>
   <p>
-    El operador de Casimir
-    <MathBlock f={String.raw`\mathbf{J}^2 = J_x^2 + J_y^2 + J_z^2`} /> conmuta
-    con todos los generadores, así que en una representación irreducible toma
-    un valor fijo: lo etiquetamos como <MathBlock f={String.raw`J(J+1)`} />.
-    Los autoestados simultáneos de
-    <MathBlock f={String.raw`\mathbf{J}^2`} /> y
-    <MathBlock f={String.raw`J_z`} /> son los kets
+    Los autoestados simultáneos son los kets
     <MathBlock f={String.raw`|J, m\rangle`} /> con
   </p>
-  <MathBlock f={String.raw`\mathbf{J}^2|J,m\rangle = J(J+1)|J,m\rangle, \qquad J_z|J,m\rangle = m|J,m\rangle`} d />
+  <MathBlock f={String.raw`\mathbf{J}^{2}|J,m\rangle = J(J+1)|J,m\rangle, \quad J_z|J,m\rangle = m|J,m\rangle`} d />
   <p>
-    Las relaciones de conmutación obligan a que
-    <MathBlock f={String.raw`m`} /> recorra valores espaciados por
-    <MathBlock f={String.raw`1`} />, y la finitud de la representación obliga
-    a que existan máximo y mínimo. La cuenta da exactamente
-    <MathBlock f={String.raw`m = -J, -J+1, \ldots, J-1, J`} />, con
-    <MathBlock f={String.raw`J`} /> entero o semi-entero. Los coeficientes:
+    Cada irrep está etiquetada por <MathBlock f={String.raw`J`} />, y
+    sus elementos por <MathBlock f={String.raw`m`} />.
   </p>
-  <MathBlock f={String.raw`J^{\pm}|J,m\rangle = \sqrt{J(J+1) - m(m\pm 1)}\;|J,m\pm 1\rangle`} d />
+
+  <h2>Escalera: subir y bajar entre estados</h2>
   <p>
-    En la cima (<MathBlock f={String.raw`m = J`} />) la raíz se anula: el
-    operador <MathBlock f={String.raw`J^{+}`} /> aniquila al estado. Lo mismo
-    abajo. Por eso la representación tiene exactamente
-    <MathBlock f={String.raw`2J+1`} /> estados, ni uno más ni uno menos.
+    Combinando los generadores se obtienen los operadores
+    <em>escalera</em>:
+  </p>
+  <MathBlock f={String.raw`J^{\pm} = J_x \pm i\,J_y, \qquad [J_z, J^{\pm}] = \pm\,J^{\pm}`} d />
+  <p>
+    La relación
+    <MathBlock f={String.raw`[J_z, J^{+}] = J^{+}`} /> implica que
+    <MathBlock f={String.raw`J^{+}|J,m\rangle`} /> es autoestado de
+    <MathBlock f={String.raw`J_z`} /> con autovalor
+    <MathBlock f={String.raw`m+1`} />: sube una unidad de
+    <MathBlock f={String.raw`m`} />. Análogamente
+    <MathBlock f={String.raw`J^{-}`} /> baja una unidad.
+  </p>
+  <p>
+    Que la representación tenga dimensión finita obliga a que existan
+    máximo y mínimo: en algún punto
+    <MathBlock f={String.raw`J^{+}`} /> aniquila al estado, y en otro
+    <MathBlock f={String.raw`J^{-}`} /> también. La cuenta exacta da
+    los coeficientes:
+  </p>
+  <MathBlock f={String.raw`J^{\pm}|J,m\rangle = \sqrt{J(J+1) - m(m\pm 1)}\;|J, m\pm 1\rangle`} d />
+  <p>
+    En la cima
+    (<MathBlock f={String.raw`m = J`} />) la raíz vale 0:
+    <MathBlock f={String.raw`J^{+}`} /> aniquila. Lo mismo abajo. Por
+    eso la representación tiene exactamente
+    <strong><MathBlock f={String.raw`2J+1`} /> estados</strong>, ni uno
+    más ni uno menos. Y como
+    <MathBlock f={String.raw`m`} /> tiene que recorrer valores
+    espaciados por 1 desde
+    <MathBlock f={String.raw`-J`} /> hasta
+    <MathBlock f={String.raw`+J`} />, eso fuerza
+    <MathBlock f={String.raw`2J \in \mathbb{Z}`} />: J es entero o
+    semi-entero.
+  </p>
+  <p>
+    Conclusión: hay una irrep para cada
+    <MathBlock f={String.raw`J = 0, \tfrac{1}{2}, 1, \tfrac{3}{2}, \dots`} />
+    con dimensión <MathBlock f={String.raw`2J+1`} />. Las dos preguntas
+    iniciales del módulo quedan respondidas: existe una por dimensión, y
+    los operadores escalera la construyen explícitamente.
   </p>
 
   <h2>Espines enteros y semienteros</h2>
   <p>
-    SO(3) solo admite las representaciones de dimensión <em>impar</em>:
-    <MathBlock f={String.raw`J = 0, 1, 2, \ldots`} />. Las dimensiones pares
+    Las dimensiones <em>impar</em>es
+    (<MathBlock f={String.raw`J = 0, 1, 2, \ldots`} />) son irreps
+    auténticas de SO(3). Las <em>pares</em>
     (<MathBlock f={String.raw`J = \tfrac{1}{2}, \tfrac{3}{2}, \ldots`} />)
-    son <em>proyectivas</em> en SO(3): solo bien definidas en el doble
-    cubrimiento SU(2), donde el rotor de
+    son <strong>proyectivas</strong> en SO(3): solo bien definidas en
+    el doble cubrimiento SU(2) de M4, donde la rotación de
     <MathBlock f={String.raw`2\pi`} /> da
     <MathBlock f={String.raw`-1`} /> en lugar de
     <MathBlock f={String.raw`+1`} />. Por eso las partículas de espín
-    semi-entero (electrones, quarks, neutrinos) NECESITAN el grupo SU(2);
-    las de espín entero (fotones, gluones, gravitón) caben en SO(3).
+    semi-entero (electrones, quarks, neutrinos, todas las partículas
+    de materia) requieren SU(2). Las de espín entero (fotón, gluón,
+    W/Z, Higgs, gravitón) caben en SO(3). La distinción "espinor sí,
+    espinor no" coincide exactamente con "fermión sí, fermión no".
+  </p>
+
+  <h2>Producto tensorial: combinar dos espines</h2>
+  <p>
+    Dos sistemas con momentos angulares
+    <MathBlock f={String.raw`J_1`} /> y
+    <MathBlock f={String.raw`J_2`} /> tienen como espacio combinado el
+    producto tensorial. Su descomposición en irreps elementales es la
+    regla de <strong>Clebsch-Gordan</strong>:
+  </p>
+  <MathBlock f={String.raw`J_1 \otimes J_2 \;=\; (J_1+J_2) \;\oplus\; (J_1+J_2-1) \;\oplus\; \cdots \;\oplus\; |J_1-J_2|`} d />
+  <p>
+    El caso emblemático
+    <MathBlock f={String.raw`\tfrac{1}{2} \otimes \tfrac{1}{2} = 1 \oplus 0`} />:
+    dos espines ½ se combinan en un triplete (J = 1, simétrico) y un
+    singlete (J = 0, antisimétrico). El singlete es el estado
+    <MathBlock f={String.raw`|\!\uparrow\downarrow\rangle - |\!\downarrow\uparrow\rangle`} />
+    famoso del par EPR. Para SL(2,C) la regla se aplica a cada copia de
+    SU(2) por separado: las irreps se etiquetan por
+    <MathBlock f={String.raw`(J_L, J_R)`} />, y casos relevantes
+    incluyen el cuadrivector
+    <MathBlock f={String.raw`(\tfrac{1}{2}, \tfrac{1}{2})`} /> y el
+    tensor electromagnético
+    <MathBlock f={String.raw`(1, 0) \oplus (0, 1)`} />.
   </p>
 
   <h2>El widget</h2>
   <p>
-    La sección 1 deja jugar con la escalera: elige un <em>J</em>, haz click
-    sobre cualquier estado <MathBlock f={String.raw`|J, m\rangle`} />, sube
-    o baja con J+/J− y observa cómo el coeficiente
-    <MathBlock f={String.raw`\sqrt{J(J+1)-m(m\pm 1)}`} /> tiende a cero en
-    los extremos. La sección 2 enseña cómo se compone el producto tensorial:
-    elige <MathBlock f={String.raw`J_1`} /> y
-    <MathBlock f={String.raw`J_2`} />, mira la descomposición de
-    Clebsch-Gordan en irreps elementales y cómo cuadran las dimensiones.
+    Sección 1: elige <em>J</em> entre ½, 1, 3/2, 2, 5/2, 3. Click en
+    cualquier estado <MathBlock f={String.raw`|J, m\rangle`} /> para
+    seleccionarlo, sube o baja con J+/J−. En los extremos los botones
+    se deshabilitan: el coeficiente
+    <MathBlock f={String.raw`\sqrt{J(J+1) - m(m\pm 1)}`} /> es cero.
+    Las lecturas KaTeX dan los valores numéricos del operador escalera y
+    del Casimir.
   </p>
-
+  <p>
+    Sección 2: elige <em>J₁</em> y <em>J₂</em> y observa la
+    descomposición de Clebsch-Gordan en irreps elementales, con la
+    suma de dimensiones cuadrando con el producto.
+  </p>
   <div class="widget">
     <LieLadder client:visible />
   </div>
 
-  <h2>Hacia SL(2,C): irreps etiquetadas por dos números</h2>
-  <p>
-    Para SL(2,C) (M5) el truco es el mismo. El álgebra
-    <MathBlock f={String.raw`\mathfrak{sl}(2,\mathbb{C})`} /> tiene 6
-    generadores reales. Combinándolos en pares "L" y "R" se obtienen dos
-    copias <strong>independientes</strong> de
-    <MathBlock f={String.raw`\mathfrak{sl}(2,\mathbb{C})_{\text{compleja}} = \mathfrak{su}(2)_L \oplus \mathfrak{su}(2)_R`} />.
-    Por eso las irreps de SL(2,C) se etiquetan con un par
-    <MathBlock f={String.raw`(J_L, J_R)`} />:
-  </p>
-  <ul>
-    <li><MathBlock f={String.raw`(\tfrac{1}{2}, 0)`} />: espinor Weyl izquierdo (M5).</li>
-    <li><MathBlock f={String.raw`(0, \tfrac{1}{2})`} />: espinor Weyl derecho.</li>
-    <li><MathBlock f={String.raw`(\tfrac{1}{2}, \tfrac{1}{2})`} />: cuadrivector — dim 4.</li>
-    <li><MathBlock f={String.raw`(1, 0) \oplus (0, 1)`} />: tensor electromagnético — dim 6 (las componentes E y B).</li>
-    <li><MathBlock f={String.raw`(1, 1)`} />: tensor de gravitación lineal (perturbación métrica) — dim 9.</li>
-  </ul>
-
   <h2>Tres lecciones para llevarse</h2>
   <ol>
     <li>
-      <strong>Las irreps de SU(2) están enumeradas por un solo número
+      <strong>Clasificación completa por un solo número
       <MathBlock f={String.raw`J`} /></strong>: cada dimensión
       <MathBlock f={String.raw`2J+1`} /> ocurre exactamente una vez.
     </li>
     <li>
-      <strong>Los operadores escalera son la herramienta universal</strong>:
+      <strong>Operadores escalera son la herramienta universal</strong>:
       construyen toda la base con solo dos relaciones de conmutación, y
-      esa misma técnica (con más generadores) construye irreps de SU(3),
+      el mismo método (con más generadores) construye irreps de SU(3),
       del grupo de Poincaré, etc.
     </li>
     <li>
-      <strong>El producto tensorial y Clebsch-Gordan</strong> es lo que se
-      usa cada vez que se acoplan dos sistemas con momento angular: dos
-      espines, momento angular orbital + espín, dos partículas, etc.
+      <strong>Producto tensorial y Clebsch-Gordan</strong> es lo que se
+      usa cada vez que se acoplan momentos angulares: dos espines,
+      órbita + espín, dos partículas, lo que sea.
     </li>
   </ol>
 
@@ -149,43 +224,45 @@ import LieLadder from '../../components/interactive/LieLadder.svelte';
       <MathBlock f={String.raw`J = 1`} />, los generadores
       <MathBlock f={String.raw`J_x, J_y, J_z`} /> en la representación
       <MathBlock f={String.raw`3\times 3`} /> (las matrices estándar de
-      momento angular L=1) satisfacen
+      momento angular L=1) cumplen
       <MathBlock f={String.raw`[J_x, J_y] = i J_z`} />.
     </li>
     <li>
-      Calcula <MathBlock f={String.raw`\mathbf{J}^2`} /> sobre
-      <MathBlock f={String.raw`|1, 0\rangle`} /> y comprueba que vale
-      <MathBlock f={String.raw`2`} />. Comprueba también que
+      Calcula <MathBlock f={String.raw`\mathbf{J}^{2}`} /> sobre
+      <MathBlock f={String.raw`|1, 0\rangle`} /> y comprueba que vale 2.
+      Comprueba también que
       <MathBlock f={String.raw`J^{+} J^{-} - J^{-} J^{+} = 2 J_z`} />.
     </li>
     <li>
-      Decompón <MathBlock f={String.raw`1 \otimes 1`} /> en irreps. Verifica
-      las dimensiones (debería dar
-      <MathBlock f={String.raw`9 = 5 + 3 + 1`} />, los irreps
-      <MathBlock f={String.raw`J = 2, 1, 0`} />: tensor simétrico de traza
-      cero, vector axial y traza).
+      Decompón <MathBlock f={String.raw`1 \otimes 1`} /> en irreps.
+      Verifica las dimensiones (debería dar
+      <MathBlock f={String.raw`9 = 5 + 3 + 1`} />, los irreps J = 2, 1, 0:
+      tensor simétrico de traza cero, vector axial y traza).
     </li>
   </ol>
 
-  <p class="closing">
-    Con esto se cierra el recorrido. Los espinores empezaron como objetos
-    raros que necesitaban dos vueltas; los hemos visto como puntos en una
-    esfera (M2), raíces de vectores (M3), elementos de SU(2) que
-    doble-cubre SO(3) (M4), parte de la maquinaria de Lorentz con dos
-    quiralidades (M5), elementos de un álgebra geométrica universal (M6),
-    descripción del electrón libre (M7) y casos particulares de un
-    catálogo completo de representaciones de SU(2) y SL(2,C) (M8).
-    Quedan, fuera del alcance: extensiones a SU(3), grupo de Poincaré,
-    teoría de campos cuánticos en interacción, supersimetría. Pero la
-    intuición geométrica que construimos aquí sostiene todo eso.
+  <h2>Cierre del recorrido</h2>
+  <p>
+    Empezamos preguntando POR QUÉ hace falta inventar un espinor (M1).
+    La respuesta corta: porque hay un dato experimental — el factor 2
+    en
+    <MathBlock f={String.raw`|\langle +\hat{n} | +\hat{z}\rangle|^{2} = \cos^{2}(\theta/2)`} />
+    — que ningún vector puede explicar.
+  </p>
+  <p>
+    La respuesta larga ha sido este recorrido. M2 identificó dónde
+    vive el espinor (una esfera). M3 conectó espinores con vectores vía
+    factorización ψψ†. M4 demostró que el factor 2 no es opcional sino
+    consecuencia topológica de SO(3). M5 amplió a relatividad y
+    descubrió la quiralidad. M6 dio la receta universal en cualquier
+    dimensión. M7 escribió la ecuación de movimiento del electrón
+    libre y, de paso, predijo la antimateria. M8 cerró con el catálogo
+    completo de irreps.
+  </p>
+  <p>
+    Lo que queda fuera (extensiones a SU(3), grupo de Poincaré
+    completo, supersimetría, teoría cuántica de campos en
+    interacción) es el siguiente curso. Pero la intuición geométrica
+    construida aquí sostiene todo eso.
   </p>
 </ArticleLayout>
-
-<style>
-  .closing {
-    margin-top: 2.5rem;
-    padding-top: 1rem;
-    border-top: 1px solid var(--rule);
-    color: #cbd5e1;
-  }
-</style>

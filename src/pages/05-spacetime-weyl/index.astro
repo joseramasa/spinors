@@ -5,153 +5,208 @@ import SpacetimeBloch from '../../components/interactive/SpacetimeBloch.svelte';
 ---
 
 <ArticleLayout
-  title="M5 · Espacio-tiempo: SL(2,C) y Weyl"
-  subtitle="Boosts, quiralidad izquierda/derecha y van der Waerden."
+  title="M5 · Por qué la relatividad parte el espinor"
+  subtitle="Al añadir boosts a las rotaciones, una representación se convierte en dos. Esa partición es la quiralidad y rompe la paridad del universo."
   slug="05-spacetime-weyl"
 >
   <p>
-    En M3 codificamos un vector espacial como matriz hermítica
-    <MathBlock f={String.raw`2\times 2`} /> de traza nula. Si añadimos la
-    componente temporal, el espacio relevante se ensancha a TODAS las
-    hermíticas <MathBlock f={String.raw`2\times 2`} />, traza arbitraria. La
-    receta es la misma con una matriz extra:
+    Hasta aquí los espinores describen partículas en
+    <MathBlock f={String.raw`\mathbb{R}^{3}`} />: la maquinaria SU(2) →
+    SO(3) cubre todas las rotaciones espaciales. Pero un electrón es
+    una partícula cuántica y relativista, y las simetrías relevantes
+    son las del grupo de Lorentz: rotaciones <em>más</em> boosts. La
+    pregunta concreta de este módulo:
   </p>
-  <MathBlock f={String.raw`X = t\,\sigma_t + x\,\sigma_x + y\,\sigma_y + z\,\sigma_z = \begin{pmatrix} t + z & x - i y \\ x + i y & t - z \end{pmatrix}`} d />
   <p>
-    donde <MathBlock f={String.raw`\sigma_t = I`} />. El determinante
-    <MathBlock f={String.raw`\det X = t^2 - x^2 - y^2 - z^2`} /> es
-    exactamente el intervalo de Minkowski. Por tanto, las matrices
-    <MathBlock f={String.raw`A`} /> que actúan por sandwich
-    <MathBlock f={String.raw`X \mapsto A X A^{\dagger}`} /> y conservan
-    <MathBlock f={String.raw`\det X`} /> son las que satisfacen
-    <MathBlock f={String.raw`|\det A|^2 = 1`} />. Ajustando una fase global
-    quedan <MathBlock f={String.raw`\det A = 1`} />: estamos en
-    <MathBlock f={String.raw`\mathrm{SL}(2,\mathbb{C})`} />.
+    ¿Basta SU(2) para describir un espinor que también boostee bien? Y
+    si no basta, ¿cuánto hay que ampliar?
+  </p>
+  <p>
+    La respuesta corta es que NO basta: los boosts no son unitarios y
+    rompen SU(2). El grupo correcto es
+    <MathBlock f={String.raw`\mathrm{SL}(2,\mathbb{C})`} />, y en él una
+    sola representación espinorial se parte en DOS no equivalentes (L y
+    R). Esa partición es la quiralidad y es la razón por la cual la
+    fuerza débil del Modelo Estándar distingue izquierda y derecha.
   </p>
 
-  <h2>SL(2,C) doble cubre el grupo de Lorentz propio</h2>
+  <h2>Codificar un cuadrivector como matriz</h2>
   <p>
-    El homomorfismo
-    <MathBlock f={String.raw`\Psi: \mathrm{SL}(2,\mathbb{C}) \to \mathrm{SO}^{+}(1,3)`} />
-    es 2 a 1 igual que en M4: <MathBlock f={String.raw`\pm A`} /> dan la misma
-    transformación de Lorentz. Pero ahora SL(2,C) tiene <strong>seis</strong>
-    parámetros reales (3 rotaciones + 3 boosts), no tres.
+    En M3 codificamos un vector real
+    <MathBlock f={String.raw`\mathbf{v} \in \mathbb{R}^{3}`} /> como
+    matriz hermítica de traza cero, y SU(2) actuaba por sándwich. Para
+    espacio-tiempo añadimos la coordenada temporal y permitimos traza
+    arbitraria:
+  </p>
+  <MathBlock f={String.raw`X = t\,I + x\,\sigma_x + y\,\sigma_y + z\,\sigma_z = \begin{pmatrix} t + z & x - i y \\ x + i y & t - z \end{pmatrix}`} d />
+  <p>
+    El determinante es el intervalo de Minkowski:
+    <MathBlock f={String.raw`\det X = t^{2} - x^{2} - y^{2} - z^{2}`} />.
+    Los <MathBlock f={String.raw`A`} /> que actúan por sándwich
+    <MathBlock f={String.raw`X \mapsto A\,X\,A^{\dagger}`} /> y conservan
+    el determinante son las matrices con
+    <MathBlock f={String.raw`|\det A|^{2} = 1`} />. Ajustando una fase
+    global quedan <MathBlock f={String.raw`\det A = 1`} />: el grupo
+    <MathBlock f={String.raw`\mathrm{SL}(2,\mathbb{C})`} />.
   </p>
   <p>
-    La descomposición canónica de un elemento de SL(2,C) cerca de la
-    identidad es
+    Es el doble cubrimiento del grupo de Lorentz propio
+    <MathBlock f={String.raw`\mathrm{SO}^{+}(1,3)`} />, igual que SU(2)
+    cubría SO(3). Pero ahora hay <em>seis</em> generadores reales en
+    lugar de tres: tres rotaciones y tres boosts.
+  </p>
+
+  <h2>Rotación vs boost: la asimetría</h2>
+  <p>
+    Cualquier elemento de
+    <MathBlock f={String.raw`\mathrm{SL}(2,\mathbb{C})`} /> cerca de la
+    identidad se escribe como
   </p>
   <MathBlock f={String.raw`A = \exp\!\Big(\tfrac{1}{2}(\boldsymbol{\alpha} - i\boldsymbol{\beta}) \cdot \boldsymbol{\sigma}\Big)`} d />
   <p>
-    donde <MathBlock f={String.raw`\boldsymbol{\beta}`} /> es el ángulo y eje
-    de rotación (parte unitaria) y
-    <MathBlock f={String.raw`\boldsymbol{\alpha}`} /> es la rapidez y eje del
-    boost (parte hermítica). Las rotaciones son unitarias
-    (<MathBlock f={String.raw`A^{\dagger} = A^{-1}`} />), los boosts son
-    hermíticos (<MathBlock f={String.raw`A^{\dagger} = A`} />), y un elemento
-    general se factoriza únicamente como rotación seguida de boost (o
-    viceversa).
+    donde <MathBlock f={String.raw`\boldsymbol{\beta}`} /> es ángulo de
+    rotación y <MathBlock f={String.raw`\boldsymbol{\alpha}`} /> es
+    rapidez de boost. Las rotaciones puras son
+    <strong>unitarias</strong> (<MathBlock f={String.raw`A^{\dagger} = A^{-1}`} />)
+    y los boosts puros son <strong>hermíticos</strong>
+    (<MathBlock f={String.raw`A^{\dagger} = A`} />). Esa diferencia
+    estructural — que SU(2) no tenía — es la que parte la representación
+    espinorial.
   </p>
 
-  <h2>Dos espinores no equivalentes: L y R</h2>
+  <h2>Dos representaciones, no una</h2>
   <p>
     En M3 todos los espinores transformaban con
-    <MathBlock f={String.raw`R \in \mathrm{SU}(2)`} /> por la izquierda. Al
-    pasar a SL(2,C) hay <strong>dos</strong> formas no equivalentes de actuar:
+    <MathBlock f={String.raw`R \in \mathrm{SU}(2)`} /> por la izquierda.
+    Al pasar a SL(2,C) hay <strong>dos formas no equivalentes</strong>
+    de actuar sobre un espinor 2-componente:
   </p>
   <ul>
     <li>
       <strong>Espinor izquierdo</strong> (representación
-      <MathBlock f={String.raw`(\tfrac{1}{2},0)`} />):
+      <MathBlock f={String.raw`(\tfrac{1}{2}, 0)`} />):
       <MathBlock f={String.raw`\psi_L \mapsto A\,\psi_L`} />.
     </li>
     <li>
       <strong>Espinor derecho</strong> (representación
-      <MathBlock f={String.raw`(0,\tfrac{1}{2})`} />):
+      <MathBlock f={String.raw`(0, \tfrac{1}{2})`} />):
       <MathBlock f={String.raw`\psi_R \mapsto (A^{\dagger})^{-1}\,\psi_R`} />.
     </li>
   </ul>
   <p>
-    Para una rotación pura <MathBlock f={String.raw`A^{\dagger} = A^{-1}`} />,
-    así que <MathBlock f={String.raw`(A^{\dagger})^{-1} = A`} /> y las dos
-    representaciones coinciden: rotaciones mueven L y R idénticamente. Para un
-    boost puro <MathBlock f={String.raw`A^{\dagger} = A`} />, así que
-    <MathBlock f={String.raw`(A^{\dagger})^{-1} = A^{-1}`} />: ¡L y R se
-    boostan en sentidos opuestos! No hay cambio de base lineal sobre
-    <MathBlock f={String.raw`\mathbb{C}^2`} /> que las intercambie.
+    Comprobación clave:
+  </p>
+  <ul>
+    <li>
+      Bajo rotación pura (<MathBlock f={String.raw`A^{\dagger} = A^{-1}`} />),
+      <MathBlock f={String.raw`(A^{\dagger})^{-1} = A`} />: las dos
+      representaciones <em>coinciden</em>. Una rotación mueve L y R
+      idénticamente. Por eso M3 no necesitaba la distinción.
+    </li>
+    <li>
+      Bajo boost puro (<MathBlock f={String.raw`A^{\dagger} = A`} />),
+      <MathBlock f={String.raw`(A^{\dagger})^{-1} = A^{-1}`} />: las dos
+      reciben matrices <em>inversas</em>. Boostan en sentidos opuestos.
+      No hay manera lineal de pasar de L a R.
+    </li>
+  </ul>
+  <p>
+    Eso es la <strong>quiralidad</strong>: una propiedad de la
+    representación que solo se manifiesta cuando hay boosts
+    involucrados. En la imagen del widget se ve directamente: los dos
+    puntos parten del mismo lugar y al boostar se separan en
+    direcciones opuestas.
   </p>
 
   <h2>El widget</h2>
   <p>
-    Estado inicial fijo: ψ₀ = |+z⟩, así que L y R parten en el polo norte de
-    la esfera. Aplica primero rotación pura (β > 0, α = 0): los dos puntos
-    rotan al unísono. Luego prueba boost puro (α ≠ 0, β = 0): el punto
-    magenta (L) se desliza hacia +n̂; el cian (R), hacia −n̂. Cualquier
-    combinación es un elemento general de SL(2,C).
+    Estado inicial fijo: ψ₀ = |+z⟩, así que L y R parten en el polo
+    norte de la esfera. Mueve <em>β</em> (rotación pura): los puntos
+    rotan al unísono — coinciden siempre. Mueve <em>α</em> (rapidez de
+    boost): el punto magenta (L) se desliza hacia +n̂; el cian (R), hacia
+    −n̂. La separación crece con la rapidez. Cualquier combinación es un
+    elemento general de SL(2,C).
   </p>
-
   <div class="widget">
     <SpacetimeBloch client:visible />
   </div>
 
   <h2>El espinor de Dirac es la suma directa</h2>
   <p>
-    Un espinor de Dirac, en la base <em>quiral</em> (también llamada Weyl),
-    es una columna de cuatro componentes:
+    Las dos representaciones por separado describen partículas sin
+    masa: un electrón con masa NO puede ser puramente L o puramente R
+    porque al boostar ya hemos visto que las dos componentes mezclan.
+    La solución es trabajar con las dos a la vez: el espinor de Dirac
+    en base quiral (Weyl) es
   </p>
-  <MathBlock f={String.raw`\psi_D = \begin{pmatrix} \psi_L \\ \psi_R \end{pmatrix} \in \mathbb{C}^4`} d />
+  <MathBlock f={String.raw`\psi_D = \begin{pmatrix} \psi_L \\ \psi_R \end{pmatrix} \in \mathbb{C}^{4}`} d />
   <p>
-    que transforma bajo SL(2,C) con la matriz <em>block-diagonal</em>:
+    transformando bajo SL(2,C) con la matriz block-diagonal
   </p>
   <MathBlock f={String.raw`\Lambda(A) = \begin{pmatrix} A & 0 \\ 0 & (A^{\dagger})^{-1} \end{pmatrix}`} d />
   <p>
-    El widget muestra ambas componentes apiladas. La presencia simultánea de
-    L y R es lo que permite escribir un término de masa Lorentz-invariante
-    <MathBlock f={String.raw`m\,(\psi_L^{\dagger}\psi_R + \psi_R^{\dagger}\psi_L)`} />:
-    una partícula con masa no puede ser puramente quiral en ningún frame,
-    porque un boost mezcla L con R.
+    Las cuatro componentes del espinor de Dirac codifican espín ↑/↓ y
+    materia/antimateria, organizadas según quiralidad. Eso lo
+    desarrollaremos en M7.
   </p>
 
-  <h2>Notación van der Waerden y la forma simpléctica</h2>
+  <h2>Producto interno: la forma simpléctica ε</h2>
   <p>
-    Como las dos representaciones son distintas, los espinores
-    <MathBlock f={String.raw`L`} /> y <MathBlock f={String.raw`R`} /> usan
-    <em>tipos de índice</em> distintos:
-    <MathBlock f={String.raw`\psi^{a}`} /> para izquierdos,
-    <MathBlock f={String.raw`\bar{\psi}^{\dot{a}}`} /> para derechos. El
-    producto interno Lorentz-invariante usa la antisimétrica
-    <MathBlock f={String.raw`\epsilon`} /> en vez de la daga:
-    <MathBlock f={String.raw`\langle \chi, \psi \rangle = \chi^{a}\,\epsilon_{ab}\,\psi^{b}`} d />
-    Esa <MathBlock f={String.raw`\epsilon`} /> es la única forma bilineal
-    (anti)simétrica preservada por SL(2,C), análoga al producto interno
-    hermítico para SU(2).
+    Como las dos representaciones son distintas, la daga no las
+    combina bien. Hay que usar otro objeto: la antisimétrica
+  </p>
+  <MathBlock f={String.raw`\epsilon = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}`} d />
+  <p>
+    El producto <MathBlock f={String.raw`\chi^{T}\,\epsilon\,\psi`} />
+    es invariante bajo SL(2,C) (porque la condición
+    <MathBlock f={String.raw`\det A = 1`} /> es exactamente
+    <MathBlock f={String.raw`A^{T}\epsilon A = \epsilon`} />). Es el
+    análogo simpléctico del producto hermítico de SU(2). La notación
+    de van der Waerden con índices punteados/sin puntar formaliza esta
+    distinción para no confundir L con R cuando se combinan.
   </p>
 
   <h2>Paridad: el espejo intercambia L y R</h2>
   <p>
-    La transformación de paridad <MathBlock f={String.raw`\mathbf{x} \mapsto -\mathbf{x}`} />
-    invierte boosts pero no rotaciones. En consecuencia, intercambia las dos
-    representaciones espinoriales:
-    <MathBlock f={String.raw`P: \psi_L \leftrightarrow \psi_R`} />. Las
-    interacciones que distinguen L de R (la fuerza débil del Modelo Estándar)
-    no respetan paridad: un universo reflejado tiene física distinta. Lo
-    formalizaremos en M7 al construir Dirac.
+    La transformación de paridad
+    <MathBlock f={String.raw`\mathbf{x} \mapsto -\mathbf{x}`} /> invierte
+    boosts pero deja rotaciones intactas. Como L y R difieren solo en
+    el comportamiento bajo boost, paridad las INTERCAMBIA. Si la
+    naturaleza tratara igual a L y a R, paridad sería simetría exacta.
+    No lo es: en 1956–57 Wu y colaboradores observaron que la
+    desintegración beta del cobalto-60 viola paridad de manera máxima
+    — el bosón W de la fuerza débil solo se acopla a L. El experimento
+    confirmó que el universo no es simétrico bajo reflexión, y el
+    formalismo de SL(2,C) lo predice como posibilidad estructural:
+    cualquier teoría puede acoplarse a L y a R con coeficientes
+    distintos.
   </p>
 
   <h2>Ejercicios</h2>
   <ol>
     <li>
-      Verifica que para un boost puro de rapidez α en dirección +z, ψ_L =
-      |+z⟩ es autovector con autovalor <MathBlock f={String.raw`e^{\alpha/2}`} />,
-      mientras que ψ_R = |+z⟩ es autovector con autovalor
-      <MathBlock f={String.raw`e^{-\alpha/2}`} />.
+      Verifica que para un boost puro de rapidez α en dirección +z,
+      <MathBlock f={String.raw`\psi_L = |+z\rangle`} /> es autovector con
+      autovalor <MathBlock f={String.raw`e^{\alpha/2}`} />, mientras que
+      <MathBlock f={String.raw`\psi_R = |+z\rangle`} /> es autovector
+      con autovalor <MathBlock f={String.raw`e^{-\alpha/2}`} />.
     </li>
     <li>
-      Demuestra que <MathBlock f={String.raw`\det A = 1`} /> es equivalente a
-      <MathBlock f={String.raw`A^T \epsilon A = \epsilon`} /> donde
-      <MathBlock f={String.raw`\epsilon = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}`} />.
-      Ese es el sentido geométrico: SL(2,C) es el grupo simpléctico complejo
+      Demuestra que <MathBlock f={String.raw`\det A = 1`} /> equivale a
+      <MathBlock f={String.raw`A^{T}\,\epsilon\,A = \epsilon`} />. Eso
+      es: SL(2,C) es el grupo simpléctico complejo
       <MathBlock f={String.raw`\mathrm{Sp}(2,\mathbb{C})`} />.
     </li>
   </ol>
+
+  <h2>De aquí salimos a M6</h2>
+  <p>
+    Hemos visto la maquinaria de espinores en 3D (M3) y en
+    espacio-tiempo (este módulo). En cada caso construimos espinores con
+    matrices específicas (sigmas, gammas). La pregunta natural es: ¿hay
+    una receta universal que construya espinores en cualquier dimensión
+    y signatura, sin tener que reinventar el truco cada vez? La
+    respuesta son las álgebras de Clifford, donde rotaciones, boosts y
+    reflexiones se vuelven operaciones algebraicas naturales. Es M6.
+  </p>
 </ArticleLayout>
