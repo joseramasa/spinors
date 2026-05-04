@@ -1,0 +1,204 @@
+---
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import MathBlock from '../../components/MathBlock.astro';
+import MirrorRotor from '../../components/interactive/MirrorRotor.svelte';
+---
+
+<ArticleLayout
+  title="M6 · Álgebras de Clifford"
+  subtitle="La receta universal: reflexiones, bivectores y rotores en cualquier dimensión."
+  slug="06-clifford"
+>
+  <p>
+    En M3, M4 y M5 vimos que las matrices de Pauli y los cuaterniones
+    funcionan en 3D y 4D respectivamente. Las álgebras de Clifford son la
+    formulación que generaliza esto a <em>cualquier</em> dimensión y
+    signatura, sin tener que reinventar la maquinaria. Una sola idea
+    estructural — reflexiones que se componen en rotaciones — lo unifica
+    todo.
+  </p>
+
+  <h2>El producto geométrico</h2>
+  <p>
+    Sobre un espacio vectorial con producto interno
+    <MathBlock f={String.raw`g(\cdot,\cdot)`} />, postulamos un nuevo producto
+    asociativo entre vectores que satisface
+  </p>
+  <MathBlock f={String.raw`u\, v + v\, u = 2\,g(u, v)`} d />
+  <p>
+    Es decir: dos vectores conmutan en su parte simétrica (el producto
+    interno) y anticonmutan en su parte antisimétrica (el producto exterior
+    o <em>wedge</em>). Si los descomponemos:
+  </p>
+  <MathBlock f={String.raw`u\, v = u \!\cdot\! v + u \wedge v`} d />
+  <p>
+    El primer sumando es un escalar, el segundo es un <strong>bivector</strong>
+    (un plano orientado). El álgebra resultante es la <em>álgebra de
+    Clifford</em>
+    <MathBlock f={String.raw`\mathrm{Cl}(p,q)`} /> con
+    <MathBlock f={String.raw`p`} /> dimensiones de signo positivo y
+    <MathBlock f={String.raw`q`} /> de signo negativo.
+  </p>
+  <p>
+    En 3D euclídeo (<MathBlock f={String.raw`\mathrm{Cl}(3,0)`} />), los
+    elementos básicos <MathBlock f={String.raw`e_1, e_2, e_3`} /> cumplen
+    <MathBlock f={String.raw`e_i^2 = +1`} /> y
+    <MathBlock f={String.raw`e_i e_j = -e_j e_i`} /> para
+    <MathBlock f={String.raw`i \neq j`} />. Eso es <strong>exactamente</strong>
+    el álgebra de las matrices de Pauli con
+    <MathBlock f={String.raw`e_i \leftrightarrow \sigma_i`} />.
+  </p>
+
+  <h2>Reflexiones</h2>
+  <p>
+    Si <MathBlock f={String.raw`u`} /> es un vector unitario, la reflexión de
+    cualquier vector <MathBlock f={String.raw`v`} /> respecto al hiperplano
+    perpendicular a <MathBlock f={String.raw`u`} /> es
+  </p>
+  <MathBlock f={String.raw`v \mapsto -u\, v\, u`} d />
+  <p>
+    Para verlo: descompón
+    <MathBlock f={String.raw`v = v_{\parallel} + v_{\perp}`} />, donde
+    <MathBlock f={String.raw`v_{\parallel}`} /> es la parte paralela a
+    <MathBlock f={String.raw`u`} /> y
+    <MathBlock f={String.raw`v_{\perp}`} /> la perpendicular. Entonces
+    <MathBlock f={String.raw`u\,v_{\parallel} = v_{\parallel}\,u`} /> (parte
+    simétrica) y <MathBlock f={String.raw`u\,v_{\perp} = -v_{\perp}\,u`} />
+    (anticonmutan). Sustituyendo y usando <MathBlock f={String.raw`u^2 = 1`} />
+    sale la fórmula.
+  </p>
+
+  <h2>Rotaciones = dos reflexiones</h2>
+  <p>
+    Componiendo dos reflexiones por vectores
+    <MathBlock f={String.raw`u_1, u_2`} /> que forman un ángulo
+    <MathBlock f={String.raw`\alpha`} /> entre sí:
+  </p>
+  <MathBlock f={String.raw`v \mapsto -u_2\,(-u_1\, v\, u_1)\, u_2 = (u_2 u_1)\, v\, (u_1 u_2) = R\, v\, R^{-1}`} d />
+  <p>
+    donde <MathBlock f={String.raw`R = u_2 u_1`} /> es el <strong>rotor</strong>.
+    Por la descomposición:
+  </p>
+  <MathBlock f={String.raw`R = u_2 \!\cdot\! u_1 + u_2 \wedge u_1 = \cos\alpha + \sin\alpha\,B`} d />
+  <p>
+    donde <MathBlock f={String.raw`B = u_2 \wedge u_1 / \sin\alpha`} /> es el
+    bivector unitario del plano que contienen los dos vectores. Y como
+    <MathBlock f={String.raw`B^2 = -1`} /> (igual que la unidad imaginaria),
+    se cumple
+  </p>
+  <MathBlock f={String.raw`R = e^{\alpha\, B}`} d />
+  <p>
+    El ángulo entre los dos vectores es <em>α</em>, pero la rotación que
+    producen es de <em>2α</em>. Es el mismo factor 2 de M1, M3 y M4, ahora
+    con la maquinaria que lo unifica todo.
+  </p>
+
+  <h2>El widget</h2>
+  <p>
+    Dos planos espejo, ambos verticales (que contienen el eje
+    <MathBlock f={String.raw`z`} />). El primero está fijo (perpendicular a
+    <MathBlock f={String.raw`\hat{x}`} />), el segundo gira con el slider
+    <em>α</em>. Una L gris está en posición original; la L naranja (fantasma)
+    es lo que sale tras la primera reflexión; la L amarilla es el resultado
+    de aplicar las dos reflexiones, equivalente a una rotación de
+    <em>2α</em>.
+  </p>
+
+  <div class="widget">
+    <MirrorRotor client:visible />
+  </div>
+
+  <h2>Bivectores: rotaciones vs boosts</h2>
+  <p>
+    En signatura euclídea (<MathBlock f={String.raw`\mathrm{Cl}(3,0)`} />),
+    los bivectores cuadran a <MathBlock f={String.raw`-1`} /> y la
+    exponencial usa <MathBlock f={String.raw`\cos`} /> y
+    <MathBlock f={String.raw`\sin`} />: rotaciones euclídeas. En signatura
+    de espacio-tiempo (<MathBlock f={String.raw`\mathrm{Cl}(1,3)`} />), hay
+    bivectores con <MathBlock f={String.raw`B^2 = +1`} />: la exponencial
+    usa <MathBlock f={String.raw`\cosh`} /> y
+    <MathBlock f={String.raw`\sinh`} />, y eso son los <strong>boosts</strong>
+    que vimos en M5. Misma fórmula
+    <MathBlock f={String.raw`R = e^{\alpha B}`} />, distinto signo del
+    cuadrado del bivector.
+  </p>
+
+  <h2>El grupo Spin</h2>
+  <p>
+    El conjunto de productos pares de vectores unitarios forma un grupo bajo
+    el producto geométrico, llamado <MathBlock f={String.raw`\mathrm{Spin}(p,q)`} />.
+    Casos importantes:
+  </p>
+  <ul>
+    <li>
+      <MathBlock f={String.raw`\mathrm{Spin}(3) = \mathrm{SU}(2)`} /> — los
+      cuaterniones unitarios de M4, vistos como subálgebra par de
+      <MathBlock f={String.raw`\mathrm{Cl}(3,0)`} />.
+    </li>
+    <li>
+      <MathBlock f={String.raw`\mathrm{Spin}(1,3) = \mathrm{SL}(2,\mathbb{C})`} />
+      — el doble cubrimiento del grupo de Lorentz propio (M5).
+    </li>
+    <li>
+      <MathBlock f={String.raw`\mathrm{Spin}(n)`} /> doble cubre
+      <MathBlock f={String.raw`\mathrm{SO}(n)`} /> en cualquier dimensión.
+    </li>
+  </ul>
+
+  <h2>Espinores como ideales mínimos</h2>
+  <p>
+    En el lenguaje Clifford, un <em>espinor</em> es un elemento de un ideal
+    mínimo por la izquierda del álgebra. Si elegimos un proyector
+    <MathBlock f={String.raw`P = \tfrac{1}{2}(1 + u)`} /> con
+    <MathBlock f={String.raw`u^2 = 1`} />,
+    entonces <MathBlock f={String.raw`P^2 = P`} /> y el conjunto
+    <MathBlock f={String.raw`\mathrm{Cl}(p,q)\,P`} /> es un ideal por la
+    izquierda. Sus elementos transforman bajo
+    <MathBlock f={String.raw`\mathrm{Spin}`} /> exactamente como los
+    espinores que ya conocemos. Es la definición más abstracta —
+    independiente de la representación matricial — y es la que generaliza a
+    cualquier dimensión.
+  </p>
+  <p>
+    Casos prácticos:
+  </p>
+  <ul>
+    <li>
+      En <MathBlock f={String.raw`\mathrm{Cl}(3,0)`} />, el ideal por
+      <MathBlock f={String.raw`P = \tfrac{1}{2}(1 + e_3)`} /> tiene dimensión
+      compleja 2 (sobre el complejo
+      <MathBlock f={String.raw`\mathbb{C} \cong \langle 1, e_{123} \rangle`} />)
+      y reproduce los espinores de Pauli.
+    </li>
+    <li>
+      En <MathBlock f={String.raw`\mathrm{Cl}(1,3)`} />, los proyectores
+      adecuados producen los espinores de Dirac de cuatro componentes.
+    </li>
+  </ul>
+
+  <h2>Ejercicios</h2>
+  <ol>
+    <li>
+      Verifica que el bivector
+      <MathBlock f={String.raw`B = e_1 e_2`} /> en
+      <MathBlock f={String.raw`\mathrm{Cl}(3,0)`} /> cumple
+      <MathBlock f={String.raw`B^2 = -1`} /> (usa
+      <MathBlock f={String.raw`e_i^2 = 1`} /> y
+      <MathBlock f={String.raw`e_i e_j = -e_j e_i`} />).
+    </li>
+    <li>
+      Calcula el rotor que rota <MathBlock f={String.raw`+\hat{x}`} /> hacia
+      <MathBlock f={String.raw`+\hat{y}`} /> por
+      <MathBlock f={String.raw`90°`} /> y aplica
+      <MathBlock f={String.raw`R\, \hat{x}\, R^{-1}`} /> a mano. Debe salir
+      <MathBlock f={String.raw`\hat{y}`} />.
+    </li>
+    <li>
+      En <MathBlock f={String.raw`\mathrm{Cl}(1,3)`} /> con base
+      <MathBlock f={String.raw`\gamma_t, \gamma_x, \gamma_y, \gamma_z`} /> y
+      <MathBlock f={String.raw`\gamma_t^2 = 1, \gamma_i^2 = -1`} />,
+      ¿cuánto vale <MathBlock f={String.raw`(\gamma_t \gamma_x)^2`} />?
+      ¿Genera una rotación o un boost al exponenciar?
+    </li>
+  </ol>
+</ArticleLayout>
