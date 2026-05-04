@@ -7,8 +7,8 @@ export interface ModuleEntry {
 export const MODULES: ModuleEntry[] = [
   {
     slug: '01-giro-doble',
-    title: 'La pista del giro doble',
-    hook: '¿Por qué algunos objetos necesitan 720°?',
+    title: 'Por qué hace falta un espinor',
+    hook: 'Lo que un vector no puede hacer.',
   },
   {
     slug: '02-bloch-cp1',
