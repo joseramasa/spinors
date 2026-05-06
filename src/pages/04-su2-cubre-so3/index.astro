@@ -38,14 +38,13 @@ import DoubleCover from '../../components/interactive/DoubleCover.svelte';
   </p>
   <MathBlock f={String.raw`U = \begin{pmatrix} \alpha & \beta \\ -\bar{\beta} & \bar{\alpha} \end{pmatrix}, \quad |\alpha|^{2} + |\beta|^{2} = 1`} d />
   <p>
-    con <MathBlock f={String.raw`\alpha, \beta \in \mathbb{C}`} />.
-    Escribe <MathBlock f={String.raw`\alpha = a + i d`} /> y
-    <MathBlock f={String.raw`\beta = c + i b`} />: la condición de norma
-    se vuelve
-    <MathBlock f={String.raw`a^{2} + b^{2} + c^{2} + d^{2} = 1`} />, la
-    ecuación de la <strong>3-esfera</strong>
+    con <MathBlock f={String.raw`\alpha, \beta \in \mathbb{C}`} /> dos
+    números complejos sujetos a una sola condición real. Eso son
+    <MathBlock f={String.raw`4 - 1 = 3`} /> grados de libertad reales, y
+    la condición <MathBlock f={String.raw`|\alpha|^{2} + |\beta|^{2} = 1`} />
+    es la ecuación de la <strong>3-esfera</strong>
     <MathBlock f={String.raw`S^{3} \subset \mathbb{R}^{4}`} />. Como
-    variedades, <MathBlock f={String.raw`\mathrm{SU}(2) = S^{3}`} />.
+    variedades, <MathBlock f={String.raw`\mathrm{SU}(2) \cong S^{3}`} />.
   </p>
 
   <h2>SO(3) es la mitad de S³</h2>
@@ -133,13 +132,27 @@ import DoubleCover from '../../components/interactive/DoubleCover.svelte';
   <p>
     Los cuaterniones unitarios son
     <MathBlock f={String.raw`q = a + b\,i + c\,j + d\,k`} /> con
-    <MathBlock f={String.raw`|q|^{2} = 1`} /> y reglas
-    <MathBlock f={String.raw`i^{2} = j^{2} = k^{2} = ijk = -1`} />. La
-    biyección con SU(2) es
+    <MathBlock f={String.raw`a, b, c, d \in \mathbb{R}`} />,
+    <MathBlock f={String.raw`a^{2} + b^{2} + c^{2} + d^{2} = 1`} />, y
+    reglas <MathBlock f={String.raw`i^{2} = j^{2} = k^{2} = ijk = -1`} />.
+    Como variedad son la 3-esfera <MathBlock f={String.raw`S^{3}`} />,
+    igual que <MathBlock f={String.raw`\mathrm{SU}(2)`} />. La biyección
+    explícita usa la asignación
+    <MathBlock f={String.raw`i \leftrightarrow -i\sigma_x`} />,
+    <MathBlock f={String.raw`j \leftrightarrow -i\sigma_y`} />,
+    <MathBlock f={String.raw`k \leftrightarrow -i\sigma_z`} /> (que
+    reproduce <MathBlock f={String.raw`i^{2} = -1`} /> y
+    <MathBlock f={String.raw`ij = k`} />), dando
   </p>
-  <MathBlock f={String.raw`q \;\leftrightarrow\; U(q) = a I - i\,(b\,\sigma_x + c\,\sigma_y + d\,\sigma_z)`} d />
+  <MathBlock f={String.raw`q \;\longleftrightarrow\; U(q) = a I - i\,(b\,\sigma_x + c\,\sigma_y + d\,\sigma_z) = \begin{pmatrix} a - i d & -c - i b \\ c - i b & a + i d \end{pmatrix}`} d />
   <p>
-    y la rotación de ángulo
+    En esta convención, las componentes <MathBlock f={String.raw`(\alpha, \beta)`} />
+    del bloque SU(2) son
+    <MathBlock f={String.raw`\alpha = a - i d`} /> y
+    <MathBlock f={String.raw`\beta = -c - i b`} />, y la norma se
+    preserva: <MathBlock f={String.raw`|\alpha|^{2} + |\beta|^{2} = a^{2} + b^{2} + c^{2} + d^{2} = 1`} />.
+    Cuaterniones unitarios y SU(2) son dos formas de coordinar la misma
+    3-esfera. La rotación de ángulo
     <MathBlock f={String.raw`\theta`} /> alrededor de
     <MathBlock f={String.raw`\hat{n}`} /> tiene cuaternión
   </p>

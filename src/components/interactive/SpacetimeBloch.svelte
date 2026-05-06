@@ -28,9 +28,11 @@
     [0, 0],
   ];
 
-  // L: ψ_L = A ψ₀; R: ψ_R = (A†)⁻¹ ψ₀ = exp((−α − iβ)/2 σ·n̂) ψ₀
-  const A_L = $derived(sl2cMatrix(alpha, beta, axis));
-  const A_R = $derived(sl2cMatrix(-alpha, beta, axis));
+  // L: ψ_L = (A†)⁻¹ ψ₀ = exp((−α − iβ)/2 σ·n̂) ψ₀ ;  R: ψ_R = A ψ₀
+  // Convención estándar: bajo boost α en +n̂, L decrece y R crece sobre el
+  // autoestado de σ·n̂ con autovalor +1 (M5).
+  const A_L = $derived(sl2cMatrix(-alpha, beta, axis));
+  const A_R = $derived(sl2cMatrix(alpha, beta, axis));
 
   const psi_L_raw = $derived(applyMatrix(A_L, psi0));
   const psi_R_raw = $derived(applyMatrix(A_R, psi0));
@@ -153,7 +155,7 @@
     <label class="slider">
       <span>α (rapidez del boost): <strong>{alpha.toFixed(2)}</strong></span>
       <input type="range" min="-2" max="2" step="0.02" bind:value={alpha} />
-      <small>Empuja L hacia +n̂ y R hacia −n̂.</small>
+      <small>Empuja L hacia −n̂ y R hacia +n̂.</small>
     </label>
   </div>
 
@@ -183,8 +185,10 @@
   <div class="legend-text">
     <strong>Lectura.</strong> Empieza en α = 0, β = 0: L y R coinciden en
     |+z⟩. Mueve solo β: ambos puntos rotan al unísono. Mueve solo α: L
-    desliza hacia +n̂, R hacia −n̂. Eso es la diferencia entre las dos
-    representaciones (½, 0) y (0, ½) de SL(2,C).
+    desliza hacia −n̂, R hacia +n̂. Eso es la diferencia entre las dos
+    representaciones (½, 0) y (0, ½) de SL(2,C), y la asociación física
+    estándar para partículas sin masa: L = helicidad negativa,
+    R = helicidad positiva.
   </div>
 </div>
 

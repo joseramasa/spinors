@@ -85,12 +85,12 @@ import SpacetimeBloch from '../../components/interactive/SpacetimeBloch.svelte';
     <li>
       <strong>Espinor izquierdo</strong> (representación
       <MathBlock f={String.raw`(\tfrac{1}{2}, 0)`} />):
-      <MathBlock f={String.raw`\psi_L \mapsto A\,\psi_L`} />.
+      <MathBlock f={String.raw`\psi_L \mapsto (A^{\dagger})^{-1}\,\psi_L`} />.
     </li>
     <li>
       <strong>Espinor derecho</strong> (representación
       <MathBlock f={String.raw`(0, \tfrac{1}{2})`} />):
-      <MathBlock f={String.raw`\psi_R \mapsto (A^{\dagger})^{-1}\,\psi_R`} />.
+      <MathBlock f={String.raw`\psi_R \mapsto A\,\psi_R`} />.
     </li>
   </ul>
   <p>
@@ -123,9 +123,12 @@ import SpacetimeBloch from '../../components/interactive/SpacetimeBloch.svelte';
     Estado inicial fijo: ψ₀ = |+z⟩, así que L y R parten en el polo
     norte de la esfera. Mueve <em>β</em> (rotación pura): los puntos
     rotan al unísono — coinciden siempre. Mueve <em>α</em> (rapidez de
-    boost): el punto magenta (L) se desliza hacia +n̂; el cian (R), hacia
-    −n̂. La separación crece con la rapidez. Cualquier combinación es un
-    elemento general de SL(2,C).
+    boost): el punto magenta (L) se desliza hacia −n̂; el cian (R), hacia
+    +n̂. La separación crece con la rapidez. Esto coincide con la
+    asociación física estándar para partículas masless: L = helicidad
+    negativa (espín antiparalelo al momento), R = helicidad positiva
+    (espín paralelo). Cualquier combinación de α y β es un elemento
+    general de SL(2,C).
   </p>
   <div class="widget">
     <SpacetimeBloch client:visible />
@@ -133,21 +136,43 @@ import SpacetimeBloch from '../../components/interactive/SpacetimeBloch.svelte';
 
   <h2>El espinor de Dirac es la suma directa</h2>
   <p>
-    Las dos representaciones por separado describen partículas sin
-    masa: un electrón con masa NO puede ser puramente L o puramente R
-    porque al boostar ya hemos visto que las dos componentes mezclan.
-    La solución es trabajar con las dos a la vez: el espinor de Dirac
-    en base quiral (Weyl) es
+    Conviene precisar el rol de la masa. Bajo SL(2,C), las dos
+    representaciones <MathBlock f={String.raw`(\tfrac{1}{2}, 0)`} /> y
+    <MathBlock f={String.raw`(0, \tfrac{1}{2})`} /> son inequivalentes:
+    NO existe ninguna transformación lineal que mande
+    <MathBlock f={String.raw`\psi_L`} /> en
+    <MathBlock f={String.raw`\psi_R`} />. La quiralidad es entonces un
+    invariante de Lorentz: una partícula no-masiva en un estado puro de
+    quiralidad sigue siendo pura en cualquier frame.
+  </p>
+  <p>
+    El problema con la masa no es que los boosts <em>mezclen</em> L y R
+    bajo Lorentz — no lo hacen. El problema es que escribir un término
+    de masa Lorentz-invariante para un espinor 2-componente puro
+    requiere que existan COMPONENTES DE AMBAS QUIRALIDADES. El término
+    de masa de Dirac es
+  </p>
+  <MathBlock f={String.raw`m\,\bar{\psi}\psi \;=\; m\,(\psi_L^{\dagger}\psi_R + \psi_R^{\dagger}\psi_L)`} d />
+  <p>
+    y mezcla las dos por la izquierda en la <em>ecuación de movimiento</em>
+    (M7 lo desarrolla). Sin <MathBlock f={String.raw`\psi_R`} /> no hay
+    masa para <MathBlock f={String.raw`\psi_L`} /> y viceversa. La masa
+    actúa de "puente" entre L y R en la dinámica, no como una mezcla
+    bajo Lorentz.
+  </p>
+  <p>
+    Por eso un electrón masivo se describe con la suma directa de las
+    dos quiralidades: el espinor de Dirac en base quiral (Weyl) es
   </p>
   <MathBlock f={String.raw`\psi_D = \begin{pmatrix} \psi_L \\ \psi_R \end{pmatrix} \in \mathbb{C}^{4}`} d />
   <p>
     transformando bajo SL(2,C) con la matriz block-diagonal
   </p>
-  <MathBlock f={String.raw`\Lambda(A) = \begin{pmatrix} A & 0 \\ 0 & (A^{\dagger})^{-1} \end{pmatrix}`} d />
+  <MathBlock f={String.raw`\Lambda(A) = \begin{pmatrix} (A^{\dagger})^{-1} & 0 \\ 0 & A \end{pmatrix}`} d />
   <p>
     Las cuatro componentes del espinor de Dirac codifican espín ↑/↓ y
     materia/antimateria, organizadas según quiralidad. Eso lo
-    desarrollaremos en M7.
+    desarrollamos en M7.
   </p>
 
   <h2>Producto interno: la forma simpléctica ε</h2>
@@ -187,9 +212,12 @@ import SpacetimeBloch from '../../components/interactive/SpacetimeBloch.svelte';
     <li>
       Verifica que para un boost puro de rapidez α en dirección +z,
       <MathBlock f={String.raw`\psi_L = |+z\rangle`} /> es autovector con
-      autovalor <MathBlock f={String.raw`e^{\alpha/2}`} />, mientras que
+      autovalor <MathBlock f={String.raw`e^{-\alpha/2}`} /> (decrece),
+      mientras que
       <MathBlock f={String.raw`\psi_R = |+z\rangle`} /> es autovector
-      con autovalor <MathBlock f={String.raw`e^{-\alpha/2}`} />.
+      con autovalor <MathBlock f={String.raw`e^{+\alpha/2}`} /> (crece).
+      Conecta este resultado con la noción de helicidad para partículas
+      masless: L = helicidad negativa, R = helicidad positiva.
     </li>
     <li>
       Demuestra que <MathBlock f={String.raw`\det A = 1`} /> equivale a

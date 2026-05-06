@@ -24,31 +24,30 @@ import BlochInteractive from '../../components/interactive/BlochInteractive.svel
     Toma un espinor <MathBlock f={String.raw`\psi`} /> y multiplícalo por
     un complejo no nulo cualquiera
     <MathBlock f={String.raw`\lambda \in \mathbb{C}^{*}`} />. El nuevo
-    espinor <MathBlock f={String.raw`\lambda\psi`} /> describe
-    <em>el mismo experimento</em> que <MathBlock f={String.raw`\psi`} />,
+    espinor <MathBlock f={String.raw`\lambda\psi`} /> produce
+    <em>las mismas probabilidades</em> que <MathBlock f={String.raw`\psi`} />,
     porque la regla de Born usa
-    <MathBlock f={String.raw`|\langle\phi|\psi\rangle|^{2}`} /> y todo
-    factor común se cancela:
-    <MathBlock f={String.raw`|\langle\phi|\lambda\psi\rangle|^{2}/|\lambda\psi|^{2} = |\langle\phi|\psi\rangle|^{2}/|\psi|^{2}`} />.
-    Ningún detector puede distinguir un espinor de un múltiplo complejo
-    suyo.
+    <MathBlock f={String.raw`|\langle\phi|\psi\rangle|^{2}/\langle\psi|\psi\rangle`} />
+    y todo factor común se cancela. Ningún detector puede distinguir un
+    espinor de un múltiplo complejo suyo. Eso son
+    <strong>dos grados de libertad reales que el experimento no ve</strong>:
+    la fase global (un real) y la escala (otro real).
   </p>
   <p>
-    Eso son <strong>dos grados de libertad reales que sobran</strong>: la
-    fase global (un real) y la escala (otro real). El espacio de estados
-    físicos distinguibles es entonces el cociente:
+    El espacio de <em>resultados experimentales distinguibles</em> es
+    entonces el cociente
   </p>
-  <MathBlock f={String.raw`\text{estados} \;=\; \mathbb{C}^{2} \setminus \{0\} \;/\; \mathbb{C}^{*}`} d />
+  <MathBlock f={String.raw`\text{rayos físicos} \;=\; \big(\mathbb{C}^{2} \setminus \{0\}\big) \;/\; \mathbb{C}^{*}`} d />
   <p>
-    Un espacio que tiene <MathBlock f={String.raw`4 - 2 = 2`} /> grados
-    de libertad reales. Algo bidimensional. La pregunta concreta es:
-    ¿qué espacio es, exactamente?
+    Un espacio con <MathBlock f={String.raw`4 - 2 = 2`} /> grados de
+    libertad reales. Algo bidimensional. La pregunta concreta: ¿qué
+    espacio es, exactamente?
   </p>
 
   <h2>El cociente es una esfera</h2>
   <p>
-    Hagamos la identificación explícita. Si
-    <MathBlock f={String.raw`\alpha \neq 0`} />, podemos elegir
+    Hagamos la identificación. Si
+    <MathBlock f={String.raw`\alpha \neq 0`} />, elegimos
     <MathBlock f={String.raw`\lambda = 1/\alpha`} /> y el espinor queda
     <MathBlock f={String.raw`(1, \beta/\alpha)`} />. Toda la información
     física está en el cociente
@@ -56,18 +55,12 @@ import BlochInteractive from '../../components/interactive/BlochInteractive.svel
   <MathBlock f={String.raw`z = \beta/\alpha \in \mathbb{C}`} d />
   <p>
     un solo número complejo (= dos reales, como esperábamos). Falta el
-    caso <MathBlock f={String.raw`\alpha = 0`} />: ese se interpreta como
+    caso <MathBlock f={String.raw`\alpha = 0`} />: lo añadimos como
     <MathBlock f={String.raw`z = \infty`} />. El conjunto resultante es
     <MathBlock f={String.raw`\mathbb{C} \cup \{\infty\}`} />, conocido
-    como la <strong>esfera de Riemann</strong>: si proyectas el plano
-    complejo estereográficamente sobre una esfera unidad, los puntos
-    finitos llenan toda la esfera salvo el polo norte, y
-    <MathBlock f={String.raw`\infty`} /> ES el polo norte. Topológicamente
-    es <MathBlock f={String.raw`S^{2}`} />.
-  </p>
-  <p>
-    En la literatura de física aparece con tres nombres distintos según
-    el contexto, pero geométricamente es la misma esfera:
+    como la <strong>esfera de Riemann</strong>. Topológicamente es
+    <MathBlock f={String.raw`S^{2}`} />, y aparece con tres nombres
+    distintos según el contexto:
   </p>
   <ul>
     <li><strong>Esfera de Bloch</strong>: en mecánica cuántica de espín 1/2.</li>
@@ -76,40 +69,98 @@ import BlochInteractive from '../../components/interactive/BlochInteractive.svel
       <MathBlock f={String.raw`\mathbb{CP}^{1}`} /></strong>: en geometría.</li>
   </ul>
 
-  <h2>Coordenadas naturales</h2>
+  <h2>El cociente paso a paso: primero la escala, luego la fase</h2>
   <p>
-    Para que la esfera quede parametrizada por dos ángulos físicos, se
-    fija la fase y la escala con la convención
-    <MathBlock f={String.raw`|\psi| = 1`} /> y
-    <MathBlock f={String.raw`\alpha`} /> real positivo. El espinor queda
+    El cociente por <MathBlock f={String.raw`\mathbb{C}^{*}`} /> se hace
+    en dos etapas, y entender ambas hace falta para conectar con el
+    espinor "completo" de M3.
+  </p>
+  <p>
+    <strong>Etapa 1 — Cocientar por la escala (real positiva).</strong>
+    Imponemos <MathBlock f={String.raw`|\psi|^{2} = |\alpha|^{2} + |\beta|^{2} = 1`} />.
+    Eso es la 3-esfera <MathBlock f={String.raw`S^{3} \subset \mathbb{C}^{2}`} />:
+    el espacio de espinores normalizados, con tres grados de libertad
+    reales.
+  </p>
+  <p>
+    <strong>Etapa 2 — Cocientar por la fase global
+    <MathBlock f={String.raw`U(1)`} />.</strong> Identificamos
+    <MathBlock f={String.raw`\psi \sim e^{i\gamma}\psi`} />. La fibración
+    resultante <MathBlock f={String.raw`S^{3} \to S^{3}/U(1) = S^{2}`} />
+    se llama <em>fibración de Hopf</em>: cada punto de la esfera de
+    Bloch corresponde a un círculo
+    <MathBlock f={String.raw`U(1)`} /> de espinores normalizados que dan
+    las mismas probabilidades. La esfera tiene los dos grados de libertad
+    finales; el círculo perdido en el cociente es la fase global.
+  </p>
+  <p>
+    Esa fase perdida es <strong>físicamente irrelevante para
+    probabilidades</strong>, pero <strong>algebraicamente sigue ahí</strong>:
+    cuando manipulamos un espinor <MathBlock f={String.raw`\psi \in \mathbb{C}^{2}`} />
+    (no su clase <MathBlock f={String.raw`[\psi] \in \mathbb{CP}^{1}`} />),
+    el espinor recuerda su fase. Un objeto que vive en
+    <MathBlock f={String.raw`\mathbb{C}^{2}`} /> y rota a media velocidad
+    distingue
+    <MathBlock f={String.raw`\psi`} /> de
+    <MathBlock f={String.raw`-\psi`} />, aunque sus puntos en
+    <MathBlock f={String.raw`S^{2}`} /> coincidan. Eso es lo que el
+    experimento WCO de M1 detecta vía interferencia: el espinor es
+    sensible a la fase, pero la proyección a la esfera no.
+  </p>
+
+  <h2>Coordenadas naturales en la esfera</h2>
+  <p>
+    Para parametrizar <MathBlock f={String.raw`S^{2}`} /> con dos
+    ángulos físicos, partimos de un espinor normalizado
+    <MathBlock f={String.raw`(\alpha, \beta)`} /> con
+    <MathBlock f={String.raw`|\alpha|^{2} + |\beta|^{2} = 1`} />, fijamos
+    la fase global pidiendo <MathBlock f={String.raw`\alpha \geq 0`} />,
+    y escribimos
+  </p>
+  <MathBlock f={String.raw`\alpha = \cos\xi, \quad \beta = e^{i\varphi}\sin\xi, \qquad \xi \in [0, \pi/2],\ \varphi \in [0, 2\pi)`} d />
+  <p>
+    La <em>dirección de Bloch</em>, definida componente a componente como
+    <MathBlock f={String.raw`\hat{n}_{i} = \langle\psi|\sigma_{i}|\psi\rangle`} />
+    para <MathBlock f={String.raw`i = x, y, z`} />, sale (cálculo directo
+    con las matrices de Pauli):
+  </p>
+  <MathBlock f={String.raw`\hat{n} = \big(\sin(2\xi)\cos\varphi,\ \sin(2\xi)\sin\varphi,\ \cos(2\xi)\big)`} d />
+  <p>
+    El ángulo polar de la dirección de Bloch es
+    <MathBlock f={String.raw`2\xi`} />, no <MathBlock f={String.raw`\xi`} />.
+    Por eso es <em>convención</em> renombrar
+    <MathBlock f={String.raw`\xi = \theta/2`} /> con
+    <MathBlock f={String.raw`\theta \in [0, \pi]`} /> el ángulo polar:
+    así la esfera queda parametrizada por
+    <MathBlock f={String.raw`(\theta, \varphi)`} /> de manera estándar y
+    el espinor toma su forma habitual,
   </p>
   <MathBlock f={String.raw`\psi(\theta, \varphi) = \cos\!\tfrac{\theta}{2}\,|+z\rangle + e^{i\varphi}\sin\!\tfrac{\theta}{2}\,|-z\rangle`} d />
   <p>
-    con <MathBlock f={String.raw`\theta \in [0, \pi]`} /> el ángulo polar
-    y <MathBlock f={String.raw`\varphi \in [0, 2\pi)`} /> el azimutal. La
-    <em>dirección de Bloch</em> es entonces
-  </p>
-  <MathBlock f={String.raw`\hat{n} = \langle\psi|\boldsymbol{\sigma}|\psi\rangle = (\sin\theta\cos\varphi,\ \sin\theta\sin\varphi,\ \cos\theta)`} d />
-  <p>
-    Un punto de <MathBlock f={String.raw`S^{2}`} />. Es la dirección
-    física hacia la cual el espín "apunta". El factor 2 de M1 reaparece
-    aquí: si rotas el aparato un ángulo <MathBlock f={String.raw`\alpha`} />
-    en el espacio físico, el punto en la esfera se mueve también
-    <MathBlock f={String.raw`\alpha`} /> — pero el espinor de M1 rotaba
-    <MathBlock f={String.raw`\alpha/2`} />. La esfera es donde la "mitad"
-    se vuelve "entera": al proyectar a esfera perdemos justamente la
-    información que distinguía 360° de 720°.
+    El medio ángulo aparece en el espinor <em>precisamente porque</em> el
+    ángulo polar de la esfera de Bloch es el doble del parámetro
+    <MathBlock f={String.raw`\xi`} /> que parametriza el espinor: es la
+    misma "media velocidad" de M1, ahora vista en coordenadas.
   </p>
 
-  <h2>La fase oculta: el flagpole</h2>
+  <h2>El flagpole: una pista para M3</h2>
   <p>
-    Esa información perdida no desaparece, solo deja de ser visible para
-    cualquier experimento clásico. Penrose la representa como una
-    <em>bandera</em> añadida al asta (el flagpole = punto en la esfera).
-    El asta es la dirección física observable; la bandera es la fase
-    global, que no se ve, pero rota a la mitad de velocidad y por eso
-    distingue 360° de 720° aunque el asta no lo haga. M3 hará explícita
-    la maquinaria; aquí basta saber que la bandera existe.
+    Penrose introduce una visualización útil para acordarse de que el
+    espinor lleva más información que la dirección de Bloch sola: el
+    <em>flagpole y la bandera</em>. El flagpole es el segmento del
+    origen al punto sobre la esfera (la dirección de Bloch); la bandera
+    es un vector perpendicular al flagpole cuya orientación codifica la
+    fase global del espinor. Las dos piezas juntas reconstruyen el
+    espinor (salvo escala).
+  </p>
+  <p>
+    Conviene insistir: la bandera no es un grado de libertad físico
+    medible — el experimento solo accede al flagpole. Es una imagen
+    pedagógica para recordar que <MathBlock f={String.raw`\psi`} /> y
+    <MathBlock f={String.raw`-\psi`} /> son distintos como espinores
+    aunque coincidan como puntos en la esfera. M3 hará explícita la
+    maquinaria algebraica detrás de esta intuición vía la factorización
+    <MathBlock f={String.raw`\psi\psi^{\dagger} = \tfrac{1}{2}(I + \hat{n}\!\cdot\!\boldsymbol{\sigma})`} />.
   </p>
 
   <h2>El widget</h2>
@@ -129,8 +180,8 @@ import BlochInteractive from '../../components/interactive/BlochInteractive.svel
     <MathBlock f={String.raw`\mathbf{E}(t) = (\mathrm{Re}(\alpha e^{-i\omega t}), \mathrm{Re}(\beta e^{-i\omega t}))`} />
     correspondiente al espinor visto como vector de Jones. Mover γ
     desplaza la fase del barrido (= el origen de tiempos), pero la forma
-    de la elipse es invariante. Confirma físicamente lo que el cálculo
-    decía.
+    de la elipse es invariante. Ilustra el mismo hecho desde otro ángulo:
+    γ no es una etiqueta física.
   </p>
   <div class="widget">
     <BlochInteractive client:visible />

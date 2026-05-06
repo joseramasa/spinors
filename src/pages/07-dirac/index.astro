@@ -55,19 +55,34 @@ import DiracFreeWaves from '../../components/interactive/DiracFreeWaves.svelte';
 
   <h2>Dirac: factorizar la raíz cuadrada</h2>
   <p>
-    Dirac quería una ecuación de <strong>primer orden</strong> en el
-    tiempo, para tener corrientes conservadas con densidad positiva.
-    Eso obliga a "extraer la raíz cuadrada" de Klein-Gordon, factorizar
-    <MathBlock f={String.raw`\Box + m^{2}`} /> en dos piezas lineales:
+    Dirac buscaba una ecuación de <strong>primer orden</strong> en el
+    tiempo. Una ecuación de primer orden tiene una corriente conservada
+    cuya densidad es manifiestamente
+    <MathBlock f={String.raw`|\psi|^{2} \geq 0`} />, evitando el problema
+    de las densidades negativas de KG. Para conseguir que la nueva
+    ecuación de primer orden sea consistente con
+    <MathBlock f={String.raw`E^{2} = \mathbf{p}^{2} + m^{2}`} />, hay que
+    "extraer la raíz cuadrada" de Klein-Gordon: factorizar el operador
+    <MathBlock f={String.raw`\Box + m^{2}`} /> (módulo signo global) en
+    dos piezas lineales en derivadas:
   </p>
-  <MathBlock f={String.raw`\Box + m^{2} = (i\gamma^{\mu}\partial_{\mu} - m)(i\gamma^{\mu}\partial_{\mu} + m)`} d />
+  <MathBlock f={String.raw`-(\Box + m^{2}) = (i\gamma^{\mu}\partial_{\mu} - m)(i\gamma^{\nu}\partial_{\nu} + m)`} d />
   <p>
-    Para que el producto se desarrolle correctamente, los coeficientes
-    <MathBlock f={String.raw`\gamma^{\mu}`} /> tienen que cumplir
+    Desarrollando el producto, los términos en
+    <MathBlock f={String.raw`m`} /> se cancelan y queda
+    <MathBlock f={String.raw`-\gamma^{\mu}\gamma^{\nu}\partial_{\mu}\partial_{\nu} - m^{2}`} />.
+    Como <MathBlock f={String.raw`\partial_{\mu}\partial_{\nu}`} /> es
+    simétrico, solo sobrevive la parte simétrica del producto
+    <MathBlock f={String.raw`\gamma^{\mu}\gamma^{\nu}`} />, que es
+    <MathBlock f={String.raw`\tfrac{1}{2}\{\gamma^{\mu}, \gamma^{\nu}\}`} />.
+    Para que la factorización reproduzca
+    <MathBlock f={String.raw`-(\Box + m^{2}) = -\eta^{\mu\nu}\partial_{\mu}\partial_{\nu} - m^{2}`} />,
+    los coeficientes deben cumplir
   </p>
   <MathBlock f={String.raw`\{\gamma^{\mu}, \gamma^{\nu}\} = 2\,\eta^{\mu\nu}\,I`} d />
   <p>
-    Eso es exactamente la relación definidora del álgebra de Clifford
+    con métrica <MathBlock f={String.raw`(+,-,-,-)`} />. Eso es
+    exactamente la relación definidora del álgebra de Clifford
     <MathBlock f={String.raw`\mathrm{Cl}(1,3)`} /> de M6. <strong>No
     pueden ser números: tienen que anticonmutar</strong>. Las matrices
     más pequeñas que satisfacen estas relaciones son
@@ -77,12 +92,13 @@ import DiracFreeWaves from '../../components/interactive/DiracFreeWaves.svelte';
   </p>
   <MathBlock f={String.raw`(i\gamma^{\mu}\partial_{\mu} - m)\,\psi = 0`} d />
   <p>
-    Es de primer orden en el tiempo. Su corriente conservada es
-    <MathBlock f={String.raw`j^{\mu} = \bar{\psi}\gamma^{\mu}\psi`} />
-    con
-    <MathBlock f={String.raw`\bar{\psi} = \psi^{\dagger}\gamma^{0}`} />,
-    y <MathBlock f={String.raw`j^{0} = \psi^{\dagger}\psi`} /> es
-    <strong>positiva-definida</strong>. Problema resuelto.
+    Es de primer orden en el tiempo, y su corriente conservada
+    <MathBlock f={String.raw`j^{\mu} = \bar{\psi}\gamma^{\mu}\psi`} /> con
+    <MathBlock f={String.raw`\bar{\psi} = \psi^{\dagger}\gamma^{0}`} />
+    tiene como componente temporal
+    <MathBlock f={String.raw`j^{0} = \psi^{\dagger}\psi`} />, que es
+    <strong>manifiestamente no negativa</strong> (es la norma euclídea
+    del 4-espinor). Problema resuelto.
   </p>
 
   <h2>La base quiral conecta con M5</h2>
@@ -136,10 +152,12 @@ import DiracFreeWaves from '../../components/interactive/DiracFreeWaves.svelte';
     <MathBlock f={String.raw`p\cdot\bar{\sigma} = E\,I + \mathbf{p}\!\cdot\!\boldsymbol{\sigma}`} />,
     y <MathBlock f={String.raw`\xi`} /> el espinor 2-componente con la
     información de espín. Las soluciones de energía negativa parecían
-    al principio una patología, pero Dirac propuso reinterpretarlas
-    (1928) como partículas de carga opuesta: la <strong>antimateria</strong>.
-    En 1932 Anderson observó positrones en rayos cósmicos. Eso confirmó
-    la predicción.
+    al principio una patología — la ecuación de Dirac es de 1928 y al
+    principio él intentó interpretarlas como protones. En 1930–31 Dirac
+    cambió de opinión y propuso una partícula nueva, de masa igual al
+    electrón pero carga opuesta: el <strong>positrón</strong>, primera
+    propuesta de antimateria. En 1932 Anderson observó positrones en
+    rayos cósmicos. Eso confirmó la predicción.
   </p>
 
   <h2>El widget</h2>
