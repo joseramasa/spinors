@@ -146,12 +146,19 @@ import DiracFreeWaves from '../../components/interactive/DiracFreeWaves.svelte';
     <em>cuatro</em> espinores básicos. Las soluciones explícitas en
     base quiral son:
   </p>
-  <MathBlock f={String.raw`u(p, \xi) = \begin{pmatrix} \sqrt{p\cdot\sigma}\;\xi \\ \sqrt{p\cdot\bar{\sigma}}\;\xi \end{pmatrix}, \qquad v(p, \xi) = \begin{pmatrix} \sqrt{p\cdot\sigma}\;\xi \\ -\sqrt{p\cdot\bar{\sigma}}\;\xi \end{pmatrix}`} d />
+  <MathBlock f={String.raw`u(p, \xi) = \begin{pmatrix} \sqrt{p\cdot\sigma}\;\xi \\ \sqrt{p\cdot\bar{\sigma}}\;\xi \end{pmatrix}, \qquad v(p, \eta) = \begin{pmatrix} \sqrt{p\cdot\sigma}\;\eta \\ -\sqrt{p\cdot\bar{\sigma}}\;\eta \end{pmatrix}`} d />
   <p>
     con <MathBlock f={String.raw`p\cdot\sigma = E\,I - \mathbf{p}\!\cdot\!\boldsymbol{\sigma}`} />,
-    <MathBlock f={String.raw`p\cdot\bar{\sigma} = E\,I + \mathbf{p}\!\cdot\!\boldsymbol{\sigma}`} />,
-    y <MathBlock f={String.raw`\xi`} /> el espinor 2-componente con la
-    información de espín. Las soluciones de energía negativa parecían
+    <MathBlock f={String.raw`p\cdot\bar{\sigma} = E\,I + \mathbf{p}\!\cdot\!\boldsymbol{\sigma}`} />.
+    El espinor 2-componente <MathBlock f={String.raw`\xi`} /> codifica
+    el espín del electrón; para que la asignación spin↔polarización del
+    positrón sea correcta, la convención estándar (Peskin–Schroeder) es
+    usar <MathBlock f={String.raw`\eta = -i\sigma_y\,\xi^{*}`} /> en
+    <MathBlock f={String.raw`v(p, \eta)`} />, no
+    <MathBlock f={String.raw`\xi`} /> directamente. Así un positrón
+    "spin-up" tiene <MathBlock f={String.raw`\eta`} /> que corresponde
+    a <MathBlock f={String.raw`\xi_{\downarrow}`} /> del electrón
+    correspondiente — la conjugación de carga invierte espines. Las soluciones de energía negativa parecían
     al principio una patología — la ecuación de Dirac es de 1928 y al
     principio él intentó interpretarlas como protones. En 1930–31 Dirac
     cambió de opinión y propuso una partícula nueva, de masa igual al

@@ -107,13 +107,34 @@ import MirrorRotor from '../../components/interactive/MirrorRotor.svelte';
   <p>
     Y el sándwich
     <MathBlock f={String.raw`R\, v\, R^{-1}`} /> rota
-    <MathBlock f={String.raw`v`} /> por ángulo
-    <strong>2α</strong>. El factor 2 que llevamos cinco módulos
-    persiguiendo aquí tiene su explicación geométrica más limpia: dos
-    espejos a ángulo
-    <MathBlock f={String.raw`\alpha`} /> generan rotación
-    <MathBlock f={String.raw`2\alpha`} />, y el sándwich aplica el
-    rotor por la izquierda y por la derecha.
+    <MathBlock f={String.raw`v`} /> por ángulo <strong>2α</strong>. Dos
+    lecturas de este resultado, ambas correctas:
+  </p>
+  <ul>
+    <li>
+      <em>Geométrica</em>: dos espejos a ángulo
+      <MathBlock f={String.raw`\alpha`} /> entre sí componen una
+      rotación de <MathBlock f={String.raw`2\alpha`} />. La asimetría 2:1
+      entre "ángulo entre espejos" y "ángulo de rotación" es
+      independiente de cualquier formalismo.
+    </li>
+    <li>
+      <em>Algebraica</em>: el rotor <MathBlock f={String.raw`R = e^{\alpha B}`} />
+      sigue siendo un objeto de "medio ángulo" — lo que pasa es que
+      ahora vemos POR QUÉ aparece la mitad: el sándwich
+      <MathBlock f={String.raw`R\,v\,R^{-1}`} /> aplica el rotor dos
+      veces (una a la izquierda, otra inversa a la derecha), y
+      cada copia contribuye <MathBlock f={String.raw`\alpha`} /> al
+      ángulo del vector.
+    </li>
+  </ul>
+  <p>
+    Clifford no <em>elimina</em> el factor 2 de M1; lo
+    <em>geometriza</em>. Y al hacerlo, lo extiende a cualquier
+    dimensión: la misma fórmula
+    <MathBlock f={String.raw`R = e^{\alpha B}`} /> con
+    <MathBlock f={String.raw`B`} /> bivector unitario funciona en
+    Cl(p,q) genérica.
   </p>
 
   <h2>El widget</h2>
@@ -180,17 +201,35 @@ import MirrorRotor from '../../components/interactive/MirrorRotor.svelte';
 
   <h2>Espinores como ideales mínimos</h2>
   <p>
-    Falta la definición universal de espinor. Si elegimos un proyector
-    <MathBlock f={String.raw`P = \tfrac{1}{2}(1 + u)`} /> con
-    <MathBlock f={String.raw`u^{2} = 1`} /> (cumple
-    <MathBlock f={String.raw`P^{2} = P`} />), el conjunto
-    <MathBlock f={String.raw`\mathrm{Cl}(p,q)\,P`} /> es un ideal por la
-    izquierda (cerrado bajo multiplicación por la izquierda). Sus
-    elementos transforman bajo Spin exactamente como los espinores que
-    ya conocemos. Esa es la <strong>definición universal</strong>: un
-    espinor es un elemento de un ideal mínimo por la izquierda del
-    álgebra de Clifford. Es la formulación más abstracta y la única que
-    funciona en cualquier dimensión sin reinventarse.
+    Falta la definición universal de espinor. La idea: un
+    <em>idempotente primitivo</em>
+    <MathBlock f={String.raw`P`} /> (con
+    <MathBlock f={String.raw`P^{2} = P`} /> y no descomponible como suma
+    de idempotentes ortogonales) genera un ideal por la izquierda
+    <MathBlock f={String.raw`\mathrm{Cl}(p,q)\,P`} />, cuyos elementos
+    transforman bajo el grupo Spin como espinores. Esa es la
+    <strong>definición universal</strong>: un espinor es un elemento
+    de un ideal mínimo por la izquierda del álgebra de Clifford.
+  </p>
+  <p>
+    Caso simple: en
+    <MathBlock f={String.raw`\mathrm{Cl}(3,0)`} />, el idempotente
+    <MathBlock f={String.raw`P = \tfrac{1}{2}(1 + e_3)`} /> (cumple
+    <MathBlock f={String.raw`P^{2} = P`} /> porque
+    <MathBlock f={String.raw`e_3^{2} = 1`} />) es primitivo. El ideal
+    <MathBlock f={String.raw`\mathrm{Cl}(3,0)\,P`} /> tiene dimensión
+    compleja 2 y reproduce los espinores de Pauli.
+  </p>
+  <p>
+    Caso menos simple: en
+    <MathBlock f={String.raw`\mathrm{Cl}(1,3)`} /> (espacio-tiempo) un
+    solo idempotente del tipo
+    <MathBlock f={String.raw`\tfrac{1}{2}(1+u)`} /> NO es en general
+    primitivo. Construir el espinor de Dirac requiere combinar varios
+    idempotentes mutuamente conmutantes (técnica estándar; ver Lounesto,
+    Doran-Lasenby para el desarrollo completo). La construcción se
+    complica con la dimensión, pero la idea estructural — espinores
+    como ideales mínimos — es universal.
   </p>
 
   <h2>Ejercicios</h2>

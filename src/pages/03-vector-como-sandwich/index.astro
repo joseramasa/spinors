@@ -54,51 +54,65 @@ import PauliFactorization from '../../components/interactive/PauliFactorization.
   <h2>Rotaciones como sándwiches</h2>
   <p>
     Sobre la matriz <MathBlock f={String.raw`V`} />, una rotación SO(3)
-    actúa como conjugación por un elemento de SU(2):
+    se realiza como conjugación por un elemento de SU(2):
   </p>
-  <MathBlock f={String.raw`V \;\longmapsto\; R\, V\, R^{\dagger}, \qquad R \in \mathrm{SU}(2)`} d />
+  <MathBlock f={String.raw`V \;\longmapsto\; R\, V\, R^{\dagger}, \qquad R = \exp\!\big(-i\,(\theta/2)\,\hat{n}\!\cdot\!\boldsymbol{\sigma}\big) \in \mathrm{SU}(2)`} d />
   <p>
-    Aquí está la clave del factor 2. Si ahora introducimos un espinor
-    columna <MathBlock f={String.raw`\psi \in \mathbb{C}^{2}`} />, su
+    Si ahora introducimos un espinor columna
+    <MathBlock f={String.raw`\psi \in \mathbb{C}^{2}`} />, su
     transformación natural bajo la misma rotación es la <em>acción por
     la izquierda</em>:
   </p>
   <MathBlock f={String.raw`\psi \;\longmapsto\; R\,\psi`} d />
   <p>
-    Las dos formulaciones son consistentes con una sola
-    <MathBlock f={String.raw`R`} />, pero <em>geométricamente</em> son
-    distintas. Para el vector, la matriz aparece dos veces (a la
-    izquierda y a la derecha, daga incluida); cada una contribuye la
-    mitad del giro, y la suma es el giro completo. Para el espinor, la
-    matriz aparece una sola vez: solo recibe la mitad. Esa asimetría
-    estructural <em>es</em> el factor 2 de M1.
+    La asimetría estructural es exactamente esto: el vector recibe la
+    misma <MathBlock f={String.raw`R = e^{-i(\theta/2)\,\hat{n}\!\cdot\!\boldsymbol{\sigma}}`} />
+    a la izquierda Y a la derecha (con daga); el espinor solo recibe
+    una copia. La consecuencia se ve en el ángulo: bajo
+    <MathBlock f={String.raw`\theta = 2\pi`} />, el rotor
+    <MathBlock f={String.raw`R(2\pi) = -I`} /> (como vimos en M1), así
+    que <MathBlock f={String.raw`\psi \mapsto -\psi`} /> (signo
+    invertido), pero
+    <MathBlock f={String.raw`R V R^{\dagger} = (-I)V(-I) = V`} /> (los
+    signos se cancelan). El espinor "ve" el cambio de signo; el vector
+    no. <strong>Esa cancelación de signos en el sándwich es el
+    contenido algebraico del factor 2 de M1.</strong>
   </p>
 
   <h2>Reflexiones, dos por rotación</h2>
   <p>
-    Aún hay otra capa. La <MathBlock f={String.raw`R \in \mathrm{SU}(2)`} />
-    de arriba no es indivisible: se factoriza como producto de dos
-    <em>reflexiones</em>. Para vector unitario
-    <MathBlock f={String.raw`\hat{u}`} /> con matriz asociada
-    <MathBlock f={String.raw`U`} />, la reflexión respecto al plano
+    La <MathBlock f={String.raw`R \in \mathrm{SU}(2)`} /> de arriba no
+    es indivisible: se factoriza como producto de dos
+    <em>reflexiones</em>. Si <MathBlock f={String.raw`\hat{u}`} /> es
+    unitario con matriz <MathBlock f={String.raw`U = \hat{u}\!\cdot\!\boldsymbol{\sigma}`} />,
+    nota que <MathBlock f={String.raw`U^{2} = I`} /> (porque
+    <MathBlock f={String.raw`(\hat{u}\!\cdot\!\boldsymbol{\sigma})^{2} = |\hat{u}|^{2} I = I`} />)
+    y por tanto
+    <MathBlock f={String.raw`U`} /> es hermítica e igual a su inversa.
+    En esa situación particular, la reflexión respecto al plano
     perpendicular a <MathBlock f={String.raw`\hat{u}`} /> es
   </p>
-  <MathBlock f={String.raw`V \;\longmapsto\; -U\,V\,U`} d />
+  <MathBlock f={String.raw`V \;\longmapsto\; -U\,V\,U \quad \text{(con } U^{2} = I, \text{ así que } U^{-1} = U\text{)}`} d />
   <p>
-    Componiendo dos reflexiones por
-    <MathBlock f={String.raw`U_1`} /> y <MathBlock f={String.raw`U_2`} />
-    a un ángulo <MathBlock f={String.raw`\theta/2`} /> entre sí se
-    obtiene una rotación de ángulo
-    <MathBlock f={String.raw`\theta`} /> con
-    <MathBlock f={String.raw`R = U_2\, U_1`} />. Eso es el contenido
-    geométrico del factor 2 que repetimos ya tres veces:
+    Componer dos reflexiones (con
+    <MathBlock f={String.raw`\hat{u}_1`} /> y
+    <MathBlock f={String.raw`\hat{u}_2`} /> formando ángulo
+    <MathBlock f={String.raw`\alpha`} /> entre sí) da
+    <MathBlock f={String.raw`V \mapsto (U_2 U_1) V (U_1 U_2)`} /> con
+    <MathBlock f={String.raw`R = U_2 U_1`} />. La identidad clave (que
+    el ejercicio 2 te pide verificar con sigmas) es:
   </p>
-  <ul>
-    <li>El ángulo entre los dos espejos es <em>θ/2</em>.</li>
-    <li>La rotación que producen es <em>θ</em>.</li>
-    <li>El espinor recibe solo una de las dos
-      <MathBlock f={String.raw`U`} />, así que ve <em>θ/2</em>.</li>
-  </ul>
+  <MathBlock f={String.raw`U_2\, U_1 = (\hat{u}_1 \!\cdot\! \hat{u}_2)\, I + i\, (\hat{u}_1 \!\times\! \hat{u}_2) \!\cdot\! \boldsymbol{\sigma} = \cos\alpha \, I - i\, \sin\alpha\,(\hat{m}\!\cdot\!\boldsymbol{\sigma})`} d />
+  <p>
+    donde <MathBlock f={String.raw`\hat{m}`} /> es el unitario
+    perpendicular al plano de
+    <MathBlock f={String.raw`\hat{u}_1, \hat{u}_2`} />. Comparando con
+    <MathBlock f={String.raw`R = e^{-i(\theta/2)\,\hat{m}\!\cdot\!\boldsymbol{\sigma}} = \cos(\theta/2) I - i\sin(\theta/2)\,\hat{m}\!\cdot\!\boldsymbol{\sigma}`} />,
+    sale <MathBlock f={String.raw`\alpha = \theta/2`} />. Es decir:
+    <strong>el ángulo entre los espejos es la mitad del ángulo de
+    rotación</strong>. El factor 2 de M1, M3 y M4 ya está justificado
+    geométricamente.
+  </p>
   <p>
     M6 generalizará esta visión a cualquier dimensión vía álgebras de
     Clifford. Aquí basta con que la mitad-de-ángulo no sea misteriosa:
@@ -115,14 +129,33 @@ import PauliFactorization from '../../components/interactive/PauliFactorization.
   </p>
   <MathBlock f={String.raw`\psi\psi^{\dagger} \;=\; \tfrac{1}{2}\big(I + \hat{n}\!\cdot\!\boldsymbol{\sigma}\big)`} d />
   <p>
-    El espinor "factoriza" la combinación
-    <MathBlock f={String.raw`I + V`} /> (con
-    <MathBlock f={String.raw`V`} /> la matriz de Pauli del vector unitario)
-    como producto exterior de un espinor consigo mismo. De ahí la
-    consigna popular: <strong>"el espinor es la raíz cuadrada de un
-    vector"</strong>. Verificarlo es directo con el espinor
-    parametrizado por
-    <MathBlock f={String.raw`(\theta, \varphi)`} /> de M2.
+    Verificación rápida: como
+    <MathBlock f={String.raw`\psi\psi^{\dagger}`} /> es hermítica de
+    rango 1 con traza
+    <MathBlock f={String.raw`|\psi|^{2} = 1`} />, se descompone en la
+    base <MathBlock f={String.raw`\{I, \sigma_x, \sigma_y, \sigma_z\}`} />
+    con coeficientes
+    <MathBlock f={String.raw`\tfrac{1}{2}\mathrm{tr}(\sigma_i \psi\psi^{\dagger}) = \tfrac{1}{2}\langle\psi|\sigma_i|\psi\rangle = \tfrac{1}{2}n_i`} />
+    en cada sigma y
+    <MathBlock f={String.raw`\tfrac{1}{2}\mathrm{tr}(\psi\psi^{\dagger}) = \tfrac{1}{2}`} />
+    en la identidad. Sumado: la fórmula clave de arriba.
+  </p>
+  <p>
+    El eslogan popular <strong>"el espinor es la raíz cuadrada de un
+    vector"</strong> es engañoso si se toma literal:
+    <MathBlock f={String.raw`\psi\psi^{\dagger}`} /> NO es
+    <MathBlock f={String.raw`V`} />, es el <em>proyector</em>
+    <MathBlock f={String.raw`\tfrac{1}{2}(I + V)`} /> sobre el subespacio
+    de espín alineado con <MathBlock f={String.raw`\hat{n}`} />. Lo
+    correcto: el espinor es la raíz cuadrada de un proyector, y la
+    información del vector se recupera como
+    <MathBlock f={String.raw`V = 2\psi\psi^{\dagger} - I`} />. El único
+    caso en que la consigna es literalmente cierta es el del
+    <em>vector null</em> (luminoso): para
+    <MathBlock f={String.raw`\det V = 0`} />, la matriz tiene rango 1 y
+    se factoriza como
+    <MathBlock f={String.raw`V = \xi\xi^{\dagger}`} /> sin necesitar el
+    sumando <MathBlock f={String.raw`I/2`} /> — ejercicio 1.
   </p>
 
   <h2>El widget</h2>

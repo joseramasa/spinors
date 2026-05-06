@@ -52,14 +52,30 @@ import DoubleCover from '../../components/interactive/DoubleCover.svelte';
     El homomorfismo
     <MathBlock f={String.raw`\Phi: \mathrm{SU}(2) \to \mathrm{SO}(3)`} />
     que asigna a <MathBlock f={String.raw`U`} /> la rotación
-    <MathBlock f={String.raw`V \mapsto U\,V\,U^{\dagger}`} /> tiene núcleo
-    <MathBlock f={String.raw`\{+I, -I\}`} />: cuando
-    <MathBlock f={String.raw`U = \pm I`} />, el sándwich es la
-    identidad. Más en general,
-    <MathBlock f={String.raw`U`} /> y <MathBlock f={String.raw`-U`} />
-    producen siempre la misma rotación porque los signos se cancelan a
-    izquierda y a derecha del sándwich. Eso significa que cada elemento
-    de <MathBlock f={String.raw`\mathrm{SO}(3)`} /> tiene
+    <MathBlock f={String.raw`V \mapsto U\,V\,U^{\dagger}`} /> tiene
+    núcleo <em>exactamente</em>
+    <MathBlock f={String.raw`\{+I, -I\}`} />. Para verlo:
+    <MathBlock f={String.raw`U \in \ker\Phi`} /> significa que
+    <MathBlock f={String.raw`U V U^{\dagger} = V`} /> para todo
+    <MathBlock f={String.raw`V`} /> hermitiano de traza cero, es decir,
+    <MathBlock f={String.raw`U`} /> conmuta con
+    <MathBlock f={String.raw`\sigma_x, \sigma_y, \sigma_z`} />. Por el
+    lema de Schur (las sigmas son irreducibles sobre
+    <MathBlock f={String.raw`\mathbb{C}^{2}`} />),
+    <MathBlock f={String.raw`U`} /> es múltiplo de la identidad; siendo
+    además unitaria con determinante 1,
+    <MathBlock f={String.raw`U = \pm I`} />.
+  </p>
+  <p>
+    Por otro lado, <MathBlock f={String.raw`\Phi`} /> es
+    <em>sobreyectivo</em>: toda rotación de
+    <MathBlock f={String.raw`\mathrm{SO}(3)`} /> tiene un eje
+    <MathBlock f={String.raw`\hat{n}`} /> y un ángulo
+    <MathBlock f={String.raw`\theta`} />, y la
+    <MathBlock f={String.raw`U = \exp(-i(\theta/2)\hat{n}\!\cdot\!\boldsymbol{\sigma})`} />
+    correspondiente la realiza. Combinando ambos hechos por el primer
+    teorema de isomorfismo, cada elemento de
+    <MathBlock f={String.raw`\mathrm{SO}(3)`} /> tiene
     <em>exactamente dos</em> preimágenes en
     <MathBlock f={String.raw`\mathrm{SU}(2)`} />, antipodales en
     <MathBlock f={String.raw`S^{3}`} />:
@@ -88,12 +104,17 @@ import DoubleCover from '../../components/interactive/DoubleCover.svelte';
       punto.
     </li>
     <li>
-      <MathBlock f={String.raw`\mathbb{RP}^{3}`} /> NO lo es: existe un
-      lazo (el que conecta dos puntos antipodales en
-      <MathBlock f={String.raw`S^{3}`} /> y luego, identificándolos en
-      <MathBlock f={String.raw`\mathbb{RP}^{3}`} />, parece cerrado) que
-      no se puede contraer. Pero el lazo recorrido <em>dos veces</em>
-      sí se contrae.
+      <MathBlock f={String.raw`\mathbb{RP}^{3}`} /> NO lo es: un arco
+      en <MathBlock f={String.raw`S^{3}`} /> que va de
+      <MathBlock f={String.raw`+I`} /> hasta
+      <MathBlock f={String.raw`-I`} /> a lo largo de un meridiano se
+      proyecta a un <strong>lazo cerrado</strong> en
+      <MathBlock f={String.raw`\mathbb{RP}^{3}`} /> (porque
+      <MathBlock f={String.raw`+I`} /> y <MathBlock f={String.raw`-I`} />
+      representan el mismo elemento). Ese lazo no se puede contraer.
+      Pero el lazo recorrido <em>dos veces</em> sí se contrae. En
+      notación estándar:
+      <MathBlock f={String.raw`\pi_1(\mathrm{SO}(3)) = \mathbb{Z}/2`} />.
     </li>
   </ul>
   <p>
@@ -162,10 +183,14 @@ import DoubleCover from '../../components/interactive/DoubleCover.svelte';
     de <MathBlock f={String.raw`S^{3}`} /> con la misma estructura que
     SU(2). En aplicaciones prácticas (gráficos 3D, robótica) se usan
     cuaterniones porque evitan el <em>gimbal lock</em> de los ángulos
-    de Euler — que parametrizan SO(3) por
-    <MathBlock f={String.raw`T^{3}`} /> en vez de
-    <MathBlock f={String.raw`\mathbb{RP}^{3}`} />, una topología
-    incorrecta que produce singularidades.
+    de Euler — éstos viven en el toro
+    <MathBlock f={String.raw`T^{3}`} />, y el mapa
+    <MathBlock f={String.raw`T^{3} \to \mathrm{SO}(3)`} /> es
+    sobreyectivo pero no es un homeomorfismo: tiene singularidades
+    donde dos ejes coinciden, y allí se pierde un grado de libertad.
+    La parametrización por
+    <MathBlock f={String.raw`S^{3}`} /> (cuaterniones unitarios) cubre
+    SO(3) sin esa patología.
   </p>
 
   <h2>El widget</h2>
@@ -183,11 +208,17 @@ import DoubleCover from '../../components/interactive/DoubleCover.svelte';
       <MathBlock f={String.raw`360°`} />.
     </li>
     <li>
-      A la izquierda, la 3-esfera proyectada en una bola unidad muestra
-      la posición del cuaternión en SU(2). El punto se mueve por el
-      diámetro y su color codifica
-      <MathBlock f={String.raw`a = \cos(\theta/2)`} /> (azul = identidad,
-      rojo = antípoda).
+      A la izquierda, la 3-esfera <MathBlock f={String.raw`S^{3} = \mathrm{SU}(2)`} />
+      se visualiza proyectando solo la parte vectorial del cuaternión:
+      el punto está en
+      <MathBlock f={String.raw`(b,c,d) = \sin(\theta/2)\,\hat{n}`} />
+      (dentro de la bola unidad). Para eje
+      <MathBlock f={String.raw`\hat{n}`} /> fijo el cuaternión recorre
+      un círculo geodésico en <MathBlock f={String.raw`S^{3}`} /> y su
+      proyección a la bola es un diámetro. El color codifica la
+      coordenada perdida
+      <MathBlock f={String.raw`a = \cos(\theta/2)`} /> (azul =
+      identidad, rojo = antípoda).
     </li>
   </ul>
   <p>

@@ -45,9 +45,21 @@ import SpacetimeBloch from '../../components/interactive/SpacetimeBloch.svelte';
     Los <MathBlock f={String.raw`A`} /> que actúan por sándwich
     <MathBlock f={String.raw`X \mapsto A\,X\,A^{\dagger}`} /> y conservan
     el determinante son las matrices con
-    <MathBlock f={String.raw`|\det A|^{2} = 1`} />. Ajustando una fase
-    global quedan <MathBlock f={String.raw`\det A = 1`} />: el grupo
-    <MathBlock f={String.raw`\mathrm{SL}(2,\mathbb{C})`} />.
+    <MathBlock f={String.raw`|\det A|^{2} = 1`} />, es decir
+    <MathBlock f={String.raw`\det A = e^{i\phi}`} /> para algún
+    <MathBlock f={String.raw`\phi`} /> real. La fase
+    <MathBlock f={String.raw`\phi`} /> no afecta a la acción sobre el
+    cuadrivector (los factores
+    <MathBlock f={String.raw`e^{i\phi/2}`} /> y
+    <MathBlock f={String.raw`e^{-i\phi/2}`} /> en
+    <MathBlock f={String.raw`A`} /> y
+    <MathBlock f={String.raw`A^{\dagger}`} /> se cancelan en el
+    sándwich), pero SÍ afecta al espinor cuando aparezca después. Por
+    convención fijamos <MathBlock f={String.raw`\det A = 1`} /> para
+    eliminar esa fase global redundante: el grupo resultante es
+    <MathBlock f={String.raw`\mathrm{SL}(2,\mathbb{C})`} />, doble
+    cubrimiento del Lorentz propio ortocrono con núcleo
+    <MathBlock f={String.raw`\{\pm I\}`} />.
   </p>
   <p>
     Es el doble cubrimiento del grupo de Lorentz propio
@@ -195,7 +207,18 @@ import SpacetimeBloch from '../../components/interactive/SpacetimeBloch.svelte';
   <p>
     La transformación de paridad
     <MathBlock f={String.raw`\mathbf{x} \mapsto -\mathbf{x}`} /> invierte
-    boosts pero deja rotaciones intactas. Como L y R difieren solo en
+    boosts pero deja rotaciones intactas. Razón concreta: los
+    generadores de boost
+    <MathBlock f={String.raw`\mathbf{K}`} /> son <em>vectores polares</em>
+    (cambian de signo bajo paridad, como
+    <MathBlock f={String.raw`\mathbf{x}`} />), mientras que los de
+    rotación <MathBlock f={String.raw`\mathbf{J}`} /> son
+    <em>vectores axiales</em> (no cambian, como
+    <MathBlock f={String.raw`\mathbf{x} \times \mathbf{p}`} />). En las
+    combinaciones que separan SL(2,C) en sus dos copias L/R, la suma
+    <MathBlock f={String.raw`\mathbf{J} \pm i\mathbf{K}`} />
+    intercambia "+" y "−" bajo paridad — exactamente lo que hace falta
+    para que paridad cambie L por R. Como L y R difieren solo en
     el comportamiento bajo boost, paridad las INTERCAMBIA. Si la
     naturaleza tratara igual a L y a R, paridad sería simetría exacta.
     No lo es: en 1956–57 Wu y colaboradores observaron que la
@@ -221,9 +244,12 @@ import SpacetimeBloch from '../../components/interactive/SpacetimeBloch.svelte';
     </li>
     <li>
       Demuestra que <MathBlock f={String.raw`\det A = 1`} /> equivale a
-      <MathBlock f={String.raw`A^{T}\,\epsilon\,A = \epsilon`} />. Eso
-      es: SL(2,C) es el grupo simpléctico complejo
-      <MathBlock f={String.raw`\mathrm{Sp}(2,\mathbb{C})`} />.
+      <MathBlock f={String.raw`A^{T}\,\epsilon\,A = \epsilon`} />. En
+      dimensión 2 esto es la coincidencia accidental
+      <MathBlock f={String.raw`\mathrm{SL}(2,\mathbb{C}) = \mathrm{Sp}(2,\mathbb{C})`} />:
+      en dimensiones mayores
+      <MathBlock f={String.raw`\mathrm{Sp}(2n,\mathbb{C}) \subsetneq \mathrm{SL}(2n,\mathbb{C})`} />,
+      no son iguales.
     </li>
   </ol>
 

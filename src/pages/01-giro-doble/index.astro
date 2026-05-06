@@ -19,9 +19,12 @@ import BlochDoubleCover from '../../components/interactive/BlochDoubleCover.svel
 
   <h2>El experimento</h2>
   <p>
-    Stern y Gerlach (1922): un haz de átomos neutros con un electrón
-    desapareado pasa por un imán inhomogéneo orientado a lo largo de un
-    eje. En la pantalla aparecen <strong>exactamente dos manchas</strong>,
+    Stern y Gerlach (1922): un haz de átomos neutros (plata, en el
+    experimento original) pasa por un imán inhomogéneo orientado a lo
+    largo de un eje. En el estado fundamental del átomo de plata, el
+    momento angular orbital total es cero, así que la deflexión la
+    produce solo el espín del único electrón desapareado en la capa 5s.
+    En la pantalla aparecen <strong>exactamente dos manchas</strong>,
     no una distribución continua. El haz se ha partido en dos. Hagas la
     medida en el eje que la hagas, salen dos. Llamamos a los dos
     estados resultantes <MathBlock f={String.raw`|+\hat{n}\rangle`} /> y
@@ -64,25 +67,30 @@ import BlochDoubleCover from '../../components/interactive/BlochDoubleCover.svel
     <li>Dim 5: tensor simétrico sin traza (espín 2); etc.</li>
   </ul>
   <p>
-    <strong>No hay representación irreducible de
+    <strong>No hay representación irreducible <em>lineal</em> de
     <MathBlock f={String.raw`\mathrm{SO}(3)`} /> en dimensión 2.</strong>
-    No es que sea inusual o difícil de construir; es matemáticamente
-    imposible.
-  </p>
-  <p>
-    Eso significa que el espacio de dos estados del electrón
-    <em>no puede</em> transformarse como una representación de SO(3) y
-    al mismo tiempo permanecer 2-dimensional bajo rotaciones físicas.
-    Tiene que transformarse como representación de un <em>grupo
-    distinto</em>. La cuestión es: ¿cuál?
+    Más matiz: la cuántica no exige una representación lineal estricta,
+    sino <em>proyectiva</em> (porque la regla de Born ignora la fase
+    global, así que la composición de transformaciones puede realizarse
+    módulo signo). Y resulta que las representaciones proyectivas
+    2-dimensionales de SO(3) sí existen: son exactamente las
+    representaciones lineales 2-dimensionales del <strong>doble
+    cubrimiento</strong> de SO(3). Eso es lo que la naturaleza usa.
   </p>
 
   <h2>La salida: SU(2)</h2>
   <p>
-    El grupo más pequeño que sí tiene representación irreducible de
-    dimensión 2 es <MathBlock f={String.raw`\mathrm{SU}(2)`} />:
+    El grupo más pequeño que tiene representación lineal irreducible de
+    dimensión 2 (y proporciona las proyectivas de SO(3)) es
+    <MathBlock f={String.raw`\mathrm{SU}(2)`} />:
     matrices <MathBlock f={String.raw`2\times 2`} /> complejas,
-    unitarias, con determinante 1. Y resulta ser exactamente el
+    unitarias, con determinante 1. La unitariedad sale de exigir que
+    las probabilidades se conserven; la condición de determinante 1
+    fija la fase global, irrelevante para la física, sin pérdida de
+    generalidad. Otros candidatos como <MathBlock f={String.raw`U(2)`} />
+    o <MathBlock f={String.raw`\mathrm{GL}(2,\mathbb{C})`} /> son más
+    grandes pero contienen <MathBlock f={String.raw`\mathrm{SU}(2)`} />
+    como subgrupo y no aportan estructura nueva. Y resulta ser exactamente el
     <strong>doble cubrimiento</strong> de
     <MathBlock f={String.raw`\mathrm{SO}(3)`} />: para cada rotación
     <MathBlock f={String.raw`R \in \mathrm{SO}(3)`} /> hay <em>dos</em>
@@ -164,12 +172,14 @@ import BlochDoubleCover from '../../components/interactive/BlochDoubleCover.svel
 
   <h2>El cambio de signo es medible</h2>
   <p>
-    Sí se puede. Werner, Colella y Overhauser (1975) usaron
-    interferometría de neutrones. Dividieron un haz de neutrones
-    monoenergéticos en dos brazos. En uno de los brazos rotaron el
-    espín del neutrón con un campo magnético controlado, manteniendo el
-    otro brazo intacto. Recombinaron los dos brazos y midieron la
-    intensidad de interferencia.
+    Sí se puede. Dos grupos lo midieron de manera independiente el
+    mismo año: <strong>Werner, Colella, Overhauser y Eagen</strong>
+    (PRL 35, 1053, 1975) y <strong>Rauch, Zeilinger, Badurek y
+    colaboradores</strong> (Phys. Lett. A 54, 425, 1975). Ambos usaron
+    interferometría de neutrones: dividieron un haz en dos brazos, en
+    uno de ellos rotaron el espín del neutrón con un campo magnético
+    controlado, dejaron el otro brazo intacto y recombinaron midiendo
+    la intensidad de interferencia.
   </p>
   <p>
     Resultado: la intensidad osciló con un <strong>periodo de
@@ -180,7 +190,10 @@ import BlochDoubleCover from '../../components/interactive/BlochDoubleCover.svel
     fase. La conclusión directa: el espinor del neutrón
     <strong>cambia de signo bajo rotación física de
     <MathBlock f={String.raw`360°`} /></strong>, exactamente como
-    predice <MathBlock f={String.raw`\mathrm{SU}(2)`} />.
+    predice <MathBlock f={String.raw`\mathrm{SU}(2)`} />. (Nota: este
+    experimento es distinto del más famoso COW de los mismos autores
+    en 1975, que mide el efecto gravitacional sobre el neutrón. La
+    coincidencia temporal genera confusión bibliográfica.)
   </p>
   <p>
     El espinor no es un truco notacional. Es una propiedad estructural
