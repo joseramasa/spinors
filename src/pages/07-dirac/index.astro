@@ -19,9 +19,10 @@ import DiracFreeWaves from '../../components/interactive/DiracFreeWaves.svelte';
   </p>
   <p>
     Hay un primer intento natural — Klein-Gordon — que <em>falla</em>.
-    De su fracaso sale Dirac, que no solo arregla el problema sino que
-    además predice algo que en 1928 nadie había observado: la
-    antimateria. Esa es la historia.
+    De su fracaso sale Dirac, cuya ecuación arregla el problema y
+    además contiene soluciones extra que dos años después se
+    reinterpretarían como una predicción accidental de un nuevo tipo
+    de partícula: la antimateria. Esa es la historia.
   </p>
 
   <h2>Klein-Gordon y por qué falla</h2>
@@ -208,12 +209,18 @@ import DiracFreeWaves from '../../components/interactive/DiracFreeWaves.svelte';
     Para una partícula sin masa, ambas coinciden y son la misma cosa.
     Para una partícula con masa, no. La fuerza débil del Modelo Estándar
     se acopla solo a la <em>quiralidad</em> izquierda
-    (<MathBlock f={String.raw`P_L \psi`} />), y como masa mezcla L con
-    R bajo boost, una partícula masiva <em>siempre</em> tiene un poco
-    de la quiralidad opuesta — por eso interactúa débilmente aunque sea
-    "espín up siempre". Esto se conecta con la ruptura de paridad
-    discutida en M5: paridad intercambia L con R, y la naturaleza no
-    trata igual a las dos.
+    (<MathBlock f={String.raw`P_L \psi`} />). Una partícula masiva
+    en un autoestado de helicidad concreto NO tiene quiralidad pura: el
+    término de masa
+    <MathBlock f={String.raw`m\,\bar{\psi}\psi`} /> de la EOM acopla
+    <MathBlock f={String.raw`\psi_L`} /> con
+    <MathBlock f={String.raw`\psi_R`} /> (ver M5: la quiralidad es
+    invariante de Lorentz; lo que el boost cambia es la helicidad).
+    Por eso un electrón en estado de spin definido siempre tiene una
+    pequeña componente de la quiralidad opuesta y, por tanto, sigue
+    interactuando débilmente aunque parezca "espín up siempre". Esto
+    conecta con la ruptura de paridad discutida en M5: paridad
+    intercambia L con R, y la naturaleza no trata igual a las dos.
   </p>
 
   <h2>Ejercicios</h2>

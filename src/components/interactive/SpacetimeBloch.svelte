@@ -161,11 +161,11 @@
 
   <div class="readout-grid">
     <div class="cell">
-      <div class="lbl">ψ_L = A ψ₀</div>
+      <div class="lbl">ψ_L = (A†)⁻¹ ψ₀</div>
       <div class="tex">{@html tex(`\\psi_L = ${texCol(psi_L_raw)}`)}</div>
     </div>
     <div class="cell">
-      <div class="lbl">ψ_R = (A†)⁻¹ ψ₀</div>
+      <div class="lbl">ψ_R = A ψ₀</div>
       <div class="tex">{@html tex(`\\psi_R = ${texCol(psi_R_raw)}`)}</div>
     </div>
     <div class="cell">

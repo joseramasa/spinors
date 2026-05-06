@@ -37,7 +37,11 @@ import MirrorRotor from '../../components/interactive/MirrorRotor.svelte';
   <p>
     Es decir, la parte simétrica del producto es un escalar (el
     producto interno) y la parte antisimétrica es algo nuevo: el
-    <em>producto exterior</em> o <em>wedge</em>. Si descomponemos:
+    <em>producto exterior</em> o <em>wedge</em>. Definiendo
+    <MathBlock f={String.raw`u\!\cdot\! v \equiv \tfrac{1}{2}(uv + vu) = g(u,v)`} />
+    y
+    <MathBlock f={String.raw`u\wedge v \equiv \tfrac{1}{2}(uv - vu)`} />,
+    la suma da
   </p>
   <MathBlock f={String.raw`u\, v = u \!\cdot\! v + u \wedge v`} d />
   <p>
@@ -74,13 +78,20 @@ import MirrorRotor from '../../components/interactive/MirrorRotor.svelte';
     <MathBlock f={String.raw`-U\,V\,U`} />. En el álgebra de Clifford la
     misma operación se escribe sobre vectores:
   </p>
-  <MathBlock f={String.raw`v \;\longmapsto\; -u\, v\, u`} d />
+  <MathBlock f={String.raw`v \;\longmapsto\; -u\, v\, u^{-1}`} d />
   <p>
-    Si <MathBlock f={String.raw`u`} /> es unitario
-    (<MathBlock f={String.raw`u^{2} = 1`} />), eso refleja
-    <MathBlock f={String.raw`v`} /> respecto al hiperplano perpendicular
-    a <MathBlock f={String.raw`u`} />. La descomposición lo prueba: la
-    parte paralela a <MathBlock f={String.raw`u`} /> conmuta con
+    Si <MathBlock f={String.raw`u`} /> es unitario en signatura
+    euclídea (<MathBlock f={String.raw`u^{2} = +1`} />), entonces
+    <MathBlock f={String.raw`u^{-1} = u`} /> y la fórmula se simplifica
+    a <MathBlock f={String.raw`-u\,v\,u`} />. En signaturas mixtas
+    como <MathBlock f={String.raw`\mathrm{Cl}(1,3)`} /> hay vectores
+    con <MathBlock f={String.raw`u^{2} = -1`} /> (los temporales con la
+    convención <MathBlock f={String.raw`(+,-,-,-)`} />) y entonces
+    <MathBlock f={String.raw`u^{-1} = -u`} />, así que la fórmula
+    correcta es la que lleva
+    <MathBlock f={String.raw`u^{-1}`} /> explícito. La descomposición
+    lo prueba: la parte paralela a
+    <MathBlock f={String.raw`u`} /> conmuta con
     <MathBlock f={String.raw`u`} />, la perpendicular anticonmuta, y
     salen los signos correctos.
   </p>
@@ -169,8 +180,9 @@ import MirrorRotor from '../../components/interactive/MirrorRotor.svelte';
     de M5. Misma fórmula
     <MathBlock f={String.raw`R = e^{\alpha B}`} />, con el signo del
     cuadrado del bivector decidiendo si sale rotación o boost. La
-    distinción que en M5 era una rareza técnica (matrices unitarias vs
-    hermíticas) aquí es la diferencia entre dos tipos de plano.
+    distinción algebraica de M5 (matrices unitarias vs hermíticas para
+    rotaciones y boosts) aquí queda re-expresada geométricamente como
+    la diferencia entre dos tipos de plano.
   </p>
 
   <h2>El grupo Spin: la generalización de SU(2) a cualquier dimensión</h2>

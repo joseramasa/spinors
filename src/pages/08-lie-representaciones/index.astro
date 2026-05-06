@@ -80,10 +80,14 @@ import LieLadder from '../../components/interactive/LieLadder.svelte';
       momento). Concretamente, si
       <MathBlock f={String.raw`m_{\max}`} /> es el autovalor mayor de
       <MathBlock f={String.raw`J_z`} /> en la irrep, las relaciones de
-      conmutación obligan a que
-      <MathBlock f={String.raw`\mathbf{J}^{2} = m_{\max}(m_{\max}+1)`} />.
-      El renombre <MathBlock f={String.raw`m_{\max} = J`} /> es lo que
-      lleva a la fórmula familiar.
+      conmutación obligan a que el autovalor de
+      <MathBlock f={String.raw`\mathbf{J}^{2}`} /> sea
+      <MathBlock f={String.raw`m_{\max}(m_{\max}+1)`} /> (sale de
+      <MathBlock f={String.raw`\mathbf{J}^{2} = J^{-}J^{+} + J_z^{2} + J_z`} />
+      aplicado al estado de la cima, donde
+      <MathBlock f={String.raw`J^{+}`} /> aniquila). El renombre
+      <MathBlock f={String.raw`m_{\max} = J`} /> es lo que lleva a la
+      fórmula familiar.
     </li>
     <li>
       <MathBlock f={String.raw`J_z`} /> conmuta solo consigo mismo. Sus
@@ -257,7 +261,9 @@ import LieLadder from '../../components/interactive/LieLadder.svelte';
       Decompón <MathBlock f={String.raw`1 \otimes 1`} /> en irreps.
       Verifica las dimensiones (debería dar
       <MathBlock f={String.raw`9 = 5 + 3 + 1`} />, los irreps J = 2, 1, 0:
-      tensor simétrico de traza cero, vector axial y traza).
+      parte simétrica de traza cero, parte antisimétrica del tensor
+      —dual a un pseudovector vía <MathBlock f={String.raw`\epsilon_{ijk}`} />—
+      y traza).
     </li>
   </ol>
 

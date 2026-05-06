@@ -80,17 +80,35 @@ import BlochDoubleCover from '../../components/interactive/BlochDoubleCover.svel
 
   <h2>La salida: SU(2)</h2>
   <p>
-    El grupo más pequeño que tiene representación lineal irreducible de
-    dimensión 2 (y proporciona las proyectivas de SO(3)) es
-    <MathBlock f={String.raw`\mathrm{SU}(2)`} />:
-    matrices <MathBlock f={String.raw`2\times 2`} /> complejas,
-    unitarias, con determinante 1. La unitariedad sale de exigir que
-    las probabilidades se conserven; la condición de determinante 1
-    fija la fase global, irrelevante para la física, sin pérdida de
-    generalidad. Otros candidatos como <MathBlock f={String.raw`U(2)`} />
-    o <MathBlock f={String.raw`\mathrm{GL}(2,\mathbb{C})`} /> son más
-    grandes pero contienen <MathBlock f={String.raw`\mathrm{SU}(2)`} />
-    como subgrupo y no aportan estructura nueva. Y resulta ser exactamente el
+    El grupo que necesitamos cumple tres requisitos:
+  </p>
+  <ul>
+    <li>Acción unitaria (las probabilidades se conservan al transformar el estado).</li>
+    <li>Simplemente conexo, para que las representaciones lineales no contengan ambigüedades de signo.</li>
+    <li>Cubrimiento de SO(3), porque rotaciones físicas siguen siendo lo que el aparato hace.</li>
+  </ul>
+  <p>
+    El grupo de Lie compacto que cumple los tres es
+    <MathBlock f={String.raw`\mathrm{SU}(2)`} />: matrices
+    <MathBlock f={String.raw`2\times 2`} /> complejas, unitarias, con
+    determinante 1. Es el <strong>cubrimiento universal</strong> (= el
+    cubrimiento simplemente conexo) de SO(3), y como veremos en M4 lo
+    cubre con multiplicidad 2 a 1.
+  </p>
+  <p>
+    ¿Por qué <MathBlock f={String.raw`\mathrm{SU}(2)`} /> y no
+    <MathBlock f={String.raw`U(2)`} /> o
+    <MathBlock f={String.raw`\mathrm{GL}(2,\mathbb{C})`} />? Una matriz
+    de <MathBlock f={String.raw`U(2)`} /> es producto de un escalar
+    <MathBlock f={String.raw`e^{i\phi} \in U(1)`} /> por una matriz de
+    <MathBlock f={String.raw`\mathrm{SU}(2)`} />. La fase
+    <MathBlock f={String.raw`e^{i\phi}`} /> es la "fase global" del
+    estado: invisible para todo experimento (la regla de Born la
+    cancela). Restringirnos a determinante 1 elimina ese factor
+    redundante sin pérdida física.
+    <MathBlock f={String.raw`\mathrm{GL}(2,\mathbb{C})`} /> contiene
+    además dilataciones no unitarias y no preserva probabilidades:
+    inservible. Y resulta ser exactamente el
     <strong>doble cubrimiento</strong> de
     <MathBlock f={String.raw`\mathrm{SO}(3)`} />: para cada rotación
     <MathBlock f={String.raw`R \in \mathrm{SO}(3)`} /> hay <em>dos</em>
@@ -240,7 +258,8 @@ import BlochDoubleCover from '../../components/interactive/BlochDoubleCover.svel
     vuelve a su orientación original tras
     <MathBlock f={String.raw`720°`} />. La insignia de signo cambia
     cuando la bandera está cabeza abajo — eso es exactamente el cambio
-    de signo que el experimento WCO mide en el laboratorio.
+    de signo que Werner et al. y Rauch et al. midieron en el
+    laboratorio.
   </p>
   <div class="widget">
     <BlochDoubleCover client:visible />

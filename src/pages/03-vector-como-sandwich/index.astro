@@ -102,11 +102,17 @@ import PauliFactorization from '../../components/interactive/PauliFactorization.
     <MathBlock f={String.raw`R = U_2 U_1`} />. La identidad clave (que
     el ejercicio 2 te pide verificar con sigmas) es:
   </p>
-  <MathBlock f={String.raw`U_2\, U_1 = (\hat{u}_1 \!\cdot\! \hat{u}_2)\, I + i\, (\hat{u}_1 \!\times\! \hat{u}_2) \!\cdot\! \boldsymbol{\sigma} = \cos\alpha \, I - i\, \sin\alpha\,(\hat{m}\!\cdot\!\boldsymbol{\sigma})`} d />
+  <MathBlock f={String.raw`U_2\, U_1 = (\hat{u}_1 \!\cdot\! \hat{u}_2)\, I - i\, (\hat{u}_1 \!\times\! \hat{u}_2) \!\cdot\! \boldsymbol{\sigma} = \cos\alpha \, I - i\, \sin\alpha\,(\hat{m}\!\cdot\!\boldsymbol{\sigma})`} d />
   <p>
-    donde <MathBlock f={String.raw`\hat{m}`} /> es el unitario
-    perpendicular al plano de
-    <MathBlock f={String.raw`\hat{u}_1, \hat{u}_2`} />. Comparando con
+    (sale del producto de dos sigmas:
+    <MathBlock f={String.raw`(\boldsymbol{\sigma}\!\cdot\! a)(\boldsymbol{\sigma}\!\cdot\! b) = (a\!\cdot\! b) I + i\, (a\!\times\! b)\!\cdot\!\boldsymbol{\sigma}`} />,
+    aplicado con <MathBlock f={String.raw`a = \hat{u}_2, b = \hat{u}_1`} />,
+    usando <MathBlock f={String.raw`\hat{u}_2 \!\times\! \hat{u}_1 = -\hat{u}_1 \!\times\! \hat{u}_2`} />.)
+    Aquí <MathBlock f={String.raw`\hat{m} = (\hat{u}_1 \!\times\! \hat{u}_2)/\sin\alpha`} />
+    es el unitario perpendicular al plano de los dos vectores
+    (orientación regla de la mano derecha de
+    <MathBlock f={String.raw`\hat{u}_1`} /> hacia
+    <MathBlock f={String.raw`\hat{u}_2`} />). Comparando con
     <MathBlock f={String.raw`R = e^{-i(\theta/2)\,\hat{m}\!\cdot\!\boldsymbol{\sigma}} = \cos(\theta/2) I - i\sin(\theta/2)\,\hat{m}\!\cdot\!\boldsymbol{\sigma}`} />,
     sale <MathBlock f={String.raw`\alpha = \theta/2`} />. Es decir:
     <strong>el ángulo entre los espejos es la mitad del ángulo de
