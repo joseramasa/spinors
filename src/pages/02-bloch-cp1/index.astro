@@ -31,7 +31,10 @@ import BlochInteractive from '../../components/interactive/BlochInteractive.svel
     y todo factor común se cancela. Ningún detector puede distinguir un
     espinor de un múltiplo complejo suyo. Eso son
     <strong>dos grados de libertad reales que el experimento no ve</strong>:
-    la fase global (un real) y la escala (otro real).
+    la fase global (en <MathBlock f={String.raw`U(1)`} />) y el módulo
+    de la escala (en <MathBlock f={String.raw`\mathbb{R}_{>0}`} />), que
+    juntos cubren todo
+    <MathBlock f={String.raw`\mathbb{C}^{*} \cong \mathbb{R}_{>0} \times U(1)`} />.
   </p>
   <p>
     El espacio de <em>resultados experimentales distinguibles</em> es

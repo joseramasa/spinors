@@ -102,7 +102,7 @@ import MirrorRotor from '../../components/interactive/MirrorRotor.svelte';
     <MathBlock f={String.raw`u_1, u_2`} /> que forman ángulo
     <MathBlock f={String.raw`\alpha`} />:
   </p>
-  <MathBlock f={String.raw`v \mapsto -u_2\,(-u_1\, v\, u_1)\, u_2 = (u_2 u_1)\, v\, (u_1 u_2) = R\, v\, R^{-1}`} d />
+  <MathBlock f={String.raw`v \mapsto -u_2\,(-u_1\, v\, u_1^{-1})\, u_2^{-1} = (u_2 u_1)\, v\, (u_2 u_1)^{-1} = R\, v\, R^{-1}`} d />
   <p>
     con <MathBlock f={String.raw`R = u_2 u_1`} /> el <em>rotor</em>.
     Descomponiendo:

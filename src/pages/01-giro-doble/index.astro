@@ -84,8 +84,8 @@ import BlochDoubleCover from '../../components/interactive/BlochDoubleCover.svel
   </p>
   <ul>
     <li>Acción unitaria (las probabilidades se conservan al transformar el estado).</li>
-    <li>Simplemente conexo, para que las representaciones lineales no contengan ambigüedades de signo.</li>
     <li>Cubrimiento de SO(3), porque rotaciones físicas siguen siendo lo que el aparato hace.</li>
+    <li>Simplemente conexo. Esto último es la pieza clave: por el teorema de Bargmann, en un grupo de Lie simplemente conexo toda representación proyectiva se levanta a una representación lineal. Es decir, en lugar de manejar reps proyectivas de SO(3) "a pedazos", trabajamos con reps lineales del cubrimiento simplemente conexo.</li>
   </ul>
   <p>
     El grupo de Lie compacto que cumple los tres es
@@ -209,9 +209,11 @@ import BlochDoubleCover from '../../components/interactive/BlochDoubleCover.svel
     <strong>cambia de signo bajo rotación física de
     <MathBlock f={String.raw`360°`} /></strong>, exactamente como
     predice <MathBlock f={String.raw`\mathrm{SU}(2)`} />. (Nota: este
-    experimento es distinto del más famoso COW de los mismos autores
-    en 1975, que mide el efecto gravitacional sobre el neutrón. La
-    coincidencia temporal genera confusión bibliográfica.)
+    experimento es distinto del COW gravitacional —Colella-Overhauser-Werner,
+    PRL 34, 1472, 1975— que el mismo grupo publicó ese mismo año para
+    medir el efecto del potencial gravitatorio sobre la fase de
+    neutrones. La coincidencia temporal y la solapación parcial de
+    autores genera confusión bibliográfica.)
   </p>
   <p>
     El espinor no es un truco notacional. Es una propiedad estructural
