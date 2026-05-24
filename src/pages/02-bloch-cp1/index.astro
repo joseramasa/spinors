@@ -2,6 +2,7 @@
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
 import MathBlock from '../../components/MathBlock.astro';
 import BlochInteractive from '../../components/interactive/BlochInteractive.svelte';
+import ExerciseM2 from '../../components/exercises/ExerciseM2.svelte';
 ---
 
 <ArticleLayout
@@ -222,4 +223,5 @@ import BlochInteractive from '../../components/interactive/BlochInteractive.svel
     por qué el espinor rota con UNA matriz mientras el vector necesita
     DOS (sandwich): el origen algebraico del factor 2.
   </p>
+  <ExerciseM2 client:visible />
 </ArticleLayout>

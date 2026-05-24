@@ -2,6 +2,7 @@
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
 import MathBlock from '../../components/MathBlock.astro';
 import LieLadder from '../../components/interactive/LieLadder.svelte';
+import ExerciseM8 from '../../components/exercises/ExerciseM8.svelte';
 ---
 
 <ArticleLayout
@@ -291,4 +292,5 @@ import LieLadder from '../../components/interactive/LieLadder.svelte';
     interacción) es el siguiente curso. Pero la intuición geométrica
     construida aquí sostiene todo eso.
   </p>
+  <ExerciseM8 client:visible />
 </ArticleLayout>

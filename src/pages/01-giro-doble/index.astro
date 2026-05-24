@@ -2,6 +2,7 @@
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
 import MathBlock from '../../components/MathBlock.astro';
 import BlochDoubleCover from '../../components/interactive/BlochDoubleCover.svelte';
+import ExerciseM1 from '../../components/exercises/ExerciseM1.svelte';
 ---
 
 <ArticleLayout
@@ -290,4 +291,6 @@ import BlochDoubleCover from '../../components/interactive/BlochDoubleCover.svel
       Clifford, electrón de Dirac, y el catálogo completo de
       representaciones.</li>
   </ul>
+
+  <ExerciseM1 client:visible />
 </ArticleLayout>

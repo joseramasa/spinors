@@ -2,6 +2,7 @@
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
 import MathBlock from '../../components/MathBlock.astro';
 import SpacetimeBloch from '../../components/interactive/SpacetimeBloch.svelte';
+import ExerciseM5 from '../../components/exercises/ExerciseM5.svelte';
 ---
 
 <ArticleLayout
@@ -263,4 +264,5 @@ import SpacetimeBloch from '../../components/interactive/SpacetimeBloch.svelte';
     respuesta son las álgebras de Clifford, donde rotaciones, boosts y
     reflexiones se vuelven operaciones algebraicas naturales. Es M6.
   </p>
+  <ExerciseM5 client:visible />
 </ArticleLayout>

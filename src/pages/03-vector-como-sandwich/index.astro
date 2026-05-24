@@ -2,6 +2,7 @@
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
 import MathBlock from '../../components/MathBlock.astro';
 import PauliFactorization from '../../components/interactive/PauliFactorization.svelte';
+import ExerciseM3 from '../../components/exercises/ExerciseM3.svelte';
 ---
 
 <ArticleLayout
@@ -223,4 +224,5 @@ import PauliFactorization from '../../components/interactive/PauliFactorization.
     estructura no es opcional: viene de que el espacio de rotaciones no
     es simplemente conexo.
   </p>
+  <ExerciseM3 client:visible />
 </ArticleLayout>
